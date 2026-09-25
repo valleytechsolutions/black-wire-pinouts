@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lilygo-esp32-t-twr)
+
+Device category: **Radios & GNSS**
 
 ## Board pin map
 
@@ -20,6 +22,8 @@ Coverage: Pinout image collected
 [Source 1](https://wiki.lilygo.cc/products/t-twr-series/t-twr/index/image/t-twr-3.jpg) · [Source 2](https://wiki.lilygo.cc/products/t-twr-series/t-twr/)
 
 Manufacturer image preserved. Match the depicted board and revision before use.
+
+Image revision: Not identified
 
 SHA-256: `78374b0ddebcaa50477aa818b1e28e665144309a9ac48b6d797e4f862b83cae2`
 

@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Board labels only; pinout needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=guition-cyd-jc2432w328)
+
+Device category: **Displays & HMI**
 
 ## Board layout labels - PDF page 5
 
@@ -20,6 +22,8 @@ Coverage: Board labels only; pinout needed
 [Source 1](https://www.guition.com/icms/upload/fb081940d6fc11f09850077a33e1404f/FTPData/UEditor/file/2026121/1768961094346/JC2432W328 Specifications-EN.pdf) · [Source 2](https://www.guition.com/-download)
 
 Manufacturer-hosted board reference; select and review physical pinout pages before inclusion. Original PDF page 5 rendered at 220 dpi; no labels changed. This labels board components/connectors and is not a pin-by-pin signal map.
+
+Image revision: Not identified
 
 SHA-256: `86dea812ea9c44a8958e670fe3014f0a250f5f57515cfc3353d230e70fa038bd`
 
@@ -37,6 +41,8 @@ SHA-256: `86dea812ea9c44a8958e670fe3014f0a250f5f57515cfc3353d230e70fa038bd`
 
 Variant must be identified from this exact image and its surrounding source text.
 
+Image revision: Not identified
+
 SHA-256: `e3ecc33d402b2b0868d2607ed0193dbef9ac9f04f3bc0a8264d67441570a82d1`
 
 ## Manufacturer reference PDF
@@ -50,6 +56,8 @@ SHA-256: `e3ecc33d402b2b0868d2607ed0193dbef9ac9f04f3bc0a8264d67441570a82d1`
 [Source 1](https://www.guition.com/icms/upload/fb081940d6fc11f09850077a33e1404f/FTPData/UEditor/file/2026121/1768961094346/JC2432W328 Specifications-EN.pdf) · [Source 2](https://www.guition.com/-download)
 
 Manufacturer-hosted board reference; select and review physical pinout pages before inclusion.
+
+Image revision: Not identified
 
 SHA-256: `3e209361bcdcf2faf807d3b462284e79155a6da0451f143ab5c9075cc24fec82`
 

@@ -5,7 +5,9 @@
 Revision: Unverified source identity  
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-d86cb3a1d711815839)
+
+Device category: **Controllers & instruments**
 
 ## Dimensions
 
@@ -20,6 +22,8 @@ Coverage: Source collection; review pending
 [Source 1](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/products/atom/Atom%20DTU-NB-IoT2/%E5%B0%BA%E5%AF%B8%E5%9B%BE.jpg) · [Source 2](https://docs.m5stack.com/en/atom/Atom%20DTU_NB_IoT2)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `5f34a9256b19a7c4db971461df19b5da8686c7ff0c6dac246b55e5b98621a8ec`
 

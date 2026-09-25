@@ -12,17 +12,25 @@
 
 Find the picture that tells you **which physical pin does what**. This collection brings together original board pinouts, connector labels, GPIO references and supporting documents, organized by manufacturer, processor and exact board identity. The companion desktop app makes the same collection searchable offline.
 
-| September 2026 workshop snapshot | Count |
+| First Edition · snapshot 2026.09.2 | Count |
 |---|---:|
-| Reviewed physical board pinout images | **1,358** |
-| Searchable reference entries | **2,988** |
-| Catalog records with files | **1,682** |
-| Manufacturers and source groups | **59** |
-| Unique original media files, including vector companions | **2,938** |
+| Reviewed physical board pinout images | **1,365** |
+| Searchable reference entries | **3,003** |
+| Catalog records with files | **1,688** |
+| Manufacturers and source groups | **60** |
+| Unique original media files, including vector companions | **2,953** |
 
 Records include shared references, variants, devices and unreviewed source products. These counts are **not a census of unique development boards**. Coverage is growing; it is not complete.
 
 ![The Black Wire desktop library browsing this collection](docs/screenshots/library.png)
+
+## Devices & IoT
+
+**[Browse 310 device records](DEVICES.md)** or use the new **[Devices & IoT tab](https://valleytech-black-wire-guide.pages.dev/?tab=devices)**. Find T-Embed, T-Beam, T-Deck, Cardputer, Flipper, wearables, LoRa nodes, smart displays and controllers by category, manufacturer and MCU. Missing sheets and in-development documentation are explicitly labeled.
+
+![Devices and IoT browsing in Black Wire](docs/screenshots/devices-iot.png)
+
+This update adds **15 original images, including 7 pinout/connector sheets**, and six newly populated device records. [First Edition policy and update details](EDITION.md).
 
 ## Find your board
 
@@ -45,7 +53,7 @@ Original files are stored once by content hash; board pages provide the human-fr
 
 Download a versioned ZIP from this repository's **[collection releases](https://github.com/valleytechsolutions/black-wire-pinouts/releases)**. Each release includes the full reference collection, board indexes, source credits, license/rights notices and a SHA-256 checksum. Extract the whole ZIP and begin with `README.md` and `BROWSE.md`. The files work on **Windows, Linux and macOS** with an image/PDF viewer and a Markdown reader; no installer is needed for the collection.
 
-The first edition is **[2026.09.1 — September 2026 collection snapshot](https://github.com/valleytechsolutions/black-wire-pinouts/releases/tag/v2026.09.1)**. These collection editions are versioned independently from desktop app releases. The [desktop repository](https://github.com/valleytechsolutions/black-wire-desktop/releases) provides application installers and states which operating systems actually have downloads.
+The guide remains **First Edition / 2026**. The latest collection snapshot is **[2026.09.2 — Devices & IoT](https://github.com/valleytechsolutions/black-wire-pinouts/releases/tag/v2026.09.2)**; [2026.09.1](https://github.com/valleytechsolutions/black-wire-pinouts/releases/tag/v2026.09.1) remains available unchanged. Collection snapshots and app versions are independent of the future annual book editions; see [EDITION.md](EDITION.md). The [desktop repository](https://github.com/valleytechsolutions/black-wire-desktop/releases) provides application installers and states which operating systems actually have downloads.
 
 You can also clone the current repository (about **1.8 GB** of reference data). Keep the folder structure intact. Local Markdown viewers can follow the board pages; the desktop app provides the full searchable image/PDF interface. See [release and checksum instructions](RELEASES.md).
 

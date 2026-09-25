@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Board labels only; pinout needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-gpio-device-sensecap-watcher-for-xiaozhi)
+
+Device category: **Wearables**
 
 ## Pinout
 
@@ -20,6 +22,8 @@ Coverage: Board labels only; pinout needed
 [Source 1](http://files.seeedstudio.com/wiki/Watcher_Agent/Grove/Grove2.png) · [Source 2](https://wiki.seeedstudio.com/extending_grove_with_mcp/)
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `24bc39842ab673c1cde915dd5f680954d105cd71a8d3a23ab3071b35fde37ea3`
 

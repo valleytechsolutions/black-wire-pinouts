@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lilygo-other-t3-stm32)
+
+Device category: **Controllers & instruments**
 
 ## Board pin map
 
@@ -20,6 +22,8 @@ Coverage: Pinout image collected
 [Source 1](https://wiki.lilygo.cc/products/t3-series/t3-stm32/index/image/t3-stm32-3.jpg) · [Source 2](https://wiki.lilygo.cc/products/t3-series/t3-stm32/)
 
 Manufacturer image preserved. Match the depicted board and revision before use.
+
+Image revision: Not identified
 
 SHA-256: `e1082272f79e2becc252ea9f3183a607586d92779160d02432d81816c8ab36c4`
 

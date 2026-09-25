@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: GPIO reference collected; physical pinout needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=m5stack-other-sbc-coremp135)
+
+Device category: **Controllers & instruments**
 
 ## Pinout
 
@@ -20,6 +22,8 @@ Coverage: GPIO reference collected; physical pinout needed
 [Source 1](https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/497/K135_pinmap_01.png) · [Source 2](https://docs.m5stack.com/en/core/M5CoreMP135)
 
 Imported from existing M5Stack Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `5815628dca61b43ccdc2fee72bfca4ddc0584b12afe92b38e5ec2bd7d9fcad52`
 
@@ -36,6 +40,8 @@ SHA-256: `5815628dca61b43ccdc2fee72bfca4ddc0584b12afe92b38e5ec2bd7d9fcad52`
 [Source 1](https://static-cdn.m5stack.com/resource/docs/products/core/M5CoreMP135/img-505b3448-ea63-497b-85d9-07a7a4259edb.png) · [Source 2](https://docs.m5stack.com/en/core/M5CoreMP135)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `90f396543cae00185a17254df7558b6abdeedf17f1cf41916c108e5ae4212d99`
 

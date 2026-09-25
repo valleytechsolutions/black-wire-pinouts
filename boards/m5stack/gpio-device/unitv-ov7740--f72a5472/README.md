@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=m5stack-gpio-device-unitv-ov7740)
+
+Device category: **Cameras & audio**
 
 ## Pinout
 
@@ -20,6 +22,8 @@ Coverage: Pinout image collected
 [Source 1](https://static-cdn.m5stack.com/resource/docs/products/unit/unitv_ov7740/unitv_ov7740_12.webp) · [Source 2](https://docs.m5stack.com/en/unit/unitv_ov7740)
 
 Imported from existing M5Stack Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `8ef02336edee8d9faad229efc29b0ad888146865e715ee4c392708d9fc3d8e5b`
 
@@ -36,6 +40,8 @@ SHA-256: `8ef02336edee8d9faad229efc29b0ad888146865e715ee4c392708d9fc3d8e5b`
 [Source 1](https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1055/U078-C_Model_Size_page_01.png) · [Source 2](https://docs.m5stack.com/en/unit/unitv_ov7740)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `36ba51ffca625278db3ec53a73aeb5af9a410594a9cb4e65b1e3dc4d1b6aee79`
 

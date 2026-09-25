@@ -5,7 +5,9 @@
 Revision: HTCC-AC01_PinoutDiagram.pdf  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=heltec-other-cubecell-capsule)
+
+Device category: **Wearables**
 
 ## Pinout reference - PDF page 1
 
@@ -21,6 +23,8 @@ Coverage: Pinout image collected
 
 Original manufacturer resource filename: HTCC-AC01_PinoutDiagram.pdf. Filename and printed revision must be matched to the board. Original PDF page 1 rendered at 220 dpi; no labels changed.
 
+Image revision: HTCC-AC01_PinoutDiagram.pdf
+
 SHA-256: `78e689b400647034241bef3a07eb18a87a52f37cf5da8fd70996c913642a27ee`
 
 ## Board pin reference - HTCC-AC01_PinoutDiagram
@@ -34,6 +38,8 @@ SHA-256: `78e689b400647034241bef3a07eb18a87a52f37cf5da8fd70996c913642a27ee`
 [Source 1](https://resource.heltec.cn/download/CubeCell/Capsule/HTCC-AC01_PinoutDiagram.pdf) · [Source 2](https://resource.heltec.cn/download/CubeCell/Capsule)
 
 Original manufacturer resource filename: HTCC-AC01_PinoutDiagram.pdf. Filename and printed revision must be matched to the board.
+
+Image revision: HTCC-AC01_PinoutDiagram.pdf
 
 SHA-256: `d49bff296ef1f2fe38145e2455b56dd865387449d6bd6d3b382b5f7b69653cb2`
 

@@ -5,7 +5,9 @@
 Revision: 2.4GHz LoRa; not the sub-GHz V1.6.1 map  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lilygo-esp32-t3-v1-8-sx1280-2-4ghz)
+
+Device category: **Controllers & instruments**
 
 ## lora32_v1.8_pinmap
 
@@ -20,6 +22,8 @@ Coverage: Pinout image collected
 [Source 1](https://raw.githubusercontent.com/Xinyuan-LilyGO/LilyGo-LoRa-Series/5e2da3f519a25e91b9b14c3071e36a568bbd949d/assets/image/lora32_v1.8_pinmap.jpg) · [Source 2](https://github.com/Xinyuan-LilyGO/LilyGo-LoRa-Series/blob/5e2da3f519a25e91b9b14c3071e36a568bbd949d/assets/image/lora32_v1.8_pinmap.jpg)
 
 2.4GHz LoRa; not the sub-GHz V1.6.1 map
+
+Image revision: 2.4GHz LoRa; not the sub-GHz V1.6.1 map
 
 SHA-256: `af57d79070d015274ddfd3b6e5ca8e720d61134cd75433fcfd7edff43051fc2c`
 

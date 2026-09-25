@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Partial pinout collected; full reference still needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-gpio-device-rs485-vision-ai-camera)
+
+Device category: **Cameras & audio**
 
 ## Pinout
 
@@ -21,7 +23,7 @@ Coverage: Partial pinout collected; full reference still needed
 
 Imported from existing Seeed Studio Board Reference; original working path preserved. Only the named connector or subsection is covered.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `bd8f2a782807c8bcf917fc55ab456a1082df4bca5bcfcd38ff7fac4f1e738417`
 

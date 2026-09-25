@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lilygo-gpio-device-t-watch-ultra)
+
+Device category: **Wearables**
 
 ## Board pin map
 
@@ -20,6 +22,8 @@ Coverage: Pinout image collected
 [Source 1](https://wiki.lilygo.cc/products/t-watch-series/t-watch-ultra/index/image/t-watch-ultra-pin.jpg) · [Source 2](https://wiki.lilygo.cc/products/t-watch-series/t-watch-ultra/)
 
 Manufacturer image preserved. Match the depicted board and revision before use.
+
+Image revision: Not identified
 
 SHA-256: `a64d74e2118a0db15d770f214d940be5c38aeda37d9bf3bcbaf5f0055fe919ff`
 

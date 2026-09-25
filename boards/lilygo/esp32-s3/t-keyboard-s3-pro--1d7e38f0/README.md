@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lilygo-gpio-device-t-keyboard-s3-pro)
+
+Device category: **Handhelds & pocket tools**
 
 ## Board pin map
 
@@ -20,6 +22,8 @@ Coverage: Pinout image collected
 [Source 1](https://wiki.lilygo.cc/products/other/t-keyboard-s3-pro/index/image/t-keyboard-s3-pro-en.jpg) · [Source 2](https://wiki.lilygo.cc/products/other/t-keyboard-s3-pro/)
 
 Manufacturer image preserved. Match the depicted board and revision before use.
+
+Image revision: Not identified
 
 SHA-256: `16205d4456d8a7c62d956b3b61e77cc14a8c4bdc485da54ad9ea2df28108787f`
 

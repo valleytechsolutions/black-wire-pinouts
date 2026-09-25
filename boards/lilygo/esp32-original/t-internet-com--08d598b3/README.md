@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lilygo-esp32-t-internet-com)
+
+Device category: **Controllers & instruments**
 
 ## T-Internet-COM
 
@@ -20,6 +22,8 @@ Coverage: Pinout image collected
 [Source 1](https://raw.githubusercontent.com/Xinyuan-LilyGO/T-Internet-COM/f53f1c54aac202e83bf326d8a497495d75889412/img/T-Internet-COM.jpg) · [Source 2](https://github.com/Xinyuan-LilyGO/T-Internet-COM/blob/f53f1c54aac202e83bf326d8a497495d75889412/img/T-Internet-COM.jpg)
 
 Original manufacturer diagram. Shown module, radio, display and power-system options must match the board.
+
+Image revision: Not identified
 
 SHA-256: `3c040f73c0d28f23275c759a8968b2b83baa1ec36992fcead3d9240340cf7419`
 

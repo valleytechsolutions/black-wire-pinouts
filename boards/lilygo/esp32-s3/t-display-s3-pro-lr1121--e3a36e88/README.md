@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Partial pinout collected; full reference still needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lilygo-esp32-t-display-s3-pro-lr1121)
+
+Device category: **Displays & HMI**
 
 ## Board pin map
 
@@ -21,7 +23,7 @@ Coverage: Partial pinout collected; full reference still needed
 
 Manufacturer image preserved. Match the depicted board and revision before use.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `af53f4b145da5d02f1121333501a31b4eba02b00d33c9f27d7e7023106f4efd9`
 

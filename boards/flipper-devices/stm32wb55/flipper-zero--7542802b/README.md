@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=flipper-devices-gpio-device-flipper-zero)
+
+Device category: **Handhelds & pocket tools**
 
 ## GPIO pinout v2
 
@@ -18,6 +20,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Flipper Devices.
 
 [Source 1](https://cdn.flipper.net/Flipper_Zero_GPIO_Pinout_v2.jpg) · [Source 2](https://flipper.net/)
+
+
+
+Image revision: Not identified
 
 SHA-256: `493bec315a31038ad4c5d3c234b531bb5417a726e997eddd996c704407edc793`
 

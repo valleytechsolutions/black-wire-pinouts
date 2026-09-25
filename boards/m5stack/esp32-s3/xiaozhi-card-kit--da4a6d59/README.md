@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Partial pinout collected; full reference still needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=m5stack-gpio-device-xiaozhi-card-kit)
+
+Device category: **Cameras & audio**
 
 ## Pinout
 
@@ -21,7 +23,7 @@ Coverage: Partial pinout collected; full reference still needed
 
 Imported from existing M5Stack Board Reference; original working path preserved. Only the named connector or subsection is covered.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `f57548d6fbd6ce5643fb59a1adfffe0d805df5aeef02d931fa83c93074130864`
 
@@ -39,6 +41,8 @@ SHA-256: `f57548d6fbd6ce5643fb59a1adfffe0d805df5aeef02d931fa83c93074130864`
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `9e90703d9b2b2e6175a38190d5dec8be347ed9b97554c3725e52ea0760b9aae5`
 
 ## Dimensions
@@ -54,6 +58,8 @@ SHA-256: `9e90703d9b2b2e6175a38190d5dec8be347ed9b97554c3725e52ea0760b9aae5`
 [Source 1](https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1157/Xiaozhi_Card_Size.png) · [Source 2](https://docs.m5stack.com/en/core/Xiaozhi_Card_Kit)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `07bb94ded4273d48618c525057dc66271b197de9c54344e53e8caa4cc377057d`
 

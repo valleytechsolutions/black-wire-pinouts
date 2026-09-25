@@ -5,7 +5,9 @@
 Revision: Unverified source identity  
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-df361a596271197c9d)
+
+Device category: **Cameras & audio**
 
 ## Hardware Overview
 
@@ -20,6 +22,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/ReSpeaker_6-Mics_Circular_Array_kit_for_Raspberry_Pi/img/hardware.jpg) · [Source 2](https://wiki.seeedstudio.com/ReSpeaker_6-Mic_Circular_Array_kit_for_Raspberry_Pi/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `9ef3f7d29190d628c3a661fd9e6c90f0936561c15a10bf84d19ca40b74e78dcc`
 

@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lilygo-esp32-t5-4-7-s3-e-paper-pro-lite)
+
+Device category: **Displays & HMI**
 
 ## Board pin map
 
@@ -20,6 +22,8 @@ Coverage: Pinout image collected
 [Source 1](https://wiki.lilygo.cc/products/t5-series/t5-e-paper-s3-lite/index/image/t5-4.7-s3-pro-pin.jpg) · [Source 2](https://wiki.lilygo.cc/products/t5-series/t5-e-paper-s3-lite/)
 
 Manufacturer image preserved. Match the depicted board and revision before use. Source page name: T5-4.7 E-Paper S3 Lite. Saved model name follows the printed diagram.
+
+Image revision: Not identified
 
 SHA-256: `7cc04ae160f8c575d76baeaa2576b087e22619d1ac49f787f34dc4677de5c846`
 

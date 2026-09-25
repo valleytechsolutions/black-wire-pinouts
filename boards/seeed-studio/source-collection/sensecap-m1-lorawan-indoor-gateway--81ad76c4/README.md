@@ -5,7 +5,9 @@
 Revision: Unverified source identity  
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-53ef0544272aaa560c)
+
+Device category: **Radios & GNSS**
 
 ## Dimensions
 
@@ -20,6 +22,8 @@ Coverage: Source collection; review pending
 [Source 1](https://media-cdn.seeedstudio.com/media/catalog/product/1/1/110991587_size-08_logo_8.png) · [Source 2](https://www.seeedstudio.com/SenseCAP-M1-LoRaWAN-Indoor-Gateway-US915-p-5023.html)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `ab99f5b92aafc4a5c8182b5228e87f212927bd3362f1b8ad42bb8b0c966b9009`
 
@@ -37,6 +41,8 @@ SHA-256: `ab99f5b92aafc4a5c8182b5228e87f212927bd3362f1b8ad42bb8b0c966b9009`
 
 Original source index: Hardware Overview (Inside) 2. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `78e4299ad16ffedc8a80bd5e12bd1f6d2a894b309dbe056f682609afe7d48180`
 
 ## Hardware Overview (Inside)
@@ -53,6 +59,8 @@ SHA-256: `78e4299ad16ffedc8a80bd5e12bd1f6d2a894b309dbe056f682609afe7d48180`
 
 Original source index: Hardware Overview (Inside). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `411361197ffba3f87fac367f9ea3ca91bcb257cec1fb516bbffb69048ff58ed9`
 
 ## Hardware Overview (Ports)
@@ -68,6 +76,8 @@ SHA-256: `411361197ffba3f87fac367f9ea3ca91bcb257cec1fb516bbffb69048ff58ed9`
 [Source 1](https://media-cdn.seeedstudio.com/media/catalog/product/1/1/110991584_preview-16_8.png) · [Source 2](https://www.seeedstudio.com/SenseCAP-M1-LoRaWAN-Indoor-Gateway-US915-p-5023.html)
 
 Original source index: Hardware Overview (Ports). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `65ec3be9b97ecb96ed3a36c89750df8abdaebb7ec87b04b244053c655b9a8874`
 

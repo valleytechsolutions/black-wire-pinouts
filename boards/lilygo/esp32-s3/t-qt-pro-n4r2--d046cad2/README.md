@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lilygo-esp32-t-qt-pro-n4r2)
+
+Device category: **Displays & HMI**
 
 ## pinmap_en
 
@@ -20,6 +22,8 @@ Coverage: Pinout image collected
 [Source 1](https://raw.githubusercontent.com/Xinyuan-LilyGO/T-QT/230f0c0ea7677fdde29ca7a49a419dbf597e6b3e/image/pinmap_en.jpg) · [Source 2](https://github.com/Xinyuan-LilyGO/T-QT/blob/230f0c0ea7677fdde29ca7a49a419dbf597e6b3e/image/pinmap_en.jpg)
 
 The depicted processor is ESP32-S3FH4R2. Do not infer coverage of the separate N8 variant.
+
+Image revision: Not identified
 
 SHA-256: `4f6a2b8e2392c5a7cf449f1e1390dc5cab40017b3de671dfb4c7777f2e63dd40`
 

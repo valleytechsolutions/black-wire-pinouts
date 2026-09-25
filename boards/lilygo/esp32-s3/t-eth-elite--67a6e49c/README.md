@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lilygo-esp32-t-eth-elite)
+
+Device category: **Controllers & instruments**
 
 ## Board pin map
 
@@ -20,6 +22,8 @@ Coverage: Pinout image collected
 [Source 1](https://wiki.lilygo.cc/products/t-eth-series/t-eth-elite/index/image/t-eth-elite-3.jpg) · [Source 2](https://wiki.lilygo.cc/products/t-eth-series/t-eth-elite/)
 
 Manufacturer image preserved. Match the depicted board and revision before use.
+
+Image revision: Not identified
 
 SHA-256: `9ab27c3bac66e3b767615e2b7a7064a8c654bee4577e82c766a79b5756f3bd5a`
 

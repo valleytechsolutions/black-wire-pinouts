@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lilygo-other-t-impulse-plus)
+
+Device category: **Radios & GNSS**
 
 ## Board pin map
 
@@ -20,6 +22,8 @@ Coverage: Pinout image collected
 [Source 1](https://wiki.lilygo.cc/products/t-impulse-series/t-impulse-plus/index/image/t-impulse-plus-pinout.jpg) · [Source 2](https://wiki.lilygo.cc/products/t-impulse-series/t-impulse-plus/)
 
 Manufacturer image preserved. Match the depicted board and revision before use.
+
+Image revision: Not identified
 
 SHA-256: `67efbcf57e9caa7b178b08ed42dd6332418bf0a814356681cb891674ab3e8355`
 

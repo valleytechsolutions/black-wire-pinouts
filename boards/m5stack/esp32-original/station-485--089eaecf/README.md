@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=m5stack-gpio-device-station-485)
+
+Device category: **Controllers & instruments**
 
 ## Pinout
 
@@ -20,6 +22,8 @@ Coverage: Pinout image collected
 [Source 1](https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/521/K124-BK123.jpg) · [Source 2](https://docs.m5stack.com/en/core/station_485)
 
 Imported from existing M5Stack Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `3fbfeecc25cae5c681b58fe342d6815aaac74ce99df60c8222c5dae9208d827a`
 
@@ -36,6 +40,8 @@ SHA-256: `3fbfeecc25cae5c681b58fe342d6815aaac74ce99df60c8222c5dae9208d827a`
 [Source 1](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/products/core/station_485/module%20size.jpg) · [Source 2](https://docs.m5stack.com/en/core/station_485)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `a8c1586508b09723e1f445d7e9011249014e5c9b493e58cee195a8d108009400`
 

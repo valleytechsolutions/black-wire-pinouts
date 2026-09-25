@@ -5,7 +5,9 @@
 Revision: Unverified source identity  
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-82e3454064f9081a15)
+
+Device category: **Cameras & audio**
 
 ## Block Diagram
 
@@ -20,6 +22,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/img/system_diag.png) · [Source 2](https://wiki.seeedstudio.com/ReSpeaker-USB-Mic-Array/)
 
 Original source index: Block Diagram. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `56c002d25096170a46ecb3039adba86c251f74fe3df5d9f96e002f62f51fdf02`
 
@@ -37,6 +41,8 @@ SHA-256: `56c002d25096170a46ecb3039adba86c251f74fe3df5d9f96e002f62f51fdf02`
 
 Original source index: Dimensions (Bottom). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `74211e2be8448f5f3f9f02631f076cdf892c505444ea4a17afc5236cd2936b27`
 
 ## Dimensions
@@ -52,6 +58,8 @@ SHA-256: `74211e2be8448f5f3f9f02631f076cdf892c505444ea4a17afc5236cd2936b27`
 [Source 1](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/img/Dimension.png) · [Source 2](https://wiki.seeedstudio.com/ReSpeaker_Mic_Array_v2.0/)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `628a9acffd3800864b582a7c3e86b1bc85aa1f07bf9dc5d098775930d6c9e983`
 
@@ -69,6 +77,8 @@ SHA-256: `628a9acffd3800864b582a7c3e86b1bc85aa1f07bf9dc5d098775930d6c9e983`
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `842c4199539c5dc4e89020533a786177bcc498c7536e44bd61b436ca0dafbdbd`
 
 ## Pin Definition Table
@@ -84,6 +94,8 @@ SHA-256: `842c4199539c5dc4e89020533a786177bcc498c7536e44bd61b436ca0dafbdbd`
 [Source 1](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/img/Pin_Map.png) · [Source 2](https://wiki.seeedstudio.com/ReSpeaker_Mic_Array_v2.0/)
 
 Original source index: Pin Definition Table. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `1fdf127168dc4104708a2fcfee8ecb772a1039a4414914fb4942775c2ef8279a`
 

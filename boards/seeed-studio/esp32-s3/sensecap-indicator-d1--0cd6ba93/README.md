@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Partial pinout collected; full reference still needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-gpio-device-sensecap-indicator-d1)
+
+Device category: **Displays & HMI**
 
 ## Pinout (USB-C Connector)
 
@@ -21,7 +23,7 @@ Coverage: Partial pinout collected; full reference still needed
 
 Imported from existing Seeed Studio Board Reference; original working path preserved. Only the named connector or subsection is covered.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `2e322c248b80e125432e4071351e28fdb310486a227b50e3562b3bd46c46fe72`
 
@@ -39,6 +41,8 @@ SHA-256: `2e322c248b80e125432e4071351e28fdb310486a227b50e3562b3bd46c46fe72`
 
 Original source index: Hardware Overview (Back). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `4dd95df8cb40b0ca177e7a8beb7e6e194ae6c35bb38b3d1e2d030b714b6468ee`
 
 ## Hardware Overview (Side)
@@ -54,6 +58,8 @@ SHA-256: `4dd95df8cb40b0ca177e7a8beb7e6e194ae6c35bb38b3d1e2d030b714b6468ee`
 [Source 1](https://files.seeedstudio.com/wiki/SenseCAP/SenseCAP_Indicator/SenseCAP_Indicator_3.png) · [Source 2](https://wiki.seeedstudio.com/Sensor/SenseCAP/SenseCAP_Indicator/Get_started_with_SenseCAP_Indicator/)
 
 Original source index: Hardware Overview (Side). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `267047e43f25d68f01fcf8c76bce95afa6fd7e84916e2e62c0ea244cd8908072`
 

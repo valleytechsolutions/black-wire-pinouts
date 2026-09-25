@@ -5,7 +5,9 @@
 Revision: Unverified source identity  
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-631525883d75f9b024)
+
+Device category: **Controllers & instruments**
 
 ## Dimensions
 
@@ -20,6 +22,8 @@ Coverage: Source collection; review pending
 [Source 1](https://static-cdn.m5stack.com/resource/docs/products/atom/Atomic SPK Base/img-456067b7-e4b1-4520-8304-c8f93672c118.jpg) · [Source 2](https://docs.m5stack.com/en/atom/Atomic%20SPK%20Base)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `28e5b07e1c5b76202f349bb8379521af97e1e974233aca4563da3575d6df6902`
 

@@ -5,7 +5,9 @@
 Revision: Unverified source identity  
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-ef3849c9841f7e80da)
+
+Device category: **Cameras & audio**
 
 ## Block Diagram
 
@@ -20,6 +22,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/Respeaker_V2/img/SYS.png) · [Source 2](https://wiki.seeedstudio.com/ReSpeaker_Core_v2.0/)
 
 Original source index: Block Diagram. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `3afd56025514956206e10ee96baebf6251df12c1dfd483b8887952c31ed7a2c9`
 
@@ -37,6 +41,8 @@ SHA-256: `3afd56025514956206e10ee96baebf6251df12c1dfd483b8887952c31ed7a2c9`
 
 Original source index: Dimensions 2. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `04c4143f418630f6622a57c9c228c074d78bb2e7f0234d2623f5c9520a9d223b`
 
 ## Dimensions
@@ -52,6 +58,8 @@ SHA-256: `04c4143f418630f6622a57c9c228c074d78bb2e7f0234d2623f5c9520a9d223b`
 [Source 1](https://files.seeedstudio.com/wiki/Respeaker_V2/img/Dimension_2.png) · [Source 2](https://wiki.seeedstudio.com/ReSpeaker_Core_v2.0/)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `9812480249928a68a2482a6417fd95b716b1f4dbefb35f87cb86f59336b1420a`
 
@@ -69,6 +77,8 @@ SHA-256: `9812480249928a68a2482a6417fd95b716b1f4dbefb35f87cb86f59336b1420a`
 
 Original source index: Hardware Overview (Front). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `63cdb840a7280d51655d7127cd91320d35895c1a8c657b7ea6419d9c9afb8590`
 
 ## Pin Definition Table 2
@@ -85,6 +95,8 @@ SHA-256: `63cdb840a7280d51655d7127cd91320d35895c1a8c657b7ea6419d9c9afb8590`
 
 Original source index: Pin Definition Table 2. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `9b12ae1c6620c12bf7ea48f728bceb92458e48c70cd91d45a4999db456493c13`
 
 ## Pin Definition Table
@@ -100,6 +112,8 @@ SHA-256: `9b12ae1c6620c12bf7ea48f728bceb92458e48c70cd91d45a4999db456493c13`
 [Source 1](https://files.seeedstudio.com/wiki/Respeaker_V2/img/GPIO.png) · [Source 2](https://wiki.seeedstudio.com/ReSpeaker_Core_v2.0/)
 
 Original source index: Pin Definition Table. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `1664e304c5619a8a5f88b71a92d3e59adfd8c62fc3893f83a1a2b6b2631f4e26`
 

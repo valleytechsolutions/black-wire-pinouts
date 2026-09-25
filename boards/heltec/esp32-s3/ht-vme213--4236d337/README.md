@@ -5,7 +5,9 @@
 Revision: HT-VME213.png  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=heltec-esp32-ht-vme213)
+
+Device category: **Radios & GNSS**
 
 ## Board pin reference - HT-VME213
 
@@ -20,6 +22,8 @@ Coverage: Pinout image collected
 [Source 1](https://resource.heltec.cn/download/HT-VME213/HT-VME213.png) · [Source 2](https://resource.heltec.cn/download/HT-VME213)
 
 Original manufacturer resource filename: HT-VME213.png. Filename and printed revision must be matched to the board.
+
+Image revision: HT-VME213.png
 
 SHA-256: `9ba114a80f33d8d4203692160c78a7e2390c40946c950db46f851a18581a8d8e`
 

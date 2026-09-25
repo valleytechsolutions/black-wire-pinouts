@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lilygo-esp32-t-lora-dual)
+
+Device category: **Radios & GNSS**
 
 ## Board pin map
 
@@ -20,6 +22,8 @@ Coverage: Pinout image collected
 [Source 1](https://wiki.lilygo.cc/products/t-lora-series/t-lora-dual/index/image/t-lora-dual-pin.jpg) · [Source 2](https://wiki.lilygo.cc/products/t-lora-series/t-lora-dual/)
 
 Manufacturer image preserved. Match the depicted board and revision before use.
+
+Image revision: Not identified
 
 SHA-256: `42df0943165c30fba0e71fd919b5fbe0ed6c7cc8b249619eaf6bb4e233fe00d7`
 

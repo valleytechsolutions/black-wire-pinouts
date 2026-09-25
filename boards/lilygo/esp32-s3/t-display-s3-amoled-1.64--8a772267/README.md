@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lilygo-esp32-t-display-s3-amoled-1-64)
+
+Device category: **Displays & HMI**
 
 ## Board pin map
 
@@ -20,6 +22,8 @@ Coverage: Pinout image collected
 [Source 1](https://wiki.lilygo.cc/products/t-display-series/t-display-s3-amoled-1.64/index/image/t-display-s3-amoled-1.64-en.jpg) · [Source 2](https://wiki.lilygo.cc/products/t-display-series/t-display-s3-amoled-1.64/)
 
 Manufacturer image preserved. Match the depicted board and revision before use.
+
+Image revision: Not identified
 
 SHA-256: `de2d0800ee69ed424a1d71bf78ba52931ed84476ef61a4e28c242e107b087899`
 

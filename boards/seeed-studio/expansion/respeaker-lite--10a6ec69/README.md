@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-expansion-respeaker-lite)
+
+Device category: **Cameras & audio**
 
 ## Pinout
 
@@ -20,6 +22,8 @@ Coverage: Pinout image collected
 [Source 1](https://github.com/respeaker/ReSpeaker_Lite/raw/master/doc/images/pinout.png) · [Source 2](https://wiki.seeedstudio.com/reSpeaker_usb_v3/)
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `e870fcf94eeb62567f1a9c9c06538329cf75bd12dc29d95bef8408a016aa67f8`
 
@@ -37,6 +41,8 @@ SHA-256: `e870fcf94eeb62567f1a9c9c06538329cf75bd12dc29d95bef8408a016aa67f8`
 
 Original source index: Hardware Overview (Back). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `0a8824b02706f753e4bbe5cc94c5ce6a0ddf8cbaa19fb9753e12ed75b02c4e77`
 
 ## Hardware Overview (Front)
@@ -50,6 +56,8 @@ SHA-256: `0a8824b02706f753e4bbe5cc94c5ce6a0ddf8cbaa19fb9753e12ed75b02c4e77`
 [Source 1](https://files.seeedstudio.com/wiki/SenseCAP/respeaker/front.png) · [Source 2](https://wiki.seeedstudio.com/xiao_respeaker/)
 
 Original source index: Hardware Overview (Front). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `1dfa2ded86ac644ff99a2474fc253b905343eab6be3a33870d358a7e1a0e43a8`
 
@@ -67,6 +75,8 @@ SHA-256: `1dfa2ded86ac644ff99a2474fc253b905343eab6be3a33870d358a7e1a0e43a8`
 
 Original source index: Hardware Overview 2. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `47490d01bb078aae0af6b0c061b0b2069f0f9dc2c9f31e1d5a481eb5e090d964`
 
 ## Hardware Overview
@@ -82,6 +92,8 @@ SHA-256: `47490d01bb078aae0af6b0c061b0b2069f0f9dc2c9f31e1d5a481eb5e090d964`
 [Source 1](https://media-cdn.seeedstudio.com/media/wysiwyg/upload/image-9.png) · [Source 2](https://wiki.seeedstudio.com/reSpeaker_usb_v3/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `b6b62c35d148dfc3a0541d2cfc59052bc29fc141936680d88b568bbff0db44cc`
 

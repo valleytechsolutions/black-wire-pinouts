@@ -5,7 +5,9 @@
 Revision: Unverified source identity  
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-b2d3dd8ee676eeb89f)
+
+Device category: **Cameras & audio**
 
 ## Hardware Overview
 
@@ -20,6 +22,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/MIC_HATv1.0_for_raspberrypi/img/mic_hatv1.0.png) · [Source 2](https://wiki.seeedstudio.com/ReSpeaker_2_Mics_Pi_HAT/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `e81d0ed9491e01e318334b90e7091f1ac90deda86dcccb8915584584eccdc13a`
 
@@ -36,6 +40,8 @@ SHA-256: `e81d0ed9491e01e318334b90e7091f1ac90deda86dcccb8915584584eccdc13a`
 [Source 1](https://files.seeedstudio.com/wiki/ReSpeaker_2_Mics_Pi_HAT/v2/pcn.webp) · [Source 2](https://wiki.seeedstudio.com/how-to-distinguish-respeaker_2-mics_pi_hat-hardware-revisions/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `34d5a5330be4289e8ff9871742594431ccd863b2ae1b3ae0d4b6529fa568af22`
 

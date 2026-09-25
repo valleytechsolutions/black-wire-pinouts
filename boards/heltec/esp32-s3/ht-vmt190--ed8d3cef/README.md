@@ -5,7 +5,9 @@
 Revision: Multiple source/revision records; see individual assets  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=heltec-esp32-ht-vmt190)
+
+Device category: **Radios & GNSS**
 
 ## Board pin reference - HT-VMT190 pin map
 
@@ -20,6 +22,8 @@ Coverage: Pinout image collected
 [Source 1](https://resource.heltec.cn/download/HT-VMT190/HT-VMT190%20pin%20map.png) · [Source 2](https://resource.heltec.cn/download/HT-VMT190)
 
 Original manufacturer resource filename: HT-VMT190 pin map.png. Filename and printed revision must be matched to the board.
+
+Image revision: HT-VMT190 pin map.png
 
 SHA-256: `a8ad40795dee25496d1f6d22c86391391bb7bae246afb262bb081f89cf181ccf`
 
@@ -36,6 +40,8 @@ SHA-256: `a8ad40795dee25496d1f6d22c86391391bb7bae246afb262bb081f89cf181ccf`
 [Source 1](https://resource.heltec.cn/download/HT-VMT190/T190%20hardware.png) · [Source 2](https://resource.heltec.cn/download/HT-VMT190)
 
 Original manufacturer resource filename: T190 hardware.png. Filename and printed revision must be matched to the board.
+
+Image revision: T190 hardware.png
 
 SHA-256: `bea25d734cfb896b88d92c1b8fb6570bcbdf5ba395ef00c9fa6709dbc20ecc08`
 

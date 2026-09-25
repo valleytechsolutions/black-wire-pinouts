@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Board labels only; pinout needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=guition-cyd-jc8012p4a1c-i-w)
+
+Device category: **Displays & HMI**
 
 ## Board layout labels - PDF page 5
 
@@ -21,6 +23,8 @@ Coverage: Board labels only; pinout needed
 
 Manufacturer-hosted board reference; select and review physical pinout pages before inclusion. Original PDF page 5 rendered at 220 dpi; no labels changed. This labels board components/connectors and is not a pin-by-pin signal map.
 
+Image revision: Not identified
+
 SHA-256: `018fb0f36a13fc0f7a02e4896aa9d79745b716ff1efd4622da44a5d4de617bf2`
 
 ## Manufacturer reference PDF
@@ -34,6 +38,8 @@ SHA-256: `018fb0f36a13fc0f7a02e4896aa9d79745b716ff1efd4622da44a5d4de617bf2`
 [Source 1](https://www.guition.com/icms/upload/fb081940d6fc11f09850077a33e1404f/FTPData/UEditor/file/2026121/1768961095913/JC8012P4A1C_I_W Specifications-EN-v1.1(2).pdf) · [Source 2](https://www.guition.com/-download)
 
 Manufacturer-hosted board reference; select and review physical pinout pages before inclusion.
+
+Image revision: Not identified
 
 SHA-256: `92541f1424fbb7597eeee9ecb22373c4bf9def163565fcdaff85ae234c1f1c23`
 

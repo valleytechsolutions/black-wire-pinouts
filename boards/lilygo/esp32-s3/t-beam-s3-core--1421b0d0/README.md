@@ -5,7 +5,9 @@
 Revision: Core board with shown radio/GNSS options; internal peripheral assignment map  
 Coverage: GPIO reference collected; physical pinout needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lilygo-esp32-t-beam-s3-core)
+
+Device category: **Radios & GNSS**
 
 ## T-BEAM-S3Core
 
@@ -20,6 +22,8 @@ Coverage: GPIO reference collected; physical pinout needed
 [Source 1](https://raw.githubusercontent.com/Xinyuan-LilyGO/LilyGo-LoRa-Series/5e2da3f519a25e91b9b14c3071e36a568bbd949d/assets/image/T-BEAM-S3Core.jpg) · [Source 2](https://github.com/Xinyuan-LilyGO/LilyGo-LoRa-Series/blob/5e2da3f519a25e91b9b14c3071e36a568bbd949d/assets/image/T-BEAM-S3Core.jpg)
 
 Core board with shown radio/GNSS options; internal peripheral assignment map
+
+Image revision: Core board with shown radio/GNSS options; internal peripheral assignment map
 
 SHA-256: `627216ed6a2a5c923c23d3cb4c1d486b9646ab2b1903dadf4ed03ddfbc1b70c0`
 

@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=techoverflow-gpio-device-canipulator-v1)
+
+Device category: **Controllers & instruments**
 
 ## Board and connector pinout reference
 
@@ -18,6 +20,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: TechOverflow.
 
 [Source 1](https://raw.githubusercontent.com/TechOverflow/CANipulator-docs/5b61678bf7b252f623078e9c7c68476ead8c942e/canipulator.pdf) · [Source 2](https://github.com/TechOverflow/CANipulator-docs)
+
+
+
+Image revision: Not identified
 
 SHA-256: `c9c6ce25a2b64a9d0d32495f8c5c90b70c7f23afe72e46eebbe6ac3ecdfe3c0b`
 
@@ -33,6 +39,10 @@ SHA-256: `c9c6ce25a2b64a9d0d32495f8c5c90b70c7f23afe72e46eebbe6ac3ecdfe3c0b`
 
 [Source 1](https://raw.githubusercontent.com/TechOverflow/CANipulator-docs/5b61678bf7b252f623078e9c7c68476ead8c942e/canipulator.pdf) · [Source 2](https://github.com/TechOverflow/CANipulator-docs)
 
+
+
+Image revision: Not identified
+
 SHA-256: `c2ae3ab0ec9bc33d6f6e06f8416e86abf8347df39cfc4721cbd7ffc30a9e3174`
 
 ## Board pinout
@@ -44,6 +54,10 @@ SHA-256: `c2ae3ab0ec9bc33d6f6e06f8416e86abf8347df39cfc4721cbd7ffc30a9e3174`
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: TechOverflow.
 
 [Source 1](https://raw.githubusercontent.com/TechOverflow/CANipulator-docs/5b61678bf7b252f623078e9c7c68476ead8c942e/canipulator.pdf) · [Source 2](https://github.com/TechOverflow/CANipulator-docs)
+
+
+
+Image revision: Not identified
 
 SHA-256: `8aee9c9fc60fc72abc365b356ab085171451c5a641e080db85841f8ad59b0b31`
 

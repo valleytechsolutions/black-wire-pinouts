@@ -5,7 +5,9 @@
 Revision: V1.0  
 Coverage: GPIO reference collected; physical pinout needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lilygo-gpio-device-t-watch-2021-v1-0)
+
+Device category: **Wearables**
 
 ## T-WATCH2021-V1.0-en
 
@@ -21,7 +23,7 @@ Coverage: GPIO reference collected; physical pinout needed
 
 Internal peripheral GPIO assignments; not a complete external pad/header map.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: V1.0
 
 SHA-256: `9d953b27d8df40239f83ecb9deaaa673757b9c07f485ee3a7573f70549dc522d`
 

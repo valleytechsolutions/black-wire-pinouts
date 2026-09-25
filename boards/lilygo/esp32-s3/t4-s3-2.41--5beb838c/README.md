@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lilygo-esp32-t4-s3-2-41)
+
+Device category: **Controllers & instruments**
 
 ## Board pin map
 
@@ -20,6 +22,8 @@ Coverage: Pinout image collected
 [Source 1](https://wiki.lilygo.cc/products/t4-series/t4-s3/index/image/t4-s3-pinout.jpg) · [Source 2](https://wiki.lilygo.cc/products/t4-series/t4-s3/)
 
 Manufacturer image preserved. Match the depicted board and revision before use. Source page name: T4-S3. Saved model name follows the printed diagram.
+
+Image revision: Not identified
 
 SHA-256: `a0d55badfdb7418e7ea54dd0371bcc25ef8449c65465ab9b27ff01acf58961ae`
 

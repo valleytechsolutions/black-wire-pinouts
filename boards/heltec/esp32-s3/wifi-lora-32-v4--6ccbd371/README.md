@@ -5,7 +5,9 @@
 Revision: V4_pinmap.png  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=heltec-esp32-wifi-lora-32-v4)
+
+Device category: **Radios & GNSS**
 
 ## Board pin reference - V4_pinmap
 
@@ -20,6 +22,8 @@ Coverage: Pinout image collected
 [Source 1](https://resource.heltec.cn/download/WiFi_LoRa_32_V4/Pinmap/V4_pinmap.png) · [Source 2](https://resource.heltec.cn/download/WiFi_LoRa_32_V4/Pinmap)
 
 Original manufacturer resource filename: V4_pinmap.png. Filename and printed revision must be matched to the board.
+
+Image revision: V4_pinmap.png
 
 SHA-256: `2562d799970eb2ac231fee0679093e4207019af0800a24b169ae72a98a89988f`
 

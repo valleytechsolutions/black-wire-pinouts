@@ -5,7 +5,9 @@
 Revision: WIFI_LoRa_32_V2.pdf  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=heltec-esp32-wifi-lora-32-v2)
+
+Device category: **Radios & GNSS**
 
 ## Pinout reference - PDF page 1
 
@@ -21,6 +23,8 @@ Coverage: Pinout image collected
 
 Original manufacturer resource filename: WIFI_LoRa_32_V2.pdf. Filename and printed revision must be matched to the board. Original PDF page 1 rendered at 220 dpi; no labels changed.
 
+Image revision: WIFI_LoRa_32_V2.pdf
+
 SHA-256: `6127cc306c19ea93facc1f069afaa4217475d58f36e27e311a19189260ed6fde`
 
 ## Board pin reference - WIFI_LoRa_32_V2
@@ -34,6 +38,8 @@ SHA-256: `6127cc306c19ea93facc1f069afaa4217475d58f36e27e311a19189260ed6fde`
 [Source 1](https://resource.heltec.cn/download/WiFi_LoRa_32/WIFI_LoRa_32_V2.pdf) · [Source 2](https://resource.heltec.cn/download/WiFi_LoRa_32)
 
 Original manufacturer resource filename: WIFI_LoRa_32_V2.pdf. Filename and printed revision must be matched to the board.
+
+Image revision: WIFI_LoRa_32_V2.pdf
 
 SHA-256: `b7d20e2436beee0164259dff774aecc51253b5b992f61d91667ac7e3b60c1dd6`
 

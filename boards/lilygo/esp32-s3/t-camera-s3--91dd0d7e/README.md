@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lilygo-esp32-t-camera-s3)
+
+Device category: **Cameras & audio**
 
 ## Board pin map
 
@@ -20,6 +22,8 @@ Coverage: Pinout image collected
 [Source 1](https://wiki.lilygo.cc/products/t-camera-series/t-camera-s3/index/image/t-camera-s3-pinout.jpg) · [Source 2](https://wiki.lilygo.cc/products/t-camera-series/t-camera-s3/)
 
 Manufacturer image preserved. Match the depicted board and revision before use.
+
+Image revision: Not identified
 
 SHA-256: `0dd67e49ff9acce02dd9c26a220bd79adf6f7d80d465f894242db6e23351181e`
 

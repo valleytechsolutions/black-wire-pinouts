@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lilygo-esp32-t-call-sim800l-v1-3)
+
+Device category: **Controllers & instruments**
 
 ## T-Call
 
@@ -20,6 +22,8 @@ Coverage: Pinout image collected
 [Source 1](https://raw.githubusercontent.com/Xinyuan-LilyGO/LilyGo-T-Call-SIM800/11db8bf5bc38f52a6122fdfdb6b6a821f26808b8/image/T-Call.jpg) · [Source 2](https://github.com/Xinyuan-LilyGO/LilyGo-T-Call-SIM800/blob/11db8bf5bc38f52a6122fdfdb6b6a821f26808b8/image/T-Call.jpg)
 
 Original manufacturer diagram. Shown module, radio, display and power-system options must match the board.
+
+Image revision: Not identified
 
 SHA-256: `d61afe3acc76434e6963a13c324b8af712d9dc09191ebb152b3413fbd8275cb6`
 
@@ -36,6 +40,8 @@ SHA-256: `d61afe3acc76434e6963a13c324b8af712d9dc09191ebb152b3413fbd8275cb6`
 [Source 1](https://raw.githubusercontent.com/Xinyuan-LilyGO/LilyGo-T-Call-SIM800/11db8bf5bc38f52a6122fdfdb6b6a821f26808b8/image/SIM800L_IP5306.jpg) · [Source 2](https://github.com/Xinyuan-LilyGO/LilyGo-T-Call-SIM800/blob/11db8bf5bc38f52a6122fdfdb6b6a821f26808b8/image/SIM800L_IP5306.jpg)
 
 Original manufacturer diagram. Shown module, radio, display and power-system options must match the board.
+
+Image revision: Not identified
 
 SHA-256: `7c8897473bdeb062aa7bf0e4e747a3218c2c8c311e36c952f7f288dc378d996d`
 

@@ -5,7 +5,9 @@
 Revision: Internal peripheral assignments; does not locate all accessible pads  
 Coverage: GPIO reference collected; physical pinout needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lilygo-gpio-device-t-impulse)
+
+Device category: **Radios & GNSS**
 
 ## PinOut
 
@@ -20,6 +22,8 @@ Coverage: GPIO reference collected; physical pinout needed
 [Source 1](https://raw.githubusercontent.com/Xinyuan-LilyGO/T-Impulse/1b28bfad6832b81fee09b274181968f69d25f6ae/image/PinOut.jpg) · [Source 2](https://github.com/Xinyuan-LilyGO/T-Impulse/blob/1b28bfad6832b81fee09b274181968f69d25f6ae/image/PinOut.jpg)
 
 Internal peripheral assignments; does not locate all accessible pads
+
+Image revision: Internal peripheral assignments; does not locate all accessible pads
 
 SHA-256: `bd369c86e4a660d1111bdba7850f81c1b4d8624cbf7107cff54f7fbff1c6990b`
 

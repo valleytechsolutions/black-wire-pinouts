@@ -5,7 +5,9 @@
 Revision: Unverified source identity  
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-4a9c04e448c0594475)
+
+Device category: **Displays & HMI**
 
 ## Hardware Overview (Side)
 
@@ -20,6 +22,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/ReTerminal/wiki_thumb.png) · [Source 2](https://wiki.seeedstudio.com/reTerminalBridge/)
 
 Original source index: Hardware Overview (Side). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `4d0b13e0db734477daa11d06dab3debcf8ec6cf05bc02221bf2c484973377d71`
 
@@ -37,6 +41,8 @@ SHA-256: `4d0b13e0db734477daa11d06dab3debcf8ec6cf05bc02221bf2c484973377d71`
 
 Original source index: Hardware Overview 2. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `5d657199f979d7831cdd76a94368be60fb8f7856f1a423a1fe4343caa6cafb4a`
 
 ## Hardware Overview
@@ -52,6 +58,8 @@ SHA-256: `5d657199f979d7831cdd76a94368be60fb8f7856f1a423a1fe4343caa6cafb4a`
 [Source 1](https://files.seeedstudio.com/wiki/reTerminal_Bridge/042.jpg) · [Source 2](https://wiki.seeedstudio.com/reTerminalBridge/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `6ef3d0a1758220ad0c9f81bd0cc4e1ae79279b7d1c22b63619c83b798fb39454`
 

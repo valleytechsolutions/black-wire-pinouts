@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-expansion-respeaker-xvf3800-usb-4-mic-array)
+
+Device category: **Cameras & audio**
 
 ## Pinout
 
@@ -20,6 +22,8 @@ Coverage: Pinout image collected
 [Source 1](https://files.seeedstudio.com/wiki/respeaker_xvf3800_usb/pinout.jpg) · [Source 2](https://wiki.seeedstudio.com/respeaker_xvf3800_introduction/)
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `4fc0169086ad6cb9715473df13d84986f65f0d931166109c23609a32f1c51f75`
 
@@ -36,6 +40,8 @@ SHA-256: `4fc0169086ad6cb9715473df13d84986f65f0d931166109c23609a32f1c51f75`
 [Source 1](https://files.seeedstudio.com/wiki/respeaker_xvf3800_usb/no-xiao-xvf.jpg) · [Source 2](https://wiki.seeedstudio.com/respeaker_xvf3800_introduction/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `61486498cd13062484cfed2b6e8bcc3ea60d826043e7df6468b862c35048770b`
 

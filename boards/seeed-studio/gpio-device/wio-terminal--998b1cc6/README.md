@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-gpio-device-wio-terminal)
+
+Device category: **Displays & HMI**
 
 ## Pinout (Grove)
 
@@ -21,7 +23,7 @@ Coverage: Pinout image collected
 
 Imported from existing Seeed Studio Board Reference; original working path preserved. Only the named connector or subsection is covered.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `63f91d125d4191ea30cf3aa574c0577b4570469862bcb3de9ce6f2e97bff4993`
 
@@ -39,6 +41,8 @@ SHA-256: `63f91d125d4191ea30cf3aa574c0577b4570469862bcb3de9ce6f2e97bff4993`
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
 
+Image revision: Not identified
+
 SHA-256: `16b1b25abf9851642672128a765aa3f0111a022514f51566e19131c634e0b444`
 
 ## Dimensions (Back)
@@ -53,6 +57,8 @@ SHA-256: `16b1b25abf9851642672128a765aa3f0111a022514f51566e19131c634e0b444`
 
 Original source index: Dimensions (Back). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `28562c2ef7e2082ad47fa471c9765259f914027e1c49705f045a1e8425aca579`
 
 ## Dimensions (Front)
@@ -66,6 +72,8 @@ SHA-256: `28562c2ef7e2082ad47fa471c9765259f914027e1c49705f045a1e8425aca579`
 [Source 1](https://files.seeedstudio.com/wiki/Wio-Terminal/res/Wio-Terminal-Main-V3.0-White-72x57x10.4mm.pdf) · [Source 2](https://wiki.seeedstudio.com/Wio-Terminal-Getting-Started/)
 
 Original source index: Dimensions (Front). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `f1f7d04dc711a7e5b29bc6f7808b0247e286b4d6b9963f1edf6f6d925c3bb5bf`
 
@@ -83,6 +91,8 @@ SHA-256: `f1f7d04dc711a7e5b29bc6f7808b0247e286b4d6b9963f1edf6f6d925c3bb5bf`
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `1fab42abd1e7b7a5f5de24b574f7303d4887ccab2d319577f96b12a3148f79f5`
 
 ## Pin Definition (Debug Pads)
@@ -99,6 +109,8 @@ SHA-256: `1fab42abd1e7b7a5f5de24b574f7303d4887ccab2d319577f96b12a3148f79f5`
 
 Original source index: Pin Definition (Debug Pads). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `de0dcddd431bb59d976749984ece7b654dc99cd0f0e138966581c2c567477d6d`
 
 ## Pin Definition Table (SWD)
@@ -114,6 +126,8 @@ SHA-256: `de0dcddd431bb59d976749984ece7b654dc99cd0f0e138966581c2c567477d6d`
 [Source 1](https://files.seeedstudio.com/wiki/SWD/pinout.png) · [Source 2](https://wiki.seeedstudio.com/Software-SWD/)
 
 Original source index: Pin Definition Table (SWD). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `354abd49b6dfc2f0d28c9d8ef170da16db47b049eb7493964b144635f8733752`
 

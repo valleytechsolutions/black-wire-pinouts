@@ -5,7 +5,9 @@
 Revision: Unverified source identity  
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-93fd6c4164c1453cf3)
+
+Device category: **Radios & GNSS**
 
 ## Hardware Overview (Inside) 2
 
@@ -20,6 +22,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/SenseCAP/SenseCAP_T2000_Tracker/SenseCAP_T2000C_Tracker_Hardware.jpg) · [Source 2](https://wiki.seeedstudio.com/Get_Started_with_SenseCAP_T2000_tracker/)
 
 Original source index: Hardware Overview (Inside) 2. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `37fcc970f79d26aa30307539018b592f03497a09ce172fc120100d15eec94a9f`
 
@@ -37,6 +41,8 @@ SHA-256: `37fcc970f79d26aa30307539018b592f03497a09ce172fc120100d15eec94a9f`
 
 Original source index: Hardware Overview (Inside). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `887a35fbfb50399034b460c019c88155d7503ca44355593d401f0c8896d6dfcf`
 
 ## Hardware Overview
@@ -52,6 +58,8 @@ SHA-256: `887a35fbfb50399034b460c019c88155d7503ca44355593d401f0c8896d6dfcf`
 [Source 1](https://files.seeedstudio.com/wiki/SenseCAP/SenseCAP_T2000_Tracker/SenseCAP_T2000_Tracker_Hardware_Overview.png) · [Source 2](https://wiki.seeedstudio.com/Get_Started_with_SenseCAP_T2000_tracker/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `6f97d95d7c0bc500f44a3653ee27b5f50977b25853dfdb16090d066ae68644d7`
 

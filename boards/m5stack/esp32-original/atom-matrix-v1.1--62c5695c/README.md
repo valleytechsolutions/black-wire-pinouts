@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=m5stack-gpio-device-atom-matrix-v1-1)
+
+Device category: **Controllers & instruments**
 
 ## Pinout
 
@@ -20,6 +22,8 @@ Coverage: Pinout image collected
 [Source 1](https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1228/C008-B-V11_PinMap.jpg) · [Source 2](https://docs.m5stack.com/en/core/Atom-Matrix_v1.1)
 
 Imported from existing M5Stack Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `bba6704a0f8a17931ce75d4e4db97a1250d2f6eacef058d27fd850e7ec417cdb`
 

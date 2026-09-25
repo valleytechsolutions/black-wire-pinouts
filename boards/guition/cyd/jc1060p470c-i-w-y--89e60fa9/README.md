@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Board labels only; pinout needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=guition-cyd-jc1060p470c-i-w-y)
+
+Device category: **Displays & HMI**
 
 ## Board layout labels - PDF page 5
 
@@ -21,6 +23,8 @@ Coverage: Board labels only; pinout needed
 
 Manufacturer-hosted board reference; select and review physical pinout pages before inclusion. Original PDF page 5 rendered at 220 dpi; no labels changed. This labels board components/connectors and is not a pin-by-pin signal map.
 
+Image revision: Not identified
+
 SHA-256: `5dfa6c68bbba404bb2ad22ce7dc35ff2a92168a1210c2a622220c8c6df4cae54`
 
 ## Manufacturer reference PDF
@@ -34,6 +38,8 @@ SHA-256: `5dfa6c68bbba404bb2ad22ce7dc35ff2a92168a1210c2a622220c8c6df4cae54`
 [Source 1](https://www.guition.com/icms/upload/fb081940d6fc11f09850077a33e1404f/FTPData/UEditor/file/2026121/1768961093646/JC1060P470C_I_W_Y Specifications-EN.pdf) · [Source 2](https://www.guition.com/-download)
 
 Manufacturer-hosted board reference; select and review physical pinout pages before inclusion.
+
+Image revision: Not identified
 
 SHA-256: `a19323b7d9ee1af360b6d08c23e7b568ae13bbe150568a239da1885e3a75adb6`
 

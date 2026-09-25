@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=m5stack-esp32-atom-matrix-esp32)
+
+Device category: **Controllers & instruments**
 
 ## Physical board pinout
 
@@ -20,6 +22,8 @@ Coverage: Pinout image collected
 [Source 1](https://cdn-shop.adafruit.com/product-files/4497/P4497+C008-B_PinMap_01.jpg) · [Source 2](https://www.adafruit.com/product/4497)
 
 Discovered from CircuitPython board metadata and the linked product/documentation page. Exact hardware revision requires matching to the diagram.
+
+Image revision: Not identified
 
 SHA-256: `50b58e784ae85243b6c91374311717c43e35b38158859daa51b91246b393a9e1`
 

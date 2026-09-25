@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lilygo-esp32-t-embed-cc1101)
+
+Device category: **Handhelds & pocket tools**
 
 ## Board pin map
 
@@ -20,6 +22,8 @@ Coverage: Pinout image collected
 [Source 1](https://wiki.lilygo.cc/products/t-embed-series/t-embed-cc1101/index/image/t-embed-cc1101-en.jpg) · [Source 2](https://wiki.lilygo.cc/products/t-embed-series/t-embed-cc1101/)
 
 Manufacturer image preserved. Match the depicted board and revision before use.
+
+Image revision: Not identified
 
 SHA-256: `da139f15d1089ed3b1a675fbf5f4841e7b8b9a1931bc75cf6be39459e7c62923`
 

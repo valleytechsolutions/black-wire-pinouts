@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lilygo-esp32-t-motor)
+
+Device category: **Controllers & instruments**
 
 ## image1
 
@@ -20,6 +22,8 @@ Coverage: Pinout image collected
 [Source 1](https://raw.githubusercontent.com/Xinyuan-LilyGO/T-Motor/a867ce9fb0b56c491e3272ae722d607ec00b9259/image/image1.jpg) · [Source 2](https://github.com/Xinyuan-LilyGO/T-Motor/blob/a867ce9fb0b56c491e3272ae722d607ec00b9259/image/image1.jpg)
 
 Original manufacturer diagram. Shown module, radio, display and power-system options must match the board.
+
+Image revision: Not identified
 
 SHA-256: `4d8fc007b886d646ee6bd08857e06c3846b222ce578dcf961b3fdb5d983bdf24`
 

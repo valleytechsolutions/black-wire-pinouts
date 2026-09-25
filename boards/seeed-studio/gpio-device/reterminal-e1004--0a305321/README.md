@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Partial pinout collected; full reference still needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-gpio-device-reterminal-e1004)
+
+Device category: **Displays & HMI**
 
 ## Pinout
 
@@ -21,7 +23,7 @@ Coverage: Partial pinout collected; full reference still needed
 
 Imported from existing Seeed Studio Board Reference; original working path preserved. Only the named connector or subsection is covered.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `b5d85d6b63c54f40efa3f4dae043f008feffe2dec55f1f628ce863d1461450ef`
 
@@ -38,6 +40,8 @@ SHA-256: `b5d85d6b63c54f40efa3f4dae043f008feffe2dec55f1f628ce863d1461450ef`
 [Source 1](https://files.seeedstudio.com/wiki/reterminal_e10xx/img/209.png) · [Source 2](https://wiki.seeedstudio.com/getting_started_with_reterminal_e1004/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `095a99c2468816a13f32cc0f8946d8dd68bcba8e2ca7eb8b26e469655b58aa8b`
 

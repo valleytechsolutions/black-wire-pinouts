@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Partial pinout collected; full reference still needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-gpio-device-sensecap-indicator-d1pro)
+
+Device category: **Displays & HMI**
 
 ## Pinout (USB-C Connector)
 
@@ -21,7 +23,7 @@ Coverage: Partial pinout collected; full reference still needed
 
 Imported from existing Seeed Studio Board Reference; original working path preserved. Only the named connector or subsection is covered.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `2e322c248b80e125432e4071351e28fdb310486a227b50e3562b3bd46c46fe72`
 

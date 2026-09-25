@@ -5,7 +5,9 @@
 Revision: Unverified source identity  
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-dc0349f59be7face17)
+
+Device category: **Wearables**
 
 ## Dimensions
 
@@ -20,6 +22,8 @@ Coverage: Source collection; review pending
 [Source 1](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/products/core/M5StickC%20PLUS2/148c931a782264fa73700b89a6060bb.jpg) · [Source 2](https://docs.m5stack.com/en/accessory/Stick_Watch_Accessory_Kit)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `86eaf31ecafc87d4c7eeaae313668d5034c49800be98b1653766d99eb6bd4d99`
 
@@ -37,6 +41,8 @@ SHA-256: `86eaf31ecafc87d4c7eeaae313668d5034c49800be98b1653766d99eb6bd4d99`
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `05253e5094d741f2fec5e5666e5d721fbdf873068ab9cdb1bad26d1aefcc1494`
 
 ## Dimensions
@@ -52,6 +58,8 @@ SHA-256: `05253e5094d741f2fec5e5666e5d721fbdf873068ab9cdb1bad26d1aefcc1494`
 [Source 1](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/products/core/M5StickC%20PLUS2/f1243c84791dc7551d58d683edb6aab.jpg) · [Source 2](https://docs.m5stack.com/en/accessory/Stick_Watch_Accessory_Kit)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `465506b0340443fb4dc9c8ae058c9db6c8347b22f36178b738c5bf31d742b1a3`
 

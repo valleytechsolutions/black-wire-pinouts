@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lilygo-gpio-device-t-watch-s3-plus)
+
+Device category: **Wearables**
 
 ## Board pin map
 
@@ -20,6 +22,8 @@ Coverage: Pinout image collected
 [Source 1](https://wiki.lilygo.cc/products/t-watch-series/t-watch-s3-plus/index/image/t-watch-s3-plus3.jpg) · [Source 2](https://wiki.lilygo.cc/products/t-watch-series/t-watch-s3-plus/)
 
 Manufacturer image preserved. Match the depicted board and revision before use.
+
+Image revision: Not identified
 
 SHA-256: `a08ec2bd88ae4146da143e3ef2b6bf28087d30964afb779c891796eaa6177c54`
 

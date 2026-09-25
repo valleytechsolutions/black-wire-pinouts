@@ -5,7 +5,9 @@
 Revision: Unverified source identity  
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-77ca519cf5f8247c4a)
+
+Device category: **Wearables**
 
 ## Block Diagram
 
@@ -20,6 +22,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/watcher_getting_started/Diagram.png) · [Source 2](https://wiki.seeedstudio.com/watcher_hardware_overview/)
 
 Original source index: Block Diagram. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `8f5ca79ee55994920b7562e4a4ecdc7c8857820ceea750f22db6732fa44af64e`
 
@@ -37,6 +41,8 @@ SHA-256: `8f5ca79ee55994920b7562e4a4ecdc7c8857820ceea750f22db6732fa44af64e`
 
 Original source index: Hardware Overview (Back). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `fcf19e2fb0203b2f5b2d4a5bbcad2f6031ecafb7104fefac75658c8a347fd17b`
 
 ## Hardware Overview (Front)
@@ -52,6 +58,8 @@ SHA-256: `fcf19e2fb0203b2f5b2d4a5bbcad2f6031ecafb7104fefac75658c8a347fd17b`
 [Source 1](https://files.seeedstudio.com/wiki/watcher_getting_started/hardware-1.png) · [Source 2](https://wiki.seeedstudio.com/watcher_hardware_overview/)
 
 Original source index: Hardware Overview (Front). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `500a680b81ca1c53d4d71d49c34b38161ff2e21f3b1eacc1c45d440574cf6642`
 
@@ -69,6 +77,8 @@ SHA-256: `500a680b81ca1c53d4d71d49c34b38161ff2e21f3b1eacc1c45d440574cf6642`
 
 Original source index: Hardware Overview (Inside). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `a8b67a5a2f56a2303050260c82c78d650c678263eb2b53139301a8eb842670ef`
 
 ## Hardware Overview
@@ -84,6 +94,8 @@ SHA-256: `a8b67a5a2f56a2303050260c82c78d650c678263eb2b53139301a8eb842670ef`
 [Source 1](https://files.seeedstudio.com/wiki/watcher_getting_started/hardware_overview.jpg) · [Source 2](https://wiki.seeedstudio.com/watcher_hardware_overview/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `64e4244bbd9b71a91b423d84b5217801d8b51dde53ca8021f54ed63f60f82669`
 

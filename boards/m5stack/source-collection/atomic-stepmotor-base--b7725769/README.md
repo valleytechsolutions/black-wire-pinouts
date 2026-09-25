@@ -5,7 +5,9 @@
 Revision: Unverified source identity  
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-06fe25e5fc818123d1)
+
+Device category: **Controllers & instruments**
 
 ## Dimensions
 
@@ -20,6 +22,8 @@ Coverage: Source collection; review pending
 [Source 1](https://static-cdn.m5stack.com/resource/docs/products/atom/Atomic Stepmotor Base/img-123b7b45-dce4-45a1-abd1-7c6fc60749de.jpg) · [Source 2](https://docs.m5stack.com/en/atom/Atomic%20Stepmotor%20Base)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `050397c51011c701315ab33e47cfee301b33b7e9e68f2c6057801bb5c39d6816`
 

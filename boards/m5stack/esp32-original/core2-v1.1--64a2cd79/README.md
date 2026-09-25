@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: GPIO reference collected; physical pinout needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=m5stack-gpio-device-core2-v1-1)
+
+Device category: **Controllers & instruments**
 
 ## Pinout
 
@@ -20,6 +22,8 @@ Coverage: GPIO reference collected; physical pinout needed
 [Source 1](https://www.gwendesign.com/kb/m5stack/img/M5StackM5Core2GPIO.png) · [Source 2](https://docs.m5stack.com/en/core/Core2%20v1.1)
 
 Imported from existing M5Stack Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `31abfdb0fd464a87fd03e0cd0c713fec83d3b550f3b4958eccbc3123a3b8de6f`
 

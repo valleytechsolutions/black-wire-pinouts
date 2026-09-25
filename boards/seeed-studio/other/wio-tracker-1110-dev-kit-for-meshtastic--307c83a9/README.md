@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-other-wio-tracker-1110-dev-kit-for-meshtastic)
+
+Device category: **Radios & GNSS**
 
 ## Pinout
 
@@ -20,6 +22,8 @@ Coverage: Pinout image collected
 [Source 1](https://files.seeedstudio.com/wiki/SenseCAP/wio_tracker/wio-tracker-grove.png) · [Source 2](https://wiki.seeedstudio.com/development_tutorial_for_Wio-trakcer/)
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `30ba5d2c3d69f202565441460dea30e59aff5a8623bcb9b299a957a43611e21e`
 

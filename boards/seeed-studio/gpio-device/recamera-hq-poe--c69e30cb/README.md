@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Partial pinout collected; full reference still needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-gpio-device-recamera-hq-poe)
+
+Device category: **Cameras & audio**
 
 ## Pinout (Debug UART)
 
@@ -21,7 +23,7 @@ Coverage: Partial pinout collected; full reference still needed
 
 Imported from existing Seeed Studio Board Reference; original working path preserved. Only the named connector or subsection is covered.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `6b6ddedb37088c4c9eaa543f397650b06d3595fcd322c2bb71477abdbd604496`
 
@@ -38,6 +40,8 @@ SHA-256: `6b6ddedb37088c4c9eaa543f397650b06d3595fcd322c2bb71477abdbd604496`
 [Source 1](https://files.seeedstudio.com/wiki/reCamera/reCamera_hq_poe/IO_Lens_6.png) · [Source 2](https://wiki.seeedstudio.com/reCamera_hq_poe_hardware_and_specs/)
 
 Original source index: Pin Functions (Lens-IO Connector). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `ba3ec9fa80d3b97877a35e4482a8971acd202fcf5782b010a27b06ec50d948d3`
 

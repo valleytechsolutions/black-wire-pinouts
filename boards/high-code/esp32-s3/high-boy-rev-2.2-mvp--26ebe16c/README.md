@@ -5,7 +5,9 @@
 Revision: REV 2.2 MVP; not final production  
 Coverage: Partial pinout collected; full reference still needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=high-code-gpio-device-high-boy-rev-2-2-mvp)
+
+Device category: **Handhelds & pocket tools**
 
 ## REV 2.2 prototype connector signal labels
 
@@ -21,7 +23,7 @@ Coverage: Partial pinout collected; full reference still needed
 
 Manufacturer labels this design as an MVP prototype, not the final production version. Preserve that distinction.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: REV 2.2 MVP; not final production
 
 SHA-256: `c5e11b49a7c395434bbe335cff2b4acd41be9db8dc6cc55992bfadeb83237c53`
 

@@ -5,7 +5,9 @@
 Revision: Unverified source identity  
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-8ee6f9d2d3009c621c)
+
+Device category: **Cameras & audio**
 
 ## Block Diagram (Base Board B401)
 
@@ -20,6 +22,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/reCamera/Gimbal/B401_block.png) · [Source 2](https://wiki.seeedstudio.com/recamera_gimbal_hardware_and_specs/)
 
 Original source index: Block Diagram (Base Board B401). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `72cbf35819a05b181b51aebba3a2804f91295d7f8f79c6269f2130275f1ef183`
 
@@ -37,6 +41,8 @@ SHA-256: `72cbf35819a05b181b51aebba3a2804f91295d7f8f79c6269f2130275f1ef183`
 
 Original source index: Block Diagram (Core Board C101). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `be36c15abc8901de4bf18c81d6e400e61f3bb5cccfb867fcd7be196468011292`
 
 ## Block Diagram (Power Supply)
@@ -52,6 +58,8 @@ SHA-256: `be36c15abc8901de4bf18c81d6e400e61f3bb5cccfb867fcd7be196468011292`
 [Source 1](https://files.seeedstudio.com/wiki/reCamera/Gimbal/power_supply_block.png) · [Source 2](https://wiki.seeedstudio.com/recamera_gimbal_hardware_and_specs/)
 
 Original source index: Block Diagram (Power Supply). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `0c3b6b3b576cec029554f134672d51703c2f3d7466046af6827aa762c24ed851`
 
@@ -69,6 +77,8 @@ SHA-256: `0c3b6b3b576cec029554f134672d51703c2f3d7466046af6827aa762c24ed851`
 
 Original source index: Hardware Overview (Top). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `54ce56afa55c703ec417e4985ab29d7fd485312546d26b274ed818ee777828a2`
 
 ## Hardware Overview
@@ -84,6 +94,8 @@ SHA-256: `54ce56afa55c703ec417e4985ab29d7fd485312546d26b274ed818ee777828a2`
 [Source 1](https://files.seeedstudio.com/wiki/reCamera/Gimbal/Interface.png) · [Source 2](https://wiki.seeedstudio.com/recamera_gimbal_hardware_and_specs/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `4dbad2d8f459e2402147ef99bb87bf27ec3c30eb627deba0c0c2468983901ae1`
 

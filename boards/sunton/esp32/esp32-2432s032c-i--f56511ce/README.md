@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Board labels only; pinout needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=sunton-cyd-esp32-2432s032c-i)
+
+Device category: **Displays & HMI**
 
 ## Community board reference
 
@@ -20,6 +22,8 @@ Coverage: Board labels only; pinout needed
 [Source 1](https://f1atb.fr/wp-content/uploads/2026/03/ESP32-2432S032.jpg) · [Source 2](https://f1atb.fr/esp32-2432s028-esp32-2432s024-jc2432w328/)
 
 Variant must be identified from this exact image and its surrounding source text.
+
+Image revision: Not identified
 
 SHA-256: `702b98e18ba234e37ce472df1e772fb898fb806cc598e33ac62bdb7524468559`
 

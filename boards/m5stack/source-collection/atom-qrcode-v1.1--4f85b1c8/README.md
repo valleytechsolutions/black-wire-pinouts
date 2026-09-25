@@ -5,7 +5,9 @@
 Revision: Unverified source identity  
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-4f4a1ccca28f3161bc)
+
+Device category: **Controllers & instruments**
 
 ## Dimensions
 
@@ -20,6 +22,8 @@ Coverage: Source collection; review pending
 [Source 1](https://static-cdn.m5stack.com/resource/docs/products/unit/ATOM QR-CODE Kit/img-0979427e-e51c-4cbe-ab2c-1a1c3c5cad0e.png) · [Source 2](https://docs.m5stack.com/en/atom/ATOM%20QR-CODE%20Kit)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `30d700356791eca1d2b9bf1f16892ce702507e650d90c4f37738196258cda59b`
 

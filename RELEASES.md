@@ -4,6 +4,12 @@
 
 These are two independent release streams. A **collection release** contains images, PDFs, indexes and attribution records. A **desktop app release** contains an application for the operating systems listed in that release. A collection ZIP is not a desktop installer.
 
+## First Edition device snapshot — 2026.09.2
+
+This snapshot adds the Devices & IoT index and 15 original reference images, including 7 pinout/connector sheets. It contains 3,003 reference entries, 1,365 physical pinout entries, 1,688 populated records and 2,953 unique original media files. Of the populated records, 310 are indexed as devices across 11 manufacturer/source groups.
+
+Download `Black-Wire-Pinouts-2026.09.2.zip` and `SHA256SUMS.txt` from [v2026.09.2](https://github.com/valleytechsolutions/black-wire-pinouts/releases/tag/v2026.09.2). This is a new digital snapshot within **First Edition**, not a second book edition. See [EDITION.md](EDITION.md).
+
 ## September 2026 snapshot — 2026.09.1
 
 The first downloadable collection edition includes 2,988 reference entries, 1,358 reviewed physical board pinout images, 1,682 populated catalog records, 59 manufacturer/source groups and 2,938 unique original media files. Counts include shared references and unreviewed source products; this is not a complete census of boards.
@@ -28,6 +34,6 @@ This snapshot includes partial references, unidentified revisions and unreviewed
 
 ## Preparing future editions
 
-Use an edition tag such as `vYYYY.MM.N` and export its exact reviewed Git commit with `git archive`. Do not ZIP the working directory: it may contain `.git`, private local files or untracked research material. Preserve original reference bytes and use a single clearly named top-level folder in the archive.
+Use a collection snapshot tag such as `vYYYY.MM.N` and export its exact reviewed Git commit with `git archive`. Do not ZIP the working directory: it may contain `.git`, private local files or untracked research material. Preserve original reference bytes and use a single clearly named top-level folder in the archive.
 
-Verify ZIP integrity, required notices, all library-manifest paths and content hashes for the original media. Generate SHA-256 from the final ZIP, upload to a draft release, compare GitHub's uploaded digest and byte size, then publish the edition. Keep checks and logs outside the tracked repository. Do not replace the contents of a published edition; issue a new edition for corrections.
+Verify ZIP integrity, required notices, all library-manifest paths and content hashes for the original media. Generate SHA-256 from the final ZIP, upload to a draft release, compare GitHub's uploaded digest and byte size, then publish the snapshot. Keep checks and logs outside the tracked repository. Do not replace the contents of a published edition; issue a new snapshot for corrections.

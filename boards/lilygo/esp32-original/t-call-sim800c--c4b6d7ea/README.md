@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lilygo-esp32-t-call-sim800c)
+
+Device category: **Controllers & instruments**
 
 ## SIM800C
 
@@ -20,6 +22,8 @@ Coverage: Pinout image collected
 [Source 1](https://raw.githubusercontent.com/Xinyuan-LilyGO/LilyGo-T-Call-SIM800/11db8bf5bc38f52a6122fdfdb6b6a821f26808b8/image/SIM800C.png) · [Source 2](https://github.com/Xinyuan-LilyGO/LilyGo-T-Call-SIM800/blob/11db8bf5bc38f52a6122fdfdb6b6a821f26808b8/image/SIM800C.png)
 
 Original manufacturer diagram. Shown module, radio, display and power-system options must match the board.
+
+Image revision: Not identified
 
 SHA-256: `3cd82ae481df24137d4a359b1148b57147fd55f14e6cbab997e6a533269ec24f`
 

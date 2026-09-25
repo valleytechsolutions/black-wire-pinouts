@@ -5,7 +5,9 @@
 Revision: Unverified source identity  
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-5b49f71851046f66df)
+
+Device category: **Controllers & instruments**
 
 ## Dimensions
 
@@ -20,6 +22,8 @@ Coverage: Source collection; review pending
 [Source 1](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/products/core/fire/module%20size.jpg) · [Source 2](https://docs.m5stack.com/en/core/fire)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `1d307da6487e9573ed792012bed856839e1e7935cf69508392b2ee9d9db76e48`
 
@@ -36,6 +40,8 @@ SHA-256: `1d307da6487e9573ed792012bed856839e1e7935cf69508392b2ee9d9db76e48`
 [Source 1](https://static-cdn.m5stack.com/resource/docs/products/core/gray/mpu6886_bmm150_axis.webp) · [Source 2](https://docs.m5stack.com/en/core/fire)
 
 Original source index: Pinout. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `2a4bbdeb272fde8ad092c3cd4cb333a21b14e3ed0ff1b8d6640bdc79fe4c6d4d`
 

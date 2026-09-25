@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Board labels only; pinout needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=guition-cyd-esp32-2432s032)
+
+Device category: **Displays & HMI**
 
 ## Board layout labels - PDF page 5
 
@@ -21,6 +23,8 @@ Coverage: Board labels only; pinout needed
 
 Manufacturer-hosted board reference; select and review physical pinout pages before inclusion. Original PDF page 5 rendered at 220 dpi; no labels changed. This labels board components/connectors and is not a pin-by-pin signal map.
 
+Image revision: Not identified
+
 SHA-256: `22494a83f8bd5e4096b1602a6282e19e873ac6bbe8fe6b0e74a505bfe3aa128f`
 
 ## Manufacturer reference PDF
@@ -34,6 +38,8 @@ SHA-256: `22494a83f8bd5e4096b1602a6282e19e873ac6bbe8fe6b0e74a505bfe3aa128f`
 [Source 1](https://www.guition.com/icms/upload/fb081940d6fc11f09850077a33e1404f/FTPData/UEditor/file/2026121/1768961092276/ESP32-2432S032 Specifications-EN.pdf) · [Source 2](https://www.guition.com/-download)
 
 Manufacturer-hosted board reference; select and review physical pinout pages before inclusion.
+
+Image revision: Not identified
 
 SHA-256: `9ee9d0c6391cfd171f4131c54b6a06d940982cf5bba17a463d9a3e31f040c8a6`
 

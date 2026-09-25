@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Partial pinout collected; full reference still needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lilygo-gpio-device-t-watch-block-touch)
+
+Device category: **Wearables**
 
 ## TBlock_Touch
 
@@ -21,7 +23,7 @@ Coverage: Partial pinout collected; full reference still needed
 
 Original manufacturer diagram. Shown module, radio, display and power-system options must match the board.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `dca5f6b7cc3917a79a1c4236e72477bf2e5042d82595f7d80a0bed97ab1f8630`
 

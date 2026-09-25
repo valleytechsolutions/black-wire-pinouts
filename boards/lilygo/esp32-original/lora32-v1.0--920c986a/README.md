@@ -5,7 +5,9 @@
 Revision: V1.0 printed on diagram  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lilygo-esp32-lora32-v1-0)
+
+Device category: **Radios & GNSS**
 
 ## lora32_v1.0_pinmap
 
@@ -20,6 +22,8 @@ Coverage: Pinout image collected
 [Source 1](https://raw.githubusercontent.com/Xinyuan-LilyGO/LilyGo-LoRa-Series/5e2da3f519a25e91b9b14c3071e36a568bbd949d/assets/image/lora32_v1.0_pinmap.jpg) · [Source 2](https://github.com/Xinyuan-LilyGO/LilyGo-LoRa-Series/blob/5e2da3f519a25e91b9b14c3071e36a568bbd949d/assets/image/lora32_v1.0_pinmap.jpg)
 
 V1.0 printed on diagram
+
+Image revision: V1.0 printed on diagram
 
 SHA-256: `55359023f274cbef241de0a72dee8e98931ff11f0b0e9dca39959e8c8fd4f770`
 

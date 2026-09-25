@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-gpio-device-reterminal)
+
+Device category: **Displays & HMI**
 
 ## Pinout
 
@@ -20,6 +22,8 @@ Coverage: Pinout image collected
 [Source 1](https://files.seeedstudio.com/wiki/ReTerminal/pinout-v2.jpg) · [Source 2](https://wiki.seeedstudio.com/reTerminal-hardware-interfaces-usage/)
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `9d189da2f85eee8ad9943d9ed4bc1bc840bf61ff0ae375ec49a74ae8d9a151d6`
 
@@ -37,6 +41,8 @@ SHA-256: `9d189da2f85eee8ad9943d9ed4bc1bc840bf61ff0ae375ec49a74ae8d9a151d6`
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `6366f7ae56fb2d575e33faaa21580b62d3e62dbe436c0408f1e829d01edee0aa`
 
 ## Hardware Overview (Inside)
@@ -53,6 +59,8 @@ SHA-256: `6366f7ae56fb2d575e33faaa21580b62d3e62dbe436c0408f1e829d01edee0aa`
 
 Original source index: Hardware Overview (Inside). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `5a6c11edc60141af95e4746e0ff2b0d6d4d87c08b8d118d2b857c94e5f206709`
 
 ## Hardware Overview
@@ -68,6 +76,8 @@ SHA-256: `5a6c11edc60141af95e4746e0ff2b0d6d4d87c08b8d118d2b857c94e5f206709`
 [Source 1](https://files.seeedstudio.com/wiki/ReTerminal/HW_overview.png) · [Source 2](https://wiki.seeedstudio.com/reTerminal-hardware-interfaces-usage/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `18f322ad72a2bf65f9f937a0314802f91a55dfb6e1b2f5f9057eff73bb803ab6`
 

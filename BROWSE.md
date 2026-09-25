@@ -1,5 +1,7 @@
 # Browse the reference collection
 
+[Devices & IoT](DEVICES.md) · [First Edition policy](EDITION.md) · [Search the website](https://valleytechsolutions.tech/pages/bwm-technical-reference-guide)
+
 Board diagrams, GPIO references and additional source documents are labeled separately.
 
 ## 0xCB
@@ -352,7 +354,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Challenger RP2040 SubGHz](boards/invector-labs/rp2040/challenger-rp2040-subghz--212108a6/README.md) | RP2040 | 1 | 1 |
 | [Challenger RP2040 WiFi](boards/invector-labs/rp2040/challenger-rp2040-wifi--9ca6a093/README.md) | RP2040 | 1 | 1 |
 | [Challenger RP2040 WiFi/BLE](boards/invector-labs/rp2040/challenger-rp2040-wifi-ble--11504adb/README.md) | RP2040 | 1 | 1 |
-| [Challenger+ RP2350 BConnect](boards/invector-labs/rp2350/challenger%2B-rp2350-bconnect--e195bab7/README.md) | RP2350 | 1 | 1 |
+| [Challenger+ RP2350 BConnect](boards/invector-labs/rp2350/challenger+-rp2350-bconnect--e195bab7/README.md) | RP2350 | 1 | 1 |
 
 ## LILYGO
 
@@ -371,9 +373,9 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [T-A7670SA R2](boards/lilygo/esp32-original/t-a7670sa-r2--6d7858ca/README.md) | ESP32 original | 1 | 1 |
 | [T-Bao](boards/lilygo/esp32-original/t-bao--fc15da28/README.md) | ESP32 original | 1 | 1 |
 | [T-Beam](boards/lilygo/esp32-original/t-beam--ecc0e8d6/README.md) | ESP32 original | 1 | 1 |
-| [T-Beam 1W](boards/lilygo/esp32-s3/t-beam-1w--964bbee7/README.md) | ESP32-S3 | 1 | 1 |
+| [T-Beam 1W](boards/lilygo/esp32-s3/t-beam-1w--964bbee7/README.md) | ESP32-S3 | 2 | 1 |
 | [T-Beam S3 Core](boards/lilygo/esp32-s3/t-beam-s3-core--1421b0d0/README.md) | ESP32-S3 | 1 | 0 |
-| [T-Beam Supreme](boards/lilygo/esp32-s3/t-beam-supreme--79fb9ead/README.md) | ESP32-S3 | 2 | 2 |
+| [T-Beam Supreme](boards/lilygo/esp32-s3/t-beam-supreme--79fb9ead/README.md) | ESP32-S3 | 3 | 2 |
 | [T-Beam V1.1](boards/lilygo/esp32-original/t-beam-v1.1--ffab99f2/README.md) | ESP32 original | 1 | 1 |
 | [T-Beam-BPF](boards/lilygo/esp32-s3/t-beam-bpf--3ab26876/README.md) | ESP32-S3 | 1 | 1 |
 | [T-BHI260AP](boards/lilygo/other/t-bhi260ap--479772ca/README.md) | Other | 1 | 1 |
@@ -388,9 +390,9 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [T-Circle-S3](boards/lilygo/esp32-s3/t-circle-s3--182be220/README.md) | ESP32-S3 | 2 | 0 |
 | [T-Connect](boards/lilygo/esp32-s3/t-connect--e293c789/README.md) | ESP32-S3 | 1 | 1 |
 | [T-Connect Pro](boards/lilygo/esp32-s3/t-connect-pro--12ea4593/README.md) | ESP32-S3 | 1 | 1 |
-| [T-Deck](boards/lilygo/esp32/t-deck--f4cd8c89/README.md) | ESP32 | 1 | 1 |
+| [T-Deck](boards/lilygo/esp32/t-deck--f4cd8c89/README.md) | ESP32-S3 | 2 | 1 |
 | [T-Deck MAX](boards/lilygo/esp32/t-deck-max--a35419cf/README.md) | ESP32 | 1 | 1 |
-| [T-Deck Plus](boards/lilygo/esp32-s3/t-deck-plus--89691339/README.md) | ESP32-S3 | 1 | 1 |
+| [T-Deck Plus](boards/lilygo/esp32-s3/t-deck-plus--89691339/README.md) | ESP32-S3 | 2 | 1 |
 | [T-Deck Pro](boards/lilygo/esp32/t-deck-pro--f77f454a/README.md) | ESP32 | 1 | 1 |
 | [T-Display](boards/lilygo/esp32-original/t-display--ff5a78e3/README.md) | ESP32 original | 1 | 1 |
 | [T-Display Bar](boards/lilygo/esp32-s3/t-display-bar--4b837e60/README.md) | ESP32-S3 | 1 | 1 |
@@ -414,17 +416,20 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [T-Dongle-S3](boards/lilygo/esp32-s3/t-dongle-s3--39a6069a/README.md) | ESP32-S3 | 1 | 1 |
 | [T-Echo](boards/lilygo/nrf52840/t-echo--81156574/README.md) | nRF52840 | 2 | 0 |
 | [T-Echo Card](boards/lilygo/nrf52840/t-echo-card--7e6636c5/README.md) | nRF52840 | 1 | 1 |
+| [T-Echo Lite](boards/lilygo/nrf52840/t-echo-lite--9f2ca127/README.md) | nRF52840 | 1 | 1 |
+| [T-Echo Lite Core V1.0](boards/lilygo/nrf52840/t-echo-lite-core-v1-0--e966f7d9/README.md) | nRF52840 | 1 | 0 |
 | [T-Echo Lite Kit](boards/lilygo/nrf52840/t-echo-lite-kit--1d974ca0/README.md) | nRF52840 | 1 | 1 |
 | [T-Echo-Plus](boards/lilygo/nrf52840/t-echo-plus--39118019/README.md) | nRF52840 | 1 | 1 |
 | [T-Embed](boards/lilygo/esp32-s3/t-embed--2e4095ca/README.md) | ESP32-S3 | 1 | 1 |
 | [T-Embed CC1101](boards/lilygo/esp32-s3/t-embed-cc1101--30e136c6/README.md) | ESP32-S3 | 1 | 1 |
+| [T-Embed CC1101 Plus](boards/lilygo/esp32-s3/t-embed-cc1101-plus--03a154ce/README.md) | ESP32-S3 | 2 | 2 |
 | [T-Embed SI4732](boards/lilygo/esp32-s3/t-embed-si4732--3e5f171e/README.md) | ESP32-S3 | 1 | 1 |
 | [T-Encoder](boards/lilygo/esp32-s3/t-encoder--3263de60/README.md) | ESP32-S3 | 1 | 1 |
 | [T-Encoder Pro](boards/lilygo/esp32-s3/t-encoder-pro--6599ab00/README.md) | ESP32-S3 | 1 | 1 |
 | [T-ETH Elite](boards/lilygo/esp32-s3/t-eth-elite--67a6e49c/README.md) | ESP32-S3 | 1 | 1 |
 | [T-ETH Lite](boards/lilygo/esp32-original/t-eth-lite--a5f2b084/README.md) | ESP32 original | 1 | 1 |
 | [T-ETH Lite S3](boards/lilygo/esp32-s3/t-eth-lite-s3--bfa85d98/README.md) | ESP32-S3 | 1 | 1 |
-| [T-Glass](boards/lilygo/esp32/t-glass--9ccc558e/README.md) | ESP32 | 1 | 1 |
+| [T-Glass](boards/lilygo/esp32/t-glass--9ccc558e/README.md) | ESP32-S3 | 2 | 1 |
 | [T-Halow](boards/lilygo/esp32-s3/t-halow--ebdfc0c0/README.md) | ESP32-S3 | 1 | 1 |
 | [T-Halow P4](boards/lilygo/esp32-p4/t-halow-p4--92213728/README.md) | ESP32-P4 | 1 | 1 |
 | [T-Halow RJ45](boards/lilygo/other/t-halow-rj45--52a33008/README.md) | Other | 1 | 1 |
@@ -437,6 +442,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [T-Knob](boards/lilygo/esp32-c6/t-knob--ca69ae32/README.md) | ESP32-C6 | 1 | 1 |
 | [T-LoRa C6](boards/lilygo/esp32-c6/t-lora-c6--36a0e1c2/README.md) | ESP32-C6 | 1 | 1 |
 | [T-LoRa Dual](boards/lilygo/esp32-original/t-lora-dual--a38c8eae/README.md) | ESP32 original | 1 | 1 |
+| [T-LoRa Pager](boards/lilygo/esp32-s3/t-lora-pager--5dc2dcfe/README.md) | ESP32-S3 | 1 | 1 |
 | [T-Mini E-Paper S3](boards/lilygo/esp32-s3/t-mini-e-paper-s3--1607314c/README.md) | ESP32-S3 | 1 | 1 |
 | [T-Motion V1.0](boards/lilygo/stm32/t-motion-v1.0--938df2e5/README.md) | STM32 | 2 | 2 |
 | [T-Motor](boards/lilygo/esp32-original/t-motor--420363a9/README.md) | ESP32 original | 1 | 1 |
@@ -457,6 +463,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [T-TWR](boards/lilygo/esp32-s3/t-twr--32d9dc25/README.md) | ESP32-S3 | 1 | 1 |
 | [T-TWR-Plus](boards/lilygo/esp32-s3/t-twr-plus--9f789403/README.md) | ESP32-S3 | 1 | 1 |
 | [T-U2T](boards/lilygo/expansion/t-u2t--8eb347f5/README.md) | Expansion | 2 | 2 |
+| [T-Watch 2019](boards/lilygo/esp32-original/t-watch-2019--02e5ed4c/README.md) | ESP32 original | 1 | 0 |
 | [T-Watch 2021 V1.0](boards/lilygo/esp32/t-watch-2021-v1.0--91b987a8/README.md) | ESP32 | 1 | 0 |
 | [T-Watch 2021 V1.1](boards/lilygo/esp32/t-watch-2021-v1.1--1e8b0461/README.md) | ESP32 | 2 | 0 |
 | [T-Watch Block](boards/lilygo/esp32-original/t-watch-block--cceeff8c/README.md) | ESP32 original | 1 | 1 |
@@ -1063,8 +1070,8 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Teensy 4.0](boards/pjrc/nxp-arm/teensy-4.0--6558c6ba/README.md) | NXP ARM | 4 | 2 |
 | [Teensy 4.1](boards/pjrc/nxp-arm/teensy-4.1--9d5c9ae5/README.md) | NXP ARM | 4 | 2 |
 | [Teensy LC](boards/pjrc/nxp-arm/teensy-lc--75048722/README.md) | NXP ARM | 4 | 2 |
-| [Teensy++ 1.0](boards/pjrc/avr/teensy%2B%2B-1.0--2736a981/README.md) | AVR | 4 | 2 |
-| [Teensy++ 2.0](boards/pjrc/avr/teensy%2B%2B-2.0--88a117ac/README.md) | AVR | 4 | 2 |
+| [Teensy++ 1.0](boards/pjrc/avr/teensy++-1.0--2736a981/README.md) | AVR | 4 | 2 |
+| [Teensy++ 2.0](boards/pjrc/avr/teensy++-2.0--88a117ac/README.md) | AVR | 4 | 2 |
 
 ## PandaByte
 
@@ -1300,7 +1307,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Lipo Rider Pro](boards/seeed-studio/source-collection/lipo-rider-pro--2a08633b/README.md) | Source collection | 2 | 0 |
 | [Lipo Rider V1.1](boards/seeed-studio/source-collection/lipo-rider-v1.1--73c06ab1/README.md) | Source collection | 1 | 0 |
 | [Logic DC Jack](boards/seeed-studio/source-collection/logic-dc-jack--0c01202d/README.md) | Source collection | 1 | 0 |
-| [LoNet 808 - Mini GSM-GPRS + GPS Breakout](boards/seeed-studio/source-collection/lonet-808---mini-gsm-gprs-%2B-gps-breakout--6b99bc49/README.md) | Source collection | 2 | 0 |
+| [LoNet 808 - Mini GSM-GPRS + GPS Breakout](boards/seeed-studio/source-collection/lonet-808---mini-gsm-gprs-+-gps-breakout--6b99bc49/README.md) | Source collection | 2 | 0 |
 | [LoRa-LoRaWAN Gateway Kit](boards/seeed-studio/source-collection/lora-lorawan-gateway-kit--a06cbb04/README.md) | Source collection | 1 | 0 |
 | [LPWAN Dev Kit for Sidewalk](boards/seeed-studio/source-collection/lpwan-dev-kit-for-sidewalk--b67bac8c/README.md) | Source collection | 1 | 0 |
 | [LTE Cat 1 Pi HAT](boards/seeed-studio/expansion/lte-cat-1-pi-hat--21953f95/README.md) | Expansion | 4 | 0 |
@@ -1430,14 +1437,14 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Seeeduino ADK Main Board](boards/seeed-studio/source-collection/seeeduino-adk-main-board--26a6adf2/README.md) | Source collection | 1 | 0 |
 | [Seeeduino Arch](boards/seeed-studio/other/seeeduino-arch--6f26a85f/README.md) | Other | 1 | 1 |
 | [Seeeduino Cloud](boards/seeed-studio/source-collection/seeeduino-cloud--18b33ecd/README.md) | Source collection | 1 | 0 |
-| [Seeeduino Cortex-M0+](boards/seeed-studio/other/seeeduino-cortex-m0%2B--4b37b9b0/README.md) | Other | 3 | 1 |
+| [Seeeduino Cortex-M0+](boards/seeed-studio/other/seeeduino-cortex-m0+--4b37b9b0/README.md) | Other | 3 | 1 |
 | [Seeeduino Crypto (ATmega4809 ECC608)](boards/seeed-studio/source-collection/seeeduino-crypto-atmega4809-ecc608--2c199282/README.md) | Source collection | 1 | 0 |
 | [Seeeduino Ethernet](boards/seeed-studio/source-collection/seeeduino-ethernet--a6fd6240/README.md) | Source collection | 1 | 0 |
 | [Seeeduino GPRS](boards/seeed-studio/source-collection/seeeduino-gprs--44d4ab62/README.md) | Source collection | 1 | 0 |
 | [Seeeduino Lite](boards/seeed-studio/source-collection/seeeduino-lite--46c812af/README.md) | Source collection | 1 | 0 |
 | [Seeeduino LoRaWAN](boards/seeed-studio/source-collection/seeeduino-lorawan--fc82b372/README.md) | Source collection | 1 | 0 |
 | [Seeeduino Lotus](boards/seeed-studio/source-collection/seeeduino-lotus--1fe854c3/README.md) | Source collection | 1 | 0 |
-| [Seeeduino Lotus Cortex-M0+](boards/seeed-studio/other/seeeduino-lotus-cortex-m0%2B--c471b81f/README.md) | Other | 7 | 1 |
+| [Seeeduino Lotus Cortex-M0+](boards/seeed-studio/other/seeeduino-lotus-cortex-m0+--c471b81f/README.md) | Other | 7 | 1 |
 | [Seeeduino Mega](boards/seeed-studio/source-collection/seeeduino-mega--2fda4bcd/README.md) | Source collection | 2 | 0 |
 | [Seeeduino Nano](boards/seeed-studio/source-collection/seeeduino-nano--4892c955/README.md) | Source collection | 3 | 0 |
 | [Seeeduino Stalker](boards/seeed-studio/other/seeeduino-stalker--2773ee94/README.md) | Other | 1 | 0 |
@@ -1907,7 +1914,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [ESP32-C5-A](boards/weact-studio/esp32-c5/esp32-c5-a--188f1371/README.md) | ESP32-C5 | 1 | 1 |
 | [ESP32C3 Core Board](boards/weact-studio/esp32-c3/esp32c3-core-board--0afab7f9/README.md) | ESP32-C3 | 2 | 1 |
 | [ESP32S3-A](boards/weact-studio/esp32-s3/esp32s3-a--7ede9b91/README.md) | ESP32-S3 | 1 | 1 |
-| [MiniSTM32F4x1 (v2.0+)](boards/weact-studio/other/ministm32f4x1-v2.0%2B--a2dffb6b/README.md) | Other | 4 | 2 |
+| [MiniSTM32F4x1 (v2.0+)](boards/weact-studio/other/ministm32f4x1-v2.0+--a2dffb6b/README.md) | Other | 4 | 2 |
 | [MiniSTM32H723](boards/weact-studio/other/ministm32h723--035fee73/README.md) | Other | 1 | 0 |
 | [MSPM0G3507 Core Board](boards/weact-studio/other/mspm0g3507-core-board--58899898/README.md) | Other | 1 | 0 |
 | [RA4M1 64Pin Core Board](boards/weact-studio/other/ra4m1-64pin-core-board--a9ed4380/README.md) | Other | 1 | 0 |
@@ -1953,6 +1960,12 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [LOLIN S3 Pro](boards/wemos/esp32-s3/lolin-s3-pro--8660f5ac/README.md) | ESP32-S3 | 1 | 1 |
 | [LOLIN32](boards/wemos/esp32-original/lolin32--23f54a4d/README.md) | ESP32 original | 1 | 1 |
 | [LOLIN32 Lite](boards/wemos/esp32-original/lolin32-lite--9fd3bc4e/README.md) | ESP32 original | 1 | 1 |
+
+## WiPhone
+
+| Board / device | Processor / family | References | Pinout images |
+|---|---|---:|---:|
+| [WiPhone Bus Pirate Daughter Board V1.1](boards/wiphone/pic24fj64ga002/wiphone-bus-pirate-daughter-board-v1-1--2bc59329/README.md) | PIC24FJ64GA002 | 4 | 3 |
 
 ## Wireless-Tag
 

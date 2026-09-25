@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: GPIO reference collected; physical pinout needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=m5stack-gpio-device-atom-printer)
+
+Device category: **Controllers & instruments**
 
 ## Pinout
 
@@ -20,6 +22,8 @@ Coverage: GPIO reference collected; physical pinout needed
 [Source 1](https://static-cdn.m5stack.com/resource/docs/products/atom/atom_printer/atom_printer_sch_01.webp) · [Source 2](https://docs.m5stack.com/en/atom/atom_printer)
 
 Imported from existing M5Stack Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `0ab10efe1349205d9b2870399a851032161d5ff360b61b64d3c13b4f7f172973`
 

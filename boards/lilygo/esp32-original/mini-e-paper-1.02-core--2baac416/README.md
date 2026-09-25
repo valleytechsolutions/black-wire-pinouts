@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lilygo-esp32-mini-e-paper-1-02-core)
+
+Device category: **Displays & HMI**
 
 ## MINI1.02CORE
 
@@ -20,6 +22,8 @@ Coverage: Pinout image collected
 [Source 1](https://raw.githubusercontent.com/Xinyuan-LilyGO/LilyGO-Mini-Epaper/73441be24a207b9789e49c5781b137550eef1f56/images/MINI1.02CORE.jpg) · [Source 2](https://github.com/Xinyuan-LilyGO/LilyGO-Mini-Epaper/blob/73441be24a207b9789e49c5781b137550eef1f56/images/MINI1.02CORE.jpg)
 
 Original manufacturer diagram. Shown module, radio, display and power-system options must match the board.
+
+Image revision: Not identified
 
 SHA-256: `680022af2373ceace678eb76a7fcee47718d12eed57e69a3787b21fa3ea0e152`
 

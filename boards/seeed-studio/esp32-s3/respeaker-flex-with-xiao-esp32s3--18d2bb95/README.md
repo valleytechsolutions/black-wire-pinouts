@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-gpio-device-respeaker-flex-with-xiao-esp32s3)
+
+Device category: **Cameras & audio**
 
 ## Pinout
 
@@ -20,6 +22,8 @@ Coverage: Pinout image collected
 [Source 1](https://files.seeedstudio.com/wiki/reSpeaker_flex/header_pinout.jpg) · [Source 2](https://wiki.seeedstudio.com/respeaker_flex_introduction/)
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `bae72902c31d0d458742805a9cc48e3e31cefa8e4851dfc3b3e78edc2cac73a2`
 
@@ -36,6 +40,8 @@ SHA-256: `bae72902c31d0d458742805a9cc48e3e31cefa8e4851dfc3b3e78edc2cac73a2`
 [Source 1](https://files.seeedstudio.com/wiki/reSpeaker_flex/main.jpg) · [Source 2](https://wiki.seeedstudio.com/respeaker_flex_xiao_introduction/)
 
 Original source index: Hardware Overview 3. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `8ffa2f38bfe142bb4d0bfbff361804654d9db38acba1a50c4b9b1d34ac8edc23`
 

@@ -5,7 +5,9 @@
 Revision: Not identified  
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lilygo-esp32-t-higrow-v1-1-dht11)
+
+Device category: **Controllers & instruments**
 
 ## img2
 
@@ -20,6 +22,8 @@ Coverage: Pinout image collected
 [Source 1](https://raw.githubusercontent.com/Xinyuan-LilyGO/LilyGo-HiGrow/f5732ce6012e6ece349c9d1788bad4cf392c9aca/image/img2.jpg) · [Source 2](https://github.com/Xinyuan-LilyGO/LilyGo-HiGrow/blob/f5732ce6012e6ece349c9d1788bad4cf392c9aca/image/img2.jpg)
 
 Original manufacturer diagram. Shown module, radio, display and power-system options must match the board.
+
+Image revision: Not identified
 
 SHA-256: `2d76263001fc5f17a9ebd7ab057067b96e804c081530eb9c813ac61ed973d419`
 
