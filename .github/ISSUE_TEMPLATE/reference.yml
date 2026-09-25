@@ -1,0 +1,22 @@
+name: Board reference or correction
+description: Add a physical board diagram or correct its identity, credits or power data.
+body:
+  - type: input
+    id: identity
+    attributes:
+      label: Manufacturer, board, processor and PCB revision
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Original source links and creator / license information
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What should be added or corrected?
+      description: Identify partial coverage and uncertainty. Include conditions and instruments for measurements.
+    validations:
+      required: true

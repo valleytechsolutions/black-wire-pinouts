@@ -1,0 +1,63 @@
+<p align="center">
+  <img src="docs/brand/black-wire.png" width="110" alt="Black Wire logo"> &nbsp;&nbsp;
+  <img src="docs/brand/valleytech.png" width="80" alt="Valleytech Solutions logo">
+</p>
+<h1 align="center">Black Wire<br>Technical Reference Guide</h1>
+<p align="center"><strong>Know your board. Make the connection.</strong><br>A Valleytech Solutions project, made for the workbench.</p>
+<p align="center">Makers · Educators · Students · Hobbyists · Engineers</p>
+
+<p align="center"><a href="BROWSE.md">Browse boards</a> · <a href="catalog/attributions.csv">Source credits</a> · <a href="https://github.com/valleytechsolutions/black-wire-desktop">Get the desktop app</a> · <a href="CONTRIBUTING.md">Contribute a reference</a></p>
+
+## A reference shelf for your next project
+
+Find the picture that tells you **which physical pin does what**. This collection brings together original board pinouts, connector labels, GPIO references and supporting documents, organized by manufacturer, processor and exact board identity. The companion desktop app makes the same collection searchable offline.
+
+| September 2026 workshop snapshot | Count |
+|---|---:|
+| Reviewed physical board pinout images | **1,358** |
+| Searchable reference entries | **2,988** |
+| Catalog records with files | **1,682** |
+| Manufacturers and source groups | **59** |
+| Unique original media files, including vector companions | **2,938** |
+
+Records include shared references, variants, devices and unreviewed source products. These counts are **not a census of unique development boards**. Coverage is growing; it is not complete.
+
+![The Black Wire desktop library browsing this collection](docs/screenshots/library.png)
+
+## Find your board
+
+Start at **[Browse manufacturers and boards](BROWSE.md)**. Each board page includes a preview, original-resolution downloads, model/revision notes, and source credits. ESP32-C5, C6, S3 and other variants remain separate; RP2040, RP2350, CYD, Arduino, Teensy, SBCs and devices with GPIO have their own records.
+
+| What you need | Where to look |
+|---|---|
+| Physical board pins | Board pages marked **pinout image** |
+| Connector or GPIO labels | **GPIO reference image** and **board labeling image** |
+| Manuals, schematics or supporting material | **Original PDF** / **source reference**; check the review label |
+| Full-resolution originals | `library/media/`; linked from every board page |
+| Provenance, hashes and rights | [`catalog/attributions.csv`](catalog/attributions.csv) and [`library/catalog.json`](library/catalog.json) |
+| Fast offline search and power tools | [Black Wire desktop](https://github.com/valleytechsolutions/black-wire-desktop) |
+
+Original files are stored once by content hash; board pages provide the human-friendly organization. Shared images remain linked to all applicable records. Thumbnails and large-image previews are convenience derivatives, not replacements for the originals.
+
+## Use it offline
+
+Download this repository as a ZIP or clone it (about **1.8 GB** of reference data). Keep the folder structure intact. Local Markdown viewers can follow the board pages; the desktop app provides the full searchable image/PDF interface.
+
+```sh
+git clone https://github.com/valleytechsolutions/black-wire-pinouts.git
+```
+
+## Attribution, quality and publication
+
+Read [ATTRIBUTION.md](ATTRIBUTION.md) and [RIGHTS.md](RIGHTS.md). Every image retains its recorded source, rights status and SHA-256. **Attribution is not permission to relicense or commercially print an image.** Many source licenses have not yet been established; any book edition needs a rights review for those images. No collection-wide open license is claimed for manufacturer artwork.
+
+“Reviewed” means categorized against its source, not electrically bench-verified. Some references have unidentified revisions, partial maps or low resolution. Chip-package diagrams are separately labeled and excluded from the physical-board pinout count. One unreviewed reSpeaker Lite source PNG is truncated; its original is retained with a preview-error note.
+
+## Help build the field guide
+
+Send a board reference, correction, revision clarification, a better original or verified license information through [the contribution template](CONTRIBUTING.md). The long-term direction is an offline reference app, a browsable wiki and annual book editions; only the current collection and workshop app are available today.
+
+---
+Created and curated by **—your pal kal** · [@valleytechsolutions on YouTube](https://www.youtube.com/@valleytechsolutions)
+
+Black Wire and Valleytech logos belong to their creator. Manufacturer names and trademarks identify the referenced hardware; they do not imply endorsement.

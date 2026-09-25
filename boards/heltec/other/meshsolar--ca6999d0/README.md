@@ -1,0 +1,26 @@
+# MeshSolar
+
+**Heltec** · Other
+
+Revision: MeshSolar_pinmap.jpg  
+Coverage: Pinout image collected
+
+[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+
+## Board pin reference - MeshSolar_pinmap
+
+**pinout image** · Reviewed source · JPG
+
+[![MeshSolar reference preview](../../../../library/thumbs/316f4cb05f40adef567ecb726c0ae25a837205e7821ea6a70419a6265cdf8e1f.webp)](../../../../library/media/316f4cb05f40adef567ecb726c0ae25a837205e7821ea6a70419a6265cdf8e1f.jpg)
+
+[Open original reference](../../../../library/media/316f4cb05f40adef567ecb726c0ae25a837205e7821ea6a70419a6265cdf8e1f.jpg)
+
+**Credit and rights:** Not established; source attribution retained. Source/manufacturer: Heltec.
+
+[Source 1](https://resource.heltec.cn/download/MeshSolar/Pin_map/MeshSolar_pinmap.jpg) · [Source 2](https://resource.heltec.cn/download/MeshSolar/Pin_map)
+
+Original manufacturer resource filename: MeshSolar_pinmap.jpg. Filename and printed revision must be matched to the board.
+
+SHA-256: `316f4cb05f40adef567ecb726c0ae25a837205e7821ea6a70419a6265cdf8e1f`
+
+Pin assignments have not been independently electrically verified. Check board revision before wiring.
