@@ -49,6 +49,8 @@ git clone https://github.com/valleytechsolutions/black-wire-pinouts.git
 
 ## Attribution, quality and publication
 
+**Original guide/editorial and compilation contributions are [CC BY 4.0](LICENSING.md): reuse, adapt and share, including commercially, with attribution to Kal / Valleytech Solutions, a license link and a note of changes.** See [suggested attribution](NOTICE.md) and [privacy](PRIVACY.md).
+
 Read [ATTRIBUTION.md](ATTRIBUTION.md) and [RIGHTS.md](RIGHTS.md). Every image retains its recorded source, rights status and SHA-256. **Attribution is not permission to relicense or commercially print an image.** Many source licenses have not yet been established; any book edition needs a rights review for those images. No collection-wide open license is claimed for manufacturer artwork.
 
 “Reviewed” means categorized against its source, not electrically bench-verified. Some references have unidentified revisions, partial maps or low resolution. Chip-package diagrams are separately labeled and excluded from the physical-board pinout count. One unreviewed reSpeaker Lite source PNG is truncated; its original is retained with a preview-error note.

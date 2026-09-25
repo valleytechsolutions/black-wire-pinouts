@@ -67,3 +67,5 @@ Sources include the following recorded manufacturer/source groups. Inclusion is 
 - nullbits
 
 Read [RIGHTS.md](RIGHTS.md) before republishing material.
+
+Original Black Wire contributions are openly licensed within the scope in [LICENSING.md](LICENSING.md). Preserve the creator credit in [NOTICE.md](NOTICE.md) as required by the applicable license, in addition to each source creator's credit.
