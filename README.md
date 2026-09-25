@@ -26,6 +26,8 @@ Records include shared references, variants, devices and unreviewed source produ
 
 ## Find your board
 
+**[Search the complete current collection in your browser](https://valleytechsolutions.tech/pages/bwm-technical-reference-guide)** on the Valleytech store. No download or installation is needed. The [full-screen guide](https://valleytech-black-wire-guide.pages.dev/) includes manufacturer/processor filters, pinout viewing and power tools.
+
 Start at **[Browse manufacturers and boards](BROWSE.md)**. Each board page includes a preview, original-resolution downloads, model/revision notes, and source credits. ESP32-C5, C6, S3 and other variants remain separate; RP2040, RP2350, CYD, Arduino, Teensy, SBCs and devices with GPIO have their own records.
 
 | What you need | Where to look |
