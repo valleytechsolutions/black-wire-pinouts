@@ -10,6 +10,8 @@ Adds 107 board/device listings, 229 reference entries and 127 physical pinout-im
 
 Download `Black-Wire-Pinouts-2026.09.7.zip` and its matching `SHA256SUMS.txt`. The collection works on Windows, Linux and macOS without an installer. First Edition / 2026 is unchanged.
 
+The 13 power profiles and 22 published observations were rechecked against manufacturer documentation. Input-specific notes, source conflicts and unknown limits remain explicit. [Power reference review](docs/POWER-REVIEW-2026.09.7.md).
+
 ## Pin references / snapshot 2026.09.5
 
 Every one of the 2,891 board and maker listings now has an explicit pinout-coverage status. Linked listings may describe the same hardware. [Coverage audit and remaining work](PINOUT_COVERAGE.md).
