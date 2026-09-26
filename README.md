@@ -8,11 +8,15 @@
 
 <p align="center"><a href="https://github.com/valleytechsolutions/black-wire-pinouts/releases">Download the collection</a> · <a href="BROWSE.md">Browse boards</a> · <a href="catalog/attributions.csv">Source credits</a> · <a href="https://github.com/valleytechsolutions/black-wire-desktop/releases">Download the desktop app</a> · <a href="CONTRIBUTING.md">Contribute a reference</a></p>
 
+## Maker expansion / September 2026
+
+[Browse displays, sensors and modules](MAKERS.md) or [search the parts desk](https://valleytech-black-wire-guide.pages.dev/?tab=makers). The new intake has **457 records**: **173 manufacturer documentation records**, **268 existing collection references** and **16 generic families** needing identification. These are source records, not 457 newly completed pinouts. [Coverage and product roadmap](docs/MAKER_ROADMAP.md).
+
 ## A reference shelf for your next project
 
 Find the picture that tells you **which physical pin does what**. This collection brings together original board pinouts, connector labels, GPIO references and supporting documents, organized by manufacturer, processor and exact board identity. The companion desktop app makes the same collection searchable offline.
 
-| First Edition · snapshot 2026.09.2 | Count |
+| First Edition · snapshot 2026.09.3 | Count |
 |---|---:|
 | Reviewed physical board pinout images | **1,365** |
 | Searchable reference entries | **3,003** |

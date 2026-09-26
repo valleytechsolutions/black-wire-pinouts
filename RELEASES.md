@@ -4,6 +4,10 @@
 
 These are two independent release streams. A **collection release** contains images, PDFs, indexes and attribution records. A **desktop app release** contains an application for the operating systems listed in that release. A collection ZIP is not a desktop installer.
 
+## First Edition maker intake — 2026.09.3
+
+This immutable snapshot adds 457 searchable maker records, including 173 manufacturer documentation records, 268 references from the existing collection and 16 generic discovery families. Existing board/reference counts and original media hashes are unchanged. New source records include provenance and explicit review limits; no new complete physical pinout approvals are claimed. The accompanying app version is 0.3.0. The First Edition book remains a separate working manuscript.
+
 ## First Edition device snapshot — 2026.09.2
 
 This snapshot adds the Devices & IoT index and 15 original reference images, including 7 pinout/connector sheets. It contains 3,003 reference entries, 1,365 physical pinout entries, 1,688 populated records and 2,953 unique original media files. Of the populated records, 310 are indexed as devices across 11 manufacturer/source groups.
