@@ -3,7 +3,7 @@
 **Seeed Studio** · Expansion
 
 Revision: Not identified  
-Coverage: Pinout image collected
+Coverage: Partial connector source collected; full-device review pending
 
 [Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-expansion-respeaker-lite)
 
@@ -11,7 +11,7 @@ Device category: **Cameras & audio**
 
 ## Pinout
 
-**pinout image** · Reviewed source · PNG
+**pinout image** · Connector diagram visually inspected; independent electrical review pending · PNG
 
 [![reSpeaker Lite reference preview](../../../../library/thumbs/e870fcf94eeb62567f1a9c9c06538329cf75bd12dc29d95bef8408a016aa67f8.webp)](../../../../library/media/e870fcf94eeb62567f1a9c9c06538329cf75bd12dc29d95bef8408a016aa67f8.png)
 
@@ -21,7 +21,7 @@ Device category: **Cameras & audio**
 
 [Source 1](https://github.com/respeaker/ReSpeaker_Lite/raw/master/doc/images/pinout.png) · [Source 2](https://wiki.seeedstudio.com/reSpeaker_usb_v3/)
 
-Imported from existing Seeed Studio Board Reference; original working path preserved.
+Physical connector/pad source reference. Only the connections shown are covered; source conflicts and exact revision still require technical review.
 
 Image revision: Not identified
 

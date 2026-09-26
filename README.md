@@ -8,17 +8,27 @@
 
 <p align="center"><a href="https://github.com/valleytechsolutions/black-wire-pinouts/releases">Download the collection</a> · <a href="BROWSE.md">Browse boards</a> · <a href="catalog/attributions.csv">Source credits</a> · <a href="https://github.com/valleytechsolutions/black-wire-desktop/releases">Download the desktop app</a> · <a href="CONTRIBUTING.md">Contribute a reference</a></p>
 
+## Pin references / snapshot 2026.09.5
+
+Every one of the 2,891 board and maker listings now has an explicit pinout-coverage status. Linked listings may describe the same hardware. [Coverage audit and remaining work](PINOUT_COVERAGE.md).
+
+This update adds **46 annotated manufacturer-model connector sheets** covering 637 modeled contacts, **58 source pin tables** containing 633 rows, and 17 additional source-image attachments. Pin details are recorded for 70 maker listings. The sheets use source-model contact positions; K keys are editorial identifiers. Signal-name purpose explanations, transcribed manufacturer facts and independent electrical approval are different evidence levels.
+
+Of 486 maker listings, **151 have physical pinout sources, 30 have functions only, 288 have supporting references only, and 17 have no reference**. Of 2,405 board listings, 875 have pinout sources, 3 have functions only, 811 have supporting references only, and 716 await documentation. No listing is independently approved as a complete all-connector reference. Five dense or ambiguous models were withheld. The primary-source intake attempted 1,499 pages; 336 retrieval failures remain recorded.
+
+Manufacturer originals remain intact. The annotated Adafruit sheets are CC BY-SA 3.0 adaptations with attribution and exact source hashes. Other source rights remain per asset. The First Edition book is an unfinished editorial draft.
+
 ## Maker expansion / September 2026
 
-[Browse displays, sensors and modules](MAKERS.md) or [search the parts desk](https://valleytech-black-wire-guide.pages.dev/?tab=makers). The new intake has **486 records**: **196 manufacturer documentation records**, **268 existing collection references** and **16 generic families** needing identification. These are source records, not 486 newly completed pinouts. [Coverage and product roadmap](docs/MAKER_ROADMAP.md).
+[Browse displays, sensors and modules](MAKERS.md) or [search the parts desk](https://valleytech-black-wire-guide.pages.dev/?tab=makers). The new intake has **486 records**: **196 manufacturer documentation records**, **274 existing collection references** and **16 generic families** needing identification. These are source records, not 486 newly completed pinouts. [Coverage and product roadmap](docs/MAKER_ROADMAP.md).
 
 ## A reference shelf for your next project
 
 Find the picture that tells you **which physical pin does what**. This collection brings together original board pinouts, connector labels, GPIO references and supporting documents, organized by manufacturer, processor and exact board identity. The companion desktop app makes the same collection searchable offline.
 
-| First Edition · snapshot 2026.09.4 | Count |
+| First Edition · snapshot 2026.09.5 | Count |
 |---|---:|
-| Reviewed physical board pinout images | **1,365** |
+| Board pinout source image entries | **1,367** |
 | Searchable reference entries | **3,003** |
 | Catalog records with files | **1,688** |
 | Manufacturers and source groups | **60** |
@@ -57,7 +67,7 @@ Original files are stored once by content hash; board pages provide the human-fr
 
 Download a versioned ZIP from this repository's **[collection releases](https://github.com/valleytechsolutions/black-wire-pinouts/releases)**. Each release includes the full reference collection, board indexes, source credits, license/rights notices and a SHA-256 checksum. Extract the whole ZIP and begin with `README.md` and `BROWSE.md`. The files work on **Windows, Linux and macOS** with an image/PDF viewer and a Markdown reader; no installer is needed for the collection.
 
-The guide remains **First Edition / 2026**. The latest collection snapshot is **[2026.09.2 — Devices & IoT](https://github.com/valleytechsolutions/black-wire-pinouts/releases/tag/v2026.09.2)**; [2026.09.1](https://github.com/valleytechsolutions/black-wire-pinouts/releases/tag/v2026.09.1) remains available unchanged. Collection snapshots and app versions are independent of the future annual book editions; see [EDITION.md](EDITION.md). The [desktop repository](https://github.com/valleytechsolutions/black-wire-desktop/releases) provides application installers and states which operating systems actually have downloads.
+The guide remains **First Edition / 2026**. The latest collection snapshot is **[2026.09.5 — Pin references](https://github.com/valleytechsolutions/black-wire-pinouts/releases/tag/v2026.09.5)**; [2026.09.1](https://github.com/valleytechsolutions/black-wire-pinouts/releases/tag/v2026.09.1) remains available unchanged. Collection snapshots and app versions are independent of the future annual book editions; see [EDITION.md](EDITION.md). The [desktop repository](https://github.com/valleytechsolutions/black-wire-desktop/releases) provides application installers and states which operating systems actually have downloads.
 
 You can also clone the current repository (about **1.8 GB** of reference data). Keep the folder structure intact. Local Markdown viewers can follow the board pages; the desktop app provides the full searchable image/PDF interface. See [release and checksum instructions](RELEASES.md).
 

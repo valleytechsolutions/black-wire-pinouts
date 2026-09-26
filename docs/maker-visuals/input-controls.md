@@ -2,7 +2,7 @@
 
 [All categories](../../MAKER_VISUALS.md) · [Image attribution ledger](../../catalog/maker-attributions.json)
 
-Source references remain unchanged. Check exact PCB/revision, source notes and rights before reuse. Photos and partial connector diagrams are not complete-device approvals.
+Manufacturer originals remain unchanged. Connector-model sheets add separately labeled callouts under the recorded source license. Check exact PCB/revision, source notes and rights before reuse. Photos and partial connector diagrams are not complete-device approvals.
 
 ## Adafruit MPR121 12-Key Capacitive Touch Sensor Gator Breakout
 
@@ -10,11 +10,11 @@ Adafruit · Manufacturer documentation recorded
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-824c400d04a1)
 
-[![Adafruit MPR121 12-Key Capacitive Touch Sensor Gator Breakout / source reference](../../library/maker-thumbs/b475822091dfe1bcd3d2f569db1a66149284c74c907c2543988bd5d0778425dd.webp)](../../library/maker-media/b475822091dfe1bcd3d2f569db1a66149284c74c907c2543988bd5d0778425dd.jpg)
+[![Adafruit MPR121 12-Key Capacitive Touch Sensor Gator Breakout / pinout image](../../library/maker-thumbs/337e77fbb966dbe71fe6dc2970e541dac9e69b3bbc78093aac9860622affa30f.webp)](../../library/maker-media/337e77fbb966dbe71fe6dc2970e541dac9e69b3bbc78093aac9860622affa30f.svg)
 
-**source reference** · Source image inspected; technical review pending
+**pinout image** · Manufacturer-model geometry checked; independent electrical and full-device review pending
 
-Adafruit Industries / original asset contributor. https://creativecommons.org/licenses/by-sa/3.0/; original image unchanged. See linked asset page for creator and terms.
+Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
 
 ## Faces Encoder
 

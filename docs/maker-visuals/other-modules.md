@@ -2,7 +2,7 @@
 
 [All categories](../../MAKER_VISUALS.md) · [Image attribution ledger](../../catalog/maker-attributions.json)
 
-Source references remain unchanged. Check exact PCB/revision, source notes and rights before reuse. Photos and partial connector diagrams are not complete-device approvals.
+Manufacturer originals remain unchanged. Connector-model sheets add separately labeled callouts under the recorded source license. Check exact PCB/revision, source notes and rights before reuse. Photos and partial connector diagrams are not complete-device approvals.
 
 ## Atomic Port ABC Base
 
@@ -550,11 +550,11 @@ Seeed Studio · Source review pending
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-existing-seeed-studio-expansion-mt3620-grove-breakout)
 
-[![MT3620 Grove Breakout / pinout image](../../library/thumbs/17ab6d5a8f63d22a76067f8e06599d3146ffa16afe0816be5760b7a2ad6dfbf1.webp)](../../library/media/17ab6d5a8f63d22a76067f8e06599d3146ffa16afe0816be5760b7a2ad6dfbf1.png)
+[![MT3620 Grove Breakout / pinout image](../../library/maker-thumbs/17ab6d5a8f63d22a76067f8e06599d3146ffa16afe0816be5760b7a2ad6dfbf1.webp)](../../library/maker-media/17ab6d5a8f63d22a76067f8e06599d3146ffa16afe0816be5760b7a2ad6dfbf1.png)
 
-**pinout image** · Reviewed source
+**pinout image** · Connector diagram visually inspected; independent electrical review pending
 
-Not established; source attribution retained
+Manufacturer source artwork. Reproduction rights not established; excluded from the printed book.
 
 ## PCIe TO MiniPCIe GbE USB3.2 HAT Plus
 
@@ -618,11 +618,11 @@ Seeed Studio · Source review pending
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-existing-seeed-studio-expansion-respeaker-lite)
 
-[![reSpeaker Lite / pinout image](../../library/thumbs/e870fcf94eeb62567f1a9c9c06538329cf75bd12dc29d95bef8408a016aa67f8.webp)](../../library/media/e870fcf94eeb62567f1a9c9c06538329cf75bd12dc29d95bef8408a016aa67f8.png)
+[![reSpeaker Lite / pinout image](../../library/maker-thumbs/e870fcf94eeb62567f1a9c9c06538329cf75bd12dc29d95bef8408a016aa67f8.webp)](../../library/maker-media/e870fcf94eeb62567f1a9c9c06538329cf75bd12dc29d95bef8408a016aa67f8.png)
 
-**pinout image** · Reviewed source
+**pinout image** · Connector diagram visually inspected; independent electrical review pending
 
-Not established; source attribution retained
+Manufacturer source artwork. Reproduction rights not established; excluded from the printed book.
 
 ## reSpeaker XVF3800 USB 4-Mic Array
 
@@ -630,11 +630,11 @@ Seeed Studio · Source review pending
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-existing-seeed-studio-expansion-respeaker-xvf3800-usb-4-mic-array)
 
-[![reSpeaker XVF3800 USB 4-Mic Array / pinout image](../../library/thumbs/4fc0169086ad6cb9715473df13d84986f65f0d931166109c23609a32f1c51f75.webp)](../../library/media/4fc0169086ad6cb9715473df13d84986f65f0d931166109c23609a32f1c51f75.jpg)
+[![reSpeaker XVF3800 USB 4-Mic Array / pinout image](../../library/maker-thumbs/4fc0169086ad6cb9715473df13d84986f65f0d931166109c23609a32f1c51f75.webp)](../../library/maker-media/4fc0169086ad6cb9715473df13d84986f65f0d931166109c23609a32f1c51f75.jpg)
 
-**pinout image** · Reviewed source
+**pinout image** · Connector diagram visually inspected; independent electrical review pending
 
-Not established; source attribution retained
+Manufacturer source artwork. Reproduction rights not established; excluded from the printed book.
 
 ## RS485 Expansion Board for XIAO
 
@@ -1758,11 +1758,11 @@ Seeed Studio · Source review pending
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-existing-seeed-studio-expansion-wio-lr2021)
 
-[![Wio-LR2021 / pinout image](../../library/thumbs/63ac27467f9c9f8e9286f7a0056ee75f26892d92a0d06b02690aa3f763273215.webp)](../../library/media/63ac27467f9c9f8e9286f7a0056ee75f26892d92a0d06b02690aa3f763273215.jpg)
+[![Wio-LR2021 / pinout image](../../library/maker-thumbs/63ac27467f9c9f8e9286f7a0056ee75f26892d92a0d06b02690aa3f763273215.webp)](../../library/maker-media/63ac27467f9c9f8e9286f7a0056ee75f26892d92a0d06b02690aa3f763273215.jpg)
 
-**pinout image** · Reviewed source
+**pinout image** · Connector diagram visually inspected; independent electrical review pending
 
-Not established; source attribution retained
+Manufacturer source artwork. Reproduction rights not established; excluded from the printed book.
 
 ## Wio-SX1262
 

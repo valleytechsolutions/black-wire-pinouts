@@ -2,7 +2,7 @@
 
 [All categories](../../MAKER_VISUALS.md) · [Image attribution ledger](../../catalog/maker-attributions.json)
 
-Source references remain unchanged. Check exact PCB/revision, source notes and rights before reuse. Photos and partial connector diagrams are not complete-device approvals.
+Manufacturer originals remain unchanged. Connector-model sheets add separately labeled callouts under the recorded source license. Check exact PCB/revision, source notes and rights before reuse. Photos and partial connector diagrams are not complete-device approvals.
 
 ## Adafruit AHT20 Temperature & Humidity Sensor
 
@@ -10,11 +10,11 @@ Adafruit · Manufacturer documentation recorded
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-a80cab59debc)
 
-[![Adafruit AHT20 Temperature & Humidity Sensor / source reference](../../library/maker-thumbs/c591a8f8f78d58454752507eafbcee912683014f9dc9e20dc6cb582a7f2380b1.webp)](../../library/maker-media/c591a8f8f78d58454752507eafbcee912683014f9dc9e20dc6cb582a7f2380b1.jpg)
+[![Adafruit AHT20 Temperature & Humidity Sensor / pinout image](../../library/maker-thumbs/9b6259c8d6ec264853f4180c0674019ec43c9eca478ade062734ddbaaae9f502.webp)](../../library/maker-media/9b6259c8d6ec264853f4180c0674019ec43c9eca478ade062734ddbaaae9f502.svg)
 
-**source reference** · Source image inspected; technical review pending
+**pinout image** · Manufacturer-model geometry checked; independent electrical and full-device review pending
 
-Adafruit Industries / original asset contributor. https://creativecommons.org/licenses/by/3.0/; original image unchanged. See linked asset page for creator and terms.
+Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
 
 ## Adafruit APDS9960 breakout
 
@@ -22,11 +22,11 @@ Adafruit · Manufacturer documentation recorded
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-4390e7df6964)
 
-[![Adafruit APDS9960 breakout / source reference](../../library/maker-thumbs/39119d1efe44c8588e4c0ee43780ce0bf98b611850fcc310749473fe34a5da50.webp)](../../library/maker-media/39119d1efe44c8588e4c0ee43780ce0bf98b611850fcc310749473fe34a5da50.jpg)
+[![Adafruit APDS9960 breakout / pinout image](../../library/maker-thumbs/015b655184972e83e5cbcb8d3bb511af82e043531c86b113996f249f81af0440.webp)](../../library/maker-media/015b655184972e83e5cbcb8d3bb511af82e043531c86b113996f249f81af0440.svg)
 
-**source reference** · Source image inspected; technical review pending
+**pinout image** · Manufacturer-model geometry checked; independent electrical and full-device review pending
 
-Adafruit Industries / original asset contributor. https://creativecommons.org/licenses/by-sa/3.0/; original image unchanged. See linked asset page for creator and terms.
+Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
 
 ## Adafruit BH1750 Ambient Light Sensor
 
@@ -46,11 +46,11 @@ Adafruit · Manufacturer documentation recorded
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-bc61583da117)
 
-[![Adafruit BME280 Humidity + Barometric Pressure + Temperature Sensor Breakout / source reference](../../library/maker-thumbs/d5b64da9ac18d836890e6a6adda245b0c385a930ddbaaca09e8fa2a0f2fba4a8.webp)](../../library/maker-media/d5b64da9ac18d836890e6a6adda245b0c385a930ddbaaca09e8fa2a0f2fba4a8.jpg)
+[![Adafruit BME280 Humidity + Barometric Pressure + Temperature Sensor Breakout / pinout image](../../library/maker-thumbs/d26e5f86a6e6567e4a2e0adb37d83d2f8186d40e04dc9842866b5f651dcd78ff.webp)](../../library/maker-media/d26e5f86a6e6567e4a2e0adb37d83d2f8186d40e04dc9842866b5f651dcd78ff.svg)
 
-**source reference** · Source image inspected; technical review pending
+**pinout image** · Manufacturer-model geometry checked; independent electrical and full-device review pending
 
-Adafruit Industries / original asset contributor. https://creativecommons.org/licenses/by-sa/3.0/; original image unchanged. See linked asset page for creator and terms.
+Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
 
 ## Adafruit BME680
 
@@ -58,11 +58,11 @@ Adafruit · Manufacturer documentation recorded
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-cf6c8b88cee4)
 
-[![Adafruit BME680 / source reference](../../library/maker-thumbs/40a3c8a218deb6b6cd9c7e6c7d00f063b52b59b6b31edd3528095d5089e49a60.webp)](../../library/maker-media/40a3c8a218deb6b6cd9c7e6c7d00f063b52b59b6b31edd3528095d5089e49a60.jpg)
+[![Adafruit BME680 / pinout image](../../library/maker-thumbs/390eb2bfb9ccb1721f44020dc9e0bc23ef50e9770450a4e4fd9a341de0e3156f.webp)](../../library/maker-media/390eb2bfb9ccb1721f44020dc9e0bc23ef50e9770450a4e4fd9a341de0e3156f.svg)
 
-**source reference** · Source image inspected; technical review pending
+**pinout image** · Manufacturer-model geometry checked; independent electrical and full-device review pending
 
-Adafruit Industries / original asset contributor. https://creativecommons.org/licenses/by-sa/3.0/; original image unchanged. See linked asset page for creator and terms.
+Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
 
 ## Adafruit BMP280 Barometric Pressure + Temperature Sensor Breakout
 
@@ -70,11 +70,11 @@ Adafruit · Manufacturer documentation recorded
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-4b0001459b22)
 
-[![Adafruit BMP280 Barometric Pressure + Temperature Sensor Breakout / source reference](../../library/maker-thumbs/387e2ec6430991b0f8bb2448f6a1055a91e673ea1be9f220f92dac69542c64a4.webp)](../../library/maker-media/387e2ec6430991b0f8bb2448f6a1055a91e673ea1be9f220f92dac69542c64a4.jpg)
+[![Adafruit BMP280 Barometric Pressure + Temperature Sensor Breakout / pinout image](../../library/maker-thumbs/9384784466fbb5223e4aacf59c45dc9e103679fa5e8262922b308befb3839e59.webp)](../../library/maker-media/9384784466fbb5223e4aacf59c45dc9e103679fa5e8262922b308befb3839e59.svg)
 
-**source reference** · Source image inspected; technical review pending
+**pinout image** · Manufacturer-model geometry checked; independent electrical and full-device review pending
 
-Adafruit Industries / original asset contributor. https://creativecommons.org/licenses/by-sa/3.0/; original image unchanged. See linked asset page for creator and terms.
+Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
 
 ## Adafruit BNO055 Absolute Orientation Sensor
 
@@ -82,11 +82,11 @@ Adafruit · Manufacturer documentation recorded
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-033e26673f5e)
 
-[![Adafruit BNO055 Absolute Orientation Sensor / source reference](../../library/maker-thumbs/1dc7048777ad01da3dd13fe49902dad4c9cecd0f12004954e95fac5d71f86232.webp)](../../library/maker-media/1dc7048777ad01da3dd13fe49902dad4c9cecd0f12004954e95fac5d71f86232.jpg)
+[![Adafruit BNO055 Absolute Orientation Sensor / pinout image](../../library/maker-thumbs/d0294c78cd17a52935d368da0d9a0dc1543edd5a25015b234ec515cfb8fc4a4c.webp)](../../library/maker-media/d0294c78cd17a52935d368da0d9a0dc1543edd5a25015b234ec515cfb8fc4a4c.svg)
 
-**source reference** · Source image inspected; technical review pending
+**pinout image** · Manufacturer-model geometry checked; independent electrical and full-device review pending
 
-Manufacturer artwork; reproduction rights not established; not cleared for the printed book
+Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
 
 ## Adafruit INA219 Current Sensor Breakout
 
@@ -94,9 +94,9 @@ Adafruit · Manufacturer documentation recorded
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-3e9ba2e85414)
 
-[![Adafruit INA219 Current Sensor Breakout / source reference](../../library/maker-thumbs/9703244b90493937795d9ee1398c07ed25f44f068f0330be21af523c980d2bdc.webp)](../../library/maker-media/9703244b90493937795d9ee1398c07ed25f44f068f0330be21af523c980d2bdc.jpg)
+[![Adafruit INA219 Current Sensor Breakout / pinout image](../../library/maker-thumbs/6e40f24527a2263efb625e497e41f2b3b021eb1b691072a44e002e3f3d37e33a.webp)](../../library/maker-media/6e40f24527a2263efb625e497e41f2b3b021eb1b691072a44e002e3f3d37e33a.png)
 
-**source reference** · Source image inspected; technical review pending
+**pinout image** · Connector diagram visually inspected; independent electrical review pending
 
 Adafruit Industries / original asset contributor. https://creativecommons.org/licenses/by-sa/3.0/; original image unchanged. See linked asset page for creator and terms.
 
@@ -108,7 +108,7 @@ Adafruit · Manufacturer documentation recorded
 
 [![Adafruit INA260 Current + Voltage + Power Sensor Breakout / pinout image](../../library/maker-thumbs/9e060f64e5aa0e845d7a87d1b377515b9c23407ba2b85fcef78da254278d89aa.webp)](../../library/maker-media/9e060f64e5aa0e845d7a87d1b377515b9c23407ba2b85fcef78da254278d89aa.png)
 
-**pinout image** · Source image inspected; technical review pending
+**pinout image** · Connector diagram visually inspected; independent electrical review pending
 
 Adafruit Industries / original asset contributor. https://creativecommons.org/licenses/by-sa/3.0/; original image unchanged. See linked asset page for creator and terms.
 
@@ -118,11 +118,11 @@ Adafruit · Manufacturer documentation recorded
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-333ef25b6ff3)
 
-[![Adafruit LIS3DH Triple-Axis Accelerometer Breakout / source reference](../../library/maker-thumbs/dc84796fc1159dd6dd6b4a029627c288f23743689b13009749abad5ca655fa13.webp)](../../library/maker-media/dc84796fc1159dd6dd6b4a029627c288f23743689b13009749abad5ca655fa13.jpg)
+[![Adafruit LIS3DH Triple-Axis Accelerometer Breakout / pinout image](../../library/maker-thumbs/61b6b5a8f3e88581c9dfd36bb4e7f45d7ab24614759d468f2bd5576d937050f5.webp)](../../library/maker-media/61b6b5a8f3e88581c9dfd36bb4e7f45d7ab24614759d468f2bd5576d937050f5.svg)
 
-**source reference** · Source image inspected; technical review pending
+**pinout image** · Manufacturer-model geometry checked; independent electrical and full-device review pending
 
-Adafruit Industries / original asset contributor. https://creativecommons.org/licenses/by-sa/3.0/; original image unchanged. See linked asset page for creator and terms.
+Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
 
 ## Adafruit SCD-4x - True CO2 Temperature and Humidity Sensors
 
@@ -130,11 +130,11 @@ Adafruit · Manufacturer documentation recorded
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-357aa2b8b93a)
 
-[![Adafruit SCD-4x - True CO2 Temperature and Humidity Sensors / source reference](../../library/maker-thumbs/176d28d499a8879cfd31db3e64a69886a5e8307a1a54235d932c9809cad3afd1.webp)](../../library/maker-media/176d28d499a8879cfd31db3e64a69886a5e8307a1a54235d932c9809cad3afd1.png)
+[![Adafruit SCD-4x - True CO2 Temperature and Humidity Sensors / pinout image](../../library/maker-thumbs/8db2b5be01168cc37752330d4ea261f0cd08a7bd752695b5bc101b2855c853b9.webp)](../../library/maker-media/8db2b5be01168cc37752330d4ea261f0cd08a7bd752695b5bc101b2855c853b9.svg)
 
-**source reference** · Source image inspected; technical review pending
+**pinout image** · Manufacturer-model geometry checked; independent electrical and full-device review pending
 
-Adafruit Industries / original asset contributor. https://creativecommons.org/licenses/by/3.0/; original image unchanged. See linked asset page for creator and terms.
+Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
 
 ## Adafruit Sensirion SHT40, SHT41 & SHT45 Temperature & Humidity Sensors
 
@@ -142,11 +142,11 @@ Adafruit · Manufacturer documentation recorded
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-1a2b4f796497)
 
-[![Adafruit Sensirion SHT40, SHT41 & SHT45 Temperature & Humidity Sensors / source reference](../../library/maker-thumbs/3eea866b7a3da66600a983a8e4a4ef02a50ee4d99c8f74e49de41b02039a8d4e.webp)](../../library/maker-media/3eea866b7a3da66600a983a8e4a4ef02a50ee4d99c8f74e49de41b02039a8d4e.jpg)
+[![Adafruit Sensirion SHT40, SHT41 & SHT45 Temperature & Humidity Sensors / pinout image](../../library/maker-thumbs/6abc2410fbad7f20acee9d8d14c933bc65e3fd0e62e6d4b52dc8b09be4c049c4.webp)](../../library/maker-media/6abc2410fbad7f20acee9d8d14c933bc65e3fd0e62e6d4b52dc8b09be4c049c4.svg)
 
-**source reference** · Source image inspected; technical review pending
+**pinout image** · Manufacturer-model geometry checked; independent electrical and full-device review pending
 
-Adafruit Industries / original asset contributor. https://creativecommons.org/licenses/by-sa/3.0/; original image unchanged. See linked asset page for creator and terms.
+Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
 
 ## Adafruit SHT31-D Temperature & Humidity Sensor Breakout
 
@@ -154,11 +154,11 @@ Adafruit · Manufacturer documentation recorded
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-1eb58493be3e)
 
-[![Adafruit SHT31-D Temperature & Humidity Sensor Breakout / source reference](../../library/maker-thumbs/2bf65986d89ab34563003bf046b6b614ca46627a144dc36464b994a7d4b9261b.webp)](../../library/maker-media/2bf65986d89ab34563003bf046b6b614ca46627a144dc36464b994a7d4b9261b.jpg)
+[![Adafruit SHT31-D Temperature & Humidity Sensor Breakout / pinout image](../../library/maker-thumbs/f56d5188baf53fd231c6a9707f83ebbe1db66bd8f94d3c80b46d167d6bc5af6d.webp)](../../library/maker-media/f56d5188baf53fd231c6a9707f83ebbe1db66bd8f94d3c80b46d167d6bc5af6d.svg)
 
-**source reference** · Source image inspected; technical review pending
+**pinout image** · Manufacturer-model geometry checked; independent electrical and full-device review pending
 
-Manufacturer artwork; reproduction rights not established; not cleared for the printed book
+Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
 
 ## Adafruit VL53L0X Time of Flight Micro-LIDAR Distance Sensor Breakout
 
@@ -166,11 +166,11 @@ Adafruit · Manufacturer documentation recorded
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-b2e586290c14)
 
-[![Adafruit VL53L0X Time of Flight Micro-LIDAR Distance Sensor Breakout / source reference](../../library/maker-thumbs/6aa65811635d9755e6559adf198f3c6c935faea1923801fe82a0a55db62e4c82.webp)](../../library/maker-media/6aa65811635d9755e6559adf198f3c6c935faea1923801fe82a0a55db62e4c82.jpg)
+[![Adafruit VL53L0X Time of Flight Micro-LIDAR Distance Sensor Breakout / pinout image](../../library/maker-thumbs/d63c621551143f4fce4839feacf27f8cf065a9b07b25625f7192a8fbb401ace3.webp)](../../library/maker-media/d63c621551143f4fce4839feacf27f8cf065a9b07b25625f7192a8fbb401ace3.svg)
 
-**source reference** · Source image inspected; technical review pending
+**pinout image** · Manufacturer-model geometry checked; independent electrical and full-device review pending
 
-Adafruit Industries / original asset contributor. https://creativecommons.org/licenses/by-sa/3.0/; original image unchanged. See linked asset page for creator and terms.
+Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
 
 ## Adafruit VL53L1X Time of Flight Distance Sensor
 
@@ -178,11 +178,11 @@ Adafruit · Manufacturer documentation recorded
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-ce8520e58dc5)
 
-[![Adafruit VL53L1X Time of Flight Distance Sensor / source reference](../../library/maker-thumbs/e9893b6e5098f383c6eeb5c0d4fa4f30ac93f712eccdd38afa99dcdf47a0b330.webp)](../../library/maker-media/e9893b6e5098f383c6eeb5c0d4fa4f30ac93f712eccdd38afa99dcdf47a0b330.jpg)
+[![Adafruit VL53L1X Time of Flight Distance Sensor / pinout image](../../library/maker-thumbs/a478b83a1656159ec455cb07bdeb99422f6f192ce16ee31129d872003f82854e.webp)](../../library/maker-media/a478b83a1656159ec455cb07bdeb99422f6f192ce16ee31129d872003f82854e.svg)
 
-**source reference** · Source image inspected; technical review pending
+**pinout image** · Manufacturer-model geometry checked; independent electrical and full-device review pending
 
-Manufacturer artwork; reproduction rights not established; not cleared for the printed book
+Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
 
 ## DHT11 and DHT22 breakout variants
 

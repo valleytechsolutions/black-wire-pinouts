@@ -1,0 +1,5151 @@
+[
+  {
+    "partId": "maker-adafruit-ca3cc11716cc",
+    "name": "Adafruit MAX98357A",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%20MAX98357A.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "9f3e1ec861c782c0b97f0ebe65cb1714ab86e573b793b6eb5cc04a5c6fe66182",
+    "svgHash": "a9ebf2951cc9cc70f21a67956976c8448861d457576f08a4bcf8588d52f20be1",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "342a6ed29ecc6288a70f5f420dbdd89760e1defcac482d36ecc389f94c4a4e86",
+    "sheetWidth": 1400,
+    "sheetHeight": 1501,
+    "pins": [
+      {
+        "id": "connector14",
+        "label": "VIN",
+        "callout": "K01",
+        "purpose": "Supply input; confirm allowed voltage",
+        "description": "VIN"
+      },
+      {
+        "id": "connector15",
+        "label": "GND",
+        "callout": "K02",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector16",
+        "label": "SD_MODE",
+        "callout": "K03",
+        "purpose": "Amplifier shutdown/mode selection",
+        "description": "SD_MODE"
+      },
+      {
+        "id": "connector17",
+        "label": "GAIN",
+        "callout": "K04",
+        "purpose": "Amplifier gain selection",
+        "description": "GAIN"
+      },
+      {
+        "id": "connector18",
+        "label": "DIN",
+        "callout": "K05",
+        "purpose": "Serial data input",
+        "description": "DIN"
+      },
+      {
+        "id": "connector19",
+        "label": "BCLK",
+        "callout": "K06",
+        "purpose": "Audio bit clock",
+        "description": "BCLK"
+      },
+      {
+        "id": "connector20",
+        "label": "LRCLK",
+        "callout": "K07",
+        "purpose": "Audio left/right word clock",
+        "description": "LRCLK"
+      },
+      {
+        "id": "connector42",
+        "label": "VO-",
+        "callout": "K08",
+        "purpose": "Amplifier speaker output -",
+        "description": "VO-"
+      },
+      {
+        "id": "connector43",
+        "label": "VO+",
+        "callout": "K09",
+        "purpose": "Amplifier speaker output +",
+        "description": "VO+"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-8b83680fc8bb",
+    "name": "Adafruit OLED Color 0.96 inch 96x64 w microSD",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%20OLED%20Color%200.96%20inch%2096x64%20w%20microSD.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "72a3f491962a5b26d8f70f266e475919d5c296bbe97f8f267d82d428513664a9",
+    "svgHash": "b4441b77d0ed73551a53257d7528255cfae77a4ef667de399898e786ab2934de",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "fdf7fa56561bccbb1c3d0ca20a5f41eed55e70462ba298b0d3ba13aa246b7594",
+    "sheetWidth": 1400,
+    "sheetHeight": 1501,
+    "pins": [
+      {
+        "id": "connector13",
+        "label": "V+",
+        "callout": "K01",
+        "purpose": "Positive supply connection; confirm voltage",
+        "description": "V+"
+      },
+      {
+        "id": "connector12",
+        "label": "SD_CS",
+        "callout": "K02",
+        "purpose": "microSD card chip select",
+        "description": "SD_CS"
+      },
+      {
+        "id": "connector11",
+        "label": "OLED_CS",
+        "callout": "K03",
+        "purpose": "Display chip select",
+        "description": "OLED_CS"
+      },
+      {
+        "id": "connector10",
+        "label": "RESET",
+        "callout": "K04",
+        "purpose": "Reset control",
+        "description": "RESET"
+      },
+      {
+        "id": "connector9",
+        "label": "DC",
+        "callout": "K05",
+        "purpose": "Display data/command selection",
+        "description": "DC"
+      },
+      {
+        "id": "connector8",
+        "label": "SCK",
+        "callout": "K06",
+        "purpose": "SPI serial clock",
+        "description": "SCK"
+      },
+      {
+        "id": "connector7",
+        "label": "MOSI",
+        "callout": "K07",
+        "purpose": "SPI data from controller to peripheral",
+        "description": "MOSI"
+      },
+      {
+        "id": "connector6",
+        "label": "SD_MISO",
+        "callout": "K08",
+        "purpose": "microSD SPI data output",
+        "description": "SD_MISO"
+      },
+      {
+        "id": "connector5",
+        "label": "SD_CD",
+        "callout": "K09",
+        "purpose": "microSD card-detect signal",
+        "description": "SD_CD"
+      },
+      {
+        "id": "connector14",
+        "label": "GND",
+        "callout": "K10",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-f9445ce8ab45",
+    "name": "Adafruit TFT 1.8 inch 160x128 w microSD",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%20TFT%201.8%20inch%20160x128%20w%20microSD.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "30e68dd377bb6d1d78da4e550b641d17f274319cd8b247ccfefec5807743c177",
+    "svgHash": "a9473c4dac61d3156f7672eb22c8e7e70714d6fac5456c7f41ffa91b665e8838",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "ce528d6cf91f5cc98d018813af342edd4b9f0f38b7df66ebbb4c5982292e8afd",
+    "sheetWidth": 1400,
+    "sheetHeight": 1501,
+    "pins": [
+      {
+        "id": "connector27",
+        "label": "+5V",
+        "callout": "K01",
+        "purpose": "Named supply rail; verify input/output role in source",
+        "description": "+5V"
+      },
+      {
+        "id": "connector26",
+        "label": "RESET",
+        "callout": "K02",
+        "purpose": "Reset control",
+        "description": "RESET"
+      },
+      {
+        "id": "connector25",
+        "label": "TFTDC",
+        "callout": "K03",
+        "purpose": "TFT data/command selection",
+        "description": "TFTDC"
+      },
+      {
+        "id": "connector24",
+        "label": "CARDCS",
+        "callout": "K04",
+        "purpose": "microSD card chip select",
+        "description": "CARDCS"
+      },
+      {
+        "id": "connector23",
+        "label": "TFTCS",
+        "callout": "K05",
+        "purpose": "Display chip select",
+        "description": "TFTCS"
+      },
+      {
+        "id": "connector22",
+        "label": "MOSI",
+        "callout": "K06",
+        "purpose": "SPI data from controller to peripheral",
+        "description": "MOSI"
+      },
+      {
+        "id": "connector21",
+        "label": "SCLK",
+        "callout": "K07",
+        "purpose": "Serial clock",
+        "description": "SCLK"
+      },
+      {
+        "id": "connector20",
+        "label": "MISO",
+        "callout": "K08",
+        "purpose": "SPI data from peripheral to controller",
+        "description": "MISO"
+      },
+      {
+        "id": "connector19",
+        "label": "LITE",
+        "callout": "K09",
+        "purpose": "Display backlight control",
+        "description": "LITE"
+      },
+      {
+        "id": "connector28",
+        "label": "GND",
+        "callout": "K10",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-541cb8b6d293",
+    "name": "Adafruit TFT 2.2 inch 320x240 w microSD",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%20TFT%202.2%20inch%20320x240%20w%20microSD.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "0f87e0025045a766bf05356c3a32e7e61fa0cfbe3d303ffdeb75cedb1eab9686",
+    "svgHash": "bbacd9c290d5e802a33e8c26bc30c9469c3807c0f04d0fd8cecba3eb70b4e7d7",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "f62d3185003cfc4db47a2849e7670de3faf635212380711ac5303513f133d8ca",
+    "sheetWidth": 1400,
+    "sheetHeight": 1501,
+    "pins": [
+      {
+        "id": "connector6",
+        "label": "VIN",
+        "callout": "K01",
+        "purpose": "Supply input; confirm allowed voltage",
+        "description": "VIN"
+      },
+      {
+        "id": "connector14",
+        "label": "BACKLIGHT",
+        "callout": "K02",
+        "purpose": "Display backlight control",
+        "description": "BACKLIGHT"
+      },
+      {
+        "id": "connector13",
+        "label": "SCLK",
+        "callout": "K03",
+        "purpose": "Serial clock",
+        "description": "SCLK"
+      },
+      {
+        "id": "connector12",
+        "label": "MISO",
+        "callout": "K04",
+        "purpose": "SPI data from peripheral to controller",
+        "description": "MISO"
+      },
+      {
+        "id": "connector11",
+        "label": "MOSI",
+        "callout": "K05",
+        "purpose": "SPI data from controller to peripheral",
+        "description": "MOSI"
+      },
+      {
+        "id": "connector10",
+        "label": "LCDCS",
+        "callout": "K06",
+        "purpose": "Display chip select",
+        "description": "LCDCS"
+      },
+      {
+        "id": "connector9",
+        "label": "SDCS",
+        "callout": "K07",
+        "purpose": "microSD card chip select",
+        "description": "SDCS"
+      },
+      {
+        "id": "connector8",
+        "label": "RESET",
+        "callout": "K08",
+        "purpose": "Reset control",
+        "description": "RESET"
+      },
+      {
+        "id": "connector7",
+        "label": "DC",
+        "callout": "K09",
+        "purpose": "Display data/command selection",
+        "description": "DC"
+      },
+      {
+        "id": "connector5",
+        "label": "GND",
+        "callout": "K10",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-b1353880bff2",
+    "name": "Adafruit 1.27 inch 16-bit Color OLED w microSD holder",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%201.27%20inch%2016-bit%20Color%20OLED%20w%20microSD%20holder.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "f7c47e6647cd545a77ff94bffcea588154956f9e5ea2ff7ab1ef88fa2e6a0c55",
+    "svgHash": "30736efc8084e1d436611b88bcb5a00b3a734621cfa5d59b3aa6d731571f139d",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "0acda9e6d0663155aa74e84f90801becf2a25cb1afc178d4d34bd79fd013b4de",
+    "sheetWidth": 1400,
+    "sheetHeight": 1501,
+    "pins": [
+      {
+        "id": "connector14",
+        "label": "VIN",
+        "callout": "K01",
+        "purpose": "Supply input; confirm allowed voltage",
+        "description": "VIN"
+      },
+      {
+        "id": "connector13",
+        "label": "3.3V",
+        "callout": "K02",
+        "purpose": "Named supply rail; verify input/output role in source",
+        "description": "3.3V"
+      },
+      {
+        "id": "connector5",
+        "label": "MOSI",
+        "callout": "K03",
+        "purpose": "SPI data from controller to peripheral",
+        "description": "MOSI"
+      },
+      {
+        "id": "connector6",
+        "label": "CLK",
+        "callout": "K04",
+        "purpose": "Clock signal",
+        "description": "CLK"
+      },
+      {
+        "id": "connector7",
+        "label": "DC",
+        "callout": "K05",
+        "purpose": "Display data/command selection",
+        "description": "DC"
+      },
+      {
+        "id": "connector8",
+        "label": "RESET",
+        "callout": "K06",
+        "purpose": "Reset control",
+        "description": "RESET"
+      },
+      {
+        "id": "connector9",
+        "label": "OLEDCS",
+        "callout": "K07",
+        "purpose": "Display chip select",
+        "description": "OLEDCS"
+      },
+      {
+        "id": "connector10",
+        "label": "SDCS",
+        "callout": "K08",
+        "purpose": "microSD card chip select",
+        "description": "SDCS"
+      },
+      {
+        "id": "connector11",
+        "label": "MISO",
+        "callout": "K09",
+        "purpose": "SPI data from peripheral to controller",
+        "description": "MISO"
+      },
+      {
+        "id": "connector12",
+        "label": "SD_CD",
+        "callout": "K10",
+        "purpose": "microSD card-detect signal",
+        "description": "SD_CD"
+      },
+      {
+        "id": "connector15",
+        "label": "GND",
+        "callout": "K11",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-b1353880bff2",
+    "name": "Adafruit OLED Color 1.5 inch 128x128 w microSD",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%20OLED%20Color%201.5%20inch%20128x128%20w%20microSD.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "c4ccd66f51f0b7174ed3174b4ff9e772efcaff979d895cbc9a20f32645b0366a",
+    "svgHash": "2b60e33fe6a19ee451a2c3b6e8652fc95097da96367c6c8dd8013553de141947",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "49992d22bc3a6815e9998e6ebd4bdd343b77f247e448c757b50ae40662df278a",
+    "sheetWidth": 1400,
+    "sheetHeight": 1501,
+    "pins": [
+      {
+        "id": "connector14",
+        "label": "VIN",
+        "callout": "K01",
+        "purpose": "Supply input; confirm allowed voltage",
+        "description": "VIN"
+      },
+      {
+        "id": "connector13",
+        "label": "3.3V",
+        "callout": "K02",
+        "purpose": "Named supply rail; verify input/output role in source",
+        "description": "3.3V"
+      },
+      {
+        "id": "connector5",
+        "label": "MOSI",
+        "callout": "K03",
+        "purpose": "SPI data from controller to peripheral",
+        "description": "MOSI"
+      },
+      {
+        "id": "connector6",
+        "label": "SCK",
+        "callout": "K04",
+        "purpose": "SPI serial clock",
+        "description": "SCK"
+      },
+      {
+        "id": "connector7",
+        "label": "DC",
+        "callout": "K05",
+        "purpose": "Display data/command selection",
+        "description": "DC"
+      },
+      {
+        "id": "connector8",
+        "label": "RESET",
+        "callout": "K06",
+        "purpose": "Reset control",
+        "description": "RESET"
+      },
+      {
+        "id": "connector9",
+        "label": "OLED_CS",
+        "callout": "K07",
+        "purpose": "Display chip select",
+        "description": "OLED_CS"
+      },
+      {
+        "id": "connector10",
+        "label": "SD_CS",
+        "callout": "K08",
+        "purpose": "microSD card chip select",
+        "description": "SD_CS"
+      },
+      {
+        "id": "connector11",
+        "label": "SD_MISO",
+        "callout": "K09",
+        "purpose": "microSD SPI data output",
+        "description": "SD_MISO"
+      },
+      {
+        "id": "connector12",
+        "label": "SD_CD",
+        "callout": "K10",
+        "purpose": "microSD card-detect signal",
+        "description": "SD_CD"
+      },
+      {
+        "id": "connector15",
+        "label": "GND",
+        "callout": "K11",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-fc5529ac841e",
+    "name": "Adafruit 1.3in 240x240 IPS TFT",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%201.3in%20240x240%20IPS%20TFT.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "887fd598207f454a391323d962c99e0bdfb2d550087a50472f722f218e72a770",
+    "svgHash": "fcb0b140edf445cf9b325e8bbf61910f31d9fe7b4d4334aac26a465bed91bf35",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "2c7d2e1292751d40167cad9fab521382abbef9492cefb0e07aa28b020213a775",
+    "sheetWidth": 1400,
+    "sheetHeight": 1501,
+    "pins": [
+      {
+        "id": "connector5",
+        "label": "VIN",
+        "callout": "K01",
+        "purpose": "Supply input; confirm allowed voltage",
+        "description": "VIN"
+      },
+      {
+        "id": "connector6",
+        "label": "+3V3",
+        "callout": "K02",
+        "purpose": "Named supply rail; verify input/output role in source",
+        "description": "+3V3"
+      },
+      {
+        "id": "connector15",
+        "label": "BACKLIGHT",
+        "callout": "K03",
+        "purpose": "Display backlight control",
+        "description": "BACKLIGHT"
+      },
+      {
+        "id": "connector14",
+        "label": "CARDCS",
+        "callout": "K04",
+        "purpose": "microSD card chip select",
+        "description": "CARDCS"
+      },
+      {
+        "id": "connector13",
+        "label": "TFTDC",
+        "callout": "K05",
+        "purpose": "TFT data/command selection",
+        "description": "TFTDC"
+      },
+      {
+        "id": "connector12",
+        "label": "RESET",
+        "callout": "K06",
+        "purpose": "Reset control",
+        "description": "RESET"
+      },
+      {
+        "id": "connector11",
+        "label": "TFTCS",
+        "callout": "K07",
+        "purpose": "Display chip select",
+        "description": "TFTCS"
+      },
+      {
+        "id": "connector10",
+        "label": "MOSI",
+        "callout": "K08",
+        "purpose": "SPI data from controller to peripheral",
+        "description": "MOSI"
+      },
+      {
+        "id": "connector9",
+        "label": "MISO",
+        "callout": "K09",
+        "purpose": "SPI data from peripheral to controller",
+        "description": "MISO"
+      },
+      {
+        "id": "connector8",
+        "label": "SCK",
+        "callout": "K10",
+        "purpose": "SPI serial clock",
+        "description": "SCK"
+      },
+      {
+        "id": "connector7",
+        "label": "GND",
+        "callout": "K11",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-fc5529ac841e",
+    "name": "Adafruit 1.54inch 240x240 IPS TFT",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%201.54inch%20240x240%20IPS%20TFT.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "69dba5c0a76f37cb9c77876d999761bfa76a08a7d06b2f0893855d6344f9c6d9",
+    "svgHash": "e276921b62032dc81d7b57ca62a80cdaff6c0a3a9b958442bfdae00a549bd7b7",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "90b81949901dc064d742899be344c34ef6e0db4009417576c54bbed19094338c",
+    "sheetWidth": 1400,
+    "sheetHeight": 1501,
+    "pins": [
+      {
+        "id": "connector5",
+        "label": "VIN",
+        "callout": "K01",
+        "purpose": "Supply input; confirm allowed voltage",
+        "description": "VIN"
+      },
+      {
+        "id": "connector6",
+        "label": "+3V3",
+        "callout": "K02",
+        "purpose": "Named supply rail; verify input/output role in source",
+        "description": "+3V3"
+      },
+      {
+        "id": "connector8",
+        "label": "SCK",
+        "callout": "K03",
+        "purpose": "SPI serial clock",
+        "description": "SCK"
+      },
+      {
+        "id": "connector9",
+        "label": "MISO",
+        "callout": "K04",
+        "purpose": "SPI data from peripheral to controller",
+        "description": "MISO"
+      },
+      {
+        "id": "connector10",
+        "label": "MOSI",
+        "callout": "K05",
+        "purpose": "SPI data from controller to peripheral",
+        "description": "MOSI"
+      },
+      {
+        "id": "connector11",
+        "label": "TFTCS",
+        "callout": "K06",
+        "purpose": "Display chip select",
+        "description": "TFTCS"
+      },
+      {
+        "id": "connector12",
+        "label": "TFTRST",
+        "callout": "K07",
+        "purpose": "TFT reset control",
+        "description": "TFTRST"
+      },
+      {
+        "id": "connector13",
+        "label": "TFTDC",
+        "callout": "K08",
+        "purpose": "TFT data/command selection",
+        "description": "TFTDC"
+      },
+      {
+        "id": "connector14",
+        "label": "CARDCS",
+        "callout": "K09",
+        "purpose": "microSD card chip select",
+        "description": "CARDCS"
+      },
+      {
+        "id": "connector15",
+        "label": "LITE",
+        "callout": "K10",
+        "purpose": "Display backlight control",
+        "description": "LITE"
+      },
+      {
+        "id": "connector16",
+        "label": "TE",
+        "callout": "K11",
+        "purpose": "Display tearing-effect synchronization",
+        "description": "TE"
+      },
+      {
+        "id": "connector7",
+        "label": "GND",
+        "callout": "K12",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-cdbedfac50f7",
+    "name": "Adafruit 2.13in Monochrome eInk Display",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%202.13in%20Monochrome%20eInk%20Display.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "f28fed0f90678ee523b7a96d22eb0d9f8585748edf010a9b9def867b43a84e34",
+    "svgHash": "19717baa40cd4910feee92034676fcbe3f9555bdfecaf2639241e780b1548c15",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "d4b227b67d4fea78b44708d7e18588c0f452522318ef578ff323636298299cd4",
+    "sheetWidth": 1400,
+    "sheetHeight": 1543,
+    "pins": [
+      {
+        "id": "connector5",
+        "label": "VIN",
+        "callout": "K01",
+        "purpose": "Supply input; confirm allowed voltage",
+        "description": "VIN"
+      },
+      {
+        "id": "connector6",
+        "label": "3.3V",
+        "callout": "K02",
+        "purpose": "Named supply rail; verify input/output role in source",
+        "description": "3.3V"
+      },
+      {
+        "id": "connector8",
+        "label": "SCLK",
+        "callout": "K03",
+        "purpose": "Serial clock",
+        "description": "SCLK"
+      },
+      {
+        "id": "connector9",
+        "label": "MISO",
+        "callout": "K04",
+        "purpose": "SPI data from peripheral to controller",
+        "description": "MISO"
+      },
+      {
+        "id": "connector10",
+        "label": "MOSI",
+        "callout": "K05",
+        "purpose": "SPI data from controller to peripheral",
+        "description": "MOSI"
+      },
+      {
+        "id": "connector11",
+        "label": "DISPCS",
+        "callout": "K06",
+        "purpose": "Display chip select",
+        "description": "DISPCS"
+      },
+      {
+        "id": "connector12",
+        "label": "DC",
+        "callout": "K07",
+        "purpose": "Display data/command selection",
+        "description": "DC"
+      },
+      {
+        "id": "connector13",
+        "label": "SRAMCS",
+        "callout": "K08",
+        "purpose": "External SRAM chip select",
+        "description": "SRAMCS"
+      },
+      {
+        "id": "connector14",
+        "label": "SDCS",
+        "callout": "K09",
+        "purpose": "microSD card chip select",
+        "description": "SDCS"
+      },
+      {
+        "id": "connector15",
+        "label": "RESET",
+        "callout": "K10",
+        "purpose": "Reset control",
+        "description": "RESET"
+      },
+      {
+        "id": "connector16",
+        "label": "BUSY",
+        "callout": "K11",
+        "purpose": "Device busy-status signal",
+        "description": "BUSY"
+      },
+      {
+        "id": "connector17",
+        "label": "ENABLE",
+        "callout": "K12",
+        "purpose": "Enable-control signal",
+        "description": "ENABLE"
+      },
+      {
+        "id": "connector7",
+        "label": "GND",
+        "callout": "K13",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-cdbedfac50f7",
+    "name": "Adafruit 2.13in Tri-Color eInk Display",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%202.13in%20Tri-Color%20eInk%20Display.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "e090b23981223296335bf7d8ed3ca6d18e852a316a7e2113ca5c44be1e527129",
+    "svgHash": "5ea3a6b48f6cbcdc0b80adffa18641236400ff2221f6cbf491cdd71a33d529f6",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "a35bdbd7c3b94952482142ce12c41249ecb6b352d6b189b5e22ce4d31149eb8e",
+    "sheetWidth": 1400,
+    "sheetHeight": 1543,
+    "pins": [
+      {
+        "id": "connector5",
+        "label": "VIN",
+        "callout": "K01",
+        "purpose": "Supply input; confirm allowed voltage",
+        "description": "VIN"
+      },
+      {
+        "id": "connector6",
+        "label": "3.3V",
+        "callout": "K02",
+        "purpose": "Named supply rail; verify input/output role in source",
+        "description": "3.3V"
+      },
+      {
+        "id": "connector8",
+        "label": "SCLK",
+        "callout": "K03",
+        "purpose": "Serial clock",
+        "description": "SCLK"
+      },
+      {
+        "id": "connector9",
+        "label": "MISO",
+        "callout": "K04",
+        "purpose": "SPI data from peripheral to controller",
+        "description": "MISO"
+      },
+      {
+        "id": "connector10",
+        "label": "MOSI",
+        "callout": "K05",
+        "purpose": "SPI data from controller to peripheral",
+        "description": "MOSI"
+      },
+      {
+        "id": "connector11",
+        "label": "DISPCS",
+        "callout": "K06",
+        "purpose": "Display chip select",
+        "description": "DISPCS"
+      },
+      {
+        "id": "connector12",
+        "label": "DC",
+        "callout": "K07",
+        "purpose": "Display data/command selection",
+        "description": "DC"
+      },
+      {
+        "id": "connector13",
+        "label": "SRAMCS",
+        "callout": "K08",
+        "purpose": "External SRAM chip select",
+        "description": "SRAMCS"
+      },
+      {
+        "id": "connector14",
+        "label": "SDCS",
+        "callout": "K09",
+        "purpose": "microSD card chip select",
+        "description": "SDCS"
+      },
+      {
+        "id": "connector15",
+        "label": "RESET",
+        "callout": "K10",
+        "purpose": "Reset control",
+        "description": "RESET"
+      },
+      {
+        "id": "connector16",
+        "label": "BUSY",
+        "callout": "K11",
+        "purpose": "Device busy-status signal",
+        "description": "BUSY"
+      },
+      {
+        "id": "connector17",
+        "label": "ENABLE",
+        "callout": "K12",
+        "purpose": "Enable-control signal",
+        "description": "ENABLE"
+      },
+      {
+        "id": "connector7",
+        "label": "GND",
+        "callout": "K13",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-cdbedfac50f7",
+    "name": "Adafruit 2.13in eInk Breakout Rev D",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%202.13in%20eInk%20Breakout%20Rev%20D.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "c6e337bb5eb570bc14eefc78d598ad263404dd1a3fa68f22dac8fbc56e400287",
+    "svgHash": "91fd3a27eb8b117b2a8ac28ee527a4a98f6344accc87b093cfff3206f7fec233",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "9be9b2d496c4e534b533fc811901d537babd4b8e8400af925b32e7e892ad0702",
+    "sheetWidth": 1400,
+    "sheetHeight": 1543,
+    "pins": [
+      {
+        "id": "connector5",
+        "label": "VIN",
+        "callout": "K01",
+        "purpose": "Supply input; confirm allowed voltage",
+        "description": "VIN"
+      },
+      {
+        "id": "connector6",
+        "label": "3.3V",
+        "callout": "K02",
+        "purpose": "Named supply rail; verify input/output role in source",
+        "description": "3.3V"
+      },
+      {
+        "id": "connector8",
+        "label": "SCLK",
+        "callout": "K03",
+        "purpose": "Serial clock",
+        "description": "SCLK"
+      },
+      {
+        "id": "connector9",
+        "label": "MISO",
+        "callout": "K04",
+        "purpose": "SPI data from peripheral to controller",
+        "description": "MISO"
+      },
+      {
+        "id": "connector10",
+        "label": "MOSI",
+        "callout": "K05",
+        "purpose": "SPI data from controller to peripheral",
+        "description": "MOSI"
+      },
+      {
+        "id": "connector11",
+        "label": "DISPCS",
+        "callout": "K06",
+        "purpose": "Display chip select",
+        "description": "DISPCS"
+      },
+      {
+        "id": "connector12",
+        "label": "DC",
+        "callout": "K07",
+        "purpose": "Display data/command selection",
+        "description": "DC"
+      },
+      {
+        "id": "connector13",
+        "label": "SRAMCS",
+        "callout": "K08",
+        "purpose": "External SRAM chip select",
+        "description": "SRAMCS"
+      },
+      {
+        "id": "connector14",
+        "label": "SDCS",
+        "callout": "K09",
+        "purpose": "microSD card chip select",
+        "description": "SDCS"
+      },
+      {
+        "id": "connector15",
+        "label": "RESET",
+        "callout": "K10",
+        "purpose": "Reset control",
+        "description": "RESET"
+      },
+      {
+        "id": "connector16",
+        "label": "BUSY",
+        "callout": "K11",
+        "purpose": "Device busy-status signal",
+        "description": "BUSY"
+      },
+      {
+        "id": "connector17",
+        "label": "ENABLE",
+        "callout": "K12",
+        "purpose": "Enable-control signal",
+        "description": "ENABLE"
+      },
+      {
+        "id": "connector7",
+        "label": "GND",
+        "callout": "K13",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-4b55b6d2c219",
+    "name": "Adafruit 2.4 Touchscreen TFT Breakout w MicroSD",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%202.4%20Touchscreen%20TFT%20Breakout%20w%20MicroSD.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "3fdb7517af69bb39fbe3df5aaf95e894ee47868bcd945f1770d248be185481fb",
+    "svgHash": "d4df4012bc60ae0d9390026f3a39ea14e4f76c9cfe8b0b74d0be20b97cbee953",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "9f6a5c6e44e2f8b0c37b5b1aec68e1c60fc70038583f9c45f4b61edce0b1ba5c",
+    "sheetWidth": 1400,
+    "sheetHeight": 1795,
+    "pins": [
+      {
+        "id": "connector0",
+        "label": "GND",
+        "callout": "K01",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector1",
+        "label": "VIN",
+        "callout": "K02",
+        "purpose": "Supply input; confirm allowed voltage",
+        "description": "VIN"
+      },
+      {
+        "id": "connector2",
+        "label": "CS",
+        "callout": "K03",
+        "purpose": "Chip-select signal",
+        "description": "CS"
+      },
+      {
+        "id": "connector3",
+        "label": "C/D",
+        "callout": "K04",
+        "purpose": "Display command/data selection",
+        "description": "C/D"
+      },
+      {
+        "id": "connector4",
+        "label": "WR",
+        "callout": "K05",
+        "purpose": "Parallel-bus write control",
+        "description": "WR"
+      },
+      {
+        "id": "connector5",
+        "label": "RD",
+        "callout": "K06",
+        "purpose": "Parallel-bus read control",
+        "description": "RD"
+      },
+      {
+        "id": "connector6",
+        "label": "RST",
+        "callout": "K07",
+        "purpose": "Reset control",
+        "description": "RST"
+      },
+      {
+        "id": "connector7",
+        "label": "LITE",
+        "callout": "K08",
+        "purpose": "Display backlight control",
+        "description": "LITE"
+      },
+      {
+        "id": "connector8",
+        "label": "X+",
+        "callout": "K09",
+        "purpose": "Resistive-touch electrode X+",
+        "description": "X+"
+      },
+      {
+        "id": "connector9",
+        "label": "Y+",
+        "callout": "K10",
+        "purpose": "Resistive-touch electrode Y+",
+        "description": "Y+"
+      },
+      {
+        "id": "connector10",
+        "label": "X-",
+        "callout": "K11",
+        "purpose": "Resistive-touch electrode X-",
+        "description": "X-"
+      },
+      {
+        "id": "connector11",
+        "label": "Y-",
+        "callout": "K12",
+        "purpose": "Resistive-touch electrode Y-",
+        "description": "Y-"
+      },
+      {
+        "id": "connector12",
+        "label": "D0",
+        "callout": "K13",
+        "purpose": "Display data bus bit 0",
+        "description": "D0"
+      },
+      {
+        "id": "connector13",
+        "label": "D1",
+        "callout": "K14",
+        "purpose": "Display data bus bit 1",
+        "description": "D1"
+      },
+      {
+        "id": "connector14",
+        "label": "D2",
+        "callout": "K15",
+        "purpose": "Display data bus bit 2",
+        "description": "D2"
+      },
+      {
+        "id": "connector15",
+        "label": "D3",
+        "callout": "K16",
+        "purpose": "Display data bus bit 3",
+        "description": "D3"
+      },
+      {
+        "id": "connector16",
+        "label": "D4",
+        "callout": "K17",
+        "purpose": "Display data bus bit 4",
+        "description": "D4"
+      },
+      {
+        "id": "connector17",
+        "label": "D5",
+        "callout": "K18",
+        "purpose": "Display data bus bit 5",
+        "description": "D5"
+      },
+      {
+        "id": "connector18",
+        "label": "D6",
+        "callout": "K19",
+        "purpose": "Display data bus bit 6",
+        "description": "D6"
+      },
+      {
+        "id": "connector19",
+        "label": "D7",
+        "callout": "K20",
+        "purpose": "Display data bus bit 7",
+        "description": "D7"
+      },
+      {
+        "id": "connector20",
+        "label": "GND",
+        "callout": "K21",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector21",
+        "label": "VIN",
+        "callout": "K22",
+        "purpose": "Supply input; confirm allowed voltage",
+        "description": "VIN"
+      },
+      {
+        "id": "connector22",
+        "label": "+3V",
+        "callout": "K23",
+        "purpose": "Named supply rail; verify input/output role in source",
+        "description": "+3V"
+      },
+      {
+        "id": "connector23",
+        "label": "CLK",
+        "callout": "K24",
+        "purpose": "Clock signal",
+        "description": "CLK"
+      },
+      {
+        "id": "connector24",
+        "label": "MISO",
+        "callout": "K25",
+        "purpose": "SPI data from peripheral to controller",
+        "description": "MISO"
+      },
+      {
+        "id": "connector25",
+        "label": "MOSI",
+        "callout": "K26",
+        "purpose": "SPI data from controller to peripheral",
+        "description": "MOSI"
+      },
+      {
+        "id": "connector26",
+        "label": "CS",
+        "callout": "K27",
+        "purpose": "Chip-select signal",
+        "description": "CS"
+      },
+      {
+        "id": "connector27",
+        "label": "WR_DC",
+        "callout": "K28",
+        "purpose": "Write / data-command control",
+        "description": "WR_DC"
+      },
+      {
+        "id": "connector28",
+        "label": "RST",
+        "callout": "K29",
+        "purpose": "Reset control",
+        "description": "RST"
+      },
+      {
+        "id": "connector29",
+        "label": "LITE",
+        "callout": "K30",
+        "purpose": "Display backlight control",
+        "description": "LITE"
+      },
+      {
+        "id": "connector30",
+        "label": "Y+",
+        "callout": "K31",
+        "purpose": "Resistive-touch electrode Y+",
+        "description": "Y+"
+      },
+      {
+        "id": "connector31",
+        "label": "X+",
+        "callout": "K32",
+        "purpose": "Resistive-touch electrode X+",
+        "description": "X+"
+      },
+      {
+        "id": "connector32",
+        "label": "Y-",
+        "callout": "K33",
+        "purpose": "Resistive-touch electrode Y-",
+        "description": "Y-"
+      },
+      {
+        "id": "connector33",
+        "label": "X-",
+        "callout": "K34",
+        "purpose": "Resistive-touch electrode X-",
+        "description": "X-"
+      },
+      {
+        "id": "connector34",
+        "label": "IM0",
+        "callout": "K35",
+        "purpose": "Display interface-mode selection",
+        "description": "IM0"
+      },
+      {
+        "id": "connector35",
+        "label": "IM1",
+        "callout": "K36",
+        "purpose": "Display interface-mode selection",
+        "description": "IM1"
+      },
+      {
+        "id": "connector36",
+        "label": "IM2",
+        "callout": "K37",
+        "purpose": "Display interface-mode selection",
+        "description": "IM2"
+      },
+      {
+        "id": "connector37",
+        "label": "IM3",
+        "callout": "K38",
+        "purpose": "Display interface-mode selection",
+        "description": "IM3"
+      },
+      {
+        "id": "connector38",
+        "label": "SD_CS",
+        "callout": "K39",
+        "purpose": "microSD card chip select",
+        "description": "SD_CS"
+      },
+      {
+        "id": "connector39",
+        "label": "CARDDET",
+        "callout": "K40",
+        "purpose": "microSD card-detect signal",
+        "description": "CARDDET"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-58b0ba90bb84",
+    "name": "Adafruit 1.54inch Monochrome eInk-ePaper Display",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%201.54inch%20Monochrome%20eInk-ePaper%20Display.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "b7be0117892989a9d054736b159323ccb1f07b12179c43d1118a3f3649d46baa",
+    "svgHash": "bc0949e4ffd3b6e197e27771de6aebbd63cc2e54533451c7bcc71c732156e84e",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "899b2469b45eafb406ab21ffc25cc4f43de35e5a2d1bcd0ae5e59aecd359a683",
+    "sheetWidth": 1400,
+    "sheetHeight": 1543,
+    "pins": [
+      {
+        "id": "connector5",
+        "label": "VIN",
+        "callout": "K01",
+        "purpose": "Supply input; confirm allowed voltage",
+        "description": "VIN"
+      },
+      {
+        "id": "connector6",
+        "label": "3.3V",
+        "callout": "K02",
+        "purpose": "Named supply rail; verify input/output role in source",
+        "description": "3.3V"
+      },
+      {
+        "id": "connector10",
+        "label": "MOSI",
+        "callout": "K03",
+        "purpose": "SPI data from controller to peripheral",
+        "description": "MOSI"
+      },
+      {
+        "id": "connector9",
+        "label": "MISO",
+        "callout": "K04",
+        "purpose": "SPI data from peripheral to controller",
+        "description": "MISO"
+      },
+      {
+        "id": "connector8",
+        "label": "SCLK",
+        "callout": "K05",
+        "purpose": "Serial clock",
+        "description": "SCLK"
+      },
+      {
+        "id": "connector11",
+        "label": "DISPCS",
+        "callout": "K06",
+        "purpose": "Display chip select",
+        "description": "DISPCS"
+      },
+      {
+        "id": "connector13",
+        "label": "SRAMCS",
+        "callout": "K07",
+        "purpose": "External SRAM chip select",
+        "description": "SRAMCS"
+      },
+      {
+        "id": "connector14",
+        "label": "SDCS",
+        "callout": "K08",
+        "purpose": "microSD card chip select",
+        "description": "SDCS"
+      },
+      {
+        "id": "connector12",
+        "label": "DC",
+        "callout": "K09",
+        "purpose": "Display data/command selection",
+        "description": "DC"
+      },
+      {
+        "id": "connector15",
+        "label": "RESET",
+        "callout": "K10",
+        "purpose": "Reset control",
+        "description": "RESET"
+      },
+      {
+        "id": "connector16",
+        "label": "BUSY",
+        "callout": "K11",
+        "purpose": "Device busy-status signal",
+        "description": "BUSY"
+      },
+      {
+        "id": "connector17",
+        "label": "ENABLE",
+        "callout": "K12",
+        "purpose": "Enable-control signal",
+        "description": "ENABLE"
+      },
+      {
+        "id": "connector7",
+        "label": "GND",
+        "callout": "K13",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-58b0ba90bb84",
+    "name": "Adafruit 1.54inch Tri-Color eInk-ePaper Display",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%201.54inch%20Tri-Color%20eInk-ePaper%20Display.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "1d1c32b40fba8ccfed010ac76871e361f2870ad66a66ed2c5342f12ac018d5a2",
+    "svgHash": "d14fa20a23a1e0fe8f4694660f67d3bddd13adf611e0ce0fc40241a57cb8a94f",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "831e5093340d3724942bd3a2213e24e6b2fe00e3d0dca1a32bec6ee64558a8f3",
+    "sheetWidth": 1400,
+    "sheetHeight": 1543,
+    "pins": [
+      {
+        "id": "connector5",
+        "label": "VIN",
+        "callout": "K01",
+        "purpose": "Supply input; confirm allowed voltage",
+        "description": "VIN"
+      },
+      {
+        "id": "connector6",
+        "label": "3.3V",
+        "callout": "K02",
+        "purpose": "Named supply rail; verify input/output role in source",
+        "description": "3.3V"
+      },
+      {
+        "id": "connector10",
+        "label": "MOSI",
+        "callout": "K03",
+        "purpose": "SPI data from controller to peripheral",
+        "description": "MOSI"
+      },
+      {
+        "id": "connector9",
+        "label": "MISO",
+        "callout": "K04",
+        "purpose": "SPI data from peripheral to controller",
+        "description": "MISO"
+      },
+      {
+        "id": "connector8",
+        "label": "SCLK",
+        "callout": "K05",
+        "purpose": "Serial clock",
+        "description": "SCLK"
+      },
+      {
+        "id": "connector11",
+        "label": "DISPCS",
+        "callout": "K06",
+        "purpose": "Display chip select",
+        "description": "DISPCS"
+      },
+      {
+        "id": "connector13",
+        "label": "SRAMCS",
+        "callout": "K07",
+        "purpose": "External SRAM chip select",
+        "description": "SRAMCS"
+      },
+      {
+        "id": "connector14",
+        "label": "SDCS",
+        "callout": "K08",
+        "purpose": "microSD card chip select",
+        "description": "SDCS"
+      },
+      {
+        "id": "connector12",
+        "label": "DC",
+        "callout": "K09",
+        "purpose": "Display data/command selection",
+        "description": "DC"
+      },
+      {
+        "id": "connector15",
+        "label": "RESET",
+        "callout": "K10",
+        "purpose": "Reset control",
+        "description": "RESET"
+      },
+      {
+        "id": "connector16",
+        "label": "BUSY",
+        "callout": "K11",
+        "purpose": "Device busy-status signal",
+        "description": "BUSY"
+      },
+      {
+        "id": "connector17",
+        "label": "ENABLE",
+        "callout": "K12",
+        "purpose": "Enable-control signal",
+        "description": "ENABLE"
+      },
+      {
+        "id": "connector7",
+        "label": "GND",
+        "callout": "K13",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-58b0ba90bb84",
+    "name": "Adafruit 2.9 inch eInk Display Breakout",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%202.9%20inch%20eInk%20Display%20Breakout.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "fa29bcf4545829b4d7f57402c03dea8de9026bbc7236f9860bf77178be79836a",
+    "svgHash": "a7f2cacc86b40a4de35ef22c4c0e4166f5f1f3ee646d92f13ff8d9b89cdc8e51",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "2d64f8f015b2ef1bb50c0d8a9b275e2ca1cc5c93bec20cfc517264412b74f3da",
+    "sheetWidth": 1400,
+    "sheetHeight": 1543,
+    "pins": [
+      {
+        "id": "connector5",
+        "label": "VIN",
+        "callout": "K01",
+        "purpose": "Supply input; confirm allowed voltage",
+        "description": "VIN"
+      },
+      {
+        "id": "connector6",
+        "label": "3.3V",
+        "callout": "K02",
+        "purpose": "Named supply rail; verify input/output role in source",
+        "description": "3.3V"
+      },
+      {
+        "id": "connector8",
+        "label": "SCLK",
+        "callout": "K03",
+        "purpose": "Serial clock",
+        "description": "SCLK"
+      },
+      {
+        "id": "connector9",
+        "label": "MISO",
+        "callout": "K04",
+        "purpose": "SPI data from peripheral to controller",
+        "description": "MISO"
+      },
+      {
+        "id": "connector10",
+        "label": "MOSI",
+        "callout": "K05",
+        "purpose": "SPI data from controller to peripheral",
+        "description": "MOSI"
+      },
+      {
+        "id": "connector11",
+        "label": "DISPCS",
+        "callout": "K06",
+        "purpose": "Display chip select",
+        "description": "DISPCS"
+      },
+      {
+        "id": "connector12",
+        "label": "DC",
+        "callout": "K07",
+        "purpose": "Display data/command selection",
+        "description": "DC"
+      },
+      {
+        "id": "connector13",
+        "label": "SRAMCS",
+        "callout": "K08",
+        "purpose": "External SRAM chip select",
+        "description": "SRAMCS"
+      },
+      {
+        "id": "connector14",
+        "label": "SDCS",
+        "callout": "K09",
+        "purpose": "microSD card chip select",
+        "description": "SDCS"
+      },
+      {
+        "id": "connector15",
+        "label": "RESET",
+        "callout": "K10",
+        "purpose": "Reset control",
+        "description": "RESET"
+      },
+      {
+        "id": "connector16",
+        "label": "BUSY",
+        "callout": "K11",
+        "purpose": "Device busy-status signal",
+        "description": "BUSY"
+      },
+      {
+        "id": "connector17",
+        "label": "ENABLE",
+        "callout": "K12",
+        "purpose": "Enable-control signal",
+        "description": "ENABLE"
+      },
+      {
+        "id": "connector7",
+        "label": "GND",
+        "callout": "K13",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-e49788b786b1",
+    "name": "Adafruit OLED Monochrome 128x32 I2C",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%20OLED%20Monochrome%20128x32%20I2C.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "c8d889b5ea00023073e090067b6eacad72d9ade3db835d67dd4d64091ffc2920",
+    "svgHash": "41a5a02a212af56de2f0ab362e8a4be39282524a043f60986af57b4a1b472d27",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "47eb8173c9cb9461c2b20ddf6dcf00af616353664e99f864974ee93c65e4b90f",
+    "sheetWidth": 1400,
+    "sheetHeight": 1459,
+    "pins": [
+      {
+        "id": "connector5",
+        "label": "VIN",
+        "callout": "K01",
+        "purpose": "Supply input; confirm allowed voltage",
+        "description": "VIN"
+      },
+      {
+        "id": "connector6",
+        "label": "3.3V",
+        "callout": "K02",
+        "purpose": "Named supply rail; verify input/output role in source",
+        "description": "3.3V"
+      },
+      {
+        "id": "connector8",
+        "label": "RESET",
+        "callout": "K03",
+        "purpose": "Reset control",
+        "description": "RESET"
+      },
+      {
+        "id": "connector10",
+        "label": "SDA",
+        "callout": "K04",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector9",
+        "label": "SCL",
+        "callout": "K05",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector7",
+        "label": "GND",
+        "callout": "K06",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-e49788b786b1",
+    "name": "Adafruit OLED Monochrome 128x32 SPI",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%20OLED%20Monochrome%20128x32%20SPI.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "f4d8dc97baa5bf3cbdb3ac174a4d09babbcc92a5d3a9dd5cd85d07139de077ed",
+    "svgHash": "177c67b15bc585864cefb3de9a433ba06b1414b4b07dd2c88500a09264135328",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "4b2e89151c8a6041ca65cd07b70409649d9793e2fbad0f7199f3be8260ee5de9",
+    "sheetWidth": 1400,
+    "sheetHeight": 1459,
+    "pins": [
+      {
+        "id": "connector10",
+        "label": "VIN",
+        "callout": "K01",
+        "purpose": "Supply input; confirm allowed voltage",
+        "description": "VIN"
+      },
+      {
+        "id": "connector11",
+        "label": "3.3V",
+        "callout": "K02",
+        "purpose": "Named supply rail; verify input/output role in source",
+        "description": "3.3V"
+      },
+      {
+        "id": "connector5",
+        "label": "CS",
+        "callout": "K03",
+        "purpose": "Chip-select signal",
+        "description": "CS"
+      },
+      {
+        "id": "connector6",
+        "label": "RESET",
+        "callout": "K04",
+        "purpose": "Reset control",
+        "description": "RESET"
+      },
+      {
+        "id": "connector7",
+        "label": "DC",
+        "callout": "K05",
+        "purpose": "Display data/command selection",
+        "description": "DC"
+      },
+      {
+        "id": "connector8",
+        "label": "SCLK",
+        "callout": "K06",
+        "purpose": "Serial clock",
+        "description": "SCLK"
+      },
+      {
+        "id": "connector9",
+        "label": "MOSI",
+        "callout": "K07",
+        "purpose": "SPI data from controller to peripheral",
+        "description": "MOSI"
+      },
+      {
+        "id": "connector12",
+        "label": "GND",
+        "callout": "K08",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-e49788b786b1",
+    "name": "Adafruit OLED Monochrome 128x64 0.96 inch",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%20OLED%20Monochrome%20128x64%200.96%20inch.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "604ce6d46a2c5dfd0aed8cee26719e5bf585061fc23ff7de015080232a08fbf2",
+    "svgHash": "69c487d735536ab2ef7cc1f5a34c54302630b711de867df2ce92e40c1584c161",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "e0aa4ad9e007b254a2689490f766a4a11fe2b112262da5a307dc44e9bc2dfcd2",
+    "sheetWidth": 1400,
+    "sheetHeight": 1459,
+    "pins": [
+      {
+        "id": "connector11",
+        "label": "VIN",
+        "callout": "K01",
+        "purpose": "Supply input; confirm allowed voltage",
+        "description": "VIN"
+      },
+      {
+        "id": "connector10",
+        "label": "3.3V",
+        "callout": "K02",
+        "purpose": "Named supply rail; verify input/output role in source",
+        "description": "3.3V"
+      },
+      {
+        "id": "connector5",
+        "label": "MOSI_SDA",
+        "callout": "K03",
+        "purpose": "SPI data input / I2C data (mode dependent)",
+        "description": "MOSI_SDA"
+      },
+      {
+        "id": "connector6",
+        "label": "SCLK_SCK",
+        "callout": "K04",
+        "purpose": "SPI serial clock",
+        "description": "SCLK_SCK"
+      },
+      {
+        "id": "connector7",
+        "label": "DC_SA0",
+        "callout": "K05",
+        "purpose": "Display data/command or address selection (mode dependent)",
+        "description": "DC_SA0"
+      },
+      {
+        "id": "connector8",
+        "label": "RESET",
+        "callout": "K06",
+        "purpose": "Reset control",
+        "description": "RESET"
+      },
+      {
+        "id": "connector9",
+        "label": "CS",
+        "callout": "K07",
+        "purpose": "Chip-select signal",
+        "description": "CS"
+      },
+      {
+        "id": "connector12",
+        "label": "GND",
+        "callout": "K08",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-e49788b786b1",
+    "name": "Adafruit OLED Monochrome 128x64 1.3 inch",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%20OLED%20Monochrome%20128x64%201.3%20inch.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "6ccfafdb8e25bafab875e59876e53660ed8f5dfeee32b0f26d06791864b39923",
+    "svgHash": "a42a2d2276114abf0c28a15f2afef949db24024c3cb62a0197b37cfd052c3d71",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "c9b2901a0c6fb2ee31904c433e62a03b32e963c716c3a6aedcab755537b0b9c7",
+    "sheetWidth": 1400,
+    "sheetHeight": 1459,
+    "pins": [
+      {
+        "id": "connector11",
+        "label": "VIN",
+        "callout": "K01",
+        "purpose": "Supply input; confirm allowed voltage",
+        "description": "VIN"
+      },
+      {
+        "id": "connector10",
+        "label": "3.3V",
+        "callout": "K02",
+        "purpose": "Named supply rail; verify input/output role in source",
+        "description": "3.3V"
+      },
+      {
+        "id": "connector5",
+        "label": "MOSI_SDA",
+        "callout": "K03",
+        "purpose": "SPI data input / I2C data (mode dependent)",
+        "description": "MOSI_SDA"
+      },
+      {
+        "id": "connector6",
+        "label": "SCLK_SCK",
+        "callout": "K04",
+        "purpose": "SPI serial clock",
+        "description": "SCLK_SCK"
+      },
+      {
+        "id": "connector7",
+        "label": "DC_SA0",
+        "callout": "K05",
+        "purpose": "Display data/command or address selection (mode dependent)",
+        "description": "DC_SA0"
+      },
+      {
+        "id": "connector8",
+        "label": "RESET",
+        "callout": "K06",
+        "purpose": "Reset control",
+        "description": "RESET"
+      },
+      {
+        "id": "connector9",
+        "label": "CS",
+        "callout": "K07",
+        "purpose": "Chip-select signal",
+        "description": "CS"
+      },
+      {
+        "id": "connector12",
+        "label": "GND",
+        "callout": "K08",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-824c400d04a1",
+    "name": "Adafruit MPR121 Gator",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%20MPR121%20Gator.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "623ed33db0970939c1bb11dfae3698b6306825aadf56ab4deedb2ce41524345f",
+    "svgHash": "840e62e0390fb49932f1790b9e0ec34fbdf7e33b0d8ce65360b97d1751eb83d1",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "337e77fbb966dbe71fe6dc2970e541dac9e69b3bbc78093aac9860622affa30f",
+    "sheetWidth": 1400,
+    "sheetHeight": 1585,
+    "pins": [
+      {
+        "id": "connector20",
+        "label": "VCC",
+        "callout": "K01",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector14",
+        "label": "VCC",
+        "callout": "K02",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector21",
+        "label": "SDA",
+        "callout": "K03",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector15",
+        "label": "SDA",
+        "callout": "K04",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector16",
+        "label": "SCL",
+        "callout": "K05",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector22",
+        "label": "SCL",
+        "callout": "K06",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector56",
+        "label": "ELEC0",
+        "callout": "K07",
+        "purpose": "Capacitive-touch electrode 0",
+        "description": "ELEC0"
+      },
+      {
+        "id": "connector57",
+        "label": "ELEC1",
+        "callout": "K08",
+        "purpose": "Capacitive-touch electrode 1",
+        "description": "ELEC1"
+      },
+      {
+        "id": "connector58",
+        "label": "ELEC2",
+        "callout": "K09",
+        "purpose": "Capacitive-touch electrode 2",
+        "description": "ELEC2"
+      },
+      {
+        "id": "connector59",
+        "label": "ELEC3",
+        "callout": "K10",
+        "purpose": "Capacitive-touch electrode 3",
+        "description": "ELEC3"
+      },
+      {
+        "id": "connector66",
+        "label": "ELEC4",
+        "callout": "K11",
+        "purpose": "Capacitive-touch electrode 4",
+        "description": "ELEC4"
+      },
+      {
+        "id": "connector65",
+        "label": "ELEC5",
+        "callout": "K12",
+        "purpose": "Capacitive-touch electrode 5",
+        "description": "ELEC5"
+      },
+      {
+        "id": "connector64",
+        "label": "ELEC6",
+        "callout": "K13",
+        "purpose": "Capacitive-touch electrode 6",
+        "description": "ELEC6"
+      },
+      {
+        "id": "connector63",
+        "label": "ELEC7",
+        "callout": "K14",
+        "purpose": "Capacitive-touch electrode 7",
+        "description": "ELEC7"
+      },
+      {
+        "id": "connector62",
+        "label": "ELEC8",
+        "callout": "K15",
+        "purpose": "Capacitive-touch electrode 8",
+        "description": "ELEC8"
+      },
+      {
+        "id": "connector61",
+        "label": "ELEC9",
+        "callout": "K16",
+        "purpose": "Capacitive-touch electrode 9",
+        "description": "ELEC9"
+      },
+      {
+        "id": "connector60",
+        "label": "ELEC10",
+        "callout": "K17",
+        "purpose": "Capacitive-touch electrode 10",
+        "description": "ELEC10"
+      },
+      {
+        "id": "connector55",
+        "label": "ELEC11",
+        "callout": "K18",
+        "purpose": "Capacitive-touch electrode 11",
+        "description": "ELEC11"
+      },
+      {
+        "id": "connector19",
+        "label": "GND",
+        "callout": "K19",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector13",
+        "label": "GND",
+        "callout": "K20",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-9b2288f1d41e",
+    "name": "Adafruit TFT 2.8in Resistive Touchshield rev E",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%20TFT%202.8in%20Resistive%20Touchshield%20rev%20E.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "b3c5bb25db67b91c9ce60bbae75afd88850e500be20c47b71077543e8aaee120",
+    "svgHash": "591bec2dcc681274649fc83648e44bdc68edc4f1761c844c763ae00c3b519160",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "04321298fd3d6821b61d6ecafe5f5ed7dec23d357d505bf739198edca1ed5e4d",
+    "sheetWidth": 1400,
+    "sheetHeight": 1417,
+    "pins": [
+      {
+        "id": "connector62",
+        "label": "3.3V",
+        "callout": "K01",
+        "purpose": "Named supply rail; verify input/output role in source",
+        "description": "3.3V"
+      },
+      {
+        "id": "connector63",
+        "label": "SDA_3V",
+        "callout": "K02",
+        "purpose": "I2C data, model names 3 V domain",
+        "description": "SDA_3V"
+      },
+      {
+        "id": "connector64",
+        "label": "SCL_3V",
+        "callout": "K03",
+        "purpose": "I2C clock, model names 3 V domain",
+        "description": "SCL_3V"
+      },
+      {
+        "id": "connector61",
+        "label": "GND",
+        "callout": "K04",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-cda7bdb9542d",
+    "name": "Adafruit ADS1015 12-Bit ADC STEMMA",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%20ADS1015%2012-Bit%20ADC%20STEMMA.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "1816050993a4dca9e9a3cc88e286fd1744ed085a2c2c37831bc24b7d1df9dd86",
+    "svgHash": "85c117fb4cbc6a9d00e8423efa654ed15b1343284a240a419e685765f4d7e8fe",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "dda0e0fa7fb8725794e2bda63ad58e62e7247cc04c99b83b2861aac5ea4dbab5",
+    "sheetWidth": 1400,
+    "sheetHeight": 1585,
+    "pins": [
+      {
+        "id": "connector37",
+        "label": "VCC",
+        "callout": "K01",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector12",
+        "label": "VCC",
+        "callout": "K02",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector18",
+        "label": "VCC",
+        "callout": "K03",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector31",
+        "label": "AVDD",
+        "callout": "K04",
+        "purpose": "Analog supply rail",
+        "description": "AVDD"
+      },
+      {
+        "id": "connector35",
+        "label": "AIN0",
+        "callout": "K05",
+        "purpose": "Analog input channel 0",
+        "description": "AIN0"
+      },
+      {
+        "id": "connector34",
+        "label": "AIN1",
+        "callout": "K06",
+        "purpose": "Analog input channel 1",
+        "description": "AIN1"
+      },
+      {
+        "id": "connector33",
+        "label": "AIN2",
+        "callout": "K07",
+        "purpose": "Analog input channel 2",
+        "description": "AIN2"
+      },
+      {
+        "id": "connector32",
+        "label": "AIN3",
+        "callout": "K08",
+        "purpose": "Analog input channel 3",
+        "description": "AIN3"
+      },
+      {
+        "id": "connector36",
+        "label": "AGND",
+        "callout": "K09",
+        "purpose": "Analog ground reference",
+        "description": "AGND"
+      },
+      {
+        "id": "connector40",
+        "label": "SDA",
+        "callout": "K10",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector13",
+        "label": "SDA",
+        "callout": "K11",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector19",
+        "label": "SDA",
+        "callout": "K12",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector39",
+        "label": "SCL",
+        "callout": "K13",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector14",
+        "label": "SCL",
+        "callout": "K14",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector20",
+        "label": "SCL",
+        "callout": "K15",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector41",
+        "label": "ADDR",
+        "callout": "K16",
+        "purpose": "Bus-address selection",
+        "description": "ADDR"
+      },
+      {
+        "id": "connector42",
+        "label": "ALERT",
+        "callout": "K17",
+        "purpose": "Alert/interrupt output",
+        "description": "ALERT"
+      },
+      {
+        "id": "connector38",
+        "label": "GND",
+        "callout": "K18",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector11",
+        "label": "GND",
+        "callout": "K19",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector17",
+        "label": "GND",
+        "callout": "K20",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-cda7bdb9542d",
+    "name": "Adafruit ADS1115 16-Bit ADC STEMMA",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%20ADS1115%2016-Bit%20ADC%20STEMMA.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "5cae15c860fdab4b7df6cc14292775aa27c3b606791cf0db4cf2ee8f55df505e",
+    "svgHash": "fa20c1f4a7c78f0e6d903c3ca5f1ced1442c8731bee577f8e0589beeb03c8587",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "239eed18a227544b7ea4edcf3daf9de76382065fb4d5d5ee6215a0dc498036d2",
+    "sheetWidth": 1400,
+    "sheetHeight": 1585,
+    "pins": [
+      {
+        "id": "connector37",
+        "label": "VCC",
+        "callout": "K01",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector12",
+        "label": "VCC",
+        "callout": "K02",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector18",
+        "label": "VCC",
+        "callout": "K03",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector31",
+        "label": "AVDD",
+        "callout": "K04",
+        "purpose": "Analog supply rail",
+        "description": "AVDD"
+      },
+      {
+        "id": "connector32",
+        "label": "AIN3",
+        "callout": "K05",
+        "purpose": "Analog input channel 3",
+        "description": "AIN3"
+      },
+      {
+        "id": "connector33",
+        "label": "AIN2",
+        "callout": "K06",
+        "purpose": "Analog input channel 2",
+        "description": "AIN2"
+      },
+      {
+        "id": "connector34",
+        "label": "AIN1",
+        "callout": "K07",
+        "purpose": "Analog input channel 1",
+        "description": "AIN1"
+      },
+      {
+        "id": "connector35",
+        "label": "AIN0",
+        "callout": "K08",
+        "purpose": "Analog input channel 0",
+        "description": "AIN0"
+      },
+      {
+        "id": "connector36",
+        "label": "AGND",
+        "callout": "K09",
+        "purpose": "Analog ground reference",
+        "description": "AGND"
+      },
+      {
+        "id": "connector39",
+        "label": "SCL",
+        "callout": "K10",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector14",
+        "label": "SCL",
+        "callout": "K11",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector20",
+        "label": "SCL",
+        "callout": "K12",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector40",
+        "label": "SDA",
+        "callout": "K13",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector13",
+        "label": "SDA",
+        "callout": "K14",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector19",
+        "label": "SDA",
+        "callout": "K15",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector41",
+        "label": "ADDR",
+        "callout": "K16",
+        "purpose": "Bus-address selection",
+        "description": "ADDR"
+      },
+      {
+        "id": "connector42",
+        "label": "ALERT",
+        "callout": "K17",
+        "purpose": "Alert/interrupt output",
+        "description": "ALERT"
+      },
+      {
+        "id": "connector38",
+        "label": "GND",
+        "callout": "K18",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector11",
+        "label": "GND",
+        "callout": "K19",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector17",
+        "label": "GND",
+        "callout": "K20",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-f3f7192319ed",
+    "name": "Adafruit DS3231 STEMMA QT",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%20DS3231%20STEMMA%20QT.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "800934f4feebfc4bbbbdca044f7fca82b8b0d7f6f26ce0bb30968de06a76eab9",
+    "svgHash": "5618d245263ad82b4f38c3741ef40514d4e4b37efbe1ec1e16786db4c0f2b0e9",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "40b6b7c511b9f346509262ad2038a86ae29b98a0eed2fb6e680a5e29dcfd4539",
+    "sheetWidth": 1400,
+    "sheetHeight": 1543,
+    "pins": [
+      {
+        "id": "connector41",
+        "label": "VCC",
+        "callout": "K01",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector45",
+        "label": "VBAT",
+        "callout": "K02",
+        "purpose": "Battery connection",
+        "description": "VBAT"
+      },
+      {
+        "id": "connector10",
+        "label": "VCC",
+        "callout": "K03",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector16",
+        "label": "VCC",
+        "callout": "K04",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector43",
+        "label": "SCL",
+        "callout": "K05",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector44",
+        "label": "SDA",
+        "callout": "K06",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector11",
+        "label": "SDA",
+        "callout": "K07",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector12",
+        "label": "SCL",
+        "callout": "K08",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector17",
+        "label": "SDA",
+        "callout": "K09",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector18",
+        "label": "SCL",
+        "callout": "K10",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector46",
+        "label": "32KHZ",
+        "callout": "K11",
+        "purpose": "32 kHz clock output",
+        "description": "32KHZ"
+      },
+      {
+        "id": "connector47",
+        "label": "SQW",
+        "callout": "K12",
+        "purpose": "Square-wave / interrupt signal",
+        "description": "SQW"
+      },
+      {
+        "id": "connector48",
+        "label": "!RTC_RST",
+        "callout": "K13",
+        "purpose": "Active-low RTC reset",
+        "description": "!RTC_RST"
+      },
+      {
+        "id": "connector42",
+        "label": "GND",
+        "callout": "K14",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector9",
+        "label": "GND",
+        "callout": "K15",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector15",
+        "label": "GND",
+        "callout": "K16",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-4055f8db746a",
+    "name": "Adafruit PCF8523 STEMMA QT",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%20PCF8523%20STEMMA%20QT.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "f222fc64335750ae3a974c921094d37b06d32c5e0088cfe43ddf9138a107aee8",
+    "svgHash": "5273318ecc48627857893acb04ea3d7d4c50ad7771576fbe71aaa97b3f49e8e3",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "77be73ad49f0dc96316fe5d604de9e207ed8a4c69d99ef6df0187147cce7fe71",
+    "sheetWidth": 1400,
+    "sheetHeight": 1543,
+    "pins": [
+      {
+        "id": "connector41",
+        "label": "VCC",
+        "callout": "K01",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector14",
+        "label": "VCC",
+        "callout": "K02",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector20",
+        "label": "VCC",
+        "callout": "K03",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector39",
+        "label": "SCL",
+        "callout": "K04",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector16",
+        "label": "SCL",
+        "callout": "K05",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector22",
+        "label": "SCL",
+        "callout": "K06",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector21",
+        "label": "SDA",
+        "callout": "K07",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector15",
+        "label": "SDA",
+        "callout": "K08",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector38",
+        "label": "SDA",
+        "callout": "K09",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector37",
+        "label": "SQW",
+        "callout": "K10",
+        "purpose": "Square-wave / interrupt signal",
+        "description": "SQW"
+      },
+      {
+        "id": "connector40",
+        "label": "GND",
+        "callout": "K11",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector13",
+        "label": "GND",
+        "callout": "K12",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector19",
+        "label": "GND",
+        "callout": "K13",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-f85e5df8527b",
+    "name": "Adafruit TCA9548A",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%20TCA9548A.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "52f576e03698a8bcd226af8df60f87fb52f76b3b6b6e16f941a742589fc4029d",
+    "svgHash": "308876c6e70cc5a61bbf4c369dafb8b459b1fd9722ec6d129657e0c2047ad2d6",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "93e6527827375483973e8a4ebde98801dee5f9bfd01cfe69fef5539877b7c461",
+    "sheetWidth": 1400,
+    "sheetHeight": 1627,
+    "pins": [
+      {
+        "id": "connector4",
+        "label": "2SDA",
+        "callout": "K01",
+        "purpose": "I2C data on switched channel 2",
+        "description": "2SDA"
+      },
+      {
+        "id": "connector5",
+        "label": "2SCL",
+        "callout": "K02",
+        "purpose": "I2C clock on switched channel 2",
+        "description": "2SCL"
+      },
+      {
+        "id": "connector6",
+        "label": "3SDA",
+        "callout": "K03",
+        "purpose": "I2C data on switched channel 3",
+        "description": "3SDA"
+      },
+      {
+        "id": "connector7",
+        "label": "3SCL",
+        "callout": "K04",
+        "purpose": "I2C clock on switched channel 3",
+        "description": "3SCL"
+      },
+      {
+        "id": "connector8",
+        "label": "4SDA",
+        "callout": "K05",
+        "purpose": "I2C data on switched channel 4",
+        "description": "4SDA"
+      },
+      {
+        "id": "connector9",
+        "label": "4SCL",
+        "callout": "K06",
+        "purpose": "I2C clock on switched channel 4",
+        "description": "4SCL"
+      },
+      {
+        "id": "connector10",
+        "label": "5SDA",
+        "callout": "K07",
+        "purpose": "I2C data on switched channel 5",
+        "description": "5SDA"
+      },
+      {
+        "id": "connector11",
+        "label": "5SCL",
+        "callout": "K08",
+        "purpose": "I2C clock on switched channel 5",
+        "description": "5SCL"
+      },
+      {
+        "id": "connector12",
+        "label": "6SDA",
+        "callout": "K09",
+        "purpose": "I2C data on switched channel 6",
+        "description": "6SDA"
+      },
+      {
+        "id": "connector13",
+        "label": "6SCL",
+        "callout": "K10",
+        "purpose": "I2C clock on switched channel 6",
+        "description": "6SCL"
+      },
+      {
+        "id": "connector14",
+        "label": "7SDA",
+        "callout": "K11",
+        "purpose": "I2C data on switched channel 7",
+        "description": "7SDA"
+      },
+      {
+        "id": "connector15",
+        "label": "7SCL",
+        "callout": "K12",
+        "purpose": "I2C clock on switched channel 7",
+        "description": "7SCL"
+      },
+      {
+        "id": "connector16",
+        "label": "VCC",
+        "callout": "K13",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector17",
+        "label": "GND",
+        "callout": "K14",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector18",
+        "label": "INPUTSDA",
+        "callout": "K15",
+        "purpose": "Upstream I2C data",
+        "description": "INPUTSDA"
+      },
+      {
+        "id": "connector19",
+        "label": "INPUTSCL",
+        "callout": "K16",
+        "purpose": "Upstream I2C clock",
+        "description": "INPUTSCL"
+      },
+      {
+        "id": "connector20",
+        "label": "RESET",
+        "callout": "K17",
+        "purpose": "Reset control",
+        "description": "RESET"
+      },
+      {
+        "id": "connector21",
+        "label": "A0",
+        "callout": "K18",
+        "purpose": "I2C address-selection bit 0",
+        "description": "A0"
+      },
+      {
+        "id": "connector22",
+        "label": "A1",
+        "callout": "K19",
+        "purpose": "I2C address-selection bit 1",
+        "description": "A1"
+      },
+      {
+        "id": "connector23",
+        "label": "A2",
+        "callout": "K20",
+        "purpose": "I2C address-selection bit 2",
+        "description": "A2"
+      },
+      {
+        "id": "connector24",
+        "label": "0SDA",
+        "callout": "K21",
+        "purpose": "I2C data on switched channel 0",
+        "description": "0SDA"
+      },
+      {
+        "id": "connector25",
+        "label": "0SCL",
+        "callout": "K22",
+        "purpose": "I2C clock on switched channel 0",
+        "description": "0SCL"
+      },
+      {
+        "id": "connector26",
+        "label": "1SDA",
+        "callout": "K23",
+        "purpose": "I2C data on switched channel 1",
+        "description": "1SDA"
+      },
+      {
+        "id": "connector27",
+        "label": "1SCL",
+        "callout": "K24",
+        "purpose": "I2C clock on switched channel 1",
+        "description": "1SCL"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-fa8225e29b1c",
+    "name": "Adafruit MCP4725",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%20MCP4725.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "91504bc77556332e18da66782032cf7e6e946c1d2424fe5cc07ab99f38eac7cf",
+    "svgHash": "9a9fb64c30f09ae182115084906cfede9017e861fd8cafa400418e61f08a04de",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "a57577a651ea01199062b525de63b41f0f9ac1eddf65ef54f1d4bd8194457934",
+    "sheetWidth": 1400,
+    "sheetHeight": 1543,
+    "pins": [
+      {
+        "id": "connector25",
+        "label": "VCC",
+        "callout": "K01",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector10",
+        "label": "VCC",
+        "callout": "K02",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector16",
+        "label": "VCC",
+        "callout": "K03",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector30",
+        "label": "VOUT",
+        "callout": "K04",
+        "purpose": "Voltage output",
+        "description": "VOUT"
+      },
+      {
+        "id": "connector50",
+        "label": "VOUT",
+        "callout": "K05",
+        "purpose": "Voltage output",
+        "description": "VOUT"
+      },
+      {
+        "id": "connector18",
+        "label": "SCL",
+        "callout": "K06",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector12",
+        "label": "SCL",
+        "callout": "K07",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector27",
+        "label": "SCL",
+        "callout": "K08",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector28",
+        "label": "SDA",
+        "callout": "K09",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector11",
+        "label": "SDA",
+        "callout": "K10",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector17",
+        "label": "SDA",
+        "callout": "K11",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector29",
+        "label": "A0",
+        "callout": "K12",
+        "purpose": "I2C address-selection bit 0",
+        "description": "A0"
+      },
+      {
+        "id": "connector26",
+        "label": "GND",
+        "callout": "K13",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector49",
+        "label": "GND",
+        "callout": "K14",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector9",
+        "label": "GND",
+        "callout": "K15",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector15",
+        "label": "GND",
+        "callout": "K16",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-a80cab59debc",
+    "name": "Adafruit AHT20 Temperature and Humidity Sensor",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%20AHT20%20Temperature%20and%20Humidity%20Sensor.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "fa01c14b0ae7df9385aca3a9717b4138020e75a223dbbd8558d3a36ed43fef64",
+    "svgHash": "b4529fdbd68ddc9ebb43e703086238681d82e41b5b97b2b044260a70960d3348",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "9b6259c8d6ec264853f4180c0674019ec43c9eca478ade062734ddbaaae9f502",
+    "sheetWidth": 1400,
+    "sheetHeight": 1501,
+    "pins": [
+      {
+        "id": "connector25",
+        "label": "VCC",
+        "callout": "K01",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector10",
+        "label": "VCC",
+        "callout": "K02",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector16",
+        "label": "VCC",
+        "callout": "K03",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector27",
+        "label": "SCL",
+        "callout": "K04",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector12",
+        "label": "SCL",
+        "callout": "K05",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector18",
+        "label": "SCL",
+        "callout": "K06",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector28",
+        "label": "SDA",
+        "callout": "K07",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector11",
+        "label": "SDA",
+        "callout": "K08",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector17",
+        "label": "SDA",
+        "callout": "K09",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector26",
+        "label": "GND",
+        "callout": "K10",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector9",
+        "label": "GND",
+        "callout": "K11",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector15",
+        "label": "GND",
+        "callout": "K12",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-4390e7df6964",
+    "name": "Adafruit APDS9960 Proximity Sensor",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%20APDS9960%20Proximity%20Sensor.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "0711c795b0f410f38280c63a2cc08d28d9d886489984788249ce8c4c1b570d37",
+    "svgHash": "b0274d8c1bd4234f4ef042ff436fb376337df323766e802db996fcb99f37d8ca",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "015b655184972e83e5cbcb8d3bb511af82e043531c86b113996f249f81af0440",
+    "sheetWidth": 1400,
+    "sheetHeight": 1543,
+    "pins": [
+      {
+        "id": "connector27",
+        "label": "VCC",
+        "callout": "K01",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector28",
+        "label": "3.3V",
+        "callout": "K02",
+        "purpose": "Named supply rail; verify input/output role in source",
+        "description": "3.3V"
+      },
+      {
+        "id": "connector18",
+        "label": "VCC",
+        "callout": "K03",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector12",
+        "label": "VCC",
+        "callout": "K04",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector30",
+        "label": "SCL",
+        "callout": "K05",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector20",
+        "label": "SCL",
+        "callout": "K06",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector14",
+        "label": "SCL",
+        "callout": "K07",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector31",
+        "label": "SDA",
+        "callout": "K08",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector19",
+        "label": "SDA",
+        "callout": "K09",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector13",
+        "label": "SDA",
+        "callout": "K10",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector32",
+        "label": "INT",
+        "callout": "K11",
+        "purpose": "Interrupt signal",
+        "description": "INT"
+      },
+      {
+        "id": "connector29",
+        "label": "GND",
+        "callout": "K12",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector11",
+        "label": "GND",
+        "callout": "K13",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector17",
+        "label": "GND",
+        "callout": "K14",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-bc61583da117",
+    "name": "Adafruit BME280",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%20BME280.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "62b64ce6afad1bede9f63b7f04fd3fa147acc322dc52d3e8a42d285fc3864385",
+    "svgHash": "a3ebac0dfbd4c22619f0db3e85ef2b0dd9d1745c45ec56ef5c515bc8718f0f3c",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "d26e5f86a6e6567e4a2e0adb37d83d2f8186d40e04dc9842866b5f651dcd78ff",
+    "sheetWidth": 1400,
+    "sheetHeight": 1543,
+    "pins": [
+      {
+        "id": "connector29",
+        "label": "VCC",
+        "callout": "K01",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector12",
+        "label": "VCC",
+        "callout": "K02",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector18",
+        "label": "VCC",
+        "callout": "K03",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector30",
+        "label": "3.3V",
+        "callout": "K04",
+        "purpose": "Named supply rail; verify input/output role in source",
+        "description": "3.3V"
+      },
+      {
+        "id": "connector32",
+        "label": "SCK/SCL",
+        "callout": "K05",
+        "purpose": "SPI clock / I2C clock (mode dependent)",
+        "description": "SCK/SCL"
+      },
+      {
+        "id": "connector14",
+        "label": "SCK/SCL",
+        "callout": "K06",
+        "purpose": "SPI clock / I2C clock (mode dependent)",
+        "description": "SCK/SCL"
+      },
+      {
+        "id": "connector20",
+        "label": "SCK/SCL",
+        "callout": "K07",
+        "purpose": "SPI clock / I2C clock (mode dependent)",
+        "description": "SCK/SCL"
+      },
+      {
+        "id": "connector33",
+        "label": "SDO/ADR",
+        "callout": "K08",
+        "purpose": "Serial data output / address selection",
+        "description": "SDO/ADR"
+      },
+      {
+        "id": "connector34",
+        "label": "SDI/SDA",
+        "callout": "K09",
+        "purpose": "SPI data input / I2C data (mode dependent)",
+        "description": "SDI/SDA"
+      },
+      {
+        "id": "connector13",
+        "label": "SDI/SDA",
+        "callout": "K10",
+        "purpose": "SPI data input / I2C data (mode dependent)",
+        "description": "SDI/SDA"
+      },
+      {
+        "id": "connector19",
+        "label": "SDI/SDA",
+        "callout": "K11",
+        "purpose": "SPI data input / I2C data (mode dependent)",
+        "description": "SDI/SDA"
+      },
+      {
+        "id": "connector35",
+        "label": "CS",
+        "callout": "K12",
+        "purpose": "Chip-select signal",
+        "description": "CS"
+      },
+      {
+        "id": "connector31",
+        "label": "GND",
+        "callout": "K13",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector11",
+        "label": "GND",
+        "callout": "K14",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector17",
+        "label": "GND",
+        "callout": "K15",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-cf6c8b88cee4",
+    "name": "Adafruit BME680",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%20BME680.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "89e0405b7d489dbd926ee74cb7bbd6ec784454b6a2f4a66546fa650899de1ad7",
+    "svgHash": "aba07aaf85cf6dff411734b22eade74ab6deaa73b05d92149553ba414cf6d7d4",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "390eb2bfb9ccb1721f44020dc9e0bc23ef50e9770450a4e4fd9a341de0e3156f",
+    "sheetWidth": 1400,
+    "sheetHeight": 1543,
+    "pins": [
+      {
+        "id": "connector37",
+        "label": "VCC",
+        "callout": "K01",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector12",
+        "label": "VCC",
+        "callout": "K02",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector18",
+        "label": "VCC",
+        "callout": "K03",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector38",
+        "label": "3.3V",
+        "callout": "K04",
+        "purpose": "Named supply rail; verify input/output role in source",
+        "description": "3.3V"
+      },
+      {
+        "id": "connector40",
+        "label": "SCK/SCL",
+        "callout": "K05",
+        "purpose": "SPI clock / I2C clock (mode dependent)",
+        "description": "SCK/SCL"
+      },
+      {
+        "id": "connector14",
+        "label": "SCK/SCL",
+        "callout": "K06",
+        "purpose": "SPI clock / I2C clock (mode dependent)",
+        "description": "SCK/SCL"
+      },
+      {
+        "id": "connector20",
+        "label": "SCK/SCL",
+        "callout": "K07",
+        "purpose": "SPI clock / I2C clock (mode dependent)",
+        "description": "SCK/SCL"
+      },
+      {
+        "id": "connector41",
+        "label": "SDO/ADR",
+        "callout": "K08",
+        "purpose": "Serial data output / address selection",
+        "description": "SDO/ADR"
+      },
+      {
+        "id": "connector42",
+        "label": "SDI/SDA",
+        "callout": "K09",
+        "purpose": "SPI data input / I2C data (mode dependent)",
+        "description": "SDI/SDA"
+      },
+      {
+        "id": "connector13",
+        "label": "SDI/SDA",
+        "callout": "K10",
+        "purpose": "SPI data input / I2C data (mode dependent)",
+        "description": "SDI/SDA"
+      },
+      {
+        "id": "connector19",
+        "label": "SDI/SDA",
+        "callout": "K11",
+        "purpose": "SPI data input / I2C data (mode dependent)",
+        "description": "SDI/SDA"
+      },
+      {
+        "id": "connector43",
+        "label": "CS",
+        "callout": "K12",
+        "purpose": "Chip-select signal",
+        "description": "CS"
+      },
+      {
+        "id": "connector39",
+        "label": "GND",
+        "callout": "K13",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector11",
+        "label": "GND",
+        "callout": "K14",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector17",
+        "label": "GND",
+        "callout": "K15",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-4b0001459b22",
+    "name": "Adafruit BMP280",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%20BMP280.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "3dc39215adb0bb4cba8f039ac1365c07b47b63d2eee3504612d23fce4ad18241",
+    "svgHash": "670e6be7e9b6e33a3ec0d9f018f4f64484aa16846394bddaef56cdc0ca901584",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "9384784466fbb5223e4aacf59c45dc9e103679fa5e8262922b308befb3839e59",
+    "sheetWidth": 1400,
+    "sheetHeight": 1543,
+    "pins": [
+      {
+        "id": "connector29",
+        "label": "VCC",
+        "callout": "K01",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector12",
+        "label": "VCC",
+        "callout": "K02",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector18",
+        "label": "VCC",
+        "callout": "K03",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector30",
+        "label": "3.3V",
+        "callout": "K04",
+        "purpose": "Named supply rail; verify input/output role in source",
+        "description": "3.3V"
+      },
+      {
+        "id": "connector32",
+        "label": "SCK/SCL",
+        "callout": "K05",
+        "purpose": "SPI clock / I2C clock (mode dependent)",
+        "description": "SCK/SCL"
+      },
+      {
+        "id": "connector14",
+        "label": "SCK/SCL",
+        "callout": "K06",
+        "purpose": "SPI clock / I2C clock (mode dependent)",
+        "description": "SCK/SCL"
+      },
+      {
+        "id": "connector20",
+        "label": "SCK/SCL",
+        "callout": "K07",
+        "purpose": "SPI clock / I2C clock (mode dependent)",
+        "description": "SCK/SCL"
+      },
+      {
+        "id": "connector33",
+        "label": "SDO/ADR",
+        "callout": "K08",
+        "purpose": "Serial data output / address selection",
+        "description": "SDO/ADR"
+      },
+      {
+        "id": "connector34",
+        "label": "SDI/SDA",
+        "callout": "K09",
+        "purpose": "SPI data input / I2C data (mode dependent)",
+        "description": "SDI/SDA"
+      },
+      {
+        "id": "connector13",
+        "label": "SDI/SDA",
+        "callout": "K10",
+        "purpose": "SPI data input / I2C data (mode dependent)",
+        "description": "SDI/SDA"
+      },
+      {
+        "id": "connector19",
+        "label": "SDI/SDA",
+        "callout": "K11",
+        "purpose": "SPI data input / I2C data (mode dependent)",
+        "description": "SDI/SDA"
+      },
+      {
+        "id": "connector35",
+        "label": "CS",
+        "callout": "K12",
+        "purpose": "Chip-select signal",
+        "description": "CS"
+      },
+      {
+        "id": "connector31",
+        "label": "GND",
+        "callout": "K13",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector11",
+        "label": "GND",
+        "callout": "K14",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector17",
+        "label": "GND",
+        "callout": "K15",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-033e26673f5e",
+    "name": "Adafruit BNO055 STEMMA QT",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%20BNO055%20STEMMA%20QT.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "0926336c5fc0056a70646059a16b3dd95b917c0ccf378df188d8940fde76e7c2",
+    "svgHash": "8533b1585d179dff30a88e9e7f191205cd1438d417a05afdd608866d049aeae2",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "d0294c78cd17a52935d368da0d9a0dc1543edd5a25015b234ec515cfb8fc4a4c",
+    "sheetWidth": 1400,
+    "sheetHeight": 1585,
+    "pins": [
+      {
+        "id": "connector39",
+        "label": "VCC",
+        "callout": "K01",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector40",
+        "label": "3.3V",
+        "callout": "K02",
+        "purpose": "Named supply rail; verify input/output role in source",
+        "description": "3.3V"
+      },
+      {
+        "id": "connector18",
+        "label": "VCC",
+        "callout": "K03",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector24",
+        "label": "VCC",
+        "callout": "K04",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector42",
+        "label": "SCL",
+        "callout": "K05",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector20",
+        "label": "SCL",
+        "callout": "K06",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector26",
+        "label": "SCL",
+        "callout": "K07",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector43",
+        "label": "SDA",
+        "callout": "K08",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector19",
+        "label": "SDA",
+        "callout": "K09",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector25",
+        "label": "SDA",
+        "callout": "K10",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector44",
+        "label": "RESET",
+        "callout": "K11",
+        "purpose": "Reset control",
+        "description": "RESET"
+      },
+      {
+        "id": "connector35",
+        "label": "INT_3V",
+        "callout": "K12",
+        "purpose": "Interrupt in model 3 V domain",
+        "description": "INT_3V"
+      },
+      {
+        "id": "connector36",
+        "label": "I2CADDR_3V",
+        "callout": "K13",
+        "purpose": "I2C address-selection input",
+        "description": "I2CADDR_3V"
+      },
+      {
+        "id": "connector37",
+        "label": "PS0_3V",
+        "callout": "K14",
+        "purpose": "Communication protocol selection bit 0",
+        "description": "PS0_3V"
+      },
+      {
+        "id": "connector38",
+        "label": "PS1_3V",
+        "callout": "K15",
+        "purpose": "Communication protocol selection bit 1",
+        "description": "PS1_3V"
+      },
+      {
+        "id": "connector41",
+        "label": "GND",
+        "callout": "K16",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector17",
+        "label": "GND",
+        "callout": "K17",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector23",
+        "label": "GND",
+        "callout": "K18",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-3e9ba2e85414",
+    "name": "Adafruit INA219",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%20INA219.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "746d50026e818fe35e8b708cc22018603731e6ed4e84c37c2f18fbef7d56b773",
+    "svgHash": "4d6abb0ffe2d502e1da249af0f41cdccea903fdbdc540a89700ddeab88331883",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "43ed3ca53adcfca935c1bba48d8ce5fc53d9a31b14daa54b9693883aaa86082f",
+    "sheetWidth": 1400,
+    "sheetHeight": 1543,
+    "pins": [
+      {
+        "id": "connector25",
+        "label": "VIN-",
+        "callout": "K01",
+        "purpose": "Negative current-sense connection",
+        "description": "VIN-"
+      },
+      {
+        "id": "connector26",
+        "label": "VIN+",
+        "callout": "K02",
+        "purpose": "Positive current-sense connection",
+        "description": "VIN+"
+      },
+      {
+        "id": "connector27",
+        "label": "VCC",
+        "callout": "K03",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector10",
+        "label": "VCC",
+        "callout": "K04",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector16",
+        "label": "VCC",
+        "callout": "K05",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector31",
+        "label": "VIN-",
+        "callout": "K06",
+        "purpose": "Negative current-sense connection",
+        "description": "VIN-"
+      },
+      {
+        "id": "connector32",
+        "label": "VIN+",
+        "callout": "K07",
+        "purpose": "Positive current-sense connection",
+        "description": "VIN+"
+      },
+      {
+        "id": "connector29",
+        "label": "SCL",
+        "callout": "K08",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector12",
+        "label": "SCL",
+        "callout": "K09",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector18",
+        "label": "SCL",
+        "callout": "K10",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector30",
+        "label": "SDA",
+        "callout": "K11",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector11",
+        "label": "SDA",
+        "callout": "K12",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector17",
+        "label": "SDA",
+        "callout": "K13",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector28",
+        "label": "GND",
+        "callout": "K14",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector9",
+        "label": "GND",
+        "callout": "K15",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector15",
+        "label": "GND",
+        "callout": "K16",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-d2748c21e7ce",
+    "name": "Adafruit INA260",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%20INA260.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "ea3d77725b49fd7a769b2e18b1b2eac89305ff1e91b28812e0e9e9879cc643c0",
+    "svgHash": "26f41925f2dcba72bccf94521938da49a23c9f5c953c78fbbdf7fc17f1966949",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "34a9bc83026e5f6aaec51df0a401cdaab95211f8b74e5a743276796fa9b3add8",
+    "sheetWidth": 1400,
+    "sheetHeight": 1501,
+    "pins": [
+      {
+        "id": "connector25",
+        "label": "VCC",
+        "callout": "K01",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector30",
+        "label": "VBUS",
+        "callout": "K02",
+        "purpose": "USB supply rail",
+        "description": "VBUS"
+      },
+      {
+        "id": "connector31",
+        "label": "IN+",
+        "callout": "K03",
+        "purpose": "Positive input connection",
+        "description": "IN+"
+      },
+      {
+        "id": "connector50",
+        "label": "IN+",
+        "callout": "K04",
+        "purpose": "Positive input connection",
+        "description": "IN+"
+      },
+      {
+        "id": "connector51",
+        "label": "IN-",
+        "callout": "K05",
+        "purpose": "Negative input connection",
+        "description": "IN-"
+      },
+      {
+        "id": "connector32",
+        "label": "IN-",
+        "callout": "K06",
+        "purpose": "Negative input connection",
+        "description": "IN-"
+      },
+      {
+        "id": "connector29",
+        "label": "ALERT",
+        "callout": "K07",
+        "purpose": "Alert/interrupt output",
+        "description": "ALERT"
+      },
+      {
+        "id": "connector28",
+        "label": "SDA",
+        "callout": "K08",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector27",
+        "label": "SCL",
+        "callout": "K09",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector26",
+        "label": "GND",
+        "callout": "K10",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-333ef25b6ff3",
+    "name": "Adafruit LIS3DH Triple-Axis Accelerometer",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%20LIS3DH%20Triple-Axis%20Accelerometer.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "36dd4d536f427a40b9a61e7952c737f56fd1b349fe875864e77664b78e3e93f9",
+    "svgHash": "f87fb07079d26c015db1566ec61fa5563d538d106c0f6965b37c3a8bcfe6057e",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "61b6b5a8f3e88581c9dfd36bb4e7f45d7ab24614759d468f2bd5576d937050f5",
+    "sheetWidth": 1400,
+    "sheetHeight": 1585,
+    "pins": [
+      {
+        "id": "connector35",
+        "label": "VCC",
+        "callout": "K01",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector36",
+        "label": "3.3V",
+        "callout": "K02",
+        "purpose": "Named supply rail; verify input/output role in source",
+        "description": "3.3V"
+      },
+      {
+        "id": "connector12",
+        "label": "VCC",
+        "callout": "K03",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector18",
+        "label": "VCC",
+        "callout": "K04",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector34",
+        "label": "INT2",
+        "callout": "K05",
+        "purpose": "Interrupt signal 2",
+        "description": "INT2"
+      },
+      {
+        "id": "connector33",
+        "label": "ADC3",
+        "callout": "K06",
+        "purpose": "Analog input channel 3",
+        "description": "ADC3"
+      },
+      {
+        "id": "connector32",
+        "label": "ADC2",
+        "callout": "K07",
+        "purpose": "Analog input channel 2",
+        "description": "ADC2"
+      },
+      {
+        "id": "connector31",
+        "label": "ADC1",
+        "callout": "K08",
+        "purpose": "Analog input channel 1",
+        "description": "ADC1"
+      },
+      {
+        "id": "connector30",
+        "label": "SDO",
+        "callout": "K09",
+        "purpose": "Serial data output",
+        "description": "SDO"
+      },
+      {
+        "id": "connector29",
+        "label": "CS",
+        "callout": "K10",
+        "purpose": "Chip-select signal",
+        "description": "CS"
+      },
+      {
+        "id": "connector38",
+        "label": "SCL",
+        "callout": "K11",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector14",
+        "label": "SCL",
+        "callout": "K12",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector20",
+        "label": "SCL",
+        "callout": "K13",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector39",
+        "label": "SDA",
+        "callout": "K14",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector13",
+        "label": "SDA",
+        "callout": "K15",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector19",
+        "label": "SDA",
+        "callout": "K16",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector40",
+        "label": "INT1",
+        "callout": "K17",
+        "purpose": "Interrupt signal 1",
+        "description": "INT1"
+      },
+      {
+        "id": "connector37",
+        "label": "GND",
+        "callout": "K18",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector11",
+        "label": "GND",
+        "callout": "K19",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector17",
+        "label": "GND",
+        "callout": "K20",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-357aa2b8b93a",
+    "name": "Adafruit SCD4x",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%20SCD4x.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "b4bf85ee15193797f20a0751ef9804d806adb79c95b6a60a653c59bcd3711e8f",
+    "svgHash": "ee92ffdc5cd9e24dd64f4f5e4db73fc70f319f6325f05563355ae5693cce1bb0",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "8db2b5be01168cc37752330d4ea261f0cd08a7bd752695b5bc101b2855c853b9",
+    "sheetWidth": 1400,
+    "sheetHeight": 1543,
+    "pins": [
+      {
+        "id": "connector31",
+        "label": "VCC",
+        "callout": "K01",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector16",
+        "label": "VCC",
+        "callout": "K02",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector22",
+        "label": "VCC",
+        "callout": "K03",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector32",
+        "label": "3.3V",
+        "callout": "K04",
+        "purpose": "Named supply rail; verify input/output role in source",
+        "description": "3.3V"
+      },
+      {
+        "id": "connector34",
+        "label": "SCL",
+        "callout": "K05",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector18",
+        "label": "SCL",
+        "callout": "K06",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector24",
+        "label": "SCL",
+        "callout": "K07",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector35",
+        "label": "SDA",
+        "callout": "K08",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector17",
+        "label": "SDA",
+        "callout": "K09",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector23",
+        "label": "SDA",
+        "callout": "K10",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector33",
+        "label": "GND",
+        "callout": "K11",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector15",
+        "label": "GND",
+        "callout": "K12",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector21",
+        "label": "GND",
+        "callout": "K13",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-1eb58493be3e",
+    "name": "Adafruit SHT31-D",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%20SHT31-D.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "21e1bf3e401ec7310b3ade5727e9b3b7ffea7ce8b6aadc1108fda0a277780d44",
+    "svgHash": "9ce6c67a0e9edcf2a65442cb90074b42ad28bd77192453d45ba4413cbd3f1501",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "f56d5188baf53fd231c6a9707f83ebbe1db66bd8f94d3c80b46d167d6bc5af6d",
+    "sheetWidth": 1400,
+    "sheetHeight": 1543,
+    "pins": [
+      {
+        "id": "connector25",
+        "label": "VCC",
+        "callout": "K01",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector10",
+        "label": "VCC",
+        "callout": "K02",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector16",
+        "label": "VCC",
+        "callout": "K03",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector27",
+        "label": "SCL",
+        "callout": "K04",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector12",
+        "label": "SCL",
+        "callout": "K05",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector18",
+        "label": "SCL",
+        "callout": "K06",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector17",
+        "label": "SDA",
+        "callout": "K07",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector11",
+        "label": "SDA",
+        "callout": "K08",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector28",
+        "label": "SDA",
+        "callout": "K09",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector30",
+        "label": "!RESET",
+        "callout": "K10",
+        "purpose": "Active-low reset control",
+        "description": "!RESET"
+      },
+      {
+        "id": "connector29",
+        "label": "ADDR",
+        "callout": "K11",
+        "purpose": "Bus-address selection",
+        "description": "ADDR"
+      },
+      {
+        "id": "connector31",
+        "label": "ALERT",
+        "callout": "K12",
+        "purpose": "Alert/interrupt output",
+        "description": "ALERT"
+      },
+      {
+        "id": "connector26",
+        "label": "GND",
+        "callout": "K13",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector9",
+        "label": "GND",
+        "callout": "K14",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector15",
+        "label": "GND",
+        "callout": "K15",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-1a2b4f796497",
+    "name": "Adafruit SHT4x",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%20SHT4x.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "be1dc20b0a5147d7554e13485313c739563acaf1665e30b52f2818225506eb3c",
+    "svgHash": "022f3beb24d65acd63181703d9314ee665061dd80cfe445561cedbca1def70db",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "6abc2410fbad7f20acee9d8d14c933bc65e3fd0e62e6d4b52dc8b09be4c049c4",
+    "sheetWidth": 1400,
+    "sheetHeight": 1543,
+    "pins": [
+      {
+        "id": "connector27",
+        "label": "VCC",
+        "callout": "K01",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector12",
+        "label": "VCC",
+        "callout": "K02",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector18",
+        "label": "VCC",
+        "callout": "K03",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector28",
+        "label": "3.3V",
+        "callout": "K04",
+        "purpose": "Named supply rail; verify input/output role in source",
+        "description": "3.3V"
+      },
+      {
+        "id": "connector30",
+        "label": "SCL",
+        "callout": "K05",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector14",
+        "label": "SCL",
+        "callout": "K06",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector20",
+        "label": "SCL",
+        "callout": "K07",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector31",
+        "label": "SDA",
+        "callout": "K08",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector13",
+        "label": "SDA",
+        "callout": "K09",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector19",
+        "label": "SDA",
+        "callout": "K10",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector29",
+        "label": "GND",
+        "callout": "K11",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector11",
+        "label": "GND",
+        "callout": "K12",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector17",
+        "label": "GND",
+        "callout": "K13",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-b2e586290c14",
+    "name": "Adafruit VL53L0X Time of Flight Distance Sensor",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%20VL53L0X%20Time%20of%20Flight%20Distance%20Sensor.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "a03988bbc28cc619f27df4b45b37c343ddcf4661b36b5e25429d6a16a4320201",
+    "svgHash": "2561440087db51def024f442aad3031537c141ffea066a179a4172009d711057",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "d63c621551143f4fce4839feacf27f8cf065a9b07b25625f7192a8fbb401ace3",
+    "sheetWidth": 1400,
+    "sheetHeight": 1543,
+    "pins": [
+      {
+        "id": "connector29",
+        "label": "VCC",
+        "callout": "K01",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector12",
+        "label": "VCC",
+        "callout": "K02",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector18",
+        "label": "VCC",
+        "callout": "K03",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector31",
+        "label": "SCL",
+        "callout": "K04",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector14",
+        "label": "SCL",
+        "callout": "K05",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector20",
+        "label": "SCL",
+        "callout": "K06",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector32",
+        "label": "SDA",
+        "callout": "K07",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector13",
+        "label": "SDA",
+        "callout": "K08",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector19",
+        "label": "SDA",
+        "callout": "K09",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector33",
+        "label": "GPIO",
+        "callout": "K10",
+        "purpose": "General-purpose I/O; configured function is source-dependent",
+        "description": "GPIO"
+      },
+      {
+        "id": "connector34",
+        "label": "XSHUT",
+        "callout": "K11",
+        "purpose": "Sensor shutdown control",
+        "description": "XSHUT"
+      },
+      {
+        "id": "connector30",
+        "label": "GND",
+        "callout": "K12",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector11",
+        "label": "GND",
+        "callout": "K13",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector17",
+        "label": "GND",
+        "callout": "K14",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-ce8520e58dc5",
+    "name": "Adafruit VL53L1X Time of Flight Sensor",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%20VL53L1X%20Time%20of%20Flight%20Sensor.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "3a7534c9a8f40e25717ab5f93b4d71b484a09e5cb88e8f97b50ea2ec82741878",
+    "svgHash": "83fca98dedd43b0438d8c175c6056a937a59c63cc855c3bfa9f6cae3700ebfb8",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "a478b83a1656159ec455cb07bdeb99422f6f192ce16ee31129d872003f82854e",
+    "sheetWidth": 1400,
+    "sheetHeight": 1543,
+    "pins": [
+      {
+        "id": "connector29",
+        "label": "VCC",
+        "callout": "K01",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector12",
+        "label": "VCC",
+        "callout": "K02",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector18",
+        "label": "VCC",
+        "callout": "K03",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector14",
+        "label": "SCL",
+        "callout": "K04",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector31",
+        "label": "SCL",
+        "callout": "K05",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector20",
+        "label": "SCL",
+        "callout": "K06",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector32",
+        "label": "SDA",
+        "callout": "K07",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector13",
+        "label": "SDA",
+        "callout": "K08",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector19",
+        "label": "SDA",
+        "callout": "K09",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector33",
+        "label": "GPIO",
+        "callout": "K10",
+        "purpose": "General-purpose I/O; configured function is source-dependent",
+        "description": "GPIO"
+      },
+      {
+        "id": "connector34",
+        "label": "XSHUT",
+        "callout": "K11",
+        "purpose": "Sensor shutdown control",
+        "description": "XSHUT"
+      },
+      {
+        "id": "connector30",
+        "label": "GND",
+        "callout": "K12",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector11",
+        "label": "GND",
+        "callout": "K13",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector17",
+        "label": "GND",
+        "callout": "K14",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-product-326",
+    "name": "Mono 0.96in 128x64 OLED with STEMMA QT",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Mono%200.96in%20128x64%20OLED%20with%20STEMMA%20QT.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "f5512147f72987b501599cc26159d469eec80fd68341f5fe2dfe2f5b1b1c2028",
+    "svgHash": "235fb0b85e3002b196838067878110c8d34763f271b2fa3e206b3a7d1dcfb6fe",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "dcd812fcc60629cdb8513c87a6a04af154dac789a5ce94c9b3caa8e208e9822a",
+    "sheetWidth": 1400,
+    "sheetHeight": 1543,
+    "pins": [
+      {
+        "id": "connector22",
+        "label": "3.3V",
+        "callout": "K01",
+        "purpose": "Named supply rail; verify input/output role in source",
+        "description": "3.3V"
+      },
+      {
+        "id": "connector23",
+        "label": "VCC",
+        "callout": "K02",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector6",
+        "label": "VCC",
+        "callout": "K03",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector12",
+        "label": "VCC",
+        "callout": "K04",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector21",
+        "label": "CS_5.0V",
+        "callout": "K05",
+        "purpose": "Chip select in the model level-shifted domain",
+        "description": "CS_5.0V"
+      },
+      {
+        "id": "connector19",
+        "label": "DC/SA0_5.0V",
+        "callout": "K06",
+        "purpose": "Data/command or address selection in model level-shifted domain",
+        "description": "DC/SA0_5.0V"
+      },
+      {
+        "id": "connector17",
+        "label": "SDA",
+        "callout": "K07",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector18",
+        "label": "SCL",
+        "callout": "K08",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector7",
+        "label": "SDA",
+        "callout": "K09",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector8",
+        "label": "SCL",
+        "callout": "K10",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector13",
+        "label": "SDA",
+        "callout": "K11",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector14",
+        "label": "SCL",
+        "callout": "K12",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector20",
+        "label": "RST_5.0V",
+        "callout": "K13",
+        "purpose": "Reset control in model level-shifted domain",
+        "description": "RST_5.0V"
+      },
+      {
+        "id": "connector24",
+        "label": "GND",
+        "callout": "K14",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector5",
+        "label": "GND",
+        "callout": "K15",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector11",
+        "label": "GND",
+        "callout": "K16",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-product-938",
+    "name": "Adafruit OLED Monochrome 1.3in 128x64 with STEMMA QT",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%20OLED%20Monochrome%201.3in%20128x64%20with%20STEMMA%20QT.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "47a38e1678aabbe467edd8c1580d6572c7c640e2525b09716744f4166477693a",
+    "svgHash": "f4367d1ce3fb41c8095e434470e1d3492a8c10f12a32ba3bb21f8adffef0a26d",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "11f5cf2acb01ab61bd9bb4d2ec46eaab32af7da30a142dc580ed0f15a4d162fb",
+    "sheetWidth": 1400,
+    "sheetHeight": 1543,
+    "pins": [
+      {
+        "id": "connector22",
+        "label": "3.3V",
+        "callout": "K01",
+        "purpose": "Named supply rail; verify input/output role in source",
+        "description": "3.3V"
+      },
+      {
+        "id": "connector23",
+        "label": "VCC",
+        "callout": "K02",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector6",
+        "label": "VCC",
+        "callout": "K03",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector12",
+        "label": "VCC",
+        "callout": "K04",
+        "purpose": "Supply rail; confirm allowed voltage and direction",
+        "description": "VCC"
+      },
+      {
+        "id": "connector21",
+        "label": "CS_5.0V",
+        "callout": "K05",
+        "purpose": "Chip select in the model level-shifted domain",
+        "description": "CS_5.0V"
+      },
+      {
+        "id": "connector19",
+        "label": "DC/SA0_5.0V",
+        "callout": "K06",
+        "purpose": "Data/command or address selection in model level-shifted domain",
+        "description": "DC/SA0_5.0V"
+      },
+      {
+        "id": "connector17",
+        "label": "SDA",
+        "callout": "K07",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector7",
+        "label": "SDA",
+        "callout": "K08",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector13",
+        "label": "SDA",
+        "callout": "K09",
+        "purpose": "I2C serial data",
+        "description": "SDA"
+      },
+      {
+        "id": "connector14",
+        "label": "SCL",
+        "callout": "K10",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector18",
+        "label": "SCL",
+        "callout": "K11",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector8",
+        "label": "SCL",
+        "callout": "K12",
+        "purpose": "I2C serial clock",
+        "description": "SCL"
+      },
+      {
+        "id": "connector20",
+        "label": "RST_5.0V",
+        "callout": "K13",
+        "purpose": "Reset control in model level-shifted domain",
+        "description": "RST_5.0V"
+      },
+      {
+        "id": "connector24",
+        "label": "GND",
+        "callout": "K14",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector5",
+        "label": "GND",
+        "callout": "K15",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector11",
+        "label": "GND",
+        "callout": "K16",
+        "purpose": "Ground reference",
+        "description": "GND"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-11fc5d17cd6f",
+    "name": "Adafruit PowerBoost 1000C",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/Adafruit%20PowerBoost%201000C.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "ef4dd9aff876c31b489da85a093097fb778d8fde16284019b37adc82dbf7c00f",
+    "svgHash": "214347e81829bd2085d4a23b105d12beeece20efdc588e098ff09deead418cca",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "ff3459402f2cce22aecf9968a4f4721420d9df127323fa78f65a18368df65607",
+    "sheetWidth": 1400,
+    "sheetHeight": 1543,
+    "pins": [
+      {
+        "id": "connector18",
+        "label": "D+",
+        "callout": "K01",
+        "purpose": "USB positive data line",
+        "description": "D+"
+      },
+      {
+        "id": "connector19",
+        "label": "D-",
+        "callout": "K02",
+        "purpose": "USB negative data line",
+        "description": "D-"
+      },
+      {
+        "id": "connector20",
+        "label": "GND",
+        "callout": "K03",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector23",
+        "label": "5.0V",
+        "callout": "K04",
+        "purpose": "Named supply rail; verify input/output role in source",
+        "description": "5.0V"
+      },
+      {
+        "id": "connector40",
+        "label": "VBUS",
+        "callout": "K05",
+        "purpose": "USB supply rail",
+        "description": "VBUS"
+      },
+      {
+        "id": "connector41",
+        "label": "VLIPO",
+        "callout": "K06",
+        "purpose": "Lithium battery connection",
+        "description": "VLIPO"
+      },
+      {
+        "id": "connector42",
+        "label": "VBAT",
+        "callout": "K07",
+        "purpose": "Battery connection",
+        "description": "VBAT"
+      },
+      {
+        "id": "connector43",
+        "label": "ENABLE",
+        "callout": "K08",
+        "purpose": "Enable-control signal",
+        "description": "ENABLE"
+      },
+      {
+        "id": "connector44",
+        "label": "GND",
+        "callout": "K09",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector45",
+        "label": "LBO",
+        "callout": "K10",
+        "purpose": "Low-battery status output",
+        "description": "LBO"
+      },
+      {
+        "id": "connector46",
+        "label": "GND",
+        "callout": "K11",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector47",
+        "label": "5.0V",
+        "callout": "K12",
+        "purpose": "Named supply rail; verify input/output role in source",
+        "description": "5.0V"
+      },
+      {
+        "id": "connector138",
+        "label": "GND",
+        "callout": "K13",
+        "purpose": "Ground reference",
+        "description": "GND"
+      },
+      {
+        "id": "connector139",
+        "label": "5.0V",
+        "callout": "K14",
+        "purpose": "Named supply rail; verify input/output role in source",
+        "description": "5.0V"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-44fa7ce955f3",
+    "name": "PowerBoost 500 Charger Pad",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/PowerBoost%20500%20Charger%20Pad.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "1bc5e5d6f0f1f205ca9702efb248eff4d35141ca8d581c29afb82d8ad56996be",
+    "svgHash": "ed05e3386c736f5893a90d4f4b155d1b1978b70152a4747fff407699736dd784",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "1a2c887675c0de85054d700a3ca8b2232b65ea6b1c18717648e84fa389e3b178",
+    "sheetWidth": 1400,
+    "sheetHeight": 1501,
+    "pins": [
+      {
+        "id": "connector0",
+        "label": "GND",
+        "callout": "K01",
+        "purpose": "Ground reference",
+        "description": "Battery/power ground"
+      },
+      {
+        "id": "connector1",
+        "label": "VBAT",
+        "callout": "K02",
+        "purpose": "Battery connection",
+        "description": "LiPo Battery"
+      },
+      {
+        "id": "connector22",
+        "label": "VBAT",
+        "callout": "K03",
+        "purpose": "Battery connection",
+        "description": "LiPo Battery"
+      },
+      {
+        "id": "connector23",
+        "label": "ENABLE",
+        "callout": "K04",
+        "purpose": "Enable-control signal",
+        "description": "Enable"
+      },
+      {
+        "id": "connector24",
+        "label": "GND",
+        "callout": "K05",
+        "purpose": "Ground reference",
+        "description": "Battery/power ground"
+      },
+      {
+        "id": "connector25",
+        "label": "LBO",
+        "callout": "K06",
+        "purpose": "Low-battery status output",
+        "description": "Low Battery Output"
+      },
+      {
+        "id": "connector26",
+        "label": "GND",
+        "callout": "K07",
+        "purpose": "Ground reference",
+        "description": "Battery/power ground"
+      },
+      {
+        "id": "connector27",
+        "label": "5.0V",
+        "callout": "K08",
+        "purpose": "Named supply rail; verify input/output role in source",
+        "description": "5.2V boosted output"
+      },
+      {
+        "id": "connector28",
+        "label": "USB",
+        "callout": "K09",
+        "purpose": "USB supply connection",
+        "description": "USB 5V power"
+      },
+      {
+        "id": "connector29",
+        "label": "GND",
+        "callout": "K10",
+        "purpose": "Ground reference",
+        "description": "Battery/power ground"
+      },
+      {
+        "id": "connector100",
+        "label": "GND",
+        "callout": "K11",
+        "purpose": "Ground reference",
+        "description": "Battery/power ground"
+      },
+      {
+        "id": "connector101",
+        "label": "5.0V",
+        "callout": "K12",
+        "purpose": "Named supply rail; verify input/output role in source",
+        "description": "5.2V boosted output"
+      }
+    ]
+  },
+  {
+    "partId": "maker-adafruit-50b7b2b3df89",
+    "name": "PowerBoost 1000 Basic JST Pad",
+    "source": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/parts/PowerBoost%201000%20Basic%20JST%20Pad.fzpz",
+    "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+    "packageHash": "f692948fc0e5d3f6ea9e950e9725f5e7738b57897d5df7123df2dd608fdd174f",
+    "svgHash": "b69137a7e1e196d579d240317a1ecea0186fd1597ca02dafdd599763393fed81",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseSource": "https://github.com/adafruit/Fritzing-Library/blob/6fe4856351c504d627c973129a01c5a8df1387ac/LICENSE",
+    "sheetHash": "b8a8cb174f0d29236b5adc95adbef6d5369f615927f8c642c9a7856a2b08ed6e",
+    "sheetWidth": 1400,
+    "sheetHeight": 1501,
+    "pins": [
+      {
+        "id": "connector23",
+        "label": "VBAT",
+        "callout": "K01",
+        "purpose": "Battery connection",
+        "description": "Battery input 1.8V to 5V"
+      },
+      {
+        "id": "connector24",
+        "label": "GND",
+        "callout": "K02",
+        "purpose": "Ground reference",
+        "description": "Battery/power ground"
+      },
+      {
+        "id": "connector25",
+        "label": "ENABLE",
+        "callout": "K03",
+        "purpose": "Enable-control signal",
+        "description": "Enable"
+      },
+      {
+        "id": "connector26",
+        "label": "LBO",
+        "callout": "K04",
+        "purpose": "Low-battery status output",
+        "description": "Low Battery Output"
+      },
+      {
+        "id": "connector27",
+        "label": "GND",
+        "callout": "K05",
+        "purpose": "Ground reference",
+        "description": "Battery/power ground"
+      },
+      {
+        "id": "connector28",
+        "label": "5.0V",
+        "callout": "K06",
+        "purpose": "Named supply rail; verify input/output role in source",
+        "description": "5.2V boosted output"
+      },
+      {
+        "id": "connector84",
+        "label": "GND",
+        "callout": "K07",
+        "purpose": "Ground reference",
+        "description": "Battery/power ground"
+      },
+      {
+        "id": "connector85",
+        "label": "5.0V",
+        "callout": "K08",
+        "purpose": "Named supply rail; verify input/output role in source",
+        "description": "5.2V boosted output"
+      },
+      {
+        "id": "connector86",
+        "label": "GND",
+        "callout": "K09",
+        "purpose": "Ground reference",
+        "description": "Battery/power ground"
+      },
+      {
+        "id": "connector87",
+        "label": "VBAT",
+        "callout": "K10",
+        "purpose": "Battery connection",
+        "description": "Battery input 1.8V to 5V"
+      }
+    ]
+  }
+]

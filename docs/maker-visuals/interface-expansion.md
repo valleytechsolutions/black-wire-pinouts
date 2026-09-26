@@ -2,7 +2,7 @@
 
 [All categories](../../MAKER_VISUALS.md) · [Image attribution ledger](../../catalog/maker-attributions.json)
 
-Source references remain unchanged. Check exact PCB/revision, source notes and rights before reuse. Photos and partial connector diagrams are not complete-device approvals.
+Manufacturer originals remain unchanged. Connector-model sheets add separately labeled callouts under the recorded source license. Check exact PCB/revision, source notes and rights before reuse. Photos and partial connector diagrams are not complete-device approvals.
 
 ## 3D Gesture Tracking Shield for Raspberry Pi (MGC3130)
 
@@ -22,11 +22,11 @@ Seeed Studio · Source review pending
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-existing-seeed-studio-expansion-4-channel-16-bit-adc-for-raspberry-pi-ads1115)
 
-[![4-Channel 16-Bit ADC for Raspberry Pi (ADS1115) / pinout image](../../library/thumbs/69c941e54faec1712326d0b0e96a29fc2d751e132bef45339e968992af03618b.webp)](../../library/media/69c941e54faec1712326d0b0e96a29fc2d751e132bef45339e968992af03618b.png)
+[![4-Channel 16-Bit ADC for Raspberry Pi (ADS1115) / pinout image](../../library/maker-thumbs/0c7b66172d3e16f99d3395e2a1ca558e12955f83b403b47af0c1a5830ad7eac0.webp)](../../library/maker-media/0c7b66172d3e16f99d3395e2a1ca558e12955f83b403b47af0c1a5830ad7eac0.png)
 
-**pinout image** · Reviewed source
+**pinout image** · Connector diagram visually inspected; independent electrical review pending
 
-Not established; source attribution retained
+Manufacturer source artwork. Reproduction rights not established; excluded from the printed book.
 
 ## Adafruit 2.8" TFT Touch Shield v2 - Capacitive or Resistive
 
@@ -34,11 +34,11 @@ Adafruit · Manufacturer documentation recorded
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-9b2288f1d41e)
 
-[![Adafruit 2.8" TFT Touch Shield v2 - Capacitive or Resistive / source reference](../../library/maker-thumbs/434cc5001f9aab9b8d2c79f923e77101c35c1a091dd01ee2d2a77e3effb56c5c.webp)](../../library/maker-media/434cc5001f9aab9b8d2c79f923e77101c35c1a091dd01ee2d2a77e3effb56c5c.jpg)
+[![Adafruit 2.8" TFT Touch Shield v2 - Capacitive or Resistive / pinout image](../../library/maker-thumbs/04321298fd3d6821b61d6ecafe5f5ed7dec23d357d505bf739198edca1ed5e4d.webp)](../../library/maker-media/04321298fd3d6821b61d6ecafe5f5ed7dec23d357d505bf739198edca1ed5e4d.svg)
 
-**source reference** · Source image inspected; technical review pending
+**pinout image** · Manufacturer-model geometry checked; independent electrical and full-device review pending
 
-Adafruit Industries / original asset contributor. https://creativecommons.org/licenses/by-sa/3.0/; original image unchanged. See linked asset page for creator and terms.
+Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
 
 ## Adafruit 4-Channel ADC Breakouts
 
@@ -46,11 +46,11 @@ Adafruit · Manufacturer documentation recorded
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-cda7bdb9542d)
 
-[![Adafruit 4-Channel ADC Breakouts / source reference](../../library/maker-thumbs/b30e6e05d18237a9fc912855c9296a706a4af7ab651800b948423f70388b20f1.webp)](../../library/maker-media/b30e6e05d18237a9fc912855c9296a706a4af7ab651800b948423f70388b20f1.png)
+[![Adafruit 4-Channel ADC Breakouts / pinout image](../../library/maker-thumbs/dda0e0fa7fb8725794e2bda63ad58e62e7247cc04c99b83b2861aac5ea4dbab5.webp)](../../library/maker-media/dda0e0fa7fb8725794e2bda63ad58e62e7247cc04c99b83b2861aac5ea4dbab5.svg)
 
-**source reference** · Source image inspected; technical review pending
+**pinout image** · Manufacturer-model geometry checked; independent electrical and full-device review pending
 
-Adafruit Industries / original asset contributor. https://creativecommons.org/licenses/by-sa/3.0/; original image unchanged. See linked asset page for creator and terms.
+Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
 
 ## Adafruit DS3231 Precision RTC Breakout
 
@@ -58,11 +58,11 @@ Adafruit · Manufacturer documentation recorded
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-f3f7192319ed)
 
-[![Adafruit DS3231 Precision RTC Breakout / source reference](../../library/maker-thumbs/85da1b67de8ebe064c321e493e2503c619524ac4724bf08af16e1da07ef0d21b.webp)](../../library/maker-media/85da1b67de8ebe064c321e493e2503c619524ac4724bf08af16e1da07ef0d21b.jpg)
+[![Adafruit DS3231 Precision RTC Breakout / pinout image](../../library/maker-thumbs/40b6b7c511b9f346509262ad2038a86ae29b98a0eed2fb6e680a5e29dcfd4539.webp)](../../library/maker-media/40b6b7c511b9f346509262ad2038a86ae29b98a0eed2fb6e680a5e29dcfd4539.svg)
 
-**source reference** · Source image inspected; technical review pending
+**pinout image** · Manufacturer-model geometry checked; independent electrical and full-device review pending
 
-Adafruit Industries / original asset contributor. https://creativecommons.org/licenses/by-sa/3.0/; original image unchanged. See linked asset page for creator and terms.
+Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
 
 ## Adafruit MCP23017 I2C GPIO Expander
 
@@ -82,11 +82,11 @@ Adafruit · Manufacturer documentation recorded
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-4055f8db746a)
 
-[![Adafruit PCF8523 Real Time Clock / source reference](../../library/maker-thumbs/9dad28ec7b5f76555f226470c331d6b259ef9beb111e82cb3b66f2ee6ed0b838.webp)](../../library/maker-media/9dad28ec7b5f76555f226470c331d6b259ef9beb111e82cb3b66f2ee6ed0b838.jpg)
+[![Adafruit PCF8523 Real Time Clock / pinout image](../../library/maker-thumbs/77be73ad49f0dc96316fe5d604de9e207ed8a4c69d99ef6df0187147cce7fe71.webp)](../../library/maker-media/77be73ad49f0dc96316fe5d604de9e207ed8a4c69d99ef6df0187147cce7fe71.svg)
 
-**source reference** · Source image inspected; technical review pending
+**pinout image** · Manufacturer-model geometry checked; independent electrical and full-device review pending
 
-Manufacturer artwork; reproduction rights not established; not cleared for the printed book
+Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
 
 ## Adafruit TCA9548A 1-to-8 I2C Multiplexer Breakout
 
@@ -94,11 +94,11 @@ Adafruit · Manufacturer documentation recorded
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-f85e5df8527b)
 
-[![Adafruit TCA9548A 1-to-8 I2C Multiplexer Breakout / source reference](../../library/maker-thumbs/9ec96cdae465e2f226116169e906e819322dac851435d187981734b062767de8.webp)](../../library/maker-media/9ec96cdae465e2f226116169e906e819322dac851435d187981734b062767de8.jpg)
+[![Adafruit TCA9548A 1-to-8 I2C Multiplexer Breakout / pinout image](../../library/maker-thumbs/93e6527827375483973e8a4ebde98801dee5f9bfd01cfe69fef5539877b7c461.webp)](../../library/maker-media/93e6527827375483973e8a4ebde98801dee5f9bfd01cfe69fef5539877b7c461.svg)
 
-**source reference** · Source image inspected; technical review pending
+**pinout image** · Manufacturer-model geometry checked; independent electrical and full-device review pending
 
-Adafruit Industries / original asset contributor. https://creativecommons.org/licenses/by-sa/3.0/; original image unchanged. See linked asset page for creator and terms.
+Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
 
 ## Base Bottom
 
@@ -130,11 +130,11 @@ Seeed Studio · Source review pending
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-existing-seeed-studio-expansion-can-bus-shield-v1-2)
 
-[![CAN-BUS Shield V1.2 / pinout image](../../library/thumbs/c69c4e9d3a6ead96d4a424b6094d288b77785efa7dce1461adb899a6204df2c9.webp)](../../library/media/c69c4e9d3a6ead96d4a424b6094d288b77785efa7dce1461adb899a6204df2c9.png)
+[![CAN-BUS Shield V1.2 / pinout image](../../library/maker-thumbs/c69c4e9d3a6ead96d4a424b6094d288b77785efa7dce1461adb899a6204df2c9.webp)](../../library/maker-media/c69c4e9d3a6ead96d4a424b6094d288b77785efa7dce1461adb899a6204df2c9.png)
 
-**pinout image** · Reviewed source
+**pinout image** · Connector diagram visually inspected; independent electrical review pending
 
-Not established; source attribution retained
+Manufacturer source artwork. Reproduction rights not established; excluded from the printed book.
 
 ## DS1307 RTC for Raspberry Pi
 
@@ -226,11 +226,11 @@ Seeed Studio · Source review pending
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-existing-seeed-studio-expansion-grove-base-boosterpack)
 
-[![Grove Base BoosterPack / pinout image](../../library/thumbs/f6f69b0b5e5a77e7dbb6bcd4dc6fc393b3fb9721825ce3a0b183fb210b84ccd8.webp)](../../library/media/f6f69b0b5e5a77e7dbb6bcd4dc6fc393b3fb9721825ce3a0b183fb210b84ccd8.jpg)
+[![Grove Base BoosterPack / pinout image](../../library/maker-thumbs/f6f69b0b5e5a77e7dbb6bcd4dc6fc393b3fb9721825ce3a0b183fb210b84ccd8.webp)](../../library/maker-media/f6f69b0b5e5a77e7dbb6bcd4dc6fc393b3fb9721825ce3a0b183fb210b84ccd8.jpg)
 
-**pinout image** · Reviewed source
+**pinout image** · Connector diagram visually inspected; independent electrical review pending
 
-Not established; source attribution retained
+Manufacturer source artwork. Reproduction rights not established; excluded from the printed book.
 
 ## Grove Base Cape for BeagleBone V2
 
@@ -382,11 +382,11 @@ Seeed Studio · Source review pending
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-existing-seeed-studio-expansion-grove-shield-for-xiao)
 
-[![Grove Shield for XIAO / pinout image](../../library/thumbs/dd8d56eb2a29c427d3fffe0614db4d6786d7ccbc7253ef0aef9c343e1796043a.webp)](../../library/media/dd8d56eb2a29c427d3fffe0614db4d6786d7ccbc7253ef0aef9c343e1796043a.png)
+[![Grove Shield for XIAO / pinout image](../../library/maker-thumbs/32932e35556f8d69a71012fae9d4d51605479340408988814bfd522009ed659e.webp)](../../library/maker-media/32932e35556f8d69a71012fae9d4d51605479340408988814bfd522009ed659e.png)
 
-**pinout image** · Reviewed source
+**pinout image** · Connector diagram visually inspected; independent electrical review pending
 
-Not established; source attribution retained
+Manufacturer source artwork. Reproduction rights not established; excluded from the printed book.
 
 ## KY-051 Voltage Translator / Level Shifter
 
@@ -418,11 +418,11 @@ Adafruit · Manufacturer documentation recorded
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-fa8225e29b1c)
 
-[![MCP4725 12-Bit DAC Tutorial / source reference](../../library/maker-thumbs/46096473a21d52b0659d10ff1d5eb95ad800ebb92c67d47f42f61a82a2474a9e.webp)](../../library/maker-media/46096473a21d52b0659d10ff1d5eb95ad800ebb92c67d47f42f61a82a2474a9e.jpg)
+[![MCP4725 12-Bit DAC Tutorial / pinout image](../../library/maker-thumbs/a57577a651ea01199062b525de63b41f0f9ac1eddf65ef54f1d4bd8194457934.webp)](../../library/maker-media/a57577a651ea01199062b525de63b41f0f9ac1eddf65ef54f1d4bd8194457934.svg)
 
-**source reference** · Source image inspected; technical review pending
+**pinout image** · Manufacturer-model geometry checked; independent electrical and full-device review pending
 
-Adafruit Industries / original asset contributor. https://creativecommons.org/licenses/by-sa/3.0/; original image unchanged. See linked asset page for creator and terms.
+Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
 
 ## MicroSD SPI breakout variants
 

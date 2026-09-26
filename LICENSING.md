@@ -9,3 +9,5 @@ The [Creative Commons Attribution 4.0 International license](LICENSE) applies to
 Unknown source rights do not become CC BY by being collected here. See [RIGHTS.md](RIGHTS.md), [ATTRIBUTION.md](ATTRIBUTION.md) and the [per-reference ledger](catalog/attributions.csv). A screenshot containing third-party diagrams has multiple rights holders. No trademark permission or endorsement is granted by the artwork license.
 
 The companion app's original software is separately [MIT licensed](https://github.com/valleytechsolutions/black-wire-desktop/blob/main/LICENSE). See [NOTICE.md](NOTICE.md) for a suggested credit. These notes describe scope and do not add conditions to the standard licenses; public-domain material and applicable exceptions remain unaffected.
+
+Annotated Adafruit connector sheets and their previews are adaptations under **CC BY-SA 3.0**, as identified in their per-asset records. Their license is not replaced by the general MIT or CC BY 4.0 grants above. The unchanged manufacturer illustrations are retained separately with hashes and source links.

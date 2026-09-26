@@ -23,6 +23,8 @@ def main():
             assert a['rights'] and a['review'] and a['sources']
             for field in ['thumb','display']:
                 if a.get(field):assert (ROOT/'library'/a[field]).is_file()
+            if a.get('modelOriginal'):
+                assert hashlib.sha256((ROOT/'library'/a['modelOriginal']).read_bytes()).hexdigest()==a['modelOriginalHash']
             media[a['file']]=a
             ledger.append(dict(partId=p['id'],part=p['name'],brand=p['brand'],**a))
         linked=[a for id in p['boardIds'] for a in boards[id]['assets']]
@@ -42,7 +44,7 @@ def main():
     for cat,parts in sorted(groups.items()):
         slug=re.sub('[^a-z0-9]+','-',cat.lower()).strip('-');gallery=ROOT/'docs/maker-visuals'/f'{slug}.md';gallery.parent.mkdir(parents=True,exist_ok=True)
         visual_index.append(f'- [{cat}](docs/maker-visuals/{slug}.md)')
-        gl=['# '+cat+' / visual references','','[All categories](../../MAKER_VISUALS.md) · [Image attribution ledger](../../catalog/maker-attributions.json)','','Source references remain unchanged. Check exact PCB/revision, source notes and rights before reuse. Photos and partial connector diagrams are not complete-device approvals.','']
+        gl=['# '+cat+' / visual references','','[All categories](../../MAKER_VISUALS.md) · [Image attribution ledger](../../catalog/maker-attributions.json)','','Manufacturer originals remain unchanged. Connector-model sheets add separately labeled callouts under the recorded source license. Check exact PCB/revision, source notes and rights before reuse. Photos and partial connector diagrams are not complete-device approvals.','']
         for p in sorted(parts,key=lambda p:p['name'].lower()):
             assets={a['file']:a for a in [*p.get('assets',[]),*(a for id in p['boardIds'] for a in boards[id]['assets'])]}
             a=next((a for a in assets.values() if a['type']=='pinout image' and a.get('thumb')),None) or next((a for a in assets.values() if a.get('thumb')),None)

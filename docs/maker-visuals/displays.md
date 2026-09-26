@@ -2,7 +2,7 @@
 
 [All categories](../../MAKER_VISUALS.md) · [Image attribution ledger](../../catalog/maker-attributions.json)
 
-Source references remain unchanged. Check exact PCB/revision, source notes and rights before reuse. Photos and partial connector diagrams are not complete-device approvals.
+Manufacturer originals remain unchanged. Connector-model sheets add separately labeled callouts under the recorded source license. Check exact PCB/revision, source notes and rights before reuse. Photos and partial connector diagrams are not complete-device approvals.
 
 ## 0.91inch OLED Module
 
@@ -46,11 +46,11 @@ Adafruit · Manufacturer documentation recorded
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-8b83680fc8bb)
 
-[![0.96" mini Color OLED / source reference](../../library/maker-thumbs/f7a132262085a55240a73d3262581b0b438ed76bc2dc385c607389ee58abf5c6.webp)](../../library/maker-media/f7a132262085a55240a73d3262581b0b438ed76bc2dc385c607389ee58abf5c6.jpg)
+[![0.96" mini Color OLED / pinout image](../../library/maker-thumbs/fdf7fa56561bccbb1c3d0ca20a5f41eed55e70462ba298b0d3ba13aa246b7594.webp)](../../library/maker-media/fdf7fa56561bccbb1c3d0ca20a5f41eed55e70462ba298b0d3ba13aa246b7594.svg)
 
-**source reference** · Source image inspected; technical review pending
+**pinout image** · Manufacturer-model geometry checked; independent electrical and full-device review pending
 
-Adafruit Industries / original asset contributor. https://creativecommons.org/licenses/by-sa/3.0/; original image unchanged. See linked asset page for creator and terms.
+Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
 
 ## 0.96inch LCD Module
 
@@ -262,11 +262,11 @@ Adafruit · Manufacturer documentation recorded
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-f9445ce8ab45)
 
-[![1.8" TFT Display Breakout and Shield / source reference](../../library/maker-thumbs/577ec7fd423e0c12d3bea65de1d850eac6e1be19b6516dec2de7511b603e021e.webp)](../../library/maker-media/577ec7fd423e0c12d3bea65de1d850eac6e1be19b6516dec2de7511b603e021e.jpg)
+[![1.8" TFT Display Breakout and Shield / pinout image](../../library/maker-thumbs/ce528d6cf91f5cc98d018813af342edd4b9f0f38b7df66ebbb4c5982292e8afd.webp)](../../library/maker-media/ce528d6cf91f5cc98d018813af342edd4b9f0f38b7df66ebbb4c5982292e8afd.svg)
 
-**source reference** · Source image inspected; technical review pending
+**pinout image** · Manufacturer-model geometry checked; independent electrical and full-device review pending
 
-Manufacturer artwork; reproduction rights not established; not cleared for the printed book
+Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
 
 ## 10.3inch e-Paper HAT
 
@@ -418,11 +418,11 @@ Adafruit · Manufacturer documentation recorded
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-541cb8b6d293)
 
-[![2.2" TFT Display / source reference](../../library/maker-thumbs/252e66c3026d76f98bb44a57ad746cd5841ef89acd22e580d69a15cda58ac373.webp)](../../library/maker-media/252e66c3026d76f98bb44a57ad746cd5841ef89acd22e580d69a15cda58ac373.jpg)
+[![2.2" TFT Display / pinout image](../../library/maker-thumbs/f62d3185003cfc4db47a2849e7670de3faf635212380711ac5303513f133d8ca.webp)](../../library/maker-media/f62d3185003cfc4db47a2849e7670de3faf635212380711ac5303513f133d8ca.svg)
 
-**source reference** · Source image inspected; technical review pending
+**pinout image** · Manufacturer-model geometry checked; independent electrical and full-device review pending
 
-Manufacturer artwork; reproduction rights not established; not cleared for the printed book
+Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
 
 ## 2.23inch OLED HAT
 
@@ -886,11 +886,11 @@ Adafruit · Manufacturer documentation recorded
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-b1353880bff2)
 
-[![Adafruit 1.27" and 1.5" Color OLED Breakout Board / identification photo](../../library/maker-thumbs/2ee2a52d0cfb80e62d9d32645122b69147f6408009004a90ce8177f288c954e4.webp)](../../library/maker-media/2ee2a52d0cfb80e62d9d32645122b69147f6408009004a90ce8177f288c954e4.jpg)
+[![Adafruit 1.27" and 1.5" Color OLED Breakout Board / pinout image](../../library/maker-thumbs/0acda9e6d0663155aa74e84f90801becf2a25cb1afc178d4d34bd79fd013b4de.webp)](../../library/maker-media/0acda9e6d0663155aa74e84f90801becf2a25cb1afc178d4d34bd79fd013b4de.svg)
 
-**identification photo** · Source image inspected; technical review pending
+**pinout image** · Manufacturer-model geometry checked; independent electrical and full-device review pending
 
-Manufacturer artwork; reproduction rights not established; not cleared for the printed book
+Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
 
 ## Adafruit 1.3" and 1.54" 240x240 Wide Angle TFT LCD Displays
 
@@ -898,11 +898,11 @@ Adafruit · Manufacturer documentation recorded
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-fc5529ac841e)
 
-[![Adafruit 1.3" and 1.54" 240x240 Wide Angle TFT LCD Displays / source reference](../../library/maker-thumbs/5c51487b924c624898f7f200d14179b0c96ed8ea86a64e4245fb1ccaf221da02.webp)](../../library/maker-media/5c51487b924c624898f7f200d14179b0c96ed8ea86a64e4245fb1ccaf221da02.jpg)
+[![Adafruit 1.3" and 1.54" 240x240 Wide Angle TFT LCD Displays / pinout image](../../library/maker-thumbs/2c7d2e1292751d40167cad9fab521382abbef9492cefb0e07aa28b020213a775.webp)](../../library/maker-media/2c7d2e1292751d40167cad9fab521382abbef9492cefb0e07aa28b020213a775.svg)
 
-**source reference** · Source image inspected; technical review pending
+**pinout image** · Manufacturer-model geometry checked; independent electrical and full-device review pending
 
-Adafruit Industries / original asset contributor. https://creativecommons.org/licenses/by-sa/3.0/; original image unchanged. See linked asset page for creator and terms.
+Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
 
 ## Adafruit 2.13" eInk Display Breakouts and FeatherWings
 
@@ -922,11 +922,11 @@ Adafruit · Manufacturer documentation recorded
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-4b55b6d2c219)
 
-[![Adafruit 2.4" Color TFT Touchscreen Breakout / source reference](../../library/maker-thumbs/ff956dc72b1df862cf92a027a5b115f84384df1cd3113f21e513c7cd62be113f.webp)](../../library/maker-media/ff956dc72b1df862cf92a027a5b115f84384df1cd3113f21e513c7cd62be113f.jpg)
+[![Adafruit 2.4" Color TFT Touchscreen Breakout / pinout image](../../library/maker-thumbs/9f6a5c6e44e2f8b0c37b5b1aec68e1c60fc70038583f9c45f4b61edce0b1ba5c.webp)](../../library/maker-media/9f6a5c6e44e2f8b0c37b5b1aec68e1c60fc70038583f9c45f4b61edce0b1ba5c.svg)
 
-**source reference** · Source image inspected; technical review pending
+**pinout image** · Manufacturer-model geometry checked; independent electrical and full-device review pending
 
-Adafruit Industries / original asset contributor. https://creativecommons.org/licenses/by-sa/3.0/; original image unchanged. See linked asset page for creator and terms.
+Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
 
 ## Adafruit eInk Display Breakouts and FeatherWings
 
@@ -1074,11 +1074,11 @@ DFRobot · Manufacturer documentation recorded
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-dfrobot-06087436c228)
 
-[![Gravity: LCD12864 Shield for Arduino / DFR0287 / identification photo](../../library/maker-thumbs/6b0be25e749438a258fbb0c1475404927d991b0139ed97c94d645f11f53f62f4.webp)](../../library/maker-media/6b0be25e749438a258fbb0c1475404927d991b0139ed97c94d645f11f53f62f4.webp)
+[![Gravity: LCD12864 Shield for Arduino / DFR0287 / pinout image](../../library/maker-thumbs/31876e2b00a504e3736abc6e3c93c47194b48fc96b6f35d48513e4fc3a24e6a0.webp)](../../library/maker-media/31876e2b00a504e3736abc6e3c93c47194b48fc96b6f35d48513e4fc3a24e6a0.png)
 
-**identification photo** · Source image inspected; technical review pending
+**pinout image** · Connector diagram visually inspected; independent electrical review pending
 
-Manufacturer artwork; reproduction rights not established; not cleared for the printed book
+Manufacturer source artwork. Reproduction rights not established; excluded from the printed book.
 
 ## HD44780 character LCD modules
 
@@ -1122,11 +1122,11 @@ Adafruit · Manufacturer documentation recorded
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-product-326)
 
-[![Monochrome 0.96" 128x64 OLED Graphic Display - STEMMA QT / PID 326 / identification photo](../../library/maker-thumbs/69e2a19bf4c85acc158acfca4f6f2716a1669d1011ace7d8e30d54dd2b22715b.webp)](../../library/maker-media/69e2a19bf4c85acc158acfca4f6f2716a1669d1011ace7d8e30d54dd2b22715b.jpg)
+[![Monochrome 0.96" 128x64 OLED Graphic Display - STEMMA QT / PID 326 / pinout image](../../library/maker-thumbs/dcd812fcc60629cdb8513c87a6a04af154dac789a5ce94c9b3caa8e208e9822a.webp)](../../library/maker-media/dcd812fcc60629cdb8513c87a6a04af154dac789a5ce94c9b3caa8e208e9822a.svg)
 
-**identification photo** · Source image inspected; technical review pending
+**pinout image** · Manufacturer-model geometry checked; independent electrical and full-device review pending
 
-Manufacturer artwork; reproduction rights not established; not cleared for the printed book
+Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
 
 ## Monochrome 1.3" 128x64 OLED graphic display - STEMMA QT / Qwiic / PID 938
 
@@ -1134,11 +1134,11 @@ Adafruit · Manufacturer documentation recorded
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-product-938)
 
-[![Monochrome 1.3" 128x64 OLED graphic display - STEMMA QT / Qwiic / PID 938 / identification photo](../../library/maker-thumbs/a16641030b769ed97f3c93205092d1a1f23ad04b4f6a9a15ed55b32f5f4e0db7.webp)](../../library/maker-media/a16641030b769ed97f3c93205092d1a1f23ad04b4f6a9a15ed55b32f5f4e0db7.jpg)
+[![Monochrome 1.3" 128x64 OLED graphic display - STEMMA QT / Qwiic / PID 938 / pinout image](../../library/maker-thumbs/11f5cf2acb01ab61bd9bb4d2ec46eaab32af7da30a142dc580ed0f15a4d162fb.webp)](../../library/maker-media/11f5cf2acb01ab61bd9bb4d2ec46eaab32af7da30a142dc580ed0f15a4d162fb.svg)
 
-**identification photo** · Source image inspected; technical review pending
+**pinout image** · Manufacturer-model geometry checked; independent electrical and full-device review pending
 
-Manufacturer artwork; reproduction rights not established; not cleared for the printed book
+Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
 
 ## Monochrome OLED Breakouts
 
@@ -1146,11 +1146,11 @@ Adafruit · Manufacturer documentation recorded
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-e49788b786b1)
 
-[![Monochrome OLED Breakouts / source reference](../../library/maker-thumbs/c293ebc11629e4e106e19c6b1f1337e5c85305148b39718da7f04620c05b7bf2.webp)](../../library/maker-media/c293ebc11629e4e106e19c6b1f1337e5c85305148b39718da7f04620c05b7bf2.jpg)
+[![Monochrome OLED Breakouts / pinout image](../../library/maker-thumbs/47eb8173c9cb9461c2b20ddf6dcf00af616353664e99f864974ee93c65e4b90f.webp)](../../library/maker-media/47eb8173c9cb9461c2b20ddf6dcf00af616353664e99f864974ee93c65e4b90f.svg)
 
-**source reference** · Source image inspected; technical review pending
+**pinout image** · Manufacturer-model geometry checked; independent electrical and full-device review pending
 
-Adafruit Industries / original asset contributor. https://creativecommons.org/licenses/by-sa/3.0/; original image unchanged. See linked asset page for creator and terms.
+Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
 
 ## RGB LCD Shield
 

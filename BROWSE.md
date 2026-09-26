@@ -1169,7 +1169,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [2KM Long Range RF Link Kit](boards/seeed-studio/source-collection/2km-long-range-rf-link-kit--970f04ec/README.md) | Source collection | 2 | 0 |
 | [315MHz RF Link Kit](boards/seeed-studio/source-collection/315mhz-rf-link-kit--42461184/README.md) | Source collection | 1 | 0 |
 | [3D Gesture Tracking Shield for Raspberry Pi (MGC3130)](boards/seeed-studio/expansion/3d-gesture-tracking-shield-for-raspberry-pi-mgc3130--10e89028/README.md) | Expansion | 1 | 1 |
-| [4-Channel 16-Bit ADC for Raspberry Pi (ADS1115)](boards/seeed-studio/expansion/4-channel-16-bit-adc-for-raspberry-pi-ads1115--0258c33a/README.md) | Expansion | 2 | 1 |
+| [4-Channel 16-Bit ADC for Raspberry Pi (ADS1115)](boards/seeed-studio/expansion/4-channel-16-bit-adc-for-raspberry-pi-ads1115--0258c33a/README.md) | Expansion | 2 | 2 |
 | [4-Channel SPDT Relay HAT for Raspberry Pi](boards/seeed-studio/source-collection/4-channel-spdt-relay-hat-for-raspberry-pi--1536436a/README.md) | Source collection | 1 | 0 |
 | [4A Motor Shield](boards/seeed-studio/source-collection/4a-motor-shield--f923100d/README.md) | Source collection | 1 | 0 |
 | [4WD Driver Platform V1.0](boards/seeed-studio/source-collection/4wd-driver-platform-v1.0--de380784/README.md) | Source collection | 1 | 0 |
@@ -1532,7 +1532,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Wio-E5 mini](boards/seeed-studio/other/wio-e5-mini--d358ada5/README.md) | Other | 2 | 1 |
 | [Wio-E5 STM32WLE5JC Module](boards/seeed-studio/other/wio-e5-stm32wle5jc-module--260fda58/README.md) | Other | 1 | 0 |
 | [Wio-LR1121](boards/seeed-studio/source-collection/wio-lr1121--62831365/README.md) | Source collection | 2 | 0 |
-| [Wio-LR2021](boards/seeed-studio/expansion/wio-lr2021--d3ec5d5b/README.md) | Expansion | 2 | 1 |
+| [Wio-LR2021](boards/seeed-studio/expansion/wio-lr2021--d3ec5d5b/README.md) | Expansion | 2 | 2 |
 | [Wio-S3 Wireless Module](boards/seeed-studio/esp32-s3/wio-s3-wireless-module--68bbed34/README.md) | ESP32-S3 | 5 | 1 |
 | [Wio-SX1262](boards/seeed-studio/expansion/wio-sx1262--255d5042/README.md) | Expansion | 3 | 1 |
 | [Wio-WM1110 Dev Kit](boards/seeed-studio/other/wio-wm1110-dev-kit--8ab43e0a/README.md) | Other | 5 | 3 |

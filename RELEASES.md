@@ -4,6 +4,16 @@
 
 These are two independent release streams. A **collection release** contains images, PDFs, indexes and attribution records. A **desktop app release** contains an application for the operating systems listed in that release. A collection ZIP is not a desktop installer.
 
+## Pin references / snapshot 2026.09.5
+
+Every one of the 2,891 board and maker listings now has an explicit pinout-coverage status. Linked listings may describe the same hardware. [Coverage audit and remaining work](PINOUT_COVERAGE.md).
+
+This update adds **46 annotated manufacturer-model connector sheets** covering 637 modeled contacts, **58 source pin tables** containing 633 rows, and 17 additional source-image attachments. Pin details are recorded for 70 maker listings. The sheets use source-model contact positions; K keys are editorial identifiers. Signal-name purpose explanations, transcribed manufacturer facts and independent electrical approval are different evidence levels.
+
+Of 486 maker listings, **151 have physical pinout sources, 30 have functions only, 288 have supporting references only, and 17 have no reference**. Of 2,405 board listings, 875 have pinout sources, 3 have functions only, 811 have supporting references only, and 716 await documentation. No listing is independently approved as a complete all-connector reference. Five dense or ambiguous models were withheld. The primary-source intake attempted 1,499 pages; 336 retrieval failures remain recorded.
+
+Manufacturer originals remain intact. The annotated Adafruit sheets are CC BY-SA 3.0 adaptations with attribution and exact source hashes. Other source rights remain per asset. The First Edition book is an unfinished editorial draft.
+
 ## First Edition maker visuals — 2026.09.4
 
 Adds 327 unique original maker images, including 58 physical connector/pinout references. 467 of 486 maker records now have images. Adds 29 power records covering buck, boost, buck-boost, charging, protection, solar, fuel gauges and UPS modules. TP4056/TP4057 variants remain distinct. Photos are identified separately from pinouts; unknown rights and technical-review limits remain visible. App 0.4.0 exposes previews, an image gallery, zoom, original downloads and an image filter.

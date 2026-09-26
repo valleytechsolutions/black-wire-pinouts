@@ -2,7 +2,7 @@
 
 [All categories](../../MAKER_VISUALS.md) · [Image attribution ledger](../../catalog/maker-attributions.json)
 
-Source references remain unchanged. Check exact PCB/revision, source notes and rights before reuse. Photos and partial connector diagrams are not complete-device approvals.
+Manufacturer originals remain unchanged. Connector-model sheets add separately labeled callouts under the recorded source license. Check exact PCB/revision, source notes and rights before reuse. Photos and partial connector diagrams are not complete-device approvals.
 
 ## Bluetooth Bee
 
@@ -58,11 +58,11 @@ Seeed Studio · Source review pending
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-existing-seeed-studio-expansion-l76k-gnss-module-for-xiao)
 
-[![L76K GNSS Module for XIAO / pinout image](../../library/thumbs/9fc8cd70a85811fcf8acc518ad43b6e58bb81fd8c883d6a6fd5343a485e1cc07.webp)](../../library/media/9fc8cd70a85811fcf8acc518ad43b6e58bb81fd8c883d6a6fd5343a485e1cc07.png)
+[![L76K GNSS Module for XIAO / pinout image](../../library/maker-thumbs/9fc8cd70a85811fcf8acc518ad43b6e58bb81fd8c883d6a6fd5343a485e1cc07.webp)](../../library/maker-media/9fc8cd70a85811fcf8acc518ad43b6e58bb81fd8c883d6a6fd5343a485e1cc07.png)
 
-**pinout image** · Reviewed source
+**pinout image** · Connector diagram visually inspected; independent electrical review pending
 
-Not established; source attribution retained
+Manufacturer source artwork. Reproduction rights not established; excluded from the printed book.
 
 ## Module GPS v2.0
 

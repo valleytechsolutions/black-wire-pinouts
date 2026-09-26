@@ -2,7 +2,7 @@
 
 [All categories](../../MAKER_VISUALS.md) · [Image attribution ledger](../../catalog/maker-attributions.json)
 
-Source references remain unchanged. Check exact PCB/revision, source notes and rights before reuse. Photos and partial connector diagrams are not complete-device approvals.
+Manufacturer originals remain unchanged. Connector-model sheets add separately labeled callouts under the recorded source license. Check exact PCB/revision, source notes and rights before reuse. Photos and partial connector diagrams are not complete-device approvals.
 
 ## Adafruit Powerboost 1000 Basic
 
@@ -10,11 +10,11 @@ Adafruit · Manufacturer documentation recorded
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-50b7b2b3df89)
 
-[![Adafruit Powerboost 1000 Basic / source reference](../../library/maker-thumbs/6f0d6b26480689596f09162c41a5e5a1a59034f37f7d03ae6f50283c18878c5d.webp)](../../library/maker-media/6f0d6b26480689596f09162c41a5e5a1a59034f37f7d03ae6f50283c18878c5d.jpg)
+[![Adafruit Powerboost 1000 Basic / pinout image](../../library/maker-thumbs/b8a8cb174f0d29236b5adc95adbef6d5369f615927f8c642c9a7856a2b08ed6e.webp)](../../library/maker-media/b8a8cb174f0d29236b5adc95adbef6d5369f615927f8c642c9a7856a2b08ed6e.svg)
 
-**source reference** · Source image inspected; technical review pending
+**pinout image** · Manufacturer-model geometry checked; independent electrical and full-device review pending
 
-Adafruit Industries / original asset contributor. https://creativecommons.org/licenses/by-sa/3.0/; original image unchanged. See linked asset page for creator and terms.
+Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
 
 ## Adafruit Powerboost 1000C
 
@@ -22,11 +22,11 @@ Adafruit · Manufacturer documentation recorded
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-11fc5d17cd6f)
 
-[![Adafruit Powerboost 1000C / source reference](../../library/maker-thumbs/4c1df590df275cc57ee972db0a8c4624306edcd94f1469406115161ee6fd284c.webp)](../../library/maker-media/4c1df590df275cc57ee972db0a8c4624306edcd94f1469406115161ee6fd284c.jpg)
+[![Adafruit Powerboost 1000C / pinout image](../../library/maker-thumbs/ff3459402f2cce22aecf9968a4f4721420d9df127323fa78f65a18368df65607.webp)](../../library/maker-media/ff3459402f2cce22aecf9968a4f4721420d9df127323fa78f65a18368df65607.svg)
 
-**source reference** · Source image inspected; technical review pending
+**pinout image** · Manufacturer-model geometry checked; independent electrical and full-device review pending
 
-Adafruit Industries / original asset contributor. https://creativecommons.org/licenses/by-sa/3.0/; original image unchanged. See linked asset page for creator and terms.
+Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
 
 ## Adafruit PowerBoost 500 + Charger
 
@@ -34,11 +34,11 @@ Adafruit · Manufacturer documentation recorded
 
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-44fa7ce955f3)
 
-[![Adafruit PowerBoost 500 + Charger / source reference](../../library/maker-thumbs/90f9d1847558e7d42831a5ae5a1d237d2e879a93b346a13971e71d7d704d5e25.webp)](../../library/maker-media/90f9d1847558e7d42831a5ae5a1d237d2e879a93b346a13971e71d7d704d5e25.jpg)
+[![Adafruit PowerBoost 500 + Charger / pinout image](../../library/maker-thumbs/1a2c887675c0de85054d700a3ca8b2232b65ea6b1c18717648e84fa389e3b178.webp)](../../library/maker-media/1a2c887675c0de85054d700a3ca8b2232b65ea6b1c18717648e84fa389e3b178.svg)
 
-**source reference** · Source image inspected; technical review pending
+**pinout image** · Manufacturer-model geometry checked; independent electrical and full-device review pending
 
-Adafruit Industries / original asset contributor. https://creativecommons.org/licenses/by-sa/3.0/; original image unchanged. See linked asset page for creator and terms.
+Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
 
 ## Adafruit Universal USB / DC / Solar Lithium Ion/Polymer charger - BQ24074
 
