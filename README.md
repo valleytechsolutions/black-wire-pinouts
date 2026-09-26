@@ -2,11 +2,19 @@
   <img src="docs/brand/black-wire.png" width="110" alt="Black Wire logo"> &nbsp;&nbsp;
   <img src="docs/brand/valleytech.png" width="80" alt="Valleytech Solutions logo">
 </p>
-<h1 align="center">Black Wire<br>Technical Reference Guide</h1>
+<h1 align="center">The Black Wire Maker's<br>Technical Reference Guide</h1>
 <p align="center"><strong>Know your board. Make the connection.</strong><br>A Valleytech Solutions project, made for the workbench.</p>
 <p align="center">Makers · Educators · Students · Hobbyists · Engineers</p>
 
 <p align="center"><a href="https://github.com/valleytechsolutions/black-wire-pinouts/releases">Download the collection</a> · <a href="BROWSE.md">Browse boards</a> · <a href="catalog/attributions.csv">Source credits</a> · <a href="https://github.com/valleytechsolutions/black-wire-desktop/releases">Download the desktop app</a> · <a href="CONTRIBUTING.md">Contribute a reference</a></p>
+
+## Find a pinout, then build
+
+**[Search the guide](https://valleytech-black-wire-guide.pages.dev/) · [Read the reference wiki](https://valleytech-black-wire-guide.pages.dev/wiki/) · [Browse maker modules](https://valleytech-black-wire-guide.pages.dev/wiki/modules/) · [Get the Windows app](https://github.com/valleytechsolutions/black-wire-desktop/releases/latest)**
+
+Board and device references for **ESP32, Arduino, Raspberry Pi, RP2040/RP2350**, displays, sensors, buttons, interfaces and power modules. Find physical pinout sources, supporting photos, pin-purpose tables and manufacturer documentation, with revision and coverage notes. Generic modules and documentation gaps remain visible.
+
+The companion app **0.6.0** adds a default charcoal-and-gold dark mode, Light mode and an updated reference workbench. The hardware collection remains snapshot **2026.09.5**. [How to read a pinout](https://valleytech-black-wire-guide.pages.dev/wiki/reading-pinouts/) · [Contribute or report a correction](CONTRIBUTING.md).
 
 ## Pin references / snapshot 2026.09.5
 
