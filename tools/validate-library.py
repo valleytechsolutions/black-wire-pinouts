@@ -4,6 +4,7 @@ ROOT=pathlib.Path(__file__).resolve().parents[1];LIB=ROOT/'library'
 def main():
  c=json.loads((LIB/'catalog.json').read_text('utf-8'));manifest=json.loads((LIB/'manifest.json').read_text('utf-8'));errors=[]
  records=[*c['boards'],*c.get('makerParts',[])];ids=[r['id'] for r in records]
+ if json.loads((LIB/'maker-parts.json').read_text('utf-8'))['parts']!=c.get('makerParts',[]):errors.append('Standalone maker catalog differs from app catalog')
  if len(ids)!=len(set(ids)):errors.append('Duplicate listing IDs')
  known={b['id'] for b in c['boards']};hashes={};paths=set(manifest)
  for p in manifest:

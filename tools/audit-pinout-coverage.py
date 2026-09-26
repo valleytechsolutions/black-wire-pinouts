@@ -25,6 +25,11 @@ def main():
     summary={kind:dict(collections.Counter(r['status'] for r in rows if r['kind']==kind)) for kind in ['board','maker']}
     c['pinoutAudit']={'checked':'2026-09-26','listingCount':len(rows),'countsAreListingsNotUniqueHardware':True,'completeDeviceApprovals':0,'summary':summary}
     path.write_text(json.dumps(c,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
+    # Keep the standalone generated maker catalog identical to the app catalog.
+    maker_path=ROOT/'library/maker-parts.json'
+    maker=json.loads(maker_path.read_text(encoding='utf-8'))
+    maker['parts']=c['makerParts']
+    maker_path.write_text(json.dumps(maker,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
     (ROOT/'catalog/pinout-coverage.json').write_text(json.dumps(dict(**c['pinoutAudit'],records=rows),ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     with (ROOT/'catalog/pinout-coverage.csv').open('w',newline='',encoding='utf-8') as f:
         fields=['id','name','brand','kind','status','physicalCount','functionSheetCount','functionTableCount','purposeRows','completeDeviceApproved','missing']
