@@ -4,7 +4,7 @@ Pin-connected maker displays, sensors, inputs and modules. Ongoing source intake
 
 Records include products, families, generic discovery tasks and linked existing references; counts are not unique products or complete pinouts.
 
-**457 intake records**. 173 manufacturer documentation records. No new complete physical pinout approvals in this intake.
+**486 intake records**. 196 manufacturer documentation records. No new complete physical pinout approvals in this intake.
 
 [Search the interactive guide](https://valleytech-black-wire-guide.pages.dev/?tab=makers) · [Expansion roadmap](docs/MAKER_ROADMAP.md) · [Coverage backlog](catalog/maker-research-backlog.json)
 
@@ -266,7 +266,6 @@ Search by product/controller code first; filter by interface, function, technolo
 | Module ASR | M5Stack | collection-reference / Source review pending | Identification needed |
 | Module Air Quality | M5Stack | collection-reference / Source review pending | Identification needed |
 | Module Audio | M5Stack | collection-reference / Source review pending | [Documentation](https://docs.m5stack.com/en/module/Module-Audio) |
-| Module Battery | M5Stack | collection-reference / Source review pending | Identification needed |
 | Module Bus | M5Stack | collection-reference / Source review pending | Identification needed |
 | Module CC1101 | M5Stack | collection-reference / Source review pending | Identification needed |
 | Module COMMU | M5Stack | collection-reference / Source review pending | Identification needed |
@@ -399,14 +398,12 @@ Search by product/controller code first; filter by interface, function, technolo
 | Wio-SX1262 | Seeed Studio | collection-reference / Source review pending | [Documentation](https://wiki.seeedstudio.com/wio_sx1262/) |
 | XIAO Debug Mate | Seeed Studio | collection-reference / Source review pending | [Documentation](https://wiki.seeedstudio.com/getting_started_with_xiao_debug_mate/) |
 | XIAO Logger HAT | Seeed Studio | collection-reference / Source review pending | [Documentation](https://github.com/potblitd/XIAO-log (linked from the Seeed product page's "Wiki & Learn" tab as the co-create documentation repo)) |
-| XIAO PowerBread | Seeed Studio | collection-reference / Source review pending | [Documentation](https://github.com/nicho810/XIAO-PowerBread (linked from the Seeed product page's "Wiki & Learn" tab / official designer repo)) |
 | reSpeaker Lite | Seeed Studio | collection-reference / Source review pending | [Documentation](https://wiki.seeedstudio.com/reSpeaker_usb_v3/) |
 | reSpeaker XVF3800 USB 4-Mic Array | Seeed Studio | collection-reference / Source review pending | [Documentation](https://wiki.seeedstudio.com/respeaker_xvf3800_introduction/) |
 | Laser-450nm-5W driver | Spotpear (manufacturer unconfirmed) | collection-reference / Source review pending | [Documentation](https://spotpear.com/shop/Laser-450nm-5W-high-precision-module-For-Laser-carving-3D-printing/Laser-450nm-5W.html) |
 | DDSM210 | Waveshare | collection-reference / Source review pending | [Documentation](https://spotpear.com/shop/DDSM210-Direct-Drive-Servo-Hub-Motor-All-In-One-Serial-UART.html) |
 | DDSM315 | Waveshare | collection-reference / Source review pending | [Documentation](https://spotpear.com/shop/DDSM315-Direct-Drive-Servo-Hub-Motor-All-In-One-RS485/DDSM315.html) |
 | PCIe TO MiniPCIe GbE USB3.2 HAT Plus | Waveshare | collection-reference / Source review pending | [Documentation](https://spotpear.com/shop/Rasberry-Pi-5-PCIe-MiniPCIe-4G-USB-HUB-Gigabit-Ethernet-RJ45-SIM7600G-EG25.html) |
-| UPS Power Module (C) | Waveshare | collection-reference / Source review pending | [Documentation](https://spotpear.com/shop/Jetson-Orin-Uninterruptible-Power-C-Simultaneously-Charging-Discharging/UPS-Power-Module-C.html) |
 
 ## Outputs & drivers
 
@@ -442,6 +439,43 @@ Search by product/controller code first; filter by interface, function, technolo
 | A4988 Stepper Motor Driver Carrier | Pololu | product-reference / Manufacturer documentation recorded | [Documentation](https://www.pololu.com/product/1182) |
 | DRV8825 Stepper Motor Driver Carrier, High Current | Pololu | product-reference / Manufacturer documentation recorded | [Documentation](https://www.pololu.com/product/2133) |
 | LED Driver Board for XIAO | Seeed Studio | collection-reference / Source review pending | [Documentation](https://wiki.seeedstudio.com/led_driver_board/) |
+
+## Power & charging
+
+| Product or family | Manufacturer | Record status | Source |
+|---|---|---|---|
+| Module Battery | M5Stack | collection-reference / Source review pending | Identification needed |
+| XIAO PowerBread | Seeed Studio | collection-reference / Source review pending | [Documentation](https://github.com/nicho810/XIAO-PowerBread (linked from the Seeed product page's "Wiki & Learn" tab / official designer repo)) |
+| UPS Power Module (C) | Waveshare | collection-reference / Source review pending | [Documentation](https://spotpear.com/shop/Jetson-Orin-Uninterruptible-Power-C-Simultaneously-Charging-Discharging/UPS-Power-Module-C.html) |
+| TP4056X MicroUSB Lipo Charger Module (DFR0667) | DFRobot | product-reference / Manufacturer documentation recorded | [Documentation](https://wiki.dfrobot.com/dfr0667) |
+| TP4056X Type-C Lipo Charger Module (DFR0668) | DFRobot | product-reference / Manufacturer documentation recorded | [Documentation](https://wiki.dfrobot.com/dfr0668) |
+| DC-DC Buck Converter Power Module (DFR0831) | DFRobot | product-reference / Manufacturer documentation recorded | [Documentation](https://wiki.dfrobot.com/dfr0831) |
+| DC-DC Buck Converter Module (DFR1025) | DFRobot | product-reference / Manufacturer documentation recorded | [Documentation](https://wiki.dfrobot.com/dfr1025) |
+| SPV1050 Solar Power Management Module (DFR0579) | DFRobot | product-reference / Manufacturer documentation recorded | [Documentation](https://wiki.dfrobot.com/dfr0579) |
+| CN3165 Solar Power Management Module (DFR0559) | DFRobot | product-reference / Manufacturer documentation recorded | [Documentation](https://wiki.dfrobot.com/dfr0559) |
+| LTC3652 Solar Power Management Module (DFR0535) | DFRobot | product-reference / Manufacturer documentation recorded | [Documentation](https://wiki.dfrobot.com/dfr0535) |
+| SY6982C 7.4V LiPo Battery USB Charging Module (DFR0564) | DFRobot | product-reference / Manufacturer documentation recorded | [Documentation](https://wiki.dfrobot.com/dfr0564) |
+| Gravity: MAX17043 3.7V Lithium Battery Fuel Gauge Module (DFR0563) | DFRobot | product-reference / Manufacturer documentation recorded | [Documentation](https://wiki.dfrobot.com/dfr0563) |
+| GS2678 DC-DC Converter Module (DFR0205) | DFRobot | product-reference / Manufacturer documentation recorded | [Documentation](https://wiki.dfrobot.com/dfr0205) |
+| Pololu 5V, 1A Step-Down Voltage Regulator D24V10F5 | Pololu | product-reference / Manufacturer documentation recorded | [Documentation](https://www.pololu.com/product/2831) |
+| Pololu 5V Step-Up/Step-Down Voltage Regulator S7V8F5 | Pololu | product-reference / Manufacturer documentation recorded | [Documentation](https://www.pololu.com/product/2123) |
+| Pololu 5V Step-Up Voltage Regulator U1V11F5 | Pololu | product-reference / Manufacturer documentation recorded | [Documentation](https://www.pololu.com/product/2562) |
+| Adafruit Powerboost 1000C | Adafruit | product-reference / Manufacturer documentation recorded | [Documentation](https://learn.adafruit.com/adafruit-powerboost-1000c-load-share-usb-charge-boost/pinouts) |
+| Adafruit PowerBoost 500 + Charger | Adafruit | product-reference / Manufacturer documentation recorded | [Documentation](https://learn.adafruit.com/adafruit-powerboost-500-plus-charger/pinouts) |
+| Adafruit Powerboost 1000 Basic | Adafruit | product-reference / Manufacturer documentation recorded | [Documentation](https://learn.adafruit.com/adafruit-powerboost-1000-basic/pinouts) |
+| Adafruit Universal USB / DC / Solar Lithium Ion/Polymer charger - BQ24074 | Adafruit | product-reference / Manufacturer documentation recorded | [Documentation](https://learn.adafruit.com/adafruit-bq24074-universal-usb-dc-solar-charger-breakout/pinouts) |
+| UPS Module 3S | Waveshare | product-reference / Manufacturer documentation recorded | [Documentation](https://www.waveshare.com/wiki/UPS_Module_3S) |
+| UPS Module Mini | Waveshare | product-reference / Manufacturer documentation recorded | [Documentation](https://www.waveshare.com/wiki/UPS_Module_Mini) |
+| Solar Power Manager | Waveshare | product-reference / Manufacturer documentation recorded | [Documentation](https://www.waveshare.com/wiki/Solar_Power_Manager) |
+| DC-DC buck-boost converter DFR0946 | DFRobot | product-reference / Manufacturer documentation recorded | [Documentation](https://www.dfrobot.com/product-2539.html) |
+| Mini boost module DFR0952 | DFRobot | product-reference / Manufacturer documentation recorded | [Documentation](https://www.dfrobot.com/product-2584.html) |
+| MT3608 boost module — Sunrom 4576 | Sunrom (seller; OEM unconfirmed) | product-reference / Seller identification; technical review needed | [Documentation](https://www.sunrom.com/p/dc-dc-boost-2a) |
+| DC5-36-TO-DC3V3-5 buck module | Waveshare | product-reference / Manufacturer documentation recorded | [Documentation](https://www.waveshare.com/wiki/DC5-36-TO-DC3V3-5) |
+| LM2596 buck module — Sunrom 4314 | Sunrom (seller; OEM unconfirmed) | product-reference / Seller identification; technical review needed | [Documentation](https://www.sunrom.com/p/dc-dc-step-down-switching-regulator-based-on-lm2596) |
+| XL6009 boost module — Sunrom 4316 | Sunrom (seller; OEM unconfirmed) | product-reference / Seller identification; technical review needed | [Documentation](https://www.sunrom.com/p/step-up-dc-dc-based-on-xl6009) |
+| MP1584 buck module — Sunrom 4498 | Sunrom (seller; OEM unconfirmed) | product-reference / Seller identification; technical review needed | [Documentation](https://www.sunrom.com/p/dc-dc-step-down-3a) |
+| TP4056 USB-C charger with protection — Sunrom 5949 | Sunrom (seller; OEM unconfirmed) | product-reference / Seller identification; technical review needed | [Documentation](https://www.sunrom.com/p/lithum-battery-charger-with-protection-tp4056-typec-usb) |
+| TP4057 charging module — DIY-Thermocam assembly variant | DIY-Thermocam reference / OEM unconfirmed | product-reference / Project identification; technical review needed | [Documentation](https://www.diy-thermocam.net/building-instructions/) |
 
 ## Sensors
 

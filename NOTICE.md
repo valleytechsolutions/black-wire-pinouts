@@ -21,3 +21,5 @@ Original guide material uses CC BY 4.0 within the scope described in LICENSING.m
 This is an example, not a mandatory wording or a requirement to advertise or subscribe. Give attribution in a reasonable manner for the medium under the applicable license. Do not imply the creator endorses your changes.
 
 Manufacturer and community reference artwork must retain the original creators' attribution and applicable terms. Crediting Black Wire alone is not sufficient for those works. See the per-asset ledger and ATTRIBUTION.md.
+
+Maker images have their own per-asset credits, source links, review notes and licensing in catalog/maker-attributions.json. License links on individual Adafruit asset pages apply only to the identified images. Images with unknown rights are not cleared for commercial printing. All originals remain unchanged; resized previews are provided for browsing.

@@ -10,13 +10,13 @@
 
 ## Maker expansion / September 2026
 
-[Browse displays, sensors and modules](MAKERS.md) or [search the parts desk](https://valleytech-black-wire-guide.pages.dev/?tab=makers). The new intake has **457 records**: **173 manufacturer documentation records**, **268 existing collection references** and **16 generic families** needing identification. These are source records, not 457 newly completed pinouts. [Coverage and product roadmap](docs/MAKER_ROADMAP.md).
+[Browse displays, sensors and modules](MAKERS.md) or [search the parts desk](https://valleytech-black-wire-guide.pages.dev/?tab=makers). The new intake has **486 records**: **196 manufacturer documentation records**, **268 existing collection references** and **16 generic families** needing identification. These are source records, not 486 newly completed pinouts. [Coverage and product roadmap](docs/MAKER_ROADMAP.md).
 
 ## A reference shelf for your next project
 
 Find the picture that tells you **which physical pin does what**. This collection brings together original board pinouts, connector labels, GPIO references and supporting documents, organized by manufacturer, processor and exact board identity. The companion desktop app makes the same collection searchable offline.
 
-| First Edition · snapshot 2026.09.3 | Count |
+| First Edition · snapshot 2026.09.4 | Count |
 |---|---:|
 | Reviewed physical board pinout images | **1,365** |
 | Searchable reference entries | **3,003** |
@@ -81,3 +81,7 @@ Send a board reference, correction, revision clarification, a better original or
 Created and curated by **—your pal kal** · [@valleytechsolutions on YouTube](https://www.youtube.com/@valleytechsolutions)
 
 Black Wire and Valleytech logos belong to their creator. Manufacturer names and trademarks identify the referenced hardware; they do not imply endorsement.
+
+## Maker image update / 2026.09.4
+
+467 of 486 maker records now have visual references, including 327 newly collected unique image files and 58 physical connector/pinout source images. Identification photos, schematics, partial pinouts and technical-review status are labeled separately. 29 power records were added. [Image gaps](catalog/maker-image-gaps.json) and [image provenance](catalog/maker-attributions.json) remain explicit. These are source references, not complete-device approvals or worldwide completeness claims. Manufacturer originals are unchanged; unknown rights are not a grant for printing or other reuse.

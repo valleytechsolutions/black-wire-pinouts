@@ -4,6 +4,10 @@
 
 These are two independent release streams. A **collection release** contains images, PDFs, indexes and attribution records. A **desktop app release** contains an application for the operating systems listed in that release. A collection ZIP is not a desktop installer.
 
+## First Edition maker visuals — 2026.09.4
+
+Adds 327 unique original maker images, including 58 physical connector/pinout references. 467 of 486 maker records now have images. Adds 29 power records covering buck, boost, buck-boost, charging, protection, solar, fuel gauges and UPS modules. TP4056/TP4057 variants remain distinct. Photos are identified separately from pinouts; unknown rights and technical-review limits remain visible. App 0.4.0 exposes previews, an image gallery, zoom, original downloads and an image filter.
+
 ## First Edition maker intake — 2026.09.3
 
 This immutable snapshot adds 457 searchable maker records, including 173 manufacturer documentation records, 268 references from the existing collection and 16 generic discovery families. Existing board/reference counts and original media hashes are unchanged. New source records include provenance and explicit review limits; no new complete physical pinout approvals are claimed. The accompanying app version is 0.3.0. The First Edition book remains a separate working manuscript.
