@@ -20,7 +20,7 @@ Manufacturer originals remain intact. The annotated Adafruit sheets are CC BY-SA
 
 ## Maker expansion / September 2026
 
-[Browse displays, sensors and modules](MAKERS.md) or [search the parts desk](https://valleytech-black-wire-guide.pages.dev/?tab=makers). The new intake has **486 records**: **196 manufacturer documentation records**, **274 existing collection references** and **16 generic families** needing identification. These are source records, not 486 newly completed pinouts. [Coverage and product roadmap](docs/MAKER_ROADMAP.md).
+[Browse displays, sensors and modules](MAKERS.md) or [search the parts desk](https://valleytech-black-wire-guide.pages.dev/?tab=makers). The intake has **486 records**: **159 named-product records**, **43 manufacturer-family records**, **268 existing collection references** and **16 generic families** needing identification. Manufacturer documentation is recorded for 196 listings. These are source records, not 486 newly completed pinouts. [Coverage and product roadmap](docs/MAKER_ROADMAP.md).
 
 ## A reference shelf for your next project
 
