@@ -7,18 +7,22 @@ Three version numbers serve different purposes:
 | Version | Meaning | Current |
 |---|---|---|
 | Book edition | A future annual editorial edition with a frozen contents and rights review | First Edition / 2026, not yet frozen for print |
-| Collection snapshot | An immutable download of the images, catalog and attribution ledger | 2026.09.2 |
+| Collection snapshot | An immutable download of the images, catalog and attribution ledger | 2026.09.6 |
 | Application version | Software features and fixes | Published separately in the desktop repository |
 
 Adding references or fixing the app does **not** create a new book edition. Earlier collection snapshots remain downloadable and unchanged. A future annual edition will receive its own number, cutoff date, table of contents and publication record when ready.
 
-## Current device expansion
+## Earlier device expansion / 2026.09.2
 
 Snapshot 2026.09.2 adds a dedicated [Devices & IoT index](DEVICES.md), 15 original reference images (including 7 physical pinout/connector sheets), and six newly populated device records. The collection now contains 3,003 reference entries and 1,365 physical pinout image entries. There are 310 device records with references; 205 of their reference entries are pinout images. Shared images, partial maps and unreviewed source records are labeled and counted as records, not unique products.
 
 The new images include T-Embed CC1101 Plus internal/external antenna variants, T-LoRa Pager, T-Echo Lite programming pads, T-Echo Lite Core labeling, a legacy T-Watch GPIO block diagram, and the WiPhone Bus Pirate daughter board. Existing device records include T-Beam, T-Deck, M5Stack, Flipper, Seeed, Heltec and other maker hardware.
 
 CardputerZero is labeled **in-development documentation** because its official documentation still marks packaging and software as work in progress. No future shipping date is asserted. Devices with missing physical pinout sheets remain in a visible documentation-watch list. The [research ledger](catalog/device-research-2026.09.2.json) records inspected sources, duplicates and excluded images.
+
+## Current reference audit / 2026.09.6
+
+The current snapshot adds eight reference entries across five models, including two newly tracked SparkFun ESP32 boards. Read the [quality audit](docs/QUALITY-AUDIT-2026.09.6.md) for scope and remaining gaps. No book files were changed.
 
 ## Publication boundaries
 

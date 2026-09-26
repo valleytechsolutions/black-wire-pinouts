@@ -223,6 +223,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [ESP32-DEVKITM-1](boards/espressif/esp32-original/esp32-devkitm-1--32ee7b3f/README.md) | ESP32 original | 1 | 1 |
 | [ESP32-H2-DEVKITM-1](boards/espressif/esp32-h2/esp32-h2-devkitm-1--d3340ac4/README.md) | ESP32-H2 | 1 | 1 |
 | [ESP32-P4-EYE](boards/espressif/esp32-p4/esp32-p4-eye--1d4baccc/README.md) | ESP32-P4 | 1 | 1 |
+| [ESP32-P4-Function-EV-Board v1.5.2](boards/espressif/esp32-p4/esp32-p4-function-ev-board-v1-5-2--b34c2d3a/README.md) | ESP32-P4 | 2 | 0 |
 | [ESP32-PICO-DEVKITM-2](boards/espressif/esp32-original/esp32-pico-devkitm-2--a5aa0627/README.md) | ESP32 original | 1 | 1 |
 | [ESP32-PICO-KIT](boards/espressif/esp32-original/esp32-pico-kit--b07be4fc/README.md) | ESP32 original | 1 | 1 |
 | [ESP32-PICO-KIT-1](boards/espressif/esp32-original/esp32-pico-kit-1--3e71f3b2/README.md) | ESP32 original | 1 | 1 |
@@ -1641,9 +1642,13 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 |---|---|---:|---:|
 | [Arduino Pro Mini 328 - 3.3V 8MHz](boards/sparkfun/atmega328p/arduino-pro-mini-328---3.3v-8mhz--3be8c439/README.md) | ATmega328P | 2 | 1 |
 | [Arduino Pro Mini 328 - 5V 16MHz](boards/sparkfun/atmega328p/arduino-pro-mini-328---5v-16mhz--8dd35936/README.md) | ATmega328P | 2 | 1 |
+| [ESP32 Thing Plus (micro-B)](boards/sparkfun/esp32/esp32-thing-plus-micro-b--1d303c72/README.md) | ESP32 | 2 | 1 |
+| [ESP32 Thing Plus (USB-C)](boards/sparkfun/esp32/esp32-thing-plus-usb-c--0a295e6b/README.md) | ESP32 | 2 | 1 |
 | [ESP8266 Thing](boards/sparkfun/esp8266/esp8266-thing--6f82a54f/README.md) | ESP8266 | 2 | 1 |
 | [ESP8266 Thing Dev](boards/sparkfun/esp8266/esp8266-thing-dev--290b2d7c/README.md) | ESP8266 | 2 | 1 |
+| [Pro Micro - RP2350](boards/sparkfun/rp2350/pro-micro-rp2350--34d1e0d4/README.md) | RP2350 | 1 | 0 |
 | [Pro Micro RP2040](boards/sparkfun/rp2040/pro-micro-rp2040--1e496553/README.md) | RP2040 | 2 | 1 |
+| [Thing Plus - RP2350](boards/sparkfun/rp2350/thing-plus-rp2350--3a0d3e7e/README.md) | RP2350 | 1 | 0 |
 
 ## SplitKB
 

@@ -14,9 +14,13 @@
 
 Board and device references for **ESP32, Arduino, Raspberry Pi, RP2040/RP2350**, displays, sensors, buttons, interfaces and power modules. Find physical pinout sources, supporting photos, pin-purpose tables and manufacturer documentation, with revision and coverage notes. Generic modules and documentation gaps remain visible.
 
-The companion app **0.6.0** adds a default charcoal-and-gold dark mode, Light mode and an updated reference workbench. The hardware collection remains snapshot **2026.09.5**. [How to read a pinout](https://valleytech-black-wire-guide.pages.dev/wiki/reading-pinouts/) · [Contribute or report a correction](CONTRIBUTING.md).
+The companion app **0.6.1** repairs PDF scrolling, orientation, zoom and recovery. The current hardware collection is snapshot **2026.09.6**. [How to read a pinout](https://valleytech-black-wire-guide.pages.dev/wiki/reading-pinouts/) · [Contribute or report a correction](CONTRIBUTING.md).
 
-## Pin references / snapshot 2026.09.5
+## Quality and reference update / snapshot 2026.09.6
+
+Added two distinct SparkFun ESP32 Thing Plus models, their original pinout PDFs and page-rendered sheets, plus supporting references for Pro Micro RP2350, Thing Plus RP2350 and ESP32-P4-Function-EV-Board v1.5.2. The current catalog has **2,407 board/device listings**, **486 maker listings**, **3,011 board reference entries** and **1,369 pinout image entries**. [Audit, evidence and remaining gaps](docs/QUALITY-AUDIT-2026.09.6.md).
+
+## Previous pin-reference expansion / snapshot 2026.09.5
 
 Every one of the 2,891 board and maker listings now has an explicit pinout-coverage status. Linked listings may describe the same hardware. [Coverage audit and remaining work](PINOUT_COVERAGE.md).
 
@@ -34,13 +38,13 @@ Manufacturer originals remain intact. The annotated Adafruit sheets are CC BY-SA
 
 Find the picture that tells you **which physical pin does what**. This collection brings together original board pinouts, connector labels, GPIO references and supporting documents, organized by manufacturer, processor and exact board identity. The companion desktop app makes the same collection searchable offline.
 
-| First Edition · snapshot 2026.09.5 | Count |
+| First Edition · snapshot 2026.09.6 | Count |
 |---|---:|
-| Board pinout source image entries | **1,367** |
-| Searchable reference entries | **3,003** |
-| Catalog records with files | **1,688** |
+| Board pinout source image entries | **1,369** |
+| Searchable reference entries | **3,011** |
+| Catalog records with files | **1,693** |
 | Manufacturers and source groups | **60** |
-| Unique original media files, including vector companions | **2,953** |
+| Unique original media files, including vector companions | **2,961** |
 
 Records include shared references, variants, devices and unreviewed source products. These counts are **not a census of unique development boards**. Coverage is growing; it is not complete.
 

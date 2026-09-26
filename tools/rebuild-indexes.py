@@ -32,7 +32,7 @@ def main():
         if b['id'] not in refresh:continue
         page=ROOT/paths[b['id']];page.parent.mkdir(parents=True,exist_ok=True)
         prefix='../'*(len(pathlib.PurePosixPath(paths[b['id']]).parts)-1)
-        lines=[f"# {b['name']}",'',f"**{b['brand']}** · {b['processor'] or b['family']}",'',f"Revision: {b.get('revision') or 'Not identified'}  ",f"Coverage: {b['coverage']}",'',f"[Browse all manufacturers]({prefix}BROWSE.md) · [Devices & IoT]({prefix}DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board={b['id']})",'']
+        lines=[f"# {b['name']}",'',f"**{b['brand']}** · {b['processor'] or b['family']}",'',f"Revision: {b.get('revision') or 'Not identified'}",'',f"Coverage: {b['coverage']}",'',f"[Browse all manufacturers]({prefix}BROWSE.md) · [Devices & IoT]({prefix}DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board={b['id']})",'']
         if b.get('device'):
             lines.extend([f"Device category: **{b['device']['category']}**",''])
             if b['device'].get('note'):lines.extend([b['device']['note'],''])

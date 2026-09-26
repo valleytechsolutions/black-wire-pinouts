@@ -1,13 +1,13 @@
 {
   "checked": "2026-09-26",
-  "listingCount": 2891,
+  "listingCount": 2893,
   "countsAreListingsNotUniqueHardware": true,
   "completeDeviceApprovals": 0,
   "summary": {
     "board": {
-      "pinout-source": 875,
-      "reference-only": 811,
-      "missing": 716,
+      "pinout-source": 877,
+      "reference-only": 814,
+      "missing": 713,
       "functions-only": 3
     },
     "maker": {
@@ -3001,10 +3001,10 @@
     },
     {
       "id": "espressif-esp32-esp32-p4-function-ev-board",
-      "name": "ESP32-P4-Function-EV-Board",
+      "name": "ESP32-P4-Function-EV-Board v1.5.2",
       "brand": "Espressif",
       "kind": "board",
-      "status": "missing",
+      "status": "reference-only",
       "physicalCount": 0,
       "functionTableCount": 0,
       "functionSheetCount": 0,
@@ -28800,7 +28800,7 @@
       "name": "Pro Micro - RP2350",
       "brand": "SparkFun",
       "kind": "board",
-      "status": "missing",
+      "status": "reference-only",
       "physicalCount": 0,
       "functionTableCount": 0,
       "functionSheetCount": 0,
@@ -28818,7 +28818,7 @@
       "name": "Thing Plus - RP2350",
       "brand": "SparkFun",
       "kind": "board",
-      "status": "missing",
+      "status": "reference-only",
       "physicalCount": 0,
       "functionTableCount": 0,
       "functionSheetCount": 0,
@@ -42423,6 +42423,40 @@
       "kind": "board",
       "status": "pinout-source",
       "physicalCount": 2,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Source pinout available; check its connector scope and revision. All-pin completeness has not been independently approved.",
+      "missing": [
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "sparkfun-esp32-thing-plus-wrl-20168",
+      "name": "ESP32 Thing Plus (USB-C)",
+      "brand": "SparkFun",
+      "kind": "board",
+      "status": "pinout-source",
+      "physicalCount": 1,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Source pinout available; check its connector scope and revision. All-pin completeness has not been independently approved.",
+      "missing": [
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "sparkfun-esp32-thing-plus-wrl-15663",
+      "name": "ESP32 Thing Plus (micro-B)",
+      "brand": "SparkFun",
+      "kind": "board",
+      "status": "pinout-source",
+      "physicalCount": 1,
       "functionTableCount": 0,
       "functionSheetCount": 0,
       "purposeRows": 0,
