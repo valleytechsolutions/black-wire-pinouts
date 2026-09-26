@@ -2,10 +2,17 @@
 
 **BeagleBoard.org** · Other SBC
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=beagleboard-org-other-sbc-beaglev-fire)
+
+Architecture: **RISC-V**
+
+## Specifications and hardware documentation
+
+- [Manufacturer hardware documentation](https://docs.beagle.cc/boards/beaglev/fire/index.html)
 
 ## BeagleV-Fire-P8
 
@@ -18,6 +25,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: BeagleBoard.org.
 
 [Source 1](https://raw.githubusercontent.com/beagleboard/docs.beagleboard.io/16fe321218239da46f68cc6688347deddd044181/boards/beaglev/fire/images/pinout/BeagleV-Fire-P8.png) · [Source 2](https://github.com/beagleboard/docs.beagleboard.io/blob/16fe321218239da46f68cc6688347deddd044181/boards/beaglev/fire/images/pinout/BeagleV-Fire-P8.png)
+
+
+
+Image revision: Not identified
 
 SHA-256: `357194878d150f55e41a20c11b9b97e1d1220db4590bc69bf759c7b9c9095a94`
 
@@ -32,6 +43,10 @@ SHA-256: `357194878d150f55e41a20c11b9b97e1d1220db4590bc69bf759c7b9c9095a94`
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: BeagleBoard.org.
 
 [Source 1](https://raw.githubusercontent.com/beagleboard/docs.beagleboard.io/16fe321218239da46f68cc6688347deddd044181/boards/beaglev/fire/images/pinout/BeagleV-Fire-P9.png) · [Source 2](https://github.com/beagleboard/docs.beagleboard.io/blob/16fe321218239da46f68cc6688347deddd044181/boards/beaglev/fire/images/pinout/BeagleV-Fire-P9.png)
+
+
+
+Image revision: Not identified
 
 SHA-256: `7ef41f8c1536109fb748b334d0cd5c093bd14e5eb52acac85a5c72922dd0f6b3`
 

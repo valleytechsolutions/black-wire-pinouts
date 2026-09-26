@@ -1152,6 +1152,42 @@ Adafruit · Manufacturer documentation recorded
 
 Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
 
+## PyPortal
+
+Adafruit · Manufacturer source references collected
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-pyportal)
+
+[![PyPortal / pinout image](../../library/thumbs/3f5c34ec2e0f2ec6a1e137adb7fd6cec02b6df98ba510f5fb0057762dae2fe55.webp)](../../library/media/3f5c34ec2e0f2ec6a1e137adb7fd6cec02b6df98ba510f5fb0057762dae2fe55.png)
+
+**pinout image** · Reviewed source
+
+Adafruit / original diagram contributors. Rights not established for this asset; attribution retained. Original artwork is not covered by Black Wire's editorial license.
+
+## PyPortal Pynt
+
+Adafruit · Manufacturer source references collected
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-pyportal-pynt)
+
+[![PyPortal Pynt / pinout image](../../library/thumbs/cb476de16c92fe5008069a8737c6be79b5169e0b228b18a4ca891f09a1a3500d.webp)](../../library/media/cb476de16c92fe5008069a8737c6be79b5169e0b228b18a4ca891f09a1a3500d.png)
+
+**pinout image** · Reviewed source
+
+Adafruit / original diagram contributors. Rights not established for this asset; attribution retained. Original artwork is not covered by Black Wire's editorial license.
+
+## PyPortal Titano
+
+Adafruit · Manufacturer source references collected
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-pyportal-titano)
+
+[![PyPortal Titano / pinout image](../../library/thumbs/a2513f396f68b96f6972b352d9de8f21ca0fd624a883b6111624fd2d6d595197.webp)](../../library/media/a2513f396f68b96f6972b352d9de8f21ca0fd624a883b6111624fd2d6d595197.png)
+
+**pinout image** · Reviewed source
+
+Adafruit / original diagram contributors. Rights not established for this asset; attribution retained. Original artwork is not covered by Black Wire's editorial license.
+
 ## RGB LCD Shield
 
 Adafruit · Manufacturer documentation recorded

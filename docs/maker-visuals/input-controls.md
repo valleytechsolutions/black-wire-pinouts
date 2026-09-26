@@ -188,6 +188,18 @@ M5Stack · Source review pending
 
 Source rights not yet established
 
+## NeoKey Trinkey
+
+Adafruit · Manufacturer source references collected
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-neokey-trinkey)
+
+[![NeoKey Trinkey / pinout image](../../library/thumbs/b4bb0f7625ec61125e898116ff5b5cf0d9655cae6b437d2f560d67ad7beb6d41.webp)](../../library/media/b4bb0f7625ec61125e898116ff5b5cf0d9655cae6b437d2f560d67ad7beb6d41.png)
+
+**pinout image** · Reviewed source
+
+Adafruit / original diagram contributors. Rights not established for this asset; attribution retained. Original artwork is not covered by Black Wire's editorial license.
+
 ## Qwiic Twist Hookup Guide
 
 SparkFun · Manufacturer documentation recorded
@@ -199,6 +211,30 @@ SparkFun · Manufacturer documentation recorded
 **source reference** · Source image inspected; technical review pending
 
 Manufacturer artwork; reproduction rights not established; not cleared for the printed book
+
+## Rotary Trinkey
+
+Adafruit · Manufacturer source references collected
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-rotary-trinkey)
+
+[![Rotary Trinkey / pinout image](../../library/thumbs/17ce093d02567cd81322f2e55a9cd1a908c59db506d6fd598b3013629b96e4c7.webp)](../../library/media/17ce093d02567cd81322f2e55a9cd1a908c59db506d6fd598b3013629b96e4c7.png)
+
+**pinout image** · Reviewed source
+
+Adafruit / original diagram contributors. Rights not established for this asset; attribution retained. Original artwork is not covered by Black Wire's editorial license.
+
+## Slider Trinkey
+
+Adafruit · Manufacturer source references collected
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-slider-trinkey)
+
+[![Slider Trinkey / pinout image](../../library/thumbs/9b0fdaf1bf85f4b20755a81dedc729d81a569f84b67f6bf5bd49cf4d2cd6b7fd.webp)](../../library/media/9b0fdaf1bf85f4b20755a81dedc729d81a569f84b67f6bf5bd49cf4d2cd6b7fd.png)
+
+**pinout image** · Reviewed source
+
+Adafruit / original diagram contributors. Rights not established for this asset; attribution retained. Original artwork is not covered by Black Wire's editorial license.
 
 ## SparkFun Qwiic Button Hookup Guide
 

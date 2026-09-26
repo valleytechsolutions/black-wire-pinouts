@@ -2,7 +2,7 @@
 
 [Search devices in the browser guide](https://valleytech-black-wire-guide.pages.dev/?tab=devices) · [All boards](BROWSE.md) · [First Edition](EDITION.md)
 
-**310 device records with references.** Includes handhelds, radio nodes, wearables, cameras, displays and controllers. Counts include unreviewed source records and supporting references; not every record has a full physical pinout.
+**313 device records with references.** Includes handhelds, radio nodes, wearables, cameras, displays and controllers. Counts include unreviewed source records and supporting references; not every record has a full physical pinout.
 
 Original manufacturer images remain unchanged. Revision and partial-map notes live on each device page.
 
@@ -159,6 +159,8 @@ Original manufacturer images remain unchanged. Revision and partial-map notes li
 | M5Stack | [Tough](boards/m5stack/source-collection/tough--3692b841/README.md) | Not recorded | 0 | 1 |
 | M5Stack | [Unit PoE-P4](boards/m5stack/esp32-p4/unit-poe-p4--287ba2ba/README.md) | ESP32-P4 | 1 | 2 |
 | Seeed Studio | [SenseCAP M2 Multi-Platform Gateway](boards/seeed-studio/source-collection/sensecap-m2-multi-platform-gateway--1dfbbd2c/README.md) | Not recorded | 0 | 2 |
+| SparkFun | [BlueSMiRF v2](boards/sparkfun/esp32/bluesmirf-v2--9287d8aa/README.md) | ESP32 | 4 | 4 |
+| SparkFun | [IoT Brushless Motor Driver](boards/sparkfun/esp32/iot-brushless-motor-driver--e49b720f/README.md) | ESP32 | 2 | 2 |
 | TechOverflow | [CANipulator V1](boards/techoverflow/esp32-c6/canipulator-v1--178de7d7/README.md) | ESP32-C6 | 2 | 3 |
 | TechOverflow | [CANipulator V2](boards/techoverflow/esp32-c5/canipulator-v2--e8bd2745/README.md) | ESP32-C5 | 2 | 3 |
 
@@ -256,6 +258,7 @@ Original manufacturer images remain unchanged. Revision and partial-map notes li
 | M5Stack | [Cardputer Mesh Kit](boards/m5stack/source-collection/cardputer-mesh-kit--411284d3/README.md) | Not recorded | 0 | 1 |
 | M5Stack | [Cardputer-Adv](boards/m5stack/esp32-s3/cardputer-adv--52772803/README.md) | ESP32-S3 | 1 | 2 |
 | M5Stack | [CardputerZero](boards/m5stack/raspberry-pi-cm0/cardputerzero--f53c0029/README.md) · pre-release documentation | Raspberry Pi CM0 | 2 | 3 |
+| OpenSourceSDRLab | [PortaPack H4M](boards/opensourcesdrlab/gpio-device/portapack-h4m--aaba0987/README.md) | Not recorded | 1 | 1 |
 | WiPhone | [WiPhone Bus Pirate Daughter Board V1.1](boards/wiphone/pic24fj64ga002/wiphone-bus-pirate-daughter-board-v1-1--2bc59329/README.md) | PIC24FJ64GA002 | 3 | 4 |
 
 ## Radios & GNSS

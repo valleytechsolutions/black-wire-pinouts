@@ -2,10 +2,17 @@
 
 **Banana Pi** · Other SBC
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=banana-pi-other-sbc-bpi-cm5-pro)
+
+Architecture: **ARM**
+
+## Specifications and hardware documentation
+
+- [Manufacturer hardware documentation](https://docs.banana-pi.org/en/BPI-CM5_Pro/BananaPi_BPI-CM5_Pro)
 
 ## GPIO header pinout
 
@@ -20,6 +27,8 @@ Coverage: Pinout image collected
 [Source 1](https://docs.banana-pi.org/bpi-cm5_pro/cm5-pinlist-1.png) · [Source 2](https://docs.banana-pi.org/en/BPI-CM5_Pro/BananaPi_BPI-CM5_Pro)
 
 ¶ BPI-CM5 Pro core board pin definitions
+
+Image revision: Not identified
 
 SHA-256: `08afe3f9b949f821051bc85dd4501b868b599176cb571c613ed8267dcdb8096b`
 
@@ -36,6 +45,8 @@ SHA-256: `08afe3f9b949f821051bc85dd4501b868b599176cb571c613ed8267dcdb8096b`
 [Source 1](https://docs.banana-pi.org/bpi-cm5_pro/cm5-pinlist-2.png) · [Source 2](https://docs.banana-pi.org/en/BPI-CM5_Pro/BananaPi_BPI-CM5_Pro)
 
 ¶ BPI-CM5 Pro core board pin definitions
+
+Image revision: Not identified
 
 SHA-256: `ab9714b763930337ed4ae056471bc620f9cfd9c98d29bd83e85c7ecfe2d0fc58`
 

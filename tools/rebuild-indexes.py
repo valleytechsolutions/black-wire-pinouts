@@ -36,6 +36,11 @@ def main():
         if b.get('device'):
             lines.extend([f"Device category: **{b['device']['category']}**",''])
             if b['device'].get('note'):lines.extend([b['device']['note'],''])
+        if b.get('architecture'):lines.extend([f"Architecture: **{b['architecture']}**",''])
+        if b.get('specifications'):
+            lines.extend(['## Specifications and hardware documentation',''])
+            lines.extend([f"- [{s.get('label','Hardware documentation')}]({s['url']})" for s in b['specifications']])
+            lines.append('')
         for a in b['assets']:
             lines.extend([f"## {a['label']}",'',f"**{a['type']}** · {a['review']} · {a['extension'].upper()}",''])
             if a.get('thumb'):lines.extend([f"[![{b['name']} reference preview]({prefix}library/{a['thumb']})]({prefix}library/{a['file']})",''])

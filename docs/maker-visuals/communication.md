@@ -4,6 +4,18 @@
 
 Manufacturer originals remain unchanged. Connector-model sheets add separately labeled callouts under the recorded source license. Check exact PCB/revision, source notes and rights before reuse. Photos and partial connector diagrams are not complete-device approvals.
 
+## BlueSMiRF v2
+
+SparkFun · Manufacturer source references collected
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-sparkfun-bluesmirf-v2)
+
+[![BlueSMiRF v2 / pinout image](../../library/thumbs/1720ff2f36f06bc57eda57b10e47017421b69882b79b3b7a6fc321884939147c.webp)](../../library/media/1720ff2f36f06bc57eda57b10e47017421b69882b79b3b7a6fc321884939147c.jpg)
+
+**pinout image** · Reviewed source
+
+SparkFun / original diagram contributors. Rights not established for this asset; attribution retained. Original artwork is not covered by Black Wire's editorial license.
+
 ## Bluetooth Bee
 
 Seeed Studio · Source review pending

@@ -2,10 +2,17 @@
 
 **Banana Pi** · Other SBC
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=banana-pi-other-sbc-bpi-m4-berry)
+
+Architecture: **ARM**
+
+## Specifications and hardware documentation
+
+- [Manufacturer hardware documentation](https://docs.banana-pi.org/en/BPI-M4_Berry/BananaPi_BPI-M4_Berry)
 
 ## GPIO header pinout
 
@@ -20,6 +27,8 @@ Coverage: Pinout image collected
 [Source 1](https://docs.banana-pi.org/bpi-m4berry/bananapi_m4_berry_gpio_picture.png) · [Source 2](https://docs.banana-pi.org/en/BPI-M4_Berry/BananaPi_BPI-M4_Berry)
 
 ¶ GPIO Pin Define
+
+Image revision: Not identified
 
 SHA-256: `074f2a117ce2df7d5c8ea8330b71b552b1bad1cb772f5291da57f5dac73297b9`
 

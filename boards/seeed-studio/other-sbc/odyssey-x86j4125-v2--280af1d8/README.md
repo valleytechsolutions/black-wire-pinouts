@@ -2,10 +2,17 @@
 
 **Seeed Studio** · Other SBC
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-other-sbc-odyssey-x86j4125-v2)
+
+Architecture: **x86**
+
+## Specifications and hardware documentation
+
+- [Manufacturer hardware documentation](https://wiki.seeedstudio.com/ODYSSEY-X86J4105/)
 
 ## Pinout
 
@@ -20,6 +27,8 @@ Coverage: Pinout image collected
 [Source 1](https://files.seeedstudio.com/wiki/ODYSSEY-X86J4105864/img/x86J4125v2.jpg) · [Source 2](https://wiki.seeedstudio.com/ODYSSEY-X86J4105/)
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `ff256f1de07b87088be1e1a6fd085013a42f9af1d21b9c4d6d5ca8eee17ebbff`
 
@@ -36,6 +45,8 @@ SHA-256: `ff256f1de07b87088be1e1a6fd085013a42f9af1d21b9c4d6d5ca8eee17ebbff`
 [Source 1](https://files.seeedstudio.com/wiki/ODYSSEY_X86J4125_v2/hw_overview.jpg) · [Source 2](https://wiki.seeedstudio.com/ODYSSEY-X86J4105/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `0e72008522f7b2761784234671ad730a756dcfa8996ea21602a8d43efe8d8bff`
 

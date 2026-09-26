@@ -2,10 +2,17 @@
 
 **Milk-V** · Other SBC
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=milk-v-other-sbc-duo-256m)
+
+Architecture: **ARM / RISC-V**
+
+## Specifications and hardware documentation
+
+- [Manufacturer hardware documentation](https://milkv.io/docs/duo/getting-started/duo256m)
 
 ## duo256m-pinout-01
 
@@ -18,6 +25,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Milk-V.
 
 [Source 1](https://raw.githubusercontent.com/milk-v/milkv.io/01bc64d3d71bce30faec2bc4ba6dd34310e4ac8c/static/docs/duo/duo256m/duo256m-pinout-01.webp) · [Source 2](https://github.com/milk-v/milkv.io/blob/01bc64d3d71bce30faec2bc4ba6dd34310e4ac8c/static/docs/duo/duo256m/duo256m-pinout-01.webp)
+
+
+
+Image revision: Not identified
 
 SHA-256: `3f22d173811aadfaf536e6e09f1c996a6a25ee0abcbf48c9c9c9232ffc46857e`
 

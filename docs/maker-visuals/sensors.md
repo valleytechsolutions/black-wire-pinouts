@@ -192,6 +192,18 @@ Generic / manufacturer unconfirmed · Identification needed
 
 Matching image still needed.
 
+## Feather nRF52840 Sense
+
+Adafruit · Manufacturer source references collected
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-feather-nrf52840-sense)
+
+[![Feather nRF52840 Sense / pinout image](../../library/thumbs/30716f3d2b3e7ebac06b37c10c85565e1e31fffa45ce73b26ee9cde3ac073561.webp)](../../library/media/30716f3d2b3e7ebac06b37c10c85565e1e31fffa45ce73b26ee9cde3ac073561.png)
+
+**pinout image** · Reviewed source
+
+Adafruit / original diagram contributors. Rights not established for this asset; attribution retained. Original artwork is not covered by Black Wire's editorial license.
+
 ## Gravity: Analog Capacitive Corrosion Resistant Soil Moisture Sensor for Arduino / Raspberry Pi / SEN0193
 
 DFRobot · Manufacturer documentation recorded
@@ -592,6 +604,18 @@ Seeed Studio · Source review pending
 
 Source rights not yet established
 
+## Proximity Trinkey
+
+Adafruit · Manufacturer source references collected
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-proximity-trinkey)
+
+[![Proximity Trinkey / pinout image](../../library/thumbs/0ccec28455c8bb6f42b5c9ac06262c793c5f46dd3c0757d14b4c1d34a2f62eb0.webp)](../../library/media/0ccec28455c8bb6f42b5c9ac06262c793c5f46dd3c0757d14b4c1d34a2f62eb0.png)
+
+**pinout image** · Reviewed source
+
+Adafruit / original diagram contributors. Rights not established for this asset; attribution retained. Original artwork is not covered by Black Wire's editorial license.
+
 ## SenseCAP A1101 (LoRaWAN Vision AI Sensor)
 
 Seeed Studio · Source review pending
@@ -599,6 +623,18 @@ Seeed Studio · Source review pending
 [Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-existing-source-board-09dd14dad4781f80a9)
 
 Matching image still needed.
+
+## SHT45 Trinkey
+
+Adafruit · Manufacturer source references collected
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-sht4x-trinkey)
+
+[![SHT45 Trinkey / pinout image](../../library/thumbs/d230d08c1a06ca227bd0bc57c6ed592b88284ff42a9aa7ed8013433f1ac2c23b.webp)](../../library/media/d230d08c1a06ca227bd0bc57c6ed592b88284ff42a9aa7ed8013433f1ac2c23b.png)
+
+**pinout image** · Reviewed source
+
+Adafruit / original diagram contributors. Rights not established for this asset; attribution retained. Original artwork is not covered by Black Wire's editorial license.
 
 ## Unit Mini IMU-Pro
 

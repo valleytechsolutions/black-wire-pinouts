@@ -2,10 +2,17 @@
 
 **Milk-V** · Other SBC
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=milk-v-other-sbc-duo-s)
+
+Architecture: **ARM / RISC-V**
+
+## Specifications and hardware documentation
+
+- [Manufacturer hardware documentation](https://milkv.io/docs/duo/getting-started/download)
 
 ## duos-pinout
 
@@ -18,6 +25,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Milk-V.
 
 [Source 1](https://raw.githubusercontent.com/milk-v/milkv.io/01bc64d3d71bce30faec2bc4ba6dd34310e4ac8c/static/duo-s/duos-pinout.webp) · [Source 2](https://github.com/milk-v/milkv.io/blob/01bc64d3d71bce30faec2bc4ba6dd34310e4ac8c/static/duo-s/duos-pinout.webp)
+
+
+
+Image revision: Not identified
 
 SHA-256: `8d169269477ccc90ab02a67cc2a083520ebe9999a2ccdfc0a5cccd83ecdb9447`
 
@@ -32,6 +43,10 @@ SHA-256: `8d169269477ccc90ab02a67cc2a083520ebe9999a2ccdfc0a5cccd83ecdb9447`
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Milk-V.
 
 [Source 1](https://raw.githubusercontent.com/milk-v/milkv.io/01bc64d3d71bce30faec2bc4ba6dd34310e4ac8c/static/docs/duo/duos/duos-poe-pinout.webp) · [Source 2](https://github.com/milk-v/milkv.io/blob/01bc64d3d71bce30faec2bc4ba6dd34310e4ac8c/static/docs/duo/duos/duos-poe-pinout.webp)
+
+
+
+Image revision: Not identified
 
 SHA-256: `187694f8ba72ed672676c1945515b479c1aad0bb5c44e678ae0b979534ba0b87`
 

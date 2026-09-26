@@ -10,17 +10,33 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 |---|---|---:|---:|
 | [Gemini](boards/0xcb/rp2040/gemini--d32586ea/README.md) | RP2040 | 2 | 2 |
 
+## 1BitSquared
+
+| Board / device | Processor / family | References | Pinout images |
+|---|---|---:|---:|
+| [iCEBreaker v1.0b](boards/1bitsquared/ice40up5k/icebreaker-v1-0b--2bc40f2a/README.md) | iCE40UP5K | 1 | 1 |
+
 ## Adafruit
 
 | Board / device | Processor / family | References | Pinout images |
 |---|---|---:|---:|
 | [Adafruit Feather HUZZAH32](boards/adafruit/esp32-original/adafruit-feather-huzzah32--d66e0469/README.md) | ESP32 original | 2 | 1 |
+| [Adafruit HUZZAH32 Breakout](boards/adafruit/esp32/adafruit-huzzah32-breakout--c5484797/README.md) | ESP32 | 2 | 1 |
 | [Adafruit ItsyBitsy ESP32](boards/adafruit/esp32-original/adafruit-itsybitsy-esp32--cf064ab2/README.md) | ESP32 original | 2 | 1 |
 | [Adafruit Mini Sparkle Motion](boards/adafruit/esp32-original/adafruit-mini-sparkle-motion--3cb6425c/README.md) | ESP32 original | 2 | 1 |
+| [Adafruit QT Py ESP32 Pico](boards/adafruit/esp32/adafruit-qt-py-esp32-pico--f12f4c43/README.md) | ESP32 | 2 | 1 |
 | [Adafruit QT Py ESP32-S2 (including uFL version)](boards/adafruit/esp32-s2/adafruit-qt-py-esp32-s2-including-ufl-version--ad4a9acc/README.md) | ESP32-S2 | 2 | 1 |
 | [Adafruit Sparkle Motion](boards/adafruit/esp32-original/adafruit-sparkle-motion--3db12a34/README.md) | ESP32 original | 2 | 1 |
+| [CH552 QT Py](boards/adafruit/ch552/ch552-qt-py--e5dc55fc/README.md) | CH552 | 2 | 1 |
+| [Circuit Playground Bluefruit](boards/adafruit/other/circuit-playground-bluefruit--323e2e67/README.md) | Other | 2 | 1 |
 | [ESP32-S2 Reverse TFT Feather](boards/adafruit/esp32-s2/esp32-s2-reverse-tft-feather--eb651830/README.md) | ESP32-S2 | 4 | 2 |
-| [ESP32-S3 Reverse TFT Feather](boards/adafruit/esp32-s3/esp32-s3-reverse-tft-feather--3654470c/README.md) | ESP32-S3 | 2 | 2 |
+| [ESP32-S3 Reverse TFT Feather](boards/adafruit/esp32-s3/esp32-s3-reverse-tft-feather--3654470c/README.md) | ESP32-S3 | 6 | 4 |
+| [Feather 328P](boards/adafruit/atmega328p/feather-328p--b35ec96e/README.md) | ATmega328P | 2 | 1 |
+| [Feather 32u4 Adalogger](boards/adafruit/atmega32u4/feather-32u4-adalogger--3c8e8db8/README.md) | ATmega32U4 | 2 | 1 |
+| [Feather 32u4 Basic Proto](boards/adafruit/atmega32u4/feather-32u4-basic-proto--22305721/README.md) | ATmega32U4 | 2 | 1 |
+| [Feather 32u4 Bluefruit LE](boards/adafruit/atmega32u4/feather-32u4-bluefruit-le--d3299406/README.md) | ATmega32U4 | 2 | 1 |
+| [Feather 32u4 RFM69](boards/adafruit/atmega32u4/feather-32u4-rfm69--99680594/README.md) | ATmega32U4 | 2 | 1 |
+| [Feather 32u4 RFM9x](boards/adafruit/atmega32u4/feather-32u4-rfm9x--4d5ff9f2/README.md) | ATmega32U4 | 2 | 1 |
 | [Feather ESP32 V2](boards/adafruit/esp32-original/feather-esp32-v2--5292a1a0/README.md) | ESP32 original | 2 | 1 |
 | [Feather ESP32-C6 4MB Flash No PSRAM](boards/adafruit/esp32-c6/feather-esp32-c6-4mb-flash-no-psram--101bc488/README.md) | ESP32-C6 | 2 | 1 |
 | [Feather ESP32-S2](boards/adafruit/esp32-s2/feather-esp32-s2--fbeeb5fe/README.md) | ESP32-S2 | 2 | 1 |
@@ -29,6 +45,17 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Feather ESP32-S3 4MB Flash 2MB PSRAM](boards/adafruit/esp32-s3/feather-esp32-s3-4mb-flash-2mb-psram--203f8293/README.md) | ESP32-S3 | 2 | 1 |
 | [Feather ESP32-S3 TFT PSRAM](boards/adafruit/esp32-s3/feather-esp32-s3-tft-psram--a3c42ee2/README.md) | ESP32-S3 | 2 | 1 |
 | [Feather HUZZAH ESP8266](boards/adafruit/esp8266/feather-huzzah-esp8266--11340f08/README.md) | ESP8266 | 2 | 1 |
+| [Feather M0 Adalogger](boards/adafruit/samd21/feather-m0-adalogger--f095eb9c/README.md) | SAMD21 | 2 | 1 |
+| [Feather M0 Basic Proto](boards/adafruit/samd21/feather-m0-basic-proto--abf242c0/README.md) | SAMD21 | 2 | 1 |
+| [Feather M0 Bluefruit LE](boards/adafruit/samd21/feather-m0-bluefruit-le--5339eef4/README.md) | SAMD21 | 2 | 1 |
+| [Feather M0 Express](boards/adafruit/samd21/feather-m0-express--6c21c579/README.md) | SAMD21 | 2 | 1 |
+| [Feather M0 RFM69](boards/adafruit/samd21/feather-m0-rfm69--6357d59d/README.md) | SAMD21 | 2 | 1 |
+| [Feather M0 RFM9x](boards/adafruit/samd21/feather-m0-rfm9x--40005c0c/README.md) | SAMD21 | 2 | 1 |
+| [Feather M0 WINC1500](boards/adafruit/samd21/feather-m0-winc1500--b29d9b94/README.md) | SAMD21 | 2 | 1 |
+| [Feather M4 Express](boards/adafruit/samd51/feather-m4-express--fe1d7131/README.md) | SAMD51 | 2 | 1 |
+| [Feather M4 Express CAN](boards/adafruit/samd51/feather-m4-express-can--b7ba5b0a/README.md) | ATSAME51 | 2 | 1 |
+| [Feather nRF52840](boards/adafruit/nrf52840/feather-nrf52840--5a353a05/README.md) | nRF52840 | 2 | 1 |
+| [Feather nRF52840 Sense](boards/adafruit/nrf52840/feather-nrf52840-sense--c1dcf19c/README.md) | nRF52840 | 2 | 1 |
 | [Feather RP2040](boards/adafruit/rp2040/feather-rp2040--a3c39c20/README.md) | RP2040 | 2 | 1 |
 | [Feather RP2040 Adalogger](boards/adafruit/rp2040/feather-rp2040-adalogger--6266b4dc/README.md) | RP2040 | 2 | 1 |
 | [Feather RP2040 CAN Bus](boards/adafruit/rp2040/feather-rp2040-can-bus--fdc49dde/README.md) | RP2040 | 2 | 1 |
@@ -40,20 +67,60 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Feather RP2040 with DVI Output Port](boards/adafruit/rp2040/feather-rp2040-with-dvi-output-port--0c0b733f/README.md) | RP2040 | 2 | 1 |
 | [Feather RP2040 with USB Type A Host](boards/adafruit/rp2040/feather-rp2040-with-usb-type-a-host--5fd0807b/README.md) | RP2040 | 2 | 1 |
 | [Feather RP2350](boards/adafruit/rp2350/feather-rp2350--9d1a08f0/README.md) | RP2350 | 2 | 1 |
+| [Fruit Jam - Mini RP2350 Computer](boards/adafruit/rp2350/fruit-jam-mini-rp2350-computer--029cc34f/README.md) | RP2350 | 2 | 1 |
 | [FunHouse - WiFi Home Automation Development Board](boards/adafruit/esp32-s2/funhouse---wifi-home-automation-development-board--575ae98e/README.md) | ESP32-S2 | 2 | 1 |
+| [Gemma](boards/adafruit/attiny85/gemma--f02d2fa0/README.md) | ATtiny85 | 2 | 1 |
+| [GEMMA M0](boards/adafruit/samd21/gemma-m0--f654f4b2/README.md) | SAMD21 | 2 | 1 |
+| [Grand Central M4 Express](boards/adafruit/samd51/grand-central-m4-express--cbef403a/README.md) | SAMD51 | 2 | 1 |
+| [HalloWing M0](boards/adafruit/samd21/hallowing-m0--6c3a7086/README.md) | SAMD21 | 2 | 1 |
+| [HalloWing M4](boards/adafruit/samd51/hallowing-m4--30370118/README.md) | SAMD51 | 2 | 1 |
+| [Itsy Bitsy 32u4 3V](boards/adafruit/atmega32u4/itsy-bitsy-32u4-3v--2d0f46b7/README.md) | ATmega32U4 | 2 | 1 |
+| [Itsy Bitsy 32u4 5V](boards/adafruit/atmega32u4/itsy-bitsy-32u4-5v--52247367/README.md) | ATmega32U4 | 2 | 1 |
+| [ItsyBitsy M0](boards/adafruit/samd21/itsybitsy-m0--6b4af213/README.md) | SAMD21 | 2 | 1 |
+| [ItsyBitsy M4 Express](boards/adafruit/samd51/itsybitsy-m4-express--b7eb26fe/README.md) | SAMD51 | 2 | 1 |
+| [ItsyBitsy nRF52840](boards/adafruit/nrf52840/itsybitsy-nrf52840--1492e4ea/README.md) | nRF52840 | 2 | 1 |
 | [ItsyBitsy RP2040](boards/adafruit/rp2040/itsybitsy-rp2040--aa25117b/README.md) | RP2040 | 2 | 1 |
 | [KB2040](boards/adafruit/rp2040/kb2040--ce837251/README.md) | RP2040 | 2 | 1 |
 | [MacroPad RP2040](boards/adafruit/rp2040/macropad-rp2040--91a5968d/README.md) | RP2040 | 2 | 1 |
 | [MagTag - 2.9\" Grayscale E-Ink WiFi Display](boards/adafruit/esp32-s2/magtag---2.9-grayscale-e-ink-wifi-display--c2e45e7c/README.md) | ESP32-S2 | 2 | 1 |
-| [MatrixPortal S3](boards/adafruit/esp32-s3/matrixportal-s3--dc8edab6/README.md) | ESP32-S3 | 1 | 1 |
+| [MatrixPortal M4](boards/adafruit/samd51/matrixportal-m4--e234e58f/README.md) | SAMD51 | 2 | 1 |
+| [MatrixPortal S3](boards/adafruit/esp32-s3/matrixportal-s3--dc8edab6/README.md) | ESP32-S3 | 3 | 2 |
+| [Metro 328P](boards/adafruit/atmega328p/metro-328p--6f47b13d/README.md) | ATmega328P | 2 | 1 |
 | [Metro ESP32-S2](boards/adafruit/esp32-s2/metro-esp32-s2--2768e363/README.md) | ESP32-S2 | 2 | 1 |
 | [Metro ESP32-S3](boards/adafruit/esp32-s3/metro-esp32-s3--1cab5c83/README.md) | ESP32-S3 | 2 | 1 |
+| [Metro M0 Express](boards/adafruit/samd21/metro-m0-express--c26ccbce/README.md) | SAMD21 | 2 | 1 |
+| [Metro M4 Express](boards/adafruit/samd51/metro-m4-express--2c12b586/README.md) | SAMD51 | 2 | 1 |
+| [Metro M4 Express AirLift](boards/adafruit/samd51/metro-m4-express-airlift--32bbea6f/README.md) | SAMD51 | 2 | 1 |
+| [Metro M7 with microSD](boards/adafruit/i-mx-rt1011/metro-m7-with-microsd--9f719472/README.md) | i.MX RT1011 | 2 | 1 |
+| [Metro Mini (legacy)](boards/adafruit/atmega328p/metro-mini--7470edec/README.md) | ATmega328P | 2 | 1 |
 | [Metro RP2040](boards/adafruit/rp2040/metro-rp2040--613ce0f9/README.md) | RP2040 | 2 | 1 |
 | [Metro RP2350](boards/adafruit/rp2350/metro-rp2350--b2814865/README.md) | RP2350 | 2 | 1 |
+| [Neo Trinkey](boards/adafruit/samd21/neo-trinkey--98162b9f/README.md) | SAMD21 | 2 | 1 |
+| [NeoKey Trinkey](boards/adafruit/samd21/neokey-trinkey--efeb6a72/README.md) | SAMD21 | 2 | 1 |
+| [NeoTrellis M4](boards/adafruit/samd51/neotrellis-m4--f75dacbe/README.md) | SAMD51 | 2 | 1 |
+| [nRF52840 CLUE](boards/adafruit/nrf52840/nrf52840-clue--d7fe3444/README.md) | nRF52840 | 2 | 1 |
+| [Pixel Trinkey](boards/adafruit/samd21/pixel-trinkey--f25e7e2e/README.md) | SAMD21 | 2 | 1 |
+| [Pro Trinket 3V](boards/adafruit/atmega328p/pro-trinket-3v--3e57b00e/README.md) | ATmega328P | 2 | 1 |
+| [Pro Trinket 5V](boards/adafruit/atmega328p/pro-trinket-5v--1bda2a09/README.md) | ATmega328P | 2 | 1 |
+| [Proximity Trinkey](boards/adafruit/samd21/proximity-trinkey--25224b19/README.md) | SAMD21 | 2 | 1 |
+| [PyGamer](boards/adafruit/samd51/pygamer--365bb816/README.md) | SAMD51 | 2 | 1 |
+| [PyPortal](boards/adafruit/samd51/pyportal--4e08ed01/README.md) | SAMD51 | 2 | 1 |
+| [PyPortal Pynt](boards/adafruit/samd51/pyportal-pynt--835eaadb/README.md) | SAMD51 | 2 | 1 |
+| [PyPortal Titano](boards/adafruit/samd51/pyportal-titano--4ac56fe1/README.md) | SAMD51 | 2 | 1 |
+| [QT Py CH32V203](boards/adafruit/ch32v203/qt-py-ch32v203--bcde4095/README.md) | CH32V203 | 2 | 1 |
 | [QT Py ESP32-C3](boards/adafruit/esp32-c3/qt-py-esp32-c3--0c70eecb/README.md) | ESP32-C3 | 2 | 1 |
 | [QT Py ESP32-S3](boards/adafruit/esp32-s3/qt-py-esp32-s3--0df31602/README.md) | ESP32-S3 | 2 | 1 |
 | [QT Py RP2040](boards/adafruit/rp2040/qt-py-rp2040--b62a45dc/README.md) | RP2040 | 2 | 1 |
+| [QT Py SAMD21](boards/adafruit/samd21/qt-py-samd21--993668e5/README.md) | SAMD21 | 2 | 1 |
+| [Rotary Trinkey](boards/adafruit/samd21/rotary-trinkey--74ba008b/README.md) | SAMD21 | 2 | 1 |
+| [SHT45 Trinkey](boards/adafruit/samd21/sht4x-trinkey--5066d086/README.md) | SAMD21 | 2 | 1 |
+| [Slider Trinkey](boards/adafruit/samd21/slider-trinkey--93263eee/README.md) | SAMD21 | 2 | 1 |
+| [Sparkle Motion Stick](boards/adafruit/esp32/sparkle-motion-stick--e576fcb1/README.md) | ESP32 | 2 | 1 |
+| [Trinket 3V](boards/adafruit/attiny85/trinket-3v--085bd91d/README.md) | ATtiny85 | 2 | 1 |
+| [Trinket 5V](boards/adafruit/attiny85/trinket-5v--0c69f6db/README.md) | ATtiny85 | 2 | 1 |
+| [Trinket M0](boards/adafruit/samd21/trinket-m0--c89ded96/README.md) | SAMD21 | 2 | 1 |
 | [Trinkey QT2040](boards/adafruit/rp2040/trinkey-qt2040--a1d914fb/README.md) | RP2040 | 2 | 1 |
+| [TRRS Trinkey](boards/adafruit/samd21/trrs-trinkey--a7dbd2d2/README.md) | SAMD21 | 2 | 1 |
 
 ## Arduino
 
@@ -499,6 +566,19 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | Board / device | Processor / family | References | Pinout images |
 |---|---|---:|---:|
 | [D1 MINI](boards/lolin/esp8266/d1-mini--799b750b/README.md) | ESP8266 | 1 | 1 |
+
+## LattePanda
+
+| Board / device | Processor / family | References | Pinout images |
+|---|---|---:|---:|
+| [3 Delta](boards/lattepanda/other-sbc/3-delta--b2f27521/README.md) | Other SBC | 2 | 2 |
+| [Alpha](boards/lattepanda/other-sbc/alpha--d84c4511/README.md) | Other SBC | 2 | 2 |
+| [Delta](boards/lattepanda/other-sbc/delta--4f45e470/README.md) | Other SBC | 2 | 2 |
+| [IOTA](boards/lattepanda/other-sbc/iota--63fc1ecd/README.md) | Other SBC | 2 | 2 |
+| [Mu](boards/lattepanda/other-sbc/mu--35dc53d5/README.md) | Other SBC | 2 | 0 |
+| [Mu Ultra](boards/lattepanda/other-sbc/mu-ultra--03a61dd3/README.md) | Other SBC | 2 | 0 |
+| [Sigma](boards/lattepanda/other-sbc/sigma--f78c8000/README.md) | Other SBC | 5 | 5 |
+| [V1](boards/lattepanda/other-sbc/v1--6822da65/README.md) | Other SBC | 1 | 1 |
 
 ## Luatos
 
@@ -1001,6 +1081,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Duo Module 01 EVB](boards/milk-v/other-sbc/duo-module-01-evb--036b91ba/README.md) | Other SBC | 1 | 0 |
 | [Duo S](boards/milk-v/other-sbc/duo-s--5d0cea1a/README.md) | Other SBC | 2 | 1 |
 | [Duo S v1.1](boards/milk-v/other-sbc/duo-s-v1.1--866a612d/README.md) | Other SBC | 1 | 0 |
+| [Mars](boards/milk-v/jh7110/mars--3a4bcdc5/README.md) | JH7110 | 1 | 1 |
 
 ## NodeMCU
 
@@ -1043,6 +1124,12 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [ESP32-C5-DevKit-Lipo](boards/olimex/esp32-c5/esp32-c5-devkit-lipo--bc46626a/README.md) | ESP32-C5 | 3 | 1 |
 | [ESP32-C5-EVB](boards/olimex/esp32-c5/esp32-c5-evb--e7c38036/README.md) | ESP32-C5 | 3 | 1 |
 | [MOD-ESP32-C5](boards/olimex/esp32-c5/mod-esp32-c5--1a8539fe/README.md) | ESP32-C5 | 2 | 1 |
+
+## OpenSourceSDRLab
+
+| Board / device | Processor / family | References | Pinout images |
+|---|---|---:|---:|
+| [PortaPack H4M](boards/opensourcesdrlab/gpio-device/portapack-h4m--aaba0987/README.md) | GPIO device | 1 | 1 |
 
 ## Orange Pi
 
@@ -1628,6 +1715,13 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 |---|---|---:|---:|
 | [RP2040-Shim](boards/silicognition-llc/rp2040/rp2040-shim--5995d5f7/README.md) | RP2040 | 1 | 1 |
 
+## Sipeed
+
+| Board / device | Processor / family | References | Pinout images |
+|---|---|---:|---:|
+| [Tang Nano 20K](boards/sipeed/gw2ar-lv18/tang-nano-20k--082b15f8/README.md) | GW2AR-LV18 | 1 | 1 |
+| [Tang Nano 4K](boards/sipeed/gw1nsr-lv4c/tang-nano-4k--262b1d21/README.md) | GW1NSR-LV4C | 1 | 1 |
+
 ## Solder Party
 
 | Board / device | Processor / family | References | Pinout images |
@@ -1642,13 +1736,52 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 |---|---|---:|---:|
 | [Arduino Pro Mini 328 - 3.3V 8MHz](boards/sparkfun/atmega328p/arduino-pro-mini-328---3.3v-8mhz--3be8c439/README.md) | ATmega328P | 2 | 1 |
 | [Arduino Pro Mini 328 - 5V 16MHz](boards/sparkfun/atmega328p/arduino-pro-mini-328---5v-16mhz--8dd35936/README.md) | ATmega328P | 2 | 1 |
+| [Artemis Development Kit](boards/sparkfun/apollo3/artemis-development-kit--d0ebc4a8/README.md) | Apollo3 | 2 | 1 |
+| [AzureWave Thing Plus AW-CU488](boards/sparkfun/rtl8721dm/azurewave-thing-plus-aw-cu488--ce8c7dd1/README.md) | RTL8721DM | 2 | 1 |
+| [BlackBoard Artemis](boards/sparkfun/apollo3/blackboard-artemis--3a3b8a7a/README.md) | Apollo3 | 2 | 1 |
+| [BlueSMiRF v2](boards/sparkfun/esp32/bluesmirf-v2--9287d8aa/README.md) | ESP32 | 4 | 4 |
+| [Blynk Board ESP8266](boards/sparkfun/esp8266/blynk-board-esp8266--057076c0/README.md) | ESP8266 | 2 | 1 |
+| [ESP32 Thing](boards/sparkfun/esp32/esp32-thing--9b32ce08/README.md) | ESP32 | 2 | 1 |
 | [ESP32 Thing Plus (micro-B)](boards/sparkfun/esp32/esp32-thing-plus-micro-b--1d303c72/README.md) | ESP32 | 2 | 1 |
+| [ESP32 Thing Plus (micro-B) - WRL-14689](boards/sparkfun/esp32/esp32-thing-plus-micro-b-wrl-14689--6bfb4275/README.md) | ESP32 | 2 | 1 |
 | [ESP32 Thing Plus (USB-C)](boards/sparkfun/esp32/esp32-thing-plus-usb-c--0a295e6b/README.md) | ESP32 | 2 | 1 |
+| [ESP32-S2 Thing Plus](boards/sparkfun/esp32-s2/esp32-s2-thing-plus--b384d79f/README.md) | ESP32-S2 | 2 | 1 |
 | [ESP8266 Thing](boards/sparkfun/esp8266/esp8266-thing--6f82a54f/README.md) | ESP8266 | 2 | 1 |
 | [ESP8266 Thing Dev](boards/sparkfun/esp8266/esp8266-thing-dev--290b2d7c/README.md) | ESP8266 | 2 | 1 |
+| [FreeSoC2](boards/sparkfun/psoc-5lp/freesoc2--54f2f74f/README.md) | PSoC 5LP | 2 | 1 |
+| [IoT Brushless Motor Driver](boards/sparkfun/esp32/iot-brushless-motor-driver--e49b720f/README.md) | ESP32 | 2 | 2 |
+| [MicroMod ESP32 Processor](boards/sparkfun/esp32/micromod-esp32-processor--fbc4d6a8/README.md) | ESP32 | 2 | 1 |
+| [MicroMod RP2040 Processor](boards/sparkfun/rp2040/micromod-rp2040-processor--f0972b44/README.md) | RP2040 | 2 | 1 |
+| [MicroMod SAMD51 Processor](boards/sparkfun/samd51/micromod-samd51-processor--b3e726e9/README.md) | SAMD51 | 2 | 1 |
+| [MicroMod STM32 Processor](boards/sparkfun/stm32f405/micromod-stm32-processor--322bcc95/README.md) | STM32F405 | 2 | 1 |
+| [Photon RedBoard](boards/sparkfun/stm32f205/photon-redboard--63f0cb04/README.md) | STM32F205 | 2 | 1 |
+| [Pro Micro - ESP32-C3](boards/sparkfun/esp32-c3/pro-micro-esp32-c3--1f86ba98/README.md) | ESP32-C3 | 1 | 1 |
 | [Pro Micro - RP2350](boards/sparkfun/rp2350/pro-micro-rp2350--34d1e0d4/README.md) | RP2350 | 1 | 0 |
+| [Pro Micro 3.3V 8MHz](boards/sparkfun/atmega32u4/pro-micro-3-3v-8mhz--1aaffe8b/README.md) | ATmega32U4 | 2 | 1 |
+| [Pro Micro 5V 16MHz](boards/sparkfun/atmega32u4/pro-micro-5v-16mhz--05accb67/README.md) | ATmega32U4 | 2 | 1 |
 | [Pro Micro RP2040](boards/sparkfun/rp2040/pro-micro-rp2040--1e496553/README.md) | RP2040 | 2 | 1 |
+| [Pro nRF52840 Mini](boards/sparkfun/nrf52840/pro-nrf52840-mini--d6ed9646/README.md) | nRF52840 | 2 | 1 |
+| [Pro RF LoRa 915MHz](boards/sparkfun/samd21/pro-rf-lora-915mhz--d40c11fd/README.md) | SAMD21 | 2 | 1 |
+| [Qduino Mini](boards/sparkfun/atmega32u4/qduino-mini--9e0cbdc6/README.md) | ATmega32U4 | 2 | 1 |
+| [QuickLogic Thing Plus EOS S3](boards/sparkfun/eos-s3/quicklogic-thing-plus-eos-s3--f4da5adc/README.md) | EOS S3 | 2 | 1 |
+| [Qwiic Micro SAMD21](boards/sparkfun/samd21e/qwiic-micro-samd21--347955ad/README.md) | SAMD21E | 2 | 1 |
+| [Qwiic Pocket Development Board - ESP32-C6](boards/sparkfun/esp32-c6/qwiic-pocket-development-board-esp32-c6--506e6828/README.md) | ESP32-C6 | 2 | 2 |
+| [Qwiic Pro Micro USB-C](boards/sparkfun/atmega32u4/qwiic-pro-micro-usb-c--5920577e/README.md) | ATmega32U4 | 2 | 1 |
+| [Qwiic Pro Mini - ESP32](boards/sparkfun/esp32/qwiic-pro-mini-esp32--0b7128ab/README.md) | ESP32 | 1 | 1 |
+| [RedBoard DEV-12757](boards/sparkfun/atmega328p/redboard-dev-12757--a69fea60/README.md) | ATmega328P | 2 | 1 |
+| [RedBoard DEV-13975](boards/sparkfun/atmega328p/redboard-dev-13975--f227f75e/README.md) | ATmega328P | 2 | 1 |
+| [RedBoard Plus](boards/sparkfun/atmega328p/redboard-plus--29292303/README.md) | ATmega328P | 2 | 1 |
+| [RedBoard Turbo](boards/sparkfun/samd21/redboard-turbo--67f019e4/README.md) | SAMD21 | 2 | 1 |
+| [SAMD21 Dev Breakout](boards/sparkfun/samd21g18/samd21-dev-breakout--3ab27fdf/README.md) | SAMD21G18 | 2 | 1 |
+| [SAMD21 Mini Breakout](boards/sparkfun/samd21g18/samd21-mini-breakout--0fdfe5a0/README.md) | SAMD21G18 | 2 | 1 |
+| [Thing Plus - RP2040](boards/sparkfun/rp2040/thing-plus-rp2040--5bf34a91/README.md) | RP2040 | 3 | 0 |
 | [Thing Plus - RP2350](boards/sparkfun/rp2350/thing-plus-rp2350--3a0d3e7e/README.md) | RP2350 | 1 | 0 |
+| [Thing Plus ESP32-C5](boards/sparkfun/esp32-c5/thing-plus-esp32-c5--2e1621b2/README.md) | ESP32-C5 | 1 | 0 |
+| [Thing Plus ESP32-C6](boards/sparkfun/esp32-c6/thing-plus-esp32-c6--711d7dff/README.md) | ESP32-C6 | 1 | 1 |
+| [Thing Plus ESP32-S3](boards/sparkfun/esp32-s3/thing-plus-esp32-s3--00c7135d/README.md) | ESP32-S3 | 2 | 2 |
+| [Thing Plus NORA-W306](boards/sparkfun/nora-w306/thing-plus-nora-w306--c490cefc/README.md) | NORA-W306 | 2 | 1 |
+| [Thing Plus RA6M5](boards/sparkfun/ra6m5/thing-plus-ra6m5--0f7693db/README.md) | RA6M5 | 3 | 2 |
+| [Thing Plus SAMD51](boards/sparkfun/samd51/thing-plus-samd51--e7b93164/README.md) | SAMD51 | 2 | 1 |
 
 ## SplitKB
 

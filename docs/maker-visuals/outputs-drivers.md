@@ -96,6 +96,18 @@ M5Stack · Source review pending
 
 Not established; source attribution retained
 
+## IoT Brushless Motor Driver
+
+SparkFun · Manufacturer source references collected
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-sparkfun-iot-brushless-motor-driver)
+
+[![IoT Brushless Motor Driver / pinout image](../../library/thumbs/632754b5cd99f38f138acc056f86199573a5dd676daa2cfea2e9ef478433d844.webp)](../../library/media/632754b5cd99f38f138acc056f86199573a5dd676daa2cfea2e9ef478433d844.jpg)
+
+**pinout image** · Reviewed source
+
+SparkFun / original diagram contributors. Rights not established for this asset; attribution retained. Original artwork is not covered by Black Wire's editorial license.
+
 ## KY-005 Infrared transmitter
 
 Joy-IT · Manufacturer documentation recorded

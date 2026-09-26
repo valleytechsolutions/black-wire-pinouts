@@ -2,10 +2,17 @@
 
 **Orange Pi** · Other SBC
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=orange-pi-other-sbc-4a)
+
+Architecture: **ARM / RISC-V**
+
+## Specifications and hardware documentation
+
+- [Manufacturer hardware documentation](https://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-4A.html)
 
 ## GPIO pin-function reference SBCX-039
 
@@ -20,6 +27,8 @@ Coverage: Pinout image collected
 [Source 1](http://www.orangepi.org/orangepiwiki/images/thumb/e/ec/Orange_Pi_4A-image152.png/574px-Orange_Pi_4A-image152.png) · [Source 2](http://www.orangepi.org/orangepiwiki/index.php/Orange_Pi_4A)
 
 40 Pin Interface Pin Description
+
+Image revision: Not identified
 
 SHA-256: `ffc399fb0a58f8ed7194d330f6d2ca170039131ce582f9e8f57905a4673a2288`
 
@@ -37,6 +46,8 @@ SHA-256: `ffc399fb0a58f8ed7194d330f6d2ca170039131ce582f9e8f57905a4673a2288`
 
 40 Pin Interface Pin Description
 
+Image revision: Not identified
+
 SHA-256: `5834a21655971022763115b668696a803f313d6f84f284247626ca9d1ba3a56e`
 
 ## GPIO pin-function reference SBCX-041
@@ -53,6 +64,8 @@ SHA-256: `5834a21655971022763115b668696a803f313d6f84f284247626ca9d1ba3a56e`
 
 40 Pin Interface Pin Description
 
+Image revision: Not identified
+
 SHA-256: `5e09c6b8c497dc606455a63291b50e2d5b8b642a98317f214a2a190f6b947b8b`
 
 ## Header orientation and board labels
@@ -68,6 +81,8 @@ SHA-256: `5e09c6b8c497dc606455a63291b50e2d5b8b642a98317f214a2a190f6b947b8b`
 [Source 1](http://www.orangepi.org/orangepiwiki/images/thumb/d/d1/Orange_Pi_4A-image151.jpeg/458px-Orange_Pi_4A-image151.jpeg) · [Source 2](http://www.orangepi.org/orangepiwiki/index.php/Orange_Pi_4A)
 
 40 Pin Interface Pin Description
+
+Image revision: Not identified
 
 SHA-256: `9270ed5ec1b38aba384099065bb8f2d9e25cdd4ec4005a72eb0e7522124a90fb`
 

@@ -5,6 +5,7 @@ Images are source references, with their own credits and review status. Photos d
 - [Audio](docs/maker-visuals/audio.md)
 - [Communication](docs/maker-visuals/communication.md)
 - [Displays](docs/maker-visuals/displays.md)
+- [FPGA](docs/maker-visuals/fpga.md)
 - [Input controls](docs/maker-visuals/input-controls.md)
 - [Interface & expansion](docs/maker-visuals/interface-expansion.md)
 - [Other modules](docs/maker-visuals/other-modules.md)

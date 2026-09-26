@@ -2,10 +2,17 @@
 
 **Banana Pi** · Other SBC
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Partial pinout collected; full reference still needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=banana-pi-other-sbc-bpi-r2)
+
+Architecture: **ARM**
+
+## Specifications and hardware documentation
+
+- [Manufacturer hardware documentation](https://docs.banana-pi.org/en/BPI-R2/BananaPi_BPI-R2)
 
 ## GPIO header pinout
 
@@ -21,7 +28,7 @@ Coverage: Partial pinout collected; full reference still needed
 
 ¶ BPI-R2 40PIN GPIO Manufacturer publishes this shared generic signal-label graphic under this exact board GPIO section. Does not supply SoC GPIO numbering; fuller model-specific map still needed.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `ca2176f410bf9642829bd5129d1b3975410845cf29949d2d579a50e2a7da831e`
 

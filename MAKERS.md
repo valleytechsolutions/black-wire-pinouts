@@ -4,7 +4,7 @@ Pin-connected maker displays, sensors, inputs and modules. Ongoing source intake
 
 Records include products, families, generic discovery tasks and linked existing references; counts are not unique products or complete pinouts.
 
-**486 intake records**. 196 manufacturer documentation records. No new complete physical pinout approvals in this intake.
+**501 intake records**. 196 manufacturer documentation records. No new complete physical pinout approvals in this intake.
 
 [Search the interactive guide](https://valleytech-black-wire-guide.pages.dev/?tab=makers) · [Expansion roadmap](docs/MAKER_ROADMAP.md) · [Coverage backlog](catalog/maker-research-backlog.json)
 
@@ -42,6 +42,7 @@ Search by product/controller code first; filter by interface, function, technolo
 | Serial Port Bluetooth Module (Master-Slave) | Seeed Studio | collection-reference / Source review pending | [Documentation](https://wiki.seeedstudio.com/Serial_port_bluetooth_module_Master-Slave/) |
 | WM1302 LoRaWAN Gateway Module | Seeed Studio | collection-reference / Source review pending | [Documentation](https://wiki.seeedstudio.com/WM1302_module/) |
 | Wi-Fi HaLow Module for XIAO | Seeed Studio | collection-reference / Source review pending | [Documentation](https://wiki.seeedstudio.com/getting_started_with_wifi_halow_module_for_xiao/) |
+| BlueSMiRF v2 | SparkFun | collection-reference / Manufacturer source references collected | [Documentation](https://github.com/sparkfun/SparkFun_BlueSMiRF-v2) |
 
 ## Displays
 
@@ -153,6 +154,18 @@ Search by product/controller code first; filter by interface, function, technolo
 | 9.7inch e-Paper HAT | Waveshare | product-reference / Manufacturer documentation recorded | [Documentation](https://www.waveshare.com/wiki/9.7inch_e-Paper_HAT) |
 | Monochrome 0.96" 128x64 OLED Graphic Display - STEMMA QT / PID 326 | Adafruit | product-reference / Manufacturer documentation recorded | [Documentation](https://www.adafruit.com/product/326) |
 | Monochrome 1.3" 128x64 OLED graphic display - STEMMA QT / Qwiic / PID 938 | Adafruit | product-reference / Manufacturer documentation recorded | [Documentation](https://www.adafruit.com/product/938) |
+| PyPortal | Adafruit | collection-reference / Manufacturer source references collected | [Documentation](https://www.adafruit.com/product/4116) |
+| PyPortal Pynt | Adafruit | collection-reference / Manufacturer source references collected | [Documentation](https://www.adafruit.com/product/4465) |
+| PyPortal Titano | Adafruit | collection-reference / Manufacturer source references collected | [Documentation](https://www.adafruit.com/product/4444) |
+
+## FPGA
+
+| Product or family | Manufacturer | Record status | Source |
+|---|---|---|---|
+| Tang Nano 4K | Sipeed | collection-reference / Manufacturer source references collected | [Documentation](https://wiki.sipeed.com/hardware/en/tang/Tang-Nano-4K/Nano-4K.html) |
+| Tang Nano 20K | Sipeed | collection-reference / Manufacturer source references collected | [Documentation](https://wiki.sipeed.com/hardware/en/tang/tang-nano-20k/nano-20k.html) |
+| iCEBreaker v1.0b | 1BitSquared | collection-reference / Manufacturer source references collected | [Documentation](https://docs.icebreaker-fpga.org/hardware/icebreaker/) |
+| QuickLogic Thing Plus EOS S3 | SparkFun | collection-reference / Manufacturer source references collected | [Documentation](https://www.sparkfun.com/products/17273) |
 
 ## Input controls
 
@@ -189,6 +202,9 @@ Search by product/controller code first; filter by interface, function, technolo
 | Unit Joystick2 | M5Stack | collection-reference / Source review pending | Identification needed |
 | Xadow - Q Touch Sensor | Seeed Studio | collection-reference / Source review pending | Identification needed |
 | SparkFun Qwiic Button Hookup Guide | SparkFun | product-reference / Manufacturer documentation recorded | [Documentation](https://learn.sparkfun.com/tutorials/sparkfun-qwiic-button-hookup-guide/all) |
+| Rotary Trinkey | Adafruit | collection-reference / Manufacturer source references collected | [Documentation](https://www.adafruit.com/product/4964) |
+| Slider Trinkey | Adafruit | collection-reference / Manufacturer source references collected | [Documentation](https://www.adafruit.com/product/5021) |
+| NeoKey Trinkey | Adafruit | collection-reference / Manufacturer source references collected | [Documentation](https://www.adafruit.com/product/5020) |
 
 ## Interface & expansion
 
@@ -439,6 +455,7 @@ Search by product/controller code first; filter by interface, function, technolo
 | A4988 Stepper Motor Driver Carrier | Pololu | product-reference / Manufacturer documentation recorded | [Documentation](https://www.pololu.com/product/1182) |
 | DRV8825 Stepper Motor Driver Carrier, High Current | Pololu | product-reference / Manufacturer documentation recorded | [Documentation](https://www.pololu.com/product/2133) |
 | LED Driver Board for XIAO | Seeed Studio | collection-reference / Source review pending | [Documentation](https://wiki.seeedstudio.com/led_driver_board/) |
+| IoT Brushless Motor Driver | SparkFun | collection-reference / Manufacturer source references collected | [Documentation](https://github.com/sparkfun/SparkFun_IoT_Brushless_Motor_Driver) |
 
 ## Power & charging
 
@@ -540,3 +557,6 @@ Search by product/controller code first; filter by interface, function, technolo
 | Xadow - Multichannel Gas Sensor | Seeed Studio | collection-reference / Source review pending | Identification needed |
 | mmWave Human Detection Sensor Kit (MR24HPC1) | Seeed Studio | collection-reference / Source review pending | Identification needed |
 | Load Cell Amplifier HX711 Breakout Hookup Guide | SparkFun | product-reference / Manufacturer documentation recorded | [Documentation](https://learn.sparkfun.com/tutorials/load-cell-amplifier-hx711-breakout-hookup-guide/all) |
+| SHT45 Trinkey | Adafruit | collection-reference / Manufacturer source references collected | [Documentation](https://www.adafruit.com/product/5896) |
+| Proximity Trinkey | Adafruit | collection-reference / Manufacturer source references collected | [Documentation](https://www.adafruit.com/product/5022) |
+| Feather nRF52840 Sense | Adafruit | collection-reference / Manufacturer source references collected | [Documentation](https://www.adafruit.com/product/4516) |

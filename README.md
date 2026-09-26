@@ -14,9 +14,15 @@
 
 Board and device references for **ESP32, Arduino, Raspberry Pi, RP2040/RP2350**, displays, sensors, buttons, interfaces and power modules. Find physical pinout sources, supporting photos, pin-purpose tables and manufacturer documentation, with revision and coverage notes. Generic modules and documentation gaps remain visible.
 
-The companion app **0.6.1** repairs PDF scrolling, orientation, zoom and recovery. The current hardware collection is snapshot **2026.09.6**. [How to read a pinout](https://valleytech-black-wire-guide.pages.dev/wiki/reading-pinouts/) · [Contribute or report a correction](CONTRIBUTING.md).
+The companion app **0.7.0** adds SBC/architecture filters and visible specifications links. The current hardware collection is snapshot **2026.09.7**. [How to read a pinout](https://valleytech-black-wire-guide.pages.dev/wiki/reading-pinouts/) · [Contribute or report a correction](CONTRIBUTING.md).
 
-## Quality and reference update / snapshot 2026.09.6
+## Manufacturer and SBC expansion / snapshot 2026.09.7
+
+**107 additional listings · 229 additional reference entries · 127 additional physical pinout-image entries.** Expanded Adafruit and SparkFun references, FPGA boards, H4M, eight LattePanda models and Milk-V Mars. [Additions, source corrections and remaining gaps](docs/EXPANSION-2026.09.7.md).
+
+![LattePanda IOTA GPIO reference with hardware documentation links](docs/screenshots/lattepanda-reference.png)
+
+## Previous quality update / snapshot 2026.09.6
 
 Added two distinct SparkFun ESP32 Thing Plus models, their original pinout PDFs and page-rendered sheets, plus supporting references for Pro Micro RP2350, Thing Plus RP2350 and ESP32-P4-Function-EV-Board v1.5.2. The current catalog has **2,407 board/device listings**, **486 maker listings**, **3,011 board reference entries** and **1,369 pinout image entries**. [Audit, evidence and remaining gaps](docs/QUALITY-AUDIT-2026.09.6.md).
 
@@ -38,13 +44,13 @@ Manufacturer originals remain intact. The annotated Adafruit sheets are CC BY-SA
 
 Find the picture that tells you **which physical pin does what**. This collection brings together original board pinouts, connector labels, GPIO references and supporting documents, organized by manufacturer, processor and exact board identity. The companion desktop app makes the same collection searchable offline.
 
-| First Edition · snapshot 2026.09.6 | Count |
+| First Edition · snapshot 2026.09.7 | Count |
 |---|---:|
-| Board pinout source image entries | **1,369** |
-| Searchable reference entries | **3,011** |
-| Catalog records with files | **1,693** |
-| Manufacturers and source groups | **60** |
-| Unique original media files, including vector companions | **2,961** |
+| Board pinout source image entries | **1,496** |
+| Searchable reference entries | **3,240** |
+| Catalog records with files | **1,806** |
+| Manufacturers and source groups | **64** |
+| Unique original media files, including vector companions | **3,188** |
 
 Records include shared references, variants, devices and unreviewed source products. These counts are **not a census of unique development boards**. Coverage is growing; it is not complete.
 
@@ -52,7 +58,7 @@ Records include shared references, variants, devices and unreviewed source produ
 
 ## Devices & IoT
 
-**[Browse 310 device records](DEVICES.md)** or use the new **[Devices & IoT tab](https://valleytech-black-wire-guide.pages.dev/?tab=devices)**. Find T-Embed, T-Beam, T-Deck, Cardputer, Flipper, wearables, LoRa nodes, smart displays and controllers by category, manufacturer and MCU. Missing sheets and in-development documentation are explicitly labeled.
+**[Browse 313 device records](DEVICES.md)** or use the new **[Devices & IoT tab](https://valleytech-black-wire-guide.pages.dev/?tab=devices)**. Find T-Embed, T-Beam, T-Deck, Cardputer, Flipper, wearables, LoRa nodes, smart displays and controllers by category, manufacturer and MCU. Missing sheets and in-development documentation are explicitly labeled.
 
 ![Devices and IoT browsing in Black Wire](docs/screenshots/devices-iot.png)
 
@@ -79,7 +85,7 @@ Original files are stored once by content hash; board pages provide the human-fr
 
 Download a versioned ZIP from this repository's **[collection releases](https://github.com/valleytechsolutions/black-wire-pinouts/releases)**. Each release includes the full reference collection, board indexes, source credits, license/rights notices and a SHA-256 checksum. Extract the whole ZIP and begin with `README.md` and `BROWSE.md`. The files work on **Windows, Linux and macOS** with an image/PDF viewer and a Markdown reader; no installer is needed for the collection.
 
-The guide remains **First Edition / 2026**. The latest collection snapshot is **[2026.09.5 — Pin references](https://github.com/valleytechsolutions/black-wire-pinouts/releases/tag/v2026.09.5)**; [2026.09.1](https://github.com/valleytechsolutions/black-wire-pinouts/releases/tag/v2026.09.1) remains available unchanged. Collection snapshots and app versions are independent of the future annual book editions; see [EDITION.md](EDITION.md). The [desktop repository](https://github.com/valleytechsolutions/black-wire-desktop/releases) provides application installers and states which operating systems actually have downloads.
+The guide remains **First Edition / 2026**. The latest collection snapshot is **[2026.09.7 — Manufacturer and SBC expansion](https://github.com/valleytechsolutions/black-wire-pinouts/releases/tag/v2026.09.7)**; [2026.09.1](https://github.com/valleytechsolutions/black-wire-pinouts/releases/tag/v2026.09.1) remains available unchanged. Collection snapshots and app versions are independent of the future annual book editions; see [EDITION.md](EDITION.md). The [desktop repository](https://github.com/valleytechsolutions/black-wire-desktop/releases) provides application installers and states which operating systems actually have downloads.
 
 You can also clone the current repository (about **1.8 GB** of reference data). Keep the folder structure intact. Local Markdown viewers can follow the board pages; the desktop app provides the full searchable image/PDF interface. See [release and checksum instructions](RELEASES.md).
 
@@ -97,7 +103,7 @@ Read [ATTRIBUTION.md](ATTRIBUTION.md) and [RIGHTS.md](RIGHTS.md). Every image re
 
 ## Help build the field guide
 
-Send a board reference, correction, revision clarification, a better original or verified license information through [the contribution template](CONTRIBUTING.md). The long-term direction is an offline reference app, a browsable wiki and annual book editions; only the current collection and workshop app are available today.
+Send a board reference, correction, revision clarification, a better original or verified license information through [the contribution template](CONTRIBUTING.md). The long-term direction is an offline reference app, a browsable wiki and annual book editions; the digital collection, public wiki and workshop app are available today.
 
 ---
 Created and curated by **—your pal kal** · [@valleytechsolutions on YouTube](https://www.youtube.com/@valleytechsolutions)
