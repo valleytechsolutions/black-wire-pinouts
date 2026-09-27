@@ -1,4 +1,4 @@
-# Inland ATmega32u4 Dev Board; 16MHz Clock Rate; 32KB Flash Memory; 2.5KB SDRAM; ATmega32u4 Microcontroller
+# Inland ATmega32U4 (Leonardo R3) / SKU 422261
 
 **Inland** · ATmega32U4
 
@@ -28,7 +28,7 @@ Original source reviewed for model and visual type. Pin assignments and electric
 
 **product photograph** · Reviewed source · JPG
 
-[![Inland ATmega32u4 Dev Board; 16MHz Clock Rate; 32KB Flash Memory; 2.5KB SDRAM; ATmega32u4 Microcontroller reference preview](../../../../library/thumbs/915760be4f2b3450baf2576801a1827fae77406477a3138b487784bdc7510b55.webp)](../../../../library/media/915760be4f2b3450baf2576801a1827fae77406477a3138b487784bdc7510b55.jpg)
+[![Inland ATmega32U4 (Leonardo R3) / SKU 422261 reference preview](../../../../library/thumbs/915760be4f2b3450baf2576801a1827fae77406477a3138b487784bdc7510b55.webp)](../../../../library/media/915760be4f2b3450baf2576801a1827fae77406477a3138b487784bdc7510b55.jpg)
 
 [Open original reference](../../../../library/media/915760be4f2b3450baf2576801a1827fae77406477a3138b487784bdc7510b55.jpg)
 

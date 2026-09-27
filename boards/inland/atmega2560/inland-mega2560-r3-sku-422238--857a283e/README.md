@@ -1,4 +1,4 @@
-# Inland Mega 2560 MainBoard Arduino Compatible; 16MHz Clock Rate; 256KB Flash Memory; 8KB SDRAM
+# Inland MEGA2560 R3 / SKU 422238
 
 **Inland** · ATmega2560
 
@@ -28,7 +28,7 @@ Original source reviewed for model and visual type. Pin assignments and electric
 
 **product photograph** · Reviewed source · JPG
 
-[![Inland Mega 2560 MainBoard Arduino Compatible; 16MHz Clock Rate; 256KB Flash Memory; 8KB SDRAM reference preview](../../../../library/thumbs/b4d57240b076bba2c11d82d9efea43fb873e2dd471d7d8f4dfcb95f445da1fbd.webp)](../../../../library/media/b4d57240b076bba2c11d82d9efea43fb873e2dd471d7d8f4dfcb95f445da1fbd.jpg)
+[![Inland MEGA2560 R3 / SKU 422238 reference preview](../../../../library/thumbs/b4d57240b076bba2c11d82d9efea43fb873e2dd471d7d8f4dfcb95f445da1fbd.webp)](../../../../library/media/b4d57240b076bba2c11d82d9efea43fb873e2dd471d7d8f4dfcb95f445da1fbd.jpg)
 
 [Open original reference](../../../../library/media/b4d57240b076bba2c11d82d9efea43fb873e2dd471d7d8f4dfcb95f445da1fbd.jpg)
 

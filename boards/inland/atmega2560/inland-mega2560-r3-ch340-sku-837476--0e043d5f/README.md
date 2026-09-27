@@ -1,4 +1,4 @@
-# Inland MEGA 2560 R3 Board ATmega 2560 with USB Cable Compatible with Arduino
+# Inland MEGA2560 R3 CH340 / SKU 837476
 
 **Inland** · ATmega2560
 
@@ -28,7 +28,7 @@ Original source reviewed for model and visual type. Pin assignments and electric
 
 **product photograph** · Reviewed source · JPG
 
-[![Inland MEGA 2560 R3 Board ATmega 2560 with USB Cable Compatible with Arduino reference preview](../../../../library/thumbs/b146eb1d9ca40f6c97d15f63dd57e40f7c7ddd2b2c639fcff1ca912f7ce04f13.webp)](../../../../library/media/b146eb1d9ca40f6c97d15f63dd57e40f7c7ddd2b2c639fcff1ca912f7ce04f13.jpg)
+[![Inland MEGA2560 R3 CH340 / SKU 837476 reference preview](../../../../library/thumbs/b146eb1d9ca40f6c97d15f63dd57e40f7c7ddd2b2c639fcff1ca912f7ce04f13.webp)](../../../../library/media/b146eb1d9ca40f6c97d15f63dd57e40f7c7ddd2b2c639fcff1ca912f7ce04f13.jpg)
 
 [Open original reference](../../../../library/media/b146eb1d9ca40f6c97d15f63dd57e40f7c7ddd2b2c639fcff1ca912f7ce04f13.jpg)
 

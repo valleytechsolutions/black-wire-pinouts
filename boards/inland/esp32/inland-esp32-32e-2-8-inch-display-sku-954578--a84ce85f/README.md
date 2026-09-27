@@ -1,4 +1,4 @@
-# Inland 2.8 Inch ESP32-32E Display Module Resistive Touch TFT Screen
+# Inland ESP32-32E 2.8-inch display / SKU 954578
 
 **Inland** · ESP32
 
@@ -32,7 +32,7 @@ Original source reviewed for model and visual type. Pin assignments and electric
 
 **product photograph** · Reviewed source · JPG
 
-[![Inland 2.8 Inch ESP32-32E Display Module Resistive Touch TFT Screen reference preview](../../../../library/thumbs/8d9ed059bca5305d09aa0c2f6aae42d6143cacb99aaf037d34483e9a92d8eb3a.webp)](../../../../library/media/8d9ed059bca5305d09aa0c2f6aae42d6143cacb99aaf037d34483e9a92d8eb3a.jpg)
+[![Inland ESP32-32E 2.8-inch display / SKU 954578 reference preview](../../../../library/thumbs/8d9ed059bca5305d09aa0c2f6aae42d6143cacb99aaf037d34483e9a92d8eb3a.webp)](../../../../library/media/8d9ed059bca5305d09aa0c2f6aae42d6143cacb99aaf037d34483e9a92d8eb3a.jpg)
 
 [Open original reference](../../../../library/media/8d9ed059bca5305d09aa0c2f6aae42d6143cacb99aaf037d34483e9a92d8eb3a.jpg)
 

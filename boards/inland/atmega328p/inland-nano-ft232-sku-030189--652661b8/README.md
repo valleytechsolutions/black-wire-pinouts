@@ -1,4 +1,4 @@
-# Inland Nano Development Board Arduino Compatible; 16MHz Clock Rate; 32KBFlash Memory
+# Inland Nano FT232 / SKU 030189
 
 **Inland** · ATmega328P
 
@@ -28,7 +28,7 @@ Original source reviewed for model and visual type. Pin assignments and electric
 
 **board labeling image** · Reviewed source · JPG
 
-[![Inland Nano Development Board Arduino Compatible; 16MHz Clock Rate; 32KBFlash Memory reference preview](../../../../library/thumbs/2bbe4a89049a8758798c2afbf98607df26a24ee2645bcb40fd9eae6e240765c7.webp)](../../../../library/media/2bbe4a89049a8758798c2afbf98607df26a24ee2645bcb40fd9eae6e240765c7.jpg)
+[![Inland Nano FT232 / SKU 030189 reference preview](../../../../library/thumbs/2bbe4a89049a8758798c2afbf98607df26a24ee2645bcb40fd9eae6e240765c7.webp)](../../../../library/media/2bbe4a89049a8758798c2afbf98607df26a24ee2645bcb40fd9eae6e240765c7.jpg)
 
 [Open original reference](../../../../library/media/2bbe4a89049a8758798c2afbf98607df26a24ee2645bcb40fd9eae6e240765c7.jpg)
 

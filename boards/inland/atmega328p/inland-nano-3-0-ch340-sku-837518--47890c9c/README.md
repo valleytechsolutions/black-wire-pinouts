@@ -1,4 +1,4 @@
-# Inland Nano 3.0 Controller Board Compatible with Arduino Nano CH340 USB Driver with Cable
+# Inland Nano 3.0 CH340 / SKU 837518
 
 **Inland** · ATmega328P
 
@@ -28,7 +28,7 @@ Original source reviewed for model and visual type. Pin assignments and electric
 
 **board labeling image** · Reviewed source · JPG
 
-[![Inland Nano 3.0 Controller Board Compatible with Arduino Nano CH340 USB Driver with Cable reference preview](../../../../library/thumbs/f2635cf728ad1f23d1bb2870d173896fc24eb694c67bab7cb80b0eabcc527eb7.webp)](../../../../library/media/f2635cf728ad1f23d1bb2870d173896fc24eb694c67bab7cb80b0eabcc527eb7.jpg)
+[![Inland Nano 3.0 CH340 / SKU 837518 reference preview](../../../../library/thumbs/f2635cf728ad1f23d1bb2870d173896fc24eb694c67bab7cb80b0eabcc527eb7.webp)](../../../../library/media/f2635cf728ad1f23d1bb2870d173896fc24eb694c67bab7cb80b0eabcc527eb7.jpg)
 
 [Open original reference](../../../../library/media/f2635cf728ad1f23d1bb2870d173896fc24eb694c67bab7cb80b0eabcc527eb7.jpg)
 

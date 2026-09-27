@@ -1,4 +1,4 @@
-# Inland UNO R3 Development Board with CH340 Drives ATmega328P Microcontroller Module
+# Inland UNO R3 CH340 / SKU 837443
 
 **Inland** · ATmega328P
 
@@ -28,7 +28,7 @@ Original source reviewed for model and visual type. Pin assignments and electric
 
 **product photograph** · Reviewed source · JPG
 
-[![Inland UNO R3 Development Board with CH340 Drives ATmega328P Microcontroller Module reference preview](../../../../library/thumbs/79a182bbc29fde39099165e25b5a829891425b7f2a28ce6985b01af0dad9d679.webp)](../../../../library/media/79a182bbc29fde39099165e25b5a829891425b7f2a28ce6985b01af0dad9d679.jpg)
+[![Inland UNO R3 CH340 / SKU 837443 reference preview](../../../../library/thumbs/79a182bbc29fde39099165e25b5a829891425b7f2a28ce6985b01af0dad9d679.webp)](../../../../library/media/79a182bbc29fde39099165e25b5a829891425b7f2a28ce6985b01af0dad9d679.jpg)
 
 [Open original reference](../../../../library/media/79a182bbc29fde39099165e25b5a829891425b7f2a28ce6985b01af0dad9d679.jpg)
 

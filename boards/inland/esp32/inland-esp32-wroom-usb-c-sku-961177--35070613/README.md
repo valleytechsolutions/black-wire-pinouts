@@ -1,4 +1,4 @@
-# Inland ESP32-WROOM Core Board with USB-C WiFi Bluetooth Dual Core Microcontroller for Arduino
+# Inland ESP32-WROOM USB-C / SKU 961177
 
 **Inland** · ESP32
 
@@ -28,7 +28,7 @@ Original source reviewed for model and visual type. Pin assignments and electric
 
 **product photograph** · Reviewed source · JPG
 
-[![Inland ESP32-WROOM Core Board with USB-C WiFi Bluetooth Dual Core Microcontroller for Arduino reference preview](../../../../library/thumbs/f1becade37bc52bbb21d073dd2dd9de226c6c5f11d8c93cea388019db2141509.webp)](../../../../library/media/f1becade37bc52bbb21d073dd2dd9de226c6c5f11d8c93cea388019db2141509.jpg)
+[![Inland ESP32-WROOM USB-C / SKU 961177 reference preview](../../../../library/thumbs/f1becade37bc52bbb21d073dd2dd9de226c6c5f11d8c93cea388019db2141509.webp)](../../../../library/media/f1becade37bc52bbb21d073dd2dd9de226c6c5f11d8c93cea388019db2141509.jpg)
 
 [Open original reference](../../../../library/media/f1becade37bc52bbb21d073dd2dd9de226c6c5f11d8c93cea388019db2141509.jpg)
 

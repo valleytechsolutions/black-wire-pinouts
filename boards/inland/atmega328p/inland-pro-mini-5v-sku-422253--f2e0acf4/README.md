@@ -1,4 +1,4 @@
-# Inland Pro Mini Board Arduino Compatible; 16MHz Clock Rate; 32KB Flash Memory; 2KB SDRAM; ATmega328 Microcontroller
+# Inland Pro Mini 5V / SKU 422253
 
 **Inland** · ATmega328P
 
@@ -28,7 +28,7 @@ Original source reviewed for model and visual type. Pin assignments and electric
 
 **board labeling image** · Reviewed source · JPG
 
-[![Inland Pro Mini Board Arduino Compatible; 16MHz Clock Rate; 32KB Flash Memory; 2KB SDRAM; ATmega328 Microcontroller reference preview](../../../../library/thumbs/a7cfcb3cf9d156f5c14bfc390ba538eabb742aec265916cd78fb69bc568e8327.webp)](../../../../library/media/a7cfcb3cf9d156f5c14bfc390ba538eabb742aec265916cd78fb69bc568e8327.jpg)
+[![Inland Pro Mini 5V / SKU 422253 reference preview](../../../../library/thumbs/a7cfcb3cf9d156f5c14bfc390ba538eabb742aec265916cd78fb69bc568e8327.webp)](../../../../library/media/a7cfcb3cf9d156f5c14bfc390ba538eabb742aec265916cd78fb69bc568e8327.jpg)
 
 [Open original reference](../../../../library/media/a7cfcb3cf9d156f5c14bfc390ba538eabb742aec265916cd78fb69bc568e8327.jpg)
 

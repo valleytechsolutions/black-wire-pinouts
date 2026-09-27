@@ -551,20 +551,20 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 
 | Board / device | Processor / family | References | Pinout images |
 |---|---|---:|---:|
-| [Inland 2.8 Inch ESP32-32E Display Module Resistive Touch TFT Screen](boards/inland/esp32/inland-2-8-inch-esp32-32e-display-module-resistive-touch-tft-screen--a84ce85f/README.md) | ESP32 | 1 | 0 |
-| [Inland ATmega32u4 Dev Board; 16MHz Clock Rate; 32KB Flash Memory; 2.5KB SDRAM; ATmega32u4 Microcontroller](boards/inland/atmega32u4/inland-atmega32u4-dev-board-16mhz-clock-rate-32kb-flash-memory-2-5kb-sdram-atmega32u4-microcontroller--d287fdc8/README.md) | ATmega32U4 | 1 | 0 |
+| [Inland ATmega32U4 (Leonardo R3) / SKU 422261](boards/inland/atmega32u4/inland-atmega32u4-leonardo-r3-sku-422261--d287fdc8/README.md) | ATmega32U4 | 1 | 0 |
 | [Inland ESP32 Core Board (Black and Eco-friendly)](boards/inland/esp32/inland-esp32-core-board-black-and-eco-friendly--118ede62/README.md) | ESP32 | 3 | 1 |
+| [Inland ESP32-32E 2.8-inch display / SKU 954578](boards/inland/esp32/inland-esp32-32e-2-8-inch-display-sku-954578--a84ce85f/README.md) | ESP32 | 1 | 0 |
 | [Inland ESP32-CAM WiFi Bluetooth Camera Modules - Pair](boards/inland/esp32/inland-esp32-cam-wifi-bluetooth-camera-modules-pair--4e93d847/README.md) | ESP32 | 1 | 0 |
-| [Inland ESP32-WROOM Core Board with USB-C WiFi Bluetooth Dual Core Microcontroller for Arduino](boards/inland/esp32/inland-esp32-wroom-core-board-with-usb-c-wifi-bluetooth-dual-core-microcontroller-for-arduino--35070613/README.md) | ESP32 | 1 | 0 |
-| [Inland Mega 2560 MainBoard Arduino Compatible; 16MHz Clock Rate; 256KB Flash Memory; 8KB SDRAM](boards/inland/atmega2560/inland-mega-2560-mainboard-arduino-compatible-16mhz-clock-rate-256kb-flash-memory-8kb-sdram--857a283e/README.md) | ATmega2560 | 1 | 0 |
-| [Inland MEGA 2560 R3 Board ATmega 2560 with USB Cable Compatible with Arduino](boards/inland/atmega2560/inland-mega-2560-r3-board-atmega-2560-with-usb-cable-compatible-with-arduino--0e043d5f/README.md) | ATmega2560 | 1 | 0 |
+| [Inland ESP32-WROOM USB-C / SKU 961177](boards/inland/esp32/inland-esp32-wroom-usb-c-sku-961177--35070613/README.md) | ESP32 | 1 | 0 |
 | [Inland MEGA2560 CP2102 kit board](boards/inland/atmega2560/inland-mega2560-cp2102-kit-board--93759cbd/README.md) | ATmega2560 | 1 | 0 |
-| [Inland Nano 3.0 Controller Board Compatible with Arduino Nano CH340 USB Driver with Cable](boards/inland/atmega328p/inland-nano-3-0-controller-board-compatible-with-arduino-nano-ch340-usb-driver-with-cable--47890c9c/README.md) | ATmega328P | 1 | 0 |
-| [Inland Nano Development Board Arduino Compatible; 16MHz Clock Rate; 32KBFlash Memory](boards/inland/atmega328p/inland-nano-development-board-arduino-compatible-16mhz-clock-rate-32kbflash-memory--652661b8/README.md) | ATmega328P | 1 | 0 |
-| [Inland Pro Mini Board Arduino Compatible; 16MHz Clock Rate; 32KB Flash Memory; 2KB SDRAM; ATmega328 Microcontroller](boards/inland/atmega328p/inland-pro-mini-board-arduino-compatible-16mhz-clock-rate-32kb-flash-memory-2kb-sdram-atmega328-microcontroller--f2e0acf4/README.md) | ATmega328P | 1 | 0 |
+| [Inland MEGA2560 R3 / SKU 422238](boards/inland/atmega2560/inland-mega2560-r3-sku-422238--857a283e/README.md) | ATmega2560 | 1 | 0 |
+| [Inland MEGA2560 R3 CH340 / SKU 837476](boards/inland/atmega2560/inland-mega2560-r3-ch340-sku-837476--0e043d5f/README.md) | ATmega2560 | 1 | 0 |
+| [Inland Nano 3.0 CH340 / SKU 837518](boards/inland/atmega328p/inland-nano-3-0-ch340-sku-837518--47890c9c/README.md) | ATmega328P | 1 | 0 |
+| [Inland Nano FT232 / SKU 030189](boards/inland/atmega328p/inland-nano-ft232-sku-030189--652661b8/README.md) | ATmega328P | 1 | 0 |
+| [Inland Pro Mini 5V / SKU 422253](boards/inland/atmega328p/inland-pro-mini-5v-sku-422253--f2e0acf4/README.md) | ATmega328P | 1 | 0 |
 | [Inland UNO / V4.0 kit board](boards/inland/atmega328p/inland-uno-v4-0-kit-board--7265c775/README.md) | ATmega328P | 1 | 1 |
 | [Inland UNO PLUS Development Board](boards/inland/atmega328p/inland-uno-plus-development-board--35c69fa9/README.md) | ATmega328P | 1 | 0 |
-| [Inland UNO R3 Development Board with CH340 Drives ATmega328P Microcontroller Module](boards/inland/atmega328p/inland-uno-r3-development-board-with-ch340-drives-atmega328p-microcontroller-module--32374319/README.md) | ATmega328P | 1 | 0 |
+| [Inland UNO R3 CH340 / SKU 837443](boards/inland/atmega328p/inland-uno-r3-ch340-sku-837443--32374319/README.md) | ATmega328P | 1 | 0 |
 | [Inland UNO R3 Main Control Board](boards/inland/atmega328p/inland-uno-r3-main-control-board--293a36e2/README.md) | ATmega328P | 1 | 1 |
 | [Inland W5500 ETHERNET DEVELOPMENT BOARD (WITHOUT POE)](boards/inland/atmega328p-w5500/inland-w5500-ethernet-development-board-without-poe--c88d09ec/README.md) | ATmega328P / W5500 | 1 | 0 |
 | [PRO MICRO 5V 16MHZ Development Board](boards/inland/atmega32u4/pro-micro-5v-16mhz-development-board--588aa3df/README.md) | ATmega32U4 | 1 | 1 |
