@@ -10,6 +10,7 @@ Original manufacturer images remain unchanged. Revision and partial-map notes li
 
 | Manufacturer | Device | Processor | Pinout images | References |
 |---|---|---|---:|---:|
+| Espressif | [ESP32-P4X-EYE](boards/espressif/esp32-p4/esp32-p4x-eye--7ab5d580/README.md) | ESP32-P4 | 0 | 4 |
 | LILYGO | [T-Camera Plus S3](boards/lilygo/esp32-s3/t-camera-plus-s3--1c483964/README.md) | ESP32-S3 | 1 | 1 |
 | LILYGO | [T-Camera-S3](boards/lilygo/esp32-s3/t-camera-s3--91dd0d7e/README.md) | ESP32-S3 | 1 | 1 |
 | M5Stack | [M5Camera](boards/m5stack/esp32-original/m5camera--d6433470/README.md) | ESP32 original | 0 | 1 |
@@ -38,12 +39,6 @@ Original manufacturer images remain unchanged. Revision and partial-map notes li
 | Seeed Studio | [reSpeaker USB Mic Array](boards/seeed-studio/source-collection/respeaker-usb-mic-array--54d3cbb4/README.md) | Not recorded | 0 | 1 |
 | Seeed Studio | [reSpeaker XVF3800 USB 4-Mic Array](boards/seeed-studio/expansion/respeaker-xvf3800-usb-4-mic-array--f4b054e0/README.md) | Not recorded | 1 | 2 |
 | Seeed Studio | [reSpeaker XVF3800 USB 4-Mic Array with XIAO ESP32S3](boards/seeed-studio/esp32-s3/respeaker-xvf3800-usb-4-mic-array-with-xiao-esp32s3--6680d1ef/README.md) | ESP32-S3 | 1 | 2 |
-
-## Cameras & vision
-
-| Manufacturer | Device | Processor | Pinout images | References |
-|---|---|---|---:|---:|
-| Espressif | [ESP32-P4X-EYE](boards/espressif/esp32-p4/esp32-p4x-eye--7ab5d580/README.md) | ESP32-P4 | 0 | 4 |
 
 ## Controllers & instruments
 
@@ -174,6 +169,7 @@ Original manufacturer images remain unchanged. Revision and partial-map notes li
 
 | Manufacturer | Device | Processor | Pinout images | References |
 |---|---|---|---:|---:|
+| Espressif | [ESP-Mosaico](boards/espressif/esp32-s31/esp-mosaico--dce037ad/README.md) | ESP32-S31 | 0 | 5 |
 | Guition | [ESP32-1732S019](boards/guition/esp32/esp32-1732s019--ed7bb088/README.md) | ESP32 | 1 | 2 |
 | Guition | [ESP32-2424S012](boards/guition/esp32/esp32-2424s012--c9897e00/README.md) | ESP32 | 0 | 2 |
 | Guition | [ESP32-2432S024](boards/guition/esp32/esp32-2432s024--18f43edc/README.md) | ESP32 | 0 | 2 |
@@ -243,12 +239,6 @@ Original manufacturer images remain unchanged. Revision and partial-map notes li
 | Sunton | [ESP32-2432S028R](boards/sunton/esp32/esp32-2432s028r--c76387e5/README.md) | ESP32 | 3 | 8 |
 | Sunton | [ESP32-2432S032C-I](boards/sunton/esp32/esp32-2432s032c-i--f56511ce/README.md) | ESP32 | 0 | 1 |
 | Sunton | [ESP32-3248S035R](boards/sunton/esp32/esp32-3248s035r--0706e456/README.md) | ESP32 | 1 | 2 |
-
-## Displays & HMIs
-
-| Manufacturer | Device | Processor | Pinout images | References |
-|---|---|---|---:|---:|
-| Espressif | [ESP-Mosaico](boards/espressif/esp32-s31/esp-mosaico--dce037ad/README.md) | ESP32-S31 | 0 | 5 |
 
 ## Handhelds & pocket tools
 

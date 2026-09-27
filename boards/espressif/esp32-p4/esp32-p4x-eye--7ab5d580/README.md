@@ -8,7 +8,7 @@ Coverage: Supporting documentation; physical pinout still needed
 
 [Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=espressif-esp32-p4x-eye)
 
-Device category: **Cameras & vision**
+Device category: **Cameras & audio**
 
 Architecture: **RISC-V**
 

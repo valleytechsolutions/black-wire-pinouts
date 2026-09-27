@@ -8,7 +8,7 @@ Coverage: Supporting documentation; physical pinout still needed
 
 [Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=espressif-esp-mosaico)
 
-Device category: **Displays & HMIs**
+Device category: **Displays & HMI**
 
 CoreBoard V1.0 only. H1 right slot is rotated 180 degrees relative to H2. H1 pins share audio functions. H2 GPIO19 is described as ADC in the HTML table but TOUCH in the connector schematic: that capability remains unresolved. Do not infer input-voltage ranges from output rails.
 
