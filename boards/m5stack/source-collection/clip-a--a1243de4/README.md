@@ -2,10 +2,22 @@
 
 **M5Stack** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-60237e7bb4061c03d2)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.m5stack.com/en/accessory/CLIP-A)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Dimensions
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/products/accessory/CLIP-A/Module%20Size2.png) · [Source 2](https://docs.m5stack.com/en/accessory/CLIP-A)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `bc137a766a1af04c54c96cfa695456a0877c59355be1ec53c97084087875c5c2`
 
@@ -37,6 +51,8 @@ SHA-256: `bc137a766a1af04c54c96cfa695456a0877c59355be1ec53c97084087875c5c2`
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `2049c5da38b1478ad765784bfb9cd09abdc9ea618ae92746b2870607fda7fef7`
 
 ## Dimensions
@@ -53,6 +69,8 @@ SHA-256: `2049c5da38b1478ad765784bfb9cd09abdc9ea618ae92746b2870607fda7fef7`
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `e1fc7af8423eb01703b49bf9622d8110d7a9a78e64e8908dbefaaa4ef2722bde`
 
 ## Dimensions
@@ -68,6 +86,8 @@ SHA-256: `e1fc7af8423eb01703b49bf9622d8110d7a9a78e64e8908dbefaaa4ef2722bde`
 [Source 1](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/products/accessory/CLIP-A/Module%20Size1.png) · [Source 2](https://docs.m5stack.com/en/accessory/CLIP-A)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `ffbbe460370c47a23627c0745d2fb1748f812b6ed54bf65ddd510a50b4e57e2b`
 

@@ -2,10 +2,22 @@
 
 **M5Stack** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-c560ffe2964a48351a)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.m5stack.com/en/module/extport_for_core2)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Dimensions
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/976/extportforcore2_page_01.png) · [Source 2](https://docs.m5stack.com/en/module/extport_for_core2)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `2000b89ef22490cd65ad9d50a87c9c6b36b78c7f25b741aefa63c48d986cb38d`
 
@@ -36,6 +50,8 @@ SHA-256: `2000b89ef22490cd65ad9d50a87c9c6b36b78c7f25b741aefa63c48d986cb38d`
 [Source 1](https://static-cdn.m5stack.com/resource/docs/products/module/extport_for_core2/extport_for_core2_grove_01.webp) · [Source 2](https://docs.m5stack.com/en/module/extport_for_core2)
 
 Original source index: Pinout. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `8280de26a1e2e8f2dbb2bb43dee45a3dc5d2f80d6c122a5ca6fa71fe15121385`
 

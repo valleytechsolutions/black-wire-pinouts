@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Expansion
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Board labels only; pinout needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-expansion-grove-shield-for-arduino-nano)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/Grove_Shield_for_Arduino_Nano/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout (Back)
 
@@ -20,6 +32,8 @@ Coverage: Board labels only; pinout needed
 [Source 1](https://files.seeedstudio.com/wiki/Grove-shield-for-Arduino-Nano/img/Grove-Shoeld-for-Arduino-Nano-back-rr.jpg) · [Source 2](https://wiki.seeedstudio.com/Grove_Shield_for_Arduino_Nano/)
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `46e99c66ddfb0b1891833ca05a88bb778a47452bc1dc86b3513ec35ba0b432e6`
 
@@ -36,6 +50,8 @@ SHA-256: `46e99c66ddfb0b1891833ca05a88bb778a47452bc1dc86b3513ec35ba0b432e6`
 [Source 1](https://files.seeedstudio.com/wiki/Grove-shield-for-Arduino-Nano/img/Grove-Shoeld-for-Arduino-Nano-front.png) · [Source 2](https://wiki.seeedstudio.com/Grove_Shield_for_Arduino_Nano/)
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `bda84079d11b1786526a8fd95b179005b98b15813fbc133935555ee6a8b32ac9`
 

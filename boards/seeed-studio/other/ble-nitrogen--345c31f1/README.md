@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Other
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-other-ble-nitrogen)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/BLE_Nitrogen/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://files.seeedstudio.com/wiki/BLE-Nitrogen/img/pin_map.png) · [Source 2](https://wiki.seeedstudio.com/BLE_Nitrogen/)
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `58453ead1c57b5b1ef068ed3d86f5cd8ff469ca924d069f561f6f5fb821f69b7`
 
@@ -36,6 +50,8 @@ SHA-256: `58453ead1c57b5b1ef068ed3d86f5cd8ff469ca924d069f561f6f5fb821f69b7`
 [Source 1](https://files.seeedstudio.com/wiki/BLE-Nitrogen/img/hardware_ov.png) · [Source 2](https://wiki.seeedstudio.com/BLE_Nitrogen/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `2fdd784b600a979a381a685831debdde3c7f589a93746cea48a8b91f3ebd4873`
 

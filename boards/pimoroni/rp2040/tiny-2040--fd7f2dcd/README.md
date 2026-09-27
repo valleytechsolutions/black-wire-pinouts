@@ -2,10 +2,22 @@
 
 **Pimoroni** · RP2040
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=pimoroni-rp2040-tiny-2040)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://shop.pimoroni.com/products/tiny-2040)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Manufacturer pinout sheet
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Pimoroni.
 
 [Source 1](https://cdn.shopify.com/s/files/1/0174/1800/files/tiny-2040-pinout-diagram_4dd9e9ab-6f6f-4b63-82d4-16793d109f17.png?v=1614260173) · [Source 2](https://shop.pimoroni.com/products/tiny-2040)
+
+
+
+Image revision: Not identified
 
 SHA-256: `7f5718e70af443045ad2afbee35bac169605e71d1f9f40365b3804d1d6eed685`
 

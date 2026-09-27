@@ -2,10 +2,22 @@
 
 **Waveshare** · RP2040
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=waveshare-rp2040-rp2040-touch-lcd-1-28)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://www.waveshare.com/wiki/RP2040-Touch-LCD-1.28)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://www.waveshare.com/w/upload/e/ef/RP2040-Touch-LCD-1.28-details-13.jpg) · [Source 2](https://www.waveshare.com/wiki/RP2040-Touch-LCD-1.28) · [Source 3](https://www.waveshare.com/rp2040-touch-lcd-1.28.htm) · [Source 4](https://www.waveshare.com/rp2040-touch-lcd-1.28-b.htm)
+
+
+
+Image revision: Not identified
 
 SHA-256: `fa80fa9c07fe00d36864e5039bf4491c15f8f0d0d31b075c4259fda68c48b656`
 

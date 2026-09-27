@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-30061f1f606eee24f5)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Block Diagram (I-O)
 
@@ -17,7 +29,11 @@ Coverage: Source collection; review pending
 
 **Credit and rights:** Source rights not yet established. Source/manufacturer: Seeed Studio.
 
+
+
 Original source index: Block Diagram (I-O). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `ca5d63401da720a2aa0d5a36bdbca3be6c95f410c978c09c896d14567def79c2`
 
@@ -31,7 +47,11 @@ SHA-256: `ca5d63401da720a2aa0d5a36bdbca3be6c95f410c978c09c896d14567def79c2`
 
 **Credit and rights:** Source rights not yet established. Source/manufacturer: Seeed Studio.
 
+
+
 Original source index: Block Diagram (Power). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `675f8c059d00f85bd8f9803f79127269d4b495298881a3408021db4c18e02a04`
 
@@ -45,7 +65,11 @@ SHA-256: `675f8c059d00f85bd8f9803f79127269d4b495298881a3408021db4c18e02a04`
 
 **Credit and rights:** Source rights not yet established. Source/manufacturer: Seeed Studio.
 
+
+
 Original source index: Block Diagram. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `9131e0bea60b161d5382e9216f5d3528b75bf7dc8c1f63ae30836e1e91850fff`
 
@@ -59,7 +83,11 @@ SHA-256: `9131e0bea60b161d5382e9216f5d3528b75bf7dc8c1f63ae30836e1e91850fff`
 
 **Credit and rights:** Source rights not yet established. Source/manufacturer: Seeed Studio.
 
+
+
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `5aaadc79fc09f1b6126282d303570ec5600867aaae020888dff5613273771be0`
 
@@ -73,7 +101,11 @@ SHA-256: `5aaadc79fc09f1b6126282d303570ec5600867aaae020888dff5613273771be0`
 
 **Credit and rights:** Source rights not yet established. Source/manufacturer: Seeed Studio.
 
+
+
 Original source index: Hardware Overview 2. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `c66dd21c44daa3251697d3211d3b9891f8148378d5a079dcd7d7447b2f507f54`
 
@@ -87,7 +119,11 @@ SHA-256: `c66dd21c44daa3251697d3211d3b9891f8148378d5a079dcd7d7447b2f507f54`
 
 **Credit and rights:** Source rights not yet established. Source/manufacturer: Seeed Studio.
 
+
+
 Original source index: Hardware Overview 3. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `a241ae1b127d091d409ae923957f4b6e23491eb03bc37e75e518a2bb3570e3e7`
 
@@ -101,7 +137,11 @@ SHA-256: `a241ae1b127d091d409ae923957f4b6e23491eb03bc37e75e518a2bb3570e3e7`
 
 **Credit and rights:** Source rights not yet established. Source/manufacturer: Seeed Studio.
 
+
+
 Original source index: Hardware Overview 4. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `7e5aa08b020898497fda5846690afe37e434f361d6994ca14f19de2ee9e80e38`
 
@@ -115,7 +155,11 @@ SHA-256: `7e5aa08b020898497fda5846690afe37e434f361d6994ca14f19de2ee9e80e38`
 
 **Credit and rights:** Source rights not yet established. Source/manufacturer: Seeed Studio.
 
+
+
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `2ed99ab226d9a681bd5336e64be99cc099de2ade0e530f998cf46d03e7c2392f`
 
@@ -129,7 +173,11 @@ SHA-256: `2ed99ab226d9a681bd5336e64be99cc099de2ade0e530f998cf46d03e7c2392f`
 
 **Credit and rights:** Source rights not yet established. Source/manufacturer: Seeed Studio.
 
+
+
 Original source index: Pin Definition Table 2. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `9f5595b9cba84d38506aadbb215ec9962b34ee053174e8dbb0ef60081d138fa0`
 
@@ -143,7 +191,11 @@ SHA-256: `9f5595b9cba84d38506aadbb215ec9962b34ee053174e8dbb0ef60081d138fa0`
 
 **Credit and rights:** Source rights not yet established. Source/manufacturer: Seeed Studio.
 
+
+
 Original source index: Pin Definition Table 3. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `7fae5f1f3ac80bec0d27bd7f6f0fa7ad9bec6e4f3bcc66c78da9d847fb890cfe`
 
@@ -157,7 +209,11 @@ SHA-256: `7fae5f1f3ac80bec0d27bd7f6f0fa7ad9bec6e4f3bcc66c78da9d847fb890cfe`
 
 **Credit and rights:** Source rights not yet established. Source/manufacturer: Seeed Studio.
 
+
+
 Original source index: Pin Definition Table 4. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `72dfe2c7d9f6b1844de4712c718e22f7f99a8d9e5d1b81654d9a3e7cff77ff4f`
 
@@ -171,7 +227,11 @@ SHA-256: `72dfe2c7d9f6b1844de4712c718e22f7f99a8d9e5d1b81654d9a3e7cff77ff4f`
 
 **Credit and rights:** Source rights not yet established. Source/manufacturer: Seeed Studio.
 
+
+
 Original source index: Pin Definition Table 5. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `e014b98a88897e74fce559e87786b896a35085dbd66a2b1e58924c8e1fd454b5`
 
@@ -185,7 +245,11 @@ SHA-256: `e014b98a88897e74fce559e87786b896a35085dbd66a2b1e58924c8e1fd454b5`
 
 **Credit and rights:** Source rights not yet established. Source/manufacturer: Seeed Studio.
 
+
+
 Original source index: Pin Definition Table. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `9ba773a8e25d51d54dee05c2bc8b1230d660e06180d70cec8f8bd9184dd0b038`
 

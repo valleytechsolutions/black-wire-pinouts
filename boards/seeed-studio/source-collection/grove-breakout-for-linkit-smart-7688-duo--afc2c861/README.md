@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-fe6e96ae8e667278de)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/Grove_Breakout_for_LinkIt_Smart_7688_Duo/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Hardware Overview
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/Grove-Breakout_for_LinkIt_Smart_7688_Duo/img/Grove_Breakout_for_LinkIt_Smart_7688_Duo_component_with_text_1200_s.jpg) · [Source 2](https://wiki.seeedstudio.com/Grove_Breakout_for_LinkIt_Smart_7688_Duo/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `d7c1e05e30a9669d033f65f5dfe7c6670965ac31baa4b42023b568d27cb7c25b`
 

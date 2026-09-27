@@ -2,10 +2,22 @@
 
 **LILYGO** · ESP32-S3
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lilygo-esp32-t-mini-e-paper-s3)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.lilygo.cc/products/other/t-mini-e-paper-s3/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Board pin map
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://wiki.lilygo.cc/products/other/t-mini-e-paper-s3/index/image/t-mini-e-paper-s3-pin.jpg) · [Source 2](https://wiki.lilygo.cc/products/other/t-mini-e-paper-s3/)
 
 Manufacturer image preserved. Match the depicted board and revision before use.
+
+Image revision: Not identified
 
 SHA-256: `3e8d1fabecba6314b64878b091c7b7bf2daea3e959e23c6eebd269a2d8e77013`
 

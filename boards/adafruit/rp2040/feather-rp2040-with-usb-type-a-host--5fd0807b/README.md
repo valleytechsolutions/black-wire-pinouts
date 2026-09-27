@@ -2,10 +2,22 @@
 
 **Adafruit** · RP2040
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=adafruit-rp2040-feather-rp2040-with-usb-type-a-host)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://learn.adafruit.com/adafruit-feather-rp2040-with-usb-type-a-host/pinouts)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout reference - PDF page 1
 
@@ -21,6 +33,8 @@ Coverage: Pinout image collected
 
 Discovered from CircuitPython board metadata and the linked product/documentation page. Exact hardware revision requires matching to the diagram. Original PDF page 1 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `86c3f45c5180e1c4b35e70ae7b5e7e40bfafc4ae6b384f3d93395163606d21fb`
 
 ## Physical board pinout
@@ -34,6 +48,8 @@ SHA-256: `86c3f45c5180e1c4b35e70ae7b5e7e40bfafc4ae6b384f3d93395163606d21fb`
 [Source 1](https://raw.githubusercontent.com/adafruit/Adafruit-Feather-RP2040-USB-Host-PCB/main/Adafruit_Feather_RP2040_USB_Host_PrettyPins_2.pdf) · [Source 2](https://learn.adafruit.com/adafruit-feather-rp2040-with-usb-type-a-host/pinouts)
 
 Discovered from CircuitPython board metadata and the linked product/documentation page. Exact hardware revision requires matching to the diagram.
+
+Image revision: Not identified
 
 SHA-256: `de763ccd0ff7777325402d96c88a53d81d1461cf3f592085c81e34d65d322057`
 

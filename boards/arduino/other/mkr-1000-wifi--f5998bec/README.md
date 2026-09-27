@@ -2,10 +2,22 @@
 
 **Arduino** · Other
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=arduino-other-mkr-1000-wifi)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.arduino.cc/hardware/mkr-1000-wifi/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Official full pinout - page 1
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/mkr/01.boards/mkr-1000-wifi/downloads/ABX00004-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/mkr-1000-wifi/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/mkr/01.boards/mkr-1000-wifi/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/mkr/01.boards/mkr-1000-wifi/downloads/ABX00004-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 1 rendered at 220 dpi; no labels changed.
+
+Image revision: Not identified
 
 SHA-256: `372cb535c54015164936b2fc23b38fbb2e9375daeb64a35ee866ac4bd2fe191d`
 
@@ -37,6 +51,8 @@ SHA-256: `372cb535c54015164936b2fc23b38fbb2e9375daeb64a35ee866ac4bd2fe191d`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 2 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `2d845668657b6641576c68bda783c102536e362a014641cff15ec80ee5a9ccc6`
 
 ## Official full pinout - page 3
@@ -53,6 +69,8 @@ SHA-256: `2d845668657b6641576c68bda783c102536e362a014641cff15ec80ee5a9ccc6`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 3 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `07a4fa18b99f09cdecb991787024adccb7a894f0e5141a505814530810c84507`
 
 ## Full board pinout PDF
@@ -66,6 +84,8 @@ SHA-256: `07a4fa18b99f09cdecb991787024adccb7a894f0e5141a505814530810c84507`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/mkr/01.boards/mkr-1000-wifi/downloads/ABX00004-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/mkr-1000-wifi/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/mkr/01.boards/mkr-1000-wifi/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/mkr/01.boards/mkr-1000-wifi/downloads/ABX00004-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement.
+
+Image revision: Not identified
 
 SHA-256: `998b9a3c11cc27c1ec320ec43703d6086ed4015f4ce095cc070061519bc19f1b`
 

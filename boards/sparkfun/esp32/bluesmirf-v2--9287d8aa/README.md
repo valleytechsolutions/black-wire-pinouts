@@ -12,6 +12,17 @@ Device category: **Controllers & instruments**
 
 Architecture: **Xtensa**
 
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://github.com/sparkfun/SparkFun_BlueSMiRF-v2)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
+
 ## Specifications and hardware documentation
 
 - [Manufacturer hardware repository](https://github.com/sparkfun/SparkFun_BlueSMiRF-v2)

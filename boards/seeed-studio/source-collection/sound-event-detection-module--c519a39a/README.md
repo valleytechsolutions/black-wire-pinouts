@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-9e4525fbacabe917ab)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/sound_event_detection_module/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Dimensions (Back)
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/sound_event_detection/back.png) · [Source 2](https://wiki.seeedstudio.com/sound_event_detection_module/)
 
 Original source index: Dimensions (Back). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `ee00604f7a993d784461ab8217bf8c347f4bb1459ef286e4c85b226956758501`
 
@@ -36,6 +50,8 @@ SHA-256: `ee00604f7a993d784461ab8217bf8c347f4bb1459ef286e4c85b226956758501`
 [Source 1](https://files.seeedstudio.com/wiki/sound_event_detection/front.png) · [Source 2](https://wiki.seeedstudio.com/sound_event_detection_module/)
 
 Original source index: Dimensions (Front). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `3ee61ef60dbb4040824263683a19943d632561dd2919e87c1bf857b0954d0c2b`
 

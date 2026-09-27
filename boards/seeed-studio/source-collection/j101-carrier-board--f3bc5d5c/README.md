@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-4a5be486bd304d3ef9)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/reComputer_Jetson_Series_Introduction/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Hardware Overview
 
@@ -21,6 +33,8 @@ Coverage: Source collection; review pending
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `309130674ce1ee305e71254d6bd0713f2d6c6645bdd24e4905b59ea3f10d9aec`
 
 ## Pin Definition
@@ -34,6 +48,8 @@ SHA-256: `309130674ce1ee305e71254d6bd0713f2d6c6645bdd24e4905b59ea3f10d9aec`
 [Source 1](https://files.seeedstudio.com/wiki/reComputer/reComputer-J1010-datasheet.pdf) · [Source 2](https://wiki.seeedstudio.com/reComputer_J1010_J101_Flash_Jetpack/)
 
 Original source index: Pin Definition. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `3333f53a6c4f71e314e25d9b5a216d3f2730ac0f308b5b6d884863bd3068ce45`
 

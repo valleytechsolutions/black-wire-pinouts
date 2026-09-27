@@ -2,10 +2,22 @@
 
 **Waveshare** · ESP32-P4
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=waveshare-esp32-esp32-p4-wifi6-db)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://www.waveshare.com/esp32-p4-wifi6-db.htm)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://www.waveshare.com/img/devkit/ESP32-P4-WIFI6-DB/ESP32-P4-WIFI6-DB-details-inter.jpg) · [Source 2](https://www.waveshare.com/esp32-p4-wifi6-db.htm)
+
+
+
+Image revision: Not identified
 
 SHA-256: `6621f869610dda9e066e73e9de17573f2607eb89fdf956b355fe50e0038df0b9`
 

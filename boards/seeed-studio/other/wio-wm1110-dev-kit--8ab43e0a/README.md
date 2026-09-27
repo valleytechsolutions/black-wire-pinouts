@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Other
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-other-wio-wm1110-dev-kit)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/Wio-WM1110_Dev_Kit_Hardware_Overview/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout (Grove)
 
@@ -21,7 +33,7 @@ Coverage: Pinout image collected
 
 Imported from existing Seeed Studio Board Reference; original working path preserved. Only the named connector or subsection is covered.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `8ade6f54f6772ec1850034e4ee114f850b2312adc60810fd267383ed47bb438c`
 
@@ -39,7 +51,7 @@ SHA-256: `8ade6f54f6772ec1850034e4ee114f850b2312adc60810fd267383ed47bb438c`
 
 Imported from existing Seeed Studio Board Reference; original working path preserved. Only the named connector or subsection is covered.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `982a24d8d9dd5eaea5f321006dcaae8d9c47125cc25038e7793fae4dc706069c`
 
@@ -57,6 +69,8 @@ SHA-256: `982a24d8d9dd5eaea5f321006dcaae8d9c47125cc25038e7793fae4dc706069c`
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
 
+Image revision: Not identified
+
 SHA-256: `eb25883a79ae70014b0744c1fde51e4238eccf6376dfdf9d4965f9bdf1b0131f`
 
 ## Block Diagram
@@ -73,6 +87,8 @@ SHA-256: `eb25883a79ae70014b0744c1fde51e4238eccf6376dfdf9d4965f9bdf1b0131f`
 
 Original source index: Block Diagram. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `8fdaa3b1025aa5cf9725ba1ec3243f7ca833597bcc3cedb0c14d93e743d701e0`
 
 ## Hardware Overview
@@ -88,6 +104,8 @@ SHA-256: `8fdaa3b1025aa5cf9725ba1ec3243f7ca833597bcc3cedb0c14d93e743d701e0`
 [Source 1](https://files.seeedstudio.com/wiki/SenseCAP/Wio-WM1110%20Dev%20Kit/hardware_overview1.png) · [Source 2](https://wiki.seeedstudio.com/Wio-WM1110_Dev_Kit_Hardware_Overview/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `5b65aa8460d7c2add7c6455bdc3de572528f86365270bf8758c3eb67bf2655ff`
 

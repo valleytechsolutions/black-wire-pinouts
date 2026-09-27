@@ -2,10 +2,22 @@
 
 **Radxa** · Other SBC
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=radxa-other-sbc-orion-o6)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.radxa.com/en/orion/o6)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## 40-pin GPIO reference page 19
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Radxa.
 
 [Source 1](https://dl.radxa.com/orion/o6/docs/radxa_orion_o6_user_manual.pdf) · [Source 2](https://docs.radxa.com/en/orion/o6)
+
+
+
+Image revision: Not identified
 
 SHA-256: `2088bce3efcbde103da883af85d8a1f83d1c20cc6f81c4c5b73a119e46d1549f`
 
@@ -33,6 +49,10 @@ SHA-256: `2088bce3efcbde103da883af85d8a1f83d1c20cc6f81c4c5b73a119e46d1549f`
 
 [Source 1](https://raw.githubusercontent.com/radxa-docs/docs/df97d99c4e1a12f8f9d2afb129ed86bc33c050b5/static/img/orion/o6/pinout_gpio.webp) · [Source 2](https://github.com/radxa-docs/docs/blob/df97d99c4e1a12f8f9d2afb129ed86bc33c050b5/static/img/orion/o6/pinout_gpio.webp)
 
+
+
+Image revision: Not identified
+
 SHA-256: `38647762ebad98ce83c6a3c2d5617439bd133bebfd34bd7458ba70564d2b4d31`
 
 ## Manufacturer user manual
@@ -44,6 +64,10 @@ SHA-256: `38647762ebad98ce83c6a3c2d5617439bd133bebfd34bd7458ba70564d2b4d31`
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Radxa.
 
 [Source 1](https://dl.radxa.com/orion/o6/docs/radxa_orion_o6_user_manual.pdf) · [Source 2](https://docs.radxa.com/en/orion/o6)
+
+
+
+Image revision: Not identified
 
 SHA-256: `a7731b3ed59af34e0f02f3228801b744ce2734a937037ca59a7af5182417ca32`
 

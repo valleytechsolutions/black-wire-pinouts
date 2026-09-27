@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-6f48011d267f2d1ef4)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/ai_robotics_recomputer_j501_robotics_getting_started/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Hardware Overview (Bottom)
 
@@ -17,7 +29,11 @@ Coverage: Source collection; review pending
 
 **Credit and rights:** Source rights not yet established. Source/manufacturer: Seeed Studio.
 
+
+
 Original source index: Hardware Overview (Bottom). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `2323e96e70c8c7df90f05151c09d90d1cf45355ff581f4936d6f34275967f2e8`
 
@@ -31,7 +47,11 @@ SHA-256: `2323e96e70c8c7df90f05151c09d90d1cf45355ff581f4936d6f34275967f2e8`
 
 **Credit and rights:** Source rights not yet established. Source/manufacturer: Seeed Studio.
 
+
+
 Original source index: Hardware Overview (Side 1). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `3759606a355d65db8d2bf5f398cfb38ba9c3afa1820a16a9b6f79f3e3644e24e`
 
@@ -45,7 +65,11 @@ SHA-256: `3759606a355d65db8d2bf5f398cfb38ba9c3afa1820a16a9b6f79f3e3644e24e`
 
 **Credit and rights:** Source rights not yet established. Source/manufacturer: Seeed Studio.
 
+
+
 Original source index: Hardware Overview (Side 2). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `23ff154d63a59e923f8892375d57a34908ac8832328d769b565f6280fbfe9ea0`
 
@@ -63,6 +87,8 @@ SHA-256: `23ff154d63a59e923f8892375d57a34908ac8832328d769b565f6280fbfe9ea0`
 
 Original source index: Pin Definition Table (CAN-DI-DO Terminal Block). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `965b52529edeb43cbe96601739c42a068a948f5880eb5d9d1335d7d963c53a75`
 
 ## Pin Definition Table (Fan Connector)
@@ -75,7 +101,11 @@ SHA-256: `965b52529edeb43cbe96601739c42a068a948f5880eb5d9d1335d7d963c53a75`
 
 **Credit and rights:** Source rights not yet established. Source/manufacturer: Seeed Studio.
 
+
+
 Original source index: Pin Definition Table (Fan Connector). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `7e2cb2c6740dbd3974a10e574f368944b394a81a6aeea91c4a731e90dc50f2a8`
 
@@ -89,7 +119,11 @@ SHA-256: `7e2cb2c6740dbd3974a10e574f368944b394a81a6aeea91c4a731e90dc50f2a8`
 
 **Credit and rights:** Source rights not yet established. Source/manufacturer: Seeed Studio.
 
+
+
 Original source index: Pin Definition Table (RTC Header). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `3c548bff7d1a0aa61827bc4175a4e09db00c5207821a243b06529202180b1106`
 

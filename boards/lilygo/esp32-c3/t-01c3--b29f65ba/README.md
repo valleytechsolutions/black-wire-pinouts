@@ -2,10 +2,22 @@
 
 **LILYGO** · ESP32-C3
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lilygo-esp32-t-01c3)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## T-01C3pin
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://raw.githubusercontent.com/Xinyuan-LilyGO/T-01C3/e4e6dda5ef07e33936ded354b3abea463857b67d/image/T-01C3pin.jpg) · [Source 2](https://github.com/Xinyuan-LilyGO/T-01C3/blob/e4e6dda5ef07e33936ded354b3abea463857b67d/image/T-01C3pin.jpg)
 
 Original manufacturer diagram. Shown module, radio, display and power-system options must match the board.
+
+Image revision: Not identified
 
 SHA-256: `d17d8ff78f8813501e384c6209b05288bbc14d9397869945c50d6ca0a54e9dee`
 
@@ -36,6 +50,8 @@ SHA-256: `d17d8ff78f8813501e384c6209b05288bbc14d9397869945c50d6ca0a54e9dee`
 [Source 1](https://raw.githubusercontent.com/Xinyuan-LilyGO/T-01C3/e4e6dda5ef07e33936ded354b3abea463857b67d/image/T-01C3pin_cn.jpg) · [Source 2](https://github.com/Xinyuan-LilyGO/T-01C3/blob/e4e6dda5ef07e33936ded354b3abea463857b67d/image/T-01C3pin_cn.jpg)
 
 Original manufacturer diagram. Shown module, radio, display and power-system options must match the board.
+
+Image revision: Not identified
 
 SHA-256: `66b0e5b513e27f4e3c129801bf4c773caf5207f1985acd380e44093bac5f1583`
 

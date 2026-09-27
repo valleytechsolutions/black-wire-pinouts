@@ -2,10 +2,22 @@
 
 **Arduino** · Other
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=arduino-other-due)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.arduino.cc/hardware/due/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## ad-pinout
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/mega/boards/due/datasheet/assets/ad-pinout.png) · [Source 2](https://docs.arduino.cc/hardware/due/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/mega/boards/due/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/mega/boards/due/datasheet/assets/ad-pinout.png)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement.
+
+Image revision: Not identified
 
 SHA-256: `c27ea43d89224c099f132796d380989c499c3aab9759c243655c5f3db0bb6706`
 
@@ -37,6 +51,8 @@ SHA-256: `c27ea43d89224c099f132796d380989c499c3aab9759c243655c5f3db0bb6706`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 1 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `b260c2cadcfafe1aa5bd7642c7ef2e7d46785e4a41a882c107d978009a05e7b7`
 
 ## Official full pinout - page 2
@@ -52,6 +68,8 @@ SHA-256: `b260c2cadcfafe1aa5bd7642c7ef2e7d46785e4a41a882c107d978009a05e7b7`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/mega/boards/due/downloads/A000056-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/due/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/mega/boards/due/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/mega/boards/due/downloads/A000056-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 2 rendered at 220 dpi; no labels changed.
+
+Image revision: Not identified
 
 SHA-256: `788e5efd2be17800845105dd5c94089490efec011fa5d9b4c64b856f73c81298`
 
@@ -69,6 +87,8 @@ SHA-256: `788e5efd2be17800845105dd5c94089490efec011fa5d9b4c64b856f73c81298`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 3 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `c61db7245a6d25e974f491bb9a05b1b9f2cf36f0afd976fec95ce10c21f2f27d`
 
 ## Official full pinout - page 5
@@ -84,6 +104,8 @@ SHA-256: `c61db7245a6d25e974f491bb9a05b1b9f2cf36f0afd976fec95ce10c21f2f27d`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/mega/boards/due/downloads/A000056-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/due/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/mega/boards/due/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/mega/boards/due/downloads/A000056-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 5 rendered at 220 dpi; no labels changed.
+
+Image revision: Not identified
 
 SHA-256: `38daf0e8481862e2fb9394eddb3ea76d12e3b21889e53558cf175061ad3e6490`
 
@@ -101,6 +123,8 @@ SHA-256: `38daf0e8481862e2fb9394eddb3ea76d12e3b21889e53558cf175061ad3e6490`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 6 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `151745ed0c39685a895f10c78bccbe9ef4ba38f6e88e4e43f8949a37103dfbc0`
 
 ## Official full pinout - page 7
@@ -116,6 +140,8 @@ SHA-256: `151745ed0c39685a895f10c78bccbe9ef4ba38f6e88e4e43f8949a37103dfbc0`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/mega/boards/due/downloads/A000056-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/due/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/mega/boards/due/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/mega/boards/due/downloads/A000056-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 7 rendered at 220 dpi; no labels changed.
+
+Image revision: Not identified
 
 SHA-256: `bc950c232f6c30205a24f77cd16c627621517a12f7e4eba8392261981928090d`
 
@@ -133,6 +159,8 @@ SHA-256: `bc950c232f6c30205a24f77cd16c627621517a12f7e4eba8392261981928090d`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 8 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `0703282951a43c3a3c09d62fcebfb6772fd85a035fd91f5d9b03795f2c56972d`
 
 ## Full board pinout PDF
@@ -146,6 +174,8 @@ SHA-256: `0703282951a43c3a3c09d62fcebfb6772fd85a035fd91f5d9b03795f2c56972d`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/mega/boards/due/downloads/A000056-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/due/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/mega/boards/due/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/mega/boards/due/downloads/A000056-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement.
+
+Image revision: Not identified
 
 SHA-256: `a9b33b9e069e82dcac6c6026422d22f399ec5e93e7a44082b783b3864018c9b4`
 

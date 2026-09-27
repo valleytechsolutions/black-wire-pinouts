@@ -2,12 +2,24 @@
 
 **LILYGO** · ESP32 original
 
-Revision: CH9102 version with different RS485 pin assignment  
+Revision: CH9102 version with different RS485 pin assignment
+
 Coverage: Pinout image collected
 
 [Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lilygo-esp32-t-can485-ch9102)
 
 Device category: **Controllers & instruments**
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## T-CAN485-PINMAP1-EN
 

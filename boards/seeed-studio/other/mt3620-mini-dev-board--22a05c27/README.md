@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Other
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-other-mt3620-mini-dev-board)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/MT3620_Mini_Dev_Board/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://files.seeedstudio.com/products/102110267/img/MT3620 Mini Dev Board Pinmap-20200331.jpg) · [Source 2](https://wiki.seeedstudio.com/MT3620_Mini_Dev_Board/)
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `41df878feb8f3d33694a8046a988717f9073034267c2e29c871bf51f1d6edbc0`
 
@@ -36,6 +50,8 @@ SHA-256: `41df878feb8f3d33694a8046a988717f9073034267c2e29c871bf51f1d6edbc0`
 [Source 1](https://files.seeedstudio.com/wiki/MT3620_Mini_Dev_Board/img/sys.jpg) · [Source 2](https://wiki.seeedstudio.com/MT3620_Mini_Dev_Board/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `05bcd8d25b54829cc940e07ff6b84e43669023aac49483617ce76cc043191f42`
 

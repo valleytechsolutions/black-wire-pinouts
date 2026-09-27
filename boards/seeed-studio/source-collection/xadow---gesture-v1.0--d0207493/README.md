@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-5414779ffdbc65a2f0)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/Xadow_Gesture_v1.0/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Gesture V1.0 - Hardware Overview
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/Xadow_Gesture_v1.0/img/Xadow_-_Gesture_2.jpg) · [Source 2](https://wiki.seeedstudio.com/Xadow_Gesture_v1.0/)
 
 Original source index: Gesture V1.0 - Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `e1fca4ca31385c811bb244fa52e1bac742f1ec963d8c865a551ea4b61dc90767`
 
@@ -36,6 +50,8 @@ SHA-256: `e1fca4ca31385c811bb244fa52e1bac742f1ec963d8c865a551ea4b61dc90767`
 [Source 1](https://files.seeedstudio.com/wiki/Xadow_Gesture_v1.0/img/Xadow_-_Gesture_5.jpg) · [Source 2](https://wiki.seeedstudio.com/Xadow_Gesture_v1.0/)
 
 Original source index: Gesture V1.0 - Pinout. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `617d04cf3028469c8a2497b73a30c127bd26c6073967d16da46b186359f5bb20`
 

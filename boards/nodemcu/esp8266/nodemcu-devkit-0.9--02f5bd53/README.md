@@ -2,10 +2,22 @@
 
 **NodeMCU** · ESP8266
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=nodemcu-esp32-devkit-0-9)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Original board pinout
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: NodeMCU.
 
 [Source 1](https://raw.githubusercontent.com/nodemcu/nodemcu-devkit/b0f19d6d1c49b6db4aef56ddba789a7f92f6ecce/Documents/NODEMCU-DEVKIT-INSTRUCTION-EN_BIG.png) · [Source 2](https://github.com/nodemcu/nodemcu-devkit/blob/b0f19d6d1c49b6db4aef56ddba789a7f92f6ecce/Documents/NODEMCU-DEVKIT-INSTRUCTION-EN_BIG.png)
+
+
+
+Image revision: Not identified
 
 SHA-256: `f728c7e66ab0e445d8accec88f0839cd7834b81874323e86f09552996d1ca248`
 

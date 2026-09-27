@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Expansion
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-expansion-uartsbee-v3-1)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/UartSBee_V3.1/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout (Back)
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://files.seeedstudio.com/wiki/UartSBee_V3.1/img/UartSBee_Bottom_Bit_Bang.png) · [Source 2](https://wiki.seeedstudio.com/UartSBee_V3.1/)
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `8fdcdaf2f00cb3bd3aabe95d4f24ded08673e335daa561774f08de85640cb66d`
 
@@ -36,6 +50,8 @@ SHA-256: `8fdcdaf2f00cb3bd3aabe95d4f24ded08673e335daa561774f08de85640cb66d`
 [Source 1](https://files.seeedstudio.com/wiki/UartSBee_V3.1/img/Uartsbee-block-diagram.jpg) · [Source 2](https://wiki.seeedstudio.com/UartSBee_V3.1/)
 
 Original source index: Block Diagram. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `a78906199bf65d99654b0b3c96aceaaeea97ef563b51fc32587b5b5e4a304a8f`
 

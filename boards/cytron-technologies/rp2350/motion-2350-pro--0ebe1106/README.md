@@ -2,10 +2,22 @@
 
 **Cytron Technologies** · RP2350
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=cytron-technologies-rp2350-motion-2350-pro)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://www.cytron.io/p-motion-2350-pro)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Manufacturer board pinout
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Cytron Technologies.
 
 [Source 1](https://raw.githubusercontent.com/CytronTechnologies/Cytron-MOTION-2350-PRO/46996400595d917670a9a6a31cfa07c2297f39c1/images/Pinout_Diagram_MOTION-2350-Pro.png) · [Source 2](https://github.com/CytronTechnologies/Cytron-MOTION-2350-PRO/blob/46996400595d917670a9a6a31cfa07c2297f39c1/images/Pinout_Diagram_MOTION-2350-Pro.png)
+
+
+
+Image revision: Not identified
 
 SHA-256: `34a865c41d2734616960a6a241248eabe3bbf67d8020a5baec2ec2ba53089416`
 

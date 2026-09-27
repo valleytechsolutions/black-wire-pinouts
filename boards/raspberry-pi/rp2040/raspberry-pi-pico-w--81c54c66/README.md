@@ -2,10 +2,22 @@
 
 **Raspberry Pi** · RP2040
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=raspberry-pi-rp2040-pico-w)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Raspberry Pi.
 
 [Source 1](https://www.waveshare.com/img/devkit/Raspberry-Pi-Pico-W/Raspberry-Pi-Pico-W-details-17.jpg) · [Source 2](https://www.waveshare.com/raspberry-pi-pico-w.htm)
+
+
+
+Image revision: Not identified
 
 SHA-256: `f88ae793dd5e70b79c39cf0d5bad1805d930fec19ae222c413c962ed5c60bf9e`
 
@@ -32,6 +48,10 @@ SHA-256: `f88ae793dd5e70b79c39cf0d5bad1805d930fec19ae222c413c962ed5c60bf9e`
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Raspberry Pi.
 
 [Source 1](https://www.waveshare.com/w/upload/9/95/Raspberry_Pi_Pico_W_Manual01.jpg) · [Source 2](https://www.waveshare.com/wiki/Raspberry_Pi_Pico_W)
+
+
+
+Image revision: Not identified
 
 SHA-256: `37e347b23f157e8a61ff4aa66dfed703af62b8522994a75458efe26b3517059d`
 
@@ -49,6 +69,8 @@ SHA-256: `37e347b23f157e8a61ff4aa66dfed703af62b8522994a75458efe26b3517059d`
 
 Discovered from CircuitPython board metadata and the linked product/documentation page. Exact hardware revision requires matching to the diagram. Original PDF page 1 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `69686a95e274921f9efa1f83eff9e587e86673d3dc1fad5f0912d9df9bed719d`
 
 ## Physical board pinout
@@ -62,6 +84,8 @@ SHA-256: `69686a95e274921f9efa1f83eff9e587e86673d3dc1fad5f0912d9df9bed719d`
 [Source 1](https://cdn-shop.adafruit.com/product-files/5526/PicoW-A4-Pinout.pdf) · [Source 2](https://www.adafruit.com/product/5526)
 
 Discovered from CircuitPython board metadata and the linked product/documentation page. Exact hardware revision requires matching to the diagram.
+
+Image revision: Not identified
 
 SHA-256: `690e54a73e9b7bfe3c98a338a9e959ca2bb6fdda9ffc39727544c75b9d1c42a8`
 

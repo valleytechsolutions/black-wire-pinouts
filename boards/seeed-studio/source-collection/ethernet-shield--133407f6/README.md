@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-5f60f6f9c93c672168)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/Ethernet_Shield/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Hardware Overview 2
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/Ethernet_Shield/img/Ethernet_01.jpg) · [Source 2](https://wiki.seeedstudio.com/Ethernet_Shield/)
 
 Original source index: Hardware Overview 2. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `43485f0813e3d34625940f0ca876338ca3f4f110a0131aa8a56e5dbad939140c`
 
@@ -37,6 +51,8 @@ SHA-256: `43485f0813e3d34625940f0ca876338ca3f4f110a0131aa8a56e5dbad939140c`
 
 Original source index: Hardware Overview 3. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `ea8543526080ff27c97aa665c6610210d80b6426615533e476ae91824bd56d64`
 
 ## Hardware Overview
@@ -52,6 +68,8 @@ SHA-256: `ea8543526080ff27c97aa665c6610210d80b6426615533e476ae91824bd56d64`
 [Source 1](https://files.seeedstudio.com/wiki/Ethernet_Shield/img/Seeeduino_ethernet-2.jpg) · [Source 2](https://wiki.seeedstudio.com/Ethernet_Shield/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `cd0398d7956ab1a981424a7f3d1a41d992fbe5d67a9bee9c0dc85e53a604b388`
 

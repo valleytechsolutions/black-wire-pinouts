@@ -2,10 +2,22 @@
 
 **RAKwireless** · Other
 
-Revision: Low RF  
+Revision: Low RF
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=rakwireless-other-rak811-breakout-board-low-rf)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.rakwireless.com/product-categories/wisduo/rak811-breakout-board/datasheet/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Board Pinout for RAK811 Breakout Low RF
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://raw.githubusercontent.com/RAKWireless/RAKwireless-docs/4361f2635b6e16c72a46167a208db87427106bef/docs/.vuepress/public/assets/images/wisduo/rak811-breakout-board/datasheet/3.board-pinout-for-rak811-low-rf.png) · [Source 2](https://docs.rakwireless.com/product-categories/wisduo/rak811-breakout-board/datasheet/)
 
  Physical PCB/module pads or named board connector. Module entries are radio PCBs, not bare IC package pinouts. Check model suffix and radio band.
+
+Image revision: Low RF
 
 SHA-256: `dce89a513eb573a958cac6d2abd55503012b76b2e8d31bb3aba3ab1916411d07`
 

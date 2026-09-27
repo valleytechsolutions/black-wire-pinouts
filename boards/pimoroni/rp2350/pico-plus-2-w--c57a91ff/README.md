@@ -2,10 +2,22 @@
 
 **Pimoroni** · RP2350
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=pimoroni-rp2350-pico-plus-2-w)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://shop.pimoroni.com/products/pimoroni-pico-plus-2-w)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Manufacturer pinout sheet
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Pimoroni.
 
 [Source 1](https://cdn.shopify.com/s/files/1/0174/1800/files/ppico_plus_2_w_pinout_diagram.png?v=1727346318) · [Source 2](https://shop.pimoroni.com/products/pimoroni-pico-plus-2-w)
+
+
+
+Image revision: Not identified
 
 SHA-256: `cc43427d27acda258897c10ec5f63a40a74196438814b84a2a444603236f7bd5`
 
@@ -35,6 +51,8 @@ SHA-256: `cc43427d27acda258897c10ec5f63a40a74196438814b84a2a444603236f7bd5`
 
  Original PDF page 1 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `b26e478ece7bfbb369ac3473ad01899a4d54b0530940f2b19b5133c3a99d0534`
 
 ## Manufacturer pinout sheet
@@ -46,6 +64,10 @@ SHA-256: `b26e478ece7bfbb369ac3473ad01899a4d54b0530940f2b19b5133c3a99d0534`
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Pimoroni.
 
 [Source 1](https://cdn.shopify.com/s/files/1/0174/1800/files/ppico_plus_2_w_pinout_diagram.pdf?v=1727346378) · [Source 2](https://shop.pimoroni.com/products/pimoroni-pico-plus-2-w)
+
+
+
+Image revision: Not identified
 
 SHA-256: `8511d1d306a608918a55696ab4db26a89fbbfc2838e7fc693148b5f53926ebd4`
 

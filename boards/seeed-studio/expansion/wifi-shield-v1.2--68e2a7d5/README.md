@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Expansion
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Partial pinout collected; full reference still needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-expansion-wifi-shield-v1-2)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/Wifi_Shield_V1.2/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -21,7 +33,7 @@ Coverage: Partial pinout collected; full reference still needed
 
 Imported from existing Seeed Studio Board Reference; original working path preserved. Only the named connector or subsection is covered.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `2e0488f098fb989697474caa82b63e4fde6043ab544328cfea74d0ab72cdfad9`
 
@@ -39,6 +51,8 @@ SHA-256: `2e0488f098fb989697474caa82b63e4fde6043ab544328cfea74d0ab72cdfad9`
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
 
+Image revision: Not identified
+
 SHA-256: `6bfcd74c21ddc66c334ee8506a9411a8411e44cfc8089af726b6c546b76dc894`
 
 ## Hardware Overview (Back)
@@ -54,6 +68,8 @@ SHA-256: `6bfcd74c21ddc66c334ee8506a9411a8411e44cfc8089af726b6c546b76dc894`
 [Source 1](https://files.seeedstudio.com/wiki/Wifi_shield_v1.2/img/Wifi_shield_v1.1_back.png) · [Source 2](https://wiki.seeedstudio.com/Wifi_Shield_V1.2/)
 
 Original source index: Hardware Overview (Back). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `236fe2f0482b259b45cb721160411065c5180fd4422921de25503bc357e40a08`
 
@@ -71,6 +87,8 @@ SHA-256: `236fe2f0482b259b45cb721160411065c5180fd4422921de25503bc357e40a08`
 
 Original source index: Hardware Overview (Front). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `b8ef78942d5ef860d2c66e774a31aa36b6fc706ba7fd485ec00e612174392137`
 
 ## Pin Definition Table
@@ -86,6 +104,8 @@ SHA-256: `b8ef78942d5ef860d2c66e774a31aa36b6fc706ba7fd485ec00e612174392137`
 [Source 1](https://files.seeedstudio.com/wiki/Wifi_shield_v1.2/img/Wifi_shield_v1.2_breakout.png) · [Source 2](https://wiki.seeedstudio.com/Wifi_Shield_V1.2/)
 
 Original source index: Pin Definition Table. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `fe35496b20f86dae1e22e0d818561bda03ad89ae2ca01778cfa179b1e6cf29a5`
 

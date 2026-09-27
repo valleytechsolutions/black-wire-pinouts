@@ -2,10 +2,22 @@
 
 **Luckfox** · Other
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=luckfox-other-aura)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Luckfox.
 
 [Source 1](https://www.waveshare.com/img/devkit/Luckfox-Aura-04000/Luckfox-Aura-04000-details-inter.jpg) · [Source 2](https://www.waveshare.com/luckfox-aura.htm)
+
+
+
+Image revision: Not identified
 
 SHA-256: `0fb7a9a3a81ee838ce17654129696b982daf2d7deb66d2601dac720078391208`
 
@@ -32,6 +48,10 @@ SHA-256: `0fb7a9a3a81ee838ce17654129696b982daf2d7deb66d2601dac720078391208`
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Luckfox.
 
 [Source 1](https://www.waveshare.com/img/devkit/Luckfox-Aura-04000/Luckfox-Aura-04000-details-inter-1.jpg) · [Source 2](https://www.waveshare.com/luckfox-aura.htm)
+
+
+
+Image revision: Not identified
 
 SHA-256: `40a0695b5fb2dfaddff230bb21d1336b23a0e2a2aa38fe9904c876bb838d4257`
 

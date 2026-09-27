@@ -2,10 +2,22 @@
 
 **Waveshare** · ESP32-S3
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=waveshare-esp32-esp32-s3-lcd-2-8b)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://www.waveshare.com/wiki/ESP32-S3-LCD-2.8B)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://www.waveshare.com/w/upload/3/3e/600px-ESP32-S3-LCD-2.8B-introduction-05.jpg) · [Source 2](https://www.waveshare.com/wiki/ESP32-S3-LCD-2.8B)
+
+
+
+Image revision: Not identified
 
 SHA-256: `0df8d181ed0a035146d9d3b37e2d26253a9ce88834b4edf813dd4b0892295494`
 

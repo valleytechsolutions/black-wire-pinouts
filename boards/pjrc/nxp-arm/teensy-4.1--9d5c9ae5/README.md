@@ -2,10 +2,22 @@
 
 **PJRC** · NXP ARM
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=pjrc-teensy-teensy-4-1)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://www.pjrc.com/teensy/pinout.html)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pin Assignments, Front Side
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://www.pjrc.com/teensy/card11a_rev4_web.pdf) · [Source 2](https://www.pjrc.com/teensy/pinout.html)
 
  Original PDF page 1 rendered at 220 dpi; no labels changed.
+
+Image revision: Not identified
 
 SHA-256: `6a472377753aa30d5ea4c1223ea053d21559b768eb72e119471e75306fb14007`
 
@@ -37,6 +51,8 @@ SHA-256: `6a472377753aa30d5ea4c1223ea053d21559b768eb72e119471e75306fb14007`
 
  Original PDF page 1 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `475c1605a99028c3bcaceee9588b7b5e594419848499b376a0835276d641a3f4`
 
 ## Pin Assignments, Front Side
@@ -49,6 +65,10 @@ SHA-256: `475c1605a99028c3bcaceee9588b7b5e594419848499b376a0835276d641a3f4`
 
 [Source 1](https://www.pjrc.com/teensy/card11a_rev4_web.pdf) · [Source 2](https://www.pjrc.com/teensy/pinout.html)
 
+
+
+Image revision: Not identified
+
 SHA-256: `d8e8f77658a43eddd3254fcf7c248e200f8a83a398b990382ee1f71f500debf0`
 
 ## Pin Assignments, Back Side
@@ -60,6 +80,10 @@ SHA-256: `d8e8f77658a43eddd3254fcf7c248e200f8a83a398b990382ee1f71f500debf0`
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: PJRC.
 
 [Source 1](https://www.pjrc.com/teensy/card11b_rev4_web.pdf) · [Source 2](https://www.pjrc.com/teensy/pinout.html)
+
+
+
+Image revision: Not identified
 
 SHA-256: `9b258db98f6ef2a4afe21af4820fb599f1362adc1f600536955c3cd4f283c273`
 

@@ -2,10 +2,22 @@
 
 **Milk-V** · Other SBC
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=milk-v-other-sbc-duo)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## duo-wiringx-pinout-with-pin-name
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Milk-V.
 
 [Source 1](https://raw.githubusercontent.com/milk-v/milkv.io/01bc64d3d71bce30faec2bc4ba6dd34310e4ac8c/static/docs/duo/duo-wiringx-pinout-with-pin-name.png) · [Source 2](https://github.com/milk-v/milkv.io/blob/01bc64d3d71bce30faec2bc4ba6dd34310e4ac8c/static/docs/duo/duo-wiringx-pinout-with-pin-name.png)
+
+
+
+Image revision: Not identified
 
 SHA-256: `011b60e280803482debb410f6e1513e2fd8cabaeb31ee0f7bb0012971f34a11a`
 
@@ -33,6 +49,10 @@ SHA-256: `011b60e280803482debb410f6e1513e2fd8cabaeb31ee0f7bb0012971f34a11a`
 
 [Source 1](https://raw.githubusercontent.com/milk-v/milkv.io/01bc64d3d71bce30faec2bc4ba6dd34310e4ac8c/static/docs/duo/duo-wiringx-pinout.png) · [Source 2](https://github.com/milk-v/milkv.io/blob/01bc64d3d71bce30faec2bc4ba6dd34310e4ac8c/static/docs/duo/duo-wiringx-pinout.png)
 
+
+
+Image revision: Not identified
+
 SHA-256: `5f7b613f2ee903b166d5068b24da4aa7c28d5c7e0211e02ba8e2eee88d38eca4`
 
 ## duo-pinout-01
@@ -46,6 +66,10 @@ SHA-256: `5f7b613f2ee903b166d5068b24da4aa7c28d5c7e0211e02ba8e2eee88d38eca4`
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Milk-V.
 
 [Source 1](https://raw.githubusercontent.com/milk-v/milkv.io/01bc64d3d71bce30faec2bc4ba6dd34310e4ac8c/static/docs/duo/duo/duo-pinout-01.webp) · [Source 2](https://github.com/milk-v/milkv.io/blob/01bc64d3d71bce30faec2bc4ba6dd34310e4ac8c/static/docs/duo/duo/duo-pinout-01.webp)
+
+
+
+Image revision: Not identified
 
 SHA-256: `5e9ee75cca84b61e89d2154182b7422b6a51970178d0b55b6c24f2cbe3f535a3`
 
@@ -61,6 +85,10 @@ SHA-256: `5e9ee75cca84b61e89d2154182b7422b6a51970178d0b55b6c24f2cbe3f535a3`
 
 [Source 1](https://raw.githubusercontent.com/milk-v/milkv.io/01bc64d3d71bce30faec2bc4ba6dd34310e4ac8c/static/docs/duo/pinout.webp) · [Source 2](https://github.com/milk-v/milkv.io/blob/01bc64d3d71bce30faec2bc4ba6dd34310e4ac8c/static/docs/duo/pinout.webp)
 
+
+
+Image revision: Not identified
+
 SHA-256: `8ee95aaeaf8cfcc60fd0f5dc905858168904ba0e57d62ed63e8fbc626c0b427b`
 
 ## duo-pinout
@@ -74,6 +102,10 @@ SHA-256: `8ee95aaeaf8cfcc60fd0f5dc905858168904ba0e57d62ed63e8fbc626c0b427b`
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Milk-V.
 
 [Source 1](https://raw.githubusercontent.com/milk-v/milkv.io/01bc64d3d71bce30faec2bc4ba6dd34310e4ac8c/static/duo/duo-pinout.webp) · [Source 2](https://github.com/milk-v/milkv.io/blob/01bc64d3d71bce30faec2bc4ba6dd34310e4ac8c/static/duo/duo-pinout.webp)
+
+
+
+Image revision: Not identified
 
 SHA-256: `dc6224ae4bb201747aa1304d7604163a2be12aea85cb3d4e7d863c1e92b55037`
 

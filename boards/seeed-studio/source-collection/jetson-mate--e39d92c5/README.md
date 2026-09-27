@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-25890607e136c2f767)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/Jetson-Mate/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Hardware Overview (USB Mounting Guide)
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/Jetson-Mate/JetsonMate-2.png) · [Source 2](https://wiki.seeedstudio.com/Jetson-Mate/)
 
 Original source index: Hardware Overview (USB Mounting Guide). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `848466020eb647eb984a583bf7ba3c3cdcad9c84869fc8cc3a14dd62e686e0a5`
 
@@ -36,6 +50,8 @@ SHA-256: `848466020eb647eb984a583bf7ba3c3cdcad9c84869fc8cc3a14dd62e686e0a5`
 [Source 1](https://files.seeedstudio.com/wiki/Jetson-Mate/JetsonMate.png) · [Source 2](https://wiki.seeedstudio.com/Jetson-Mate/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `0cf16e49150acc84e2a6a66fc7c74805b4de300022cfd1c136d18fe529180e5b`
 

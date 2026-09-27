@@ -2,10 +2,22 @@
 
 **Arduino** · Other
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=arduino-other-portenta-machine-control)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.arduino.cc/hardware/portenta-machine-control/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Official full pinout - page 1
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro-solutions/solutions-and-kits/portenta-machine-control/downloads/AKX00032-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/portenta-machine-control/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro-solutions/solutions-and-kits/portenta-machine-control/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro-solutions/solutions-and-kits/portenta-machine-control/downloads/AKX00032-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 1 rendered at 220 dpi; no labels changed.
+
+Image revision: Not identified
 
 SHA-256: `7bf9cf6e637c7669f53d21c1bee6cae5dfde358e03e8fa455a51aa5477e3e250`
 
@@ -37,6 +51,8 @@ SHA-256: `7bf9cf6e637c7669f53d21c1bee6cae5dfde358e03e8fa455a51aa5477e3e250`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 2 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `df68408b82dc9d8881d88d4448705b1a96df8e9567f6307bc4c4b8dac2cbef47`
 
 ## Official full pinout - page 3
@@ -52,6 +68,8 @@ SHA-256: `df68408b82dc9d8881d88d4448705b1a96df8e9567f6307bc4c4b8dac2cbef47`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro-solutions/solutions-and-kits/portenta-machine-control/downloads/AKX00032-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/portenta-machine-control/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro-solutions/solutions-and-kits/portenta-machine-control/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro-solutions/solutions-and-kits/portenta-machine-control/downloads/AKX00032-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 3 rendered at 220 dpi; no labels changed.
+
+Image revision: Not identified
 
 SHA-256: `b0924059b624eb056948b8112fd61ac9ce27175b9c06b964a3ec3b840fede7aa`
 
@@ -69,6 +87,8 @@ SHA-256: `b0924059b624eb056948b8112fd61ac9ce27175b9c06b964a3ec3b840fede7aa`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 4 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `eab811ca93774ec426e600be203f8512c1701fd7ca619d57e6a67915473f7695`
 
 ## Official full pinout - page 5
@@ -84,6 +104,8 @@ SHA-256: `eab811ca93774ec426e600be203f8512c1701fd7ca619d57e6a67915473f7695`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro-solutions/solutions-and-kits/portenta-machine-control/downloads/AKX00032-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/portenta-machine-control/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro-solutions/solutions-and-kits/portenta-machine-control/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro-solutions/solutions-and-kits/portenta-machine-control/downloads/AKX00032-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 5 rendered at 220 dpi; no labels changed.
+
+Image revision: Not identified
 
 SHA-256: `9255f4a25238ecc441b5abb79c9955e5984ca3bcfbf903c4e46c045b66c49a2f`
 
@@ -101,6 +123,8 @@ SHA-256: `9255f4a25238ecc441b5abb79c9955e5984ca3bcfbf903c4e46c045b66c49a2f`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 11 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `7cc795113c2e0dd9ad1f421e294157d0415b71ac0dc5512a04c44899013ea628`
 
 ## Official full pinout - page 6
@@ -116,6 +140,8 @@ SHA-256: `7cc795113c2e0dd9ad1f421e294157d0415b71ac0dc5512a04c44899013ea628`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro-solutions/solutions-and-kits/portenta-machine-control/downloads/AKX00032-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/portenta-machine-control/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro-solutions/solutions-and-kits/portenta-machine-control/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro-solutions/solutions-and-kits/portenta-machine-control/downloads/AKX00032-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 6 rendered at 220 dpi; no labels changed.
+
+Image revision: Not identified
 
 SHA-256: `94c15238359e1359b42aed692f9eb20c6e14266209d6b372c9c50b7d3c0a015b`
 
@@ -133,6 +159,8 @@ SHA-256: `94c15238359e1359b42aed692f9eb20c6e14266209d6b372c9c50b7d3c0a015b`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 8 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `b7a024bc55e49ae37c32a88770de7c0575a4556193884f7a4a4b6a11c128cecd`
 
 ## Official full pinout - page 9
@@ -148,6 +176,8 @@ SHA-256: `b7a024bc55e49ae37c32a88770de7c0575a4556193884f7a4a4b6a11c128cecd`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro-solutions/solutions-and-kits/portenta-machine-control/downloads/AKX00032-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/portenta-machine-control/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro-solutions/solutions-and-kits/portenta-machine-control/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro-solutions/solutions-and-kits/portenta-machine-control/downloads/AKX00032-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 9 rendered at 220 dpi; no labels changed.
+
+Image revision: Not identified
 
 SHA-256: `7cd8ae9e423b7eff48347de5a646178c3d51b59e7d7aee2c5df121e05999108f`
 
@@ -165,6 +195,8 @@ SHA-256: `7cd8ae9e423b7eff48347de5a646178c3d51b59e7d7aee2c5df121e05999108f`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 10 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `b53971f42e456187670d13958ea67c6f26e7b103859d7671f57b56b67d6d6dfa`
 
 ## Full board pinout PDF
@@ -178,6 +210,8 @@ SHA-256: `b53971f42e456187670d13958ea67c6f26e7b103859d7671f57b56b67d6d6dfa`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro-solutions/solutions-and-kits/portenta-machine-control/downloads/AKX00032-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/portenta-machine-control/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro-solutions/solutions-and-kits/portenta-machine-control/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro-solutions/solutions-and-kits/portenta-machine-control/downloads/AKX00032-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement.
+
+Image revision: Not identified
 
 SHA-256: `047ad6e8ef672c751196d2b0c5b4b38b912fad106fd311eb7446605c700e8484`
 

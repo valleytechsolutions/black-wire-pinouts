@@ -2,10 +2,22 @@
 
 **Orange Pi** · Other SBC
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=orange-pi-other-sbc-cm4-with-expansion-board)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](http://www.orangepi.org/orangepiwiki/index.php/Orange_Pi_CM4)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## GPIO pin-function reference SBCX-048
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](http://www.orangepi.org/orangepiwiki/images/e/e0/Cm4-img253.png) · [Source 2](http://www.orangepi.org/orangepiwiki/index.php/Orange_Pi_CM4)
 
 40 Pin interface pin description
+
+Image revision: Not identified
 
 SHA-256: `689ad474ef98b95d04010785569f100b8362545f683f79a5f548684b27133296`
 
@@ -37,6 +51,8 @@ SHA-256: `689ad474ef98b95d04010785569f100b8362545f683f79a5f548684b27133296`
 
 40 Pin interface pin description
 
+Image revision: Not identified
+
 SHA-256: `057d44c3ffa106bf6104b7565f88e2b35866c54a7cb0db458d8f2926b1e9ad96`
 
 ## GPIO pin-function reference SBCX-050
@@ -53,6 +69,8 @@ SHA-256: `057d44c3ffa106bf6104b7565f88e2b35866c54a7cb0db458d8f2926b1e9ad96`
 
 40 Pin interface pin description
 
+Image revision: Not identified
+
 SHA-256: `4596b30fadcd2f0fdfd9a7c48fd25fa8e644d4f58c01c08f9ea33f19aee4e6d9`
 
 ## Header orientation and board labels
@@ -68,6 +86,8 @@ SHA-256: `4596b30fadcd2f0fdfd9a7c48fd25fa8e644d4f58c01c08f9ea33f19aee4e6d9`
 [Source 1](http://www.orangepi.org/orangepiwiki/images/d/dc/Cm4-img252.png) · [Source 2](http://www.orangepi.org/orangepiwiki/index.php/Orange_Pi_CM4)
 
 40 Pin interface pin description
+
+Image revision: Not identified
 
 SHA-256: `fa06df04fca5941ecbe1a831d05d9d08a83e7b08d075eb43d958032b768f9cd8`
 

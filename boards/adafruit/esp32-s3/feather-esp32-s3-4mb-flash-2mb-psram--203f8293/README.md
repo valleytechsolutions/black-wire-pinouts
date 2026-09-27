@@ -2,10 +2,22 @@
 
 **Adafruit** · ESP32-S3
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=adafruit-esp32-feather-esp32-s3-4mb-flash-2mb-psram)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://learn.adafruit.com/adafruit-esp32-s3-feather/pinouts)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout reference - PDF page 1
 
@@ -21,6 +33,8 @@ Coverage: Pinout image collected
 
 Discovered from CircuitPython board metadata and the linked product/documentation page. Exact hardware revision requires matching to the diagram. Page is shared with: Feather ESP32-S3 8MB Flash No PSRAM. Original PDF page 1 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `f2db52757f37a9868510bbbe85485e7dc87598d6ca493b2c482c6d328234f8ac`
 
 ## Physical board pinout
@@ -34,6 +48,8 @@ SHA-256: `f2db52757f37a9868510bbbe85485e7dc87598d6ca493b2c482c6d328234f8ac`
 [Source 1](https://raw.githubusercontent.com/adafruit/Adafruit-Feather-ESP32-S3-PCB/main/Adafruit%20Feather%20ESP32-S3%20Pinout.pdf) · [Source 2](https://learn.adafruit.com/adafruit-esp32-s3-feather/pinouts)
 
 Discovered from CircuitPython board metadata and the linked product/documentation page. Exact hardware revision requires matching to the diagram. Page is shared with: Feather ESP32-S3 8MB Flash No PSRAM.
+
+Image revision: Not identified
 
 SHA-256: `41b8de067929ee3ad1d601bfa220d2ccf97621d733fa10dc374ad2daa696d811`
 

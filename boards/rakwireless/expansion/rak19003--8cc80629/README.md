@@ -2,10 +2,22 @@
 
 **RAKwireless** · Expansion
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Partial pinout collected; full reference still needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=rakwireless-expansion-rak19003)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.rakwireless.com/product-categories/wisblock/rak19003/datasheet/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## RAK19003 Top View Components
 
@@ -13,7 +25,9 @@ Coverage: Partial pinout collected; full reference still needed
 
 [![RAK19003 reference preview](../../../../library/thumbs/f7b9b28a6c10ae634758324e238ac0002f0795b89820091ff742d5ccc123951f.webp)](../../../../library/media/f7b9b28a6c10ae634758324e238ac0002f0795b89820091ff742d5ccc123951f.png)
 
-[Open original reference](../../../../library/media/f7b9b28a6c10ae634758324e238ac0002f0795b89820091ff742d5ccc123951f.png) · [Original vector](../../../../library/media/cb6655ee70649cdbd26fca5866fb0f9ec4ee411d97cc1d83669834fb7d8a1410.svg)
+[Open original reference](../../../../library/media/f7b9b28a6c10ae634758324e238ac0002f0795b89820091ff742d5ccc123951f.png)
+
+[Original vector companion](../../../../library/media/cb6655ee70649cdbd26fca5866fb0f9ec4ee411d97cc1d83669834fb7d8a1410.svg)
 
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: RAKwireless.
 
@@ -21,7 +35,7 @@ Coverage: Partial pinout collected; full reference still needed
 
 Raster rendering of the original manufacturer SVG at 240 DPI, fitted within 3000 pixels. Original vector retained. Labels have not been redrawn. Physical PCB/module pads or named board connector. Module entries are radio PCBs, not bare IC package pinouts. Check model suffix and radio band. Only the shown headers or battery connector are covered.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `f7b9b28a6c10ae634758324e238ac0002f0795b89820091ff742d5ccc123951f`
 

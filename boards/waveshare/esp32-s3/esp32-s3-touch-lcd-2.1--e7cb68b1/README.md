@@ -2,10 +2,22 @@
 
 **Waveshare** · ESP32-S3
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=waveshare-esp32-esp32-s3-touch-lcd-2-1)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://www.waveshare.com/esp32-s3-touch-lcd-2.1.htm)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://www.waveshare.com/img/devkit/ESP32-S3-Touch-LCD-2.1/ESP32-S3-Touch-LCD-2.1-details-7.jpg) · [Source 2](https://www.waveshare.com/esp32-s3-touch-lcd-2.1.htm)
+
+
+
+Image revision: Not identified
 
 SHA-256: `1d171eaaee82e461152c70b7b4be2e09a64dc88bd29fd7b9d3619d53802b006f`
 
@@ -33,6 +49,10 @@ SHA-256: `1d171eaaee82e461152c70b7b4be2e09a64dc88bd29fd7b9d3619d53802b006f`
 
 [Source 1](https://docs.waveshare.com/assets/images/ESP32-S3-Touch-LCD-2.1-Interface-a320a8256931ce1213f30e0c645fcf22.webp) · [Source 2](https://docs.waveshare.com/ESP32-S3-Touch-LCD-2.1)
 
+
+
+Image revision: Not identified
+
 SHA-256: `ecedefddfbecb229010e09320a39cc672bf2a624764c0c5a5a7d81844c561802`
 
 ## Pinout
@@ -46,6 +66,10 @@ SHA-256: `ecedefddfbecb229010e09320a39cc672bf2a624764c0c5a5a7d81844c561802`
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://www.waveshare.com/w/upload/a/aa/ESP32-S3-Touch-LCD-2.1-introduction-02.png) · [Source 2](https://www.waveshare.com/wiki/ESP32-S3-Touch-LCD-2.1)
+
+
+
+Image revision: Not identified
 
 SHA-256: `35f1a6ab777634321597c2b14e0301c2e5e5a7f8c7e6beb382a6b5c929154d89`
 

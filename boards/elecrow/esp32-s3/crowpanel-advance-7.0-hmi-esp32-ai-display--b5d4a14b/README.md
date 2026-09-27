@@ -2,10 +2,22 @@
 
 **Elecrow** · ESP32-S3
 
-Revision: Advance series V1.0 printed on PCB diagram  
+Revision: Advance series V1.0 printed on PCB diagram
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=elecrow-esp32-crowpanel-advance-7-0-hmi-esp32-ai-display)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://www.elecrow.com/wiki/ESP32_Display-7.0_inch%28Advance_Series%29wiki.html)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Board pin map
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://www.elecrow.com/wiki/assets/images/ESP32_Display-7.0_inch%28Advance_Series%29wiki/advance-7.0-1.webp) · [Source 2](https://www.elecrow.com/wiki/ESP32_Display-7.0_inch%28Advance_Series%29wiki.html)
 
 Manufacturer image preserved. Match the depicted board and revision before use.
+
+Image revision: Advance series V1.0 printed on PCB diagram
 
 SHA-256: `3cd890448c5da8d4fb98fd462c830437e9d374cf4f318e65926b233679b037f5`
 

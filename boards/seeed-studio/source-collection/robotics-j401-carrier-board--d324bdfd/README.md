@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-5d54dc68faf9496bcc)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/recomputer_jetson_robotics_j401_getting_started/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Hardware Overview (Bottom)
 
@@ -17,7 +29,11 @@ Coverage: Source collection; review pending
 
 **Credit and rights:** Source rights not yet established. Source/manufacturer: Seeed Studio.
 
+
+
 Original source index: Hardware Overview (Bottom). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `460875552735deac00f1268e62bc9836b1d42b26f86b5879ee3b58814201f426`
 
@@ -35,6 +51,8 @@ SHA-256: `460875552735deac00f1268e62bc9836b1d42b26f86b5879ee3b58814201f426`
 
 Original source index: Hardware Overview (Front). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `6a93874b9744e394be677830ac892bcca71487d307858b02afcf3874c6a4a3d5`
 
 ## Hardware Overview (Front)
@@ -47,7 +65,11 @@ SHA-256: `6a93874b9744e394be677830ac892bcca71487d307858b02afcf3874c6a4a3d5`
 
 **Credit and rights:** Source rights not yet established. Source/manufacturer: Seeed Studio.
 
+
+
 Original source index: Hardware Overview (Front). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `a2fae86cb9b042fda27ed4d4da5b862ee232c59c14c3d054fda01e820bce8fcf`
 
@@ -61,7 +83,11 @@ SHA-256: `a2fae86cb9b042fda27ed4d4da5b862ee232c59c14c3d054fda01e820bce8fcf`
 
 **Credit and rights:** Source rights not yet established. Source/manufacturer: Seeed Studio.
 
+
+
 Original source index: Hardware Overview (Top). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `1cbf62e2eba6f7b582003319ea3bc995f7b8fd0c358f87d01e2224ba938a8e44`
 
@@ -79,6 +105,8 @@ SHA-256: `1cbf62e2eba6f7b582003319ea3bc995f7b8fd0c358f87d01e2224ba938a8e44`
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `d5486081e216748214d994e1016b667f96f98c81be13d2e427c858d7fc8a3d0e`
 
 ## Pin Definition Table (CAN1 Header)
@@ -91,7 +119,11 @@ SHA-256: `d5486081e216748214d994e1016b667f96f98c81be13d2e427c858d7fc8a3d0e`
 
 **Credit and rights:** Source rights not yet established. Source/manufacturer: Seeed Studio.
 
+
+
 Original source index: Pin Definition Table (CAN1 Header). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `1501e8d95049622c340dd8295fc63c25b153be5c5d2baa62cfb4ac78fde9c0d7`
 

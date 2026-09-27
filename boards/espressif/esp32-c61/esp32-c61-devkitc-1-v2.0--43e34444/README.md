@@ -2,10 +2,22 @@
 
 **Espressif** · ESP32-C61
 
-Revision: Source filename: esp32-c61-devkitc-1-pin-layout-v2.png  
+Revision: Source filename: esp32-c61-devkitc-1-pin-layout-v2.png
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=espressif-esp32-esp32-c61-devkitc-1-v2-0)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Manufacturer board pin layout
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Espressif.
 
 [Source 1](https://raw.githubusercontent.com/espressif/esp-dev-kits/ab7aff2e0c171e6918c88555b700798f36caeb67/docs/_static/esp32-c61-devkitc-1/esp32-c61-devkitc-1-pin-layout-v2.png) · [Source 2](https://github.com/espressif/esp-dev-kits/blob/ab7aff2e0c171e6918c88555b700798f36caeb67/docs/_static/esp32-c61-devkitc-1/esp32-c61-devkitc-1-pin-layout-v2.png)
+
+
+
+Image revision: Source filename: esp32-c61-devkitc-1-pin-layout-v2.png
 
 SHA-256: `7baf5f6a70c568f4328ba9d0212f7ad179e8fd9f278ef66a9e7a812c353b380e`
 

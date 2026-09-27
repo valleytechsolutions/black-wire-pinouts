@@ -2,10 +2,22 @@
 
 **Waveshare** · ESP32-C3
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=waveshare-esp32-esp32-c3-zero)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://www.waveshare.com/esp32-c3-zero.htm)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://www.waveshare.com/img/devkit/ESP32-C3-Zero/ESP32-C3-Zero-details-inter.jpg) · [Source 2](https://www.waveshare.com/esp32-c3-zero.htm)
+
+
+
+Image revision: Not identified
 
 SHA-256: `00deae7a8ede452a7e24c5ccb22deb68cc3fcdc21721a62d64cb8dc1a0c32068`
 
@@ -32,6 +48,10 @@ SHA-256: `00deae7a8ede452a7e24c5ccb22deb68cc3fcdc21721a62d64cb8dc1a0c32068`
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://docs.waveshare.com/assets/images/ESP32-C3-Zero-Pinout-c3426b401a37b8255c56fe67d09708d6.webp) · [Source 2](https://docs.waveshare.com/ESP32-C3-Zero) · [Source 3](https://docs.waveshare.com/ESP32-C3-Zero )
+
+
+
+Image revision: Not identified
 
 SHA-256: `a97d848e3aea91918714771d1e59a8d9b81b1aa5673f8254ca1f1decde08a3fc`
 
@@ -48,6 +68,8 @@ SHA-256: `a97d848e3aea91918714771d1e59a8d9b81b1aa5673f8254ca1f1decde08a3fc`
 [Source 1](https://mischianti.org/wp-content/uploads/2025/07/ESP32-C3-ZERO-Waveshare-pinout-low.jpg) · [Source 2](https://mischianti.org/waveshare-esp32-c3-zero-high-resolution-pinout-datasheet-and-specs/)
 
 Original public image by Renzo Mischianti, unchanged. Diagram/model matching is visual, not electrical verification. Exact PCB layout and revision must match; no inference of compatibility with lookalike marketplace clones.
+
+Image revision: Not identified
 
 SHA-256: `2e9014c777593b6ab7556f665046e7d935ac659346df60c77da90cd0c0dfe836`
 

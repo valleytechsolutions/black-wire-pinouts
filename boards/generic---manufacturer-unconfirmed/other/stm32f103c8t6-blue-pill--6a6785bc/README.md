@@ -2,10 +2,22 @@
 
 **Generic - manufacturer unconfirmed** · Other
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=generic-manufacturer-unconfirmed-other-stm32f103c8t6-blue-pill)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout - Renzo Mischianti
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://mischianti.org/wp-content/uploads/2022/02/STM32-STM32F1-STM32F103-STM32F103C8T6-pinout-low-resolution.jpg) · [Source 2](https://mischianti.org/stm32f103c8t6-blue-pill-high-resolution-pinout-and-specs/)
 
 Original public image by Renzo Mischianti, unchanged. Diagram/model matching is visual, not electrical verification. Exact PCB layout and revision must match; no inference of compatibility with lookalike marketplace clones. No verified manufacturer attribution; marketplace seller and board designer are not assumed to be the same.
+
+Image revision: Not identified
 
 SHA-256: `f048d899fdf2a2822ed354cfa10feb6769163ab5accbdafed0ae190dd314559f`
 

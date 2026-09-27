@@ -2,10 +2,22 @@
 
 **Elecrow** · ESP32 original
 
-Revision: V2.0 printed on PCB diagram  
+Revision: V2.0 printed on PCB diagram
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=elecrow-esp32-crowpanel-esp32-hmi-3-5-inch-display)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://www.elecrow.com/wiki/esp32-display-352727-intelligent-touch-screen-wi-fi26ble-320480-hmi-display.html)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Board pin map
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://www.elecrow.com/wiki/assets/images/CrowPanel_ESP32_HMI_3.5-inch_Display/CrowPanel-ESP32-3-5inch-pinout.webp) · [Source 2](https://www.elecrow.com/wiki/esp32-display-352727-intelligent-touch-screen-wi-fi26ble-320480-hmi-display.html)
 
 Manufacturer image preserved. Match the depicted board and revision before use.
+
+Image revision: V2.0 printed on PCB diagram
 
 SHA-256: `f2bda2ae9694bca808132bc8ce6249bba49f7e16ca341c553f60f42482d3e9ea`
 

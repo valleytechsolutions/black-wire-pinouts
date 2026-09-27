@@ -1,14 +1,14 @@
 {
   "checked": "2026-09-26",
-  "listingCount": 3015,
+  "listingCount": 3090,
   "countsAreListingsNotUniqueHardware": true,
   "completeDeviceApprovals": 0,
   "summary": {
     "board": {
-      "pinout-source": 986,
-      "reference-only": 818,
-      "missing": 707,
-      "functions-only": 3
+      "pinout-source": 1000,
+      "reference-only": 881,
+      "missing": 699,
+      "functions-only": 9
     },
     "maker": {
       "pinout-source": 166,
@@ -18481,15 +18481,14 @@
       "name": "Jetson AGX Orin Developer Kit",
       "brand": "NVIDIA",
       "kind": "board",
-      "status": "missing",
-      "physicalCount": 0,
+      "status": "pinout-source",
+      "physicalCount": 1,
       "functionTableCount": 0,
       "functionSheetCount": 0,
       "purposeRows": 0,
       "completeDeviceApproved": false,
-      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "scope": "Source pinout available; check its connector scope and revision. All-pin completeness has not been independently approved.",
       "missing": [
-        "Physical connector map",
         "Independent all-connector completeness review",
         "Revision match and electrical limits"
       ]
@@ -18499,13 +18498,13 @@
       "name": "Jetson AGX Thor Developer Kit",
       "brand": "NVIDIA",
       "kind": "board",
-      "status": "missing",
+      "status": "functions-only",
       "physicalCount": 0,
-      "functionTableCount": 0,
-      "functionSheetCount": 0,
+      "functionTableCount": 2,
+      "functionSheetCount": 2,
       "purposeRows": 0,
       "completeDeviceApproved": false,
-      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "scope": "Pin functions documented; use the matching source image to locate the connector. Physical order is not established by a function table.",
       "missing": [
         "Physical connector map",
         "Independent all-connector completeness review",
@@ -18517,7 +18516,7 @@
       "name": "Jetson AGX Xavier Developer Kit",
       "brand": "NVIDIA",
       "kind": "board",
-      "status": "missing",
+      "status": "reference-only",
       "physicalCount": 0,
       "functionTableCount": 0,
       "functionSheetCount": 0,
@@ -18535,7 +18534,7 @@
       "name": "Jetson Nano 2GB Developer Kit",
       "brand": "NVIDIA",
       "kind": "board",
-      "status": "missing",
+      "status": "reference-only",
       "physicalCount": 0,
       "functionTableCount": 0,
       "functionSheetCount": 0,
@@ -18553,7 +18552,7 @@
       "name": "Jetson Nano Developer Kit",
       "brand": "NVIDIA",
       "kind": "board",
-      "status": "missing",
+      "status": "reference-only",
       "physicalCount": 0,
       "functionTableCount": 0,
       "functionSheetCount": 0,
@@ -18571,15 +18570,14 @@
       "name": "Jetson Orin Nano Developer Kit",
       "brand": "NVIDIA",
       "kind": "board",
-      "status": "missing",
-      "physicalCount": 0,
+      "status": "pinout-source",
+      "physicalCount": 1,
       "functionTableCount": 0,
       "functionSheetCount": 0,
       "purposeRows": 0,
       "completeDeviceApproved": false,
-      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "scope": "Source pinout available; check its connector scope and revision. All-pin completeness has not been independently approved.",
       "missing": [
-        "Physical connector map",
         "Independent all-connector completeness review",
         "Revision match and electrical limits"
       ]
@@ -18589,7 +18587,7 @@
       "name": "Jetson Xavier NX Developer Kit",
       "brand": "NVIDIA",
       "kind": "board",
-      "status": "missing",
+      "status": "reference-only",
       "physicalCount": 0,
       "functionTableCount": 0,
       "functionSheetCount": 0,
@@ -29781,13 +29779,13 @@
       "name": "Compute Module 4 IO Board",
       "brand": "Raspberry Pi",
       "kind": "board",
-      "status": "missing",
+      "status": "functions-only",
       "physicalCount": 0,
-      "functionTableCount": 0,
-      "functionSheetCount": 0,
+      "functionTableCount": 1,
+      "functionSheetCount": 1,
       "purposeRows": 0,
       "completeDeviceApproved": false,
-      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "scope": "Pin functions documented; use the matching source image to locate the connector. Physical order is not established by a function table.",
       "missing": [
         "Physical connector map",
         "Independent all-connector completeness review",
@@ -44280,6 +44278,1344 @@
       "completeDeviceApproved": false,
       "scope": "Source pinout available; check its connector scope and revision. All-pin completeness has not been independently approved.",
       "missing": [
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopc-t1",
+      "name": "NanoPC-T1",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "pinout-source",
+      "physicalCount": 1,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Source pinout available; check its connector scope and revision. All-pin completeness has not been independently approved.",
+      "missing": [
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopc-t2",
+      "name": "NanoPC-T2",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopc-t3",
+      "name": "NanoPC-T3",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopc-t3-plus",
+      "name": "NanoPC-T3 Plus",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopc-t4",
+      "name": "NanoPC-T4",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-2",
+      "name": "NanoPi 2",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-2-fire",
+      "name": "NanoPi 2 Fire",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-fire2a",
+      "name": "NanoPi Fire2A",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-fire3",
+      "name": "NanoPi Fire3",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-s2",
+      "name": "NanoPi S2",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-a64",
+      "name": "NanoPi A64",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-duo",
+      "name": "NanoPi Duo",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "pinout-source",
+      "physicalCount": 1,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Source pinout available; check its connector scope and revision. All-pin completeness has not been independently approved.",
+      "missing": [
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-duo2",
+      "name": "NanoPi Duo2",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "pinout-source",
+      "physicalCount": 1,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Source pinout available; check its connector scope and revision. All-pin completeness has not been independently approved.",
+      "missing": [
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-k2",
+      "name": "NanoPi K2",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-m1",
+      "name": "NanoPi M1",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-m1-plus",
+      "name": "NanoPi M1 Plus",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-m2",
+      "name": "NanoPi M2",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-m2a",
+      "name": "NanoPi M2A",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-m3",
+      "name": "NanoPi M3",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-m4-4gb",
+      "name": "NanoPi M4 4GB",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-m4-2gb",
+      "name": "NanoPi M4 2GB",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-m4v2",
+      "name": "NanoPi M4V2",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-m4b",
+      "name": "NanoPi M4B",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-neo",
+      "name": "NanoPi NEO",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "pinout-source",
+      "physicalCount": 1,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Source pinout available; check its connector scope and revision. All-pin completeness has not been independently approved.",
+      "missing": [
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-neo2",
+      "name": "NanoPi NEO2",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "pinout-source",
+      "physicalCount": 1,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Source pinout available; check its connector scope and revision. All-pin completeness has not been independently approved.",
+      "missing": [
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-neo2-black",
+      "name": "NanoPi NEO2 Black",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-neo3",
+      "name": "NanoPi NEO3",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-neo-air",
+      "name": "NanoPi NEO Air",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "pinout-source",
+      "physicalCount": 1,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Source pinout available; check its connector scope and revision. All-pin completeness has not been independently approved.",
+      "missing": [
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-neo-core",
+      "name": "NanoPi NEO Core",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "pinout-source",
+      "physicalCount": 1,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Source pinout available; check its connector scope and revision. All-pin completeness has not been independently approved.",
+      "missing": [
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-neo-core2",
+      "name": "NanoPi NEO Core2",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "pinout-source",
+      "physicalCount": 1,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Source pinout available; check its connector scope and revision. All-pin completeness has not been independently approved.",
+      "missing": [
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-neo-plus2",
+      "name": "NanoPi NEO Plus2",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "pinout-source",
+      "physicalCount": 1,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Source pinout available; check its connector scope and revision. All-pin completeness has not been independently approved.",
+      "missing": [
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-r1",
+      "name": "NanoPi R1",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-r1s-h3",
+      "name": "NanoPi R1S-H3",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-r1s-h5",
+      "name": "NanoPi R1S-H5",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-r2s",
+      "name": "NanoPi R2S",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-r2c",
+      "name": "NanoPi R2C",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-r2c-plus",
+      "name": "NanoPi R2C Plus",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-r2s-plus",
+      "name": "NanoPi R2S Plus",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-r4s-1gb",
+      "name": "NanoPi R4S 1GB",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-r4s-4gb",
+      "name": "NanoPi R4S 4GB",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-r4se",
+      "name": "NanoPi R4SE",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-r5s",
+      "name": "NanoPi R5S",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-r5c",
+      "name": "NanoPi R5C",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-r6s",
+      "name": "NanoPi R6S",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-r6c",
+      "name": "NanoPi R6C",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopc-t6-lts",
+      "name": "NanoPC-T6 LTS",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopc-t6",
+      "name": "NanoPC-T6",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-m6",
+      "name": "NanoPi M6",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-r3s-lts",
+      "name": "NanoPi R3S LTS",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-zero2",
+      "name": "NanoPi Zero2",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "functions-only",
+      "physicalCount": 0,
+      "functionTableCount": 1,
+      "functionSheetCount": 1,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Pin functions documented; use the matching source image to locate the connector. Physical order is not established by a function table.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-m5-lpddr5",
+      "name": "NanoPi M5 LPDDR5",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-m5-lpddr4x",
+      "name": "NanoPi M5 LPDDR4X",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-r76s",
+      "name": "NanoPi R76S",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "functions-only",
+      "physicalCount": 0,
+      "functionTableCount": 1,
+      "functionSheetCount": 1,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Pin functions documented; use the matching source image to locate the connector. Physical order is not established by a function table.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopc-t6-plus",
+      "name": "NanoPC-T6 Plus",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-neo3-plus",
+      "name": "NanoPi NEO3 Plus",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-r28s",
+      "name": "NanoPi R28S",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-smart4418",
+      "name": "Smart4418",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-smart6818",
+      "name": "Smart6818",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-cm3588",
+      "name": "CM3588",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-cm3588-plus",
+      "name": "CM3588 Plus",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-smart210-smart4418-sdk-1305",
+      "name": "Smart210 / Smart4418 SDK 1305",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-smart4418sdk-1606",
+      "name": "Smart4418SDK 1606",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-smart4418-6818sdk-v2",
+      "name": "Smart4418/6818SDK V2",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-cm3588-nas-kit",
+      "name": "CM3588 NAS Kit",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-duo2-iot-box",
+      "name": "NanoPi Duo2 IoT-Box",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-m4-sata-hat",
+      "name": "NanoPi M4 SATA HAT",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-k1-plus",
+      "name": "NanoPi K1 Plus",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-neo4",
+      "name": "NanoPi NEO4",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "friendlyelec-nanopi-m6v2",
+      "name": "NanoPi M6V2",
+      "brand": "FriendlyELEC",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "nvidia-jetson-tx2-developer-kit",
+      "name": "Jetson TX2 Developer Kit",
+      "brand": "NVIDIA",
+      "kind": "board",
+      "status": "functions-only",
+      "physicalCount": 0,
+      "functionTableCount": 2,
+      "functionSheetCount": 2,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Pin functions documented; use the matching source image to locate the connector. Physical order is not established by a function table.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "raspberry-pi-compute-module-5-io-board",
+      "name": "Compute Module 5 IO Board",
+      "brand": "Raspberry Pi",
+      "kind": "board",
+      "status": "functions-only",
+      "physicalCount": 0,
+      "functionTableCount": 1,
+      "functionSheetCount": 1,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Pin functions documented; use the matching source image to locate the connector. Physical order is not established by a function table.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "olimex-rk3188-som-evb",
+      "name": "RK3188-SOM-EVB",
+      "brand": "Olimex",
+      "kind": "board",
+      "status": "pinout-source",
+      "physicalCount": 1,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Source pinout available; check its connector scope and revision. All-pin completeness has not been independently approved.",
+      "missing": [
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "olimex-am3352-som",
+      "name": "AM3352-SOM",
+      "brand": "Olimex",
+      "kind": "board",
+      "status": "pinout-source",
+      "physicalCount": 2,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Source pinout available; check its connector scope and revision. All-pin completeness has not been independently approved.",
+      "missing": [
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "rakwireless-rak13002-wisblock-io-module",
+      "name": "RAK13002 WisBlock IO Module",
+      "brand": "RAKwireless",
+      "kind": "board",
+      "status": "pinout-source",
+      "physicalCount": 1,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Source pinout available; check its connector scope and revision. All-pin completeness has not been independently approved.",
+      "missing": [
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "antmicro-jetson-orin-baseboard",
+      "name": "Jetson Orin Baseboard",
+      "brand": "Antmicro",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
         "Independent all-connector completeness review",
         "Revision match and electrical limits"
       ]

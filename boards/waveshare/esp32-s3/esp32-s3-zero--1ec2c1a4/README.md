@@ -2,10 +2,22 @@
 
 **Waveshare** · ESP32-S3
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=waveshare-esp32-esp32-s3-zero)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://www.waveshare.com/esp32-s3-zero.htm)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://www.waveshare.com/img/devkit/ESP32-S3-Zero/ESP32-S3-Zero-details-inter.jpg) · [Source 2](https://www.waveshare.com/esp32-s3-zero.htm)
+
+
+
+Image revision: Not identified
 
 SHA-256: `613767333bbc154450d320508ce03e438f2ef8aa239afa22dc3d4458b873e8a7`
 
@@ -33,6 +49,10 @@ SHA-256: `613767333bbc154450d320508ce03e438f2ef8aa239afa22dc3d4458b873e8a7`
 
 [Source 1](https://docs.waveshare.com/assets/images/ESP32-S3-Zero-Pinout-10a4868b32f9da9005e87b2d9d84574e.webp) · [Source 2](https://docs.waveshare.com/ESP32-S3-Zero)
 
+
+
+Image revision: Not identified
+
 SHA-256: `0df7f252e55d66721df03cd248f02cec854ba2e6f04af637d33372fa570a1947`
 
 ## Pinout
@@ -46,6 +66,10 @@ SHA-256: `0df7f252e55d66721df03cd248f02cec854ba2e6f04af637d33372fa570a1947`
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://www.waveshare.com/w/upload/8/87/ESP32-S3-Zero-details-inter.jpg) · [Source 2](https://www.waveshare.com/wiki/ESP32-S3-Zero)
+
+
+
+Image revision: Not identified
 
 SHA-256: `ba5ad1b550198324fecb00337401689d40f69b9f84ae3d0fbab69d58e2fcfc43`
 
@@ -62,6 +86,8 @@ SHA-256: `ba5ad1b550198324fecb00337401689d40f69b9f84ae3d0fbab69d58e2fcfc43`
 [Source 1](https://mischianti.org/wp-content/uploads/2025/07/esp32-S3-Zero-Waveshare-pinout-low.jpg) · [Source 2](https://mischianti.org/waveshare-esp32-s3-zero-high-resolution-datasheet-pinout-and-specs/)
 
 Original public image by Renzo Mischianti, unchanged. Diagram/model matching is visual, not electrical verification. Exact PCB layout and revision must match; no inference of compatibility with lookalike marketplace clones.
+
+Image revision: Not identified
 
 SHA-256: `a66daef7d28692a96d32700f2abed5122298c2788b79474c7fd975187b015092`
 

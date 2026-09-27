@@ -2,10 +2,22 @@
 
 **LILYGO** · ESP32-S3
 
-Revision: Multiple source/revision records; see individual assets  
+Revision: Multiple source/revision records; see individual assets
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lilygo-esp32-t7-s3)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.lilygo.cc/products/t7-series/t7-s3/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Board pin map
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://wiki.lilygo.cc/products/t7-series/t7-s3/index/image/t7-s3-pinout.jpg) · [Source 2](https://wiki.lilygo.cc/products/t7-series/t7-s3/)
 
 Manufacturer image preserved. Match the depicted board and revision before use.
+
+Image revision: Not identified
 
 SHA-256: `6a7b62160c6b18ac275a4c2946cbd2af2711bb6f265f4b9954585a9b37ebab51`
 
@@ -36,6 +50,8 @@ SHA-256: `6a7b62160c6b18ac275a4c2946cbd2af2711bb6f265f4b9954585a9b37ebab51`
 [Source 1](https://raw.githubusercontent.com/Xinyuan-LilyGO/T7-S3/6da73f50a73dcb9cc86283cce1bf64d1c0d03620/assets/image/t7-s3_v1.1_pinmap.jpg) · [Source 2](https://github.com/Xinyuan-LilyGO/T7-S3/blob/6da73f50a73dcb9cc86283cce1bf64d1c0d03620/assets/image/t7-s3_v1.1_pinmap.jpg)
 
 V1.1 shown
+
+Image revision: V1.1 shown
 
 SHA-256: `c6b101918b9aad3fc5023daffcc83c13207752eaedfe3ad36beb48e5876dd684`
 

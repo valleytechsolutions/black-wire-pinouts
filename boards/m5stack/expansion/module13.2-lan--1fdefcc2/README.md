@@ -2,10 +2,22 @@
 
 **M5Stack** · Expansion
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Partial pinout collected; full reference still needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=m5stack-expansion-module13-2-lan)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.m5stack.com/en/module/LAN%20Module%2013.2)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -21,7 +33,7 @@ Coverage: Partial pinout collected; full reference still needed
 
 Imported from existing M5Stack Board Reference; original working path preserved. Only the named connector or subsection is covered.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `673be65512a92b4543eff73255b9ef4ede1262f132a79bc40b0c2e570ef803a6`
 
@@ -38,6 +50,8 @@ SHA-256: `673be65512a92b4543eff73255b9ef4ede1262f132a79bc40b0c2e570ef803a6`
 [Source 1](https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/957/lan-module_page_01.png) · [Source 2](https://docs.m5stack.com/en/module/LAN%20Module%2013.2)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `fa3d8e7857a4f8caa7b492fe23be10c0ac6d305431deb96ce8991687dc7a6eff`
 

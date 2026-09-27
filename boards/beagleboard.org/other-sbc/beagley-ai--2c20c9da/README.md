@@ -10,6 +10,17 @@ Coverage: Pinout image collected
 
 Architecture: **ARM**
 
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.beagleboard.org/boards/beagley/ai/index.html)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
+
 ## Specifications and hardware documentation
 
 - [Manufacturer hardware documentation](https://docs.beagleboard.org/boards/beagley/ai/index.html)

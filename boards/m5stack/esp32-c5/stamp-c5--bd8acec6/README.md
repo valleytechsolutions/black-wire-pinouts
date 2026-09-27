@@ -2,10 +2,22 @@
 
 **M5Stack** · ESP32-C5
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=m5stack-esp32-stamp-c5)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.m5stack.com/en/core/Stamp-C5)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Board pinout
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: M5Stack.
 
 [Source 1](https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1258/S016-Stamp-C5-Pinmap.jpg) · [Source 2](https://docs.m5stack.com/en/core/Stamp-C5)
+
+
+
+Image revision: Not identified
 
 SHA-256: `0436f93598621571844b245dc3ba8d6f408e5734f339f28f8c458ac6edb9d26d`
 
@@ -34,6 +50,8 @@ SHA-256: `0436f93598621571844b245dc3ba8d6f408e5734f339f28f8c458ac6edb9d26d`
 [Source 1](https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1258/S016-Stamp-C5_model_size_page_01.png) · [Source 2](https://docs.m5stack.com/en/core/Stamp-C5)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `a0dc29b0d1c96f04264bfed3bf7dd3865937d5f3a512117b7cd7e67197950453`
 

@@ -2,10 +2,22 @@
 
 **Arduino** · Other
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=arduino-other-nicla-vision)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.arduino.cc/hardware/nicla-vision/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## ABX00051-pinout
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nicla/boards/nicla-vision/tutorials/user-manual/assets/ABX00051-pinout.png) · [Source 2](https://docs.arduino.cc/hardware/nicla-vision/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nicla/boards/nicla-vision/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nicla/boards/nicla-vision/tutorials/user-manual/assets/ABX00051-pinout.png)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement.
+
+Image revision: Not identified
 
 SHA-256: `44cc00277f909a98fcef03bf400478d274b6e7919c485d1cad321df75c226b53`
 
@@ -37,6 +51,8 @@ SHA-256: `44cc00277f909a98fcef03bf400478d274b6e7919c485d1cad321df75c226b53`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 1 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `fa9f48d1d029d7f75225a179ebdac083bf8338ad0387a6e8e253b7402f591cae`
 
 ## Official full pinout - page 2
@@ -52,6 +68,8 @@ SHA-256: `fa9f48d1d029d7f75225a179ebdac083bf8338ad0387a6e8e253b7402f591cae`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nicla/boards/nicla-vision/downloads/ABX00051-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/nicla-vision/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nicla/boards/nicla-vision/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nicla/boards/nicla-vision/downloads/ABX00051-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 2 rendered at 220 dpi; no labels changed.
+
+Image revision: Not identified
 
 SHA-256: `9d19f49410e0711a9ed7b7869b94608ee3795ae536157c63cf6d5c77e76db01b`
 
@@ -69,6 +87,8 @@ SHA-256: `9d19f49410e0711a9ed7b7869b94608ee3795ae536157c63cf6d5c77e76db01b`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 4 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `7bdb3b509482f90f421a3ac1f32506c891ceb8578a19bb46b3857d84b59f5101`
 
 ## Official full pinout - page 5
@@ -84,6 +104,8 @@ SHA-256: `7bdb3b509482f90f421a3ac1f32506c891ceb8578a19bb46b3857d84b59f5101`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nicla/boards/nicla-vision/downloads/ABX00051-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/nicla-vision/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nicla/boards/nicla-vision/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nicla/boards/nicla-vision/downloads/ABX00051-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 5 rendered at 220 dpi; no labels changed.
+
+Image revision: Not identified
 
 SHA-256: `6a6c76c996bb3e66a5091f970e0a48e6f4c2540090ffefbcba6ef8739b0aca72`
 
@@ -101,6 +123,8 @@ SHA-256: `6a6c76c996bb3e66a5091f970e0a48e6f4c2540090ffefbcba6ef8739b0aca72`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 7 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `ddd0ff14d6c611a2f77bcb47fd944edb2054157c67abd5efcf20f880948f1a24`
 
 ## Official full pinout - page 6
@@ -116,6 +140,8 @@ SHA-256: `ddd0ff14d6c611a2f77bcb47fd944edb2054157c67abd5efcf20f880948f1a24`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nicla/boards/nicla-vision/downloads/ABX00051-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/nicla-vision/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nicla/boards/nicla-vision/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nicla/boards/nicla-vision/downloads/ABX00051-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 6 rendered at 220 dpi; no labels changed.
+
+Image revision: Not identified
 
 SHA-256: `2a56bd312954bd8d72fc127f8b185d9934199f0f43a35502743f005faa1172b6`
 
@@ -133,6 +159,8 @@ SHA-256: `2a56bd312954bd8d72fc127f8b185d9934199f0f43a35502743f005faa1172b6`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 8 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `92320fe6e32f4600a0d8465253fd49959e47ce1c941446ef794827f031b88549`
 
 ## Official full pinout - page 9
@@ -149,6 +177,8 @@ SHA-256: `92320fe6e32f4600a0d8465253fd49959e47ce1c941446ef794827f031b88549`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 9 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `df83aa0f2bbab8cb72592292c64e0f08617bc61a082697f3a5066e184e4703c2`
 
 ## Full board pinout PDF
@@ -162,6 +192,8 @@ SHA-256: `df83aa0f2bbab8cb72592292c64e0f08617bc61a082697f3a5066e184e4703c2`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nicla/boards/nicla-vision/downloads/ABX00051-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/nicla-vision/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nicla/boards/nicla-vision/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nicla/boards/nicla-vision/downloads/ABX00051-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement.
+
+Image revision: Not identified
 
 SHA-256: `c9990c6022153559b26f360c83009b48381b767bbaed6f2e64fbab407eb164ed`
 

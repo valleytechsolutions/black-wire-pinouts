@@ -2,10 +2,22 @@
 
 **Waveshare** · ESP32-C5
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=waveshare-esp32-esp32-c5-touch-lcd-1-69)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://www.waveshare.com/esp32-c5-touch-lcd-1.69.htm)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://www.waveshare.com/img/devkit/ESP32-C5-Touch-LCD-1.69/ESP32-C5-Touch-LCD-1.69-details-inter.jpg?v=260610) · [Source 2](https://www.waveshare.com/esp32-c5-touch-lcd-1.69.htm)
+
+
+
+Image revision: Not identified
 
 SHA-256: `9dec45d4a05b43a3f7d42c83fc11c4dfb8f6df5b5007e7c5a34f7fa87edede93`
 
@@ -32,6 +48,10 @@ SHA-256: `9dec45d4a05b43a3f7d42c83fc11c4dfb8f6df5b5007e7c5a34f7fa87edede93`
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://docs.waveshare.com/assets/images/ESP32-C5-Touch-LCD-1.69-produce-02-cca271f84da2257927c827d97aeb1128.webp) · [Source 2](https://docs.waveshare.com/ESP32-C5-Touch-LCD-1.69)
+
+
+
+Image revision: Not identified
 
 SHA-256: `008bac5fd5eb8b3352ca4b4647427eef610b5234164be4e3843c0bd027f79ae8`
 

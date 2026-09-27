@@ -2,14 +2,26 @@
 
 **Seeed Studio** · Expansion
 
-Revision: Not identified  
-Coverage: Pinout image collected
+Revision: Not identified
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+Coverage: Partial connector source collected; full-device review pending
+
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-expansion-mt3620-grove-breakout)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/MT3620_Grove_Breakout/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
-**pinout image** · Reviewed source · PNG
+**pinout image** · Connector diagram visually inspected; independent electrical review pending · PNG
 
 [![MT3620 Grove Breakout reference preview](../../../../library/thumbs/17ab6d5a8f63d22a76067f8e06599d3146ffa16afe0816be5760b7a2ad6dfbf1.webp)](../../../../library/media/17ab6d5a8f63d22a76067f8e06599d3146ffa16afe0816be5760b7a2ad6dfbf1.png)
 
@@ -19,7 +31,9 @@ Coverage: Pinout image collected
 
 [Source 1](https://files.seeedstudio.com/wiki/MT3620_Grove_Breakout/img/pinmap2.png) · [Source 2](https://wiki.seeedstudio.com/MT3620_Grove_Breakout/)
 
-Imported from existing Seeed Studio Board Reference; original working path preserved.
+Physical connector/pad source reference. Only the connections shown are covered; source conflicts and exact revision still require technical review.
+
+Image revision: Not identified
 
 SHA-256: `17ab6d5a8f63d22a76067f8e06599d3146ffa16afe0816be5760b7a2ad6dfbf1`
 
@@ -37,6 +51,8 @@ SHA-256: `17ab6d5a8f63d22a76067f8e06599d3146ffa16afe0816be5760b7a2ad6dfbf1`
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
 
+Image revision: Not identified
+
 SHA-256: `a73c3840d65ce9ccd482ade2e62cabbc3ce5b52175582dcbb1a02186b23fe3a4`
 
 ## Hardware Overview (Front)
@@ -53,6 +69,8 @@ SHA-256: `a73c3840d65ce9ccd482ade2e62cabbc3ce5b52175582dcbb1a02186b23fe3a4`
 
 Original source index: Hardware Overview (Front). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `d56184aac5c68f2e76f647fae3785a13a86891fc49d94b0a24a34ae827ad31a6`
 
 ## Hardware Overview
@@ -68,6 +86,8 @@ SHA-256: `d56184aac5c68f2e76f647fae3785a13a86891fc49d94b0a24a34ae827ad31a6`
 [Source 1](https://files.seeedstudio.com/wiki/MT3620_Grove_Breakout/img/103100123_hardware_overview.png) · [Source 2](https://wiki.seeedstudio.com/MT3620_Grove_Breakout/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `720398648c58ecb75790cb3d1975448bd97f3a8c09435a203e3400593387c612`
 

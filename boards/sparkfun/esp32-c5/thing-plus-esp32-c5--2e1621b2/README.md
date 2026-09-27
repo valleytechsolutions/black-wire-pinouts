@@ -10,6 +10,17 @@ Coverage: Supporting reference collected; physical pinout still needed
 
 Architecture: **RISC-V**
 
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **still needed**.
+
+[Manufacturer source (recorded link)](https://docs.sparkfun.com/SparkFun_Thing_Plus_ESP32-C5/hardware/hardware_overview)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
+
 ## Specifications and hardware documentation
 
 - [Specifications & hardware guide](https://docs.sparkfun.com/SparkFun_Thing_Plus_ESP32-C5/hardware/hardware_overview)

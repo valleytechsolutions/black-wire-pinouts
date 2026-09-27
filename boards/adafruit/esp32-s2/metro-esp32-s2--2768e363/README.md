@@ -2,10 +2,22 @@
 
 **Adafruit** · ESP32-S2
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=adafruit-esp32-metro-esp32-s2)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://learn.adafruit.com/adafruit-metro-esp32-s2/pinouts)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout reference - PDF page 1
 
@@ -21,6 +33,8 @@ Coverage: Pinout image collected
 
 Discovered from CircuitPython board metadata and the linked product/documentation page. Exact hardware revision requires matching to the diagram. Original PDF page 1 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `9282d0e9df6e946f64a8a5ea376a2a25bc1b95cf7630a42df9b393f2e1319b51`
 
 ## Physical board pinout
@@ -34,6 +48,8 @@ SHA-256: `9282d0e9df6e946f64a8a5ea376a2a25bc1b95cf7630a42df9b393f2e1319b51`
 [Source 1](https://raw.githubusercontent.com/adafruit/Adafruit-Metro-ESP32-S2-PCB/master/Adafruit%20Metro%20ESP32-S2%20pinout.pdf) · [Source 2](https://learn.adafruit.com/adafruit-metro-esp32-s2/pinouts)
 
 Discovered from CircuitPython board metadata and the linked product/documentation page. Exact hardware revision requires matching to the diagram.
+
+Image revision: Not identified
 
 SHA-256: `a69391ab5d46dde1d10c7e7491b4b5a0279f29bb8a742e59025406303ef7fdc4`
 

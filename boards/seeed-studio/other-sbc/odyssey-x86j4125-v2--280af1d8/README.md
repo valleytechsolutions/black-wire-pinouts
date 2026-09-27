@@ -10,6 +10,17 @@ Coverage: Pinout image collected
 
 Architecture: **x86**
 
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/ODYSSEY-X86J4105/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
+
 ## Specifications and hardware documentation
 
 - [Manufacturer hardware documentation](https://wiki.seeedstudio.com/ODYSSEY-X86J4105/)

@@ -2,10 +2,22 @@
 
 **Pimoroni** · RP2350
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=pimoroni-rp2350-pga2350)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://shop.pimoroni.com/products/pga2350)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Manufacturer pinout sheet
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Pimoroni.
 
 [Source 1](https://cdn.shopify.com/s/files/1/0174/1800/files/pga2350_pinout_diagram.png?v=1723124466) · [Source 2](https://shop.pimoroni.com/products/pga2350)
+
+
+
+Image revision: Not identified
 
 SHA-256: `7f3e6a7fbdfc1367c658a254974f63701715170611e9088f9fb67e88533906e4`
 
@@ -35,6 +51,8 @@ SHA-256: `7f3e6a7fbdfc1367c658a254974f63701715170611e9088f9fb67e88533906e4`
 
  Original PDF page 1 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `575855aec75f2928acd3ff41b49a81235f5eed430a6c46bab2517490da56aa63`
 
 ## Manufacturer pinout sheet
@@ -46,6 +64,10 @@ SHA-256: `575855aec75f2928acd3ff41b49a81235f5eed430a6c46bab2517490da56aa63`
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Pimoroni.
 
 [Source 1](https://cdn.shopify.com/s/files/1/0174/1800/files/pga2350_pinout_diagram.pdf?v=1723124465) · [Source 2](https://shop.pimoroni.com/products/pga2350)
+
+
+
+Image revision: Not identified
 
 SHA-256: `2351f7cf4d88596f387ac390d0447c6159fc85d11663a2864f6f5d9156c75e46`
 

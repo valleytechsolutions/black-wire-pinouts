@@ -12,6 +12,17 @@ Device category: **Handhelds & pocket tools**
 
 12-pin external expansion connector only. This does not map every internal HackRF or PortaPack contact.
 
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
+
 ## Specifications and hardware documentation
 
 - [Mayhem H4M expansion documentation](https://github.com/portapack-mayhem/mayhem-mdk)

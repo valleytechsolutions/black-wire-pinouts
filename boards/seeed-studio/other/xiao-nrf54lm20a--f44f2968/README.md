@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Other
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-other-xiao-nrf54lm20a)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/xiao_nrf54lm20a_getting_started/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout (Back)
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Seeed Studio.
 
 [Source 1](https://files.seeedstudio.com/wiki/XIAO_nRF54LM20A/fix/XIAO_nRF54LM20A_back.png) · [Source 2](https://wiki.seeedstudio.com/xiao_nrf54lm20a_getting_started/)
+
+
+
+Image revision: Not identified
 
 SHA-256: `9ea7ce37a88c1faf0454d89fe55e0958f626c9061b02e25fc7d4c9754bfdf07f`
 
@@ -33,6 +49,10 @@ SHA-256: `9ea7ce37a88c1faf0454d89fe55e0958f626c9061b02e25fc7d4c9754bfdf07f`
 
 [Source 1](https://files.seeedstudio.com/wiki/XIAO_nRF54LM20A/fix/XIAO_nRF54LM20A_f.png) · [Source 2](https://wiki.seeedstudio.com/xiao_nrf54lm20a_getting_started/)
 
+
+
+Image revision: Not identified
+
 SHA-256: `f02082c9753cf9381286bb45cf6833a8b848f7cd29618f634da0ae64d5134419`
 
 ## Pinout Sheet
@@ -46,6 +66,8 @@ SHA-256: `f02082c9753cf9381286bb45cf6833a8b848f7cd29618f634da0ae64d5134419`
 [Source 1](https://files.seeedstudio.com/wiki/XIAO_nRF54LM20A/getting_start/RES/XIAO_nRF54LM20A_Pin_definition.xlsx) · [Source 2](https://wiki.seeedstudio.com/xiao_nrf54lm20a_getting_started/)
 
 Original source index: Pinout Sheet. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `6711bde06e169fa99a567abcce34bb0aa6665bc4a939483faaf31b5682926944`
 

@@ -2,10 +2,22 @@
 
 **Seeed Studio** · ESP32-S3
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-other-wio-s3-wireless-module)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/wio-s3_wireless_module_introduction/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://files.seeedstudio.com/wiki/SenseCAP/Wio-S3/pinout-2.jpg) · [Source 2](https://wiki.seeedstudio.com/wio-s3_wireless_module_introduction/)
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `6651a0f110a08b9876486ec97b0a1ca60564108ccb7ed3ce1685ee8a059c40c2`
 
@@ -37,6 +51,8 @@ SHA-256: `6651a0f110a08b9876486ec97b0a1ca60564108ccb7ed3ce1685ee8a059c40c2`
 
 Original source index: Block Diagram. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `9f98df5b7d8991cb2d10c987dd24a3115b16514d8b204fdbaea2b07def844b13`
 
 ## Dimensions (PCB Footprint)
@@ -52,6 +68,8 @@ SHA-256: `9f98df5b7d8991cb2d10c987dd24a3115b16514d8b204fdbaea2b07def844b13`
 [Source 1](https://files.seeedstudio.com/wiki/SenseCAP/Wio-S3/layout.jpg) · [Source 2](https://wiki.seeedstudio.com/wio-s3_wireless_module_introduction/)
 
 Original source index: Dimensions (PCB Footprint). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `53d786897bffa907ebeeb7aec1051ab801efc0f94039f8666332e24a1301b744`
 
@@ -69,6 +87,8 @@ SHA-256: `53d786897bffa907ebeeb7aec1051ab801efc0f94039f8666332e24a1301b744`
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `feabf0a1303c0000277de27e6f4729f5c85cdb490ab290d0d88c3ce731bf98ba`
 
 ## Pinout (Schematic Symbol)
@@ -84,6 +104,8 @@ SHA-256: `feabf0a1303c0000277de27e6f4729f5c85cdb490ab290d0d88c3ce731bf98ba`
 [Source 1](https://files.seeedstudio.com/wiki/SenseCAP/Wio-S3/pinout.jpg) · [Source 2](https://wiki.seeedstudio.com/wio-s3_wireless_module_introduction/)
 
 Original source index: Pinout (Schematic Symbol). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `67f617506cd693858a55fbc944286618bb9fc4e4a747403f9ba53afe696d5170`
 

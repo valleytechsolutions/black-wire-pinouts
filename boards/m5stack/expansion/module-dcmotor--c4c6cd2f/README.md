@@ -2,10 +2,22 @@
 
 **M5Stack** · Expansion
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: GPIO reference collected; physical pinout needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=m5stack-expansion-module-dcmotor)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.m5stack.com/en/module/lego_plus)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout (ISP Header)
 
@@ -20,6 +32,8 @@ Coverage: GPIO reference collected; physical pinout needed
 [Source 1](https://static-cdn.m5stack.com/resource/docs/products/hat/hat-cardkb/mega328_isp_sch_01.webp) · [Source 2](https://docs.m5stack.com/en/module/lego_plus)
 
 Imported from existing M5Stack Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `b4d54e2c19d4d31bd8dd28671a8b5ca6540502456486ad74358e884c4906a8c4`
 
@@ -36,6 +50,8 @@ SHA-256: `b4d54e2c19d4d31bd8dd28671a8b5ca6540502456486ad74358e884c4906a8c4`
 [Source 1](https://static-cdn.m5stack.com/resource/docs/products/module/lego_plus/lego_plus_09.webp) · [Source 2](https://docs.m5stack.com/en/module/lego_plus)
 
 Imported from existing M5Stack Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `5f6b61ff44372cabb5cd570613339af2589d15ee8c779373877fc1f42aec3df6`
 

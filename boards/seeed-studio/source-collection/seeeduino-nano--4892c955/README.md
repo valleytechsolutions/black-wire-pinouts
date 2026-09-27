@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-aee3cebfd65083aedf)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/Seeeduino-Nano/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Dimensions
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/Seeeduino-Nano/img/seeeduino-Nano-compare-2.jpg) · [Source 2](https://wiki.seeedstudio.com/Seeeduino-Nano/)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `fda29649818b56860f93e2535fa198dd5661f8e0af01bdc9504be3f8d4d4eb72`
 
@@ -37,6 +51,8 @@ SHA-256: `fda29649818b56860f93e2535fa198dd5661f8e0af01bdc9504be3f8d4d4eb72`
 
 Original source index: Hardware Overview (Back). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `6ff1723fc1c12bde93873db454981c79713252d8ff98e734090b3bd9cd73eedd`
 
 ## Hardware Overview (Front)
@@ -52,6 +68,8 @@ SHA-256: `6ff1723fc1c12bde93873db454981c79713252d8ff98e734090b3bd9cd73eedd`
 [Source 1](https://files.seeedstudio.com/wiki/Seeeduino-Nano/img/pinout-1.jpg) · [Source 2](https://wiki.seeedstudio.com/Seeeduino-Nano/)
 
 Original source index: Hardware Overview (Front). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `06bd9fe37594945a6be2cd6dbfc7b370364e56da2091bc122b38b7caf442697b`
 

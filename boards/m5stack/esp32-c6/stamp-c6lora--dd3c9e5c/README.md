@@ -2,10 +2,22 @@
 
 **M5Stack** · ESP32-C6
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=m5stack-esp32-stamp-c6lora)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.m5stack.com/en/core/Stamp_C6LoRa)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1223/S012-stamp-c6lora-pin-map-pic.png) · [Source 2](https://docs.m5stack.com/en/core/Stamp_C6LoRa)
 
 Imported from existing M5Stack Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `c722f16e3e3e02640facb8ae68911494ccb6e94cf6bebbf730bff721d401d643`
 
@@ -36,6 +50,8 @@ SHA-256: `c722f16e3e3e02640facb8ae68911494ccb6e94cf6bebbf730bff721d401d643`
 [Source 1](https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1223/S012_Stamp_C6LoRa_model_size_page_01.png) · [Source 2](https://docs.m5stack.com/en/core/Stamp_C6LoRa)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `babd79e909c4c9435cb78eefaf38bc1019bf7d99d900ff038ee03c265da5d859`
 

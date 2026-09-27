@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Expansion
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-expansion-wio-sx1262)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/wio_sx1262/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://files.seeedstudio.com/wiki/XIAO_ESP32S3_for_Meshtastic_LoRa/30.png) · [Source 2](https://wiki.seeedstudio.com/wio_sx1262/)
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `60fc906dd8bae2589e891ac17fb46e8bb453dd104109d9dfe827754cd7a7be0e`
 
@@ -37,6 +51,8 @@ SHA-256: `60fc906dd8bae2589e891ac17fb46e8bb453dd104109d9dfe827754cd7a7be0e`
 
 Original source index: Block Diagram. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `0f8f860ef768c86115919fc635d4eac17d0588a2d664fefca4681e2e125b073c`
 
 ## Pin Definition Table
@@ -52,6 +68,8 @@ SHA-256: `0f8f860ef768c86115919fc635d4eac17d0588a2d664fefca4681e2e125b073c`
 [Source 1](https://files.seeedstudio.com/wiki/XIAO_ESP32S3_for_Meshtastic_LoRa/68.jpg) · [Source 2](https://wiki.seeedstudio.com/wio_sx1262/)
 
 Original source index: Pin Definition Table. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `d27a30f04b10f4eef876ed1749369cf67355ddcd97faedbc8b807127ced49ae1`
 

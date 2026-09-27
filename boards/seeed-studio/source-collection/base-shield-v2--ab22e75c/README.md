@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-7dcfd81099ece50e65)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/Base_Shield_V2/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Hardware Overview
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/Base_Shield_V2/img/hardware_overview.jpg) · [Source 2](https://wiki.seeedstudio.com/Base_Shield_V2/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `c21d3a39f21a18ed036386b4c0d0d67f85f67f9f2c0e5772212ed4a6ef1b5111`
 
@@ -36,6 +50,8 @@ SHA-256: `c21d3a39f21a18ed036386b4c0d0d67f85f67f9f2c0e5772212ed4a6ef1b5111`
 [Source 1](https://files.seeedstudio.com/wiki/Grove_Starter_Kit_Plus/img/Grove-base_shield_v1.3.jpeg) · [Source 2](https://wiki.seeedstudio.com/Grove_Starter_Kit_Plus/)
 
 Original source index: Interfaces. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `3ac9a0f5556c1b98c9ea60f79e751ed9af9936fca6064c13ffbd91f72f60346c`
 

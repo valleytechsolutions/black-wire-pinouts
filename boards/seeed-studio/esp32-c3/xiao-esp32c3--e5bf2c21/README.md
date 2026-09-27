@@ -2,10 +2,22 @@
 
 **Seeed Studio** · ESP32-C3
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-esp32-xiao-esp32c3)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout (Back)
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Seeed Studio.
 
 [Source 1](https://files.seeedstudio.com/wiki/XIAO_WiFi/XIAO_ESP32-C3_back_pinout.png) · [Source 2](https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/)
+
+
+
+Image revision: Not identified
 
 SHA-256: `1bebe1addc32740a15decef63a8077fcf9c3963e586d8652f38bcaa0498812eb`
 
@@ -33,6 +49,10 @@ SHA-256: `1bebe1addc32740a15decef63a8077fcf9c3963e586d8652f38bcaa0498812eb`
 
 [Source 1](https://files.seeedstudio.com/wiki/XIAO_WiFi/XIAO_ESP32-C3_front_pinout.png) · [Source 2](https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/)
 
+
+
+Image revision: Not identified
+
 SHA-256: `ec46cb20e10331e7f2c84cba6f1b5e6470c6de96a47387b3cfbf9f659338612c`
 
 ## Pinout (Simplified)
@@ -46,6 +66,10 @@ SHA-256: `ec46cb20e10331e7f2c84cba6f1b5e6470c6de96a47387b3cfbf9f659338612c`
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Seeed Studio.
 
 [Source 1](https://files.seeedstudio.com/wiki/esp32c3_circuitpython/6.png) · [Source 2](https://wiki.seeedstudio.com/xiao_esp32c3_with_circuitpython/)
+
+
+
+Image revision: Not identified
 
 SHA-256: `362839ac790983c42d50c93d2ec0d62c0d7e2c6273d3bf2244ed74873f1c714d`
 
@@ -63,6 +87,8 @@ SHA-256: `362839ac790983c42d50c93d2ec0d62c0d7e2c6273d3bf2244ed74873f1c714d`
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `f144feac2769f2dae044d7184128295d6a6a5c5932ed6e7c0ee877f212a2480c`
 
 ## Pin Definition Table
@@ -79,6 +105,8 @@ SHA-256: `f144feac2769f2dae044d7184128295d6a6a5c5932ed6e7c0ee877f212a2480c`
 
 Original source index: Pin Definition Table. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `3fdca5c61af5927b15a01b3e21ea83e4fea201a372c9390f54136620d12769c0`
 
 ## Pinout Sheet
@@ -92,6 +120,8 @@ SHA-256: `3fdca5c61af5927b15a01b3e21ea83e4fea201a372c9390f54136620d12769c0`
 [Source 1](https://files.seeedstudio.com/wiki/XIAO_WiFi/Resources/XIAO-ESP32C3-pinout_sheet.xlsx) · [Source 2](https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/)
 
 Original source index: Pinout Sheet. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `94b77c5438191904f8aaf43958a1484434e660060d4e403fe274422386761980`
 

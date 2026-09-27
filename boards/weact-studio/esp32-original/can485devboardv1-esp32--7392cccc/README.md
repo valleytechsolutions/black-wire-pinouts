@@ -2,10 +2,22 @@
 
 **WeAct Studio** · ESP32 original
 
-Revision: Multiple source/revision records; see individual assets  
+Revision: Multiple source/revision records; see individual assets
+
 Coverage: Board labels only; pinout needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=weact-studio-esp32-can485devboardv1-esp32)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://github.com/WeActStudio/WeActStudio.CAN485DevBoardV1_ESP32)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Board silkscreen and component labels
 
@@ -21,7 +33,7 @@ Coverage: Board labels only; pinout needed
 
 Original repository file preserved with commit identifier. Board illustration/silkscreen images are explicitly distinguished from expanded pin-function diagrams.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: v1.0
 
 SHA-256: `0bfdd27ee76661a349b68fd8bb7618447fed5a54eed854735e4f236b0bc10c0d`
 
@@ -39,7 +51,7 @@ SHA-256: `0bfdd27ee76661a349b68fd8bb7618447fed5a54eed854735e4f236b0bc10c0d`
 
 Original repository file preserved with commit identifier. Board illustration/silkscreen images are explicitly distinguished from expanded pin-function diagrams.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: v1.1
 
 SHA-256: `2f97fc6d68070f2e4187b089e658775b2419aff043e6026d2d5ebd589e856128`
 

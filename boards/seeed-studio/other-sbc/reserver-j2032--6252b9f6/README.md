@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Other SBC
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Partial pinout collected; full reference still needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-other-sbc-reserver-j2032)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/reServer_J2032_Flash_Jetpack/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout (Debug Header)
 
@@ -21,7 +33,7 @@ Coverage: Partial pinout collected; full reference still needed
 
 Imported from existing Seeed Studio Board Reference; original working path preserved. Only the named connector or subsection is covered.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `a2806e8c174868c58190f058d1d7316a2b53574e1ab069580d4f81ee7f1f7bd8`
 
@@ -39,6 +51,8 @@ SHA-256: `a2806e8c174868c58190f058d1d7316a2b53574e1ab069580d4f81ee7f1f7bd8`
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `183d98c73b832bd45ac2045cd8f48f17d3d307d2d23ac0b659a1b6bc2e0cac06`
 
 ## Hardware Overview (Back)
@@ -54,6 +68,8 @@ SHA-256: `183d98c73b832bd45ac2045cd8f48f17d3d307d2d23ac0b659a1b6bc2e0cac06`
 [Source 1](https://files.seeedstudio.com/wiki/reServerJ2032/back_type_c.png) · [Source 2](https://wiki.seeedstudio.com/reServer_J2032_Flash_Jetpack/)
 
 Original source index: Hardware Overview (Back). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `4489897b84a0a2d775ac5f8542d47f2dc405d38a11874ac58302236196490e8b`
 
@@ -71,6 +87,8 @@ SHA-256: `4489897b84a0a2d775ac5f8542d47f2dc405d38a11874ac58302236196490e8b`
 
 Original source index: Hardware Overview (Coprocessor Board). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `1f586db29d23984b45d3635a65097ec31a25f407b44ba5c3235b9eaaa5e4ef05`
 
 ## Hardware Overview (Ports)
@@ -87,6 +105,8 @@ SHA-256: `1f586db29d23984b45d3635a65097ec31a25f407b44ba5c3235b9eaaa5e4ef05`
 
 Original source index: Hardware Overview (Ports). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `c75717ed9f21863e290c8e2c63697a866c22be85f60b78aa026806873553d1b3`
 
 ## Hardware Overview
@@ -102,6 +122,8 @@ SHA-256: `c75717ed9f21863e290c8e2c63697a866c22be85f60b78aa026806873553d1b3`
 [Source 1](https://files.seeedstudio.com/wiki/reComputer/reComputerJ2032hardware1.png) · [Source 2](https://wiki.seeedstudio.com/reServer_J2032_Flash_Jetpack/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `969eafdf617e42e3aea09fe4779b4e69bdcb967f0dbbfa4af635468612df1721`
 

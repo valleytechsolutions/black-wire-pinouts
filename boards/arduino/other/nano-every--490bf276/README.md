@@ -2,10 +2,22 @@
 
 **Arduino** · Other
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=arduino-other-nano-every)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.arduino.cc/hardware/nano-every/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## pinout
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nano/boards/nano-every/datasheet/assets/pinout.png) · [Source 2](https://docs.arduino.cc/hardware/nano-every/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nano/boards/nano-every/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nano/boards/nano-every/datasheet/assets/pinout.png)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement.
+
+Image revision: Not identified
 
 SHA-256: `1c1248d4eadd1cd3b4b5127385e571a452aa236fc75361c800f8318276326442`
 
@@ -37,6 +51,8 @@ SHA-256: `1c1248d4eadd1cd3b4b5127385e571a452aa236fc75361c800f8318276326442`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 1 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `18943c5d8ec973ba3d0c8e606c88a4610d4da8f26cae568c29cb2400b8990bed`
 
 ## Official full pinout - page 2
@@ -52,6 +68,8 @@ SHA-256: `18943c5d8ec973ba3d0c8e606c88a4610d4da8f26cae568c29cb2400b8990bed`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nano/boards/nano-every/downloads/ABX00028-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/nano-every/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nano/boards/nano-every/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nano/boards/nano-every/downloads/ABX00028-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 2 rendered at 220 dpi; no labels changed.
+
+Image revision: Not identified
 
 SHA-256: `ca19bfdb7087692441ab1082e2fa84bbd1fd3fe43b30f434f18853354a8bea5c`
 
@@ -69,6 +87,8 @@ SHA-256: `ca19bfdb7087692441ab1082e2fa84bbd1fd3fe43b30f434f18853354a8bea5c`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 3 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `9ec8352457992f8823e31e08ca925dac0dff4fe3f29b6e540b39305d5bfe860f`
 
 ## Full board pinout PDF
@@ -82,6 +102,8 @@ SHA-256: `9ec8352457992f8823e31e08ca925dac0dff4fe3f29b6e540b39305d5bfe860f`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nano/boards/nano-every/downloads/ABX00028-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/nano-every/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nano/boards/nano-every/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nano/boards/nano-every/downloads/ABX00028-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement.
+
+Image revision: Not identified
 
 SHA-256: `028f44dd75001dcdfe181e581ea8a51385af2ccc65e68012f87dc9cc1252f2bb`
 

@@ -2,16 +2,28 @@
 
 **Seeed Studio** · nRF52840
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-other-xiao-nrf52840-wio-sx1262-kit)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/xiao_nrf52840&_wio_SX1262_kit_for_meshtastic/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout 2
 
 **pinout image** · Reviewed source · PNG
 
-[![XIAO nRF52840 &amp; Wio-SX1262 Kit reference preview](../../../../library/thumbs/2238cdda0e0a4ec017cd6a5386555531e0546b42fa0da592b07a38491c66143b.webp)](../../../../library/media/2238cdda0e0a4ec017cd6a5386555531e0546b42fa0da592b07a38491c66143b.png)
+[![XIAO nRF52840 & Wio-SX1262 Kit reference preview](../../../../library/thumbs/2238cdda0e0a4ec017cd6a5386555531e0546b42fa0da592b07a38491c66143b.webp)](../../../../library/media/2238cdda0e0a4ec017cd6a5386555531e0546b42fa0da592b07a38491c66143b.png)
 
 [Open original reference](../../../../library/media/2238cdda0e0a4ec017cd6a5386555531e0546b42fa0da592b07a38491c66143b.png)
 
@@ -21,13 +33,15 @@ Coverage: Pinout image collected
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
 
+Image revision: Not identified
+
 SHA-256: `2238cdda0e0a4ec017cd6a5386555531e0546b42fa0da592b07a38491c66143b`
 
 ## Pinout
 
 **pinout image** · Reviewed source · PNG
 
-[![XIAO nRF52840 &amp; Wio-SX1262 Kit reference preview](../../../../library/thumbs/2e2da6a1dbe9b4e9fd7d09e58e9c12d324dcddcef4f09767fb748721154214ac.webp)](../../../../library/media/2e2da6a1dbe9b4e9fd7d09e58e9c12d324dcddcef4f09767fb748721154214ac.png)
+[![XIAO nRF52840 & Wio-SX1262 Kit reference preview](../../../../library/thumbs/2e2da6a1dbe9b4e9fd7d09e58e9c12d324dcddcef4f09767fb748721154214ac.webp)](../../../../library/media/2e2da6a1dbe9b4e9fd7d09e58e9c12d324dcddcef4f09767fb748721154214ac.png)
 
 [Open original reference](../../../../library/media/2e2da6a1dbe9b4e9fd7d09e58e9c12d324dcddcef4f09767fb748721154214ac.png)
 
@@ -36,6 +50,8 @@ SHA-256: `2238cdda0e0a4ec017cd6a5386555531e0546b42fa0da592b07a38491c66143b`
 [Source 1](https://media-cdn.seeedstudio.com/media/wysiwyg/upload/image_Wio-SX1262_-1.png) · [Source 2](https://wiki.seeedstudio.com/xiao_nrf52840&_wio_SX1262_kit_for_meshtastic/)
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `2e2da6a1dbe9b4e9fd7d09e58e9c12d324dcddcef4f09767fb748721154214ac`
 

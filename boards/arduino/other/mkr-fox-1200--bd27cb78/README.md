@@ -2,10 +2,22 @@
 
 **Arduino** · Other
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=arduino-other-mkr-fox-1200)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.arduino.cc/hardware/mkr-fox-1200/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## pinout
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/mkr/01.boards/mkr-fox-1200/pinout.png) · [Source 2](https://docs.arduino.cc/hardware/mkr-fox-1200/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/mkr/01.boards/mkr-fox-1200/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/mkr/01.boards/mkr-fox-1200/pinout.png)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement.
+
+Image revision: Not identified
 
 SHA-256: `0cb9ca4bffe80a2563f382452161ed3b26dfee7beff3a9208c0f9b68bbfcffb6`
 
@@ -37,6 +51,8 @@ SHA-256: `0cb9ca4bffe80a2563f382452161ed3b26dfee7beff3a9208c0f9b68bbfcffb6`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 1 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `5d26ac99798eb069db145822b087882852c46d73ee9add6aa234cfb62f08c17e`
 
 ## Official full pinout - page 2
@@ -52,6 +68,8 @@ SHA-256: `5d26ac99798eb069db145822b087882852c46d73ee9add6aa234cfb62f08c17e`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/mkr/01.boards/mkr-fox-1200/downloads/ABX00014-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/mkr-fox-1200/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/mkr/01.boards/mkr-fox-1200/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/mkr/01.boards/mkr-fox-1200/downloads/ABX00014-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 2 rendered at 220 dpi; no labels changed.
+
+Image revision: Not identified
 
 SHA-256: `cbbd9ba4d1d8107b2a683abac54dd465ecc9db5dd3dcf93784b4edab504cbadd`
 
@@ -69,6 +87,8 @@ SHA-256: `cbbd9ba4d1d8107b2a683abac54dd465ecc9db5dd3dcf93784b4edab504cbadd`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 3 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `8b74477e275f39782c05d2045b3165cc2fd9180be097a8a984ae65227edad4cb`
 
 ## Full board pinout PDF
@@ -82,6 +102,8 @@ SHA-256: `8b74477e275f39782c05d2045b3165cc2fd9180be097a8a984ae65227edad4cb`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/mkr/01.boards/mkr-fox-1200/downloads/ABX00014-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/mkr-fox-1200/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/mkr/01.boards/mkr-fox-1200/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/mkr/01.boards/mkr-fox-1200/downloads/ABX00014-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement.
+
+Image revision: Not identified
 
 SHA-256: `e003701cbe7c2976465bdaf45ccd0dfe085fe2b57c36b6cac62f97e7ef75a7a1`
 

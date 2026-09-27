@@ -2,10 +2,22 @@
 
 **Arduino** · Other
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=arduino-other-portenta-x8)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.arduino.cc/hardware/portenta-x8/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## x8HDCPinout
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro/boards/portenta-x8/datasheet/assets/x8HDCPinout.png) · [Source 2](https://docs.arduino.cc/hardware/portenta-x8/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro/boards/portenta-x8/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro/boards/portenta-x8/datasheet/assets/x8HDCPinout.png)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement.
+
+Image revision: Not identified
 
 SHA-256: `66aeb94227332c59635abdea72d0818bcaeff970cf47b6fa130728e67a10e8f3`
 
@@ -37,6 +51,8 @@ SHA-256: `66aeb94227332c59635abdea72d0818bcaeff970cf47b6fa130728e67a10e8f3`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 2 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `706c290831598823acadd59f81b3509ff539743b5bf8f7620dba0881aa5fd885`
 
 ## Official full pinout - page 3
@@ -52,6 +68,8 @@ SHA-256: `706c290831598823acadd59f81b3509ff539743b5bf8f7620dba0881aa5fd885`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro/boards/portenta-x8/downloads/ABX00049-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/portenta-x8/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro/boards/portenta-x8/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro/boards/portenta-x8/downloads/ABX00049-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 3 rendered at 220 dpi; no labels changed.
+
+Image revision: Not identified
 
 SHA-256: `3f7e3dfaba9e7e53f73fdd90027b28cafa779930bcbda15f06749948b9983085`
 
@@ -69,6 +87,8 @@ SHA-256: `3f7e3dfaba9e7e53f73fdd90027b28cafa779930bcbda15f06749948b9983085`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 4 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `4d8bd6d09daf781a8bbb571c55228608aa27792b55f0da8ce974bc3619af885c`
 
 ## Official full pinout - page 7
@@ -84,6 +104,8 @@ SHA-256: `4d8bd6d09daf781a8bbb571c55228608aa27792b55f0da8ce974bc3619af885c`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro/boards/portenta-x8/downloads/ABX00049-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/portenta-x8/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro/boards/portenta-x8/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro/boards/portenta-x8/downloads/ABX00049-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 7 rendered at 220 dpi; no labels changed.
+
+Image revision: Not identified
 
 SHA-256: `f380eb3099b0341397e310df31e97a275e4ab5ba166ab766f6dbfe80676f9a50`
 
@@ -101,6 +123,8 @@ SHA-256: `f380eb3099b0341397e310df31e97a275e4ab5ba166ab766f6dbfe80676f9a50`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 8 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `93e40c96903493d6f398e315960ed2d884ac53069a0ddfba78a57c8b1fdf311f`
 
 ## Official full pinout - page 9
@@ -116,6 +140,8 @@ SHA-256: `93e40c96903493d6f398e315960ed2d884ac53069a0ddfba78a57c8b1fdf311f`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro/boards/portenta-x8/downloads/ABX00049-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/portenta-x8/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro/boards/portenta-x8/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro/boards/portenta-x8/downloads/ABX00049-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 9 rendered at 220 dpi; no labels changed.
+
+Image revision: Not identified
 
 SHA-256: `c9cdff9c46d8d2de0f3c0e28857cc98677e9172a3d6d5c63e0c347a08065c9e0`
 
@@ -133,6 +159,8 @@ SHA-256: `c9cdff9c46d8d2de0f3c0e28857cc98677e9172a3d6d5c63e0c347a08065c9e0`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 10 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `b3713f736e6c11024b2494a6716e557843a18b714dc1eedf9fc8e12b1bf44e55`
 
 ## Official full pinout - page 11
@@ -148,6 +176,8 @@ SHA-256: `b3713f736e6c11024b2494a6716e557843a18b714dc1eedf9fc8e12b1bf44e55`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro/boards/portenta-x8/downloads/ABX00049-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/portenta-x8/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro/boards/portenta-x8/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro/boards/portenta-x8/downloads/ABX00049-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 11 rendered at 220 dpi; no labels changed.
+
+Image revision: Not identified
 
 SHA-256: `9f4da0daebf7231c79baf86950420d5ec26e042ad79f165d06ec7d6a37b3c514`
 
@@ -165,6 +195,8 @@ SHA-256: `9f4da0daebf7231c79baf86950420d5ec26e042ad79f165d06ec7d6a37b3c514`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 12 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `df4289db97902e47562b2e74c638c0e95d5259af5c09d05ea2fb23bb76c6b666`
 
 ## usbCPinout
@@ -180,6 +212,8 @@ SHA-256: `df4289db97902e47562b2e74c638c0e95d5259af5c09d05ea2fb23bb76c6b666`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro/boards/portenta-x8/datasheet/assets/usbCPinout.png) · [Source 2](https://docs.arduino.cc/hardware/portenta-x8/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro/boards/portenta-x8/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro/boards/portenta-x8/datasheet/assets/usbCPinout.png)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement.
+
+Image revision: Not identified
 
 SHA-256: `a900aa02a820a8304bd0337efb48bd822466322facf07af76ee8524909eebf95`
 
@@ -197,6 +231,8 @@ SHA-256: `a900aa02a820a8304bd0337efb48bd822466322facf07af76ee8524909eebf95`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 5 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `9d5cb1a31cc2de0363afe64133f806e31726d14c593236bb27b2ed38e6eb2525`
 
 ## Official full pinout - page 13
@@ -212,6 +248,8 @@ SHA-256: `9d5cb1a31cc2de0363afe64133f806e31726d14c593236bb27b2ed38e6eb2525`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro/boards/portenta-x8/downloads/ABX00049-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/portenta-x8/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro/boards/portenta-x8/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro/boards/portenta-x8/downloads/ABX00049-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 13 rendered at 220 dpi; no labels changed.
+
+Image revision: Not identified
 
 SHA-256: `facb9fab60630729553d76e4142b8a1392b45551222a75c60c5fd7c2c6d5e0ae`
 
@@ -229,6 +267,8 @@ SHA-256: `facb9fab60630729553d76e4142b8a1392b45551222a75c60c5fd7c2c6d5e0ae`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 14 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `245d8e822fada7a34b9d6299af1a5cffd869d04790d88bc8f9db5cdd6e5b7dc8`
 
 ## Official full pinout - page 15
@@ -244,6 +284,8 @@ SHA-256: `245d8e822fada7a34b9d6299af1a5cffd869d04790d88bc8f9db5cdd6e5b7dc8`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro/boards/portenta-x8/downloads/ABX00049-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/portenta-x8/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro/boards/portenta-x8/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro/boards/portenta-x8/downloads/ABX00049-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 15 rendered at 220 dpi; no labels changed.
+
+Image revision: Not identified
 
 SHA-256: `7e366e5e91b688f35bf63e42d2243fd909aba69e9d9247a739361f73a0cfc728`
 
@@ -261,6 +303,8 @@ SHA-256: `7e366e5e91b688f35bf63e42d2243fd909aba69e9d9247a739361f73a0cfc728`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 16 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `2ce6e3a128de0a16387331edc9a4be35fb1eb474d9fa7339933788a1c08b035c`
 
 ## Official full pinout - page 17
@@ -276,6 +320,8 @@ SHA-256: `2ce6e3a128de0a16387331edc9a4be35fb1eb474d9fa7339933788a1c08b035c`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro/boards/portenta-x8/downloads/ABX00049-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/portenta-x8/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro/boards/portenta-x8/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro/boards/portenta-x8/downloads/ABX00049-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 17 rendered at 220 dpi; no labels changed.
+
+Image revision: Not identified
 
 SHA-256: `100cc3e9ea423da98f530e58414cd7a05fd2f58037d0f71ea53cd683d24d5130`
 
@@ -293,6 +339,8 @@ SHA-256: `100cc3e9ea423da98f530e58414cd7a05fd2f58037d0f71ea53cd683d24d5130`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement.
 
+Image revision: Not identified
+
 SHA-256: `60da237defcf61c467df600bd86b7fa09d7ac14bf29f0f717843ad7ab3b2d395`
 
 ## Official full pinout - page 1
@@ -309,6 +357,8 @@ SHA-256: `60da237defcf61c467df600bd86b7fa09d7ac14bf29f0f717843ad7ab3b2d395`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 1 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `c0ef3a27935299f26732852de5eac7f366e95b1ebbfb44d5d8f0e316fd2cb764`
 
 ## Full board pinout PDF
@@ -322,6 +372,8 @@ SHA-256: `c0ef3a27935299f26732852de5eac7f366e95b1ebbfb44d5d8f0e316fd2cb764`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro/boards/portenta-x8/downloads/ABX00049-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/portenta-x8/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro/boards/portenta-x8/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro/boards/portenta-x8/downloads/ABX00049-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement.
+
+Image revision: Not identified
 
 SHA-256: `cf1609c2df275f6c9314e7aa84b2b649897af77b5b215a41c7930d58dd7978b3`
 

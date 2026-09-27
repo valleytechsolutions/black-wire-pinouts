@@ -2,10 +2,22 @@
 
 **Invector Labs** · RP2040
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=invector-labs-rp2040-challenger-rp2040-lora)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Physical board pinout
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://ilabs.se/wp-content/uploads/2022/02/challenger-rp2040-lora-pinout-diagram-v0.1.png) · [Source 2](https://www.tindie.com/products/invector/challenger-rp2040-lora-915mhz/)
 
 Discovered from CircuitPython board metadata and the linked product/documentation page. Exact hardware revision requires matching to the diagram.
+
+Image revision: Not identified
 
 SHA-256: `d1578e7a265942da0793684fd4b563f670a456aa50a811bc238f2288d72c3f1d`
 
@@ -36,6 +50,8 @@ SHA-256: `d1578e7a265942da0793684fd4b563f670a456aa50a811bc238f2288d72c3f1d`
 [Source 1](https://cdn.shopify.com/s/files/1/0176/3274/files/challenger-rp2040-lora-pinout-diagram_1.jpg?v=1649251857) · [Source 2](https://thepihut.com/products/challenger-rp2040-lora-868mhz)
 
 Discovered from CircuitPython board metadata and the linked product/documentation page. Exact hardware revision requires matching to the diagram.
+
+Image revision: Not identified
 
 SHA-256: `4de34d6839755f153fd1b2ce2499bee450e008a724f01f4b8f638c0373d79070`
 

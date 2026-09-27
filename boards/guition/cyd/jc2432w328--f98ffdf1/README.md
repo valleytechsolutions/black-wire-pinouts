@@ -2,12 +2,24 @@
 
 **Guition** · CYD
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Board labels only; pinout needed
 
 [Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=guition-cyd-jc2432w328)
 
 Device category: **Displays & HMI**
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Board layout labels - PDF page 5
 

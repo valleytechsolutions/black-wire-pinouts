@@ -2,10 +2,22 @@
 
 **Waveshare** · RP2350
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=waveshare-rp2350-rp2350-lcd-1-28)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://www.waveshare.com/rp2350-lcd-1.28.htm)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://www.waveshare.com/img/devkit/RP2350-LCD-1.28/RP2350-LCD-1.28-details-5.jpg) · [Source 2](https://www.waveshare.com/rp2350-lcd-1.28.htm)
+
+
+
+Image revision: Not identified
 
 SHA-256: `fd8a2b96571ab4caf6932b86f45603ec4e5ba25bddcd8c36b8fb4117123ef84a`
 
@@ -32,6 +48,10 @@ SHA-256: `fd8a2b96571ab4caf6932b86f45603ec4e5ba25bddcd8c36b8fb4117123ef84a`
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://www.waveshare.com/w/upload/c/c5/800px-RP2350-LCD-1.28-details-5.jpg) · [Source 2](https://www.waveshare.com/wiki/RP2350-LCD-1.28)
+
+
+
+Image revision: Not identified
 
 SHA-256: `103f8b37f3f9c93dcb55175443bdb12b7bf7aa773fdc40d388245085f4ca8707`
 

@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-5fbb170630fc19a33d)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/recomputer_jetson_mini_hardware_interfaces_usage/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Hardware Overview (Inside)
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/reComputer-Jetson/mini/rtc.png) · [Source 2](https://wiki.seeedstudio.com/recomputer_jetson_mini_hardware_interfaces_usage/)
 
 Original source index: Hardware Overview (Inside). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `3cb70eb9572ca4cf8e147c439db22398abf08af907a8453f9eb27ccd4235bf80`
 
@@ -36,6 +50,8 @@ SHA-256: `3cb70eb9572ca4cf8e147c439db22398abf08af907a8453f9eb27ccd4235bf80`
 [Source 1](https://files.seeedstudio.com/wiki/recomputer_mini/uart_photo.png) · [Source 2](https://wiki.seeedstudio.com/recomputer_jetson_mini_hardware_interfaces_usage/)
 
 Original source index: Hardware Overview (Ports). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `b7514d13e2f09af80bb6b4c7713f29392d2816a25bf2194339e011c09dee5f5b`
 

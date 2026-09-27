@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-69b0df3dc8b7d67e52)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/Bluetooth_Multimeter/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Dimensions
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/Bluetooth_Multimeter/img/Printed_Picture.jpg) · [Source 2](https://wiki.seeedstudio.com/Bluetooth_Multimeter/)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `8bf39549056dffbf2283adb5ec6c4a59833fdefffbb021f6df10c73a26555195`
 
@@ -36,6 +50,8 @@ SHA-256: `8bf39549056dffbf2283adb5ec6c4a59833fdefffbb021f6df10c73a26555195`
 [Source 1](https://files.seeedstudio.com/wiki/Bluetooth_Multimeter/img/%E4%BA%A7%E5%93%81%E8%A7%86%E5%9B%BE.png) · [Source 2](https://wiki.seeedstudio.com/Bluetooth_Multimeter/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `f815a92278d97cb603821ef2dd1d1e7165c84fe073f34bfdb4419ac745138a39`
 

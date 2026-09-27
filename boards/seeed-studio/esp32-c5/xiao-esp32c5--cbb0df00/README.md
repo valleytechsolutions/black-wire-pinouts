@@ -2,10 +2,22 @@
 
 **Seeed Studio** · ESP32-C5
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-esp32-xiao-esp32c5)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/xiao_esp32c5_getting_started/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout (Back)
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Seeed Studio.
 
 [Source 1](https://files.seeedstudio.com/wiki/XIAO_ESP32C5/Getting_started/XIAO_ESP32-C5_back_pinout.png) · [Source 2](https://wiki.seeedstudio.com/xiao_esp32c5_getting_started/)
+
+
+
+Image revision: Not identified
 
 SHA-256: `5cab8352de35a89559f677ebedef10bf4bed85f4cb926efedcb17c5191de4d4d`
 
@@ -33,6 +49,10 @@ SHA-256: `5cab8352de35a89559f677ebedef10bf4bed85f4cb926efedcb17c5191de4d4d`
 
 [Source 1](https://files.seeedstudio.com/wiki/XIAO_ESP32C5/Getting_started/XIAO_ESP32-C5_front_pinout.png) · [Source 2](https://wiki.seeedstudio.com/xiao_esp32c5_getting_started/)
 
+
+
+Image revision: Not identified
+
 SHA-256: `b5441a1284e9fdf631616fcf9f7713777e7d0b0ae12de43d67849b8d8f391b23`
 
 ## Pinout Sheet
@@ -46,6 +66,8 @@ SHA-256: `b5441a1284e9fdf631616fcf9f7713777e7d0b0ae12de43d67849b8d8f391b23`
 [Source 1](https://files.seeedstudio.com/wiki/XIAO_ESP32C5/res/XIAO_ESP32C5_Pinout.xlsx) · [Source 2](https://wiki.seeedstudio.com/xiao_esp32c5_getting_started/)
 
 Original source index: Pinout Sheet. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `3f1e0cbefc70dea85fb274074597a9bd2bc40aca6fc4e7ddcd79fc7ec2e04354`
 

@@ -2,10 +2,22 @@
 
 **Waveshare** · RP2350
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: GPIO reference collected; physical pinout needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=waveshare-rp2350-rp2350-touch-amoled-1-75)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.waveshare.com/RP2350-Touch-AMOLED-1.75)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## GPIO peripheral assignments
 
@@ -21,7 +33,7 @@ Coverage: GPIO reference collected; physical pinout needed
 
 Official reference image. This is useful for board peripherals but must not be treated as a physical header/pad pinout. Board remains in the pinout research queue.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `ebd165a932a508f820812b71b8ae27a7fc9cad596d305ca3e5d4e2af4136e899`
 

@@ -2,10 +2,22 @@
 
 **Orange Pi** · Other SBC
 
-Revision: Multiple source/revision records; see individual assets  
+Revision: Multiple source/revision records; see individual assets
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=orange-pi-other-sbc-zero-2w)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](http://www.orangepi.org/orangepiwiki/index.php/Orange_Pi_Zero_2W)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Manufacturer color board pinout
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Orange Pi.
 
 [Source 1](http://www.orangepi.org/img/zero2W/0825-zero2w-img21.png) · [Source 2](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-Zero-2W.html)
+
+
+
+Image revision: v1.1 printed on diagram
 
 SHA-256: `4aac21a5560d2b25098dd798184373ee4384062a7fcbac141190f6f784d0779d`
 
@@ -35,6 +51,8 @@ SHA-256: `4aac21a5560d2b25098dd798184373ee4384062a7fcbac141190f6f784d0779d`
 
 24Pin expansion board interface pin description
 
+Image revision: Not identified
+
 SHA-256: `ef74f1affa773f4a28508c331f02f188bc77b34d3a903b38cf7bd8eab4a8ffeb`
 
 ## Header orientation and board labels
@@ -50,6 +68,8 @@ SHA-256: `ef74f1affa773f4a28508c331f02f188bc77b34d3a903b38cf7bd8eab4a8ffeb`
 [Source 1](http://www.orangepi.org/orangepiwiki/images/d/d9/Zero2w-img169.png) · [Source 2](http://www.orangepi.org/orangepiwiki/index.php/Orange_Pi_Zero_2W)
 
 40 Pin Interface pin description
+
+Image revision: Not identified
 
 SHA-256: `520a7624786d64e522a7dc131183d5eb7e35b3b111c1ad3a10b844184ba6433e`
 

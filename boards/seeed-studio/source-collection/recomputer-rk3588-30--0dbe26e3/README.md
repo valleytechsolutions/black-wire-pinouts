@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-d58ca32f6fa0b35423)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://www.seeedstudio.com/reComputer-RK3588-30-p-6817.html)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Dimensions
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://media-cdn.seeedstudio.com/media/catalog/product/7/-/7-recomputer-rk3588.jpg) · [Source 2](https://www.seeedstudio.com/reComputer-RK3588-30-p-6817.html)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `876077cabe4744fb4eb28861f9a080f3af1e8da99da420067a738c0b4628409a`
 
@@ -36,6 +50,8 @@ SHA-256: `876077cabe4744fb4eb28861f9a080f3af1e8da99da420067a738c0b4628409a`
 [Source 1](https://media-cdn.seeedstudio.com/media/catalog/product/3/5/3588_7.22.jpg) · [Source 2](https://www.seeedstudio.com/reComputer-RK3588-30-p-6817.html)
 
 Original source index: Interfaces. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `d2f2b8717de4e770ca773236e5372b91e319455377aa314d5394dc65b9b708d4`
 

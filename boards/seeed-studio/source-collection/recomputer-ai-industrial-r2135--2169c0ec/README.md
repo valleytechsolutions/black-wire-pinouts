@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-299914265863831ad1)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/recomputer_ai_industrial_r2135_getting_start/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Block Diagram (Power)
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/reComputer-AI-Industrial/reComputer_AI_Industrial_power_diagram.png) · [Source 2](https://wiki.seeedstudio.com/recomputer_ai_industrial_r2135_getting_start/)
 
 Original source index: Block Diagram (Power). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `3acd114c286ff2a310b765c6668f849c4e567e8a1fecf0a10a280b46b7969170`
 
@@ -37,6 +51,8 @@ SHA-256: `3acd114c286ff2a310b765c6668f849c4e567e8a1fecf0a10a280b46b7969170`
 
 Original source index: Block Diagram. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `685f4deab38b79986619573355d508234b608da8614bbe103a3e5a4cdcf86e5c`
 
 ## Dimensions
@@ -52,6 +68,8 @@ SHA-256: `685f4deab38b79986619573355d508234b608da8614bbe103a3e5a4cdcf86e5c`
 [Source 1](https://files.seeedstudio.com/wiki/reComputer-AI-Industrial/reComputer_AI_industrial_dimension.jpeg) · [Source 2](https://wiki.seeedstudio.com/recomputer_ai_industrial_r2135_getting_start/)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `49713006d261199ffc06a4edac5b027f44c58c80943817177a3c7d9ced915d26`
 
@@ -69,6 +87,8 @@ SHA-256: `49713006d261199ffc06a4edac5b027f44c58c80943817177a3c7d9ced915d26`
 
 Original source index: Hardware Overview (Inside). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `f461e1075624ba60dc2f99c2166dda3228f791ffe508498d44f4c1695182b31b`
 
 ## Hardware Overview
@@ -84,6 +104,8 @@ SHA-256: `f461e1075624ba60dc2f99c2166dda3228f791ffe508498d44f4c1695182b31b`
 [Source 1](https://media-cdn.seeedstudio.com/media/wysiwyg/upload/image-recomputer.png) · [Source 2](https://wiki.seeedstudio.com/recomputer_ai_industrial_r2135_getting_start/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `6be93cf0ff0520754802b2c1e26cf068f38c31e524be579204cc2f568929baed`
 

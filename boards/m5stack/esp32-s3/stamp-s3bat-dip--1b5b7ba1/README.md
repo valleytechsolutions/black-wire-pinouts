@@ -2,10 +2,22 @@
 
 **M5Stack** · ESP32-S3
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=m5stack-esp32-stamp-s3bat-dip)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.m5stack.com/en/core/Stamp-S3Bat_DIP)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1222/S015-StampS3Bat-pinmap.jpg) · [Source 2](https://docs.m5stack.com/en/core/Stamp-S3Bat_DIP)
 
 Imported from existing M5Stack Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `d8e651019e9dcb6ca43bf8fb9d141c958bff79ddf74b204c47fa6d35ffc2e4f7`
 
@@ -36,6 +50,8 @@ SHA-256: `d8e651019e9dcb6ca43bf8fb9d141c958bff79ddf74b204c47fa6d35ffc2e4f7`
 [Source 1](https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1222/S015-DIP-stamp-s3bat-DIP-model-size_page_01.png) · [Source 2](https://docs.m5stack.com/en/core/Stamp-S3Bat_DIP)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `88af624adb1035f049ebfce619fa22156deaec24c912ca70492bb21c5971023d`
 

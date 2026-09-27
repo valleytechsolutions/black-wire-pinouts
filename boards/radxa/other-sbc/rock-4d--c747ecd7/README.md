@@ -10,6 +10,17 @@ Coverage: Board labels only; pinout needed
 
 Architecture: **ARM**
 
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.radxa.com/en/rock4/rock4d)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
+
 ## Specifications and hardware documentation
 
 - [Manufacturer hardware documentation](https://docs.radxa.com/en/rock4/rock4d)

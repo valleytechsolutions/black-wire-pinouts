@@ -10,6 +10,17 @@ Coverage: Pinout image collected
 
 Architecture: **RISC-V**
 
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](http://www.orangepi.org/orangepiwiki/index.php/Orange_Pi_RV2)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
+
 ## Specifications and hardware documentation
 
 - [Manufacturer hardware documentation](https://www.orangepi.org/orangepiwiki/index.php/Orange_Pi_RV2)

@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Other SBC
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Board labels only; pinout needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-other-sbc-eagleye-530s)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/Eagleye_530s/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -20,6 +32,8 @@ Coverage: Board labels only; pinout needed
 [Source 1](https://files.seeedstudio.com/wiki/Eagleye_530s/img/pin_map.png) · [Source 2](https://wiki.seeedstudio.com/Eagleye_530s/)
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `f3dabedcec443544efee3fc51ea6c792065651ef9d8639160131c2a130a8183f`
 
@@ -37,6 +51,8 @@ SHA-256: `f3dabedcec443544efee3fc51ea6c792065651ef9d8639160131c2a130a8183f`
 
 Original source index: Block Diagram. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `ce0331030e4cf466f44f2758a14a2c6b714b203e3c59cc36feb3d2c0aa04a7bd`
 
 ## Dimensions (Back)
@@ -52,6 +68,8 @@ SHA-256: `ce0331030e4cf466f44f2758a14a2c6b714b203e3c59cc36feb3d2c0aa04a7bd`
 [Source 1](https://files.seeedstudio.com/wiki/Eagleye_530s/img/MECHANICAL5.png) · [Source 2](https://wiki.seeedstudio.com/Eagleye_530s/)
 
 Original source index: Dimensions (Back). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `ced5f9f86f3fad5dbb154d50197be6cc5342731590bad53d2862f8d7f4fd1f3d`
 
@@ -69,6 +87,8 @@ SHA-256: `ced5f9f86f3fad5dbb154d50197be6cc5342731590bad53d2862f8d7f4fd1f3d`
 
 Original source index: Dimensions (Header Side). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `f064355fb531f3af76edc7532885330f681f9bc0493ae681663cbf9686913b68`
 
 ## Dimensions (I-O Side)
@@ -84,6 +104,8 @@ SHA-256: `f064355fb531f3af76edc7532885330f681f9bc0493ae681663cbf9686913b68`
 [Source 1](https://files.seeedstudio.com/wiki/Eagleye_530s/img/MECHANICAL2.png) · [Source 2](https://wiki.seeedstudio.com/Eagleye_530s/)
 
 Original source index: Dimensions (I-O Side). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `8fcc62d0df4739fea50a891052ec7b6910133dca115cdabb0cba4626a4a6989e`
 
@@ -101,6 +123,8 @@ SHA-256: `8fcc62d0df4739fea50a891052ec7b6910133dca115cdabb0cba4626a4a6989e`
 
 Original source index: Dimensions (Top). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `3401794f36233138a5300a747c5cfc959a986d0e08ff4d7f59207ea7ac7e2d3e`
 
 ## Hardware Overview (Back)
@@ -117,6 +141,8 @@ SHA-256: `3401794f36233138a5300a747c5cfc959a986d0e08ff4d7f59207ea7ac7e2d3e`
 
 Original source index: Hardware Overview (Back). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `c20d9dbb479cf48a8fdc023fc3895700430f4cc67d9cb0901e98040164301d7b`
 
 ## Hardware Overview (Front)
@@ -132,6 +158,8 @@ SHA-256: `c20d9dbb479cf48a8fdc023fc3895700430f4cc67d9cb0901e98040164301d7b`
 [Source 1](https://files.seeedstudio.com/wiki/Eagleye_530s/img/eagleye_530s_front.JPG) · [Source 2](https://wiki.seeedstudio.com/Eagleye_530s/)
 
 Original source index: Hardware Overview (Front). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `782e1f605ff26f7858b8f6c3592a9ccfbe0194b4c357153235bb78ffec8b7532`
 

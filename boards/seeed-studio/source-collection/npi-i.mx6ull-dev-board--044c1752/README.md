@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-e899956e609c824cdd)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/NPi-i.MX6ULL-Dev-Board-Linux-SBC/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Hardware Overview
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/NPi-i-MX6ULL-Dev-Board/IMG/NAND-over.jpg) · [Source 2](https://wiki.seeedstudio.com/NPi-i.MX6ULL-Dev-Board-Linux-SBC/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `6acf55ddd68e96eda7ed167e41614abdea6c9f99926f50da4d84644850166b24`
 
@@ -37,6 +51,8 @@ SHA-256: `6acf55ddd68e96eda7ed167e41614abdea6c9f99926f50da4d84644850166b24`
 
 Original source index: Pin Definition Table (ADC). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `e459263ca210536196b59125a04f039f5f7dad84aeb70d843da76034ef6e1e8b`
 
 ## Pin Definition Table
@@ -52,6 +68,8 @@ SHA-256: `e459263ca210536196b59125a04f039f5f7dad84aeb70d843da76034ef6e1e8b`
 [Source 1](https://files.seeedstudio.com/wiki/NPi-i-MX6ULL-Dev-Board/IMG/eMMC-c.jpg) · [Source 2](https://wiki.seeedstudio.com/NPi-i.MX6ULL-Dev-Board-Linux-SBC/)
 
 Original source index: Pin Definition Table. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `4b0dc5a05313cf2dfb62b63c16bcdd4f90a1512c2f5a1d1af555dc4e07b111f1`
 

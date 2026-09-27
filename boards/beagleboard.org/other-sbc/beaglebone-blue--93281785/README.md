@@ -2,10 +2,22 @@
 
 **BeagleBoard.org** · Other SBC
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=beagleboard-org-other-sbc-beaglebone-blue)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## pinout
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: BeagleBoard.org.
 
 [Source 1](https://raw.githubusercontent.com/beagleboard/docs.beagleboard.io/16fe321218239da46f68cc6688347deddd044181/boards/beaglebone/blue/images/pinout.jpg) · [Source 2](https://github.com/beagleboard/docs.beagleboard.io/blob/16fe321218239da46f68cc6688347deddd044181/boards/beaglebone/blue/images/pinout.jpg)
+
+
+
+Image revision: Not identified
 
 SHA-256: `67bca5266bae5149fb208a247c8ce52a6db7b45a3ec5a1e8130cd82a7fa8998b`
 
@@ -32,6 +48,10 @@ SHA-256: `67bca5266bae5149fb208a247c8ce52a6db7b45a3ec5a1e8130cd82a7fa8998b`
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: BeagleBoard.org.
 
 [Source 1](https://raw.githubusercontent.com/beagleboard/docs.beagleboard.io/16fe321218239da46f68cc6688347deddd044181/boards/beaglebone/blue/images/BeagleBone_Blue_pinouts.jpg) · [Source 2](https://github.com/beagleboard/docs.beagleboard.io/blob/16fe321218239da46f68cc6688347deddd044181/boards/beaglebone/blue/images/BeagleBone_Blue_pinouts.jpg)
+
+
+
+Image revision: Not identified
 
 SHA-256: `367930e50da5d22b419e03a4407b0850972866cdd572df49e0152bfdae2323ef`
 

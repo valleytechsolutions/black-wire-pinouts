@@ -2,10 +2,22 @@
 
 **Waveshare** · ESP32-C6
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=waveshare-esp32-esp32-c6-touch-lcd-1-28)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://www.waveshare.com/esp32-c6-touch-lcd-1.28.htm)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://www.waveshare.com/img/devkit/ESP32-C6-Touch-LCD-1.28/ESP32-C6-Touch-LCD-1.28-details-inter.jpg) · [Source 2](https://www.waveshare.com/esp32-c6-touch-lcd-1.28.htm)
+
+
+
+Image revision: Not identified
 
 SHA-256: `6aa1b498f94cfb05152ffb312d6ce83e2a7d60c9a3127370c8fe5d447e5fa646`
 
@@ -32,6 +48,10 @@ SHA-256: `6aa1b498f94cfb05152ffb312d6ce83e2a7d60c9a3127370c8fe5d447e5fa646`
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://docs.waveshare.com/assets/images/ESP32-C6-Touch-LCD-1.28-IntfIntro-24a01cc7e9d98e0f0748362c64ea01cf.webp) · [Source 2](https://docs.waveshare.com/ESP32-C6-Touch-LCD-1.28)
+
+
+
+Image revision: Not identified
 
 SHA-256: `1851ce33a457a6376bf2327f4662fef52305e09f825181f34cd70e47c77b788e`
 

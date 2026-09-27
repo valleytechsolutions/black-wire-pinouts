@@ -2,10 +2,22 @@
 
 **WIZnet** · RP2350
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=wiznet-rp2350-w5100s-evb-pico2)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.wiznet.io/Product/Chip/Ethernet/W5100S/w5100s-evb-pico2)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Manufacturer pinout reference
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: WIZnet.
 
 [Source 1](https://docs.wiznet.io/assets/images/w5100s-evb-pico2-pinout-a84701258223969cfbbe26d2c2ef9280.png) · [Source 2](https://docs.wiznet.io/Product/Chip/Ethernet/W5100S/w5100s-evb-pico2)
+
+
+
+Image revision: Not identified
 
 SHA-256: `c21d8fd8c0c8098ee2b8023583ef4e27b895244caefbf0112249913963ea02ff`
 

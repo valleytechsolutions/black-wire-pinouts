@@ -2,10 +2,22 @@
 
 **M5Stack** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-a363aa4df93d30377d)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.m5stack.com/en/core/Arduino_Nesso_N1)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Dimensions
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1198/DK001-model-size_02.png) · [Source 2](https://docs.m5stack.com/en/core/Arduino_Nesso_N1)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `d41ce73682618f3a18533a6c670b252e8e2fcb5f55ce18ee7424e1314f0f3116`
 
@@ -37,6 +51,8 @@ SHA-256: `d41ce73682618f3a18533a6c670b252e8e2fcb5f55ce18ee7424e1314f0f3116`
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `65fc19bff3f9706df8f8b9499ed31d5a65396460dcef0bc5dd9e894edcbf6e35`
 
 ## Dimensions
@@ -52,6 +68,8 @@ SHA-256: `65fc19bff3f9706df8f8b9499ed31d5a65396460dcef0bc5dd9e894edcbf6e35`
 [Source 1](https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1198/DK001-model-size_01.png) · [Source 2](https://docs.m5stack.com/en/core/Arduino_Nesso_N1)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `9ee2d62804bbf4e0c711dbb8d5ee7874309f8b0edb48b77a4a892c8d4a1c30ae`
 

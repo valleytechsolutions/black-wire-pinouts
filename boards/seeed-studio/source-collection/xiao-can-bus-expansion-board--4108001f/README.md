@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-bc55b23b3301baeb8e)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/xiao-can-bus-expansion/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Hardware Overview (Back)
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/xiao_can_bus_board/3.png) · [Source 2](https://wiki.seeedstudio.com/xiao-can-bus-expansion/)
 
 Original source index: Hardware Overview (Back). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `7355f8645cc7b96c9eefc3207f313238af4aa183ae3c10826dd7b67629b601e5`
 
@@ -36,6 +50,8 @@ SHA-256: `7355f8645cc7b96c9eefc3207f313238af4aa183ae3c10826dd7b67629b601e5`
 [Source 1](https://files.seeedstudio.com/wiki/xiao_can_bus_board/hw.jpg) · [Source 2](https://wiki.seeedstudio.com/xiao-can-bus-expansion/)
 
 Original source index: Hardware Overview (Front). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `a92bae339ddd338b763670b019000dff3e3f41f6d01bf6fb121e1fa1c0abe1d2`
 

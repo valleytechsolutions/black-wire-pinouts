@@ -2,10 +2,22 @@
 
 **Solder Party** · RP2040
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=solder-party-rp2040-rp2040-stamp)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Manufacturer pinout reference
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Solder Party.
 
 [Source 1](https://www.solder.party/docs/rp2040-stamp/leaflet_rp2040_stamp.png) · [Source 2](https://www.solder.party/docs/rp2xxx-stamp-related/rp2040-stamp/downloads/)
+
+
+
+Image revision: Not identified
 
 SHA-256: `15d8d5c0dff314bc240bb82af576e5be4effffe985f7e2dc11a4337d7e82b4f1`
 

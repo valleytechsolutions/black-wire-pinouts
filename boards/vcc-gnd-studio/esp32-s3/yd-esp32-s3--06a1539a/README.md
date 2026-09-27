@@ -2,10 +2,22 @@
 
 **VCC-GND Studio** · ESP32-S3
 
-Revision: Multiple source/revision records; see individual assets  
+Revision: Multiple source/revision records; see individual assets
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=vcc-gnd-studio-esp32-yd-esp32-s3)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout - Renzo Mischianti
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://mischianti.org/wp-content/uploads/2023/08/vcc-gnd-studio-yd-esp32-s3-devkitc-1-clone-pinout-mischianti-low-resolution-1.jpg) · [Source 2](https://mischianti.org/vcc-gnd-studio-yd-esp32-s3-devkitc-1-clone-high-resolution-pinout-and-specs/)
 
 Original public image by Renzo Mischianti, unchanged. Diagram/model matching is visual, not electrical verification. Exact PCB layout and revision must match; no inference of compatibility with lookalike marketplace clones.
+
+Image revision: Not identified; memory variants not independently matched
 
 SHA-256: `fdea46c2951d93e37940af207debdb944dd2df3960f74558bedf8c56639aea94`
 
@@ -37,7 +51,7 @@ SHA-256: `fdea46c2951d93e37940af207debdb944dd2df3960f74558bedf8c56639aea94`
 
 Original repository file preserved with commit identifier. Board illustration/silkscreen images are explicitly distinguished from expanded pin-function diagrams.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `ff9a2d8fc268c0983e5151396d34ebb2afcdfffa33dfe03e9f6dad76629c6d87`
 

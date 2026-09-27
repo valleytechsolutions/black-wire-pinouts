@@ -2,10 +2,22 @@
 
 **RAKwireless** · Other
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=rakwireless-other-rak813-module)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.rakwireless.com/product-categories/wisduo/rak813-module/datasheet/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pin Out Diagram for RAK813
 
@@ -13,13 +25,17 @@ Coverage: Pinout image collected
 
 [![RAK813-Module reference preview](../../../../library/thumbs/5bf421ab98d0fb3397ae9acc1c2ccbd13c1930a42fecdee6294b07d419b6deb9.webp)](../../../../library/media/5bf421ab98d0fb3397ae9acc1c2ccbd13c1930a42fecdee6294b07d419b6deb9.png)
 
-[Open original reference](../../../../library/media/5bf421ab98d0fb3397ae9acc1c2ccbd13c1930a42fecdee6294b07d419b6deb9.png) · [Original vector](../../../../library/media/a707ecccdfba7665b8bae3848eabccbba8ce75eabaacf90125415da2bd438bb4.svg)
+[Open original reference](../../../../library/media/5bf421ab98d0fb3397ae9acc1c2ccbd13c1930a42fecdee6294b07d419b6deb9.png)
+
+[Original vector companion](../../../../library/media/a707ecccdfba7665b8bae3848eabccbba8ce75eabaacf90125415da2bd438bb4.svg)
 
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: RAKwireless.
 
 [Source 1](https://raw.githubusercontent.com/RAKWireless/RAKwireless-docs/4361f2635b6e16c72a46167a208db87427106bef/docs/.vuepress/public/assets/images/wisduo/rak813-module/datasheet/pin-definition/rak813-pinout.svg) · [Source 2](https://docs.rakwireless.com/product-categories/wisduo/rak813-module/datasheet/)
 
 Raster rendering of the original manufacturer SVG at 240 DPI, fitted within 3000 pixels. Original vector retained. Labels have not been redrawn. Physical PCB/module pads or named board connector. Module entries are radio PCBs, not bare IC package pinouts. Check model suffix and radio band.
+
+Image revision: Not identified
 
 SHA-256: `5bf421ab98d0fb3397ae9acc1c2ccbd13c1930a42fecdee6294b07d419b6deb9`
 

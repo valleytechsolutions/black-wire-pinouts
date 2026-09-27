@@ -2,10 +2,22 @@
 
 **Elecrow** · RP2040
 
-Revision: V1.0 printed on PCB diagram  
+Revision: V1.0 printed on PCB diagram
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=elecrow-rp2040-crowpanel-pico-hmi-2-4-inch-display)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://www.elecrow.com/wiki/CrowPanel_Pico_HMI_Display-2.4.html)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Board pin map
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://www.elecrow.com/wiki/assets/images/CrowPanel_Pico_HMI_Display-2.4/PICO-HMI-2.4-PCB.webp) · [Source 2](https://www.elecrow.com/wiki/CrowPanel_Pico_HMI_Display-2.4.html)
 
 Manufacturer image preserved. Match the depicted board and revision before use.
+
+Image revision: V1.0 printed on PCB diagram
 
 SHA-256: `0a491bbeea5a10d114513da6d508913abaf75b67ef6aec1f591fc83c1890e522`
 

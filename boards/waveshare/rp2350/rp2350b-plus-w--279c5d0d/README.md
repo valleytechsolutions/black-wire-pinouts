@@ -2,10 +2,22 @@
 
 **Waveshare** · RP2350
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=waveshare-rp2350-rp2350b-plus-w)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://www.waveshare.com/rp2350b-plus-w.htm)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://www.waveshare.com/img/devkit/RP2350B-Plus-W/RP2350B-Plus-W-details-inter-1.jpg) · [Source 2](https://www.waveshare.com/rp2350b-plus-w.htm)
+
+
+
+Image revision: Not identified
 
 SHA-256: `9da177d4dc2f105f009620c71c9fe8b3ac7d173c0affddaa096202491396d117`
 
@@ -33,6 +49,10 @@ SHA-256: `9da177d4dc2f105f009620c71c9fe8b3ac7d173c0affddaa096202491396d117`
 
 [Source 1](https://www.waveshare.com/img/devkit/RP2350B-Plus-W/RP2350B-Plus-W-details-inter.jpg) · [Source 2](https://www.waveshare.com/rp2350b-plus-w.htm)
 
+
+
+Image revision: Not identified
+
 SHA-256: `1b21806fc6357529f415de851e009e12fc800adb7a6dca9e6cb78f7f2bc56b4e`
 
 ## Pinout
@@ -46,6 +66,10 @@ SHA-256: `1b21806fc6357529f415de851e009e12fc800adb7a6dca9e6cb78f7f2bc56b4e`
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://www.waveshare.com/w/upload/4/41/RP2350B-Plus-W-details-inter.png) · [Source 2](https://www.waveshare.com/wiki/RP2350B-Plus-W)
+
+
+
+Image revision: Not identified
 
 SHA-256: `2bd48dcd383d9dbf66427977884239b10fb33d47d69d8622900edaae197883fa`
 

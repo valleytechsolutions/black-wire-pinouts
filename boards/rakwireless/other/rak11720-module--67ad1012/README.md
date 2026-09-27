@@ -2,10 +2,22 @@
 
 **RAKwireless** · Other
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=rakwireless-other-rak11720-module)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.rakwireless.com/product-categories/wisduo/rak11720-module/datasheet/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## RAK11720 Pin Illustration
 
@@ -13,13 +25,17 @@ Coverage: Pinout image collected
 
 [![RAK11720-Module reference preview](../../../../library/thumbs/193f2caf31a982c28bea2fe76cae75855a0bea6f434563ae7f00b4644704b086.webp)](../../../../library/media/193f2caf31a982c28bea2fe76cae75855a0bea6f434563ae7f00b4644704b086.png)
 
-[Open original reference](../../../../library/media/193f2caf31a982c28bea2fe76cae75855a0bea6f434563ae7f00b4644704b086.png) · [Original vector](../../../../library/media/bce5512db5e003cf5abb19c025fc7f1c8c76df3de753ffd81b6cbf3f2621dae8.svg)
+[Open original reference](../../../../library/media/193f2caf31a982c28bea2fe76cae75855a0bea6f434563ae7f00b4644704b086.png)
+
+[Original vector companion](../../../../library/media/bce5512db5e003cf5abb19c025fc7f1c8c76df3de753ffd81b6cbf3f2621dae8.svg)
 
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: RAKwireless.
 
 [Source 1](https://raw.githubusercontent.com/RAKWireless/RAKwireless-docs/4361f2635b6e16c72a46167a208db87427106bef/docs/.vuepress/public/assets/images/wisduo/rak11720-module/datasheet/RAK11720-Pinout diagram.svg) · [Source 2](https://docs.rakwireless.com/product-categories/wisduo/rak11720-module/datasheet/)
 
 Raster rendering of the original manufacturer SVG at 240 DPI, fitted within 3000 pixels. Original vector retained. Labels have not been redrawn. Physical PCB/module pads or named board connector. Module entries are radio PCBs, not bare IC package pinouts. Check model suffix and radio band.
+
+Image revision: Not identified
 
 SHA-256: `193f2caf31a982c28bea2fe76cae75855a0bea6f434563ae7f00b4644704b086`
 

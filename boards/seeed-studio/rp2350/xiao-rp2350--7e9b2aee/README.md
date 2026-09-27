@@ -2,10 +2,22 @@
 
 **Seeed Studio** · RP2350
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-rp2350-xiao-rp2350)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/xiao_rp2350_arduino/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout (Back)
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Seeed Studio.
 
 [Source 1](https://files.seeedstudio.com/wiki/XIAO-RP2350/img/XIAO_RP2350_back_pinout.png) · [Source 2](https://wiki.seeedstudio.com/xiao_rp2350_arduino/)
+
+
+
+Image revision: Not identified
 
 SHA-256: `72cc615fd60b9992768d97ef0de46a3dfb13ab4d5c25542d8b524deb595c448b`
 
@@ -33,6 +49,10 @@ SHA-256: `72cc615fd60b9992768d97ef0de46a3dfb13ab4d5c25542d8b524deb595c448b`
 
 [Source 1](https://files.seeedstudio.com/wiki/microblocks/xiao-rp2350-pinout.png) · [Source 2](https://wiki.seeedstudio.com/xiao_rp2350_microblocks/)
 
+
+
+Image revision: Not identified
+
 SHA-256: `1ba81a55b17f1f787df393ae30be3bc1a7fb49c257b448bfeee5ab06528f2303`
 
 ## Pinout (Front)
@@ -47,6 +67,10 @@ SHA-256: `1ba81a55b17f1f787df393ae30be3bc1a7fb49c257b448bfeee5ab06528f2303`
 
 [Source 1](https://files.seeedstudio.com/wiki/XIAO-RP2350/img/XIAO_RP2350_front_pinout.png) · [Source 2](https://wiki.seeedstudio.com/xiao_rp2350_arduino/)
 
+
+
+Image revision: Not identified
+
 SHA-256: `5cfbdc30658e37a0c2aa6a259581282c88a35bda0df2fe6142c250293c77af94`
 
 ## Pinout Sheet
@@ -60,6 +84,8 @@ SHA-256: `5cfbdc30658e37a0c2aa6a259581282c88a35bda0df2fe6142c250293c77af94`
 [Source 1](https://files.seeedstudio.com/wiki/XIAO-RP2350/res/XIAO-RP2350-pinout-sheet.xlsx) · [Source 2](https://wiki.seeedstudio.com/xiao_rp2350_arduino/)
 
 Original source index: Pinout Sheet. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `a7946ea79140aaa9ed5fa9e18047ab1608cc06ede6f275736e9da64ad8c6c807`
 

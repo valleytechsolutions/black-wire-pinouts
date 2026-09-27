@@ -2,10 +2,22 @@
 
 **SparkFun** · RP2040
 
-Revision: Diagram DEV-17717  
+Revision: Diagram DEV-17717
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=sparkfun-rp2040-pro-micro-rp2040)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://www.sparkfun.com/sparkfun-pro-micro-rp2040.html)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout reference - PDF page 1
 
@@ -21,6 +33,8 @@ Coverage: Pinout image collected
 
 Manufacturer product page DEV-18288 links the DEV-17717 graphical datasheet and says the newer board is functionally identical with component-layout changes. Reference image shows DEV-17717.
 
+Image revision: Diagram DEV-17717
+
 SHA-256: `be82298dc716659585f61a26af169f09967d9304e87a472f0be7cb6bd1228c33`
 
 ## Manufacturer pinout reference
@@ -34,6 +48,8 @@ SHA-256: `be82298dc716659585f61a26af169f09967d9304e87a472f0be7cb6bd1228c33`
 [Source 1](https://cdn.sparkfun.com/assets/e/2/7/6/b/ProMicroRP2040_Graphical_Datasheet.pdf) · [Source 2](https://www.sparkfun.com/sparkfun-pro-micro-rp2040.html)
 
 Manufacturer product page DEV-18288 links the DEV-17717 graphical datasheet and says the newer board is functionally identical with component-layout changes. Reference image shows DEV-17717.
+
+Image revision: Diagram DEV-17717
 
 SHA-256: `7e7379b4a5b7ec8ff561a642390932efaa55c3e494a9ddce754382646278cd78`
 

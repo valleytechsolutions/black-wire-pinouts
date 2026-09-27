@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-46cc91e23ccadb5750)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://www.seeedstudio.com/Wio-LR1121-with-IPEX-antenna-connector-p-6479.html)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Dimensions
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://media-cdn.seeedstudio.com/media/catalog/product/5/-/5-113991415-wio-lr1121_1.jpg) · [Source 2](https://www.seeedstudio.com/Wio-LR1121-with-IPEX-antenna-connector-p-6479.html)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `05f80eead3b81e83616ee724308908daf085bbb9183328b43372fa4e78f995ed`
 
@@ -36,6 +50,8 @@ SHA-256: `05f80eead3b81e83616ee724308908daf085bbb9183328b43372fa4e78f995ed`
 [Source 1](https://files.seeedstudio.com/products/SenseCAP/Wio-LR1121/Wio-LR1121_Module_Datasheet.pdf) · [Source 2](https://www.seeedstudio.com/Wio-LR1121-with-IPEX-antenna-connector-p-6479.html)
 
 Original source index: Pin Definition Table. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `1c04ee28014ece9a4ccf16e7ff9d6060c9431119641d40d914f212c84796cd51`
 

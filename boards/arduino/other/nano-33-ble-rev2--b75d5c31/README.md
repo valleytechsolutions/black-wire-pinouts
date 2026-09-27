@@ -2,10 +2,22 @@
 
 **Arduino** · Other
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=arduino-other-nano-33-ble-rev2)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.arduino.cc/hardware/nano-33-ble-rev2/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## pinout
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nano/boards/nano-33-ble-rev2/datasheet/assets/pinout.png) · [Source 2](https://docs.arduino.cc/hardware/nano-33-ble-rev2/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nano/boards/nano-33-ble-rev2/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nano/boards/nano-33-ble-rev2/datasheet/assets/pinout.png) · [Source 5](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nano/boards/nano-33-ble-rev2/tutorials/cheat-sheet/assets/pinout.png)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement.
+
+Image revision: Not identified
 
 SHA-256: `a8ea8186b38ce231fa163ca06c823417620a97085d8e8d7557f760544806d4b8`
 
@@ -37,6 +51,8 @@ SHA-256: `a8ea8186b38ce231fa163ca06c823417620a97085d8e8d7557f760544806d4b8`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 1 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `1a7ba1c5e7ae436ccee84c6e099e30788d412dc58d107b5ea885228bc8e3608a`
 
 ## Official full pinout - page 2
@@ -52,6 +68,8 @@ SHA-256: `1a7ba1c5e7ae436ccee84c6e099e30788d412dc58d107b5ea885228bc8e3608a`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nano/boards/nano-33-ble-rev2/downloads/ABX00071-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/nano-33-ble-rev2/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nano/boards/nano-33-ble-rev2/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nano/boards/nano-33-ble-rev2/downloads/ABX00071-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 2 rendered at 220 dpi; no labels changed.
+
+Image revision: Not identified
 
 SHA-256: `21660162df2f8a4b6b476cd8e189626ea86bbad2da44a21f1a1a3fcf564ec28e`
 
@@ -69,6 +87,8 @@ SHA-256: `21660162df2f8a4b6b476cd8e189626ea86bbad2da44a21f1a1a3fcf564ec28e`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 4 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `c000d2f59b9f1944ee737a9b67e9ea6ed9aabe9cd0860fa0c75f422bcd641a85`
 
 ## Official full pinout - page 3
@@ -85,6 +105,8 @@ SHA-256: `c000d2f59b9f1944ee737a9b67e9ea6ed9aabe9cd0860fa0c75f422bcd641a85`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 3 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `1caa94629537e5bbe0f658bac026b97072433335c32ef4f57f6845064526537a`
 
 ## Full board pinout PDF
@@ -98,6 +120,8 @@ SHA-256: `1caa94629537e5bbe0f658bac026b97072433335c32ef4f57f6845064526537a`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nano/boards/nano-33-ble-rev2/downloads/ABX00071-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/nano-33-ble-rev2/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nano/boards/nano-33-ble-rev2/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nano/boards/nano-33-ble-rev2/downloads/ABX00071-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement.
+
+Image revision: Not identified
 
 SHA-256: `913ac69dcbfa46aa5e78be797222cbd9c7525983c5e41997fba56234aa3df1bd`
 

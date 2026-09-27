@@ -2,10 +2,22 @@
 
 **Orange Pi** · Other SBC
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=orange-pi-other-sbc-5-ultra)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](http://www.orangepi.org/orangepiwiki/index.php/Orange_Pi_5_Ultra)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## GPIO pin-function reference SBCX-035
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](http://www.orangepi.org/orangepiwiki/images/thumb/0/01/Orange_Pi_5_Ultra-image268.png/576px-Orange_Pi_5_Ultra-image268.png) · [Source 2](http://www.orangepi.org/orangepiwiki/index.php/Orange_Pi_5_Ultra)
 
 40 Pin Interface Pin Description
+
+Image revision: Not identified
 
 SHA-256: `7f4b1cec2ba73e297de9c1e8b505d05b6ce6b33c58796ba1ed9528d498e186c5`
 
@@ -37,6 +51,8 @@ SHA-256: `7f4b1cec2ba73e297de9c1e8b505d05b6ce6b33c58796ba1ed9528d498e186c5`
 
 40 Pin Interface Pin Description
 
+Image revision: Not identified
+
 SHA-256: `57e852a4a4e323151153ba77492368a6108558891e3eb1a2071252b971ae9a2b`
 
 ## GPIO pin-function reference SBCX-037
@@ -53,6 +69,8 @@ SHA-256: `57e852a4a4e323151153ba77492368a6108558891e3eb1a2071252b971ae9a2b`
 
 40 Pin Interface Pin Description
 
+Image revision: Not identified
+
 SHA-256: `d74b078f43ab03856d30aed8ed659e77d480ecc708da3b4ba91e27d1f8425dbd`
 
 ## Header orientation and board labels
@@ -68,6 +86,8 @@ SHA-256: `d74b078f43ab03856d30aed8ed659e77d480ecc708da3b4ba91e27d1f8425dbd`
 [Source 1](http://www.orangepi.org/orangepiwiki/images/thumb/a/a6/Orange_Pi_5_Ultra-image267.jpeg/576px-Orange_Pi_5_Ultra-image267.jpeg) · [Source 2](http://www.orangepi.org/orangepiwiki/index.php/Orange_Pi_5_Ultra)
 
 40 Pin Interface Pin Description
+
+Image revision: Not identified
 
 SHA-256: `645b43ddb25511d453a1dd3471bea65b85ac38e27021dee821959b51f81f5c97`
 

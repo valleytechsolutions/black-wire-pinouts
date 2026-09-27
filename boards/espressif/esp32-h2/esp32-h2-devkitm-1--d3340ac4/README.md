@@ -2,10 +2,22 @@
 
 **Espressif** · ESP32-H2
 
-Revision: Multiple source/revision records; see individual assets  
+Revision: Multiple source/revision records; see individual assets
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=espressif-esp32-esp32-h2-devkitm-1)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Manufacturer board pinout
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://raw.githubusercontent.com/espressif/esp-dev-kits/ab7aff2e0c171e6918c88555b700798f36caeb67/docs/_static/esp32-h2-devkitm-1/esp32-h2-devkitm-1-v1.2_pinlayout.png) · [Source 2](https://github.com/espressif/esp-dev-kits/blob/ab7aff2e0c171e6918c88555b700798f36caeb67/docs/_static/esp32-h2-devkitm-1/esp32-h2-devkitm-1-v1.2_pinlayout.png)
 
 Original image from the manufacturer documentation repository; exact commit recorded in source URL.
+
+Image revision: v1.2
 
 SHA-256: `0e861d6e64595de19c34b561a7d6e2b2db313767417a0213de3c99041da3d031`
 

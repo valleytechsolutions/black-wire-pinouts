@@ -2,10 +2,22 @@
 
 **Adafruit** · ESP32-C6
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=adafruit-esp32-feather-esp32-c6-4mb-flash-no-psram)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://learn.adafruit.com/adafruit-esp32-c6-feather/pinouts)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout reference - PDF page 1
 
@@ -21,6 +33,8 @@ Coverage: Pinout image collected
 
 Discovered from CircuitPython board metadata and the linked product/documentation page. Exact hardware revision requires matching to the diagram. Original PDF page 1 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `70e2c74c3e745272edc32ad7e3172f9e9d74c5bed936e0ee6d564f0a7f4a59f9`
 
 ## Physical board pinout
@@ -34,6 +48,8 @@ SHA-256: `70e2c74c3e745272edc32ad7e3172f9e9d74c5bed936e0ee6d564f0a7f4a59f9`
 [Source 1](https://raw.githubusercontent.com/adafruit/Adafruit-ESP32-C6-Feather-PCB/main/Adafruit%20Feather%20ESP32-C6%20PrettyPins%202.pdf) · [Source 2](https://learn.adafruit.com/adafruit-esp32-c6-feather/pinouts)
 
 Discovered from CircuitPython board metadata and the linked product/documentation page. Exact hardware revision requires matching to the diagram.
+
+Image revision: Not identified
 
 SHA-256: `f93ac5623824aff97e18719f70b26921f618154e0c29a8e06f20bc40fbc9e8ab`
 

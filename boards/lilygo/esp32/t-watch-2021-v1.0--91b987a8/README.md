@@ -2,12 +2,24 @@
 
 **LILYGO** · ESP32
 
-Revision: V1.0  
+Revision: V1.0
+
 Coverage: GPIO reference collected; physical pinout needed
 
 [Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lilygo-gpio-device-t-watch-2021-v1-0)
 
 Device category: **Wearables**
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## T-WATCH2021-V1.0-en
 

@@ -2,10 +2,22 @@
 
 **Arduino** · Other
 
-Revision: Multiple source/revision records; see individual assets  
+Revision: Multiple source/revision records; see individual assets
+
 Coverage: Partial pinout collected; full reference still needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=arduino-other-board-serial-single-sided-v3)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.arduino.cc/retired/boards/arduino-serial-single-sided-3/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Board pinout - original PDF page 1
 
@@ -21,7 +33,7 @@ Coverage: Partial pinout collected; full reference still needed
 
 Severino historical board manual. Match the source revision. Original PDF page 1 rendered at 220 dpi; no labels changed.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Severino S3v3 revision 2
 
 SHA-256: `eb21ac05c72e46855f53677f9c8e2b80aa85f5077af2c3190ece339d5df07313`
 
@@ -36,6 +48,8 @@ SHA-256: `eb21ac05c72e46855f53677f9c8e2b80aa85f5077af2c3190ece339d5df07313`
 [Source 1](https://www.arduino.cc/en/uploads/Main/ArduinoSeverinoManual2.pdf) · [Source 2](https://docs.arduino.cc/retired/boards/arduino-serial-single-sided-3/)
 
 Severino historical board manual. Match the source revision.
+
+Image revision: Not identified
 
 SHA-256: `7121a9e0d53675a63fe5778fa5b1618ecd3bef126ccd2929b0db3ca4ae105402`
 

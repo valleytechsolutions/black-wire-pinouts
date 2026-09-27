@@ -2,7 +2,8 @@
 
 **M5Stack** · Raspberry Pi CM0
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
 [Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=m5stack-gpio-device-cardputerzero)
@@ -10,6 +11,17 @@ Coverage: Pinout image collected
 Device category: **Handhelds & pocket tools**
 
 M5Stack marks packaging and software as work in progress; features and documentation may change.
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.m5stack.com/en/CardputerZero)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Rear GPIO and peripheral reference label
 

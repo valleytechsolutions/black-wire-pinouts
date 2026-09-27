@@ -2,10 +2,22 @@
 
 **Waveshare** · ESP32-P4
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=waveshare-esp32-esp32-p4-nano)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://www.waveshare.com/esp32-p4-nano.htm)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://www.waveshare.com/img/devkit/ESP32-P4-NANO/ESP32-P4-NANO-details-inter.jpg) · [Source 2](https://www.waveshare.com/esp32-p4-nano.htm)
+
+
+
+Image revision: Not identified
 
 SHA-256: `d8b41963b85ec6e0e79e489f9a4ad908b6906e2e2e8cd7a251fc2e5a45a4ac4e`
 
@@ -32,6 +48,10 @@ SHA-256: `d8b41963b85ec6e0e79e489f9a4ad908b6906e2e2e8cd7a251fc2e5a45a4ac4e`
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://docs.waveshare.com/assets/images/ESP32-P4-NANO-details-inter-7d57c8d9e67e7deb6af7fbf47ba97a1a.webp) · [Source 2](https://docs.waveshare.com/ESP32-P4-NANO)
+
+
+
+Image revision: Not identified
 
 SHA-256: `e8ce6de6b699d11fdcf9383bd3e14709980fc15dea4283b1d64f804631f81319`
 

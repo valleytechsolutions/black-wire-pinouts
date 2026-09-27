@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-1b9fbe6e6c74c97b22)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/getting_started_with_seeedstudio_beaglebone_green_eco/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Block Diagram
 
@@ -21,6 +33,8 @@ Coverage: Source collection; review pending
 
 Original source index: Block Diagram. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `066a174e0874393699f4f1c57f25f7cff65568219546156d52e7e801cf7e47a9`
 
 ## Dimensions
@@ -34,6 +48,8 @@ SHA-256: `066a174e0874393699f4f1c57f25f7cff65568219546156d52e7e801cf7e47a9`
 [Source 1](https://files.seeedstudio.com/products/102111198/res/BBG_Eco_Structure_Reference_20251219.pdf) · [Source 2](https://wiki.seeedstudio.com/getting_started_with_seeedstudio_beaglebone_green_eco/)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `a78ee2f448e2394780b52278bf0d08482105556a662e4b74f26f067fd24b671e`
 
@@ -51,6 +67,8 @@ SHA-256: `a78ee2f448e2394780b52278bf0d08482105556a662e4b74f26f067fd24b671e`
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `784fc6ca04504fa2eaf963e60ba9d10b099107658edf41a197e8583c0865d11b`
 
 ## Pin Definition Table
@@ -66,6 +84,8 @@ SHA-256: `784fc6ca04504fa2eaf963e60ba9d10b099107658edf41a197e8583c0865d11b`
 [Source 1](https://files.seeedstudio.com/wiki/BeagleBone_Green_Eco/img/1.png) · [Source 2](https://wiki.seeedstudio.com/getting_started_with_seeedstudio_beaglebone_green_eco/)
 
 Original source index: Pin Definition Table. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `f13c2a46a20ef0ddfa81232079c53deb5f152eaf8dc54007fe51b762e1d07aea`
 
@@ -83,6 +103,8 @@ SHA-256: `f13c2a46a20ef0ddfa81232079c53deb5f152eaf8dc54007fe51b762e1d07aea`
 
 Original source index: Pin Multiplexing (Analog). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `08d478d793e833f5da282072bcd6c009d91719c1e9a3f116e49d28edb71057bd`
 
 ## Pin Multiplexing (GPIO)
@@ -98,6 +120,8 @@ SHA-256: `08d478d793e833f5da282072bcd6c009d91719c1e9a3f116e49d28edb71057bd`
 [Source 1](https://files.seeedstudio.com/wiki/BeagleBone_Green_Eco/img/2.png) · [Source 2](https://wiki.seeedstudio.com/getting_started_with_seeedstudio_beaglebone_green_eco/)
 
 Original source index: Pin Multiplexing (GPIO). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `310a2b3e8db5ee09b987cace755858f60fa891e3011c5726b4c18846f039361f`
 
@@ -115,6 +139,8 @@ SHA-256: `310a2b3e8db5ee09b987cace755858f60fa891e3011c5726b4c18846f039361f`
 
 Original source index: Pin Multiplexing (I2C). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `8d78c85887d25119bbcf44b1c87557a723c91cf980ac27e1fb79a222d9540290`
 
 ## Pin Multiplexing (PWM-Timer)
@@ -130,6 +156,8 @@ SHA-256: `8d78c85887d25119bbcf44b1c87557a723c91cf980ac27e1fb79a222d9540290`
 [Source 1](https://files.seeedstudio.com/wiki/BeagleBone_Green_Eco/img/3.png) · [Source 2](https://wiki.seeedstudio.com/getting_started_with_seeedstudio_beaglebone_green_eco/)
 
 Original source index: Pin Multiplexing (PWM-Timer). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `63cc2042efaecb8e62cfdd27a0283d9c04530b07406f2c8f5d0720fe1404948a`
 
@@ -147,6 +175,8 @@ SHA-256: `63cc2042efaecb8e62cfdd27a0283d9c04530b07406f2c8f5d0720fe1404948a`
 
 Original source index: Pin Multiplexing (SPI). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `d1fb6f010ba9476e66ce3086aa3ed5adcaa638537b3c80f48d725d0ae6e3ad7a`
 
 ## Pin Multiplexing (UART)
@@ -162,6 +192,8 @@ SHA-256: `d1fb6f010ba9476e66ce3086aa3ed5adcaa638537b3c80f48d725d0ae6e3ad7a`
 [Source 1](https://files.seeedstudio.com/wiki/BeagleBone_Green_Eco/img/5.png) · [Source 2](https://wiki.seeedstudio.com/getting_started_with_seeedstudio_beaglebone_green_eco/)
 
 Original source index: Pin Multiplexing (UART). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `0f434e4ae965280062f72ee903ac46fa97b29ee662af4c8ebfc2d501c954cbbe`
 

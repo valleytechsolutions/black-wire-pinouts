@@ -2,10 +2,22 @@
 
 **Espressif** · ESP32-S3
 
-Revision: Multiple source/revision records; see individual assets  
+Revision: Multiple source/revision records; see individual assets
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=espressif-esp32-esp32-s3-devkitc-1)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Manufacturer board pinout
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://raw.githubusercontent.com/espressif/esp-dev-kits/ab7aff2e0c171e6918c88555b700798f36caeb67/docs/_static/esp32-s3-devkitc-1/ESP32-S3_DevKitC-1_pinlayout.jpg) · [Source 2](https://github.com/espressif/esp-dev-kits/blob/ab7aff2e0c171e6918c88555b700798f36caeb67/docs/_static/esp32-s3-devkitc-1/ESP32-S3_DevKitC-1_pinlayout.jpg)
 
 Original image from the manufacturer documentation repository; exact commit recorded in source URL.
+
+Image revision: Read exact board revision from image/source
 
 SHA-256: `8e5671e714d017b110c4bbe40ffae93067070cde1805f471a79b15aa0d8275df`
 
@@ -37,6 +51,8 @@ SHA-256: `8e5671e714d017b110c4bbe40ffae93067070cde1805f471a79b15aa0d8275df`
 
 Original image from the manufacturer documentation repository; exact commit recorded in source URL.
 
+Image revision: v1.1
+
 SHA-256: `3237fd9183a10d686a5bdd2268e40fb6f5624526a85132e717b8ada8b5cbdf7b`
 
 ## Pinout - Renzo Mischianti
@@ -52,6 +68,8 @@ SHA-256: `3237fd9183a10d686a5bdd2268e40fb6f5624526a85132e717b8ada8b5cbdf7b`
 [Source 1](https://mischianti.org/wp-content/uploads/2023/06/esp32-S3-DevKitC-1-original-pinout-low.jpg) · [Source 2](https://mischianti.org/esp32-s3-devkitc-1-high-resolution-pinout-and-specs/)
 
 Original public image by Renzo Mischianti, unchanged. Diagram/model matching is visual, not electrical verification. Exact PCB layout and revision must match; no inference of compatibility with lookalike marketplace clones.
+
+Image revision: Not identified; verify RGB LED revision
 
 SHA-256: `ba61b31fb9a494fa9ee67e512ad69260b9c1240b872626f791bc2b19a41d1d58`
 

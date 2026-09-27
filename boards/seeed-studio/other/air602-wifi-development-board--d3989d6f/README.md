@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Other
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-other-air602-wifi-development-board)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/Air602_WiFi_Development_Board/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout (Board Header)
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://files.seeedstudio.com/wiki/Bazaar_file/113990576/PIN_MAP_B.jpg) · [Source 2](https://wiki.seeedstudio.com/Air602_WiFi_Development_Board/)
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `cc7fb932e91c019f1a21c96706f4861bb8b428975ce9e3f5b1911e94762a0aa9`
 
@@ -37,6 +51,8 @@ SHA-256: `cc7fb932e91c019f1a21c96706f4861bb8b428975ce9e3f5b1911e94762a0aa9`
 
 Original source index: Pin Definition Table. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `9decd9b255e3b713c592b8b2463aacce14512eb158931b1e368aa8bde253c765`
 
 ## Pinout
@@ -52,6 +68,8 @@ SHA-256: `9decd9b255e3b713c592b8b2463aacce14512eb158931b1e368aa8bde253c765`
 [Source 1](https://files.seeedstudio.com/wiki/Bazaar_file/113990576/PIN_MAP.jpg) · [Source 2](https://wiki.seeedstudio.com/Air602_WiFi_Development_Board/)
 
 Original source index: Pinout. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `8188578cefcffae269af41931e1cab9cceebcd540a1e8732082eeab5a5b49d38`
 

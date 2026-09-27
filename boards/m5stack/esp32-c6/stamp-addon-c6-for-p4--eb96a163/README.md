@@ -2,10 +2,22 @@
 
 **M5Stack** · ESP32-C6
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=m5stack-expansion-stamp-addon-c6-for-p4)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.m5stack.com/en/stamp/Stamp-AddOn_C6_For_P4)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1220/C6_FOR_P4-pinmap.jpg) · [Source 2](https://docs.m5stack.com/en/stamp/Stamp-AddOn_C6_For_P4)
 
 Imported from existing M5Stack Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `6cfb7173cd2454ede77c397fa7e71dffa4bbb433b27663a7a173ee97f4b6e6e1`
 
@@ -36,6 +50,8 @@ SHA-256: `6cfb7173cd2454ede77c397fa7e71dffa4bbb433b27663a7a173ee97f4b6e6e1`
 [Source 1](https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1220/A172_model-size-stampaddonc6forp4_page_01.png) · [Source 2](https://docs.m5stack.com/en/stamp/Stamp-AddOn_C6_For_P4)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `546cd7f412f2fea548e355a500cc853569908aaca2042ec241f8b81f2483184d`
 

@@ -1,6 +1,6 @@
 # Browse the reference collection
 
-[Devices & IoT](DEVICES.md) · [First Edition policy](EDITION.md) · [Search the website](https://valleytechsolutions.tech/pages/bwm-technical-reference-guide)
+[Documentation audit](DOCUMENTATION.md) · [Devices & IoT](DEVICES.md) · [First Edition policy](EDITION.md) · [Search the website](https://valleytechsolutions.tech/pages/bwm-technical-reference-guide)
 
 Board diagrams, GPIO references and additional source documents are labeled separately.
 
@@ -121,6 +121,12 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Trinket M0](boards/adafruit/samd21/trinket-m0--c89ded96/README.md) | SAMD21 | 2 | 1 |
 | [Trinkey QT2040](boards/adafruit/rp2040/trinkey-qt2040--a1d914fb/README.md) | RP2040 | 2 | 1 |
 | [TRRS Trinkey](boards/adafruit/samd21/trrs-trinkey--a7dbd2d2/README.md) | SAMD21 | 2 | 1 |
+
+## Antmicro
+
+| Board / device | Processor / family | References | Pinout images |
+|---|---|---:|---:|
+| [Jetson Orin Baseboard](boards/antmicro/expansion/jetson-orin-baseboard--b887b924/README.md) | Expansion | 1 | 0 |
 
 ## Arduino
 
@@ -329,6 +335,80 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [ESP32-S3 WROOM Board](boards/freenove/esp32-s3/esp32-s3-wroom-board--e89a39f9/README.md) | ESP32-S3 | 4 | 2 |
 | [ESP32-S3 WROOM Board (Media Kit red PCB)](boards/freenove/esp32-s3/esp32-s3-wroom-board-media-kit-red-pcb--7c76ff0a/README.md) | ESP32-S3 | 2 | 1 |
 | [ESP32-S3 WROOM Board Lite](boards/freenove/esp32-s3/esp32-s3-wroom-board-lite--df3cf3e0/README.md) | ESP32-S3 | 2 | 1 |
+
+## FriendlyELEC
+
+| Board / device | Processor / family | References | Pinout images |
+|---|---|---:|---:|
+| [CM3588](boards/friendlyelec/compute-module/cm3588--f7d71430/README.md) | RK3588 | 1 | 0 |
+| [CM3588 NAS Kit](boards/friendlyelec/expansion/cm3588-nas-kit--3f31aa8a/README.md) | Expansion | 1 | 0 |
+| [CM3588 Plus](boards/friendlyelec/compute-module/cm3588-plus--f643a22f/README.md) | RK3588 | 1 | 0 |
+| [NanoPC-T1](boards/friendlyelec/other-sbc/nanopc-t1--49a19207/README.md) | Exynos 4412 | 2 | 1 |
+| [NanoPC-T2](boards/friendlyelec/s5p4418/nanopc-t2--6662ef2a/README.md) | S5P4418 | 1 | 0 |
+| [NanoPC-T3](boards/friendlyelec/s5p6818/nanopc-t3--e395d8d9/README.md) | S5P6818 | 1 | 0 |
+| [NanoPC-T3 Plus](boards/friendlyelec/s5p6818/nanopc-t3-plus--14ee7cb7/README.md) | S5P6818 | 1 | 0 |
+| [NanoPC-T4](boards/friendlyelec/other-sbc/nanopc-t4--8f726361/README.md) | RK3399 | 1 | 0 |
+| [NanoPC-T6](boards/friendlyelec/other-sbc/nanopc-t6--39c71d91/README.md) | RK3588 | 1 | 0 |
+| [NanoPC-T6 LTS](boards/friendlyelec/other-sbc/nanopc-t6-lts--029af4d4/README.md) | RK3588 | 1 | 0 |
+| [NanoPC-T6 Plus](boards/friendlyelec/other-sbc/nanopc-t6-plus--c0b8a7c6/README.md) | RK3588 | 1 | 0 |
+| [NanoPi 2](boards/friendlyelec/s5p4418/nanopi-2--d2396b81/README.md) | S5P4418 | 1 | 0 |
+| [NanoPi 2 Fire](boards/friendlyelec/s5p4418/nanopi-2-fire--c4d7e3f6/README.md) | S5P4418 | 1 | 0 |
+| [NanoPi A64](boards/friendlyelec/a64/nanopi-a64--444f26e1/README.md) | A64 | 1 | 0 |
+| [NanoPi Duo](boards/friendlyelec/h2/nanopi-duo--b426befa/README.md) | H2+ | 2 | 1 |
+| [NanoPi Duo2](boards/friendlyelec/h3/nanopi-duo2--06f27cf0/README.md) | H3 | 2 | 1 |
+| [NanoPi Duo2 IoT-Box](boards/friendlyelec/expansion/nanopi-duo2-iot-box--686872e0/README.md) | Expansion | 1 | 0 |
+| [NanoPi Fire2A](boards/friendlyelec/s5p4418/nanopi-fire2a--5a45be12/README.md) | S5P4418 | 1 | 0 |
+| [NanoPi Fire3](boards/friendlyelec/s5p6818/nanopi-fire3--c1c1c284/README.md) | S5P6818 | 1 | 0 |
+| [NanoPi K1 Plus](boards/friendlyelec/h5/nanopi-k1-plus--1c992695/README.md) | H5 | 1 | 0 |
+| [NanoPi K2](boards/friendlyelec/s905/nanopi-k2--9bd4ede4/README.md) | S905 | 1 | 0 |
+| [NanoPi M1](boards/friendlyelec/h3/nanopi-m1--e477028a/README.md) | H3 | 1 | 0 |
+| [NanoPi M1 Plus](boards/friendlyelec/h3/nanopi-m1-plus--29da746f/README.md) | H3 | 1 | 0 |
+| [NanoPi M2](boards/friendlyelec/s5p4418/nanopi-m2--90b15d4a/README.md) | S5P4418 | 2 | 0 |
+| [NanoPi M2A](boards/friendlyelec/s5p4418/nanopi-m2a--4f57cab6/README.md) | S5P4418 | 1 | 0 |
+| [NanoPi M3](boards/friendlyelec/s5p6818/nanopi-m3--8e635d62/README.md) | S5P6818 | 1 | 0 |
+| [NanoPi M4 2GB](boards/friendlyelec/other-sbc/nanopi-m4-2gb--31e788a2/README.md) | RK3399 | 1 | 0 |
+| [NanoPi M4 4GB](boards/friendlyelec/other-sbc/nanopi-m4-4gb--55d9f8a7/README.md) | RK3399 | 1 | 0 |
+| [NanoPi M4 SATA HAT](boards/friendlyelec/expansion/nanopi-m4-sata-hat--32bcc5ca/README.md) | Expansion | 1 | 0 |
+| [NanoPi M4B](boards/friendlyelec/other-sbc/nanopi-m4b--9696506a/README.md) | RK3399 | 1 | 0 |
+| [NanoPi M4V2](boards/friendlyelec/other-sbc/nanopi-m4v2--daad13ff/README.md) | RK3399 | 1 | 0 |
+| [NanoPi M5 LPDDR4X](boards/friendlyelec/other-sbc/nanopi-m5-lpddr4x--4db29512/README.md) | RK3576 | 1 | 0 |
+| [NanoPi M5 LPDDR5](boards/friendlyelec/other-sbc/nanopi-m5-lpddr5--a8430376/README.md) | RK3576 | 1 | 0 |
+| [NanoPi M6](boards/friendlyelec/other-sbc/nanopi-m6--1490d96e/README.md) | RK3588S | 1 | 0 |
+| [NanoPi M6V2](boards/friendlyelec/other-sbc/nanopi-m6v2--91ca8008/README.md) | RK3588S | 1 | 0 |
+| [NanoPi NEO](boards/friendlyelec/h3/nanopi-neo--3201a0da/README.md) | H3 | 2 | 1 |
+| [NanoPi NEO Air](boards/friendlyelec/h3/nanopi-neo-air--63ace41b/README.md) | H3 | 2 | 1 |
+| [NanoPi NEO Core](boards/friendlyelec/h3/nanopi-neo-core--9dd5430d/README.md) | H3 | 2 | 1 |
+| [NanoPi NEO Core2](boards/friendlyelec/h5/nanopi-neo-core2--0279a49f/README.md) | H5 | 2 | 1 |
+| [NanoPi NEO Plus2](boards/friendlyelec/h5/nanopi-neo-plus2--5bdf1df9/README.md) | H5 | 2 | 1 |
+| [NanoPi NEO2](boards/friendlyelec/h5/nanopi-neo2--796f419c/README.md) | H5 | 2 | 1 |
+| [NanoPi NEO2 Black](boards/friendlyelec/h5/nanopi-neo2-black--74764604/README.md) | H5 | 1 | 0 |
+| [NanoPi NEO3](boards/friendlyelec/rk3328/nanopi-neo3--9eb2d80c/README.md) | RK3328 | 1 | 0 |
+| [NanoPi NEO3 Plus](boards/friendlyelec/rk3528a/nanopi-neo3-plus--6c1f771c/README.md) | RK3528A | 1 | 0 |
+| [NanoPi NEO4](boards/friendlyelec/other-sbc/nanopi-neo4--5801118e/README.md) | RK3399 | 1 | 0 |
+| [NanoPi R1](boards/friendlyelec/h3/nanopi-r1--5edba31d/README.md) | H3 | 1 | 0 |
+| [NanoPi R1S-H3](boards/friendlyelec/h3/nanopi-r1s-h3--f693b361/README.md) | H3 | 1 | 0 |
+| [NanoPi R1S-H5](boards/friendlyelec/h5/nanopi-r1s-h5--6a00778d/README.md) | H5 | 1 | 0 |
+| [NanoPi R28S](boards/friendlyelec/rk3528/nanopi-r28s--ca7a0897/README.md) | RK3528 | 1 | 0 |
+| [NanoPi R2C](boards/friendlyelec/rk3328/nanopi-r2c--b2d4083c/README.md) | RK3328 | 1 | 0 |
+| [NanoPi R2C Plus](boards/friendlyelec/rk3328/nanopi-r2c-plus--3334a290/README.md) | RK3328 | 1 | 0 |
+| [NanoPi R2S](boards/friendlyelec/rk3328/nanopi-r2s--ab5a8b8a/README.md) | RK3328 | 1 | 0 |
+| [NanoPi R2S Plus](boards/friendlyelec/rk3328/nanopi-r2s-plus--d81c985f/README.md) | RK3328 | 1 | 0 |
+| [NanoPi R3S LTS](boards/friendlyelec/rk3566/nanopi-r3s-lts--5b2c0e72/README.md) | RK3566 | 1 | 0 |
+| [NanoPi R4S 1GB](boards/friendlyelec/rk3399/nanopi-r4s-1gb--cc86616c/README.md) | RK3399 | 1 | 0 |
+| [NanoPi R4S 4GB](boards/friendlyelec/rk3399/nanopi-r4s-4gb--9bc05ecf/README.md) | RK3399 | 1 | 0 |
+| [NanoPi R4SE](boards/friendlyelec/rk3399/nanopi-r4se--28a2b22c/README.md) | RK3399 | 1 | 0 |
+| [NanoPi R5C](boards/friendlyelec/other-sbc/nanopi-r5c--98b9e5a0/README.md) | RK3568B2 | 1 | 0 |
+| [NanoPi R5S](boards/friendlyelec/other-sbc/nanopi-r5s--8fc8a1b5/README.md) | RK3568B2 | 1 | 0 |
+| [NanoPi R6C](boards/friendlyelec/other-sbc/nanopi-r6c--caa1bea7/README.md) | RK3588S | 1 | 0 |
+| [NanoPi R6S](boards/friendlyelec/other-sbc/nanopi-r6s--be175b11/README.md) | RK3588S | 1 | 0 |
+| [NanoPi R76S](boards/friendlyelec/other-sbc/nanopi-r76s--3ce74597/README.md) | RK3576 | 2 | 0 |
+| [NanoPi S2](boards/friendlyelec/s5p4418/nanopi-s2--93a7aae1/README.md) | S5P4418 | 1 | 0 |
+| [NanoPi Zero2](boards/friendlyelec/rk3528a/nanopi-zero2--dddb6bb0/README.md) | RK3528A | 2 | 0 |
+| [Smart210 / Smart4418 SDK 1305](boards/friendlyelec/expansion/smart210-smart4418-sdk-1305--76f6aa9d/README.md) | Expansion | 1 | 0 |
+| [Smart4418](boards/friendlyelec/s5p4418/smart4418--94fb7891/README.md) | S5P4418 | 1 | 0 |
+| [Smart4418/6818SDK V2](boards/friendlyelec/expansion/smart4418-6818sdk-v2--14ec2110/README.md) | Expansion | 1 | 0 |
+| [Smart4418SDK 1606](boards/friendlyelec/expansion/smart4418sdk-1606--ad009bf3/README.md) | Expansion | 1 | 0 |
+| [Smart6818](boards/friendlyelec/s5p6818/smart6818--a18ddd67/README.md) | S5P6818 | 1 | 0 |
 
 ## Generic - manufacturer unconfirmed
 
@@ -1083,6 +1163,19 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Duo S v1.1](boards/milk-v/other-sbc/duo-s-v1.1--866a612d/README.md) | Other SBC | 1 | 0 |
 | [Mars](boards/milk-v/jh7110/mars--3a4bcdc5/README.md) | JH7110 | 1 | 1 |
 
+## NVIDIA
+
+| Board / device | Processor / family | References | Pinout images |
+|---|---|---:|---:|
+| [Jetson AGX Orin Developer Kit](boards/nvidia/other-sbc/jetson-agx-orin-developer-kit--42acea6f/README.md) | Other SBC | 3 | 1 |
+| [Jetson AGX Thor Developer Kit](boards/nvidia/other-sbc/jetson-agx-thor-developer-kit--7687671f/README.md) | Other SBC | 4 | 0 |
+| [Jetson AGX Xavier Developer Kit](boards/nvidia/other-sbc/jetson-agx-xavier-developer-kit--e41e054e/README.md) | Other SBC | 2 | 0 |
+| [Jetson Nano 2GB Developer Kit](boards/nvidia/other-sbc/jetson-nano-2gb-developer-kit--c8900215/README.md) | Other SBC | 1 | 0 |
+| [Jetson Nano Developer Kit](boards/nvidia/other-sbc/jetson-nano-developer-kit--0082d1fe/README.md) | Other SBC | 2 | 0 |
+| [Jetson Orin Nano Developer Kit](boards/nvidia/other-sbc/jetson-orin-nano-developer-kit--0ee1be14/README.md) | Other SBC | 3 | 1 |
+| [Jetson TX2 Developer Kit](boards/nvidia/other-sbc/jetson-tx2-developer-kit--9f0d8e05/README.md) | Other SBC | 4 | 0 |
+| [Jetson Xavier NX Developer Kit](boards/nvidia/other-sbc/jetson-xavier-nx-developer-kit--796f9a40/README.md) | Other SBC | 2 | 0 |
+
 ## NodeMCU
 
 | Board / device | Processor / family | References | Pinout images |
@@ -1121,9 +1214,11 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 
 | Board / device | Processor / family | References | Pinout images |
 |---|---|---:|---:|
+| [AM3352-SOM](boards/olimex/am3352/am3352-som--11d78063/README.md) | AM3352 | 3 | 2 |
 | [ESP32-C5-DevKit-Lipo](boards/olimex/esp32-c5/esp32-c5-devkit-lipo--bc46626a/README.md) | ESP32-C5 | 3 | 1 |
 | [ESP32-C5-EVB](boards/olimex/esp32-c5/esp32-c5-evb--e7c38036/README.md) | ESP32-C5 | 3 | 1 |
 | [MOD-ESP32-C5](boards/olimex/esp32-c5/mod-esp32-c5--1a8539fe/README.md) | ESP32-C5 | 2 | 1 |
+| [RK3188-SOM-EVB](boards/olimex/expansion/rk3188-som-evb--0c4ed23b/README.md) | Expansion | 1 | 1 |
 
 ## OpenSourceSDRLab
 
@@ -1190,6 +1285,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [RAK11200](boards/rakwireless/esp32-original/rak11200--3032e2cd/README.md) | ESP32 original | 1 | 1 |
 | [RAK11300-Module](boards/rakwireless/rp2040/rak11300-module--1462034d/README.md) | RP2040 | 1 | 1 |
 | [RAK11720-Module](boards/rakwireless/other/rak11720-module--67ad1012/README.md) | Other | 1 | 1 |
+| [RAK13002 WisBlock IO Module](boards/rakwireless/expansion/rak13002-wisblock-io-module--126569f6/README.md) | Expansion | 1 | 1 |
 | [RAK19001](boards/rakwireless/expansion/rak19001--ff10bfae/README.md) | Expansion | 1 | 0 |
 | [RAK19003](boards/rakwireless/expansion/rak19003--8cc80629/README.md) | Expansion | 1 | 1 |
 | [RAK3172-Evaluation-Board](boards/rakwireless/other/rak3172-evaluation-board--1616bf49/README.md) | Other | 1 | 0 |
@@ -1234,6 +1330,8 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | Board / device | Processor / family | References | Pinout images |
 |---|---|---:|---:|
 | [40-pin GPIO header - shared computer-board reference](boards/raspberry-pi/raspberry-pi-sbc/40-pin-gpio-header---shared-computer-board-reference--6d4721c1/README.md) | Raspberry Pi SBC | 1 | 1 |
+| [Compute Module 4 IO Board](boards/raspberry-pi/expansion/compute-module-4-io-board--6da3101b/README.md) | Expansion | 3 | 0 |
+| [Compute Module 5 IO Board](boards/raspberry-pi/expansion/compute-module-5-io-board--f5a63daf/README.md) | Expansion | 3 | 0 |
 | [Model B revisions and 40-pin header comparison](boards/raspberry-pi/raspberry-pi-sbc/model-b-revisions-and-40-pin-header-comparison--5de289de/README.md) | Raspberry Pi SBC | 1 | 1 |
 | [Raspberry Pi 4 Model B](boards/raspberry-pi/raspberry-pi-sbc/raspberry-pi-4-model-b--2342eb10/README.md) | Raspberry Pi SBC | 1 | 1 |
 | [Raspberry Pi Pico](boards/raspberry-pi/rp2040/raspberry-pi-pico--711245b2/README.md) | RP2040 | 5 | 4 |

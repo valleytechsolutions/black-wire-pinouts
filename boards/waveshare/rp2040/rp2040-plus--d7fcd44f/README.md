@@ -2,10 +2,22 @@
 
 **Waveshare** · RP2040
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=waveshare-rp2040-rp2040-plus)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://www.waveshare.com/rp2040-plus.htm)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://www.waveshare.com/img/devkit/RP2040-Plus/RP2040-Plus-details-7.jpg) · [Source 2](https://www.waveshare.com/rp2040-plus.htm)
+
+
+
+Image revision: Not identified
 
 SHA-256: `f05f91341cde6eb63b17c7192850ec171f37ee61955f9dcbd3349d426a5fd583`
 
@@ -33,6 +49,10 @@ SHA-256: `f05f91341cde6eb63b17c7192850ec171f37ee61955f9dcbd3349d426a5fd583`
 
 [Source 1](https://www.waveshare.com/w/upload/e/e2/RP2040-Plus-details-7.jpg) · [Source 2](https://www.waveshare.com/wiki/RP2040-Plus)
 
+
+
+Image revision: Not identified
+
 SHA-256: `8bf936a0fa1fd2e5b926a4ddb4f6999d9281326d5aa1b31d5535774e3cac2865`
 
 ## Pinout
@@ -46,6 +66,10 @@ SHA-256: `8bf936a0fa1fd2e5b926a4ddb4f6999d9281326d5aa1b31d5535774e3cac2865`
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://docs.waveshare.com/assets/images/RP2040-Plus-details-727e9849d7ed30eca0cd637def5d882d.webp) · [Source 2](https://docs.waveshare.com/RP2040-Plus)
+
+
+
+Image revision: Not identified
 
 SHA-256: `c79ca1428857fcd62b317a7fe95c568ba332eeea8a81e2af96b8b78df567dfbe`
 

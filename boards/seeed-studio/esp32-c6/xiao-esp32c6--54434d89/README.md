@@ -2,10 +2,22 @@
 
 **Seeed Studio** · ESP32-C6
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-esp32-xiao-esp32c6)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/xiao_esp32c6_getting_started/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout (Back)
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Seeed Studio.
 
 [Source 1](https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32C6/img/XIAO_ESP32-C6_back_pinout.png) · [Source 2](https://wiki.seeedstudio.com/xiao_esp32c6_getting_started/)
+
+
+
+Image revision: Not identified
 
 SHA-256: `15b3042d4a9fee23bc47a762607a95cc5f6386115896c8cf452a0a48533c15f1`
 
@@ -32,6 +48,10 @@ SHA-256: `15b3042d4a9fee23bc47a762607a95cc5f6386115896c8cf452a0a48533c15f1`
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Seeed Studio.
 
 [Source 1](https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32C6/img/XIAO_ESP32-C6_front_pinout.png) · [Source 2](https://wiki.seeedstudio.com/xiao_esp32c6_getting_started/)
+
+
+
+Image revision: Not identified
 
 SHA-256: `1b91ef5a524472c379fcd251d20b6a9d71493a91cfc161ac032e9384499a045d`
 
@@ -49,6 +69,8 @@ SHA-256: `1b91ef5a524472c379fcd251d20b6a9d71493a91cfc161ac032e9384499a045d`
 
 Original source index: Pin Functions. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `ac9c7e427c8aa78ad27d4e21dafcac3b3f60de74c49c9efcb15fbfd4593ae19d`
 
 ## Pinout Sheet
@@ -62,6 +84,8 @@ SHA-256: `ac9c7e427c8aa78ad27d4e21dafcac3b3f60de74c49c9efcb15fbfd4593ae19d`
 [Source 1](https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32C6/res/XIAO_ESP32C6_Pinout.xlsx) · [Source 2](https://wiki.seeedstudio.com/xiao_esp32c6_getting_started/)
 
 Original source index: Pinout Sheet. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `e2dae530c359e66ba704039f86cfea4bc316596fde367d992723509777746494`
 

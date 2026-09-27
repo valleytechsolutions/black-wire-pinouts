@@ -2,10 +2,22 @@
 
 **Freenove** · ESP32-S3
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=freenove-esp32-esp32-s3-wroom-board-lite)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Official pinout
 
@@ -21,6 +33,8 @@ Coverage: Pinout image collected
 
 Manufacturer source. Pinouts must match the exact board and revision; Freenove documents changes between layouts. The diagram depicts the development board itself; it is not a full pinout of any kit carrier, speaker, display or other accessory.
 
+Image revision: Not identified
+
 SHA-256: `1196b3f207c148f3394ebdf5b3325d038f35445b9738891b6b845209d82ec7c1`
 
 ## Official pinout
@@ -34,6 +48,8 @@ SHA-256: `1196b3f207c148f3394ebdf5b3325d038f35445b9738891b6b845209d82ec7c1`
 [Source 1](https://raw.githubusercontent.com/Freenove/Freenove_ESP32_S3_WROOM_Board_Lite/6f1f33bf0fc1e37f2c4edfa73291d92037d89ca5/Datasheet/ESP32S3_Lite_Pinout.pdf) · [Source 2](https://github.com/Freenove/Freenove_ESP32_S3_WROOM_Board_Lite/blob/6f1f33bf0fc1e37f2c4edfa73291d92037d89ca5/Datasheet/ESP32S3_Lite_Pinout.pdf)
 
 Manufacturer source. Pinouts must match the exact board and revision; Freenove documents changes between layouts. The diagram depicts the development board itself; it is not a full pinout of any kit carrier, speaker, display or other accessory.
+
+Image revision: Not identified
 
 SHA-256: `3ef496bb684e83ef8d271541ed8b941123459616da1bd441b5273ecc116e3025`
 

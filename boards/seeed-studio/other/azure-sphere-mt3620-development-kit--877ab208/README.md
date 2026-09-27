@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Other
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-other-azure-sphere-mt3620-development-kit)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/MT3620_Ethernet_Shield_v1.0/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout Sheet 2
 
@@ -21,7 +33,7 @@ Coverage: Pinout image collected
 
 Imported from existing Seeed Studio Board Reference; original working path preserved. Only the named connector or subsection is covered.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `5378fab1a818ba7ba02abdbd0cc991c8dcacc53cec0966a2f171281dc23c6f9d`
 
@@ -39,7 +51,7 @@ SHA-256: `5378fab1a818ba7ba02abdbd0cc991c8dcacc53cec0966a2f171281dc23c6f9d`
 
 Imported from existing Seeed Studio Board Reference; original working path preserved. Only the named connector or subsection is covered.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `71ce0b46d6bb7c8e38b0a3dc241baa185e60fd4458edfe7f7627cffb8280e224`
 
@@ -57,6 +69,8 @@ SHA-256: `71ce0b46d6bb7c8e38b0a3dc241baa185e60fd4458edfe7f7627cffb8280e224`
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
 
+Image revision: Not identified
+
 SHA-256: `fcac32894f7735d51e15dc830a43705d8b942c1e43c189718c1bf95a9978669f`
 
 ## Dimensions
@@ -73,6 +87,8 @@ SHA-256: `fcac32894f7735d51e15dc830a43705d8b942c1e43c189718c1bf95a9978669f`
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `241068585d30879e74d99eeaab612b9abcff00d9168ce4971e302f9a1ece9d61`
 
 ## Hardware Overview
@@ -88,6 +104,8 @@ SHA-256: `241068585d30879e74d99eeaab612b9abcff00d9168ce4971e302f9a1ece9d61`
 [Source 1](https://files.seeedstudio.com/wiki/Azure_Sphere_MT3620_Development_Kit/img/Diagram.png) · [Source 2](https://wiki.seeedstudio.com/Azure_Sphere_MT3620_Development_Kit/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `e34b1491bdb51a1751280f20df573d7988628533d5d7d91d3c734ad2d9ad1c4b`
 

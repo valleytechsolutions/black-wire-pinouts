@@ -2,10 +2,22 @@
 
 **WeAct Studio** · ESP32-C3
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=weact-studio-esp32-esp32c3-core-board)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://github.com/WeActStudio/WeActStudio.ESP32C3CoreBoard)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout - Renzo Mischianti
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://mischianti.org/wp-content/uploads/2023/04/WeAct-Studio-ESP32-C3Fx4-Mini-Core-pinout-low.jpg) · [Source 2](https://mischianti.org/weact-studio-esp32-c3-core-high-resolution-pinout-and-specs/)
 
 Original public image by Renzo Mischianti, unchanged. Diagram/model matching is visual, not electrical verification. Exact PCB layout and revision must match; no inference of compatibility with lookalike marketplace clones.
+
+Image revision: Not identified
 
 SHA-256: `5ce9b76a685cec17e8cb16f6c00bc71a77eb9271e4e5b7f1b1402e253c645113`
 
@@ -37,7 +51,7 @@ SHA-256: `5ce9b76a685cec17e8cb16f6c00bc71a77eb9271e4e5b7f1b1402e253c645113`
 
 Original repository file preserved with commit identifier. Board illustration/silkscreen images are explicitly distinguished from expanded pin-function diagrams.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `b7648aaa60bc66ac3fcbeb3932c92c0e5db50876a88327e80de78e568833eb97`
 

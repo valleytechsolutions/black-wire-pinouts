@@ -2,10 +2,22 @@
 
 **Seeed Studio** · ESP32-S3
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-esp32-xiao-esp32s3)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout (Back)
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Seeed Studio.
 
 [Source 1](https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/img/XIAO_ESP32-S3_back_pinout.png) · [Source 2](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/)
+
+
+
+Image revision: Not identified
 
 SHA-256: `49dfbb6d873c52990b4985e0533ec04c811b3d180eb266bd476ca013e75b714d`
 
@@ -32,6 +48,10 @@ SHA-256: `49dfbb6d873c52990b4985e0533ec04c811b3d180eb266bd476ca013e75b714d`
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Seeed Studio.
 
 [Source 1](https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/img/XIAO_ESP32-S3_front_pinout.png) · [Source 2](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/)
+
+
+
+Image revision: Not identified
 
 SHA-256: `27a54de4cd855aa5269fbfbc9c49715fcedf104dbf1b7cef7e9a4833b206a8e2`
 
@@ -49,6 +69,8 @@ SHA-256: `27a54de4cd855aa5269fbfbc9c49715fcedf104dbf1b7cef7e9a4833b206a8e2`
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `2babfc99995f8b9f28e55a3ad37ca4555c0e75721810eb2c41fd0727f83211df`
 
 ## Pin Definition Table (Strapping Pins)
@@ -64,6 +86,8 @@ SHA-256: `2babfc99995f8b9f28e55a3ad37ca4555c0e75721810eb2c41fd0727f83211df`
 [Source 1](https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/img/110.png) · [Source 2](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/)
 
 Original source index: Pin Definition Table (Strapping Pins). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `c255aac5c46d699767bd58e22124a77bea93992d912d010df46e3bbca579d6c9`
 
@@ -81,6 +105,8 @@ SHA-256: `c255aac5c46d699767bd58e22124a77bea93992d912d010df46e3bbca579d6c9`
 
 Original source index: Pin Functions. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `20848775a443eb9d35b85badcaef095d604759055303633c6eea3c3a6e5f53cf`
 
 ## Pin Multiplexing (JTAG)
@@ -96,6 +122,8 @@ SHA-256: `20848775a443eb9d35b85badcaef095d604759055303633c6eea3c3a6e5f53cf`
 [Source 1](https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/img/35.png) · [Source 2](https://wiki.seeedstudio.com/xiao_esp32s3_pin_multiplexing/)
 
 Original source index: Pin Multiplexing (JTAG). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `76bf6a72a926c5039c6b7b7ab9d20d0dbe556c51e728b8ef26c205100769a808`
 
@@ -113,6 +141,8 @@ SHA-256: `76bf6a72a926c5039c6b7b7ab9d20d0dbe556c51e728b8ef26c205100769a808`
 
 Original source index: Pin Multiplexing (USB). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `f9fa84da1db5afe0c55cd3093f421650dead814e8ad92c997accd09a1bb86024`
 
 ## Pinout Sheet
@@ -126,6 +156,8 @@ SHA-256: `f9fa84da1db5afe0c55cd3093f421650dead814e8ad92c997accd09a1bb86024`
 [Source 1](https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/res/XIAO_ESP32S3_Sense_Pinout.xlsx) · [Source 2](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/)
 
 Original source index: Pinout Sheet. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `d31153ed6a9bb5c2e0ab1bd1ec5bd620620664c06ec4bb55cf74caf0a08b8365`
 

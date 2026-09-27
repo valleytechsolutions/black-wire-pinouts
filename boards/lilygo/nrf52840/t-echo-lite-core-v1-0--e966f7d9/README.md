@@ -2,12 +2,24 @@
 
 **LILYGO** · nRF52840
 
-Revision: V1.0 pictured; 24-11-18 silkscreen  
+Revision: V1.0 pictured; 24-11-18 silkscreen
+
 Coverage: Supporting reference collected; complete physical pinout needed
 
 [Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lilygo-gpio-device-t-echo-lite-core-v1-0)
 
 Device category: **Radios & GNSS**
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://github.com/Xinyuan-LilyGO/T-Echo-Lite)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Core board functions, connectors and pad labels
 

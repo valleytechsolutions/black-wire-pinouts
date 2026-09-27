@@ -2,10 +2,22 @@
 
 **Heltec** · Other
 
-Revision: HTCC-AB01_PinoutDiagram.pdf  
+Revision: HTCC-AB01_PinoutDiagram.pdf
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=heltec-other-cubecell-htcc-ab01)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout reference - PDF page 1
 
@@ -21,6 +33,8 @@ Coverage: Pinout image collected
 
 Original manufacturer resource filename: HTCC-AB01_PinoutDiagram.pdf. Filename and printed revision must be matched to the board. Original PDF page 1 rendered at 220 dpi; no labels changed.
 
+Image revision: HTCC-AB01_PinoutDiagram.pdf
+
 SHA-256: `949753da9b1d810dc1835d60e63596728e49a6c249473a904f82b5df3321cd64`
 
 ## Board pin reference - HTCC-AB01_PinoutDiagram
@@ -34,6 +48,8 @@ SHA-256: `949753da9b1d810dc1835d60e63596728e49a6c249473a904f82b5df3321cd64`
 [Source 1](https://resource.heltec.cn/download/CubeCell/HTCC-AB01/HTCC-AB01_PinoutDiagram.pdf) · [Source 2](https://resource.heltec.cn/download/CubeCell/HTCC-AB01)
 
 Original manufacturer resource filename: HTCC-AB01_PinoutDiagram.pdf. Filename and printed revision must be matched to the board.
+
+Image revision: HTCC-AB01_PinoutDiagram.pdf
 
 SHA-256: `8ce73d4726589f9edcd1febd8b6eb57b94f6e3afeda754c54ba7c0a2cad414f0`
 

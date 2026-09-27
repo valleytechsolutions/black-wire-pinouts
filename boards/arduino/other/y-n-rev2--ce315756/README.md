@@ -2,10 +2,22 @@
 
 **Arduino** · Other
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=arduino-other-y-n-rev2)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.arduino.cc/hardware/yun-rev2/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Official full pinout - page 1
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/hero/boards/yun-rev2/downloads/ABX00020-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/yun-rev2/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/hero/boards/yun-rev2/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/hero/boards/yun-rev2/downloads/ABX00020-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 1 rendered at 220 dpi; no labels changed.
+
+Image revision: Not identified
 
 SHA-256: `57271244957228d3772767abeff988ce6e6e9263f6c9d075994895c2103fd40b`
 
@@ -37,6 +51,8 @@ SHA-256: `57271244957228d3772767abeff988ce6e6e9263f6c9d075994895c2103fd40b`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 2 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `e97bd2624c1a89b701026b8f0845314a7805d045f41bc1135ef5568543773e9a`
 
 ## Official full pinout - page 3
@@ -52,6 +68,8 @@ SHA-256: `e97bd2624c1a89b701026b8f0845314a7805d045f41bc1135ef5568543773e9a`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/hero/boards/yun-rev2/downloads/ABX00020-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/yun-rev2/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/hero/boards/yun-rev2/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/hero/boards/yun-rev2/downloads/ABX00020-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 3 rendered at 220 dpi; no labels changed.
+
+Image revision: Not identified
 
 SHA-256: `a1b62d269774bf640409563b10156867386a4306b71073fdec1183fcaf3d1d6e`
 
@@ -69,6 +87,8 @@ SHA-256: `a1b62d269774bf640409563b10156867386a4306b71073fdec1183fcaf3d1d6e`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 4 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `3490a53c8a3fd2ca77f325eccbf23303d1f19e377b460ea226b58ce669c1f39e`
 
 ## Full board pinout PDF
@@ -82,6 +102,8 @@ SHA-256: `3490a53c8a3fd2ca77f325eccbf23303d1f19e377b460ea226b58ce669c1f39e`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/hero/boards/yun-rev2/downloads/ABX00020-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/yun-rev2/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/hero/boards/yun-rev2/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/hero/boards/yun-rev2/downloads/ABX00020-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement.
+
+Image revision: Not identified
 
 SHA-256: `2e02a74cef41278e8000e5c7ed494a997a2706e07d7bea595f8b95bd6b3a421d`
 

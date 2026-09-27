@@ -2,10 +2,22 @@
 
 **Adafruit** · ESP32 original
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=adafruit-esp32-itsybitsy-esp32)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://learn.adafruit.com/adafruit-itsybitsy-esp32/pinouts)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout reference - PDF page 1
 
@@ -21,6 +33,8 @@ Coverage: Pinout image collected
 
 Discovered from CircuitPython board metadata and the linked product/documentation page. Exact hardware revision requires matching to the diagram. Original PDF page 1 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `954ebeccd0a4d1e4c02c47a3d8facfe9a90c4ce762b2a7ebc44b817ec9657b5f`
 
 ## Physical board pinout
@@ -34,6 +48,8 @@ SHA-256: `954ebeccd0a4d1e4c02c47a3d8facfe9a90c4ce762b2a7ebc44b817ec9657b5f`
 [Source 1](https://raw.githubusercontent.com/adafruit/Adafruit-ItsyBitsy-ESP32-PCB/main/Adafruit_ItsyBitsy_ESP32_PrettyPinsPDF.pdf) · [Source 2](https://learn.adafruit.com/adafruit-itsybitsy-esp32/pinouts)
 
 Discovered from CircuitPython board metadata and the linked product/documentation page. Exact hardware revision requires matching to the diagram.
+
+Image revision: Not identified
 
 SHA-256: `1bb870aaa08d34808f8529a0ed28e4218e115e39e0c18fa38f92e5155fb8470a`
 

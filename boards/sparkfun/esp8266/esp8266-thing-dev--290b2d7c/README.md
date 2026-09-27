@@ -2,10 +2,22 @@
 
 **SparkFun** · ESP8266
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=sparkfun-esp32-esp8266-thing-dev)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://www.sparkfun.com/products/13711)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Graphical board pinout reference
 
@@ -21,6 +33,8 @@ Coverage: Pinout image collected
 
  Original PDF page 1 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `d28790284b1dd9de7899496bd3892304a7c632ba7407530b8b4a4a7c8894cb3b`
 
 ## Original graphical pinout datasheet
@@ -32,6 +46,10 @@ SHA-256: `d28790284b1dd9de7899496bd3892304a7c632ba7407530b8b4a4a7c8894cb3b`
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: SparkFun.
 
 [Source 1](https://cdn.sparkfun.com/datasheets/Wireless/WiFi/ESP8266ThingDevV1.pdf) · [Source 2](https://www.sparkfun.com/products/13711)
+
+
+
+Image revision: Not identified
 
 SHA-256: `3be6a5726359a3aca7e64b3c1872fe2af05f748df5074abad55a6a585589028d`
 

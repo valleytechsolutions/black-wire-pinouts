@@ -2,10 +2,22 @@
 
 **Olimex** · ESP32-C5
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=olimex-esp32-esp32-c5-devkit-lipo)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://www.olimex.com/Products/IoT/ESP32-C5/ESP32-C5-DevKit-Lipo/open-source-hardware)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Board and connector pinout reference
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Olimex.
 
 [Source 1](https://raw.githubusercontent.com/OLIMEX/ESP32-C5-DevKit-Lipo/main/DOCUMENTS/ESP32-C5-DevKit-Lipo-user-manual.pdf) · [Source 2](https://www.olimex.com/Products/IoT/ESP32-C5/ESP32-C5-DevKit-Lipo/open-source-hardware)
+
+
+
+Image revision: Not identified
 
 SHA-256: `f8b8bb0e97f52df2e16bbcb56bef247561c48f45dd10c37f614b57dc8170c15b`
 
@@ -33,6 +49,10 @@ SHA-256: `f8b8bb0e97f52df2e16bbcb56bef247561c48f45dd10c37f614b57dc8170c15b`
 
 [Source 1](https://raw.githubusercontent.com/OLIMEX/ESP32-C5-DevKit-Lipo/main/DOCUMENTS/ESP32-C5-DevKit-Lipo-user-manual.pdf) · [Source 2](https://www.olimex.com/Products/IoT/ESP32-C5/ESP32-C5-DevKit-Lipo/open-source-hardware)
 
+
+
+Image revision: Not identified
+
 SHA-256: `d4f2ed9bd64e088dc05bf138f4f636c7fc0108b0bac4ec2fff95f3bc3cac5207`
 
 ## Original board user manual
@@ -44,6 +64,10 @@ SHA-256: `d4f2ed9bd64e088dc05bf138f4f636c7fc0108b0bac4ec2fff95f3bc3cac5207`
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Olimex.
 
 [Source 1](https://raw.githubusercontent.com/OLIMEX/ESP32-C5-DevKit-Lipo/main/DOCUMENTS/ESP32-C5-DevKit-Lipo-user-manual.pdf) · [Source 2](https://www.olimex.com/Products/IoT/ESP32-C5/ESP32-C5-DevKit-Lipo/open-source-hardware)
+
+
+
+Image revision: Not identified
 
 SHA-256: `44141acab94ca9e8b646dee07a0afeb4c8caee0c28aac1455a77f7c3dd18c231`
 

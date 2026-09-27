@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Expansion
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Partial pinout collected; full reference still needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-expansion-1-69-inch-lcd-spi-display)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/1-69inch_lcd_spi_display/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -21,7 +33,7 @@ Coverage: Partial pinout collected; full reference still needed
 
 Imported from existing Seeed Studio Board Reference; original working path preserved. Only the named connector or subsection is covered.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `6cf12cad18d3b5ef3d3aca206b924c92dc7aab1175908c733ddf0819dbcf13ab`
 
@@ -39,6 +51,8 @@ SHA-256: `6cf12cad18d3b5ef3d3aca206b924c92dc7aab1175908c733ddf0819dbcf13ab`
 
 Original source index: Dimensions (Back). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `dc901cc1638c1ef861f76e1072294a826b01afdc64a405213937d47914d8eee8`
 
 ## Dimensions (Front)
@@ -54,6 +68,8 @@ SHA-256: `dc901cc1638c1ef861f76e1072294a826b01afdc64a405213937d47914d8eee8`
 [Source 1](https://files.seeedstudio.com/wiki/lcd_spi_display/7.jpg) · [Source 2](https://wiki.seeedstudio.com/1-69inch_lcd_spi_display/)
 
 Original source index: Dimensions (Front). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `00cccda21d72ee836deabcf780ee9786e0f888fd6ed98c3544251614fdab8870`
 

@@ -2,10 +2,22 @@
 
 **Raspberry Pi** · RP2350
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=raspberry-pi-rp2350-pico-2)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://www.raspberrypi.com/products/raspberry-pi-pico-2/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Raspberry Pi.
 
 [Source 1](https://www.waveshare.com/img/devkit/Raspberry-Pi-Pico-2/Raspberry-Pi-Pico-2-details-19.jpg) · [Source 2](https://www.waveshare.com/raspberry-pi-pico-2.htm)
+
+
+
+Image revision: Not identified
 
 SHA-256: `b282f7e15b6e54ee43d814dac646b3e06296e8278c43347902ed2b0bbcb84464`
 
@@ -32,6 +48,10 @@ SHA-256: `b282f7e15b6e54ee43d814dac646b3e06296e8278c43347902ed2b0bbcb84464`
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Raspberry Pi.
 
 [Source 1](https://www.waveshare.com/w/upload/1/19/Raspberry-Pi-Pico-2-details-19.jpg) · [Source 2](https://www.waveshare.com/wiki/Raspberry_Pi_Pico_2)
+
+
+
+Image revision: Not identified
 
 SHA-256: `7a76a7c9233338ad3ba1ef07a65a778cb2b3d0bd2529468b963e6fad96e44ddb`
 

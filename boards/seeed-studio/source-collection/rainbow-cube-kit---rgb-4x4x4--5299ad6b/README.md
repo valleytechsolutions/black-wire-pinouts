@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-ef2965a55971c4ecb5)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/Rainbow_Cube_kit_RGB_4_4_4_Rainbowduino_Compatible/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## RGB 4x4x4 - Block Diagram
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/Rainbow_Cube_kit_RGB_4_4_4_Rainbowduino_Compatible/img/Rainbow_Cube_kit_Block_Diagram.png) · [Source 2](https://wiki.seeedstudio.com/Rainbow_Cube_kit_RGB_4_4_4_Rainbowduino_Compatible/)
 
 Original source index: RGB 4x4x4 - Block Diagram. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `8f6b41397ab145b1abc23e01319d58d5d2886fa09661c4c3f056ffbe74d940c8`
 
@@ -36,6 +50,8 @@ SHA-256: `8f6b41397ab145b1abc23e01319d58d5d2886fa09661c4c3f056ffbe74d940c8`
 [Source 1](https://files.seeedstudio.com/wiki/Rainbow_Cube_kit_RGB_4_4_4_Rainbowduino_Compatible/img/Rainbow_Cube_Panel_Bottom.jpg) · [Source 2](https://wiki.seeedstudio.com/Rainbow_Cube_kit_RGB_4_4_4_Rainbowduino_Compatible/)
 
 Original source index: RGB 4x4x4 - Hardware Overview (Bottom). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `f46c169a9daab9a02c4516fa84bcba60cd968830b6409db0df705eb0dc002bdc`
 

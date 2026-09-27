@@ -2,10 +2,22 @@
 
 **Arduino** · Other
 
-Revision: Multiple source/revision records; see individual assets  
+Revision: Multiple source/revision records; see individual assets
+
 Coverage: Partial pinout collected; full reference still needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=arduino-other-esplora)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.arduino.cc/retired/boards/arduino-esplora/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Expansion header reference
 
@@ -21,7 +33,7 @@ Coverage: Partial pinout collected; full reference still needed
 
 Original author TheKitty (The 21st Century Digital Home); supplementary partial physical connector map. Not independently electrically verified.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Diagram Rev B; board revision not specified
 
 SHA-256: `64bbb00619d05cab669cae0d2955f5c5782eb8c49cdbdf88eeb9be79a6be8e9a`
 
@@ -39,7 +51,7 @@ SHA-256: `64bbb00619d05cab669cae0d2955f5c5782eb8c49cdbdf88eeb9be79a6be8e9a`
 
 Original author TheKitty (The 21st Century Digital Home); supplementary partial physical connector map. Not independently electrically verified.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `7f57bfe4831224a2140da95f94741c956c7d77daa67142664bc29368d630c545`
 
@@ -56,6 +68,8 @@ SHA-256: `7f57bfe4831224a2140da95f94741c956c7d77daa67142664bc29368d630c545`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/retired/01.boards/arduino-esplora/assets/8209014766_1b5a58e3c2_c.jpg) · [Source 2](https://docs.arduino.cc/retired/boards/arduino-esplora/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/retired/01.boards/arduino-esplora/content.md)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement.
+
+Image revision: Not identified
 
 SHA-256: `68cc7d23eb88815181a530fbac55a98fae5607be60e10cb869e4a3c8d5059032`
 

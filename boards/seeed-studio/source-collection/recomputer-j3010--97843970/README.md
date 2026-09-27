@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-234003088cbdf81859)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/reComputer_J4012_Flash_Jetpack/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Hardware Overview (Back)
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/reComputer-J4012/2.png) · [Source 2](https://wiki.seeedstudio.com/reComputer_J4012_Flash_Jetpack/)
 
 Original source index: Hardware Overview (Back). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `9782387f120f0110cf316a79784bd92ed7f9bb718ac8acab9e29a66fa8430b12`
 
@@ -37,6 +51,8 @@ SHA-256: `9782387f120f0110cf316a79784bd92ed7f9bb718ac8acab9e29a66fa8430b12`
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `bcb245f50f39459ba45dc71bd17bf617c4dd9249b8176b455b61564ba131a119`
 
 ## Pin Definition Table
@@ -52,6 +68,8 @@ SHA-256: `bcb245f50f39459ba45dc71bd17bf617c4dd9249b8176b455b61564ba131a119`
 [Source 1](https://files.seeedstudio.com/wiki/reComputer-Jetson/FAQ/pin.png) · [Source 2](https://wiki.seeedstudio.com/get_the_system_log_of_recomputer_j30_and_j40/)
 
 Original source index: Pin Definition Table. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `018fac4aab7479a8ef6b1292db5efd68e349b2055062e8dad5ed651589507dbb`
 

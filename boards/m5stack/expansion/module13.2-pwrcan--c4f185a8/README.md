@@ -2,10 +2,22 @@
 
 **M5Stack** · Expansion
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Partial pinout collected; full reference still needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=m5stack-expansion-module13-2-pwrcan)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.m5stack.com/en/module/Module13.2-PwrCAN)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -21,7 +33,7 @@ Coverage: Partial pinout collected; full reference still needed
 
 Imported from existing M5Stack Board Reference; original working path preserved. Only the named connector or subsection is covered.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `db793dbaa8bb1213a6809544158369f6bbe7af8c54ecc98084ecd04c6e9d4e91`
 
@@ -38,6 +50,8 @@ SHA-256: `db793dbaa8bb1213a6809544158369f6bbe7af8c54ecc98084ecd04c6e9d4e91`
 [Source 1](https://static-cdn.m5stack.com/resource/docs/products/module/Module13.2-PwrCAN/img-66ce1d4e-78ae-497f-bd11-ed33e4d5fdcb.jpg) · [Source 2](https://docs.m5stack.com/en/module/Module13.2-PwrCAN)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `7115cfbb7c3c58bd052dcffdcd59e2551f845f27bc86d6fcc1f8cbf25fa10335`
 

@@ -2,10 +2,22 @@
 
 **Waveshare** · ESP32-H2
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=waveshare-esp32-esp32-h2-dev-kit-n4)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://www.waveshare.com/esp32-h2-dev-kit-n4.htm)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://www.waveshare.com/img/devkit/ESP32-H2-DEV-KIT-N4/ESP32-H2-DEV-KIT-N4-details-11.jpg) · [Source 2](https://www.waveshare.com/esp32-h2-dev-kit-n4.htm)
+
+
+
+Image revision: Not identified
 
 SHA-256: `2144123763e158b49cfb78af519f5e77f87a7f23003a738ab45370fe218af0e8`
 
@@ -33,6 +49,10 @@ SHA-256: `2144123763e158b49cfb78af519f5e77f87a7f23003a738ab45370fe218af0e8`
 
 [Source 1](https://docs.waveshare.com/assets/images/ESP32-H2-DEV-KIT-N4-details-11-e3ec6c337b806edb583d9b047a7daa32.webp) · [Source 2](https://docs.waveshare.com/ESP32-H2-DEV-KIT-N4)
 
+
+
+Image revision: Not identified
+
 SHA-256: `0c76edafc66e124aeda02175fe5dadc3779d77a2c28b8943f8d73ef8a9a1b184`
 
 ## Pinout
@@ -46,6 +66,10 @@ SHA-256: `0c76edafc66e124aeda02175fe5dadc3779d77a2c28b8943f8d73ef8a9a1b184`
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://www.waveshare.com/w/upload/7/75/ESP32-H2-DEV-KIT-N403.jpg) · [Source 2](https://www.waveshare.com/wiki/ESP32-H2-DEV-KIT-N4)
+
+
+
+Image revision: Not identified
 
 SHA-256: `010f627002ec97cc0107cdea91e930142976075212a4fda15063a2a6e5d4b859`
 

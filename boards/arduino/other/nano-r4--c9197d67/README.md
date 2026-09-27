@@ -2,10 +2,22 @@
 
 **Arduino** · Other
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=arduino-other-nano-r4)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.arduino.cc/hardware/nano-r4/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## ABX00142-pinout
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nano/boards/nano-r4/datasheet/assets/ABX00142-pinout.png) · [Source 2](https://docs.arduino.cc/hardware/nano-r4/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nano/boards/nano-r4/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nano/boards/nano-r4/datasheet/assets/ABX00142-pinout.png)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement.
+
+Image revision: Not identified
 
 SHA-256: `af2026b74c5cdb9a99d4c19d3725cc7b4e32ddb6b79ec6d30c4c39709f08eb4e`
 
@@ -37,6 +51,8 @@ SHA-256: `af2026b74c5cdb9a99d4c19d3725cc7b4e32ddb6b79ec6d30c4c39709f08eb4e`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement.
 
+Image revision: Not identified
+
 SHA-256: `91d22ca132208da48c12e6b3e9c48c9864516b5e00a18d2c505df92c912ef44a`
 
 ## Official full pinout - page 1
@@ -53,6 +69,8 @@ SHA-256: `91d22ca132208da48c12e6b3e9c48c9864516b5e00a18d2c505df92c912ef44a`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 1 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `ec831ea29c1103474c9fe4332eee42e765cb94a7398a9241a62a2e562a677a65`
 
 ## Full board pinout PDF
@@ -66,6 +84,8 @@ SHA-256: `ec831ea29c1103474c9fe4332eee42e765cb94a7398a9241a62a2e562a677a65`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nano/boards/nano-r4/downloads/ABX00142-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/nano-r4/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nano/boards/nano-r4/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nano/boards/nano-r4/downloads/ABX00142-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement.
+
+Image revision: Not identified
 
 SHA-256: `7c38033b330807ff95c7eb79078538498e9b01b3c5acf5efde89a0d108391384`
 

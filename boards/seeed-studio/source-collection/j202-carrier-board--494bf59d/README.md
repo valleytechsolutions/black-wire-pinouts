@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-c23c330b669652db37)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/reComputer_J2021_J202_Flash_Jetpack/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Hardware Overview (Back)
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/reComputer-Jetson/J202/J202_2.jpg) · [Source 2](https://wiki.seeedstudio.com/reComputer_J2021_J202_Flash_Jetpack/)
 
 Original source index: Hardware Overview (Back). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `c0fa6cae822f92323f266c31db7792588b1d22392552f70867a7cba9feca7775`
 
@@ -36,6 +50,8 @@ SHA-256: `c0fa6cae822f92323f266c31db7792588b1d22392552f70867a7cba9feca7775`
 [Source 1](https://files.seeedstudio.com/wiki/reComputer-Jetson/J202/J202_1.jpg) · [Source 2](https://wiki.seeedstudio.com/reComputer_J2021_J202_Flash_Jetpack/)
 
 Original source index: Hardware Overview (Front). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `0a115b72234a6a96e5f3d07056be7c4f9fb5cdffc612973fd6308a410213f44a`
 

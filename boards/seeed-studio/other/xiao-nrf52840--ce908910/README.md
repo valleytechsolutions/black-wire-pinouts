@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Other
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-other-xiao-nrf52840)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/XIAO_BLE/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout (Back)
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Seeed Studio.
 
 [Source 1](https://files.seeedstudio.com/wiki/XIAO-BLE/XIAO_nRF52840_back_pinout.png) · [Source 2](https://wiki.seeedstudio.com/XIAO_BLE/)
+
+
+
+Image revision: Not identified
 
 SHA-256: `133fe82ccbffbe936e74fc1a161b96d696732770fc5f878c353f4ca36cbe6bdc`
 
@@ -32,6 +48,10 @@ SHA-256: `133fe82ccbffbe936e74fc1a161b96d696732770fc5f878c353f4ca36cbe6bdc`
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Seeed Studio.
 
 [Source 1](https://files.seeedstudio.com/wiki/XIAO-BLE/XIAO_nRF52840_front_pinout.png) · [Source 2](https://wiki.seeedstudio.com/XIAO_BLE/)
+
+
+
+Image revision: Not identified
 
 SHA-256: `882afd8628bf0c2dd651a45d94055d4782af41639eaee6e7f95eff6e47ea267e`
 
@@ -49,6 +69,8 @@ SHA-256: `882afd8628bf0c2dd651a45d94055d4782af41639eaee6e7f95eff6e47ea267e`
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `e26b9366ea200fd2db4c42a3b16c04cdfa3187b748fbe4a52e8222abc004eae6`
 
 ## Pinout Sheet
@@ -62,6 +84,8 @@ SHA-256: `e26b9366ea200fd2db4c42a3b16c04cdfa3187b748fbe4a52e8222abc004eae6`
 [Source 1](https://files.seeedstudio.com/wiki/XIAO-BLE/XIAO-nRF52840-pinout_sheet.xlsx) · [Source 2](https://wiki.seeedstudio.com/XIAO_BLE/)
 
 Original source index: Pinout Sheet. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `80474216968b5be5d9128cf55b6d9191fb53d4ae2bcde6f24131752da0ea3e94`
 

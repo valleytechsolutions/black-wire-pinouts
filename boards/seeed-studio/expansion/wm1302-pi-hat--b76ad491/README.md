@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Expansion
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-expansion-wm1302-pi-hat)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/WM1302_Pi_HAT/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://files.seeedstudio.com/products/113100022/5371617183671_.pic_hd.jpg) · [Source 2](https://wiki.seeedstudio.com/WM1302_Pi_HAT/)
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `9730a8794cd6eaee190ffb9d72d874c3d5bf37e92cc2db6311db6455a47a43db`
 
@@ -37,6 +51,8 @@ SHA-256: `9730a8794cd6eaee190ffb9d72d874c3d5bf37e92cc2db6311db6455a47a43db`
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `c2dd26e07b8fbb55a5c337cbbb7d66dda1f0a95ca2f79c0f92d6a655edacb56f`
 
 ## Pin Definition Table
@@ -52,6 +68,8 @@ SHA-256: `c2dd26e07b8fbb55a5c337cbbb7d66dda1f0a95ca2f79c0f92d6a655edacb56f`
 [Source 1](https://files.seeedstudio.com/products/113100022/pi%20hat.png) · [Source 2](https://wiki.seeedstudio.com/WM1302_Pi_HAT/)
 
 Original source index: Pin Definition Table. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `222064ab2999929750a5ae5c4e3bf025673d08999ae908479401d4f0808bcc70`
 

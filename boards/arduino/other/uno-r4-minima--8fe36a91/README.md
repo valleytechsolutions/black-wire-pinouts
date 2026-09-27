@@ -2,10 +2,22 @@
 
 **Arduino** · Other
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=arduino-other-uno-r4-minima)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.arduino.cc/hardware/uno-r4-minima/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## ABX00080-pinout
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/uno/boards/uno-r4-minima/datasheet/assets/ABX00080-pinout.png) · [Source 2](https://docs.arduino.cc/hardware/uno-r4-minima/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/uno/boards/uno-r4-minima/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/uno/boards/uno-r4-minima/datasheet/assets/ABX00080-pinout.png)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement.
+
+Image revision: Not identified
 
 SHA-256: `c4fa0b5145cfd203abf0f329fe9011be2121e4b72201a74987b23c799f44c1fd`
 
@@ -37,6 +51,8 @@ SHA-256: `c4fa0b5145cfd203abf0f329fe9011be2121e4b72201a74987b23c799f44c1fd`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement.
 
+Image revision: Not identified
+
 SHA-256: `4a1ef20b64e7ec547bf3d5f8b5fc345f385803e7933e87a71d8cb44f18039b8b`
 
 ## Official full pinout - page 1
@@ -52,6 +68,8 @@ SHA-256: `4a1ef20b64e7ec547bf3d5f8b5fc345f385803e7933e87a71d8cb44f18039b8b`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/uno/boards/uno-r4-minima/downloads/ABX00080-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/uno-r4-minima/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/uno/boards/uno-r4-minima/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/uno/boards/uno-r4-minima/downloads/ABX00080-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 1 rendered at 220 dpi; no labels changed.
+
+Image revision: Not identified
 
 SHA-256: `5be4c222de3eefff54059c7757b2d318e697edc843d7e14d093812d7d378949c`
 
@@ -69,6 +87,8 @@ SHA-256: `5be4c222de3eefff54059c7757b2d318e697edc843d7e14d093812d7d378949c`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 2 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `f5d09ac71140acf6c0453e2b49cfcf95c138ca03ad4384d6cb025c60fbafdfcb`
 
 ## Official full pinout - page 4
@@ -85,6 +105,8 @@ SHA-256: `f5d09ac71140acf6c0453e2b49cfcf95c138ca03ad4384d6cb025c60fbafdfcb`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 4 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `7b75ccac3fad2d85c80d84a4ca306e578f739f4fadfd6875029f542600ea9a2b`
 
 ## Full board pinout PDF
@@ -98,6 +120,8 @@ SHA-256: `7b75ccac3fad2d85c80d84a4ca306e578f739f4fadfd6875029f542600ea9a2b`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/uno/boards/uno-r4-minima/downloads/ABX00080-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/uno-r4-minima/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/uno/boards/uno-r4-minima/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/uno/boards/uno-r4-minima/downloads/ABX00080-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement.
+
+Image revision: Not identified
 
 SHA-256: `853b0664a1cf51040738a51385693f9a5c615d4337035d6b36c3c00f6ff76f3c`
 

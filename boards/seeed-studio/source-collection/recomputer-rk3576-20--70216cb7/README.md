@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-4eeb492918be405a72)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://www.seeedstudio.com/reComputer-RK3576-20-p-6816.html)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Dimensions
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://media-cdn.seeedstudio.com/media/catalog/product/6/-/6-recomputer-rk3576_1.jpg) · [Source 2](https://www.seeedstudio.com/reComputer-RK3576-20-p-6816.html)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `8b65677b1cd638d7f7d35348266b3b8754eb8e36f0919f7ee202f1b27d4a9300`
 
@@ -37,6 +51,8 @@ SHA-256: `8b65677b1cd638d7f7d35348266b3b8754eb8e36f0919f7ee202f1b27d4a9300`
 
 Original source index: Hardware Overview (Front). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `bac1dca95ba34ab6eb186d2be2d5cd89a6ec9add7475673067f06f3d6a95463f`
 
 ## Hardware Overview (Side)
@@ -53,6 +69,8 @@ SHA-256: `bac1dca95ba34ab6eb186d2be2d5cd89a6ec9add7475673067f06f3d6a95463f`
 
 Original source index: Hardware Overview (Side). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `4bdc82a3adc695b226976e45a2a0af0489a15acf1728098c635cf986afd8772b`
 
 ## Interfaces
@@ -68,6 +86,8 @@ SHA-256: `4bdc82a3adc695b226976e45a2a0af0489a15acf1728098c635cf986afd8772b`
 [Source 1](https://media-cdn.seeedstudio.com/media/catalog/product/1/0/10-recomputer-rk3576.jpg) · [Source 2](https://www.seeedstudio.com/reComputer-RK3576-20-p-6816.html)
 
 Original source index: Interfaces. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `68a5fda5054dcb7679a823257b93cbf3fdbca4a372cbd941ff0aaa7004e163c9`
 

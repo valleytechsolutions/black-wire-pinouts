@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-b767d4380f07dca705)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/Edgebox-ESP-100-Arduino/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Hardware Overview (Front)
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/edge_box_esp/font-port.png) · [Source 2](https://wiki.seeedstudio.com/Edgebox-ESP-100-Arduino/)
 
 Original source index: Hardware Overview (Front). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `4e5e4e27d6846bd8dd5a806533421fe2f1509da93ce0cba9a62dc7ecf6827ad5`
 
@@ -37,6 +51,8 @@ SHA-256: `4e5e4e27d6846bd8dd5a806533421fe2f1509da93ce0cba9a62dc7ecf6827ad5`
 
 Original source index: Hardware Overview (Side). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `f75f8247668ef30ebb5d589d836b13fe4f4a7d04f9e715fa874a6143fcb0b4bb`
 
 ## Hardware Overview (Top)
@@ -52,6 +68,8 @@ SHA-256: `f75f8247668ef30ebb5d589d836b13fe4f4a7d04f9e715fa874a6143fcb0b4bb`
 [Source 1](https://files.seeedstudio.com/wiki/edge_box_esp/connector_top.png) · [Source 2](https://wiki.seeedstudio.com/Edgebox-ESP-100-Arduino/)
 
 Original source index: Hardware Overview (Top). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `3719a5a80a74ed369c6ceae37fe161190a90f187e34a69f9646c6ad2959eb709`
 
@@ -69,6 +87,8 @@ SHA-256: `3719a5a80a74ed369c6ceae37fe161190a90f187e34a69f9646c6ad2959eb709`
 
 Original source index: Pin Definition (Ethernet Port). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `bbad8e0554520e60b7438a1e7d90794720ed7715ec8c1182ca2052b2bb63b4fe`
 
 ## Pin Definition (Multi-Func Connector)
@@ -85,6 +105,8 @@ SHA-256: `bbad8e0554520e60b7438a1e7d90794720ed7715ec8c1182ca2052b2bb63b4fe`
 
 Original source index: Pin Definition (Multi-Func Connector). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `7d18f065273a8ab9438087492801da584cc81906004d0c807d92bb296f5c5829`
 
 ## Pin Definition (Programming Port)
@@ -100,6 +122,8 @@ SHA-256: `7d18f065273a8ab9438087492801da584cc81906004d0c807d92bb296f5c5829`
 [Source 1](https://files.seeedstudio.com/wiki/edge_box_esp/programming_port.png) · [Source 2](https://wiki.seeedstudio.com/Edgebox-ESP-100-Arduino/)
 
 Original source index: Pin Definition (Programming Port). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `f051181f8ad3c4ea04f7fd203db7a5344470c6776436c4072e71dbde870eb19a`
 

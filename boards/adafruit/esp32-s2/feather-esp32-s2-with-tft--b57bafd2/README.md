@@ -2,10 +2,22 @@
 
 **Adafruit** · ESP32-S2
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=adafruit-esp32-feather-esp32-s2-with-tft)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://learn.adafruit.com/adafruit-esp32-s2-tft-feather/pinouts)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout reference - PDF page 1
 
@@ -21,6 +33,8 @@ Coverage: Pinout image collected
 
 Discovered from CircuitPython board metadata and the linked product/documentation page. Exact hardware revision requires matching to the diagram. Original PDF page 1 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `6b30089402519f30e72fa8178cb971682b682be910f841b17bca81a6d4e8183f`
 
 ## Physical board pinout
@@ -34,6 +48,8 @@ SHA-256: `6b30089402519f30e72fa8178cb971682b682be910f841b17bca81a6d4e8183f`
 [Source 1](https://raw.githubusercontent.com/adafruit/Adafruit-ESP32-S2-TFT-Feather-PCB/main/Adafruit%20ESP32-S2%20TFT%20Feather%20Pinout.pdf) · [Source 2](https://learn.adafruit.com/adafruit-esp32-s2-tft-feather/pinouts)
 
 Discovered from CircuitPython board metadata and the linked product/documentation page. Exact hardware revision requires matching to the diagram.
+
+Image revision: Not identified
 
 SHA-256: `0ce335aa12351d27ff554f02db04f0f95a48d8c9e28f78c10d90989393920525`
 

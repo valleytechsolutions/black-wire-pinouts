@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-0238ffd3a86f18796a)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/XIAO-eInk-Expansion-Board/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Hardware Overview (Back)
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://media-cdn.seeedstudio.com/media/catalog/product/cache/bb49d3ec4ee05b6f018e93f896b8a25d/4/-/4-105990172-epaper-breakout-board-45back.jpg) · [Source 2](https://wiki.seeedstudio.com/XIAO-eInk-Expansion-Board/)
 
 Original source index: Hardware Overview (Back). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `3bc60d4c70fe1351bc4125dc1022f084929a2d90ca67c3c9c9e2c986a6790089`
 
@@ -36,6 +50,8 @@ SHA-256: `3bc60d4c70fe1351bc4125dc1022f084929a2d90ca67c3c9c9e2c986a6790089`
 [Source 1](https://files.seeedstudio.com/wiki/eInk/xiao-expansion/xiao-expansion.png) · [Source 2](https://wiki.seeedstudio.com/XIAO-eInk-Expansion-Board/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `87739d72ca72b69c02cbc9591c9d51b4f732a07b17f82567af8e26a772339857`
 

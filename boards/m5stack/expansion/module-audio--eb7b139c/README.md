@@ -2,10 +2,22 @@
 
 **M5Stack** · Expansion
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Partial pinout collected; full reference still needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=m5stack-expansion-module-audio)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.m5stack.com/en/module/Module-Audio)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -21,7 +33,7 @@ Coverage: Partial pinout collected; full reference still needed
 
 Imported from existing M5Stack Board Reference; original working path preserved. Only the named connector or subsection is covered.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `a95cc380fa0ae8a7deb825a810458bd80055a98257659207630bc34cc9a42c93`
 
@@ -38,6 +50,8 @@ SHA-256: `a95cc380fa0ae8a7deb825a810458bd80055a98257659207630bc34cc9a42c93`
 [Source 1](https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1141/M144_Model_sizel_page_01.png) · [Source 2](https://docs.m5stack.com/en/module/Module-Audio)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `c18bb915fd9bb98f2366176edb798a80fc1d9c203887bcf871965362b1b67a0f`
 

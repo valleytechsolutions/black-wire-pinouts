@@ -10,6 +10,17 @@ Coverage: Physical pinout source collected; scope and revision require confirmat
 
 Architecture: **AVR**
 
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://www.adafruit.com/product/2590)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
+
 ## Specifications and hardware documentation
 
 - [Current product specifications (V2 differs from this diagram)](https://www.adafruit.com/product/2590)

@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Other
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-other-wio-e5-mini)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/LoRa_E5_mini/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://files.seeedstudio.com/products/317990687/image/3001615286723_.pic_hd.jpg) · [Source 2](https://wiki.seeedstudio.com/LoRa_E5_mini/)
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `a2c83f91661ada14c6aa0a1a194a3c4483f219efd46375667570ba46ad288a90`
 
@@ -36,6 +50,8 @@ SHA-256: `a2c83f91661ada14c6aa0a1a194a3c4483f219efd46375667570ba46ad288a90`
 [Source 1](https://files.seeedstudio.com/wiki/LoRa-E5_Development_Kit/hardware%20overview/4041615358935_.pic_hd.jpg) · [Source 2](https://wiki.seeedstudio.com/LoRa_E5_mini/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `b32ebd913cef9bc6af135982d4ed1852344ca61139ed1b8f7c5e6f9814506b9f`
 

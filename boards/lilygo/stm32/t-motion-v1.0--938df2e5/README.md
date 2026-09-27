@@ -2,10 +2,22 @@
 
 **LILYGO** · STM32
 
-Revision: Multiple source/revision records; see individual assets  
+Revision: Multiple source/revision records; see individual assets
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lilygo-other-t-motion-v1-0)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## t-motion_v1.0_pinmap
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://raw.githubusercontent.com/Xinyuan-LilyGO/LilyGo-LoRa-Series/5e2da3f519a25e91b9b14c3071e36a568bbd949d/assets/image/t-motion_v1.0_pinmap.jpg) · [Source 2](https://github.com/Xinyuan-LilyGO/LilyGo-LoRa-Series/blob/5e2da3f519a25e91b9b14c3071e36a568bbd949d/assets/image/t-motion_v1.0_pinmap.jpg)
 
 S76G STM32 LoRa GNSS development board
+
+Image revision: S76G STM32 LoRa GNSS development board
 
 SHA-256: `f9037a574ef8a4948c75956acd6f37003bc22ac6ef6963b1e05ef0b16e7321a0`
 
@@ -36,6 +50,8 @@ SHA-256: `f9037a574ef8a4948c75956acd6f37003bc22ac6ef6963b1e05ef0b16e7321a0`
 [Source 1](https://raw.githubusercontent.com/Xinyuan-LilyGO/LilyGO-T-Motion/df43b537b453441e3d68071aebcd4928436562dd/Image/1.jpg) · [Source 2](https://github.com/Xinyuan-LilyGO/LilyGO-T-Motion/blob/df43b537b453441e3d68071aebcd4928436562dd/Image/1.jpg)
 
 Original manufacturer diagram. Shown module, radio, display and power-system options must match the board.
+
+Image revision: Not identified
 
 SHA-256: `e06dae3b7b66c6b7e2ee9746803d95b69ec5e0d93df4a2130b0ac3db8fcdc5db`
 

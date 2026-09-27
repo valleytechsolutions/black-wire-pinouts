@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Expansion
 
-Revision: Not identified  
-Coverage: Pinout image collected
+Revision: Not identified
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+Coverage: Partial connector source collected; full-device review pending
+
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-expansion-grove-shield-for-xiao)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/Connect-Grove-to-Home-Assistant-ESPHome/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout (XIAO ESP32C3)
 
@@ -21,11 +33,13 @@ Coverage: Pinout image collected
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
 
+Image revision: Not identified
+
 SHA-256: `dd8d56eb2a29c427d3fffe0614db4d6786d7ccbc7253ef0aef9c343e1796043a`
 
 ## Pinout
 
-**pinout image** · Reviewed source · PNG
+**pinout image** · Connector diagram visually inspected; independent electrical review pending · PNG
 
 [![Grove Shield for XIAO reference preview](../../../../library/thumbs/32932e35556f8d69a71012fae9d4d51605479340408988814bfd522009ed659e.webp)](../../../../library/media/32932e35556f8d69a71012fae9d4d51605479340408988814bfd522009ed659e.png)
 
@@ -35,7 +49,9 @@ SHA-256: `dd8d56eb2a29c427d3fffe0614db4d6786d7ccbc7253ef0aef9c343e1796043a`
 
 [Source 1](https://files.seeedstudio.com/wiki/Grove-Shield-for-Seeeduino-XIAO/img/pinout.png) · [Source 2](https://wiki.seeedstudio.com/Grove-Shield-for-Seeeduino-XIAO-embedded-battery-management-chip/)
 
-Imported from existing Seeed Studio Board Reference; original working path preserved.
+Physical connector/pad source reference. Only the connections shown are covered; source conflicts and exact revision still require technical review.
+
+Image revision: Not identified
 
 SHA-256: `32932e35556f8d69a71012fae9d4d51605479340408988814bfd522009ed659e`
 
@@ -52,6 +68,8 @@ SHA-256: `32932e35556f8d69a71012fae9d4d51605479340408988814bfd522009ed659e`
 [Source 1](https://files.seeedstudio.com/wiki/Grove-Shield-for-Seeeduino-XIAO/img/hardware-overview.png) · [Source 2](https://wiki.seeedstudio.com/Grove-Shield-for-Seeeduino-XIAO-embedded-battery-management-chip/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `4a792ac0cfe68d36005fb3f6a3e81df3a7792ebc36059e6616af3e586f4489d5`
 

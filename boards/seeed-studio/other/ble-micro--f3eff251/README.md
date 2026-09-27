@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Other
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-other-ble-micro)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/BLE_Micro/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://files.seeedstudio.com/wiki/BLE_Micro/img/BLE_Micro_Pinout.png) · [Source 2](https://wiki.seeedstudio.com/BLE_Micro/)
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `2a54e9e2bad44f5f67387311c63cc0d01ee1b36fa567c1f439714e3c51f5f891`
 
@@ -36,6 +50,8 @@ SHA-256: `2a54e9e2bad44f5f67387311c63cc0d01ee1b36fa567c1f439714e3c51f5f891`
 [Source 1](https://files.seeedstudio.com/wiki/BLE_Micro/img/BLE_Micro_Dimension.jpeg) · [Source 2](https://wiki.seeedstudio.com/BLE_Micro/)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `8f10c847383cfdac80c167a93855ce24b2b59c37f0dfee4fe20861e98d0a33e4`
 

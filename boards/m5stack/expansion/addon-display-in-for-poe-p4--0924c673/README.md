@@ -2,10 +2,22 @@
 
 **M5Stack** · Expansion
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=m5stack-expansion-addon-display-in-for-poe-p4)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.m5stack.com/en/addon/AddOn_Display_In_For_PoE-P4)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1265/U220_AddOn_Display_In_For_PoE-P4_pinmap.jpg) · [Source 2](https://docs.m5stack.com/en/addon/AddOn_Display_In_For_PoE-P4)
 
 Imported from existing M5Stack Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `93728a8fb1332d891ea04f35da05161045e76b58534fd420d6c5c478ae6db122`
 
@@ -36,6 +50,8 @@ SHA-256: `93728a8fb1332d891ea04f35da05161045e76b58534fd420d6c5c478ae6db122`
 [Source 1](https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1265/U220-AddOn_Display_In_For_PoE-P4_model_size_page_01.png) · [Source 2](https://docs.m5stack.com/en/addon/AddOn_Display_In_For_PoE-P4)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `86d409fd87b3dcb3c75fd4ab438ee6f14282795b7df5cc607a4c87a9f9821e63`
 

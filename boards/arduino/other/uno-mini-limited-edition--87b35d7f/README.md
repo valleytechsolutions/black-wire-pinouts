@@ -2,10 +2,22 @@
 
 **Arduino** · Other
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=arduino-other-uno-mini-limited-edition)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.arduino.cc/hardware/uno-mini-limited-edition/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout_UNOMiniLE_80
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/uno/boards/uno-mini-limited-edition/datasheet/assets/Pinout_UNOMiniLE_80.png) · [Source 2](https://docs.arduino.cc/hardware/uno-mini-limited-edition/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/uno/boards/uno-mini-limited-edition/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/uno/boards/uno-mini-limited-edition/datasheet/assets/Pinout_UNOMiniLE_80.png) · [Source 5](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/uno/boards/uno-mini-limited-edition/tutorials/uno-mini-le-guide/assets/ABX00062-pinout.png)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement.
+
+Image revision: Not identified
 
 SHA-256: `16daad3f50771413b4b8404416e5df4e1880addf09cb5a8680bad6f384cfe7ed`
 
@@ -37,6 +51,8 @@ SHA-256: `16daad3f50771413b4b8404416e5df4e1880addf09cb5a8680bad6f384cfe7ed`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 1 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `d7e59a16b00d93071daf4b14ae79ba9bd92c03f53b476b74020781ca63b9251a`
 
 ## Official full pinout - page 2
@@ -52,6 +68,8 @@ SHA-256: `d7e59a16b00d93071daf4b14ae79ba9bd92c03f53b476b74020781ca63b9251a`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/uno/boards/uno-mini-limited-edition/downloads/ABX00062-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/uno-mini-limited-edition/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/uno/boards/uno-mini-limited-edition/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/uno/boards/uno-mini-limited-edition/downloads/ABX00062-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 2 rendered at 220 dpi; no labels changed.
+
+Image revision: Not identified
 
 SHA-256: `aef49d1f3c42d7f717e6ed900458ab80bc8ea46eef291d2502b8b7ef570d0e3d`
 
@@ -69,6 +87,8 @@ SHA-256: `aef49d1f3c42d7f717e6ed900458ab80bc8ea46eef291d2502b8b7ef570d0e3d`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 3 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `bfdfeddeae08ea8efa71f8b2229e4d93bb01234e29f928176fb502507b255ae9`
 
 ## Official full pinout - page 4
@@ -85,6 +105,8 @@ SHA-256: `bfdfeddeae08ea8efa71f8b2229e4d93bb01234e29f928176fb502507b255ae9`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 4 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `a570bf6910c58c6a1811c8ec4d300210085ba1dae6a2620dfd8d24f04c57c986`
 
 ## Full board pinout PDF
@@ -98,6 +120,8 @@ SHA-256: `a570bf6910c58c6a1811c8ec4d300210085ba1dae6a2620dfd8d24f04c57c986`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/uno/boards/uno-mini-limited-edition/downloads/ABX00062-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/uno-mini-limited-edition/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/uno/boards/uno-mini-limited-edition/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/uno/boards/uno-mini-limited-edition/downloads/ABX00062-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement.
+
+Image revision: Not identified
 
 SHA-256: `52fcc5e2b16a03c43d24df1725b7979714fa7bd9d0f8e0b69e22a4a4128a1064`
 

@@ -2,10 +2,22 @@
 
 **Waveshare** · ESP32-P4
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=waveshare-esp32-esp32-p4-eth)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://www.waveshare.com/esp32-p4-eth.htm)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://www.waveshare.com/img/devkit/ESP32-P4-ETH/ESP32-P4-ETH-details-inter.jpg) · [Source 2](https://www.waveshare.com/esp32-p4-eth.htm)
+
+
+
+Image revision: Not identified
 
 SHA-256: `b80a2fa393bc586a302fda8a18cf9b8953f4c1ce499bee898e0941491cae6270`
 
@@ -33,6 +49,10 @@ SHA-256: `b80a2fa393bc586a302fda8a18cf9b8953f4c1ce499bee898e0941491cae6270`
 
 [Source 1](https://docs.waveshare.com/assets/images/ESP32-P4-ETH-details-inter-d78f8087f1a1597badd3a1d077c4c057.webp) · [Source 2](https://docs.waveshare.com/ESP32-P4-ETH)
 
+
+
+Image revision: Not identified
+
 SHA-256: `2e281ec191257c3899792ec9c4725d4494e5e317273d75dd44412e14f4584e79`
 
 ## Pinout
@@ -46,6 +66,10 @@ SHA-256: `2e281ec191257c3899792ec9c4725d4494e5e317273d75dd44412e14f4584e79`
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://www.waveshare.com/w/upload/5/54/ESP32-P4-ETH-details-inter.jpg) · [Source 2](https://www.waveshare.com/wiki/ESP32-P4-ETH)
+
+
+
+Image revision: Not identified
 
 SHA-256: `e14fbe320e8cbae02c908cc4a66624c58be39694abd12d97830574594edf7e9a`
 

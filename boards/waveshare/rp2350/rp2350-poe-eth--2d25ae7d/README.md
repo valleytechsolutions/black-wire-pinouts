@@ -2,10 +2,22 @@
 
 **Waveshare** · RP2350
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=waveshare-rp2350-rp2350-poe-eth)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://www.waveshare.com/rp2350-poe-eth.htm)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://www.waveshare.com/img/devkit/RP2350-POE-ETH/RP2350-POE-ETH-details-inter.jpg?v=260723) · [Source 2](https://www.waveshare.com/rp2350-poe-eth.htm)
+
+
+
+Image revision: Not identified
 
 SHA-256: `d87155f67b95d1576cf1147f8b510f373f0fa60f68e158c5ce16df5bcf336367`
 
@@ -32,6 +48,10 @@ SHA-256: `d87155f67b95d1576cf1147f8b510f373f0fa60f68e158c5ce16df5bcf336367`
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://docs.waveshare.com/assets/images/RP2350-POE-ETH-details-inter-b66631cc4e3b83483aae52d1505679b0.webp) · [Source 2](https://docs.waveshare.com/RP2350-POE-ETH)
+
+
+
+Image revision: Not identified
 
 SHA-256: `acbdc739384d3d85057b12115cba4e6de52e8d0d6cc8a0098744bb99443afdec`
 

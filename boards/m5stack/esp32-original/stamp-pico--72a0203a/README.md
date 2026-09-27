@@ -2,10 +2,22 @@
 
 **M5Stack** · ESP32 original
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=m5stack-esp32-stamp-pico)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.m5stack.com/en/core/stamp_pico)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://static-cdn.m5stack.com/resource/docs/products/core/stamp_pico/stamp_pico_12.webp) · [Source 2](https://docs.m5stack.com/en/core/stamp_pico)
 
 Imported from existing M5Stack Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `e105afee2022b08e7d867779965b32fb78e09b8cba3d53f594e23ba8b2dc593f`
 
@@ -37,6 +51,8 @@ SHA-256: `e105afee2022b08e7d867779965b32fb78e09b8cba3d53f594e23ba8b2dc593f`
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `0ada4de57fa408aa9589bc7ad1cfa855442ef9717595f299d5fe516505c23664`
 
 ## Dimensions
@@ -52,6 +68,8 @@ SHA-256: `0ada4de57fa408aa9589bc7ad1cfa855442ef9717595f299d5fe516505c23664`
 [Source 1](https://static-cdn.m5stack.com/resource/docs/products/core/stamp_pico/stamp_pico_size_01.webp) · [Source 2](https://docs.m5stack.com/en/core/stamp_pico)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `071d366650d1e6f1516838fccda8d89bb948e5847463ed94988e3b601ab05632`
 

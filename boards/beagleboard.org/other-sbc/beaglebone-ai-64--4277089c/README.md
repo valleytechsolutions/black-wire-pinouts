@@ -2,10 +2,22 @@
 
 **BeagleBoard.org** · Other SBC
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=beagleboard-org-other-sbc-beaglebone-ai-64)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## BeagleBone-AI-64-P8
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: BeagleBoard.org.
 
 [Source 1](https://raw.githubusercontent.com/beagleboard/docs.beagleboard.io/16fe321218239da46f68cc6688347deddd044181/boards/beaglebone/ai-64/images/pinout/BeagleBone-AI-64-P8.png) · [Source 2](https://github.com/beagleboard/docs.beagleboard.io/blob/16fe321218239da46f68cc6688347deddd044181/boards/beaglebone/ai-64/images/pinout/BeagleBone-AI-64-P8.png)
+
+
+
+Image revision: Not identified
 
 SHA-256: `cecdfe3d8ba83ab9c9b57ea2170c4f5f8eb86893a63cec7174b34f9799f33cc8`
 
@@ -32,6 +48,10 @@ SHA-256: `cecdfe3d8ba83ab9c9b57ea2170c4f5f8eb86893a63cec7174b34f9799f33cc8`
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: BeagleBoard.org.
 
 [Source 1](https://raw.githubusercontent.com/beagleboard/docs.beagleboard.io/16fe321218239da46f68cc6688347deddd044181/boards/beaglebone/ai-64/images/pinout/BeagleBone-AI-64-P9.png) · [Source 2](https://github.com/beagleboard/docs.beagleboard.io/blob/16fe321218239da46f68cc6688347deddd044181/boards/beaglebone/ai-64/images/pinout/BeagleBone-AI-64-P9.png)
+
+
+
+Image revision: Not identified
 
 SHA-256: `e35258d2ff290994522cbdbe88dcc65f1b57c3ea41ee3c9b862285c1700d328b`
 

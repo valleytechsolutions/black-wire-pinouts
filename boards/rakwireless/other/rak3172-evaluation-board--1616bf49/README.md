@@ -2,10 +2,22 @@
 
 **RAKwireless** · Other
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Board labels only; pinout needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=rakwireless-other-rak3172-evaluation-board)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.rakwireless.com/product-categories/wisduo/rak3172-evaluation-board/datasheet/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## RAK3172 Evaluation Board Interfaces
 
@@ -13,13 +25,17 @@ Coverage: Board labels only; pinout needed
 
 [![RAK3172-Evaluation-Board reference preview](../../../../library/thumbs/053bdab0362f636ee8fae0f22c839afe5a50dc6dcac4d0f56486eafbc3bef3b4.webp)](../../../../library/media/053bdab0362f636ee8fae0f22c839afe5a50dc6dcac4d0f56486eafbc3bef3b4.png)
 
-[Open original reference](../../../../library/media/053bdab0362f636ee8fae0f22c839afe5a50dc6dcac4d0f56486eafbc3bef3b4.png) · [Original vector](../../../../library/media/bf3607584b99664a8cc47b46d1a6b788e7d915e3ce4e44e2ed119860e355ecdd.svg)
+[Open original reference](../../../../library/media/053bdab0362f636ee8fae0f22c839afe5a50dc6dcac4d0f56486eafbc3bef3b4.png)
+
+[Original vector companion](../../../../library/media/bf3607584b99664a8cc47b46d1a6b788e7d915e3ce4e44e2ed119860e355ecdd.svg)
 
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: RAKwireless.
 
 [Source 1](https://raw.githubusercontent.com/RAKWireless/RAKwireless-docs/4361f2635b6e16c72a46167a208db87427106bef/docs/.vuepress/public/assets/images/wisduo/rak3172-evaluation-board/datasheet/interfaces/RAK3172E-Interface.svg) · [Source 2](https://docs.rakwireless.com/product-categories/wisduo/rak3172-evaluation-board/datasheet/)
 
 Raster rendering of the original manufacturer SVG at 240 DPI, fitted within 3000 pixels. Original vector retained. Labels have not been redrawn.
+
+Image revision: Not identified
 
 SHA-256: `053bdab0362f636ee8fae0f22c839afe5a50dc6dcac4d0f56486eafbc3bef3b4`
 

@@ -37,6 +37,14 @@ def main():
             lines.extend([f"Device category: **{b['device']['category']}**",''])
             if b['device'].get('note'):lines.extend([b['device']['note'],''])
         if b.get('architecture'):lines.extend([f"Architecture: **{b['architecture']}**",''])
+        if b.get('documentationCoverage'):
+            d=b.get('documentation',{});status=b['documentationCoverage']
+            lines.extend(['## Datasheets and original documentation','',f"Board datasheet: **{'recorded' if status['boardDatasheets'] else 'not yet recorded'}**. Visual reference: **{'available' if status['visualCount'] else 'still needed'}**.",''])
+            if d.get('website'):lines.extend([f"[{d['website'].get('label','Manufacturer website')}]({d['website']['url']})",''])
+            else:lines.extend(['Original manufacturer website still needs identification.',''])
+            for doc in d.get('resources',[]):
+                lines.append(f"- **{doc['kind']} / {doc.get('scope','unclassified')}**: [{doc['label']}]({doc['url']})"+(f" · [saved document]({prefix}library/{doc['file']})" if doc.get('file') else ' · online'))
+            lines.extend(['',d.get('note','A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.'),'',f'[Documentation coverage and remaining gaps]({prefix}DOCUMENTATION.md)',''])
         if b.get('specifications'):
             lines.extend(['## Specifications and hardware documentation',''])
             lines.extend([f"- [{s.get('label','Hardware documentation')}]({s['url']})" for s in b['specifications']])
@@ -59,7 +67,7 @@ def main():
     write_json(ROOT/'catalog/attributions.json',attribution)
     with (ROOT/'catalog/attributions.csv').open('w',newline='',encoding='utf-8') as f:
         writer=csv.DictWriter(f,fieldnames=list(attribution[0]));writer.writeheader();writer.writerows(attribution)
-    browse=['# Browse the reference collection','','[Devices & IoT](DEVICES.md) · [First Edition policy](EDITION.md) · [Search the website](https://valleytechsolutions.tech/pages/bwm-technical-reference-guide)','','Board diagrams, GPIO references and additional source documents are labeled separately.','']
+    browse=['# Browse the reference collection','','[Documentation audit](DOCUMENTATION.md) · [Devices & IoT](DEVICES.md) · [First Edition policy](EDITION.md) · [Search the website](https://valleytechsolutions.tech/pages/bwm-technical-reference-guide)','','Board diagrams, GPIO references and additional source documents are labeled separately.','']
     grouped=collections.defaultdict(list)
     for b in boards:grouped[b['brand']].append(b)
     for brand in sorted(grouped):

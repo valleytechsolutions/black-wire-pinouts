@@ -10,6 +10,17 @@ Coverage: Board labels only; pinout needed
 
 Architecture: **ARM / RISC-V**
 
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://milkv.io/docs/duo/getting-started/download)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
+
 ## Specifications and hardware documentation
 
 - [Manufacturer hardware documentation](https://milkv.io/docs/duo/getting-started/download)

@@ -2,12 +2,24 @@
 
 **WiPhone** · PIC24FJ64GA002
 
-Revision: V1.1 pictured; source filename says v1.0  
+Revision: V1.1 pictured; source filename says v1.0
+
 Coverage: Pinout image collected
 
 [Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=wiphone-gpio-device-bus-pirate-daughter-board-v1-1)
 
 Device category: **Handhelds & pocket tools**
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Daughter-board interface pin map
 

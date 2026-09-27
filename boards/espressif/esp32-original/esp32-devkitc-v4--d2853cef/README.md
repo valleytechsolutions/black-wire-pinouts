@@ -2,10 +2,22 @@
 
 **Espressif** · ESP32 original
 
-Revision: Multiple source/revision records; see individual assets  
+Revision: Multiple source/revision records; see individual assets
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=espressif-esp32-esp32-devkitc-v4)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Manufacturer board pinout
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://raw.githubusercontent.com/espressif/esp-dev-kits/ab7aff2e0c171e6918c88555b700798f36caeb67/docs/_static/esp32-devkitc/esp32_devkitC_v4_pinlayout.png) · [Source 2](https://github.com/espressif/esp-dev-kits/blob/ab7aff2e0c171e6918c88555b700798f36caeb67/docs/_static/esp32-devkitc/esp32_devkitC_v4_pinlayout.png)
 
 Original image from the manufacturer documentation repository; exact commit recorded in source URL.
+
+Image revision: v4
 
 SHA-256: `e3217229b995ec7e1b5c525ffd93eced3b3a17827806907dd25a1609667283e2`
 
@@ -36,6 +50,8 @@ SHA-256: `e3217229b995ec7e1b5c525ffd93eced3b3a17827806907dd25a1609667283e2`
 [Source 1](https://mischianti.org/wp-content/uploads/2021/07/ESP32-DEV-KIT-DevKitC-v4-pinout-mischianti.jpg) · [Source 2](https://mischianti.org/esp32-devkitc-v4-high-resolution-pinout-and-specs/)
 
 Original public image by Renzo Mischianti, unchanged. Diagram/model matching is visual, not electrical verification. Exact PCB layout and revision must match; no inference of compatibility with lookalike marketplace clones.
+
+Image revision: V4
 
 SHA-256: `4f8547ea19c8ee6da2cea8528c77274d3a590b8891062808f4dfcdb58c55ebb3`
 

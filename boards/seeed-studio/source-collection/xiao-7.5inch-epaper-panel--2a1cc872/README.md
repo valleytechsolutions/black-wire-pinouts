@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-002270abd5db43ec4e)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/xiao_075inch_epaper_panel/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Hardware Overview (Front)
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/xiao_075inch_epaper_panel/207.jpg) · [Source 2](https://wiki.seeedstudio.com/xiao_075inch_epaper_panel/)
 
 Original source index: Hardware Overview (Front). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `ccc9e98b07dbafe4462b883a9ac1edc9e4d17fba5a336dd6272c7ddbc5236648`
 
@@ -36,6 +50,8 @@ SHA-256: `ccc9e98b07dbafe4462b883a9ac1edc9e4d17fba5a336dd6272c7ddbc5236648`
 [Source 1](https://files.seeedstudio.com/wiki/xiao_075inch_epaper_panel/208.jpg) · [Source 2](https://wiki.seeedstudio.com/xiao_075inch_epaper_panel/)
 
 Original source index: Hardware Overview (Inside). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `44c9ff7341608f72fe62e22864b99a9f3120dbf55d5a1946201f46b17b2fe025`
 

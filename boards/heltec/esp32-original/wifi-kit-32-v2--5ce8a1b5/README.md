@@ -2,10 +2,22 @@
 
 **Heltec** · ESP32 original
 
-Revision: WIFI_Kit_32_pinoutDiagram_V2.pdf  
+Revision: WIFI_Kit_32_pinoutDiagram_V2.pdf
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=heltec-esp32-wifi-kit-32-v2)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout reference - PDF page 1
 
@@ -21,6 +33,8 @@ Coverage: Pinout image collected
 
 Original manufacturer resource filename: WIFI_Kit_32_pinoutDiagram_V2.pdf. Filename and printed revision must be matched to the board. Original PDF page 1 rendered at 220 dpi; no labels changed.
 
+Image revision: WIFI_Kit_32_pinoutDiagram_V2.pdf
+
 SHA-256: `ef89799a178f03b05bc6e6a1de4eb23ea76285b8ea534e9f9130a575c8817b31`
 
 ## Board pin reference - WIFI_Kit_32_pinoutDiagram_V2
@@ -34,6 +48,8 @@ SHA-256: `ef89799a178f03b05bc6e6a1de4eb23ea76285b8ea534e9f9130a575c8817b31`
 [Source 1](https://resource.heltec.cn/download/WiFi_Kit_32/WIFI_Kit_32_pinoutDiagram_V2.pdf) · [Source 2](https://resource.heltec.cn/download/WiFi_Kit_32)
 
 Original manufacturer resource filename: WIFI_Kit_32_pinoutDiagram_V2.pdf. Filename and printed revision must be matched to the board.
+
+Image revision: WIFI_Kit_32_pinoutDiagram_V2.pdf
 
 SHA-256: `ebb3356bbac9c39601c12fbad8bd862057f63a68a804449d02fee049ed12d432`
 

@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Expansion
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Board labels only; pinout needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-expansion-xiao-logger-hat)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://www.seeedstudio.com/XIAO-LOG-p-6341.html)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -20,6 +32,8 @@ Coverage: Board labels only; pinout needed
 [Source 1](https://raw.githubusercontent.com/potblitd/XIAO-log/main/images/xiao-log-assembly.png) · [Source 2](https://github.com/potblitd/XIAO-log (linked from the Seeed product page's "Wiki & Learn" tab as the co-create documentation repo))
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `b27d4d2a125843ce1c3b85b7bfdbba46712a781a3c7709557a3b03ff92f4f13a`
 
@@ -36,6 +50,8 @@ SHA-256: `b27d4d2a125843ce1c3b85b7bfdbba46712a781a3c7709557a3b03ff92f4f13a`
 [Source 1](https://media-cdn.seeedstudio.com/media/catalog/product/6/-/6-114993446-xiao-log-size.jpg) · [Source 2](https://www.seeedstudio.com/XIAO-LOG-p-6341.html)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `d458e652f4d6f89927f024a412a2c3d7d3efa3f2885f2dcbf015848b3f165178`
 

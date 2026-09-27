@@ -2,10 +2,22 @@
 
 **Arduino** · Other
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=arduino-other-uno-r3-smd)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.arduino.cc/hardware/uno-rev3-smd/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Official full pinout - page 1
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/uno/boards/uno-rev3-smd/downloads/A000073-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/uno-rev3-smd/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/uno/boards/uno-rev3-smd/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/uno/boards/uno-rev3-smd/downloads/A000073-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 1 rendered at 220 dpi; no labels changed.
+
+Image revision: Not identified
 
 SHA-256: `5c383ad93c73e50c9a6bd35a128c7b942d3d4ca12fefaab2d2091927ec65bf9a`
 
@@ -37,6 +51,8 @@ SHA-256: `5c383ad93c73e50c9a6bd35a128c7b942d3d4ca12fefaab2d2091927ec65bf9a`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 2 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `f4ada025903e4e89b48ae3c13f947cdf3a15f1676712ca20ec7e29acc4f8e2f7`
 
 ## Official full pinout - page 3
@@ -52,6 +68,8 @@ SHA-256: `f4ada025903e4e89b48ae3c13f947cdf3a15f1676712ca20ec7e29acc4f8e2f7`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/uno/boards/uno-rev3-smd/downloads/A000073-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/uno-rev3-smd/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/uno/boards/uno-rev3-smd/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/uno/boards/uno-rev3-smd/downloads/A000073-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 3 rendered at 220 dpi; no labels changed.
+
+Image revision: Not identified
 
 SHA-256: `af56889ded236fadd501b231ff35d6d46a77657d4b801f98dec4f85731a405ab`
 
@@ -69,6 +87,8 @@ SHA-256: `af56889ded236fadd501b231ff35d6d46a77657d4b801f98dec4f85731a405ab`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 4 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `73c0769beff3f0e19d8320e15891f1700be0c7ef4612ec4d70f314d989b1a781`
 
 ## Full board pinout PDF
@@ -82,6 +102,8 @@ SHA-256: `73c0769beff3f0e19d8320e15891f1700be0c7ef4612ec4d70f314d989b1a781`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/uno/boards/uno-rev3-smd/downloads/A000073-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/uno-rev3-smd/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/uno/boards/uno-rev3-smd/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/uno/boards/uno-rev3-smd/downloads/A000073-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement.
+
+Image revision: Not identified
 
 SHA-256: `9b5b545b7e932b3dcc7aa6a2883c38b78c0c04bbdd3f78b9e4da8a6f5068955e`
 

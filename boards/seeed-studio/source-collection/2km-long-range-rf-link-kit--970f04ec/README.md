@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-2e3986c06a4bd69eb2)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/2KM_Long_Range_RF_link_kits_w_encoder_and_decoder/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Hardware Overview
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/2KM_Long_Range_RF_link_kits_w_encoder_and_decoder/img/433rf6.png) · [Source 2](https://wiki.seeedstudio.com/2KM_Long_Range_RF_link_kits_w_encoder_and_decoder/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `a14eb8c20ea011b61f87e42cff4d531998264fa14cc2f0d7e5f6f7f193e3530c`
 
@@ -36,6 +50,8 @@ SHA-256: `a14eb8c20ea011b61f87e42cff4d531998264fa14cc2f0d7e5f6f7f193e3530c`
 [Source 1](https://files.seeedstudio.com/wiki/2KM_Long_Range_RF_link_kits_w_encoder_and_decoder/img/433rf5.png) · [Source 2](https://wiki.seeedstudio.com/2KM_Long_Range_RF_link_kits_w_encoder_and_decoder/)
 
 Original source index: Pin Functions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `8f4cc40f73f0eefb0dd3ae0dccd82064b917713fdba16145f2ff146a6eb4d129`
 

@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Other SBC
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-other-sbc-recomputer-super-j3010)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/recomputer_jetson_super_hardware_interfaces_usage/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://files.seeedstudio.com/wiki/reComputer-Jetson/reComputer-super/40pin3.jpg) · [Source 2](https://wiki.seeedstudio.com/recomputer_jetson_super_hardware_interfaces_usage/)
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `8d1949269e64669c179b517e677656df7843d19466f04def45a7067ba6ae66ab`
 
@@ -37,6 +51,8 @@ SHA-256: `8d1949269e64669c179b517e677656df7843d19466f04def45a7067ba6ae66ab`
 
 Original source index: Pin Definition Table (CAN Bus Header). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `4e2d734f1cd5c660e8f0d8e373def7e9f09c83eeeb4917293b60ee260958c1ac`
 
 ## Pin Functions (12-Pin Header)
@@ -49,7 +65,11 @@ SHA-256: `4e2d734f1cd5c660e8f0d8e373def7e9f09c83eeeb4917293b60ee260958c1ac`
 
 **Credit and rights:** Source rights not yet established. Source/manufacturer: Seeed Studio.
 
+
+
 Original source index: Pin Functions (12-Pin Header). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `ea5aff5f9eb19871aec4192b86044dbc38090e52844d7b1842081d9adc245920`
 

@@ -2,12 +2,24 @@
 
 **LILYGO** · SF32LB52X
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
 [Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lilygo-other-t-display-sf32)
 
 Device category: **Displays & HMI**
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.lilygo.cc/products/t-display-series/t-display-sf32/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Board pin map
 

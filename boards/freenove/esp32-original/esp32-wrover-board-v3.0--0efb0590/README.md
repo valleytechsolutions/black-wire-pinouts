@@ -2,10 +2,22 @@
 
 **Freenove** · ESP32 original
 
-Revision: v3.0  
+Revision: v3.0
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=freenove-esp32-esp32-wrover-board-v3-0)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout v3.0
 
@@ -21,6 +33,8 @@ Coverage: Pinout image collected
 
 Manufacturer source. Pinouts must match the exact board and revision; Freenove documents changes between layouts. The diagram depicts the development board itself; it is not a full pinout of any kit carrier, speaker, display or other accessory.
 
+Image revision: v3.0
+
 SHA-256: `68b3fc88405672a721f7fa9212210a45cc83fe2119640eb64e1dab0bdbd6e6e0`
 
 ## Pinout v3.0
@@ -34,6 +48,8 @@ SHA-256: `68b3fc88405672a721f7fa9212210a45cc83fe2119640eb64e1dab0bdbd6e6e0`
 [Source 1](https://raw.githubusercontent.com/Freenove/Freenove_ESP32_WROVER_Board/89e7ad4ca067a991f185e06a7b2a63c2e96a7cb7/Datasheet/ESP32-Pinout_V3.0.pdf) · [Source 2](https://github.com/Freenove/Freenove_ESP32_WROVER_Board/blob/89e7ad4ca067a991f185e06a7b2a63c2e96a7cb7/Datasheet/ESP32-Pinout_V3.0.pdf)
 
 Manufacturer source. Pinouts must match the exact board and revision; Freenove documents changes between layouts. The diagram depicts the development board itself; it is not a full pinout of any kit carrier, speaker, display or other accessory.
+
+Image revision: v3.0
 
 SHA-256: `a058825d5e80af7246529a83aa70f104c946942a6d715ec24e5973fae08e9670`
 

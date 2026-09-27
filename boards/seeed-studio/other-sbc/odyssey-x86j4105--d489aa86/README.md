@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Other SBC
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-other-sbc-odyssey-x86j4105)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/Fan_Pinout/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout (Fan Header)
 
@@ -21,7 +33,7 @@ Coverage: Pinout image collected
 
 Imported from existing Seeed Studio Board Reference; original working path preserved. Only the named connector or subsection is covered.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `b48490e196f95eeaf570014a9ee50c57b368285fa7d9e53b36dfeb5bffa357d7`
 
@@ -39,6 +51,8 @@ SHA-256: `b48490e196f95eeaf570014a9ee50c57b368285fa7d9e53b36dfeb5bffa357d7`
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
 
+Image revision: Not identified
+
 SHA-256: `68d424a4b65f578551ed043a807373fe2dc99386e5b9904a981f29aa47996ee3`
 
 ## Dimensions
@@ -52,6 +66,8 @@ SHA-256: `68d424a4b65f578551ed043a807373fe2dc99386e5b9904a981f29aa47996ee3`
 [Source 1](https://files.seeedstudio.com/wiki/ODYSSEY-X86J4105864/Documents/ODYSSEY-X86-2D.pdf) · [Source 2](https://wiki.seeedstudio.com/ODYSSEY-X86J4105/)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `46c9482cb30153048a5f5ad0594e18c189dc3f31e31c4f3793bd2d5ba06d17ee`
 
@@ -68,6 +84,8 @@ SHA-256: `46c9482cb30153048a5f5ad0594e18c189dc3f31e31c4f3793bd2d5ba06d17ee`
 [Source 1](https://files.seeedstudio.com/wiki/ODYSSEY-X86J4105864/img/X86-08-n.png) · [Source 2](https://wiki.seeedstudio.com/ODYSSEY_Getting_Started/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `148b89930edddb05df04c04a9ba9f2beb80246df219cece6e2c9d4b216eebf62`
 

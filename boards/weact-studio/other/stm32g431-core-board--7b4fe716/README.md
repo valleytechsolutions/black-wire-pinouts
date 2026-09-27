@@ -2,10 +2,22 @@
 
 **WeAct Studio** · Other
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Board labels only; pinout needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=weact-studio-other-stm32g431-core-board)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://github.com/WeActStudio/WeActStudio.STM32G431CoreBoard)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Board silkscreen and component labels
 
@@ -21,7 +33,7 @@ Coverage: Board labels only; pinout needed
 
 Original repository file preserved with commit identifier. Board illustration/silkscreen images are explicitly distinguished from expanded pin-function diagrams.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `26330936cb62c7900dbcb90e529a033994b26fa2e60742cae08fff14c16cf96f`
 
@@ -39,7 +51,7 @@ SHA-256: `26330936cb62c7900dbcb90e529a033994b26fa2e60742cae08fff14c16cf96f`
 
 Original repository file preserved with commit identifier. Board illustration/silkscreen images are explicitly distinguished from expanded pin-function diagrams.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `1000437917a794828e8f203b7357b0e3531533b7ee97bc017b093823d82df42d`
 
@@ -57,7 +69,7 @@ SHA-256: `1000437917a794828e8f203b7357b0e3531533b7ee97bc017b093823d82df42d`
 
 Original repository file preserved with commit identifier. Board illustration/silkscreen images are explicitly distinguished from expanded pin-function diagrams.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `bfc3d389dd9f3a184260e0cd5ee4d96e519a41aecd87a1aed75e49376960f5ba`
 
@@ -75,7 +87,7 @@ SHA-256: `bfc3d389dd9f3a184260e0cd5ee4d96e519a41aecd87a1aed75e49376960f5ba`
 
 Original repository file preserved with commit identifier. Board illustration/silkscreen images are explicitly distinguished from expanded pin-function diagrams.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `e6696029f394faf1a1d2443215bb1ae7ceb175ff8e8fa40228433b3089e74464`
 

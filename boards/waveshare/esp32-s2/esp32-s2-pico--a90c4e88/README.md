@@ -2,10 +2,22 @@
 
 **Waveshare** · ESP32-S2
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=waveshare-esp32-esp32-s2-pico)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://www.waveshare.com/esp32-s2.htm)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://www.waveshare.com/img/devkit/ESP32-S2-Pico/ESP32-S2-Pico-details-9-1.jpg) · [Source 2](https://www.waveshare.com/esp32-s2.htm)
+
+
+
+Image revision: Not identified
 
 SHA-256: `8daef0cee4cdb8120f87c0430b0f11d8c7e0696868e4bcf877558603e605f2d0`
 
@@ -32,6 +48,10 @@ SHA-256: `8daef0cee4cdb8120f87c0430b0f11d8c7e0696868e4bcf877558603e605f2d0`
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://www.waveshare.com/w/upload/0/05/ESP32-S2-Pico-details-9-1.jpg) · [Source 2](https://www.waveshare.com/wiki/ESP32-S2-LCD-0.96) · [Source 3](https://www.waveshare.com/wiki/ESP32-S2-Pico)
+
+
+
+Image revision: Not identified
 
 SHA-256: `9de31f532fc7dccdbddb7fb200bfa865b3d36fa5a0576b43a1d61b3227d396aa`
 

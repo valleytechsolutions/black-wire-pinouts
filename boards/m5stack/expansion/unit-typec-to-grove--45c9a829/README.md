@@ -2,10 +2,22 @@
 
 **M5Stack** · Expansion
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=m5stack-expansion-unit-typec-to-grove)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.m5stack.com/en/unit/typec2grove)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/products/unit/typec2grove/typec2grove_10.webp) · [Source 2](https://docs.m5stack.com/en/unit/typec2grove)
 
 Imported from existing M5Stack Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `aa47603c2d10f1e2dccfc7d94546e683374718b93b11445e3ffaa62f5bce9641`
 
@@ -36,6 +50,8 @@ SHA-256: `aa47603c2d10f1e2dccfc7d94546e683374718b93b11445e3ffaa62f5bce9641`
 [Source 1](https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/798/U151_Model_Size_sch_01.png) · [Source 2](https://docs.m5stack.com/en/unit/typec2grove)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `881d6202ca120ff399cabe2b571d425d99613fca3bb3e93c2f2d8234bbb6f182`
 

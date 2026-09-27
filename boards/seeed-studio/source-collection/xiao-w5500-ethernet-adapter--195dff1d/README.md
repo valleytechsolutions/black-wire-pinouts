@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-933b042800cc892e4b)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/xiao_w5500_ethernet_adapter/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Hardware Overview (Back)
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/xiao_w5500_poe/2.jpg) · [Source 2](https://wiki.seeedstudio.com/xiao_w5500_ethernet_adapter/)
 
 Original source index: Hardware Overview (Back). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `575ce48c8b064a079f368aee607b7c54bd3d4f0990a998c67fbe7e8be89dae83`
 
@@ -37,6 +51,8 @@ SHA-256: `575ce48c8b064a079f368aee607b7c54bd3d4f0990a998c67fbe7e8be89dae83`
 
 Original source index: Hardware Overview (Front). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `001d8f9977f4e784b39e409465e4c8ec4d9f9a2da9699ca2bc85d460d592403e`
 
 ## Hardware Overview (Inside)
@@ -52,6 +68,8 @@ SHA-256: `001d8f9977f4e784b39e409465e4c8ec4d9f9a2da9699ca2bc85d460d592403e`
 [Source 1](https://files.seeedstudio.com/wiki/xiao_w5500_poe/1.jpg) · [Source 2](https://wiki.seeedstudio.com/xiao_w5500_ethernet_adapter/)
 
 Original source index: Hardware Overview (Inside). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `b8d6910013e85ce3a1c69e1d5adcd8385d375c0e7f097ab2d2187bbefe4349cd`
 

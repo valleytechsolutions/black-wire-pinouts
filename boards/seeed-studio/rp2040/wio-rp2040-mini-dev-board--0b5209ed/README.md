@@ -2,10 +2,22 @@
 
 **Seeed Studio** · RP2040
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-rp2040-wio-rp2040-mini-dev-board)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/Wio_RP2040_mini_Dev_Board-Onboard_Wifi/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://files.seeedstudio.com/wiki/Wio_RP2040_mini_Dev_Board-Onboard_Wifi/board_4.png) · [Source 2](https://wiki.seeedstudio.com/Wio_RP2040_mini_Dev_Board-Onboard_Wifi/)
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `fb390ccd0a71f3e239c6244107057e0022f197ac8ee6537cd57af6be87f6b5c7`
 
@@ -36,6 +50,8 @@ SHA-256: `fb390ccd0a71f3e239c6244107057e0022f197ac8ee6537cd57af6be87f6b5c7`
 [Source 1](https://files.seeedstudio.com/wiki/Wio_RP2040_mini_Dev_Board-Onboard_Wifi/board_3.png) · [Source 2](https://wiki.seeedstudio.com/Wio_RP2040_mini_Dev_Board-Onboard_Wifi/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `480db34161bb4da56e4e9516c7018eebf454af1107f73c2d4b853e772e09c84f`
 

@@ -2,10 +2,22 @@
 
 **SparkFun** · ATmega328P
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=sparkfun-other-arduino-pro-mini-328-5v-16mhz)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://github.com/sparkfun/Arduino_Pro_Mini_328)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Board pinout - original PDF page 1
 
@@ -21,6 +33,8 @@ Coverage: Pinout image collected
 
 Original SparkFun Arduino Pro Mini model; voltage/clock variants kept separately. Does not establish clone compatibility. Original PDF page 1 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `c0b4b7025c2dab454531d1c402c81a9231cc75c47d5239165fea151e7ead6f93`
 
 ## Graphical board datasheet
@@ -34,6 +48,8 @@ SHA-256: `c0b4b7025c2dab454531d1c402c81a9231cc75c47d5239165fea151e7ead6f93`
 [Source 1](https://raw.githubusercontent.com/sparkfun/Arduino_Pro_Mini_328/bcf8de441f8ebe9e21377c4a0d12794670dc2551/Documentation/ProMini16MHzv2.pdf) · [Source 2](https://github.com/sparkfun/Arduino_Pro_Mini_328) · [Source 3](https://learn.sparkfun.com/tutorials/using-the-arduino-pro-mini-33v/all)
 
 Original SparkFun Arduino Pro Mini model; voltage/clock variants kept separately. Does not establish clone compatibility.
+
+Image revision: Not identified
 
 SHA-256: `c3fe44383961f745f7a826f96a7323f88fed4addd8ef39f5031c898e9d8a85e0`
 

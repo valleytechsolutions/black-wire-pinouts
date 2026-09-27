@@ -2,10 +2,22 @@
 
 **RAKwireless** · Other
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=rakwireless-other-rak4600-breakout-board)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.rakwireless.com/product-categories/wisduo/rak4600-breakout-board/datasheet/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## RAK4600 Breakout Board Pinout
 
@@ -13,13 +25,17 @@ Coverage: Pinout image collected
 
 [![RAK4600-Breakout-Board reference preview](../../../../library/thumbs/edea668ffb0303e05b4d8ffcaba84964781eec1e77615dc692dc4b5a760cd315.webp)](../../../../library/media/edea668ffb0303e05b4d8ffcaba84964781eec1e77615dc692dc4b5a760cd315.png)
 
-[Open original reference](../../../../library/media/edea668ffb0303e05b4d8ffcaba84964781eec1e77615dc692dc4b5a760cd315.png) · [Original vector](../../../../library/media/4cf9b9892c14c4195b995c1a7fcdf502378f1c506a65a1a33a5cd2bab0dbf3e9.svg)
+[Open original reference](../../../../library/media/edea668ffb0303e05b4d8ffcaba84964781eec1e77615dc692dc4b5a760cd315.png)
+
+[Original vector companion](../../../../library/media/4cf9b9892c14c4195b995c1a7fcdf502378f1c506a65a1a33a5cd2bab0dbf3e9.svg)
 
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: RAKwireless.
 
 [Source 1](https://raw.githubusercontent.com/RAKWireless/RAKwireless-docs/4361f2635b6e16c72a46167a208db87427106bef/docs/.vuepress/public/assets/images/wisduo/rak4600-breakout-board/datasheet/pin-definition/RAK4600 Breakout Board Pinout.svg) · [Source 2](https://docs.rakwireless.com/product-categories/wisduo/rak4600-breakout-board/datasheet/)
 
 Raster rendering of the original manufacturer SVG at 240 DPI, fitted within 3000 pixels. Original vector retained. Labels have not been redrawn. Physical PCB/module pads or named board connector. Module entries are radio PCBs, not bare IC package pinouts. Check model suffix and radio band.
+
+Image revision: Not identified
 
 SHA-256: `edea668ffb0303e05b4d8ffcaba84964781eec1e77615dc692dc4b5a760cd315`
 

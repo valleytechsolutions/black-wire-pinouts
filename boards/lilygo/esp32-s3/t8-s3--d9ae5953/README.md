@@ -2,10 +2,22 @@
 
 **LILYGO** · ESP32-S3
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lilygo-esp32-t8-s3)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.lilygo.cc/zh/products/t8-series/t8/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Board pin map
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://wiki.lilygo.cc/products/t8-series/t8/index/image/t8-pinout.jpg) · [Source 2](https://wiki.lilygo.cc/zh/products/t8-series/t8/)
 
 Manufacturer image preserved. Match the depicted board and revision before use. Source page name: T8. Saved model name follows the printed diagram.
+
+Image revision: Not identified
 
 SHA-256: `25894c85f16149d070cb1dba94d0c65e99431e8fd59b820334d047a0b109daf3`
 

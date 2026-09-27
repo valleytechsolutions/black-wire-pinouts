@@ -2,10 +2,22 @@
 
 **WeAct Studio** · Other
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Board labels only; pinout needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=weact-studio-other-stm32f4-64pin-core-board)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://github.com/WeActStudio/WeActStudio.STM32F4_64Pin_CoreBoard)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Board silkscreen and component labels
 
@@ -21,7 +33,7 @@ Coverage: Board labels only; pinout needed
 
 Original repository file preserved with commit identifier. Board illustration/silkscreen images are explicitly distinguished from expanded pin-function diagrams.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `98e0a7e8f22c15c46724d3a12586feac5510902662102c8c4912fba53c6e3e2c`
 
@@ -39,7 +51,7 @@ SHA-256: `98e0a7e8f22c15c46724d3a12586feac5510902662102c8c4912fba53c6e3e2c`
 
 Original repository file preserved with commit identifier. Board illustration/silkscreen images are explicitly distinguished from expanded pin-function diagrams.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `fbe366271c294b623413275ab28a8543d60fd256a40c9b8e1de1092680540d5e`
 

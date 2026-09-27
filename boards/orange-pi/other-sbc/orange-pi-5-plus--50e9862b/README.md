@@ -2,10 +2,22 @@
 
 **Orange Pi** · Other SBC
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=orange-pi-other-sbc-5-plus)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](http://www.orangepi.org/orangepiwiki/index.php/Orange_Pi_5_Plus)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## GPIO header pinout
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](http://www.orangepi.org/orangepiwiki/images/a/ac/Plus5-img302.png) · [Source 2](http://www.orangepi.org/orangepiwiki/index.php/Orange_Pi_5_Plus)
 
 40 Pin Expansion Interface Pin Instructions
+
+Image revision: Not identified
 
 SHA-256: `664b5607d364f0d55fb412612c373480fcba7ac2626da4518f20c1a3716ccb10`
 
@@ -37,6 +51,8 @@ SHA-256: `664b5607d364f0d55fb412612c373480fcba7ac2626da4518f20c1a3716ccb10`
 
 40 Pin Expansion Interface Pin Instructions
 
+Image revision: Not identified
+
 SHA-256: `b6d4c8074ebacbd9f4f89e5a8cd059e4d2ba11cd2a95f19429dcc83f9dad963f`
 
 ## GPIO header pinout
@@ -52,6 +68,8 @@ SHA-256: `b6d4c8074ebacbd9f4f89e5a8cd059e4d2ba11cd2a95f19429dcc83f9dad963f`
 [Source 1](http://www.orangepi.org/orangepiwiki/images/b/b3/Plus5-img305.png) · [Source 2](http://www.orangepi.org/orangepiwiki/index.php/Orange_Pi_5_Plus)
 
 40 Pin Expansion Interface Pin Instructions
+
+Image revision: Not identified
 
 SHA-256: `7b353510e64b82e3353497f751b6c0b84feddddf5f1e3a01d90b09d557b33e6b`
 
@@ -69,6 +87,8 @@ SHA-256: `7b353510e64b82e3353497f751b6c0b84feddddf5f1e3a01d90b09d557b33e6b`
 
 40 Pin Expansion Interface Pin Instructions
 
+Image revision: Not identified
+
 SHA-256: `f10160c8bbe18df73003ff262745d7329a463b309bd9bb3a9f75d47f44ecb639`
 
 ## GPIO pin-function reference SBCX-059
@@ -85,6 +105,8 @@ SHA-256: `f10160c8bbe18df73003ff262745d7329a463b309bd9bb3a9f75d47f44ecb639`
 
 40 Pin Expansion Interface Pin Instructions
 
+Image revision: Not identified
+
 SHA-256: `e194c25f926825c9a8dc566b22e73347ad76aed54b635fcec452406534733552`
 
 ## Header orientation and board labels
@@ -100,6 +122,8 @@ SHA-256: `e194c25f926825c9a8dc566b22e73347ad76aed54b635fcec452406534733552`
 [Source 1](http://www.orangepi.org/orangepiwiki/images/7/71/Plus5-img303.png) · [Source 2](http://www.orangepi.org/orangepiwiki/index.php/Orange_Pi_5_Plus)
 
 40 Pin Expansion Interface Pin Instructions
+
+Image revision: Not identified
 
 SHA-256: `7deffa8d9c959a3e39f6077ea7aff76fadee74dbd2a2f9cc8bf5c78cc56767fd`
 

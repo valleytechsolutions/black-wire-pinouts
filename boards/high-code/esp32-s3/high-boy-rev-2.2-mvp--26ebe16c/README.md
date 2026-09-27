@@ -2,12 +2,24 @@
 
 **High Code** · ESP32-S3
 
-Revision: REV 2.2 MVP; not final production  
+Revision: REV 2.2 MVP; not final production
+
 Coverage: Partial pinout collected; full reference still needed
 
 [Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=high-code-gpio-device-high-boy-rev-2-2-mvp)
 
 Device category: **Handhelds & pocket tools**
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## REV 2.2 prototype connector signal labels
 

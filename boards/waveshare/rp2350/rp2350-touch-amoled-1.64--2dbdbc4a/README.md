@@ -2,10 +2,22 @@
 
 **Waveshare** · RP2350
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=waveshare-rp2350-rp2350-touch-amoled-1-64)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://www.waveshare.com/rp2350-touch-amoled-1.64-m.htm)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://www.waveshare.com/img/devkit/RP2350-Touch-AMOLED-1.64-M/RP2350-Touch-AMOLED-1.64-M-details-intro.jpg) · [Source 2](https://www.waveshare.com/rp2350-touch-amoled-1.64-m.htm)
+
+
+
+Image revision: Not identified
 
 SHA-256: `cd3ef04dd3598e656c14ca6bc91ea93012445f910ebda3c82a5fca2120546204`
 
@@ -32,6 +48,10 @@ SHA-256: `cd3ef04dd3598e656c14ca6bc91ea93012445f910ebda3c82a5fca2120546204`
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://www.waveshare.com/w/upload/0/0a/RP2350-Touch-AMOLED-1.64-details-intro.jpg) · [Source 2](https://www.waveshare.com/wiki/RP2350-Touch-AMOLED-1.64)
+
+
+
+Image revision: Not identified
 
 SHA-256: `a628cd31e1f3b3b38d411d896501fd085b678ac94090a15f0a3f93b2caf22e50`
 
@@ -48,6 +68,8 @@ SHA-256: `a628cd31e1f3b3b38d411d896501fd085b678ac94090a15f0a3f93b2caf22e50`
 [Source 1](https://cdn.static.spotpear.com/uploads/picture/product/raspberry-pi/rpi-pico-expansion/RP2350-Touch-AMOLED-1.64/RP2350-Touch-AMOLED-1.64-details-09-EN.jpg) · [Source 2](https://spotpear.com/shop/Raspberry-Pi-Pico-2-RP2350-1.64-inch-AMOLED-280x456-Display-TouchScreen-QMI8658-QSPI.html)
 
 Source image saved from Spotpear. Manufacturer matched using visible branding, model and existing manufacturer documentation.
+
+Image revision: Not identified
 
 SHA-256: `fbd53bf5b4d4f67bbf4a9ee1e2a17388579e3f0c7c238532de501e2a6cf9b8c3`
 

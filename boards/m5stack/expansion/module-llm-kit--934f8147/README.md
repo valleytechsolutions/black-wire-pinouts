@@ -2,10 +2,22 @@
 
 **M5Stack** · Expansion
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=m5stack-expansion-module-llm-kit)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.m5stack.com/en/module/Module%20LLM%20Kit)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/products/module/Module%20LLM/03.jpg) · [Source 2](https://docs.m5stack.com/en/module/Module%20LLM%20Kit)
 
 Imported from existing M5Stack Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `6bdb99d8d30cd11f5acb0e249c72af7a88e247753e048377fc58df8d6d1993bb`
 
@@ -36,6 +50,8 @@ SHA-256: `6bdb99d8d30cd11f5acb0e249c72af7a88e247753e048377fc58df8d6d1993bb`
 [Source 1](https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1131/K144_Module13.2_LLM_Mate_page_01.png) · [Source 2](https://docs.m5stack.com/en/module/Module%20LLM%20Kit)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `d27619141d9e7e3da852a970317fa6da0fb1a90130e072ba76d47b04a4a961c5`
 

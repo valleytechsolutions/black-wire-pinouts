@@ -2,10 +2,22 @@
 
 **Espressif** · ESP32-S2
 
-Revision: 1MI module layout shown  
+Revision: 1MI module layout shown
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=espressif-esp32-esp32-s2-saola-1mi)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout - Renzo Mischianti
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://mischianti.org/wp-content/uploads/2020/11/ESP32-S2-Saola-1MI-pinout-mischianti-low.jpg) · [Source 2](https://mischianti.org/esp32-s2-saola-1mi-1m-high-resolution-pinout-and-specs/)
 
 Original public image by Renzo Mischianti, unchanged. Diagram/model matching is visual, not electrical verification. Exact PCB layout and revision must match; no inference of compatibility with lookalike marketplace clones.
+
+Image revision: 1MI module layout shown
 
 SHA-256: `6007f74f3d33251589617ffbfdfac8431cf9fbae47dd0de977c04d5502ecdf27`
 

@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Expansion
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Board labels only; pinout needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-expansion-xiao-powerbread)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://www.seeedstudio.com/XIAO-PowerBread-p-6318.html)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -20,6 +32,8 @@ Coverage: Board labels only; pinout needed
 [Source 1](https://raw.githubusercontent.com/nicho810/XIAO-PowerBread/main/Docs/Images/pic_overview.webp) · [Source 2](https://github.com/nicho810/XIAO-PowerBread (linked from the Seeed product page's "Wiki & Learn" tab / official designer repo))
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `91ec0aed09d7ac29a5f52321f4682dc1cdbbf2cdf911b1de6dbb1d818afcdd6a`
 
@@ -37,6 +51,8 @@ SHA-256: `91ec0aed09d7ac29a5f52321f4682dc1cdbbf2cdf911b1de6dbb1d818afcdd6a`
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `456e69d514671cd01f5a3d120eea47d2dcf19ac2f3c7f7c6cc3ca84423ffcd06`
 
 ## Hardware Overview
@@ -52,6 +68,8 @@ SHA-256: `456e69d514671cd01f5a3d120eea47d2dcf19ac2f3c7f7c6cc3ca84423ffcd06`
 [Source 1](https://raw.githubusercontent.com/nicho810/XIAO-PowerBread/main/Docs/Images/pic_hardwareSpec.webp) · [Source 2](https://github.com/nicho810/XIAO-PowerBread (linked from the Seeed product page's "Wiki & Learn" tab / official designer repo))
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `3f89840ec31f20a40475e1f2c023969634fd3554f6f41086d3b1a6dd86366623`
 

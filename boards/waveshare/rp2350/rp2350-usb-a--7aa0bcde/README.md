@@ -2,10 +2,22 @@
 
 **Waveshare** · RP2350
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=waveshare-rp2350-rp2350-usb-a)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://www.waveshare.com/rp2350-usb-a.htm)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://www.waveshare.com/img/devkit/RP2350-USB-A/RP2350-USB-A-details-6.jpg) · [Source 2](https://www.waveshare.com/rp2350-usb-a.htm)
+
+
+
+Image revision: Not identified
 
 SHA-256: `8cc6bd5e7f26c72405e3881c612a61db6a48694ae15a148c82dc45f86693bb13`
 
@@ -32,6 +48,10 @@ SHA-256: `8cc6bd5e7f26c72405e3881c612a61db6a48694ae15a148c82dc45f86693bb13`
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://www.waveshare.com/w/upload/6/64/680px-RP2350-USB-A-details-6.jpg) · [Source 2](https://www.waveshare.com/wiki/RP2350-USB-A)
+
+
+
+Image revision: Not identified
 
 SHA-256: `79f7091a88fece9291c44c5cb2b593874d6bb7ebf6662e971063bb0ba2005f04`
 

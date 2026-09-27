@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-be7cc52b09843da466)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/BeagleBone_Green/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Dimensions 2
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/BeagleBone_Green/images/BBG_drawing_2.png) · [Source 2](https://wiki.seeedstudio.com/BeagleBone_Green/)
 
 Original source index: Dimensions 2. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `d93cafce3ddb49696559ff04059bf4a4974201b129fb4d6ae8568830b2e84f2d`
 
@@ -37,6 +51,8 @@ SHA-256: `d93cafce3ddb49696559ff04059bf4a4974201b129fb4d6ae8568830b2e84f2d`
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `322744c216459c97e008c244640a1668c9cd23a40200d6a115b5db1fca4e1d90`
 
 ## Hardware Overview
@@ -52,6 +68,8 @@ SHA-256: `322744c216459c97e008c244640a1668c9cd23a40200d6a115b5db1fca4e1d90`
 [Source 1](https://files.seeedstudio.com/wiki/BeagleBone_Green/images/10201002703.jpg) · [Source 2](https://wiki.seeedstudio.com/BeagleBone_Green/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `2fd3dad96b6a85af82f4513d5b4cb24ae3523c214d39f0c520302d0339bcd7aa`
 
@@ -69,6 +87,8 @@ SHA-256: `2fd3dad96b6a85af82f4513d5b4cb24ae3523c214d39f0c520302d0339bcd7aa`
 
 Original source index: Pin Multiplexing (Analog). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `de3335d8f13cf69bac8c4d9286b52f46a57973aeec6c54235ebdfb0a87040467`
 
 ## Pin Multiplexing (GPIO)
@@ -84,6 +104,8 @@ SHA-256: `de3335d8f13cf69bac8c4d9286b52f46a57973aeec6c54235ebdfb0a87040467`
 [Source 1](https://files.seeedstudio.com/wiki/BeagleBone_Green/images/PINMAP_IO.png) · [Source 2](https://wiki.seeedstudio.com/BeagleBone_Green/)
 
 Original source index: Pin Multiplexing (GPIO). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `e2019ee0c971838dfb5c2fe77605a4ef254e66472cefcd7f3ed54fefbdcfeb85`
 
@@ -101,6 +123,8 @@ SHA-256: `e2019ee0c971838dfb5c2fe77605a4ef254e66472cefcd7f3ed54fefbdcfeb85`
 
 Original source index: Pin Multiplexing (I2C). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `9061a2a53f486724614c516a89a2cb781c8c30ced95d140bc2d305b5f3ced690`
 
 ## Pin Multiplexing (PWM-Timer)
@@ -116,6 +140,8 @@ SHA-256: `9061a2a53f486724614c516a89a2cb781c8c30ced95d140bc2d305b5f3ced690`
 [Source 1](https://files.seeedstudio.com/wiki/BeagleBone_Green/images/PINMAP_TIMER.png) · [Source 2](https://wiki.seeedstudio.com/BeagleBone_Green/)
 
 Original source index: Pin Multiplexing (PWM-Timer). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `2d7496af4425279d7b4470a4c76b5fe6f8f1218df6bb210b6fe06d1d51b4bacc`
 
@@ -133,6 +159,8 @@ SHA-256: `2d7496af4425279d7b4470a4c76b5fe6f8f1218df6bb210b6fe06d1d51b4bacc`
 
 Original source index: Pin Multiplexing (SPI). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `db5396c623e74c9fdbfdfeb7101249ce8b83c3e4befa570d029b26ea423a0a1c`
 
 ## Pin Multiplexing (UART)
@@ -148,6 +176,8 @@ SHA-256: `db5396c623e74c9fdbfdfeb7101249ce8b83c3e4befa570d029b26ea423a0a1c`
 [Source 1](https://files.seeedstudio.com/wiki/BeagleBone_Green/images/PINMAP_UART.png) · [Source 2](https://wiki.seeedstudio.com/BeagleBone_Green/)
 
 Original source index: Pin Multiplexing (UART). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `6296f700630038d15f9f9357d29eca75ed9c10ee65e6f0c8da6d9c43fc4b2c2f`
 

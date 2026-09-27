@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Expansion
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-expansion-expansion-board-base-for-xiao)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/Seeeduino-XIAO-Expansion-Board/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://files.seeedstudio.com/wiki/Seeeduino-XIAO-Expansion-Board/Update_pic/pinpinpin4.jpg) · [Source 2](https://wiki.seeedstudio.com/Seeeduino-XIAO-Expansion-Board/)
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `daa59ba0e33be1629b30893f0e2302899bcf44897f76bf35cfaae3ba18567d2a`
 
@@ -37,6 +51,8 @@ SHA-256: `daa59ba0e33be1629b30893f0e2302899bcf44897f76bf35cfaae3ba18567d2a`
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `b035a907cbe8dc7928b0dc2dd7b0b79801a590a18b68484bf58a8a4407ac172c`
 
 ## Hardware Overview (Back)
@@ -52,6 +68,8 @@ SHA-256: `b035a907cbe8dc7928b0dc2dd7b0b79801a590a18b68484bf58a8a4407ac172c`
 [Source 1](https://files.seeedstudio.com/wiki/Seeeduino-XIAO-Expansion-Board/1111111111111111111111110.jpg) · [Source 2](https://wiki.seeedstudio.com/Seeeduino-XIAO-Expansion-Board/)
 
 Original source index: Hardware Overview (Back). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `1f8adb0a0a6027fecc22ce9be46ca2661848d805b95ab96dcef206c4d29ef67d`
 
@@ -69,6 +87,8 @@ SHA-256: `1f8adb0a0a6027fecc22ce9be46ca2661848d805b95ab96dcef206c4d29ef67d`
 
 Original source index: Hardware Overview (Front). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `2fb2b2c6ce7f51f89104f30d2a5ff849c139443c3fd16d93413cd6e57165a1fd`
 
 ## Hardware Overview
@@ -84,6 +104,8 @@ SHA-256: `2fb2b2c6ce7f51f89104f30d2a5ff849c139443c3fd16d93413cd6e57165a1fd`
 [Source 1](https://files.seeedstudio.com/wiki/wiki-ranger/Contributions/C3-ESPHome-full_function/29.png) · [Source 2](https://wiki.seeedstudio.com/XIAO-nRF52840-Zephyr-RTOS/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `c5bd3092f3e65fc02c820ad4e99c85368a1d7ee8accd5f137c86676ec3e82569`
 

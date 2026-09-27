@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Expansion
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Board labels only; pinout needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-expansion-lte-cat-1-pi-hat)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/LTE_Cat_1_Pi_HAT/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -20,6 +32,8 @@ Coverage: Board labels only; pinout needed
 [Source 1](https://files.seeedstudio.com/wiki/LTE_Cat_1_Pi_HAT/Img/pinout.jpg) · [Source 2](https://wiki.seeedstudio.com/LTE_Cat_1_Pi_HAT/)
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `60b951b23b11de46f476066fb30cbe649660d99e9976ce0445cf83dd7902c4dc`
 
@@ -37,6 +51,8 @@ SHA-256: `60b951b23b11de46f476066fb30cbe649660d99e9976ce0445cf83dd7902c4dc`
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `b0d5bf249b71f09fb2e90a62f2eeede60f5f2b15b60955a58f62129eda1c8c36`
 
 ## Hardware Overview (Back)
@@ -53,6 +69,8 @@ SHA-256: `b0d5bf249b71f09fb2e90a62f2eeede60f5f2b15b60955a58f62129eda1c8c36`
 
 Original source index: Hardware Overview (Back). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `e69c6eeb5d7df432b09d96b4fab4ff2aa27cfd1e6e764deaecffff254b3e8cc9`
 
 ## Hardware Overview (Front)
@@ -68,6 +86,8 @@ SHA-256: `e69c6eeb5d7df432b09d96b4fab4ff2aa27cfd1e6e764deaecffff254b3e8cc9`
 [Source 1](https://files.seeedstudio.com/wiki/LTE_Cat_1_Pi_HAT/Img/interfaces1.png) · [Source 2](https://wiki.seeedstudio.com/LTE_Cat_1_Pi_HAT/)
 
 Original source index: Hardware Overview (Front). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `d945de6ca9a8393fe75d3f4a7a1b3796c886ccb9822d15cc83425f6de519bdc2`
 

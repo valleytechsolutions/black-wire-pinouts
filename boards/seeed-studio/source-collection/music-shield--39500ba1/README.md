@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-f780c4169c6a1a8fb7)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/Music_Shield/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Hardware Overview 2
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/Music_Shield/img/Musicshield_01.jpg) · [Source 2](https://wiki.seeedstudio.com/Music_Shield/)
 
 Original source index: Hardware Overview 2. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `c305caaafd6522145baf8892e3ea5d56927376c1eb737fa60b87e63531919e86`
 
@@ -36,6 +50,8 @@ SHA-256: `c305caaafd6522145baf8892e3ea5d56927376c1eb737fa60b87e63531919e86`
 [Source 1](https://files.seeedstudio.com/wiki/Music_Shield/img/Music1s_04.jpg) · [Source 2](https://wiki.seeedstudio.com/Music_Shield/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `f8ef53413cfcf99f35a786aed6e69ae23962fe9f47048728b1662f6a975ddab0`
 

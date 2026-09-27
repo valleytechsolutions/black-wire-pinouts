@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-f4f10eb1386711951c)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pin Definition Table (DB9 RS232-RS422-RS485)
 
@@ -17,7 +29,11 @@ Coverage: Source collection; review pending
 
 **Credit and rights:** Source rights not yet established. Source/manufacturer: Seeed Studio.
 
+
+
 Original source index: Pin Definition Table (DB9 RS232-RS422-RS485). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `47113be38d8fe05f4f8e4861086d0ec3f0a2eaa9240371adf19db19a380cbaa4`
 
@@ -31,7 +47,11 @@ SHA-256: `47113be38d8fe05f4f8e4861086d0ec3f0a2eaa9240371adf19db19a380cbaa4`
 
 **Credit and rights:** Source rights not yet established. Source/manufacturer: Seeed Studio.
 
+
+
 Original source index: Pin Definition Table (RS-485 Connector). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `bcdcd9936ea1246fe6134512ddce2d75f4b88959874f547df101d7e7ef7e2f9b`
 

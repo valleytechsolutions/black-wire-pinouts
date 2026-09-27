@@ -2,10 +2,22 @@
 
 **Seeed Studio** · RP2040
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-rp2040-xiao-rp2040)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/XIAO-RP2040/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout (Back)
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Seeed Studio.
 
 [Source 1](https://files.seeedstudio.com/wiki/XIAO-RP2040/img/XIAO_RP2040_back_pinout.png) · [Source 2](https://wiki.seeedstudio.com/XIAO-RP2040/)
+
+
+
+Image revision: Not identified
 
 SHA-256: `49fdd97bfe3d13f0d1bb3c7daceefb54a65302670879b8e6f18f3677b68a1bb2`
 
@@ -33,6 +49,10 @@ SHA-256: `49fdd97bfe3d13f0d1bb3c7daceefb54a65302670879b8e6f18f3677b68a1bb2`
 
 [Source 1](https://files.seeedstudio.com/wiki/XIAO-RP2040/img/xinpin.jpg) · [Source 2](https://wiki.seeedstudio.com/XIAO-RP2040-Zephyr-RTOS/)
 
+
+
+Image revision: Not identified
+
 SHA-256: `e136526faa27c571c058a40ab6168a85ef0300c41f28184b81e1c638d0fd47c8`
 
 ## Pinout (Front)
@@ -46,6 +66,10 @@ SHA-256: `e136526faa27c571c058a40ab6168a85ef0300c41f28184b81e1c638d0fd47c8`
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Seeed Studio.
 
 [Source 1](https://files.seeedstudio.com/wiki/XIAO-RP2040/img/XIAO_RP2040_front_pinout.png) · [Source 2](https://wiki.seeedstudio.com/XIAO-RP2040/)
+
+
+
+Image revision: Not identified
 
 SHA-256: `03264c36771c5245fcf621393dae662e745e14a8e6737becc00bd4cd6de3f405`
 
@@ -63,6 +87,8 @@ SHA-256: `03264c36771c5245fcf621393dae662e745e14a8e6737becc00bd4cd6de3f405`
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `e28e751449ecb3673d22256bbbea988565e9ab102c1f4d8ea54ae93167c033fd`
 
 ## Pinout Sheet
@@ -76,6 +102,8 @@ SHA-256: `e28e751449ecb3673d22256bbbea988565e9ab102c1f4d8ea54ae93167c033fd`
 [Source 1](https://files.seeedstudio.com/wiki/XIAO-RP2040/res/XIAO-RP2040-pinout_sheet.xlsx) · [Source 2](https://wiki.seeedstudio.com/XIAO-RP2040/)
 
 Original source index: Pinout Sheet. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `223c9aa622f1799e4d57e9a9a02b525366699402f44edc71c41bf12fd49de8e9`
 

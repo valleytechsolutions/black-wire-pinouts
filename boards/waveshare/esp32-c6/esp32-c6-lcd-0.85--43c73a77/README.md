@@ -2,10 +2,22 @@
 
 **Waveshare** · ESP32-C6
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: GPIO reference collected; physical pinout needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=waveshare-esp32-esp32-c6-lcd-0-85)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.waveshare.com/ESP32-C6-LCD-0.85)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## GPIO peripheral assignments
 
@@ -21,7 +33,7 @@ Coverage: GPIO reference collected; physical pinout needed
 
 Official reference image. This is useful for board peripherals but must not be treated as a physical header/pad pinout. Board remains in the pinout research queue.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `c9f6f0c0b47430d3ce3f7fd693729c2fdb42bd01dda32b02a79e90daba603f7c`
 

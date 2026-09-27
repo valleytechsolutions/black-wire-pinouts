@@ -2,10 +2,22 @@
 
 **Wemos** · ESP32-C3
 
-Revision: v1.0  
+Revision: v1.0
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=wemos-esp32-lolin-c3-mini-v1-0)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout - Renzo Mischianti
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://mischianti.org/wp-content/uploads/2023/04/WeMos-LOLIN-ESP32-C3-mini-v10-pinout-low.jpg) · [Source 2](https://mischianti.org/wemos-lolin-esp32-c3-mini-v1-0-high-resolution-pinout-and-specs/)
 
 Original public image by Renzo Mischianti, unchanged. Diagram/model matching is visual, not electrical verification. Exact PCB layout and revision must match; no inference of compatibility with lookalike marketplace clones.
+
+Image revision: v1.0
 
 SHA-256: `809f465475509765a385ad5b1feaedbd807e6e62e56dd1b6ddc40a213d0b77b9`
 

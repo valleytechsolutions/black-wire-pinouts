@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-6ee8ce359d809bce59)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/Mini_GSM_GPRS_GPS_Breakout_SIM808/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Mini GSM-GPRS + GPS Breakout - Hardware Overview
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/Mini-GSM-GPRS-GPS-Breakout-SIM808/img/Lonet_pcb_top.jpg) · [Source 2](https://wiki.seeedstudio.com/Mini_GSM_GPRS_GPS_Breakout_SIM808/)
 
 Original source index: Mini GSM-GPRS + GPS Breakout - Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `2e2ecedde360e4033b45da7862af8367122e20c8de79227dedbc8459cf11a533`
 
@@ -36,6 +50,8 @@ SHA-256: `2e2ecedde360e4033b45da7862af8367122e20c8de79227dedbc8459cf11a533`
 [Source 1](https://files.seeedstudio.com/wiki/LoNet_808-Mini_GSM_GPRS_Plus_GPS_Breakout/img/Mappings-01.png) · [Source 2](https://wiki.seeedstudio.com/LoNet_808-Mini_GSM_GPRS_Plus_GPS_Breakout/)
 
 Original source index: Mini GSM-GPRS + GPS Breakout - Interfaces. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `7c75ef59d14149d0be68bd2c6fe8f632e4c9b71e0592a6792b6b4665aacd0540`
 

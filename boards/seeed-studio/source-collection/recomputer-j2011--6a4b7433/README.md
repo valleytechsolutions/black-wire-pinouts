@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-158f8749acec6e9ad7)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/reComputer_Jetson_Series_Hardware_Layout/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Hardware Overview (Back)
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/recomputer-Jetson-20-1-H1/Jetsonh02carriedboards.jpg) · [Source 2](https://wiki.seeedstudio.com/reComputer_Jetson_Series_Hardware_Layout/)
 
 Original source index: Hardware Overview (Back). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `3287a3fe333dd75f3c263c6a3993ebdb90d21a27b44e82616dbf17584d8eb25e`
 
@@ -37,6 +51,8 @@ SHA-256: `3287a3fe333dd75f3c263c6a3993ebdb90d21a27b44e82616dbf17584d8eb25e`
 
 Original source index: Hardware Overview (Front). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `5b0844ef899ebd582173996010b637ce54d3344e7b64fdfdce401216bd09c301`
 
 ## Pin Definition
@@ -47,7 +63,11 @@ SHA-256: `5b0844ef899ebd582173996010b637ce54d3344e7b64fdfdce401216bd09c301`
 
 **Credit and rights:** Source rights not yet established. Source/manufacturer: Seeed Studio.
 
+
+
 Original source index: Pin Definition. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `b8319b3bb9e31b6146dfd8f60d91364883df57cf07914d35fcac7d7896e8d1c4`
 

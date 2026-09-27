@@ -2,10 +2,22 @@
 
 **LILYGO** · Expansion
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Partial pinout collected; full reference still needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lilygo-expansion-t-u2t)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## image4
 
@@ -21,7 +33,7 @@ Coverage: Partial pinout collected; full reference still needed
 
 UART adapter orientation and board-to-adapter TX/RX/GND mapping; source warns the adapter TX/RX connection changed. Follow the pictured hardware orientation.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `14ac4b37f22a38ba802e7ac7bdcd618163d44853ee79eef4c913f0bba04fe023`
 
@@ -39,7 +51,7 @@ SHA-256: `14ac4b37f22a38ba802e7ac7bdcd618163d44853ee79eef4c913f0bba04fe023`
 
 UART adapter orientation and board-to-adapter TX/RX/GND mapping; source warns the adapter TX/RX connection changed. Follow the pictured hardware orientation.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `9d44341ec992ae0de39122422dc272d31bc3025977f19681756173ab5f1db427`
 

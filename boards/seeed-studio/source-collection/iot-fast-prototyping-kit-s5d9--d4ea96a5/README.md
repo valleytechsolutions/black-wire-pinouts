@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-8b56d9293a7661b819)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/IoT_Fast_Prototyping_Kit_S5D9/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Block Diagram 2
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/IoT_Fast_Prototyping_Kit_S5D9_User_Manual/img/Figure%203.1.png) · [Source 2](https://wiki.seeedstudio.com/IoT_Fast_Prototyping_Kit_S5D9/)
 
 Original source index: Block Diagram 2. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `857c37a87bcf125e48eab32d8d433b97895706697d4507eeb048d5737199abb6`
 
@@ -37,6 +51,8 @@ SHA-256: `857c37a87bcf125e48eab32d8d433b97895706697d4507eeb048d5737199abb6`
 
 Original source index: Block Diagram. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `9af22ab6314097748f36adaed00f8848300f2cd4a28e3180a03874bba330c298`
 
 ## Hardware Overview
@@ -52,6 +68,8 @@ SHA-256: `9af22ab6314097748f36adaed00f8848300f2cd4a28e3180a03874bba330c298`
 [Source 1](https://files.seeedstudio.com/wiki/IoT_Fast_Prototyping_Kit_S5D9_User_Manual/img/Block%20Diagram.png) · [Source 2](https://wiki.seeedstudio.com/IoT_Fast_Prototyping_Kit_S5D9/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `09194ae745c25b809c5e321cff0a934344e005d1ca6c2bbfffef24f1f448eed9`
 
@@ -69,6 +87,8 @@ SHA-256: `09194ae745c25b809c5e321cff0a934344e005d1ca6c2bbfffef24f1f448eed9`
 
 Original source index: Pin Definition (Grove Connectors). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `4620ff791baed9233b885c452899bf220b7378e0db06703188c83d7cb21ed123`
 
 ## Pin Definition (JTAG Connector J1)
@@ -84,6 +104,8 @@ SHA-256: `4620ff791baed9233b885c452899bf220b7378e0db06703188c83d7cb21ed123`
 [Source 1](https://files.seeedstudio.com/wiki/IoT_Fast_Prototyping_Kit_S5D9_User_Manual/img/JTAG%20probe%20interface%20connections.png) · [Source 2](https://wiki.seeedstudio.com/IoT_Fast_Prototyping_Kit_S5D9/)
 
 Original source index: Pin Definition (JTAG Connector J1). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `4851a02b45cb8acc26c79776a07aaa51333c06114018295a269a6a2216add421`
 
@@ -101,6 +123,8 @@ SHA-256: `4851a02b45cb8acc26c79776a07aaa51333c06114018295a269a6a2216add421`
 
 Original source index: Pin Definition (PMOD Connector). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `33d9a0d495bcd502218ebaab327e5aa1bb20297fd2404cc4c285ddc75c228460`
 
 ## Pin Definition Table
@@ -117,6 +141,8 @@ SHA-256: `33d9a0d495bcd502218ebaab327e5aa1bb20297fd2404cc4c285ddc75c228460`
 
 Original source index: Pin Definition Table. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `d7c78ce787aef8b34bf689fa6e1f216af8d4cb67bfef8ba437e4a93b4d8382ef`
 
 ## Pin Functions (LEDs)
@@ -132,6 +158,8 @@ SHA-256: `d7c78ce787aef8b34bf689fa6e1f216af8d4cb67bfef8ba437e4a93b4d8382ef`
 [Source 1](https://files.seeedstudio.com/wiki/IoT_Fast_Prototyping_Kit_S5D9_User_Manual/img/Mapping%20between%20LEDs%2C%20ports.png) · [Source 2](https://wiki.seeedstudio.com/IoT_Fast_Prototyping_Kit_S5D9/)
 
 Original source index: Pin Functions (LEDs). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `73b1d18307d91b7efd1fa67437231e714f26e8d6b227149b3433bea8fa44d8d0`
 

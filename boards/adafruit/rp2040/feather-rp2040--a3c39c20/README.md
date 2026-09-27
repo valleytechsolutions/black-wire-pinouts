@@ -2,10 +2,22 @@
 
 **Adafruit** · RP2040
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=adafruit-rp2040-feather-rp2040)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://learn.adafruit.com/adafruit-feather-rp2040-pico/pinouts)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout reference - PDF page 1
 
@@ -21,6 +33,8 @@ Coverage: Pinout image collected
 
  Original PDF page 1 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `3e5660833fe5a0d4773c3d430c28ea87e4c186f11b5323f572860a6e9cc94e22`
 
 ## Manufacturer pinout PDF
@@ -32,6 +46,10 @@ SHA-256: `3e5660833fe5a0d4773c3d430c28ea87e4c186f11b5323f572860a6e9cc94e22`
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Adafruit.
 
 [Source 1](https://raw.githubusercontent.com/adafruit/Adafruit-Feather-RP2040-PCB/main/Adafruit Feather RP2040 pinout.pdf) · [Source 2](https://learn.adafruit.com/adafruit-feather-rp2040-pico/pinouts)
+
+
+
+Image revision: Not identified
 
 SHA-256: `e10a2a8c12d489d76631fa72abbc53914a1e2560ac2c23835b462261baa059ea`
 

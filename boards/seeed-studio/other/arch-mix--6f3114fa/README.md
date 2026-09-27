@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Other
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-other-arch-mix)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/Arch_Mix/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://files.seeedstudio.com/wiki/Arch_Mix/img/pinout.png) · [Source 2](https://wiki.seeedstudio.com/Arch_Mix/)
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `d61122e78d08e0b8be5316546f322153c4d2e2cc3288e87c7b60c2f35cdd05a0`
 
@@ -37,6 +51,8 @@ SHA-256: `d61122e78d08e0b8be5316546f322153c4d2e2cc3288e87c7b60c2f35cdd05a0`
 
 Original source index: Block Diagram. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `a5d79884b925a5b55245ac4a25e9fe51f0fe73eafce9c3683fb130b90e2fdffb`
 
 ## Dimensions
@@ -50,6 +66,8 @@ SHA-256: `a5d79884b925a5b55245ac4a25e9fe51f0fe73eafce9c3683fb130b90e2fdffb`
 [Source 1](https://files.seeedstudio.com/wiki/Arch_Mix/res/ARCH%20MIX_V1.0_Dimension.pdf) · [Source 2](https://wiki.seeedstudio.com/Arch_Mix/)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `9613246ab8c3e8f423e8fdbfc9fac80f76164ae612804030062e76ed1c1c767b`
 
@@ -67,6 +85,8 @@ SHA-256: `9613246ab8c3e8f423e8fdbfc9fac80f76164ae612804030062e76ed1c1c767b`
 
 Original source index: Hardware Overview (Back). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `97def91c2f4d61092a29bb169161a62152841311ceb536aeb0882a0e6e7a9e73`
 
 ## Hardware Overview (Front)
@@ -83,6 +103,8 @@ SHA-256: `97def91c2f4d61092a29bb169161a62152841311ceb536aeb0882a0e6e7a9e73`
 
 Original source index: Hardware Overview (Front). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `2a51e474cd69fd89b32f9336f54e9348ebabbb47aa7e8a097960c7d862d898d9`
 
 ## Pinout Sheet
@@ -96,6 +118,8 @@ SHA-256: `2a51e474cd69fd89b32f9336f54e9348ebabbb47aa7e8a097960c7d862d898d9`
 [Source 1](https://files.seeedstudio.com/wiki/Arch_Mix/res/Arch%20Mix_v1.0_Pin.xlsx) · [Source 2](https://wiki.seeedstudio.com/Arch_Mix/)
 
 Original source index: Pinout Sheet. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `19d853459448e0ec1a39319d682e6f8c80b7841f694d6acb6811d2bc4448f3d6`
 

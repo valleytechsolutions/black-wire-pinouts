@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-d6c8ce7a020faa7bcc)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/recomputer_mini_j401_getting_started/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Hardware Overview (Bottom)
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/reComputer-Jetson/mini/B2.png) · [Source 2](https://wiki.seeedstudio.com/recomputer_mini_j401_getting_started/)
 
 Original source index: Hardware Overview (Bottom). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `781b7ea5f302212b6af48e890c619b27fd9a5e1384ddd75d515b69866f693b39`
 
@@ -37,6 +51,8 @@ SHA-256: `781b7ea5f302212b6af48e890c619b27fd9a5e1384ddd75d515b69866f693b39`
 
 Original source index: Hardware Overview (Enclosure). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `d2691730f8678665b8c1534530b883a3e64494f3fc942f072aa2be317b7a3654`
 
 ## Hardware Overview (Extension Bottom)
@@ -52,6 +68,8 @@ SHA-256: `d2691730f8678665b8c1534530b883a3e64494f3fc942f072aa2be317b7a3654`
 [Source 1](https://files.seeedstudio.com/wiki/reComputer-Jetson/mini/B4.png) · [Source 2](https://wiki.seeedstudio.com/recomputer_mini_j401_getting_started/)
 
 Original source index: Hardware Overview (Extension Bottom). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `f915070b695894c490af5bbe8c22714cf596bdedf79002af200c65c4e5f835fc`
 
@@ -69,6 +87,8 @@ SHA-256: `f915070b695894c490af5bbe8c22714cf596bdedf79002af200c65c4e5f835fc`
 
 Original source index: Hardware Overview (Extension Front). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `237e24372d768e07f0aaf7532e08d77d3bbf59dae9d13f32a939d8c504365dfb`
 
 ## Hardware Overview (Front)
@@ -84,6 +104,8 @@ SHA-256: `237e24372d768e07f0aaf7532e08d77d3bbf59dae9d13f32a939d8c504365dfb`
 [Source 1](https://files.seeedstudio.com/wiki/reComputer-Jetson/mini/B1.png) · [Source 2](https://wiki.seeedstudio.com/recomputer_mini_j401_getting_started/)
 
 Original source index: Hardware Overview (Front). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `fe6d630bd3b7cda27e63d075316c30c6c7632cb9ef508957bb6acfa3e2232d7b`
 

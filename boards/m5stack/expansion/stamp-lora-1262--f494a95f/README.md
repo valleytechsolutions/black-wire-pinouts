@@ -2,10 +2,22 @@
 
 **M5Stack** · Expansion
 
-Revision: LoRa-1262 original variant shown  
+Revision: LoRa-1262 original variant shown
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=m5stack-expansion-stamp-lora-1262)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.m5stack.com/en/stamp/Stamp_LoRa-1262)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1279/S014-pinmap.jpg) · [Source 2](https://docs.m5stack.com/en/stamp/Stamp_LoRa-1262)
 
 Imported from existing M5Stack Board Reference; original working path preserved.
+
+Image revision: LoRa-1262 original variant shown
 
 SHA-256: `1af7ac83d9336bb2f35bb410f4280a8b22d502613d6eac729eeb041eb7730165`
 
@@ -37,6 +51,8 @@ SHA-256: `1af7ac83d9336bb2f35bb410f4280a8b22d502613d6eac729eeb041eb7730165`
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `45e5bf0960db2334d10f14dd2a1bb1e17531bdc49ddac18688970b6ab489ba85`
 
 ## Dimensions
@@ -53,6 +69,8 @@ SHA-256: `45e5bf0960db2334d10f14dd2a1bb1e17531bdc49ddac18688970b6ab489ba85`
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `16c7b3463dae6256bdbf5ca33f51b99c28c9ab0f656745a751235cda4affa30e`
 
 ## Dimensions
@@ -68,6 +86,8 @@ SHA-256: `16c7b3463dae6256bdbf5ca33f51b99c28c9ab0f656745a751235cda4affa30e`
 [Source 1](https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1279/S014_Stamp_LoRa-1262_model_size_page_01.png) · [Source 2](https://docs.m5stack.com/en/stamp/Stamp_LoRa-1262)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `63079d2198867802045d8b25ab4ea08897b8e4357f63056a2f9c874a5f2eb5a7`
 

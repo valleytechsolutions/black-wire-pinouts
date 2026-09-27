@@ -2,10 +2,22 @@
 
 **Arduino** · Other
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=arduino-other-nicla-voice)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.arduino.cc/hardware/nicla-voice/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## nicla-voice-pinout
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nicla/boards/nicla-voice/tutorials/user-manual/assets/nicla-voice-pinout.png) · [Source 2](https://docs.arduino.cc/hardware/nicla-voice/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nicla/boards/nicla-voice/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nicla/boards/nicla-voice/tutorials/user-manual/assets/nicla-voice-pinout.png)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement.
+
+Image revision: Not identified
 
 SHA-256: `57312121d512280e745c2ddc7fb8f6e0902586cad7b5ac1dc49444755913b90a`
 
@@ -37,6 +51,8 @@ SHA-256: `57312121d512280e745c2ddc7fb8f6e0902586cad7b5ac1dc49444755913b90a`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 1 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `1b740abf1bf0b8493627ba3cc109263401515122592f2f3b6c3d57060b28045f`
 
 ## Official full pinout - page 2
@@ -52,6 +68,8 @@ SHA-256: `1b740abf1bf0b8493627ba3cc109263401515122592f2f3b6c3d57060b28045f`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nicla/boards/nicla-voice/downloads/ABX00061-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/nicla-voice/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nicla/boards/nicla-voice/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nicla/boards/nicla-voice/downloads/ABX00061-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 2 rendered at 220 dpi; no labels changed.
+
+Image revision: Not identified
 
 SHA-256: `15e60ad41930f0aa73d9f37fa1c4b4255597e475e21c2dfe4a27d5fe7f5c70d7`
 
@@ -69,6 +87,8 @@ SHA-256: `15e60ad41930f0aa73d9f37fa1c4b4255597e475e21c2dfe4a27d5fe7f5c70d7`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 7 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `efc60e068021d41bfe65f09fae40125ad13a053dd1b9b53fe85af8b56c0c5861`
 
 ## Official full pinout - page 3
@@ -84,6 +104,8 @@ SHA-256: `efc60e068021d41bfe65f09fae40125ad13a053dd1b9b53fe85af8b56c0c5861`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nicla/boards/nicla-voice/downloads/ABX00061-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/nicla-voice/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nicla/boards/nicla-voice/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nicla/boards/nicla-voice/downloads/ABX00061-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 3 rendered at 220 dpi; no labels changed.
+
+Image revision: Not identified
 
 SHA-256: `21052ebb918aacd6561dcb8a36892845562029f33f6d21d58b04d4d79dfb1b05`
 
@@ -101,6 +123,8 @@ SHA-256: `21052ebb918aacd6561dcb8a36892845562029f33f6d21d58b04d4d79dfb1b05`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 5 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `3eeda087289e650d8a64e3dfc99c99aeafcc0baae8a95cf8d120fc3075b3c493`
 
 ## Official full pinout - page 6
@@ -117,6 +141,8 @@ SHA-256: `3eeda087289e650d8a64e3dfc99c99aeafcc0baae8a95cf8d120fc3075b3c493`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 6 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `7922147d8ff53210e9dc20849a098f3b1f9273bc121883d5efe1a4a872664e8f`
 
 ## Full board pinout PDF
@@ -130,6 +156,8 @@ SHA-256: `7922147d8ff53210e9dc20849a098f3b1f9273bc121883d5efe1a4a872664e8f`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nicla/boards/nicla-voice/downloads/ABX00061-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/nicla-voice/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nicla/boards/nicla-voice/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/nicla/boards/nicla-voice/downloads/ABX00061-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement.
+
+Image revision: Not identified
 
 SHA-256: `7e55ca07630d8d0dac0f86f72c2de80eab20525687fb37738217e21b1e9096fa`
 

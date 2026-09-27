@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-92925ce4377c66f0c9)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/BeagleBone-Green-Gateway/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Dimensions
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/BeagleBone-Green-Gateway/img/dimensions.png) · [Source 2](https://wiki.seeedstudio.com/BeagleBone-Green-Gateway/)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `4e81c263bb291f579a63ca3cafc5760caae5bfcfa0414b7c93e659dac35e808c`
 
@@ -36,6 +50,8 @@ SHA-256: `4e81c263bb291f579a63ca3cafc5760caae5bfcfa0414b7c93e659dac35e808c`
 [Source 1](https://files.seeedstudio.com/wiki/BeagleBone-Green-Gateway/img/BBGG-hardware.png) · [Source 2](https://wiki.seeedstudio.com/BeagleBone-Green-Gateway/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `4ebf058e994edae5402abc279421a5eb2fdfb1626a223518c2ad19ebab454b56`
 

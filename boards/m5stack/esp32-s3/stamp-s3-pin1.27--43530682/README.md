@@ -2,10 +2,22 @@
 
 **M5Stack** · ESP32-S3
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=m5stack-esp32-stamp-s3-pin1-27)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.m5stack.com/en/core/M5StampS3%20PIN1.27)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/products/core/M5StampS3%20PIN1.27/127.png) · [Source 2](https://docs.m5stack.com/en/core/M5StampS3%20PIN1.27)
 
 Imported from existing M5Stack Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `31cab85a3085745794ef05378e8ea89d3d9af2548b933f709070f9d2b180025a`
 
@@ -36,6 +50,8 @@ SHA-256: `31cab85a3085745794ef05378e8ea89d3d9af2548b933f709070f9d2b180025a`
 [Source 1](https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/684/S007_PinMap_01.jpg) · [Source 2](https://docs.m5stack.com/en/core/M5StampS3%20PIN1.27)
 
 Imported from existing M5Stack Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `37249f2574a8702c053b1807a9793ea4dbf7d44ff7ddccf3640c61a5a9863b77`
 

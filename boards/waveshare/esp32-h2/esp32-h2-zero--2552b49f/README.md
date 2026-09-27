@@ -2,10 +2,22 @@
 
 **Waveshare** · ESP32-H2
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=waveshare-esp32-esp32-h2-zero)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://www.waveshare.com/esp32-h2-zero.htm)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://www.waveshare.com/img/devkit/ESP32-H2-Zero/ESP32-H2-Zero-details-inter.jpg) · [Source 2](https://www.waveshare.com/esp32-h2-zero.htm)
+
+
+
+Image revision: Not identified
 
 SHA-256: `b00ad9622a7c18ffbe76cd068b6944bf57235693e3a98fa5fd596e0f9cf7b4a6`
 
@@ -33,6 +49,10 @@ SHA-256: `b00ad9622a7c18ffbe76cd068b6944bf57235693e3a98fa5fd596e0f9cf7b4a6`
 
 [Source 1](https://docs.waveshare.com/assets/images/ESP32-H2-Zero-details-inter-cb0ed656ebc63b6579927811d3310a60.webp) · [Source 2](https://docs.waveshare.com/ESP32-H2-Zero)
 
+
+
+Image revision: Not identified
+
 SHA-256: `4429f98a85b062179df70ebc873556f83949bf01afd4026f0009b0851d29afeb`
 
 ## Pinout
@@ -46,6 +66,10 @@ SHA-256: `4429f98a85b062179df70ebc873556f83949bf01afd4026f0009b0851d29afeb`
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://www.waveshare.com/w/upload/4/4f/ESP32-H2-Zero-details-inter.jpg) · [Source 2](https://www.waveshare.com/wiki/ESP32-H2-Zero)
+
+
+
+Image revision: Not identified
 
 SHA-256: `0c7b5cb42377e83957853f6568aa948ec151d749578efd20e50e217344656749`
 

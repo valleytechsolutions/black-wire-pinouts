@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-9e7113085098fd354c)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/xiao_epaper_display_board_overview/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Dimensions
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/Epaper/EN04/EN04_1.jpg) · [Source 2](https://wiki.seeedstudio.com/xiao_epaper_display_board_overview/)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `1e97fe00653c9b4bb33e068d3442efbabab7c7dbd93e71553d82bd69a62f3116`
 
@@ -36,6 +50,8 @@ SHA-256: `1e97fe00653c9b4bb33e068d3442efbabab7c7dbd93e71553d82bd69a62f3116`
 [Source 1](https://files.seeedstudio.com/wiki/Epaper/EN04/hardwareoview.png) · [Source 2](https://wiki.seeedstudio.com/epaper_EN04/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `c083587ccb9713fa9f59cf33ca30ae34b55bd8a188046701dafcbaa04cc4f640`
 

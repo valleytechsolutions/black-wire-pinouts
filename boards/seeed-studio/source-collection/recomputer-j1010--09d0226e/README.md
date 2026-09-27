@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-c43745b5a06481df20)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/reComputer_Jetson_Series_Hardware_Layout/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Dimensions
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/reComputer-Jetson-Nano/Jetsonbackspec2.png) · [Source 2](https://wiki.seeedstudio.com/reComputer_Jetson_Series_Hardware_Layout/)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `48ebd9500561a598a4a471ebf347dc2e9b283ccfe3d70101717ed66c64e63697`
 
@@ -37,6 +51,8 @@ SHA-256: `48ebd9500561a598a4a471ebf347dc2e9b283ccfe3d70101717ed66c64e63697`
 
 Original source index: Hardware Overview (Back). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `32907461322f67a5499cc5ad4a04ea080ad32b191a622b32ea06eea2baa79f32`
 
 ## Hardware Overview (Front)
@@ -53,6 +69,8 @@ SHA-256: `32907461322f67a5499cc5ad4a04ea080ad32b191a622b32ea06eea2baa79f32`
 
 Original source index: Hardware Overview (Front). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `a5d7b2386218caae7b65b1eabf0db4e0422de217baee978830fb3b230987380d`
 
 ## Hardware Overview (Front)
@@ -68,6 +86,8 @@ SHA-256: `a5d7b2386218caae7b65b1eabf0db4e0422de217baee978830fb3b230987380d`
 [Source 1](https://files.seeedstudio.com/wiki/reComputer/reComputerJ101v2.png) · [Source 2](https://wiki.seeedstudio.com/reComputer_Jetson_Series_Hardware_Layout/)
 
 Original source index: Hardware Overview (Front). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `1cbd7cc1438ee61e16b711538db327eae23cea5bcbd1b155225c29dc4b24583a`
 

@@ -2,10 +2,22 @@
 
 **Olimex** · ESP32-C5
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=olimex-esp32-esp32-c5-evb)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://www.olimex.com/Products/IoT/ESP32-C5/ESP32-C5-EVB/open-source-hardware)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Board and connector pinout reference
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Olimex.
 
 [Source 1](https://raw.githubusercontent.com/OLIMEX/ESP32-C5-EVB/main/DOCUMENTS/ESP32-C5-EVB-user-manual.pdf) · [Source 2](https://www.olimex.com/Products/IoT/ESP32-C5/ESP32-C5-EVB/open-source-hardware)
+
+
+
+Image revision: Not identified
 
 SHA-256: `52c2eebe280431a50a5c641f01cea7f9c6fcea75cd364b150383a7f105096f4e`
 
@@ -33,6 +49,10 @@ SHA-256: `52c2eebe280431a50a5c641f01cea7f9c6fcea75cd364b150383a7f105096f4e`
 
 [Source 1](https://raw.githubusercontent.com/OLIMEX/ESP32-C5-EVB/main/DOCUMENTS/ESP32-C5-EVB-user-manual.pdf) · [Source 2](https://www.olimex.com/Products/IoT/ESP32-C5/ESP32-C5-EVB/open-source-hardware)
 
+
+
+Image revision: Not identified
+
 SHA-256: `4ddd712d82f621f82e1fca4e212b27203375a07833254ccef2f2999ead4610f5`
 
 ## Original board user manual
@@ -44,6 +64,10 @@ SHA-256: `4ddd712d82f621f82e1fca4e212b27203375a07833254ccef2f2999ead4610f5`
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Olimex.
 
 [Source 1](https://raw.githubusercontent.com/OLIMEX/ESP32-C5-EVB/main/DOCUMENTS/ESP32-C5-EVB-user-manual.pdf) · [Source 2](https://www.olimex.com/Products/IoT/ESP32-C5/ESP32-C5-EVB/open-source-hardware)
+
+
+
+Image revision: Not identified
 
 SHA-256: `60c8fdd97b7e4f252e73805b8542baf9a3668df53e717e28bb32966f41995a31`
 

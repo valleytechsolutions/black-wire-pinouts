@@ -2,10 +2,22 @@
 
 **LILYGO** · ESP32-C3
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lilygo-rp2040-t-picoc3)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## T-PicoC3_en
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://raw.githubusercontent.com/Xinyuan-LilyGO/T-PicoC3/9565b8a0e10f5def2d0c34015f9e3328f846a751/image/T-PicoC3_en.jpg) · [Source 2](https://github.com/Xinyuan-LilyGO/T-PicoC3/blob/9565b8a0e10f5def2d0c34015f9e3328f846a751/image/T-PicoC3_en.jpg)
 
 Original manufacturer diagram. Shown module, radio, display and power-system options must match the board.
+
+Image revision: Not identified
 
 SHA-256: `22890f78e62979c34ef9c55dda8a8a712cb2cb6331caca83697ad0cecb1c80a1`
 

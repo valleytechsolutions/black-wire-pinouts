@@ -2,10 +2,22 @@
 
 **Nologo** · ESP32-S31
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=nologo-esp32-esp32-s3-1-14-inch-tft)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout - Nologo documentation
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://www.nologo.tech/assets/img/esp32/esp32s31.14tft/8.jpg) · [Source 2](https://www.nologo.tech/product/esp32/esp32s3/esp32S31.14TFT/esp32S31.14TFT.html)
 
 Unchanged image from Nologo catalog documentation. Nologo is the catalog attribution; maker identity is not independently verified for every product it sells. Exact physical PCB must match the source image, not merely the SuperMini name.
+
+Image revision: Not identified
 
 SHA-256: `c0d56164db04109c066977aaaa0e8a08050ad4067d6c2651699b09cb874a0f58`
 
@@ -36,6 +50,8 @@ SHA-256: `c0d56164db04109c066977aaaa0e8a08050ad4067d6c2651699b09cb874a0f58`
 [Source 1](https://www.nologo.tech/assets/img/esp32/esp32s31.14tft/29.jpg) · [Source 2](https://www.nologo.tech/product/esp32/esp32s3/esp32S31.14TFT/esp32S31.14TFT.html)
 
 Unchanged image from Nologo catalog documentation. Nologo is the catalog attribution; maker identity is not independently verified for every product it sells. Exact physical PCB must match the source image, not merely the SuperMini name.
+
+Image revision: Not identified
 
 SHA-256: `e16aba88e06f96872b58f19753ee26a970aad7780bceff6210c7837ea4397d4f`
 

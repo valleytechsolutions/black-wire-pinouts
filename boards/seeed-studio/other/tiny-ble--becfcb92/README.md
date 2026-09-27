@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Other
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-other-tiny-ble)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/Tiny_BLE/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout (BLE Board)
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://files.seeedstudio.com/wiki/Tiny_BLE/img/Ble_smurfs_ble.png) · [Source 2](https://wiki.seeedstudio.com/Tiny_BLE/)
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `2471d21a8b7610ab4ca4433f75eb3e29a3ac14060e5d682ee510beea0f64eb04`
 
@@ -36,6 +50,8 @@ SHA-256: `2471d21a8b7610ab4ca4433f75eb3e29a3ac14060e5d682ee510beea0f64eb04`
 [Source 1](https://files.seeedstudio.com/wiki/Tiny_BLE/img/Ble_smurfs_interface.png) · [Source 2](https://wiki.seeedstudio.com/Tiny_BLE/)
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `6b9812111bf31cd9dd12200ae5786ecdf7f0dc351ff28d506cc8b9c6040dc439`
 

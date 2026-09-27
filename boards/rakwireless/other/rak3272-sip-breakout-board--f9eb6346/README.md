@@ -2,10 +2,22 @@
 
 **RAKwireless** · Other
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=rakwireless-other-rak3272-sip-breakout-board)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.rakwireless.com/product-categories/wisduo/rak3272-sip-breakout-board/datasheet/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## RAK3272-SiP Breakout Board J3 and J4 header
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://raw.githubusercontent.com/RAKWireless/RAKwireless-docs/4361f2635b6e16c72a46167a208db87427106bef/docs/.vuepress/public/assets/images/wisduo/rak3272-sip-breakout-board/datasheet/rak3272-sip-pinout.png) · [Source 2](https://docs.rakwireless.com/product-categories/wisduo/rak3272-sip-breakout-board/datasheet/)
 
  Physical PCB/module pads or named board connector. Module entries are radio PCBs, not bare IC package pinouts. Check model suffix and radio band.
+
+Image revision: Not identified
 
 SHA-256: `5cf851f00f1b8c93f73b3c568e11d4072476786bb51d8200a3b8240e073d43a5`
 
@@ -36,6 +50,8 @@ SHA-256: `5cf851f00f1b8c93f73b3c568e11d4072476786bb51d8200a3b8240e073d43a5`
 [Source 1](https://raw.githubusercontent.com/RAKWireless/RAKwireless-docs/4361f2635b6e16c72a46167a208db87427106bef/docs/.vuepress/public/assets/images/wisduo/rak3272-sip-breakout-board/datasheet/rak3272-sip-pinout-back.png) · [Source 2](https://docs.rakwireless.com/product-categories/wisduo/rak3272-sip-breakout-board/datasheet/)
 
  Physical PCB/module pads or named board connector. Module entries are radio PCBs, not bare IC package pinouts. Check model suffix and radio band.
+
+Image revision: Not identified
 
 SHA-256: `2602f4f6e285a0030654cd1672205816b3b48263c52b6156b5bad7e8a801dc91`
 

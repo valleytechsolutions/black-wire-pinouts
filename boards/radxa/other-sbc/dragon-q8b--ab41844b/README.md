@@ -2,10 +2,22 @@
 
 **Radxa** · Other SBC
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Board labels only; pinout needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=radxa-other-sbc-dragon-q8b)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Header orientation and board labels
 
@@ -18,6 +30,10 @@ Coverage: Board labels only; pinout needed
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Radxa.
 
 [Source 1](https://raw.githubusercontent.com/radxa-docs/docs/df97d99c4e1a12f8f9d2afb129ed86bc33c050b5/static/img/dragon/q8b/q8b_gpio.webp) · [Source 2](https://github.com/radxa-docs/docs/blob/df97d99c4e1a12f8f9d2afb129ed86bc33c050b5/static/img/dragon/q8b/q8b_gpio.webp)
+
+
+
+Image revision: Not identified
 
 SHA-256: `8737f1a0414ca8ab41f2912f86ae6024c7ff8cdb0e3e538d8416b91a3679cddd`
 

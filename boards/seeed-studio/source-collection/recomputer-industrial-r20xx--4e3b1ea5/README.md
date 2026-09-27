@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-b59a2c2c3e25128d7c)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/recomputer_industrial_r20xx_getting_start/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Block Diagram (I-O Board)
 
@@ -17,7 +29,11 @@ Coverage: Source collection; review pending
 
 **Credit and rights:** Source rights not yet established. Source/manufacturer: Seeed Studio.
 
+
+
 Original source index: Block Diagram (I-O Board). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `121fa57cf10125bc7d52a703c7fa4a441e58b8823cdafe3963ec3ce1a41beebf`
 
@@ -31,7 +47,11 @@ SHA-256: `121fa57cf10125bc7d52a703c7fa4a441e58b8823cdafe3963ec3ce1a41beebf`
 
 **Credit and rights:** Source rights not yet established. Source/manufacturer: Seeed Studio.
 
+
+
 Original source index: Block Diagram (I2C Tree). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `ab416588a43b80e90be78eda83e06f3cabce02be0256a6e0c36c081d91d717f9`
 
@@ -45,7 +65,11 @@ SHA-256: `ab416588a43b80e90be78eda83e06f3cabce02be0256a6e0c36c081d91d717f9`
 
 **Credit and rights:** Source rights not yet established. Source/manufacturer: Seeed Studio.
 
+
+
 Original source index: Block Diagram (Power). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `496d457225a1cf878bec14ec849490a78e3f356ef1de71fce53eb4742d763837`
 
@@ -59,7 +83,11 @@ SHA-256: `496d457225a1cf878bec14ec849490a78e3f356ef1de71fce53eb4742d763837`
 
 **Credit and rights:** Source rights not yet established. Source/manufacturer: Seeed Studio.
 
+
+
 Original source index: Block Diagram. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `fd685216f61efac11529b754c960b5bd42720368a5ad606f258d3fb7301c2b29`
 
@@ -73,7 +101,11 @@ SHA-256: `fd685216f61efac11529b754c960b5bd42720368a5ad606f258d3fb7301c2b29`
 
 **Credit and rights:** Source rights not yet established. Source/manufacturer: Seeed Studio.
 
+
+
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `09eb870a2ad1ccc7343aa3f1af8aecffcb6bfd4889e8f52ddc629eac3a7bb1ec`
 
@@ -87,7 +119,11 @@ SHA-256: `09eb870a2ad1ccc7343aa3f1af8aecffcb6bfd4889e8f52ddc629eac3a7bb1ec`
 
 **Credit and rights:** Source rights not yet established. Source/manufacturer: Seeed Studio.
 
+
+
 Original source index: Hardware Overview (Inside). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `8ad871a0335ca52d687ec71807cd175f1a7c75c8f7f371f93aca101c7a5e1b00`
 
@@ -101,7 +137,11 @@ SHA-256: `8ad871a0335ca52d687ec71807cd175f1a7c75c8f7f371f93aca101c7a5e1b00`
 
 **Credit and rights:** Source rights not yet established. Source/manufacturer: Seeed Studio.
 
+
+
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `9addfa35445605cdfcc34956d132325389eb349351d995eb3b5aa698baa64f4e`
 
@@ -119,6 +159,8 @@ SHA-256: `9addfa35445605cdfcc34956d132325389eb349351d995eb3b5aa698baa64f4e`
 
 Original source index: Pin Definition (DI-DO). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `96d28153bfc093a59275d3a2f6fff88ede54d458edf56cf6d258b5bc037dd406`
 
 ## Pin Definition (Power Terminal)
@@ -131,7 +173,11 @@ SHA-256: `96d28153bfc093a59275d3a2f6fff88ede54d458edf56cf6d258b5bc037dd406`
 
 **Credit and rights:** Source rights not yet established. Source/manufacturer: Seeed Studio.
 
+
+
 Original source index: Pin Definition (Power Terminal). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `958935e0b8065c27b175860c742f695429e2a03801f113d76dff5f879e1aaafe`
 
@@ -148,6 +194,8 @@ SHA-256: `958935e0b8065c27b175860c742f695429e2a03801f113d76dff5f879e1aaafe`
 [Source 1](https://files.seeedstudio.com/wiki/reComputer-AI-Industrial/R2000/232_introduction_1.png) · [Source 2](https://wiki.seeedstudio.com/recomputer_industrial_r20xx_getting_start/)
 
 Original source index: Pin Definition (RS232). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `cd3a58393273891c2cdba530579521b4412fbac2c773631fccabe61298852173`
 

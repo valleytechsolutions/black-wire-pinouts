@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-ea5a9400b09023d4d4)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/reComputer_Jetson_Series_Introduction/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Hardware Overview (Back)
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/recomputer-Jetson-20-1-H1/frontview5.png) · [Source 2](https://wiki.seeedstudio.com/reComputer_Jetson_Series_Introduction/)
 
 Original source index: Hardware Overview (Back). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `9d0bdce2b4c0abbc782e40ff1e3b9c3d6e1162e3f5179e2a1db1c499cc463ff6`
 
@@ -37,6 +51,8 @@ SHA-256: `9d0bdce2b4c0abbc782e40ff1e3b9c3d6e1162e3f5179e2a1db1c499cc463ff6`
 
 Original source index: Hardware Overview (Ports). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `62b863bc813b0cf1d2aa77c7a83303899346635de55b6bbe64fb8820a3dd98b4`
 
 ## Hardware Overview (Top)
@@ -53,6 +69,8 @@ SHA-256: `62b863bc813b0cf1d2aa77c7a83303899346635de55b6bbe64fb8820a3dd98b4`
 
 Original source index: Hardware Overview (Top). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `8f41f85b5cede887df18e7fd0308f15d55ff139105e0c4c6ed3fd25dd40144e9`
 
 ## Pin Definition
@@ -66,6 +84,8 @@ SHA-256: `8f41f85b5cede887df18e7fd0308f15d55ff139105e0c4c6ed3fd25dd40144e9`
 [Source 1](https://files.seeedstudio.com/wiki/reComputer-Jetson/reComputer-Jetson-J1020-w_o-power-adapter-datasheet.pdf) · [Source 2](https://wiki.seeedstudio.com/reComputer_J1020_A206_Flash_JetPack/)
 
 Original source index: Pin Definition. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `5662324ce759e1a4043775e89f8a7f65971b8f0efb745e4e2c67b9eb1a36f832`
 

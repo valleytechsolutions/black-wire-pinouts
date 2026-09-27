@@ -2,10 +2,22 @@
 
 **WeAct Studio** · Other
 
-Revision: Multiple source/revision records; see individual assets  
+Revision: Multiple source/revision records; see individual assets
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=weact-studio-other-ministm32f4x1-v2-0)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://github.com/WeActStudio/WeActStudio.MiniSTM32F4x1)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout - Richard Balint
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://raw.githubusercontent.com/WeActStudio/WeActStudio.MiniSTM32F4x1/05380f5c41f38eea8966a81c5acdeb7512cd909f/images/STM32F4x1_PinoutDiagram_RichardBalint.png) · [Source 2](https://github.com/WeActStudio/WeActStudio.MiniSTM32F4x1/blob/05380f5c41f38eea8966a81c5acdeb7512cd909f/images/STM32F4x1_PinoutDiagram_RichardBalint.png)
 
 Original repository file preserved with commit identifier. Board illustration/silkscreen images are explicitly distinguished from expanded pin-function diagrams.
+
+Image revision: v2.0+
 
 SHA-256: `e176d55d4b353f9cbd52e6d7029ca364f2c2fa53ec03accbe2edfe64cf4d7748`
 
@@ -37,6 +51,8 @@ SHA-256: `e176d55d4b353f9cbd52e6d7029ca364f2c2fa53ec03accbe2edfe64cf4d7748`
 
 Manufacturer original STM32F4x1 v2.0+ pin-layout PDF rendered at 220 dpi. Physical board reference; no pin labels changed.
 
+Image revision: v2.0+
+
 SHA-256: `a5d61bde884c4a5e1bbed1716482ca4595cf24b9e2f18cc259832284b39ebfef`
 
 ## Board silkscreen and component labels
@@ -53,7 +69,7 @@ SHA-256: `a5d61bde884c4a5e1bbed1716482ca4595cf24b9e2f18cc259832284b39ebfef`
 
 Original repository file preserved with commit identifier. Board illustration/silkscreen images are explicitly distinguished from expanded pin-function diagrams.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: v2.0+
 
 SHA-256: `8905f7c4c7c65c0019026dd08fa160a6e63712fe31599b5ce4673d7f8d3a4bb8`
 
@@ -66,6 +82,10 @@ SHA-256: `8905f7c4c7c65c0019026dd08fa160a6e63712fe31599b5ce4673d7f8d3a4bb8`
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: WeAct Studio.
 
 [Source 1](https://raw.githubusercontent.com/WeActStudio/WeActStudio.MiniSTM32F4x1/05380f5c41f38eea8966a81c5acdeb7512cd909f/General%20document/STM32F4x1%20v2.0%2B%20Pin%20Layout.pdf) · [Source 2](https://github.com/WeActStudio/WeActStudio.MiniSTM32F4x1/blob/05380f5c41f38eea8966a81c5acdeb7512cd909f/General%20document/STM32F4x1%20v2.0%2B%20Pin%20Layout.pdf)
+
+
+
+Image revision: v2.0+
 
 SHA-256: `9b1a3b36a803108411bea313dd76947c3d5829927ee133d0dc17fdd55609d1d8`
 

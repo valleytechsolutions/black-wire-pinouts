@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Expansion
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-expansion-uartsb-frame)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/UartSB_Frame/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://files.seeedstudio.com/wiki/UartSB_Frame/img/UartSB_Frame_Outline_35mmx20mm.png) · [Source 2](https://wiki.seeedstudio.com/UartSB_Frame/)
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `95615f7b56a80e668ff95385270c3751e82a260afce9adb65ec055e8d8efefae`
 
@@ -37,6 +51,8 @@ SHA-256: `95615f7b56a80e668ff95385270c3751e82a260afce9adb65ec055e8d8efefae`
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
 
+Image revision: Not identified
+
 SHA-256: `cda0172381164ae1f657332b0c77bb28acc64e5e418835c767121ebe354cf177`
 
 ## Pinout (Top)
@@ -52,6 +68,8 @@ SHA-256: `cda0172381164ae1f657332b0c77bb28acc64e5e418835c767121ebe354cf177`
 [Source 1](https://files.seeedstudio.com/wiki/UartSB_Frame/img/Seeeduino_Frame_UarSBs_Top.jpg) · [Source 2](https://wiki.seeedstudio.com/UartSB_Frame/)
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `300a0fae34d788a9e61f69c0acdea67cd1e43f9692e0717d36a30db9ff534651`
 

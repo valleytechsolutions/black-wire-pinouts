@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Other
 
-Revision: Multiple source/revision records; see individual assets  
+Revision: Multiple source/revision records; see individual assets
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-other-seeeduino-v3-0)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/Seeeduino/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout (UART Header)
 
@@ -21,7 +33,7 @@ Coverage: Pinout image collected
 
 Imported from existing Seeed Studio Board Reference; original working path preserved. Only the named connector or subsection is covered.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `e7bb4fb696d7204f32513b8fc4517b205003729ecb1f55331829d25366139b43`
 
@@ -39,6 +51,8 @@ SHA-256: `e7bb4fb696d7204f32513b8fc4517b205003729ecb1f55331829d25366139b43`
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
 
+Image revision: Not identified
+
 SHA-256: `2e7cbf23d7e15fc62b602eb3e88d6168481fa980009701f61133e84e653395a6`
 
 ## Pinout (V3.0)
@@ -55,6 +69,8 @@ SHA-256: `2e7cbf23d7e15fc62b602eb3e88d6168481fa980009701f61133e84e653395a6`
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
 
+Image revision: V3.0, source label
+
 SHA-256: `2fc416bcfc8ad9378e52156269a271b49d7370ca0107392863bac773c774bf2d`
 
 ## Block Diagram (USB-to-Serial)
@@ -70,6 +86,8 @@ SHA-256: `2fc416bcfc8ad9378e52156269a271b49d7370ca0107392863bac773c774bf2d`
 [Source 1](https://files.seeedstudio.com/wiki/Seeeduino-v3.0/img/Seeeduino_FTDI.png) · [Source 2](https://wiki.seeedstudio.com/Seeeduino_v3.0/)
 
 Original source index: Block Diagram (USB-to-Serial). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `776618f332b7794c7831c42f3247d7676fe85d37335c776d2a355211b323ea89`
 

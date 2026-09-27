@@ -2,10 +2,22 @@
 
 **Nologo** · ESP32-C3
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: GPIO reference collected; physical pinout needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=nologo-esp32-esp32-c3-supermini)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## GPIO aliases
 
@@ -20,6 +32,8 @@ Coverage: GPIO reference collected; physical pinout needed
 [Source 1](https://www.nologo.tech/assets/img/esp32/esp32c3supermini/esp32c3foot2.png) · [Source 2](https://www.nologo.tech/product/esp32/esp32c3/esp32c3supermini/esp32C3SuperMiniFoot.html)
 
 Unchanged image from Nologo catalog documentation. Nologo is the catalog attribution; maker identity is not independently verified for every product it sells. Exact physical PCB must match the source image, not merely the SuperMini name.
+
+Image revision: Not identified
 
 SHA-256: `6345f99163f4a3791ae1399ad1f495257ea5dc75828734290b88b03c28398338`
 

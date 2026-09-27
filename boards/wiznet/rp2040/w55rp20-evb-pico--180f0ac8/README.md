@@ -2,10 +2,22 @@
 
 **WIZnet** · RP2040
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=wiznet-rp2040-w55rp20-evb-pico)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.wiznet.io/Product/Chip/MCU/W55RP20/w55rp20-evb-pico)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Physical board pinout
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://docs.wiznet.io/assets/images/w55rp20-evb-pico-pinout-c7dbe9757fcc123403e7ed81a6984931.png) · [Source 2](https://docs.wiznet.io/Product/Chip/MCU/W55RP20/w55rp20-evb-pico)
 
 Discovered from CircuitPython board metadata and the linked product/documentation page. Exact hardware revision requires matching to the diagram.
+
+Image revision: Not identified
 
 SHA-256: `bd66a4677e0b448da363a58966222300b7452e8cf76a3e9fec436d46c9371266`
 

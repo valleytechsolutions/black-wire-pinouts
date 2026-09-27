@@ -2,10 +2,22 @@
 
 **Adafruit** · ESP32-S2
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=adafruit-esp32-esp32-s2-reverse-tft-feather)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://learn.adafruit.com/esp32-s2-reverse-tft-feather/pinouts)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout reference - PDF page 1
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://raw.githubusercontent.com/adafruit/Adafruit-ESP32-S2-Reverse-TFT-Feather-PCB/main/Adafruit_Reverse_TFT_Feather_ESP32-S2_Pinout.pdf) · [Source 2](https://learn.adafruit.com/esp32-s2-reverse-tft-feather/pinouts)
 
 Discovered from CircuitPython board metadata and the linked product/documentation page. Exact hardware revision requires matching to the diagram. Original PDF page 1 rendered at 220 dpi; no labels changed.
+
+Image revision: Not identified
 
 SHA-256: `b6fe04c9ccb6be2de27d098fd1ad9aef177994ba1a6827abeb03769c7ab5d59d`
 
@@ -37,6 +51,8 @@ SHA-256: `b6fe04c9ccb6be2de27d098fd1ad9aef177994ba1a6827abeb03769c7ab5d59d`
 
 Discovered from CircuitPython board metadata and the linked product/documentation page. Exact hardware revision requires matching to the diagram. Original PDF page 1 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `83e8d38c00cbc54ac22a2534127679560ca9da4b98db41d044e448bad093767e`
 
 ## Physical board pinout
@@ -51,6 +67,8 @@ SHA-256: `83e8d38c00cbc54ac22a2534127679560ca9da4b98db41d044e448bad093767e`
 
 Discovered from CircuitPython board metadata and the linked product/documentation page. Exact hardware revision requires matching to the diagram.
 
+Image revision: Not identified
+
 SHA-256: `71f1c77520263189f64a734a33b12a89f14f405fe26075b8b12ccbd3c170007b`
 
 ## Physical board pinout
@@ -64,6 +82,8 @@ SHA-256: `71f1c77520263189f64a734a33b12a89f14f405fe26075b8b12ccbd3c170007b`
 [Source 1](https://raw.githubusercontent.com/adafruit/Adafruit-ESP32-S2-Reverse-TFT-Feather-PCB/main/Adafruit%20Reverse%20TFT%20Feather%20ESP32-S2%20Display-side%20Up%20Pinout.pdf) · [Source 2](https://learn.adafruit.com/esp32-s2-reverse-tft-feather/pinouts)
 
 Discovered from CircuitPython board metadata and the linked product/documentation page. Exact hardware revision requires matching to the diagram.
+
+Image revision: Not identified
 
 SHA-256: `11da56d553a45369df500b11f00345bcff5db1b3d636613de4a594915f31cf44`
 

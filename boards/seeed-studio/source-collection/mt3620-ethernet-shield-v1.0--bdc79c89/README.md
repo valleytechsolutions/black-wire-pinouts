@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-25736f1f8dac893df4)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/MT3620_Ethernet_Shield_v1.0/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Dimensions 2
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/MT3620_Ethernet_Shield_v1.0/img/drawing2.png) · [Source 2](https://wiki.seeedstudio.com/MT3620_Ethernet_Shield_v1.0/)
 
 Original source index: Dimensions 2. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `5d8eba589ca6db84077d1785bb4fb7a37415332f35f41136d580656b29883d89`
 
@@ -37,6 +51,8 @@ SHA-256: `5d8eba589ca6db84077d1785bb4fb7a37415332f35f41136d580656b29883d89`
 
 Original source index: Dimensions 3. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `34e22ae25f2e0e5ac664f0146cc99c1abc031151aa4dbf0f1a29feaaf8047473`
 
 ## Dimensions
@@ -52,6 +68,8 @@ SHA-256: `34e22ae25f2e0e5ac664f0146cc99c1abc031151aa4dbf0f1a29feaaf8047473`
 [Source 1](https://files.seeedstudio.com/wiki/MT3620_Ethernet_Shield_v1.0/img/drawing1.png) · [Source 2](https://wiki.seeedstudio.com/MT3620_Ethernet_Shield_v1.0/)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `a68e2384ef47f8e14ee3c31e9dad600bb6c0cb31d7d3ab4d569a3c33554b949d`
 
@@ -69,6 +87,8 @@ SHA-256: `a68e2384ef47f8e14ee3c31e9dad600bb6c0cb31d7d3ab4d569a3c33554b949d`
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `debecd8c223ed73faf68f62fa9d6f5fc32d86ba221db3b64613410a6d5a0fac2`
 
 ## Pin Definition (J2 UART Header)
@@ -85,6 +105,8 @@ SHA-256: `debecd8c223ed73faf68f62fa9d6f5fc32d86ba221db3b64613410a6d5a0fac2`
 
 Original source index: Pin Definition (J2 UART Header). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `011cb75d8989dc55773a48e636fdc375dbf8b45b5899ff04655f6c4996be6377`
 
 ## Pin Definition (RJ45 Connector J1)
@@ -100,6 +122,8 @@ SHA-256: `011cb75d8989dc55773a48e636fdc375dbf8b45b5899ff04655f6c4996be6377`
 [Source 1](https://files.seeedstudio.com/wiki/MT3620_Ethernet_Shield_v1.0/img/J1.png) · [Source 2](https://wiki.seeedstudio.com/MT3620_Ethernet_Shield_v1.0/)
 
 Original source index: Pin Definition (RJ45 Connector J1). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `dacbd60b6fcde9111b98ae40d98914e2ed6e38831875cfc51c507cca19e5ef18`
 

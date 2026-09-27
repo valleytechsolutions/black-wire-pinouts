@@ -2,10 +2,22 @@
 
 **M5Stack** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-da525b9c655706bb3f)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.m5stack.com/en/1515/ap)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Dimensions
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1167/Aluminium-Extrusionsa062_page_01.png) · [Source 2](https://docs.m5stack.com/en/1515/ap)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `194701d62d0feb0abbe89cae4c13de21eaefbc2476f006998687122b3364b8c7`
 
@@ -37,6 +51,8 @@ SHA-256: `194701d62d0feb0abbe89cae4c13de21eaefbc2476f006998687122b3364b8c7`
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `7471b9cc585ae2dde89804ad7df2d28b6f2992e1a171392353db0115e883f74c`
 
 ## Dimensions
@@ -52,6 +68,8 @@ SHA-256: `7471b9cc585ae2dde89804ad7df2d28b6f2992e1a171392353db0115e883f74c`
 [Source 1](https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1167/Aluminium-Extrusionsa064_page_01.png) · [Source 2](https://docs.m5stack.com/en/1515/ap)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `d200fa21e48b09edaaa53a80b5ab66a17122dc72320809c0a0c043170a4239ad`
 
@@ -69,6 +87,8 @@ SHA-256: `d200fa21e48b09edaaa53a80b5ab66a17122dc72320809c0a0c043170a4239ad`
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `e0dcceab9dbe8ce086308650a76252d194651a10b1981830c53183a058e7e92d`
 
 ## Dimensions
@@ -84,6 +104,8 @@ SHA-256: `e0dcceab9dbe8ce086308650a76252d194651a10b1981830c53183a058e7e92d`
 [Source 1](https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1167/Aluminium-Extrusionsa061_page_01.png) · [Source 2](https://docs.m5stack.com/en/1515/ap)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `d7ab70107f0f9fac950aa8bd50d514a7224dc19765b3b25851cbbfd49d04c991`
 

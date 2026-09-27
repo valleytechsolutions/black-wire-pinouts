@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-b4dea0da76a7bbd456)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/SEEED-SOM-STM32MP157C/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Dimensions
 
@@ -18,6 +30,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/SEEED-SOM-STM32MP157C/res/Seeed_SoM-STM32MP157C_v1.0_bottom.pdf) · [Source 2](https://wiki.seeedstudio.com/SEEED-SOM-STM32MP157C/)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `2250c733565c68f745e0acd7750913a579f36911ce6ed4e1e131531951df0b41`
 
@@ -34,6 +48,8 @@ SHA-256: `2250c733565c68f745e0acd7750913a579f36911ce6ed4e1e131531951df0b41`
 [Source 1](https://files.seeedstudio.com/wiki/Seeed-NPi-STM32MP157C/IMG/SOM-overview.png) · [Source 2](https://wiki.seeedstudio.com/SEEED-SOM-STM32MP157C/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `41dc5b647ab38b36dbd602e2775b03cdb0f6a6b5a39814125b0df83e59238483`
 

@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Other SBC
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Partial pinout collected; full reference still needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-other-sbc-mini-ai-computer-t906)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/Mini_AI_Computer_T906/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout (Multifunctional Interface)
 
@@ -21,7 +33,7 @@ Coverage: Partial pinout collected; full reference still needed
 
 Imported from existing Seeed Studio Board Reference; original working path preserved. Only the named connector or subsection is covered.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `46757f91b077f7557a886559184668811215a97f0ba692ec6fd94e9ba2a8240d`
 
@@ -39,6 +51,8 @@ SHA-256: `46757f91b077f7557a886559184668811215a97f0ba692ec6fd94e9ba2a8240d`
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
 
+Image revision: Not identified
+
 SHA-256: `25f03fc47b672840221222419402a2db3ca78ae707d1e6926c3eb17dea7ecfe3`
 
 ## Dimensions
@@ -54,6 +68,8 @@ SHA-256: `25f03fc47b672840221222419402a2db3ca78ae707d1e6926c3eb17dea7ecfe3`
 [Source 1](https://files.seeedstudio.com/wiki/AI_Computer_T906/image/dimensions.png) · [Source 2](https://wiki.seeedstudio.com/Mini_AI_Computer_T906/)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `f070192a8c41e4c36c1bba4a67efd58551fb3b0f836f15603ac12a6ebd1f720d`
 
@@ -71,6 +87,8 @@ SHA-256: `f070192a8c41e4c36c1bba4a67efd58551fb3b0f836f15603ac12a6ebd1f720d`
 
 Original source index: Hardware Overview (Back). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `636a7e90458797f84b6875342b0a418abbd01e7ff53ff2a19ad297cd62e1347a`
 
 ## Hardware Overview (Front)
@@ -86,6 +104,8 @@ SHA-256: `636a7e90458797f84b6875342b0a418abbd01e7ff53ff2a19ad297cd62e1347a`
 [Source 1](https://wdcdn.qpic.cn/MTY4ODg1NTkyNTI4NTE1NA_993556_gptApDMPltVJB-Sv_1667353575?w=817&h=407) · [Source 2](https://wiki.seeedstudio.com/Mini_AI_Computer_T906/)
 
 Original source index: Hardware Overview (Front). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `d00175d1c8878541b8b4eb7d1ac35d84640b0d8123ab62260ae0d6356ec5ed9a`
 
@@ -103,6 +123,8 @@ SHA-256: `d00175d1c8878541b8b4eb7d1ac35d84640b0d8123ab62260ae0d6356ec5ed9a`
 
 Original source index: Hardware Overview (Inside) (IO Board). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `6464c8b6994e982d7df1bef5dc5d3c235e85d9fe48027e1a903734f92ba4f8c7`
 
 ## Hardware Overview (Inside) (Main Board)
@@ -118,6 +140,8 @@ SHA-256: `6464c8b6994e982d7df1bef5dc5d3c235e85d9fe48027e1a903734f92ba4f8c7`
 [Source 1](https://wdcdn.qpic.cn/MTY4ODg1NTkyNTI4NTE1NA_35550_jEJeygKqw0R2wDo3_1667459768?w=823&h=620) · [Source 2](https://wiki.seeedstudio.com/Mini_AI_Computer_T906/)
 
 Original source index: Hardware Overview (Inside) (Main Board). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `f78200ee317fa73b3f280183885e244bf89df04095f0932fd2fe7953f2c5e68b`
 
@@ -135,6 +159,8 @@ SHA-256: `f78200ee317fa73b3f280183885e244bf89df04095f0932fd2fe7953f2c5e68b`
 
 Original source index: Pin Definition Table (Multifunctional Interface). This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `2ac4fb6986d762d367c0d94fe32c3836ee206865decefd33cb1cda3c417a6946`
 
 ## Pin Definition Table (RS-232)
@@ -150,6 +176,8 @@ SHA-256: `2ac4fb6986d762d367c0d94fe32c3836ee206865decefd33cb1cda3c417a6946`
 [Source 1](https://files.seeedstudio.com/wiki/AI_Computer_T906/image/serial_pin.png) · [Source 2](https://wiki.seeedstudio.com/Mini_AI_Computer_T906/)
 
 Original source index: Pin Definition Table (RS-232). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `118b823aed5f4b6f96f4318105fddc705a65a2549658f6224fdaba41b05f769d`
 

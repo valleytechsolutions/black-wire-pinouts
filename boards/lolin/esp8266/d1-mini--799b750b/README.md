@@ -2,10 +2,22 @@
 
 **LOLIN** · ESP8266
 
-Revision: ESP8266 D1 mini layout pictured; not D1 mini Lite  
+Revision: ESP8266 D1 mini layout pictured; not D1 mini Lite
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=lolin-esp32-d1-mini)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.wemos.cc/en/latest/d1/d1_mini.html)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout - Renzo Mischianti
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://mischianti.org/wp-content/uploads/2021/04/WeMos-D1-mini-esp8266-pinout-mischianti-low.jpg) · [Source 2](https://mischianti.org/wemos-d1-mini-high-resolution-pinout-and-specs/)
 
 Original public image by Renzo Mischianti, unchanged. Diagram/model matching is visual, not electrical verification. Exact PCB layout and revision must match; no inference of compatibility with lookalike marketplace clones.
+
+Image revision: ESP8266 D1 mini layout pictured; not D1 mini Lite
 
 SHA-256: `615f9b048af8abdb7ccd719e43ef2c4c23ef29f0ceec770778a93c1843ea69b2`
 

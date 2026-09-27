@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-06f212159c0fa5b28d)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/2-Channel-CAN-BUS-FD-Shield-for-Raspberry-Pi/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Block Diagram
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/2-Channel-CAN-BUS-FD-Shield-for-Raspberry-Pi/img/block-diagram.jpg) · [Source 2](https://wiki.seeedstudio.com/2-Channel-CAN-BUS-FD-Shield-for-Raspberry-Pi/)
 
 Original source index: Block Diagram. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `23a1c41a5bc742afd2dfa4a1b5814957cdee619f7cf272dff6eeb54060965750`
 
@@ -37,6 +51,8 @@ SHA-256: `23a1c41a5bc742afd2dfa4a1b5814957cdee619f7cf272dff6eeb54060965750`
 
 Original source index: Hardware Overview 2. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `b15c5d0c57fd8deb8d63b2987d3b7ed6646475e38428c60f62b438ba63426c35`
 
 ## Hardware Overview
@@ -53,6 +69,8 @@ SHA-256: `b15c5d0c57fd8deb8d63b2987d3b7ed6646475e38428c60f62b438ba63426c35`
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `bdbcdf2094f3974b6a635d06b36c2346197fdfe8f05873ebaf65ad69c9061fc6`
 
 ## Hardware Overview
@@ -68,6 +86,8 @@ SHA-256: `bdbcdf2094f3974b6a635d06b36c2346197fdfe8f05873ebaf65ad69c9061fc6`
 [Source 1](https://files.seeedstudio.com/wiki/CAN-BUS-FD/CANBUS_REVIEW.png) · [Source 2](https://wiki.seeedstudio.com/2-Channel-CAN-BUS-FD-Shield-for-Raspberry-Pi/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `1b6a8b933dd55dc1e14d295e43c87f82de1171905cd1d547968fce3a23a9144f`
 

@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Expansion
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Partial pinout collected; full reference still needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-expansion-xiao-debug-mate)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/getting_started_with_xiao_debug_mate/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout (Back)
 
@@ -21,7 +33,7 @@ Coverage: Partial pinout collected; full reference still needed
 
 Imported from existing Seeed Studio Board Reference; original working path preserved. Only the named connector or subsection is covered.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `bd85a2c5980c09ff04fc01dd5ef86674723dc1699bad9a114829a0d5426bf814`
 
@@ -39,7 +51,7 @@ SHA-256: `bd85a2c5980c09ff04fc01dd5ef86674723dc1699bad9a114829a0d5426bf814`
 
 Imported from existing Seeed Studio Board Reference; original working path preserved. Only the named connector or subsection is covered.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `d2b2f11ac508c45699c29d0b608edd8960800d88100d44b0531e91bf7ae344c7`
 
@@ -56,6 +68,8 @@ SHA-256: `d2b2f11ac508c45699c29d0b608edd8960800d88100d44b0531e91bf7ae344c7`
 [Source 1](https://files.seeedstudio.com/wiki/xiao_debug_mate/hardware_overview.png) · [Source 2](https://wiki.seeedstudio.com/getting_started_with_xiao_debug_mate/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `4e8a9e9f3ee236a754e87f39a2942b84ee1b6596b339e39c02256c778d8f8ee7`
 

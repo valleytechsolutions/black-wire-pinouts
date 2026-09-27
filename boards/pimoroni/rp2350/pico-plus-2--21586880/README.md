@@ -2,10 +2,22 @@
 
 **Pimoroni** · RP2350
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=pimoroni-rp2350-pico-plus-2)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://shop.pimoroni.com/products/pimoroni-pico-plus-2)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Manufacturer pinout sheet
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Pimoroni.
 
 [Source 1](https://cdn.shopify.com/s/files/1/0174/1800/files/ppico_plus_2_pinout_diagram.png?v=1723557327) · [Source 2](https://shop.pimoroni.com/products/pimoroni-pico-plus-2)
+
+
+
+Image revision: Not identified
 
 SHA-256: `65e8c30f4c1b47713d1d8ff2409bb1d4fe34cf548c7e0228a8bcb1fb966744a1`
 
@@ -35,6 +51,8 @@ SHA-256: `65e8c30f4c1b47713d1d8ff2409bb1d4fe34cf548c7e0228a8bcb1fb966744a1`
 
  Original PDF page 1 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `4ee82187cd2fe4723a7abc140e2d9515a9c24c44399337bc087eca213a9838d8`
 
 ## Manufacturer pinout sheet
@@ -46,6 +64,10 @@ SHA-256: `4ee82187cd2fe4723a7abc140e2d9515a9c24c44399337bc087eca213a9838d8`
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Pimoroni.
 
 [Source 1](https://cdn.shopify.com/s/files/1/0174/1800/files/ppico_plus_2_pinout_diagram.pdf?v=1723557334) · [Source 2](https://shop.pimoroni.com/products/pimoroni-pico-plus-2)
+
+
+
+Image revision: Not identified
 
 SHA-256: `b430f43963c1dc975ccd98e703013e755b221cf6871fafe36c724f1dd4153728`
 

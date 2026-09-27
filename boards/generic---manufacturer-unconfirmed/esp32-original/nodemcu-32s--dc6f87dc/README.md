@@ -2,10 +2,22 @@
 
 **Generic - manufacturer unconfirmed** · ESP32 original
 
-Revision: ESP-32S Kit layout shown  
+Revision: ESP-32S Kit layout shown
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=generic-manufacturer-unconfirmed-esp32-nodemcu-32s)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout - Renzo Mischianti
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://mischianti.org/wp-content/uploads/2024/02/ESP32-NODEMCU-ESP-32S-Kit-pinout-low-res-mischianti.jpg) · [Source 2](https://mischianti.org/esp32-nodemcu-32s-esp-32s-kit-high-resolution-pinout-datasheet-and-specs/)
 
 Original public image by Renzo Mischianti, unchanged. Diagram/model matching is visual, not electrical verification. Exact PCB layout and revision must match; no inference of compatibility with lookalike marketplace clones. Diagram title does not establish the maker of all boards sold under this name; attribution remains unconfirmed.
+
+Image revision: ESP-32S Kit layout shown
 
 SHA-256: `0bf465ec6db60ed777a06a1d7fed8b0faeba302b2ae451eab3ddbf6008f30436`
 

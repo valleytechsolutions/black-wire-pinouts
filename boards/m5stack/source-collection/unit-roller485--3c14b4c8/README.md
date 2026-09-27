@@ -2,10 +2,22 @@
 
 **M5Stack** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-2f8863fd57f131c6f0)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.m5stack.com/en/unit/Unit-Roller485)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Dimensions
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/products/unit/Unit-Roller485/%E5%B0%BA%E5%AF%B8%E5%9B%BE2.jpg) · [Source 2](https://docs.m5stack.com/en/unit/Unit-Roller485)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `b9410bc2bcbb79cf438222af9b2138fb11db22e055ac36b25be42585793095a9`
 
@@ -37,6 +51,8 @@ SHA-256: `b9410bc2bcbb79cf438222af9b2138fb11db22e055ac36b25be42585793095a9`
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `7c3cabf5f5de0fd772d98d51b86b09f51022ee27d2350fd31a6a1eb26cd794e7`
 
 ## Dimensions
@@ -53,6 +69,8 @@ SHA-256: `7c3cabf5f5de0fd772d98d51b86b09f51022ee27d2350fd31a6a1eb26cd794e7`
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `e3f8ee409fc06d487e4ae316b9270aeb7252c9c15a32a3a341f1d9552c5a22d6`
 
 ## Dimensions
@@ -68,6 +86,8 @@ SHA-256: `e3f8ee409fc06d487e4ae316b9270aeb7252c9c15a32a3a341f1d9552c5a22d6`
 [Source 1](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/products/unit/Unit-Roller485/%E5%B0%BA%E5%AF%B8%E5%9B%BE.jpg) · [Source 2](https://docs.m5stack.com/en/unit/Unit-Roller485)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `443997d6d9d6a1d303edfb7892531c9c838962f692c3085604b63a9115d34873`
 

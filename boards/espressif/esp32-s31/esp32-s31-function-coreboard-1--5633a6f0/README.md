@@ -2,10 +2,22 @@
 
 **Espressif** · ESP32-S31
 
-Revision: Multiple source/revision records; see individual assets  
+Revision: Multiple source/revision records; see individual assets
+
 Coverage: Board labels only; pinout needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=espressif-esp32-esp32-s31-function-coreboard-1)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Board component and connector locations
 
@@ -18,6 +30,10 @@ Coverage: Board labels only; pinout needed
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Espressif.
 
 [Source 1](https://raw.githubusercontent.com/espressif/esp-dev-kits/ab7aff2e0c171e6918c88555b700798f36caeb67/docs/_static/esp32-s31-function-coreboard-1/esp32-s31-function-coreboard-1-annotated-photo-back.png) · [Source 2](https://github.com/espressif/esp-dev-kits/blob/ab7aff2e0c171e6918c88555b700798f36caeb67/docs/_static/esp32-s31-function-coreboard-1/esp32-s31-function-coreboard-1-annotated-photo-back.png)
+
+
+
+Image revision: Source filename: esp32-s31-function-coreboard-1-annotated-photo-back.png
 
 SHA-256: `511af509dd6d10b1399b00d36377b30c205eb37ef8204d4aaa78ff8e9570fcb8`
 
@@ -32,6 +48,10 @@ SHA-256: `511af509dd6d10b1399b00d36377b30c205eb37ef8204d4aaa78ff8e9570fcb8`
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Espressif.
 
 [Source 1](https://raw.githubusercontent.com/espressif/esp-dev-kits/ab7aff2e0c171e6918c88555b700798f36caeb67/docs/_static/esp32-s31-function-coreboard-1/esp32-s31-function-coreboard-1-annotated-photo-front.png) · [Source 2](https://github.com/espressif/esp-dev-kits/blob/ab7aff2e0c171e6918c88555b700798f36caeb67/docs/_static/esp32-s31-function-coreboard-1/esp32-s31-function-coreboard-1-annotated-photo-front.png)
+
+
+
+Image revision: Source filename: esp32-s31-function-coreboard-1-annotated-photo-front.png
 
 SHA-256: `e444f345e5eae00fd9de19c04f6cd439c21da975c1d9950744530ac460c28106`
 

@@ -2,10 +2,22 @@
 
 **Heltec** · Other
 
-Revision: HTCC-AM02_PinoutDiagram.pdf  
+Revision: HTCC-AM02_PinoutDiagram.pdf
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=heltec-other-cubecell-htcc-am02-module-board)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout reference - PDF page 1
 
@@ -21,6 +33,8 @@ Coverage: Pinout image collected
 
 Original manufacturer resource filename: HTCC-AM02_PinoutDiagram.pdf. Filename and printed revision must be matched to the board. Original PDF page 1 rendered at 220 dpi; no labels changed.
 
+Image revision: HTCC-AM02_PinoutDiagram.pdf
+
 SHA-256: `e9f3edcc3155726476d22dc1ea518ea09ef45943221fc9112586a132aa240b11`
 
 ## Board pin reference - HTCC-AM02_PinoutDiagram
@@ -34,6 +48,8 @@ SHA-256: `e9f3edcc3155726476d22dc1ea518ea09ef45943221fc9112586a132aa240b11`
 [Source 1](https://resource.heltec.cn/download/CubeCell/HTCC-AM02_Module/HTCC-AM02_PinoutDiagram.pdf) · [Source 2](https://resource.heltec.cn/download/CubeCell/HTCC-AM02_Module)
 
 Original manufacturer resource filename: HTCC-AM02_PinoutDiagram.pdf. Filename and printed revision must be matched to the board.
+
+Image revision: HTCC-AM02_PinoutDiagram.pdf
 
 SHA-256: `30daaba8c5d3c1bd24a597478b63068b0f9b8005d46ad074b7d7528c98a778e4`
 

@@ -2,10 +2,22 @@
 
 **M5Stack** · Other SBC
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: GPIO reference collected; physical pinout needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=m5stack-other-sbc-llm630-compute-kit)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.m5stack.com/en/core/LLM630%20Compute%20Kit)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -20,6 +32,8 @@ Coverage: GPIO reference collected; physical pinout needed
 [Source 1](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/products/core/LLM630%20Computer%20Kit/LLM630%20PinMap.jpg) · [Source 2](https://docs.m5stack.com/en/core/LLM630%20Compute%20Kit)
 
 Imported from existing M5Stack Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `25c21fc75f8e57d8fe641fa552d9a346766db263a1ed04eee308d847d0f6677a`
 
@@ -36,6 +50,8 @@ SHA-256: `25c21fc75f8e57d8fe641fa552d9a346766db263a1ed04eee308d847d0f6677a`
 [Source 1](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/products/core/LLM630%20Computer%20Kit/model%20size.png) · [Source 2](https://docs.m5stack.com/en/core/LLM630%20Compute%20Kit)
 
 Original source index: Dimensions. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `84e8db4c9296ccf2d8d4d01faab10cb3042b84828a9ea287b8b60baf920b4a9a`
 

@@ -10,6 +10,17 @@ Coverage: Pinout image collected
 
 Architecture: **ARM**
 
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
+
 ## Physical GPIO header comparison
 
 **pinout image** · Reviewed source · PNG

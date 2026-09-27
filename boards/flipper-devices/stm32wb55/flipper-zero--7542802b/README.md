@@ -2,12 +2,24 @@
 
 **Flipper Devices** · STM32WB55
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
 [Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=flipper-devices-gpio-device-flipper-zero)
 
 Device category: **Handhelds & pocket tools**
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://flipper.net/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## GPIO pinout v2
 

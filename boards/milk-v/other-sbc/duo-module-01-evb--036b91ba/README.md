@@ -2,10 +2,22 @@
 
 **Milk-V** · Other SBC
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Board labels only; pinout needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=milk-v-other-sbc-duo-module-01-evb)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+Original manufacturer website still needs identification.
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Header orientation and board labels
 
@@ -18,6 +30,10 @@ Coverage: Board labels only; pinout needed
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Milk-V.
 
 [Source 1](https://raw.githubusercontent.com/milk-v/milkv.io/01bc64d3d71bce30faec2bc4ba6dd34310e4ac8c/static/docs/duo/dm01/dm01-evb-pinout.webp) · [Source 2](https://github.com/milk-v/milkv.io/blob/01bc64d3d71bce30faec2bc4ba6dd34310e4ac8c/static/docs/duo/dm01/dm01-evb-pinout.webp)
+
+
+
+Image revision: Not identified
 
 SHA-256: `3ad0f7ea4f8bce0979ee15f7492d9e84cf432dddc045f43552c320433224012a`
 

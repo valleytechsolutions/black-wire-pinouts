@@ -2,14 +2,26 @@
 
 **Seeed Studio** · Expansion
 
-Revision: Not identified  
-Coverage: Pinout image collected
+Revision: Not identified
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+Coverage: Partial connector source collected; full-device review pending
+
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-expansion-can-bus-shield-v1-2)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/CAN-BUS_Shield_V1.2/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
-**pinout image** · Reviewed source · PNG
+**pinout image** · Connector diagram visually inspected; independent electrical review pending · PNG
 
 [![CAN-BUS Shield V1.2 reference preview](../../../../library/thumbs/c69c4e9d3a6ead96d4a424b6094d288b77785efa7dce1461adb899a6204df2c9.webp)](../../../../library/media/c69c4e9d3a6ead96d4a424b6094d288b77785efa7dce1461adb899a6204df2c9.png)
 
@@ -19,7 +31,9 @@ Coverage: Pinout image collected
 
 [Source 1](https://files.seeedstudio.com/wiki/CAN_BUS_Shield/image/PINMAP.png) · [Source 2](https://wiki.seeedstudio.com/CAN-BUS_Shield_V1.2/)
 
-Imported from existing Seeed Studio Board Reference; original working path preserved.
+Physical connector/pad source reference. Only the connections shown are covered; source conflicts and exact revision still require technical review.
+
+Image revision: Not identified
 
 SHA-256: `c69c4e9d3a6ead96d4a424b6094d288b77785efa7dce1461adb899a6204df2c9`
 
@@ -37,6 +51,8 @@ SHA-256: `c69c4e9d3a6ead96d4a424b6094d288b77785efa7dce1461adb899a6204df2c9`
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `ceb190f51244f8643bd7d32ccd02ebff09e15844394adfdb2eadbc1b5f634f71`
 
 ## Pin Multiplexing (SPI CS Select)
@@ -52,6 +68,8 @@ SHA-256: `ceb190f51244f8643bd7d32ccd02ebff09e15844394adfdb2eadbc1b5f634f71`
 [Source 1](https://files.seeedstudio.com/wiki/CAN_BUS_Shield/image/sodder%20the%20middle%20pad%20and%20pad%2010.png) · [Source 2](https://wiki.seeedstudio.com/CAN-BUS_Shield_V1.2/)
 
 Original source index: Pin Multiplexing (SPI CS Select). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `b0003f6549515d47ab88fe57dc67afec8f0ee984571f57c47af74adec638962e`
 

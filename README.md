@@ -14,9 +14,15 @@
 
 Board and device references for **ESP32, Arduino, Raspberry Pi, RP2040/RP2350**, displays, sensors, buttons, interfaces and power modules. Find physical pinout sources, supporting photos, pin-purpose tables and manufacturer documentation, with revision and coverage notes. Generic modules and documentation gaps remain visible.
 
-The companion app **0.7.0** adds SBC/architecture filters and visible specifications links. The current hardware collection is snapshot **2026.09.7**. [How to read a pinout](https://valleytech-black-wire-guide.pages.dev/wiki/reading-pinouts/) · [Contribute or report a correction](CONTRIBUTING.md).
+The companion app **0.8.0** adds typed documentation coverage, saved datasheet navigation and I/O browsing. The current hardware collection is snapshot **2026.09.8**. [How to read a pinout](https://valleytech-black-wire-guide.pages.dev/wiki/reading-pinouts/) · [Contribute or report a correction](CONTRIBUTING.md).
 
-## Manufacturer and SBC expansion / snapshot 2026.09.7
+## Jetson, NanoPi and I/O expansion / snapshot 2026.09.8
+
+**75 additional listings · 114 reference files · 15 physical pinout-image entries.** Includes FriendlyELEC NanoPi/NanoPC, NVIDIA Jetson carrier documentation, Raspberry Pi I/O boards, Olimex GPIO maps, RAK13002 and Antmicro. [Sources, scope and remaining work](docs/EXPANSION-2026.09.8.md).
+
+Every listing now has explicit board-datasheet, manufacturer-website and visual-reference status. Supporting photos, schematics and chip datasheets retain their separate roles. [Documentation inventory](DOCUMENTATION.md) · [Every listing in CSV](catalog/documentation-coverage.csv).
+
+## Previous manufacturer and SBC expansion / snapshot 2026.09.7
 
 **107 additional listings · 229 additional reference entries · 127 additional physical pinout-image entries.** Expanded Adafruit and SparkFun references, FPGA boards, H4M, eight LattePanda models and Milk-V Mars. [Additions, source corrections and remaining gaps](docs/EXPANSION-2026.09.7.md).
 
@@ -44,13 +50,13 @@ Manufacturer originals remain intact. The annotated Adafruit sheets are CC BY-SA
 
 Find the picture that tells you **which physical pin does what**. This collection brings together original board pinouts, connector labels, GPIO references and supporting documents, organized by manufacturer, processor and exact board identity. The companion desktop app makes the same collection searchable offline.
 
-| First Edition · snapshot 2026.09.7 | Count |
+| First Edition · snapshot 2026.09.8 | Count |
 |---|---:|
-| Board pinout source image entries | **1,496** |
-| Searchable reference entries | **3,240** |
-| Catalog records with files | **1,806** |
-| Manufacturers and source groups | **64** |
-| Unique original media files, including vector companions | **3,188** |
+| Board pinout source image entries | **1,511** |
+| Searchable reference entries | **3,354** |
+| Catalog records with files | **1,889** |
+| Manufacturers and source groups | **67** |
+| Unique original media files, including vector companions | **3,303** |
 
 Records include shared references, variants, devices and unreviewed source products. These counts are **not a census of unique development boards**. Coverage is growing; it is not complete.
 

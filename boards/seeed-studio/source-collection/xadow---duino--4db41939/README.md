@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-f14ef57c3dbead5c50)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/Xadow_Duino/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Duino - Hardware Overview
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/Xadow-Duino/images/Xadow_Duino.png) · [Source 2](https://wiki.seeedstudio.com/Xadow_Duino/)
 
 Original source index: Duino - Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `78ee0e95c1c32c520b107c67e9fe76081416b1af0edffdb20de9d95eb0a9dc87`
 
@@ -36,6 +50,8 @@ SHA-256: `78ee0e95c1c32c520b107c67e9fe76081416b1af0edffdb20de9d95eb0a9dc87`
 [Source 1](https://files.seeedstudio.com/wiki/Xadow-Duino/images/Xadow_Duino_Pin_definitions.png) · [Source 2](https://wiki.seeedstudio.com/Xadow_Duino/)
 
 Original source index: Duino - Pinout. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `100d5561108a420445be914e65b967a99585db342f4479bbb056d1e0a85d917b`
 

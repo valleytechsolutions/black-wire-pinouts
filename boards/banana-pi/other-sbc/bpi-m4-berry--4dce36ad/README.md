@@ -10,6 +10,17 @@ Coverage: Pinout image collected
 
 Architecture: **ARM**
 
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.banana-pi.org/en/BPI-M4_Berry/BananaPi_BPI-M4_Berry)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
+
 ## Specifications and hardware documentation
 
 - [Manufacturer hardware documentation](https://docs.banana-pi.org/en/BPI-M4_Berry/BananaPi_BPI-M4_Berry)

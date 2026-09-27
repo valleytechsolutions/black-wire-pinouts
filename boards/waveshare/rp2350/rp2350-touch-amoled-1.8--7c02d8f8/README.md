@@ -2,10 +2,22 @@
 
 **Waveshare** · RP2350
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=waveshare-rp2350-rp2350-touch-amoled-1-8)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://www.waveshare.com/rp2350-touch-amoled-1.8.htm)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://www.waveshare.com/img/devkit/RP2350-Touch-AMOLED-1.8/RP2350-Touch-AMOLED-1.8-details-inter.jpg) · [Source 2](https://www.waveshare.com/rp2350-touch-amoled-1.8.htm)
+
+
+
+Image revision: Not identified
 
 SHA-256: `7714c43901d8b6b3edddc6aa68d9cd76c5cdace088937b1dac00e9293feed409`
 
@@ -32,6 +48,10 @@ SHA-256: `7714c43901d8b6b3edddc6aa68d9cd76c5cdace088937b1dac00e9293feed409`
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://www.waveshare.com/w/upload/c/c6/RP2350-Touch-AMOLED-1.8-details-inter.jpg) · [Source 2](https://www.waveshare.com/wiki/RP2350-Touch-AMOLED-1.8)
+
+
+
+Image revision: Not identified
 
 SHA-256: `cfd6abcd4c6cbd07b630858ff6bd356eba3af38267258ad5ab9cc03d36e8aac2`
 

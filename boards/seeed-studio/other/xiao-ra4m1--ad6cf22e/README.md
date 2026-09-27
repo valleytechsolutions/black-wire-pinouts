@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Other
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-other-xiao-ra4m1)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/getting_started_xiao_ra4m1/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout (Back)
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Seeed Studio.
 
 [Source 1](https://files.seeedstudio.com/wiki/XIAO-R4AM1/img/XIAO_RA4M1_back_pinout.png) · [Source 2](https://wiki.seeedstudio.com/getting_started_xiao_ra4m1/)
+
+
+
+Image revision: Not identified
 
 SHA-256: `886595b571493fdf4f37d2b3a5bb7b95a11f9d5a2572ce05215f1423a999576d`
 
@@ -32,6 +48,10 @@ SHA-256: `886595b571493fdf4f37d2b3a5bb7b95a11f9d5a2572ce05215f1423a999576d`
 **Credit and rights:** Not established; source attribution retained. Source/manufacturer: Seeed Studio.
 
 [Source 1](https://files.seeedstudio.com/wiki/XIAO-R4AM1/img/XIAO_RA4M1_front_pinout.png) · [Source 2](https://wiki.seeedstudio.com/getting_started_xiao_ra4m1/)
+
+
+
+Image revision: Not identified
 
 SHA-256: `253ea1087daf0f014f044254800dd85ed7a17de1fdffff85b16c6be3c55d88cb`
 

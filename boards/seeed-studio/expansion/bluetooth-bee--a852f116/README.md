@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Expansion
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-expansion-bluetooth-bee)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/Bluetooth_Bee/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://files.seeedstudio.com/wiki/Bluetooth-Bee/img/Bluetooth-pin.jpg) · [Source 2](https://wiki.seeedstudio.com/Bluetooth_Bee/)
 
 Imported from existing Seeed Studio Board Reference; original working path preserved.
+
+Image revision: Not identified
 
 SHA-256: `3e2d762a2855ad3f0ba70dcb8f1031e23dde345f74d424f475c95f26ac06bc8e`
 
@@ -36,6 +50,8 @@ SHA-256: `3e2d762a2855ad3f0ba70dcb8f1031e23dde345f74d424f475c95f26ac06bc8e`
 [Source 1](https://files.seeedstudio.com/wiki/Bluetooth-Bee/img/Bluetooth-1.jpg) · [Source 2](https://wiki.seeedstudio.com/Bluetooth_Bee/)
 
 Original source index: Block Diagram. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `39fddd9fb526e34a4d90d89ea340576346fc2fbe3d530f8dde066455b06b3d72`
 

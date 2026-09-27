@@ -2,10 +2,22 @@
 
 **Waveshare** · ESP32-C6
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=waveshare-esp32-esp32-c6-zero)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://www.waveshare.com/esp32-c6-zero.htm)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
@@ -18,6 +30,10 @@ Coverage: Pinout image collected
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://www.waveshare.com/img/devkit/ESP32-C6-Zero/ESP32-C6-Zero-details-inter.jpg) · [Source 2](https://www.waveshare.com/esp32-c6-zero.htm)
+
+
+
+Image revision: Not identified
 
 SHA-256: `5526a76218dc2aa11e70d7809c611cc2d15f05b2145687025d5a45c6a848247b`
 
@@ -33,6 +49,10 @@ SHA-256: `5526a76218dc2aa11e70d7809c611cc2d15f05b2145687025d5a45c6a848247b`
 
 [Source 1](https://docs.waveshare.com/assets/images/ESP32-C6-Zero-Pinout-41ae7de71386ab087c63bd6775b38a81.webp) · [Source 2](https://docs.waveshare.com/ESP32-C6-Zero)
 
+
+
+Image revision: Not identified
+
 SHA-256: `742c0e7db04f0779bbd5a10320448e027d7bce0c3757e79820e7fa9532d2a551`
 
 ## Pinout
@@ -46,6 +66,10 @@ SHA-256: `742c0e7db04f0779bbd5a10320448e027d7bce0c3757e79820e7fa9532d2a551`
 **Credit and rights:** Not recorded; retain original attribution. Source/manufacturer: Waveshare.
 
 [Source 1](https://www.waveshare.com/w/upload/2/2e/ESP32-C6-Zero_Pin.png) · [Source 2](https://www.waveshare.com/wiki/ESP32-C6-Zero)
+
+
+
+Image revision: Not identified
 
 SHA-256: `611a27ccfc81e01dd4fde7324bf03d93f5d134f30ced9606ea79d4710934c9e0`
 

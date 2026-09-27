@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-82e0c9235720f8e4b0)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/CAN-BUS_Shield_V2.0/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Hardware Overview
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/CAN_BUS_Shield/image/zhanshitu1.png) · [Source 2](https://wiki.seeedstudio.com/CAN-BUS_Shield_V2.0/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `bf7ab93bf8cf71b0cc82bd83821d2eb268d819790e99440545ee289f39a7837e`
 
@@ -37,6 +51,8 @@ SHA-256: `bf7ab93bf8cf71b0cc82bd83821d2eb268d819790e99440545ee289f39a7837e`
 
 Original source index: Pin Multiplexing (CS Select) 2. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `85f3f50131559f9d6e26590700f12903de62a4bdb97270335209870dca51ccda`
 
 ## Pin Multiplexing (CS Select)
@@ -52,6 +68,8 @@ SHA-256: `85f3f50131559f9d6e26590700f12903de62a4bdb97270335209870dca51ccda`
 [Source 1](https://files.seeedstudio.com/wiki/CAN_BUS_Shield/image/zhanshitu2.png) · [Source 2](https://wiki.seeedstudio.com/CAN-BUS_Shield_V2.0/)
 
 Original source index: Pin Multiplexing (CS Select). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `6c08fb0b5b2955245d05c3d56bc254a66667b1215e2f686dca4e6f8a6c39fc6e`
 

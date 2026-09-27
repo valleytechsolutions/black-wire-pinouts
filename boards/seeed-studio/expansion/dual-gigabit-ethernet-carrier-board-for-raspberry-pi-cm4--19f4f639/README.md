@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Expansion
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Partial pinout collected; full reference still needed
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-expansion-dual-gigabit-ethernet-carrier-board-for-raspberry-pi-cm4)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/Dual-Gigabit-Ethernet-Carrier-Board-for-Raspberry-Pi-CM4/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout (Boot Pins)
 
@@ -21,7 +33,7 @@ Coverage: Partial pinout collected; full reference still needed
 
 Imported from existing Seeed Studio Board Reference; original working path preserved. Only the named connector or subsection is covered.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `9fc6eb742335e369409920538aa2754400854d96b11ddd0d20dcd4c35fe3bbfa`
 
@@ -39,7 +51,7 @@ SHA-256: `9fc6eb742335e369409920538aa2754400854d96b11ddd0d20dcd4c35fe3bbfa`
 
 Imported from existing Seeed Studio Board Reference; original working path preserved. Only the named connector or subsection is covered.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `dc85f40608dcfb715c4b5c36329a30c2f65fb39ff76d36abba01cb273123d395`
 
@@ -57,7 +69,7 @@ SHA-256: `dc85f40608dcfb715c4b5c36329a30c2f65fb39ff76d36abba01cb273123d395`
 
 Imported from existing Seeed Studio Board Reference; original working path preserved. Only the named connector or subsection is covered.
 
-**Partial diagram. Confirm missing pins against the exact board documentation.**
+Image revision: Not identified
 
 SHA-256: `271b58517a15922f3a393f25955b76adf694e59d9d5ea070a1b2b4b542da523f`
 
@@ -71,7 +83,11 @@ SHA-256: `271b58517a15922f3a393f25955b76adf694e59d9d5ea070a1b2b4b542da523f`
 
 **Credit and rights:** Source rights not yet established. Source/manufacturer: Seeed Studio.
 
+
+
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `d5156c93de2257a08b258f45ec7c8bf1bd3155867517b1ffc8714733d75bae93`
 
@@ -85,7 +101,11 @@ SHA-256: `d5156c93de2257a08b258f45ec7c8bf1bd3155867517b1ffc8714733d75bae93`
 
 **Credit and rights:** Source rights not yet established. Source/manufacturer: Seeed Studio.
 
+
+
 Original source index: Pinout (Fan Connector). This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `d8346d3362737d65b8bd831c33503f22b5511fa84d96a04cef81a28e117dc13e`
 

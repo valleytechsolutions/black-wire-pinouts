@@ -2,10 +2,22 @@
 
 **Arduino** · Other
 
-Revision: Not identified  
+Revision: Not identified
+
 Coverage: Pinout image collected
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=arduino-other-edge-control)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://docs.arduino.cc/hardware/edge-control/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## simple-pinout
 
@@ -20,6 +32,8 @@ Coverage: Pinout image collected
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro-solutions/solutions-and-kits/edge-control/tutorials/01.user-manual/assets/simple-pinout.png) · [Source 2](https://docs.arduino.cc/hardware/edge-control/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro-solutions/solutions-and-kits/edge-control/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro-solutions/solutions-and-kits/edge-control/tutorials/01.user-manual/assets/simple-pinout.png)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement.
+
+Image revision: Not identified
 
 SHA-256: `6049e9c42fd380be11d4cf123a753ede3e76a105ea69c3640abffda647a78c6f`
 
@@ -37,6 +51,8 @@ SHA-256: `6049e9c42fd380be11d4cf123a753ede3e76a105ea69c3640abffda647a78c6f`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 1 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `23953c699f950d715e6e1175a79c4664026299d3dc2e14c0656495ede91978b5`
 
 ## Official full pinout - page 2
@@ -52,6 +68,8 @@ SHA-256: `23953c699f950d715e6e1175a79c4664026299d3dc2e14c0656495ede91978b5`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro-solutions/solutions-and-kits/edge-control/downloads/AKX00034-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/edge-control/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro-solutions/solutions-and-kits/edge-control/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro-solutions/solutions-and-kits/edge-control/downloads/AKX00034-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 2 rendered at 220 dpi; no labels changed.
+
+Image revision: Not identified
 
 SHA-256: `a5f1865766c272ca0f6b8ef9905ed71b0e8b56ac220f41288617a6ee289de188`
 
@@ -69,6 +87,8 @@ SHA-256: `a5f1865766c272ca0f6b8ef9905ed71b0e8b56ac220f41288617a6ee289de188`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 3 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `b27e61bacb78f1f3a49d7c6ad4b0014bae61d708441c254f750b4b4b007dfd70`
 
 ## Official full pinout - page 4
@@ -84,6 +104,8 @@ SHA-256: `b27e61bacb78f1f3a49d7c6ad4b0014bae61d708441c254f750b4b4b007dfd70`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro-solutions/solutions-and-kits/edge-control/downloads/AKX00034-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/edge-control/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro-solutions/solutions-and-kits/edge-control/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro-solutions/solutions-and-kits/edge-control/downloads/AKX00034-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 4 rendered at 220 dpi; no labels changed.
+
+Image revision: Not identified
 
 SHA-256: `23f3b1b92ee985086b8d1628ac7d63341128f5b26b9129f2be1631001a5a48ab`
 
@@ -101,6 +123,8 @@ SHA-256: `23f3b1b92ee985086b8d1628ac7d63341128f5b26b9129f2be1631001a5a48ab`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 5 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `abe9d0c1e4e91fe74d99086514243c927acae7371a7f49db79c36e6d1f6c541b`
 
 ## Official full pinout - page 6
@@ -116,6 +140,8 @@ SHA-256: `abe9d0c1e4e91fe74d99086514243c927acae7371a7f49db79c36e6d1f6c541b`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro-solutions/solutions-and-kits/edge-control/downloads/AKX00034-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/edge-control/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro-solutions/solutions-and-kits/edge-control/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro-solutions/solutions-and-kits/edge-control/downloads/AKX00034-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 6 rendered at 220 dpi; no labels changed.
+
+Image revision: Not identified
 
 SHA-256: `d628384cffc8f5c09de2f06dcdf37e06dda76c74732e39f9d6f18d5c255235e1`
 
@@ -133,6 +159,8 @@ SHA-256: `d628384cffc8f5c09de2f06dcdf37e06dda76c74732e39f9d6f18d5c255235e1`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 7 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `61ceb7c1a592982339e5c20cec10446b2ce12bd3ab0f77f32df6ee604420a20c`
 
 ## Official full pinout - page 8
@@ -148,6 +176,8 @@ SHA-256: `61ceb7c1a592982339e5c20cec10446b2ce12bd3ab0f77f32df6ee604420a20c`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro-solutions/solutions-and-kits/edge-control/downloads/AKX00034-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/edge-control/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro-solutions/solutions-and-kits/edge-control/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro-solutions/solutions-and-kits/edge-control/downloads/AKX00034-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 8 rendered at 220 dpi; no labels changed.
+
+Image revision: Not identified
 
 SHA-256: `a8fe21a4aeb03b99cd1bb203c190494d2a16e34dcd9b8875ea132e36d0efefc1`
 
@@ -165,6 +195,8 @@ SHA-256: `a8fe21a4aeb03b99cd1bb203c190494d2a16e34dcd9b8875ea132e36d0efefc1`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 9 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `e3371c1d7d53a28dfac34a83b668b11da6bc3fd4d717e8195bf7d010e81d0b35`
 
 ## Official full pinout - page 10
@@ -181,6 +213,8 @@ SHA-256: `e3371c1d7d53a28dfac34a83b668b11da6bc3fd4d717e8195bf7d010e81d0b35`
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement. Original PDF page 10 rendered at 220 dpi; no labels changed.
 
+Image revision: Not identified
+
 SHA-256: `05f7f808168d6baf71486cb59d560e3558d0cd14b32c957afb4b172a9b8d0ca7`
 
 ## Full board pinout PDF
@@ -194,6 +228,8 @@ SHA-256: `05f7f808168d6baf71486cb59d560e3558d0cd14b32c957afb4b172a9b8d0ca7`
 [Source 1](https://raw.githubusercontent.com/arduino/docs-content/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro-solutions/solutions-and-kits/edge-control/downloads/AKX00034-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/edge-control/) · [Source 3](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro-solutions/solutions-and-kits/edge-control/product.md) · [Source 4](https://github.com/arduino/docs-content/blob/dab66ecbd6ad52cd742da6c19c5b6330a7f2caae/content/hardware/pro-solutions/solutions-and-kits/edge-control/downloads/AKX00034-full-pinout.pdf)
 
 Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b6330a7f2caae. Match the board model, SKU and revision printed on each source sheet; lifecycle is not inferred from repository folder placement.
+
+Image revision: Not identified
 
 SHA-256: `260df51179f4270306bf251543c3b9e4b37f9b07354e253be71cb6b2dd4d376e`
 

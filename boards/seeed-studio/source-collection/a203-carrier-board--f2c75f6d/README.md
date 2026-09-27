@@ -2,10 +2,22 @@
 
 **Seeed Studio** · Source collection
 
-Revision: Unverified source identity  
+Revision: Unverified source identity
+
 Coverage: Source collection; review pending
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-8a6ca60b3f21712d8a)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/reComputer_A203_Flash_System/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Hardware Overview 2
 
@@ -20,6 +32,8 @@ Coverage: Source collection; review pending
 [Source 1](https://files.seeedstudio.com/wiki/reComputer_Carrier_Board/A203/Flash_A2033.jpg) · [Source 2](https://wiki.seeedstudio.com/reComputer_A203_Flash_System/)
 
 Original source index: Hardware Overview 2. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `4abdbfe52e68c7b9a8f7a4c2b91b9bbb765cf595b191adc6b87a87354890cc5e`
 
@@ -37,6 +51,8 @@ SHA-256: `4abdbfe52e68c7b9a8f7a4c2b91b9bbb765cf595b191adc6b87a87354890cc5e`
 
 Original source index: Hardware Overview 2. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `8d983e0d721dddb42d6823b9e3a1bd09c230e3848b2858c699191db82efc197d`
 
 ## Hardware Overview
@@ -52,6 +68,8 @@ SHA-256: `8d983e0d721dddb42d6823b9e3a1bd09c230e3848b2858c699191db82efc197d`
 [Source 1](https://files.seeedstudio.com/wiki/reComputer_Carrier_Board/A203/Flash_A2032.jpg) · [Source 2](https://wiki.seeedstudio.com/reComputer_A203_Flash_System/)
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `beec7755dfa13789bf520c6b9dd06f72235512c4e761bbb0c97cd836c38814c9`
 
@@ -69,6 +87,8 @@ SHA-256: `beec7755dfa13789bf520c6b9dd06f72235512c4e761bbb0c97cd836c38814c9`
 
 Original source index: Hardware Overview. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `be727e4547105547e492d1a4c7d0a35ca19ed979a07691fe6c25f6a905b4d4c2`
 
 ## Pin Definition 2
@@ -83,6 +103,8 @@ SHA-256: `be727e4547105547e492d1a4c7d0a35ca19ed979a07691fe6c25f6a905b4d4c2`
 
 Original source index: Pin Definition 2. This file is searchable but has not been promoted to a reviewed physical board pinout.
 
+Image revision: Not identified
+
 SHA-256: `b25c42c01a188eeafeaf91a08d3aa9ebef9e0377d5bf2f0f15baecae6c6f69b9`
 
 ## Pin Definition
@@ -96,6 +118,8 @@ SHA-256: `b25c42c01a188eeafeaf91a08d3aa9ebef9e0377d5bf2f0f15baecae6c6f69b9`
 [Source 1](https://files.seeedstudio.com/products/114110047/A203_Pin_Description.pdf) · [Source 2](https://wiki.seeedstudio.com/reComputer_A203_Flash_System/)
 
 Original source index: Pin Definition. This file is searchable but has not been promoted to a reviewed physical board pinout.
+
+Image revision: Not identified
 
 SHA-256: `9ed1b1a67d887684e1a8e678d0726f5df647372425d79a7f00fe2e2c2dd36a74`
 

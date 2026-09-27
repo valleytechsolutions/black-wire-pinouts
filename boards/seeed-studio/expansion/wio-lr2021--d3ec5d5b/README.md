@@ -2,14 +2,26 @@
 
 **Seeed Studio** · Expansion
 
-Revision: Not identified  
-Coverage: Pinout image collected
+Revision: Not identified
 
-[Browse all manufacturers](../../../../BROWSE.md) · [Desktop app](https://github.com/valleytechsolutions/black-wire-desktop)
+Coverage: Partial connector source collected; full-device review pending
+
+[Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-expansion-wio-lr2021)
+
+## Datasheets and original documentation
+
+Board datasheet: **not yet recorded**. Visual reference: **available**.
+
+[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/wio_lr2021_introduction/)
+
+
+A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+
+[Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Pinout
 
-**pinout image** · Reviewed source · JPG
+**pinout image** · Connector diagram visually inspected; independent electrical review pending · JPG
 
 [![Wio-LR2021 reference preview](../../../../library/thumbs/63ac27467f9c9f8e9286f7a0056ee75f26892d92a0d06b02690aa3f763273215.webp)](../../../../library/media/63ac27467f9c9f8e9286f7a0056ee75f26892d92a0d06b02690aa3f763273215.jpg)
 
@@ -19,13 +31,15 @@ Coverage: Pinout image collected
 
 [Source 1](https://files.seeedstudio.com/wiki/Wio-LR2021/img/Wio-LR2021-pinout-5-mask.jpg) · [Source 2](https://wiki.seeedstudio.com/wio_lr2021_introduction/)
 
-Imported from existing Seeed Studio Board Reference; original working path preserved.
+Physical connector/pad source reference. Only the connections shown are covered; source conflicts and exact revision still require technical review.
+
+Image revision: Not identified
 
 SHA-256: `63ac27467f9c9f8e9286f7a0056ee75f26892d92a0d06b02690aa3f763273215`
 
 ## Pinout (Symbol)
 
-**source reference** · Unreviewed source · PNG
+**pinout image** · Connector diagram visually inspected; independent electrical review pending · PNG
 
 [![Wio-LR2021 reference preview](../../../../library/thumbs/c4d148a83fb5af5e86c9b15a1f8b5acfa53f206def1a10677b683c34dbe4d02b.webp)](../../../../library/media/c4d148a83fb5af5e86c9b15a1f8b5acfa53f206def1a10677b683c34dbe4d02b.png)
 
@@ -35,7 +49,9 @@ SHA-256: `63ac27467f9c9f8e9286f7a0056ee75f26892d92a0d06b02690aa3f763273215`
 
 [Source 1](https://files.seeedstudio.com/wiki/Wio-LR2021/img/WIO-LR2021_Pinout-3.png) · [Source 2](https://wiki.seeedstudio.com/wio_lr2021_introduction/)
 
-Original source index: Pinout (Symbol). This file is searchable but has not been promoted to a reviewed physical board pinout.
+Physical connector/pad source reference. Only the connections shown are covered; source conflicts and exact revision still require technical review.
+
+Image revision: Not identified
 
 SHA-256: `c4d148a83fb5af5e86c9b15a1f8b5acfa53f206def1a10677b683c34dbe4d02b`
 
