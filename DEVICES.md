@@ -2,7 +2,7 @@
 
 [Search devices in the browser guide](https://valleytech-black-wire-guide.pages.dev/?tab=devices) · [All boards](BROWSE.md) · [First Edition](EDITION.md)
 
-**313 device records with references.** Includes handhelds, radio nodes, wearables, cameras, displays and controllers. Counts include unreviewed source records and supporting references; not every record has a full physical pinout.
+**315 device records with references.** Includes handhelds, radio nodes, wearables, cameras, displays and controllers. Counts include unreviewed source records and supporting references; not every record has a full physical pinout.
 
 Original manufacturer images remain unchanged. Revision and partial-map notes live on each device page.
 
@@ -31,13 +31,19 @@ Original manufacturer images remain unchanged. Revision and partial-map notes li
 | Seeed Studio | [reSpeaker Flex Circular Mic Array](boards/seeed-studio/source-collection/respeaker-flex-circular-mic-array--6b67b941/README.md) | Not recorded | 0 | 2 |
 | Seeed Studio | [reSpeaker Flex Linear Mic Array](boards/seeed-studio/source-collection/respeaker-flex-linear-mic-array--4f5d287d/README.md) | Not recorded | 0 | 1 |
 | Seeed Studio | [reSpeaker Flex with XIAO ESP32S3](boards/seeed-studio/esp32-s3/respeaker-flex-with-xiao-esp32s3--18d2bb95/README.md) | ESP32-S3 | 1 | 2 |
-| Seeed Studio | [reSpeaker Lite](boards/seeed-studio/expansion/respeaker-lite--10a6ec69/README.md) | Not recorded | 1 | 5 |
+| Seeed Studio | [reSpeaker Lite](boards/seeed-studio/expansion/respeaker-lite--10a6ec69/README.md) | Not recorded | 1 | 4 |
 | Seeed Studio | [reSpeaker Lite Voice Assistant Kit](boards/seeed-studio/esp32-s3/respeaker-lite-voice-assistant-kit--6a064298/README.md) | ESP32-S3 | 1 | 1 |
 | Seeed Studio | [reSpeaker USB 4-Mic Array XVF3000 V2.0](boards/seeed-studio/source-collection/respeaker-usb-4-mic-array-xvf3000-v2.0--26322807/README.md) | Not recorded | 0 | 5 |
 | Seeed Studio | [reSpeaker USB 4-Mic Array XVF3000 V3.0](boards/seeed-studio/source-collection/respeaker-usb-4-mic-array-xvf3000-v3.0--5cb8300d/README.md) | Not recorded | 0 | 3 |
 | Seeed Studio | [reSpeaker USB Mic Array](boards/seeed-studio/source-collection/respeaker-usb-mic-array--54d3cbb4/README.md) | Not recorded | 0 | 1 |
 | Seeed Studio | [reSpeaker XVF3800 USB 4-Mic Array](boards/seeed-studio/expansion/respeaker-xvf3800-usb-4-mic-array--f4b054e0/README.md) | Not recorded | 1 | 2 |
 | Seeed Studio | [reSpeaker XVF3800 USB 4-Mic Array with XIAO ESP32S3](boards/seeed-studio/esp32-s3/respeaker-xvf3800-usb-4-mic-array-with-xiao-esp32s3--6680d1ef/README.md) | ESP32-S3 | 1 | 2 |
+
+## Cameras & vision
+
+| Manufacturer | Device | Processor | Pinout images | References |
+|---|---|---|---:|---:|
+| Espressif | [ESP32-P4X-EYE](boards/espressif/esp32-p4/esp32-p4x-eye--7ab5d580/README.md) | ESP32-P4 | 0 | 4 |
 
 ## Controllers & instruments
 
@@ -238,6 +244,12 @@ Original manufacturer images remain unchanged. Revision and partial-map notes li
 | Sunton | [ESP32-2432S032C-I](boards/sunton/esp32/esp32-2432s032c-i--f56511ce/README.md) | ESP32 | 0 | 1 |
 | Sunton | [ESP32-3248S035R](boards/sunton/esp32/esp32-3248s035r--0706e456/README.md) | ESP32 | 1 | 2 |
 
+## Displays & HMIs
+
+| Manufacturer | Device | Processor | Pinout images | References |
+|---|---|---|---:|---:|
+| Espressif | [ESP-Mosaico](boards/espressif/esp32-s31/esp-mosaico--dce037ad/README.md) | ESP32-S31 | 0 | 5 |
+
 ## Handhelds & pocket tools
 
 | Manufacturer | Device | Processor | Pinout images | References |
@@ -384,3 +396,19 @@ The manufacturer documents an LR2021 radio variant. The collected SX1262 T-Beam 
 Official hardware documentation is available. A complete, original physical I/O pinout image still needs collecting; the WiPhone daughter board is a different product.
 
 [Official source](https://docs.buspirate.com/docs/hardware/bp5rev10/introduction/)
+
+### Espressif ESP32-H4 / ESP32-H21 development-board documentation
+
+**Board-level documentation watch** · Checked 2026-09-26
+
+The official catalog names these SoC families, but the inspected catalog did not supply a specific board-level GPIO sheet. No chip-package diagram or speculative board pinout is substituted.
+
+[Official source](https://www.espressif.com/en/products/devkits)
+
+### Steiert Solutions CycloMod
+
+**Physical pinout and board datasheet needed** · Checked 2026-09-26
+
+Creator repository has board and block-diagram images, now saved in the guide. Physical MicroMod connector mapping is still missing; campaign is gathering interest.
+
+[Official source](https://github.com/gsteiert/cyclomod)

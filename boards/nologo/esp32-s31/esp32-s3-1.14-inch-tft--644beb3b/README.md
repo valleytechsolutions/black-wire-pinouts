@@ -1,10 +1,10 @@
 # ESP32-S3 1.14-inch TFT
 
-**Nologo** · ESP32-S31
+**Nologo** · ESP32-S3
 
 Revision: Not identified
 
-Coverage: Pinout image collected
+Coverage: Physical pinout source collected; match revision and connector scope
 
 [Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=nologo-esp32-esp32-s3-1-14-inch-tft)
 
@@ -12,7 +12,7 @@ Coverage: Pinout image collected
 
 Board datasheet: **not yet recorded**. Visual reference: **available**.
 
-Original manufacturer website still needs identification.
+[Manufacturer source (recorded link)](https://www.nologo.tech/product/esp32/esp32s3/esp32S31.14TFT/esp32S31.14TFT.html)
 
 
 A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.

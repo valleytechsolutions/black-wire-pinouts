@@ -4,7 +4,7 @@
 
 Revision: Not identified
 
-Coverage: Partial connector source collected; full-device review pending
+Coverage: Physical pinout source collected; match revision and connector scope
 
 [Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-expansion-respeaker-lite)
 
@@ -56,22 +56,6 @@ Original source index: Hardware Overview (Back). This file is searchable but has
 Image revision: Not identified
 
 SHA-256: `0a8824b02706f753e4bbe5cc94c5ce6a0ddf8cbaa19fb9753e12ed75b02c4e77`
-
-## Hardware Overview (Front)
-
-**source reference** · Unreviewed source · PNG
-
-[Open original reference](../../../../library/media/1dfa2ded86ac644ff99a2474fc253b905343eab6be3a33870d358a7e1a0e43a8.png)
-
-**Credit and rights:** Source rights not yet established. Source/manufacturer: Seeed Studio.
-
-[Source 1](https://files.seeedstudio.com/wiki/SenseCAP/respeaker/front.png) · [Source 2](https://wiki.seeedstudio.com/xiao_respeaker/)
-
-Original source index: Hardware Overview (Front). This file is searchable but has not been promoted to a reviewed physical board pinout.
-
-Image revision: Not identified
-
-SHA-256: `1dfa2ded86ac644ff99a2474fc253b905343eab6be3a33870d358a7e1a0e43a8`
 
 ## Hardware Overview 2
 

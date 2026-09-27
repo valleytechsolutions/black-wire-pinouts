@@ -8,15 +8,21 @@
 
 <p align="center"><a href="https://github.com/valleytechsolutions/black-wire-pinouts/releases">Download the collection</a> · <a href="BROWSE.md">Browse boards</a> · <a href="catalog/attributions.csv">Source credits</a> · <a href="https://github.com/valleytechsolutions/black-wire-desktop/releases">Download the desktop app</a> · <a href="CONTRIBUTING.md">Contribute a reference</a></p>
 
+![ESP-Mosaico GPIO reference in Black Wire](docs/screenshots/mosaico-reference.png)
+
 ## Find a pinout, then build
 
 **[Search the guide](https://valleytech-black-wire-guide.pages.dev/) · [Read the reference wiki](https://valleytech-black-wire-guide.pages.dev/wiki/) · [Browse maker modules](https://valleytech-black-wire-guide.pages.dev/wiki/modules/) · [Get the Windows app](https://github.com/valleytechsolutions/black-wire-desktop/releases/latest)**
 
 Board and device references for **ESP32, Arduino, Raspberry Pi, RP2040/RP2350**, displays, sensors, buttons, interfaces and power modules. Find physical pinout sources, supporting photos, pin-purpose tables and manufacturer documentation, with revision and coverage notes. Generic modules and documentation gaps remain visible.
 
-The companion app **0.8.0** adds typed documentation coverage, saved datasheet navigation and I/O browsing. The current hardware collection is snapshot **2026.09.8**. [How to read a pinout](https://valleytech-black-wire-guide.pages.dev/wiki/reading-pinouts/) · [Contribute or report a correction](CONTRIBUTING.md).
+The companion app **0.9.0** improves model search, source availability and workbench reliability. The current hardware collection is snapshot **2026.09.9**. [How to read a pinout](https://valleytech-black-wire-guide.pages.dev/wiki/reading-pinouts/) · [Contribute or report a correction](CONTRIBUTING.md).
 
-## Jetson, NanoPi and I/O expansion / snapshot 2026.09.8
+## Search and source sweep / snapshot 2026.09.9
+
+**Six new records · 24 new references · four physical pinout-image entries.** Includes ESP-Mosaico, P4X boards and FPGA references. Nine processor categories and two malformed records corrected; a damaged image retired. [Full audit, sources and limits](docs/EXPANSION-2026.09.9.md) · [Documentation endpoint results](docs/LINK-AUDIT.md).
+
+## Previous Jetson, NanoPi and I/O expansion / snapshot 2026.09.8
 
 **75 additional listings · 114 reference files · 15 physical pinout-image entries.** Includes FriendlyELEC NanoPi/NanoPC, NVIDIA Jetson carrier documentation, Raspberry Pi I/O boards, Olimex GPIO maps, RAK13002 and Antmicro. [Sources, scope and remaining work](docs/EXPANSION-2026.09.8.md).
 
@@ -50,13 +56,13 @@ Manufacturer originals remain intact. The annotated Adafruit sheets are CC BY-SA
 
 Find the picture that tells you **which physical pin does what**. This collection brings together original board pinouts, connector labels, GPIO references and supporting documents, organized by manufacturer, processor and exact board identity. The companion desktop app makes the same collection searchable offline.
 
-| First Edition · snapshot 2026.09.8 | Count |
+| First Edition · snapshot 2026.09.9 | Count |
 |---|---:|
-| Board pinout source image entries | **1,511** |
-| Searchable reference entries | **3,354** |
-| Catalog records with files | **1,889** |
-| Manufacturers and source groups | **67** |
-| Unique original media files, including vector companions | **3,303** |
+| Board pinout source image entries | **1,515** |
+| Searchable reference entries | **3,377** |
+| Catalog records with files | **1,896** |
+| Manufacturers and source groups | **70** |
+| Unique original media files, including vector companions | **3,326** |
 
 Records include shared references, variants, devices and unreviewed source products. These counts are **not a census of unique development boards**. Coverage is growing; it is not complete.
 
@@ -64,7 +70,7 @@ Records include shared references, variants, devices and unreviewed source produ
 
 ## Devices & IoT
 
-**[Browse 313 device records](DEVICES.md)** or use the new **[Devices & IoT tab](https://valleytech-black-wire-guide.pages.dev/?tab=devices)**. Find T-Embed, T-Beam, T-Deck, Cardputer, Flipper, wearables, LoRa nodes, smart displays and controllers by category, manufacturer and MCU. Missing sheets and in-development documentation are explicitly labeled.
+**[Browse 315 device records](DEVICES.md)** or use the new **[Devices & IoT tab](https://valleytech-black-wire-guide.pages.dev/?tab=devices)**. Find T-Embed, T-Beam, T-Deck, Cardputer, Flipper, wearables, LoRa nodes, smart displays and controllers by category, manufacturer and MCU. Missing sheets and in-development documentation are explicitly labeled.
 
 ![Devices and IoT browsing in Black Wire](docs/screenshots/devices-iot.png)
 
@@ -91,7 +97,7 @@ Original files are stored once by content hash; board pages provide the human-fr
 
 Download a versioned ZIP from this repository's **[collection releases](https://github.com/valleytechsolutions/black-wire-pinouts/releases)**. Each release includes the full reference collection, board indexes, source credits, license/rights notices and a SHA-256 checksum. Extract the whole ZIP and begin with `README.md` and `BROWSE.md`. The files work on **Windows, Linux and macOS** with an image/PDF viewer and a Markdown reader; no installer is needed for the collection.
 
-The guide remains **First Edition / 2026**. The latest collection snapshot is **[2026.09.7 — Manufacturer and SBC expansion](https://github.com/valleytechsolutions/black-wire-pinouts/releases/tag/v2026.09.7)**; [2026.09.1](https://github.com/valleytechsolutions/black-wire-pinouts/releases/tag/v2026.09.1) remains available unchanged. Collection snapshots and app versions are independent of the future annual book editions; see [EDITION.md](EDITION.md). The [desktop repository](https://github.com/valleytechsolutions/black-wire-desktop/releases) provides application installers and states which operating systems actually have downloads.
+The guide remains **First Edition / 2026**. The latest collection snapshot is **[2026.09.9 — Search and source sweep](https://github.com/valleytechsolutions/black-wire-pinouts/releases/tag/v2026.09.9)**; [2026.09.1](https://github.com/valleytechsolutions/black-wire-pinouts/releases/tag/v2026.09.1) remains available unchanged. Collection snapshots and app versions are independent of the future annual book editions; see [EDITION.md](EDITION.md). The [desktop repository](https://github.com/valleytechsolutions/black-wire-desktop/releases) provides application installers and states which operating systems actually have downloads.
 
 You can also clone the current repository (about **1.8 GB** of reference data). Keep the folder structure intact. Local Markdown viewers can follow the board pages; the desktop app provides the full searchable image/PDF interface. See [release and checksum instructions](RELEASES.md).
 

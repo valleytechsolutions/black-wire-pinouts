@@ -225,6 +225,12 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 |---|---|---:|---:|
 | [FigPi](boards/benjamin-shockley/rp2040/figpi--7b280567/README.md) | RP2040 | 1 | 1 |
 
+## BrisbaneSilicon
+
+| Board / device | Processor / family | References | Pinout images |
+|---|---|---:|---:|
+| [ELM11 Feather](boards/brisbanesilicon/gw1nr-9c-bl702/elm11-feather--4943db35/README.md) | GW1NR-9C / BL702 | 6 | 3 |
+
 ## CRCibernetica
 
 | Board / device | Processor / family | References | Pinout images |
@@ -279,6 +285,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 
 | Board / device | Processor / family | References | Pinout images |
 |---|---|---:|---:|
+| [ESP-Mosaico](boards/espressif/esp32-s31/esp-mosaico--dce037ad/README.md) | ESP32-S31 | 5 | 0 |
 | [ESP32-C3-DEVKIT-RUST-2](boards/espressif/esp32-c3/esp32-c3-devkit-rust-2--800cb564/README.md) | ESP32-C3 | 1 | 1 |
 | [ESP32-C3-DEVKITC-02](boards/espressif/esp32-c3/esp32-c3-devkitc-02--56affe2c/README.md) | ESP32-C3 | 2 | 2 |
 | [ESP32-C3-DEVKITM-1](boards/espressif/esp32-c3/esp32-c3-devkitm-1--92dbd893/README.md) | ESP32-C3 | 1 | 1 |
@@ -297,6 +304,9 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [ESP32-H2-DEVKITM-1](boards/espressif/esp32-h2/esp32-h2-devkitm-1--d3340ac4/README.md) | ESP32-H2 | 1 | 1 |
 | [ESP32-P4-EYE](boards/espressif/esp32-p4/esp32-p4-eye--1d4baccc/README.md) | ESP32-P4 | 1 | 1 |
 | [ESP32-P4-Function-EV-Board v1.5.2](boards/espressif/esp32-p4/esp32-p4-function-ev-board-v1-5-2--b34c2d3a/README.md) | ESP32-P4 | 2 | 0 |
+| [ESP32-P4X-C5-Function-EV-Board](boards/espressif/esp32-p4-esp32-c5/esp32-p4x-c5-function-ev-board--ccf4c166/README.md) | ESP32-P4 / ESP32-C5 | 3 | 0 |
+| [ESP32-P4X-EYE](boards/espressif/esp32-p4/esp32-p4x-eye--7ab5d580/README.md) | ESP32-P4 | 4 | 0 |
+| [ESP32-P4X-Function-EV-Board](boards/espressif/esp32-p4/esp32-p4x-function-ev-board--7d5c8a02/README.md) | ESP32-P4 | 2 | 0 |
 | [ESP32-PICO-DEVKITM-2](boards/espressif/esp32-original/esp32-pico-devkitm-2--a5aa0627/README.md) | ESP32 original | 1 | 1 |
 | [ESP32-PICO-KIT](boards/espressif/esp32-original/esp32-pico-kit--b07be4fc/README.md) | ESP32 original | 1 | 1 |
 | [ESP32-PICO-KIT-1](boards/espressif/esp32-original/esp32-pico-kit-1--3e71f3b2/README.md) | ESP32 original | 1 | 1 |
@@ -1193,7 +1203,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Arduino UnoPro4M](boards/nologo/other/arduino-unopro4m--67d40a08/README.md) | Other | 1 | 0 |
 | [ESP32-C3 SuperMini](boards/nologo/esp32-c3/esp32-c3-supermini--a8cb18ab/README.md) | ESP32-C3 | 1 | 0 |
 | [ESP32-S2 Pico](boards/nologo/esp32-s2/esp32-s2-pico--5a29b874/README.md) | ESP32-S2 | 1 | 1 |
-| [ESP32-S3 1.14-inch TFT](boards/nologo/esp32-s31/esp32-s3-1.14-inch-tft--644beb3b/README.md) | ESP32-S31 | 2 | 1 |
+| [ESP32-S3 1.14-inch TFT](boards/nologo/esp32-s31/esp32-s3-1.14-inch-tft--644beb3b/README.md) | ESP32-S3 | 2 | 1 |
 | [ESP32-S3 Pico](boards/nologo/esp32-s3/esp32-s3-pico--d4feb862/README.md) | ESP32-S3 | 2 | 2 |
 | [ESP32-S3 SuperMini](boards/nologo/esp32-s3/esp32-s3-supermini--0fe1e4fd/README.md) | ESP32-S3 | 1 | 1 |
 | [ESP32-S3 Xingzhi AI](boards/nologo/esp32-s3/esp32-s3-xingzhi-ai--22ba1821/README.md) | ESP32-S3 | 1 | 0 |
@@ -1591,7 +1601,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [reSpeaker Flex Circular Mic Array](boards/seeed-studio/source-collection/respeaker-flex-circular-mic-array--6b67b941/README.md) | Source collection | 2 | 0 |
 | [reSpeaker Flex Linear Mic Array](boards/seeed-studio/source-collection/respeaker-flex-linear-mic-array--4f5d287d/README.md) | Source collection | 1 | 0 |
 | [reSpeaker Flex with XIAO ESP32S3](boards/seeed-studio/esp32-s3/respeaker-flex-with-xiao-esp32s3--18d2bb95/README.md) | ESP32-S3 | 2 | 1 |
-| [reSpeaker Lite](boards/seeed-studio/expansion/respeaker-lite--10a6ec69/README.md) | Expansion | 5 | 1 |
+| [reSpeaker Lite](boards/seeed-studio/expansion/respeaker-lite--10a6ec69/README.md) | Expansion | 4 | 1 |
 | [reSpeaker Lite Voice Assistant Kit](boards/seeed-studio/esp32-s3/respeaker-lite-voice-assistant-kit--6a064298/README.md) | ESP32-S3 | 1 | 1 |
 | [reSpeaker USB 4-Mic Array XVF3000 V2.0](boards/seeed-studio/source-collection/respeaker-usb-4-mic-array-xvf3000-v2.0--26322807/README.md) | Source collection | 5 | 0 |
 | [reSpeaker USB 4-Mic Array XVF3000 V3.0](boards/seeed-studio/source-collection/respeaker-usb-4-mic-array-xvf3000-v3.0--5cb8300d/README.md) | Source collection | 3 | 0 |
@@ -1894,6 +1904,12 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Laser-450nm-5W driver](boards/spotpear-manufacturer-unconfirmed/expansion/laser-450nm-5w-driver--abce729e/README.md) | Expansion | 1 | 1 |
 | [RP2350B-LCD-2.25](boards/spotpear-manufacturer-unconfirmed/rp2350/rp2350b-lcd-2.25--a4888c8e/README.md) | RP2350 | 1 | 1 |
 
+## Steiert Solutions
+
+| Board / device | Processor / family | References | Pinout images |
+|---|---|---:|---:|
+| [CycloMod](boards/steiert-solutions/rp2350-cyclone-10-lp/cyclomod--c01e7a99/README.md) | RP2350 / Cyclone 10 LP | 2 | 0 |
+
 ## Sunton
 
 | Board / device | Processor / family | References | Pinout images |
@@ -1910,6 +1926,12 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 |---|---|---:|---:|
 | [CANipulator V1](boards/techoverflow/esp32-c6/canipulator-v1--178de7d7/README.md) | ESP32-C6 | 3 | 2 |
 | [CANipulator V2](boards/techoverflow/esp32-c5/canipulator-v2--e8bd2745/README.md) | ESP32-C5 | 3 | 2 |
+
+## Terasic
+
+| Board / device | Processor / family | References | Pinout images |
+|---|---|---:|---:|
+| [Atum A3 Nano](boards/terasic/agilex-3-fpga/atum-a3-nano--5b49301a/README.md) | Agilex 3 FPGA | 2 | 1 |
 
 ## Unattributed chip reference
 

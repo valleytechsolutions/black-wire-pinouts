@@ -3,7 +3,7 @@
 Known publisher domains identify recorded manufacturer links, not live-page checks.
 Only reviewed, explicitly typed resources count as board datasheets.
 """
-import collections,csv,json,re
+import collections,csv,json,re,datetime
 from pathlib import Path
 from urllib.parse import urlsplit
 ROOT=Path(__file__).resolve().parents[1]
@@ -18,7 +18,8 @@ DOMAINS={
  'BeagleBoard.org':['beagleboard.org'],'STMicroelectronics':['st.com'],'Sipeed':['sipeed.com'],
  'Olimex':['olimex.com'],'DFRobot':['dfrobot.com'],'Antmicro':['antmicro.com'],'Cytron Technologies':['cytron.io'],
  'NodeMCU':['nodemcu.com'],'WIZnet':['wiznet.io'],'Flipper Devices':['flipper.net','flipperzero.one'],
- 'TinyCircuits':['tinycircuits.com'],'Spotpear':['spotpear.com'],'HardKernel':['hardkernel.com'],
+ 'TinyCircuits':['tinycircuits.com'],'Spotpear':['spotpear.com'],'HardKernel':['hardkernel.com','odroid.com'],
+ 'BrisbaneSilicon':['brisbanesilicon.com.au'],'Terasic':['terasic.com.tw','terasic.com'],'Nologo':['nologo.tech'],
 }
 OWNERS={'Adafruit':['adafruit'],'SparkFun':['sparkfun'],'Espressif':['espressif'],'LILYGO':['xinyuan-lilygo'],'WeAct Studio':['weactstudio'],'M5Stack':['m5stack'],'Seeed Studio':['seeed-studio'],'RAKwireless':['rakwireless'],'Sipeed':['sipeed'],'Antmicro':['antmicro'],'Waveshare':['waveshareteam']}
 def valid(url):
@@ -53,7 +54,7 @@ def main():
    r['documentationCoverage']={'boardDatasheets':len(datasheets),'hardwareGuides':len(guides),'schematics':sum(x.get('kind')=='schematic' for x in resources),'componentDatasheets':sum(x.get('kind')=='datasheet' and x.get('scope')=='component' for x in resources),'visualCount':visual,'websiteStatus':'checked-model-page' if d.get('website',{}).get('checked') and d['website'].get('scope')=='model' else 'recorded-not-rechecked' if d.get('website') else 'missing','missing':missing}
    rows.append(dict(id=r['id'],name=r['name'],brand=r['brand'],kind=kind,**r['documentationCoverage'],website=d.get('website',{}).get('url','')))
  summary={kind:{'listings':len(rs),'withBoardDatasheet':sum(r['boardDatasheets']>0 for r in rs),'withHardwareGuide':sum(r['hardwareGuides']>0 for r in rs),'withVisual':sum(r['visualCount']>0 for r in rs),'withRecordedWebsite':sum(bool(r['website']) for r in rs),'checkedModelWebsite':sum(r['websiteStatus']=='checked-model-page' for r in rs)} for kind in ['board','maker'] for rs in [[r for r in rows if r['kind']==kind]]}
- c['documentationAudit']={'checked':'2026-09-26','summary':summary,'note':'An inventory audit, not a fresh live check of all historical URLs. Typed board datasheets, component datasheets and hardware guides are distinct. Unknown or unclassified documents remain gaps.'}
+ c['documentationAudit']={'checked':datetime.date.today().isoformat(),'summary':summary,'note':'An inventory audit. Separate endpoint-availability results, when present, do not validate model scope or pin assignments. Typed board datasheets, component datasheets and hardware guides are distinct. Unknown or unclassified documents remain gaps.'}
  def write(p,o):p.write_text(json.dumps(o,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
  write(path,c)
  maker_path=ROOT/'library/maker-parts.json';m=json.loads(maker_path.read_text('utf-8'));m['parts']=c['makerParts'];write(maker_path,m)

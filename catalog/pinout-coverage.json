@@ -1,14 +1,14 @@
 {
   "checked": "2026-09-26",
-  "listingCount": 3090,
+  "listingCount": 3094,
   "countsAreListingsNotUniqueHardware": true,
   "completeDeviceApprovals": 0,
   "summary": {
     "board": {
-      "pinout-source": 1000,
-      "reference-only": 881,
-      "missing": 699,
-      "functions-only": 9
+      "pinout-source": 1002,
+      "reference-only": 883,
+      "missing": 696,
+      "functions-only": 12
     },
     "maker": {
       "pinout-source": 166,
@@ -3017,16 +3017,16 @@
     },
     {
       "id": "espressif-esp32-esp32-p4x-function-ev",
-      "name": "ESP32-P4X-Function-EV",
+      "name": "ESP32-P4X-Function-EV-Board",
       "brand": "Espressif",
       "kind": "board",
-      "status": "missing",
+      "status": "functions-only",
       "physicalCount": 0,
-      "functionTableCount": 0,
+      "functionTableCount": 1,
       "functionSheetCount": 0,
-      "purposeRows": 0,
+      "purposeRows": 40,
       "completeDeviceApproved": false,
-      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "scope": "Pin functions documented; use the matching source image to locate the connector. Physical order is not established by a function table.",
       "missing": [
         "Physical connector map",
         "Independent all-connector completeness review",
@@ -10876,24 +10876,6 @@
       ]
     },
     {
-      "id": "waveshare-esp32-esp32-s3-epaper-13-3e67",
-      "name": "ESP32-S3-ePaper-13.3E67",
-      "brand": "Waveshare",
-      "kind": "board",
-      "status": "missing",
-      "physicalCount": 0,
-      "functionTableCount": 0,
-      "functionSheetCount": 0,
-      "purposeRows": 0,
-      "completeDeviceApproved": false,
-      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
-      "missing": [
-        "Physical connector map",
-        "Independent all-connector completeness review",
-        "Revision match and electrical limits"
-      ]
-    },
-    {
       "id": "waveshare-esp32-esp32-s3-epaper-3-97",
       "name": "ESP32-S3-ePaper-3.97",
       "brand": "Waveshare",
@@ -11960,24 +11942,6 @@
       "completeDeviceApproved": false,
       "scope": "Source pinout available; check its connector scope and revision. All-pin completeness has not been independently approved.",
       "missing": [
-        "Independent all-connector completeness review",
-        "Revision match and electrical limits"
-      ]
-    },
-    {
-      "id": "waveshare-esp32-esp32-s3-touch-lcd-3-5b1",
-      "name": "ESP32-S3-Touch-LCD-3.5B1",
-      "brand": "Waveshare",
-      "kind": "board",
-      "status": "missing",
-      "physicalCount": 0,
-      "functionTableCount": 0,
-      "functionSheetCount": 0,
-      "purposeRows": 0,
-      "completeDeviceApproved": false,
-      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
-      "missing": [
-        "Physical connector map",
         "Independent all-connector completeness review",
         "Revision match and electrical limits"
       ]
@@ -19105,7 +19069,7 @@
     },
     {
       "id": "rakwireless-other-wismesh-base",
-      "name": "WisMesh-Base",
+      "name": "WisMesh Base Board RAK19026",
       "brand": "RAKwireless",
       "kind": "board",
       "status": "missing",
@@ -45606,6 +45570,112 @@
       "id": "antmicro-jetson-orin-baseboard",
       "name": "Jetson Orin Baseboard",
       "brand": "Antmicro",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "espressif-esp-mosaico",
+      "name": "ESP-Mosaico",
+      "brand": "Espressif",
+      "kind": "board",
+      "status": "functions-only",
+      "physicalCount": 0,
+      "functionTableCount": 2,
+      "functionSheetCount": 2,
+      "purposeRows": 40,
+      "completeDeviceApproved": false,
+      "scope": "Pin functions documented; use the matching source image to locate the connector. Physical order is not established by a function table.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "espressif-esp32-p4x-c5-function-ev-board",
+      "name": "ESP32-P4X-C5-Function-EV-Board",
+      "brand": "Espressif",
+      "kind": "board",
+      "status": "functions-only",
+      "physicalCount": 0,
+      "functionTableCount": 1,
+      "functionSheetCount": 0,
+      "purposeRows": 40,
+      "completeDeviceApproved": false,
+      "scope": "Pin functions documented; use the matching source image to locate the connector. Physical order is not established by a function table.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "espressif-esp32-p4x-eye",
+      "name": "ESP32-P4X-EYE",
+      "brand": "Espressif",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "brisbanesilicon-elm11-feather",
+      "name": "ELM11 Feather",
+      "brand": "BrisbaneSilicon",
+      "kind": "board",
+      "status": "pinout-source",
+      "physicalCount": 3,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Source pinout available; check its connector scope and revision. All-pin completeness has not been independently approved.",
+      "missing": [
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "terasic-atum-a3-nano",
+      "name": "Atum A3 Nano",
+      "brand": "Terasic",
+      "kind": "board",
+      "status": "pinout-source",
+      "physicalCount": 1,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Source pinout available; check its connector scope and revision. All-pin completeness has not been independently approved.",
+      "missing": [
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "steiert-solutions-cyclomod",
+      "name": "CycloMod",
+      "brand": "Steiert Solutions",
       "kind": "board",
       "status": "reference-only",
       "physicalCount": 0,

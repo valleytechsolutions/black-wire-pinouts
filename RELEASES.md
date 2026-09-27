@@ -4,7 +4,11 @@
 
 These are two independent release streams. A **collection release** contains images, PDFs, indexes and attribution records. A **desktop app release** contains an application for the operating systems listed in that release. A collection ZIP is not a desktop installer.
 
-## First Edition manufacturer and SBC expansion — 2026.09.7
+## Current First Edition source sweep — 2026.09.9
+
+Download `Black-Wire-Pinouts-2026.09.9.zip` and `SHA256SUMS.txt` from the matching release. The archive contains originals, model pages, source credits, documentation status and audit results. It works on Windows, Linux and macOS without an installer. [Scope and remaining gaps](docs/EXPANSION-2026.09.9.md).
+
+## Previous First Edition manufacturer and SBC expansion — 2026.09.7
 
 Adds 107 board/device listings, 229 reference entries and 127 physical pinout-image entries. Current totals: 2,514 board/device listings, 501 maker listings, 3,240 references, 1,496 pinout-image entries and 64 source groups. [Scope, sources and gaps](docs/EXPANSION-2026.09.7.md).
 

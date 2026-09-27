@@ -4,7 +4,7 @@
 
 Revision: Not identified
 
-Coverage: GPIO reference collected; physical pinout needed
+Coverage: Supporting documentation; physical pinout still needed
 
 [Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=waveshare-esp32-esp32-s3-epaper-13-3e6)
 

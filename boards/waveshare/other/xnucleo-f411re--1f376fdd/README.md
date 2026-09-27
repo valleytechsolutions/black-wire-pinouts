@@ -14,8 +14,9 @@ Board datasheet: **not yet recorded**. Visual reference: **available**.
 
 [Manufacturer source (recorded link)](https://www.waveshare.com/wiki/XNUCLEO-F411RE)
 
+- **hardware-guide / board**: [XNucleo user manual v2.6.2 — exact model figures on pages 14–15](https://www.waveshare.com/wiki/upload/d/d1/Xnucleo-UserManual.pdf) · online
 
-A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+The old model wiki page returns not found. The family manual contains model-specific pinout figures; match the printed model exactly. Local source images remain available.
 
 [Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
