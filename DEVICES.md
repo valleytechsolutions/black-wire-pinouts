@@ -2,7 +2,7 @@
 
 [Search devices in the browser guide](https://valleytech-black-wire-guide.pages.dev/?tab=devices) · [All boards](BROWSE.md) · [First Edition](EDITION.md)
 
-**315 device records with references.** Includes handhelds, radio nodes, wearables, cameras, displays and controllers. Counts include unreviewed source records and supporting references; not every record has a full physical pinout.
+**320 device records with references.** Includes handhelds, radio nodes, wearables, cameras, displays and controllers. Counts include unreviewed source records and supporting references; not every record has a full physical pinout.
 
 Original manufacturer images remain unchanged. Revision and partial-map notes live on each device page.
 
@@ -11,6 +11,7 @@ Original manufacturer images remain unchanged. Revision and partial-map notes li
 | Manufacturer | Device | Processor | Pinout images | References |
 |---|---|---|---:|---:|
 | Espressif | [ESP32-P4X-EYE](boards/espressif/esp32-p4/esp32-p4x-eye--7ab5d580/README.md) | ESP32-P4 | 0 | 4 |
+| Inland | [Inland ESP32-CAM WiFi Bluetooth Camera Modules - Pair](boards/inland/esp32/inland-esp32-cam-wifi-bluetooth-camera-modules-pair--4e93d847/README.md) | ESP32 | 0 | 1 |
 | LILYGO | [T-Camera Plus S3](boards/lilygo/esp32-s3/t-camera-plus-s3--1c483964/README.md) | ESP32-S3 | 1 | 1 |
 | LILYGO | [T-Camera-S3](boards/lilygo/esp32-s3/t-camera-s3--91dd0d7e/README.md) | ESP32-S3 | 1 | 1 |
 | M5Stack | [M5Camera](boards/m5stack/esp32-original/m5camera--d6433470/README.md) | ESP32 original | 0 | 1 |
@@ -47,6 +48,7 @@ Original manufacturer images remain unchanged. Revision and partial-map notes li
 | Arduino | [Alvik](boards/arduino/gpio-device/alvik--ec372a78/README.md) | Not recorded | 1 | 1 |
 | Arduino | [Nesso N1](boards/arduino/esp32-c6/nesso-n1--1f41d5bd/README.md) | ESP32-C6 | 12 | 15 |
 | Arduino | [Stella](boards/arduino/gpio-device/stella--9c840d79/README.md) | Not recorded | 2 | 3 |
+| DFRobot | [UNIHIKER K10 / DFR0992-EN](boards/dfrobot/esp32-s3/unihiker-k10-dfr0992-en--807626db/README.md) | ESP32-S3 | 0 | 1 |
 | LILYGO | [T-2Can](boards/lilygo/esp32-s3/t-2can--4efce943/README.md) | ESP32-S3 | 1 | 1 |
 | LILYGO | [T-2Can-FD](boards/lilygo/esp32-s3/t-2can-fd--129a16ae/README.md) | ESP32-S3 | 1 | 1 |
 | LILYGO | [T-CAN485 (CH340K)](boards/lilygo/esp32-original/t-can485-ch340k--fb4b71d3/README.md) | ESP32 original | 2 | 2 |
@@ -188,6 +190,7 @@ Original manufacturer images remain unchanged. Revision and partial-map notes li
 | Guition | [JC4880P443C_I_W](boards/guition/cyd/jc4880p443c-i-w--9bc93af7/README.md) | Not recorded | 0 | 2 |
 | Guition | [JC8012P4A1C_I_W](boards/guition/cyd/jc8012p4a1c-i-w--a674e4e8/README.md) | Not recorded | 0 | 2 |
 | Guition | [JC8048W550](boards/guition/cyd/jc8048w550--3bd9c37d/README.md) | Not recorded | 0 | 2 |
+| Inland | [Inland 2.8 Inch ESP32-32E Display Module Resistive Touch TFT Screen](boards/inland/esp32/inland-2-8-inch-esp32-32e-display-module-resistive-touch-tft-screen--a84ce85f/README.md) | ESP32 | 0 | 1 |
 | LILYGO | [Mini E-Paper 1.02 Core](boards/lilygo/esp32-original/mini-e-paper-1.02-core--2baac416/README.md) | ESP32 original | 1 | 1 |
 | LILYGO | [T-Circle](boards/lilygo/esp32-original/t-circle--5c9fc9c1/README.md) | ESP32 original | 1 | 1 |
 | LILYGO | [T-Circle-S3](boards/lilygo/esp32-s3/t-circle-s3--182be220/README.md) | ESP32-S3 | 0 | 2 |
@@ -267,6 +270,8 @@ Original manufacturer images remain unchanged. Revision and partial-map notes li
 
 | Manufacturer | Device | Processor | Pinout images | References |
 |---|---|---|---:|---:|
+| DFRobot | [LoRaWAN Control Terminal (868Mhz) / DFR1120-868](boards/dfrobot/lorawan/lorawan-control-terminal-868mhz-dfr1120-868--492a1c2f/README.md) | Not recorded | 0 | 2 |
+| DFRobot | [LoRaWAN Control Terminal (915Mhz) / DFR1120-915](boards/dfrobot/lorawan/lorawan-control-terminal-915mhz-dfr1120-915--d98834b8/README.md) | Not recorded | 0 | 2 |
 | Heltec | [HT-VME213](boards/heltec/esp32-s3/ht-vme213--4236d337/README.md) | ESP32-S3 | 1 | 1 |
 | Heltec | [HT-VME290](boards/heltec/esp32-s3/ht-vme290--0e358295/README.md) | ESP32-S3 | 1 | 1 |
 | Heltec | [HT-VMT190](boards/heltec/esp32-s3/ht-vmt190--ed8d3cef/README.md) | ESP32-S3 | 1 | 2 |

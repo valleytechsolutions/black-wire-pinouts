@@ -280,6 +280,126 @@ Seeed Studio · Source review pending
 
 Source rights not yet established
 
+## Inland 37 Assorted Sensors Kit - For Arduino and Raspberry Pi; Heartbeat Sensor; Temperature Sensor; IR Receiver; Touch Sensor
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-sku-900852)
+
+[![Inland 37 Assorted Sensors Kit - For Arduino and Raspberry Pi; Heartbeat Sensor; Temperature Sensor; IR Receiver; Touch Sensor / product photograph](../../library/thumbs/60895ca5651c5cb9e95bf2d235d7ee7d617152d5e03e038fa3e60e135c987219.webp)](../../library/media/60895ca5651c5cb9e95bf2d235d7ee7d617152d5e03e038fa3e60e135c987219.jpg)
+
+**product photograph** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## Inland Arduino Compatible Basic Starter Kit
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-support-651)
+
+Matching image still needed.
+
+## Inland Basic Starter V2 Kit for Arduino UNO - 16MHz Clock Rate; 32KB Flash Memory; 2KB SDRAM; 1KB EEPROM; Motion & Flame Sensors
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-sku-052035)
+
+[![Inland Basic Starter V2 Kit for Arduino UNO - 16MHz Clock Rate; 32KB Flash Memory; 2KB SDRAM; 1KB EEPROM; Motion & Flame Sensors / product photograph](../../library/thumbs/8bf51f36bdc7d9082a1af5ed2715d86f86f94b139f7c2023961e9bad601216d7.webp)](../../library/media/8bf51f36bdc7d9082a1af5ed2715d86f86f94b139f7c2023961e9bad601216d7.jpg)
+
+**product photograph** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## Inland Electronic Parts DIY Kit For OTTO Robot Maker
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-support-677)
+
+Matching image still needed.
+
+## Inland ESP8266 Starter Kit
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-support-668)
+
+Matching image still needed.
+
+## Inland MEGA2560 DIY Kit
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-support-658)
+
+Matching image still needed.
+
+## Inland Nano FT232 Starter Kit
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-support-666)
+
+Matching image still needed.
+
+## Inland Pi Kit Deluxe Parts Pack
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-sku-900902)
+
+[![Inland Pi Kit Deluxe Parts Pack / product photograph](../../library/thumbs/baf48cd40c68d120104b073b072be3c402224ecc791054d4fe2b477635877431.webp)](../../library/media/baf48cd40c68d120104b073b072be3c402224ecc791054d4fe2b477635877431.jpg)
+
+**product photograph** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## Inland Pro Micro Starter Kit
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-support-667)
+
+Matching image still needed.
+
+## Inland Smart Home Kit w/ PLUS Board
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-sku-221820)
+
+[![Inland Smart Home Kit w/ PLUS Board / product photograph](../../library/thumbs/f63f99dc90181dbb0e54dfac0ae83187cb571a4a4bda891762f60ccf87e397af.webp)](../../library/media/f63f99dc90181dbb0e54dfac0ae83187cb571a4a4bda891762f60ccf87e397af.jpg)
+
+**product photograph** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## Inland Super Starter Kit with Mega 2560R3 for Arduino - 16MHz Clock Rate; 256KB Flash Memory; 8KB SDRAM; 4KB EEPROM
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-sku-052043)
+
+[![Inland Super Starter Kit with Mega 2560R3 for Arduino - 16MHz Clock Rate; 256KB Flash Memory; 8KB SDRAM; 4KB EEPROM / product photograph](../../library/thumbs/aeb1c1950806853677bf1df5ca7611cdbd941c9fa4ef4ef932ce9254bd311a60.webp)](../../library/media/aeb1c1950806853677bf1df5ca7611cdbd941c9fa4ef4ef932ce9254bd311a60.jpg)
+
+**product photograph** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## Inland Uno Breadboard Kit
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-sku-426304)
+
+[![Inland Uno Breadboard Kit / product photograph](../../library/thumbs/acbd62f2c804d9b81cacee841321180fd5128748922dfd4f1be6f4c23ddae41e.webp)](../../library/media/acbd62f2c804d9b81cacee841321180fd5128748922dfd4f1be6f4c23ddae41e.jpg)
+
+**product photograph** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
 ## Laser-450nm-5W driver
 
 Spotpear (manufacturer unconfirmed) · Source review pending

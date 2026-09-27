@@ -388,6 +388,54 @@ Seeed Studio · Source review pending
 
 Manufacturer source artwork. Reproduction rights not established; excluded from the printed book.
 
+## Inland ESP32-IO Shield (Black and Eco-friendly)
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-support-643)
+
+[![Inland ESP32-IO Shield (Black and Eco-friendly) / board labeling image](../../library/thumbs/443f7c01d1b571d05ee1e420d0aedbdc8e584f3539c843ee85a182ed0ac5de11.webp)](../../library/media/443f7c01d1b571d05ee1e420d0aedbdc8e584f3539c843ee85a182ed0ac5de11.png)
+
+**board labeling image** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## Inland FTDI Adapter USB Controller
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-sku-489252)
+
+[![Inland FTDI Adapter USB Controller / product photograph](../../library/thumbs/4c72bec016a0dab678c4151919c7a4fe58287e2c97f8b15abc8acb7ed7b91227.webp)](../../library/media/4c72bec016a0dab678c4151919c7a4fe58287e2c97f8b15abc8acb7ed7b91227.jpg)
+
+**product photograph** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## Inland NANO Shield (Blue and Eco-friendly)
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-support-642)
+
+[![Inland NANO Shield (Blue and Eco-friendly) / board labeling image](../../library/thumbs/703ed7004a5d9f87a44393a01f2af22af738191c430c3fb1f60debb1f6c8de36.webp)](../../library/media/703ed7004a5d9f87a44393a01f2af22af738191c430c3fb1f60debb1f6c8de36.png)
+
+**board labeling image** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## Inland USB to ESP-01S Wi-Fi Module Serial Port Shield (Black and Eco-friendly)
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-support-661)
+
+[![Inland USB to ESP-01S Wi-Fi Module Serial Port Shield (Black and Eco-friendly) / product photograph](../../library/thumbs/1b92a9a8a2341ba0ecd59d1aa443b6a59c966987971083ef41a38085c1f7167d.webp)](../../library/media/1b92a9a8a2341ba0ecd59d1aa443b6a59c966987971083ef41a38085c1f7167d.png)
+
+**product photograph** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
 ## KY-051 Voltage Translator / Level Shifter
 
 Joy-IT · Manufacturer documentation recorded

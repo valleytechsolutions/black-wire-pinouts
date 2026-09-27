@@ -1116,6 +1116,90 @@ Pimoroni · Manufacturer documentation recorded
 
 Manufacturer artwork; reproduction rights not established; not cleared for the printed book
 
+## Inland 1602 I2C Module
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-support-649)
+
+[![Inland 1602 I2C Module / board labeling image](../../library/thumbs/8a85fba15dd10b2601270647ee9f075caa628f9480deeb040704786b5834db91.webp)](../../library/media/8a85fba15dd10b2601270647ee9f075caa628f9480deeb040704786b5834db91.png)
+
+**board labeling image** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## Inland 2.13 Inch E-Ink LCD Display Screen
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-sku-221887)
+
+[![Inland 2.13 Inch E-Ink LCD Display Screen / product photograph](../../library/thumbs/7aa2ef7a2b44de9f170eda12128d2dd391b434e8f5efc3ed853424a52a9af869.webp)](../../library/media/7aa2ef7a2b44de9f170eda12128d2dd391b434e8f5efc3ed853424a52a9af869.jpg)
+
+**product photograph** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## Inland 3D LCD screen blue
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-support-656)
+
+[![Inland 3D LCD screen blue / product photograph](../../library/thumbs/fdb6caf67ee1ef8921b6458dad08e1987d79f4a21effb3afc64a9ebb518b95b0.webp)](../../library/media/fdb6caf67ee1ef8921b6458dad08e1987d79f4a21effb3afc64a9ebb518b95b0.png)
+
+**product photograph** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## Inland Electronic E-Paper E-Ink Screen Display Module 1.54 Inch for Arduino Raspberry pi
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-support-673)
+
+[![Inland Electronic E-Paper E-Ink Screen Display Module 1.54 Inch for Arduino Raspberry pi / board labeling image](../../library/thumbs/18d9e7c254ca82ab729970c1064174ff4cf468e548168feb7b6e5732e4e6195d.webp)](../../library/media/18d9e7c254ca82ab729970c1064174ff4cf468e548168feb7b6e5732e4e6195d.png)
+
+**board labeling image** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## Inland IIC SPI 1.3" 128x64 OLED V2.0 Graphic Display Module for Arduino UNO R3
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-sku-345785)
+
+[![Inland IIC SPI 1.3" 128x64 OLED V2.0 Graphic Display Module for Arduino UNO R3 / board labeling image](../../library/thumbs/e01f7727de0ed148827f11758a0bb886a41f59fb78aeebf18cdf4d610cf25fca.webp)](../../library/media/e01f7727de0ed148827f11758a0bb886a41f59fb78aeebf18cdf4d610cf25fca.jpg)
+
+**board labeling image** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## Inland LCD1602 Expansion Shield
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-support-646)
+
+[![Inland LCD1602 Expansion Shield / pinout image](../../library/thumbs/228be9935b65c7a6443867d2f7b2471f83dc3f4feb7361a9b81240311ef16296.webp)](../../library/media/228be9935b65c7a6443867d2f7b2471f83dc3f4feb7361a9b81240311ef16296.png)
+
+**pinout image** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## Inland RPI TFT 3.5" LCD Touchscreen Shield
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-support-650)
+
+[![Inland RPI TFT 3.5" LCD Touchscreen Shield / product photograph](../../library/thumbs/ea11c72da5c8885dc59559959499f87719e3fe0b033bb5782771ce6c1910c5ce.webp)](../../library/media/ea11c72da5c8885dc59559959499f87719e3fe0b033bb5782771ce6c1910c5ce.png)
+
+**product photograph** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
 ## Monochrome 0.96" 128x64 OLED Graphic Display - STEMMA QT / PID 326
 
 Adafruit · Manufacturer documentation recorded

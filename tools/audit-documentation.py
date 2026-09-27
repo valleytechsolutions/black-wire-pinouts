@@ -8,6 +8,7 @@ from pathlib import Path
 from urllib.parse import urlsplit
 ROOT=Path(__file__).resolve().parents[1]
 DOMAINS={
+ 'Inland':['microcenter.com','microcenter.zendesk.com'],'Texas Instruments':['ti.com'],'Microchip':['microchip.com'],'Silicon Labs':['silabs.com'],
  'Adafruit':['adafruit.com'],'SparkFun':['sparkfun.com'],'FriendlyELEC':['friendlyelec.com','friendlyarm.com'],
  'NVIDIA':['nvidia.com'],'Raspberry Pi':['raspberrypi.com','raspberrypi.org'],'Arduino':['arduino.cc'],
  'Seeed Studio':['seeedstudio.com'],'M5Stack':['m5stack.com'],'Waveshare':['waveshare.com'],'LILYGO':['lilygo.cc'],

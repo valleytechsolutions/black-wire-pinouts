@@ -8,7 +8,7 @@
 
 <p align="center"><a href="https://github.com/valleytechsolutions/black-wire-pinouts/releases">Download the collection</a> · <a href="BROWSE.md">Browse boards</a> · <a href="catalog/attributions.csv">Source credits</a> · <a href="https://github.com/valleytechsolutions/black-wire-desktop/releases">Download the desktop app</a> · <a href="CONTRIBUTING.md">Contribute a reference</a></p>
 
-![ESP-Mosaico GPIO reference in Black Wire](docs/screenshots/mosaico-reference.png)
+![Inland ESP32 original pinout in the Black Wire guide](docs/screenshots/inland-reference.png)
 
 ## Find a pinout, then build
 
@@ -16,9 +16,15 @@
 
 Board and device references for **ESP32, Arduino, Raspberry Pi, RP2040/RP2350**, displays, sensors, buttons, interfaces and power modules. Find physical pinout sources, supporting photos, pin-purpose tables and manufacturer documentation, with revision and coverage notes. Generic modules and documentation gaps remain visible.
 
-The companion app **0.9.0** improves model search, source availability and workbench reliability. The current hardware collection is snapshot **2026.09.9**. [How to read a pinout](https://valleytech-black-wire-guide.pages.dev/wiki/reading-pinouts/) · [Contribute or report a correction](CONTRIBUTING.md).
+The companion app **0.10.0** adds Inland and DFRobot references with scalable offline downloads. The current hardware collection is snapshot **2026.09.10**. [How to read a pinout](https://valleytech-black-wire-guide.pages.dev/wiki/reading-pinouts/) · [Contribute or report a correction](CONTRIBUTING.md).
 
-## Search and source sweep / snapshot 2026.09.9
+## Inland, DFRobot and distributor sources / snapshot 2026.09.10
+
+**118 added listings, including 67 Inland records.** All 50 official DFRobot MCU-category SKUs reviewed, plus manufacturer GPIO pages for TI, Microchip and Silicon Labs. Inland currently has eight physical pinout images; other records identify supporting material and missing sheets. [Coverage, sources and remaining gaps](docs/EXPANSION-2026.09.10.md).
+
+Collection downloads have multiple independent ZIP parts. Extract **all parts into the same folder** to restore the full library.
+
+## Previous search and source sweep / snapshot 2026.09.9
 
 **Six new records · 24 new references · four physical pinout-image entries.** Includes ESP-Mosaico, P4X boards and FPGA references. Nine processor categories and two malformed records corrected; a damaged image retired. [Full audit, sources and limits](docs/EXPANSION-2026.09.9.md) · [Documentation endpoint results](docs/LINK-AUDIT.md).
 
@@ -56,13 +62,13 @@ Manufacturer originals remain intact. The annotated Adafruit sheets are CC BY-SA
 
 Find the picture that tells you **which physical pin does what**. This collection brings together original board pinouts, connector labels, GPIO references and supporting documents, organized by manufacturer, processor and exact board identity. The companion desktop app makes the same collection searchable offline.
 
-| First Edition · snapshot 2026.09.9 | Count |
+| First Edition · snapshot 2026.09.10 | Count |
 |---|---:|
-| Board pinout source image entries | **1,515** |
-| Searchable reference entries | **3,377** |
-| Catalog records with files | **1,896** |
-| Manufacturers and source groups | **70** |
-| Unique original media files, including vector companions | **3,326** |
+| Board pinout source image entries | **1,549** |
+| Searchable reference entries | **3,504** |
+| Catalog records with files | **1,962** |
+| Manufacturers and source groups | **74** |
+| Unique original media files, including vector companions | **3,438** |
 
 Records include shared references, variants, devices and unreviewed source products. These counts are **not a census of unique development boards**. Coverage is growing; it is not complete.
 
@@ -70,7 +76,7 @@ Records include shared references, variants, devices and unreviewed source produ
 
 ## Devices & IoT
 
-**[Browse 315 device records](DEVICES.md)** or use the new **[Devices & IoT tab](https://valleytech-black-wire-guide.pages.dev/?tab=devices)**. Find T-Embed, T-Beam, T-Deck, Cardputer, Flipper, wearables, LoRa nodes, smart displays and controllers by category, manufacturer and MCU. Missing sheets and in-development documentation are explicitly labeled.
+**[Browse 320 device records](DEVICES.md)** or use the new **[Devices & IoT tab](https://valleytech-black-wire-guide.pages.dev/?tab=devices)**. Find T-Embed, T-Beam, T-Deck, Cardputer, Flipper, wearables, LoRa nodes, smart displays and controllers by category, manufacturer and MCU. Missing sheets and in-development documentation are explicitly labeled.
 
 ![Devices and IoT browsing in Black Wire](docs/screenshots/devices-iot.png)
 

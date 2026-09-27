@@ -272,6 +272,114 @@ Generic / manufacturer unconfirmed · Identification needed
 
 Matching image still needed.
 
+## Inland CCS811 Carbon Dioxide/Air Quality Sensor
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-support-648)
+
+[![Inland CCS811 Carbon Dioxide/Air Quality Sensor / pin function reference](../../library/thumbs/6caa3bf1c10e5356fb9c908455aa9877cc15b12a2830a2c663d354919afcbb08.webp)](../../library/media/6caa3bf1c10e5356fb9c908455aa9877cc15b12a2830a2c663d354919afcbb08.png)
+
+**pin function reference** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## Inland DHT11 Temperature Humidity Moisture Sensor Module
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-sku-078477)
+
+[![Inland DHT11 Temperature Humidity Moisture Sensor Module / board labeling image](../../library/thumbs/56cbe0761283870fefcd6cdfe5b77557aba4a6ea0fef27a33d4ce8472d0333f6.webp)](../../library/media/56cbe0761283870fefcd6cdfe5b77557aba4a6ea0fef27a33d4ce8472d0333f6.jpg)
+
+**board labeling image** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## Inland DS18b20 Temperature Detector Sensor 3Pcs (Black and Eco-friendly)
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-support-679)
+
+[![Inland DS18b20 Temperature Detector Sensor 3Pcs (Black and Eco-friendly) / wiring reference](../../library/thumbs/12761974c0287bf951d6e2a3d4af90b7f5c9ac2b80aee85c2dc06469a22db4a0.webp)](../../library/media/12761974c0287bf951d6e2a3d4af90b7f5c9ac2b80aee85c2dc06469a22db4a0.png)
+
+**wiring reference** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## Inland HR-SR04 Blue Ultrasonic Module 3PCS
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-support-660)
+
+[![Inland HR-SR04 Blue Ultrasonic Module 3PCS / wiring reference](../../library/thumbs/d1357395dd322d90b584a8f080ade9170edfda94da8737fdd9bad8d88f403a6e.webp)](../../library/media/d1357395dd322d90b584a8f080ade9170edfda94da8737fdd9bad8d88f403a6e.png)
+
+**wiring reference** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## Inland PIR Motion Sensor
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-support-639)
+
+[![Inland PIR Motion Sensor / pinout image](../../library/thumbs/3accf5832188a6a8d45c200b17dee3d8bbdcca93ffc2d43f915b68644c643539.webp)](../../library/media/3accf5832188a6a8d45c200b17dee3d8bbdcca93ffc2d43f915b68644c643539.png)
+
+**pinout image** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## Inland PIR Motion Sensor Module
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-sku-078469)
+
+[![Inland PIR Motion Sensor Module / board labeling image](../../library/thumbs/1811efb729543ee7a327f9cb42259c15d16e73c7db77bd25c9ddadebf5a4d0ba.webp)](../../library/media/1811efb729543ee7a327f9cb42259c15d16e73c7db77bd25c9ddadebf5a4d0ba.jpg)
+
+**board labeling image** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## Inland Raspberry Pi Wide Angle Infrared Camera
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-support-662)
+
+[![Inland Raspberry Pi Wide Angle Infrared Camera / product photograph](../../library/thumbs/27777be6be592488ff71f6a362b98c49df99ee51973add3770a503745bbead88.webp)](../../library/media/27777be6be592488ff71f6a362b98c49df99ee51973add3770a503745bbead88.png)
+
+**product photograph** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## Inland TDS Meter V1.0
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-support-635)
+
+[![Inland TDS Meter V1.0 / wiring reference](../../library/thumbs/1993119e4eb6c02a5cbc6fd94defbc9b8b0dbd5703e56565499d159500b87076.webp)](../../library/media/1993119e4eb6c02a5cbc6fd94defbc9b8b0dbd5703e56565499d159500b87076.png)
+
+**wiring reference** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## Inland Wide Angle Camera Module 5 Million Pixels 1080p for Raspberry Pi
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-support-663)
+
+[![Inland Wide Angle Camera Module 5 Million Pixels 1080p for Raspberry Pi / product photograph](../../library/thumbs/a6d065d8880708416af1a450e0a737f5767d1bd005436d48f13f657671985bc9.webp)](../../library/media/a6d065d8880708416af1a450e0a737f5767d1bd005436d48f13f657671985bc9.png)
+
+**product photograph** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
 ## KY-001 Temperature sensor (DS18B20)
 
 Joy-IT · Manufacturer documentation recorded

@@ -4,7 +4,7 @@ Pin-connected maker displays, sensors, inputs and modules. Ongoing source intake
 
 Records include products, families, generic discovery tasks and linked existing references; counts are not unique products or complete pinouts.
 
-**501 intake records**. 196 manufacturer documentation records. No new complete physical pinout approvals in this intake.
+**551 intake records**. 246 manufacturer documentation records. No new complete physical pinout approvals in this intake.
 
 [Search the interactive guide](https://valleytech-black-wire-guide.pages.dev/?tab=makers) · [Expansion roadmap](docs/MAKER_ROADMAP.md) · [Coverage backlog](catalog/maker-research-backlog.json)
 
@@ -43,6 +43,11 @@ Search by product/controller code first; filter by interface, function, technolo
 | WM1302 LoRaWAN Gateway Module | Seeed Studio | collection-reference / Source review pending | [Documentation](https://wiki.seeedstudio.com/WM1302_module/) |
 | Wi-Fi HaLow Module for XIAO | Seeed Studio | collection-reference / Source review pending | [Documentation](https://wiki.seeedstudio.com/getting_started_with_wifi_halow_module_for_xiao/) |
 | BlueSMiRF v2 | SparkFun | collection-reference / Manufacturer source references collected | [Documentation](https://github.com/sparkfun/SparkFun_BlueSMiRF-v2) |
+| Inland RC522 RFID Module for Arduino | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/674-inland-rc522-rfid-module-for-arduino) |
+| Inland 8266 WIFI Module (2PCS) | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/665-inland-8266-wifi-module-2pcs) |
+| Inland HM-10 Bluetooth-4.0 V3 Compatible with HC-06 Pins | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/655-inland-hm-10-bluetooth-4-0-v3-compatible-with-hc-06-pins) |
+| Inland CAN-BUS Shield (blue and Eco-friendly) | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/647-inland-can-bus-shield-blue-and-eco-friendly) |
+| Inland Bluetooth Transmission Module for Arduino with Bottom hc-05 Master and Slave | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/636-inland-bluetooth-transmission-module-for-arduino-with-bottom-hc-05-master-and-slave) |
 
 ## Displays
 
@@ -157,6 +162,13 @@ Search by product/controller code first; filter by interface, function, technolo
 | PyPortal | Adafruit | collection-reference / Manufacturer source references collected | [Documentation](https://www.adafruit.com/product/4116) |
 | PyPortal Pynt | Adafruit | collection-reference / Manufacturer source references collected | [Documentation](https://www.adafruit.com/product/4465) |
 | PyPortal Titano | Adafruit | collection-reference / Manufacturer source references collected | [Documentation](https://www.adafruit.com/product/4444) |
+| Inland Electronic E-Paper E-Ink Screen Display Module 1.54 Inch for Arduino Raspberry pi | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/673-inland-electronic-e-paper-e-ink-screen-display-module-1-54-inch-for-arduino-raspberry-pi) |
+| Inland 3D LCD screen blue | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/656-inland-3d-lcd-screen-blue) |
+| Inland RPI TFT 3.5" LCD Touchscreen Shield | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/650-inland-rpi-tft-3-5-lcd-touchscreen-shield) |
+| Inland 1602 I2C Module | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/649-inland-1602-i2c-module) |
+| Inland LCD1602 Expansion Shield | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/646-inland-lcd1602-expansion-shield) |
+| Inland IIC SPI 1.3" 128x64 OLED V2.0 Graphic Display Module for Arduino UNO R3 | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://www.microcenter.com/product/643965/inland-iic-spi-13-128x64-oled-v20-graphic-display-module-for-arduino-uno-r3) |
+| Inland 2.13 Inch E-Ink LCD Display Screen | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://www.microcenter.com/product/632694/inland-213-inch-e-ink-lcd-display-screen) |
 
 ## FPGA
 
@@ -205,6 +217,7 @@ Search by product/controller code first; filter by interface, function, technolo
 | Rotary Trinkey | Adafruit | collection-reference / Manufacturer source references collected | [Documentation](https://www.adafruit.com/product/4964) |
 | Slider Trinkey | Adafruit | collection-reference / Manufacturer source references collected | [Documentation](https://www.adafruit.com/product/5021) |
 | NeoKey Trinkey | Adafruit | collection-reference / Manufacturer source references collected | [Documentation](https://www.adafruit.com/product/5020) |
+| Inland Rotary Encoder Module | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/640-inland-rotary-encoder-module) |
 
 ## Interface & expansion
 
@@ -264,6 +277,10 @@ Search by product/controller code first; filter by interface, function, technolo
 | Wifi Shield V1.2 | Seeed Studio | collection-reference / Source review pending | [Documentation](https://wiki.seeedstudio.com/Wifi_Shield_V1.2/) |
 | Wifi Shield V2.0 | Seeed Studio | collection-reference / Source review pending | [Documentation](https://wiki.seeedstudio.com/Wifi_Shield_V2.0/) |
 | XBee Shield | Seeed Studio | collection-reference / Source review pending | [Documentation](https://wiki.seeedstudio.com/XBee_Shield/) |
+| Inland USB to ESP-01S Wi-Fi Module Serial Port Shield (Black and Eco-friendly) | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/661-inland-usb-to-esp-01s-wi-fi-module-serial-port-shield-black-and-eco-friendly) |
+| Inland ESP32-IO Shield (Black and Eco-friendly) | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/643-inland-esp32-io-shield-black-and-eco-friendly) |
+| Inland NANO Shield (Blue and Eco-friendly) | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/642-inland-nano-shield-blue-and-eco-friendly) |
+| Inland FTDI Adapter USB Controller | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://www.microcenter.com/product/656323/inland-ftdi-adapter-usb-controller) |
 
 ## Other modules
 
@@ -420,6 +437,18 @@ Search by product/controller code first; filter by interface, function, technolo
 | DDSM210 | Waveshare | collection-reference / Source review pending | [Documentation](https://spotpear.com/shop/DDSM210-Direct-Drive-Servo-Hub-Motor-All-In-One-Serial-UART.html) |
 | DDSM315 | Waveshare | collection-reference / Source review pending | [Documentation](https://spotpear.com/shop/DDSM315-Direct-Drive-Servo-Hub-Motor-All-In-One-RS485/DDSM315.html) |
 | PCIe TO MiniPCIe GbE USB3.2 HAT Plus | Waveshare | collection-reference / Source review pending | [Documentation](https://spotpear.com/shop/Rasberry-Pi-5-PCIe-MiniPCIe-4G-USB-HUB-Gigabit-Ethernet-RJ45-SIM7600G-EG25.html) |
+| Inland Electronic Parts DIY Kit For OTTO Robot Maker | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/677-inland-electronic-parts-diy-kit-for-otto-robot-maker) |
+| Inland ESP8266 Starter Kit | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/668-inland-esp8266-starter-kit) |
+| Inland Pro Micro Starter Kit | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/667-inland-pro-micro-starter-kit) |
+| Inland Nano FT232 Starter Kit | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/666-inland-nano-ft232-starter-kit) |
+| Inland MEGA2560 DIY Kit | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/658-inland-mega2560-diy-kit) |
+| Inland Arduino Compatible Basic Starter Kit | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/651-inland-arduino-compatible-basic-starter-kit) |
+| Inland Basic Starter V2 Kit for Arduino UNO - 16MHz Clock Rate; 32KB Flash Memory; 2KB SDRAM; 1KB EEPROM; Motion & Flame Sensors | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://www.microcenter.com/product/617046/inland-basic-starter-v2-kit-for-arduino-uno-16mhz-clock-rate) |
+| Inland 37 Assorted Sensors Kit - For Arduino and Raspberry Pi; Heartbeat Sensor; Temperature Sensor; IR Receiver; Touch Sensor | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://www.microcenter.com/product/603752/inland-37-assorted-sensors-kit-for-arduino-and-raspberry-pi) |
+| Inland Super Starter Kit with Mega 2560R3 for Arduino - 16MHz Clock Rate; 256KB Flash Memory; 8KB SDRAM; 4KB EEPROM | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://www.microcenter.com/product/617047/inland-super-starter-kit-with-mega-2560r3-for-arduino-16mhz-clock-rate) |
+| Inland Pi Kit Deluxe Parts Pack | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://www.microcenter.com/product/603754/inland-pi-kit-deluxe-parts-pack) |
+| Inland Smart Home Kit w/ PLUS Board | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://www.microcenter.com/product/632699/inland-smart-home-kit-w-plus-board) |
+| Inland Uno Breadboard Kit | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://www.microcenter.com/product/486799/inland-uno-breadboard-kit) |
 
 ## Outputs & drivers
 
@@ -456,6 +485,15 @@ Search by product/controller code first; filter by interface, function, technolo
 | DRV8825 Stepper Motor Driver Carrier, High Current | Pololu | product-reference / Manufacturer documentation recorded | [Documentation](https://www.pololu.com/product/2133) |
 | LED Driver Board for XIAO | Seeed Studio | collection-reference / Source review pending | [Documentation](https://wiki.seeedstudio.com/led_driver_board/) |
 | IoT Brushless Motor Driver | SparkFun | collection-reference / Manufacturer source references collected | [Documentation](https://github.com/sparkfun/SparkFun_IoT_Brushless_Motor_Driver) |
+| Inland L298P 4-Channel Motor Drive Shield | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/678-inland-l298p-4-channel-motor-drive-shield) |
+| Inland Stepper Motor Drive Board + 5V Stepper Motor (3PCS) | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/675-inland-stepper-motor-drive-board-5v-stepper-motor-3pcs) |
+| Inland 3D Printer DRV8825 Kit (5PCS) | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/670-inland-3d-printer-drv8825-kit-5pcs) |
+| Inland WS2812B 1m 60 Light | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/669-inland-ws2812b-1m-60-light) |
+| Inland Blue 9G Servo | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/659-inland-blue-9g-servo) |
+| Inland 4-channel Relay Module | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/645-inland-4-channel-relay-module) |
+| Inland 8-channel 5V Relay Module | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/638-inland-8-channel-5v-relay-module) |
+| Inland 5V Relay Module | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/637-inland-5v-relay-module) |
+| Inland 16-channel 12-bit PWM/ Servo Driver | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/634-inland-16-channel-12-bit-pwm-servo-driver) |
 
 ## Power & charging
 
@@ -493,6 +531,9 @@ Search by product/controller code first; filter by interface, function, technolo
 | MP1584 buck module — Sunrom 4498 | Sunrom (seller; OEM unconfirmed) | product-reference / Seller identification; technical review needed | [Documentation](https://www.sunrom.com/p/dc-dc-step-down-3a) |
 | TP4056 USB-C charger with protection — Sunrom 5949 | Sunrom (seller; OEM unconfirmed) | product-reference / Seller identification; technical review needed | [Documentation](https://www.sunrom.com/p/lithum-battery-charger-with-protection-tp4056-typec-usb) |
 | TP4057 charging module — DIY-Thermocam assembly variant | DIY-Thermocam reference / OEM unconfirmed | product-reference / Project identification; technical review needed | [Documentation](https://www.diy-thermocam.net/building-instructions/) |
+| Inland Special Power Module for Bread Board | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/654-inland-special-power-module-for-bread-board) |
+| Inland DC-DC Voltage Step Down Module | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://www.microcenter.com/product/618895/inland-dc-dc-voltage-step-down-module) |
+| Inland Breadboard 5V/3V Power Supply Module | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://www.microcenter.com/product/618900/inland-breadboard-5v-3v-power-supply-module) |
 
 ## Sensors
 
@@ -560,3 +601,12 @@ Search by product/controller code first; filter by interface, function, technolo
 | SHT45 Trinkey | Adafruit | collection-reference / Manufacturer source references collected | [Documentation](https://www.adafruit.com/product/5896) |
 | Proximity Trinkey | Adafruit | collection-reference / Manufacturer source references collected | [Documentation](https://www.adafruit.com/product/5022) |
 | Feather nRF52840 Sense | Adafruit | collection-reference / Manufacturer source references collected | [Documentation](https://www.adafruit.com/product/4516) |
+| Inland DS18b20 Temperature Detector Sensor 3Pcs (Black and Eco-friendly) | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/679-inland-ds18b20-temperature-detector-sensor-3pcs-black-and-eco-friendly) |
+| Inland Wide Angle Camera Module 5 Million Pixels 1080p for Raspberry Pi | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/663-inland-wide-angle-camera-module-5-million-pixels-1080p-for-raspberry-pi) |
+| Inland Raspberry Pi Wide Angle Infrared Camera | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/662-inland-raspberry-pi-wide-angle-infrared-camera) |
+| Inland HR-SR04 Blue Ultrasonic Module 3PCS | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/660-inland-hr-sr04-blue-ultrasonic-module-3pcs) |
+| Inland CCS811 Carbon Dioxide/Air Quality Sensor | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/648-inland-ccs811-carbon-dioxide-air-quality-sensor) |
+| Inland PIR Motion Sensor | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/639-inland-pir-motion-sensor) |
+| Inland TDS Meter V1.0 | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/635-inland-tds-meter-v1-0) |
+| Inland DHT11 Temperature Humidity Moisture Sensor Module | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://www.microcenter.com/product/618777/inland-dht11-temperature-humidity-moisture-sensor-module) |
+| Inland PIR Motion Sensor Module | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://www.microcenter.com/product/618776/inland-pir-motion-sensor-module) |

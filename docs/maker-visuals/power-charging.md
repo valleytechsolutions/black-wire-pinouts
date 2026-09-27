@@ -136,6 +136,42 @@ DFRobot · Manufacturer documentation recorded
 
 Manufacturer artwork; reproduction rights not established; not cleared for the printed book
 
+## Inland Breadboard 5V/3V Power Supply Module
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-sku-078584)
+
+[![Inland Breadboard 5V/3V Power Supply Module / board labeling image](../../library/thumbs/b74f93e2ae9e0a81c68064fd9e63f33d1d8262f91af1e0fdfecb918d002d2cf9.webp)](../../library/media/b74f93e2ae9e0a81c68064fd9e63f33d1d8262f91af1e0fdfecb918d002d2cf9.jpg)
+
+**board labeling image** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## Inland DC-DC Voltage Step Down Module
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-sku-078493)
+
+[![Inland DC-DC Voltage Step Down Module / product photograph](../../library/thumbs/a43fd05420149c019ecf4d09eaaa1f0684324152a85629e42ca9cd8651a7e50e.webp)](../../library/media/a43fd05420149c019ecf4d09eaaa1f0684324152a85629e42ca9cd8651a7e50e.jpg)
+
+**product photograph** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## Inland Special Power Module for Bread Board
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-support-654)
+
+[![Inland Special Power Module for Bread Board / board labeling image](../../library/thumbs/98e8d14d687747dde33e1321aaf1d91ae617e2cbf13a2b50d516972c1a9ef053.webp)](../../library/media/98e8d14d687747dde33e1321aaf1d91ae617e2cbf13a2b50d516972c1a9ef053.png)
+
+**board labeling image** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
 ## LM2596 buck module — Sunrom 4314
 
 Sunrom (seller; OEM unconfirmed) · Seller identification; technical review needed

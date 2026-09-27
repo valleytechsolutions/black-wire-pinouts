@@ -4,8 +4,8 @@ Every catalog listing has an explicit datasheet, original-website and visual sta
 
 | Listings | Board datasheet | Hardware manual | Visual reference | Recorded manufacturer link | Checked model page |
 |---|---:|---:|---:|---:|---:|
-| board: 2593 | 8 | 93 | 1892 | 2068 | 99 |
-| maker: 501 | 0 | 1 | 482 | 425 | 1 |
+| board: 2661 | 8 | 164 | 1953 | 2136 | 170 |
+| maker: 551 | 0 | 51 | 525 | 475 | 51 |
 
 A missing datasheet status means the exact board datasheet has not been classified and recorded here; it does not prove the manufacturer never published one. New hardware manuals and schematics are linked separately. Links marked recorded have not all been revisited. Saved source documents are available offline; external links require internet access.
 

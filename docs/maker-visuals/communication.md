@@ -52,6 +52,66 @@ Seeed Studio · Source review pending
 
 Not established; source attribution retained
 
+## Inland 8266 WIFI Module (2PCS)
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-support-665)
+
+[![Inland 8266 WIFI Module (2PCS) / pinout image](../../library/thumbs/1e789fed6a80bd102d7ac447818213b02fb4f0e80fc15d4782a02aaddaae1edf.webp)](../../library/media/1e789fed6a80bd102d7ac447818213b02fb4f0e80fc15d4782a02aaddaae1edf.png)
+
+**pinout image** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## Inland Bluetooth Transmission Module for Arduino with Bottom hc-05 Master and Slave
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-support-636)
+
+[![Inland Bluetooth Transmission Module for Arduino with Bottom hc-05 Master and Slave / board labeling image](../../library/thumbs/25af5988f214357c8dc58ad941dfdc227dc9de854b9c74d23f791fcce0ada073.webp)](../../library/media/25af5988f214357c8dc58ad941dfdc227dc9de854b9c74d23f791fcce0ada073.png)
+
+**board labeling image** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## Inland CAN-BUS Shield (blue and Eco-friendly)
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-support-647)
+
+[![Inland CAN-BUS Shield (blue and Eco-friendly) / board labeling image](../../library/thumbs/6289015b4c536af1ece66ffffb7b1215e671bee9cb81ef1e74ea2d73fad76780.webp)](../../library/media/6289015b4c536af1ece66ffffb7b1215e671bee9cb81ef1e74ea2d73fad76780.png)
+
+**board labeling image** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## Inland HM-10 Bluetooth-4.0 V3 Compatible with HC-06 Pins
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-support-655)
+
+[![Inland HM-10 Bluetooth-4.0 V3 Compatible with HC-06 Pins / pin function reference](../../library/thumbs/563e7daff2fb63e631d67dbeebc867b432a3a26b666e6894026434bd7deef52a.webp)](../../library/media/563e7daff2fb63e631d67dbeebc867b432a3a26b666e6894026434bd7deef52a.png)
+
+**pin function reference** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## Inland RC522 RFID Module for Arduino
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-support-674)
+
+[![Inland RC522 RFID Module for Arduino / pinout image](../../library/thumbs/470e215fee793b4293847e61106681952a1e5991422b0b742ec4ac96b5af9bee.webp)](../../library/media/470e215fee793b4293847e61106681952a1e5991422b0b742ec4ac96b5af9bee.png)
+
+**pinout image** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
 ## L76-L GNSS Module for XIAO
 
 Seeed Studio · Source review pending

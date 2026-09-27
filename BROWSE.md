@@ -248,8 +248,53 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 
 | Board / device | Processor / family | References | Pinout images |
 |---|---|---:|---:|
-| [FireBeetle 2 ESP32-C5 DFR1222](boards/dfrobot/esp32-c5/firebeetle-2-esp32-c5-dfr1222--df490bf5/README.md) | ESP32-C5 | 1 | 1 |
-| [FireBeetle 2 ESP32-S3](boards/dfrobot/esp32-s3/firebeetle-2-esp32-s3--5fefdcdc/README.md) | ESP32-S3 | 1 | 1 |
+| [Beetle ATmega32u4 Arduino-Compatible Board / DFR0282](boards/dfrobot/atmega32u4/beetle-atmega32u4-arduino-compatible-board-dfr0282--e3d71784/README.md) | ATmega32U4 | 3 | 0 |
+| [Beetle ATmega32U4 Charge Management Board / DFR0816](boards/dfrobot/atmega32u4/beetle-atmega32u4-charge-management-board-dfr0816--d3bfd267/README.md) | ATmega32U4 | 2 | 1 |
+| [Beetle BLE Board / DFR0339](boards/dfrobot/atmega328p/beetle-ble-board-dfr0339--4221978d/README.md) | ATmega328P | 3 | 0 |
+| [Beetle ESP32 WiFi Bluetooth Board / DFR0575](boards/dfrobot/esp32/beetle-esp32-wifi-bluetooth-board-dfr0575--f4bd1658/README.md) | ESP32 | 2 | 0 |
+| [Beetle ESP32-C3 IoT Development Board / DFR0868](boards/dfrobot/esp32-c3/beetle-esp32-c3-iot-development-board-dfr0868--2ec71dd5/README.md) | ESP32-C3 | 2 | 1 |
+| [Beetle ESP32-C6 IoT Development Board / DFR1117](boards/dfrobot/esp32-c6/beetle-esp32-c6-iot-development-board-dfr1117--c6daa5d3/README.md) | ESP32-C6 | 2 | 1 |
+| [Beetle RP2040 Mini Development Board / DFR0959](boards/dfrobot/rp2040/beetle-rp2040-mini-development-board-dfr0959--2a864a57/README.md) | RP2040 | 3 | 1 |
+| [Beetle RP2350 Development Board / DFR1188](boards/dfrobot/rp2350/beetle-rp2350-development-board-dfr1188--7b66e6de/README.md) | RP2350 | 3 | 1 |
+| [Bluno - An Arduino UNO Compatible Bluetooth 4.0 (BLE) Controller / DFR0267](boards/dfrobot/atmega328p/bluno-an-arduino-uno-compatible-bluetooth-4-0-ble-controller-dfr0267--05370031/README.md) | ATmega328P | 2 | 0 |
+| [Bluno Mega2560 / DFR0323](boards/dfrobot/atmega2560/bluno-mega2560-dfr0323--5e71ad34/README.md) | ATmega2560 | 2 | 1 |
+| [Bluno Nano / DFR0296](boards/dfrobot/atmega328p/bluno-nano-dfr0296--d003ad42/README.md) | ATmega328P | 2 | 1 |
+| [CurieCore intel® Curie Neuron Module / TEL0110](boards/dfrobot/intel-curie/curiecore-intel-curie-neuron-module-tel0110--b50580b8/README.md) | Intel Curie | 2 | 1 |
+| [DFRduino ATmega32u4 Xbee Socket Board / DFR0221](boards/dfrobot/atmega32u4/dfrduino-atmega32u4-xbee-socket-board-dfr0221--e898e85c/README.md) | ATmega32U4 | 2 | 1 |
+| [DFRduino M0 Mainboard / DFR0392](boards/dfrobot/nuc123/dfrduino-m0-mainboard-dfr0392--be605b3b/README.md) | NUC123 | 2 | 0 |
+| [DFRduino Mega2560 / DFR0191](boards/dfrobot/atmega2560/dfrduino-mega2560-dfr0191--ec66d7b0/README.md) | ATmega2560 | 1 | 0 |
+| [DFRduino Nano Microcontroller Board / DFR0010](boards/dfrobot/atmega328p/dfrduino-nano-microcontroller-board-dfr0010--79efa4ae/README.md) | ATmega328P | 1 | 0 |
+| [Dreamer Nano V4.1 (Arduino Leonardo Compatible) / DFR0213](boards/dfrobot/atmega32u4/dreamer-nano-v4-1-arduino-leonardo-compatible-dfr0213--814af9f1/README.md) | ATmega32U4 | 3 | 1 |
+| [FireBeetle 2 ESP32-C5 Development Kit / DFR1236](boards/dfrobot/esp32-c5/firebeetle-2-esp32-c5-development-kit-dfr1236--2e39873f/README.md) | ESP32-C5 | 3 | 1 |
+| [FireBeetle 2 ESP32-C5 IoT Development Board / DFR1222](boards/dfrobot/esp32-c5/firebeetle-2-esp32-c5-dfr1222--df490bf5/README.md) | ESP32-C5 | 2 | 1 |
+| [FireBeetle 2 ESP32-C5-U(N4) IO Development Kit / DFR1284](boards/dfrobot/esp32-c5/firebeetle-2-esp32-c5-u-n4-io-development-kit-dfr1284--7b2669c5/README.md) | ESP32-C5 | 2 | 1 |
+| [FireBeetle 2 ESP32-C5-U(N4) IoT Development Board / DFR1287](boards/dfrobot/esp32-c5/firebeetle-2-esp32-c5-u-n4-iot-development-board-dfr1287--16db82a1/README.md) | ESP32-C5 | 3 | 1 |
+| [FireBeetle 2 ESP32-C6 IoT Development Board / DFR1075](boards/dfrobot/esp32-c6/firebeetle-2-esp32-c6-iot-development-board-dfr1075--8b06c666/README.md) | ESP32-C6 | 2 | 1 |
+| [FireBeetle 2 ESP32-E (DFR1139) / DFR1139](boards/dfrobot/esp32/firebeetle-2-esp32-e-dfr1139-dfr1139--ac6f834b/README.md) | ESP32 | 2 | 1 |
+| [FireBeetle 2 ESP32-E IoT Microcontroller / DFR0654](boards/dfrobot/esp32/firebeetle-2-esp32-e-iot-microcontroller-dfr0654--f47db695/README.md) | ESP32 | 3 | 1 |
+| [FireBeetle 2 ESP32-E IoT Microcontroller with Header / DFR0654-F](boards/dfrobot/esp32/firebeetle-2-esp32-e-iot-microcontroller-with-header-dfr0654-f--5c714a51/README.md) | ESP32 | 3 | 1 |
+| [FireBeetle 2 ESP32-P4 AI Vision Board / DFR1172](boards/dfrobot/esp32-p4-esp32-c6/firebeetle-2-esp32-p4-ai-vision-board-dfr1172--8250b58e/README.md) | ESP32-P4 / ESP32-C6 | 2 | 0 |
+| [FireBeetle 2 ESP32-S3 AI Acceleration Board / DFR0975](boards/dfrobot/esp32-s3/firebeetle-2-esp32-s3--5fefdcdc/README.md) | ESP32-S3 | 3 | 1 |
+| [FireBeetle 2 ESP32-S3 AIoT Development Board / DFR1145](boards/dfrobot/esp32-s3/firebeetle-2-esp32-s3-aiot-development-board-dfr1145--7e886348/README.md) | ESP32-S3 | 3 | 1 |
+| [FireBeetle 2 ESP32-S3-U AI Acceleration Board / DFR0975-U](boards/dfrobot/esp32-s3/firebeetle-2-esp32-s3-u-ai-acceleration-board-dfr0975-u--b90c2f07/README.md) | ESP32-S3 | 3 | 1 |
+| [FireBeetle 2 ESP32-UE (N16R2) IoT Board / DFR1140](boards/dfrobot/esp32/firebeetle-2-esp32-ue-n16r2-iot-board-dfr1140--7b9b050b/README.md) | ESP32 | 3 | 1 |
+| [Firebeetle 2 M0 Development Board / DFR0652](boards/dfrobot/samd21/firebeetle-2-m0-development-board-dfr0652--0ca44f23/README.md) | SAMD21 | 2 | 0 |
+| [FireBeetle ATMEGA328P BLE 4.1 Control Board / DFR0492](boards/dfrobot/atmega328p/firebeetle-atmega328p-ble-4-1-control-board-dfr0492--edfdb4d8/README.md) | ATmega328P | 1 | 1 |
+| [FireBeetle ESP32 IoT Microcontroller / DFR0478](boards/dfrobot/esp32/firebeetle-esp32-iot-microcontroller-dfr0478--d78cba97/README.md) | ESP32 | 3 | 1 |
+| [FireBeetle ESP8266 IoT Development Board / DFR0489](boards/dfrobot/esp8266/firebeetle-esp8266-iot-development-board-dfr0489--d122c3af/README.md) | ESP8266 | 1 | 1 |
+| [LoRaWAN Control Terminal (868Mhz) / DFR1120-868](boards/dfrobot/lorawan/lorawan-control-terminal-868mhz-dfr1120-868--492a1c2f/README.md) | LoRaWAN | 2 | 0 |
+| [LoRaWAN Control Terminal (915Mhz) / DFR1120-915](boards/dfrobot/lorawan/lorawan-control-terminal-915mhz-dfr1120-915--d98834b8/README.md) | LoRaWAN | 2 | 0 |
+| [LoRaWAN ESP32-S3 Dev Board / DFR1195](boards/dfrobot/esp32-s3/lorawan-esp32-s3-dev-board-dfr1195--01b60da3/README.md) | ESP32-S3 | 3 | 0 |
+| [Romeo ATmega328P BLE Motor Control Board / DFR0351](boards/dfrobot/atmega328p/romeo-atmega328p-ble-motor-control-board-dfr0351--26a3a50e/README.md) | ATmega328P | 1 | 0 |
+| [Romeo BLE Robot Control Board / DFR0305](boards/dfrobot/atmega328p/romeo-ble-robot-control-board-dfr0305--fca33a97/README.md) | ATmega328P | 2 | 1 |
+| [Romeo ESP32-C3-MINI-1 Motor & Servo Control Board / DFR1063](boards/dfrobot/esp32-c3/romeo-esp32-c3-mini-1-motor-servo-control-board-dfr1063--ed4b97a5/README.md) | ESP32-C3 | 1 | 0 |
+| [Romeo ESP32-S3 Robot Development Board / DFR0994](boards/dfrobot/esp32-s3/romeo-esp32-s3-robot-development-board-dfr0994--983ec5f2/README.md) | ESP32-S3 | 1 | 0 |
+| [Romeo Robot Control Board / DFR0004](boards/dfrobot/atmega328p/romeo-robot-control-board-dfr0004--ad40e224/README.md) | ATmega328P | 1 | 0 |
+| [Romeo V2 ATmega32u4 All-in-One Robotics Microcontroller Board / DFR0225](boards/dfrobot/atmega32u4/romeo-v2-atmega32u4-all-in-one-robotics-microcontroller-board-dfr0225--39d3aa29/README.md) | ATmega32U4 | 2 | 1 |
+| [UNIHIKER K10 / DFR0992-EN](boards/dfrobot/esp32-s3/unihiker-k10-dfr0992-en--807626db/README.md) | ESP32-S3 | 1 | 0 |
+| [WIFI IoT Node Development Board / DFR0321](boards/dfrobot/atmega32u4/wifi-iot-node-development-board-dfr0321--1e03db24/README.md) | ATmega32U4 | 2 | 1 |
+| [Xboard Relay / DFR0222](boards/dfrobot/atmega32u4/xboard-relay-dfr0222--6b2e981d/README.md) | ATmega32U4 | 1 | 0 |
+| [XBoard V2 / DFR0162](boards/dfrobot/atmega328p/xboard-v2-dfr0162--670d9937/README.md) | ATmega328P | 2 | 0 |
 
 ## DOIT
 
@@ -501,6 +546,28 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | Board / device | Processor / family | References | Pinout images |
 |---|---|---:|---:|
 | [High Boy REV 2.2 MVP](boards/high-code/esp32-s3/high-boy-rev-2.2-mvp--26ebe16c/README.md) | ESP32-S3 | 1 | 1 |
+
+## Inland
+
+| Board / device | Processor / family | References | Pinout images |
+|---|---|---:|---:|
+| [Inland 2.8 Inch ESP32-32E Display Module Resistive Touch TFT Screen](boards/inland/esp32/inland-2-8-inch-esp32-32e-display-module-resistive-touch-tft-screen--a84ce85f/README.md) | ESP32 | 1 | 0 |
+| [Inland ATmega32u4 Dev Board; 16MHz Clock Rate; 32KB Flash Memory; 2.5KB SDRAM; ATmega32u4 Microcontroller](boards/inland/atmega32u4/inland-atmega32u4-dev-board-16mhz-clock-rate-32kb-flash-memory-2-5kb-sdram-atmega32u4-microcontroller--d287fdc8/README.md) | ATmega32U4 | 1 | 0 |
+| [Inland ESP32 Core Board (Black and Eco-friendly)](boards/inland/esp32/inland-esp32-core-board-black-and-eco-friendly--118ede62/README.md) | ESP32 | 3 | 1 |
+| [Inland ESP32-CAM WiFi Bluetooth Camera Modules - Pair](boards/inland/esp32/inland-esp32-cam-wifi-bluetooth-camera-modules-pair--4e93d847/README.md) | ESP32 | 1 | 0 |
+| [Inland ESP32-WROOM Core Board with USB-C WiFi Bluetooth Dual Core Microcontroller for Arduino](boards/inland/esp32/inland-esp32-wroom-core-board-with-usb-c-wifi-bluetooth-dual-core-microcontroller-for-arduino--35070613/README.md) | ESP32 | 1 | 0 |
+| [Inland Mega 2560 MainBoard Arduino Compatible; 16MHz Clock Rate; 256KB Flash Memory; 8KB SDRAM](boards/inland/atmega2560/inland-mega-2560-mainboard-arduino-compatible-16mhz-clock-rate-256kb-flash-memory-8kb-sdram--857a283e/README.md) | ATmega2560 | 1 | 0 |
+| [Inland MEGA 2560 R3 Board ATmega 2560 with USB Cable Compatible with Arduino](boards/inland/atmega2560/inland-mega-2560-r3-board-atmega-2560-with-usb-cable-compatible-with-arduino--0e043d5f/README.md) | ATmega2560 | 1 | 0 |
+| [Inland MEGA2560 CP2102 kit board](boards/inland/atmega2560/inland-mega2560-cp2102-kit-board--93759cbd/README.md) | ATmega2560 | 1 | 0 |
+| [Inland Nano 3.0 Controller Board Compatible with Arduino Nano CH340 USB Driver with Cable](boards/inland/atmega328p/inland-nano-3-0-controller-board-compatible-with-arduino-nano-ch340-usb-driver-with-cable--47890c9c/README.md) | ATmega328P | 1 | 0 |
+| [Inland Nano Development Board Arduino Compatible; 16MHz Clock Rate; 32KBFlash Memory](boards/inland/atmega328p/inland-nano-development-board-arduino-compatible-16mhz-clock-rate-32kbflash-memory--652661b8/README.md) | ATmega328P | 1 | 0 |
+| [Inland Pro Mini Board Arduino Compatible; 16MHz Clock Rate; 32KB Flash Memory; 2KB SDRAM; ATmega328 Microcontroller](boards/inland/atmega328p/inland-pro-mini-board-arduino-compatible-16mhz-clock-rate-32kb-flash-memory-2kb-sdram-atmega328-microcontroller--f2e0acf4/README.md) | ATmega328P | 1 | 0 |
+| [Inland UNO / V4.0 kit board](boards/inland/atmega328p/inland-uno-v4-0-kit-board--7265c775/README.md) | ATmega328P | 1 | 1 |
+| [Inland UNO PLUS Development Board](boards/inland/atmega328p/inland-uno-plus-development-board--35c69fa9/README.md) | ATmega328P | 1 | 0 |
+| [Inland UNO R3 Development Board with CH340 Drives ATmega328P Microcontroller Module](boards/inland/atmega328p/inland-uno-r3-development-board-with-ch340-drives-atmega328p-microcontroller-module--32374319/README.md) | ATmega328P | 1 | 0 |
+| [Inland UNO R3 Main Control Board](boards/inland/atmega328p/inland-uno-r3-main-control-board--293a36e2/README.md) | ATmega328P | 1 | 1 |
+| [Inland W5500 ETHERNET DEVELOPMENT BOARD (WITHOUT POE)](boards/inland/atmega328p-w5500/inland-w5500-ethernet-development-board-without-poe--c88d09ec/README.md) | ATmega328P / W5500 | 1 | 0 |
+| [PRO MICRO 5V 16MHZ Development Board](boards/inland/atmega32u4/pro-micro-5v-16mhz-development-board--588aa3df/README.md) | ATmega32U4 | 1 | 1 |
 
 ## Invector Labs
 
@@ -1161,6 +1228,12 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | Board / device | Processor / family | References | Pinout images |
 |---|---|---:|---:|
 | [Maple Elite-Pi](boards/maple/rp2040/maple-elite-pi--fd4a0a10/README.md) | RP2040 | 1 | 1 |
+
+## Microchip
+
+| Board / device | Processor / family | References | Pinout images |
+|---|---|---:|---:|
+| [AVR-IoT WG / AC164160](boards/microchip/atmega4808/avr-iot-wg-ac164160--a1abfec2/README.md) | ATmega4808 | 2 | 1 |
 
 ## Milk-V
 
@@ -1823,6 +1896,12 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 |---|---|---:|---:|
 | [RP2040-Shim](boards/silicognition-llc/rp2040/rp2040-shim--5995d5f7/README.md) | RP2040 | 1 | 1 |
 
+## Silicon Labs
+
+| Board / device | Processor / family | References | Pinout images |
+|---|---|---:|---:|
+| [EFM32 Zero Gecko Starter Kit / EFM32ZG-STK3200](boards/silicon-labs/efm32zg222f32/efm32-zero-gecko-starter-kit-efm32zg-stk3200--310620c3/README.md) | EFM32ZG222F32 | 5 | 1 |
+
 ## Sipeed
 
 | Board / device | Processor / family | References | Pinout images |
@@ -1932,6 +2011,13 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | Board / device | Processor / family | References | Pinout images |
 |---|---|---:|---:|
 | [Atum A3 Nano](boards/terasic/agilex-3-fpga/atum-a3-nano--5b49301a/README.md) | Agilex 3 FPGA | 2 | 1 |
+
+## Texas Instruments
+
+| Board / device | Processor / family | References | Pinout images |
+|---|---|---:|---:|
+| [LP-CC2651P3 LaunchPad](boards/texas-instruments/cc2651p3/lp-cc2651p3-launchpad--8f96e563/README.md) | CC2651P3 | 2 | 1 |
+| [LP-CC2651R3SIPA LaunchPad](boards/texas-instruments/cc2651r3sipa/lp-cc2651r3sipa-launchpad--e96ee860/README.md) | CC2651R3SIPA | 2 | 1 |
 
 ## Unattributed chip reference
 

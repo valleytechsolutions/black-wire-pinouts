@@ -64,6 +64,18 @@ M5Stack · Source review pending
 
 Not established; source attribution retained
 
+## Inland Rotary Encoder Module
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-support-640)
+
+[![Inland Rotary Encoder Module / wiring reference](../../library/thumbs/fc9d427c69b2ca41512d4371c7c6b7f1b486b3db5e8d6fcc6dfcfb7da015f8c3.webp)](../../library/media/fc9d427c69b2ca41512d4371c7c6b7f1b486b3db5e8d6fcc6dfcfb7da015f8c3.png)
+
+**wiring reference** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
 ## KY-002 Vibration switch
 
 Joy-IT · Manufacturer documentation recorded

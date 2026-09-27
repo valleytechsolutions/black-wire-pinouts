@@ -96,6 +96,110 @@ M5Stack · Source review pending
 
 Not established; source attribution retained
 
+## Inland 16-channel 12-bit PWM/ Servo Driver
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-support-634)
+
+[![Inland 16-channel 12-bit PWM/ Servo Driver / board labeling image](../../library/thumbs/f68875d85d7ef2dde31826a8860072807d0f52339d7b24e78d0b240430faaef8.webp)](../../library/media/f68875d85d7ef2dde31826a8860072807d0f52339d7b24e78d0b240430faaef8.png)
+
+**board labeling image** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## Inland 3D Printer DRV8825 Kit (5PCS)
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-support-670)
+
+[![Inland 3D Printer DRV8825 Kit (5PCS) / wiring reference](../../library/thumbs/ae0a4ba700ad409e1a66440f3cf825510d989ea225ff3cd65a19b9d2082a6078.webp)](../../library/media/ae0a4ba700ad409e1a66440f3cf825510d989ea225ff3cd65a19b9d2082a6078.png)
+
+**wiring reference** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## Inland 4-channel Relay Module
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-support-645)
+
+[![Inland 4-channel Relay Module / wiring reference](../../library/thumbs/723024ebaefd46bfdbc15179921bcd284ae6f608be2e1ce1ce093448cfcb95d2.webp)](../../library/media/723024ebaefd46bfdbc15179921bcd284ae6f608be2e1ce1ce093448cfcb95d2.png)
+
+**wiring reference** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## Inland 5V Relay Module
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-support-637)
+
+[![Inland 5V Relay Module / board labeling image](../../library/thumbs/8bf73ca0b4b1c9a47028c6b64287b29e8dfd9c17c322e6094693fe725e44cd14.webp)](../../library/media/8bf73ca0b4b1c9a47028c6b64287b29e8dfd9c17c322e6094693fe725e44cd14.png)
+
+**board labeling image** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## Inland 8-channel 5V Relay Module
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-support-638)
+
+[![Inland 8-channel 5V Relay Module / wiring reference](../../library/thumbs/71491509b00d34103e9f933c3de987006de8ed877864f65dc1ecac92ee96cc5a.webp)](../../library/media/71491509b00d34103e9f933c3de987006de8ed877864f65dc1ecac92ee96cc5a.png)
+
+**wiring reference** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## Inland Blue 9G Servo
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-support-659)
+
+[![Inland Blue 9G Servo / product photograph](../../library/thumbs/83654acf0ced3cc831c53d929e8e60850740b4c2d4d7e413e8e84f9fe1802ead.webp)](../../library/media/83654acf0ced3cc831c53d929e8e60850740b4c2d4d7e413e8e84f9fe1802ead.png)
+
+**product photograph** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## Inland L298P 4-Channel Motor Drive Shield
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-support-678)
+
+[![Inland L298P 4-Channel Motor Drive Shield / board labeling image](../../library/thumbs/a0be12fbddba88bbae69b171bca9b8f1d98e09000f06a702dad64186fc9561d2.webp)](../../library/media/a0be12fbddba88bbae69b171bca9b8f1d98e09000f06a702dad64186fc9561d2.png)
+
+**board labeling image** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## Inland Stepper Motor Drive Board + 5V Stepper Motor (3PCS)
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-support-675)
+
+[![Inland Stepper Motor Drive Board + 5V Stepper Motor (3PCS) / wiring reference](../../library/thumbs/92c6a499b2d2c56bb1a5be522ef03d114ef5189eb62da5cef2f68646063201f4.webp)](../../library/media/92c6a499b2d2c56bb1a5be522ef03d114ef5189eb62da5cef2f68646063201f4.png)
+
+**wiring reference** · Reviewed source
+
+Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## Inland WS2812B 1m 60 Light
+
+Inland · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=inland-support-669)
+
+Matching image still needed.
+
 ## IoT Brushless Motor Driver
 
 SparkFun · Manufacturer source references collected
