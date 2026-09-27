@@ -69,3 +69,7 @@ Sources include the following recorded manufacturer/source groups. Inclusion is 
 Read [RIGHTS.md](RIGHTS.md) before republishing material.
 
 Original Black Wire contributions are openly licensed within the scope in [LICENSING.md](LICENSING.md). Preserve the creator credit in [NOTICE.md](NOTICE.md) as required by the applicable license, in addition to each source creator's credit.
+
+## Original wiring guides
+
+The [wiring desk](WIRING.md) contains original diagrams and explanatory text by Kal / Valleytech Solutions, licensed CC BY 4.0. [Per-diagram sources, hashes and review status](catalog/wiring-attributions.json) are recorded separately from manufacturer pinout credits.

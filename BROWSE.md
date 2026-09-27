@@ -1,6 +1,6 @@
 # Browse the reference collection
 
-[Documentation audit](DOCUMENTATION.md) · [Devices & IoT](DEVICES.md) · [First Edition policy](EDITION.md) · [Search the website](https://valleytechsolutions.tech/pages/bwm-technical-reference-guide)
+[Documentation audit](DOCUMENTATION.md) · [Devices & IoT](DEVICES.md) · [Wiring & protocols](WIRING.md) · [First Edition policy](EDITION.md) · [Search the website](https://valleytechsolutions.tech/pages/bwm-technical-reference-guide)
 
 Board diagrams, GPIO references and additional source documents are labeled separately.
 

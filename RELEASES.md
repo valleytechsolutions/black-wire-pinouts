@@ -4,7 +4,13 @@
 
 These are two independent release streams. A **collection release** contains images, PDFs, indexes and attribution records. A **desktop app release** contains an application for the operating systems listed in that release. A collection ZIP is not a desktop installer.
 
-## Current First Edition source sweep — 2026.09.9
+## Current First Edition wiring collection — 2026.09.12
+
+Adds [15 original wiring guides and SVG diagrams](WIRING.md), with practical connection tables, exact module/revision scope, primary sources and attribution. Existing physical board pinout counts remain unchanged. [Scope and review limits](docs/EXPANSION-2026.09.12.md).
+
+Download **both** `Black-Wire-Pinouts-2026.09.12-part-01.zip` and `Black-Wire-Pinouts-2026.09.12-part-02.zip`, plus `SHA256SUMS.txt`, from the matching release. Verify the checksums, then extract both independent ZIPs into the same folder. These are documents and images for Windows, Linux and macOS; no installer is needed. Original Black Wire diagrams are CC BY 4.0; source artwork retains its recorded rights.
+
+## Previous First Edition source sweep — 2026.09.9
 
 Download `Black-Wire-Pinouts-2026.09.9.zip` and `SHA256SUMS.txt` from the matching release. The archive contains originals, model pages, source credits, documentation status and audit results. It works on Windows, Linux and macOS without an installer. [Scope and remaining gaps](docs/EXPANSION-2026.09.9.md).
 

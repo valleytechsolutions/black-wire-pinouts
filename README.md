@@ -16,7 +16,11 @@
 
 Board and device references for **ESP32, Arduino, Raspberry Pi, RP2040/RP2350**, displays, sensors, buttons, interfaces and power modules. Find physical pinout sources, supporting photos, pin-purpose tables and manufacturer documentation, with revision and coverage notes. Generic modules and documentation gaps remain visible.
 
-The companion app **0.11.0** uses the updated Black Wire theme and this hardware collection. The current hardware collection is snapshot **2026.09.11**. [How to read a pinout](https://valleytech-black-wire-guide.pages.dev/wiki/reading-pinouts/) · [Contribute or report a correction](CONTRIBUTING.md).
+The companion app **0.12.0** uses the updated Black Wire theme and this hardware collection. The current hardware collection is snapshot **2026.09.12**. [How to read a pinout](https://valleytech-black-wire-guide.pages.dev/wiki/reading-pinouts/) · [Contribute or report a correction](CONTRIBUTING.md).
+
+## Wiring & protocols / snapshot 2026.09.12
+
+**15 original guides and 15 SVG diagrams.** Ethernet and phone connectors, serial and differential buses, debug interfaces, and RFID/NFC module connections. [Browse diagrams](WIRING.md) · [Sources and scope](docs/EXPANSION-2026.09.12.md). These do not increase physical board-pinout counts.
 
 ## HaleHound and Elechouse / snapshot 2026.09.11
 

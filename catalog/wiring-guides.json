@@ -1,0 +1,1379 @@
+{
+  "schemaVersion": 1,
+  "revision": "2026-09-27",
+  "guides": [
+    {
+      "id": "ethernet-t568",
+      "name": "RJ45 / 8P8C Ethernet: T568A and T568B",
+      "category": "Connectors",
+      "aliases": [
+        "RJ-45",
+        "8P8C",
+        "T568A",
+        "T568B",
+        "CAT5e",
+        "CAT6",
+        "Ethernet jack",
+        "keystone"
+      ],
+      "summary": "Match numbered contacts and twisted pairs when terminating Ethernet cable.",
+      "useWhen": "Making a straight-through patch lead or terminating a compatible data jack.",
+      "why": "Keeping each twisted pair together matters even when a basic continuity test passes.",
+      "scope": "Contact assignments for T568A/B. This is not a rear punch-down layout or a PoE injection circuit.",
+      "diagram": {
+        "kind": "ethernet",
+        "title": "Same scheme at both ends",
+        "subtitle": "Contact-number reference. Follow the exact jack's A/B label for terminal placement."
+      },
+      "columns": [
+        "Contact",
+        "T568A",
+        "T568B"
+      ],
+      "rows": [
+        [
+          "1",
+          "White/green",
+          "White/orange"
+        ],
+        [
+          "2",
+          "Green",
+          "Orange"
+        ],
+        [
+          "3",
+          "White/orange",
+          "White/green"
+        ],
+        [
+          "4",
+          "Blue",
+          "Blue"
+        ],
+        [
+          "5",
+          "White/blue",
+          "White/blue"
+        ],
+        [
+          "6",
+          "Orange",
+          "Green"
+        ],
+        [
+          "7",
+          "White/brown",
+          "White/brown"
+        ],
+        [
+          "8",
+          "Brown",
+          "Brown"
+        ]
+      ],
+      "steps": [
+        "Identify contact 1 using the connector drawing; plug and socket views can appear mirrored.",
+        "Use A at both ends or B at both ends for a straight-through lead. Preserve pairs 1-2, 3-6, 4-5 and 7-8.",
+        "Use a suitable cable tester; check pair assignment as well as opens and shorts."
+      ],
+      "checks": [
+        "Rear IDC terminal order varies by jack; do not copy the plug's left-to-right order onto it.",
+        "An 8P8C socket may carry non-Ethernet signals. Confirm the equipment documentation before connecting it."
+      ],
+      "sourceKeys": [
+        "ethernet",
+        "rj"
+      ],
+      "relatedParts": [],
+      "relatedGuides": [
+        "telephone-jacks",
+        "rs485-bus"
+      ]
+    },
+    {
+      "id": "telephone-jacks",
+      "name": "Phone jacks: RJ11, RJ14 and USOC terminals",
+      "category": "Connectors",
+      "aliases": [
+        "RJ-11",
+        "RJ-14",
+        "RJ25",
+        "6P2C",
+        "6P4C",
+        "6P6C",
+        "telephone",
+        "phone jack",
+        "tip ring"
+      ],
+      "summary": "Recognize telephone connector families and a documented screw-terminal conversion.",
+      "useWhen": "Identifying an analog telephone wall jack and its pair labels.",
+      "why": "Connector contact count and service wiring are different things: RJ11 is one line, RJ14 two, and RJ25 three.",
+      "scope": "The conversion below is for the cited Leviton G/R/Y/B telephone wallplates. Handsets, digital PBX ports and country-specific cords may differ.",
+      "diagram": {
+        "kind": "wires",
+        "title": "Leviton USOC terminal conversion",
+        "subtitle": "Screw-terminal labels, not physical pin order. Disconnect the network line before work.",
+        "left": "USOC terminal",
+        "right": "T568A cable conductor"
+      },
+      "columns": [
+        "USOC terminal",
+        "T568A conductor",
+        "T568B conductor"
+      ],
+      "rows": [
+        [
+          "G / green",
+          "White/blue",
+          "White/blue"
+        ],
+        [
+          "R / red",
+          "Blue",
+          "Blue"
+        ],
+        [
+          "B / black",
+          "White/orange",
+          "White/green"
+        ],
+        [
+          "Y / yellow",
+          "Orange",
+          "Green"
+        ]
+      ],
+      "connections": [
+        [
+          "G / green",
+          "White/blue",
+          "Line 1",
+          "both"
+        ],
+        [
+          "R / red",
+          "Blue",
+          "Line 1",
+          "both"
+        ],
+        [
+          "B / black",
+          "White/orange",
+          "Line 2",
+          "both"
+        ],
+        [
+          "Y / yellow",
+          "Orange",
+          "Line 2",
+          "both"
+        ]
+      ],
+      "steps": [
+        "Record existing terminal labels and identify the service before changing wiring.",
+        "Use the matching manufacturer's terminal map and check cable continuity while disconnected."
+      ],
+      "checks": [
+        "A live telephone line is not a GPIO-level signal; never connect it directly to a microcontroller.",
+        "A telephone plug fitting a larger socket does not establish electrical compatibility."
+      ],
+      "sourceKeys": [
+        "phone",
+        "rj"
+      ],
+      "relatedParts": [],
+      "relatedGuides": [
+        "ethernet-t568"
+      ]
+    },
+    {
+      "id": "uart-logic",
+      "name": "UART: TX, RX and a shared reference",
+      "category": "Serial & buses",
+      "aliases": [
+        "TTL serial",
+        "CMOS UART",
+        "TX RX",
+        "USB TTL adapter",
+        "baud",
+        "serial console"
+      ],
+      "summary": "Connect a logic-level serial adapter to a compatible board console.",
+      "useWhen": "Reading development-board logs or sending simple commands over a short local connection.",
+      "why": "UART needs no separate clock wire, but both ends must agree on baud rate and framing.",
+      "scope": "Non-isolated, compatible logic-level UART. TX/RX labels are from each device's own perspective; no universal header order is implied.",
+      "diagram": {
+        "kind": "wires",
+        "title": "Transmit meets receive",
+        "subtitle": "Both devices powered appropriately; adapter VCC intentionally not connected.",
+        "left": "USB-UART adapter",
+        "right": "Target board"
+      },
+      "connections": [
+        [
+          "TX output",
+          "RX input",
+          "Adapter to target",
+          "right"
+        ],
+        [
+          "RX input",
+          "TX output",
+          "Target to adapter",
+          "left"
+        ],
+        [
+          "GND",
+          "GND",
+          "Signal reference",
+          "both"
+        ]
+      ],
+      "columns": [
+        "Adapter",
+        "Target",
+        "Purpose"
+      ],
+      "rows": [
+        [
+          "TX",
+          "RX",
+          "Send data"
+        ],
+        [
+          "RX",
+          "TX",
+          "Receive data"
+        ],
+        [
+          "GND",
+          "GND",
+          "Common reference"
+        ]
+      ],
+      "steps": [
+        "Confirm the target's I/O voltage and the adapter's actual TX level; a supply-voltage jumper may not change TX voltage.",
+        "Wire with power off, then select the documented baud, data bits, parity and stop bits.",
+        "Start by reading logs; garbled text often indicates framing, voltage or grounding trouble."
+      ],
+      "checks": [
+        "Do not connect two TX outputs together.",
+        "RS-232 voltage levels require a transceiver; a USB connector alone does not identify an adapter's electrical interface."
+      ],
+      "sourceKeys": [
+        "uart",
+        "rs232"
+      ],
+      "relatedParts": [],
+      "relatedGuides": [
+        "rs232-interface",
+        "rs485-bus"
+      ]
+    },
+    {
+      "id": "rs232-interface",
+      "name": "RS-232: put a transceiver between UART and cable",
+      "category": "Serial & buses",
+      "aliases": [
+        "RS232",
+        "RS-232",
+        "DB9",
+        "DE9",
+        "DTE",
+        "DCE",
+        "null modem",
+        "MAX3232"
+      ],
+      "summary": "Understand why an RS-232 port cannot connect straight to a logic-level UART.",
+      "useWhen": "Interfacing a microcontroller with an instrument or legacy serial port.",
+      "why": "The transceiver translates the electrical levels and polarity while the UART handles byte framing.",
+      "scope": "Signal path only. Choose a transceiver and supply circuit from its datasheet; DTE/DCE roles determine the cable wiring.",
+      "diagram": {
+        "kind": "rs232",
+        "title": "Logic UART is not RS-232",
+        "subtitle": "A three-wire data link still requires compatible electrical conversion."
+      },
+      "columns": [
+        "Layer",
+        "Job",
+        "Check"
+      ],
+      "rows": [
+        [
+          "MCU UART",
+          "TX / RX logic",
+          "I/O voltage"
+        ],
+        [
+          "RS-232 transceiver",
+          "Translate electrical levels",
+          "Supply, capacitors, channel direction"
+        ],
+        [
+          "Serial cable",
+          "Connect endpoints",
+          "DTE/DCE and pin-numbered connector views"
+        ]
+      ],
+      "steps": [
+        "Identify both port roles and whether hardware flow control is required.",
+        "Use the equipment pinouts to select a straight-through or null-modem cable.",
+        "Match baud and framing after checking the electrical connection."
+      ],
+      "checks": [
+        "Never apply an RS-232 signal directly to a GPIO input.",
+        "A DE9 shell does not prove a port is RS-232; similar connectors carry CAN and other interfaces."
+      ],
+      "sourceKeys": [
+        "rs232"
+      ],
+      "relatedParts": [],
+      "relatedGuides": [
+        "uart-logic",
+        "can-bus"
+      ]
+    },
+    {
+      "id": "rs485-bus",
+      "name": "RS-485: a half-duplex multidrop bus",
+      "category": "Serial & buses",
+      "aliases": [
+        "RS485",
+        "RS-485",
+        "Modbus RTU",
+        "A B",
+        "D+ D-",
+        "DE RE"
+      ],
+      "summary": "Connect differential transceivers on a bus with controlled transmit direction.",
+      "useWhen": "Linking compatible industrial sensors or controllers along a cable.",
+      "why": "Differential signaling supports useful noise rejection; an application protocol decides who talks and what bytes mean.",
+      "scope": "Two-wire half-duplex topology with a transceiver at every node. RS-485 itself does not define Modbus addresses or a universal connector.",
+      "diagram": {
+        "kind": "bus",
+        "bus": "rs485",
+        "title": "Terminate the cable ends",
+        "subtitle": "Identical transceivers shown. Check polarity truth tables when mixing manufacturers."
+      },
+      "columns": [
+        "Signal / feature",
+        "Purpose",
+        "Check"
+      ],
+      "rows": [
+        [
+          "Differential pair",
+          "Shared data bus",
+          "A/B and +/- names can differ"
+        ],
+        [
+          "DE",
+          "Enable the driver",
+          "Only one transmitter active at a time"
+        ],
+        [
+          "/RE",
+          "Enable the receiver when low",
+          "Automatic-direction modules vary"
+        ],
+        [
+          "Termination",
+          "Match cable impedance at both ends",
+          "Do not add one per node"
+        ],
+        [
+          "Bias / failsafe",
+          "Defined idle state",
+          "Calculate for the complete loaded bus"
+        ]
+      ],
+      "steps": [
+        "Use a trunk with short stubs and the cable/transceiver guidance for the chosen rate.",
+        "Plan the signal reference, common-mode limits and isolation before connecting separate power systems.",
+        "Check transmit-enable timing and the protocol settings."
+      ],
+      "checks": [
+        "GPIO cannot directly drive the differential pair.",
+        "Termination and bias are different circuits; modules may already contain either."
+      ],
+      "sourceKeys": [
+        "rs485",
+        "rs485signals"
+      ],
+      "relatedParts": [],
+      "relatedGuides": [
+        "uart-logic",
+        "can-bus"
+      ]
+    },
+    {
+      "id": "can-bus",
+      "name": "CAN bus: controller, transceiver and termination",
+      "category": "Serial & buses",
+      "aliases": [
+        "CANBUS",
+        "CAN bus",
+        "CAN-H",
+        "CAN-L",
+        "CAN FD",
+        "120 ohm",
+        "TWAI"
+      ],
+      "summary": "Separate the MCU's CAN signals from the two-wire physical bus.",
+      "useWhen": "Building a documented CAN network between development boards, robots or instruments.",
+      "why": "CAN controllers handle messages and arbitration; transceivers connect those controllers to CANH/CANL.",
+      "scope": "Conventional high-speed two-wire CAN. This is not a low-speed fault-tolerant, single-wire, OBD connector or automotive harness pinout.",
+      "diagram": {
+        "kind": "bus",
+        "bus": "can",
+        "title": "Two cable ends, two terminators",
+        "subtitle": "120-ohm termination across CANH/CANL at each end of a 120-ohm bus."
+      },
+      "columns": [
+        "Connection",
+        "Meaning",
+        "Check"
+      ],
+      "rows": [
+        [
+          "MCU TX / RX",
+          "Controller-to-transceiver logic",
+          "I/O supply compatibility"
+        ],
+        [
+          "CANH / CANL",
+          "Twisted differential pair",
+          "Do not swap or attach directly to GPIO"
+        ],
+        [
+          "120 ohm at each end",
+          "End termination",
+          "Include terminators already fitted"
+        ],
+        [
+          "Reference / isolation",
+          "Keep common-mode within limits",
+          "Follow the transceiver and system design"
+        ]
+      ],
+      "steps": [
+        "Keep the trunk linear and stubs short; choose cable length and rate together.",
+        "Match bit timing; CAN FD needs compatible controllers and transceivers.",
+        "Use another active receiving node for acknowledgement during a normal transmit test."
+      ],
+      "checks": [
+        "CAN does not define one universal connector or wire-color scheme.",
+        "With all power removed, two simple 120-ohm end resistors in parallel give about 60 ohms; this check alone cannot prove correct wiring."
+      ],
+      "sourceKeys": [
+        "can"
+      ],
+      "relatedParts": [],
+      "relatedGuides": [
+        "rs485-bus"
+      ]
+    },
+    {
+      "id": "i2c-bus",
+      "name": "I2C: two shared lines with pull-ups",
+      "category": "Serial & buses",
+      "aliases": [
+        "I²C",
+        "IIC",
+        "I2C",
+        "SDA",
+        "SCL",
+        "pullup",
+        "Qwiic",
+        "STEMMA QT"
+      ],
+      "summary": "Wire SDA and SCL for compatible sensors on a short local bus.",
+      "useWhen": "Connecting addressed peripherals while using few MCU pins.",
+      "why": "Devices share data and clock lines and release them high through pull-up resistors.",
+      "scope": "Ordinary open-drain I2C. Connector-branded systems still require their own pinout and voltage check.",
+      "diagram": {
+        "kind": "i2c",
+        "title": "Pull up to a compatible logic rail",
+        "subtitle": "Each line needs an effective pull-up. Existing module resistors combine in parallel."
+      },
+      "columns": [
+        "Signal",
+        "Connection",
+        "Purpose"
+      ],
+      "rows": [
+        [
+          "SDA",
+          "SDA on each device",
+          "Bidirectional data"
+        ],
+        [
+          "SCL",
+          "SCL on each device",
+          "Clock; a target may stretch it"
+        ],
+        [
+          "GND",
+          "Common reference",
+          "Non-isolated example"
+        ],
+        [
+          "Pull-up rail",
+          "Compatible with every I/O",
+          "Not automatically the module power input"
+        ]
+      ],
+      "steps": [
+        "Check addresses for collisions and configure the documented bus speed.",
+        "Determine the total pull-up resistance from all attached boards.",
+        "Choose resistance using rise-time, capacitance and sink-current limits; 4.7 kohm is not universal."
+      ],
+      "checks": [
+        "A 5 V pull-up can damage a non-tolerant 3.3 V input.",
+        "Do not cross SDA and SCL. A detected address alone does not prove the correct device or power configuration."
+      ],
+      "sourceKeys": [
+        "i2c"
+      ],
+      "relatedParts": [],
+      "relatedGuides": [
+        "spi-bus",
+        "st25r3916b-i2c",
+        "pn7160-mini-i2c"
+      ]
+    },
+    {
+      "id": "spi-bus",
+      "name": "SPI: clock, data direction and chip select",
+      "category": "Serial & buses",
+      "aliases": [
+        "SPI",
+        "MOSI",
+        "MISO",
+        "COPI",
+        "CIPO",
+        "SCLK",
+        "chip select",
+        "CPOL",
+        "CPHA"
+      ],
+      "summary": "Connect a host to a four-wire SPI peripheral without crossing the data roles.",
+      "useWhen": "Using supported displays, memory, ADCs or radio/NFC frontends.",
+      "why": "A shared clock times the transfer, and chip select identifies the active peripheral.",
+      "scope": "Conventional four-wire, active-low-CS SPI. Three-wire, daisy-chain and device-specific interfaces need their own diagrams.",
+      "diagram": {
+        "kind": "wires",
+        "title": "Follow direction, not just the abbreviation",
+        "subtitle": "MOSI = host out; MISO = host in. Each ordinary peripheral gets its own CS.",
+        "left": "Host MCU",
+        "right": "SPI peripheral"
+      },
+      "connections": [
+        [
+          "SCK output",
+          "SCK input",
+          "Clock",
+          "right"
+        ],
+        [
+          "MOSI / COPI",
+          "SDI / MOSI",
+          "Host to peripheral",
+          "right"
+        ],
+        [
+          "MISO / CIPO",
+          "SDO / MISO",
+          "Peripheral to host",
+          "left"
+        ],
+        [
+          "CS output",
+          "/CS input",
+          "Active low",
+          "right"
+        ],
+        [
+          "GND",
+          "GND",
+          "Signal reference",
+          "both"
+        ]
+      ],
+      "columns": [
+        "Mode",
+        "CPOL",
+        "CPHA"
+      ],
+      "rows": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "1"
+        ],
+        [
+          "2",
+          "1",
+          "0"
+        ],
+        [
+          "3",
+          "1",
+          "1"
+        ]
+      ],
+      "steps": [
+        "Match I/O levels, SPI mode, bit order and maximum clock to the peripheral datasheet.",
+        "Check that shared MISO devices release the line when deselected.",
+        "Start with short wires and a conservative clock."
+      ],
+      "checks": [
+        "SDI/SDO labels are local to the device. Read each signal direction.",
+        "Supply wiring and optional IRQ/reset signals are additional to the four SPI signals."
+      ],
+      "sourceKeys": [
+        "spi"
+      ],
+      "relatedParts": [],
+      "relatedGuides": [
+        "st25r3916b-spi",
+        "i2c-bus"
+      ]
+    },
+    {
+      "id": "swd-debug",
+      "name": "SWD: connect a Cortex debug probe",
+      "category": "Debug & programming",
+      "aliases": [
+        "SWD",
+        "SWDIO",
+        "SWCLK",
+        "Cortex 10 pin",
+        "ST-Link",
+        "VTref"
+      ],
+      "summary": "Map the essential debug signals without confusing voltage sense with a power output.",
+      "useWhen": "Programming or debugging a target that explicitly supports Arm Serial Wire Debug.",
+      "why": "SWD uses a bidirectional data signal and a clock, with target voltage reference and ground.",
+      "scope": "Five signal connections using the cited Cortex 10-pin numbering. It is not a complete 10-pin map or a map for every ST-Link clone.",
+      "diagram": {
+        "kind": "wires",
+        "title": "Cortex 10-pin: essential SWD signals",
+        "subtitle": "Signal map, not a connector-face view. Find pin 1 on both physical connectors.",
+        "left": "Debug probe",
+        "right": "Powered target"
+      },
+      "connections": [
+        [
+          "1 VTref input",
+          "Target I/O rail",
+          "Voltage sense",
+          "left"
+        ],
+        [
+          "2 SWDIO",
+          "SWDIO",
+          "Bidirectional",
+          "both"
+        ],
+        [
+          "3 GND",
+          "GND",
+          "Reference",
+          "both"
+        ],
+        [
+          "4 SWCLK",
+          "SWCLK",
+          "Probe clock",
+          "right"
+        ],
+        [
+          "10 nRESET",
+          "Reset input",
+          "If required",
+          "right"
+        ]
+      ],
+      "columns": [
+        "Cortex contact",
+        "Signal",
+        "Role"
+      ],
+      "rows": [
+        [
+          "1",
+          "VTref",
+          "Sense target I/O voltage"
+        ],
+        [
+          "2",
+          "SWDIO",
+          "Bidirectional data"
+        ],
+        [
+          "3",
+          "GND",
+          "Reference"
+        ],
+        [
+          "4",
+          "SWCLK",
+          "Probe output"
+        ],
+        [
+          "10",
+          "nRESET",
+          "Target reset, if used"
+        ]
+      ],
+      "steps": [
+        "Use the actual probe and board connector drawings and match pin 1.",
+        "Power the target as documented and connect its I/O rail to VTref.",
+        "Select SWD and start with a conservative debug clock."
+      ],
+      "checks": [
+        "VTref normally senses power; it is not permission to power the target from the probe.",
+        "Optional SWO and unused contacts depend on the target. SWD and JTAG are different modes."
+      ],
+      "sourceKeys": [
+        "swd",
+        "swdpins"
+      ],
+      "relatedParts": [],
+      "relatedGuides": [
+        "jtag-debug"
+      ]
+    },
+    {
+      "id": "jtag-debug",
+      "name": "JTAG: TCK, TMS, TDI and TDO",
+      "category": "Debug & programming",
+      "aliases": [
+        "JTAG",
+        "TCK",
+        "TMS",
+        "TDI",
+        "TDO",
+        "boundary scan",
+        "J-Link"
+      ],
+      "summary": "Understand the four core JTAG signals and their direction at a target.",
+      "useWhen": "Using supported programming, debugging or boundary-scan tools with documented target hardware.",
+      "why": "Separate clock, state control and serial input/output let a probe communicate with a target's test-access port.",
+      "scope": "Single-target signal diagram. Pin order, voltage and optional reset signals depend on the exact probe and connector.",
+      "diagram": {
+        "kind": "wires",
+        "title": "TDI and TDO are named at the target",
+        "subtitle": "No universal JTAG header order. Consult the board and probe drawings.",
+        "left": "JTAG probe",
+        "right": "Target TAP"
+      },
+      "connections": [
+        [
+          "TCK output",
+          "TCK input",
+          "Clock",
+          "right"
+        ],
+        [
+          "TMS output",
+          "TMS input",
+          "State control",
+          "right"
+        ],
+        [
+          "TDI output",
+          "TDI input",
+          "Into target",
+          "right"
+        ],
+        [
+          "TDO input",
+          "TDO output",
+          "Out of target",
+          "left"
+        ],
+        [
+          "VTref input",
+          "Target I/O rail",
+          "Voltage sense",
+          "left"
+        ],
+        [
+          "GND",
+          "GND",
+          "Reference",
+          "both"
+        ]
+      ],
+      "columns": [
+        "Target signal",
+        "Direction at target",
+        "Purpose"
+      ],
+      "rows": [
+        [
+          "TCK",
+          "Input",
+          "Clock"
+        ],
+        [
+          "TMS",
+          "Input",
+          "State selection"
+        ],
+        [
+          "TDI",
+          "Input",
+          "Serial data in"
+        ],
+        [
+          "TDO",
+          "Output",
+          "Serial data out"
+        ]
+      ],
+      "steps": [
+        "Match the target connector and I/O voltage; identify optional nTRST and system reset separately.",
+        "For multiple targets, use the documented chain order and instruction-register configuration."
+      ],
+      "checks": [
+        "Do not assume that a similarly sized header is JTAG.",
+        "Do not connect a probe's power-output contact unless the board and probe documentation explicitly allow it."
+      ],
+      "sourceKeys": [
+        "jtag"
+      ],
+      "relatedParts": [],
+      "relatedGuides": [
+        "swd-debug"
+      ]
+    },
+    {
+      "id": "rfid-nfc-roles",
+      "name": "RFID / NFC: reader, writer or emulator?",
+      "category": "RFID & NFC",
+      "aliases": [
+        "RFID",
+        "NFC",
+        "reader writer",
+        "emulator",
+        "card emulation",
+        "ST25R",
+        "PN532",
+        "PN7160",
+        "PN5180",
+        "13.56 MHz"
+      ],
+      "summary": "Choose the radio, supported tag protocol and host interface before choosing wires.",
+      "useWhen": "Building tag-based identification, an NDEF demonstration or your own NFC test device.",
+      "why": "RFID describes a broad family. A 13.56 MHz NFC module is not automatically compatible with 125 kHz or UHF tags.",
+      "scope": "Capability planning for documented NFC parts. Reading, writing and card emulation are separate operations; chip features do not guarantee module firmware support.",
+      "diagram": {
+        "kind": "rfid",
+        "title": "Two interfaces, two compatibility checks",
+        "subtitle": "MCU-to-module wiring and module-to-tag radio protocol must both match."
+      },
+      "columns": [
+        "Role / part",
+        "What to check",
+        "Practical implication"
+      ],
+      "rows": [
+        [
+          "Reader",
+          "Frequency and tag technology",
+          "Detection is not proof of application access"
+        ],
+        [
+          "Writer",
+          "Writable memory, permissions and locks",
+          "A readable tag may not be writable"
+        ],
+        [
+          "Card emulator",
+          "Supported card type and host stack",
+          "Not an automatic copy of another card"
+        ],
+        [
+          "ST25R3916B",
+          "NFC frontend with host software",
+          "Do not transfer all features to 3917B/3919B"
+        ],
+        [
+          "PN532",
+          "Host mode and supported NFC modes",
+          "Module switches and voltage circuits vary"
+        ],
+        [
+          "PN7160",
+          "NCI controller and host application",
+          "Type-4 emulation needs the appropriate application"
+        ],
+        [
+          "PN5180",
+          "Exact silicon/firmware and NFC library",
+          "Use the relevant revision documentation"
+        ]
+      ],
+      "steps": [
+        "Identify the exact module, antenna, tag technology and intended read/write/emulation role.",
+        "Choose a supported host library and verify mode support before assembling the prototype.",
+        "Use known test tags and inspect results without assuming UID detection proves full interoperability."
+      ],
+      "checks": [
+        "Antenna matching and nearby metal affect operation; an arbitrary wire is not a drop-in antenna.",
+        "Module supply input, I/O voltage and RF field configuration are different specifications."
+      ],
+      "sourceKeys": [
+        "st25chip",
+        "pn532",
+        "emulation",
+        "pn5180"
+      ],
+      "relatedParts": [
+        "elechouse-st25r3916b",
+        "elechouse-st25r3916b-mini",
+        "elechouse-pn532-v3",
+        "elechouse-pn5180",
+        "elechouse-pn7160-mini-v1-i2c"
+      ],
+      "relatedGuides": [
+        "st25r3916b-spi",
+        "st25r3916b-i2c",
+        "pn7160-mini-i2c",
+        "pn532-v3-modes"
+      ]
+    },
+    {
+      "id": "st25r3916b-spi",
+      "name": "ELECHOUSE ST25R3916B: SPI wiring",
+      "category": "RFID & NFC",
+      "aliases": [
+        "ST25R3916B",
+        "ST25R SPI",
+        "Elechouse NFC",
+        "7 pin NFC"
+      ],
+      "summary": "Signal connections for the seven-pin module in the V0.3 Draft datasheet.",
+      "useWhen": "Using this exact ELECHOUSE module in its documented default SPI mode.",
+      "why": "IRQ is additional to the four SPI signals.",
+      "scope": "V0.3 Draft, 2026-07-18; not the Mini module or the chip package. Confirm connector orientation against the original board drawing.",
+      "diagram": {
+        "kind": "wires",
+        "title": "ST25R3916B seven-pin module / SPI",
+        "subtitle": "Documented 5 V module supply; 3.3 V host logic recommended. Draft source; not bench-tested.",
+        "left": "Host / supply",
+        "right": "ELECHOUSE module"
+      },
+      "connections": [
+        [
+          "Interrupt input",
+          "1 IRQ",
+          "Module interrupt",
+          "left"
+        ],
+        [
+          "CS output",
+          "2 CS / BSS",
+          "Active low",
+          "right"
+        ],
+        [
+          "SPI clock",
+          "3 SCLK",
+          "Clock",
+          "right"
+        ],
+        [
+          "MOSI output",
+          "4 MOSI",
+          "Host data",
+          "right"
+        ],
+        [
+          "MISO input",
+          "5 MISO",
+          "Module data",
+          "left"
+        ],
+        [
+          "5 V supply",
+          "6 5V",
+          "Power, not logic",
+          "right"
+        ],
+        [
+          "GND",
+          "7 GND",
+          "Reference",
+          "both"
+        ]
+      ],
+      "columns": [
+        "Contact",
+        "SPI signal",
+        "Host connection"
+      ],
+      "rows": [
+        [
+          "1",
+          "IRQ",
+          "Interrupt input"
+        ],
+        [
+          "2",
+          "CS / BSS",
+          "Chip-select output"
+        ],
+        [
+          "3",
+          "SCLK",
+          "SPI clock"
+        ],
+        [
+          "4",
+          "MOSI",
+          "MOSI"
+        ],
+        [
+          "5",
+          "MISO",
+          "MISO"
+        ],
+        [
+          "6",
+          "5V",
+          "Module supply"
+        ],
+        [
+          "7",
+          "GND",
+          "Ground"
+        ]
+      ],
+      "steps": [
+        "Match the seven-pin board and default SPI configuration.",
+        "Use the module's supported library and its documented startup sequence."
+      ],
+      "checks": [
+        "The 5V label does not make the signals 5 V tolerant."
+      ],
+      "sourceKeys": [
+        "st25module",
+        "spi"
+      ],
+      "relatedParts": [
+        "elechouse-st25r3916b"
+      ],
+      "relatedGuides": [
+        "st25r3916b-i2c",
+        "rfid-nfc-roles"
+      ]
+    },
+    {
+      "id": "st25r3916b-i2c",
+      "name": "ELECHOUSE ST25R3916B: I2C wiring",
+      "category": "RFID & NFC",
+      "aliases": [
+        "ST25R3916B I2C",
+        "ST25R IIC",
+        "Elechouse SCL SDA"
+      ],
+      "summary": "The same module changes pin functions after hardware mode selection.",
+      "useWhen": "Using the seven-pin module in the documented I2C configuration.",
+      "why": "SDA is on contact 5, not contact 4.",
+      "scope": "Same V0.3 Draft module as the SPI guide. Change the I2C solder bridge only with power removed.",
+      "diagram": {
+        "kind": "wires",
+        "title": "ST25R3916B seven-pin module / I2C",
+        "subtitle": "Bridge the documented I2C pad first. Onboard pull-ups go to 3.3 V.",
+        "left": "Host / supply",
+        "right": "ELECHOUSE module"
+      },
+      "connections": [
+        [
+          "Interrupt input",
+          "1 IRQ",
+          "Module interrupt",
+          "left"
+        ],
+        [
+          "SCL",
+          "3 SCL",
+          "Clock",
+          "right"
+        ],
+        [
+          "SDA",
+          "5 SDA",
+          "Data",
+          "both"
+        ],
+        [
+          "5 V supply",
+          "6 5V",
+          "Power, not logic",
+          "right"
+        ],
+        [
+          "GND",
+          "7 GND",
+          "Reference",
+          "both"
+        ]
+      ],
+      "columns": [
+        "Contact",
+        "I2C role",
+        "Connection"
+      ],
+      "rows": [
+        [
+          "1",
+          "IRQ",
+          "Host interrupt input"
+        ],
+        [
+          "2",
+          "Unused in standard I2C wiring",
+          "Leave unconnected"
+        ],
+        [
+          "3",
+          "SCL",
+          "Host SCL"
+        ],
+        [
+          "4",
+          "Unused in standard I2C wiring",
+          "Leave unconnected"
+        ],
+        [
+          "5",
+          "SDA",
+          "Host SDA"
+        ],
+        [
+          "6",
+          "5V",
+          "Module supply"
+        ],
+        [
+          "7",
+          "GND",
+          "Ground"
+        ]
+      ],
+      "steps": [
+        "Verify the mode bridge and use an I2C-capable host library.",
+        "Account for onboard pull-ups before adding external ones."
+      ],
+      "checks": [
+        "This assignment is not valid for every ST25R module."
+      ],
+      "sourceKeys": [
+        "st25module",
+        "i2c"
+      ],
+      "relatedParts": [
+        "elechouse-st25r3916b"
+      ],
+      "relatedGuides": [
+        "st25r3916b-spi",
+        "rfid-nfc-roles"
+      ]
+    },
+    {
+      "id": "pn7160-mini-i2c",
+      "name": "ELECHOUSE PN7160 MINI V1: I2C wiring",
+      "category": "RFID & NFC",
+      "aliases": [
+        "PN7160 mini",
+        "PN7160 I2C",
+        "NCI",
+        "VEN",
+        "6 pin NFC"
+      ],
+      "summary": "Wire the six-pin MINI module without borrowing the standard module's eight-pin map.",
+      "useWhen": "Connecting the PN7160 MINI V1 I2C module to a compatible 3.3 V host.",
+      "why": "I2C transfers commands; IRQ reports events and VEN controls enable/reset.",
+      "scope": "ELECHOUSE PN7160 MINI V1 I2C only. Identify contact 1 using the manufacturer drawing, not cable colors.",
+      "diagram": {
+        "kind": "wires",
+        "title": "PN7160 MINI V1 / six-pin I2C",
+        "subtitle": "3.3 V host logic. Choose the supply and matching software power preset together.",
+        "left": "Host / supply",
+        "right": "PN7160 MINI V1"
+      },
+      "connections": [
+        [
+          "SDA",
+          "1 SDA",
+          "Data",
+          "both"
+        ],
+        [
+          "SCL",
+          "2 SCL",
+          "Clock",
+          "right"
+        ],
+        [
+          "Interrupt input",
+          "3 IRQ",
+          "Module interrupt",
+          "left"
+        ],
+        [
+          "Enable output",
+          "4 VEN",
+          "Enable / reset",
+          "right"
+        ],
+        [
+          "3.3-5.5 V supply",
+          "5 VCC",
+          "See supply preset",
+          "right"
+        ],
+        [
+          "GND",
+          "6 GND",
+          "Reference",
+          "both"
+        ]
+      ],
+      "columns": [
+        "Contact",
+        "Signal",
+        "Host role"
+      ],
+      "rows": [
+        [
+          "1",
+          "SDA",
+          "I2C data"
+        ],
+        [
+          "2",
+          "SCL",
+          "I2C clock"
+        ],
+        [
+          "3",
+          "IRQ",
+          "Interrupt input"
+        ],
+        [
+          "4",
+          "VEN",
+          "Enable output"
+        ],
+        [
+          "5",
+          "VCC",
+          "Module supply"
+        ],
+        [
+          "6",
+          "GND",
+          "Ground"
+        ]
+      ],
+      "steps": [
+        "Use the documented 3.3-5.5 V supply range at VCC, including ripple and tolerance. Host signals remain 3.3 V.",
+        "Set the library's supply preset to the actual supply before configuring the NFC controller.",
+        "Select a supported NCI example and connect the specified antenna."
+      ],
+      "checks": [
+        "Do not substitute the PN7161 MINI SPI or standard PN7160 eight-pin wiring.",
+        "Reader operation does not automatically implement an emulated card application."
+      ],
+      "sourceKeys": [
+        "pn7160mini",
+        "pn7160quick",
+        "emulation"
+      ],
+      "relatedParts": [
+        "elechouse-pn7160-mini-v1-i2c"
+      ],
+      "relatedGuides": [
+        "i2c-bus",
+        "rfid-nfc-roles"
+      ]
+    },
+    {
+      "id": "pn532-v3-modes",
+      "name": "ELECHOUSE PN532 V3: choose the host mode",
+      "category": "RFID & NFC",
+      "aliases": [
+        "PN532",
+        "PN532 V3",
+        "HSU",
+        "NFC UART",
+        "PN532 switches"
+      ],
+      "summary": "Select UART, I2C or SPI before following that interface's wiring diagram.",
+      "useWhen": "Identifying a documented ELECHOUSE V3 module for an NFC prototype.",
+      "why": "The same header labels can have different roles in different modes.",
+      "scope": "V3 manual revision B, 2013-11-05. Switch settings are not transferable to V4, MINI, USB or unbranded boards.",
+      "diagram": {
+        "kind": "modes",
+        "title": "One module, one selected host interface",
+        "subtitle": "Change switches with power removed; use the original V3 board view for switch numbering."
+      },
+      "columns": [
+        "Host mode",
+        "Switch 1",
+        "Switch 2"
+      ],
+      "rows": [
+        [
+          "HSU / UART",
+          "OFF",
+          "OFF"
+        ],
+        [
+          "I2C",
+          "ON",
+          "OFF"
+        ],
+        [
+          "SPI",
+          "OFF",
+          "ON"
+        ]
+      ],
+      "steps": [
+        "Identify the V3 board and numbered switches from the original reference.",
+        "Choose one interface, power-cycle after changing it, and use the corresponding library configuration.",
+        "Follow the exact header map and verify supply and I/O levels separately."
+      ],
+      "checks": [
+        "This guide does not approve the legacy manual's broad voltage-tolerance wording for every pin.",
+        "NFC radio/card mode is separate from the UART/I2C/SPI host mode."
+      ],
+      "sourceKeys": [
+        "pn532v3",
+        "pn532"
+      ],
+      "relatedParts": [
+        "elechouse-pn532-v3"
+      ],
+      "relatedGuides": [
+        "uart-logic",
+        "i2c-bus",
+        "spi-bus",
+        "rfid-nfc-roles"
+      ]
+    }
+  ]
+}

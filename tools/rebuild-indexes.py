@@ -67,7 +67,7 @@ def main():
     write_json(ROOT/'catalog/attributions.json',attribution)
     with (ROOT/'catalog/attributions.csv').open('w',newline='',encoding='utf-8') as f:
         writer=csv.DictWriter(f,fieldnames=list(attribution[0]));writer.writeheader();writer.writerows(attribution)
-    browse=['# Browse the reference collection','','[Documentation audit](DOCUMENTATION.md) · [Devices & IoT](DEVICES.md) · [First Edition policy](EDITION.md) · [Search the website](https://valleytechsolutions.tech/pages/bwm-technical-reference-guide)','','Board diagrams, GPIO references and additional source documents are labeled separately.','']
+    browse=['# Browse the reference collection','','[Documentation audit](DOCUMENTATION.md) · [Devices & IoT](DEVICES.md) · [Wiring & protocols](WIRING.md) · [First Edition policy](EDITION.md) · [Search the website](https://valleytechsolutions.tech/pages/bwm-technical-reference-guide)','','Board diagrams, GPIO references and additional source documents are labeled separately.','']
     grouped=collections.defaultdict(list)
     for b in boards:grouped[b['brand']].append(b)
     for brand in sorted(grouped):

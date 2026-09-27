@@ -7,7 +7,7 @@ Three version numbers serve different purposes:
 | Version | Meaning | Current |
 |---|---|---|
 | Book edition | A future annual editorial edition with a frozen contents and rights review | First Edition / 2026, not yet frozen for print |
-| Collection snapshot | An immutable download of the images, catalog and attribution ledger | 2026.09.11 |
+| Collection snapshot | An immutable download of the images, catalog and attribution ledger | 2026.09.12 |
 | Application version | Software features and fixes | Published separately in the desktop repository |
 
 Adding references or fixing the app does **not** create a new book edition. Earlier collection snapshots remain downloadable and unchanged. A future annual edition will receive its own number, cutoff date, table of contents and publication record when ready.

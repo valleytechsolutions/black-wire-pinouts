@@ -7,6 +7,18 @@ def main():
  if json.loads((LIB/'maker-parts.json').read_text('utf-8'))['parts']!=c.get('makerParts',[]):errors.append('Standalone maker catalog differs from app catalog')
  if len(ids)!=len(set(ids)):errors.append('Duplicate listing IDs')
  known={b['id'] for b in c['boards']};hashes={};paths=set(manifest)
+ guides=c.get('wiringGuides',[])
+ if guides:
+  if json.loads((LIB/'wiring-guides.json').read_text('utf-8'))['guides']!=guides:errors.append('Standalone wiring catalog differs')
+  guideids={g['id'] for g in guides};makerids={p['id'] for p in c.get('makerParts',[])}
+  if len(guideids)!=len(guides):errors.append('Duplicate wiring IDs')
+  for g in guides:
+   a=g['image'];hashes[a['file']]=a['hash']
+   if a['file'] not in paths:errors.append('Unlisted wiring image: '+g['id'])
+   if not g.get('rights') or not g.get('review') or not g.get('sources'):errors.append('Missing wiring provenance: '+g['id'])
+   if g.get('kind')!='wiring-guide' or a.get('type')!='original connection diagram':errors.append('Wrong wiring classification: '+g['id'])
+   if not set(g.get('relatedParts',[]))<=makerids or not set(g.get('relatedGuides',[]))<=guideids:errors.append('Broken wiring crosslink: '+g['id'])
+  if c['stats'].get('wiringGuides')!=len(guides) or c['stats'].get('wiringDiagrams')!=len(guides):errors.append('Incorrect wiring counts')
  for p in manifest:
   rel=pathlib.PurePosixPath(p)
   if rel.is_absolute() or '..' in rel.parts or '\\' in p or ':' in p:errors.append('Unsafe path: '+p);continue
