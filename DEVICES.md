@@ -190,7 +190,7 @@ Original manufacturer images remain unchanged. Revision and partial-map notes li
 | Guition | [JC4880P443C_I_W](boards/guition/cyd/jc4880p443c-i-w--9bc93af7/README.md) | Not recorded | 0 | 2 |
 | Guition | [JC8012P4A1C_I_W](boards/guition/cyd/jc8012p4a1c-i-w--a674e4e8/README.md) | Not recorded | 0 | 2 |
 | Guition | [JC8048W550](boards/guition/cyd/jc8048w550--3bd9c37d/README.md) | Not recorded | 0 | 2 |
-| Inland | [Inland 2.8 Inch ESP32-32E Display Module Resistive Touch TFT Screen](boards/inland/esp32/inland-2-8-inch-esp32-32e-display-module-resistive-touch-tft-screen--a84ce85f/README.md) | ESP32 | 0 | 1 |
+| Inland | [Inland ESP32-32E 2.8-inch display / SKU 954578](boards/inland/esp32/inland-esp32-32e-2-8-inch-display-sku-954578--a84ce85f/README.md) | ESP32 | 0 | 1 |
 | LILYGO | [Mini E-Paper 1.02 Core](boards/lilygo/esp32-original/mini-e-paper-1.02-core--2baac416/README.md) | ESP32 original | 1 | 1 |
 | LILYGO | [T-Circle](boards/lilygo/esp32-original/t-circle--5c9fc9c1/README.md) | ESP32 original | 1 | 1 |
 | LILYGO | [T-Circle-S3](boards/lilygo/esp32-s3/t-circle-s3--182be220/README.md) | ESP32-S3 | 0 | 2 |
