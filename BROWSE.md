@@ -302,6 +302,14 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 |---|---|---:|---:|
 | [ESP32 DEVKIT V1](boards/doit/esp32-original/esp32-devkit-v1--784ef5de/README.md) | ESP32 original | 1 | 1 |
 
+## Elechouse
+
+| Board / device | Processor / family | References | Pinout images |
+|---|---|---:|---:|
+| [ELECHOUSE Network RFID Reader V0.1H](boards/elechouse/esp32-s3-st25r3916b/elechouse-network-rfid-reader-v0-1h--f8e6e7a8/README.md) | ESP32-S3 / ST25R3916B | 6 | 0 |
+| [ELECHOUSE Proxmark3 V2 DEV kits](boards/elechouse/at91sam7s512-xilinx-spartan-ii/elechouse-proxmark3-v2-dev-kits--8ca96d07/README.md) | AT91SAM7S512 / Xilinx Spartan-II | 3 | 0 |
+| [TAIJIUINO Due R3S — Compatible with Arduino Due](boards/elechouse/atsam3x8e/taijiuino-due-r3s-compatible-with-arduino-due--827d2779/README.md) | ATSAM3X8E | 1 | 0 |
+
 ## Elecrow
 
 | Board / device | Processor / family | References | Pinout images |
@@ -500,6 +508,14 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [JC4880P443C_I_W](boards/guition/cyd/jc4880p443c-i-w--9bc93af7/README.md) | CYD | 2 | 0 |
 | [JC8012P4A1C_I_W](boards/guition/cyd/jc8012p4a1c-i-w--a674e4e8/README.md) | CYD | 2 | 0 |
 | [JC8048W550](boards/guition/cyd/jc8048w550--3bd9c37d/README.md) | CYD | 2 | 0 |
+
+## HaleHound
+
+| Board / device | Processor / family | References | Pinout images |
+|---|---|---:|---:|
+| [HaleHound CYD 2.8 original non-SPI build](boards/halehound/esp32/halehound-cyd-2-8-original-non-spi-build--fa9becfe/README.md) | ESP32 | 4 | 0 |
+| [HaleHound CYD 2.8 SPI-exposed build](boards/halehound/esp32/halehound-cyd-2-8-spi-exposed-build--9c2447b5/README.md) | ESP32 | 9 | 1 |
+| [HaleHound CYD 3.5 SPI-exposed build](boards/halehound/esp32/halehound-cyd-3-5-spi-exposed-build--47e6327d/README.md) | ESP32 | 3 | 0 |
 
 ## Heltec
 
@@ -1359,6 +1375,13 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Tiny 2040](boards/pimoroni/rp2040/tiny-2040--fd7f2dcd/README.md) | RP2040 | 1 | 1 |
 | [Tiny 2350](boards/pimoroni/rp2350/tiny-2350--9dac0e09/README.md) | RP2350 | 3 | 2 |
 | [Tiny FX](boards/pimoroni/rp2040/tiny-fx--e304160f/README.md) | RP2040 | 3 | 2 |
+
+## QDtech
+
+| Board / device | Processor / family | References | Pinout images |
+|---|---|---:|---:|
+| [E32R28T ESP32-32E 2.8-inch resistive display](boards/qdtech/esp32-wroom-32e/e32r28t-esp32-32e-2-8-inch-resistive-display--3576badc/README.md) | ESP32-WROOM-32E | 4 | 0 |
+| [E32R35T ESP32-32E 3.5-inch resistive display](boards/qdtech/esp32-wroom-32e/e32r35t-esp32-32e-3-5-inch-resistive-display--f0304b2d/README.md) | ESP32-WROOM-32E | 4 | 0 |
 
 ## RAKwireless
 

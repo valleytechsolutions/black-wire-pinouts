@@ -4,6 +4,18 @@
 
 Manufacturer originals remain unchanged. Connector-model sheets add separately labeled callouts under the recorded source license. Check exact PCB/revision, source notes and rights before reuse. Photos and partial connector diagrams are not complete-device approvals.
 
+## 5V Power DC Buck Wire
+
+Elechouse · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=elechouse-5v-buck-wire)
+
+[![5V Power DC Buck Wire / pinout image](../../library/thumbs/b6e13b127d6845fd7870ef67a62383c6fe317a18d8f32f81ec75562a4bdb1257.webp)](../../library/media/b6e13b127d6845fd7870ef67a62383c6fe317a18d8f32f81ec75562a4bdb1257.jpg)
+
+**pinout image** · Source image / document inspected; independent electrical review pending
+
+Elechouse / original diagram and document contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
 ## Adafruit Powerboost 1000 Basic
 
 Adafruit · Manufacturer documentation recorded

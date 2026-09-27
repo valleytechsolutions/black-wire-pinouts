@@ -2,7 +2,7 @@
 
 [Search devices in the browser guide](https://valleytech-black-wire-guide.pages.dev/?tab=devices) · [All boards](BROWSE.md) · [First Edition](EDITION.md)
 
-**320 device records with references.** Includes handhelds, radio nodes, wearables, cameras, displays and controllers. Counts include unreviewed source records and supporting references; not every record has a full physical pinout.
+**327 device records with references.** Includes handhelds, radio nodes, wearables, cameras, displays and controllers. Counts include unreviewed source records and supporting references; not every record has a full physical pinout.
 
 Original manufacturer images remain unchanged. Revision and partial-map notes live on each device page.
 
@@ -49,6 +49,8 @@ Original manufacturer images remain unchanged. Revision and partial-map notes li
 | Arduino | [Nesso N1](boards/arduino/esp32-c6/nesso-n1--1f41d5bd/README.md) | ESP32-C6 | 12 | 15 |
 | Arduino | [Stella](boards/arduino/gpio-device/stella--9c840d79/README.md) | Not recorded | 2 | 3 |
 | DFRobot | [UNIHIKER K10 / DFR0992-EN](boards/dfrobot/esp32-s3/unihiker-k10-dfr0992-en--807626db/README.md) | ESP32-S3 | 0 | 1 |
+| Elechouse | [ELECHOUSE Network RFID Reader V0.1H](boards/elechouse/esp32-s3-st25r3916b/elechouse-network-rfid-reader-v0-1h--f8e6e7a8/README.md) | ESP32-S3 / ST25R3916B | 0 | 6 |
+| Elechouse | [ELECHOUSE Proxmark3 V2 DEV kits](boards/elechouse/at91sam7s512-xilinx-spartan-ii/elechouse-proxmark3-v2-dev-kits--8ca96d07/README.md) | AT91SAM7S512 / Xilinx Spartan-II | 0 | 3 |
 | LILYGO | [T-2Can](boards/lilygo/esp32-s3/t-2can--4efce943/README.md) | ESP32-S3 | 1 | 1 |
 | LILYGO | [T-2Can-FD](boards/lilygo/esp32-s3/t-2can-fd--129a16ae/README.md) | ESP32-S3 | 1 | 1 |
 | LILYGO | [T-CAN485 (CH340K)](boards/lilygo/esp32-original/t-can485-ch340k--fb4b71d3/README.md) | ESP32 original | 2 | 2 |
@@ -221,6 +223,8 @@ Original manufacturer images remain unchanged. Revision and partial-map notes li
 | M5Stack | [Atom Display](boards/m5stack/source-collection/atom-display--50021de6/README.md) | Not recorded | 0 | 1 |
 | M5Stack | [Atomic Display Base](boards/m5stack/source-collection/atomic-display-base--20fcd7cc/README.md) | Not recorded | 0 | 1 |
 | M5Stack | [M5Stack Tab5 IoT Development Kit](boards/m5stack/esp32-p4/m5stack-tab5-iot-development-kit--afd4122f/README.md) | ESP32-P4 | 1 | 1 |
+| QDtech | [E32R28T ESP32-32E 2.8-inch resistive display](boards/qdtech/esp32-wroom-32e/e32r28t-esp32-32e-2-8-inch-resistive-display--3576badc/README.md) | ESP32-WROOM-32E | 0 | 4 |
+| QDtech | [E32R35T ESP32-32E 3.5-inch resistive display](boards/qdtech/esp32-wroom-32e/e32r35t-esp32-32e-3-5-inch-resistive-display--f0304b2d/README.md) | ESP32-WROOM-32E | 0 | 4 |
 | Seeed Studio | [SenseCAP Indicator](boards/seeed-studio/esp32-s3/sensecap-indicator--fc7a36c2/README.md) | ESP32-S3 | 1 | 3 |
 | Seeed Studio | [SenseCAP Indicator D1](boards/seeed-studio/esp32-s3/sensecap-indicator-d1--0cd6ba93/README.md) | ESP32-S3 | 1 | 3 |
 | Seeed Studio | [SenseCAP Indicator D1L](boards/seeed-studio/esp32-s3/sensecap-indicator-d1l--bd53d87c/README.md) | ESP32-S3 | 1 | 1 |
@@ -272,6 +276,9 @@ Original manufacturer images remain unchanged. Revision and partial-map notes li
 |---|---|---|---:|---:|
 | DFRobot | [LoRaWAN Control Terminal (868Mhz) / DFR1120-868](boards/dfrobot/lorawan/lorawan-control-terminal-868mhz-dfr1120-868--492a1c2f/README.md) | Not recorded | 0 | 2 |
 | DFRobot | [LoRaWAN Control Terminal (915Mhz) / DFR1120-915](boards/dfrobot/lorawan/lorawan-control-terminal-915mhz-dfr1120-915--d98834b8/README.md) | Not recorded | 0 | 2 |
+| HaleHound | [HaleHound CYD 2.8 SPI-exposed build](boards/halehound/esp32/halehound-cyd-2-8-spi-exposed-build--9c2447b5/README.md) | ESP32 | 1 | 9 |
+| HaleHound | [HaleHound CYD 2.8 original non-SPI build](boards/halehound/esp32/halehound-cyd-2-8-original-non-spi-build--fa9becfe/README.md) | ESP32 | 0 | 4 |
+| HaleHound | [HaleHound CYD 3.5 SPI-exposed build](boards/halehound/esp32/halehound-cyd-3-5-spi-exposed-build--47e6327d/README.md) · pre-release documentation | ESP32 | 0 | 3 |
 | Heltec | [HT-VME213](boards/heltec/esp32-s3/ht-vme213--4236d337/README.md) | ESP32-S3 | 1 | 1 |
 | Heltec | [HT-VME290](boards/heltec/esp32-s3/ht-vme290--0e358295/README.md) | ESP32-S3 | 1 | 1 |
 | Heltec | [HT-VMT190](boards/heltec/esp32-s3/ht-vmt190--ed8d3cef/README.md) | ESP32-S3 | 1 | 2 |

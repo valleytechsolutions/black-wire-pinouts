@@ -4,7 +4,7 @@ Pin-connected maker displays, sensors, inputs and modules. Ongoing source intake
 
 Records include products, families, generic discovery tasks and linked existing references; counts are not unique products or complete pinouts.
 
-**551 intake records**. 246 manufacturer documentation records. No new complete physical pinout approvals in this intake.
+**575 intake records**. 270 manufacturer documentation records. No new complete physical pinout approvals in this intake.
 
 [Search the interactive guide](https://valleytech-black-wire-guide.pages.dev/?tab=makers) · [Expansion roadmap](docs/MAKER_ROADMAP.md) · [Coverage backlog](catalog/maker-research-backlog.json)
 
@@ -15,6 +15,8 @@ Search by product/controller code first; filter by interface, function, technolo
 | Product or family | Manufacturer | Record status | Source |
 |---|---|---|---|
 | Adafruit MAX98357 I2S Class-D Amps - Stereo and Mono | Adafruit | manufacturer-family / Manufacturer documentation recorded | [Documentation](https://learn.adafruit.com/adafruit-max98357-i2s-class-d-mono-amp/pinouts) |
+| SimpleVR speaker-independent Voice Recognition Module | Elechouse | product-reference / Manufacturer documentation recorded | [Documentation](https://www.elechouse.com/product/simplevr-speaker-independent-voice-recognition-module/) |
+| Speak Recognition, Voice Recognition Module V3 | Elechouse | product-reference / Manufacturer documentation recorded | [Documentation](https://www.elechouse.com/product/speak-recognition-voice-recognition-module-v3/) |
 
 ## Communication
 
@@ -48,6 +50,25 @@ Search by product/controller code first; filter by interface, function, technolo
 | Inland HM-10 Bluetooth-4.0 V3 Compatible with HC-06 Pins | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/655-inland-hm-10-bluetooth-4-0-v3-compatible-with-hc-06-pins) |
 | Inland CAN-BUS Shield (blue and Eco-friendly) | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/647-inland-can-bus-shield-blue-and-eco-friendly) |
 | Inland Bluetooth Transmission Module for Arduino with Bottom hc-05 Master and Slave | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/636-inland-bluetooth-transmission-module-for-arduino-with-bottom-hc-05-master-and-slave) |
+| 13.56MHZ RFID Reader/Writer Module V5— Ultralight | Elechouse | product-reference / Manufacturer documentation recorded | [Documentation](https://www.elechouse.com/product/13-56mhz-rfid-reader-writer-module-v5-ultralight/) |
+| 915MHz CC1101 Wireless Module | Elechouse | product-reference / Manufacturer documentation recorded | [Documentation](https://www.elechouse.com/product/915mhz-cc1101-wireless-module/) |
+| CLRC663 Reader Module V1—SPI/I2C/UART | Elechouse | product-reference / Manufacturer documentation recorded | [Documentation](https://www.elechouse.com/product/clrc663-reader-module/) |
+| PN5180 NFC MODULE | Elechouse | product-reference / Manufacturer documentation recorded | [Documentation](https://www.elechouse.com/product/pn5180-nfc-module/) |
+| PN532 NFC Evolution V1 | Elechouse | product-reference / Manufacturer documentation recorded | [Documentation](https://www.elechouse.com/product/pn532-nfc-evolution-v1/) |
+| PN532 NFC RFID Module w/ External Antenna — updated version | Elechouse | product-reference / Manufacturer documentation recorded | [Documentation](https://www.elechouse.com/product/pn532-nfc-rfid-module-w-external-antenna-updated-version/) |
+| PN532 NFC RFID module V4 | Elechouse | product-reference / Manufacturer documentation recorded | [Documentation](https://www.elechouse.com/product/pn532-nfc-rfid-module-v4/) |
+| PN532 NFC RFID module — Purple Version | Elechouse | product-reference / Manufacturer documentation recorded | [Documentation](https://www.elechouse.com/product/pn532-nfc-rfid-module-purple-version/) |
+| PN532 NFC USB MODULE—Type C | Elechouse | product-reference / Manufacturer documentation recorded | [Documentation](https://www.elechouse.com/product/pn532-nfc-usb-module/) |
+| PN5321 MINI w/ Interference-Resistant Antenna | Elechouse | product-reference / Manufacturer documentation recorded | [Documentation](https://www.elechouse.com/product/pn532-mini/) |
+| PN7150 NFC RFID MODULE | Elechouse | product-reference / Manufacturer documentation recorded | [Documentation](https://www.elechouse.com/product/pn7150_v1/) |
+| PN7160 MINI V1 — I2C | Elechouse | product-reference / Manufacturer documentation recorded | [Documentation](https://www.elechouse.com/product/pn7160-mini-v1-i2c/) |
+| PN7160 NFC RFID MODULE—I2C Version | Elechouse | product-reference / Manufacturer documentation recorded | [Documentation](https://www.elechouse.com/product/pn7160-nfc-rfid-module/) |
+| PN7161 MINI V1 — SPI | Elechouse | product-reference / Manufacturer documentation recorded | [Documentation](https://www.elechouse.com/product/pn7161-mini-v1-spi/) |
+| PN7161 NFC RFID MODULE—I2C | Elechouse | product-reference / Manufacturer documentation recorded | [Documentation](https://www.elechouse.com/product/pn7161-nfc-rfid-module-i2c/) |
+| ST25R3916 NFC Reader Module | Elechouse | product-reference / Manufacturer documentation recorded | [Documentation](https://www.elechouse.com/product/st25r3916_nfc_reader/) |
+| ST25R3916B Mini NFC Module with Ultra-Slim External Antenna | Elechouse | product-reference / Manufacturer documentation recorded | [Documentation](https://www.elechouse.com/product/st25r3916b-mini-nfc-module/) |
+| ST25R3916B NFC Module | Elechouse | product-reference / Manufacturer documentation recorded | [Documentation](https://www.elechouse.com/product/st25r3916b-nfc-module/) |
+| PN532 NFC RFID module V3 | Elechouse | product-reference / Manufacturer documentation recorded | [Documentation](https://www.elechouse.com/elechouse/images/product/PN532_module_V3/PN532_%20Manual_V3.pdf) |
 
 ## Displays
 
@@ -494,6 +515,8 @@ Search by product/controller code first; filter by interface, function, technolo
 | Inland 8-channel 5V Relay Module | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/638-inland-8-channel-5v-relay-module) |
 | Inland 5V Relay Module | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/637-inland-5v-relay-module) |
 | Inland 16-channel 12-bit PWM/ Servo Driver | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/634-inland-16-channel-12-bit-pwm-servo-driver) |
+| 20A Motor Driver V2 with Optocoupler Isolation | Elechouse | product-reference / Manufacturer documentation recorded | [Documentation](https://www.elechouse.com/product/20a-motor-driver-v2-with-optocoupler-isolation/) |
+| 50A Dual-Channel motor drive module-Arduino Compatible | Elechouse | product-reference / Manufacturer documentation recorded | [Documentation](https://www.elechouse.com/product/50a-dual-channel-motor-drive-module-arduino-compatible/) |
 
 ## Power & charging
 
@@ -534,6 +557,7 @@ Search by product/controller code first; filter by interface, function, technolo
 | Inland Special Power Module for Bread Board | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/654-inland-special-power-module-for-bread-board) |
 | Inland DC-DC Voltage Step Down Module | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://www.microcenter.com/product/618895/inland-dc-dc-voltage-step-down-module) |
 | Inland Breadboard 5V/3V Power Supply Module | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://www.microcenter.com/product/618900/inland-breadboard-5v-3v-power-supply-module) |
+| 5V Power DC Buck Wire | Elechouse | product-reference / Manufacturer documentation recorded | [Documentation](https://www.elechouse.com/product/5v-power-dc-buck-wire/) |
 
 ## Sensors
 

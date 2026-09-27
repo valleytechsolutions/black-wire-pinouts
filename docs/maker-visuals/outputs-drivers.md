@@ -4,6 +4,30 @@
 
 Manufacturer originals remain unchanged. Connector-model sheets add separately labeled callouts under the recorded source license. Check exact PCB/revision, source notes and rights before reuse. Photos and partial connector diagrams are not complete-device approvals.
 
+## 20A Motor Driver V2 with Optocoupler Isolation
+
+Elechouse · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=elechouse-20a-motor-driver-v2)
+
+[![20A Motor Driver V2 with Optocoupler Isolation / board labeling image](../../library/thumbs/6c94cf8d8edf107875f493163053f289f10691c7099fea5a84a2714981d60a08.webp)](../../library/media/6c94cf8d8edf107875f493163053f289f10691c7099fea5a84a2714981d60a08.jpg)
+
+**board labeling image** · Source image / document inspected; independent electrical review pending
+
+Elechouse / original diagram and document contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## 50A Dual-Channel motor drive module-Arduino Compatible
+
+Elechouse · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=elechouse-50a-dual-motor-driver)
+
+[![50A Dual-Channel motor drive module-Arduino Compatible / pinout image](../../library/thumbs/7dcc806ac44132ead238a60dfe7a0e84db576a8bfe2b1455ffa25cb1198ab50d.webp)](../../library/media/7dcc806ac44132ead238a60dfe7a0e84db576a8bfe2b1455ffa25cb1198ab50d.jpg)
+
+**pinout image** · Source image / document inspected; independent electrical review pending
+
+Elechouse / original diagram and document contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
 ## A4988 Stepper Motor Driver Carrier
 
 Pololu · Manufacturer documentation recorded

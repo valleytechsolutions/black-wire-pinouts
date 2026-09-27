@@ -4,6 +4,30 @@
 
 Manufacturer originals remain unchanged. Connector-model sheets add separately labeled callouts under the recorded source license. Check exact PCB/revision, source notes and rights before reuse. Photos and partial connector diagrams are not complete-device approvals.
 
+## 13.56MHZ RFID Reader/Writer Module V5— Ultralight
+
+Elechouse · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=elechouse-serial-rfid-v5)
+
+[![13.56MHZ RFID Reader/Writer Module V5— Ultralight / board labeling image](../../library/thumbs/5f01e7b71d4984a0d5313017f497d1611a4c28f19255f9799f5124f731cdb01a.webp)](../../library/media/5f01e7b71d4984a0d5313017f497d1611a4c28f19255f9799f5124f731cdb01a.jpg)
+
+**board labeling image** · Source image / document inspected; independent electrical review pending
+
+Elechouse / original diagram and document contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## 915MHz CC1101 Wireless Module
+
+Elechouse · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=elechouse-cc1101-915mhz)
+
+[![915MHz CC1101 Wireless Module / product photograph](../../library/thumbs/d8c53edebfb75af6724b417385ab1170a0b04f6beb687105d9199c44d5e3c583.webp)](../../library/media/d8c53edebfb75af6724b417385ab1170a0b04f6beb687105d9199c44d5e3c583.jpg)
+
+**product photograph** · Source image / document inspected; independent electrical review pending
+
+Elechouse / original diagram and document contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
 ## BlueSMiRF v2
 
 SparkFun · Manufacturer source references collected
@@ -27,6 +51,18 @@ Seeed Studio · Source review pending
 **pinout image** · Reviewed source
 
 Not established; source attribution retained
+
+## CLRC663 Reader Module V1—SPI/I2C/UART
+
+Elechouse · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=elechouse-clrc663-v1)
+
+[![CLRC663 Reader Module V1—SPI/I2C/UART / board labeling image](../../library/thumbs/c38c2c2c7dc636c6511f89dc64a1f27fcf17696211d45760b33870d06201bc9e.webp)](../../library/media/c38c2c2c7dc636c6511f89dc64a1f27fcf17696211d45760b33870d06201bc9e.jpg)
+
+**board labeling image** · Source image / document inspected; independent electrical review pending
+
+Elechouse / original diagram and document contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
 
 ## Dual Gigabit Ethernet Carrier Board for Raspberry Pi CM4
 
@@ -196,6 +232,162 @@ M5Stack · Source review pending
 
 Not established; source attribution retained
 
+## PN5180 NFC MODULE
+
+Elechouse · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=elechouse-pn5180)
+
+[![PN5180 NFC MODULE / board labeling image](../../library/thumbs/a906230dfd3bd6263fc5cab698539491b0d92b11146faaea3932a18a4d873fa7.webp)](../../library/media/a906230dfd3bd6263fc5cab698539491b0d92b11146faaea3932a18a4d873fa7.jpg)
+
+**board labeling image** · Source image / document inspected; independent electrical review pending
+
+Elechouse / original diagram and document contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## PN532 NFC Evolution V1
+
+Elechouse · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=elechouse-pn532-evolution-v1)
+
+[![PN532 NFC Evolution V1 / product photograph](../../library/thumbs/e7b73850d9eace183f276f82a40fe21746d4d93621cfc3906af467eb62e03705.webp)](../../library/media/e7b73850d9eace183f276f82a40fe21746d4d93621cfc3906af467eb62e03705.jpg)
+
+**product photograph** · Source image / document inspected; independent electrical review pending
+
+Elechouse / original diagram and document contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## PN532 NFC RFID module V3
+
+Elechouse · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=elechouse-pn532-v3)
+
+[![PN532 NFC RFID module V3 / board labeling image](../../library/thumbs/d329bffa86b706e0dad82e82af20fd8d06e7373d0e8b67f400a4bafe3a5ff1ba.webp)](../../library/media/d329bffa86b706e0dad82e82af20fd8d06e7373d0e8b67f400a4bafe3a5ff1ba.png)
+
+**board labeling image** · Source image / document inspected; independent electrical review pending
+
+Elechouse / original diagram and document contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## PN532 NFC RFID module V4
+
+Elechouse · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=elechouse-pn532-v4)
+
+[![PN532 NFC RFID module V4 / board labeling image](../../library/thumbs/8bc2c6aa3f5b3f76668924bd9a6fe57c4859cdfe8a3e85e73878be22a2307cbe.webp)](../../library/media/8bc2c6aa3f5b3f76668924bd9a6fe57c4859cdfe8a3e85e73878be22a2307cbe.jpg)
+
+**board labeling image** · Source image / document inspected; independent electrical review pending
+
+Elechouse / original diagram and document contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## PN532 NFC RFID Module w/ External Antenna — updated version
+
+Elechouse · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=elechouse-pn532-external-antenna)
+
+[![PN532 NFC RFID Module w/ External Antenna — updated version / product photograph](../../library/thumbs/8ab6c597c43407577f62eb42c2baed4a129d97b2358d01020a7a484e5f813815.webp)](../../library/media/8ab6c597c43407577f62eb42c2baed4a129d97b2358d01020a7a484e5f813815.jpg)
+
+**product photograph** · Source image / document inspected; independent electrical review pending
+
+Elechouse / original diagram and document contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## PN532 NFC RFID module — Purple Version
+
+Elechouse · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=elechouse-pn532-purple)
+
+[![PN532 NFC RFID module — Purple Version / board labeling image](../../library/thumbs/65a82d1a1fce7ee6eb0e234d0deab4d66d9a0c8c861bc3c8b596e76db06c97be.webp)](../../library/media/65a82d1a1fce7ee6eb0e234d0deab4d66d9a0c8c861bc3c8b596e76db06c97be.jpg)
+
+**board labeling image** · Source image / document inspected; independent electrical review pending
+
+Elechouse / original diagram and document contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## PN532 NFC USB MODULE—Type C
+
+Elechouse · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=elechouse-pn532-usb-type-c)
+
+[![PN532 NFC USB MODULE—Type C / board labeling image](../../library/thumbs/eefd88dbb5c9feb4efff10ff038224b95e489f0d82f1e36c6ba5fa2f4148108c.webp)](../../library/media/eefd88dbb5c9feb4efff10ff038224b95e489f0d82f1e36c6ba5fa2f4148108c.jpg)
+
+**board labeling image** · Source image / document inspected; independent electrical review pending
+
+Elechouse / original diagram and document contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## PN5321 MINI w/ Interference-Resistant Antenna
+
+Elechouse · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=elechouse-pn5321-mini)
+
+[![PN5321 MINI w/ Interference-Resistant Antenna / board labeling image](../../library/thumbs/17c271aa3924b5cb586e4e03e7d6214f7c85ad79607e7fc03b1829a644cc9697.webp)](../../library/media/17c271aa3924b5cb586e4e03e7d6214f7c85ad79607e7fc03b1829a644cc9697.jpg)
+
+**board labeling image** · Source image / document inspected; independent electrical review pending
+
+Elechouse / original diagram and document contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## PN7150 NFC RFID MODULE
+
+Elechouse · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=elechouse-pn7150-v1)
+
+[![PN7150 NFC RFID MODULE / board labeling image](../../library/thumbs/1a6e32f6f6c1aef52d5b3643ad92564881b4ec86ae9708f4c7d3c0fa2c9a84a2.webp)](../../library/media/1a6e32f6f6c1aef52d5b3643ad92564881b4ec86ae9708f4c7d3c0fa2c9a84a2.jpg)
+
+**board labeling image** · Source image / document inspected; independent electrical review pending
+
+Elechouse / original diagram and document contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## PN7160 MINI V1 — I2C
+
+Elechouse · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=elechouse-pn7160-mini-v1-i2c)
+
+[![PN7160 MINI V1 — I2C / board labeling image](../../library/thumbs/2be62879db9bf005f89e47bb455cb3cd4ade614b293f0eca8790da5294583dcb.webp)](../../library/media/2be62879db9bf005f89e47bb455cb3cd4ade614b293f0eca8790da5294583dcb.jpg)
+
+**board labeling image** · Source image / document inspected; independent electrical review pending
+
+Elechouse / original diagram and document contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## PN7160 NFC RFID MODULE—I2C Version
+
+Elechouse · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=elechouse-pn7160-i2c)
+
+[![PN7160 NFC RFID MODULE—I2C Version / pinout image](../../library/thumbs/9c56ea44944d116005ed2c99d03c8e4a95652332372bd117c107613ba947f966.webp)](../../library/media/9c56ea44944d116005ed2c99d03c8e4a95652332372bd117c107613ba947f966.png)
+
+**pinout image** · Source image / document inspected; independent electrical review pending
+
+Elechouse / original diagram and document contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## PN7161 MINI V1 — SPI
+
+Elechouse · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=elechouse-pn7161-mini-v1-spi)
+
+[![PN7161 MINI V1 — SPI / board labeling image](../../library/thumbs/b2e87ff3138d1a44df23a3d51078e84e40abab1a7c6296920bb863a35fd7669d.webp)](../../library/media/b2e87ff3138d1a44df23a3d51078e84e40abab1a7c6296920bb863a35fd7669d.jpg)
+
+**board labeling image** · Source image / document inspected; independent electrical review pending
+
+Elechouse / original diagram and document contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## PN7161 NFC RFID MODULE—I2C
+
+Elechouse · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=elechouse-pn7161-i2c)
+
+[![PN7161 NFC RFID MODULE—I2C / pinout image](../../library/thumbs/9c56ea44944d116005ed2c99d03c8e4a95652332372bd117c107613ba947f966.webp)](../../library/media/9c56ea44944d116005ed2c99d03c8e4a95652332372bd117c107613ba947f966.png)
+
+**pinout image** · Source image / document inspected; independent electrical review pending
+
+Elechouse / original diagram and document contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
 ## Serial Port Bluetooth Module (Master-Slave)
 
 Seeed Studio · Source review pending
@@ -207,6 +399,42 @@ Seeed Studio · Source review pending
 **pinout image** · Reviewed source
 
 Not established; source attribution retained
+
+## ST25R3916 NFC Reader Module
+
+Elechouse · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=elechouse-st25r3916)
+
+[![ST25R3916 NFC Reader Module / board labeling image](../../library/thumbs/26ae07bbafe84c172e38d0e838183196abc9cf6006d5b83210b19e8c292c514b.webp)](../../library/media/26ae07bbafe84c172e38d0e838183196abc9cf6006d5b83210b19e8c292c514b.jpg)
+
+**board labeling image** · Source image / document inspected; independent electrical review pending
+
+Elechouse / original diagram and document contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## ST25R3916B Mini NFC Module with Ultra-Slim External Antenna
+
+Elechouse · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=elechouse-st25r3916b-mini)
+
+[![ST25R3916B Mini NFC Module with Ultra-Slim External Antenna / board labeling image](../../library/thumbs/5691190e1c8cc86ccd598b1dda612c3b1d1b81985a9fbeb5cbbf85dcde732396.webp)](../../library/media/5691190e1c8cc86ccd598b1dda612c3b1d1b81985a9fbeb5cbbf85dcde732396.png)
+
+**board labeling image** · Source image / document inspected; independent electrical review pending
+
+Elechouse / original diagram and document contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## ST25R3916B NFC Module
+
+Elechouse · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=elechouse-st25r3916b)
+
+[![ST25R3916B NFC Module / pinout image](../../library/thumbs/d4beb57b374086af22ec6ce065bf9f943b8a7f01cebffa35fc4163edddd389c9.webp)](../../library/media/d4beb57b374086af22ec6ce065bf9f943b8a7f01cebffa35fc4163edddd389c9.png)
+
+**pinout image** · Source image / document inspected; independent electrical review pending
+
+Elechouse / original diagram and document contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
 
 ## Stamp LoRa-1262
 

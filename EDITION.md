@@ -7,7 +7,7 @@ Three version numbers serve different purposes:
 | Version | Meaning | Current |
 |---|---|---|
 | Book edition | A future annual editorial edition with a frozen contents and rights review | First Edition / 2026, not yet frozen for print |
-| Collection snapshot | An immutable download of the images, catalog and attribution ledger | 2026.09.6 |
+| Collection snapshot | An immutable download of the images, catalog and attribution ledger | 2026.09.11 |
 | Application version | Software features and fixes | Published separately in the desktop repository |
 
 Adding references or fixing the app does **not** create a new book edition. Earlier collection snapshots remain downloadable and unchanged. A future annual edition will receive its own number, cutoff date, table of contents and publication record when ready.
@@ -20,9 +20,9 @@ The new images include T-Embed CC1101 Plus internal/external antenna variants, T
 
 CardputerZero is labeled **in-development documentation** because its official documentation still marks packaging and software as work in progress. No future shipping date is asserted. Devices with missing physical pinout sheets remain in a visible documentation-watch list. The [research ledger](catalog/device-research-2026.09.2.json) records inspected sources, duplicates and excluded images.
 
-## Current reference audit / 2026.09.6
+## Earlier reference audit / 2026.09.6
 
-The current snapshot adds eight reference entries across five models, including two newly tracked SparkFun ESP32 boards. Read the [quality audit](docs/QUALITY-AUDIT-2026.09.6.md) for scope and remaining gaps. No book files were changed.
+Snapshot 2026.09.6 adds eight reference entries across five models, including two newly tracked SparkFun ESP32 boards. Read the [quality audit](docs/QUALITY-AUDIT-2026.09.6.md) for scope and remaining gaps. No book files were changed.
 
 ## Publication boundaries
 

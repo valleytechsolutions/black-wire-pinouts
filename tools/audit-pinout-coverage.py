@@ -1,5 +1,5 @@
 """Account for every catalog listing without equating photos with pinouts."""
-import collections,csv,json
+import collections,csv,json,datetime
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -23,7 +23,7 @@ def main():
             p['pinoutCoverage']=coverage(p,assets)
             rows.append(dict(id=p['id'],name=p['name'],brand=p['brand'],kind=kind,**p['pinoutCoverage']))
     summary={kind:dict(collections.Counter(r['status'] for r in rows if r['kind']==kind)) for kind in ['board','maker']}
-    c['pinoutAudit']={'checked':'2026-09-26','listingCount':len(rows),'countsAreListingsNotUniqueHardware':True,'completeDeviceApprovals':0,'summary':summary}
+    c['pinoutAudit']={'checked':datetime.date.today().isoformat(),'listingCount':len(rows),'countsAreListingsNotUniqueHardware':True,'completeDeviceApprovals':0,'summary':summary}
     path.write_text(json.dumps(c,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
     # Keep the standalone generated maker catalog identical to the app catalog.
     maker_path=ROOT/'library/maker-parts.json'

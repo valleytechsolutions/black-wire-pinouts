@@ -1,0 +1,473 @@
+{
+  "checked": "2026-09-27",
+  "scope": "HaleHound v1.4.1 hardware references, two linked LCDwiki base boards, 26 pin-connected Elechouse products from four current shop pages and one legacy PN532 V3. This is not an all-time brand inventory.",
+  "records": [
+    {
+      "id": "halehound-cyd-original-28",
+      "name": "HaleHound CYD 2.8 original non-SPI build",
+      "brand": "HaleHound",
+      "revision": "Build guide v1.4.1 (2026-06-13); ESP32-2432S028; exact suffix / PCB revision not established",
+      "references": 4,
+      "physicalPinoutImages": 0,
+      "note": "Source identity and visual type reviewed; electrical limits and pin assignments have not been independently bench-verified. Match the exact PCB, connector orientation and interface mode. Build-guide v1.4.1 reference, not a complete device pinout or confirmed specification for every kit. Original non-SPI CYD and SPI-exposed QDtech CYD assignments differ. Page 8 CS wording and page 9 original-CYD overrides must be read together. GPS TX/RX labels are ambiguous; verify signal direction before wiring. The guide calls an AMS1117 regulator a buck converter; these power statements are not imported as verified Power Desk ratings.",
+      "sources": [
+        "https://halehound.com/products/diy-halehound-kit"
+      ]
+    },
+    {
+      "id": "halehound-cyd-spi-28",
+      "name": "HaleHound CYD 2.8 SPI-exposed build",
+      "brand": "HaleHound",
+      "revision": "Build guide v1.4.1 (2026-06-13); QDtech E32R28T base; kit PCB revision not established",
+      "references": 9,
+      "physicalPinoutImages": 1,
+      "note": "Source identity and visual type reviewed; electrical limits and pin assignments have not been independently bench-verified. Match the exact PCB, connector orientation and interface mode. Build-guide v1.4.1 reference, not a complete device pinout or confirmed specification for every kit. Original non-SPI CYD and SPI-exposed QDtech CYD assignments differ. Page 8 CS wording and page 9 original-CYD overrides must be read together. GPS TX/RX labels are ambiguous; verify signal direction before wiring. The guide calls an AMS1117 regulator a buck converter; these power statements are not imported as verified Power Desk ratings.",
+      "sources": [
+        "https://halehound.com/products/diy-halehound-kit"
+      ]
+    },
+    {
+      "id": "halehound-cyd-spi-35",
+      "name": "HaleHound CYD 3.5 SPI-exposed build",
+      "brand": "HaleHound",
+      "revision": "Build guide v1.4.1 (2026-06-13); QDtech E32R35T base; kit PCB revision not established",
+      "references": 3,
+      "physicalPinoutImages": 0,
+      "note": "Source identity and visual type reviewed; electrical limits and pin assignments have not been independently bench-verified. Match the exact PCB, connector orientation and interface mode. Build-guide v1.4.1 reference, not a complete device pinout or confirmed specification for every kit. Original non-SPI CYD and SPI-exposed QDtech CYD assignments differ. Page 8 CS wording and page 9 original-CYD overrides must be read together. GPS TX/RX labels are ambiguous; verify signal direction before wiring. The guide calls an AMS1117 regulator a buck converter; these power statements are not imported as verified Power Desk ratings. This saved guide describes the 3.5-inch build as work in progress / untested in places. Its full physical GPIO sheet is still needed; the 2.8-inch wiring image is not asserted to be a 3.5-inch map. This describes the saved document, not current product availability.",
+      "sources": [
+        "https://halehound.com/products/diy-halehound-3-5-kit"
+      ]
+    },
+    {
+      "id": "elechouse-serial-rfid-v5",
+      "name": "13.56MHZ RFID Reader/Writer Module V5— Ultralight",
+      "brand": "Elechouse",
+      "revision": "Product V5; linked manual identifies SSRFID V3.0",
+      "references": 3,
+      "physicalPinoutImages": 0,
+      "note": "Source identity and visual type reviewed; electrical limits and pin assignments have not been independently bench-verified. Match the exact PCB, connector orientation and interface mode. The current V5 product links a manual titled SSRFIDV3.0 under a Serial_RFID_V2 path. It is retained as a legacy reference, not proof of V5 revision equivalence.",
+      "sources": [
+        "https://www.elechouse.com/product/13-56mhz-rfid-reader-writer-module-v5-ultralight/"
+      ]
+    },
+    {
+      "id": "elechouse-20a-motor-driver-v2",
+      "name": "20A Motor Driver V2 with Optocoupler Isolation",
+      "brand": "Elechouse",
+      "revision": "V2 / isolated version",
+      "references": 4,
+      "physicalPinoutImages": 0,
+      "note": "Source identity and visual type reviewed; electrical limits and pin assignments have not been independently bench-verified. Match the exact PCB, connector orientation and interface mode. Exact-model physical completeness remains unapproved.",
+      "sources": [
+        "https://www.elechouse.com/product/20a-motor-driver-v2-with-optocoupler-isolation/"
+      ]
+    },
+    {
+      "id": "elechouse-50a-dual-motor-driver",
+      "name": "50A Dual-Channel motor drive module-Arduino Compatible",
+      "brand": "Elechouse",
+      "revision": "PCB revision not established",
+      "references": 2,
+      "physicalPinoutImages": 1,
+      "note": "Source identity and visual type reviewed; electrical limits and pin assignments have not been independently bench-verified. Match the exact PCB, connector orientation and interface mode. Exact-model physical completeness remains unapproved.",
+      "sources": [
+        "https://www.elechouse.com/product/50a-dual-channel-motor-drive-module-arduino-compatible/"
+      ]
+    },
+    {
+      "id": "elechouse-5v-buck-wire",
+      "name": "5V Power DC Buck Wire",
+      "brand": "Elechouse",
+      "revision": "PCB revision not established",
+      "references": 2,
+      "physicalPinoutImages": 1,
+      "note": "Source identity and visual type reviewed; electrical limits and pin assignments have not been independently bench-verified. Match the exact PCB, connector orientation and interface mode. Exact-model physical completeness remains unapproved.",
+      "sources": [
+        "https://www.elechouse.com/product/5v-power-dc-buck-wire/"
+      ]
+    },
+    {
+      "id": "elechouse-cc1101-915mhz",
+      "name": "915MHz CC1101 Wireless Module",
+      "brand": "Elechouse",
+      "revision": "PCB revision not established",
+      "references": 4,
+      "physicalPinoutImages": 0,
+      "note": "Source identity and visual type reviewed; electrical limits and pin assignments have not been independently bench-verified. Match the exact PCB, connector orientation and interface mode. Legacy manufacturer manual mentions both CC1100 and CC1101 and makes inconsistent 5 V interface claims. Connector diagram is retained with this conflict; it is not verified evidence of 5 V tolerance.",
+      "sources": [
+        "https://www.elechouse.com/product/915mhz-cc1101-wireless-module/"
+      ]
+    },
+    {
+      "id": "elechouse-clrc663-v1",
+      "name": "CLRC663 Reader Module V1—SPI/I2C/UART",
+      "brand": "Elechouse",
+      "revision": "V1",
+      "references": 5,
+      "physicalPinoutImages": 0,
+      "note": "Source identity and visual type reviewed; electrical limits and pin assignments have not been independently bench-verified. Match the exact PCB, connector orientation and interface mode. Exact-model physical completeness remains unapproved.",
+      "sources": [
+        "https://www.elechouse.com/product/clrc663-reader-module/"
+      ]
+    },
+    {
+      "id": "elechouse-network-rfid-v01h",
+      "name": "ELECHOUSE Network RFID Reader V0.1H",
+      "brand": "Elechouse",
+      "revision": "V0.1H development kit",
+      "references": 6,
+      "physicalPinoutImages": 0,
+      "note": "Source identity and visual type reviewed; electrical limits and pin assignments have not been independently bench-verified. Match the exact PCB, connector orientation and interface mode. V0.1H is a development kit. 12 V, PoE, LF 125 kHz and production Wiegand/ABA conditioning are roadmap items, not V0.1H capabilities. The saved guide provides GPIO functions but not a complete physical connector orientation map.",
+      "sources": [
+        "https://www.elechouse.com/product/network-rfid-reader-v01h/"
+      ]
+    },
+    {
+      "id": "elechouse-proxmark3-v2",
+      "name": "ELECHOUSE Proxmark3 V2 DEV kits",
+      "brand": "Elechouse",
+      "revision": "V2",
+      "references": 3,
+      "physicalPinoutImages": 0,
+      "note": "Source identity and visual type reviewed; electrical limits and pin assignments have not been independently bench-verified. Match the exact PCB, connector orientation and interface mode. Only hardware-identification pages are presented as visual references. A complete GPIO / JTAG physical pinout is still needed.",
+      "sources": [
+        "https://www.elechouse.com/product/elechouse-proxmark3-v2-dev-kits/"
+      ]
+    },
+    {
+      "id": "elechouse-pn5180",
+      "name": "PN5180 NFC MODULE",
+      "brand": "Elechouse",
+      "revision": "PCB revision not established",
+      "references": 5,
+      "physicalPinoutImages": 0,
+      "note": "Source identity and visual type reviewed; electrical limits and pin assignments have not been independently bench-verified. Match the exact PCB, connector orientation and interface mode. Exact-model physical completeness remains unapproved.",
+      "sources": [
+        "https://www.elechouse.com/product/pn5180-nfc-module/"
+      ]
+    },
+    {
+      "id": "elechouse-pn532-evolution-v1",
+      "name": "PN532 NFC Evolution V1",
+      "brand": "Elechouse",
+      "revision": "Evolution V1",
+      "references": 1,
+      "physicalPinoutImages": 0,
+      "note": "Source identity and visual type reviewed; electrical limits and pin assignments have not been independently bench-verified. Match the exact PCB, connector orientation and interface mode. Manufacturer links the V3 manual for protocol/software compatibility. That older physical layout is not assigned to Evolution V1. Exact-model connector image still needed.",
+      "sources": [
+        "https://www.elechouse.com/product/pn532-nfc-evolution-v1/"
+      ]
+    },
+    {
+      "id": "elechouse-pn532-external-antenna",
+      "name": "PN532 NFC RFID Module w/ External Antenna — updated version",
+      "brand": "Elechouse",
+      "revision": "PCB revision not established",
+      "references": 1,
+      "physicalPinoutImages": 0,
+      "note": "Source identity and visual type reviewed; electrical limits and pin assignments have not been independently bench-verified. Match the exact PCB, connector orientation and interface mode. The linked PN5321 MINI manual describes different hardware and is not assigned to this external-antenna board. Exact-board physical pinout still needed.",
+      "sources": [
+        "https://www.elechouse.com/product/pn532-nfc-rfid-module-w-external-antenna-updated-version/"
+      ]
+    },
+    {
+      "id": "elechouse-pn532-v4",
+      "name": "PN532 NFC RFID module V4",
+      "brand": "Elechouse",
+      "revision": "V4",
+      "references": 1,
+      "physicalPinoutImages": 0,
+      "note": "Source identity and visual type reviewed; electrical limits and pin assignments have not been independently bench-verified. Match the exact PCB, connector orientation and interface mode. Exact-model physical completeness remains unapproved.",
+      "sources": [
+        "https://www.elechouse.com/product/pn532-nfc-rfid-module-v4/"
+      ]
+    },
+    {
+      "id": "elechouse-pn532-purple",
+      "name": "PN532 NFC RFID module — Purple Version",
+      "brand": "Elechouse",
+      "revision": "PCB revision not established",
+      "references": 1,
+      "physicalPinoutImages": 0,
+      "note": "Source identity and visual type reviewed; electrical limits and pin assignments have not been independently bench-verified. Match the exact PCB, connector orientation and interface mode. Purple PCB variant retained separately from V3/V4. Labeled photograph does not establish a complete pinout.",
+      "sources": [
+        "https://www.elechouse.com/product/pn532-nfc-rfid-module-purple-version/"
+      ]
+    },
+    {
+      "id": "elechouse-pn532-usb-type-c",
+      "name": "PN532 NFC USB MODULE—Type C",
+      "brand": "Elechouse",
+      "revision": "PCB revision not established",
+      "references": 1,
+      "physicalPinoutImages": 0,
+      "note": "Source identity and visual type reviewed; electrical limits and pin assignments have not been independently bench-verified. Match the exact PCB, connector orientation and interface mode. USB host module. Accessible auxiliary pad functions are not fully documented in the inspected source; no GPIO availability is inferred from the PN532 chip.",
+      "sources": [
+        "https://www.elechouse.com/product/pn532-nfc-usb-module/"
+      ]
+    },
+    {
+      "id": "elechouse-pn5321-mini",
+      "name": "PN5321 MINI w/ Interference-Resistant Antenna",
+      "brand": "Elechouse",
+      "revision": "Hardware V2; saved module datasheet rev 1.5, September 2026",
+      "references": 6,
+      "physicalPinoutImages": 0,
+      "note": "Source identity and visual type reviewed; electrical limits and pin assignments have not been independently bench-verified. Match the exact PCB, connector orientation and interface mode. Source conflict: the web documentation lists 2.7–5.5 V and ISO15693, while the saved September 2026 hardware-V2 datasheet specifies 3.3–5.0 V and explicitly excludes ISO15693. Follow the exact-board current manufacturer clarification; neither is promoted to verified Power Desk data.",
+      "sources": [
+        "https://www.elechouse.com/product/pn532-mini/"
+      ]
+    },
+    {
+      "id": "elechouse-pn7150-v1",
+      "name": "PN7150 NFC RFID MODULE",
+      "brand": "Elechouse",
+      "revision": "V1",
+      "references": 4,
+      "physicalPinoutImages": 0,
+      "note": "Source identity and visual type reviewed; electrical limits and pin assignments have not been independently bench-verified. Match the exact PCB, connector orientation and interface mode. Exact-model physical completeness remains unapproved.",
+      "sources": [
+        "https://www.elechouse.com/product/pn7150_v1/"
+      ]
+    },
+    {
+      "id": "elechouse-pn7160-mini-v1-i2c",
+      "name": "PN7160 MINI V1 — I2C",
+      "brand": "Elechouse",
+      "revision": "MINI V1 I2C; datasheet r1.0, 2026-09-08",
+      "references": 5,
+      "physicalPinoutImages": 0,
+      "note": "Source identity and visual type reviewed; electrical limits and pin assignments have not been independently bench-verified. Match the exact PCB, connector orientation and interface mode. MINI six-pin connector has a pin-1 dot; not interchangeable with the standard eight-pin I2C module. Saved datasheet and manual are for MINI V1 I2C.",
+      "sources": [
+        "https://www.elechouse.com/product/pn7160-mini-v1-i2c/"
+      ]
+    },
+    {
+      "id": "elechouse-pn7160-i2c",
+      "name": "PN7160 NFC RFID MODULE—I2C Version",
+      "brand": "Elechouse",
+      "revision": "I2C module; saved family datasheet v1.4, 2026-09-09",
+      "references": 5,
+      "physicalPinoutImages": 1,
+      "note": "Source identity and visual type reviewed; electrical limits and pin assignments have not been independently bench-verified. Match the exact PCB, connector orientation and interface mode. I2C version only. VDD host logic and VANT RF supply have different roles; the matching RF-supply software configuration matters. Manufacturer observations in the saved datasheet are not guaranteed ratings or Black Wire bench tests.",
+      "sources": [
+        "https://www.elechouse.com/product/pn7160-nfc-rfid-module/"
+      ]
+    },
+    {
+      "id": "elechouse-pn7161-mini-v1-spi",
+      "name": "PN7161 MINI V1 — SPI",
+      "brand": "Elechouse",
+      "revision": "MINI V1 SPI",
+      "references": 4,
+      "physicalPinoutImages": 0,
+      "note": "Source identity and visual type reviewed; electrical limits and pin assignments have not been independently bench-verified. Match the exact PCB, connector orientation and interface mode. SPI MINI version; standard PN716x I2C connector/datasheet is not assigned. The saved SPI quick-start uses 5 V VANT; newer online documentation describes separately configured 3.3 V support. Confirm the exact software and supply configuration.",
+      "sources": [
+        "https://www.elechouse.com/product/pn7161-mini-v1-spi/"
+      ]
+    },
+    {
+      "id": "elechouse-pn7161-i2c",
+      "name": "PN7161 NFC RFID MODULE—I2C",
+      "brand": "Elechouse",
+      "revision": "I2C module; saved family datasheet v1.4, 2026-09-09",
+      "references": 4,
+      "physicalPinoutImages": 1,
+      "note": "Source identity and visual type reviewed; electrical limits and pin assignments have not been independently bench-verified. Match the exact PCB, connector orientation and interface mode. I2C version only. The manufacturer explicitly supplies the shared PN7160/PN7161 I2C module datasheet. Its measured current results were taken on PN7160, not independently on this PN7161 listing.",
+      "sources": [
+        "https://www.elechouse.com/product/pn7161-nfc-rfid-module-i2c/"
+      ]
+    },
+    {
+      "id": "elechouse-st25r3916",
+      "name": "ST25R3916 NFC Reader Module",
+      "brand": "Elechouse",
+      "revision": "PCB revision not established",
+      "references": 2,
+      "physicalPinoutImages": 0,
+      "note": "Source identity and visual type reviewed; electrical limits and pin assignments have not been independently bench-verified. Match the exact PCB, connector orientation and interface mode. Exact-model physical completeness remains unapproved.",
+      "sources": [
+        "https://www.elechouse.com/product/st25r3916_nfc_reader/"
+      ]
+    },
+    {
+      "id": "elechouse-st25r3916b-mini",
+      "name": "ST25R3916B Mini NFC Module with Ultra-Slim External Antenna",
+      "brand": "Elechouse",
+      "revision": "PCB revision not established",
+      "references": 1,
+      "physicalPinoutImages": 0,
+      "note": "Source identity and visual type reviewed; electrical limits and pin assignments have not been independently bench-verified. Match the exact PCB, connector orientation and interface mode. External-antenna MINI remains separate from the full-size ST25R3916B board. The full-size module datasheet is not applied to it.",
+      "sources": [
+        "https://www.elechouse.com/product/st25r3916b-mini-nfc-module/"
+      ]
+    },
+    {
+      "id": "elechouse-st25r3916b",
+      "name": "ST25R3916B NFC Module",
+      "brand": "Elechouse",
+      "revision": "Module datasheet V0.3 Draft, 2026-07-18",
+      "references": 4,
+      "physicalPinoutImages": 1,
+      "note": "Source identity and visual type reviewed; electrical limits and pin assignments have not been independently bench-verified. Match the exact PCB, connector orientation and interface mode. Saved datasheet is V0.3 Draft. Its current measurements are manufacturer characterization of one sample, not production limits or Black Wire bench tests.",
+      "sources": [
+        "https://www.elechouse.com/product/st25r3916b-nfc-module/"
+      ]
+    },
+    {
+      "id": "elechouse-simplevr",
+      "name": "SimpleVR speaker-independent Voice Recognition Module",
+      "brand": "Elechouse",
+      "revision": "PCB revision not established",
+      "references": 1,
+      "physicalPinoutImages": 0,
+      "note": "Source identity and visual type reviewed; electrical limits and pin assignments have not been independently bench-verified. Match the exact PCB, connector orientation and interface mode. SimpleVR speaker-independent module is separate from the speaker-dependent Voice Recognition V3.",
+      "sources": [
+        "https://www.elechouse.com/product/simplevr-speaker-independent-voice-recognition-module/"
+      ]
+    },
+    {
+      "id": "elechouse-voice-recognition-v3",
+      "name": "Speak Recognition, Voice Recognition Module V3",
+      "brand": "Elechouse",
+      "revision": "V3",
+      "references": 3,
+      "physicalPinoutImages": 0,
+      "note": "Source identity and visual type reviewed; electrical limits and pin assignments have not been independently bench-verified. Match the exact PCB, connector orientation and interface mode. Exact-model physical completeness remains unapproved.",
+      "sources": [
+        "https://www.elechouse.com/product/speak-recognition-voice-recognition-module-v3/"
+      ]
+    },
+    {
+      "id": "elechouse-taijiuino-due-r3s",
+      "name": "TAIJIUINO Due R3S — Compatible with Arduino Due",
+      "brand": "Elechouse",
+      "revision": "R3S",
+      "references": 1,
+      "physicalPinoutImages": 0,
+      "note": "Source identity and visual type reviewed; electrical limits and pin assignments have not been independently bench-verified. Match the exact PCB, connector orientation and interface mode. TAIJIUINO R3S exposes additional Ethernet and GPIO interfaces. A generic Arduino Due pinout is not substituted for the exact-board map.",
+      "sources": [
+        "https://www.elechouse.com/product/taijiuino-due-r3s-compatible-with-arduino-due/"
+      ]
+    },
+    {
+      "id": "elechouse-pn532-v3",
+      "name": "PN532 NFC RFID module V3",
+      "brand": "Elechouse",
+      "revision": "V3; user manual revision B, 2013-11-05",
+      "references": 3,
+      "physicalPinoutImages": 0,
+      "note": "Source identity and visual type reviewed; electrical limits and pin assignments have not been independently bench-verified. Match the exact PCB, connector orientation and interface mode. This is the original V3 physical board referenced by the HaleHound guide. The old manual includes a questionable 3.3–24 V TTL claim and direct-5 V SPI wording; these are not validated logic-level ratings. V4, Evolution, external-antenna and MINI are separate records.",
+      "sources": [
+        "https://www.elechouse.com/elechouse/images/product/PN532_module_V3/PN532_%20Manual_V3.pdf"
+      ]
+    },
+    {
+      "id": "qdtech-e32r28t",
+      "name": "E32R28T ESP32-32E 2.8-inch resistive display",
+      "brand": "QDtech",
+      "revision": "Board PCB revision not established; official specification V1.0",
+      "references": 4,
+      "physicalPinoutImages": 0,
+      "note": "Source identity and visual type reviewed; electrical limits and pin assignments have not been independently bench-verified. Match the exact PCB, connector orientation and interface mode. Resistive-touch model E32R28T only. The shared manual also describes a non-touch E32N variant; that does not establish identical populated hardware. HaleHound kit wiring is a separate assembly reference.",
+      "sources": [
+        "https://www.lcdwiki.com/2.8inch_ESP32-32E_Display"
+      ]
+    },
+    {
+      "id": "qdtech-e32r35t",
+      "name": "E32R35T ESP32-32E 3.5-inch resistive display",
+      "brand": "QDtech",
+      "revision": "Board PCB revision not established; official specification V1.0",
+      "references": 4,
+      "physicalPinoutImages": 0,
+      "note": "Source identity and visual type reviewed; electrical limits and pin assignments have not been independently bench-verified. Match the exact PCB, connector orientation and interface mode. Resistive-touch model E32R35T only. The shared manual also describes a non-touch E32N variant; that does not establish identical populated hardware. HaleHound kit wiring is a separate assembly reference.",
+      "sources": [
+        "https://www.lcdwiki.com/3.5inch_ESP32-32E_Display"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "name": "10pcs 4pin anti-reverse cable – 30 cm, for Arduino I2C/COM",
+      "source": "https://www.elechouse.com/product/4pin-anti-reverse-cable-30-cm-for-arduino-i2c-com/",
+      "reason": "Passive tag, antenna, cable or service; not a separate GPIO board listing in this intake"
+    },
+    {
+      "name": "13.56MHz NFC/RFID Flexible Antenna – 10 Pack",
+      "source": "https://www.elechouse.com/product/13-56mhz-nfc-rfid-flexible-antenna-10-pack/",
+      "reason": "Passive tag, antenna, cable or service; not a separate GPIO board listing in this intake"
+    },
+    {
+      "name": "13.56MHz RFID Square Card",
+      "source": "https://www.elechouse.com/product/13-56mhz-rfid-square-card/",
+      "reason": "Passive tag, antenna, cable or service; not a separate GPIO board listing in this intake"
+    },
+    {
+      "name": "13.56MHz White PVC IC Card – Ultralight EV1 / ULT-C UID Writable",
+      "source": "https://www.elechouse.com/product/13-56mhz-white-pvc-flexible-ic-card-ultralight-ev1-ult-c-uid-writable/",
+      "reason": "Passive tag, antenna, cable or service; not a separate GPIO board listing in this intake"
+    },
+    {
+      "name": "13.56Mhz flexible RFID tag — 10pcs",
+      "source": "https://www.elechouse.com/product/13-56mhz-flexible-rfid-tag-10pcs/",
+      "reason": "Passive tag, antenna, cable or service; not a separate GPIO board listing in this intake"
+    },
+    {
+      "name": "5pcs Ipex cable",
+      "source": "https://www.elechouse.com/product/ipex-cable/",
+      "reason": "Passive tag, antenna, cable or service; not a separate GPIO board listing in this intake"
+    },
+    {
+      "name": "Custom Development Service",
+      "source": "https://www.elechouse.com/product/custom-development-service/",
+      "reason": "Passive tag, antenna, cable or service; not a separate GPIO board listing in this intake"
+    },
+    {
+      "name": "FM1108 13.56MHz Flexible IC Cards / RFID Tags – 10pcs",
+      "source": "https://www.elechouse.com/product/fm1108-13-56mhz-rfid-tags-cards-10pcs/",
+      "reason": "Passive tag, antenna, cable or service; not a separate GPIO board listing in this intake"
+    },
+    {
+      "name": "FeSiAl EMI Shielding Sheet Sticker",
+      "source": "https://www.elechouse.com/product/fesial-emi-shielding-sheet-sticker/",
+      "reason": "Passive tag, antenna, cable or service; not a separate GPIO board listing in this intake"
+    },
+    {
+      "name": "MX1.25mm to Single P Header Cable (10P)",
+      "source": "https://www.elechouse.com/product/mx1-25mm-to-single-p-header-cable-10p/",
+      "reason": "Passive tag, antenna, cable or service; not a separate GPIO board listing in this intake"
+    },
+    {
+      "name": "MX1.25mm to Single P Header Cable (7P)",
+      "source": "https://www.elechouse.com/product/mx1-25mm-to-single7p/",
+      "reason": "Passive tag, antenna, cable or service; not a separate GPIO board listing in this intake"
+    },
+    {
+      "name": "MX1.25mm to Single P Header Cable (8P)",
+      "source": "https://www.elechouse.com/product/mx1-25mm-to-single-p-header-cable-8p/",
+      "reason": "Passive tag, antenna, cable or service; not a separate GPIO board listing in this intake"
+    },
+    {
+      "name": "N8654 13.56MHz White PVC NFC Cards – 10pcs",
+      "source": "https://www.elechouse.com/product/n8654-13-56mhz-white-pvc-nfc-cards-10pcs/",
+      "reason": "Passive tag, antenna, cable or service; not a separate GPIO board listing in this intake"
+    },
+    {
+      "name": "N8654 White PVC RFID Cards – Mixed Chip Options – 10pcs",
+      "source": "https://www.elechouse.com/product/n8654-white-pvc-rfid-cards-mixed-chip-options-10pcs/",
+      "reason": "Passive tag, antenna, cable or service; not a separate GPIO board listing in this intake"
+    },
+    {
+      "name": "NTAG424 DNA 13.56MHz White PVC NFC Card – 42 x 26mm",
+      "source": "https://www.elechouse.com/product/ntag424-dna-13-56mhz-white-pvc-nfc-card-42x26mm/",
+      "reason": "Passive tag, antenna, cable or service; not a separate GPIO board listing in this intake"
+    }
+  ],
+  "pending": [
+    "Exact Ebyte E07 module and carrier PCB identities vary; do not infer a pinout from the family name.",
+    "Cinder Ferret carrier PCB revision and standalone pinout still need exact-source review.",
+    "TP4057 / IP5306 / AMS1117 generic module variants in the build guide need exact-board identity before individual listings.",
+    "Several Elechouse products only have labeled photographs or pin tables; physical connector orientation and complete pinout approvals remain gaps."
+  ]
+}

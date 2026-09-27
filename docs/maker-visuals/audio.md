@@ -15,3 +15,27 @@ Adafruit · Manufacturer documentation recorded
 **pinout image** · Manufacturer-model geometry checked; independent electrical and full-device review pending
 
 Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
+
+## SimpleVR speaker-independent Voice Recognition Module
+
+Elechouse · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=elechouse-simplevr)
+
+[![SimpleVR speaker-independent Voice Recognition Module / board labeling image](../../library/thumbs/5f3134678a7534b176d4037f0dae83cbb208a3f69a2427e61557b1ec0c6603bc.webp)](../../library/media/5f3134678a7534b176d4037f0dae83cbb208a3f69a2427e61557b1ec0c6603bc.jpg)
+
+**board labeling image** · Source image / document inspected; independent electrical review pending
+
+Elechouse / original diagram and document contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
+
+## Speak Recognition, Voice Recognition Module V3
+
+Elechouse · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=elechouse-voice-recognition-v3)
+
+[![Speak Recognition, Voice Recognition Module V3 / board labeling image](../../library/thumbs/6e5a4607451f95b9bbd358180ec79bd7f792147aac00d37d89fe21041e205f0e.webp)](../../library/media/6e5a4607451f95b9bbd358180ec79bd7f792147aac00d37d89fe21041e205f0e.jpg)
+
+**board labeling image** · Source image / document inspected; independent electrical review pending
+
+Elechouse / original diagram and document contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
