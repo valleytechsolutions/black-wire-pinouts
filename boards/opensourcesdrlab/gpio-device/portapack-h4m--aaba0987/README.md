@@ -4,7 +4,7 @@
 
 Revision: Not identified
 
-Coverage: Physical pinout source collected; scope and revision require confirmation
+Coverage: Physical source pinout available; independent completeness review pending
 
 [Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=opensourcesdrlab-portapack-h4m)
 
@@ -16,10 +16,11 @@ Device category: **Handhelds & pocket tools**
 
 Board datasheet: **not yet recorded**. Visual reference: **available**.
 
-Original manufacturer website still needs identification.
+[Original manufacturer / project documentation](https://github.com/portapack-mayhem/mayhem-mdk)
 
+- **hardware-guide / board**: [H4M external-module connector in original MDK project](https://github.com/portapack-mayhem/mayhem-mdk#pinout) · online
 
-A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+Source identity and visual scope reviewed. Pin assignments and electrical limits are not independently bench-verified. Match the exact PCB revision, connector view and populated options. H4M and H4M Pro remain separate; the linked MDK project documents the original H4M connector.
 
 [Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 

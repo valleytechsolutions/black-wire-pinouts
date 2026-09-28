@@ -2,7 +2,7 @@
 
 [Search devices in the browser guide](https://valleytech-black-wire-guide.pages.dev/?tab=devices) · [All boards](BROWSE.md) · [First Edition](EDITION.md)
 
-**327 device records with references.** Includes handhelds, radio nodes, wearables, cameras, displays and controllers. Counts include unreviewed source records and supporting references; not every record has a full physical pinout.
+**332 device records with references.** Includes handhelds, radio nodes, wearables, cameras, displays and controllers. Counts include unreviewed source records and supporting references; not every record has a full physical pinout.
 
 Original manufacturer images remain unchanged. Revision and partial-map notes live on each device page.
 
@@ -51,6 +51,8 @@ Original manufacturer images remain unchanged. Revision and partial-map notes li
 | DFRobot | [UNIHIKER K10 / DFR0992-EN](boards/dfrobot/esp32-s3/unihiker-k10-dfr0992-en--807626db/README.md) | ESP32-S3 | 0 | 1 |
 | Elechouse | [ELECHOUSE Network RFID Reader V0.1H](boards/elechouse/esp32-s3-st25r3916b/elechouse-network-rfid-reader-v0-1h--f8e6e7a8/README.md) | ESP32-S3 / ST25R3916B | 0 | 6 |
 | Elechouse | [ELECHOUSE Proxmark3 V2 DEV kits](boards/elechouse/at91sam7s512-xilinx-spartan-ii/elechouse-proxmark3-v2-dev-kits--8ca96d07/README.md) | AT91SAM7S512 / Xilinx Spartan-II | 0 | 3 |
+| Hat Labs | [HALMET marine engine and tank interface](boards/hat-labs/esp32/halmet-marine-engine-and-tank-interface--a7d073f8/README.md) | ESP32 | 0 | 3 |
+| Hat Labs | [HALPI2 marine Raspberry Pi CM5 computer](boards/hat-labs/bcm2712-raspberry-pi-cm5/halpi2-marine-raspberry-pi-cm5-computer--4b694ce7/README.md) | BCM2712 / Raspberry Pi CM5 | 0 | 4 |
 | LILYGO | [T-2Can](boards/lilygo/esp32-s3/t-2can--4efce943/README.md) | ESP32-S3 | 1 | 1 |
 | LILYGO | [T-2Can-FD](boards/lilygo/esp32-s3/t-2can-fd--129a16ae/README.md) | ESP32-S3 | 1 | 1 |
 | LILYGO | [T-CAN485 (CH340K)](boards/lilygo/esp32-original/t-can485-ch340k--fb4b71d3/README.md) | ESP32 original | 2 | 2 |
@@ -283,6 +285,8 @@ Original manufacturer images remain unchanged. Revision and partial-map notes li
 | Heltec | [HT-VME290](boards/heltec/esp32-s3/ht-vme290--0e358295/README.md) | ESP32-S3 | 1 | 1 |
 | Heltec | [HT-VMT190](boards/heltec/esp32-s3/ht-vmt190--ed8d3cef/README.md) | ESP32-S3 | 1 | 2 |
 | Heltec | [LoRa Node 151](boards/heltec/other/lora-node-151--9006fe92/README.md) | Other | 1 | 2 |
+| Heltec | [Mesh Node T096](boards/heltec/nrf52840/mesh-node-t096--85a43288/README.md) | nRF52840 | 1 | 3 |
+| Heltec | [Mesh Node T1](boards/heltec/nrf52840/mesh-node-t1--cdb06d5f/README.md) | nRF52840 | 0 | 2 |
 | Heltec | [Mesh Node T114](boards/heltec/nrf52840/mesh-node-t114--33936c12/README.md) | nRF52840 | 1 | 1 |
 | Heltec | [MeshSolar](boards/heltec/other/meshsolar--ca6999d0/README.md) | Other | 1 | 1 |
 | Heltec | [WiFi LoRa 32 Expansion Kit](boards/heltec/esp32-s3/wifi-lora-32-expansion-kit--9b0ce37b/README.md) | ESP32-S3 | 1 | 1 |
@@ -321,6 +325,7 @@ Original manufacturer images remain unchanged. Revision and partial-map notes li
 | LILYGO | [T-TWR](boards/lilygo/esp32-s3/t-twr--32d9dc25/README.md) | ESP32-S3 | 1 | 1 |
 | LILYGO | [T-TWR-Plus](boards/lilygo/esp32-s3/t-twr-plus--9f789403/README.md) | ESP32-S3 | 1 | 1 |
 | M5Stack | [Atom DTU LoRaWAN-CN470](boards/m5stack/source-collection/atom-dtu-lorawan-cn470--91a6f9ad/README.md) | Not recorded | 0 | 1 |
+| OpenSourceSDRLab | [PortaPack H4M Pro](boards/opensourcesdrlab/hackrf-pro-h4m-pro/portapack-h4m-pro--789886c7/README.md) | HackRF Pro / H4M Pro | 0 | 6 |
 | Seeed Studio | [SenseCAP A1101 (LoRaWAN Vision AI Sensor)](boards/seeed-studio/source-collection/sensecap-a1101-lorawan-vision-ai-sensor--cf659ba6/README.md) | Not recorded | 0 | 1 |
 | Seeed Studio | [SenseCAP Card Tracker T1000-E](boards/seeed-studio/source-collection/sensecap-card-tracker-t1000-e--70e5528b/README.md) | Not recorded | 0 | 3 |
 | Seeed Studio | [SenseCAP Indicator for Meshtastic](boards/seeed-studio/source-collection/sensecap-indicator-for-meshtastic--663e4883/README.md) | Not recorded | 0 | 1 |
@@ -333,9 +338,9 @@ Original manufacturer images remain unchanged. Revision and partial-map notes li
 | Seeed Studio | [Wio Tracker - GPS, BT3.0, GSM](boards/seeed-studio/source-collection/wio-tracker---gps-bt3.0-gsm--f31b5598/README.md) | Not recorded | 0 | 2 |
 | Seeed Studio | [Wio Tracker 1110 Dev Board](boards/seeed-studio/other/wio-tracker-1110-dev-board--feedafd5/README.md) | Not recorded | 1 | 2 |
 | Seeed Studio | [Wio Tracker 1110 Dev Kit for Meshtastic](boards/seeed-studio/other/wio-tracker-1110-dev-kit-for-meshtastic--307c83a9/README.md) | Not recorded | 1 | 1 |
-| Seeed Studio | [Wio Tracker L1](boards/seeed-studio/source-collection/wio-tracker-l1--68d6b7d1/README.md) | Not recorded | 0 | 3 |
-| Seeed Studio | [Wio Tracker L1 E-Ink](boards/seeed-studio/source-collection/wio-tracker-l1-e-ink--dff655ad/README.md) | Not recorded | 0 | 1 |
-| Seeed Studio | [Wio Tracker L1 Pro](boards/seeed-studio/source-collection/wio-tracker-l1-pro--050d11a4/README.md) | Not recorded | 0 | 1 |
+| Seeed Studio | [Wio Tracker L1](boards/seeed-studio/source-collection/wio-tracker-l1--68d6b7d1/README.md) | nRF52840 | 0 | 3 |
+| Seeed Studio | [Wio Tracker L1 E-Ink](boards/seeed-studio/source-collection/wio-tracker-l1-e-ink--dff655ad/README.md) | nRF52840 | 0 | 1 |
+| Seeed Studio | [Wio Tracker L1 Pro](boards/seeed-studio/source-collection/wio-tracker-l1-pro--050d11a4/README.md) | nRF52840 | 0 | 2 |
 | Seeed Studio | [Wio Tracker L2](boards/seeed-studio/source-collection/wio-tracker-l2--b40d6620/README.md) | Not recorded | 0 | 3 |
 
 ## Wearables

@@ -331,6 +331,20 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [CrowPanel PICO HMI 2.4-inch Display](boards/elecrow/rp2040/crowpanel-pico-hmi-2.4-inch-display--f401ea8b/README.md) | RP2040 | 1 | 1 |
 | [CrowPanel PICO HMI 2.8-inch Display](boards/elecrow/rp2040/crowpanel-pico-hmi-2.8-inch-display--66b6ceb9/README.md) | RP2040 | 1 | 1 |
 | [CrowPanel PICO HMI 4.3-inch Display](boards/elecrow/rp2040/crowpanel-pico-hmi-4.3-inch-display--94c5223d/README.md) | RP2040 | 1 | 1 |
+| [Crowtail LoRa RA-08H](boards/elecrow/asr6601/crowtail-lora-ra-08h--bdfd670e/README.md) | ASR6601 | 1 | 0 |
+| [LoRa RA-08H development board](boards/elecrow/rp2040-asr6601/lora-ra-08h-development-board--c24771e6/README.md) | RP2040 / ASR6601 | 1 | 0 |
+| [LoRa RA-08H node board](boards/elecrow/rp2040-asr6601/lora-ra-08h-node-board--8b43dab7/README.md) | RP2040 / ASR6601 | 2 | 0 |
+| [LR1262 LoRaWAN node board](boards/elecrow/rp2040-stm32wle5cc/lr1262-lorawan-node-board--3c6f8a84/README.md) | RP2040 / STM32WLE5CC | 1 | 0 |
+| [LR1262 LoRaWAN node module](boards/elecrow/stm32wle5cc/lr1262-lorawan-node-module--906663a5/README.md) | STM32WLE5CC | 1 | 1 |
+| [LR1262 RP2040 development board with 1.8-inch LCD](boards/elecrow/rp2040-stm32wle5cc/lr1262-rp2040-development-board-with-1-8-inch-lcd--12d180a3/README.md) | RP2040 / STM32WLE5CC | 2 | 0 |
+| [LR1302 LoRaWAN gateway HAT](boards/elecrow/sx1302/lr1302-lorawan-gateway-hat--26daa28f/README.md) | SX1302 | 1 | 0 |
+| [LR1302 LoRaWAN gateway module](boards/elecrow/sx1302/lr1302-lorawan-gateway-module--cc3bbe58/README.md) | SX1302 | 1 | 0 |
+| [nRFLR1110 LoRa node expansion board](boards/elecrow/nrf52840-lr1110/nrflr1110-lora-node-expansion-board--ead436a8/README.md) | nRF52840 / LR1110 | 2 | 0 |
+| [nRFLR1110 wireless transceiver module](boards/elecrow/nrf52840-lr1110/nrflr1110-wireless-transceiver-module--9a4c5e25/README.md) | nRF52840 / LR1110 | 2 | 1 |
+| [nRFLR1121 LoRa node expansion board](boards/elecrow/nrf52840-lr1121/nrflr1121-lora-node-expansion-board--6ea92a3b/README.md) | nRF52840 / LR1121 | 2 | 0 |
+| [nRFLR1121 wireless transceiver module](boards/elecrow/nrf52840-lr1121/nrflr1121-wireless-transceiver-module--cbddb26f/README.md) | nRF52840 / LR1121 | 2 | 1 |
+| [nRFLR1262 wireless transceiver module](boards/elecrow/nrf52840-sx1262/nrflr1262-wireless-transceiver-module--6f628464/README.md) | nRF52840 / SX1262 | 2 | 1 |
+| [nRFLRCC68 wireless transceiver module](boards/elecrow/nrf52840-llcc68/nrflrcc68-wireless-transceiver-module--da2ba07f/README.md) | nRF52840 / LLCC68 | 2 | 1 |
 | [PICO W5 RP2040 Dev Board](boards/elecrow/rp2040/pico-w5-rp2040-dev-board--b8726de8/README.md) | RP2040 | 1 | 1 |
 | [RP2350 Pico W5](boards/elecrow/rp2350/rp2350-pico-w5--71c7a0b2/README.md) | RP2350 | 1 | 1 |
 
@@ -517,6 +531,14 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [HaleHound CYD 2.8 SPI-exposed build](boards/halehound/esp32/halehound-cyd-2-8-spi-exposed-build--9c2447b5/README.md) | ESP32 | 9 | 1 |
 | [HaleHound CYD 3.5 SPI-exposed build](boards/halehound/esp32/halehound-cyd-3-5-spi-exposed-build--47e6327d/README.md) | ESP32 | 3 | 0 |
 
+## Hat Labs
+
+| Board / device | Processor / family | References | Pinout images |
+|---|---|---:|---:|
+| [HALMET marine engine and tank interface](boards/hat-labs/esp32/halmet-marine-engine-and-tank-interface--a7d073f8/README.md) | ESP32 | 3 | 0 |
+| [HALPI2 marine Raspberry Pi CM5 computer](boards/hat-labs/bcm2712-raspberry-pi-cm5/halpi2-marine-raspberry-pi-cm5-computer--4b694ce7/README.md) | BCM2712 / Raspberry Pi CM5 | 4 | 0 |
+| [Sailor Hat with ESP32 (SH-ESP32)](boards/hat-labs/esp32-wroom-32e/sailor-hat-with-esp32-sh-esp32--b1eb0b4a/README.md) | ESP32-WROOM-32E | 2 | 1 |
+
 ## Heltec
 
 | Board / device | Processor / family | References | Pinout images |
@@ -531,11 +553,16 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [CubeCell HTCC-AM01 V2](boards/heltec/other/cubecell-htcc-am01-v2--5154ad03/README.md) | Other | 1 | 1 |
 | [CubeCell HTCC-AM02 Module Board](boards/heltec/other/cubecell-htcc-am02-module-board--d11f07c9/README.md) | Other | 2 | 1 |
 | [ESP32-C3 DevBoard](boards/heltec/esp32-c3/esp32-c3-devboard--ce82642e/README.md) | ESP32-C3 | 3 | 2 |
+| [Heltec Wireless Paper](boards/heltec/esp32-s3/heltec-wireless-paper--aad74286/README.md) | ESP32-S3 | 2 | 0 |
+| [HT-1303 LoRa gateway module](boards/heltec/sx1303-sx1250/ht-1303-lora-gateway-module--b0b7b25a/README.md) | SX1303 / SX1250 | 3 | 1 |
 | [HT-DEV-ESP V2](boards/heltec/esp32/ht-dev-esp-v2--697d8fbd/README.md) | ESP32 | 3 | 2 |
 | [HT-VME213](boards/heltec/esp32-s3/ht-vme213--4236d337/README.md) | ESP32-S3 | 1 | 1 |
 | [HT-VME290](boards/heltec/esp32-s3/ht-vme290--0e358295/README.md) | ESP32-S3 | 1 | 1 |
 | [HT-VMT190](boards/heltec/esp32-s3/ht-vmt190--ed8d3cef/README.md) | ESP32-S3 | 2 | 1 |
 | [LoRa Node 151](boards/heltec/other/lora-node-151--9006fe92/README.md) | Other | 2 | 1 |
+| [Mesh Node 5262M (HT-N5262M)](boards/heltec/nrf52840/mesh-node-5262m-ht-n5262m--00de7cf6/README.md) | nRF52840 | 2 | 1 |
+| [Mesh Node T096](boards/heltec/nrf52840/mesh-node-t096--85a43288/README.md) | nRF52840 | 3 | 1 |
+| [Mesh Node T1](boards/heltec/nrf52840/mesh-node-t1--cdb06d5f/README.md) | nRF52840 | 2 | 0 |
 | [Mesh Node T114](boards/heltec/nrf52840/mesh-node-t114--33936c12/README.md) | nRF52840 | 1 | 1 |
 | [MeshSolar](boards/heltec/other/meshsolar--ca6999d0/README.md) | Other | 1 | 1 |
 | [WiFi Kit 32 V1](boards/heltec/esp32-original/wifi-kit-32-v1--1e75f609/README.md) | ESP32 original | 2 | 1 |
@@ -738,7 +765,9 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 
 | Board / device | Processor / family | References | Pinout images |
 |---|---|---:|---:|
-| [D1 MINI](boards/lolin/esp8266/d1-mini--799b750b/README.md) | ESP8266 | 1 | 1 |
+| [D1 MINI](boards/lolin/esp8266/d1-mini--799b750b/README.md) | ESP8266 | 4 | 1 |
+| [D1 MINI LITE](boards/lolin/esp8285/d1-mini-lite--ce2f856d/README.md) | ESP8285 | 3 | 0 |
+| [D1 MINI PRO](boards/lolin/esp8266/d1-mini-pro--cc755546/README.md) | ESP8266 | 4 | 0 |
 
 ## LattePanda
 
@@ -1323,7 +1352,9 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 
 | Board / device | Processor / family | References | Pinout images |
 |---|---|---:|---:|
+| [ESP32-MDK PortaPack external module developer kit](boards/opensourcesdrlab/esp32-s3/esp32-mdk-portapack-external-module-developer-kit--33a832ba/README.md) | ESP32-S3 | 4 | 0 |
 | [PortaPack H4M](boards/opensourcesdrlab/gpio-device/portapack-h4m--aaba0987/README.md) | GPIO device | 1 | 1 |
+| [PortaPack H4M Pro](boards/opensourcesdrlab/hackrf-pro-h4m-pro/portapack-h4m-pro--789886c7/README.md) | HackRF Pro / H4M Pro | 6 | 0 |
 
 ## Orange Pi
 
@@ -1388,14 +1419,25 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | Board / device | Processor / family | References | Pinout images |
 |---|---|---:|---:|
 | [BastWAN](boards/rakwireless/other/bastwan--f7054bd0/README.md) | Other | 3 | 2 |
+| [RAK11160 LoRa Wi-Fi BLE module](boards/rakwireless/stm32wle5-esp32-c2/rak11160-lora-wi-fi-ble-module--7a2ea88e/README.md) | STM32WLE5 / ESP32-C2 | 1 | 1 |
+| [RAK11161 breakout board](boards/rakwireless/stm32wle5cc-esp32-c2/rak11161-breakout-board--2a4f2b97/README.md) | STM32WLE5CC / ESP32-C2 | 2 | 2 |
 | [RAK11200](boards/rakwireless/esp32-original/rak11200--3032e2cd/README.md) | ESP32 original | 1 | 1 |
 | [RAK11300-Module](boards/rakwireless/rp2040/rak11300-module--1462034d/README.md) | RP2040 | 1 | 1 |
+| [RAK11310](boards/rakwireless/rp2040/rak11310--3a5c0ab8/README.md) | RP2040 | 3 | 0 |
 | [RAK11720-Module](boards/rakwireless/other/rak11720-module--67ad1012/README.md) | Other | 1 | 1 |
+| [RAK11722](boards/rakwireless/apollo3-blue/rak11722--0321b72b/README.md) | Apollo3 Blue | 2 | 0 |
 | [RAK13002 WisBlock IO Module](boards/rakwireless/expansion/rak13002-wisblock-io-module--126569f6/README.md) | Expansion | 1 | 1 |
 | [RAK19001](boards/rakwireless/expansion/rak19001--ff10bfae/README.md) | Expansion | 1 | 0 |
+| [RAK19001](boards/rakwireless/wisblock-base/rak19001--261fc307/README.md) | WisBlock base | 8 | 5 |
 | [RAK19003](boards/rakwireless/expansion/rak19003--8cc80629/README.md) | Expansion | 1 | 1 |
+| [RAK19007](boards/rakwireless/wisblock-base/rak19007--c984fbd6/README.md) | WisBlock base | 2 | 0 |
+| [RAK19011 Dual IO Base](boards/rakwireless/wisblock-base/rak19011-dual-io-base--0f83d968/README.md) | WisBlock base | 4 | 2 |
+| [RAK19012 USB LiPo Solar Power Module](boards/rakwireless/power-module/rak19012-usb-lipo-solar-power-module--4297cc92/README.md) | Power module | 2 | 1 |
+| [RAK19013 LiPo Solar Power Module](boards/rakwireless/power-module/rak19013-lipo-solar-power-module--bdca80d8/README.md) | Power module | 3 | 3 |
+| [RAK3112 LoRa Wi-Fi BLE module](boards/rakwireless/esp32-s3/rak3112-lora-wi-fi-ble-module--300f39f2/README.md) | ESP32-S3 | 1 | 1 |
 | [RAK3172-Evaluation-Board](boards/rakwireless/other/rak3172-evaluation-board--1616bf49/README.md) | Other | 1 | 0 |
 | [RAK3172-Module](boards/rakwireless/other/rak3172-module--0fe81fa3/README.md) | Other | 1 | 1 |
+| [RAK3212 breakout board](boards/rakwireless/esp32-s3/rak3212-breakout-board--d1ee8067/README.md) | ESP32-S3 | 1 | 0 |
 | [RAK3272-SiP-Breakout-Board](boards/rakwireless/other/rak3272-sip-breakout-board--f9eb6346/README.md) | Other | 2 | 2 |
 | [RAK3272S-Breakout-Board](boards/rakwireless/other/rak3272s-breakout-board--761d3fdc/README.md) | Other | 1 | 1 |
 | [RAK3372](boards/rakwireless/other/rak3372--dbc0168e/README.md) | Other | 1 | 0 |
@@ -1409,12 +1451,19 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [RAK4600-Breakout-Board](boards/rakwireless/other/rak4600-breakout-board--2583a66d/README.md) | Other | 1 | 1 |
 | [RAK4600-Module](boards/rakwireless/other/rak4600-module--a8a08178/README.md) | Other | 1 | 1 |
 | [RAK4630-Module](boards/rakwireless/other/rak4630-module--4060e702/README.md) | Other | 1 | 1 |
+| [RAK4631](boards/rakwireless/nrf52840/rak4631--54bd2722/README.md) | nRF52840 | 4 | 0 |
 | [RAK5005-O](boards/rakwireless/expansion/rak5005-o--93b10eb9/README.md) | Expansion | 1 | 1 |
 | [RAK811-Breakout-Board High RF](boards/rakwireless/other/rak811-breakout-board-high-rf--19cd58a4/README.md) | Other | 1 | 1 |
 | [RAK811-Breakout-Board Low RF](boards/rakwireless/other/rak811-breakout-board-low-rf--0d63e7b4/README.md) | Other | 1 | 1 |
 | [RAK811-Module High RF](boards/rakwireless/other/rak811-module-high-rf--b5039c5f/README.md) | Other | 1 | 1 |
 | [RAK811-Module Low RF](boards/rakwireless/other/rak811-module-low-rf--c001d5a2/README.md) | Other | 1 | 1 |
 | [RAK813-Module](boards/rakwireless/other/rak813-module--573c8b19/README.md) | Other | 1 | 1 |
+
+## REYAX
+
+| Board / device | Processor / family | References | Pinout images |
+|---|---|---:|---:|
+| [RYLR998 UART LoRa transceiver module](boards/reyax/lora-uart-module/rylr998-uart-lora-transceiver-module--af8ee89d/README.md) | LoRa UART module | 2 | 1 |
 
 ## Radxa
 
@@ -1816,17 +1865,18 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Wio Tracker - GPS, BT3.0, GSM](boards/seeed-studio/source-collection/wio-tracker---gps-bt3.0-gsm--f31b5598/README.md) | Source collection | 2 | 0 |
 | [Wio Tracker 1110 Dev Board](boards/seeed-studio/other/wio-tracker-1110-dev-board--feedafd5/README.md) | Other | 2 | 1 |
 | [Wio Tracker 1110 Dev Kit for Meshtastic](boards/seeed-studio/other/wio-tracker-1110-dev-kit-for-meshtastic--307c83a9/README.md) | Other | 1 | 1 |
-| [Wio Tracker L1](boards/seeed-studio/source-collection/wio-tracker-l1--68d6b7d1/README.md) | Source collection | 3 | 0 |
-| [Wio Tracker L1 E-Ink](boards/seeed-studio/source-collection/wio-tracker-l1-e-ink--dff655ad/README.md) | Source collection | 1 | 0 |
-| [Wio Tracker L1 Pro](boards/seeed-studio/source-collection/wio-tracker-l1-pro--050d11a4/README.md) | Source collection | 1 | 0 |
+| [Wio Tracker L1](boards/seeed-studio/source-collection/wio-tracker-l1--68d6b7d1/README.md) | nRF52840 | 3 | 0 |
+| [Wio Tracker L1 E-Ink](boards/seeed-studio/source-collection/wio-tracker-l1-e-ink--dff655ad/README.md) | nRF52840 | 1 | 0 |
+| [Wio Tracker L1 Pro](boards/seeed-studio/source-collection/wio-tracker-l1-pro--050d11a4/README.md) | nRF52840 | 2 | 0 |
 | [Wio Tracker L2](boards/seeed-studio/source-collection/wio-tracker-l2--b40d6620/README.md) | Source collection | 3 | 0 |
 | [Wio-E5 Development Kit](boards/seeed-studio/other/wio-e5-development-kit--018647a2/README.md) | Other | 2 | 1 |
 | [Wio-E5 mini](boards/seeed-studio/other/wio-e5-mini--d358ada5/README.md) | Other | 2 | 1 |
 | [Wio-E5 STM32WLE5JC Module](boards/seeed-studio/other/wio-e5-stm32wle5jc-module--260fda58/README.md) | Other | 1 | 0 |
-| [Wio-LR1121](boards/seeed-studio/source-collection/wio-lr1121--62831365/README.md) | Source collection | 2 | 0 |
+| [Wio-LR1121](boards/seeed-studio/source-collection/wio-lr1121--62831365/README.md) | LR1121 | 4 | 0 |
 | [Wio-LR2021](boards/seeed-studio/expansion/wio-lr2021--d3ec5d5b/README.md) | Expansion | 2 | 2 |
 | [Wio-S3 Wireless Module](boards/seeed-studio/esp32-s3/wio-s3-wireless-module--68bbed34/README.md) | ESP32-S3 | 5 | 1 |
 | [Wio-SX1262](boards/seeed-studio/expansion/wio-sx1262--255d5042/README.md) | Expansion | 3 | 1 |
+| [Wio-SX1262-LF LoRaWAN module](boards/seeed-studio/stm32wle5jc/wio-sx1262-lf-lorawan-module--5c65a21d/README.md) | STM32WLE5JC | 3 | 0 |
 | [Wio-WM1110 Dev Kit](boards/seeed-studio/other/wio-wm1110-dev-kit--8ab43e0a/README.md) | Other | 5 | 3 |
 | [Wio-WM1110 Module](boards/seeed-studio/source-collection/wio-wm1110-module--084ff04f/README.md) | Source collection | 1 | 0 |
 | [Wireless Gate Shield V1.0](boards/seeed-studio/source-collection/wireless-gate-shield-v1.0--6a61a00e/README.md) | Source collection | 1 | 0 |

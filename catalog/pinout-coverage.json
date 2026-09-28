@@ -1,14 +1,14 @@
 {
   "checked": "2026-09-27",
-  "listingCount": 3244,
+  "listingCount": 3278,
   "countsAreListingsNotUniqueHardware": true,
   "completeDeviceApprovals": 0,
   "summary": {
     "board": {
-      "pinout-source": 1037,
-      "reference-only": 919,
-      "missing": 698,
-      "functions-only": 15
+      "pinout-source": 1054,
+      "reference-only": 933,
+      "missing": 692,
+      "functions-only": 24
     },
     "maker": {
       "pinout-source": 175,
@@ -4216,7 +4216,7 @@
       "name": "Heltec Wireless Paper",
       "brand": "Heltec",
       "kind": "board",
-      "status": "missing",
+      "status": "reference-only",
       "physicalCount": 0,
       "functionTableCount": 0,
       "functionSheetCount": 0,
@@ -6515,13 +6515,13 @@
       "name": "D1 MINI LITE",
       "brand": "LOLIN",
       "kind": "board",
-      "status": "missing",
+      "status": "functions-only",
       "physicalCount": 0,
-      "functionTableCount": 0,
+      "functionTableCount": 1,
       "functionSheetCount": 0,
-      "purposeRows": 0,
+      "purposeRows": 16,
       "completeDeviceApproved": false,
-      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "scope": "Pin functions documented; use the matching source image to locate the connector. Physical order is not established by a function table.",
       "missing": [
         "Physical connector map",
         "Independent all-connector completeness review",
@@ -6533,13 +6533,13 @@
       "name": "D1 MINI PRO",
       "brand": "LOLIN",
       "kind": "board",
-      "status": "missing",
+      "status": "functions-only",
       "physicalCount": 0,
-      "functionTableCount": 0,
+      "functionTableCount": 1,
       "functionSheetCount": 0,
-      "purposeRows": 0,
+      "purposeRows": 16,
       "completeDeviceApproved": false,
-      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "scope": "Pin functions documented; use the matching source image to locate the connector. Physical order is not established by a function table.",
       "missing": [
         "Physical connector map",
         "Independent all-connector completeness review",
@@ -18620,13 +18620,13 @@
       "name": "RAK11722",
       "brand": "RAKwireless",
       "kind": "board",
-      "status": "missing",
+      "status": "functions-only",
       "physicalCount": 0,
-      "functionTableCount": 0,
+      "functionTableCount": 1,
       "functionSheetCount": 0,
-      "purposeRows": 0,
+      "purposeRows": 44,
       "completeDeviceApproved": false,
-      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "scope": "Pin functions documented; use the matching source image to locate the connector. Physical order is not established by a function table.",
       "missing": [
         "Physical connector map",
         "Independent all-connector completeness review",
@@ -18932,13 +18932,13 @@
       "name": "RAK4631",
       "brand": "RAKwireless",
       "kind": "board",
-      "status": "missing",
+      "status": "functions-only",
       "physicalCount": 0,
-      "functionTableCount": 0,
+      "functionTableCount": 1,
       "functionSheetCount": 0,
-      "purposeRows": 0,
+      "purposeRows": 44,
       "completeDeviceApproved": false,
-      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "scope": "Pin functions documented; use the matching source image to locate the connector. Physical order is not established by a function table.",
       "missing": [
         "Physical connector map",
         "Independent all-connector completeness review",
@@ -27331,13 +27331,13 @@
       "name": "RAK11310",
       "brand": "RAKwireless",
       "kind": "board",
-      "status": "missing",
+      "status": "functions-only",
       "physicalCount": 0,
-      "functionTableCount": 0,
+      "functionTableCount": 1,
       "functionSheetCount": 0,
-      "purposeRows": 0,
+      "purposeRows": 44,
       "completeDeviceApproved": false,
-      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "scope": "Pin functions documented; use the matching source image to locate the connector. Physical order is not established by a function table.",
       "missing": [
         "Physical connector map",
         "Independent all-connector completeness review",
@@ -41175,13 +41175,13 @@
       "name": "Wio-LR1121",
       "brand": "Seeed Studio",
       "kind": "board",
-      "status": "reference-only",
+      "status": "functions-only",
       "physicalCount": 0,
-      "functionTableCount": 0,
-      "functionSheetCount": 0,
+      "functionTableCount": 1,
+      "functionSheetCount": 1,
       "purposeRows": 0,
       "completeDeviceApproved": false,
-      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "scope": "Pin functions documented; use the matching source image to locate the connector. Physical order is not established by a function table.",
       "missing": [
         "Physical connector map",
         "Independent all-connector completeness review",
@@ -47017,6 +47017,601 @@
       "purposeRows": 0,
       "completeDeviceApproved": false,
       "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "rakwireless-other-rak19001",
+      "name": "RAK19001",
+      "brand": "RAKwireless",
+      "kind": "board",
+      "status": "pinout-source",
+      "physicalCount": 5,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Source pinout available; check its connector scope and revision. All-pin completeness has not been independently approved.",
+      "missing": [
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "rakwireless-other-rak19007",
+      "name": "RAK19007",
+      "brand": "RAKwireless",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "rakwireless-rak19011",
+      "name": "RAK19011 Dual IO Base",
+      "brand": "RAKwireless",
+      "kind": "board",
+      "status": "pinout-source",
+      "physicalCount": 2,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Source pinout available; check its connector scope and revision. All-pin completeness has not been independently approved.",
+      "missing": [
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "rakwireless-rak19012",
+      "name": "RAK19012 USB LiPo Solar Power Module",
+      "brand": "RAKwireless",
+      "kind": "board",
+      "status": "pinout-source",
+      "physicalCount": 1,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Source pinout available; check its connector scope and revision. All-pin completeness has not been independently approved.",
+      "missing": [
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "rakwireless-rak19013",
+      "name": "RAK19013 LiPo Solar Power Module",
+      "brand": "RAKwireless",
+      "kind": "board",
+      "status": "pinout-source",
+      "physicalCount": 3,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Source pinout available; check its connector scope and revision. All-pin completeness has not been independently approved.",
+      "missing": [
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "rakwireless-rak11160",
+      "name": "RAK11160 LoRa Wi-Fi BLE module",
+      "brand": "RAKwireless",
+      "kind": "board",
+      "status": "pinout-source",
+      "physicalCount": 1,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Source pinout available; check its connector scope and revision. All-pin completeness has not been independently approved.",
+      "missing": [
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "rakwireless-rak11161",
+      "name": "RAK11161 breakout board",
+      "brand": "RAKwireless",
+      "kind": "board",
+      "status": "pinout-source",
+      "physicalCount": 2,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Source pinout available; check its connector scope and revision. All-pin completeness has not been independently approved.",
+      "missing": [
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "rakwireless-rak3112",
+      "name": "RAK3112 LoRa Wi-Fi BLE module",
+      "brand": "RAKwireless",
+      "kind": "board",
+      "status": "pinout-source",
+      "physicalCount": 1,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Source pinout available; check its connector scope and revision. All-pin completeness has not been independently approved.",
+      "missing": [
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "rakwireless-rak3212",
+      "name": "RAK3212 breakout board",
+      "brand": "RAKwireless",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "heltec-ht-1303",
+      "name": "HT-1303 LoRa gateway module",
+      "brand": "Heltec",
+      "kind": "board",
+      "status": "pinout-source",
+      "physicalCount": 1,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Source pinout available; check its connector scope and revision. All-pin completeness has not been independently approved.",
+      "missing": [
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "heltec-ht-n5262m",
+      "name": "Mesh Node 5262M (HT-N5262M)",
+      "brand": "Heltec",
+      "kind": "board",
+      "status": "pinout-source",
+      "physicalCount": 1,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Source pinout available; check its connector scope and revision. All-pin completeness has not been independently approved.",
+      "missing": [
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "heltec-mesh-node-t1",
+      "name": "Mesh Node T1",
+      "brand": "Heltec",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "heltec-mesh-node-t096",
+      "name": "Mesh Node T096",
+      "brand": "Heltec",
+      "kind": "board",
+      "status": "pinout-source",
+      "physicalCount": 1,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Source pinout available; check its connector scope and revision. All-pin completeness has not been independently approved.",
+      "missing": [
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "elecrow-crowtail-ra08h",
+      "name": "Crowtail LoRa RA-08H",
+      "brand": "Elecrow",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "elecrow-ra08h-dev",
+      "name": "LoRa RA-08H development board",
+      "brand": "Elecrow",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "elecrow-ra08h-node",
+      "name": "LoRa RA-08H node board",
+      "brand": "Elecrow",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "elecrow-lr1302",
+      "name": "LR1302 LoRaWAN gateway module",
+      "brand": "Elecrow",
+      "kind": "board",
+      "status": "functions-only",
+      "physicalCount": 0,
+      "functionTableCount": 1,
+      "functionSheetCount": 1,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Pin functions documented; use the matching source image to locate the connector. Physical order is not established by a function table.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "elecrow-lr1302-hat",
+      "name": "LR1302 LoRaWAN gateway HAT",
+      "brand": "Elecrow",
+      "kind": "board",
+      "status": "functions-only",
+      "physicalCount": 0,
+      "functionTableCount": 1,
+      "functionSheetCount": 1,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Pin functions documented; use the matching source image to locate the connector. Physical order is not established by a function table.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "elecrow-lr1262",
+      "name": "LR1262 LoRaWAN node module",
+      "brand": "Elecrow",
+      "kind": "board",
+      "status": "pinout-source",
+      "physicalCount": 1,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Source pinout available; check its connector scope and revision. All-pin completeness has not been independently approved.",
+      "missing": [
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "elecrow-lr1262-node",
+      "name": "LR1262 LoRaWAN node board",
+      "brand": "Elecrow",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "elecrow-lr1262-lcd",
+      "name": "LR1262 RP2040 development board with 1.8-inch LCD",
+      "brand": "Elecrow",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "elecrow-nrflr1110",
+      "name": "nRFLR1110 wireless transceiver module",
+      "brand": "Elecrow",
+      "kind": "board",
+      "status": "pinout-source",
+      "physicalCount": 1,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Source pinout available; check its connector scope and revision. All-pin completeness has not been independently approved.",
+      "missing": [
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "elecrow-nrflr1121",
+      "name": "nRFLR1121 wireless transceiver module",
+      "brand": "Elecrow",
+      "kind": "board",
+      "status": "pinout-source",
+      "physicalCount": 1,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Source pinout available; check its connector scope and revision. All-pin completeness has not been independently approved.",
+      "missing": [
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "elecrow-nrflr1262",
+      "name": "nRFLR1262 wireless transceiver module",
+      "brand": "Elecrow",
+      "kind": "board",
+      "status": "pinout-source",
+      "physicalCount": 1,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Source pinout available; check its connector scope and revision. All-pin completeness has not been independently approved.",
+      "missing": [
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "elecrow-nrflrcc68",
+      "name": "nRFLRCC68 wireless transceiver module",
+      "brand": "Elecrow",
+      "kind": "board",
+      "status": "pinout-source",
+      "physicalCount": 1,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Source pinout available; check its connector scope and revision. All-pin completeness has not been independently approved.",
+      "missing": [
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "elecrow-nrflr1121-node",
+      "name": "nRFLR1121 LoRa node expansion board",
+      "brand": "Elecrow",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "elecrow-nrflr1110-node",
+      "name": "nRFLR1110 LoRa node expansion board",
+      "brand": "Elecrow",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "opensourcesdrlab-portapack-h4m-pro",
+      "name": "PortaPack H4M Pro",
+      "brand": "OpenSourceSDRLab",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "opensourcesdrlab-esp32-mdk",
+      "name": "ESP32-MDK PortaPack external module developer kit",
+      "brand": "OpenSourceSDRLab",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "hatlabs-halmet",
+      "name": "HALMET marine engine and tank interface",
+      "brand": "Hat Labs",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "hatlabs-halpi2",
+      "name": "HALPI2 marine Raspberry Pi CM5 computer",
+      "brand": "Hat Labs",
+      "kind": "board",
+      "status": "reference-only",
+      "physicalCount": 0,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
+      "missing": [
+        "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "hatlabs-sh-esp32",
+      "name": "Sailor Hat with ESP32 (SH-ESP32)",
+      "brand": "Hat Labs",
+      "kind": "board",
+      "status": "pinout-source",
+      "physicalCount": 1,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Source pinout available; check its connector scope and revision. All-pin completeness has not been independently approved.",
+      "missing": [
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "reyax-rylr998",
+      "name": "RYLR998 UART LoRa transceiver module",
+      "brand": "REYAX",
+      "kind": "board",
+      "status": "pinout-source",
+      "physicalCount": 1,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Source pinout available; check its connector scope and revision. All-pin completeness has not been independently approved.",
+      "missing": [
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "seeed-wio-sx1262-lf",
+      "name": "Wio-SX1262-LF LoRaWAN module",
+      "brand": "Seeed Studio",
+      "kind": "board",
+      "status": "functions-only",
+      "physicalCount": 0,
+      "functionTableCount": 1,
+      "functionSheetCount": 1,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Pin functions documented; use the matching source image to locate the connector. Physical order is not established by a function table.",
       "missing": [
         "Physical connector map",
         "Independent all-connector completeness review",

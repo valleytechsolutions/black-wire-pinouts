@@ -237,7 +237,7 @@ guition-esp32-jc-esp32p4-m3-dev,JC-ESP32P4-M3-DEV,Guition,board,missing,0,0,0,0,
 hangzhou-leban-esp32-hiibot-iots2,HiiBot IoTs2,Hangzhou LeBan,board,missing,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
 hardkernel-esp32-odroid-go,ODROID Go,HardKernel,board,missing,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
 heltec-esp32-esp32-c3-devboard,ESP32-C3 DevBoard,Heltec,board,pinout-source,2,0,0,0,False,Independent all-connector completeness review; Revision match and electrical limits
-heltec-esp32-wireless-paper,Heltec Wireless Paper,Heltec,board,missing,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
+heltec-esp32-wireless-paper,Heltec Wireless Paper,Heltec,board,reference-only,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
 heltec-esp32-ht-dev-esp-v2,HT-DEV-ESP V2,Heltec,board,pinout-source,2,0,0,0,False,Independent all-connector completeness review; Revision match and electrical limits
 heltec-esp32-ht-vme213,HT-VME213,Heltec,board,pinout-source,1,0,0,0,False,Independent all-connector completeness review; Revision match and electrical limits
 heltec-esp32-ht-vme290,HT-VME290,Heltec,board,pinout-source,1,0,0,0,False,Independent all-connector completeness review; Revision match and electrical limits
@@ -371,8 +371,8 @@ lilygo-esp32-ttgo-t8-esp32-s2-st7789,TTGO T8 ESP32-S2 ST7789,LILYGO,board,missin
 lilygo-esp32-ttgo-t8-esp32-s2-wroom,TTGO T8 ESP32-S2-WROOM,LILYGO,board,missing,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
 lilygo-esp32-ttgo-t8-v1-7-esp32,TTGO T8 V1.7 ESP32,LILYGO,board,missing,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
 lolin-esp32-d1-mini,D1 MINI,LOLIN,board,pinout-source,1,0,0,0,False,Independent all-connector completeness review; Revision match and electrical limits
-lolin-esp32-d1-mini-lite,D1 MINI LITE,LOLIN,board,missing,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
-lolin-esp32-d1-mini-pro,D1 MINI PRO,LOLIN,board,missing,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
+lolin-esp32-d1-mini-lite,D1 MINI LITE,LOLIN,board,functions-only,0,0,1,16,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
+lolin-esp32-d1-mini-pro,D1 MINI PRO,LOLIN,board,functions-only,0,0,1,16,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
 luatos-esp32-core-esp32c3,Luatos Core ESP32C3,Luatos,board,pinout-source,1,0,0,0,False,Independent all-connector completeness review; Revision match and electrical limits
 luatos-esp32-esp32-c3-core-board-ch343-usb-uart,Luatos ESP32-C3 Core Board – CH343 USB UART,Luatos,board,missing,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
 m5stack-esp32-atom-echo-smart-speaker,ATOM Echo Smart Speaker,M5Stack,board,missing,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
@@ -1066,7 +1066,7 @@ nvidia-other-jetson-xavier-nx-developer-kit,Jetson Xavier NX Developer Kit,NVIDI
 rakwireless-other-bastwan,BastWAN,RAKwireless,board,pinout-source,2,0,0,0,False,Independent all-connector completeness review; Revision match and electrical limits
 rakwireless-other-rak11720-module,RAK11720-Module,RAKwireless,board,pinout-source,1,0,0,0,False,Independent all-connector completeness review; Revision match and electrical limits
 rakwireless-other-rak11721-breakout-board,RAK11721-Breakout-Board,RAKwireless,board,missing,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
-rakwireless-other-rak11722,RAK11722,RAKwireless,board,missing,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
+rakwireless-other-rak11722,RAK11722,RAKwireless,board,functions-only,0,0,1,44,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
 rakwireless-other-rak3172-evaluation-board,RAK3172-Evaluation-Board,RAKwireless,board,reference-only,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
 rakwireless-other-rak3172-module,RAK3172-Module,RAKwireless,board,pinout-source,1,0,0,0,False,Independent all-connector completeness review; Revision match and electrical limits
 rakwireless-other-rak3272-sip-breakout-board,RAK3272-SiP-Breakout-Board,RAKwireless,board,pinout-source,2,0,0,0,False,Independent all-connector completeness review; Revision match and electrical limits
@@ -1084,7 +1084,7 @@ rakwireless-other-rak4600-breakout-board,RAK4600-Breakout-Board,RAKwireless,boar
 rakwireless-other-rak4600-evaluation-board,RAK4600-Evaluation-Board,RAKwireless,board,missing,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
 rakwireless-other-rak4600-module,RAK4600-Module,RAKwireless,board,pinout-source,1,0,0,0,False,Independent all-connector completeness review; Revision match and electrical limits
 rakwireless-other-rak4630-module,RAK4630-Module,RAKwireless,board,pinout-source,1,0,0,0,False,Independent all-connector completeness review; Revision match and electrical limits
-rakwireless-other-rak4631,RAK4631,RAKwireless,board,missing,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
+rakwireless-other-rak4631,RAK4631,RAKwireless,board,functions-only,0,0,1,44,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
 rakwireless-other-rak811-breakout-board,RAK811-Breakout-Board,RAKwireless,board,missing,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
 rakwireless-other-rak811-breakout-board-high-rf,RAK811-Breakout-Board High RF,RAKwireless,board,pinout-source,1,0,0,0,False,Independent all-connector completeness review; Revision match and electrical limits
 rakwireless-other-rak811-breakout-board-low-rf,RAK811-Breakout-Board Low RF,RAKwireless,board,pinout-source,1,0,0,0,False,Independent all-connector completeness review; Revision match and electrical limits
@@ -1559,7 +1559,7 @@ proves-kit-rp2040-rp2040-v4,PROVES Kit RP2040 V4,PROVES Kit,board,missing,0,0,0,
 quadbit-rp2040-upico,uPico,Quadbit,board,missing,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
 radomir-dopieralski-rp2040-game-22,µGame 22,Radomir Dopieralski,board,missing,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
 rakwireless-rp2040-rak11300-module,RAK11300-Module,RAKwireless,board,pinout-source,1,0,0,0,False,Independent all-connector completeness review; Revision match and electrical limits
-rakwireless-rp2040-rak11310,RAK11310,RAKwireless,board,missing,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
+rakwireless-rp2040-rak11310,RAK11310,RAKwireless,board,functions-only,0,0,1,44,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
 raspberry-pi-rp2040-pico,Raspberry Pi Pico,Raspberry Pi,board,pinout-source,4,0,0,0,False,Independent all-connector completeness review; Revision match and electrical limits
 raspberry-pi-rp2040-pico-h,Raspberry Pi Pico H,Raspberry Pi,board,pinout-source,1,0,0,0,False,Independent all-connector completeness review; Revision match and electrical limits
 raspberry-pi-rp2040-pico-w,Raspberry Pi Pico W,Raspberry Pi,board,pinout-source,3,0,0,0,False,Independent all-connector completeness review; Revision match and electrical limits
@@ -2334,7 +2334,7 @@ source-board-6ee8ce359d809bce59,LoNet 808 - Mini GSM-GPRS + GPS Breakout,Seeed S
 source-board-0dcaac442f6ce018ea,LoRa-LoRaWAN Gateway Kit,Seeed Studio,board,reference-only,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
 source-board-ec912e26d3fcc14eb3,Wi-Fi HaLow Module for reCamera,Seeed Studio,board,reference-only,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
 source-board-162d81500e3c01ba14,Wifi Bee,Seeed Studio,board,reference-only,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
-source-board-46cc91e23ccadb5750,Wio-LR1121,Seeed Studio,board,reference-only,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
+source-board-46cc91e23ccadb5750,Wio-LR1121,Seeed Studio,board,functions-only,0,1,1,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
 source-board-bea007a7950ac7b820,Wio-WM1110 Module,Seeed Studio,board,reference-only,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
 source-board-9741860a7ed890420c,Xadow - 1.54 inch Touchscreen,Seeed Studio,board,reference-only,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
 source-board-8140d9f3e2e3bc859c,Xadow - 3-Axis Accelerometer,Seeed Studio,board,reference-only,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
@@ -2668,6 +2668,40 @@ elechouse-proxmark3-v2,ELECHOUSE Proxmark3 V2 DEV kits,Elechouse,board,reference
 elechouse-taijiuino-due-r3s,TAIJIUINO Due R3S — Compatible with Arduino Due,Elechouse,board,reference-only,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
 qdtech-e32r28t,E32R28T ESP32-32E 2.8-inch resistive display,QDtech,board,reference-only,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
 qdtech-e32r35t,E32R35T ESP32-32E 3.5-inch resistive display,QDtech,board,reference-only,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
+rakwireless-other-rak19001,RAK19001,RAKwireless,board,pinout-source,5,0,0,0,False,Independent all-connector completeness review; Revision match and electrical limits
+rakwireless-other-rak19007,RAK19007,RAKwireless,board,reference-only,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
+rakwireless-rak19011,RAK19011 Dual IO Base,RAKwireless,board,pinout-source,2,0,0,0,False,Independent all-connector completeness review; Revision match and electrical limits
+rakwireless-rak19012,RAK19012 USB LiPo Solar Power Module,RAKwireless,board,pinout-source,1,0,0,0,False,Independent all-connector completeness review; Revision match and electrical limits
+rakwireless-rak19013,RAK19013 LiPo Solar Power Module,RAKwireless,board,pinout-source,3,0,0,0,False,Independent all-connector completeness review; Revision match and electrical limits
+rakwireless-rak11160,RAK11160 LoRa Wi-Fi BLE module,RAKwireless,board,pinout-source,1,0,0,0,False,Independent all-connector completeness review; Revision match and electrical limits
+rakwireless-rak11161,RAK11161 breakout board,RAKwireless,board,pinout-source,2,0,0,0,False,Independent all-connector completeness review; Revision match and electrical limits
+rakwireless-rak3112,RAK3112 LoRa Wi-Fi BLE module,RAKwireless,board,pinout-source,1,0,0,0,False,Independent all-connector completeness review; Revision match and electrical limits
+rakwireless-rak3212,RAK3212 breakout board,RAKwireless,board,reference-only,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
+heltec-ht-1303,HT-1303 LoRa gateway module,Heltec,board,pinout-source,1,0,0,0,False,Independent all-connector completeness review; Revision match and electrical limits
+heltec-ht-n5262m,Mesh Node 5262M (HT-N5262M),Heltec,board,pinout-source,1,0,0,0,False,Independent all-connector completeness review; Revision match and electrical limits
+heltec-mesh-node-t1,Mesh Node T1,Heltec,board,reference-only,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
+heltec-mesh-node-t096,Mesh Node T096,Heltec,board,pinout-source,1,0,0,0,False,Independent all-connector completeness review; Revision match and electrical limits
+elecrow-crowtail-ra08h,Crowtail LoRa RA-08H,Elecrow,board,reference-only,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
+elecrow-ra08h-dev,LoRa RA-08H development board,Elecrow,board,reference-only,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
+elecrow-ra08h-node,LoRa RA-08H node board,Elecrow,board,reference-only,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
+elecrow-lr1302,LR1302 LoRaWAN gateway module,Elecrow,board,functions-only,0,1,1,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
+elecrow-lr1302-hat,LR1302 LoRaWAN gateway HAT,Elecrow,board,functions-only,0,1,1,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
+elecrow-lr1262,LR1262 LoRaWAN node module,Elecrow,board,pinout-source,1,0,0,0,False,Independent all-connector completeness review; Revision match and electrical limits
+elecrow-lr1262-node,LR1262 LoRaWAN node board,Elecrow,board,reference-only,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
+elecrow-lr1262-lcd,LR1262 RP2040 development board with 1.8-inch LCD,Elecrow,board,reference-only,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
+elecrow-nrflr1110,nRFLR1110 wireless transceiver module,Elecrow,board,pinout-source,1,0,0,0,False,Independent all-connector completeness review; Revision match and electrical limits
+elecrow-nrflr1121,nRFLR1121 wireless transceiver module,Elecrow,board,pinout-source,1,0,0,0,False,Independent all-connector completeness review; Revision match and electrical limits
+elecrow-nrflr1262,nRFLR1262 wireless transceiver module,Elecrow,board,pinout-source,1,0,0,0,False,Independent all-connector completeness review; Revision match and electrical limits
+elecrow-nrflrcc68,nRFLRCC68 wireless transceiver module,Elecrow,board,pinout-source,1,0,0,0,False,Independent all-connector completeness review; Revision match and electrical limits
+elecrow-nrflr1121-node,nRFLR1121 LoRa node expansion board,Elecrow,board,reference-only,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
+elecrow-nrflr1110-node,nRFLR1110 LoRa node expansion board,Elecrow,board,reference-only,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
+opensourcesdrlab-portapack-h4m-pro,PortaPack H4M Pro,OpenSourceSDRLab,board,reference-only,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
+opensourcesdrlab-esp32-mdk,ESP32-MDK PortaPack external module developer kit,OpenSourceSDRLab,board,reference-only,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
+hatlabs-halmet,HALMET marine engine and tank interface,Hat Labs,board,reference-only,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
+hatlabs-halpi2,HALPI2 marine Raspberry Pi CM5 computer,Hat Labs,board,reference-only,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
+hatlabs-sh-esp32,Sailor Hat with ESP32 (SH-ESP32),Hat Labs,board,pinout-source,1,0,0,0,False,Independent all-connector completeness review; Revision match and electrical limits
+reyax-rylr998,RYLR998 UART LoRa transceiver module,REYAX,board,pinout-source,1,0,0,0,False,Independent all-connector completeness review; Revision match and electrical limits
+seeed-wio-sx1262-lf,Wio-SX1262-LF LoRaWAN module,Seeed Studio,board,functions-only,0,1,1,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits
 maker-adafruit-ca3cc11716cc,Adafruit MAX98357 I2S Class-D Amps - Stereo and Mono,Adafruit,maker,pinout-source,1,0,1,9,False,Independent all-connector completeness review; Revision match and electrical limits
 maker-existing-m5stack-expansion-module-gps-v2-0,Module GPS v2.0,M5Stack,maker,pinout-source,1,0,0,0,False,Independent all-connector completeness review; Revision match and electrical limits
 maker-existing-source-board-44364c1110885a327e,Module GPS v2.1,M5Stack,maker,reference-only,0,0,0,0,False,Physical connector map; Independent all-connector completeness review; Revision match and electrical limits

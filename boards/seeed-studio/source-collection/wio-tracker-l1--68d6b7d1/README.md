@@ -1,29 +1,32 @@
 # Wio Tracker L1
 
-**Seeed Studio** · Source collection
+**Seeed Studio** · nRF52840
 
 Revision: Unverified source identity
 
-Coverage: Source collection; review pending
+Coverage: Supporting references; complete physical pinout still needed
 
 [Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-7f5c6549cf76f5e412)
 
 Device category: **Radios & GNSS**
 
+Source identity and visual scope reviewed. Pin assignments and electrical limits are not independently bench-verified. Match the exact PCB revision, connector view and populated options. The L1 series overview contains several variants. A component overview or block diagram is not a complete GPIO map; match OLED, E-Ink, Lite and Pro hardware separately.
+
 ## Datasheets and original documentation
 
 Board datasheet: **not yet recorded**. Visual reference: **available**.
 
-[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/wio_tracker_l1_node/)
+[Original manufacturer / project documentation](https://wiki.seeedstudio.com/wio_tracker_l1_node/)
 
+- **hardware-guide / board**: [L1 series hardware overview and specifications](https://wiki.seeedstudio.com/wio_tracker_l1_node/) · online
 
-A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+Source identity and visual scope reviewed. Pin assignments and electrical limits are not independently bench-verified. Match the exact PCB revision, connector view and populated options. The L1 series overview contains several variants. A component overview or block diagram is not a complete GPIO map; match OLED, E-Ink, Lite and Pro hardware separately.
 
 [Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
 ## Block Diagram
 
-**source reference** · Unreviewed source · PNG
+**block diagram** · Series block diagram inspected; not a physical GPIO map · PNG
 
 [![Wio Tracker L1 reference preview](../../../../library/thumbs/c3adf319a52fe4e742036a29f7ea49d553e51335397a4778b4e15e107e9b9814.webp)](../../../../library/media/c3adf319a52fe4e742036a29f7ea49d553e51335397a4778b4e15e107e9b9814.png)
 
@@ -41,7 +44,7 @@ SHA-256: `c3adf319a52fe4e742036a29f7ea49d553e51335397a4778b4e15e107e9b9814`
 
 ## Hardware Overview (Enclosure)
 
-**source reference** · Unreviewed source · PNG
+**board labeling image** · Series component labels inspected; not a complete physical pinout · PNG
 
 [![Wio Tracker L1 reference preview](../../../../library/thumbs/cf10d864e2a0f3a6fdf74a2f0dd0957de5e61f2c305bd7e1934f65ea7b8ae04b.webp)](../../../../library/media/cf10d864e2a0f3a6fdf74a2f0dd0957de5e61f2c305bd7e1934f65ea7b8ae04b.png)
 
@@ -59,7 +62,7 @@ SHA-256: `cf10d864e2a0f3a6fdf74a2f0dd0957de5e61f2c305bd7e1934f65ea7b8ae04b`
 
 ## Hardware Overview
 
-**source reference** · Unreviewed source · PNG
+**board labeling image** · Series component labels inspected; not a complete physical pinout · PNG
 
 [![Wio Tracker L1 reference preview](../../../../library/thumbs/30cc5cadc20697333afdf18a2309b2acec11f7ea02bde40d05cb7fababe8edaf.webp)](../../../../library/media/30cc5cadc20697333afdf18a2309b2acec11f7ea02bde40d05cb7fababe8edaf.png)
 
