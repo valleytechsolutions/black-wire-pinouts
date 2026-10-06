@@ -1,0 +1,65 @@
+{
+  "recordId": "seeed-studio-expansion-rs485-expansion-board-for-xiao",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/88e71425a3ef079f2cdbe69f9db31e3df7f6fb237a570bd3d8264a027dfa2cd3.png",
+      "sha256": "88e71425a3ef079f2cdbe69f9db31e3df7f6fb237a570bd3d8264a027dfa2cd3"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-terminal",
+      "name": "Left screw terminal",
+      "image": "media/88e71425a3ef079f2cdbe69f9db31e3df7f6fb237a570bd3d8264a027dfa2cd3.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed and no USB connector visible; vertical terminal, so position 1 is the top.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "INT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "12V",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-terminal",
+      "name": "Right screw terminal",
+      "image": "media/88e71425a3ef079f2cdbe69f9db31e3df7f6fb237a570bd3d8264a027dfa2cd3.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed and no USB connector visible; vertical terminal, so position 1 is the top.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RS485_A",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "RS485_B",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Labels taken from the callouts with leader lines to each screw. Skipped: the two 7-pin XIAO socket rows and the adjacent 7-pad rows on each side (no labels in the image), the '5V OUT/IN SWITCH' and '120R SWITCH' slide switches, and mounting holes."
+}

@@ -1,0 +1,212 @@
+{
+  "recordId": "lilygo-esp32-t-panel-s3",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/caa6172de8bdac67e44c56b9241984df9722a828b1f01b3c7ea20432ae124d78.jpg",
+      "sha256": "caa6172de8bdac67e44c56b9241984df9722a828b1f01b3c7ea20432ae124d78"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "rs485-terminal",
+      "name": "RS485 screw terminal (top right)",
+      "image": "media/caa6172de8bdac67e44c56b9241984df9722a828b1f01b3c7ea20432ae124d78.jpg",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; vertical connector, started at the end closest to the USB-C connectors (bottom of image).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "S_GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "B",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "A",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "D_GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "h2-header",
+      "name": "ESP32-H2 2x8 pin header (lower left)",
+      "image": "media/caa6172de8bdac67e44c56b9241984df9722a828b1f01b3c7ea20432ae124d78.jpg",
+      "rows": 2,
+      "orderNote": "2x8 header without printed numbers: position 1 at the end closest to the USB-C connectors (bottom), outer row (left column, nearest the board edge) first, alternating outer/inner.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "IO25",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "IO02",
+          "functions": [
+            "IO2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "IO22",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "IO03",
+          "functions": [
+            "IO3"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "IO08",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "IO00",
+          "functions": [
+            "IO0"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "IO11",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "IO01",
+          "functions": [
+            "IO1"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "IO10",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "IO13",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "IO14",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "qwiic-uart",
+      "name": "QWIIC connector (RXD/TXD)",
+      "image": "media/caa6172de8bdac67e44c56b9241984df9722a828b1f01b3c7ea20432ae124d78.jpg",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; vertical connector, started at the end closest to the USB-C connectors (bottom of image).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO43",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "IO44",
+          "functions": [
+            "RXD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qwiic-i2c",
+      "name": "QWIIC connector (SCL/SDA)",
+      "image": "media/caa6172de8bdac67e44c56b9241984df9722a828b1f01b3c7ea20432ae124d78.jpg",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; vertical connector, started at the end closest to the USB-C connectors (bottom of image).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO17",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "IO16",
+          "functions": [
+            "SCL"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "H2 header labels from the ESP32-H2 PIN callout table (left column = left physical column, matching the board silkscreen IO13, IO1, IO0, IO3, IO2, IO25, GND, 3V3); right-column silkscreen is mostly hidden. QWIIC labels from the callouts RXD (IO44), TXD (IO43), SCL (IO16), SDA (IO17); board silkscreen beside the connectors reads RXD/TXD/3V3/GND and SCL/SDA/3V3/GND. RS485 terminal labels from the D_GND/A/B/S_GND callout. The 7~24V DC terminal has no per-terminal labels and is skipped; the small 2-pad SGND footprint near the top is skipped. Display RGB, XL9535 and TF card GPIO tables are not wiring points.",
+  "uncertain": [
+    "Board silkscreen near the QWIIC connectors reads SCL---1? (last digit blurred, possibly 18) and SDA---17, while the callout says SCL (IO16); the callout value was used.",
+    "RS485 terminal: the callout labels are printed beside the terminal (D_GND top to S_GND bottom) and the board silkscreen near it is mostly hidden; one label per terminal in order assumed."
+  ]
+}

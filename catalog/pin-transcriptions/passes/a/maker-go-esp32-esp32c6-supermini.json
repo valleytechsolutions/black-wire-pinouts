@@ -1,0 +1,325 @@
+{
+  "recordId": "maker-go-esp32-esp32c6-supermini",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/36cf3ab8d6c879cf736038aa3bc64068837bc9a1761ae329f05df6f57c6e7931.jpg",
+      "sha256": "36cf3ab8d6c879cf736038aa3bc64068837bc9a1761ae329f05df6f57c6e7931"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left edge pads",
+      "image": "media/36cf3ab8d6c879cf736038aa3bc64068837bc9a1761ae329f05df6f57c6e7931.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at top (end closest to the USB-C connector).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO16",
+          "functions": [
+            "TX",
+            "16",
+            "TXD 0",
+            "FSPICS0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO17",
+          "functions": [
+            "RX",
+            "17",
+            "RXD 0",
+            "FSPICS1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO0",
+          "functions": [
+            "0",
+            "ADC1_0",
+            "XTAL_32K_P",
+            "Low Pow",
+            "DTRN LP"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO1",
+          "functions": [
+            "1",
+            "ADC1_1",
+            "XTAL_32K_N",
+            "Low Pow",
+            "DSRN LP"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO2",
+          "functions": [
+            "2",
+            "ADC1_2",
+            "Low Pow",
+            "RTSN LP",
+            "FSPIQ"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO3",
+          "functions": [
+            "3",
+            "ADC1_3",
+            "Low Pow",
+            "CTSN LP"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO4",
+          "functions": [
+            "4",
+            "CS",
+            "FSPIHD",
+            "Low Pow",
+            "MTMS",
+            "RXD LP",
+            "ADC1_4",
+            "SDIO"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO5",
+          "functions": [
+            "5",
+            "MOSI",
+            "FSPIWP",
+            "Low Pow",
+            "MTDI",
+            "TXD LP",
+            "ADC1_5",
+            "SDIO"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO6",
+          "functions": [
+            "6",
+            "MISO",
+            "FSPICLK",
+            "Low Pow",
+            "MTCK",
+            "SDA 1",
+            "ADC1_6"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO7",
+          "functions": [
+            "7",
+            "SCK",
+            "FSPID",
+            "Low Pow",
+            "MTDO",
+            "SCL 1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right edge pads",
+      "image": "media/36cf3ab8d6c879cf736038aa3bc64068837bc9a1761ae329f05df6f57c6e7931.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at top (end closest to the USB-C connector).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5v",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3v3",
+          "functions": [
+            "3V3",
+            "Out"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO20",
+          "functions": [
+            "20",
+            "SDIO DATA0",
+            "FSPICS4",
+            "SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO19",
+          "functions": [
+            "19",
+            "SDIO CLK",
+            "FSPICS3",
+            "SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO18",
+          "functions": [
+            "18",
+            "SDIO CMD",
+            "FSPICS2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO15",
+          "functions": [
+            "15",
+            "JTAG",
+            "LED"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO14",
+          "functions": [
+            "14"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO9",
+          "functions": [
+            "9",
+            "BOOT"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO8",
+          "functions": [
+            "8",
+            "ROM",
+            "RGB LED",
+            "BOOT"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pad-23",
+      "name": "Inner pad 23 (left of chip)",
+      "image": "media/36cf3ab8d6c879cf736038aa3bc64068837bc9a1761ae329f05df6f57c6e7931.jpg",
+      "rows": 1,
+      "orderNote": "Single pad.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO23",
+          "functions": [
+            "23",
+            "SDIO DATA3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pads-21-22",
+      "name": "Inner pads 21 and 22 (below chip)",
+      "image": "media/36cf3ab8d6c879cf736038aa3bc64068837bc9a1761ae329f05df6f57c6e7931.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at the pad closest to the USB-C connector (21 sits higher than 22).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO21",
+          "functions": [
+            "21",
+            "SDIO DATA1",
+            "FSPICS5"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO22",
+          "functions": [
+            "22",
+            "SDIO DATA2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pads-12-13",
+      "name": "Inner pads 12 and 13 (right, near bottom)",
+      "image": "media/36cf3ab8d6c879cf736038aa3bc64068837bc9a1761ae329f05df6f57c6e7931.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical pair started at top (end closest to the USB-C connector).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO12",
+          "functions": [
+            "12",
+            "USB_D-"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO13",
+          "functions": [
+            "13",
+            "USB_D+"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "battery-pads",
+      "name": "Battery pads (back view)",
+      "image": "media/36cf3ab8d6c879cf736038aa3bc64068837bc9a1761ae329f05df6f57c6e7931.jpg",
+      "rows": 1,
+      "orderNote": "Back view; no pin numbers, both pads equally near the USB-C connector; horizontal row started at left as displayed.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "B+",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "B-",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "Letter O vs digit 0 cannot be told apart in the diagram font (GPIO0, ADC1_0, TXD 0, RXD 0, FSPICS0, SDIO DATA0); read as 0. MTDO read as letter O."
+  ],
+  "uncertain": [
+    "Grouping of the five inner pads (GPIO23, GPIO22, GPIO21, GPIO12, GPIO13): they are scattered through-holes, not a single row; split into pad-23, pads-21-22 and pads-12-13 by physical proximity. GPIO21/GPIO22 lie on a diagonal, so their order is a judgment."
+  ],
+  "notes": "Third-party (mischianti.org) pinout titled 'ESP32-C6 Super Mini (MakerGO)'; image shows front with callouts plus a back view. Board silkscreen (front) recorded first in functions when it differs, then the dark number box. Front silkscreen 'BAT' near the top right pad and '15' near the top left are beside LEDs/pads not in the header and were not used. Battery pads B+/B- are read from the back view's silkscreen. Skipped per rule 1: BOOT/RST buttons, USB-C, ceramic antenna (C3)."
+}

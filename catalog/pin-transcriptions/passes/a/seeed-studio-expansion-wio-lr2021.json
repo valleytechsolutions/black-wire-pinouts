@@ -1,0 +1,151 @@
+{
+  "recordId": "seeed-studio-expansion-wio-lr2021",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/63ac27467f9c9f8e9286f7a0056ee75f26892d92a0d06b02690aa3f763273215.jpg",
+      "sha256": "63ac27467f9c9f8e9286f7a0056ee75f26892d92a0d06b02690aa3f763273215"
+    },
+    {
+      "file": "media/c4d148a83fb5af5e86c9b15a1f8b5acfa53f206def1a10677b683c34dbe4d02b.png",
+      "sha256": "c4d148a83fb5af5e86c9b15a1f8b5acfa53f206def1a10677b683c34dbe4d02b"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "right-pads",
+      "name": "Right castellated pads (printed 1-11)",
+      "image": "media/63ac27467f9c9f8e9286f7a0056ee75f26892d92a0d06b02690aa3f763273215.jpg",
+      "rows": 1,
+      "orderNote": "Printed pad numbers followed: position n = printed pad n (1 at bottom right, 11 at top right)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VCC_IN",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "DIO5",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "NRST",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SPI_MISO",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "SPI_MOSI",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "SPI_SCK",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "SPI_NSS",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "BUSY",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "SUBG_RF",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-pads",
+      "name": "Left castellated pads (printed 12-22)",
+      "image": "media/63ac27467f9c9f8e9286f7a0056ee75f26892d92a0d06b02690aa3f763273215.jpg",
+      "rows": 1,
+      "orderNote": "Printed pad numbers followed: position n = printed pad n+11 (printed 12 at top left, 22 at bottom left)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "2.4G_RF",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "DIO11",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "DIO10",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "DIO9",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "DIO8",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "DIO6",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "DIO7",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Pads are printed with one continuous numbering 1-22 around the module; split into two connectors (one per physical side) per rule 2, so left-pads positions 1-11 correspond to printed pad numbers 12-22. A single 22-position connector would also match the printed numbering."
+  ],
+  "notes": "Image 1 is a photo of the Wio-LR2021 castellated module with labelled, numbered pads. Image 2 is a schematic symbol (WIO-LR2021) with pin numbers but no physical pad positions, so no connector is transcribed from it (rule 8); its names match image 1 except it prints NSS/SCK/MOSI/MISO/RESET instead of SPI_NSS/SPI_SCK/SPI_MOSI/SPI_MISO/NRST."
+}

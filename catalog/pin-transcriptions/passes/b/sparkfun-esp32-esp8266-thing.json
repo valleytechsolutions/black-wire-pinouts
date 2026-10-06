@@ -1,0 +1,184 @@
+{
+  "recordId": "sparkfun-esp32-esp8266-thing",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/c87c82260b0c688966669222b18380c6848be90114eb2075973643df96fbbec1.png",
+      "sha256": "c87c82260b0c688966669222b18380c6848be90114eb2075973643df96fbbec1"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/c87c82260b0c688966669222b18380c6848be90114eb2075973643df96fbbec1.png",
+      "rows": 1,
+      "orderNote": "No pin numbers or explicit pin-1 mark; position 1 at the top end, closest to the MicroB USB connector. Labels are the board silkscreen; functions are the callout boxes read outward from the pin (Name box only when it differs from the silkscreen).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": [
+            "3.3V"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "SDA",
+          "functions": [
+            "D2",
+            "SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "SCL",
+          "functions": [
+            "D14",
+            "SCL/SCLK"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "DTR",
+          "functions": [
+            "Auto-reset"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "TXO",
+          "functions": [
+            "D7",
+            "TX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "RXI",
+          "functions": [
+            "D8",
+            "RX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "3V3",
+          "functions": [
+            "Not Connected"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "NC",
+          "functions": [
+            "Not Connected"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/c87c82260b0c688966669222b18380c6848be90114eb2075973643df96fbbec1.png",
+      "rows": 1,
+      "orderNote": "No pin numbers or explicit pin-1 mark; position 1 at the top end, closest to the MicroB USB connector. Labels are the board silkscreen; functions are the callout boxes read outward from the pin (Name box only when it differs from the silkscreen).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VIN",
+          "functions": [
+            "Vin"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "5",
+          "functions": [
+            "D5",
+            "LED"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "0",
+          "functions": [
+            "D0",
+            "Used in reset"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "4",
+          "functions": [
+            "D4"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "13",
+          "functions": [
+            "D13",
+            "MOSI",
+            "SPID",
+            "MTCK"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "12",
+          "functions": [
+            "D12",
+            "MISO",
+            "SPIQ",
+            "MTDI"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "XPD",
+          "functions": [
+            "XPO",
+            "D16",
+            "Reset to deep sleep"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "ADC",
+          "functions": [
+            "A0",
+            "10-bit 1V"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "EN",
+          "functions": [
+            "Enable",
+            "Set to active High"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Name boxes read 'Vin' and 'XPO' where the silkscreen reads VIN and XPD; silkscreen used as label, Name-box text kept in functions. Descriptive callout text (Auto-reset, Used in reset, Reset to deep sleep, 10-bit 1V, Set to active High, Not Connected) kept as printed. Two unlabeled holes inboard of the left 3V3/NC pins, the JST LiPo and MicroB USB connectors, and the back-side inset (partial view of the same left header plus RST/DTR jumper pads) were not transcribed."
+}

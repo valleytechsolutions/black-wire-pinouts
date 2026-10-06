@@ -1,0 +1,121 @@
+{
+  "recordId": "lilygo-esp32-t-01c3",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/d17d8ff78f8813501e384c6209b05288bbc14d9397869945c50d6ca0a54e9dee.jpg",
+      "sha256": "d17d8ff78f8813501e384c6209b05288bbc14d9397869945c50d6ca0a54e9dee"
+    },
+    {
+      "file": "media/66b0e5b513e27f4e3c129801bf4c773caf5207f1985acd380e44093bac5f1583.jpg",
+      "sha256": "66b0e5b513e27f4e3c129801bf4c773caf5207f1985acd380e44093bac5f1583"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "bottom-header",
+      "name": "2x4 header (bottom of module)",
+      "image": "media/d17d8ff78f8813501e384c6209b05288bbc14d9397869945c50d6ca0a54e9dee.jpg",
+      "rows": 2,
+      "orderNote": "2xN without numbers; no USB; horizontal row starts at left; odd = outer (bottom, board-edge) row, even = inner (top) row",
+      "pins": [
+        {
+          "position": 1,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO8",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IO2",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "IO9",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "RX",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-header-img2",
+      "name": "2x4 header (bottom of module), Chinese-language image",
+      "image": "media/66b0e5b513e27f4e3c129801bf4c773caf5207f1985acd380e44093bac5f1583.jpg",
+      "rows": 2,
+      "orderNote": "2xN without numbers; no USB; horizontal row starts at left; odd = outer (bottom, board-edge) row, even = inner (top) row",
+      "pins": [
+        {
+          "position": 1,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO8",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IO2",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "IO9",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "RX",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Both images print the labels as two text lines below the 2x4 header (line 1: GND IO2 IO9 RX; line 2: TX IO8 RST 3V3) with no leader lines. I assumed line 1 = top/inner row and line 2 = bottom/outer row; the image does not state which row each line belongs to."
+  ],
+  "notes": "Skipped the external antenna (U.FL) base. Image 2 is the Chinese-language version of image 1 with the same pin labels."
+}

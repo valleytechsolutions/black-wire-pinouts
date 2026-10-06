@@ -1,0 +1,409 @@
+{
+  "recordId": "seeed-studio-other-seeeduino-stalker-v3-1",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/41cb97be4d96f01ab4667e93cf99c375c2aa94eca76f083193acf4628d5798d5.png",
+      "sha256": "41cb97be4d96f01ab4667e93cf99c375c2aa94eca76f083193acf4628d5798d5"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "power-header",
+      "name": "Left power header",
+      "image": "media/41cb97be4d96f01ab4667e93cf99c375c2aa94eca76f083193acf4628d5798d5.png",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector visible; vertical row started at the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IO_REF",
+          "functions": [
+            "IOREF"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3.3V",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": [
+            "VCC"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "NC",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "analog-header",
+      "name": "Left analog header",
+      "image": "media/41cb97be4d96f01ab4667e93cf99c375c2aa94eca76f083193acf4628d5798d5.png",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector visible; vertical row started at the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A0",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "A1",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "A2",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "A3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "A4",
+          "functions": [
+            "SDA",
+            "RTC_SDA"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "A5",
+          "functions": [
+            "SCL",
+            "RTC_SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digital-header-high",
+      "name": "Right upper digital header",
+      "image": "media/41cb97be4d96f01ab4667e93cf99c375c2aa94eca76f083193acf4628d5798d5.png",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector visible; vertical row started at the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SCL",
+          "functions": [
+            "RTC_SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "SDA",
+          "functions": [
+            "RTC_SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "AREF",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "D13",
+          "functions": [
+            "13",
+            "SD_SCK"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D12",
+          "functions": [
+            "12",
+            "SD_MISO"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "D11",
+          "functions": [
+            "11",
+            "SD_MOSI"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "D10",
+          "functions": [
+            "10",
+            "SD_CS"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "D9",
+          "functions": [
+            "9",
+            "VB_CTRL"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "D8",
+          "functions": [
+            "8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digital-header-low",
+      "name": "Right lower digital header",
+      "image": "media/41cb97be4d96f01ab4667e93cf99c375c2aa94eca76f083193acf4628d5798d5.png",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector visible; vertical row started at the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D7",
+          "functions": [
+            "7"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D6",
+          "functions": [
+            "6",
+            "BEE_RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "D5",
+          "functions": [
+            "5",
+            "BEE_TX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D4",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "D3",
+          "functions": [
+            "3",
+            "RTC_INT2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D2",
+          "functions": [
+            "2",
+            "RTC_INT1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "D1/TX",
+          "functions": [
+            "1",
+            "TX",
+            "BEE_RX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "D0/RX",
+          "functions": [
+            "0",
+            "RX",
+            "BEE_TX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grove-d7-d8",
+      "name": "Upper Grove connector (silkscreen GND VCC D8 D7)",
+      "image": "media/41cb97be4d96f01ab4667e93cf99c375c2aa94eca76f083193acf4628d5798d5.png",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector visible; horizontal row started at the left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "D8",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "D7",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-i2c",
+      "name": "Lower Grove connector (silkscreen GND VCC SDA SCL)",
+      "image": "media/41cb97be4d96f01ab4667e93cf99c375c2aa94eca76f083193acf4628d5798d5.png",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector visible; horizontal row started at the left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SCL",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "icsp",
+      "name": "2x3 ICSP pads",
+      "image": "media/41cb97be4d96f01ab4667e93cf99c375c2aa94eca76f083193acf4628d5798d5.png",
+      "rows": 2,
+      "orderNote": "No pin numbers and no USB connector visible; horizontal row started at the left; 2xN: position 1 = outer (bottom, GND MOSI 5V) row, alternating rows",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "MOSI",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SCK",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "MISO",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "ftdi-header",
+      "name": "Bottom 6-pin serial header",
+      "image": "media/41cb97be4d96f01ab4667e93cf99c375c2aa94eca76f083193acf4628d5798d5.png",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector visible; horizontal row started at the left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RXD",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "TXD",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "DTR",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Grove, ICSP and 6-pin serial connector labels come from small board silkscreen only (no callouts); the Grove label-to-pin mapping assumes each silkscreen word sits above the pin below it.",
+    "Board edge is rounded; the ICSP 2x3 'outer row' was taken as the bottom row (GND MOSI 5V), nearer the bottom edge."
+  ],
+  "notes": "Main header labels from the callout name boxes; silkscreen spellings first in functions, then callout functions read outward. 'FREE' boxes are a legend category and omitted. D2/D3 and D0/D1/D5/D6 alternate callouts (RTC INT / Bee serial, selectable by switch per the note) kept as printed. Bee socket rows (only '1' and '20' printed), solar/LiPo JSTs (+/- only), switches and buttons skipped."
+}

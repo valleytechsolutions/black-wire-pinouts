@@ -1,0 +1,128 @@
+{
+  "recordId": "adafruit-trinket-m0",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/0e8add2b6193525d7c6c1bf4f7a9c56bd44808a3028f09958f5b9b672d5dc33e.png",
+      "sha256": "0e8add2b6193525d7c6c1bf4f7a9c56bd44808a3028f09958f5b9b672d5dc33e"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left pins",
+      "image": "media/0e8add2b6193525d7c6c1bf4f7a9c56bd44808a3028f09958f5b9b672d5dc33e.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row starting at the top end, closest to the USB connector",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PA06",
+          "functions": [
+            "D4",
+            "4/A4",
+            "6",
+            "AIN6",
+            "Y4",
+            "S0.2",
+            "TCC1[0]"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA07",
+          "functions": [
+            "D3",
+            "3/A3",
+            "7",
+            "AIN7",
+            "Y5",
+            "S0.3",
+            "TCC1[1]",
+            "I2S/SD0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "RESET",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right pins",
+      "image": "media/0e8add2b6193525d7c6c1bf4f7a9c56bd44808a3028f09958f5b9b672d5dc33e.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row starting at the top end, closest to the USB connector",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "PA08",
+          "functions": [
+            "D0",
+            "0/A2",
+            "NMI",
+            "AIN16",
+            "S0.0",
+            "S2.0",
+            "TCC0[0]",
+            "TCC1[2]",
+            "I2S/SD1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA02",
+          "functions": [
+            "D1",
+            "1/A0",
+            "2",
+            "VOUT",
+            "AIN0",
+            "Y0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA09",
+          "functions": [
+            "D2",
+            "2/A1",
+            "9",
+            "AIN17",
+            "S0.1",
+            "S2.1",
+            "TCC0[1]",
+            "TCC1[3]",
+            "I2S/MCK0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "3.3V",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Labels use the GPIO names PAxx with the CircuitPython name and Arduino name first in functions. D13 (red LED, PA10) and the APA102 DotStar signals (APA102_MOSI PA00, APA102_SCK PA01) are internal and skipped. Board silkscreen beside the pads is small and only partly legible, so it was not used."
+}

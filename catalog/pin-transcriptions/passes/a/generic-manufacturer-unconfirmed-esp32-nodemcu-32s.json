@@ -1,0 +1,398 @@
+{
+  "recordId": "generic-manufacturer-unconfirmed-esp32-nodemcu-32s",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/0bf465ec6db60ed777a06a1d7fed8b0faeba302b2ae451eab3ddbf6008f30436.jpg",
+      "sha256": "0bf465ec6db60ed777a06a1d7fed8b0faeba302b2ae451eab3ddbf6008f30436"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/0bf465ec6db60ed777a06a1d7fed8b0faeba302b2ae451eab3ddbf6008f30436.jpg",
+      "rows": 1,
+      "orderNote": "Printed numbers are module/chip pin numbers, not header positions; started at end closest to micro-USB (bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5v",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GPIO11",
+          "functions": [
+            "30",
+            "RTS 1",
+            "HSPI_CMD",
+            "SD CMD",
+            "Flash CMD"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO10",
+          "functions": [
+            "29",
+            "TXD 1",
+            "HSPI_Data3",
+            "SD Data3",
+            "Flash D3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO09",
+          "functions": [
+            "28",
+            "RXD 1",
+            "HSPI_Data2",
+            "SD Data2",
+            "Flash D2"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO13",
+          "functions": [
+            "20",
+            "ADC2_4",
+            "HSPI_ID",
+            "Touch4",
+            "RTC GPIO14"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO12",
+          "functions": [
+            "18",
+            "ADC2_5",
+            "HSPI_Q",
+            "Touch5",
+            "RTC GPIO15"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO14",
+          "functions": [
+            "17",
+            "ADC2_6",
+            "HSPI_CLK",
+            "Touch6",
+            "RTC GPIO16"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO27",
+          "functions": [
+            "16",
+            "ADC2_7",
+            "Touch7",
+            "RTC GPIO17"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO26",
+          "functions": [
+            "15",
+            "ADC2_9",
+            "RTC GPIO7",
+            "DAC 2"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO25",
+          "functions": [
+            "14",
+            "ADC2_8",
+            "RTC GPIO6",
+            "DAC 1"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO33",
+          "functions": [
+            "13",
+            "ADC1_5",
+            "Touch8",
+            "Xtal32N",
+            "RTC GPIO8"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO32",
+          "functions": [
+            "12",
+            "ADC1_4",
+            "Touch9",
+            "Xtal32P",
+            "RTC GPIO9"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO35",
+          "functions": [
+            "11",
+            "ADC1_7",
+            "RTC GPIO5",
+            "Input only"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO34",
+          "functions": [
+            "10",
+            "ADC1_6",
+            "RTC GPIO4",
+            "Input only"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO39",
+          "functions": [
+            "8",
+            "ADC1_3",
+            "SensVN",
+            "RTC GPIO3",
+            "Input only"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO36",
+          "functions": [
+            "5",
+            "ADC1_0",
+            "SensVP",
+            "RTC GPIO0",
+            "Input only"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "3.3v",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/0bf465ec6db60ed777a06a1d7fed8b0faeba302b2ae451eab3ddbf6008f30436.jpg",
+      "rows": 1,
+      "orderNote": "Printed numbers are module/chip pin numbers, not header positions; started at end closest to micro-USB (bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO6",
+          "functions": [
+            "31",
+            "CTS 1",
+            "HSPI_CLK",
+            "SD CLK",
+            "Flash SCK"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO7",
+          "functions": [
+            "32",
+            "RTS 2",
+            "HSPI_Data0",
+            "SD Data0",
+            "Flash D0"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO8",
+          "functions": [
+            "33",
+            "CTS 2",
+            "HSPI_Data1",
+            "SD Data1",
+            "Flash D1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO15",
+          "functions": [
+            "21",
+            "ADC2_3",
+            "HSPI_CS0",
+            "Touch3",
+            "RTC GPIO13"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO2",
+          "functions": [
+            "22",
+            "ADC2_2",
+            "HSPI_WP0",
+            "Touch2",
+            "RTC GPIO12"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO0",
+          "functions": [
+            "23",
+            "ADC2_1",
+            "CLK1",
+            "Touch1",
+            "RTC GPIO11"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO4",
+          "functions": [
+            "24",
+            "ADC2_0",
+            "HSPI_HD",
+            "Touch0",
+            "RTC GPIO10"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO16",
+          "functions": [
+            "25",
+            "RXD 2"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO17",
+          "functions": [
+            "27",
+            "TXD 2"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO5",
+          "functions": [
+            "34",
+            "V_SPI_CS0",
+            "SS"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO18",
+          "functions": [
+            "35",
+            "V_SPI_CLK",
+            "SCK"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO19",
+          "functions": [
+            "38",
+            "V_SPI_Q",
+            "MISO",
+            "CTS 0"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO21",
+          "functions": [
+            "42",
+            "VSPI_HD",
+            "SDA"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO3",
+          "functions": [
+            "40",
+            "RXD 0",
+            "CLK2"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO1",
+          "functions": [
+            "41",
+            "TXD 0",
+            "CLK3"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO22",
+          "functions": [
+            "39",
+            "V_SPI_WP",
+            "SCL",
+            "RTS 0"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GPIO23",
+          "functions": [
+            "36",
+            "V_SPI_D",
+            "MOSI"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "O/0 ambiguity in the italic font for trailing zeros (GPIO0, HSPI_CS0, HSPI_WP0, V_SPI_CS0, RTS 0, CTS 0, RXD 0, TXD 0, ADC1_0, ADC2_0, RTC GPIO0, Flash D0, SD Data0); recorded as 0"
+  ],
+  "uncertain": [
+    "Dark number boxes next to each pin (5, 8, 10 ... 42) interpreted as ESP32 chip pin numbers rather than header positions and placed first in functions",
+    "Image is a third-party (mischianti.org) diagram of an 'ESP32 NODEMCU-32S ESP-32S Kit' photo; board identity follows the image title only",
+    "Left header label 'GPIO09' copied as printed (extra leading zero)"
+  ],
+  "notes": "PWM sine-wave icons omitted. Power labels copied as printed ('3.3v', '5v')."
+}

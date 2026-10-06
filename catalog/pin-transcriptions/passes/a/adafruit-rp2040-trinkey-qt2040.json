@@ -1,0 +1,57 @@
+{
+  "recordId": "adafruit-rp2040-trinkey-qt2040",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/0f098d6564c04fa421e1ee09565fa0635a9ceae3590fa1e4fb44b10fb4894a72.png",
+      "sha256": "0f098d6564c04fa421e1ee09565fa0635a9ceae3590fa1e4fb44b10fb4894a72"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "stemma-qt",
+      "name": "STEMMA QT / I2C connector",
+      "image": "media/0f098d6564c04fa421e1ee09565fa0635a9ceae3590fa1e4fb44b10fb4894a72.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical connector on edge opposite the USB plug (both ends equidistant), read from top (wire colors yellow, blue, red, black)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO17",
+          "functions": [
+            "SCL",
+            "CSn0",
+            "RX0",
+            "SCL0",
+            "PWM0B"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO16",
+          "functions": [
+            "SDA",
+            "RX0",
+            "TX0",
+            "SDA0",
+            "PWM0A"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Only wiring point shown is the STEMMA QT connector (silkscreen 'I2C'). USB-A plug, NEOPIXEL and BUTTON are not wiring points."
+}

@@ -1,0 +1,181 @@
+{
+  "recordId": "adafruit-qt-py-ch32v203",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/ea1c3b2f25cc906b21d41f0a25a3ab459ad425b6419ec27158bf0b352f82b888.png",
+      "sha256": "ea1c3b2f25cc906b21d41f0a25a3ab459ad425b6419ec27158bf0b352f82b888"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left castellated row",
+      "image": "media/ea1c3b2f25cc906b21d41f0a25a3ab459ad425b6419ec27158bf0b352f82b888.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PB1",
+          "functions": [
+            "A0",
+            "USART4_RX",
+            "ADC9"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PB0",
+          "functions": [
+            "A1",
+            "USART4_TX",
+            "ADC8"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA1",
+          "functions": [
+            "A2",
+            "USART2_RTS",
+            "ADC1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA0",
+          "functions": [
+            "A3",
+            "USART2_CTS",
+            "ADC0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PB7",
+          "functions": [
+            "SDA",
+            "I2C1_SDA"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PB6",
+          "functions": [
+            "SCL",
+            "I2C1_SCL"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PA2",
+          "functions": [
+            "TX",
+            "USART2_TX",
+            "ADC2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right castellated row",
+      "image": "media/ea1c3b2f25cc906b21d41f0a25a3ab459ad425b6419ec27158bf0b352f82b888.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "PA7",
+          "functions": [
+            "MOSI",
+            "SPI1_MOSI",
+            "ADC7"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PA6",
+          "functions": [
+            "MISO",
+            "SPI1_MISO",
+            "ADC6"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA5",
+          "functions": [
+            "SCK",
+            "SPI1_SCK",
+            "ADC5"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PA3",
+          "functions": [
+            "RX",
+            "USART2_RX",
+            "ADC3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stemma-qt",
+      "name": "STEMMA QT / I2C connector (bottom)",
+      "image": "media/ea1c3b2f25cc906b21d41f0a25a3ab459ad425b6419ec27158bf0b352f82b888.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; connector not adjacent to the USB connector; horizontal row (colored dots) read left to right (left rule)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PB7",
+          "functions": [
+            "SDA",
+            "I2C1_SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PB6",
+          "functions": [
+            "SCL",
+            "I2C1_SCL"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Label = GPIO name; gray 'Silkscreen Name' callout first in functions. NEOPIXEL (on-board LED) and BOOT (button) skipped. Tiny silkscreen on the board render not transcribed."
+}

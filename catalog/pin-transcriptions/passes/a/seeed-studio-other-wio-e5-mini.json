@@ -1,0 +1,219 @@
+{
+  "recordId": "seeed-studio-other-wio-e5-mini",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/a2c83f91661ada14c6aa0a1a194a3c4483f219efd46375667570ba46ad288a90.png",
+      "sha256": "a2c83f91661ada14c6aa0a1a194a3c4483f219efd46375667570ba46ad288a90"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "top-header",
+      "name": "Top header",
+      "image": "media/a2c83f91661ada14c6aa0a1a194a3c4483f219efd46375667570ba46ad288a90.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row started at left end (closest to USB-C on the left).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PA13",
+          "functions": [
+            "DIO",
+            "SWDIO"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA14",
+          "functions": [
+            "DLK",
+            "SWDLK"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "PA10",
+          "functions": [
+            "MOSI"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PB14",
+          "functions": [
+            "MISO"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PB9",
+          "functions": [
+            "NSS"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PB13",
+          "functions": [
+            "SCK"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PB10",
+          "functions": [
+            "D10"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "PA9",
+          "functions": [
+            "D9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-header",
+      "name": "Bottom header",
+      "image": "media/a2c83f91661ada14c6aa0a1a194a3c4483f219efd46375667570ba46ad288a90.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row started at left end (closest to USB-C on the left).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "PB15",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA15",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PB4",
+          "functions": [
+            "A4"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PB3",
+          "functions": [
+            "A3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PB7",
+          "functions": [
+            "RX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PB6",
+          "functions": [
+            "TX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PA0",
+          "functions": [
+            "D0"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PC0",
+          "functions": [
+            "RX1"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PC1",
+          "functions": [
+            "TX1"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PA3",
+          "functions": [
+            "RX2"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "PA2",
+          "functions": [
+            "TX2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "battery-pads",
+      "name": "V+/V- pads",
+      "image": "media/a2c83f91661ada14c6aa0a1a194a3c4483f219efd46375667570ba46ad288a90.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical pair started at top (end closer to USB-C).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "V+",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "V-",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "PA0, D0, PC0: zero vs letter O read as 0."
+  ],
+  "uncertain": [
+    "Board identity: image is titled 'LoRa-E5 mini Pinout' and shows a 'LoRa-E5-HF' module, while the record is 'Wio-E5 mini'.",
+    "battery-pads: small V+/V- pads at the left edge included as a labeled connector; they may be battery-only pads that should be skipped."
+  ],
+  "notes": "Label = port-pin name from outer gray box; silkscreen and function boxes in functions."
+}

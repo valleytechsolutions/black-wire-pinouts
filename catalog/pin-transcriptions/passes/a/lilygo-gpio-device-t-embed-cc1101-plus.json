@@ -1,0 +1,157 @@
+{
+  "recordId": "lilygo-gpio-device-t-embed-cc1101-plus",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/b6edaebd0b509849745111af8398c4b77db77dc5594b618f4e5fbdfd24822f60.jpg",
+      "sha256": "b6edaebd0b509849745111af8398c4b77db77dc5594b618f4e5fbdfd24822f60"
+    },
+    {
+      "file": "media/d1adcdb0cbd4b5b2a9f4b58de1162be271e961015bc618acb49199845ca21dba.jpg",
+      "sha256": "d1adcdb0cbd4b5b2a9f4b58de1162be271e961015bc618acb49199845ca21dba"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "qwiic-left",
+      "name": "Qwiic connector (left of the pair)",
+      "image": "media/b6edaebd0b509849745111af8398c4b77db77dc5594b618f4e5fbdfd24822f60.jpg",
+      "rows": 1,
+      "orderNote": "Pin numbers 1-4 printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "+3V3",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO08",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO18",
+          "functions": [
+            "SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qwiic-right",
+      "name": "Qwiic connector (right of the pair)",
+      "image": "media/b6edaebd0b509849745111af8398c4b77db77dc5594b618f4e5fbdfd24822f60.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; labels listed top-to-bottom, mapped to the horizontal connector from left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "TX",
+          "functions": [
+            "43"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "RX",
+          "functions": [
+            "44"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qwiic-left-img2",
+      "name": "Qwiic connector (left of the pair, 'Qwiic*2')",
+      "image": "media/d1adcdb0cbd4b5b2a9f4b58de1162be271e961015bc618acb49199845ca21dba.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; labels listed top-to-bottom, mapped to the horizontal connector from left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SDA",
+          "functions": [
+            "08"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "SCL",
+          "functions": [
+            "18"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qwiic-right-img2",
+      "name": "Qwiic connector (right of the pair, 'Qwiic*2')",
+      "image": "media/d1adcdb0cbd4b5b2a9f4b58de1162be271e961015bc618acb49199845ca21dba.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; labels listed top-to-bottom, mapped to the horizontal connector from left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "TX",
+          "functions": [
+            "43"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "RX",
+          "functions": [
+            "44"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Unnumbered Qwiic label lists (image 1 right connector; both connectors in image 2) are printed as vertical text lists beside horizontal connectors; mapping list order to physical pin order (left-to-right) is inferred."
+  ],
+  "notes": "Image 1 prints pin numbers 1-4 for one QWIIC connector, with 'ESP32-S3' beside the +3V3 |OUT pin. Printed forms 'TX--43', 'SDA--08' etc. split into name plus GPIO number. All other callouts (LoRa/CC1101, LCD, SD, IR, encoder, microphone, PN532, nRF24L01, speaker I2S, WS2812) are internal MCU signal assignments, not wiring points. Skipped SMA antenna connectors, TF card slot, Reset and IO06 key."
+}

@@ -1,0 +1,581 @@
+{
+  "recordId": "beagleboard-org-other-sbc-pocketbeagle",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/febc78052b97fc3fa4286b615d57d24b5293f690604ba326f3ec209566dcc89e.png",
+      "sha256": "febc78052b97fc3fa4286b615d57d24b5293f690604ba326f3ec209566dcc89e"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "P1",
+      "name": "P1 expansion header",
+      "image": "media/febc78052b97fc3fa4286b615d57d24b5293f690604ba326f3ec209566dcc89e.png",
+      "rows": 2,
+      "orderNote": "Pin numbers printed 1-36 (odd left column, even right column); positions follow printed numbers",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VIN",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "87",
+          "functions": [
+            "6",
+            "AIN 3.3V",
+            "9",
+            "PRU1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "109",
+          "functions": [
+            "V_EN",
+            "USB1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "89",
+          "functions": [
+            "11",
+            "PRU1"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "VBUS",
+          "functions": [
+            "USB1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "5",
+          "functions": [
+            "CS0",
+            "SPI0",
+            "TX",
+            "PRU"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "VIN",
+          "functions": [
+            "USB0",
+            "USB1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "2",
+          "functions": [
+            "CLK",
+            "SPI0",
+            "RX",
+            "UART2"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "DN",
+          "functions": [
+            "USB1"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "3",
+          "functions": [
+            "MISO",
+            "SPI0",
+            "TX",
+            "UART2"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "DP",
+          "functions": [
+            "USB1"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "4",
+          "functions": [
+            "MOSI",
+            "SPI0",
+            "RX",
+            "PRU"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "ID",
+          "functions": [
+            "USB1"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "REF-",
+          "functions": [
+            "AIN 1.8V"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "REF+",
+          "functions": [
+            "AIN 1.8V"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "0",
+          "functions": [
+            "AIN 1.8V"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "20",
+          "functions": [
+            "16(in)",
+            "PRU0"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "1",
+          "functions": [
+            "AIN 1.8V"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "2",
+          "functions": [
+            "AIN 1.8V"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "VOUT",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "3",
+          "functions": [
+            "AIN 1.8V"
+          ]
+        },
+        {
+          "position": 26,
+          "label": "12",
+          "functions": [
+            "SDA",
+            "I2C2",
+            "TX",
+            "CAN0"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "4",
+          "functions": [
+            "AIN 1.8V"
+          ]
+        },
+        {
+          "position": 28,
+          "label": "13",
+          "functions": [
+            "SCL",
+            "I2C2",
+            "RX",
+            "CAN0"
+          ]
+        },
+        {
+          "position": 29,
+          "label": "117",
+          "functions": [
+            "STRB",
+            "QEP0",
+            "7",
+            "PRU0"
+          ]
+        },
+        {
+          "position": 30,
+          "label": "43",
+          "functions": [
+            "TX",
+            "UART0",
+            "15",
+            "PRU1"
+          ]
+        },
+        {
+          "position": 31,
+          "label": "114",
+          "functions": [
+            "A",
+            "QEP0",
+            "4",
+            "PRU0"
+          ]
+        },
+        {
+          "position": 32,
+          "label": "42",
+          "functions": [
+            "RX",
+            "UART0",
+            "14",
+            "PRU1"
+          ]
+        },
+        {
+          "position": 33,
+          "label": "111",
+          "functions": [
+            "B",
+            "PWM0",
+            "1",
+            "PRU0"
+          ]
+        },
+        {
+          "position": 34,
+          "label": "26",
+          "functions": []
+        },
+        {
+          "position": 35,
+          "label": "88",
+          "functions": [
+            "10",
+            "PRU1"
+          ]
+        },
+        {
+          "position": 36,
+          "label": "110",
+          "functions": [
+            "A",
+            "PWM0",
+            "0",
+            "PRU0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "P2 expansion header",
+      "image": "media/febc78052b97fc3fa4286b615d57d24b5293f690604ba326f3ec209566dcc89e.png",
+      "rows": 2,
+      "orderNote": "Pin numbers printed 1-36 (odd left column, even right column); positions follow printed numbers",
+      "pins": [
+        {
+          "position": 1,
+          "label": "50",
+          "functions": [
+            "A",
+            "PWM1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "59",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "23",
+          "functions": [
+            "B",
+            "PWM2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "58",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "30",
+          "functions": [
+            "RX",
+            "UART4"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "57",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "31",
+          "functions": [
+            "TX",
+            "UART4"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "60",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "15",
+          "functions": [
+            "SCL",
+            "I2C1",
+            "RX",
+            "CAN1"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "52",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "14",
+          "functions": [
+            "SDA",
+            "I2C1",
+            "TX",
+            "CAN1"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "PWR BTN",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "VOUT",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "VIN",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "TEMP",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "65",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "47",
+          "functions": [
+            "STRB",
+            "QEP2",
+            "15i",
+            "PRU0"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "27",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "64",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "46",
+          "functions": [
+            "IDX",
+            "QEP2",
+            "14(in)",
+            "PRU0"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "44",
+          "functions": [
+            "A",
+            "QEP2",
+            "14(out)",
+            "PRU0"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "41",
+          "functions": [
+            "MOSI",
+            "SPI1",
+            "RX",
+            "CAN1"
+          ]
+        },
+        {
+          "position": 26,
+          "label": "NRST",
+          "functions": []
+        },
+        {
+          "position": 27,
+          "label": "40",
+          "functions": [
+            "MISO",
+            "SPI1",
+            "TX",
+            "CAN1"
+          ]
+        },
+        {
+          "position": 28,
+          "label": "116",
+          "functions": [
+            "IDX",
+            "QEP0",
+            "6",
+            "PRU0"
+          ]
+        },
+        {
+          "position": 29,
+          "label": "7",
+          "functions": [
+            "CLK",
+            "SPI1",
+            "eCAP",
+            "PRU"
+          ]
+        },
+        {
+          "position": 30,
+          "label": "113",
+          "functions": [
+            "3",
+            "PRU0"
+          ]
+        },
+        {
+          "position": 31,
+          "label": "19",
+          "functions": [
+            "CS1",
+            "SPI1",
+            "16(in)",
+            "PRU1"
+          ]
+        },
+        {
+          "position": 32,
+          "label": "112",
+          "functions": [
+            "2",
+            "PRU0"
+          ]
+        },
+        {
+          "position": 33,
+          "label": "45",
+          "functions": [
+            "B",
+            "QEP2",
+            "15(out)",
+            "PRU0"
+          ]
+        },
+        {
+          "position": 34,
+          "label": "115",
+          "functions": [
+            "B",
+            "QEP0",
+            "5",
+            "PRU0"
+          ]
+        },
+        {
+          "position": 35,
+          "label": "86",
+          "functions": [
+            "5",
+            "AIN 3.3V",
+            "8",
+            "PRU1"
+          ]
+        },
+        {
+          "position": 36,
+          "label": "7",
+          "functions": [
+            "AIN 1.8V"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Table-style pinout (Rev A2a). GPIO pins are printed only as bare GPIO numbers (e.g. 87) in GPIO-category cells; the number is used as label as printed. AIN pins likewise printed as channel numbers (0-7) under 'AIN 1.8V'/'AIN 3.3V'. Legend category words (GPIO, SYS, BAT) omitted; peripheral group names (SPI0, UART2, PRU0, USB1, AIN 1.8V...) kept as functions, read outward from the pin. Hatched (unavailable) cells skipped. Default-mode boxes not recorded."
+}

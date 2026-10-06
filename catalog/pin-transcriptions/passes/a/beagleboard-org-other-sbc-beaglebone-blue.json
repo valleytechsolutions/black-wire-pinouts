@@ -1,0 +1,385 @@
+{
+  "recordId": "beagleboard-org-other-sbc-beaglebone-blue",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/67bca5266bae5149fb208a247c8ce52a6db7b45a3ec5a1e8130cd82a7fa8998b.jpg",
+      "sha256": "67bca5266bae5149fb208a247c8ce52a6db7b45a3ec5a1e8130cd82a7fa8998b"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "i2c",
+      "name": "I2C connector",
+      "image": "media/67bca5266bae5149fb208a247c8ce52a6db7b45a3ec5a1e8130cd82a7fa8998b.jpg",
+      "rows": 1,
+      "orderNote": "Callout diagram row, no pin numbers; started at left of the row as displayed (callout drawings are detached from the board, USB rule not applicable)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "can",
+      "name": "CAN connector",
+      "image": "media/67bca5266bae5149fb208a247c8ce52a6db7b45a3ec5a1e8130cd82a7fa8998b.jpg",
+      "rows": 1,
+      "orderNote": "Callout diagram row, no pin numbers; started at left of the row as displayed (callout drawings are detached from the board, USB rule not applicable)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "CANL",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "CANH",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "power-out",
+      "name": "Power out connector",
+      "image": "media/67bca5266bae5149fb208a247c8ce52a6db7b45a3ec5a1e8130cd82a7fa8998b.jpg",
+      "rows": 1,
+      "orderNote": "Callout diagram row, no pin numbers; started at left of the row as displayed (callout drawings are detached from the board, USB rule not applicable)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "adc",
+      "name": "ADCs connector",
+      "image": "media/67bca5266bae5149fb208a247c8ce52a6db7b45a3ec5a1e8130cd82a7fa8998b.jpg",
+      "rows": 1,
+      "orderNote": "Callout diagram row, no pin numbers; started at left of the row as displayed (callout drawings are detached from the board, USB rule not applicable)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "AIN3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "AIN2",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "AIN1",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "AIN0",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "VDD_ADC",
+          "functions": [
+            "1V8"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "GP1",
+      "name": "GP1 connector",
+      "image": "media/67bca5266bae5149fb208a247c8ce52a6db7b45a3ec5a1e8130cd82a7fa8998b.jpg",
+      "rows": 1,
+      "orderNote": "Callout diagram row, no pin numbers; started at left of the row as displayed (callout drawings are detached from the board, USB rule not applicable)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "LED_GREEN",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "LED_RED",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO3_1",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO3_2",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "GP0",
+      "name": "GP0 connector",
+      "image": "media/67bca5266bae5149fb208a247c8ce52a6db7b45a3ec5a1e8130cd82a7fa8998b.jpg",
+      "rows": 1,
+      "orderNote": "Callout diagram row, no pin numbers; started at left of the row as displayed (callout drawings are detached from the board, USB rule not applicable)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO3_17",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GPIO3_20",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO1_17",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO1_25",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "uart-gps",
+      "name": "UART GPS connector",
+      "image": "media/67bca5266bae5149fb208a247c8ce52a6db7b45a3ec5a1e8130cd82a7fa8998b.jpg",
+      "rows": 1,
+      "orderNote": "Callout diagram row, no pin numbers; started at left of the row as displayed (callout drawings are detached from the board, USB rule not applicable)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RX",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "?",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "spi",
+      "name": "SPI 1.2 / SPI1.1 connectors (one callout)",
+      "image": "media/67bca5266bae5149fb208a247c8ce52a6db7b45a3ec5a1e8130cd82a7fa8998b.jpg",
+      "rows": 1,
+      "orderNote": "Callout diagram row, no pin numbers; started at left of the row as displayed (callout drawings are detached from the board, USB rule not applicable)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "Slave Select",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SCK",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "MISO",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "MOSI",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "uart",
+      "name": "UART1 / UART5 / UART0 connectors (one callout)",
+      "image": "media/67bca5266bae5149fb208a247c8ce52a6db7b45a3ec5a1e8130cd82a7fa8998b.jpg",
+      "rows": 1,
+      "orderNote": "Callout diagram row, no pin numbers; started at left of the row as displayed (callout drawings are detached from the board, USB rule not applicable)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "RX",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "uart-dsm",
+      "name": "UART DSM connector",
+      "image": "media/67bca5266bae5149fb208a247c8ce52a6db7b45a3ec5a1e8130cd82a7fa8998b.jpg",
+      "rows": 1,
+      "orderNote": "Callout diagram row, no pin numbers; started at left of the row as displayed (callout drawings are detached from the board, USB rule not applicable)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RX",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "encoder",
+      "name": "4 Quadrature encoder inputs (one callout)",
+      "image": "media/67bca5266bae5149fb208a247c8ce52a6db7b45a3ec5a1e8130cd82a7fa8998b.jpg",
+      "rows": 1,
+      "orderNote": "Callout diagram column, no pin numbers; started at top as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "Signal A",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "Signal B",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "uart-gps position 6: circle drawn with no label (unlabeled)",
+    "adc position 4: AIN0 final character O/0 indistinguishable in font; recorded as 0"
+  ],
+  "notes": "Image is a photo with JST connector callout diagrams. Each callout is recorded once even where it stands for several identical connectors (SPI 1.2/SPI1.1, UART1/UART5/UART0, 4 quadrature encoder inputs). 8 servo outputs and DC motor connectors have no per-pin labels and are skipped. 'VDD_ADC (1V8)' note recorded as function 1V8."
+}

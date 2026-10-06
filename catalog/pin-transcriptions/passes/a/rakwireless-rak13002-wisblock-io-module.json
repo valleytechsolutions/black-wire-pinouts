@@ -1,0 +1,236 @@
+{
+  "recordId": "rakwireless-rak13002-wisblock-io-module",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/761224d782ec1a38515c1171d67336571973e42e9e8d3163a0cb2fbe8b90e89c.png",
+      "sha256": "761224d782ec1a38515c1171d67336571973e42e9e8d3163a0cb2fbe8b90e89c"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "wisblock-connector",
+      "name": "40-pin connector table (pins 1-40)",
+      "image": "media/761224d782ec1a38515c1171d67336571973e42e9e8d3163a0cb2fbe8b90e89c.png",
+      "rows": 2,
+      "orderNote": "Pin numbers printed in the table (odd numbers right column, even left column); followed them",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3v3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "3v3_S",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "SW1",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "TXD0",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "RXD0",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "LED1",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "LED2",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "3v3",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "3v3",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "SDA1",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "SCL1",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "AIN0",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "AIN1",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "IO7",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "SPI_CS",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "SPI_CLK",
+          "functions": []
+        },
+        {
+          "position": 27,
+          "label": "SPI_MISO",
+          "functions": []
+        },
+        {
+          "position": 28,
+          "label": "SPI_MOSI",
+          "functions": []
+        },
+        {
+          "position": 29,
+          "label": "IO1",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 31,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 32,
+          "label": "IO4",
+          "functions": []
+        },
+        {
+          "position": 33,
+          "label": "TXD1",
+          "functions": []
+        },
+        {
+          "position": 34,
+          "label": "RXD1",
+          "functions": []
+        },
+        {
+          "position": 35,
+          "label": "SDA2",
+          "functions": []
+        },
+        {
+          "position": 36,
+          "label": "SCL2",
+          "functions": []
+        },
+        {
+          "position": 37,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 38,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 39,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 40,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "Pin 31: label starts 'IO' but the digit is too blurred to read (low-resolution image)",
+    "Pin 37: label starts 'IO' but the digit is too blurred to read",
+    "Pin 38: label starts 'IO' but the digit is too blurred to read",
+    "O vs 0 in 'TXD0'/'RXD0' cannot be told apart; 0 used"
+  ],
+  "uncertain": [
+    "Image is very low resolution (253x158); all labels read from blurred text. Digits in IO7 (pin 24), IO1 (pin 29), IO4 (pin 32) and suffixes 1/2 on SCL/SDA/AIN/LED are best readings.",
+    "Case/spelling of '3v3' and '3v3_S' (pins 5,6,17,18) uncertain; lowercase v appears printed. 'LED1'/'LED2' may be printed with a space ('LED 1').",
+    "Connector is shown only as a pin-number table, not as a physical footprint; it presumably maps to the 40-pin board-to-board connector visible at top of the board, but the image does not tie table to physical connector explicitly.",
+    "Board image shows a 4x8 grid of through-holes (one square pad per row) that are unlabeled; not transcribed."
+  ],
+  "notes": "Single image: board render plus 40-pin connector table."
+}

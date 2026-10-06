@@ -1,0 +1,315 @@
+{
+ "recordId": "waveshare-rp2350-rp2350-touch-lcd-2-1",
+ "pass": "a",
+ "date": "2026-10-05",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/2aad695a4fd04f4f58fb667662c48714e7f6cfada4dce7553cf15bba514a66af.jpg",
+   "sha256": "2aad695a4fd04f4f58fb667662c48714e7f6cfada4dce7553cf15bba514a66af"
+  },
+  {
+   "file": "media/ac2851ec5cf09da5a9f5f41ece8a85300f6692c9c6d289d5134d1143a236ba05.jpg",
+   "sha256": "ac2851ec5cf09da5a9f5f41ece8a85300f6692c9c6d289d5134d1143a236ba05"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "I2C",
+   "name": "I2C",
+   "rows": 1,
+   "orderNote": "USB at bottom; physical bottom-to-top order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GPIO6",
+     "functions": [
+      "SDA",
+      "SDA(GPIO6)"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GPIO7",
+     "functions": [
+      "SCL",
+      "SCL(GPIO7)"
+     ]
+    }
+   ],
+   "image": "media/2aad695a4fd04f4f58fb667662c48714e7f6cfada4dce7553cf15bba514a66af.jpg"
+  },
+  {
+   "id": "UART",
+   "name": "UART",
+   "rows": 1,
+   "orderNote": "USB at bottom; physical bottom-to-top order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GPIO42",
+     "functions": [
+      "TXD",
+      "TXD0(GPIO42)"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GPIO43",
+     "functions": [
+      "RXD",
+      "RXD0(GPIO43)"
+     ]
+    }
+   ],
+   "image": "media/2aad695a4fd04f4f58fb667662c48714e7f6cfada4dce7553cf15bba514a66af.jpg"
+  },
+  {
+   "id": "expansion-port",
+   "name": "expansion-port",
+   "rows": 1,
+   "orderNote": "No USB shown; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GPIO46",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GPIO45",
+     "functions": [
+      "RXD1(GPIO45)"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GPIO44",
+     "functions": [
+      "TXD1(GPIO44)"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GPIO6",
+     "functions": [
+      "SDA(GPIO6)"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GPIO7",
+     "functions": [
+      "SCL(GPIO7)"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "GPIO8",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "GPIO9",
+     "functions": []
+    },
+    {
+     "position": 11,
+     "label": "VBus(5V)",
+     "functions": []
+    },
+    {
+     "position": 12,
+     "label": "GND",
+     "functions": []
+    }
+   ],
+   "image": "media/2aad695a4fd04f4f58fb667662c48714e7f6cfada4dce7553cf15bba514a66af.jpg"
+  },
+  {
+   "id": "I2C-img2",
+   "name": "I2C",
+   "rows": 1,
+   "orderNote": "USB at bottom; physical bottom-to-top order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GPIO6",
+     "functions": [
+      "SDA",
+      "SDA(GPIO6)"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GPIO7",
+     "functions": [
+      "SCL",
+      "SCL(GPIO7)"
+     ]
+    }
+   ],
+   "image": "media/ac2851ec5cf09da5a9f5f41ece8a85300f6692c9c6d289d5134d1143a236ba05.jpg"
+  },
+  {
+   "id": "UART-img2",
+   "name": "UART",
+   "rows": 1,
+   "orderNote": "USB at bottom; physical bottom-to-top order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GPIO42",
+     "functions": [
+      "TXD",
+      "TXD0(GPIO42)"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GPIO43",
+     "functions": [
+      "RXD",
+      "RXD0(GPIO43)"
+     ]
+    }
+   ],
+   "image": "media/ac2851ec5cf09da5a9f5f41ece8a85300f6692c9c6d289d5134d1143a236ba05.jpg"
+  },
+  {
+   "id": "expansion-port-img2",
+   "name": "expansion-port",
+   "rows": 1,
+   "orderNote": "No USB shown; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GPIO46",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GPIO45",
+     "functions": [
+      "RXD1(GPIO45)"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GPIO44",
+     "functions": [
+      "TXD1(GPIO44)"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GPIO6",
+     "functions": [
+      "SDA(GPIO6)"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GPIO7",
+     "functions": [
+      "SCL(GPIO7)"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "GPIO8",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "GPIO9",
+     "functions": []
+    },
+    {
+     "position": 11,
+     "label": "VBus(5V)",
+     "functions": []
+    },
+    {
+     "position": 12,
+     "label": "GND",
+     "functions": []
+    }
+   ],
+   "image": "media/ac2851ec5cf09da5a9f5f41ece8a85300f6692c9c6d289d5134d1143a236ba05.jpg"
+  }
+ ],
+ "notes": "Upper crop shows USB below the I2C/UART ports. Lower expansion crop shows no USB: top-to-bottom rule used there. Two artwork encodings inspected; battery and unlabeled LCD ribbon excluded.",
+ "unreadable": [],
+ "uncertain": []
+}

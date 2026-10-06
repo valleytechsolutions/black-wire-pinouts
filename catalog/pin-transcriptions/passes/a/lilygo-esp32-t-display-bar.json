@@ -1,0 +1,167 @@
+{
+  "recordId": "lilygo-esp32-t-display-bar",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/c396cb512b4a786b250c27c29238a9b58714dcd6fc0f9a45b53b8f8e35c90f88.jpg",
+      "sha256": "c396cb512b4a786b250c27c29238a9b58714dcd6fc0f9a45b53b8f8e35c90f88"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "bottom-header",
+      "name": "Bottom edge header (13 pads)",
+      "image": "media/c396cb512b4a786b250c27c29238a9b58714dcd6fc0f9a45b53b8f8e35c90f88.jpg",
+      "rows": 1,
+      "orderNote": "No printed position numbers; horizontal row, started at the end closest to the USB-C connector (left). Square right-end pad not treated as a pin-1 mark (rule 9).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RX",
+          "functions": [
+            "RXD"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "TX",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "IO5",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "IO42",
+          "functions": [
+            "42"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "IO41",
+          "functions": [
+            "41"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "IO16",
+          "functions": [
+            "16"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "IO39",
+          "functions": [
+            "39"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "IO46",
+          "functions": [
+            "46"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "IO45",
+          "functions": [
+            "45"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qwiic-top",
+      "name": "QWIIC connector (top-left, GND/3V3/TX/RX)",
+      "image": "media/c396cb512b4a786b250c27c29238a9b58714dcd6fc0f9a45b53b8f8e35c90f88.jpg",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; horizontal row, started at the end closest to the USB-C connector (left end).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RX",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "qwiic-bottom",
+      "name": "QWIIC connector (bottom-left, SCL/SDA/3V3/GND)",
+      "image": "media/c396cb512b4a786b250c27c29238a9b58714dcd6fc0f9a45b53b8f8e35c90f88.jpg",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; horizontal row, started at the end closest to the USB-C connector (left end).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Bottom header: diagram labels printed below the pads (RX TX 3V3 GND SCL SDA IO5 42 41 16 39 46 45) plus board silkscreen (RXD TXD 3V3 GND SCL SDA IO5 IO42 IO41 IO16 IO39 IO46 IO45); GPIO names from the silkscreen used as labels per rule 5, other spellings in functions. Top QWIIC labels match the board silkscreen beside it. The 3-wire cable connector near the TF card and the buzzer have no per-pin labels and are skipped. Peripheral GPIO tables (display, touch, sensor, TF card) are not external wiring points.",
+  "uncertain": [
+    "QWIIC connector label rows are printed above/below the connectors in the diagram; one label per contact in left-to-right order assumed (for the bottom QWIIC there is no board silkscreen to confirm)."
+  ]
+}

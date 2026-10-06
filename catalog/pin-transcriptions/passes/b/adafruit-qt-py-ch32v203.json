@@ -1,0 +1,186 @@
+{
+  "recordId": "adafruit-qt-py-ch32v203",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/ea1c3b2f25cc906b21d41f0a25a3ab459ad425b6419ec27158bf0b352f82b888.png",
+      "sha256": "ea1c3b2f25cc906b21d41f0a25a3ab459ad425b6419ec27158bf0b352f82b888"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left castellated pads",
+      "image": "media/ea1c3b2f25cc906b21d41f0a25a3ab459ad425b6419ec27158bf0b352f82b888.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PB1",
+          "functions": [
+            "A0",
+            "USART4_RX",
+            "ADC9"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PB0",
+          "functions": [
+            "A1",
+            "USART4_TX",
+            "ADC8"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA1",
+          "functions": [
+            "A2",
+            "USART2_RTS",
+            "ADC1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA0",
+          "functions": [
+            "A3",
+            "USART2_CTS",
+            "ADC0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PB7",
+          "functions": [
+            "SDA",
+            "I2C1_SDA"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PB6",
+          "functions": [
+            "SCL",
+            "I2C1_SCL"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PA2",
+          "functions": [
+            "T",
+            "TX",
+            "USART2_TX",
+            "ADC2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right castellated pads",
+      "image": "media/ea1c3b2f25cc906b21d41f0a25a3ab459ad425b6419ec27158bf0b352f82b888.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": [
+            "3V"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA7",
+          "functions": [
+            "MO",
+            "MOSI",
+            "SPI1_MOSI",
+            "ADC7"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PA6",
+          "functions": [
+            "MI",
+            "MISO",
+            "SPI1_MISO",
+            "ADC6"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA5",
+          "functions": [
+            "SCK",
+            "SPI1_SCK",
+            "ADC5"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PA3",
+          "functions": [
+            "RX",
+            "USART2_RX",
+            "ADC3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stemma-qt",
+      "name": "Bottom JST (STEMMA QT) connector",
+      "image": "media/ea1c3b2f25cc906b21d41f0a25a3ab459ad425b6419ec27158bf0b352f82b888.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row with USB connector at the opposite edge (neither end closer), started at left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PB7",
+          "functions": [
+            "SDA",
+            "I2C1_SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PB6",
+          "functions": [
+            "SCL",
+            "I2C1_SCL"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Board silkscreen spellings that differ from the name boxes (T, 3V, MO, MI) put first in functions. NEOPIXEL (PA4) and BOOT button (PB8) have no physical wiring position; RST silkscreen belongs to the reset button; skipped."
+}

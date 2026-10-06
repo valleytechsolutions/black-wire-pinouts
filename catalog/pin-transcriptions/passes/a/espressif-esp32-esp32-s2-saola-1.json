@@ -1,0 +1,394 @@
+{
+  "recordId": "espressif-esp32-esp32-s2-saola-1",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/255e97bc0a76b1e5a1ff8b1d7751ac7bdaab6259504f988e76cbda31406b7a58.jpg",
+      "sha256": "255e97bc0a76b1e5a1ff8b1d7751ac7bdaab6259504f988e76cbda31406b7a58"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/255e97bc0a76b1e5a1ff8b1d7751ac7bdaab6259504f988e76cbda31406b7a58.jpg",
+      "rows": 1,
+      "orderNote": "Pin numbers 1-21 printed beside each pad (top to bottom); followed them",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GPIO0",
+          "functions": [
+            "BOOT",
+            "OD/IE/WPU"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO1",
+          "functions": [
+            "ADC1_0",
+            "TOUCH1",
+            "OD/IE"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO2",
+          "functions": [
+            "ADC1_1",
+            "TOUCH2",
+            "OD/IE"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO3",
+          "functions": [
+            "ADC1_2",
+            "TOUCH3",
+            "OD/ID"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO4",
+          "functions": [
+            "ADC1_3",
+            "TOUCH4",
+            "OD/ID"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO5",
+          "functions": [
+            "ADC1_4",
+            "TOUCH5",
+            "OD/ID"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO6",
+          "functions": [
+            "ADC1_5",
+            "TOUCH6",
+            "OD/ID"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO7",
+          "functions": [
+            "ADC1_6",
+            "TOUCH7",
+            "OD/ID"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO8",
+          "functions": [
+            "ADC1_7",
+            "TOUCH8",
+            "SDA",
+            "OD/ID"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO9",
+          "functions": [
+            "ADC1_8",
+            "TOUCH9",
+            "SCL",
+            "OD/IE"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO10",
+          "functions": [
+            "ADC1_9",
+            "TOUCH10",
+            "FSPI_CS",
+            "OD/IE"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO11",
+          "functions": [
+            "ADC2_0",
+            "TOUCH11",
+            "FSPI_MOSI",
+            "OD/IE"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO12",
+          "functions": [
+            "ADC2_1",
+            "TOUCH12",
+            "FSPI_CLK",
+            "OD/IE"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO13",
+          "functions": [
+            "ADC2_2",
+            "TOUCH13",
+            "FSPI_MISO",
+            "OD/IE"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO14",
+          "functions": [
+            "ADC2_3",
+            "TOUCH14",
+            "FSPI_WP",
+            "OD/IE"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO15",
+          "functions": [
+            "ADC2_4",
+            "U0RTS",
+            "32K_P",
+            "OD/ID"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GPIO16",
+          "functions": [
+            "ADC2_5",
+            "U0CTS",
+            "32K_N",
+            "OD/ID"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GPIO17",
+          "functions": [
+            "ADC2_6",
+            "U1TXD",
+            "DAC_1",
+            "OD/IE"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "5V0",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/255e97bc0a76b1e5a1ff8b1d7751ac7bdaab6259504f988e76cbda31406b7a58.jpg",
+      "rows": 1,
+      "orderNote": "Pin numbers 1-21 printed beside each pad (top to bottom); followed them",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "RST",
+          "functions": [
+            "RESET"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO46",
+          "functions": [
+            "LOG",
+            "OD/IE/WPD"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO45",
+          "functions": [
+            "VSPI",
+            "IE/WPD"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO44",
+          "functions": [
+            "U0RXD",
+            "SERIAL_RX",
+            "IE/WPU"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO43",
+          "functions": [
+            "U0TXD",
+            "SERIAL_TX",
+            "OE/IE/WPU"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO42",
+          "functions": [
+            "MTMS",
+            "OD/IE"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO41",
+          "functions": [
+            "MTDI",
+            "OD/IE"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO40",
+          "functions": [
+            "MTDO",
+            "OD/IE"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO39",
+          "functions": [
+            "MTCK",
+            "OD/IE"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO38",
+          "functions": [
+            "FSPI_WP",
+            "OD/IE"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO37",
+          "functions": [
+            "FSPI_MISO",
+            "OD/IE"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO36",
+          "functions": [
+            "FSPI_CLK",
+            "OD/IE"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO35",
+          "functions": [
+            "FSPI_MOSI",
+            "OD/IE"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO34",
+          "functions": [
+            "FSPI_CS0",
+            "OD/IE"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO33",
+          "functions": [
+            "FSPI_HD",
+            "OD/IE"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO26",
+          "functions": [
+            "PSRAM",
+            "SPICS1",
+            "OD/IE/WPU"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GPIO21",
+          "functions": [
+            "OD/ID"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GPIO20",
+          "functions": [
+            "ADC2_9",
+            "USB_D+",
+            "U1CTS",
+            "OD/ID"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO19",
+          "functions": [
+            "ADC2_8",
+            "USB_D-",
+            "U1RTS",
+            "OD/ID"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "GPIO18",
+          "functions": [
+            "ADC2_7",
+            "DAC_2",
+            "U1RXD",
+            "RGB_LED",
+            "OD/IE"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "No PCB silkscreen names shown. GPIO-state notes kept. 'RTC' category boxes, PWM/input-only symbols and the red '!' flash/PSRAM-shared marker on GPIO26 omitted. Module drawn as ESP32-S2-WROVER."
+}

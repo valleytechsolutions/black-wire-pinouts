@@ -1,0 +1,190 @@
+{
+  "recordId": "generic-manufacturer-unconfirmed-esp32-esp32-cam",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/057bef4b7fe75b336f9708947df6873e27e141610329eb915cb30299df73fc21.jpg",
+      "sha256": "057bef4b7fe75b336f9708947df6873e27e141610329eb915cb30299df73fc21"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/057bef4b7fe75b336f9708947df6873e27e141610329eb915cb30299df73fc21.jpg",
+      "rows": 1,
+      "orderNote": "No USB connector; started at top (rule 4 top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5v",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO12",
+          "functions": [
+            "IO12",
+            "18",
+            "ADC2_5",
+            "HSPI_Q",
+            "Touch5",
+            "RTC GPIO15"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO13",
+          "functions": [
+            "IO13",
+            "20",
+            "ADC2_4",
+            "HSPI_ID",
+            "Touch4",
+            "RTC GPIO14"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO15",
+          "functions": [
+            "IO15",
+            "21",
+            "ADC2_3",
+            "HSPI_CS0",
+            "Touch3",
+            "RTC GPIO13"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO14",
+          "functions": [
+            "IO14",
+            "17",
+            "ADC2_6",
+            "HSPI_CLK",
+            "Touch6",
+            "RTC GPIO16"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO2",
+          "functions": [
+            "IO2",
+            "22",
+            "ADC2_2",
+            "HSPI_WP0",
+            "Touch2",
+            "CS",
+            "RTC GPIO12"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO4",
+          "functions": [
+            "IO4",
+            "24",
+            "ADC2_0",
+            "HSPI_HD",
+            "Touch0",
+            "RTC GPIO10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/057bef4b7fe75b336f9708947df6873e27e141610329eb915cb30299df73fc21.jpg",
+      "rows": 1,
+      "orderNote": "No USB connector; started at top (rule 4 top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3.3v",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO16",
+          "functions": [
+            "IO16",
+            "25",
+            "RXD 2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO0",
+          "functions": [
+            "IO0",
+            "23",
+            "ADC2_1",
+            "CLK1",
+            "Touch1",
+            "RTC GPIO11"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "VCC OUT",
+          "functions": [
+            "VCC"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO3",
+          "functions": [
+            "U0R",
+            "40",
+            "RXD 0",
+            "CLK2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO1",
+          "functions": [
+            "U0T",
+            "41",
+            "TXD 0",
+            "CLK3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "O/0 ambiguity in GPIO0, IO0, U0R/U0T (silkscreen), HSPI_CS0, HSPI_WP0, ADC2_0, Touch0, RXD 0, TXD 0; recorded as 0"
+  ],
+  "uncertain": [
+    "Dark number boxes (18, 20, 21 ... 41) interpreted as ESP32 chip pin numbers, placed after silkscreen name in functions",
+    "Third-party mischianti.org diagram titled 'ESP32 CAMERA'; board silkscreen reads ESP32-CAM"
+  ],
+  "notes": "Silkscreen names (IO12, U0R...) put first in functions. OV2640 and MicroSD tables are internal assignments. PWM wave icons omitted. Power labels copied as printed ('5v', '3.3v', 'VCC OUT')."
+}

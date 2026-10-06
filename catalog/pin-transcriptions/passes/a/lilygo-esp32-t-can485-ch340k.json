@@ -1,0 +1,262 @@
+{
+  "recordId": "lilygo-esp32-t-can485-ch340k",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/5c7dd82b43eccf90ea07af9032c2ae620c1643c5103b983f211d03293b024417.jpg",
+      "sha256": "5c7dd82b43eccf90ea07af9032c2ae620c1643c5103b983f211d03293b024417"
+    },
+    {
+      "file": "media/1b04f43c0058ec3050bb16a4fede8305b744f55ecf6aaeffe2a12cb6d7e909ed.jpg",
+      "sha256": "1b04f43c0058ec3050bb16a4fede8305b744f55ecf6aaeffe2a12cb6d7e909ed"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "can-terminal",
+      "name": "CAN 3-position screw terminal (top view, upper left)",
+      "image": "media/5c7dd82b43eccf90ea07af9032c2ae620c1643c5103b983f211d03293b024417.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical terminal, starts at top end (nearest the USB Type-C side of the board)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "CAN_A",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "CAN_B",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "rs485-terminal",
+      "name": "RS-485 3-position screw terminal (top view, lower left)",
+      "image": "media/5c7dd82b43eccf90ea07af9032c2ae620c1643c5103b983f211d03293b024417.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical terminal, starts at top end (nearest the USB Type-C side of the board)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RS_A",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RS_B",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "gpio-header",
+      "name": "2x6 header (labels from bottom view)",
+      "image": "media/5c7dd82b43eccf90ea07af9032c2ae620c1643c5103b983f211d03293b024417.jpg",
+      "rows": 2,
+      "orderNote": "2xN without numbers; bottom view shows USB at the top, so start at top; odd = outer (left) column, even = inner (right) column",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IO25",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO32",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IO33",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "IO05",
+          "functions": [
+            "IO5"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "IO12",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "IO34",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "IO35",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "IO18",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "VDD",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "VDD",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "can-terminal-img2",
+      "name": "CAN 3-position screw terminal (top view, upper left)",
+      "image": "media/1b04f43c0058ec3050bb16a4fede8305b744f55ecf6aaeffe2a12cb6d7e909ed.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical terminal, starts at top end (nearest the USB Type-C side of the board)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "CAN_A",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "CAN_B",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "rs485-terminal-img2",
+      "name": "RS-485 3-position screw terminal (top view, lower left)",
+      "image": "media/1b04f43c0058ec3050bb16a4fede8305b744f55ecf6aaeffe2a12cb6d7e909ed.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical terminal, starts at top end (nearest the USB Type-C side of the board)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RS_A",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RS_B",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "gpio-header-img2",
+      "name": "2x6 header (labels from bottom view)",
+      "image": "media/1b04f43c0058ec3050bb16a4fede8305b744f55ecf6aaeffe2a12cb6d7e909ed.jpg",
+      "rows": 2,
+      "orderNote": "2xN without numbers; bottom view shows USB at the top, so start at top; odd = outer (left) column, even = inner (right) column",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IO25",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO32",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IO33",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "IO05",
+          "functions": [
+            "IO5"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "IO12",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "IO34",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "IO35",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "IO18",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "VDD",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "VDD",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Screw-terminal labels come only from tiny horizontal silkscreen next to each vertical terminal ('CAN_A GND CAN_B', 'RS_A GND RS_B'); mapping left-to-right text to top-to-bottom screw positions is inferred.",
+    "2x6 header: callout text is printed as two columns beside the header; left text column assumed to be the left (outer) hole column."
+  ],
+  "notes": "Callouts CAN_RX IO26 / CAN_TX IO27, RS485_RX IO21 / RS485_TX IO22, CAN_SE IO23, RS485_EN IO17 / RS485_SE IO19 and SD_* name MCU signals, not terminal pins; not transcribed as pins. Skipped the 5~12V power DC 2-position terminal (individual positions not legibly labeled), USB Type-C, BOOT and RESET buttons, WS2812 LED, microSD slot. Bottom-view silkscreen prints 'IO5' for the callout 'IO05'. Image 2 is the English version of image 1."
+}

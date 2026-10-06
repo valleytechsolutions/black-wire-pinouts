@@ -1,0 +1,292 @@
+{
+  "recordId": "m5stack-esp32-stamp-s3bat-dip",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/d8e651019e9dcb6ca43bf8fb9d141c958bff79ddf74b204c47fa6d35ffc2e4f7.jpg",
+      "sha256": "d8e651019e9dcb6ca43bf8fb9d141c958bff79ddf74b204c47fa6d35ffc2e4f7"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-pads",
+      "name": "Left castellated pads",
+      "image": "media/d8e651019e9dcb6ca43bf8fb9d141c958bff79ddf74b204c47fa6d35ffc2e4f7.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB-C at bottom, so position 1 is the bottom pad (G7), counting upward",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G7",
+          "functions": [
+            "GPIO7"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "G6",
+          "functions": [
+            "GPIO6"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "5VOUT",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "G5",
+          "functions": [
+            "GPIO5"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "G4",
+          "functions": [
+            "GPIO4"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "G3",
+          "functions": [
+            "GPIO3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "G2",
+          "functions": [
+            "GPIO2"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "G1",
+          "functions": [
+            "GPIO1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-pads",
+      "name": "Right castellated pads",
+      "image": "media/d8e651019e9dcb6ca43bf8fb9d141c958bff79ddf74b204c47fa6d35ffc2e4f7.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB-C at bottom, so position 1 is the bottom pad (GND), counting upward",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "PY_G4",
+          "functions": [
+            "WAKE"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "G11",
+          "functions": [
+            "GPIO11"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "G10",
+          "functions": [
+            "GPIO10"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "G9",
+          "functions": [
+            "GPIO9"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "G8",
+          "functions": [
+            "GPIO8"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "BAT",
+          "functions": [
+            "VBAT"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "3V3",
+          "functions": [
+            "3.3V"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "5VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "btb-dvp",
+      "name": "0.4mm 24P BTB (DVP) connector",
+      "image": "media/d8e651019e9dcb6ca43bf8fb9d141c958bff79ddf74b204c47fa6d35ffc2e4f7.jpg",
+      "rows": 2,
+      "orderNote": "Printed pin numbers 1-24: odd numbers on the lower row, even on the upper row, 1/2 at the left end",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G40",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "G46",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G38",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "G45",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "G12",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "G41",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "G13",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "G43",
+          "functions": [
+            "U0TX"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "G14",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "G42",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "G15",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "G39",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "G16",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "G18",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "G17",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "G21",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "G44",
+          "functions": [
+            "U0RX"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "3V3_L2",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "G47",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "SYS_VUBS",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "SYS_VUBS",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "G48",
+          "functions": [
+            "SDA"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Board identity: the image is titled STAMP S3Bat and shows the bare castellated module; nothing in it identifies the DIP variant, so it may not show this exact product."
+  ],
+  "notes": "Stamp S3Bat pinout. Edge pad labels from the diagram (G<n>); the board silkscreen spellings (GPIO<n>, 3.3V, VBAT, WAKE) are listed first in functions. The 0.4mm 24P BTB(DVP) connector uses the printed numbers 1-24 (odd on the lower row, even on the upper row; pin 1/2 also marked on the board photo). SYS_VUBS is printed as one box spanning pins 21 and 23; both take that label, spelled as printed. The white JST connector and antenna connector are unlabeled and skipped. Category legend (UART, I2C, M5PM1, GPIO, BAT, POWER, GND) omitted."
+}

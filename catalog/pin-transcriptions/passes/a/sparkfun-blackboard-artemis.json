@@ -1,0 +1,342 @@
+{
+  "recordId": "sparkfun-blackboard-artemis",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/d9523dfc6a66653a89c73a472795d480f673467c63c17694fcc9371cc01d333f.png",
+      "sha256": "d9523dfc6a66653a89c73a472795d480f673467c63c17694fcc9371cc01d333f"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "power-header",
+      "name": "Left power header",
+      "image": "media/d9523dfc6a66653a89c73a472795d480f673467c63c17694fcc9371cc01d333f.png",
+      "rows": 1,
+      "orderNote": "Closest to USB connector (USB C at top): top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IOREF",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RESET",
+          "functions": [
+            "Reset"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "analog-header",
+      "name": "Left analog header",
+      "image": "media/d9523dfc6a66653a89c73a472795d480f673467c63c17694fcc9371cc01d333f.png",
+      "rows": 1,
+      "orderNote": "Closest to USB connector (USB C at top): top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A0",
+          "functions": [
+            "29"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "A1",
+          "functions": [
+            "11"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "A2",
+          "functions": [
+            "34"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "A3",
+          "functions": [
+            "33",
+            "32KHZ"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "A4",
+          "functions": [
+            "16"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "A5",
+          "functions": [
+            "31"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-upper",
+      "name": "Right upper header",
+      "image": "media/d9523dfc6a66653a89c73a472795d480f673467c63c17694fcc9371cc01d333f.png",
+      "rows": 1,
+      "orderNote": "Closest to USB connector (USB C at top): top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SCL",
+          "functions": [
+            "39",
+            "Wire/SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "SDA",
+          "functions": [
+            "40",
+            "Wire/SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "SCK",
+          "functions": [
+            "5",
+            "SPI/SCK"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "MISO",
+          "functions": [
+            "6",
+            "SPI/MISO"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "MOSI",
+          "functions": [
+            "7",
+            "SPI/MOSI",
+            "CLKOUT"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "10",
+          "functions": [
+            "A10",
+            "13"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "9",
+          "functions": [
+            "A9",
+            "12"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "8",
+          "functions": [
+            "A8",
+            "32"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-lower",
+      "name": "Right lower header",
+      "image": "media/d9523dfc6a66653a89c73a472795d480f673467c63c17694fcc9371cc01d333f.png",
+      "rows": 1,
+      "orderNote": "Closest to USB connector (USB C at top): top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "7",
+          "functions": [
+            "28",
+            "SPIS2/MOSI"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "6",
+          "functions": [
+            "27",
+            "SCL2",
+            "SPIS2/SCK"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "5",
+          "functions": [
+            "23"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "4",
+          "functions": [
+            "22"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "3",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "2",
+          "functions": [
+            "A6",
+            "35"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "TX1",
+          "functions": [
+            "24",
+            "32KHZ"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "RX1",
+          "functions": [
+            "25",
+            "SDA2",
+            "SPI2/MISO"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "back-pads",
+      "name": "Back pad cluster (inset)",
+      "image": "media/d9523dfc6a66653a89c73a472795d480f673467c63c17694fcc9371cc01d333f.png",
+      "rows": 1,
+      "orderNote": "Pads arranged in a diamond cluster, not a row; ordered by printed pad names 24-29",
+      "pins": [
+        {
+          "position": 1,
+          "label": "24",
+          "functions": [
+            "8",
+            "Wire1/SCL",
+            "SPI1/SCK"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "25",
+          "functions": [
+            "9",
+            "Wire1/SDA",
+            "SPI1/MISO"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "26",
+          "functions": [
+            "10",
+            "SPI1/MOSI"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "27",
+          "functions": [
+            "38",
+            "SPI3/MOSI"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "28",
+          "functions": [
+            "42",
+            "Wire2/SCL",
+            "SPI3/SCK"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "29",
+          "functions": [
+            "43",
+            "Wire2/SDA",
+            "SPI3/MISO"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "power-header position 1: header pin above IOREF has no label in the image (unlabeled)"
+  ],
+  "notes": "Labels are the white Pad Name column; blue Artemis pad numbers kept as functions. Mic-Data/Mic-CLK refer to the onboard microphone, not header pins; Qwiic connector pins are not individually labeled; skipped. IOREF taken from board silkscreen (callout table starts at Reset).",
+  "uncertain": [
+    "power-header: callout table labels only 6 of the 8 header pins; IOREF read from board silkscreen and top pin unlabeled",
+    "back-pads: pads 24-29 sit in a diamond cluster in an inset photo; no linear physical order is shown, so ordering by pad name is an interpretation"
+  ]
+}

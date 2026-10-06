@@ -1,0 +1,233 @@
+{
+  "recordId": "elecrow-esp32-crowpanel-advance-7-0-hmi-esp32-ai-display",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/3cd890448c5da8d4fb98fd462c830437e9d374cf4f318e65926b233679b037f5.webp",
+      "sha256": "3cd890448c5da8d4fb98fd462c830437e9d374cf4f318e65926b233679b037f5"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "J2",
+      "name": "UART0-OUT",
+      "image": "media/3cd890448c5da8d4fb98fd462c830437e9d374cf4f318e65926b233679b037f5.webp",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; horizontal row started at the end closest to the USB-5V-IN connector (right end) and read leftward",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO43",
+          "functions": [
+            "TX0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "IO44",
+          "functions": [
+            "RX0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "J12",
+      "name": "UART1-OUT",
+      "image": "media/3cd890448c5da8d4fb98fd462c830437e9d374cf4f318e65926b233679b037f5.webp",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; horizontal row started at the end closest to the USB-5V-IN connector (right end) and read leftward",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO20",
+          "functions": [
+            "TX1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "IO19",
+          "functions": [
+            "RX1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "J13",
+      "name": "I2C-OUT",
+      "image": "media/3cd890448c5da8d4fb98fd462c830437e9d374cf4f318e65926b233679b037f5.webp",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; horizontal row started at the end closest to the USB-5V-IN connector (right end) and read leftward",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO15",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "IO16",
+          "functions": [
+            "SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "J10",
+      "name": "UART0-IN",
+      "image": "media/3cd890448c5da8d4fb98fd462c830437e9d374cf4f318e65926b233679b037f5.webp",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; horizontal row started at the end closest to the USB-5V-IN connector (right end) and read leftward",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO44",
+          "functions": [
+            "RX0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "IO43",
+          "functions": [
+            "TX0"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "5V_IN",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J11",
+      "name": "Wireless module header",
+      "image": "media/3cd890448c5da8d4fb98fd462c830437e9d374cf4f318e65926b233679b037f5.webp",
+      "rows": 2,
+      "orderNote": "No numeric pin 1 mark (small circle by top-left pad not treated as pin 1); started at the end closest to the USB-5V-IN connector (bottom), position 1 = right column (nearest right board edge), alternating columns",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO0",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "IO2",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "IO6",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "IO15",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "IO4",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "IO16",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "IO5",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "IO19",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "IO20",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "J2, J12 and J13 labels are printed in a separate legend box beside each connector, not under each pin; assumed the legend order left-to-right matches the pins left-to-right.",
+    "J11: the 2x7 pin legend (IO20/IO19 ... 5V/NC) is printed beside J11 and assumed to map column-for-column onto J11 (left legend column = left pad column). It might instead describe the wireless module or J9.",
+    "J11 start end: chose the bottom end as nearer the USB-5V-IN connector; a small circle near the top-left pad of J9/J11 could be a pin-1 marker, which would reverse the order.",
+    "Combined silkscreen names like IO44-RX0 were split into label IO44 and function RX0."
+  ],
+  "notes": "PCB render of CrowPanel ESP32 Display-7.0 inch (Advance_series) DIS02170A V1.0. J9 (2x7, next to J11) has no per-pin labels and was not transcribed. BAT (J3) battery connector, SPK (J15, only + marked), FPC connectors, TF slot and buttons were skipped. Silkscreen also notes IIC address 0X51 IO15-RTC_SDA IO16-RTC_SCL, SPK I2S IO4-SDIN IO5-BCLK IO6-LRCLK, MIC I2S IO2-WS_PIN IO19-BCK_PIN IO20-DATA_PIN; these are not connector pins."
+}

@@ -1,0 +1,89 @@
+{
+  "recordId": "opensourcesdrlab-portapack-h4m",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/8c34d345dccc75accb6c697eda8fb5e7f9b831ac90261f9a26654e06fc999134.png",
+      "sha256": "8c34d345dccc75accb6c697eda8fb5e7f9b831ac90261f9a26654e06fc999134"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "12-pin-header",
+      "name": "2x6 header",
+      "image": "media/8c34d345dccc75accb6c697eda8fb5e7f9b831ac90261f9a26654e06fc999134.png",
+      "rows": 2,
+      "orderNote": "Pin numbers 1-12 printed; positions follow them (1-6 top row right to left, 7-12 bottom row right to left)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "Vbat",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "V3.3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "Vcoin",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "Vcoin",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "V3.3",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "Vbat",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Image shows only an isolated 2x6 connector drawing with no board, designator or connector name, so it cannot confirm which PortaPack H4M connector this is.",
+    "Printed numbering runs row by row (1-6 top, 7-12 bottom), not alternating; positions follow the printed numbers."
+  ],
+  "notes": "Power labels printed with subscripts: V(3.3), V(bat), V(coin); recorded as 'V3.3', 'Vbat', 'Vcoin'."
+}

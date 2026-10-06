@@ -1,0 +1,136 @@
+{
+  "recordId": "elecrow-esp32-crowpanel-esp32-hmi-2-4-inch-display",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/b6f80fb7ee30a3514fdd19123664ab2781033938251e0c0406c018ede4cc017a.webp",
+      "sha256": "b6f80fb7ee30a3514fdd19123664ab2781033938251e0c0406c018ede4cc017a"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "J10",
+      "name": "UART1 connector",
+      "image": "media/b6f80fb7ee30a3514fdd19123664ab2781033938251e0c0406c018ede4cc017a.webp",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; horizontal row read left to right (the J3 'UART0' port on the left edge, if it is the USB connector, is also nearest the left end)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "I016",
+          "functions": [
+            "RXD"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "I017",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J6",
+      "name": "I2C connector",
+      "image": "media/b6f80fb7ee30a3514fdd19123664ab2781033938251e0c0406c018ede4cc017a.webp",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; horizontal row read left to right (the J3 'UART0' port on the left edge, if it is the USB connector, is also nearest the left end)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "I021",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "I022",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J7",
+      "name": "GPIO_D connector",
+      "image": "media/b6f80fb7ee30a3514fdd19123664ab2781033938251e0c0406c018ede4cc017a.webp",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; horizontal row read left to right (the J3 'UART0' port on the left edge, if it is the USB connector, is also nearest the left end)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "I025",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "I032",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J8",
+      "name": "SPK speaker connector",
+      "image": "media/b6f80fb7ee30a3514fdd19123664ab2781033938251e0c0406c018ede4cc017a.webp",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; horizontal row read left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "V01",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "V02",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "IO/I0 and VO/V0 prefixes: letter O and digit 0 cannot be told apart in the silkscreen font at this resolution; recorded with 0 per rule (I016, I017, I021, I022, I025, I032, V01, V02)."
+  ],
+  "uncertain": [
+    "Pin labels are printed as a rotated text block beside each connector (lines left to right); mapping the lines to pads left to right is an interpretation, not a per-pad callout.",
+    "Labels printed as single tokens 'I016_RXD', 'I017_TXD', 'I021_SCL', 'I022_SDA' were split into GPIO name + function."
+  ],
+  "notes": "Board silkscreen: 'ESP32 Display-2.4 Inch SKU:DIS03024H V2.0'. Net note 'I026-SPK' printed beside J8. UART0 (J3), BAT, TF card skipped (not individually labeled per pin)."
+}

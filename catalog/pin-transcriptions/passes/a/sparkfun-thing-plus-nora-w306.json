@@ -1,0 +1,408 @@
+{
+ "recordId": "sparkfun-thing-plus-nora-w306",
+ "pass": "a",
+ "date": "2026-10-04",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/bd4b5a2a815b318931a5b51fbc3ce0a4ef3d0b90be55618e4ddf25e92fd50e5e.png",
+   "sha256": "bd4b5a2a815b318931a5b51fbc3ce0a4ef3d0b90be55618e4ddf25e92fd50e5e"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "left-header",
+   "name": "Left header (12 pins)",
+   "image": "media/bd4b5a2a815b318931a5b51fbc3ce0a4ef3d0b90be55618e4ddf25e92fd50e5e.png",
+   "rows": 1,
+   "orderNote": "No printed position numbers; USB-C connector is at the bottom of the image, so started at the bottom end. Label = port name (Px[n]) or colored power/control name; white name box first in functions, then names outward.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "~3.7V",
+     "functions": [
+      "VB/VBAT"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "Enable",
+     "functions": [
+      "EN"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "+5V",
+     "functions": [
+      "VU/VUSB"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "LED_DO",
+     "functions": [
+      "WS2812_DOUT"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "PB[22]",
+     "functions": [
+      "18",
+      "INT",
+      "PWM",
+      "User LED"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "PB[23]",
+     "functions": [
+      "17",
+      "INT",
+      "PWM",
+      "microSD Power"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "PA[14]",
+     "functions": [
+      "16",
+      "INT",
+      "SCK_1"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "PA[15]",
+     "functions": [
+      "15",
+      "INT",
+      "CS_1"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "PA[12]",
+     "functions": [
+      "14",
+      "INT",
+      "PWM",
+      "WS2812_DIN",
+      "PICO_1"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "PA[13]",
+     "functions": [
+      "13",
+      "INT",
+      "PWM",
+      "POCI_1"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "PA[25]",
+     "functions": [
+      "12/SCL",
+      "12",
+      "INT",
+      "PWM",
+      "SCL"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "PA[26]",
+     "functions": [
+      "11/SDA",
+      "11",
+      "INT",
+      "PWM",
+      "SDA"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "right-header",
+   "name": "Right header (16 pins)",
+   "image": "media/bd4b5a2a815b318931a5b51fbc3ce0a4ef3d0b90be55618e4ddf25e92fd50e5e.png",
+   "rows": 1,
+   "orderNote": "No printed position numbers; USB-C connector is at the bottom of the image, so started at the bottom end. Label = port name (Px[n]) or colored power/control name; white name box first in functions, then names outward.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "Reset",
+     "functions": [
+      "RESET"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "+3.3V",
+     "functions": [
+      "3V3"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "NC",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "PB[3]",
+     "functions": [
+      "19/A0",
+      "19",
+      "INT",
+      "A0",
+      "SWD_CLK"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "PA[8]",
+     "functions": [
+      "0",
+      "INT",
+      "BOOT Button",
+      "RX_0"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "PA[7]",
+     "functions": [
+      "1",
+      "INT",
+      "TX_0"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "PA[30]",
+     "functions": [
+      "2",
+      "INT",
+      "PWM",
+      "USER Button"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "PA[28]",
+     "functions": [
+      "3",
+      "INT",
+      "PWM"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "PB[21]",
+     "functions": [
+      "4/CS",
+      "4",
+      "INT",
+      "PWM",
+      "CS_0"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "PB[20]",
+     "functions": [
+      "5/SCK",
+      "5",
+      "INT",
+      "PWM",
+      "SCK_0"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "PB[18]",
+     "functions": [
+      "6/PICO",
+      "6",
+      "INT",
+      "PWM",
+      "PICO_0"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "PB[19]",
+     "functions": [
+      "7/POCI",
+      "7",
+      "INT",
+      "PWM",
+      "POCI_0"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "PB[2]",
+     "functions": [
+      "8/RX1/A1",
+      "8",
+      "INT",
+      "A1",
+      "RX_1"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "PB[1]",
+     "functions": [
+      "9/TX1/A2",
+      "9",
+      "INT",
+      "A2",
+      "TX_1"
+     ]
+    },
+    {
+     "position": 16,
+     "label": "PA[27]",
+     "functions": [
+      "10",
+      "INT",
+      "SWD_DATA"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qwiic",
+   "name": "Qwiic connector",
+   "image": "media/bd4b5a2a815b318931a5b51fbc3ce0a4ef3d0b90be55618e4ddf25e92fd50e5e.png",
+   "rows": 1,
+   "orderNote": "Vertical connector just above the USB-C connector; started at the end nearer USB (bottom), following the wire lines from the label boxes.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "PA[25]",
+     "functions": [
+      "SCL",
+      "12",
+      "INT",
+      "PWM"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "PA[26]",
+     "functions": [
+      "SDA",
+      "11",
+      "INT",
+      "PWM"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "+3.3V",
+     "functions": [
+      "3.3V"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": []
+    }
+   ]
+  },
+  {
+   "id": "swd-header",
+   "name": "SWD header footprint (2x5)",
+   "image": "media/bd4b5a2a815b318931a5b51fbc3ce0a4ef3d0b90be55618e4ddf25e92fd50e5e.png",
+   "rows": 2,
+   "orderNote": "2x5 footprint inset, no printed numbers or USB; columns are vertical, started at top, left column taken as outer row (position 1 = top-left), then alternating.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "+3.3V",
+     "functions": [
+      "3.3V"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "PA[27]",
+     "functions": [
+      "SWD_DATA",
+      "10",
+      "INT"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "PB[3]",
+     "functions": [
+      "SWD_CLK",
+      "19",
+      "INT",
+      "ADC_0"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "NC",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "NC",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "NC",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "Reset",
+     "functions": [
+      "RESET"
+     ]
+    }
+   ]
+  }
+ ],
+ "unreadable": [],
+ "uncertain": [
+  "Qwiic connector: pin order inferred from the colored wire lines running from the label boxes to the connector; the connector pins themselves are not individually marked.",
+  "SWD header footprint: label-to-pad mapping read from leader lines (left column 3.3V, GND, GND, NC, GND; right column SWD_DATA, SWD_CLK, NC, NC, RESET); which column is the outer row is not determinable from the inset."
+ ],
+ "notes": "RESET is printed with an overline. LED_DO read with letter O. INT and PWM boxes kept as printed capability names. Arduino-number column uses a segmented font (e.g. '11'); kept when it differs from the name box. JST LiPo connector, buttons and USB-C skipped."
+}

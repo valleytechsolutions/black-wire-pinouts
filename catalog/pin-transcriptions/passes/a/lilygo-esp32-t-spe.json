@@ -1,0 +1,215 @@
+{
+  "recordId": "lilygo-esp32-t-spe",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/430abe183d5e67c8096a3b21453bd74734ad647fcddcaaaf8d102bbc377e2a98.jpg",
+      "sha256": "430abe183d5e67c8096a3b21453bd74734ad647fcddcaaaf8d102bbc377e2a98"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/430abe183d5e67c8096a3b21453bd74734ad647fcddcaaaf8d102bbc377e2a98.jpg",
+      "rows": 1,
+      "orderNote": "No printed position numbers; vertical row, started at the end closest to the USB-C connector (top). Square top pad not treated as a pin-1 mark (rule 9).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO15",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IO02",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "IO00",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "IO12",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "IO05",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "IO35",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "IO34",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "IO39",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "IO36",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "U0RX",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "U0TX",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "uart-connector",
+      "name": "Top 4-pin UART connector",
+      "image": "media/430abe183d5e67c8096a3b21453bd74734ad647fcddcaaaf8d102bbc377e2a98.jpg",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; horizontal row, started at the end closest to the USB-C connector (right end).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": [
+            "3.3V"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "TX",
+          "functions": [
+            "U0TX",
+            "01"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "RX",
+          "functions": [
+            "U0RX",
+            "03"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spe-terminal",
+      "name": "SPE terminal (P/N)",
+      "image": "media/430abe183d5e67c8096a3b21453bd74734ad647fcddcaaaf8d102bbc377e2a98.jpg",
+      "rows": 1,
+      "orderNote": "No printed numbers; vertical connector, started at the end closest to the USB-C connector (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "N",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "power-terminal",
+      "name": "Power input terminal",
+      "image": "media/430abe183d5e67c8096a3b21453bd74734ad647fcddcaaaf8d102bbc377e2a98.jpg",
+      "rows": 1,
+      "orderNote": "No printed numbers; vertical connector, started at the end closest to the USB-C connector (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VIN",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VIN",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "rs485-terminal",
+      "name": "RS485 terminal",
+      "image": "media/430abe183d5e67c8096a3b21453bd74734ad647fcddcaaaf8d102bbc377e2a98.jpg",
+      "rows": 1,
+      "orderNote": "No printed numbers; vertical connector, started at the end closest to the USB-C connector (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "EGND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "AGND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "A",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "B",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Right header labels from the diagram callouts (no board silkscreen visible beside it). UART connector: diagram labels RX TX 3V3 GND with 03 01 printed above RX and TX; board silkscreen U0RX U0TX 3.3V GND. Terminal labels from callouts, matching board silkscreen. Red 2-pin jumpers (ETH terminations, RS485 TERM ON) have no per-pin labels and are skipped.",
+  "uncertain": []
+}

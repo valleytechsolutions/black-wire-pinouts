@@ -1,0 +1,184 @@
+{
+  "recordId": "adafruit-ch552-qt-py",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/c5b2f272822969f4b3851be6a7ad38d27757c974cad1fae4ffd52cc8024ccff1.png",
+      "sha256": "c5b2f272822969f4b3851be6a7ad38d27757c974cad1fae4ffd52cc8024ccff1"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/c5b2f272822969f4b3851be6a7ad38d27757c974cad1fae4ffd52cc8024ccff1.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P1.1",
+          "functions": [
+            "A0/P1.1",
+            "AIN0",
+            "TIN1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P1.4",
+          "functions": [
+            "A1/P1.4",
+            "AIN1",
+            "TIN2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P1.5",
+          "functions": [
+            "MOSI/A2/P1.5",
+            "PWM1",
+            "AIN2",
+            "MOSI",
+            "TIN3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P3.2",
+          "functions": [
+            "P3.2/A3",
+            "AIN3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "P3.4",
+          "functions": [
+            "P3.4/SDA",
+            "PWM2",
+            "SDA"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P3.3",
+          "functions": [
+            "P3.3/SCL",
+            "SCL"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "P3.1",
+          "functions": [
+            "P3.1/TX",
+            "PWM2",
+            "TX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/c5b2f272822969f4b3851be6a7ad38d27757c974cad1fae4ffd52cc8024ccff1.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "P1.5",
+          "functions": [
+            "MOSI/A2/P1.5",
+            "PWM1",
+            "AIN2",
+            "MOSI",
+            "TIN3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "P1.6",
+          "functions": [
+            "MISO/P1.6",
+            "MISO",
+            "TIN4"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P1.7",
+          "functions": [
+            "SCK/P1.7",
+            "SCK",
+            "TIN5"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "P3.0",
+          "functions": [
+            "P3.0/RX",
+            "PWM1",
+            "RX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "i2c-port",
+      "name": "I2C (STEMMA QT style) connector",
+      "image": "media/c5b2f272822969f4b3851be6a7ad38d27757c974cad1fae4ffd52cc8024ccff1.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row with no end nearer the USB connector, started at left (wire colors black, red, blue, yellow left to right)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "P3.4",
+          "functions": [
+            "SDA",
+            "PWM2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P3.3",
+          "functions": [
+            "SCL"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Labels use GPIO box names (P1.1 etc.); diagram silkscreen-name boxes placed first in functions. Left pin 3 diagram name box reads MOSI/A2/P1.5 (same as right pin 4), copied as printed. NeoPixel, BOOT button and RST button skipped."
+}

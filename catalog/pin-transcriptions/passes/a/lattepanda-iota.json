@@ -1,0 +1,736 @@
+{
+  "recordId": "lattepanda-iota",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/027b50ba35cd63b8d9d7b336e25b0f59234cf9b0f82a1f570cf67d028b464572.webp",
+      "sha256": "027b50ba35cd63b8d9d7b336e25b0f59234cf9b0f82a1f570cf67d028b464572"
+    },
+    {
+      "file": "media/df1addf325d4e1fcfa488aeae3961c5367ff9c064785035c68cd44587d46d63e.webp",
+      "sha256": "df1addf325d4e1fcfa488aeae3961c5367ff9c064785035c68cd44587d46d63e"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "i2c-touch-fpc",
+      "name": "I2C Touch FPC Connector (0.5mm pitch 6-pin)",
+      "image": "media/027b50ba35cd63b8d9d7b336e25b0f59234cf9b0f82a1f570cf67d028b464572.webp",
+      "rows": 1,
+      "orderNote": "Pin numbers printed in the pin table (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "I2C_SCL",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "I2C_SDA",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "INT",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "3.3V",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "edp-fpc",
+      "name": "eDP Display FPC Connector (0.5mm pitch 30-pin)",
+      "image": "media/027b50ba35cd63b8d9d7b336e25b0f59234cf9b0f82a1f570cf67d028b464572.webp",
+      "rows": 1,
+      "orderNote": "Pin numbers printed in the pin table (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "TX1_DN",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "TX1_DP",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "TX0_DN",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "TX0_DP",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "AUX_DP",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "AUX_DN",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "LCD_VCC",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "LCD_VCC",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "LCD_RST",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "HDP",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "BL_GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "BL_GND",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "BL_GND",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "BL_GND",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "BL_ENABLE",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "BL_PWM",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 27,
+          "label": "BL_PWR",
+          "functions": []
+        },
+        {
+          "position": 28,
+          "label": "BL_PWR",
+          "functions": []
+        },
+        {
+          "position": 29,
+          "label": "BL_PWR",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "NC",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "pcie-fpc",
+      "name": "PCIe 3.0 x1 FPC Connector (0.5mm pitch 16-pin)",
+      "image": "media/027b50ba35cd63b8d9d7b336e25b0f59234cf9b0f82a1f570cf67d028b464572.webp",
+      "rows": 1,
+      "orderNote": "Pin numbers printed in the pin table (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "PCIE_CLK_P",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "PCIE_CLK_N",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "PCIE_RX_P",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "PCIE_RX_N",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "PCIE_TX_P",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "PCIE_TX_N",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "PCIE_PWR_EN",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "PCIE_DET_WAKE",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "PCIE_CLKREQ_N",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "PCIE_RST_B",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "rtc-battery",
+      "name": "RTC Battery Connector (1.25mm pitch 2-pin)",
+      "image": "media/027b50ba35cd63b8d9d7b336e25b0f59234cf9b0f82a1f570cf67d028b464572.webp",
+      "rows": 1,
+      "orderNote": "Pin numbers printed in the pin table (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "power-input",
+      "name": "Power Input Connector (2.0mm pitch 4-pin)",
+      "image": "media/027b50ba35cd63b8d9d7b336e25b0f59234cf9b0f82a1f570cf67d028b464572.webp",
+      "rows": 1,
+      "orderNote": "Pin numbers printed in the pin table (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VIN",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "gpio-header",
+      "name": "GPIO Header (2.54mm pitch 36-pin)",
+      "image": "media/027b50ba35cd63b8d9d7b336e25b0f59234cf9b0f82a1f570cf67d028b464572.webp",
+      "rows": 2,
+      "orderNote": "2x18 header, no printed pin numbers or pin-1 mark and no USB connector in the view: start at the left end; top row taken as the outer row (1 = top-left, 2 = bottom-left, alternating) (rules 4, 10)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SPK+",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SPK-",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "D-",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "TXD",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "D+",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "RXD",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "S0",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "S3",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GP0",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GP7",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GP1",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "GP8",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "GP2",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GP9",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GP3",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "GP10",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "GP4",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "GP11",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "GP5",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "GP12",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "GP6",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "GP13",
+          "functions": []
+        },
+        {
+          "position": 27,
+          "label": "GP26",
+          "functions": []
+        },
+        {
+          "position": 28,
+          "label": "RUN",
+          "functions": []
+        },
+        {
+          "position": 29,
+          "label": "GP27",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "SCLK",
+          "functions": []
+        },
+        {
+          "position": 31,
+          "label": "GP28",
+          "functions": []
+        },
+        {
+          "position": 32,
+          "label": "SDIO",
+          "functions": []
+        },
+        {
+          "position": 33,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 34,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 35,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 36,
+          "label": "SW",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "gpio-header-img2",
+      "name": "GPIO Header (2.54mm pitch 36-pin)",
+      "image": "media/df1addf325d4e1fcfa488aeae3961c5367ff9c064785035c68cd44587d46d63e.webp",
+      "rows": 2,
+      "orderNote": "2x18 header, no printed pin numbers or pin-1 mark and no USB connector in the view: start at the left end; top row taken as the outer row (1 = top-left, 2 = bottom-left, alternating) (rules 4, 10)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SPK+",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SPK-",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "D-",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "TXD",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "D+",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "RXD",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "S0",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "S3",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GP0",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GP7",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GP1",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "GP8",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "GP2",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GP9",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GP3",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "GP10",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "GP4",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "GP11",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "GP5",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "GP12",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "GP6",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "GP13",
+          "functions": []
+        },
+        {
+          "position": 27,
+          "label": "GP26",
+          "functions": []
+        },
+        {
+          "position": 28,
+          "label": "RUN",
+          "functions": []
+        },
+        {
+          "position": 29,
+          "label": "GP27",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "SCLK",
+          "functions": []
+        },
+        {
+          "position": 31,
+          "label": "GP28",
+          "functions": []
+        },
+        {
+          "position": 32,
+          "label": "SDIO",
+          "functions": []
+        },
+        {
+          "position": 33,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 34,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 35,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 36,
+          "label": "SW",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "GPIO header (both images): the crop does not show the board edge, so which row is the outer row is not shown; the top row was taken as outer, which sets odd/even positions."
+  ],
+  "notes": "Image 1 is a connector reference sheet (A-F callout letters are not board designators, so descriptive ids are used); FPC/power/RTC connectors follow the printed PIN/Signal tables. The RTC battery connector is included because its pins are individually labeled 3V/GND. Image 2 repeats the GPIO header alone."
+}

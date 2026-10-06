@@ -1,0 +1,97 @@
+{
+  "recordId": "lilygo-esp32-t-internet-com",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/3c040f73c0d28f23275c759a8968b2b83baa1ec36992fcead3d9240340cf7419.jpg",
+      "sha256": "3c040f73c0d28f23275c759a8968b2b83baa1ec36992fcead3d9240340cf7419"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left 1x6 header (front view)",
+      "image": "media/3c040f73c0d28f23275c759a8968b2b83baa1ec36992fcead3d9240340cf7419.jpg",
+      "rows": 1,
+      "orderNote": "No printed numbers; started at the bottom end, closest to the Type-C connector",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO15",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IO13",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO14",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IO02",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "back-pads",
+      "name": "Labeled pads on back-view inset (top left)",
+      "image": "media/3c040f73c0d28f23275c759a8968b2b83baa1ec36992fcead3d9240340cf7419.jpg",
+      "rows": 1,
+      "orderNote": "No printed numbers; started at the end closest to the USB-C connector visible at the bottom of the back-view inset (lowest pad first, by vertical position)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "D_N",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "D_M",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Back-view inset pads (GND, VBUS, D_M, D_N, SDA, SCL) are staggered in a zigzag with a gap before SDA/SCL; whether they form one connector or two groups (USB pads and I2C pads), and the exact order of the staggered SDA/SCL pair, is left open by the image. They may also be test pads rather than a wiring connector."
+  ],
+  "notes": "DC 5~12V screw terminal has no individual pin labels and was skipped (rule 1). Mini PCIe adapter, TF card, SIM card, LAN8720 and WS2812 callouts list on-board signal assignments without pin positions and were not transcribed. Left header label GND is printed in grey and 3V3 in red; colours omitted."
+}

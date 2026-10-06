@@ -1,0 +1,404 @@
+{
+ "recordId": "seeed-studio-other-xiao-ra4m1",
+ "pass": "a",
+ "date": "2026-10-05",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/886595b571493fdf4f37d2b3a5bb7b95a11f9d5a2572ce05215f1423a999576d.png",
+   "sha256": "886595b571493fdf4f37d2b3a5bb7b95a11f9d5a2572ce05215f1423a999576d"
+  },
+  {
+   "file": "media/253ea1087daf0f014f044254800dd85ed7a17de1fdffff85b16c6be3c55d88cb.png",
+   "sha256": "253ea1087daf0f014f044254800dd85ed7a17de1fdffff85b16c6be3c55d88cb"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "left-header",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "VBUS",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "D10",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "D9",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "D8",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "D7",
+     "functions": []
+    }
+   ],
+   "image": "media/886595b571493fdf4f37d2b3a5bb7b95a11f9d5a2572ce05215f1423a999576d.png"
+  },
+  {
+   "id": "right-header",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "D0",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "D1",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "D2",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "D3",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "D4",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "D5",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "D6",
+     "functions": []
+    }
+   ],
+   "image": "media/886595b571493fdf4f37d2b3a5bb7b95a11f9d5a2572ce05215f1423a999576d.png"
+  },
+  {
+   "id": "debug-pads",
+   "name": "debug-pads",
+   "rows": 2,
+   "orderNote": "USB top; top to bottom alternating left/right, equally close to board edges.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "SWCLK",
+     "functions": [
+      "CLK"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "SWDIO",
+     "functions": [
+      "DIO"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "RESET",
+     "functions": [
+      "RST"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "BOOT",
+     "functions": []
+    }
+   ],
+   "image": "media/886595b571493fdf4f37d2b3a5bb7b95a11f9d5a2572ce05215f1423a999576d.png"
+  },
+  {
+   "id": "left-inner-pads",
+   "name": "left-inner-pads",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "P408",
+     "functions": [
+      "D11",
+      "11",
+      "UART9_RX"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "P409",
+     "functions": [
+      "D12",
+      "12",
+      "UART9_TX"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "P013",
+     "functions": [
+      "D13",
+      "AN008",
+      "13"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "P012",
+     "functions": [
+      "D14",
+      "AN007",
+      "14"
+     ]
+    }
+   ],
+   "image": "media/886595b571493fdf4f37d2b3a5bb7b95a11f9d5a2572ce05215f1423a999576d.png"
+  },
+  {
+   "id": "right-inner-pads",
+   "name": "right-inner-pads",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "P103",
+     "functions": [
+      "D18",
+      "AN019",
+      "18"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "P102",
+     "functions": [
+      "D17",
+      "AN020",
+      "17",
+      "SPI0_SCK"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "P104",
+     "functions": [
+      "D16",
+      "16",
+      "SPI0_MISO",
+      "UART0_RX",
+      "I2C0_SCL"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "P101",
+     "functions": [
+      "D15",
+      "AN021",
+      "15",
+      "SPI0_MOSI",
+      "UART0_TX",
+      "I2C0_SDA"
+     ]
+    }
+   ],
+   "image": "media/886595b571493fdf4f37d2b3a5bb7b95a11f9d5a2572ce05215f1423a999576d.png"
+  },
+  {
+   "id": "battery-pads",
+   "name": "battery-pads",
+   "rows": 1,
+   "orderNote": "USB centered above; left to right.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "BAT-",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "BAT+",
+     "functions": []
+    }
+   ],
+   "image": "media/886595b571493fdf4f37d2b3a5bb7b95a11f9d5a2572ce05215f1423a999576d.png"
+  },
+  {
+   "id": "left-header-img2",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "P014",
+     "functions": [
+      "D0",
+      "AN009 / A0",
+      "0"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "P000",
+     "functions": [
+      "D1",
+      "AN000 / A1",
+      "1"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "P001",
+     "functions": [
+      "D2",
+      "AN001 / A2",
+      "2"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "P002",
+     "functions": [
+      "D3",
+      "AN002 / A3",
+      "3"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "P206",
+     "functions": [
+      "D4",
+      "4",
+      "I2C1_SDA"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "P100",
+     "functions": [
+      "D5",
+      "AN022 / A5",
+      "5",
+      "I2C1_SCL"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "P302",
+     "functions": [
+      "D6",
+      "6",
+      "UART2_TX",
+      "I2C2_SDA"
+     ]
+    }
+   ],
+   "image": "media/253ea1087daf0f014f044254800dd85ed7a17de1fdffff85b16c6be3c55d88cb.png"
+  },
+  {
+   "id": "right-header-img2",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "VBUS",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "3.3V-OUT",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "P109",
+     "functions": [
+      "D10",
+      "10",
+      "SPI_MOSI"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "P110",
+     "functions": [
+      "D9",
+      "9",
+      "SPI_MISO"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "P111",
+     "functions": [
+      "D8",
+      "8",
+      "SPI_SCK"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "P301",
+     "functions": [
+      "D7",
+      "7",
+      "UART2_RX",
+      "I2C2_SCL"
+     ]
+    }
+   ],
+   "image": "media/253ea1087daf0f014f044254800dd85ed7a17de1fdffff85b16c6be3c55d88cb.png"
+  }
+ ],
+ "notes": "On-board LEDs, switches and battery-management component callouts excluded.",
+ "unreadable": [],
+ "uncertain": []
+}

@@ -1,0 +1,190 @@
+{
+  "recordId": "elecrow-esp32-crowpanel-esp32-hmi-7-0-inch-display",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/86c106c909fd66cd3a4cd722c91e91684b49dd6a91cd6ab447a825e3fe0ec12a.webp",
+      "sha256": "86c106c909fd66cd3a4cd722c91e91684b49dd6a91cd6ab447a825e3fe0ec12a"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "J6",
+      "name": "I2C connector (top left)",
+      "image": "media/86c106c909fd66cd3a4cd722c91e91684b49dd6a91cd6ab447a825e3fe0ec12a.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row, started at the end closest to the USB-C connector (J3, right edge), i.e. the rightmost pad.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO19",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "IO20",
+          "functions": [
+            "SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "J7",
+      "name": "GPIO_D connector (top)",
+      "image": "media/86c106c909fd66cd3a4cd722c91e91684b49dd6a91cd6ab447a825e3fe0ec12a.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row, started at the end closest to the USB-C connector (right edge), i.e. the rightmost pad.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IO38",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J10",
+      "name": "UART0 connector (top)",
+      "image": "media/86c106c909fd66cd3a4cd722c91e91684b49dd6a91cd6ab447a825e3fe0ec12a.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row, started at the end closest to the USB-C connector (right edge), i.e. the rightmost pad.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO43",
+          "functions": [
+            "TX0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "IO44",
+          "functions": [
+            "RX0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gpio-d-i2c-8pin",
+      "name": "8-pin GPIO_D / I2C connector (top right)",
+      "image": "media/86c106c909fd66cd3a4cd722c91e91684b49dd6a91cd6ab447a825e3fe0ec12a.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row, started at the end closest to the USB-C connector (right edge), i.e. the rightmost pad.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO20",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "IO19",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "IO38",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J5",
+      "name": "SPK speaker connector (bottom)",
+      "image": "media/86c106c909fd66cd3a4cd722c91e91684b49dd6a91cd6ab447a825e3fe0ec12a.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row, started at the end closest to the USB-C connector (right edge), i.e. the right pad.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VOP+",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VON-",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "J10 position 3: low-resolution silkscreen, read as IO43-TX0; the last digit of IO43 is blurry (3 vs 5)."
+  ],
+  "uncertain": [
+    "J6, J7, J10 and the 8-pin connector: pin names are printed in a legend box beside each connector, not at each pad; pad mapping assumes the legend's left-to-right order matches the pads.",
+    "J5: VON-/VOP+ are printed in a separate box to the right of the connector; mapping VON- = left pad, VOP+ = right pad is inferred from the legend order.",
+    "8-pin connector: a 'J4' designator is printed between the small FPC P4 and this connector; it was not assigned because the image does not settle which part it belongs to."
+  ],
+  "notes": "PCB render of the CrowPanel 7-inch board (ESP32 Display-7 Inch, DIS08070H, V2.0). Combined legends printed as 'IO20-SCL' etc. split into GPIO label plus function. Skipped: J3 USB-C (UART0), J1 BAT battery connector (+ mark only), J2 50-pin FPC, P2/P4 6-pin FPCs (only 1/6 marks), TF slot, BOOT/RESET buttons. The 'I2S-CTRL IO18/IO42/IO17' box near U11 describes the amplifier, not a connector."
+}

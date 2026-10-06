@@ -1,0 +1,314 @@
+{
+ "recordId": "heltec-other-meshsolar",
+ "pass": "a",
+ "date": "2026-10-04",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/316f4cb05f40adef567ecb726c0ae25a837205e7821ea6a70419a6265cdf8e1f.jpg",
+   "sha256": "316f4cb05f40adef567ecb726c0ae25a837205e7821ea6a70419a6265cdf8e1f"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "H4",
+   "name": "H4",
+   "rows": 1,
+   "orderNote": "Inset has no USB; top to bottom.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GPIO4",
+     "functions": [
+      "IO4"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GPIO26",
+     "functions": [
+      "IO5"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GPIO6",
+     "functions": [
+      "IO6"
+     ]
+    }
+   ],
+   "image": "media/316f4cb05f40adef567ecb726c0ae25a837205e7821ea6a70419a6265cdf8e1f.jpg"
+  },
+  {
+   "id": "H6",
+   "name": "H6",
+   "rows": 1,
+   "orderNote": "Inset has no USB; left to right.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GPIO32",
+     "functions": [
+      "SMBC"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GPIO33",
+     "functions": [
+      "SMBD"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": []
+    }
+   ],
+   "image": "media/316f4cb05f40adef567ecb726c0ae25a837205e7821ea6a70419a6265cdf8e1f.jpg"
+  },
+  {
+   "id": "H3",
+   "name": "H3",
+   "rows": 1,
+   "orderNote": "Inset has no USB; top to bottom.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GPIO30",
+     "functions": [
+      "IO3"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "GPIO5",
+     "functions": [
+      "IO2"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GPIO7",
+     "functions": [
+      "IO2"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": []
+    }
+   ],
+   "image": "media/316f4cb05f40adef567ecb726c0ae25a837205e7821ea6a70419a6265cdf8e1f.jpg"
+  },
+  {
+   "id": "H5",
+   "name": "H5",
+   "rows": 1,
+   "orderNote": "Inset has no USB; left to right.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "RST",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "SWCLK",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "SWDIO",
+     "functions": []
+    }
+   ],
+   "image": "media/316f4cb05f40adef567ecb726c0ae25a837205e7821ea6a70419a6265cdf8e1f.jpg"
+  },
+  {
+   "id": "P1",
+   "name": "P1",
+   "rows": 1,
+   "orderNote": "Display connector inset has no USB; top to bottom.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GPIO11",
+     "functions": [
+      "TFT_CS"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "VC1",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GPIO40",
+     "functions": [
+      "TFT_SCL"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GPIO13",
+     "functions": [
+      "CS"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GPIO41",
+     "functions": [
+      "TFT_SDA"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GPIO12",
+     "functions": [
+      "TFT_RS"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GPIO2",
+     "functions": [
+      "TFT_RST"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "VC2",
+     "functions": []
+    }
+   ],
+   "image": "media/316f4cb05f40adef567ecb726c0ae25a837205e7821ea6a70419a6265cdf8e1f.jpg"
+  },
+  {
+   "id": "P2",
+   "name": "P2",
+   "rows": 1,
+   "orderNote": "GNSS connector inset has no USB; top to bottom.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GPIO38",
+     "functions": [
+      "GNSS_RST"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "GPIO36",
+     "functions": [
+      "GNSS_PPS"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GPIO34",
+     "functions": [
+      "GNSS_WakeUP"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GPIO39",
+     "functions": [
+      "GNSS_RX"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GPIO37",
+     "functions": [
+      "GNSS_TX"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "GND",
+     "functions": []
+    }
+   ],
+   "image": "media/316f4cb05f40adef567ecb726c0ae25a837205e7821ea6a70419a6265cdf8e1f.jpg"
+  },
+  {
+   "id": "CN2",
+   "name": "CN2",
+   "rows": 1,
+   "orderNote": "Main board photo: top to bottom; USB is centered on the opposite edge.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "SOLAR+",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "SOLAR-",
+     "functions": []
+    }
+   ],
+   "image": "media/316f4cb05f40adef567ecb726c0ae25a837205e7821ea6a70419a6265cdf8e1f.jpg"
+  },
+  {
+   "id": "CN3",
+   "name": "CN3",
+   "rows": 1,
+   "orderNote": "Main board photo: top to bottom; USB is centered on the opposite edge.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "PACK+",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "PACK-",
+     "functions": []
+    }
+   ],
+   "image": "media/316f4cb05f40adef567ecb726c0ae25a837205e7821ea6a70419a6265cdf8e1f.jpg"
+  }
+ ],
+ "notes": "H3 repeats IO2 for two different GPIOs as printed. Battery-only CN16 is excluded.",
+ "unreadable": [],
+ "uncertain": [
+  "Additional top-center connector CN9 has tiny individual silkscreen labels; a closer read is needed for complete connector coverage."
+ ]
+}

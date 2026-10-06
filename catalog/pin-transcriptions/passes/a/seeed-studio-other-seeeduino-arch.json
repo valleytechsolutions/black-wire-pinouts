@@ -1,0 +1,428 @@
+{
+  "recordId": "seeed-studio-other-seeeduino-arch",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/fe44b554aefb9f1768421c6adf8639b3be26d25de718d0e4496bb6f307fb3f69.png",
+      "sha256": "fe44b554aefb9f1768421c6adf8639b3be26d25de718d0e4496bb6f307fb3f69"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "power-header",
+      "name": "Left power header",
+      "image": "media/fe44b554aefb9f1768421c6adf8639b3be26d25de718d0e4496bb6f307fb3f69.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; vertical row, started at the top (end nearest the micro-USB connector at the top edge).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P0_23",
+          "functions": [
+            "AnalogIn"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "IOREF",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "analog-header",
+      "name": "Left analog header",
+      "image": "media/fe44b554aefb9f1768421c6adf8639b3be26d25de718d0e4496bb6f307fb3f69.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; vertical row, started at the top (end nearest the micro-USB connector at the top edge).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P0_11",
+          "functions": [
+            "AnalogIn"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P0_12",
+          "functions": [
+            "AnalogIn"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P0_13",
+          "functions": [
+            "AnalogIn"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P0_14",
+          "functions": [
+            "AnalogIn"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "P0_16",
+          "functions": [
+            "AnalogIn"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P0_22",
+          "functions": [
+            "AnalogIn",
+            "PwmOut"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-upper",
+      "name": "Right upper digital header",
+      "image": "media/fe44b554aefb9f1768421c6adf8639b3be26d25de718d0e4496bb6f307fb3f69.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; vertical row, started at the top (end nearest the micro-USB connector at the top edge).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P0_4",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P0_5",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P0_7",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "P0_9",
+          "functions": [
+            "MOSI"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P0_8",
+          "functions": [
+            "MISO",
+            "PwmOut"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "P1_29",
+          "functions": [
+            "CLK",
+            "PwmOut"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "P0_2",
+          "functions": [
+            "SSEL"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "P1_27",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "P1_26",
+          "functions": [
+            "RXD",
+            "PwmOut"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-lower",
+      "name": "Right lower digital header",
+      "image": "media/fe44b554aefb9f1768421c6adf8639b3be26d25de718d0e4496bb6f307fb3f69.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; vertical row, started at the top (end nearest the micro-USB connector at the top edge).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P1_5",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "P1_25",
+          "functions": [
+            "PwmOut"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P1_24",
+          "functions": [
+            "PwmOut"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P1_18",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "P1_17",
+          "functions": [
+            "RXD"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P0_17",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "P0_19",
+          "functions": [
+            "TXD",
+            "PwmOut"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "P0_18",
+          "functions": [
+            "RXD",
+            "PwmOut"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "swd-header",
+      "name": "2x3 header silkscreened SWD (top right)",
+      "image": "media/fe44b554aefb9f1768421c6adf8639b3be26d25de718d0e4496bb6f307fb3f69.png",
+      "rows": 2,
+      "orderNote": "No pin numbers printed. 2xN rule: start at the top (end nearest the micro-USB connector); position 1 = top of the outer (right, board-edge) column, then alternating right/left downward.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "P0_15",
+          "functions": [
+            "AnalogIn"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P1_4",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "P0_10",
+          "functions": [
+            "PwmOut"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "P0_0",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "spi-header",
+      "name": "2x3 header silkscreened SPI (bottom edge)",
+      "image": "media/fe44b554aefb9f1768421c6adf8639b3be26d25de718d0e4496bb6f307fb3f69.png",
+      "rows": 2,
+      "orderNote": "No pin numbers printed. 2xN rule: start at the right end (slightly nearer the top micro-USB connector); position 1 = right end of the outer (bottom, board-edge) row, then alternating bottom/top leftward.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "P1_21",
+          "functions": [
+            "MISO"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P1_22",
+          "functions": [
+            "MOSI"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P1_20",
+          "functions": [
+            "SCK"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "P1_23",
+          "functions": [
+            "SSEL",
+            "PwmOut"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "i2c-connector",
+      "name": "4-pin connector silkscreened I2C",
+      "image": "media/fe44b554aefb9f1768421c6adf8639b3be26d25de718d0e4496bb6f307fb3f69.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; horizontal row, started at the right end (nearer the micro-USB connector at top center).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P0_4",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P0_5",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "uart-connector",
+      "name": "4-pin connector silkscreened UART",
+      "image": "media/fe44b554aefb9f1768421c6adf8639b3be26d25de718d0e4496bb6f307fb3f69.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; horizontal row, started at the right end (nearer the micro-USB connector at top center).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P1_14",
+          "functions": [
+            "RX",
+            "RXD",
+            "PwmOut"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P1_13",
+          "functions": [
+            "TX",
+            "TXD",
+            "PwmOut"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "UART connector: the silkscreen above the second pin reads '5V', but the diagram's leader line labels it '3.3V'. Recorded label '3.3V' with '5V' first in functions. The two labels conflict.",
+    "I2C connector: the diagram labels only the SDA/SCL pins (to P0_5/P0_4). GND and 5V come from silkscreen only.",
+    "SPI header: leader lines from six closely spaced pins were traced at high zoom. The order is top-right MISO, bottom-right NC, top-middle SCK, bottom-middle MOSI, top-left SSEL, bottom-left GND."
+  ],
+  "notes": "Image shows a Seeed 'Arch' board (Arduino form factor). Skipped: DC jack, micro-USB, reset/ISP button, LEDs, and an unlabeled 2x4 pad block near the bottom center (no labels). Labels use board port names (P0_x/P1_x) and power names as printed; function boxes (AnalogIn, PwmOut, SPI/UART/I2C) recorded as functions. Silkscreen text on headers matches diagram labels except where noted. The SPI header and the I2C/UART connectors are only marginally nearer the micro-USB at their right ends; the USB-nearest rule was applied as written."
+}

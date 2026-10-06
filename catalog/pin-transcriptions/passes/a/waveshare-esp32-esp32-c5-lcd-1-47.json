@@ -1,0 +1,169 @@
+{
+  "recordId": "waveshare-esp32-esp32-c5-lcd-1-47",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/d80e0ba8ffa314a8087bcaa278b0a0ca38cb24157d7c73092f20f9a14da221dc.jpg",
+      "sha256": "d80e0ba8ffa314a8087bcaa278b0a0ca38cb24157d7c73092f20f9a14da221dc"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/d80e0ba8ffa314a8087bcaa278b0a0ca38cb24157d7c73092f20f9a14da221dc.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at top (end closest to the USB-C connector).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3(OUT)",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO0",
+          "functions": [
+            "0",
+            "ADC1_CH0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO1",
+          "functions": [
+            "1",
+            "ADC1_CH1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO2",
+          "functions": [
+            "2",
+            "ADC1_CH2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO3",
+          "functions": [
+            "3",
+            "ADC1_CH3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO4",
+          "functions": [
+            "4",
+            "ADC1_CH4"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO5",
+          "functions": [
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/d80e0ba8ffa314a8087bcaa278b0a0ca38cb24157d7c73092f20f9a14da221dc.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at top (end closest to the USB-C connector).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO11",
+          "functions": [
+            "TXD",
+            "UART0_TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO12",
+          "functions": [
+            "RXD",
+            "UART0_RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO14",
+          "functions": [
+            "14",
+            "USB_P"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO13",
+          "functions": [
+            "13",
+            "USB_N"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO9",
+          "functions": [
+            "9"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO15",
+          "functions": [
+            "15"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO27",
+          "functions": [
+            "27"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "RESET",
+          "functions": [
+            "R"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO28",
+          "functions": [
+            "B",
+            "BOOT"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "Letter O vs digit 0 cannot be told apart in GPIO0, ADC1_CH0, UART0_TX, UART0_RX; read as 0."
+  ],
+  "uncertain": [],
+  "notes": "Waveshare ESP32-C5-LCD-1.47 pinout (board silkscreen 'ESP32-C5-LCD-1.47'). Board silkscreen recorded first in functions when it differs. The 'Used Pins' tables (LCD, TF Card, WS2812 assignments) list internal GPIO uses without physical positions and were not transcribed as connectors. Square pad at left GND is not treated as a pin-1 mark. Skipped per rule 1: BOOT/RST buttons, USB-C, TF card slot."
+}

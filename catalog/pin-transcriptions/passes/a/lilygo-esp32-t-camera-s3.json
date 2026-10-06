@@ -1,0 +1,135 @@
+{
+  "recordId": "lilygo-esp32-t-camera-s3",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/0dd67e49ff9acce02dd9c26a220bd79adf6f7d80d465f894242db6e23351181e.jpg",
+      "sha256": "0dd67e49ff9acce02dd9c26a220bd79adf6f7d80d465f894242db6e23351181e"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header (rear view)",
+      "image": "media/0dd67e49ff9acce02dd9c26a220bd79adf6f7d80d465f894242db6e23351181e.jpg",
+      "rows": 1,
+      "orderNote": "Labels read from the rear (left) board view, which does not show the USB-C connector (only the front view does); per rule 9 numbered from the top of that view down.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IO45",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO03",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IO46",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header (rear view)",
+      "image": "media/0dd67e49ff9acce02dd9c26a220bd79adf6f7d80d465f894242db6e23351181e.jpg",
+      "rows": 1,
+      "orderNote": "Labels read from the rear (left) board view, which does not show the USB-C connector (only the front view does); per rule 9 numbered from the top of that view down.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO01",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "TXD",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RXD",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "NC",
+          "functions": [
+            "IO37"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "NC",
+          "functions": [
+            "IO36"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "NC",
+          "functions": [
+            "IO35"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jst-5pin",
+      "name": "JST 2.0mm 5PIN",
+      "image": "media/0dd67e49ff9acce02dd9c26a220bd79adf6f7d80d465f894242db6e23351181e.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal connector in the rear view (no USB visible there) numbered from the left.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IO16",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "IO15",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "IO01/IO03/IO45/IO46 and silkscreen IO37/IO36/IO35: O vs 0 not distinguishable; 0 used."
+  ],
+  "uncertain": [
+    "Right header positions 4-6: callout labels print \"NC\" but the board silkscreen next to the same holes reads IO37, IO36, IO35; recorded label NC with silkscreen in functions. Which is correct is unresolved.",
+    "Pin order: one image holds a rear view (labels, no USB) and a front view (USB-C at bottom). Rule 9 applied per view (top-first); if the whole image counts, USB-nearest would reverse both headers."
+  ],
+  "notes": "Function-only lists (Camera, SSD1306, AXP2101, Microphone, Pir, Boot) have no physical positions and were skipped. JST-GH 1.25mm battery connector (pins not labeled), USB-C and front-view header pads (same holes, unlabeled) not transcribed. Silkscreen next to the header reads IO01, TXD, RXD, IO37/36/35 as \"IO001, IO37...\" - only differing spellings added."
+}

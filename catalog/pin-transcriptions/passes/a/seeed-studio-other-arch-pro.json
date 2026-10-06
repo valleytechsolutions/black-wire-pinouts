@@ -1,0 +1,383 @@
+{
+  "recordId": "seeed-studio-other-arch-pro",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/a1a0532bc6c403616126462fdd8541bb12dd83deb01d5470a5a1cdf65e806809.png",
+      "sha256": "a1a0532bc6c403616126462fdd8541bb12dd83deb01d5470a5a1cdf65e806809"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-upper-header",
+      "name": "Left upper header (power)",
+      "image": "media/a1a0532bc6c403616126462fdd8541bb12dd83deb01d5470a5a1cdf65e806809.png",
+      "rows": 1,
+      "orderNote": "No pin-1 mark; vertical header read top to bottom, top end closest to USB",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P2_12",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IOREF",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-lower-header",
+      "name": "Left lower header (analog)",
+      "image": "media/a1a0532bc6c403616126462fdd8541bb12dd83deb01d5470a5a1cdf65e806809.png",
+      "rows": 1,
+      "orderNote": "No pin-1 mark; vertical header read top to bottom, top end closest to USB",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P0_23",
+          "functions": [
+            "AnalogIn"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P0_24",
+          "functions": [
+            "AnalogIn"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P0_25",
+          "functions": [
+            "AnalogIn",
+            "TXD3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P0_26",
+          "functions": [
+            "AnalogIn",
+            "RXD3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "P1_30",
+          "functions": [
+            "AnalogIn"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P1_31",
+          "functions": [
+            "AnalogIn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-upper-header",
+      "name": "Right upper header",
+      "image": "media/a1a0532bc6c403616126462fdd8541bb12dd83deb01d5470a5a1cdf65e806809.png",
+      "rows": 1,
+      "orderNote": "No pin-1 mark; vertical header read top to bottom, top end closest to USB",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P0_28",
+          "functions": [
+            "SCL0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P0_27",
+          "functions": [
+            "SDA0"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P2_13",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "P0_7",
+          "functions": [
+            "SCK"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P0_8",
+          "functions": [
+            "MISO"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "P0_9",
+          "functions": [
+            "MOSI"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "P0_6",
+          "functions": [
+            "SSEL"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "P0_1",
+          "functions": [
+            "RXD3",
+            "SCL1"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "P0_0",
+          "functions": [
+            "TXD3",
+            "SDA1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-lower-header",
+      "name": "Right lower header",
+      "image": "media/a1a0532bc6c403616126462fdd8541bb12dd83deb01d5470a5a1cdf65e806809.png",
+      "rows": 1,
+      "orderNote": "No pin-1 mark; vertical header read top to bottom, top end closest to USB",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P2_5",
+          "functions": [
+            "PwmOut"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P2_4",
+          "functions": [
+            "PwmOut"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P2_3",
+          "functions": [
+            "PwmOut"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P2_2",
+          "functions": [
+            "PwmOut"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "P0_5",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "P0_4",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "P4_28",
+          "functions": [
+            "TXD3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "P4_29",
+          "functions": [
+            "RXD3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "i2c-jst",
+      "name": "I2C 4-pin JST connector",
+      "image": "media/a1a0532bc6c403616126462fdd8541bb12dd83deb01d5470a5a1cdf65e806809.png",
+      "rows": 1,
+      "orderNote": "No pin-1 mark; horizontal connector read left to right (USB connectors are above; left/right ends roughly equidistant)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "P0_10",
+          "functions": [
+            "SDA",
+            "TXD2",
+            "SDA2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P0_11",
+          "functions": [
+            "SCL",
+            "RXD2",
+            "SCL2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uart-jst",
+      "name": "UART 4-pin JST connector",
+      "image": "media/a1a0532bc6c403616126462fdd8541bb12dd83deb01d5470a5a1cdf65e806809.png",
+      "rows": 1,
+      "orderNote": "No pin-1 mark; horizontal connector read left to right (USB connectors are above; left/right ends roughly equidistant)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "P2_0",
+          "functions": [
+            "TX",
+            "TXD1",
+            "PwmOut"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P2_1",
+          "functions": [
+            "RX",
+            "RXD1",
+            "PwmOut"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SPI",
+      "name": "SPI 2x3 header",
+      "image": "media/a1a0532bc6c403616126462fdd8541bb12dd83deb01d5470a5a1cdf65e806809.png",
+      "rows": 2,
+      "orderNote": "2xN rule: left end (closer to USB) first, outer (bottom, board-edge) row first, alternating rows",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "P0_16",
+          "functions": [
+            "SSEL",
+            "RXD1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P0_18",
+          "functions": [
+            "MOSI"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P0_15",
+          "functions": [
+            "SCK",
+            "TXD1"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "P0_17",
+          "functions": [
+            "MISO"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "JST connector pin order: USB connectors sit above both left and right ends, so \"closest to USB\" is ambiguous; read left to right.",
+    "SPI 2x3 header and JST pins were mapped by tracing parallel leader lines to the bottom callouts; I2C JST GND/3V3 pins have no leader line and use silkscreen only."
+  ],
+  "notes": "Labels are the blue/red callout names; silkscreen matches them. JST/SPI silkscreen names (SDA, SCL, TX, RX) listed first in functions."
+}

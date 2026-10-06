@@ -1,0 +1,194 @@
+{
+  "recordId": "m5stack-expansion-atomic-port-abc-base",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/7b8760c1e91164331cd0900c48ab941a5fc990b4a72512beb7df7529f721e925.png",
+      "sha256": "7b8760c1e91164331cd0900c48ab941a5fc990b4a72512beb7df7529f721e925"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "PA-atom",
+      "name": "Port A (I2C) - ATOM mapping",
+      "image": "media/7b8760c1e91164331cd0900c48ab941a5fc990b4a72512beb7df7529f721e925.png",
+      "rows": 1,
+      "orderNote": "No pin numbers, no USB shown; vertical port column started at top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "25",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "21",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "PB-atom",
+      "name": "Port B (GPIO) - ATOM mapping",
+      "image": "media/7b8760c1e91164331cd0900c48ab941a5fc990b4a72512beb7df7529f721e925.png",
+      "rows": 1,
+      "orderNote": "No pin numbers, no USB shown; vertical port column started at top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "23",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "33",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "PC-atom",
+      "name": "Port C (UART) - ATOM mapping",
+      "image": "media/7b8760c1e91164331cd0900c48ab941a5fc990b4a72512beb7df7529f721e925.png",
+      "rows": 1,
+      "orderNote": "No pin numbers, no USB shown; vertical port column started at top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "22",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "19",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "PA-atoms3",
+      "name": "Port A (I2C) - ATOMS3 mapping",
+      "image": "media/7b8760c1e91164331cd0900c48ab941a5fc990b4a72512beb7df7529f721e925.png",
+      "rows": 1,
+      "orderNote": "No pin numbers, no USB shown; vertical port column started at top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "38",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "39",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "PB-atoms3",
+      "name": "Port B (GPIO) - ATOMS3 mapping",
+      "image": "media/7b8760c1e91164331cd0900c48ab941a5fc990b4a72512beb7df7529f721e925.png",
+      "rows": 1,
+      "orderNote": "No pin numbers, no USB shown; vertical port column started at top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "7",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "8",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "PC-atoms3",
+      "name": "Port C (UART) - ATOMS3 mapping",
+      "image": "media/7b8760c1e91164331cd0900c48ab941a5fc990b4a72512beb7df7529f721e925.png",
+      "rows": 1,
+      "orderNote": "No pin numbers, no USB shown; vertical port column started at top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "5",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "6",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Image shows the three ports P.A/P.B/P.C twice: once with ATOM GPIO numbers and once with ATOMS3 GPIO numbers. Each panel transcribed as separate connectors; port category (I2C/GPIO/UART) placed in connector name.",
+  "uncertain": [
+    "The ATOM and ATOMS3 panels depict the same three physical ports with host-dependent GPIO numbers; transcribed as six connectors, which duplicates physical ports.",
+    "Image is a schematic port diagram, not a board photo; physical orientation of pins within each port is as drawn."
+  ]
+}

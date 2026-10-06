@@ -1,0 +1,1101 @@
+{
+ "recordId": "lattepanda-sigma",
+ "pass": "a",
+ "date": "2026-10-05",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/f7212666162a7fe02c8beebac48aa4235a621a7ed0c92d0f8bb5ac221ba61f57.webp",
+   "sha256": "f7212666162a7fe02c8beebac48aa4235a621a7ed0c92d0f8bb5ac221ba61f57"
+  },
+  {
+   "file": "media/8c5289c7d62c00bd790a3a3b2583f96dbd4fe75fc8c7a93b99ce9eec0c306486.webp",
+   "sha256": "8c5289c7d62c00bd790a3a3b2583f96dbd4fe75fc8c7a93b99ce9eec0c306486"
+  },
+  {
+   "file": "media/2aa5ff6aca97d98acf2257be99470abfc2f328f76ea269fa2ac643ad3ea5072c.webp",
+   "sha256": "2aa5ff6aca97d98acf2257be99470abfc2f328f76ea269fa2ac643ad3ea5072c"
+  },
+  {
+   "file": "media/a491825978c54f72ab9e8dcd41072ab48657a634e3230786da60576616abcb90.webp",
+   "sha256": "a491825978c54f72ab9e8dcd41072ab48657a634e3230786da60576616abcb90"
+  },
+  {
+   "file": "media/f7167c9443753c5a2575c5e1a1b94632eebb82e79041604e6fa5d9645f0a8230.webp",
+   "sha256": "f7167c9443753c5a2575c5e1a1b94632eebb82e79041604e6fa5d9645f0a8230"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "A-USB2",
+   "name": "A-USB2",
+   "rows": 1,
+   "orderNote": "No USB shown; physical left-to-right order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "D+",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "D-",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "5V",
+     "functions": []
+    }
+   ],
+   "image": "media/f7212666162a7fe02c8beebac48aa4235a621a7ed0c92d0f8bb5ac221ba61f57.webp"
+  },
+  {
+   "id": "B-CPU-fan",
+   "name": "B-CPU-fan",
+   "rows": 1,
+   "orderNote": "No USB shown; physical left-to-right order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "PWM",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "Tach",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "12V",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": []
+    }
+   ],
+   "image": "media/f7212666162a7fe02c8beebac48aa4235a621a7ed0c92d0f8bb5ac221ba61f57.webp"
+  },
+  {
+   "id": "C-SATA-power",
+   "name": "C-SATA-power",
+   "rows": 1,
+   "orderNote": "No USB shown; physical left-to-right order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "12V",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "5V",
+     "functions": []
+    }
+   ],
+   "image": "media/f7212666162a7fe02c8beebac48aa4235a621a7ed0c92d0f8bb5ac221ba61f57.webp"
+  },
+  {
+   "id": "D-COM",
+   "name": "D-COM",
+   "rows": 2,
+   "orderNote": "Left to right, upper then lower row.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "RI",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "/",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "RTS",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "CTS",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "DSR",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "232_TX/485_B",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "DTR",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "DCD",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "232_RX/485_A",
+     "functions": []
+    }
+   ],
+   "image": "media/f7212666162a7fe02c8beebac48aa4235a621a7ed0c92d0f8bb5ac221ba61f57.webp"
+  },
+  {
+   "id": "E-front-panel",
+   "name": "E-front-panel",
+   "rows": 2,
+   "orderNote": "Left to right, upper then lower row.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "PWR_LED+",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "HDD_LED+",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "PWR_LED-",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "HDD_LED-",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "PWR_BTN",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "RST_BTN",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "/",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "NC",
+     "functions": []
+    }
+   ],
+   "image": "media/f7212666162a7fe02c8beebac48aa4235a621a7ed0c92d0f8bb5ac221ba61f57.webp"
+  },
+  {
+   "id": "F-front-audio",
+   "name": "F-front-audio",
+   "rows": 2,
+   "orderNote": "Left to right, upper then lower row.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "MIC_L",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "ACZ_DET",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "MIC_R",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "MIC_JD",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "HPOUT_R",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "/",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "FAUDIO_JD",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "HPOUT_JD",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "HPOUT_L",
+     "functions": []
+    }
+   ],
+   "image": "media/f7212666162a7fe02c8beebac48aa4235a621a7ed0c92d0f8bb5ac221ba61f57.webp"
+  },
+  {
+   "id": "G-GPIO",
+   "name": "G-GPIO",
+   "rows": 2,
+   "orderNote": "Left to right, upper then lower row; central non-contact gap omitted.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "MCU5V",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "MISO",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "MOSI",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "SCK",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "RST",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "D0",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "D7",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "D1",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "D8",
+     "functions": []
+    },
+    {
+     "position": 11,
+     "label": "D2",
+     "functions": []
+    },
+    {
+     "position": 12,
+     "label": "D9",
+     "functions": []
+    },
+    {
+     "position": 13,
+     "label": "D3",
+     "functions": []
+    },
+    {
+     "position": 14,
+     "label": "D10",
+     "functions": []
+    },
+    {
+     "position": 15,
+     "label": "D4",
+     "functions": []
+    },
+    {
+     "position": 16,
+     "label": "D11",
+     "functions": []
+    },
+    {
+     "position": 17,
+     "label": "D5",
+     "functions": []
+    },
+    {
+     "position": 18,
+     "label": "D12",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "D6",
+     "functions": []
+    },
+    {
+     "position": 20,
+     "label": "D13",
+     "functions": []
+    },
+    {
+     "position": 21,
+     "label": "A0",
+     "functions": []
+    },
+    {
+     "position": 22,
+     "label": "A3",
+     "functions": []
+    },
+    {
+     "position": 23,
+     "label": "A1",
+     "functions": []
+    },
+    {
+     "position": 24,
+     "label": "A4",
+     "functions": []
+    },
+    {
+     "position": 25,
+     "label": "A2",
+     "functions": []
+    },
+    {
+     "position": 26,
+     "label": "A5",
+     "functions": []
+    },
+    {
+     "position": 27,
+     "label": "5V",
+     "functions": []
+    },
+    {
+     "position": 28,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 29,
+     "label": "5V",
+     "functions": []
+    },
+    {
+     "position": 30,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 31,
+     "label": "S4",
+     "functions": []
+    },
+    {
+     "position": 32,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 33,
+     "label": "S0",
+     "functions": []
+    },
+    {
+     "position": 34,
+     "label": "S3",
+     "functions": []
+    }
+   ],
+   "image": "media/f7212666162a7fe02c8beebac48aa4235a621a7ed0c92d0f8bb5ac221ba61f57.webp"
+  },
+  {
+   "id": "H-power-in",
+   "name": "H-power-in",
+   "rows": 2,
+   "orderNote": "Left to right, upper then lower row.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "Power_IN",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "Power_IN",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "Power_IN",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "Power_IN",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "GND",
+     "functions": []
+    }
+   ],
+   "image": "media/f7212666162a7fe02c8beebac48aa4235a621a7ed0c92d0f8bb5ac221ba61f57.webp"
+  },
+  {
+   "id": "I-eDP-img2",
+   "name": "I-eDP",
+   "rows": 1,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "NC-Reserved",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "H_GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "Lane3_N",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "Lane3_P",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "H_GND",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "Lane2_N",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "Lane2_P",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "H_GND",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "Lane1_N",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "Lane1_P",
+     "functions": []
+    },
+    {
+     "position": 11,
+     "label": "H_GND",
+     "functions": []
+    },
+    {
+     "position": 12,
+     "label": "Lane0_N",
+     "functions": []
+    },
+    {
+     "position": 13,
+     "label": "Lane0_P",
+     "functions": []
+    },
+    {
+     "position": 14,
+     "label": "H_GND",
+     "functions": []
+    },
+    {
+     "position": 15,
+     "label": "AUX_CH_P",
+     "functions": []
+    },
+    {
+     "position": 16,
+     "label": "AUX_CH_N",
+     "functions": []
+    },
+    {
+     "position": 17,
+     "label": "H_GND",
+     "functions": []
+    },
+    {
+     "position": 18,
+     "label": "LCD_VCC",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "LCD_VCC",
+     "functions": []
+    },
+    {
+     "position": 20,
+     "label": "LCD_VCC",
+     "functions": []
+    },
+    {
+     "position": 21,
+     "label": "LCD_VCC",
+     "functions": []
+    },
+    {
+     "position": 22,
+     "label": "BIST",
+     "functions": []
+    },
+    {
+     "position": 23,
+     "label": "LCD_GND",
+     "functions": []
+    },
+    {
+     "position": 24,
+     "label": "LCD_GND",
+     "functions": []
+    },
+    {
+     "position": 25,
+     "label": "LCD_GND",
+     "functions": []
+    },
+    {
+     "position": 26,
+     "label": "LCD_GND",
+     "functions": []
+    },
+    {
+     "position": 27,
+     "label": "HPD",
+     "functions": []
+    },
+    {
+     "position": 28,
+     "label": "BL_GND",
+     "functions": []
+    },
+    {
+     "position": 29,
+     "label": "BL_GND",
+     "functions": []
+    },
+    {
+     "position": 30,
+     "label": "BL_GND",
+     "functions": []
+    },
+    {
+     "position": 31,
+     "label": "BL_GND",
+     "functions": []
+    },
+    {
+     "position": 32,
+     "label": "BL_ENABLE",
+     "functions": []
+    },
+    {
+     "position": 33,
+     "label": "BL_PWM_DIM",
+     "functions": []
+    },
+    {
+     "position": 34,
+     "label": "NC - RESERVED",
+     "functions": []
+    },
+    {
+     "position": 35,
+     "label": "NC - RESERVED",
+     "functions": []
+    },
+    {
+     "position": 36,
+     "label": "BL PWR",
+     "functions": []
+    },
+    {
+     "position": 37,
+     "label": "BL PWR",
+     "functions": []
+    },
+    {
+     "position": 38,
+     "label": "BL PWR",
+     "functions": []
+    },
+    {
+     "position": 39,
+     "label": "BL PWR",
+     "functions": []
+    },
+    {
+     "position": 40,
+     "label": "NC_RESERVED",
+     "functions": []
+    }
+   ],
+   "image": "media/8c5289c7d62c00bd790a3a3b2583f96dbd4fe75fc8c7a93b99ce9eec0c306486.webp"
+  },
+  {
+   "id": "J-touch-img2",
+   "name": "J-touch",
+   "rows": 1,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "3.3V",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "INT",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "RESET",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "I2C_SDA",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "I2C_SCL",
+     "functions": []
+    }
+   ],
+   "image": "media/8c5289c7d62c00bd790a3a3b2583f96dbd4fe75fc8c7a93b99ce9eec0c306486.webp"
+  },
+  {
+   "id": "K-RTC-battery-img2",
+   "name": "K-RTC-battery",
+   "rows": 1,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "+BAT",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    }
+   ],
+   "image": "media/8c5289c7d62c00bd790a3a3b2583f96dbd4fe75fc8c7a93b99ce9eec0c306486.webp"
+  },
+  {
+   "id": "GPIO-img3",
+   "name": "GPIO",
+   "rows": 2,
+   "orderNote": "Left to right, upper then lower row; central non-contact gap omitted.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "MCU5V",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "MISO",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "MOSI",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "SCK",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "RESET",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "D0",
+     "functions": [
+      "RX"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "D7",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "D1",
+     "functions": [
+      "TX"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "D8",
+     "functions": []
+    },
+    {
+     "position": 11,
+     "label": "D2",
+     "functions": [
+      "SDA"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "D9",
+     "functions": []
+    },
+    {
+     "position": 13,
+     "label": "D3",
+     "functions": [
+      "SCL"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "D10",
+     "functions": []
+    },
+    {
+     "position": 15,
+     "label": "D4",
+     "functions": []
+    },
+    {
+     "position": 16,
+     "label": "D11",
+     "functions": []
+    },
+    {
+     "position": 17,
+     "label": "D5",
+     "functions": []
+    },
+    {
+     "position": 18,
+     "label": "D12",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "D6",
+     "functions": []
+    },
+    {
+     "position": 20,
+     "label": "D13",
+     "functions": [
+      "D13 LED"
+     ]
+    },
+    {
+     "position": 21,
+     "label": "A0",
+     "functions": []
+    },
+    {
+     "position": 22,
+     "label": "A3",
+     "functions": []
+    },
+    {
+     "position": 23,
+     "label": "A1",
+     "functions": []
+    },
+    {
+     "position": 24,
+     "label": "A4",
+     "functions": []
+    },
+    {
+     "position": 25,
+     "label": "A2",
+     "functions": []
+    },
+    {
+     "position": 26,
+     "label": "A5",
+     "functions": []
+    },
+    {
+     "position": 27,
+     "label": "5V",
+     "functions": []
+    },
+    {
+     "position": 28,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 29,
+     "label": "5V",
+     "functions": []
+    },
+    {
+     "position": 30,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 31,
+     "label": "S4",
+     "functions": []
+    },
+    {
+     "position": 32,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 33,
+     "label": "S0",
+     "functions": []
+    },
+    {
+     "position": 34,
+     "label": "S3",
+     "functions": []
+    }
+   ],
+   "image": "media/2aa5ff6aca97d98acf2257be99470abfc2f328f76ea269fa2ac643ad3ea5072c.webp"
+  },
+  {
+   "id": "front-panel-img4",
+   "name": "front-panel",
+   "rows": 2,
+   "orderNote": "Left to right, upper then lower row.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "PWR_LED+",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "HDD_LED+",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "PWR_LED-",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "HDD_LED-",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "PWR_BTN",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "RST_BTN",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "/",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "NC",
+     "functions": []
+    }
+   ],
+   "image": "media/a491825978c54f72ab9e8dcd41072ab48657a634e3230786da60576616abcb90.webp"
+  },
+  {
+   "id": "COM-img5",
+   "name": "COM",
+   "rows": 2,
+   "orderNote": "Left to right, upper then lower row.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "RI",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "/",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "RTS",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "CTS",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "DSR",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "232_TX/485_B",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "DTR",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "DCD",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "232_RX/485_A",
+     "functions": []
+    }
+   ],
+   "image": "media/f7167c9443753c5a2575c5e1a1b94632eebb82e79041604e6fa5d9645f0a8230.webp"
+  }
+ ],
+ "notes": "Slash markings at keyed missing positions retained for connector grids; GPIO central spacer has no contacts. Standalone closeups lack numbering and a reliable outer-row anchor.",
+ "unreadable": [],
+ "uncertain": [
+  "Two-row closeups do not establish outer-row convention; provisional upper-first ordering requires review."
+ ]
+}

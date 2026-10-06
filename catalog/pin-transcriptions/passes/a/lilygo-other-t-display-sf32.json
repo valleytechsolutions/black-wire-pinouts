@@ -1,0 +1,226 @@
+{
+  "recordId": "lilygo-other-t-display-sf32",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/d65268cbaf81d9e8a0a767a49d192dc74a2ce8a92ef2ce2ae584e4349be1c444.jpg",
+      "sha256": "d65268cbaf81d9e8a0a767a49d192dc74a2ce8a92ef2ce2ae584e4349be1c444"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "expansion-header",
+      "name": "20-pin 2x10 expansion header",
+      "image": "media/d65268cbaf81d9e8a0a767a49d192dc74a2ce8a92ef2ce2ae584e4349be1c444.jpg",
+      "rows": 2,
+      "orderNote": "Pin numbers printed (1 and 10 on the top row, 11 and 20 on the bottom row; No.1 and No.20 marked); positions follow the printed numbers 1-20 from the callout list (first line = pins 1-10, second line = pins 11-20).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "PA11",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "SCK",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "LORA_MISO",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "BAT OUT",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "PA10",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "PA40",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "PA39",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "PA36",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "LORA_MOSI",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "RX",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "VBAT",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "qwiic-1",
+      "name": "QWIIC connector (left, SCL/SDA)",
+      "image": "media/d65268cbaf81d9e8a0a767a49d192dc74a2ce8a92ef2ce2ae584e4349be1c444.jpg",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; horizontal row, started at the end closest to the USB-C connector (left), labels taken left to right from the callout box.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "qwiic-2",
+      "name": "QWIIC connector (right, PA40/PA39)",
+      "image": "media/d65268cbaf81d9e8a0a767a49d192dc74a2ce8a92ef2ce2ae584e4349be1c444.jpg",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; horizontal row, started at the end closest to the USB-C connector (left), labels taken left to right from the callout box.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PA40",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "PA39",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "pogo-pads",
+      "name": "4 contact pads D/C/B/A (top-right view)",
+      "image": "media/d65268cbaf81d9e8a0a767a49d192dc74a2ce8a92ef2ce2ae584e4349be1c444.jpg",
+      "rows": 1,
+      "orderNote": "No pin-1 mark and no USB connector in this view; horizontal row ordered left to right.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D",
+          "functions": [
+            "Power_INT",
+            "SGM41562B_INT"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PA33",
+          "functions": [
+            "C"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA35",
+          "functions": [
+            "B"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA34",
+          "functions": [
+            "A"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Expansion header list printed as two comma-separated lines next to the header photo with No.1 and No.20 marks. QWIIC callout boxes connect by leader lines: SCL SDA 3V3 GND to the left QWIIC, PA40 PA39 3V3 GND to the right one. Contact pads carry printed letters D, C, B, A. Peripheral tables (LoRa, AMOLED, IMU, Touch, TF card) are not wiring points. MMCX antenna skipped.",
+  "uncertain": [
+    "expansion-header: the label list is printed as two lines in a box rather than beside each pin; mapping line 1 to pins 1-10 and line 2 to pins 11-20 (left to right) is inferred from the No.1/No.20 marks.",
+    "pogo-pads: the PA33/PA35/PA34 boxes sit above the pads but are offset from them; mapping PA33=C, PA35=B, PA34=A and Power_INT=D (leader line) is inferred.",
+    "QWIIC connectors: per-pin labels are in callout boxes, not beside each contact; left-to-right correspondence assumed."
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "recordId": "adafruit-rotary-trinkey",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/17ce093d02567cd81322f2e55a9cd1a908c59db506d6fd598b3013629b96e4c7.png",
+      "sha256": "17ce093d02567cd81322f2e55a9cd1a908c59db506d6fd598b3013629b96e4c7"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "encoder-right",
+      "name": "Rotary encoder pins (right side, A/common/B)",
+      "image": "media/17ce093d02567cd81322f2e55a9cd1a908c59db506d6fd598b3013629b96e4c7.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row with ends equidistant from the USB plug (left), started at top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PA00",
+          "functions": [
+            "ROTB",
+            "1",
+            "0",
+            "S1.0",
+            "TCC2[0]"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PA04",
+          "functions": [
+            "ROTA",
+            "2/A1",
+            "4",
+            "VREFB",
+            "AIN4",
+            "Y2",
+            "S0.0",
+            "TCC0[0]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "encoder-left",
+      "name": "Rotary encoder switch pins (left side)",
+      "image": "media/17ce093d02567cd81322f2e55a9cd1a908c59db506d6fd598b3013629b96e4c7.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row with ends equidistant from the USB plug (left), started at top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PA27",
+          "functions": [
+            "SWITCH",
+            "3",
+            "15"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "?",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "edge-pads",
+      "name": "Touch edge pad (right edge)",
+      "image": "media/17ce093d02567cd81322f2e55a9cd1a908c59db506d6fd598b3013629b96e4c7.png",
+      "rows": 1,
+      "orderNote": "Single pad",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PA06",
+          "functions": [
+            "TOUCH",
+            "4/A2",
+            "6",
+            "AIN6",
+            "Y4",
+            "S0.2",
+            "TCC1[0]"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "encoder-right position 2: middle encoder pin has no callout (unlabeled)",
+    "encoder-left position 2: lower-left encoder pin has no callout (unlabeled)"
+  ],
+  "notes": "Encoder through-holes transcribed as wiring points (as for key-switch holes on other Trinkeys); callout lines show ROTB to the upper-right pin, ROTA to the lower-right pin, SWITCH to the upper-left pin. TOUCH callout line ends at the gold right-edge pad, not at the middle encoder pin. NEOPIXEL (on-board LED) skipped."
+}

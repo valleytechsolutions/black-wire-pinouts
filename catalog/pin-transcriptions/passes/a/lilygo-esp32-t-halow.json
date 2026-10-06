@@ -1,0 +1,293 @@
+{
+  "recordId": "lilygo-esp32-t-halow",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/0ba76f0dccd19b420b925cf4cc30f7743ed581e2591ea72901891e22569d967d.jpg",
+      "sha256": "0ba76f0dccd19b420b925cf4cc30f7743ed581e2591ea72901891e22569d967d"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/0ba76f0dccd19b420b925cf4cc30f7743ed581e2591ea72901891e22569d967d.jpg",
+      "rows": 1,
+      "orderNote": "No printed position numbers; the USB-C sits on the right edge below the middle, nearer the bottom end, so started at the bottom (VBAT).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO14",
+          "functions": [
+            "IO14",
+            "14",
+            "TOUCH14",
+            "ADC2_CH3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO13",
+          "functions": [
+            "IO13",
+            "13",
+            "TOUCH13",
+            "ADC2_CH2"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO12",
+          "functions": [
+            "IO12",
+            "12",
+            "TOUCH12",
+            "ADC2_CH1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO11",
+          "functions": [
+            "IO11",
+            "11",
+            "TOUCH11",
+            "ADC2_CH0"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO10",
+          "functions": [
+            "IO10",
+            "10",
+            "TOUCH10",
+            "ADC1_CH0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO09",
+          "functions": [
+            "IO9",
+            "09",
+            "TOUCH01",
+            "ADC1_CH9"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO46",
+          "functions": [
+            "IO46",
+            "46"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO03",
+          "functions": [
+            "IO3",
+            "03",
+            "TOUCH03",
+            "ADC1_CH3"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO08",
+          "functions": [
+            "IO8",
+            "08",
+            "TOUCH08",
+            "ADC1_CH8"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO18",
+          "functions": [
+            "IO18",
+            "18",
+            "U1RXD"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO17",
+          "functions": [
+            "IO17",
+            "17",
+            "U1TXD"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO16",
+          "functions": [
+            "IO16",
+            "16",
+            "U0CTS"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "3V",
+          "functions": [
+            "3V3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/0ba76f0dccd19b420b925cf4cc30f7743ed581e2591ea72901891e22569d967d.jpg",
+      "rows": 1,
+      "orderNote": "No printed position numbers; the USB-C sits on the right edge below the middle, nearer the bottom end, so started at the bottom (5V).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": [
+            "5VIN"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO21",
+          "functions": [
+            "IO21",
+            "21"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO47",
+          "functions": [
+            "IO47",
+            "47"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO48",
+          "functions": [
+            "IO48",
+            "48"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO45",
+          "functions": [
+            "IO45",
+            "45"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO00",
+          "functions": [
+            "IO0",
+            "0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO40",
+          "functions": [
+            "IO40",
+            "40",
+            "MTDO"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO41",
+          "functions": [
+            "IO41",
+            "41",
+            "MTDI"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO15",
+          "functions": [
+            "IO15",
+            "15",
+            "U0RTS"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO07",
+          "functions": [
+            "IO7",
+            "7",
+            "TOUCH07"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO06",
+          "functions": [
+            "IO6",
+            "6",
+            "TOUCH06"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GPIO44",
+          "functions": [
+            "RX"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO43",
+          "functions": [
+            "TX"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Labels from the callouts (GPIO names / power names); board silkscreen spellings (IO16, 3V3, 5VIN...) first in functions, then callouts read outward. Left top callout reads '3V' while silkscreen reads 3V3. GPIO09 callout carries TOUCH01 (copied as printed). Camera, TF card and Halow module lists are internal assignments; skipped. Small top-right images show other board sides without pin labels.",
+  "uncertain": []
+}

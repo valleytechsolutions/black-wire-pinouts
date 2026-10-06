@@ -1,0 +1,79 @@
+{
+  "recordId": "seeed-studio-other-air602-wifi-development-board",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/cc7fb932e91c019f1a21c96706f4861bb8b428975ce9e3f5b1911e94762a0aa9.jpg",
+      "sha256": "cc7fb932e91c019f1a21c96706f4861bb8b428975ce9e3f5b1911e94762a0aa9"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "right-header",
+      "name": "Right edge 6-pin header",
+      "image": "media/cc7fb932e91c019f1a21c96706f4861bb8b428975ce9e3f5b1911e94762a0aa9.jpg",
+      "rows": 1,
+      "orderNote": "Pin numbers 1-6 printed in the callouts (top to bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "TX1",
+          "functions": [
+            "UART1_TX",
+            "SPI",
+            "H_SPI_DO"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "RX1",
+          "functions": [
+            "UART1_RX",
+            "SPI",
+            "H_SPI_DI"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "RTS",
+          "functions": [
+            "UART1_RTS",
+            "SPI",
+            "H_SPI_CSCTS"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "CTS",
+          "functions": [
+            "UART1_CTS",
+            "SPI",
+            "H_SPI_INT"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PB_8",
+          "functions": [
+            "IO",
+            "GPIO",
+            "SPI",
+            "H_SPI_CK"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Board silkscreen reads 'EVB_W602_A11'; the image does not print 'Air602', so identity with the Air602 WiFi Development Board is assumed from context only."
+  ],
+  "notes": "Legend notes per pin: 'also can work as SPI'. Pin 1 described as 'the system GND'."
+}

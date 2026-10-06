@@ -1,0 +1,321 @@
+{
+  "recordId": "waveshare-rp2350-rp2350-touch-lcd-2-8",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/04863ba9d682255d3501b042c97bfaa5985f6579aabecb80a1bc9cb3b3fb7ddc.jpg",
+      "sha256": "04863ba9d682255d3501b042c97bfaa5985f6579aabecb80a1bc9cb3b3fb7ddc"
+    },
+    {
+      "file": "media/f1b69f9e53b619a0642950c98b7650386e82e1f7bc0b38b8dfc19feed0a51193.jpg",
+      "sha256": "f1b69f9e53b619a0642950c98b7650386e82e1f7bc0b38b8dfc19feed0a51193"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "fpc-connector",
+      "name": "12-pin FPC connector (left)",
+      "image": "media/04863ba9d682255d3501b042c97bfaa5985f6579aabecb80a1bc9cb3b3fb7ddc.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at the end closest to the USB-C connector (bottom end) and read upward.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VBus",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "D-",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "D+",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO7",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO6",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO0",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO1",
+          "functions": [
+            "RXD"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO28",
+          "functions": [
+            "IO28"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO29",
+          "functions": [
+            "IO29"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "i2c-connector",
+      "name": "I2C JST connector",
+      "image": "media/04863ba9d682255d3501b042c97bfaa5985f6579aabecb80a1bc9cb3b3fb7ddc.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at the end closest to the USB-C connector (right end) and read leftward.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO7",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO6",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "uart-connector",
+      "name": "UART JST connector",
+      "image": "media/04863ba9d682255d3501b042c97bfaa5985f6579aabecb80a1bc9cb3b3fb7ddc.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at the end closest to the USB-C connector (left end) and read rightward.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO0",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO1",
+          "functions": [
+            "RXD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fpc-connector-img2",
+      "name": "12-pin FPC connector (left)",
+      "image": "media/f1b69f9e53b619a0642950c98b7650386e82e1f7bc0b38b8dfc19feed0a51193.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at the end closest to the USB-C connector (bottom end) and read upward.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VBus",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "D-",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "D+",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO7",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO6",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO0",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO1",
+          "functions": [
+            "RXD"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO28",
+          "functions": [
+            "IO28"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO29",
+          "functions": [
+            "IO29"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "i2c-connector-img2",
+      "name": "I2C JST connector",
+      "image": "media/f1b69f9e53b619a0642950c98b7650386e82e1f7bc0b38b8dfc19feed0a51193.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at the end closest to the USB-C connector (right end) and read leftward.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO7",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO6",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "uart-connector-img2",
+      "name": "UART JST connector",
+      "image": "media/f1b69f9e53b619a0642950c98b7650386e82e1f7bc0b38b8dfc19feed0a51193.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at the end closest to the USB-C connector (left end) and read rightward.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO1",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO0",
+          "functions": [
+            "RXD"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "The UART connector callouts disagree between images: image 1 prints TXD(GPIO0)/RXD(GPIO1), image 2 prints TXD(GPIO1)/RXD(GPIO0). Both transcribed as printed; the FPC connector in both images prints TXD(GPIO0)/RXD(GPIO1)."
+  ],
+  "notes": "Both images show the same board artwork (12-pin FPC connector, I2C and UART JST connectors); the product name is not printed in either image. Transcribed from each image separately. Callouts such as RXD(GPIO1) use the GPIO name as label with the signal name in functions."
+}

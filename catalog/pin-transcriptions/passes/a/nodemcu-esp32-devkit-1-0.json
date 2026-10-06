@@ -1,0 +1,252 @@
+{
+  "recordId": "nodemcu-esp32-devkit-1-0",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/6109f3520520ffe961bd0e60aa7c1dfba90046151e3da33eea69d17cb34eaefa.png",
+      "sha256": "6109f3520520ffe961bd0e60aa7c1dfba90046151e3da33eea69d17cb34eaefa"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/6109f3520520ffe961bd0e60aa7c1dfba90046151e3da33eea69d17cb34eaefa.png",
+      "rows": 1,
+      "orderNote": "No pin 1 mark or pin numbers and no USB connector drawn; vertical row ordered top to bottom (rule 4).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A0",
+          "functions": [
+            "ADC0",
+            "TOUT"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "RSV",
+          "functions": [
+            "RESERVED"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "RSV",
+          "functions": [
+            "RESERVED"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO10",
+          "functions": [
+            "SD3",
+            "SDD3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO9",
+          "functions": [
+            "SD2",
+            "SDD2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "SD1",
+          "functions": [
+            "MOSI",
+            "SDD1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "CMD",
+          "functions": [
+            "CS",
+            "SDCMD"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "SD0",
+          "functions": [
+            "MISO",
+            "SDD0"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "CLK",
+          "functions": [
+            "SCLK",
+            "SDCLK"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "3.3V",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "VIN 5V",
+          "functions": [
+            "Vin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/6109f3520520ffe961bd0e60aa7c1dfba90046151e3da33eea69d17cb34eaefa.png",
+      "rows": 1,
+      "orderNote": "No pin 1 mark or pin numbers and no USB connector drawn; vertical row ordered top to bottom (rule 4).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO16",
+          "functions": [
+            "D0",
+            "USER",
+            "WAKE"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO5",
+          "functions": [
+            "D1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO4",
+          "functions": [
+            "D2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO0",
+          "functions": [
+            "D3",
+            "FLASH"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO2",
+          "functions": [
+            "D4",
+            "TXD1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "3.3V",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GPIO14",
+          "functions": [
+            "D5",
+            "HSCLK"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO12",
+          "functions": [
+            "D6",
+            "HMISO"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO13",
+          "functions": [
+            "D7",
+            "RXD2",
+            "HMOSI"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO15",
+          "functions": [
+            "D8",
+            "TXD2",
+            "HCS"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO3",
+          "functions": [
+            "D9",
+            "RXD0"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO1",
+          "functions": [
+            "D10",
+            "TXD0"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "3.3V",
+          "functions": [
+            "3V3"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Image is a 'PIN DEFINITION' drawing of a board labeled DEVKIT (not a photo). Board names (A0, RSV, SD3, D0...) are the inner labels; GPIO names used as label per rule 5, otherwise the board name; power pins use the printed function box ('3.3V', 'VIN 5V') with the board spelling first in functions. The colour legend at far left (5V POWER, 3.3V, GROUND, GPIO, SDIO, UART, HSPI/SPI, KEY, SYSTEM, ADC, RESERVED) is a key, not pins, and was skipped. Footnote printed under the diagram: D0(GPIO16) can only be used as gpio read/write, no interrupt, no pwm/i2c/ow supported."
+}

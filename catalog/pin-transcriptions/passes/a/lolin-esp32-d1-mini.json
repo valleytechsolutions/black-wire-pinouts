@@ -1,0 +1,202 @@
+{
+  "recordId": "lolin-esp32-d1-mini",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/615f9b048af8abdb7ccd719e43ef2c4c23ef29f0ceec770778a93c1843ea69b2.jpg",
+      "sha256": "615f9b048af8abdb7ccd719e43ef2c4c23ef29f0ceec770778a93c1843ea69b2"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/615f9b048af8abdb7ccd719e43ef2c4c23ef29f0ceec770778a93c1843ea69b2.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at bottom (end closest to the micro-USB connector).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3v3",
+          "functions": [
+            "3V3",
+            "8"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO15",
+          "functions": [
+            "D8",
+            "16",
+            "IO15",
+            "SS",
+            "HSPICS",
+            "RTS0",
+            "TX2",
+            "Not Pull-Down"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO13",
+          "functions": [
+            "D7",
+            "7",
+            "IO13",
+            "MOSI",
+            "HSPID",
+            "CTS0",
+            "RX2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO12",
+          "functions": [
+            "D6",
+            "6",
+            "IO12",
+            "MISO",
+            "HSPIQ"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO14",
+          "functions": [
+            "D5",
+            "5",
+            "IO14",
+            "SCK",
+            "HSPICLK"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO16",
+          "functions": [
+            "D0",
+            "4",
+            "IO16",
+            "WAKE"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "A0",
+          "functions": [
+            "2",
+            "ADC0",
+            "TOUT"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "RST",
+          "functions": [
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/615f9b048af8abdb7ccd719e43ef2c4c23ef29f0ceec770778a93c1843ea69b2.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at bottom (end closest to the micro-USB connector).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5v",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "G",
+            "15"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO2",
+          "functions": [
+            "D4",
+            "17",
+            "IO2",
+            "TXD 1",
+            "BUILTIN LED",
+            "Not Pull-Down"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO0",
+          "functions": [
+            "D3",
+            "18",
+            "IO0",
+            "Flash",
+            "CS2",
+            "Not Pull-Down"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO4",
+          "functions": [
+            "D2",
+            "19",
+            "IO4",
+            "SDA"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO5",
+          "functions": [
+            "D1",
+            "20",
+            "IO5",
+            "SCL"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO3",
+          "functions": [
+            "RX",
+            "21",
+            "IO3",
+            "RXD 0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO1",
+          "functions": [
+            "TX",
+            "22",
+            "IO1",
+            "TXD 0",
+            "CS1"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "Letter O vs digit 0 cannot be told apart in the diagram font (IO16..IO0, GPIO0, ADC0, CTS0, RTS0, TXD 0, RXD 0, silkscreen D0); read as 0 after the IO/GPIO prefix."
+  ],
+  "uncertain": [
+    "Board identity: the record is filed as an ESP32 D1 MINI, but the image is titled 'WeMos D1 mini' and shows a module labeled ESP-12F with ESP8266-style functions (GPIO16 WAKE, ADC0 TOUT); it may depict a different product than the record."
+  ],
+  "notes": "Third-party (mischianti.org) pinout titled 'WeMos D1 mini'. A0 pin labeled by board name because only ADC0/TOUT are printed (no GPIO name). Board silkscreen recorded first in functions, then the dark number box. HSPI CLK/Q/D/CS suffixes are printed as superscripts; recorded as HSPICLK, HSPIQ, HSPID, HSPICS. Skipped per rule 1: RESET button, micro-USB."
+}

@@ -1,0 +1,623 @@
+{
+  "recordId": "solder-party-rp2350-rp2350-stamp-xl",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/81a3951727d626e8957441b9ab2a6c30d198e9e8875ebf48a32b842133335db3.png",
+      "sha256": "81a3951727d626e8957441b9ab2a6c30d198e9e8875ebf48a32b842133335db3"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "top-edge",
+      "name": "Top edge castellated pads",
+      "image": "media/81a3951727d626e8957441b9ab2a6c30d198e9e8875ebf48a32b842133335db3.png",
+      "rows": 1,
+      "orderNote": "Labels are GPIO numbers, not position numbers; no USB connector drawn, so ordered left to right (top/left rule); pad mapping by leader lines",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BOOTSEL",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SWCLK",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SWDIO",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "USB D+",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "USB D-",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "3.3V",
+          "functions": [
+            "LDO power output, 500mA max"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "5V",
+          "functions": [
+            "3.6V-6.5V main power input"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "VBAT",
+          "functions": [
+            "3.6V-4.2V LiPo/LiIon positive terminal"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "LDO EN",
+          "functions": [
+            "Pull LOW to turn off the LDO"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "BAT STAT",
+          "functions": [
+            "LOW during charging, high impedance otherwise"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "47",
+          "functions": [
+            "COPI1",
+            "RTS0",
+            "SCL1",
+            "11B",
+            "A7",
+            "XIP CS"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "46",
+          "functions": [
+            "SCK1",
+            "CTS0",
+            "SDA1",
+            "11A",
+            "A6"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "45",
+          "functions": [
+            "CS1",
+            "RX0",
+            "SCL0",
+            "10B",
+            "A5"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "44",
+          "functions": [
+            "CIPO1",
+            "TX0",
+            "SDA0",
+            "10A",
+            "A4"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "43",
+          "functions": [
+            "COPI1",
+            "RTS1",
+            "SCL1",
+            "9B",
+            "A3"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "42",
+          "functions": [
+            "SCK1",
+            "CTS1",
+            "SDA1",
+            "9A",
+            "A2"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "41",
+          "functions": [
+            "CS1",
+            "RX1",
+            "SCL0",
+            "8B",
+            "A1"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "40",
+          "functions": [
+            "CIPO1",
+            "TX1",
+            "SDA0",
+            "8A",
+            "A0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-edge",
+      "name": "Left edge castellated pads",
+      "image": "media/81a3951727d626e8957441b9ab2a6c30d198e9e8875ebf48a32b842133335db3.png",
+      "rows": 1,
+      "orderNote": "GPIO numbers only; no USB connector drawn, ordered top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "0",
+          "functions": [
+            "CIPO0",
+            "TX0",
+            "SDA0",
+            "0A",
+            "XIP CS"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "1",
+          "functions": [
+            "CS0",
+            "RX0",
+            "SCL0",
+            "0B"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "2",
+          "functions": [
+            "SCK0",
+            "CTS0",
+            "SDA1",
+            "1A"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "3",
+          "functions": [
+            "COPI0",
+            "RTS0",
+            "SCL1",
+            "1B"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "4",
+          "functions": [
+            "CIPO0",
+            "TX1",
+            "SDA0",
+            "2A"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "5",
+          "functions": [
+            "CS0",
+            "RX1",
+            "SCL0",
+            "2B"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "6",
+          "functions": [
+            "SCK0",
+            "CTS1",
+            "SDA1",
+            "3A"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "7",
+          "functions": [
+            "COPI0",
+            "RTS1",
+            "SCL1",
+            "3B"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "8",
+          "functions": [
+            "CIPO1",
+            "TX1",
+            "SDA0",
+            "4A",
+            "XIP CS"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "9",
+          "functions": [
+            "CS1",
+            "RX1",
+            "SCL0",
+            "4B"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-edge",
+      "name": "Bottom edge castellated pads",
+      "image": "media/81a3951727d626e8957441b9ab2a6c30d198e9e8875ebf48a32b842133335db3.png",
+      "rows": 1,
+      "orderNote": "GPIO numbers only; no USB connector drawn, ordered left to right; pad mapping by leader lines",
+      "pins": [
+        {
+          "position": 1,
+          "label": "10",
+          "functions": [
+            "SCK1",
+            "CTS1",
+            "SDA1",
+            "5A"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "11",
+          "functions": [
+            "COPI1",
+            "RTS1",
+            "SCL1",
+            "5B"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "12",
+          "functions": [
+            "CIPO1",
+            "TX0",
+            "SDA0",
+            "6A",
+            "HSTX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "13",
+          "functions": [
+            "CS1",
+            "RX0",
+            "SCL0",
+            "6B",
+            "HSTX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "14",
+          "functions": [
+            "SCK1",
+            "CTS0",
+            "SDA1",
+            "7A",
+            "HSTX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "15",
+          "functions": [
+            "COPI1",
+            "RTS0",
+            "SCL1",
+            "7B",
+            "HSTX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "16",
+          "functions": [
+            "CIPO0",
+            "TX0",
+            "SDA0",
+            "0A",
+            "HSTX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "17",
+          "functions": [
+            "CS0",
+            "RX0",
+            "SCL0",
+            "0B",
+            "HSTX"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "18",
+          "functions": [
+            "SCK0",
+            "CTS0",
+            "SDA1",
+            "1A",
+            "HSTX"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "19",
+          "functions": [
+            "COPI0",
+            "RTS0",
+            "SCL1",
+            "1B",
+            "HSTX",
+            "XIP CS"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "20",
+          "functions": [
+            "CIPO0",
+            "TX1",
+            "SDA0",
+            "2A"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "21",
+          "functions": [
+            "CS0",
+            "RX1",
+            "SCL0",
+            "2B"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "22",
+          "functions": [
+            "SCK0",
+            "CTS1",
+            "SDA1",
+            "3A"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "23",
+          "functions": [
+            "COPI0",
+            "RTS1",
+            "SCL1",
+            "3B"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "24",
+          "functions": [
+            "CIPO1",
+            "TX1",
+            "SDA0",
+            "4A"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "25",
+          "functions": [
+            "CS1",
+            "RX1",
+            "SCL0",
+            "4B"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "26",
+          "functions": [
+            "SCK1",
+            "CTS1",
+            "SDA1",
+            "5A"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "27",
+          "functions": [
+            "COPI1",
+            "RTS1",
+            "SCL1",
+            "5B"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "28",
+          "functions": [
+            "CIPO1",
+            "TX0",
+            "SDA0",
+            "6A"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "29",
+          "functions": [
+            "CS1",
+            "RX0",
+            "SCL0",
+            "6B"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-edge",
+      "name": "Right edge castellated pads",
+      "image": "media/81a3951727d626e8957441b9ab2a6c30d198e9e8875ebf48a32b842133335db3.png",
+      "rows": 1,
+      "orderNote": "GPIO numbers only; no USB connector drawn, ordered top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "39",
+          "functions": [
+            "COPI0",
+            "RTS1",
+            "SCL1",
+            "11B"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "38",
+          "functions": [
+            "SCK0",
+            "CTS1",
+            "SDA1",
+            "11A"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "37",
+          "functions": [
+            "CS0",
+            "RX1",
+            "SCL0",
+            "10B"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "36",
+          "functions": [
+            "CIPO0",
+            "TX1",
+            "SDA0",
+            "10A"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "35",
+          "functions": [
+            "COPI0",
+            "RTS0",
+            "SCL1",
+            "9B"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "34",
+          "functions": [
+            "SCK0",
+            "CTS0",
+            "SDA1",
+            "9A"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "33",
+          "functions": [
+            "CS0",
+            "RX0",
+            "SCL0",
+            "8B"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "32",
+          "functions": [
+            "CIPO0",
+            "TX0",
+            "SDA0",
+            "8A"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "31",
+          "functions": [
+            "COPI1",
+            "RTS0",
+            "SCL1",
+            "7B"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "30",
+          "functions": [
+            "SCK1",
+            "CTS0",
+            "SDA1",
+            "7A"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "RP2350 Stamp XL castellated module, 60 edge pads. GPIO pins are printed only as numbers (label kept as printed number). Functions read outward: SPI, UART, I2C, PWM slice (e.g. 0A), then analog/XIP CS/HSTX tags. Board corner marks 0/10/30/40 coincide with GPIO numbers and were not used as position numbers. Internal SWD and UART footprints (TX: IO0 RX: IO1) and buttons skipped. Color legend omitted."
+}

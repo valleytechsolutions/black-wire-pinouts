@@ -1,0 +1,248 @@
+{
+  "recordId": "adafruit-feather-nrf52840",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/a2829effc645ee6d73ce208e0457f4602538a377d46bcf371333265fc2fb3f0e.png",
+      "sha256": "a2829effc645ee6d73ce208e0457f4602538a377d46bcf371333265fc2fb3f0e"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/a2829effc645ee6d73ce208e0457f4602538a377d46bcf371333265fc2fb3f0e.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "P0.31",
+          "functions": [
+            "AREF",
+            "21/A7",
+            "AIN7"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "P0.04",
+          "functions": [
+            "A0",
+            "14/A0",
+            "AIN2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P0.05",
+          "functions": [
+            "A1",
+            "15/A1",
+            "AIN3"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "P0.30",
+          "functions": [
+            "A2",
+            "16/A2",
+            "AIN6"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "P0.28",
+          "functions": [
+            "A3",
+            "17/A3",
+            "AIN4"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "P0.02",
+          "functions": [
+            "A4",
+            "18/A4",
+            "AIN0"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "P0.03",
+          "functions": [
+            "A5",
+            "19/A5",
+            "AIN1"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "P0.14",
+          "functions": [
+            "SCK",
+            "26"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "P0.13",
+          "functions": [
+            "MOSI",
+            "25"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "P0.15",
+          "functions": [
+            "MISO",
+            "24"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "P0.24",
+          "functions": [
+            "RX",
+            "1"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "P0.25",
+          "functions": [
+            "TX",
+            "0"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "P0.10",
+          "functions": [
+            "D2",
+            "2",
+            "NFC2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/a2829effc645ee6d73ce208e0457f4602538a377d46bcf371333265fc2fb3f0e.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "P1.09",
+          "functions": [
+            "D13",
+            "13"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "P0.08",
+          "functions": [
+            "D12",
+            "12"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P0.06",
+          "functions": [
+            "D11",
+            "11"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "P0.27",
+          "functions": [
+            "D10",
+            "10"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "P0.26",
+          "functions": [
+            "D9",
+            "9"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "P0.07",
+          "functions": [
+            "D6",
+            "6"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "P1.08",
+          "functions": [
+            "D5",
+            "5"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "P0.11",
+          "functions": [
+            "SCL",
+            "23"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "P0.12",
+          "functions": [
+            "SDA",
+            "22"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Label = GPIO name (legend 'GPIO', e.g. P0.04); CircuitPython name first in functions, then outward. HS/LS speed category tags omitted. On-board items (SWITCH, L, BLUE_LED, NEOPIXEL, NFC1, VOLTAGE_MONITOR) are not header pins and were skipped. Tiny silkscreen on the board render not transcribed."
+}

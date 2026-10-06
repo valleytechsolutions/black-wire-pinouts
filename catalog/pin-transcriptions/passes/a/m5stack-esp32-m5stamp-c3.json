@@ -1,0 +1,161 @@
+{
+  "recordId": "m5stack-esp32-m5stamp-c3",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/f3e857e16971f20b9aea3330d7507145bbeeba484dc640a496f31bc477ba5ab1.jpg",
+      "sha256": "f3e857e16971f20b9aea3330d7507145bbeeba484dc640a496f31bc477ba5ab1"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left pad row",
+      "image": "media/f3e857e16971f20b9aea3330d7507145bbeeba484dc640a496f31bc477ba5ab1.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at end closest to USB-C connector (bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G0",
+          "functions": [
+            "ADC"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "G1",
+          "functions": [
+            "ADC"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "G10",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "G8",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "G7",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "G6",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "G5",
+          "functions": [
+            "ADC"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "G4",
+          "functions": [
+            "ADC"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right pad row",
+      "image": "media/f3e857e16971f20b9aea3330d7507145bbeeba484dc640a496f31bc477ba5ab1.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at end closest to USB-C connector (bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G19",
+          "functions": [
+            "D+"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "G18",
+          "functions": [
+            "D-"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "G9",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "G20",
+          "functions": [
+            "Rx0"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "G21",
+          "functions": [
+            "Tx0"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Only the two labeled outer pad rows transcribed. Unlabeled inner pads beside the USB-C connector are skipped (rule 1). The right row starts lower than the left row; each row ordered from its bottom (USB) end."
+}

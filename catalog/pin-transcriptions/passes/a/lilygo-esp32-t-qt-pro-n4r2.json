@@ -1,0 +1,189 @@
+{
+  "recordId": "lilygo-esp32-t-qt-pro-n4r2",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/4f6a2b8e2392c5a7cf449f1e1390dc5cab40017b3de671dfb4c7777f2e63dd40.jpg",
+      "sha256": "4f6a2b8e2392c5a7cf449f1e1390dc5cab40017b3de671dfb4c7777f2e63dd40"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/4f6a2b8e2392c5a7cf449f1e1390dc5cab40017b3de671dfb4c7777f2e63dd40.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers. Labels read from the front view, where the USB-C connector is at the bottom; numbered from the bottom (USB end) upward.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO35",
+          "functions": [
+            "IO35",
+            "FSPI_D",
+            "SUBS_D"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO36",
+          "functions": [
+            "IO36",
+            "FSPI_CLK",
+            "SUBS_CLK"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO37",
+          "functions": [
+            "IO37",
+            "FSPI_Q",
+            "SUBS_Q"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO38",
+          "functions": [
+            "IO38",
+            "FSPI_WP",
+            "SUBS_WP"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO39",
+          "functions": [
+            "IO39",
+            "CLK_OUT3",
+            "SUBS_CS1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO33",
+          "functions": [
+            "IO33",
+            "FSPI_HD",
+            "SUBS_HD"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO34",
+          "functions": [
+            "IO34",
+            "FSPI_CS",
+            "SUBS_CS0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/4f6a2b8e2392c5a7cf449f1e1390dc5cab40017b3de671dfb4c7777f2e63dd40.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers. Labels read from the front view, where the USB-C connector is at the bottom; numbered from the bottom (USB end) upward.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO48",
+          "functions": [
+            "IO48",
+            "SPIC_N_DIFF",
+            "SUBS_N_DIFF"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO18",
+          "functions": [
+            "IO18",
+            "USB1_RXD",
+            "ADC2_CH7"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO17",
+          "functions": [
+            "IO17",
+            "USB1_TXD",
+            "ADC2_CH6"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO16",
+          "functions": [
+            "IO16",
+            "USB0_CTS",
+            "ADC2_CH5"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "VDD3V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "5V",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "jst-4pin",
+      "name": "4-pin JST connector (rear inset)",
+      "image": "media/4f6a2b8e2392c5a7cf449f1e1390dc5cab40017b3de671dfb4c7777f2e63dd40.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical connector beside (not at the end of) the USB-C, so numbered from the top of the inset down. Labels per the silkscreen next to each pin (G, 3V, 44, 43).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO44",
+          "functions": [
+            "44"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "IO43",
+          "functions": [
+            "43"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "IO0x/IO3x/USB0 names: O vs 0 not distinguishable; 0 used."
+  ],
+  "uncertain": [
+    "jst-4pin: the callout list reads GND, 3V, IO43, IO44 but the per-pin silkscreen reads G, 3V, 44, 43 (top to bottom); per-pin silkscreen mapping used, so IO44/IO43 order differs from the callout list.",
+    "Header pins are not physically visible in the front view (callout lines run to the board edge); the rear inset shows 7 holes per row but without labels, so label-to-hole mapping relies on callout line positions."
+  ],
+  "notes": "Model name on image is \"LILYGO T-QT Pro\" with ESP32-S3FN4R2 (matches N4R2). GC9107 LCD pin list, IO0/IO47 buttons, battery +/- pads and antennas not transcribed. \"USB0_CTS\"/\"USB1_TXD\"/\"USB1_RXD\" copied as printed."
+}

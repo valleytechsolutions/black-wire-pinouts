@@ -1,0 +1,822 @@
+{
+  "recordId": "nologo-other-arduino-uno-r4-wifi",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/eb28caea049ced8814ba3d5ae64fb75972fadefc13e1aa9807e274e56e2794f1.png",
+      "sha256": "eb28caea049ced8814ba3d5ae64fb75972fadefc13e1aa9807e274e56e2794f1"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "digital-header-1",
+      "name": "Right digital header (upper)",
+      "image": "media/eb28caea049ced8814ba3d5ae64fb75972fadefc13e1aa9807e274e56e2794f1.png",
+      "rows": 1,
+      "orderNote": "No printed numbers; started at top end nearest USB-C",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D19/SCL",
+          "functions": [
+            "SCL",
+            "P100",
+            "IIC_SCL1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D18/SDA",
+          "functions": [
+            "SDA",
+            "P101",
+            "IIC_SDA1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "AREF",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "D13",
+          "functions": [
+            "13",
+            "P102",
+            "RSPCKA"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D12",
+          "functions": [
+            "12",
+            "P410",
+            "CIPOA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "~D11",
+          "functions": [
+            "~11",
+            "P411",
+            "COPIA"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "~D10",
+          "functions": [
+            "~10",
+            "P103",
+            "SSLA0"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "~D9",
+          "functions": [
+            "~9",
+            "P303"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "D8",
+          "functions": [
+            "8",
+            "P304"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digital-header-2",
+      "name": "Right digital header (lower)",
+      "image": "media/eb28caea049ced8814ba3d5ae64fb75972fadefc13e1aa9807e274e56e2794f1.png",
+      "rows": 1,
+      "orderNote": "No printed numbers; started at top end nearest USB-C",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D7",
+          "functions": [
+            "7",
+            "P112"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "~D6",
+          "functions": [
+            "~6",
+            "P111"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "~D5",
+          "functions": [
+            "~5",
+            "P107"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D4",
+          "functions": [
+            "4",
+            "P106"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "~D3",
+          "functions": [
+            "~3",
+            "P105"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D2",
+          "functions": [
+            "2",
+            "P104"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "D1/TX",
+          "functions": [
+            "1",
+            "TX->",
+            "P302",
+            "SCI_TXD2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "D0/RX",
+          "functions": [
+            "0",
+            "RX<-",
+            "P301",
+            "SCI_RXD2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "power-header",
+      "name": "Left power header",
+      "image": "media/eb28caea049ced8814ba3d5ae64fb75972fadefc13e1aa9807e274e56e2794f1.png",
+      "rows": 1,
+      "orderNote": "No printed numbers; started at top end nearest USB-C",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BOOT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IOREF",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "+3V3",
+          "functions": [
+            "3.3V",
+            "OUT"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "+5V",
+          "functions": [
+            "5V",
+            "OUT"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "VIN",
+          "functions": [
+            "IN"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "analog-header",
+      "name": "Left analog header",
+      "image": "media/eb28caea049ced8814ba3d5ae64fb75972fadefc13e1aa9807e274e56e2794f1.png",
+      "rows": 1,
+      "orderNote": "No printed numbers; started at top end nearest USB-C",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A0",
+          "functions": [
+            "D14",
+            "P014",
+            "AN009",
+            "DA0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "A1",
+          "functions": [
+            "D15",
+            "P000",
+            "AN000"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "A2",
+          "functions": [
+            "D16",
+            "P001",
+            "AN001"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "A3",
+          "functions": [
+            "D17",
+            "P002",
+            "AN002"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "A4",
+          "functions": [
+            "D18",
+            "P101",
+            "IIC_SDA1",
+            "AN021"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "A5",
+          "functions": [
+            "D19",
+            "P100",
+            "IIC_SCL1",
+            "AN022"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "esp-header",
+      "name": "ESP32-S3 2x3 header",
+      "image": "media/eb28caea049ced8814ba3d5ae64fb75972fadefc13e1aa9807e274e56e2794f1.png",
+      "rows": 2,
+      "orderNote": "Pin numbers 1-6 printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO42",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GPIO41",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO43",
+          "functions": [
+            "TXD0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO0",
+          "functions": [
+            "DOWNLOAD"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO44",
+          "functions": [
+            "RXD0"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "ICSP",
+      "name": "ICSP 2x3 header",
+      "image": "media/eb28caea049ced8814ba3d5ae64fb75972fadefc13e1aa9807e274e56e2794f1.png",
+      "rows": 2,
+      "orderNote": "Pin numbers 1-6 printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "CIPO",
+          "functions": [
+            "P410"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "+5V",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "RSPCKA",
+          "functions": [
+            "P102"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "COPI",
+          "functions": [
+            "P411"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "gravity-digital",
+      "name": "Digital 3-row (S/5V/GND) header",
+      "image": "media/eb28caea049ced8814ba3d5ae64fb75972fadefc13e1aa9807e274e56e2794f1.png",
+      "rows": 3,
+      "orderNote": "No printed position numbers; columns from top (13, nearest USB-C) to bottom (0); within each column GND (outer row, nearest right board edge) then 5V then S",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "13",
+          "functions": [
+            "S"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "12",
+          "functions": [
+            "S"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "11",
+          "functions": [
+            "S"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "10",
+          "functions": [
+            "S"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "9",
+          "functions": [
+            "S"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "8",
+          "functions": [
+            "S"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "7",
+          "functions": [
+            "S"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "6",
+          "functions": [
+            "S"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 27,
+          "label": "5",
+          "functions": [
+            "S"
+          ]
+        },
+        {
+          "position": 28,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 29,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "4",
+          "functions": [
+            "S"
+          ]
+        },
+        {
+          "position": 31,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 32,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 33,
+          "label": "3",
+          "functions": [
+            "S"
+          ]
+        },
+        {
+          "position": 34,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 35,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 36,
+          "label": "2",
+          "functions": [
+            "S"
+          ]
+        },
+        {
+          "position": 37,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 38,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 39,
+          "label": "1",
+          "functions": [
+            "S"
+          ]
+        },
+        {
+          "position": 40,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 41,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 42,
+          "label": "0",
+          "functions": [
+            "S"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gravity-analog",
+      "name": "Analog 3-row (GND/5V/S) header",
+      "image": "media/eb28caea049ced8814ba3d5ae64fb75972fadefc13e1aa9807e274e56e2794f1.png",
+      "rows": 3,
+      "orderNote": "No printed position numbers; columns from top (A0, nearest USB-C) to bottom (A5); within each column GND (row nearest left board edge) then 5V then S",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "A0",
+          "functions": [
+            "S"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "A1",
+          "functions": [
+            "S"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "A2",
+          "functions": [
+            "S"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "A3",
+          "functions": [
+            "S"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "A4",
+          "functions": [
+            "S"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "A5",
+          "functions": [
+            "S"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "power-switch-header",
+      "name": "VRTC/OFF 3-pin header",
+      "image": "media/eb28caea049ced8814ba3d5ae64fb75972fadefc13e1aa9807e274e56e2794f1.png",
+      "rows": 1,
+      "orderNote": "No printed numbers; started at top end nearest USB-C",
+      "pins": [
+        {
+          "position": 1,
+          "label": "OFF",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VRTC",
+          "functions": [
+            "IN",
+            "VBATT"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qwiic",
+      "name": "Qwiic connector",
+      "image": "media/eb28caea049ced8814ba3d5ae64fb75972fadefc13e1aa9807e274e56e2794f1.png",
+      "rows": 1,
+      "orderNote": "Physical pin order not shown; transcribed in the order of the printed label list (top to bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IIC0_SCL",
+          "functions": [
+            "P400"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "IIC0_SDA",
+          "functions": [
+            "P401"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "+3.3V",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "qwiic: the image lists the four Qwiic signals in a callout without showing which physical connector pin each belongs to; position order is inferred from the label list order.",
+    "gravity-analog: this 3-row block sits mid-board, so which row is the \"outer\" row for 2xN/3xN ordering is a judgment call (GND row taken as nearest the left board edge).",
+    "USB-C callout (GND, VBUS, USB D-, USB D+ with GPIO19, GND with GPIO20) labels USB signals but shows no individual connector positions; not transcribed as a connector. GPIO20 appears aligned beside GND rather than a USB data line."
+  ],
+  "notes": "Board shown carries an ESP32-S3-MINI-1 and Renesas P-port names, plus extra 3-row S/5V/GND headers not on a plain UNO layout. Labels written with \"GPI0\" in the image (GPI042, GPI041, GPI043, GPI00, GPI044) recorded with letter O per the O/0 context rule. RX/TX/L LED pads, RESET button, LEDs (LED_BUTLTIN, TX_LED, RX_LED, Power) and DC jack skipped. IN/OUT tags kept as short notes."
+}

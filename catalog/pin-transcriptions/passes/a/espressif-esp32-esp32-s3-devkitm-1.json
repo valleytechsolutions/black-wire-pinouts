@@ -1,0 +1,463 @@
+{
+  "recordId": "espressif-esp32-esp32-s3-devkitm-1",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/e2745a3112066d2d22b2088669c64f7c6b8e5dfd389afadc9ccb131ceb7c48e0.jpg",
+      "sha256": "e2745a3112066d2d22b2088669c64f7c6b8e5dfd389afadc9ccb131ceb7c48e0"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/e2745a3112066d2d22b2088669c64f7c6b8e5dfd389afadc9ccb131ceb7c48e0.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at bottom (end closest to the UART/USB connectors).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "5V0",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO18",
+          "functions": [
+            "18",
+            "RTC",
+            "U1RXD",
+            "ADC2_7",
+            "CLK_OUT3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO17",
+          "functions": [
+            "17",
+            "RTC",
+            "U1TXD",
+            "ADC2_6"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO16",
+          "functions": [
+            "16",
+            "RTC",
+            "U0CTS",
+            "ADC2_5",
+            "XTAL_32K_N"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO15",
+          "functions": [
+            "15",
+            "RTC",
+            "U0RTS",
+            "ADC2_4",
+            "XTAL_32K_P"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO14",
+          "functions": [
+            "14",
+            "RTC",
+            "TOUCH14",
+            "ADC2_3",
+            "FSPIDQS",
+            "SUBSPIWP",
+            "FSPIWP"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO13",
+          "functions": [
+            "13",
+            "RTC",
+            "TOUCH13",
+            "ADC2_2",
+            "FSPIIO7",
+            "SUBSPIQ",
+            "FSPIQ"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO12",
+          "functions": [
+            "12",
+            "RTC",
+            "TOUCH12",
+            "ADC2_1",
+            "FSPIIO6",
+            "SUBSPICLK",
+            "FSPICLK"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO11",
+          "functions": [
+            "11",
+            "RTC",
+            "TOUCH11",
+            "ADC2_0",
+            "FSPIIO5",
+            "SUBSPID",
+            "FSPID"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO10",
+          "functions": [
+            "10",
+            "RTC",
+            "TOUCH10",
+            "ADC1_9",
+            "FSPIIO4",
+            "SUBSPICS0",
+            "FSPICS0"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO9",
+          "functions": [
+            "9",
+            "RTC",
+            "TOUCH9",
+            "ADC1_8",
+            "SUBSPIHD",
+            "FSPIHD"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO8",
+          "functions": [
+            "8",
+            "RTC",
+            "TOUCH8",
+            "ADC1_7"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO7",
+          "functions": [
+            "7",
+            "RTC",
+            "TOUCH7",
+            "ADC1_6"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO6",
+          "functions": [
+            "6",
+            "RTC",
+            "TOUCH6",
+            "ADC1_5"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO5",
+          "functions": [
+            "5",
+            "RTC",
+            "TOUCH5",
+            "ADC1_4"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO4",
+          "functions": [
+            "4",
+            "RTC",
+            "TOUCH4",
+            "ADC1_3"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GPIO3",
+          "functions": [
+            "3",
+            "RTC",
+            "TOUCH3",
+            "ADC1_2",
+            "JTAG"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GPIO2",
+          "functions": [
+            "2",
+            "RTC",
+            "TOUCH2",
+            "ADC1_1"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO1",
+          "functions": [
+            "1",
+            "RTC",
+            "TOUCH1",
+            "ADC1_0"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "GPIO0",
+          "functions": [
+            "0",
+            "BOOT"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/e2745a3112066d2d22b2088669c64f7c6b8e5dfd389afadc9ccb131ceb7c48e0.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at bottom (end closest to the UART/USB connectors).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO47",
+          "functions": [
+            "47",
+            "SPICLK_P"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO48",
+          "functions": [
+            "48",
+            "SPICLK_N",
+            "RGB_LED"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO19",
+          "functions": [
+            "19",
+            "USB_D-",
+            "RTC",
+            "U1RTS",
+            "ADC2_8",
+            "CLK_OUT2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO20",
+          "functions": [
+            "20",
+            "USB_D+",
+            "RTC",
+            "U1CTS",
+            "ADC2_9",
+            "CLK_OUT1"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO21",
+          "functions": [
+            "21",
+            "RTC"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO26",
+          "functions": [
+            "26",
+            "SPICS1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO33",
+          "functions": [
+            "33",
+            "SPIIO4",
+            "FSPIHD",
+            "SUBSPIHD"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO34",
+          "functions": [
+            "34",
+            "SPIIO5",
+            "FSPICS0",
+            "SUBSPICS0"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO35",
+          "functions": [
+            "35",
+            "SPIIO6",
+            "FSPID",
+            "SUBSPID"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO36",
+          "functions": [
+            "36",
+            "SPIIO7",
+            "FSPICLK",
+            "SUBSPICLK"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO37",
+          "functions": [
+            "37",
+            "SPIDQS",
+            "FSPIQ",
+            "SUBSPIQ"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO38",
+          "functions": [
+            "38",
+            "FSPIWP",
+            "SUBSPIWP"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO39",
+          "functions": [
+            "39",
+            "MTCK",
+            "CLK_OUT3",
+            "SUBSPICS1"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO40",
+          "functions": [
+            "40",
+            "MTDO",
+            "CLK_OUT2"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO41",
+          "functions": [
+            "41",
+            "MTDI",
+            "CLK_OUT1"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO42",
+          "functions": [
+            "42",
+            "MTMS"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO43",
+          "functions": [
+            "TX",
+            "U0TXD",
+            "CLK_OUT1"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GPIO44",
+          "functions": [
+            "RX",
+            "U0RXD",
+            "CLK_OUT2"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GPIO45",
+          "functions": [
+            "45",
+            "VSPI"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO46",
+          "functions": [
+            "46",
+            "LOG"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "Letter O vs digit 0 cannot be told apart in GPIO0, ADC1_0, ADC2_0, 5V0, U0RTS, U0CTS, U0RXD, U0TXD, FSPICS0, SUBSPICS0; read as 0. MTDO and the IO in FSPIIO/SPIIO read as letters."
+  ],
+  "uncertain": [],
+  "notes": "Espressif 'ESP32-S3-DevKitM-1' pinout. Board silkscreen recorded first in functions when it differs. Functions listed outward from the pin; tags placed between the pin and the GPIO label (U0RXD, U0TXD, MTMS-MTCK, USB_D+/-) come first. 'RTC' power-domain tag kept as printed. Square pads (3V3, top-right G) are not treated as pin-1 marks. Skipped per rule 1: BOOT/RESET buttons, UART and USB connectors, RGB LED."
+}

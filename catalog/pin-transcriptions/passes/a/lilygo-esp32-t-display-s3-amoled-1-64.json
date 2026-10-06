@@ -1,0 +1,293 @@
+{
+  "recordId": "lilygo-esp32-t-display-s3-amoled-1-64",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/de2d0800ee69ed424a1d71bf78ba52931ed84476ef61a4e28c242e107b087899.jpg",
+      "sha256": "de2d0800ee69ed424a1d71bf78ba52931ed84476ef61a4e28c242e107b087899"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/de2d0800ee69ed424a1d71bf78ba52931ed84476ef61a4e28c242e107b087899.jpg",
+      "rows": 1,
+      "orderNote": "No printed position numbers; started at bottom end nearest USB-C",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO48",
+          "functions": [
+            "48"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO47",
+          "functions": [
+            "47"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO21",
+          "functions": [
+            "21"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO18",
+          "functions": [
+            "18",
+            "ADC2_CH7"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO05",
+          "functions": [
+            "5",
+            "TOUCH05",
+            "ADC1_CH4"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO03",
+          "functions": [
+            "3",
+            "TOUCH03",
+            "ADC1_CH2"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO02",
+          "functions": [
+            "2",
+            "TOUCH02",
+            "ADC1_CH1"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO07",
+          "functions": [
+            "SDA",
+            "TOUCH07",
+            "I2C-SDA",
+            "ADC1_CH6"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO06",
+          "functions": [
+            "SCL",
+            "TOUCH06",
+            "I2C-SCL",
+            "ADC1_CH5"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO01",
+          "functions": [
+            "1",
+            "TOUCH01",
+            "ADC1_CH0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/de2d0800ee69ed424a1d71bf78ba52931ed84476ef61a4e28c242e107b087899.jpg",
+      "rows": 1,
+      "orderNote": "No printed position numbers; started at bottom end nearest USB-C",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO38",
+          "functions": [
+            "38"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "BAT",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO39",
+          "functions": [
+            "39",
+            "MTCK"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO40",
+          "functions": [
+            "40",
+            "MTDO"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO41",
+          "functions": [
+            "41",
+            "MTDI"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO42",
+          "functions": [
+            "42",
+            "MTMS"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO43",
+          "functions": [
+            "43",
+            "U0TXD"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO44",
+          "functions": [
+            "44",
+            "U0RXD"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO45",
+          "functions": [
+            "45"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO46",
+          "functions": [
+            "46"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "jst-sh-left",
+      "name": "Left JST-SH 4-pin (STEMMA QT/Qwiic)",
+      "image": "media/de2d0800ee69ed424a1d71bf78ba52931ed84476ef61a4e28c242e107b087899.jpg",
+      "rows": 1,
+      "orderNote": "Labels printed in a horizontal caption below a vertical connector; order follows caption left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "06",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "07",
+          "functions": [
+            "SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jst-sh-right",
+      "name": "Right JST-SH 4-pin",
+      "image": "media/de2d0800ee69ed424a1d71bf78ba52931ed84476ef61a4e28c242e107b087899.jpg",
+      "rows": 1,
+      "orderNote": "Labels printed in a horizontal caption below a vertical connector; order follows caption left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "43",
+          "functions": [
+            "TX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "44",
+          "functions": [
+            "RX"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "jst-sh-left / jst-sh-right: the 4-pin connectors are mounted vertically but their labels are a horizontal caption; which physical pin each caption entry belongs to is inferred from caption order.",
+    "jst-sh-left caption prints SDA under 06 and SCL under 07, while the left header labels GPIO06 as SCL and GPIO07 as SDA; recorded as printed, one of them may be wrong."
+  ],
+  "notes": "JST GH 1.25 battery connector (no individual pin labels), antenna connectors, Reset/Boot buttons skipped. Display/touch/charger internal pin tables are not wiring points."
+}

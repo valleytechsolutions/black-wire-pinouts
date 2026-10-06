@@ -1,0 +1,1097 @@
+{
+  "recordId": "pimoroni-rp2350-pico-plus-2",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/65e8c30f4c1b47713d1d8ff2409bb1d4fe34cf548c7e0228a8bcb1fb966744a1.png",
+      "sha256": "65e8c30f4c1b47713d1d8ff2409bb1d4fe34cf548c7e0228a8bcb1fb966744a1"
+    },
+    {
+      "file": "media/4ee82187cd2fe4723a7abc140e2d9515a9c24c44399337bc087eca213a9838d8.png",
+      "sha256": "4ee82187cd2fe4723a7abc140e2d9515a9c24c44399337bc087eca213a9838d8"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/65e8c30f4c1b47713d1d8ff2409bb1d4fe34cf548c7e0228a8bcb1fb966744a1.png",
+      "rows": 1,
+      "orderNote": "No printed header position numbers; USB-C at top, so position 1 is the top pin (closest to USB) (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP0",
+          "functions": [
+            "0",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX",
+            "PWM0 A"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP1",
+          "functions": [
+            "1",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX",
+            "PWM0 B"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GP2",
+          "functions": [
+            "2",
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART0 TX",
+            "PWM1 A"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP3",
+          "functions": [
+            "3",
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART0 RX",
+            "PWM1 B"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP4",
+          "functions": [
+            "4",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX",
+            "PWM2 A"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP5",
+          "functions": [
+            "5",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX",
+            "PWM2 B"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GP6",
+          "functions": [
+            "6",
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART1 TX",
+            "PWM3 A"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP7",
+          "functions": [
+            "7",
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART1 RX",
+            "PWM3 B"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP8",
+          "functions": [
+            "8",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART1 TX",
+            "PWM4 A"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP9",
+          "functions": [
+            "9",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART1 RX",
+            "PWM4 B"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GP10",
+          "functions": [
+            "10",
+            "SPI1 SCK",
+            "I2C1 SDA",
+            "UART1 TX",
+            "PWM5 A"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GP11",
+          "functions": [
+            "11",
+            "SPI1 TX",
+            "I2C1 SCL",
+            "UART1 RX",
+            "PWM5 B"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GP12",
+          "functions": [
+            "12",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART0 TX",
+            "PWM6 A",
+            "HSTX"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GP13",
+          "functions": [
+            "13",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART0 RX",
+            "PWM6 B",
+            "HSTX"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GP14",
+          "functions": [
+            "14",
+            "SPI1 SCK",
+            "I2C1 SDA",
+            "UART0 TX",
+            "PWM7 A",
+            "HSTX"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GP15",
+          "functions": [
+            "15",
+            "SPI1 TX",
+            "I2C1 SCL",
+            "UART0 RX",
+            "PWM7 B",
+            "HSTX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/65e8c30f4c1b47713d1d8ff2409bb1d4fe34cf548c7e0228a8bcb1fb966744a1.png",
+      "rows": 1,
+      "orderNote": "No printed header position numbers; USB-C at top, so position 1 is the top pin (closest to USB) (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBUS",
+          "functions": [
+            "VB"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "VSYS",
+          "functions": [
+            "VS"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3 EN",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "ADC VREF",
+          "functions": [
+            "VA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP28",
+          "functions": [
+            "28",
+            "28/A2",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART0 TX",
+            "PWM6 A",
+            "ADC 2",
+            "42",
+            "Internal 1kOhms"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GP27",
+          "functions": [
+            "27",
+            "27/A1",
+            "SPI1 TX",
+            "I2C1 SCL",
+            "UART1 RX",
+            "PWM5 B",
+            "ADC 1",
+            "41",
+            "Internal 1kOhms"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP26",
+          "functions": [
+            "26",
+            "26/A0",
+            "SPI1 SCK",
+            "I2C1 SDA",
+            "UART1 TX",
+            "PWM5 A",
+            "ADC 0",
+            "40",
+            "Internal 1kOhms"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "RUN",
+          "functions": [
+            "RU"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP22",
+          "functions": [
+            "22",
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART1 TX",
+            "PWM3 A"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GP21",
+          "functions": [
+            "21",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX",
+            "PWM2 B"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GP20",
+          "functions": [
+            "20",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX",
+            "PWM2 A"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GP19",
+          "functions": [
+            "19",
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART0 RX",
+            "PWM1 B",
+            "HSTX"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GP18",
+          "functions": [
+            "18",
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART0 TX",
+            "PWM1 A",
+            "HSTX"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GP17",
+          "functions": [
+            "17",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX",
+            "PWM0 B",
+            "HSTX"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GP16",
+          "functions": [
+            "16",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX",
+            "PWM0 A",
+            "HSTX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qwst-connector",
+      "name": "QW/ST connector",
+      "image": "media/65e8c30f4c1b47713d1d8ff2409bb1d4fe34cf548c7e0228a8bcb1fb966744a1.png",
+      "rows": 1,
+      "orderNote": "No position numbers; horizontal connector, position 1 at left of image as displayed (no USB end applies) (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "0 SCL",
+          "functions": [
+            "I2C0 SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "0 SDA",
+          "functions": [
+            "I2C0 SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "debug-connector",
+      "name": "Debug connector",
+      "image": "media/65e8c30f4c1b47713d1d8ff2409bb1d4fe34cf548c7e0228a8bcb1fb966744a1.png",
+      "rows": 1,
+      "orderNote": "No position numbers; horizontal connector, position 1 at left of image as displayed (no USB end applies) (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SWDIO",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SWCLK",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "sp-ce-connector",
+      "name": "SP/CE connector (underside, side view)",
+      "image": "media/65e8c30f4c1b47713d1d8ff2409bb1d4fe34cf548c7e0228a8bcb1fb966744a1.png",
+      "rows": 1,
+      "orderNote": "No position numbers; horizontal connector, position 1 at left of image as displayed (no USB end applies) (rule 4); side-view drawing of the underside connector, labels read left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VSYS",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GP33",
+          "functions": [
+            "CS",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX",
+            "PWM8 B"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP34",
+          "functions": [
+            "SCK",
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART0 TX",
+            "PWM9 A"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP35",
+          "functions": [
+            "TX",
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART0 RX",
+            "PWM9 B"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP32",
+          "functions": [
+            "RX",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX",
+            "PWM8 A"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP36",
+          "functions": [
+            "BL",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX",
+            "PWM10 A"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left header",
+      "image": "media/4ee82187cd2fe4723a7abc140e2d9515a9c24c44399337bc087eca213a9838d8.png",
+      "rows": 1,
+      "orderNote": "No printed header position numbers; USB-C at top, so position 1 is the top pin (closest to USB) (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP0",
+          "functions": [
+            "0",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX",
+            "PWM0 A"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP1",
+          "functions": [
+            "1",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX",
+            "PWM0 B"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GP2",
+          "functions": [
+            "2",
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART0 TX",
+            "PWM1 A"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP3",
+          "functions": [
+            "3",
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART0 RX",
+            "PWM1 B"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP4",
+          "functions": [
+            "4",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX",
+            "PWM2 A"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP5",
+          "functions": [
+            "5",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX",
+            "PWM2 B"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GP6",
+          "functions": [
+            "6",
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART1 TX",
+            "PWM3 A"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP7",
+          "functions": [
+            "7",
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART1 RX",
+            "PWM3 B"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP8",
+          "functions": [
+            "8",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART1 TX",
+            "PWM4 A"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP9",
+          "functions": [
+            "9",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART1 RX",
+            "PWM4 B"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GP10",
+          "functions": [
+            "10",
+            "SPI1 SCK",
+            "I2C1 SDA",
+            "UART1 TX",
+            "PWM5 A"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GP11",
+          "functions": [
+            "11",
+            "SPI1 TX",
+            "I2C1 SCL",
+            "UART1 RX",
+            "PWM5 B"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GP12",
+          "functions": [
+            "12",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART0 TX",
+            "PWM6 A",
+            "HSTX"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GP13",
+          "functions": [
+            "13",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART0 RX",
+            "PWM6 B",
+            "HSTX"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GP14",
+          "functions": [
+            "14",
+            "SPI1 SCK",
+            "I2C1 SDA",
+            "UART0 TX",
+            "PWM7 A",
+            "HSTX"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GP15",
+          "functions": [
+            "15",
+            "SPI1 TX",
+            "I2C1 SCL",
+            "UART0 RX",
+            "PWM7 B",
+            "HSTX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Right header",
+      "image": "media/4ee82187cd2fe4723a7abc140e2d9515a9c24c44399337bc087eca213a9838d8.png",
+      "rows": 1,
+      "orderNote": "No printed header position numbers; USB-C at top, so position 1 is the top pin (closest to USB) (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBUS",
+          "functions": [
+            "VB"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "VSYS",
+          "functions": [
+            "VS"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3 EN",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "ADC VREF",
+          "functions": [
+            "VA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP28",
+          "functions": [
+            "28",
+            "28/A2",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART0 TX",
+            "PWM6 A",
+            "ADC 2",
+            "42",
+            "Internal 1kOhms"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GP27",
+          "functions": [
+            "27",
+            "27/A1",
+            "SPI1 TX",
+            "I2C1 SCL",
+            "UART1 RX",
+            "PWM5 B",
+            "ADC 1",
+            "41",
+            "Internal 1kOhms"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP26",
+          "functions": [
+            "26",
+            "26/A0",
+            "SPI1 SCK",
+            "I2C1 SDA",
+            "UART1 TX",
+            "PWM5 A",
+            "ADC 0",
+            "40",
+            "Internal 1kOhms"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "RUN",
+          "functions": [
+            "RU"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP22",
+          "functions": [
+            "22",
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART1 TX",
+            "PWM3 A"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GP21",
+          "functions": [
+            "21",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX",
+            "PWM2 B"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GP20",
+          "functions": [
+            "20",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX",
+            "PWM2 A"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GP19",
+          "functions": [
+            "19",
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART0 RX",
+            "PWM1 B",
+            "HSTX"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GP18",
+          "functions": [
+            "18",
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART0 TX",
+            "PWM1 A",
+            "HSTX"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GP17",
+          "functions": [
+            "17",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX",
+            "PWM0 B",
+            "HSTX"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GP16",
+          "functions": [
+            "16",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX",
+            "PWM0 A",
+            "HSTX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qwst-connector-img2",
+      "name": "QW/ST connector",
+      "image": "media/4ee82187cd2fe4723a7abc140e2d9515a9c24c44399337bc087eca213a9838d8.png",
+      "rows": 1,
+      "orderNote": "No position numbers; horizontal connector, position 1 at left of image as displayed (no USB end applies) (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "0 SCL",
+          "functions": [
+            "I2C0 SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "0 SDA",
+          "functions": [
+            "I2C0 SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "debug-connector-img2",
+      "name": "Debug connector",
+      "image": "media/4ee82187cd2fe4723a7abc140e2d9515a9c24c44399337bc087eca213a9838d8.png",
+      "rows": 1,
+      "orderNote": "No position numbers; horizontal connector, position 1 at left of image as displayed (no USB end applies) (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SWDIO",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SWCLK",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "sp-ce-connector-img2",
+      "name": "SP/CE connector (underside, side view)",
+      "image": "media/4ee82187cd2fe4723a7abc140e2d9515a9c24c44399337bc087eca213a9838d8.png",
+      "rows": 1,
+      "orderNote": "No position numbers; horizontal connector, position 1 at left of image as displayed (no USB end applies) (rule 4); side-view drawing of the underside connector, labels read left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VSYS",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GP33",
+          "functions": [
+            "CS",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX",
+            "PWM8 B"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP34",
+          "functions": [
+            "SCK",
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART0 TX",
+            "PWM9 A"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP35",
+          "functions": [
+            "TX",
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART0 RX",
+            "PWM9 B"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP32",
+          "functions": [
+            "RX",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX",
+            "PWM8 A"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP36",
+          "functions": [
+            "BL",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX",
+            "PWM10 A"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Both images are the same pinout artwork at two resolutions; each transcribed separately. Peripheral columns are written as header+index+name (e.g. \"0 RX\" under SPI -> \"SPI0 RX\"). Grey boxes and board silkscreen numbers are GPIO numbers, not header positions. GND rows show only a bar on the silkscreen. 3V3 EN and 3V3 silkscreen are partly hidden/symbol only, not recorded. QW/ST connector pins read \"0 SCL\", \"0 SDA\", \"3V3\", \"GND\"; no GPIO name is printed on the connector itself (a blue line runs from GP4/GP5 area). ADC channels connect to GP26-28 through drawn \"Internal 1kOhms\" resistors with numbers 40/41/42. Skipped: USB-C, BOOT/USER and RESET buttons, LED. SP/CE connector (8 pins) is shown in side view below the board; CS/SCK/TX/RX/BL are linked by drawn curves to GP33/GP34/GP35/GP32/GP36 and labelled with the GP name per rule 5."
+}

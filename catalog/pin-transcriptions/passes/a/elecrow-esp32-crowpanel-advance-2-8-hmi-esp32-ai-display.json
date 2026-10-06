@@ -1,0 +1,107 @@
+{
+  "recordId": "elecrow-esp32-crowpanel-advance-2-8-hmi-esp32-ai-display",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/e77547bb9bb0954b5716d2b819545342ea133e67a9d5a6ecbc41262dc4cc6c7c.webp",
+      "sha256": "e77547bb9bb0954b5716d2b819545342ea133e67a9d5a6ecbc41262dc4cc6c7c"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "J6",
+      "name": "UART1-OUT",
+      "image": "media/e77547bb9bb0954b5716d2b819545342ea133e67a9d5a6ecbc41262dc4cc6c7c.webp",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; horizontal row, position 1 at the end closest to the USB connectors (right side of image). Labels are printed rotated in a block left of the connector, read left-to-right and applied to pads left-to-right.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO17-TX1",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IO18-RX1",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J7",
+      "name": "I2C-OUT",
+      "image": "media/e77547bb9bb0954b5716d2b819545342ea133e67a9d5a6ecbc41262dc4cc6c7c.webp",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; horizontal row, position 1 at the end closest to the USB connectors (right side of image).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO16_SCL",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IO15_SDA",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J5",
+      "name": "UART0-IN",
+      "image": "media/e77547bb9bb0954b5716d2b819545342ea133e67a9d5a6ecbc41262dc4cc6c7c.webp",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; horizontal row, position 1 at the end closest to the USB connectors (right side of image).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO44-RX0",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IO43-TX0",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "5V_IN",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "J6 UART1-OUT labels (IO18-RX1, IO17-TX1, 3V3, GND) are printed rotated in a block beside the connector, not under each pad; left-to-right label-to-pad mapping is inferred.",
+    "J9 and J8 'Wireless module' headers (each drawn as 2 columns x 7 SMD pads) are not transcribed: a separate 2x7 legend (IO1 IO2 / IO10 IO16 / IO9 IO15 / IO3 NC / 3V3 IO46 / GND IO0 / 5V NC) sits between them, but the image does not show which pads each legend entry belongs to or whether each J is 1x7 or 2x7."
+  ],
+  "notes": "PCB silkscreen render of the CrowPanel ESP32 Display 2.8 inch (Advance_series), SKU DIS01728A, V1.0. Compound names (IO15_SDA, IO43-TX0) recorded as printed. Skipped: USB0/USB1, BAT J10 (+/- only), SPK J2 (+/- only), TF slot J1, buzzer, buttons. J8/J9 wireless-module headers not transcribed (see uncertain)."
+}

@@ -1,0 +1,1350 @@
+{
+ "recordId": "arduino-other-uno-r4-minima",
+ "pass": "a",
+ "date": "2026-10-05",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/c4fa0b5145cfd203abf0f329fe9011be2121e4b72201a74987b23c799f44c1fd.png",
+   "sha256": "c4fa0b5145cfd203abf0f329fe9011be2121e4b72201a74987b23c799f44c1fd"
+  },
+  {
+   "file": "media/4a1ef20b64e7ec547bf3d5f8b5fc345f385803e7933e87a71d8cb44f18039b8b.png",
+   "sha256": "4a1ef20b64e7ec547bf3d5f8b5fc345f385803e7933e87a71d8cb44f18039b8b"
+  },
+  {
+   "file": "media/5be4c222de3eefff54059c7757b2d318e697edc843d7e14d093812d7d378949c.png",
+   "sha256": "5be4c222de3eefff54059c7757b2d318e697edc843d7e14d093812d7d378949c"
+  },
+  {
+   "file": "media/f5d09ac71140acf6c0453e2b49cfcf95c138ca03ad4384d6cb025c60fbafdfcb.png",
+   "sha256": "f5d09ac71140acf6c0453e2b49cfcf95c138ca03ad4384d6cb025c60fbafdfcb"
+  },
+  {
+   "file": "media/7b75ccac3fad2d85c80d84a4ca306e578f739f4fadfd6875029f542600ea9a2b.png",
+   "sha256": "7b75ccac3fad2d85c80d84a4ca306e578f739f4fadfd6875029f542600ea9a2b"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "power",
+   "name": "power",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "BOOT",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "IOREF",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "RESET",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "+3V3",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "+5V",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "VIN",
+     "functions": []
+    }
+   ],
+   "image": "media/c4fa0b5145cfd203abf0f329fe9011be2121e4b72201a74987b23c799f44c1fd.png"
+  },
+  {
+   "id": "analog",
+   "name": "analog",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "P014",
+     "functions": [
+      "A0",
+      "D14",
+      "AN009"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "P000",
+     "functions": [
+      "A1",
+      "D15",
+      "AN000"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "P001",
+     "functions": [
+      "A2",
+      "D16",
+      "AN001"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "P002",
+     "functions": [
+      "A3",
+      "D17",
+      "AN002"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "P101",
+     "functions": [
+      "A4",
+      "D18",
+      "AN021"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "P100",
+     "functions": [
+      "A5",
+      "D19",
+      "AN022"
+     ]
+    }
+   ],
+   "image": "media/c4fa0b5145cfd203abf0f329fe9011be2121e4b72201a74987b23c799f44c1fd.png"
+  },
+  {
+   "id": "digital-high",
+   "name": "digital-high",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "P100",
+     "functions": [
+      "D19/SCL",
+      "IIC_SCL1"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "P101",
+     "functions": [
+      "D18/SDA",
+      "IIC_SDA1"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "AREF",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "P111",
+     "functions": [
+      "D13",
+      "RSPCKB"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "P110",
+     "functions": [
+      "D12",
+      "CIPOB"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "P109",
+     "functions": [
+      "D11",
+      "COPIB"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "P112",
+     "functions": [
+      "D10",
+      "SSLB0"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "P303",
+     "functions": [
+      "D9"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "P304",
+     "functions": [
+      "D8"
+     ]
+    }
+   ],
+   "image": "media/c4fa0b5145cfd203abf0f329fe9011be2121e4b72201a74987b23c799f44c1fd.png"
+  },
+  {
+   "id": "digital-low",
+   "name": "digital-low",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "P107",
+     "functions": [
+      "D7"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "P106",
+     "functions": [
+      "D6"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "P102",
+     "functions": [
+      "D5"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "P103",
+     "functions": [
+      "D4"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "P104",
+     "functions": [
+      "D3"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "P105",
+     "functions": [
+      "D2"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "P302",
+     "functions": [
+      "D1/TX",
+      "SCI_TXD2"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "P301",
+     "functions": [
+      "D0/RX",
+      "SCI_RXD2"
+     ]
+    }
+   ],
+   "image": "media/c4fa0b5145cfd203abf0f329fe9011be2121e4b72201a74987b23c799f44c1fd.png"
+  },
+  {
+   "id": "power-img2",
+   "name": "power",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "BOOT",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "IOREF",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "RESET",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "+3V3",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "+5V",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "VIN",
+     "functions": []
+    }
+   ],
+   "image": "media/4a1ef20b64e7ec547bf3d5f8b5fc345f385803e7933e87a71d8cb44f18039b8b.png"
+  },
+  {
+   "id": "analog-img2",
+   "name": "analog",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "P014",
+     "functions": [
+      "A0",
+      "AN009"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "P000",
+     "functions": [
+      "A1",
+      "AN000"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "P001",
+     "functions": [
+      "A2",
+      "AN001"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "P002",
+     "functions": [
+      "A3",
+      "AN002"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "P101",
+     "functions": [
+      "A4",
+      "AN021"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "P100",
+     "functions": [
+      "A5",
+      "AN022"
+     ]
+    }
+   ],
+   "image": "media/4a1ef20b64e7ec547bf3d5f8b5fc345f385803e7933e87a71d8cb44f18039b8b.png"
+  },
+  {
+   "id": "digital-high-img2",
+   "name": "digital-high",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "P100",
+     "functions": [
+      "D15/SCL",
+      "IIC_SCL1"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "P101",
+     "functions": [
+      "D14/SDA",
+      "IIC_SDA1"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "AREF",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "P111",
+     "functions": [
+      "D13",
+      "RSPCKB"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "P110",
+     "functions": [
+      "D12",
+      "CIPOB"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "P109",
+     "functions": [
+      "D11",
+      "COPIB"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "P112",
+     "functions": [
+      "D10",
+      "SSLB0"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "P303",
+     "functions": [
+      "D9"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "P304",
+     "functions": [
+      "D8"
+     ]
+    }
+   ],
+   "image": "media/4a1ef20b64e7ec547bf3d5f8b5fc345f385803e7933e87a71d8cb44f18039b8b.png"
+  },
+  {
+   "id": "digital-low-img2",
+   "name": "digital-low",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "P107",
+     "functions": [
+      "D7"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "P106",
+     "functions": [
+      "D6"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "P102",
+     "functions": [
+      "D5"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "P103",
+     "functions": [
+      "D4"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "P104",
+     "functions": [
+      "D3"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "P105",
+     "functions": [
+      "D2"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "P302",
+     "functions": [
+      "D1/TX",
+      "SCI_TXD2"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "P301",
+     "functions": [
+      "D0/RX",
+      "SCI_RXD2"
+     ]
+    }
+   ],
+   "image": "media/4a1ef20b64e7ec547bf3d5f8b5fc345f385803e7933e87a71d8cb44f18039b8b.png"
+  },
+  {
+   "id": "power-img3",
+   "name": "power",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "BOOT",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "IOREF",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "RESET",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "+3V3",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "+5V",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "VIN",
+     "functions": []
+    }
+   ],
+   "image": "media/5be4c222de3eefff54059c7757b2d318e697edc843d7e14d093812d7d378949c.png"
+  },
+  {
+   "id": "analog-img3",
+   "name": "analog",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "P014",
+     "functions": [
+      "A0",
+      "D14",
+      "AN009"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "P000",
+     "functions": [
+      "A1",
+      "D15",
+      "AN000"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "P001",
+     "functions": [
+      "A2",
+      "D16",
+      "AN001"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "P002",
+     "functions": [
+      "A3",
+      "D17",
+      "AN002"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "P101",
+     "functions": [
+      "A4",
+      "D18",
+      "AN021"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "P100",
+     "functions": [
+      "A5",
+      "D19",
+      "AN022"
+     ]
+    }
+   ],
+   "image": "media/5be4c222de3eefff54059c7757b2d318e697edc843d7e14d093812d7d378949c.png"
+  },
+  {
+   "id": "digital-high-img3",
+   "name": "digital-high",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "P100",
+     "functions": [
+      "D19/SCL",
+      "IIC_SCL1"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "P101",
+     "functions": [
+      "D18/SDA",
+      "IIC_SDA1"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "AREF",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "P111",
+     "functions": [
+      "D13",
+      "RSPCKB"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "P110",
+     "functions": [
+      "D12",
+      "CIPOB"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "P109",
+     "functions": [
+      "D11",
+      "COPIB"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "P112",
+     "functions": [
+      "D10",
+      "SSLB0"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "P303",
+     "functions": [
+      "D9"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "P304",
+     "functions": [
+      "D8"
+     ]
+    }
+   ],
+   "image": "media/5be4c222de3eefff54059c7757b2d318e697edc843d7e14d093812d7d378949c.png"
+  },
+  {
+   "id": "digital-low-img3",
+   "name": "digital-low",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "P107",
+     "functions": [
+      "D7"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "P106",
+     "functions": [
+      "D6"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "P102",
+     "functions": [
+      "D5"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "P103",
+     "functions": [
+      "D4"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "P104",
+     "functions": [
+      "D3"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "P105",
+     "functions": [
+      "D2"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "P302",
+     "functions": [
+      "D1/TX",
+      "SCI_TXD2"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "P301",
+     "functions": [
+      "D0/RX",
+      "SCI_RXD2"
+     ]
+    }
+   ],
+   "image": "media/5be4c222de3eefff54059c7757b2d318e697edc843d7e14d093812d7d378949c.png"
+  },
+  {
+   "id": "power-img5",
+   "name": "power",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "BOOT",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "IOREF",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "RESET",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "+3V3",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "+5V",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "VIN",
+     "functions": []
+    }
+   ],
+   "image": "media/7b75ccac3fad2d85c80d84a4ca306e578f739f4fadfd6875029f542600ea9a2b.png"
+  },
+  {
+   "id": "analog-img5",
+   "name": "analog",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "P014",
+     "functions": [
+      "A0",
+      "D14",
+      "AN009",
+      "DA0"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "P000",
+     "functions": [
+      "A1",
+      "D15",
+      "AN000",
+      "IRQ6",
+      "AMP0+"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "P001",
+     "functions": [
+      "A2",
+      "D16",
+      "AN001",
+      "IRQ7",
+      "AMP0-"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "P002",
+     "functions": [
+      "A3",
+      "D17",
+      "AN002",
+      "IRQ2",
+      "AMP00"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "P101",
+     "functions": [
+      "A4",
+      "D18",
+      "AN021",
+      "IIC_SDA1",
+      "SCI_TXD0",
+      "IRQ1",
+      "CMPREF0"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "P100",
+     "functions": [
+      "A5",
+      "D19",
+      "AN022",
+      "IIC_SCL1",
+      "SCI_RXD0",
+      "IRQ2",
+      "CMPIN0"
+     ]
+    }
+   ],
+   "image": "media/7b75ccac3fad2d85c80d84a4ca306e578f739f4fadfd6875029f542600ea9a2b.png"
+  },
+  {
+   "id": "digital-high-img5",
+   "name": "digital-high",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "P100",
+     "functions": [
+      "D19/SCL",
+      "IIC_SCL1",
+      "SCI_CIPO0",
+      "SCI_RXD0",
+      "IRQ2",
+      "AN022",
+      "GTIOC5B"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "P101",
+     "functions": [
+      "D18/SDA",
+      "IIC_SDA1",
+      "SCI_COPI0",
+      "SCI_TXD0",
+      "IRQ1",
+      "AN021",
+      "GTIOC5A"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "AREF",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "P111",
+     "functions": [
+      "D13",
+      "RSPCKB",
+      "IRQ4",
+      "GTIOC3A"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "P110",
+     "functions": [
+      "D12",
+      "CIPOB",
+      "IRQ3",
+      "GTIOC1B",
+      "TDI"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "P109",
+     "functions": [
+      "D11",
+      "COPIB",
+      "GTIOC1A",
+      "TDO/SWO/CLKOUT"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "P112",
+     "functions": [
+      "D10",
+      "SSLB0",
+      "GTIOC3B"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "P303",
+     "functions": [
+      "D9",
+      "GTIOC7B"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "P304",
+     "functions": [
+      "D8",
+      "IRQ9",
+      "GTIOC7A"
+     ]
+    }
+   ],
+   "image": "media/7b75ccac3fad2d85c80d84a4ca306e578f739f4fadfd6875029f542600ea9a2b.png"
+  },
+  {
+   "id": "digital-low-img5",
+   "name": "digital-low",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "P107",
+     "functions": [
+      "D7",
+      "GTIOC0A"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "P106",
+     "functions": [
+      "D6",
+      "GTIOC0B"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "P102",
+     "functions": [
+      "D5",
+      "SCI_SCK0",
+      "CRX0",
+      "AN020/ADTRG0",
+      "CMPIN1",
+      "GTIOC2B"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "P103",
+     "functions": [
+      "D4",
+      "CTX0",
+      "AN019",
+      "CMPREF1",
+      "GTIOC2A"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "P104",
+     "functions": [
+      "D3",
+      "IRQ1",
+      "GTIOC1B"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "P105",
+     "functions": [
+      "D2",
+      "IRQ0",
+      "GTIOC1A"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "P302",
+     "functions": [
+      "D1/TX",
+      "SCI_TXD2",
+      "SCI_SDA2",
+      "IRQ5",
+      "GTIOC4A"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "P301",
+     "functions": [
+      "D0/RX",
+      "SCI_RXD2",
+      "SCI_SCL2",
+      "IRQ6",
+      "GTIOC4B"
+     ]
+    }
+   ],
+   "image": "media/7b75ccac3fad2d85c80d84a4ca306e578f739f4fadfd6875029f542600ea9a2b.png"
+  },
+  {
+   "id": "SPI-img4",
+   "name": "SPI",
+   "rows": 2,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "P110",
+     "functions": [
+      "CIPOB"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "+5V",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "P111",
+     "functions": [
+      "RSPCKB"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "P109",
+     "functions": [
+      "COPIB"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "RESET",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "GND",
+     "functions": []
+    }
+   ],
+   "image": "media/f5d09ac71140acf6c0453e2b49cfcf95c138ca03ad4384d6cb025c60fbafdfcb.png"
+  },
+  {
+   "id": "SWD-img4",
+   "name": "SWD",
+   "rows": 2,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "+5V",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "P108",
+     "functions": [
+      "SWDIO"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "P300",
+     "functions": [
+      "SWCLK"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "NC",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "P502",
+     "functions": [
+      "SCI_RXD1"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "P501",
+     "functions": [
+      "SCI_TXD1"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "RESET",
+     "functions": []
+    }
+   ],
+   "image": "media/f5d09ac71140acf6c0453e2b49cfcf95c138ca03ad4384d6cb025c60fbafdfcb.png"
+  },
+  {
+   "id": "SPI-img5",
+   "name": "SPI",
+   "rows": 2,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "P110",
+     "functions": [
+      "CIPOB"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "+5V",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "P111",
+     "functions": [
+      "RSPCKB"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "P109",
+     "functions": [
+      "COPIB"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "RESET",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "GND",
+     "functions": []
+    }
+   ],
+   "image": "media/7b75ccac3fad2d85c80d84a4ca306e578f739f4fadfd6875029f542600ea9a2b.png"
+  },
+  {
+   "id": "SWD-img5",
+   "name": "SWD",
+   "rows": 2,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "+5V",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "P108",
+     "functions": [
+      "SWDIO"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "P300",
+     "functions": [
+      "SWCLK"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "NC",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "P502",
+     "functions": [
+      "SCI_RXD1"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "P501",
+     "functions": [
+      "SCI_TXD1"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "RESET",
+     "functions": []
+    }
+   ],
+   "image": "media/7b75ccac3fad2d85c80d84a4ca306e578f739f4fadfd6875029f542600ea9a2b.png"
+  }
+ ],
+ "notes": "Older image 2 prints D15/SCL and D14/SDA; other images D19/SCL and D18/SDA, retained separately. USB signal list is a connector-level annotation with no physical-contact numbers or leaders. LEDs, button and DC barrel range excluded.",
+ "unreadable": [],
+ "uncertain": [
+  "USB signal list in images 4-5 lacks physical-contact mapping. Older digital aliases differ from newer source views."
+ ]
+}

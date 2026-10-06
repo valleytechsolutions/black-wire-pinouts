@@ -1,0 +1,715 @@
+{
+  "recordId": "waveshare-rp2350-core2350b",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/f9a1e443a5b4a73cb487b1c22ae95a2e7fbd236160453be55563e0ca8d6ce05a.jpg",
+      "sha256": "f9a1e443a5b4a73cb487b1c22ae95a2e7fbd236160453be55563e0ca8d6ce05a"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "top-right-edge",
+      "name": "Top-right edge 2-row pads (incl. top corner block)",
+      "image": "media/f9a1e443a5b4a73cb487b1c22ae95a2e7fbd236160453be55563e0ca8d6ce05a.jpg",
+      "rows": 2,
+      "orderNote": "No USB connector or printed pin numbers; board drawn rotated 45 deg. Start at the upper end of this diagonal edge; odd positions = outer row (nearer board edge), even = inner row.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP2",
+          "functions": [
+            "2",
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART0 TX",
+            "PWM1 A"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP0",
+          "functions": [
+            "0",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX",
+            "PWM0 A"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP1",
+          "functions": [
+            "1",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX",
+            "PWM0 B"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "VBUS",
+          "functions": [
+            "VB"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "3V3",
+          "functions": [
+            "3V"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "3V3 EN",
+          "functions": [
+            "3E"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "RUN",
+          "functions": [
+            "RU"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "ADC VREF",
+          "functions": [
+            "AV"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "USB DP",
+          "functions": [
+            "D+"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "SWCLK",
+          "functions": [
+            "SC"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "USB DM",
+          "functions": [
+            "D-"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "BOOTSEL",
+          "functions": [
+            "BS"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "SWDIO",
+          "functions": [
+            "SD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-right-edge",
+      "name": "Bottom-right edge 2-row pads (incl. right corner block)",
+      "image": "media/f9a1e443a5b4a73cb487b1c22ae95a2e7fbd236160453be55563e0ca8d6ce05a.jpg",
+      "rows": 2,
+      "orderNote": "No USB connector or printed pin numbers; board drawn rotated 45 deg. Start at the upper end of this diagonal edge; odd positions = outer row (nearer board edge), even = inner row.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP47",
+          "functions": [
+            "47",
+            "SPI1 TX",
+            "I2C1 SCL",
+            "UART0 RX",
+            "PWM11 B",
+            "ADC7",
+            "PSRAM CSn"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP45",
+          "functions": [
+            "45",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART0 RX",
+            "PWM10 B",
+            "ADC5"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP46",
+          "functions": [
+            "46",
+            "SPI1 SCK",
+            "I2C1 SDA",
+            "UART0 TX",
+            "PWM11 A",
+            "ADC6"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP44",
+          "functions": [
+            "44",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART0 TX",
+            "PWM10 A",
+            "ADC4"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP43",
+          "functions": [
+            "43",
+            "SPI1 TX",
+            "I2C1 SCL",
+            "UART1 RX",
+            "PWM9 B",
+            "ADC3"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP42",
+          "functions": [
+            "42",
+            "SPI1 SCK",
+            "I2C1 SDA",
+            "UART1 TX",
+            "PWM9 A",
+            "ADC2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP41",
+          "functions": [
+            "41",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART1 RX",
+            "PWM8 B",
+            "ADC1"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP40",
+          "functions": [
+            "40",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART1 TX",
+            "PWM8 A",
+            "ADC0"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP39",
+          "functions": [
+            "39",
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART1 RX",
+            "PWM11 B"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP38",
+          "functions": [
+            "38",
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART1 TX",
+            "PWM11 A"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP37",
+          "functions": [
+            "37",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX",
+            "PWM10 B"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GP36",
+          "functions": [
+            "36",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX",
+            "PWM10 A"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GP35",
+          "functions": [
+            "35",
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART0 RX",
+            "PWM9 B"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GP34",
+          "functions": [
+            "34",
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART0 TX",
+            "PWM9 A"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GP33",
+          "functions": [
+            "33",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX",
+            "PWM8 B"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-left-edge",
+      "name": "Bottom-left edge 2-row pads (incl. bottom corner block)",
+      "image": "media/f9a1e443a5b4a73cb487b1c22ae95a2e7fbd236160453be55563e0ca8d6ce05a.jpg",
+      "rows": 2,
+      "orderNote": "No USB connector or printed pin numbers; board drawn rotated 45 deg. Start at the upper end of this diagonal edge; odd positions = outer row (nearer board edge), even = inner row.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP19",
+          "functions": [
+            "19",
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART0 RX",
+            "PWM1 B",
+            "HSTX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP18",
+          "functions": [
+            "18",
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART0 TX",
+            "PWM1 A",
+            "HSTX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP21",
+          "functions": [
+            "21",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX",
+            "PWM2 B"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP20",
+          "functions": [
+            "20",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX",
+            "PWM2 A"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP23",
+          "functions": [
+            "23",
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART1 RX",
+            "PWM3 B"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP22",
+          "functions": [
+            "22",
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART1 TX",
+            "PWM3 A"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP25",
+          "functions": [
+            "25",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART1 RX",
+            "PWM4 B"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP24",
+          "functions": [
+            "24",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART1 TX",
+            "PWM4 A"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP27",
+          "functions": [
+            "27",
+            "SPI1 TX",
+            "I2C1 SCL",
+            "UART1 RX",
+            "PWM5 B"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP26",
+          "functions": [
+            "26",
+            "SPI1 SCK",
+            "I2C1 SDA",
+            "UART1 TX",
+            "PWM5 A"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP29",
+          "functions": [
+            "29",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART0 RX",
+            "PWM6 B"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP28",
+          "functions": [
+            "28",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART0 TX",
+            "PWM6 A"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GP30",
+          "functions": [
+            "30",
+            "SPI1 SCK",
+            "I2C1 SDA",
+            "UART0 TX",
+            "PWM7 A"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GP31",
+          "functions": [
+            "31",
+            "SPI1 TX",
+            "I2C1 SCL",
+            "UART0 RX",
+            "PWM7 B"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GP32",
+          "functions": [
+            "32",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX",
+            "PWM8 A"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "top-left-edge",
+      "name": "Top-left edge 2-row pads (incl. left corner block)",
+      "image": "media/f9a1e443a5b4a73cb487b1c22ae95a2e7fbd236160453be55563e0ca8d6ce05a.jpg",
+      "rows": 2,
+      "orderNote": "No USB connector or printed pin numbers; board drawn rotated 45 deg. Start at the upper end of this diagonal edge; odd positions = outer row (nearer board edge), even = inner row.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP4",
+          "functions": [
+            "4",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX",
+            "PWM2 A"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP3",
+          "functions": [
+            "3",
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART0 RX",
+            "PWM1 B"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP6",
+          "functions": [
+            "6",
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART1 TX",
+            "PWM3 A"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP5",
+          "functions": [
+            "5",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX",
+            "PWM2 B"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP8",
+          "functions": [
+            "8",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART1 TX",
+            "PWM4 A"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP7",
+          "functions": [
+            "7",
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART1 RX",
+            "PWM3 B"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP10",
+          "functions": [
+            "10",
+            "SPI1 SCK",
+            "I2C1 SDA",
+            "UART1 TX",
+            "PWM5 A"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP9",
+          "functions": [
+            "9",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART1 RX",
+            "PWM4 B"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP12",
+          "functions": [
+            "12",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART0 TX",
+            "PWM6 A",
+            "HSTX"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP11",
+          "functions": [
+            "11",
+            "SPI1 TX",
+            "I2C1 SCL",
+            "UART1 RX",
+            "PWM5 B"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP14",
+          "functions": [
+            "14",
+            "SPI1 SCK",
+            "I2C1 SDA",
+            "UART0 TX",
+            "PWM7 A",
+            "HSTX"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP13",
+          "functions": [
+            "13",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART0 RX",
+            "PWM6 B",
+            "HSTX"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GP15",
+          "functions": [
+            "15",
+            "SPI1 TX",
+            "I2C1 SCL",
+            "UART0 RX",
+            "PWM7 B",
+            "HSTX"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GP16",
+          "functions": [
+            "16",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX",
+            "PWM0 A",
+            "HSTX"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GP17",
+          "functions": [
+            "17",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX",
+            "PWM0 B",
+            "HSTX"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Connector grouping: 64 pads form a two-deep ring around a 45-degree rotated square; corner 2x2 blocks are shared by two edges and were assigned clockwise (top corner to top-right edge, right corner to bottom-right, bottom corner to bottom-left, left corner to top-left). Grouping and start ends are a judgement call.",
+    "Physical order: no USB connector and no pin numbers; \"top\" rule applied to diagonal edges by starting at the end that is higher in the image.",
+    "Pad-to-label mapping derived from silkscreen GPIO numbers (top-left, bottom-left, top-right edges) and by tracing leader lines (bottom-right edge, where silkscreen numbers are rotated and not legible). GP46/GP47 leader lines touch; their pads were assigned from legible silkscreen 46/47.",
+    "Silkscreen G under every GND pad was not individually confirmed; \"G\" added to GND functions where silk G was seen near ground pads."
+  ],
+  "notes": "Functions combine the printed column header with the circled instance number and signal (e.g. column SPI, circled 0, RX -> \"SPI0 RX\"). Silkscreen abbreviations (VB, 3V, 3E, RU, AV, D+, D-, SC, SD, BS) listed first in functions."
+}

@@ -1,0 +1,167 @@
+{
+  "recordId": "high-code-gpio-device-high-boy-rev-2-2-mvp",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/c5e11b49a7c395434bbe335cff2b4acd41be9db8dc6cc55992bfadeb83237c53.png",
+      "sha256": "c5e11b49a7c395434bbe335cff2b4acd41be9db8dc6cc55992bfadeb83237c53"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "U21",
+      "name": "U21 module pads (right edge)",
+      "image": "media/c5e11b49a7c395434bbe335cff2b4acd41be9db8dc6cc55992bfadeb83237c53.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at bottom (end closest to the USB-C connector). A triangle marker sits beside the GND pad but is not labeled 1.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SI",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SO",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "CK",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "CS",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "TXD",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "RXD",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "4V2",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "power-pads",
+      "name": "Labeled test pads GND/SYS/3V3/5V (left, lower)",
+      "image": "media/c5e11b49a7c395434bbe335cff2b4acd41be9db8dc6cc55992bfadeb83237c53.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical group started at bottom (end closest to the USB-C connector).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SYS",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bat-pad",
+      "name": "Labeled BAT test pad",
+      "image": "media/c5e11b49a7c395434bbe335cff2b4acd41be9db8dc6cc55992bfadeb83237c53.png",
+      "rows": 1,
+      "orderNote": "Single pad.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BAT",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "i2c-pads",
+      "name": "Labeled I2C test pads (left, upper)",
+      "image": "media/c5e11b49a7c395434bbe335cff2b4acd41be9db8dc6cc55992bfadeb83237c53.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical pair started at bottom (end closest to the USB-C connector).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "I2C_SCL",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "I2C_SDA",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "ir-pads",
+      "name": "Labeled IR test pads (top right)",
+      "image": "media/c5e11b49a7c395434bbe335cff2b4acd41be9db8dc6cc55992bfadeb83237c53.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical pair started at bottom (end closest to the USB-C connector).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IR_TX",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IR_RX",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "Small silkscreen beside the test pads is low resolution: separators in IR_RX/IR_TX and I2C_SDA/I2C_SCL read as underscores; 'BAT' pad label partly blurred; SO read as letter O."
+  ],
+  "uncertain": [
+    "Image is a PCB-editor 3D render (silkscreen 'High_Boy REV 2.2'), not a pinout diagram; it does not say whether this is the MVP build named in the record.",
+    "Labeled single test pads (GND/SYS/3V3/5V, BAT, I2C_SDA/I2C_SCL, IR_RX/IR_TX) were treated as wiring points and grouped by proximity; the image does not show whether they are intended as connection points, and the grouping is a judgment."
+  ],
+  "notes": "Only silkscreen text is available. Skipped per rule 1: U4 wireless module footprint (pads unlabeled), U15 FPC connector and the 4-pin connector at top (unlabeled pins), CARD1 microSD socket, SW1 button, USB-C, coil antenna, LED U12."
+}

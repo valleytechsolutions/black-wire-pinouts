@@ -1,0 +1,197 @@
+{
+  "recordId": "adafruit-esp32-funhouse-wifi-home-automation-development-board",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/3706c60614282cc7cab1cc2119f07b953f2e8db5179b8b1118e707b7e511fa19.png",
+      "sha256": "3706c60614282cc7cab1cc2119f07b953f2e8db5179b8b1118e707b7e511fa19"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "pir-header",
+      "name": "PIR sensor header (2x3 holes, + 0 -)",
+      "image": "media/3706c60614282cc7cab1cc2119f07b953f2e8db5179b8b1118e707b7e511fa19.png",
+      "rows": 2,
+      "orderNote": "No pin numbers printed and no USB connector visible; 2x3 footprint read left to right, starting with the outer row (top, nearest the roof edge) and alternating outer/inner per hole column.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3.3V",
+          "functions": [
+            "+"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": [
+            "+"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO16",
+          "functions": [
+            "0",
+            "PIR_SENSE",
+            "ADC2_CH5",
+            "U0CTS",
+            "XTAL_32K_N"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO16",
+          "functions": [
+            "0",
+            "PIR_SENSE",
+            "ADC2_CH5",
+            "U0CTS",
+            "XTAL_32K_N"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": [
+            "-"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": [
+            "-"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stemma-qt",
+      "name": "I2C STEMMA QT connector",
+      "image": "media/3706c60614282cc7cab1cc2119f07b953f2e8db5179b8b1118e707b7e511fa19.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked and no USB visible; vertical connector read top to bottom by its colored dots (yellow, blue, red, black).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO33",
+          "functions": [
+            "SCL",
+            "FSPIHD"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO34",
+          "functions": [
+            "SDA",
+            "FSPICS0"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "a0-port",
+      "name": "A0 3-pin JST port",
+      "image": "media/3706c60614282cc7cab1cc2119f07b953f2e8db5179b8b1118e707b7e511fa19.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed and no USB visible; vertical connector read from the top.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO17",
+          "functions": [
+            "A0",
+            "ADC2_CH6",
+            "U1TXD",
+            "DAC_1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-port",
+      "name": "A1 3-pin JST port",
+      "image": "media/3706c60614282cc7cab1cc2119f07b953f2e8db5179b8b1118e707b7e511fa19.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed and no USB visible; vertical connector read from the top.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO2",
+          "functions": [
+            "A1",
+            "ADC1_CH1",
+            "T2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-port",
+      "name": "A2 3-pin JST port",
+      "image": "media/3706c60614282cc7cab1cc2119f07b953f2e8db5179b8b1118e707b7e511fa19.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed and no USB visible; vertical connector read from the top.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO1",
+          "functions": [
+            "A2",
+            "ADC1_CH0",
+            "T1"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "PIR header middle silkscreen mark: character could be letter O or digit 0; recorded as 0."
+  ],
+  "notes": "Label = printed GPIO name; CircuitPython name first in functions, then outward. Green 'Power Domain' tags (RTC, CPU, SPI/CPU) omitted as category-only tags. PIR header drawn as two hole rows bridged per column; callouts point at the top row, so both holes of a column take its label. Capacitive touch areas CAP6-CAP13, DotStar LEDs, buttons, display, speaker, LED, light sensor and on/off switch are not wiring points and were skipped. No USB connector is visible in this front view."
+}

@@ -1,0 +1,327 @@
+{
+  "recordId": "adafruit-esp32-itsybitsy-esp32",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/954ebeccd0a4d1e4c02c47a3d8facfe9a90c4ce762b2a7ebc44b817ec9657b5f.png",
+      "sha256": "954ebeccd0a4d1e4c02c47a3d8facfe9a90c4ce762b2a7ebc44b817ec9657b5f"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/954ebeccd0a4d1e4c02c47a3d8facfe9a90c4ce762b2a7ebc44b817ec9657b5f.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "VHI",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "A0",
+          "functions": [
+            "25",
+            "ADC2_CH8",
+            "RTC6",
+            "DAC1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "A1",
+          "functions": [
+            "26",
+            "ADC2_CH9",
+            "RTC7",
+            "DAC2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "A2",
+          "functions": [
+            "4",
+            "ADC2_CH0",
+            "HSPIHD",
+            "HS2_DATA1",
+            "T0",
+            "RTC10"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "A3",
+          "functions": [
+            "38",
+            "ADC1_CH2",
+            "RTC2",
+            "SENSE_CAP-",
+            "Input Only"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "A4",
+          "functions": [
+            "37",
+            "ADC1_CH1",
+            "RTC1",
+            "SENSE_CAP+",
+            "Input Only"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "A5",
+          "functions": [
+            "36",
+            "ADC1_CH0",
+            "RTC0",
+            "SENSE_V+",
+            "Input Only"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "SCK",
+          "functions": [
+            "19",
+            "VSPIQ",
+            "U0CTS"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "MOSI",
+          "functions": [
+            "21",
+            "VSPIHD"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "MISO",
+          "functions": [
+            "22",
+            "VSPIWP",
+            "U0RTS"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/954ebeccd0a4d1e4c02c47a3d8facfe9a90c4ce762b2a7ebc44b817ec9657b5f.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "D13",
+          "functions": [
+            "13",
+            "ADC2_CH4",
+            "HSPID",
+            "HS2_DATA3",
+            "T4",
+            "RTC14",
+            "MTCK"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "D12",
+          "functions": [
+            "12",
+            "ADC2_CH5",
+            "HSPIQ",
+            "HS2_DATA2",
+            "T5",
+            "RTC15",
+            "MTDI"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D14",
+          "functions": [
+            "14",
+            "ADC2_CH6",
+            "HSPICLK",
+            "HS2_CLK",
+            "T6",
+            "RTC16",
+            "MTMS"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "D33",
+          "functions": [
+            "33",
+            "ADC1_CH5",
+            "T8",
+            "RTC8",
+            "32K_XN"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "D32",
+          "functions": [
+            "32",
+            "ADC1_CH4",
+            "T9",
+            "RTC9",
+            "32K_XP"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "D7",
+          "functions": [
+            "7",
+            "SPIQ",
+            "HS1_DATA0",
+            "U2RTS"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "D5",
+          "functions": [
+            "5",
+            "VSPICS0",
+            "HS1_DATA6"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "SCL",
+          "functions": [
+            "27",
+            "ADC2_CH7",
+            "T7",
+            "RTC17"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "SDA",
+          "functions": [
+            "15",
+            "ADC2_CH3",
+            "HSPICS0",
+            "HS2_CMD",
+            "T3",
+            "RTC13",
+            "MTDO"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "TX",
+          "functions": [
+            "20"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "RX",
+          "functions": [
+            "8",
+            "SPID",
+            "HS1_DATA1",
+            "U2CTS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "i2c-port",
+      "name": "I2C (STEMMA QT style) connector",
+      "image": "media/954ebeccd0a4d1e4c02c47a3d8facfe9a90c4ce762b2a7ebc44b817ec9657b5f.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; on-board connector dots form a horizontal row (black, red, blue, yellow) with no end nearer USB; started at left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SDA",
+          "functions": [
+            "15",
+            "ADC2_CH3",
+            "HSPICS0",
+            "HS2_CMD",
+            "T3",
+            "RTC13",
+            "MTDO"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "SCL",
+          "functions": [
+            "27",
+            "ADC2_CH7",
+            "T7",
+            "RTC17"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "GPIO boxes print bare numbers only, so labels use the CircuitPython names with the GPIO number first in functions. Underscores partly hidden by box edges (SENSE_CAP-, 32K_XN) written as underscores. NeoPixel, NEOPIXEL_POWER and BUTTON have no pad and were skipped. Board-render silkscreen not transcribed."
+}

@@ -1,0 +1,381 @@
+{
+  "recordId": "seeed-studio-expansion-can-bus-shield-v1-2",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/c69c4e9d3a6ead96d4a424b6094d288b77785efa7dce1461adb899a6204df2c9.png",
+      "sha256": "c69c4e9d3a6ead96d4a424b6094d288b77785efa7dce1461adb899a6204df2c9"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "JP5",
+      "name": "Power header",
+      "image": "media/c69c4e9d3a6ead96d4a424b6094d288b77785efa7dce1461adb899a6204df2c9.png",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB; vertical row ordered top to bottom (square pad at bottom not treated as pin 1)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IOREF",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3.3V",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "Vin",
+          "functions": [
+            "V_OBD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "JP4",
+      "name": "Analog header",
+      "image": "media/c69c4e9d3a6ead96d4a424b6094d288b77785efa7dce1461adb899a6204df2c9.png",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB; vertical row ordered top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A0",
+          "functions": [
+            "0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "A1",
+          "functions": [
+            "1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "A2",
+          "functions": [
+            "2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "A3",
+          "functions": [
+            "3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "A4",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "A5",
+          "functions": [
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "JP1",
+      "name": "Digital header D8-D13, AREF, I2C",
+      "image": "media/c69c4e9d3a6ead96d4a424b6094d288b77785efa7dce1461adb899a6204df2c9.png",
+      "rows": 1,
+      "orderNote": "Silkscreen digits are Arduino pin names, not position numbers; vertical row ordered top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "AREF",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "D13",
+          "functions": [
+            "13",
+            "SCK"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D12",
+          "functions": [
+            "12",
+            "MISO"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "D11",
+          "functions": [
+            "11",
+            "MOSI"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "D10",
+          "functions": [
+            "10",
+            "CS*"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "D9",
+          "functions": [
+            "9",
+            "CS"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "D8",
+          "functions": [
+            "8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "JP2",
+      "name": "Digital header D0-D7",
+      "image": "media/c69c4e9d3a6ead96d4a424b6094d288b77785efa7dce1461adb899a6204df2c9.png",
+      "rows": 1,
+      "orderNote": "Silkscreen digits are Arduino pin names, not position numbers; vertical row ordered top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D7",
+          "functions": [
+            "7"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D6",
+          "functions": [
+            "6"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "D5",
+          "functions": [
+            "5"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D4",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "D3",
+          "functions": [
+            "3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D2",
+          "functions": [
+            "2",
+            "INT"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "D1/TX",
+          "functions": [
+            "1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "D0/RX",
+          "functions": [
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "J10",
+      "name": "CAN screw terminal",
+      "image": "media/c69c4e9d3a6ead96d4a424b6094d288b77785efa7dce1461adb899a6204df2c9.png",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB; vertical terminal ordered top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "CANH",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "CANL",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-i2c",
+      "name": "Upper Grove connector (I2C)",
+      "image": "media/c69c4e9d3a6ead96d4a424b6094d288b77785efa7dce1461adb899a6204df2c9.png",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB; horizontal row ordered left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SCL",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-uart",
+      "name": "Lower Grove connector (UART)",
+      "image": "media/c69c4e9d3a6ead96d4a424b6094d288b77785efa7dce1461adb899a6204df2c9.png",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB; horizontal row ordered left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RX",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "icsp",
+      "name": "ICSP header (2x3)",
+      "image": "media/c69c4e9d3a6ead96d4a424b6094d288b77785efa7dce1461adb899a6204df2c9.png",
+      "rows": 2,
+      "orderNote": "2x3 without printed numbers or USB: position 1 at the left end of the bottom row (nearest the board's bottom edge in the legend grid), alternating rows",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "MOSI",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SCK",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "MISO",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "ICSP labels are given only in a separate 2x3 legend grid beside a dot diagram (no leader lines to the physical header on the board); the label-to-hole mapping and the orientation relative to the board header are inferred from grid position."
+  ],
+  "notes": "'FREE' callouts (legend category for pins unused by the shield) were omitted as category tags. DB9 connector pins are not individually labeled and were skipped. JP4 silkscreen digits use a slashed zero."
+}

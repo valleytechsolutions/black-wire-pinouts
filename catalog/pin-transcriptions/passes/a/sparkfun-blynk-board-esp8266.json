@@ -1,0 +1,220 @@
+{
+  "recordId": "sparkfun-blynk-board-esp8266",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/343859489120e7fbe60b1b99b3d98a025f36f9757813e88812fbe62775b97fc7.png",
+      "sha256": "343859489120e7fbe60b1b99b3d98a025f36f9757813e88812fbe62775b97fc7"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-pads",
+      "name": "Left edge pads",
+      "image": "media/343859489120e7fbe60b1b99b3d98a025f36f9757813e88812fbe62775b97fc7.png",
+      "rows": 1,
+      "orderNote": "Closest to USB connector (micro-USB at top): top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VIN",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RX",
+          "functions": [
+            "D8"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "TX",
+          "functions": [
+            "D7"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D5",
+          "functions": [
+            "5",
+            "LED"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-pads",
+      "name": "Right edge pads",
+      "image": "media/343859489120e7fbe60b1b99b3d98a025f36f9757813e88812fbe62775b97fc7.png",
+      "rows": 1,
+      "orderNote": "Closest to USB connector (micro-USB at top): top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D12",
+          "functions": [
+            "12",
+            "MISO"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D13",
+          "functions": [
+            "13",
+            "MOSI"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "A0",
+          "functions": [
+            "ADC"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D15",
+          "functions": [
+            "15",
+            "10k pulldown"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "D16",
+          "functions": [
+            "16",
+            "XPD"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "RST",
+          "functions": [
+            "Reset"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "D0",
+          "functions": [
+            "0",
+            "10k pullup",
+            "Button"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "i2c-header",
+      "name": "Top 4-pin I2C 0.1in header",
+      "image": "media/343859489120e7fbe60b1b99b3d98a025f36f9757813e88812fbe62775b97fc7.png",
+      "rows": 1,
+      "orderNote": "Closest to USB connector (USB to the left): left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SDA",
+          "functions": [
+            "D2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "SCL",
+          "functions": [
+            "D14"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "i2c-jst",
+      "name": "Top 4-pin I2C JST connector",
+      "image": "media/343859489120e7fbe60b1b99b3d98a025f36f9757813e88812fbe62775b97fc7.png",
+      "rows": 1,
+      "orderNote": "Closest to USB connector (USB to the left): left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SDA",
+          "functions": [
+            "D2"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SCL",
+          "functions": [
+            "D14"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ws2812-jst",
+      "name": "3-pin JST (WS2812 string)",
+      "image": "media/343859489120e7fbe60b1b99b3d98a025f36f9757813e88812fbe62775b97fc7.png",
+      "rows": 1,
+      "orderNote": "Closest to USB connector: top to bottom as printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "DOUT",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Each I/O pad has a large and a small hole for the same signal (2 sized holes); recorded as one position per pad. Labels use the Arduino D/A names with silkscreen numbers first in functions. D2/D14 added to SDA/SCL from the separate I2C callout block. 2-pin battery JST (only +/- marks) and the button skipped.",
+  "uncertain": [
+    "RST: a small hole labeled RST sits between pads 16 and 0 on the right side; its callout (RST/Reset) is placed apart from the pad rows, so placing it in the right-pads row is inferred from silkscreen",
+    "Top I2C: two printed label lines (GND 3.3V SDA SCL / SDA 3.3V GND SCL) above the 0.1in header holes and the 4-pin JST; which line belongs to the header and which to the JST is not explicit (assumed upper line = header holes, lower line = JST)"
+  ]
+}

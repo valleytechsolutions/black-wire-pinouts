@@ -1,0 +1,469 @@
+{
+ "recordId": "seeed-studio-other-xiao-nrf54lm20a",
+ "pass": "a",
+ "date": "2026-10-05",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/9ea7ce37a88c1faf0454d89fe55e0958f626c9061b02e25fc7d4c9754bfdf07f.png",
+   "sha256": "9ea7ce37a88c1faf0454d89fe55e0958f626c9061b02e25fc7d4c9754bfdf07f"
+  },
+  {
+   "file": "media/f02082c9753cf9381286bb45cf6833a8b848f7cd29618f634da0ae64d5134419.png",
+   "sha256": "f02082c9753cf9381286bb45cf6833a8b848f7cd29618f634da0ae64d5134419"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "left-edge",
+   "name": "left-edge",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "VBUS",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "D10",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "P3.11",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "D9",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "P3.10",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "D8",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "P3.09",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "D7",
+     "functions": []
+    }
+   ],
+   "image": "media/9ea7ce37a88c1faf0454d89fe55e0958f626c9061b02e25fc7d4c9754bfdf07f.png"
+  },
+  {
+   "id": "right-edge",
+   "name": "right-edge",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "D0",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "P0.00",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "D1",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "P0.01",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "D2",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "P0.02",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "D3",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "P0.03",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "D4",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "P0.04",
+     "functions": [
+      "GRTC"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "D5",
+     "functions": []
+    },
+    {
+     "position": 12,
+     "label": "P0.05",
+     "functions": [
+      "GRTC"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "D6",
+     "functions": []
+    }
+   ],
+   "image": "media/9ea7ce37a88c1faf0454d89fe55e0958f626c9061b02e25fc7d4c9754bfdf07f.png"
+  },
+  {
+   "id": "debug-pads",
+   "name": "debug-pads",
+   "rows": 2,
+   "orderNote": "USB at top; top to bottom alternating left/right pads, equally close to edges.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "nRF54LM20A SWCLK",
+     "functions": [
+      "SWCLK"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "nRF54LM20A SWDIO",
+     "functions": [
+      "SWDIO"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "nRF54LM20A RESET",
+     "functions": [
+      "RST"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "SAMD11 SWCLK",
+     "functions": [
+      "SWCLK2"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "SAMD11 SWDIO",
+     "functions": [
+      "SWDIO2"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "3.3V",
+     "functions": [
+      "3V3"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "SAMD11 RESET",
+     "functions": [
+      "RST2"
+     ]
+    }
+   ],
+   "image": "media/9ea7ce37a88c1faf0454d89fe55e0958f626c9061b02e25fc7d4c9754bfdf07f.png"
+  },
+  {
+   "id": "left-inner-pads",
+   "name": "left-inner-pads",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "P3.00",
+     "functions": [
+      "D11"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "P3.01",
+     "functions": [
+      "D12"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "P3.02",
+     "functions": [
+      "D13"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "P3.03",
+     "functions": [
+      "D14"
+     ]
+    }
+   ],
+   "image": "media/9ea7ce37a88c1faf0454d89fe55e0958f626c9061b02e25fc7d4c9754bfdf07f.png"
+  },
+  {
+   "id": "right-inner-pads",
+   "name": "right-inner-pads",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "P3.07",
+     "functions": [
+      "D18"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "P3.06",
+     "functions": [
+      "D17"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "P3.05",
+     "functions": [
+      "D16"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "P3.04",
+     "functions": [
+      "D15"
+     ]
+    }
+   ],
+   "image": "media/9ea7ce37a88c1faf0454d89fe55e0958f626c9061b02e25fc7d4c9754bfdf07f.png"
+  },
+  {
+   "id": "battery-pads",
+   "name": "battery-pads",
+   "rows": 1,
+   "orderNote": "USB centered above; left to right.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "BAT-",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "BAT+",
+     "functions": []
+    }
+   ],
+   "image": "media/9ea7ce37a88c1faf0454d89fe55e0958f626c9061b02e25fc7d4c9754bfdf07f.png"
+  },
+  {
+   "id": "power-control-pads",
+   "name": "power-control-pads",
+   "rows": 1,
+   "orderNote": "USB above right of the pair; right to left, nearest USB first.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "SHPHLD",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    }
+   ],
+   "image": "media/9ea7ce37a88c1faf0454d89fe55e0958f626c9061b02e25fc7d4c9754bfdf07f.png"
+  },
+  {
+   "id": "nfc-pads",
+   "name": "nfc-pads",
+   "rows": 1,
+   "orderNote": "USB above left of the pair; left to right.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "P1.01",
+     "functions": [
+      "N1",
+      "NFC"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "P1.02",
+     "functions": [
+      "N2",
+      "NFC"
+     ]
+    }
+   ],
+   "image": "media/9ea7ce37a88c1faf0454d89fe55e0958f626c9061b02e25fc7d4c9754bfdf07f.png"
+  },
+  {
+   "id": "left-header-img2",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "P1.00",
+     "functions": [
+      "AIN0"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "P1.31",
+     "functions": [
+      "AIN1"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "P1.30",
+     "functions": [
+      "AIN2"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "P1.29",
+     "functions": [
+      "AIN3"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "P1.03",
+     "functions": [
+      "AIN7",
+      "I2C_SDA"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "P1.07",
+     "functions": [
+      "I2C_SCL"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "P1.08",
+     "functions": [
+      "UART_TX"
+     ]
+    }
+   ],
+   "image": "media/f02082c9753cf9381286bb45cf6833a8b848f7cd29618f634da0ae64d5134419.png"
+  },
+  {
+   "id": "right-header-img2",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "VBUS",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "3.3V-OUT",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "P1.06",
+     "functions": [
+      "SPI_MOSI"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "P1.05",
+     "functions": [
+      "SPI_MISO"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "P1.04",
+     "functions": [
+      "SPI_SCK"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "P1.09",
+     "functions": [
+      "UART_RX"
+     ]
+    }
+   ],
+   "image": "media/f02082c9753cf9381286bb45cf6833a8b848f7cd29618f634da0ae64d5134419.png"
+  }
+ ],
+ "notes": "Shared rear artwork read once and applied to both LM20A variants; each front image separately inspected. Front fine edge pads have no labels and are mapped only in the labeled rear view. Buttons, LEDs, IMU and microphone component callouts are excluded.",
+ "unreadable": [],
+ "uncertain": []
+}

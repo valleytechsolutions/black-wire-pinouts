@@ -1,0 +1,228 @@
+{
+  "recordId": "lilygo-esp32-t-eth-elite",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/9ab27c3bac66e3b767615e2b7a7064a8c654bee4577e82c766a79b5756f3bd5a.jpg",
+      "sha256": "9ab27c3bac66e3b767615e2b7a7064a8c654bee4577e82c766a79b5756f3bd5a"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "40-pin",
+      "name": "40-PIN header",
+      "image": "media/9ab27c3bac66e3b767615e2b7a7064a8c654bee4577e82c766a79b5756f3bd5a.jpg",
+      "rows": 2,
+      "orderNote": "No pin numbers; 2x20 header, started at end nearest USB-C (top), position 1 = outer row (right, board edge) then alternating with inner row (left)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IO17",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "IO18",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "IO02",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "RX",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "IO01",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "IO41",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "IO40",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "IO39",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "IO42",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "IO38",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "IO11",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "IO12",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "IO09",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "BOOT",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "IO10",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "IO03",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 27,
+          "label": "IO46",
+          "functions": []
+        },
+        {
+          "position": 28,
+          "label": "IO08",
+          "functions": []
+        },
+        {
+          "position": 29,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "IO16",
+          "functions": []
+        },
+        {
+          "position": 31,
+          "label": "IO15",
+          "functions": []
+        },
+        {
+          "position": 32,
+          "label": "IO07",
+          "functions": []
+        },
+        {
+          "position": 33,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 34,
+          "label": "IO06",
+          "functions": []
+        },
+        {
+          "position": 35,
+          "label": "IO05",
+          "functions": []
+        },
+        {
+          "position": 36,
+          "label": "DN",
+          "functions": []
+        },
+        {
+          "position": 37,
+          "label": "IO04",
+          "functions": []
+        },
+        {
+          "position": 38,
+          "label": "DP",
+          "functions": []
+        },
+        {
+          "position": 39,
+          "label": "IO13",
+          "functions": []
+        },
+        {
+          "position": 40,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "40-pin: labels are printed as a two-column table to the right of the board, not beside each hole; assigning the right table column to the outer (right-edge) row and the left column to the inner row, and each table line to a hole row, is inferred from layout"
+  ],
+  "notes": "Image shows LILYGO T-ETH ELITE S3 (ESP32-S3 WROOM-1 + W5500); header titled '40-PIN', 'T-ETH ELite Shield & Raspberry Pi Compatible'. ETH W5500 and MicroSD Card tables list internal signal assignments with no physical pins and were not transcribed. Labels copied as printed (IO02, IO01 etc. with leading zero)."
+}

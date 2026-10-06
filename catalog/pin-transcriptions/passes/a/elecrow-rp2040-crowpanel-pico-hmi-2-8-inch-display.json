@@ -1,0 +1,203 @@
+{
+  "recordId": "elecrow-rp2040-crowpanel-pico-hmi-2-8-inch-display",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/94b9ab0d0e9e3e227e15b4af50a2b6876e2aec92bb5ecfe4c281bc5c2da0a235.webp",
+      "sha256": "94b9ab0d0e9e3e227e15b4af50a2b6876e2aec92bb5ecfe4c281bc5c2da0a235"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "J2",
+      "name": "Top GPIO pad row (labeled GP 0..28, GND, 3.3V)",
+      "image": "media/94b9ab0d0e9e3e227e15b4af50a2b6876e2aec92bb5ecfe4c281bc5c2da0a235.webp",
+      "rows": 1,
+      "orderNote": "No pin 1 or pin numbers printed; horizontal row started at the left end, the end closest to the USB connectors (J14 USB and J15 USB-C UART0 are on the left side).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP0",
+          "functions": [
+            "0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP1",
+          "functions": [
+            "1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP2",
+          "functions": [
+            "2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP3",
+          "functions": [
+            "3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP4",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP5",
+          "functions": [
+            "5"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP6",
+          "functions": [
+            "6"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP7",
+          "functions": [
+            "7"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP19",
+          "functions": [
+            "19"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP20",
+          "functions": [
+            "20"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP21",
+          "functions": [
+            "21"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP26",
+          "functions": [
+            "26"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GP27",
+          "functions": [
+            "27"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GP28",
+          "functions": [
+            "28"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "3.3V",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J1",
+      "name": "UART1 4-pin connector",
+      "image": "media/94b9ab0d0e9e3e227e15b4af50a2b6876e2aec92bb5ecfe4c281bc5c2da0a235.webp",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; horizontal row started at the left end, the end closest to the USB connector (J14, left side).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GP4",
+          "functions": [
+            "TX1_GP4"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP5",
+          "functions": [
+            "RX1_GP5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "J6",
+      "name": "I2C 4-pin connector",
+      "image": "media/94b9ab0d0e9e3e227e15b4af50a2b6876e2aec92bb5ecfe4c281bc5c2da0a235.webp",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; horizontal row started at the left end, the end closest to the USB connector (J14, left side).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GP20",
+          "functions": [
+            "SDA_GP20"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP21",
+          "functions": [
+            "SCL_GP21"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "J2: the silkscreen prints a row prefix 'GP' followed by bare numbers (0, 1, 2 ... 28) under each pad; labels were composed as GP<n> with the bare number kept in functions. The J2 designator sits beside an outline just above the pads, so it is assumed (not certain) that the pads belong to J2.",
+    "J1/J6: pin names are printed in a box beside each connector (GND, 3.3V, TX1_GP4, RX1_GP5 / GND, 3.3V, SDA_GP20, SCL_GP21), not under individual pads; left-to-right label order was assumed to match the pad order."
+  ],
+  "notes": "Image shows a board marked 'CrowPanel Pico Display-2.8 Inch SKU:DIS01028P'. J15 (UART0, USB-C, annotated TX0_GP0 / RX0_GP1), J14 USB and J16 BAT were skipped as USB/battery connectors without individually labeled pins. TF card slot, buttons and buzzer skipped."
+}

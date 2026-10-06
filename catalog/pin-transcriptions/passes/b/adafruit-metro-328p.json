@@ -1,0 +1,331 @@
+{
+  "recordId": "adafruit-metro-328p",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/a38655bda11fd66fe578dfa580ab46fdb864e053d9b07b9975b655cbb8febfa7.png",
+      "sha256": "a38655bda11fd66fe578dfa580ab46fdb864e053d9b07b9975b655cbb8febfa7"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "power-header",
+      "name": "Power header (left)",
+      "image": "media/a38655bda11fd66fe578dfa580ab46fdb864e053d9b07b9975b655cbb8febfa7.png",
+      "rows": 1,
+      "orderNote": "USB connector at top of image; vertical row started at the end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": [
+            "IOREF"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "RESET",
+          "functions": [
+            "RST"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "3.3V",
+          "functions": [
+            "3.3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "analog-header",
+      "name": "Analog In header (left)",
+      "image": "media/a38655bda11fd66fe578dfa580ab46fdb864e053d9b07b9975b655cbb8febfa7.png",
+      "rows": 1,
+      "orderNote": "USB connector at top of image; vertical row started at the end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A0",
+          "functions": [
+            "14"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "A1",
+          "functions": [
+            "15"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "A2",
+          "functions": [
+            "16"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "A3",
+          "functions": [
+            "17"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "A4",
+          "functions": [
+            "18",
+            "SDA"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "A5",
+          "functions": [
+            "19",
+            "SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digital-header-upper",
+      "name": "Upper digital header (right, SCL..8)",
+      "image": "media/a38655bda11fd66fe578dfa580ab46fdb864e053d9b07b9975b655cbb8febfa7.png",
+      "rows": 1,
+      "orderNote": "USB connector at top of image; vertical row started at the end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A5",
+          "functions": [
+            "SCL",
+            "19"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "A4",
+          "functions": [
+            "SDA",
+            "18"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "AREF",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "SCK",
+          "functions": [
+            "13"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "MISO",
+          "functions": [
+            "12"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "MOSI",
+          "functions": [
+            "11"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "SS",
+          "functions": [
+            "10"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PB1",
+          "functions": [
+            "9",
+            "D9",
+            "OC1A"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PB0",
+          "functions": [
+            "8",
+            "D8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digital-header-lower",
+      "name": "Lower digital header (right, 7..0)",
+      "image": "media/a38655bda11fd66fe578dfa580ab46fdb864e053d9b07b9975b655cbb8febfa7.png",
+      "rows": 1,
+      "orderNote": "USB connector at top of image; vertical row started at the end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PD7",
+          "functions": [
+            "7",
+            "D7"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PD6",
+          "functions": [
+            "6",
+            "D6",
+            "OC0A"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PD5",
+          "functions": [
+            "5",
+            "D5",
+            "OC0B"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PD4",
+          "functions": [
+            "4",
+            "D4"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PD3",
+          "functions": [
+            "3",
+            "D3",
+            "INT1",
+            "OC2B"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PD2",
+          "functions": [
+            "2",
+            "D2",
+            "INT0"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PD1",
+          "functions": [
+            "1",
+            "D1",
+            "TX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PD0",
+          "functions": [
+            "0",
+            "D0",
+            "RX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "icsp",
+      "name": "ICSP 2x3 header",
+      "image": "media/a38655bda11fd66fe578dfa580ab46fdb864e053d9b07b9975b655cbb8febfa7.png",
+      "rows": 2,
+      "orderNote": "Detached callout with no pin numbers and no board edge or USB shown; horizontal rows started at the left, top row taken as position 1, alternating top/bottom rows",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SCK",
+          "functions": [
+            "13"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "MOSI",
+          "functions": [
+            "11"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "MISO",
+          "functions": [
+            "12"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "VCCIO",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "power-header position 1: pad has no label (unlabeled pad above IOREF)"
+  ],
+  "notes": "Silkscreen spellings that differ from the diagram name (IOREF, RST, 3.3, SCL/SDA on the A5/A4 pins, digit numbers) placed first in functions. Exact repeats (teal SCK/MISO/MOSI next to the same name) omitted. Small circle marker beside the ICSP MISO hole is not labelled 1, so not used as pin 1."
+}

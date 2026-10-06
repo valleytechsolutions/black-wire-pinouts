@@ -1,0 +1,198 @@
+{
+  "recordId": "seeed-studio-gpio-device-sensecap-indicator-d1s",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/2e322c248b80e125432e4071351e28fdb310486a227b50e3562b3bd46c46fe72.png",
+      "sha256": "2e322c248b80e125432e4071351e28fdb310486a227b50e3562b3bd46c46fe72"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "usb-c",
+      "name": "USB2.0 Type-C connector",
+      "image": "media/2e322c248b80e125432e4071351e28fdb310486a227b50e3562b3bd46c46fe72.png",
+      "rows": 2,
+      "orderNote": "Contacts printed A1-A12 (top row, left to right) and B12-B1 (bottom row, left to right). Treated as one 2x12 connector: position 1 = A1, then alternating rows by column as displayed (A1, B12, A2, B11 ... A12, B1); printed contact id listed first in functions.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": [
+            "A1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "B12"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO8",
+          "functions": [
+            "A2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO14",
+          "functions": [
+            "B11"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO9",
+          "functions": [
+            "A3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO15",
+          "functions": [
+            "B10"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "VBUS",
+          "functions": [
+            "A4"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "VBUS",
+          "functions": [
+            "B9"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "CC1",
+          "functions": [
+            "A5"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "SBU2",
+          "functions": [
+            "B8"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "D+",
+          "functions": [
+            "A6"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "D-",
+          "functions": [
+            "B7"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "D-",
+          "functions": [
+            "A7"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "D+",
+          "functions": [
+            "B6"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "SBU1",
+          "functions": [
+            "A8"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "CC2",
+          "functions": [
+            "B5"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "VBUS",
+          "functions": [
+            "A9"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "VBUS",
+          "functions": [
+            "B4"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GPIO0",
+          "functions": [
+            "A10"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO3",
+          "functions": [
+            "B3"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "GPIO1",
+          "functions": [
+            "A11"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "GPIO2",
+          "functions": [
+            "B2"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "GND",
+          "functions": [
+            "A12"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "GND",
+          "functions": [
+            "B1"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Image does not name the SenseCAP Indicator variant (D1/D1L/D1Pro/D1S); the same artwork is used for all four records.",
+    "Position order for an A/B-numbered USB-C receptacle is not settled by the rules; chose column-wise alternation A1, B12, A2, B11 ... from the left of the drawing.",
+    "The drawing links both the side USB-C port and the rear USB-C port to this single pinout; it is unclear whether it describes one physical connector or both."
+  ],
+  "notes": "Image is titled 'USB2.0 Type-C Pinout'; the USB-C contacts are individually labeled, so they are transcribed per rule 1. Note printed: A2, A3, A10, A11, B2, B3, B10, B11 connect to RP2040 GPIO8, GPIO9, GPIO0, GPIO1, GPIO2, GPIO3, GPIO15, GPIO14. The photos show two device ports both linked to this one pinout; the Grove-style connectors beside the rear port are not labeled and were skipped. Shared image for SenseCAP Indicator D1, D1L, D1Pro and D1S."
+}

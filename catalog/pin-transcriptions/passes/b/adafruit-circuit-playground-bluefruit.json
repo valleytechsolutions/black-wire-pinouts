@@ -1,0 +1,134 @@
+{
+  "recordId": "adafruit-circuit-playground-bluefruit",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/381adc0c974329d598c2ba237d5d20e247e8a3adbe76f3e6e1db2a41ca0bccc0.png",
+      "sha256": "381adc0c974329d598c2ba237d5d20e247e8a3adbe76f3e6e1db2a41ca0bccc0"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-edge-pads",
+      "name": "Left half of circular edge pads",
+      "image": "media/381adc0c974329d598c2ba237d5d20e247e8a3adbe76f3e6e1db2a41ca0bccc0.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; pads on left half of ring listed top to bottom, starting at the pad nearest the USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "P0.04",
+          "functions": [
+            "A4",
+            "3/A4",
+            "AIN2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P0.05",
+          "functions": [
+            "A5",
+            "2/A5",
+            "AIN3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "P0.30",
+          "functions": [
+            "A6",
+            "0/A6",
+            "AIN6"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P0.14",
+          "functions": [
+            "TX",
+            "1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-edge-pads",
+      "name": "Right half of circular edge pads",
+      "image": "media/381adc0c974329d598c2ba237d5d20e247e8a3adbe76f3e6e1db2a41ca0bccc0.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; pads on right half of ring listed top to bottom, starting at the pad nearest the USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "P0.03",
+          "functions": [
+            "A3",
+            "10/A3",
+            "AIN1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P0.29",
+          "functions": [
+            "A2",
+            "9/A2",
+            "AIN5"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "P0.02",
+          "functions": [
+            "A1",
+            "6/A1",
+            "AIN0"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P0.26",
+          "functions": [
+            "AUDIO",
+            "12"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "VCC",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Board has 14 pads around a circular edge; split into left and right halves as the diagram lays them out. HS/LS speed tags omitted as category tags. SPEAKER_ENABLE, NeoPixel, power switch, light sensor, buttons, accelerometer, LED, temperature, slide switch and microphone entries have no pad and were skipped. Board-render silkscreen not transcribed (diagram name boxes used)."
+}

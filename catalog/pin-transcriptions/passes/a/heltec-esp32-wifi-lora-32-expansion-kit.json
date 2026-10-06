@@ -1,0 +1,228 @@
+{
+  "recordId": "heltec-esp32-wifi-lora-32-expansion-kit",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/57be35f9d90a804d9a5efae7d6df3b89f110b848c0b63a403b130f5bb8a02a1b.png",
+      "sha256": "57be35f9d90a804d9a5efae7d6df3b89f110b848c0b63a403b130f5bb8a02a1b"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "expansion-header",
+      "name": "2x14 expansion header",
+      "image": "media/57be35f9d90a804d9a5efae7d6df3b89f110b848c0b63a403b130f5bb8a02a1b.png",
+      "rows": 2,
+      "orderNote": "Physical pin numbers 1-28 printed; followed them (odd left column, even right column, pin 1 at bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VUSB",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "Ve",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO48",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GPIO47",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO33",
+          "functions": [
+            "SUBSPIHD",
+            "FSPIHD",
+            "SPIIO4"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO36",
+          "functions": [
+            "SPIIO7",
+            "FSPICLK",
+            "SUBSPICLK",
+            "Vext_Ctrl"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO35",
+          "functions": [
+            "SUBSPID",
+            "FSPID",
+            "SPIIO6",
+            "LED_Write"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO44",
+          "functions": [
+            "U0RXD"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO16",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GPIO34",
+          "functions": [
+            "SPIIO5",
+            "FSPICS0",
+            "SUBSPICS0",
+            "VGNSS_Ctrl"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO43",
+          "functions": [
+            "U0TXD"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO21",
+          "functions": [
+            "OLED_RST"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO5",
+          "functions": [
+            "ADC1_CH4",
+            "TOUCH5"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO15",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "GPIO4",
+          "functions": [
+            "ADC1_CH3",
+            "TOUCH4"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GPIO6",
+          "functions": [
+            "ADC1_CH5",
+            "TOUCH6"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GPIO3",
+          "functions": [
+            "ADC1_CH2",
+            "TOUCH3"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO38",
+          "functions": [
+            "FSPIWP",
+            "SUBSPIWP",
+            "GPS_RX"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "GPIO39",
+          "functions": [
+            "MTCK",
+            "GPS_TX"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "GPIO37",
+          "functions": [
+            "SPIDQS",
+            "FSPIQ",
+            "SUBSPIQ",
+            "ADC_Ctrl"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "GPIO42",
+          "functions": [
+            "MTMS",
+            "GPS_RST"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "GPIO40",
+          "functions": [
+            "MTDO",
+            "GPS_Wakeup"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "GPIO45",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "GPIO41",
+          "functions": [
+            "MTDI",
+            "GPS_PPS"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "CHP_PU",
+          "functions": []
+        },
+        {
+          "position": 28,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "Dark-on-dark text boxes (TOUCH3-6, MTMS, MTCK, MTDI, MTDO) are low contrast but legible; O vs 0 in U0TXD/U0RXD/FSPICS0/SUBSPICS0 recorded as 0."
+  ],
+  "notes": "Image shows the kit enclosure with the 2x14 header highlighted and an enlarged numbered pin diagram.",
+  "uncertain": [
+    "Header diagram is an enlarged schematic linked to the enclosure; physical orientation of the numbered diagram relative to the enclosure is not explicit."
+  ]
+}

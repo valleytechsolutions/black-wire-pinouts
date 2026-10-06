@@ -1,0 +1,161 @@
+{
+  "recordId": "waveshare-esp32-esp32-c6-touch-amoled-1-64",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/243c2719ab2262cde127893beaccb1d7944d3181bd47ebc2153f55a35321943a.jpg",
+      "sha256": "243c2719ab2262cde127893beaccb1d7944d3181bd47ebc2153f55a35321943a"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/243c2719ab2262cde127893beaccb1d7944d3181bd47ebc2153f55a35321943a.jpg",
+      "rows": 1,
+      "orderNote": "Vertical row; no pin numbers (outlined top pad is not a labeled 1); started at the end closest to the USB-C connector (bottom end)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO6",
+          "functions": [
+            "6"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO3",
+          "functions": [
+            "3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO2",
+          "functions": [
+            "2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO0",
+          "functions": [
+            "0"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO8",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO18",
+          "functions": [
+            "SDA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/243c2719ab2262cde127893beaccb1d7944d3181bd47ebc2153f55a35321943a.jpg",
+      "rows": 1,
+      "orderNote": "Vertical row; no pin numbers (outlined top pad is not a labeled 1); started at the end closest to the USB-C connector (bottom end)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO12",
+          "functions": [
+            "12",
+            "D_P"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO13",
+          "functions": [
+            "13",
+            "D_N"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO23",
+          "functions": [
+            "23"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO9",
+          "functions": [
+            "9"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO16",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO17",
+          "functions": [
+            "RXD"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "BAT battery JST (no individually labeled pins), PWR/BOOT buttons and antenna connector skipped. TF Card and QMI8658 tables list internal signals without physical pads. Silkscreen beside each pin matches the callouts (SDA/SCL/RXD/TXD and bare numbers)."
+}

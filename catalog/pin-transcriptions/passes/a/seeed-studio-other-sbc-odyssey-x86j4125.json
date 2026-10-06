@@ -1,0 +1,493 @@
+{
+  "recordId": "seeed-studio-other-sbc-odyssey-x86j4125",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/48f10a509c2469f88b24d1b7ae1318a030a540acf09d3fbe6ff7efabf127cc93.png",
+      "sha256": "48f10a509c2469f88b24d1b7ae1318a030a540acf09d3fbe6ff7efabf127cc93"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "arduino-header",
+      "name": "28-Pin Arduino Pinout (2x14)",
+      "image": "media/48f10a509c2469f88b24d1b7ae1318a030a540acf09d3fbe6ff7efabf127cc93.png",
+      "rows": 2,
+      "orderNote": "Printed pin numbers 1-28 followed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D0",
+          "functions": [
+            "RX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "A0",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "D1",
+          "functions": [
+            "TX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "A1",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "D2",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "A2",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "D3",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "A3",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "D4",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "A4",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "D5",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "A5",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "D6",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "D7",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "D8",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "MOSI",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "D9",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "CLK",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "D10",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "MISO",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "D11",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "D12",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 27,
+          "label": "D13",
+          "functions": []
+        },
+        {
+          "position": 28,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "gpio-header",
+      "name": "40-Pin GPIO (Raspberry Pi compatible) 2x20",
+      "image": "media/48f10a509c2469f88b24d1b7ae1318a030a540acf09d3fbe6ff7efabf127cc93.png",
+      "rows": 2,
+      "orderNote": "Printed pin numbers 1-40 followed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO 386",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO 387",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO 337",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GPIO 493",
+          "functions": [
+            "TX"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GPIO 492",
+          "functions": [
+            "RX"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO 364",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GPIO 338",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GPIO 412",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GPIO 413",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "GPIO 421",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GPIO 422",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GPIO 359",
+          "functions": [
+            "MOSI"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "GPIO 358",
+          "functions": [
+            "MISO"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "GPIO 390",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "GPIO 355",
+          "functions": [
+            "CLK"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "GPIO 356",
+          "functions": [
+            "FS0"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "GPIO 357",
+          "functions": [
+            "FS1"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "GPIO 388",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 28,
+          "label": "GPIO 389",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 29,
+          "label": "GPIO 415",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 31,
+          "label": "GPIO 416",
+          "functions": []
+        },
+        {
+          "position": 32,
+          "label": "GPIO 391",
+          "functions": []
+        },
+        {
+          "position": 33,
+          "label": "GPIO 417",
+          "functions": []
+        },
+        {
+          "position": 34,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 35,
+          "label": "GPIO 339",
+          "functions": []
+        },
+        {
+          "position": 36,
+          "label": "GPIO 410",
+          "functions": []
+        },
+        {
+          "position": 37,
+          "label": "GPIO 419",
+          "functions": []
+        },
+        {
+          "position": 38,
+          "label": "GPIO 340",
+          "functions": []
+        },
+        {
+          "position": 39,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 40,
+          "label": "GPIO 341",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "uart-header",
+      "name": "UART 4-pin header",
+      "image": "media/48f10a509c2469f88b24d1b7ae1318a030a540acf09d3fbe6ff7efabf127cc93.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers and no USB connector in view; vertical row ordered from top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RX",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "power-switch-header",
+      "name": "4-Pin Power switch header",
+      "image": "media/48f10a509c2469f88b24d1b7ae1318a030a540acf09d3fbe6ff7efabf127cc93.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers and no USB connector in view; horizontal row ordered from left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PWR",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "LED+",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "LED-",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "swd-pads",
+      "name": "Solder pads at the back (inset view)",
+      "image": "media/48f10a509c2469f88b24d1b7ae1318a030a540acf09d3fbe6ff7efabf127cc93.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers and no USB connector in view; labels read from the enlarged inset, horizontal row ordered from left of the inset",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SW CLK",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SWD IO",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "MCU RST",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3.3V",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Labels copied as printed, including the space in 'GPIO 386' style names and two-line labels 'SW CLK', 'SWD IO', 'MCU RST' (line break written as a space). The main-board drawing of the back solder pads is unlabeled; the inset is used. Board marked ODYSSEY- X86J4125.",
+  "uncertain": []
+}

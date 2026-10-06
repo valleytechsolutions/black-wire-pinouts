@@ -1,0 +1,195 @@
+{
+  "recordId": "lilygo-esp32-t-oi-plus-v1-3",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/fbe2b139a2dfc47260c90c0d35bef6b0d4f27a4badb93c49e01ad921e2152cb7.jpg",
+      "sha256": "fbe2b139a2dfc47260c90c0d35bef6b0d4f27a4badb93c49e01ad921e2152cb7"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/fbe2b139a2dfc47260c90c0d35bef6b0d4f27a4badb93c49e01ad921e2152cb7.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at the bottom end (nearer the USB-C connector at the bottom of the board).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GPIO10",
+          "functions": [
+            "10",
+            "FSPI_CS0"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO07",
+          "functions": [
+            "7",
+            "MTDO",
+            "FSPI_D"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO06",
+          "functions": [
+            "6",
+            "MTCK",
+            "FSPI_CLK"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO05",
+          "functions": [
+            "5",
+            "MTDI",
+            "FSPI_WP",
+            "ADC2_CH0"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO04",
+          "functions": [
+            "4",
+            "MTMS",
+            "FSPI_HD",
+            "ADC1_CH4"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO02",
+          "functions": [
+            "2",
+            "A0",
+            "FSPI_Q",
+            "ADC1_CH2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "RST",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/fbe2b139a2dfc47260c90c0d35bef6b0d4f27a4badb93c49e01ad921e2152cb7.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at the bottom end (nearer the USB-C connector).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO08",
+          "functions": [
+            "8",
+            "Boot"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO09",
+          "functions": [
+            "9"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO18",
+          "functions": [
+            "18",
+            "Wire_SDA"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO19",
+          "functions": [
+            "19",
+            "Wire_SCL"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO20",
+          "functions": [
+            "RXD",
+            "RX0",
+            "Serial RX0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO21",
+          "functions": [
+            "TXD",
+            "TX0",
+            "Serial TX0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grove-port",
+      "name": "Grove PIN",
+      "image": "media/fbe2b139a2dfc47260c90c0d35bef6b0d4f27a4badb93c49e01ad921e2152cb7.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical connector on the lower left, started at the bottom end (nearer the USB-C connector); table rows applied top-to-bottom to the pins.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO18",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "IO19",
+          "functions": [
+            "SCL"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Grove PIN names come from a separate table (SCL IO19 / SDA IO18 / 3V3 / GND) beside the connector, not pointed at individual pins; the table's top-to-bottom order was mapped to the connector's top-to-bottom pins by inference."
+  ],
+  "notes": "Board silkscreen numbers (2, 4, ... TXD, RXD) recorded first in functions; label is the printed GPIO name. Grove table 'Power'/'Ground' boxes omitted as category tags. Skipped battery holder, power switch, reset button, LEDs, USB-C and antenna connector."
+}

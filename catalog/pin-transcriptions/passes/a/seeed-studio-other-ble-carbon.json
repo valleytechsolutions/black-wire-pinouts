@@ -1,0 +1,318 @@
+{
+  "recordId": "seeed-studio-other-ble-carbon",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/af54334429b06ab634a585a81349ef37383df931bc5ce5acdac0362be7b3be49.png",
+      "sha256": "af54334429b06ab634a585a81349ef37383df931bc5ce5acdac0362be7b3be49"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "main-header",
+      "name": "2x15 header (right edge)",
+      "image": "media/af54334429b06ab634a585a81349ef37383df931bc5ce5acdac0362be7b3be49.png",
+      "rows": 2,
+      "orderNote": "Pin numbers printed (1 and 2 at the top, 29 and 30 at the bottom; odd = left column, even = right column); followed them.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PA0",
+          "functions": [
+            "UART2_CTS"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PB12",
+          "functions": [
+            "SPI2_SS"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA2",
+          "functions": [
+            "UART2_TX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PB15",
+          "functions": [
+            "SPI2_MOSI"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PA3",
+          "functions": [
+            "UART2_RX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PB14",
+          "functions": [
+            "SPI2_MISO"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PA1",
+          "functions": [
+            "UART2_RTS"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PB13",
+          "functions": [
+            "SPI2_SCK"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "USB5V",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "VCC2",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "PC2",
+          "functions": [
+            "AIN12"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "PC3",
+          "functions": [
+            "AIN13"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "PC4",
+          "functions": [
+            "AIN14"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "PC5",
+          "functions": [
+            "AIN15"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "PC6",
+          "functions": [
+            "UART6_TX"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "PC7",
+          "functions": [
+            "UART6_RX"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "PC8",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "PC9",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "PB6",
+          "functions": [
+            "I2C1_SCL",
+            "UART1_TX"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "PB8",
+          "functions": [
+            "I2C1_SCL"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "PB7",
+          "functions": [
+            "I2C1_SDA",
+            "UART1_RX"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "PB9",
+          "functions": [
+            "I2C1_SDA"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "PB3",
+          "functions": [
+            "I2C2_SDA",
+            "PWM0"
+          ]
+        },
+        {
+          "position": 26,
+          "label": "PC0",
+          "functions": [
+            "AIN10"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "PB10",
+          "functions": [
+            "I2C2_SCL",
+            "PWM1"
+          ]
+        },
+        {
+          "position": 28,
+          "label": "PC1",
+          "functions": [
+            "AIN11"
+          ]
+        },
+        {
+          "position": 29,
+          "label": "RST_BTN",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "NC",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "st-header",
+      "name": "ST header column (left side of board)",
+      "image": "media/af54334429b06ab634a585a81349ef37383df931bc5ce5acdac0362be7b3be49.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at the end closest to the OTG micro-USB connector (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RX1",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "TX1",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "CLK",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "DIO",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "BOOT0",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "BOOT1",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "ble-header",
+      "name": "BLE header column (left side of board)",
+      "image": "media/af54334429b06ab634a585a81349ef37383df931bc5ce5acdac0362be7b3be49.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at the end closest to the OTG micro-USB connector (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "CLK",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "DIO",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "RST",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "st-header position 4 and ble-header position 2: silkscreen partly covered by the diagram's leader lines; read as GND (st-header text looks like 'BND')."
+  ],
+  "uncertain": [
+    "st-header: board silkscreen only (not called out in the diagram); 3V3/GND/CLK/DIO/RST are printed between holes and were assigned to the hole above each label, RX1/TX1/BOOT0/BOOT1 to the hole beside them. Labels are partly hidden by leader lines.",
+    "st-header grouping: the RX1/TX1 holes share the ST outline with the SWD/BOOT holes but may be a separate 2-pin header; treated as one 9-hole column.",
+    "ble-header: diagonal labels 3V3/GND/CLK/DIO/RST each assigned to the hole up-left of it; the BLE outline is inferred from the silkscreen box."
+  ],
+  "notes": "BLE Carbon pinout graphic (seeed / 96Boards). 'GPIO' boxes are category tags and were omitted (they also appear beside GND and VCC2 on the right side). Colour legend and MCU spec table omitted. Skipped OTG micro-USB, UART JST (pins not labeled), LEDs and buttons."
+}

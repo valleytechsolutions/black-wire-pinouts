@@ -1,0 +1,128 @@
+{
+  "recordId": "lilygo-esp32-mini-e-paper-1-02-core",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/680022af2373ceace678eb76a7fcee47718d12eed57e69a3787b21fa3ea0e152.jpg",
+      "sha256": "680022af2373ceace678eb76a7fcee47718d12eed57e69a3787b21fa3ea0e152"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header (back view)",
+      "image": "media/680022af2373ceace678eb76a7fcee47718d12eed57e69a3787b21fa3ea0e152.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB connector visible; vertical row ordered top to bottom.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "G33",
+          "functions": [
+            "ADC"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "G32",
+          "functions": [
+            "ADC"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "G38",
+          "functions": [
+            "GPIO"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "G25",
+          "functions": [
+            "DAC"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "G26",
+          "functions": [
+            "DAC"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header (back view)",
+      "image": "media/680022af2373ceace678eb76a7fcee47718d12eed57e69a3787b21fa3ea0e152.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB connector visible; vertical row ordered top to bottom.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G37",
+          "functions": [
+            "GPIO"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "VDD",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G23",
+          "functions": [
+            "MOSI"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "G18",
+          "functions": [
+            "SCK"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "G12",
+          "functions": [
+            "ADC"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "VBUS",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Image titled LILYGO MINI E-PAPER CORE 1.02 INCH MCU32 PICO PINOUT. Left header has 7 holes, right header 8; labels matched by row alignment. Display and TF card tables list internal GPIO assignments, not wiring points, and are skipped; GPIO36/GPIO00/GPIO39 refer to the top dial button, skipped."
+}

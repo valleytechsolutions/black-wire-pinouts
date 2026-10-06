@@ -1,0 +1,242 @@
+{
+  "recordId": "seeed-studio-expansion-dual-gigabit-ethernet-carrier-board-for-raspberry-pi-cm4",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/9fc6eb742335e369409920538aa2754400854d96b11ddd0d20dcd4c35fe3bbfa.png",
+      "sha256": "9fc6eb742335e369409920538aa2754400854d96b11ddd0d20dcd4c35fe3bbfa"
+    },
+    {
+      "file": "media/dc85f40608dcfb715c4b5c36329a30c2f65fb39ff76d36abba01cb273123d395.png",
+      "sha256": "dc85f40608dcfb715c4b5c36329a30c2f65fb39ff76d36abba01cb273123d395"
+    },
+    {
+      "file": "media/271b58517a15922f3a393f25955b76adf694e59d9d5ea070a1b2b4b542da523f.jpg",
+      "sha256": "271b58517a15922f3a393f25955b76adf694e59d9d5ea070a1b2b4b542da523f"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "boot-header",
+      "name": "PWR/GND/BOOT jumper header (inset)",
+      "image": "media/9fc6eb742335e369409920538aa2754400854d96b11ddd0d20dcd4c35fe3bbfa.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB ports at the bottom edge of the board, so position 1 is the bottom pin (nearest USB). Square pad is not a pin-1 mark (rule 9).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BOOT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PWR",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "uart-header",
+      "name": "UART header (silkscreen RX TX 3V3 GND)",
+      "image": "media/9fc6eb742335e369409920538aa2754400854d96b11ddd0d20dcd4c35fe3bbfa.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB ports at the bottom edge of the board, so position 1 is the bottom pin (nearest USB). Square pad is not a pin-1 mark (rule 9).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RX",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "uart-header-img2",
+      "name": "UART header (inset)",
+      "image": "media/dc85f40608dcfb715c4b5c36329a30c2f65fb39ff76d36abba01cb273123d395.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB ports at the bottom edge of the board, so position 1 is the bottom pin (nearest USB). Square pad is not a pin-1 mark (rule 9).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RX",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "boot-header-img2",
+      "name": "PWR/GND/BOOT header (silkscreen)",
+      "image": "media/dc85f40608dcfb715c4b5c36329a30c2f65fb39ff76d36abba01cb273123d395.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB ports at the bottom edge of the board, so position 1 is the bottom pin (nearest USB). Square pad is not a pin-1 mark (rule 9).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BOOT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PWR",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "usb3-header-img3",
+      "name": "USB3.0 2x5 header (inset, 9 pins)",
+      "image": "media/271b58517a15922f3a393f25955b76adf694e59d9d5ea070a1b2b4b542da523f.jpg",
+      "rows": 2,
+      "orderNote": "No printed numbers; USB ports at bottom, so start at the bottom end; alternate left (outer, nearer the left board edge) then right column per row. The bottom row has only the right pin (SSTX+), so position 1 = SSTX+.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SSTX+",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SSTX-",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "D+",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "D-",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "SSRX+",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "SSRX-",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "uart-header-img3",
+      "name": "UART header (silkscreen, faded)",
+      "image": "media/271b58517a15922f3a393f25955b76adf694e59d9d5ea070a1b2b4b542da523f.jpg",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB ports at the bottom edge of the board, so position 1 is the bottom pin (nearest USB). Square pad is not a pin-1 mark (rule 9).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RX",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "boot-header-img3",
+      "name": "PWR/GND/BOOT header (silkscreen, faded)",
+      "image": "media/271b58517a15922f3a393f25955b76adf694e59d9d5ea070a1b2b4b542da523f.jpg",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB ports at the bottom edge of the board, so position 1 is the bottom pin (nearest USB). Square pad is not a pin-1 mark (rule 9).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BOOT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "?",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "Image 3 PWR/GND/BOOT header: the top label (PWR in images 1 and 2) is too faded in the greyed-out board image to read; recorded as \"?\"."
+  ],
+  "uncertain": [
+    "Image 3 USB3.0 2x5 header: the bottom-left position has no pin (keyed) and was omitted, so the outer/inner alternation starts with the lone right-hand pin; the header is not on a board edge, so which column counts as outer is a judgement (left chosen)."
+  ],
+  "notes": "Image 2 also shows an external USB-to-serial adapter (3V3, TXD, RXD, GND, +5V) wired to the UART header; it is a different product and was not transcribed. Unlabeled FAN connector, USB3.0 header pins in images 1-2 (no labels), CSI/DSI FPC connectors, HDMI and USB ports skipped."
+}

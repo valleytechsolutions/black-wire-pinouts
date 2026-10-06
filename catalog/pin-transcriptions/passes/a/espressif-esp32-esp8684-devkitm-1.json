@@ -1,0 +1,473 @@
+{
+  "recordId": "espressif-esp32-esp8684-devkitm-1",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/fae8260efd2bf0f7d570139df9706c24fae1636e749d007afd5a857235fc2ca5.png",
+      "sha256": "fae8260efd2bf0f7d570139df9706c24fae1636e749d007afd5a857235fc2ca5"
+    },
+    {
+      "file": "media/2223b449774f2a3d77fc7be8c46f9c38bd4bdb3e1bf6f4a898694f41c3a27863.png",
+      "sha256": "2223b449774f2a3d77fc7be8c46f9c38bd4bdb3e1bf6f4a898694f41c3a27863"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/fae8260efd2bf0f7d570139df9706c24fae1636e749d007afd5a857235fc2ca5.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; USB connector at bottom, so position 1 is the bottom pad and numbering runs upward",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V0",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "5V0",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO10",
+          "functions": [
+            "10"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO1",
+          "functions": [
+            "1",
+            "RTC",
+            "ADC1_1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO0",
+          "functions": [
+            "0",
+            "RTC",
+            "ADC1_0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GPIO3",
+          "functions": [
+            "3",
+            "RTC",
+            "ADC1_3"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO2",
+          "functions": [
+            "2",
+            "RTC",
+            "ADC1_2",
+            "FSPIQ"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/fae8260efd2bf0f7d570139df9706c24fae1636e749d007afd5a857235fc2ca5.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; USB connector at bottom, so position 1 is the bottom pad and numbering runs upward",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO18",
+          "functions": [
+            "18"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO4",
+          "functions": [
+            "4",
+            "MTMS",
+            "RTC",
+            "ADC1_4",
+            "FSPIHD"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO5",
+          "functions": [
+            "5",
+            "MTDI",
+            "RTC",
+            "FSPIWP"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO6",
+          "functions": [
+            "6",
+            "MTCK",
+            "FSPICLK"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO7",
+          "functions": [
+            "7",
+            "MTDO",
+            "FSPID"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GPIO8",
+          "functions": [
+            "8",
+            "LOG",
+            "LED"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO9",
+          "functions": [
+            "9",
+            "BOOT"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GPIO19",
+          "functions": [
+            "RX",
+            "U0RXD"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO20",
+          "functions": [
+            "TX",
+            "U0TXD"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left header",
+      "image": "media/2223b449774f2a3d77fc7be8c46f9c38bd4bdb3e1bf6f4a898694f41c3a27863.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; USB connector at bottom, so position 1 is the bottom pad and numbering runs upward",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V0",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "5V0",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO10",
+          "functions": [
+            "10"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO1",
+          "functions": [
+            "1",
+            "RTC",
+            "ADC1_1",
+            "LED Green"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO0",
+          "functions": [
+            "0",
+            "RTC",
+            "ADC1_0",
+            "LED Red"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GPIO3",
+          "functions": [
+            "3",
+            "RTC",
+            "ADC1_3"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO2",
+          "functions": [
+            "2",
+            "RTC",
+            "ADC1_2",
+            "FSPIQ"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Right header",
+      "image": "media/2223b449774f2a3d77fc7be8c46f9c38bd4bdb3e1bf6f4a898694f41c3a27863.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; USB connector at bottom, so position 1 is the bottom pad and numbering runs upward",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO18",
+          "functions": [
+            "18"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO4",
+          "functions": [
+            "4",
+            "MTMS",
+            "RTC",
+            "ADC1_4",
+            "FSPIHD"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO5",
+          "functions": [
+            "5",
+            "MTDI",
+            "RTC",
+            "FSPIWP"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO6",
+          "functions": [
+            "6",
+            "MTCK",
+            "FSPICLK"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO7",
+          "functions": [
+            "7",
+            "MTDO",
+            "FSPID"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GPIO8",
+          "functions": [
+            "8",
+            "LOG",
+            "LED Blue"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO9",
+          "functions": [
+            "9",
+            "BOOT"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GPIO19",
+          "functions": [
+            "RX",
+            "U0RXD"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO20",
+          "functions": [
+            "TX",
+            "U0TXD"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Labels are the callout GPIO/power names; silkscreen numbers/names (2, TX, 5V) first in functions where different, then callouts read outward. 5V0 and U0TXD/U0RXD read with digit 0. Silkscreen pin names visible in image 1 zoom; image 2 matches the same physical layout but adds LED Red/Green/Blue notes on GPIO0/1/8."
+}

@@ -1,0 +1,217 @@
+{
+  "recordId": "waveshare-esp32-esp32-c6-lcd-1-3",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/81a61aaf6744a3e196d2b7954ced1be88edeacefbebf8f544143f1e37a9dbd3e.jpg",
+      "sha256": "81a61aaf6744a3e196d2b7954ced1be88edeacefbebf8f544143f1e37a9dbd3e"
+    },
+    {
+      "file": "media/840d6ed7bf355402a4c8ee1f140f827f83a18bd3ee006c288b2045e958ee4bea.webp",
+      "sha256": "840d6ed7bf355402a4c8ee1f140f827f83a18bd3ee006c288b2045e958ee4bea"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/81a61aaf6744a3e196d2b7954ced1be88edeacefbebf8f544143f1e37a9dbd3e.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at the top end nearest the USB-C connector",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3(OUT)",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "IO1",
+          "functions": [
+            "1"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "IO2",
+          "functions": [
+            "2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "IO3",
+          "functions": [
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/81a61aaf6744a3e196d2b7954ced1be88edeacefbebf8f544143f1e37a9dbd3e.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at the top end nearest the USB-C connector",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO12",
+          "functions": [
+            "12"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "IO13",
+          "functions": [
+            "13"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "IO16",
+          "functions": [
+            "16"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "IO17",
+          "functions": [
+            "17"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "IO20",
+          "functions": [
+            "20"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "IO23",
+          "functions": [
+            "23"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left header",
+      "image": "media/840d6ed7bf355402a4c8ee1f140f827f83a18bd3ee006c288b2045e958ee4bea.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at the top end nearest the USB-C connector",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3(OUT)",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP1",
+          "functions": [
+            "1"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP2",
+          "functions": [
+            "2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP3",
+          "functions": [
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Right header",
+      "image": "media/840d6ed7bf355402a4c8ee1f140f827f83a18bd3ee006c288b2045e958ee4bea.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at the top end nearest the USB-C connector",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP12",
+          "functions": [
+            "12"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP13",
+          "functions": [
+            "13"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP16",
+          "functions": [
+            "16"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP17",
+          "functions": [
+            "17"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP20",
+          "functions": [
+            "20"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP23",
+          "functions": [
+            "23"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Image 1 labels pins IOn, image 2 labels them GPn (copied as printed); board silkscreen numbers put first in functions. Category-only tags (UART, PWM, I2S, ADC, I2C, SPI) omitted per rule 6. Image 2 omits the SPI tag on IO1-IO3."
+}

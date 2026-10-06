@@ -1,0 +1,180 @@
+{
+  "recordId": "dfrobot-esp32-beetle-esp32-c3",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/37454ef9e938729998415b9cc24c0924d892ae56baa95e0c1d5948a0f058ed2c.webp",
+      "sha256": "37454ef9e938729998415b9cc24c0924d892ae56baa95e0c1d5948a0f058ed2c"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left pads (front view)",
+      "image": "media/37454ef9e938729998415b9cc24c0924d892ae56baa95e0c1d5948a0f058ed2c.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; position 1 at the end nearest the USB-C connector (top) in the front view",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": [
+            "3.3V"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "0",
+          "functions": [
+            "A0",
+            "ADC1_0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "1",
+          "functions": [
+            "A1",
+            "ADC1_1"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "4",
+          "functions": [
+            "A4",
+            "SCK",
+            "ADC1_4",
+            "MTMS"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "6",
+          "functions": [
+            "MOSI",
+            "MTCK"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "5",
+          "functions": [
+            "A5",
+            "MISO",
+            "ADC2_0",
+            "MTDI"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "7",
+          "functions": [
+            "MTDO"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right pads (front view)",
+      "image": "media/37454ef9e938729998415b9cc24c0924d892ae56baa95e0c1d5948a0f058ed2c.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; position 1 at the end nearest the USB-C connector (top) in the front view",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VIN",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "20",
+          "functions": [
+            "RX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "21",
+          "functions": [
+            "TX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "8",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "9",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "2",
+          "functions": [
+            "A2",
+            "ADC1_2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pad-3",
+      "name": "Back-side pad 3 (back view, left of USB)",
+      "image": "media/37454ef9e938729998415b9cc24c0924d892ae56baa95e0c1d5948a0f058ed2c.webp",
+      "rows": 1,
+      "orderNote": "Single pad",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3",
+          "functions": [
+            "A3",
+            "ADC1_3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pad-10",
+      "name": "Back-side pad 10 (back view, right of USB)",
+      "image": "media/37454ef9e938729998415b9cc24c0924d892ae56baa95e0c1d5948a0f058ed2c.webp",
+      "rows": 1,
+      "orderNote": "Single pad",
+      "pins": [
+        {
+          "position": 1,
+          "label": "10",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Image shows front view with callouts and a back view (Beetle ESP32-C3 V2.0.0). Front-view edge pads transcribed; the back view shows the same two rows mirrored with silkscreen like 20/RX, 4/SCK, 6/MO, 5/MI and is not duplicated. Pads 3 and 10 appear only on the back view and are recorded separately. No GPIO-prefixed names are printed, so the silkscreen/GPIO-number names (0, 1, 20...) are the labels. Buttons B/R and LEDs L/C skipped."
+}

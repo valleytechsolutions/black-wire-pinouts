@@ -1,0 +1,247 @@
+{
+  "recordId": "rakwireless-other-bastwan",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/6426cb50e21a40c95516761a7efd2334369fc83ee286c3461cccecd6c896c551.png",
+      "sha256": "6426cb50e21a40c95516761a7efd2334369fc83ee286c3461cccecd6c896c551"
+    },
+    {
+      "file": "media/cc3b829265d2c1a5ed6cef0175954c6634b656d8b88f5814a10809084a5e6087.png",
+      "sha256": "cc3b829265d2c1a5ed6cef0175954c6634b656d8b88f5814a10809084a5e6087"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "swd-pads",
+      "name": "4-pad SWD connector (row above reset button), wiring diagram view",
+      "image": "media/6426cb50e21a40c95516761a7efd2334369fc83ee286c3461cccecd6c896c551.png",
+      "rows": 1,
+      "orderNote": "Printed 1-4 are wiring-list indices that do not follow the physical pad sequence (GND 1 leftmost, SWCLK 3 second, SWDIO 2 third, 3V3 4 square pad); ordered physically from the end nearest the micro-USB connector (square pad, right end)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "SWDIO",
+          "functions": [
+            "2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "SWCLK",
+          "functions": [
+            "3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "J3",
+      "name": "J3 Connector (left edge)",
+      "image": "media/cc3b829265d2c1a5ed6cef0175954c6634b656d8b88f5814a10809084a5e6087.png",
+      "rows": 1,
+      "orderNote": "Pin numbers 1-12 printed (1 = BATT, bottom, square pad)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BATT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "D13",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "D12",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "D11",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "D10",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "D9",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "D6",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "D5",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "SDA",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J2",
+      "name": "J2 Connector (right edge)",
+      "image": "media/cc3b829265d2c1a5ed6cef0175954c6634b656d8b88f5814a10809084a5e6087.png",
+      "rows": 1,
+      "orderNote": "Pin numbers 1-16 printed (1 = RST, bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "A0",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "A1",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "A2",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "A3",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "A4",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "D3",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "SCK",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "MOSI",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "MISO",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "RX",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J5",
+      "name": "J5 Connector (SWD pads above reset button)",
+      "image": "media/cc3b829265d2c1a5ed6cef0175954c6634b656d8b88f5814a10809084a5e6087.png",
+      "rows": 1,
+      "orderNote": "Pin numbers 1-4 printed (1 = 3V3, square pad)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SWDIO",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SWCLK",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Image 1 numbers the SWD wires 1 GND, 2 SWDIO, 3 SWCLK, 4 3V3, but its traces land on pads in physical order GND, SWCLK, SWDIO, 3V3 (left to right). I treated those numbers as wiring-list indices (kept as functions) and ordered physically from the USB end; image 2 numbers the same pads 1 3V3 ... 4 GND."
+  ],
+  "notes": "Image 1 is a wiring diagram with a nanoDAP v2.3 debugger (separate product, not transcribed); the BastWAN side headers in image 1 are unlabeled and skipped. Skipped SMA antenna, JST battery connector, micro-USB and reset button."
+}

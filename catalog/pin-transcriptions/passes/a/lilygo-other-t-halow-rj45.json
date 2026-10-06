@@ -1,0 +1,78 @@
+{
+  "recordId": "lilygo-other-t-halow-rj45",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/c9f58520a0d43f1a5dd564ec21cb8bbe166e307ac3e21e64ec55a9211257fdbe.jpg",
+      "sha256": "c9f58520a0d43f1a5dd564ec21cb8bbe166e307ac3e21e64ec55a9211257fdbe"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "halow-io",
+      "name": "Halow IO header (rear view, right edge)",
+      "image": "media/c9f58520a0d43f1a5dd564ec21cb8bbe166e307ac3e21e64ec55a9211257fdbe.jpg",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB connector sits beside the middle of the row, so neither end is clearly nearest; started at the top of the image (MCLR).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "MCLR",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IOA9",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IOA6",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IOA7",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "IOA8",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "IOB1",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "RX",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Labels from the 'Halow IO' callout beside the rear view; the same header appears on the front view's left edge with small silkscreen. Silkscreen beside IOA7 renders like 'IGA7'/'ICA7' but the callout reads IOA7. GND pad is square (not treated as a pin-1 mark). Battery holder (+ only), Ethernet port, antenna and USB skipped.",
+  "uncertain": [
+    "Pin order: the USB-C connector is level with the middle of the 10-pin header, so the USB-nearest rule does not pick an end; top-of-image rule used (MCLR = 1)."
+  ]
+}

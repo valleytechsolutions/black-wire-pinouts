@@ -1,0 +1,208 @@
+{
+  "recordId": "seeed-studio-esp32-xiao-esp32c5",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/5cab8352de35a89559f677ebedef10bf4bed85f4cb926efedcb17c5191de4d4d.png",
+      "sha256": "5cab8352de35a89559f677ebedef10bf4bed85f4cb926efedcb17c5191de4d4d"
+    },
+    {
+      "file": "media/b5441a1284e9fdf631616fcf9f7713777e7d0b0ae12de43d67849b8d8f391b23.png",
+      "sha256": "b5441a1284e9fdf631616fcf9f7713777e7d0b0ae12de43d67849b8d8f391b23"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-edge-pads",
+      "name": "Left edge pads (front view)",
+      "image": "media/b5441a1284e9fdf631616fcf9f7713777e7d0b0ae12de43d67849b8d8f391b23.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; started at the end closest to the USB-C connector (top). Label = board pin name (D0..D10/power); functions listed from the pin outward.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D0",
+          "functions": [
+            "ADC1 / A0",
+            "GPIO1",
+            "LP_GPIO1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D1",
+          "functions": [
+            "GPIO0",
+            "LP_GPIO0"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "D2",
+          "functions": [
+            "GPIO25"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D3",
+          "functions": [
+            "GPIO7"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "D4",
+          "functions": [
+            "GPIO23",
+            "I2C_SDA"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D5",
+          "functions": [
+            "GPIO24",
+            "I2C_SCL"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "D6",
+          "functions": [
+            "GPIO11",
+            "U0TXD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-edge-pads",
+      "name": "Right edge pads (front view)",
+      "image": "media/b5441a1284e9fdf631616fcf9f7713777e7d0b0ae12de43d67849b8d8f391b23.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; started at the end closest to the USB-C connector (top). Label = board pin name (D0..D10/power); functions listed from the pin outward.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V-OUT",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "D10",
+          "functions": [
+            "GPIO10",
+            "SPI_MOSI"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "D9",
+          "functions": [
+            "GPIO9",
+            "SPI_MISO"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D8",
+          "functions": [
+            "GPIO8",
+            "SPI_SCK"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "D7",
+          "functions": [
+            "GPIO12",
+            "U0RXD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "back-pads",
+      "name": "Back 2x4 pad grid",
+      "image": "media/5cab8352de35a89559f677ebedef10bf4bed85f4cb926efedcb17c5191de4d4d.png",
+      "rows": 2,
+      "orderNote": "No pin 1 marked; started at the USB end (top) and alternated left/right columns (both columns are equidistant from the board edges, so the left column was taken as row 1).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "MTDO",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "MTDI",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "MTCK",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "MTMS",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "BOOT",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "battery-pads",
+      "name": "Back battery pads",
+      "image": "media/5cab8352de35a89559f677ebedef10bf4bed85f4cb926efedcb17c5191de4d4d.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; both pads are equidistant from USB, horizontal row read left to right.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BAT-",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "BAT+",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Front image (second file) gives the edge-pad map; back image (first file) shows the same edge castellations mirrored plus a 2x4 bottom pad grid and BAT-/BAT+ pads. Not transcribed: CHARGE_LED, USER LED (GPIO27), RESET/CHIP_PU and BOOT/GPIO28 buttons, external antenna connector. 'ADC1 / A0' kept as one printed tag. Battery note (GPIO6 ADC sense, GPIO26 enable) is not a wiring point."
+}

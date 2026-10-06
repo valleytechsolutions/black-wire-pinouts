@@ -1,0 +1,45 @@
+{
+  "recordId": "seeed-studio-other-sbc-odyssey-stm32mp135d",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/0829bf331b0161d8c9fb223940281b77d5fa627cd6652a6f60864108a2940f3e.png",
+      "sha256": "0829bf331b0161d8c9fb223940281b77d5fa627cd6652a6f60864108a2940f3e"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "debug-header",
+      "name": "DEBUG UART header (top edge)",
+      "image": "media/0829bf331b0161d8c9fb223940281b77d5fa627cd6652a6f60864108a2940f3e.png",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; started at the end closest to a USB connector (the USB-A HOST port on the left is nearer than the USB-C power port on the right), i.e. left end as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RX",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Board has two USB connectors (USB-A host at left, USB-C power at right); start end chosen by nearest USB connector (USB-A). Using the USB-C port would reverse the order.",
+    "A single black pin labeled WAKE sits immediately left of the DEBUG header; it was treated as a separate part and not transcribed. It may be part of the same physical row.",
+    "The 40-pin header along the bottom edge shows only pin numbers 1, 15, 29, 39 and no function labels, so it was not transcribed."
+  ],
+  "notes": "Image is titled Debug pin connection and highlights only the 3-pin DEBUG header (labels printed rotated 180 degrees). A BOOT header and a 40-pin header are visible but have no per-pin function labels."
+}

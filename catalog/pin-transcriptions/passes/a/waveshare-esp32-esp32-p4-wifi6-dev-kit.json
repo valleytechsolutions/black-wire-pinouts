@@ -1,0 +1,676 @@
+{
+  "recordId": "waveshare-esp32-esp32-p4-wifi6-dev-kit",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/3c74603ef1ea7caeabe5e02acededb3638d5f1f789525b4c956f8ea8b443bbd7.jpg",
+      "sha256": "3c74603ef1ea7caeabe5e02acededb3638d5f1f789525b4c956f8ea8b443bbd7"
+    },
+    {
+      "file": "media/9fd56670366a6a4858a42adcc0164ddf84539b7935f143834c323630157b2c0f.webp",
+      "sha256": "9fd56670366a6a4858a42adcc0164ddf84539b7935f143834c323630157b2c0f"
+    },
+    {
+      "file": "media/5d3736259ee0b3aec8593478502969926a8ea35a7daebc7169862fbb07f496bd.jpg",
+      "sha256": "5d3736259ee0b3aec8593478502969926a8ea35a7daebc7169862fbb07f496bd"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "header-2x20",
+      "name": "40-pin header",
+      "image": "media/3c74603ef1ea7caeabe5e02acededb3638d5f1f789525b4c956f8ea8b443bbd7.jpg",
+      "rows": 2,
+      "orderNote": "2x20 header, no printed numbers; USB connectors (USB TO UART, USB) sit on the left board edge toward the top, so start at the top; position 1 = top of the outer (right, board-edge) column, then alternate inner/outer",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO7",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GPIO8",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO37",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO23",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO38",
+          "functions": [
+            "RXD"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GPIO22",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GPIO21",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO20",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GPIO5",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "GPIO6",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "GPIO4",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "GPIO3",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "GPIO1",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "GPIO2",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "GPIO36",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "GPIO0",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "GPIO32",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 27,
+          "label": "GPIO25",
+          "functions": []
+        },
+        {
+          "position": 28,
+          "label": "GPIO24",
+          "functions": []
+        },
+        {
+          "position": 29,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "GPIO33",
+          "functions": []
+        },
+        {
+          "position": 31,
+          "label": "GPIO54",
+          "functions": []
+        },
+        {
+          "position": 32,
+          "label": "GPIO26",
+          "functions": []
+        },
+        {
+          "position": 33,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 34,
+          "label": "GPIO48",
+          "functions": []
+        },
+        {
+          "position": 35,
+          "label": "GPIO46",
+          "functions": []
+        },
+        {
+          "position": 36,
+          "label": "GPIO53",
+          "functions": []
+        },
+        {
+          "position": 37,
+          "label": "GPIO27",
+          "functions": []
+        },
+        {
+          "position": 38,
+          "label": "GPIO47",
+          "functions": []
+        },
+        {
+          "position": 39,
+          "label": "GPIO45",
+          "functions": []
+        },
+        {
+          "position": 40,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "header-2x20-img2",
+      "name": "40-pin header",
+      "image": "media/9fd56670366a6a4858a42adcc0164ddf84539b7935f143834c323630157b2c0f.webp",
+      "rows": 2,
+      "orderNote": "2x20 header, no printed numbers; no USB connector visible in this view, so start at the top; position 1 = top of the outer (right, board-edge) column, then alternate inner/outer",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO7",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GPIO8",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO37",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO23",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO38",
+          "functions": [
+            "RXD"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GPIO22",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GPIO21",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO20",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GPIO5",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "GPIO6",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "GPIO4",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "GPIO3",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "GPIO1",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "GPIO2",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "GPIO36",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "GPIO0",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "GPIO32",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 27,
+          "label": "GPIO25",
+          "functions": []
+        },
+        {
+          "position": 28,
+          "label": "GPIO24",
+          "functions": []
+        },
+        {
+          "position": 29,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "GPIO33",
+          "functions": []
+        },
+        {
+          "position": 31,
+          "label": "GPIO54",
+          "functions": []
+        },
+        {
+          "position": 32,
+          "label": "GPIO26",
+          "functions": []
+        },
+        {
+          "position": 33,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 34,
+          "label": "GPIO48",
+          "functions": []
+        },
+        {
+          "position": 35,
+          "label": "GPIO46",
+          "functions": []
+        },
+        {
+          "position": 36,
+          "label": "GPIO53",
+          "functions": []
+        },
+        {
+          "position": 37,
+          "label": "GPIO27",
+          "functions": []
+        },
+        {
+          "position": 38,
+          "label": "GPIO47",
+          "functions": []
+        },
+        {
+          "position": 39,
+          "label": "GPIO45",
+          "functions": []
+        },
+        {
+          "position": 40,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "header-2x20-img3",
+      "name": "40-pin header",
+      "image": "media/5d3736259ee0b3aec8593478502969926a8ea35a7daebc7169862fbb07f496bd.jpg",
+      "rows": 2,
+      "orderNote": "2x20 header, no printed numbers; no USB connector visible in this view, so start at the top; position 1 = top of the outer (right, board-edge) column, then alternate inner/outer",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO7",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GPIO8",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO37",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO23",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO38",
+          "functions": [
+            "RXD"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GPIO22",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GPIO21",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO20",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GPIO5",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "GPIO6",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "GPIO4",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "GPIO3",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "GPIO1",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "GPIO2",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "GPIO36",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "GPIO0",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "GPIO32",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 27,
+          "label": "GPIO25",
+          "functions": []
+        },
+        {
+          "position": 28,
+          "label": "GPIO24",
+          "functions": []
+        },
+        {
+          "position": 29,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "GPIO33",
+          "functions": []
+        },
+        {
+          "position": 31,
+          "label": "GPIO54",
+          "functions": []
+        },
+        {
+          "position": 32,
+          "label": "GPIO26",
+          "functions": []
+        },
+        {
+          "position": 33,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 34,
+          "label": "GPIO48",
+          "functions": []
+        },
+        {
+          "position": 35,
+          "label": "GPIO46",
+          "functions": []
+        },
+        {
+          "position": 36,
+          "label": "GPIO53",
+          "functions": []
+        },
+        {
+          "position": 37,
+          "label": "GPIO27",
+          "functions": []
+        },
+        {
+          "position": 38,
+          "label": "GPIO47",
+          "functions": []
+        },
+        {
+          "position": 39,
+          "label": "GPIO45",
+          "functions": []
+        },
+        {
+          "position": 40,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Three images of the ESP32-P4-WIFI6-DEV-KIT (image 1 Rev1.1 with jumper caps shown) with the same 40-pin header callouts. 'SDA / GPIO7' style labels: GPIO name as label, prefix in functions. I2C/I3C/RTC/SPK connectors on the left edge have no per-pin labels and are skipped."
+}

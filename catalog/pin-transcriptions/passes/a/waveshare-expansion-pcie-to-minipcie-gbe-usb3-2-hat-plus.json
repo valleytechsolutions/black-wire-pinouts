@@ -1,0 +1,233 @@
+{
+  "recordId": "waveshare-expansion-pcie-to-minipcie-gbe-usb3-2-hat-plus",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/839f565a1ffb74ba7faf574cc90647abe5129180bcefefb5cbcf00092ea30d06.jpg",
+      "sha256": "839f565a1ffb74ba7faf574cc90647abe5129180bcefefb5cbcf00092ea30d06"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "40-pin-header",
+      "name": "40-pin header",
+      "image": "media/839f565a1ffb74ba7faf574cc90647abe5129180bcefefb5cbcf00092ea30d06.jpg",
+      "rows": 2,
+      "orderNote": "Pin numbers 1-40 printed; positions follow them (odd = left column, even = right column)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 27,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 28,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 29,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 31,
+          "label": "D6",
+          "functions": [
+            "22",
+            "6"
+          ]
+        },
+        {
+          "position": 32,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 33,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 34,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 35,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 36,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 37,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 38,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 39,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 40,
+          "label": "?",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "Pins 1, 2, 3, 5, 7, 8, 10, 11, 12, 13, 15, 16, 17, 18, 19, 21, 22, 23, 24, 26, 27, 28, 29, 32, 33, 35, 36, 37, 38, 40 have a printed pin number but no function label (unlabeled; only the pins used by this module are labeled)."
+  ],
+  "uncertain": [
+    "Only pins used by the module are labeled; the image does not name the board, so identity as this HAT rests on the visible GbE/USB ports and PCIe FPC connector."
+  ],
+  "notes": "Pin 31 row prints BCM '6', WPI '22', FUNC 'D6'; functions list WPI then BCM value as printed (outward from pin). Legend: D6 = module power ON/OFF control pin, low active."
+}

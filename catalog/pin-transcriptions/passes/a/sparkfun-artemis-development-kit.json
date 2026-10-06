@@ -1,0 +1,1283 @@
+{
+  "recordId": "sparkfun-artemis-development-kit",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/49e6b89ed8f8d81dce59b076d6e1fa1eb11a3a0bb114bea45a67f48f8c843214.png",
+      "sha256": "49e6b89ed8f8d81dce59b076d6e1fa1eb11a3a0bb114bea45a67f48f8c843214"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left female header (silkscreen numbers)",
+      "image": "media/49e6b89ed8f8d81dce59b076d6e1fa1eb11a3a0bb114bea45a67f48f8c843214.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; started at end closest to the USB-C connector (top of image)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D28",
+          "functions": [
+            "28",
+            "TX0",
+            "IOM2: SCL/SCK"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D25",
+          "functions": [
+            "25",
+            "RX1",
+            "IOM2: SDA/SDI"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "D26",
+          "functions": [
+            "26",
+            "TX0",
+            "IOM2: SDO"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "AD34",
+          "functions": [
+            "34",
+            "D34",
+            "RX0",
+            "A34"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "AD29",
+          "functions": [
+            "29",
+            "D29",
+            "RX0",
+            "A29"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "AD32",
+          "functions": [
+            "32",
+            "D32",
+            "A32"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "AD33",
+          "functions": [
+            "33",
+            "D33",
+            "A33"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "AD13",
+          "functions": [
+            "13",
+            "D13",
+            "RX1"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "D27",
+          "functions": [
+            "27",
+            "RX0"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "D23",
+          "functions": [
+            "23",
+            "RX0"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "AD35",
+          "functions": [
+            "35",
+            "D35",
+            "TX1",
+            "A35"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "D24",
+          "functions": [
+            "24"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-pads",
+      "name": "Left double breakout pads beside the female header",
+      "image": "media/49e6b89ed8f8d81dce59b076d6e1fa1eb11a3a0bb114bea45a67f48f8c843214.png",
+      "rows": 2,
+      "orderNote": "No pin numbers printed; started at end closest to the USB-C connector (top of image); 2xN: position 1 = outer (left) column, alternating columns",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D28",
+          "functions": [
+            "28",
+            "TX0",
+            "IOM2: SCL/SCK"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D28",
+          "functions": [
+            "28",
+            "TX0",
+            "IOM2: SCL/SCK"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "D25",
+          "functions": [
+            "25",
+            "RX1",
+            "IOM2: SDA/SDI"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D25",
+          "functions": [
+            "25",
+            "RX1",
+            "IOM2: SDA/SDI"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "D26",
+          "functions": [
+            "26",
+            "TX0",
+            "IOM2: SDO"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D26",
+          "functions": [
+            "26",
+            "TX0",
+            "IOM2: SDO"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "AD34",
+          "functions": [
+            "34",
+            "D34",
+            "RX0",
+            "A34"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "AD34",
+          "functions": [
+            "34",
+            "D34",
+            "RX0",
+            "A34"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "AD29",
+          "functions": [
+            "29",
+            "D29",
+            "RX0",
+            "A29"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "AD29",
+          "functions": [
+            "29",
+            "D29",
+            "RX0",
+            "A29"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "AD32",
+          "functions": [
+            "32",
+            "D32",
+            "A32"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "AD32",
+          "functions": [
+            "32",
+            "D32",
+            "A32"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "AD33",
+          "functions": [
+            "33",
+            "D33",
+            "A33"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "AD33",
+          "functions": [
+            "33",
+            "D33",
+            "A33"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "AD13",
+          "functions": [
+            "13",
+            "D13",
+            "RX1"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "AD13",
+          "functions": [
+            "13",
+            "D13",
+            "RX1"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "D27",
+          "functions": [
+            "27",
+            "RX0"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "D27",
+          "functions": [
+            "27",
+            "RX0"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "D23",
+          "functions": [
+            "23",
+            "RX0"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "D23",
+          "functions": [
+            "23",
+            "RX0"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "AD35",
+          "functions": [
+            "35",
+            "D35",
+            "TX1",
+            "A35"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "AD35",
+          "functions": [
+            "35",
+            "D35",
+            "TX1",
+            "A35"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "D24",
+          "functions": [
+            "24"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "D24",
+          "functions": [
+            "24"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-gnd",
+      "name": "Left edge GND pad column",
+      "image": "media/49e6b89ed8f8d81dce59b076d6e1fa1eb11a3a0bb114bea45a67f48f8c843214.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; started at end closest to the USB-C connector (top of image)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right female header (silkscreen numbers)",
+      "image": "media/49e6b89ed8f8d81dce59b076d6e1fa1eb11a3a0bb114bea45a67f48f8c843214.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; started at end closest to the USB-C connector (top of image)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D39",
+          "functions": [
+            "39",
+            "TX0/TX1",
+            "IOM4: SCL/SCK"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D40",
+          "functions": [
+            "40",
+            "RX0/RX1",
+            "IOM4: SDA/SDI"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "D44",
+          "functions": [
+            "44",
+            "TX0",
+            "IOM4: SDO"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D37",
+          "functions": [
+            "37",
+            "TX1"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "D38",
+          "functions": [
+            "38",
+            "RX1",
+            "IOM3: SDO"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D36",
+          "functions": [
+            "36",
+            "RX1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "D42",
+          "functions": [
+            "42",
+            "TX1",
+            "IOM3: SCL/SCK"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "D43",
+          "functions": [
+            "43",
+            "RX1",
+            "IOM3: SDA/SDI"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "D45",
+          "functions": [
+            "45",
+            "RX0"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "D41",
+          "functions": [
+            "41",
+            "TX0"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "AD31",
+          "functions": [
+            "31",
+            "D31",
+            "RX0",
+            "A31"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "AD16",
+          "functions": [
+            "16",
+            "D16",
+            "TX0",
+            "A16"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-pads",
+      "name": "Right double breakout pads beside the female header",
+      "image": "media/49e6b89ed8f8d81dce59b076d6e1fa1eb11a3a0bb114bea45a67f48f8c843214.png",
+      "rows": 2,
+      "orderNote": "No pin numbers printed; started at end closest to the USB-C connector (top of image); 2xN: position 1 = outer (right) column, alternating columns",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D39",
+          "functions": [
+            "39",
+            "TX0/TX1",
+            "IOM4: SCL/SCK"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D39",
+          "functions": [
+            "39",
+            "TX0/TX1",
+            "IOM4: SCL/SCK"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "D40",
+          "functions": [
+            "40",
+            "RX0/RX1",
+            "IOM4: SDA/SDI"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D40",
+          "functions": [
+            "40",
+            "RX0/RX1",
+            "IOM4: SDA/SDI"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "D44",
+          "functions": [
+            "44",
+            "TX0",
+            "IOM4: SDO"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D44",
+          "functions": [
+            "44",
+            "TX0",
+            "IOM4: SDO"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "D37",
+          "functions": [
+            "37",
+            "TX1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "D37",
+          "functions": [
+            "37",
+            "TX1"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "D38",
+          "functions": [
+            "38",
+            "RX1",
+            "IOM3: SDO"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "D38",
+          "functions": [
+            "38",
+            "RX1",
+            "IOM3: SDO"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "D36",
+          "functions": [
+            "36",
+            "RX1"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "D36",
+          "functions": [
+            "36",
+            "RX1"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "D42",
+          "functions": [
+            "42",
+            "TX1",
+            "IOM3: SCL/SCK"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "D42",
+          "functions": [
+            "42",
+            "TX1",
+            "IOM3: SCL/SCK"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "D43",
+          "functions": [
+            "43",
+            "RX1",
+            "IOM3: SDA/SDI"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "D43",
+          "functions": [
+            "43",
+            "RX1",
+            "IOM3: SDA/SDI"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "D45",
+          "functions": [
+            "45",
+            "RX0"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "D45",
+          "functions": [
+            "45",
+            "RX0"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "D41",
+          "functions": [
+            "41",
+            "TX0"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "D41",
+          "functions": [
+            "41",
+            "TX0"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "AD31",
+          "functions": [
+            "31",
+            "D31",
+            "RX0",
+            "A31"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "AD31",
+          "functions": [
+            "31",
+            "D31",
+            "RX0",
+            "A31"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "AD16",
+          "functions": [
+            "16",
+            "D16",
+            "TX0",
+            "A16"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "AD16",
+          "functions": [
+            "16",
+            "D16",
+            "TX0",
+            "A16"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-gnd",
+      "name": "Right edge GND pad column",
+      "image": "media/49e6b89ed8f8d81dce59b076d6e1fa1eb11a3a0bb114bea45a67f48f8c843214.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; started at end closest to the USB-C connector (top of image)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "power-header",
+      "name": "Bottom power female header",
+      "image": "media/49e6b89ed8f8d81dce59b076d6e1fa1eb11a3a0bb114bea45a67f48f8c843214.png",
+      "rows": 1,
+      "orderNote": "Horizontal row; USB-C is centered above so neither end is closer; started at left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "1V8",
+          "functions": [
+            "1.8V"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "1V8",
+          "functions": [
+            "1.8V"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": [
+            "3.3V"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": [
+            "3.3V"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "USB",
+          "functions": [
+            "5.0V"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "USB",
+          "functions": [
+            "5.0V"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "power-pads",
+      "name": "Bottom 2x8 power pads below the power header",
+      "image": "media/49e6b89ed8f8d81dce59b076d6e1fa1eb11a3a0bb114bea45a67f48f8c843214.png",
+      "rows": 2,
+      "orderNote": "Horizontal row started at left; 2xN: position 1 = outer (bottom) row, alternating rows",
+      "pins": [
+        {
+          "position": 1,
+          "label": "1V8",
+          "functions": [
+            "1.8V"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "1V8",
+          "functions": [
+            "1.8V"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "1V8",
+          "functions": [
+            "1.8V"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "1V8",
+          "functions": [
+            "1.8V"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "3V3",
+          "functions": [
+            "3.3V"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "3V3",
+          "functions": [
+            "3.3V"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "3V3",
+          "functions": [
+            "3.3V"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "3V3",
+          "functions": [
+            "3.3V"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "USB",
+          "functions": [
+            "5.0V"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "USB",
+          "functions": [
+            "5.0V"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "USB",
+          "functions": [
+            "5.0V"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "USB",
+          "functions": [
+            "5.0V"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "camera-fpc",
+      "name": "24-pin FPC camera connector",
+      "image": "media/49e6b89ed8f8d81dce59b076d6e1fa1eb11a3a0bb114bea45a67f48f8c843214.png",
+      "rows": 1,
+      "orderNote": "Printed pin numbers followed (Pin Number row)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "D1",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "AVDD",
+          "functions": [
+            "3.3V"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "D3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "FVLD VSYNC",
+          "functions": [
+            "D15"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "TRIG",
+          "functions": [
+            "D14"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "MCLK",
+          "functions": [
+            "D18"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "D2",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "IOVDD",
+          "functions": [
+            "1.8V"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "D4",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "D7",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "D0",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "LVLD HSYNC",
+          "functions": [
+            "D17"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "PCLK",
+          "functions": [
+            "D19"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "INT",
+          "functions": [
+            "D10"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "D6",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "D5",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "SCL",
+          "functions": [
+            "D8"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "SDA",
+          "functions": [
+            "D9"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "?",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "interface-jtag",
+      "name": "Interface JTAG 2x5 header (INTFC)",
+      "image": "media/49e6b89ed8f8d81dce59b076d6e1fa1eb11a3a0bb114bea45a67f48f8c843214.png",
+      "rows": 2,
+      "orderNote": "Printed pin numbers 1-10 followed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VCC",
+          "functions": [
+            "3.3V"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "SWDIO/TMS",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SWDCLK/TCK",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "SWO/TDO",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "NC/TDI",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "?",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "target-jtag",
+      "name": "Target JTAG 2x5 header (TGT)",
+      "image": "media/49e6b89ed8f8d81dce59b076d6e1fa1eb11a3a0bb114bea45a67f48f8c843214.png",
+      "rows": 2,
+      "orderNote": "Printed pin numbers 1-10 followed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VCC",
+          "functions": [
+            "3.3V"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "SWDIO",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SWDCLK",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "?",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "camera-fpc positions 1, 11, 15, 23 and 24: no entry printed in the camera table (connector is described as 24-pin FPC); recorded as '?'",
+    "interface-jtag and target-jtag pin 10: shown in the 2x5 drawing but not named in either list; recorded as '?'"
+  ],
+  "uncertain": [
+    "Grouping: each side signal has a female header socket plus two breakout pads in the same row; recorded as separate connectors (header, 2-column pads, edge GND column); the image does not state whether the pad columns are separate rows of the same nets.",
+    "camera-fpc: the table lists only pins 2-10, 12-14, 16-22; assumed numbering 1-24 per the '24-Pin FPC' caption; missing pins left '?'.",
+    "JTAG: which physical 2x5 header is 'Interface' vs 'Target' is inferred from the silkscreen INTFC and TGT next to the two headers; the single pinout drawing is shared by both lists.",
+    "Power header and pads: per-column values 1.8V/3.3V/5.0V/GND come from the table below the board; the 2x8 pad block is assumed to carry the same column labels as the header above."
+  ],
+  "notes": "Labels from the white 'Pad' column (side headers) and 'Connection Name' row (camera); silkscreen numbers first in functions, then Arduino, UART, ADC/IOM read outward. PWM '~' marks omitted. Qwiic JST-SH and USB-C skipped (no individual pin positions). TGT BOOT / TGT SWD CLK jumper pads skipped."
+}

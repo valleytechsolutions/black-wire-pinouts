@@ -1,0 +1,49 @@
+{
+  "recordId": "seeed-studio-expansion-rs-232-to-ttl-converter-max3232idr",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/d18a0a25c984aaea84187be894cdc5eac3395e7b39b81e2094b52be8d8d3ee42.jpg",
+      "sha256": "d18a0a25c984aaea84187be894cdc5eac3395e7b39b81e2094b52be8d8d3ee42"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "4-pin TTL header (left edge)",
+      "image": "media/d18a0a25c984aaea84187be894cdc5eac3395e7b39b81e2094b52be8d8d3ee42.jpg",
+      "rows": 1,
+      "orderNote": "No USB or pin 1 mark; vertical row read top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RX",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Silkscreen labels are small in the photo; read as RX, TX, VCC, GND. The wiring diagram labels (TTL Device TX/RX/VCC/GND) belong to the external device and were not used as pin labels.",
+    "DB9 RS232 connector pins are not individually labeled; not transcribed."
+  ],
+  "notes": "Photo with wiring diagram from a TTL device to the board and to an RS232 device."
+}

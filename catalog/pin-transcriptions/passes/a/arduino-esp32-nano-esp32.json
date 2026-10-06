@@ -1,0 +1,1516 @@
+{
+  "recordId": "arduino-esp32-nano-esp32",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/95cf4115bf8a1b8d2c55f4ed67a7b31538460b3d1407cda9422d539c9ed0c5df.png",
+      "sha256": "95cf4115bf8a1b8d2c55f4ed67a7b31538460b3d1407cda9422d539c9ed0c5df"
+    },
+    {
+      "file": "media/aa6bacf9290e5bf6056975f016f1e1206c13b72040eac4351b9d3276c5a11de0.png",
+      "sha256": "aa6bacf9290e5bf6056975f016f1e1206c13b72040eac4351b9d3276c5a11de0"
+    },
+    {
+      "file": "media/9babec9aaf1afb15364c7b2d3df343bb03eb1c8932a016acd9d76fc93d87b88c.png",
+      "sha256": "9babec9aaf1afb15364c7b2d3df343bb03eb1c8932a016acd9d76fc93d87b88c"
+    },
+    {
+      "file": "media/740bcb0d57106b12ef293b933b14c9b541120cd85b5603fd5bc03457a9b4f662.png",
+      "sha256": "740bcb0d57106b12ef293b933b14c9b541120cd85b5603fd5bc03457a9b4f662"
+    },
+    {
+      "file": "media/2ddd48af081b6528d7bb0954435d0c2635a6f8cf5813023a13f7a9191d0bfc9e.png",
+      "sha256": "2ddd48af081b6528d7bb0954435d0c2635a6f8cf5813023a13f7a9191d0bfc9e"
+    },
+    {
+      "file": "media/14683b7169c351a3e128b2aca8d7b7bf7f3e460d36903676125a184308b31afe.png",
+      "sha256": "14683b7169c351a3e128b2aca8d7b7bf7f3e460d36903676125a184308b31afe"
+    },
+    {
+      "file": "media/b4b2e4c9003ae4b91e01c3715a61cce3f60cc8b06c567aa3600b4cb812355585.png",
+      "sha256": "b4b2e4c9003ae4b91e01c3715a61cce3f60cc8b06c567aa3600b4cb812355585"
+    },
+    {
+      "file": "media/5f61a89bf8bb015af6c4ef19a3d8a59c2dea2538400962180d0cb7d05ab21ced.png",
+      "sha256": "5f61a89bf8bb015af6c4ef19a3d8a59c2dea2538400962180d0cb7d05ab21ced"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/95cf4115bf8a1b8d2c55f4ed67a7b31538460b3d1407cda9422d539c9ed0c5df.png",
+      "rows": 1,
+      "orderNote": "USB connector at top; position 1 nearest USB",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO48",
+          "functions": [
+            "~D13",
+            "SCK"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO46",
+          "functions": [
+            "B0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO1",
+          "functions": [
+            "~D17",
+            "A0",
+            "ADC1_CH0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO2",
+          "functions": [
+            "~D18",
+            "A1",
+            "ADC1_CH1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO3",
+          "functions": [
+            "~D19",
+            "A2",
+            "ADC1_CH2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO4",
+          "functions": [
+            "~D20",
+            "A3",
+            "ADC1_CH3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "Busy",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "Busy",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "Busy",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GPIO14",
+          "functions": [
+            "~D24",
+            "A7",
+            "ADC2_CH3"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "VUSB",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GPIO0",
+          "functions": [
+            "B1"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/95cf4115bf8a1b8d2c55f4ed67a7b31538460b3d1407cda9422d539c9ed0c5df.png",
+      "rows": 1,
+      "orderNote": "USB connector at top; position 1 nearest USB",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO47",
+          "functions": [
+            "~D12"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO38",
+          "functions": [
+            "~D11"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO21",
+          "functions": [
+            "~D10"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO18",
+          "functions": [
+            "~D9"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO17",
+          "functions": [
+            "~D8"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO10",
+          "functions": [
+            "~D7"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO9",
+          "functions": [
+            "~D6"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO8",
+          "functions": [
+            "~D5"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "Busy",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "Busy",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "Busy",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "Busy",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "Busy",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left header",
+      "image": "media/aa6bacf9290e5bf6056975f016f1e1206c13b72040eac4351b9d3276c5a11de0.png",
+      "rows": 1,
+      "orderNote": "USB connector at top; position 1 nearest USB",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D13",
+          "functions": [
+            "48"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "BOOT0",
+          "functions": [
+            "B0",
+            "46"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "A0",
+          "functions": [
+            "1"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "A1",
+          "functions": [
+            "2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "A2",
+          "functions": [
+            "3"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "A3",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "A4",
+          "functions": [
+            "11"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "A5",
+          "functions": [
+            "12"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "A6",
+          "functions": [
+            "13"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "A7",
+          "functions": [
+            "14"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "BOOT1",
+          "functions": [
+            "B1",
+            "0"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Right header",
+      "image": "media/aa6bacf9290e5bf6056975f016f1e1206c13b72040eac4351b9d3276c5a11de0.png",
+      "rows": 1,
+      "orderNote": "USB connector at top; position 1 nearest USB",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D12",
+          "functions": [
+            "47"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D11",
+          "functions": [
+            "38"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "D10",
+          "functions": [
+            "21"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D9",
+          "functions": [
+            "18"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "D8",
+          "functions": [
+            "17"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D7",
+          "functions": [
+            "10"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "D6",
+          "functions": [
+            "9"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "D5",
+          "functions": [
+            "8"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "D4",
+          "functions": [
+            "7"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "D3",
+          "functions": [
+            "6"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "D2",
+          "functions": [
+            "5"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "D0",
+          "functions": [
+            "RX0",
+            "44"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "D1",
+          "functions": [
+            "TX1",
+            "43"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img3",
+      "name": "Left header",
+      "image": "media/9babec9aaf1afb15364c7b2d3df343bb03eb1c8932a016acd9d76fc93d87b88c.png",
+      "rows": 1,
+      "orderNote": "USB connector at top; position 1 nearest USB",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO48",
+          "functions": [
+            "~D13",
+            "SCK"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO46",
+          "functions": [
+            "B0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO1",
+          "functions": [
+            "~D17",
+            "A0",
+            "ADC1_CH0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO2",
+          "functions": [
+            "~D18",
+            "A1",
+            "ADC1_CH1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO3",
+          "functions": [
+            "~D19",
+            "A2",
+            "ADC1_CH2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO4",
+          "functions": [
+            "~D20",
+            "A3",
+            "ADC1_CH3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO11",
+          "functions": [
+            "~D21",
+            "A4",
+            "ADC2_CH0"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO12",
+          "functions": [
+            "~D22",
+            "A5",
+            "ADC2_CH1"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO13",
+          "functions": [
+            "~D23",
+            "A6",
+            "ADC2_CH2"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO14",
+          "functions": [
+            "~D24",
+            "A7",
+            "ADC2_CH3"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "VUSB",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GPIO0",
+          "functions": [
+            "B1"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header-img3",
+      "name": "Right header",
+      "image": "media/9babec9aaf1afb15364c7b2d3df343bb03eb1c8932a016acd9d76fc93d87b88c.png",
+      "rows": 1,
+      "orderNote": "USB connector at top; position 1 nearest USB",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO47",
+          "functions": [
+            "~D12",
+            "CIPO"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO38",
+          "functions": [
+            "~D11",
+            "COPI"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO21",
+          "functions": [
+            "~D10"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO18",
+          "functions": [
+            "~D9"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO17",
+          "functions": [
+            "~D8"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO10",
+          "functions": [
+            "~D7"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO9",
+          "functions": [
+            "~D6"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO8",
+          "functions": [
+            "~D5"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO7",
+          "functions": [
+            "~D4"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO6",
+          "functions": [
+            "~D3"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO5",
+          "functions": [
+            "~D2"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO44",
+          "functions": [
+            "~D0/RX0",
+            "RX0"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO43",
+          "functions": [
+            "~D1/TX0",
+            "TX0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img4",
+      "name": "Left header",
+      "image": "media/740bcb0d57106b12ef293b933b14c9b541120cd85b5603fd5bc03457a9b4f662.png",
+      "rows": 1,
+      "orderNote": "USB connector at top; position 1 nearest USB",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D13",
+          "functions": [
+            "48"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "BOOT0",
+          "functions": [
+            "B0",
+            "46"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "A0",
+          "functions": [
+            "1"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "A1",
+          "functions": [
+            "2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "A2",
+          "functions": [
+            "3"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "A3",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "A4",
+          "functions": [
+            "11"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "A5",
+          "functions": [
+            "12"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "A6",
+          "functions": [
+            "13"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "A7",
+          "functions": [
+            "14"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "BOOT1",
+          "functions": [
+            "B1",
+            "0"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header-img4",
+      "name": "Right header",
+      "image": "media/740bcb0d57106b12ef293b933b14c9b541120cd85b5603fd5bc03457a9b4f662.png",
+      "rows": 1,
+      "orderNote": "USB connector at top; position 1 nearest USB",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D12",
+          "functions": [
+            "47"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D11",
+          "functions": [
+            "38"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "D10",
+          "functions": [
+            "21"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D9",
+          "functions": [
+            "18"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "D8",
+          "functions": [
+            "17"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D7",
+          "functions": [
+            "10"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "D6",
+          "functions": [
+            "9"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "D5",
+          "functions": [
+            "8"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "D4",
+          "functions": [
+            "7"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "D3",
+          "functions": [
+            "6"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "D2",
+          "functions": [
+            "5"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "D0",
+          "functions": [
+            "RX0",
+            "44"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "D1",
+          "functions": [
+            "TX1",
+            "43"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img5",
+      "name": "Left header",
+      "image": "media/2ddd48af081b6528d7bb0954435d0c2635a6f8cf5813023a13f7a9191d0bfc9e.png",
+      "rows": 1,
+      "orderNote": "USB connector at top; position 1 nearest USB",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO48",
+          "functions": [
+            "~D13",
+            "SCK"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO46",
+          "functions": [
+            "B0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO1",
+          "functions": [
+            "~D17",
+            "A0",
+            "ADC1_CH0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO2",
+          "functions": [
+            "~D18",
+            "A1",
+            "ADC1_CH1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO3",
+          "functions": [
+            "~D19",
+            "A2",
+            "ADC1_CH2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO4",
+          "functions": [
+            "~D20",
+            "A3",
+            "ADC1_CH3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO11",
+          "functions": [
+            "~D21",
+            "A4",
+            "ADC2_CH0",
+            "SDA"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO12",
+          "functions": [
+            "~D22",
+            "A5",
+            "ADC2_CH1",
+            "SCL"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO13",
+          "functions": [
+            "~D23",
+            "A6",
+            "ADC2_CH2"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO14",
+          "functions": [
+            "~D24",
+            "A7",
+            "ADC2_CH3"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "VUSB",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GPIO0",
+          "functions": [
+            "B1"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header-img5",
+      "name": "Right header",
+      "image": "media/2ddd48af081b6528d7bb0954435d0c2635a6f8cf5813023a13f7a9191d0bfc9e.png",
+      "rows": 1,
+      "orderNote": "USB connector at top; position 1 nearest USB",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO47",
+          "functions": [
+            "~D12",
+            "CIPO"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO38",
+          "functions": [
+            "~D11",
+            "COPI"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO21",
+          "functions": [
+            "~D10"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO18",
+          "functions": [
+            "~D9"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO17",
+          "functions": [
+            "~D8"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO10",
+          "functions": [
+            "~D7"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO9",
+          "functions": [
+            "~D6"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO8",
+          "functions": [
+            "~D5"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO7",
+          "functions": [
+            "~D4"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO6",
+          "functions": [
+            "~D3"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO5",
+          "functions": [
+            "~D2"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO44",
+          "functions": [
+            "~D0/RX0",
+            "RX0"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO43",
+          "functions": [
+            "~D1/TX0",
+            "TX0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img7",
+      "name": "Left header",
+      "image": "media/b4b2e4c9003ae4b91e01c3715a61cce3f60cc8b06c567aa3600b4cb812355585.png",
+      "rows": 1,
+      "orderNote": "USB connector at top; position 1 nearest USB",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO48",
+          "functions": [
+            "~D13",
+            "SCK"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO46",
+          "functions": [
+            "B0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO1",
+          "functions": [
+            "~D17",
+            "A0",
+            "ADC1_CH0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO2",
+          "functions": [
+            "~D18",
+            "A1",
+            "ADC1_CH1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO3",
+          "functions": [
+            "~D19",
+            "A2",
+            "ADC1_CH2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO4",
+          "functions": [
+            "~D20",
+            "A3",
+            "ADC1_CH3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO11",
+          "functions": [
+            "~D21",
+            "A4",
+            "SDA",
+            "ADC2_CH0"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO12",
+          "functions": [
+            "~D22",
+            "A5",
+            "SCL",
+            "ADC2_CH1"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO13",
+          "functions": [
+            "~D23",
+            "A6",
+            "ADC2_CH2"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO14",
+          "functions": [
+            "~D24",
+            "A7",
+            "ADC2_CH3"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "VUSB",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GPIO0",
+          "functions": [
+            "B1"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header-img7",
+      "name": "Right header",
+      "image": "media/b4b2e4c9003ae4b91e01c3715a61cce3f60cc8b06c567aa3600b4cb812355585.png",
+      "rows": 1,
+      "orderNote": "USB connector at top; position 1 nearest USB",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO47",
+          "functions": [
+            "~D12",
+            "CIPO"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO38",
+          "functions": [
+            "~D11",
+            "COPI"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO21",
+          "functions": [
+            "~D10"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO18",
+          "functions": [
+            "~D9",
+            "RX1",
+            "ADC2_CH7"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO17",
+          "functions": [
+            "~D8",
+            "TX1",
+            "ADC2_CH6"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO10",
+          "functions": [
+            "~D7",
+            "ADC1_CH9"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO9",
+          "functions": [
+            "~D6",
+            "ADC1_CH8"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO8",
+          "functions": [
+            "~D5",
+            "ADC1_CH7"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO7",
+          "functions": [
+            "~D4",
+            "ADC1_CH6"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO6",
+          "functions": [
+            "~D3",
+            "ADC1_CH5"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO5",
+          "functions": [
+            "~D2",
+            "ADC1_CH4"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO44",
+          "functions": [
+            "~D0/RX0",
+            "RX0"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO43",
+          "functions": [
+            "~D1/TX0",
+            "TX0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "usb-pads-img8",
+      "name": "USB test pads (bottom view)",
+      "image": "media/5f61a89bf8bb015af6c4ef19a3d8a59c2dea2538400962180d0cb7d05ab21ced.png",
+      "rows": 1,
+      "orderNote": "Pad numbers printed 1-4",
+      "pins": [
+        {
+          "position": 1,
+          "label": "USB Data -",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "USB Data +",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "debug-pads-img8",
+      "name": "Debug pads (bottom view)",
+      "image": "media/5f61a89bf8bb015af6c4ef19a3d8a59c2dea2538400962180d0cb7d05ab21ced.png",
+      "rows": 1,
+      "orderNote": "Pad numbers printed 1-9",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO40",
+          "functions": [
+            "MTDO"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO42",
+          "functions": [
+            "MTMS"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO41",
+          "functions": [
+            "MTDI"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO46",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO39",
+          "functions": [
+            "MTCK"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "NC",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "img2 left-header-img2 pos 14: pad has no silkscreen or callout label (unlabeled)",
+    "img2 right-header-img2 pos 12: pad has no silkscreen or callout label (unlabeled)",
+    "img4 left-header-img4 pos 14: unlabeled pad",
+    "img4 right-header-img4 pos 12: unlabeled pad"
+  ],
+  "notes": "Image 6 is a text-only \"Advanced Section\" warning page with no pins. Images 2 and 4 show the same board photo; labels are the callout names with silkscreen spellings and ESP32 pin numbers in functions. IN/OUT power badges and D default icons omitted as category tags. \"Busy\" printed on pins in image 1 kept as label. Image 8 top view QSPI flash signals go to the flash chip (no wiring points) and were skipped; the 3V3/GND/SJ1 jumper callouts were skipped."
+}

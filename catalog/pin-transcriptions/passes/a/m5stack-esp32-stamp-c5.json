@@ -1,0 +1,242 @@
+{
+  "recordId": "m5stack-esp32-stamp-c5",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/0436f93598621571844b245dc3ba8d6f408e5734f339f28f8c458ac6edb9d26d.jpg",
+      "sha256": "0436f93598621571844b245dc3ba8d6f408e5734f339f28f8c458ac6edb9d26d"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Front view left pad row",
+      "image": "media/0436f93598621571844b245dc3ba8d6f408e5734f339f28f8c458ac6edb9d26d.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at end closest to USB-C connector (bottom) in the front view",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "USB_5V",
+          "functions": [
+            "VUSB"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "VBAT",
+          "functions": [
+            "BAT"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "G3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "G2",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "G1",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Front view right pad row",
+      "image": "media/0436f93598621571844b245dc3ba8d6f408e5734f339f28f8c458ac6edb9d26d.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at end closest to USB-C connector (bottom) in the front view",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G28",
+          "functions": [
+            "G28/BOOT",
+            "Boot",
+            "BLUE_LED"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "G10",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G9",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "G8",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "G7",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "G6",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "G5",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "g4-edge-pad",
+      "name": "G4 edge pad",
+      "image": "media/0436f93598621571844b245dc3ba8d6f408e5734f339f28f8c458ac6edb9d26d.jpg",
+      "rows": 1,
+      "orderNote": "Single pad",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G4",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "Ext",
+      "name": "Ext 12-pin FPC connector",
+      "image": "media/0436f93598621571844b245dc3ba8d6f408e5734f339f28f8c458ac6edb9d26d.jpg",
+      "rows": 1,
+      "orderNote": "Pin numbers 1, 2, 11, 12 printed under the label strip and 1/12 on the silkscreen; followed them",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G23",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "G0",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "G24",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "G25",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "G26",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "G27",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "G11",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "G12",
+          "functions": [
+            "RXD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "back-test-pads",
+      "name": "Back-side 2x3 test pads",
+      "image": "media/0436f93598621571844b245dc3ba8d6f408e5734f339f28f8c458ac6edb9d26d.jpg",
+      "rows": 2,
+      "orderNote": "No pin numbers; 2x3 group read from back view; outer row = bottom row (BOOT, RST, D+) nearest the USB end/bottom edge, columns from the left, alternating rows",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BOOT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "TXD",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RXD",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "D+",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "D-",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "G4 is a small edge pad that the front view arrow places between G2 and G3 on the left edge; it is recorded as its own connector because it sits between the regular pads, but it may belong in the left row between G2 and G3.",
+    "Back 2x3 test pads: the TXD/RXD silkscreen is blurry (final character could be D or 0); grouping as one 2x3 connector and position order (outer row chosen as the bottom row) are inferred, not printed."
+  ],
+  "notes": "Image titled \"M5STAMP C5\" with front and back views. Main pad rows use front-view callout labels; back silkscreen spellings (BAT, VUSB, G28/BOOT) added first in functions. BLUE_LED is printed in a legend as \"BLUE_LED G28\" and was added to G28. The 12-pin Ext connector labels come from the top label strip (RXD/TXD tags above G12/G11). The back 2x3 pad group is labeled only on silkscreen (TXD, RXD, D-, D+, BOOT, RST)."
+}

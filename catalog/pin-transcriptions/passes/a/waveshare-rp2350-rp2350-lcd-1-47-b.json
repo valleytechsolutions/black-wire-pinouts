@@ -1,0 +1,194 @@
+{
+  "recordId": "waveshare-rp2350-rp2350-lcd-1-47-b",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/de2fc4e7b22b2a0f814e6ec20fbe42dda3580bf979bb15a5f5a6e33cac6d7eab.jpg",
+      "sha256": "de2fc4e7b22b2a0f814e6ec20fbe42dda3580bf979bb15a5f5a6e33cac6d7eab"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/de2fc4e7b22b2a0f814e6ec20fbe42dda3580bf979bb15a5f5a6e33cac6d7eab.jpg",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; started at the end closest to the USB connector (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GP0",
+          "functions": [
+            "0",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP1",
+          "functions": [
+            "1",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP2",
+          "functions": [
+            "2",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP3",
+          "functions": [
+            "3",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP4",
+          "functions": [
+            "4",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP5",
+          "functions": [
+            "5",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/de2fc4e7b22b2a0f814e6ec20fbe42dda3580bf979bb15a5f5a6e33cac6d7eab.jpg",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; started at the end closest to the USB connector (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP28",
+          "functions": [
+            "28",
+            "ADC2",
+            "I2C0 SDA"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP29",
+          "functions": [
+            "29",
+            "ADC3",
+            "I2C0 SCL"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP27",
+          "functions": [
+            "27",
+            "ADC1",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP26",
+          "functions": [
+            "26",
+            "ADC0",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP25",
+          "functions": [
+            "25",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP9",
+          "functions": [
+            "9",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP8",
+          "functions": [
+            "8",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP7",
+          "functions": [
+            "7",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP6",
+          "functions": [
+            "6",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "SPI0/I2C0/UART0 names: O vs 0 not distinguishable, recorded as 0."
+  ],
+  "uncertain": [],
+  "notes": "Board silkscreen reads RP2350-LCD-1.47-B. Silkscreen pin numbers listed first in functions. 'GP25 ... UART0 RX' copied as printed."
+}

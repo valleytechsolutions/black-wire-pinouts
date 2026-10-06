@@ -1,0 +1,140 @@
+{
+  "recordId": "seeed-studio-expansion-gps-bee-kit",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/f83125e6b947de50f09e706dbbe688dd948e0d17c1193743a55112f9d8f2f549.jpg",
+      "sha256": "f83125e6b947de50f09e706dbbe688dd948e0d17c1193743a55112f9d8f2f549"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header (pins 1-10)",
+      "image": "media/f83125e6b947de50f09e706dbbe688dd948e0d17c1193743a55112f9d8f2f549.jpg",
+      "rows": 1,
+      "orderNote": "Pin numbers 1 (top, square pad) and 10 (bottom) printed; followed them top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RX",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header (pins 11-20)",
+      "image": "media/f83125e6b947de50f09e706dbbe688dd948e0d17c1193743a55112f9d8f2f549.jpg",
+      "rows": 1,
+      "orderNote": "Pin numbers 11 (bottom) and 20 (top) printed; followed them bottom to top (position 1 = pin 11)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "TP",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "SDA",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "left-header positions 4, 6, 7, 8, 9: no label printed (unlabeled pads)",
+    "right-header positions 1-4 (pins 11-14) and 6-8 (pins 16-18): no label printed (unlabeled pads)"
+  ],
+  "uncertain": [
+    "Only end pin numbers (1, 10, 11, 20) are printed; intermediate pin numbers inferred by counting holes."
+  ],
+  "notes": "Board outline drawing labeled 'GPS Bee v1.2'; only some pads carry labels."
+}

@@ -1,0 +1,249 @@
+{
+  "recordId": "waveshare-rp2040-rp2040-matrix",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/dbfed3321e09f9f23cd342140cfe08824520f54483079725427c51842e4ebcc6.jpg",
+      "sha256": "dbfed3321e09f9f23cd342140cfe08824520f54483079725427c51842e4ebcc6"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-edge",
+      "name": "Left castellated edge",
+      "image": "media/dbfed3321e09f9f23cd342140cfe08824520f54483079725427c51842e4ebcc6.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers marked as pin 1; vertical row started at top (end closest to USB-C)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GP29",
+          "functions": [
+            "29",
+            "ADC3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP28",
+          "functions": [
+            "28",
+            "ADC2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP27",
+          "functions": [
+            "27",
+            "ADC1",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP26",
+          "functions": [
+            "26",
+            "ADC0",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP15",
+          "functions": [
+            "15",
+            "SPI1 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP14",
+          "functions": [
+            "14",
+            "SPI1 SCK",
+            "I2C1 SDA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-edge",
+      "name": "Right castellated edge",
+      "image": "media/dbfed3321e09f9f23cd342140cfe08824520f54483079725427c51842e4ebcc6.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers marked as pin 1; vertical row started at top (end closest to USB-C)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP0",
+          "functions": [
+            "0",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP1",
+          "functions": [
+            "1",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP2",
+          "functions": [
+            "2",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP3",
+          "functions": [
+            "3",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP4",
+          "functions": [
+            "4",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP5",
+          "functions": [
+            "5",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP6",
+          "functions": [
+            "6",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP7",
+          "functions": [
+            "7",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP8",
+          "functions": [
+            "8",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-edge",
+      "name": "Bottom castellated edge",
+      "image": "media/dbfed3321e09f9f23cd342140cfe08824520f54483079725427c51842e4ebcc6.jpg",
+      "rows": 1,
+      "orderNote": "Silkscreen numbers are GPIO numbers, not pin-1 marks; horizontal row with USB-C centered above, started at left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP13",
+          "functions": [
+            "13",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP12",
+          "functions": [
+            "12",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP11",
+          "functions": [
+            "11",
+            "SPI1 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP10",
+          "functions": [
+            "10",
+            "SPI1 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP9",
+          "functions": [
+            "9",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "O vs 0 in SPI0/I2C0/UART0/ADC0 names recorded as 0."
+  ],
+  "notes": "WS2812 'GP16 / DIN' box describes the onboard LED data pin, not an edge pad; not transcribed.",
+  "uncertain": [
+    "Bottom edge start end: USB-C is centered above the row; used left end."
+  ]
+}

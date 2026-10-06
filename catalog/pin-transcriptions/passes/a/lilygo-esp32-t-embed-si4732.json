@@ -1,0 +1,49 @@
+{
+  "recordId": "lilygo-esp32-t-embed-si4732",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/c49cfdc5c0f59cf2d0872dcb10ab5377e796fc3ced3f03743e34ac38bbeba79b.jpg",
+      "sha256": "c49cfdc5c0f59cf2d0872dcb10ab5377e796fc3ced3f03743e34ac38bbeba79b"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "grove",
+      "name": "Grove (JST-GH 1.25mm)",
+      "image": "media/c49cfdc5c0f59cf2d0872dcb10ab5377e796fc3ced3f03743e34ac38bbeba79b.jpg",
+      "rows": 1,
+      "orderNote": "Labels printed as a horizontal line 'GND 3V3 IO44 IO43' beside the connector; position 1 at the right end, toward the USB Type-C side of the back view.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO43",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IO44",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Grove connector: the connector's pins are not visible in the photo (it sits inside the case slot); pin order is taken from the printed label line and its orientation relative to the physical pins is assumed.",
+    "'GPIO PINOUT (SI4732 Module Location)' header not transcribed: its pins are hidden in the case and the two printed label lines ('SDA IO16 GND 3V3 IO40' / 'SCL IO17 GND GND IO38 IO41') have 5 and 6 items, so the number of positions and the column grouping are open."
+  ],
+  "notes": "LILYGO T-Embed SI4732 PINMAP: front and back photos of the enclosed device with peripheral-to-IO tables (LCD, ES7210 microphone, I2S speaker, encoder, RGB LED, TF card, SI4732). Only the Grove connector has a per-pin label line. Skipped: USB Type-C, SMA antenna, JST 1.25 speaker slot, TF slot, RESET, Power_On. The 'GPIO PINOUT' (SI4732 module location) labels are not transcribed (see uncertain)."
+}

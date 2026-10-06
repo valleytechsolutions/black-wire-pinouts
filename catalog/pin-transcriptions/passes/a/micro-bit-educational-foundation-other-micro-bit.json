@@ -1,0 +1,226 @@
+{
+  "recordId": "micro-bit-educational-foundation-other-micro-bit",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/da43bdb7dcc2ca61147f0379af1c6dc7475fddf31ca3d385166d7133e819e0c4.jpg",
+      "sha256": "da43bdb7dcc2ca61147f0379af1c6dc7475fddf31ca3d385166d7133e819e0c4"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "edge-connector",
+      "name": "Edge connector (front side)",
+      "image": "media/da43bdb7dcc2ca61147f0379af1c6dc7475fddf31ca3d385166d7133e819e0c4.jpg",
+      "rows": 1,
+      "orderNote": "Small strip numbers 3-22 are printed and increase bottom to top; followed them from the bottom, with the large ring pads (0, 1, 2, 3V, GND) placed at their physical positions between strips",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P3",
+          "functions": [
+            "3",
+            "LED Col 1",
+            "ANALOG IN"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P0",
+          "functions": [
+            "0",
+            "ANALOG IN"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P4",
+          "functions": [
+            "4",
+            "LED Col 2",
+            "ANALOG IN"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P5",
+          "functions": [
+            "5",
+            "BUTTON A"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "P6",
+          "functions": [
+            "6",
+            "LED Col 9"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P7",
+          "functions": [
+            "7",
+            "LED Col 8"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "P1",
+          "functions": [
+            "1",
+            "ANALOG IN"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "P8",
+          "functions": [
+            "8"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "P9",
+          "functions": [
+            "9",
+            "LED Col 7"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "P10",
+          "functions": [
+            "10",
+            "LED Col 3",
+            "ANALOG IN"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "P11",
+          "functions": [
+            "11",
+            "BUTTON B"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "P12",
+          "functions": [
+            "12"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "P2",
+          "functions": [
+            "2",
+            "ANALOG IN"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "P13",
+          "functions": [
+            "13",
+            "SCK",
+            "SPI1"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "P14",
+          "functions": [
+            "14",
+            "MISO",
+            "SPI1"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "P15",
+          "functions": [
+            "15",
+            "MOSI",
+            "SPI1"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "P16",
+          "functions": [
+            "16"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "+3v3",
+          "functions": [
+            "17"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "+3v3",
+          "functions": [
+            "3V"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "+3v3",
+          "functions": [
+            "18"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "P19",
+          "functions": [
+            "19",
+            "SCL",
+            "I2C1"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "P20",
+          "functions": [
+            "20",
+            "SDA",
+            "I2C1"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "GND",
+          "functions": [
+            "21"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "GND",
+          "functions": [
+            "22"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Printed numbering is not a single physical sequence (strips 3-22 plus large rings labeled 0, 1, 2, 3V, GND); positions follow physical order bottom to top, which is an interpretation.",
+    "Only the front side of the edge connector is shown."
+  ],
+  "notes": "Labels from the blue/red callouts (P0-P20, +3v3, GND); silkscreen numbers placed first in functions. I2C1 and SPI1 group boxes recorded after the per-pin SDA/SCL/MOSI/MISO/SCK."
+}

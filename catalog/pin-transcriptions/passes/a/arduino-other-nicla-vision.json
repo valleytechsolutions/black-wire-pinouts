@@ -1,0 +1,847 @@
+{
+  "recordId": "arduino-other-nicla-vision",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/44cc00277f909a98fcef03bf400478d274b6e7919c485d1cad321df75c226b53.png",
+      "sha256": "44cc00277f909a98fcef03bf400478d274b6e7919c485d1cad321df75c226b53"
+    },
+    {
+      "file": "media/fa9f48d1d029d7f75225a179ebdac083bf8338ad0387a6e8e253b7402f591cae.png",
+      "sha256": "fa9f48d1d029d7f75225a179ebdac083bf8338ad0387a6e8e253b7402f591cae"
+    },
+    {
+      "file": "media/9d19f49410e0711a9ed7b7869b94608ee3795ae536157c63cf6d5c77e76db01b.png",
+      "sha256": "9d19f49410e0711a9ed7b7869b94608ee3795ae536157c63cf6d5c77e76db01b"
+    },
+    {
+      "file": "media/7bdb3b509482f90f421a3ac1f32506c891ceb8578a19bb46b3857d84b59f5101.png",
+      "sha256": "7bdb3b509482f90f421a3ac1f32506c891ceb8578a19bb46b3857d84b59f5101"
+    },
+    {
+      "file": "media/6a6c76c996bb3e66a5091f970e0a48e6f4c2540090ffefbcba6ef8739b0aca72.png",
+      "sha256": "6a6c76c996bb3e66a5091f970e0a48e6f4c2540090ffefbcba6ef8739b0aca72"
+    },
+    {
+      "file": "media/ddd0ff14d6c611a2f77bcb47fd944edb2054157c67abd5efcf20f880948f1a24.png",
+      "sha256": "ddd0ff14d6c611a2f77bcb47fd944edb2054157c67abd5efcf20f880948f1a24"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "J1",
+      "name": "J1 left header",
+      "image": "media/44cc00277f909a98fcef03bf400478d274b6e7919c485d1cad321df75c226b53.png",
+      "rows": 1,
+      "orderNote": "Pin numbers printed, in numeric order (1 at bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PG_12",
+          "functions": [
+            "D0/LPIO0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PF_3",
+          "functions": [
+            "A2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PE_11",
+          "functions": [
+            "CS"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PE_14",
+          "functions": [
+            "COPI"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PE_13",
+          "functions": [
+            "CIPO"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PE_12",
+          "functions": [
+            "SCLK"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PF_13",
+          "functions": [
+            "A1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PC_4",
+          "functions": [
+            "A0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "J2",
+      "name": "J2 right header",
+      "image": "media/44cc00277f909a98fcef03bf400478d274b6e7919c485d1cad321df75c226b53.png",
+      "rows": 1,
+      "orderNote": "Pin numbers printed, in numeric order (1 at bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PB_9",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PB_8",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA_9",
+          "functions": [
+            "D1/LPIO1/UART_TX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA_10",
+          "functions": [
+            "D2/LPIO2/UART_RX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PG_1",
+          "functions": [
+            "D3/LPIO3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "VDDIO_EXT",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J3",
+      "name": "J3 battery pads",
+      "image": "media/44cc00277f909a98fcef03bf400478d274b6e7919c485d1cad321df75c226b53.png",
+      "rows": 1,
+      "orderNote": "Pin numbers printed (1, 2)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NTC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VBAT",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J1-img2",
+      "name": "J1 left header",
+      "image": "media/fa9f48d1d029d7f75225a179ebdac083bf8338ad0387a6e8e253b7402f591cae.png",
+      "rows": 1,
+      "orderNote": "Pin numbers printed, in numeric order (1 at bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PG_12",
+          "functions": [
+            "D0/LPIO0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PF_3",
+          "functions": [
+            "A2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PE_11",
+          "functions": [
+            "CS"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PE_14",
+          "functions": [
+            "COPI"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PE_13",
+          "functions": [
+            "CIPO"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PE_12",
+          "functions": [
+            "SCLK"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PF_13",
+          "functions": [
+            "A1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PC_4",
+          "functions": [
+            "A0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "J2-img2",
+      "name": "J2 right header",
+      "image": "media/fa9f48d1d029d7f75225a179ebdac083bf8338ad0387a6e8e253b7402f591cae.png",
+      "rows": 1,
+      "orderNote": "Pin numbers printed, in numeric order (1 at bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PB_9",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PB_8",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA_9",
+          "functions": [
+            "D1/LPIO1/UART_TX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA_10",
+          "functions": [
+            "D2/LPIO2/UART_RX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PG_1",
+          "functions": [
+            "D3/LPIO3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "VDDIO_EXT",
+          "functions": [
+            "PMIC BUCK SW2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J3-img2",
+      "name": "J3 battery pads",
+      "image": "media/fa9f48d1d029d7f75225a179ebdac083bf8338ad0387a6e8e253b7402f591cae.png",
+      "rows": 1,
+      "orderNote": "Pin numbers printed (1, 2)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NTC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VBAT",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J2-test-pads-img3",
+      "name": "Test pads P1-P8 between J2 headers (bottom view)",
+      "image": "media/9d19f49410e0711a9ed7b7869b94608ee3795ae536157c63cf6d5c77e76db01b.png",
+      "rows": 1,
+      "orderNote": "Pad numbers P1-P8 printed (P1 at bottom), in numeric order",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PF_0",
+          "functions": [
+            "SDA_PMIC"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PF_1",
+          "functions": [
+            "SCL_PMIC"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA_13",
+          "functions": [
+            "TMS/SWD"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA_14",
+          "functions": [
+            "TCK/SCK"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "NRST",
+          "functions": [
+            "RESET"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PB_3",
+          "functions": [
+            "TDO/SWO"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "+1V8",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "VOTP_PMIC",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J1-img4",
+      "name": "J1 left header",
+      "image": "media/7bdb3b509482f90f421a3ac1f32506c891ceb8578a19bb46b3857d84b59f5101.png",
+      "rows": 1,
+      "orderNote": "Pin numbers printed, in numeric order (1 at bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PG_12",
+          "functions": [
+            "D0/LPIO0",
+            "B1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PF_3",
+          "functions": [
+            "A2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PE_11",
+          "functions": [
+            "CS",
+            "B8"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PE_14",
+          "functions": [
+            "COPI",
+            "B7"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PE_13",
+          "functions": [
+            "CIPO",
+            "B6"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PE_12",
+          "functions": [
+            "SCLK",
+            "B5"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PF_13",
+          "functions": [
+            "A1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PC_4",
+          "functions": [
+            "A0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "J2-img4",
+      "name": "J2 right header",
+      "image": "media/7bdb3b509482f90f421a3ac1f32506c891ceb8578a19bb46b3857d84b59f5101.png",
+      "rows": 1,
+      "orderNote": "Pin numbers printed, in numeric order (1 at bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PB_9",
+          "functions": [
+            "SDA",
+            "B2"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PB_8",
+          "functions": [
+            "SCL",
+            "B3"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA_9",
+          "functions": [
+            "D1/LPIO1/UART_TX",
+            "B2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA_10",
+          "functions": [
+            "D2/LPIO2/UART_RX",
+            "B3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PG_1",
+          "functions": [
+            "D3/LPIO3",
+            "B4"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "VDDIO_EXT",
+          "functions": [
+            "PMIC BUCK SW2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J3-img4",
+      "name": "J3 battery pads",
+      "image": "media/7bdb3b509482f90f421a3ac1f32506c891ceb8578a19bb46b3857d84b59f5101.png",
+      "rows": 1,
+      "orderNote": "Pin numbers printed (1, 2)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NTC",
+          "functions": [
+            "32 THM/38 NT2P7"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "VBAT",
+          "functions": [
+            "A2 BATT"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "J1-img5",
+      "name": "J1 left header",
+      "image": "media/6a6c76c996bb3e66a5091f970e0a48e6f4c2540090ffefbcba6ef8739b0aca72.png",
+      "rows": 1,
+      "orderNote": "Pin numbers printed, in numeric order (1 at bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D0/LPIO0",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "A2",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "CS",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "COPI",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "CIPO",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "SCLK",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "A1",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "A0",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J2-img5",
+      "name": "J2 right header",
+      "image": "media/6a6c76c996bb3e66a5091f970e0a48e6f4c2540090ffefbcba6ef8739b0aca72.png",
+      "rows": 1,
+      "orderNote": "Pin numbers printed, in numeric order (1 at bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "D1/LPIO1/UART_TX",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "D2/LPIO2/UART_RX",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "D3/LPIO3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "VDDIO_EXT",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J3-img5",
+      "name": "J3 battery pads",
+      "image": "media/6a6c76c996bb3e66a5091f970e0a48e6f4c2540090ffefbcba6ef8739b0aca72.png",
+      "rows": 1,
+      "orderNote": "Pin numbers printed (1, 2)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NTC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VBAT",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J8-img6",
+      "name": "J8 camera connector",
+      "image": "media/ddd0ff14d6c611a2f77bcb47fd944edb2054157c67abd5efcf20f880948f1a24.png",
+      "rows": 2,
+      "orderNote": "Pin numbers 1-24 printed, in numeric order (1-12 one side, 13-24 other side)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "+2V8A",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "PD_0",
+          "functions": [
+            "CAM_NC4"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PG_9",
+          "functions": [
+            "CAM_VS",
+            "VSYNC"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA_4",
+          "functions": [
+            "CAM_HS",
+            "HSYNC"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PA_8",
+          "functions": [
+            "SCL",
+            "I2C3_SCL"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PC_9",
+          "functions": [
+            "SDA",
+            "I2C3_SDA"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PG_15",
+          "functions": [
+            "CAM_NC9"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "+1V8CAM_IO",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "+1V8CAM_CORE",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "PA_7",
+          "functions": [
+            "CAM_CLK"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "PA_6",
+          "functions": [
+            "PCLK",
+            "PIXCLK"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "PC_6",
+          "functions": [
+            "D0"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "PC_7",
+          "functions": [
+            "D1"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "PE_0",
+          "functions": [
+            "D2"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "PE_1",
+          "functions": [
+            "D3"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "PE_4",
+          "functions": [
+            "D4"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "PD_3",
+          "functions": [
+            "D5"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "PE_5",
+          "functions": [
+            "D6"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "PE_6",
+          "functions": [
+            "D7"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Label = STM32 port name (Px_n) where printed next to the pin. Image 4: level-shifter pin names (U11 TXB0108YZPR B1-B8, U12 NTS0304EUKZ B2/B3), fuel-gauge names (A2 BATT, 32 THM/38 NT2P7) and PMIC BUCK SW2 included as functions. J2 pins 3 and 1 both map to B2 (on U11 and U12 respectively) as printed. Image 3: VOTP_PMIC warning (\"must be left unconnected, used only for factory programming\") not included; +3V3/D_P/D_N test points not transcribed. Image 5: header labels taken from the small board diagram only (no port names printed beside it); the microcontroller and WiFi module pin tables have no physical positions and are not transcribed. Image 6: J8 DCMI names that repeat the connector name (D0-D7) listed once; microphone, ToF and IMU chip pinouts are internal components, not transcribed. Reset button (NRST 4), RGB LED and charge LED not transcribed."
+}

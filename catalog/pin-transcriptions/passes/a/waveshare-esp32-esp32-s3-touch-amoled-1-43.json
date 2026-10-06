@@ -1,0 +1,275 @@
+{
+  "recordId": "waveshare-esp32-esp32-s3-touch-amoled-1-43",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/c231679548a63d639e5f9f2121441c9c93b9c4298060d220ade4aa0a17d96516.jpg",
+      "sha256": "c231679548a63d639e5f9f2121441c9c93b9c4298060d220ade4aa0a17d96516"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left 2x7 header",
+      "image": "media/c231679548a63d639e5f9f2121441c9c93b9c4298060d220ade4aa0a17d96516.jpg",
+      "rows": 2,
+      "orderNote": "2x7 header, no pin numbers; USB-C at bottom, so start at the bottom end; position 1 = outer row (nearest board edge), then alternate inner/outer per rule 4.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "USB_P",
+          "functions": [
+            "DP"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "5V",
+          "functions": [
+            "VBUS"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "USB_N",
+          "functions": [
+            "DN"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GPIO6",
+          "functions": [
+            "IO6"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO16",
+          "functions": [
+            "IO16"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO5",
+          "functions": [
+            "IO5"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO17",
+          "functions": [
+            "IO17"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO3",
+          "functions": [
+            "IO3"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO7",
+          "functions": [
+            "IO7"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO2",
+          "functions": [
+            "IO2"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO0",
+          "functions": [
+            "IO0"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO1",
+          "functions": [
+            "IO1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right 2x7 header",
+      "image": "media/c231679548a63d639e5f9f2121441c9c93b9c4298060d220ade4aa0a17d96516.jpg",
+      "rows": 2,
+      "orderNote": "2x7 header, no pin numbers; USB-C at bottom, so start at the bottom end; position 1 = outer row (nearest board edge), then alternate inner/outer per rule 4.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GPIO18",
+          "functions": [
+            "IO18"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO38",
+          "functions": [
+            "IO38"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GPIO39",
+          "functions": [
+            "IO39"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GPIO40",
+          "functions": [
+            "IO40"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "RXD",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GPIO41",
+          "functions": [
+            "IO41"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "TXD",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GPIO46",
+          "functions": [
+            "IO46"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO45",
+          "functions": [
+            "IO45"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "i2c-connector",
+      "name": "I2C JST connector",
+      "image": "media/c231679548a63d639e5f9f2121441c9c93b9c4298060d220ade4aa0a17d96516.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; position 1 is the end nearest the USB-C connector (SCL end).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "uart-connector",
+      "name": "UART JST connector",
+      "image": "media/c231679548a63d639e5f9f2121441c9c93b9c4298060d220ade4aa0a17d96516.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; position 1 is the end nearest the USB-C connector (GND end).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "TXD",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RXD",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "I2C JST connector silkscreen is tiny and blurred; the second label from the SCL end reads like 'SDL' or 'SDA' and was recorded as SDA."
+  ],
+  "uncertain": [
+    "I2C and UART JST connectors are angled; their pin order relies on judging which end is nearer the USB-C connector in the photo."
+  ],
+  "notes": "Header labels from the callout tables (GPIO0, 5V, USB_N...); board silkscreen spellings (IO0, VBUS, DN, DP) listed first in functions. The QMI8658, Micro SD and PCF85063 tables list on-board peripheral wiring, not physical pins, and were not transcribed. BAT JST connector skipped (only +/- marked)."
+}

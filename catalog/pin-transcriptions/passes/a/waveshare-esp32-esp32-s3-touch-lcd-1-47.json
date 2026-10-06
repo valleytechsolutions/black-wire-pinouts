@@ -1,0 +1,511 @@
+{
+  "recordId": "waveshare-esp32-esp32-s3-touch-lcd-1-47",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/4797b6d6af810575a5cd1a6a8daafeb9a52395409c29b5edea520fa0f34031ff.jpg",
+      "sha256": "4797b6d6af810575a5cd1a6a8daafeb9a52395409c29b5edea520fa0f34031ff"
+    },
+    {
+      "file": "media/90df831afe9a82ff66ad4955e670321d53d3f9a1a7a77dd222cb3018ba6a9fa3.webp",
+      "sha256": "90df831afe9a82ff66ad4955e670321d53d3f9a1a7a77dd222cb3018ba6a9fa3"
+    },
+    {
+      "file": "media/471a6a3b2cccbe2cd5ea085ef2c2d21d5a0396e9b9db76e40139b0cbddbe108a.jpg",
+      "sha256": "471a6a3b2cccbe2cd5ea085ef2c2d21d5a0396e9b9db76e40139b0cbddbe108a"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/4797b6d6af810575a5cd1a6a8daafeb9a52395409c29b5edea520fa0f34031ff.jpg",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB-C at top, so position 1 is the top pin nearest USB.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO43",
+          "functions": [
+            "TXD",
+            "UART0_TX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO44",
+          "functions": [
+            "RXD",
+            "UART0_RX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GPIO1",
+          "functions": [
+            "1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO2",
+          "functions": [
+            "2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO3",
+          "functions": [
+            "3"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO4",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO5",
+          "functions": [
+            "5"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO6",
+          "functions": [
+            "6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/4797b6d6af810575a5cd1a6a8daafeb9a52395409c29b5edea520fa0f34031ff.jpg",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB-C at top, so position 1 is the top pin nearest USB.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO41",
+          "functions": [
+            "SCL",
+            "I2C_SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO42",
+          "functions": [
+            "SDA",
+            "I2C_SDA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO11",
+          "functions": [
+            "11"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO10",
+          "functions": [
+            "10"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO9",
+          "functions": [
+            "9"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO8",
+          "functions": [
+            "8"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO7",
+          "functions": [
+            "7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left header",
+      "image": "media/90df831afe9a82ff66ad4955e670321d53d3f9a1a7a77dd222cb3018ba6a9fa3.webp",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB-C at top, so position 1 is the top pin nearest USB.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO43",
+          "functions": [
+            "TXD",
+            "UART0_TX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO44",
+          "functions": [
+            "RXD",
+            "UART0_RX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GPIO1",
+          "functions": [
+            "1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO2",
+          "functions": [
+            "2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO3",
+          "functions": [
+            "3"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO4",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO5",
+          "functions": [
+            "5"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO6",
+          "functions": [
+            "6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Right header",
+      "image": "media/90df831afe9a82ff66ad4955e670321d53d3f9a1a7a77dd222cb3018ba6a9fa3.webp",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB-C at top, so position 1 is the top pin nearest USB.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO41",
+          "functions": [
+            "SCL",
+            "I2C_SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO42",
+          "functions": [
+            "SDA",
+            "I2C_SDA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO11",
+          "functions": [
+            "11"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO10",
+          "functions": [
+            "10"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO9",
+          "functions": [
+            "9"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO8",
+          "functions": [
+            "8"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO7",
+          "functions": [
+            "7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img3",
+      "name": "Left header",
+      "image": "media/471a6a3b2cccbe2cd5ea085ef2c2d21d5a0396e9b9db76e40139b0cbddbe108a.jpg",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB-C at top, so position 1 is the top pin nearest USB.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO43",
+          "functions": [
+            "TXD",
+            "UART0_TX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO44",
+          "functions": [
+            "RXD",
+            "UART0_RX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GPIO1",
+          "functions": [
+            "1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO2",
+          "functions": [
+            "2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO3",
+          "functions": [
+            "3"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO4",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO5",
+          "functions": [
+            "5"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO6",
+          "functions": [
+            "6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-img3",
+      "name": "Right header",
+      "image": "media/471a6a3b2cccbe2cd5ea085ef2c2d21d5a0396e9b9db76e40139b0cbddbe108a.jpg",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB-C at top, so position 1 is the top pin nearest USB.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO41",
+          "functions": [
+            "SCL",
+            "I2C_SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO42",
+          "functions": [
+            "SDA",
+            "I2C_SDA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO11",
+          "functions": [
+            "11"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO10",
+          "functions": [
+            "10"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO9",
+          "functions": [
+            "9"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO8",
+          "functions": [
+            "8"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO7",
+          "functions": [
+            "7"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "All three images show the same header callouts (they differ only in the LCD box naming LCD_CLK/LCD_DIN vs LCD_SCL/LCD_SDA); transcribed separately per rule 11. Silkscreen (TXD, RXD, SCL, SDA, numbers) listed first in functions. LCD/touch and SD card boxes are internal connections without physical positions; not transcribed."
+}

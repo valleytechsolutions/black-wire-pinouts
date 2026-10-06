@@ -1,0 +1,51 @@
+{
+  "recordId": "adafruit-proximity-trinkey",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/0ccec28455c8bb6f42b5c9ac06262c793c5f46dd3c0757d14b4c1d34a2f62eb0.png",
+      "sha256": "0ccec28455c8bb6f42b5c9ac06262c793c5f46dd3c0757d14b4c1d34a2f62eb0"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "touch-pads",
+      "name": "Right-edge touch pads",
+      "image": "media/0ccec28455c8bb6f42b5c9ac06262c793c5f46dd3c0757d14b4c1d34a2f62eb0.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row with USB connector to the side (neither end closer), started at top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PA07",
+          "functions": [
+            "TOUCH1",
+            "1/A1",
+            "7",
+            "AIN7",
+            "Y5",
+            "S0.3",
+            "TCC1[1]",
+            "I2S/SD0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PA03",
+          "functions": [
+            "TOUCH2",
+            "2/A2",
+            "3",
+            "VREFA",
+            "AIN1",
+            "Y1"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Only the two capacitive touch pads are physical wiring points. INTERRUPT (PA00), SDA (PA16), SCL (PA17) lead to the on-board proximity sensor and NEOPIXEL (PA15) to the LEDs; skipped. USB plug contacts unlabeled, skipped."
+}

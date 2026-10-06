@@ -1,0 +1,679 @@
+{
+  "recordId": "m5stack-esp32-stamp-p4",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/d3277fd38e4493d6133069e728558a35fd6df98b735179c7e6fef03c29588781.jpg",
+      "sha256": "d3277fd38e4493d6133069e728558a35fd6df98b735179c7e6fef03c29588781"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-pads",
+      "name": "Left edge pads",
+      "image": "media/d3277fd38e4493d6133069e728558a35fd6df98b735179c7e6fef03c29588781.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB-C at bottom, so position 1 is the bottom pad (G26), counting upward",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G26",
+          "functions": [
+            "USB1_D-"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "LPG6",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G27",
+          "functions": [
+            "USB1_D+"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "LPG4",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "5VIN",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "G49",
+          "functions": [
+            "ADC2"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "LPG0",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "G50",
+          "functions": [
+            "ADC2"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "LPG1",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "LPG7",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "LPG8",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "LPG9",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "LPG10",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "LPG11",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "LPG12",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "LPG14",
+          "functions": [
+            "LPTXD"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "LPG15",
+          "functions": [
+            "LPRXD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-pads",
+      "name": "Right edge pads",
+      "image": "media/d3277fd38e4493d6133069e728558a35fd6df98b735179c7e6fef03c29588781.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB-C at bottom, so position 1 is the bottom pad (GND), counting upward",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "LPG2",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G35",
+          "functions": [
+            "BOOT",
+            "RMII_TXD1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "LPG5",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "G34",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "G38",
+          "functions": [
+            "U0RXD"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "G39",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "G37",
+          "functions": [
+            "U0TXD"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "LPG13",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "G16",
+          "functions": [
+            "ADC1"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "G17",
+          "functions": [
+            "ADC1"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "G18",
+          "functions": [
+            "ADC1"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "G19",
+          "functions": [
+            "ADC1"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "G20",
+          "functions": [
+            "ADC1"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "G21",
+          "functions": [
+            "ADC1"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "G22",
+          "functions": [
+            "ADC1"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "G23",
+          "functions": [
+            "ADC1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "top-pads",
+      "name": "Top edge pads (RMII + MIPI DSI)",
+      "image": "media/d3277fd38e4493d6133069e728558a35fd6df98b735179c7e6fef03c29588781.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; both ends roughly equidistant from the bottom USB-C, left end marginally closer, so left to right (RMII group G32...G52 then MIPI DSI group)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G32",
+          "functions": [
+            "CLK"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "G36",
+          "functions": [
+            "MDIO"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "G35",
+          "functions": [
+            "TXD1",
+            "BOOT"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "G41",
+          "functions": [
+            "TXD0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "G33",
+          "functions": [
+            "TXEN"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "G31",
+          "functions": [
+            "MDC"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "G28",
+          "functions": [
+            "RXDV"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "G30",
+          "functions": [
+            "RXD1"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "G29",
+          "functions": [
+            "RXD0"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "G52",
+          "functions": [
+            "RST"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "D0_N",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "D0_P",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "CK_P",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "CK_N",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "D1_N",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "D1_P",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-left-pads",
+      "name": "Bottom edge pads left of USB-C",
+      "image": "media/d3277fd38e4493d6133069e728558a35fd6df98b735179c7e6fef03c29588781.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; starts at the pad nearest the USB-C connector (USB2 HOST_DM) moving left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "USB2",
+          "functions": [
+            "HOST_DM"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "USB2",
+          "functions": [
+            "HOST_DP"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "5V",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-right-pads",
+      "name": "Bottom edge pads right of USB-C",
+      "image": "media/d3277fd38e4493d6133069e728558a35fd6df98b735179c7e6fef03c29588781.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; starts at the pad nearest the USB-C connector (G24) moving right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G24",
+          "functions": [
+            "USBC_D-"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "G25",
+          "functions": [
+            "USBC_D+"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "LPG3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "mipi-csi",
+      "name": "MIPI CSI connector",
+      "image": "media/d3277fd38e4493d6133069e728558a35fd6df98b735179c7e6fef03c29588781.jpg",
+      "rows": 2,
+      "orderNote": "Printed pin numbers 1-16: odd numbers on the upper row, even on the lower row, 1/2 at the right end, 15/16 at the left end",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "G54",
+          "functions": [
+            "RST"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "G53",
+          "functions": [
+            "MCLK"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "D0_N",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "D0_P",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "CK_N",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "CK_P",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "D1_N",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "D1_P",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "LPG11",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "LPG9",
+          "functions": [
+            "SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sdio",
+      "name": "SDIO connector",
+      "image": "media/d3277fd38e4493d6133069e728558a35fd6df98b735179c7e6fef03c29588781.jpg",
+      "rows": 2,
+      "orderNote": "Printed pin numbers 1-20: odd numbers in the left column, even in the right column, 1/2 at the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "G42",
+          "functions": [
+            "SDIO_RST"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "G43",
+          "functions": [
+            "SDIO_CLK"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "G44",
+          "functions": [
+            "SDIO_CMD"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "G46",
+          "functions": [
+            "SDIO_D1"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "G51",
+          "functions": [
+            "ADC2"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "G45",
+          "functions": [
+            "SDIO_D0"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "LPG9",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "G47",
+          "functions": [
+            "SDIO_D2"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "LPG11",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "G48",
+          "functions": [
+            "SDIO_D3"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "G40",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "MIPI CSI diagram shows an extra GND box on each row at both ends, outside the printed 1-16 numbering; they may be shield/mounting tabs or real pins - not transcribed.",
+    "Bottom edge pads on either side of the USB-C connector were split into two connectors; whether they form one physical row is a grouping the image leaves open."
+  ],
+  "notes": "Stamp-P4 pinout. Edge pad labels use the G<n> GPIO names as printed; group headings (RMII, MIPI DSI, MIPI CSI, SDIO) are category tags. In the MIPI CSI diagram the outermost columns (GND/GND on the left end, GND/GND on the right end) lie outside the printed 1-16 numbering and are not transcribed."
+}

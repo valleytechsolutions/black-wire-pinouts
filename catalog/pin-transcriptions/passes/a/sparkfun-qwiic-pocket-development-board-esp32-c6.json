@@ -1,0 +1,179 @@
+{
+  "recordId": "sparkfun-qwiic-pocket-development-board-esp32-c6",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/6f99712e0b7bf2ea4edde48f09f411bdbc23cfc3e5187a1c837db1c28f978ee0.jpg",
+      "sha256": "6f99712e0b7bf2ea4edde48f09f411bdbc23cfc3e5187a1c837db1c28f978ee0"
+    },
+    {
+      "file": "media/85faeb63c3cce9622fd50ef9eac96475132c342587d2e92a369cd5aa9337298b.jpg",
+      "sha256": "85faeb63c3cce9622fd50ef9eac96475132c342587d2e92a369cd5aa9337298b"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header (front)",
+      "image": "media/6f99712e0b7bf2ea4edde48f09f411bdbc23cfc3e5187a1c837db1c28f978ee0.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB-C at bottom, so position 1 is the bottom hole and numbering runs upward",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO5",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IO4",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IO2",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header (front)",
+      "image": "media/6f99712e0b7bf2ea4edde48f09f411bdbc23cfc3e5187a1c837db1c28f978ee0.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB-C at bottom, so position 1 is the bottom hole and numbering runs upward",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO19",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IO18",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO17",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IO16",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "VU",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "VB",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left header (back view)",
+      "image": "media/85faeb63c3cce9622fd50ef9eac96475132c342587d2e92a369cd5aa9337298b.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector visible in this back view; numbered top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VB",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VU",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "16",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "17",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "18",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "19",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Right header (back view)",
+      "image": "media/85faeb63c3cce9622fd50ef9eac96475132c342587d2e92a369cd5aa9337298b.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector visible in this back view; numbered top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "2",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "4",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "5",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "Image 2 right header position 2 reads 'V3'; the left edge of its label box is partly covered by a darkened component, so a leading character may be hidden."
+  ],
+  "uncertain": [],
+  "notes": "Labels copied from the board silkscreen (IO with letter O). Skipped: Qwiic connector and JST battery connector (pins not individually labeled, battery only +/-), BOOT/RST buttons, LEDs and solder jumpers (CHG, I2C, SHLD, PWR). Back view prints IO9 near BOOT and IO23 near an LED; not pins."
+}

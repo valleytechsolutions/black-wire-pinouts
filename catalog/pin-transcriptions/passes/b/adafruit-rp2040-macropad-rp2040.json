@@ -1,0 +1,57 @@
+{
+  "recordId": "adafruit-rp2040-macropad-rp2040",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/05073125a36c45c48a392181a837ca95ee1bd28285029d8e6706f5a8e113e4df.png",
+      "sha256": "05073125a36c45c48a392181a837ca95ee1bd28285029d8e6706f5a8e113e4df"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "stemma-qt",
+      "name": "STEMMA QT connector",
+      "image": "media/05073125a36c45c48a392181a837ca95ee1bd28285029d8e6706f5a8e113e4df.png",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector visible; vertical connector started at the top as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO21",
+          "functions": [
+            "SCL",
+            "CSn0",
+            "RX1",
+            "SCL0",
+            "PWM2B"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO20",
+          "functions": [
+            "SDA",
+            "RX0",
+            "TX1",
+            "SDA0",
+            "PWM2A"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Only the STEMMA QT connector is shown as a physical wiring point; its four pins are individually labeled. Keys, rotary encoder, display, NeoPixel, LED and speaker signals are internal connections and were skipped. Labels use GPIO names with the CircuitPython name first in functions."
+}

@@ -1,0 +1,82 @@
+{
+  "recordId": "seeed-studio-expansion-1-69-inch-lcd-spi-display",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/6cf12cad18d3b5ef3d3aca206b924c92dc7aab1175908c733ddf0819dbcf13ab.png",
+      "sha256": "6cf12cad18d3b5ef3d3aca206b924c92dc7aab1175908c733ddf0819dbcf13ab"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "lcd-connector",
+      "name": "8-pin interface connector",
+      "image": "media/6cf12cad18d3b5ef3d3aca206b924c92dc7aab1175908c733ddf0819dbcf13ab.png",
+      "rows": 1,
+      "orderNote": "No pin 1 mark or USB; vertical row read top to bottom as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VCC",
+          "functions": [
+            "Power (3.3V / 5V input)"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "Ground"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "DIN",
+          "functions": [
+            "SPI data input"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "CLK",
+          "functions": [
+            "SPI clock input"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "CS",
+          "functions": [
+            "Chip selection, low active"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "DC",
+          "functions": [
+            "Data/Command selection (high for data, low for command)"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "RST",
+          "functions": [
+            "Reset, low active"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "BL",
+          "functions": [
+            "Backlight"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Labels printed on silkscreen beside the 8-pin connector; functions are the descriptions from the table under the photo. Board silkscreen reads 1.69inch LCD Module, ST7789V2."
+}

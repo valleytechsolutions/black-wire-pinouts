@@ -1,0 +1,741 @@
+{
+  "recordId": "lilygo-esp32-t7-s3",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/6a7b62160c6b18ac275a4c2946cbd2af2711bb6f265f4b9954585a9b37ebab51.jpg",
+      "sha256": "6a7b62160c6b18ac275a4c2946cbd2af2711bb6f265f4b9954585a9b37ebab51"
+    },
+    {
+      "file": "media/c6b101918b9aad3fc5023daffcc83c13207752eaedfe3ad36beb48e5876dd684.jpg",
+      "sha256": "c6b101918b9aad3fc5023daffcc83c13207752eaedfe3ad36beb48e5876dd684"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left 2x10 header",
+      "image": "media/6a7b62160c6b18ac275a4c2946cbd2af2711bb6f265f4b9954585a9b37ebab51.jpg",
+      "rows": 2,
+      "orderNote": "2xN without printed position numbers; USB Type-C at bottom, so start at bottom end; odd = outer column (board edge), even = inner column",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO11",
+          "functions": [
+            "11",
+            "TOUCH11",
+            "FSPID",
+            "ADC2_CH0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO10",
+          "functions": [
+            "10",
+            "TOUCH10",
+            "FSPICS0",
+            "ADC1_CH9"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO09",
+          "functions": [
+            "09",
+            "TOUCH09",
+            "FSPIHD",
+            "ADC1_CH8"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO39",
+          "functions": [
+            "TCK"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO21",
+          "functions": [
+            "21"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO42",
+          "functions": [
+            "TMS"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO05",
+          "functions": [
+            "05",
+            "TOUCH05",
+            "ADC1_CH4"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO45",
+          "functions": [
+            "45"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO08",
+          "functions": [
+            "08",
+            "TOUCH08",
+            "ADC1_CH7"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO46",
+          "functions": [
+            "46"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO17",
+          "functions": [
+            "17",
+            "U1TXD",
+            "ADC2_CH6"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO47",
+          "functions": [
+            "47"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO18",
+          "functions": [
+            "18",
+            "U1RXD",
+            "ADC2_CH7"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO48",
+          "functions": [
+            "48"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO16",
+          "functions": [
+            "16",
+            "U0CTS",
+            "ADC2_CH5"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GPIO15",
+          "functions": [
+            "15",
+            "U0RTS",
+            "ADC2_CH4"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "RST",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right 2x10 header",
+      "image": "media/6a7b62160c6b18ac275a4c2946cbd2af2711bb6f265f4b9954585a9b37ebab51.jpg",
+      "rows": 2,
+      "orderNote": "2xN without printed position numbers; USB Type-C at bottom, so start at bottom end; odd = outer column (board edge), even = inner column",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO06",
+          "functions": [
+            "CLK",
+            "TOUCH06",
+            "ADC2_CH3"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO07",
+          "functions": [
+            "7",
+            "TOUCH07",
+            "ADC1_CH6"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO01",
+          "functions": [
+            "1",
+            "TOUCH01",
+            "ADC1_CH0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO40",
+          "functions": [
+            "TDO"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO02",
+          "functions": [
+            "2",
+            "TOUCH02",
+            "ADC1_CH1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO00",
+          "functions": [
+            "0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO04",
+          "functions": [
+            "4",
+            "TOUCH04",
+            "ADC1_CH4"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO12",
+          "functions": [
+            "12-1",
+            "TOUCH12",
+            "FSPI_CLK",
+            "ADC2_CH1"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO41",
+          "functions": [
+            "TDI"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO03",
+          "functions": [
+            "3-1",
+            "TOUCH03",
+            "ADC1_CH2"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO38",
+          "functions": [
+            "38",
+            "FSPI_WP"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO13",
+          "functions": [
+            "13",
+            "TOUCH13",
+            "FSPI_Q",
+            "ADC2_CH2"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO12",
+          "functions": [
+            "12",
+            "TOUCH12",
+            "FSPI_CLK",
+            "ADC2_CH1"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO14",
+          "functions": [
+            "14",
+            "TOUCH14",
+            "FSPI_WP",
+            "ADC2_CH3"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO03",
+          "functions": [
+            "3",
+            "TOUCH03",
+            "ADC1_CH2"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GPIO44",
+          "functions": [
+            "RXD",
+            "CLK_OUT2"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "GPIO43",
+          "functions": [
+            "TXD",
+            "CLK_OUT1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qwiic",
+      "name": "STEMMA QT / Qwiic JST-SH 1.0mm 4-pin (bottom-view inset)",
+      "image": "media/6a7b62160c6b18ac275a4c2946cbd2af2711bb6f265f4b9954585a9b37ebab51.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row; starts at the end nearest the USB Type-C connector in the inset (right end)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "13",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "14",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left 2x10 header",
+      "image": "media/c6b101918b9aad3fc5023daffcc83c13207752eaedfe3ad36beb48e5876dd684.jpg",
+      "rows": 2,
+      "orderNote": "2xN without printed position numbers; USB Type-C at bottom, so start at bottom end; odd = outer column (board edge), even = inner column",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO11",
+          "functions": [
+            "11",
+            "TOUCH11",
+            "FSPID",
+            "ADC2_CH0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO10",
+          "functions": [
+            "10",
+            "TOUCH10",
+            "FSPICS0",
+            "ADC1_CH9"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO09",
+          "functions": [
+            "09",
+            "TOUCH09",
+            "FSPIHD",
+            "ADC1_CH8"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "TCK",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO21",
+          "functions": [
+            "21"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "TMS",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GPIO05",
+          "functions": [
+            "05",
+            "TOUCH05",
+            "ADC1_CH4"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO45",
+          "functions": [
+            "45"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO08",
+          "functions": [
+            "08",
+            "TOUCH08",
+            "ADC1_CH7"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO46",
+          "functions": [
+            "46"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO17",
+          "functions": [
+            "17",
+            "U1TXD",
+            "ADC2_CH6"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO47",
+          "functions": [
+            "47"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO18",
+          "functions": [
+            "18",
+            "U1RXD",
+            "ADC2_CH7"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO48",
+          "functions": [
+            "48"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO16",
+          "functions": [
+            "16",
+            "U0CTS",
+            "ADC2_CH5"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GPIO15",
+          "functions": [
+            "15",
+            "U0RTS",
+            "ADC2_CH4"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "RST",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Right 2x10 header",
+      "image": "media/c6b101918b9aad3fc5023daffcc83c13207752eaedfe3ad36beb48e5876dd684.jpg",
+      "rows": 2,
+      "orderNote": "2xN without printed position numbers; USB Type-C at bottom, so start at bottom end; odd = outer column (board edge), even = inner column",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO06",
+          "functions": [
+            "CLK",
+            "TOUCH06",
+            "ADC2_CH3"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO07",
+          "functions": [
+            "7",
+            "TOUCH07",
+            "ADC1_CH6"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO01",
+          "functions": [
+            "1",
+            "TOUCH01",
+            "ADC1_CH0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "TDO",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO02",
+          "functions": [
+            "2",
+            "TOUCH02",
+            "ADC1_CH1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO00",
+          "functions": [
+            "0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO04",
+          "functions": [
+            "4",
+            "TOUCH04",
+            "ADC1_CH4"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO12",
+          "functions": [
+            "12-1",
+            "TOUCH12",
+            "FSPI_CLK",
+            "ADC2_CH1"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "TDI",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GPIO03",
+          "functions": [
+            "3-1",
+            "TOUCH03",
+            "ADC1_CH2"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO38",
+          "functions": [
+            "38",
+            "FSPI_WP"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO13",
+          "functions": [
+            "13",
+            "TOUCH13",
+            "FSPI_Q",
+            "ADC2_CH2"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO12",
+          "functions": [
+            "12",
+            "TOUCH12",
+            "FSPI_CLK",
+            "ADC2_CH1"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO14",
+          "functions": [
+            "14",
+            "TOUCH14",
+            "FSPI_WP",
+            "ADC2_CH3"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO03",
+          "functions": [
+            "3",
+            "TOUCH03",
+            "ADC1_CH2"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GPIO44",
+          "functions": [
+            "RXD",
+            "CLK_OUT2"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "GPIO43",
+          "functions": [
+            "TXD",
+            "CLK_OUT1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qwiic-img2",
+      "name": "STEMMA QT / Qwiic JST-SH 1.0mm 4-pin (bottom-view inset)",
+      "image": "media/c6b101918b9aad3fc5023daffcc83c13207752eaedfe3ad36beb48e5876dd684.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row; starts at the end nearest the USB Type-C connector in the inset (right end)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "13",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "14",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Image 1 Qwiic connector: the callout text under the inset reads 'GND 3V3 14 13' but the board silkscreen at the pins reads '3V3 GND 14 13' (left to right); I used the silkscreen (positions 3 = GND, 4 = 3V3 from the USB end). Image 2's callout '3V3 GND 14 13' agrees with the silkscreen."
+  ],
+  "notes": "Callout lists are grouped in two blocks per side; matched to the inner/outer hole columns by the board-photo silkscreen in the same image. Name-box spellings (08, 05, 09, 3-1, 12-1, CLK...) kept as first function; photo silkscreen prints 8, 5, 9 without leading zero. Image 1 adds GPIO39/GPIO42/GPIO40/GPIO41 beside TCK/TMS/TDO/TDI; image 2 (titled T7_S3 V1.1) prints only the JTAG names. Skipped JST-GH 1.25mm battery connector (only +/- marks), USB Type-C, Reset, Boot, power switch, LEDs."
+}

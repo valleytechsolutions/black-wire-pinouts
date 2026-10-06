@@ -1,0 +1,480 @@
+{
+  "recordId": "adafruit-esp32-metro-esp32-s2",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/9282d0e9df6e946f64a8a5ea376a2a25bc1b95cf7630a42df9b393f2e1319b51.png",
+      "sha256": "9282d0e9df6e946f64a8a5ea376a2a25bc1b95cf7630a42df9b393f2e1319b51"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "power-header",
+      "name": "Left power header",
+      "image": "media/9282d0e9df6e946f64a8a5ea376a2a25bc1b95cf7630a42df9b393f2e1319b51.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; vertical row started at the end closest to the USB connector (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": [
+            "IOREF"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "RESET",
+          "functions": [
+            "RST"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "3.3V",
+          "functions": [
+            "3.3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "VHIGH",
+          "functions": [
+            "VHI"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "analog-header",
+      "name": "Left analog header",
+      "image": "media/9282d0e9df6e946f64a8a5ea376a2a25bc1b95cf7630a42df9b393f2e1319b51.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; vertical row started at the end closest to the USB connector (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO17",
+          "functions": [
+            "A0",
+            "ADC2_CH6",
+            "U1TXD",
+            "DAC_1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO18",
+          "functions": [
+            "A1",
+            "ADC2_CH7",
+            "U1RXD",
+            "DAC_2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO1",
+          "functions": [
+            "A2",
+            "ADC1_CH0",
+            "T1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO2",
+          "functions": [
+            "A3",
+            "ADC1_CH1",
+            "T2"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO3",
+          "functions": [
+            "A4",
+            "ADC1_CH2",
+            "T3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO4",
+          "functions": [
+            "A5",
+            "ADC1_CH3",
+            "T4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-top",
+      "name": "Right digital header (SCL to 13)",
+      "image": "media/9282d0e9df6e946f64a8a5ea376a2a25bc1b95cf7630a42df9b393f2e1319b51.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; vertical row started at the end closest to the USB connector (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO34",
+          "functions": [
+            "SCL",
+            "FSPICS0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO33",
+          "functions": [
+            "SDA",
+            "FSPIHD"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": [
+            "AREF"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO42",
+          "functions": [
+            "42",
+            "IO42",
+            "MTMS"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO21",
+          "functions": [
+            "21",
+            "IO21"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO16",
+          "functions": [
+            "16",
+            "IO16",
+            "ADC2_CH5",
+            "U0CTS",
+            "XTAL_32K_N"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO15",
+          "functions": [
+            "15",
+            "IO15",
+            "ADC2_CH4",
+            "U0RTS",
+            "XTAL_32K_P"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO14",
+          "functions": [
+            "14",
+            "IO14",
+            "ADC2_CH3",
+            "FSPIWP",
+            "T14"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO13",
+          "functions": [
+            "13",
+            "IO13",
+            "ADC2_CH2",
+            "FSPIQ",
+            "T13"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-bottom",
+      "name": "Right digital header (12 to 5)",
+      "image": "media/9282d0e9df6e946f64a8a5ea376a2a25bc1b95cf7630a42df9b393f2e1319b51.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; vertical row started at the end closest to the USB connector (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO12",
+          "functions": [
+            "12",
+            "IO12",
+            "ADC2_CH1",
+            "FSPICLK",
+            "T12"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO11",
+          "functions": [
+            "11",
+            "IO11",
+            "ADC2_CH0",
+            "FSPID",
+            "T11"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO10",
+          "functions": [
+            "10",
+            "IO10",
+            "ADC1_CH9",
+            "FSPICS0",
+            "T10"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO9",
+          "functions": [
+            "9",
+            "IO9",
+            "ADC1_CH8",
+            "FSPIHD",
+            "T9"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO8",
+          "functions": [
+            "8",
+            "IO8",
+            "ADC1_CH7",
+            "T8"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO7",
+          "functions": [
+            "7",
+            "IO7",
+            "ADC1_CH6",
+            "T7"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO6",
+          "functions": [
+            "6",
+            "IO6",
+            "ADC1_CH5",
+            "T6"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO5",
+          "functions": [
+            "5",
+            "IO5",
+            "ADC1_CH4",
+            "T5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stemma-qt",
+      "name": "QT I2C STEMMA QT connector",
+      "image": "media/9282d0e9df6e946f64a8a5ea376a2a25bc1b95cf7630a42df9b393f2e1319b51.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; vertical connector started at the end closest to the USB connector (top): yellow, blue, red, black dots.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO34",
+          "functions": [
+            "SCL",
+            "FSPICS0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO33",
+          "functions": [
+            "SDA",
+            "FSPIHD"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "debug-pads",
+      "name": "Debug pads",
+      "image": "media/9282d0e9df6e946f64a8a5ea376a2a25bc1b95cf7630a42df9b393f2e1319b51.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; vertical row started at the end closest to the USB connector (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO38",
+          "functions": [
+            "DEBUG_RX",
+            "FSPIWP"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO37",
+          "functions": [
+            "DEBUG_TX",
+            "FSPIQ"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "icsp",
+      "name": "ICSP 2x3 header",
+      "image": "media/9282d0e9df6e946f64a8a5ea376a2a25bc1b95cf7630a42df9b393f2e1319b51.png",
+      "rows": 2,
+      "orderNote": "No pin numbers printed; 2x3 horizontal header started at the end closest to the USB connector (right, MISO/5V column), outer row (bottom, nearest the board edge) first, alternating outer/inner per column.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VHIGH",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO37",
+          "functions": [
+            "MISO",
+            "FSPIQ"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO35",
+          "functions": [
+            "MOSI",
+            "FSPID"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO36",
+          "functions": [
+            "SCK",
+            "FSPICLK"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "RESET",
+          "functions": [
+            "RST"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lipoly-jst",
+      "name": "LiPoly battery JST connector",
+      "image": "media/9282d0e9df6e946f64a8a5ea376a2a25bc1b95cf7630a42df9b393f2e1319b51.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; horizontal pair started at the end closest to the USB connector (right).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": [
+            "-"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "VBAT",
+          "functions": [
+            "+"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vdiv-pad",
+      "name": "VDIV header hole",
+      "image": "media/9282d0e9df6e946f64a8a5ea376a2a25bc1b95cf7630a42df9b393f2e1319b51.png",
+      "rows": 1,
+      "orderNote": "Single hole.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VDIV",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "power-header position 1: top hole above IOREF has no silkscreen or callout label (unlabeled)."
+  ],
+  "notes": "Label = printed GPIO name or callout power/control name; silkscreen spelling first in functions (e.g. 42, RST, AREF, IOREF, +/-), then the CircuitPython/IO name and outward. Green 'Power Domain' tags (RTC, CPU, SPI/CPU) and the 42 LED icon after MTMS omitted. Underscores in ADCx_CHy rendered faintly. DC jack, USB, NeoPixel, buttons, LEDs, ON/OFF switch and the unlabeled 2x5 header near the module were skipped."
+}

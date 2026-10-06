@@ -1,0 +1,1103 @@
+{
+  "recordId": "seeed-studio-other-wio-wm1110-dev-kit",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/8ade6f54f6772ec1850034e4ee114f850b2312adc60810fd267383ed47bb438c.png",
+      "sha256": "8ade6f54f6772ec1850034e4ee114f850b2312adc60810fd267383ed47bb438c"
+    },
+    {
+      "file": "media/982a24d8d9dd5eaea5f321006dcaae8d9c47125cc25038e7793fae4dc706069c.png",
+      "sha256": "982a24d8d9dd5eaea5f321006dcaae8d9c47125cc25038e7793fae4dc706069c"
+    },
+    {
+      "file": "media/eb25883a79ae70014b0744c1fde51e4238eccf6376dfdf9d4965f9bdf1b0131f.png",
+      "sha256": "eb25883a79ae70014b0744c1fde51e4238eccf6376dfdf9d4965f9bdf1b0131f"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "grove-gpio",
+      "name": "Grove GPIO (A6/A7) / Grove ADC",
+      "image": "media/8ade6f54f6772ec1850034e4ee114f850b2312adc60810fd267383ed47bb438c.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB-C at bottom of the image, so position 1 is the bottom pin (nearest USB). Port pin names AIN7/P0.31 and AIN6/P0.30 from the Grove ADC detail drawing in the same image.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P0.30",
+          "functions": [
+            "A6",
+            "AIN6"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P0.31",
+          "functions": [
+            "A7",
+            "AIN7"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-iic",
+      "name": "Grove IIC",
+      "image": "media/8ade6f54f6772ec1850034e4ee114f850b2312adc60810fd267383ed47bb438c.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB-C at bottom of the image, so position 1 is the bottom pin (nearest USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P0.26",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P0.27",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-uart",
+      "name": "Grove UART",
+      "image": "media/8ade6f54f6772ec1850034e4ee114f850b2312adc60810fd267383ed47bb438c.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB-C at bottom of the image, so position 1 is the bottom pin (nearest USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P0.06",
+          "functions": [
+            "RXD"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P0.08",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "swd-header",
+      "name": "SWD header",
+      "image": "media/8ade6f54f6772ec1850034e4ee114f850b2312adc60810fd267383ed47bb438c.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB-C at bottom of the image, so position 1 is the bottom pin (nearest USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "DIO",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "CLK",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header-analog",
+      "name": "Right header A0-A5",
+      "image": "media/8ade6f54f6772ec1850034e4ee114f850b2312adc60810fd267383ed47bb438c.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB-C at bottom of the image, so position 1 is the bottom pin (nearest USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A0",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "A1",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "A2",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "A3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "A4",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "A5",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header-power",
+      "name": "Right power header",
+      "image": "media/8ade6f54f6772ec1850034e4ee114f850b2312adc60810fd267383ed47bb438c.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB-C at bottom of the image, so position 1 is the bottom pin (nearest USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header-upper",
+      "name": "Left upper header (8 pins)",
+      "image": "media/8ade6f54f6772ec1850034e4ee114f850b2312adc60810fd267383ed47bb438c.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB-C at bottom of the image, so position 1 is the bottom pin (nearest USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "?",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header-lower",
+      "name": "Left lower header (10 pins)",
+      "image": "media/8ade6f54f6772ec1850034e4ee114f850b2312adc60810fd267383ed47bb438c.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB-C at bottom of the image, so position 1 is the bottom pin (nearest USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "?",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header-upper-img2",
+      "name": "Left upper header D0-D7",
+      "image": "media/982a24d8d9dd5eaea5f321006dcaae8d9c47125cc25038e7793fae4dc706069c.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB-C at bottom of the image, so position 1 is the bottom pin (nearest USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P1.03",
+          "functions": [
+            "D7"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P1.04",
+          "functions": [
+            "D6"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P1.09",
+          "functions": [
+            "D5"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P0.15",
+          "functions": [
+            "D4"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "P0.16",
+          "functions": [
+            "D3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P0.17",
+          "functions": [
+            "D2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "P0.24",
+          "functions": [
+            "D1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "P0.22",
+          "functions": [
+            "D0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-lower-img2",
+      "name": "Left lower header D8-A5",
+      "image": "media/982a24d8d9dd5eaea5f321006dcaae8d9c47125cc25038e7793fae4dc706069c.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB-C at bottom of the image, so position 1 is the bottom pin (nearest USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P0.29",
+          "functions": [
+            "A5",
+            "AIN5"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P0.28",
+          "functions": [
+            "A4",
+            "AIN4"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "P0.19",
+          "functions": [
+            "13"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P0.20",
+          "functions": [
+            "12"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "P0.21",
+          "functions": [
+            "11"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "P1.00",
+          "functions": [
+            "10"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "P1.01",
+          "functions": [
+            "D9"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "P1.02",
+          "functions": [
+            "D8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-analog-img2",
+      "name": "Right header A0-A5",
+      "image": "media/982a24d8d9dd5eaea5f321006dcaae8d9c47125cc25038e7793fae4dc706069c.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB-C at bottom of the image, so position 1 is the bottom pin (nearest USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P0.02",
+          "functions": [
+            "A0",
+            "AIN0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P0.03",
+          "functions": [
+            "A1",
+            "AIN1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P0.04",
+          "functions": [
+            "A2",
+            "AIN2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P0.05",
+          "functions": [
+            "A3",
+            "AIN3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "P0.28",
+          "functions": [
+            "A4",
+            "AIN4"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P0.29",
+          "functions": [
+            "A5",
+            "AIN5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-power-img2",
+      "name": "Right power header",
+      "image": "media/982a24d8d9dd5eaea5f321006dcaae8d9c47125cc25038e7793fae4dc706069c.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB-C at bottom of the image, so position 1 is the bottom pin (nearest USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RST",
+          "functions": [
+            "P0.18"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "swd-header-img2",
+      "name": "SWD header (silkscreen)",
+      "image": "media/982a24d8d9dd5eaea5f321006dcaae8d9c47125cc25038e7793fae4dc706069c.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB-C at bottom of the image, so position 1 is the bottom pin (nearest USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "DIO",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "CLK",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-gpio-img2",
+      "name": "Grove GPIO (silkscreen)",
+      "image": "media/982a24d8d9dd5eaea5f321006dcaae8d9c47125cc25038e7793fae4dc706069c.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB-C at bottom of the image, so position 1 is the bottom pin (nearest USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A6",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "A7",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-iic-img2",
+      "name": "Grove IIC (silkscreen)",
+      "image": "media/982a24d8d9dd5eaea5f321006dcaae8d9c47125cc25038e7793fae4dc706069c.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB-C at bottom of the image, so position 1 is the bottom pin (nearest USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-uart-img2",
+      "name": "Grove UART (silkscreen)",
+      "image": "media/982a24d8d9dd5eaea5f321006dcaae8d9c47125cc25038e7793fae4dc706069c.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB-C at bottom of the image, so position 1 is the bottom pin (nearest USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RXD",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "TXD",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "top-header-analog-img3",
+      "name": "Top header A5-A0",
+      "image": "media/eb25883a79ae70014b0744c1fde51e4238eccf6376dfdf9d4965f9bdf1b0131f.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB-C at the right of the image, so position 1 is the right-hand pin (nearest USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P0.02",
+          "functions": [
+            "A0",
+            "AIN0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P0.03",
+          "functions": [
+            "A1",
+            "AIN1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P0.04",
+          "functions": [
+            "A2",
+            "AIN2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P0.05",
+          "functions": [
+            "A3",
+            "AIN3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "P0.28",
+          "functions": [
+            "A4",
+            "AIN4"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P0.29",
+          "functions": [
+            "A5",
+            "AIN5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "top-header-power-img3",
+      "name": "Top power header",
+      "image": "media/eb25883a79ae70014b0744c1fde51e4238eccf6376dfdf9d4965f9bdf1b0131f.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB-C at the right of the image, so position 1 is the right-hand pin (nearest USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RST",
+          "functions": [
+            "P0.18"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-header-d-img3",
+      "name": "Bottom header D0-D7",
+      "image": "media/eb25883a79ae70014b0744c1fde51e4238eccf6376dfdf9d4965f9bdf1b0131f.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB-C at the right of the image, so position 1 is the right-hand pin (nearest USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P1.03",
+          "functions": [
+            "D7"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P1.04",
+          "functions": [
+            "D6"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P1.09",
+          "functions": [
+            "D5"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P0.15",
+          "functions": [
+            "D4"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "P0.16",
+          "functions": [
+            "D3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P0.17",
+          "functions": [
+            "D2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "P0.24",
+          "functions": [
+            "D1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "P0.22",
+          "functions": [
+            "D0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-header-d8-img3",
+      "name": "Bottom header D8-A5",
+      "image": "media/eb25883a79ae70014b0744c1fde51e4238eccf6376dfdf9d4965f9bdf1b0131f.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB-C at the right of the image, so position 1 is the right-hand pin (nearest USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P0.29",
+          "functions": [
+            "A5",
+            "AIN5"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P0.28",
+          "functions": [
+            "A4",
+            "AIN4"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "P0.19",
+          "functions": [
+            "13"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P0.20",
+          "functions": [
+            "12"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "P0.21",
+          "functions": [
+            "11"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "P1.00",
+          "functions": [
+            "10"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "P1.01",
+          "functions": [
+            "D9"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "P1.02",
+          "functions": [
+            "D8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "swd-header-img3",
+      "name": "SWD header (silkscreen)",
+      "image": "media/eb25883a79ae70014b0744c1fde51e4238eccf6376dfdf9d4965f9bdf1b0131f.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB-C at the right of the image, so position 1 is the right-hand pin (nearest USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "DIO",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "CLK",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-adc-img3",
+      "name": "Grove ADC",
+      "image": "media/eb25883a79ae70014b0744c1fde51e4238eccf6376dfdf9d4965f9bdf1b0131f.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB-C at the right of the image, so position 1 is the right-hand pin (nearest USB). P0.xx/AINx names from the Grove detail drawings in the same image.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P0.30",
+          "functions": [
+            "A6",
+            "AIN6"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P0.31",
+          "functions": [
+            "A7",
+            "AIN7"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-iic-img3",
+      "name": "Grove IIC",
+      "image": "media/eb25883a79ae70014b0744c1fde51e4238eccf6376dfdf9d4965f9bdf1b0131f.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB-C at the right of the image, so position 1 is the right-hand pin (nearest USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P0.26",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P0.27",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-uart-img3",
+      "name": "Grove UART",
+      "image": "media/eb25883a79ae70014b0744c1fde51e4238eccf6376dfdf9d4965f9bdf1b0131f.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB-C at the right of the image, so position 1 is the right-hand pin (nearest USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P0.06",
+          "functions": [
+            "RXD"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P0.08",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "Image 1: silkscreen of the two left yellow headers (8 + 10 pins) is too small/blurred to read; all 18 recorded as \"?\"."
+  ],
+  "uncertain": [
+    "Image 1 right power header: silkscreen prints a single \"GND\" centred over two pins between 5V and VIN; both recorded as GND (images 2 and 3 call out two GND pins).",
+    "Image 2: the 20-pin (2x10) JTAG/SWD table (VTref, SWDIO, SWCLK, SWO, RESET, 5V-Supply, GND*) is not a connector on this board (likely the external debugger connector) and was not transcribed.",
+    "Grove pins: P0.xx/AINx names come from separate Grove detail drawings that show only the two signal pins; matched to the on-board silkscreen (A7/A6, SDA/SCL, TXD/RXD) by name and position."
+  ],
+  "notes": "Labels use the printed GPIO names (P0.xx/P1.xx); board names (D0, A4, 10...) and AIN names follow in functions. Unlabeled solar JST, antenna connectors, LEDs, buttons and NFC pads skipped. Image 3 detail callouts for LEDs, NFC, buttons and UART-to-USB are not wiring points."
+}

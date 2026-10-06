@@ -1,0 +1,119 @@
+{
+  "recordId": "lilygo-other-t-radar",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/3be58674462654d531e039b7346bb69f4a42e7e2460cfae847b5ff60a271beed.jpg",
+      "sha256": "3be58674462654d531e039b7346bb69f4a42e7e2460cfae847b5ff60a271beed"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "header",
+      "name": "8-pin header (front view, right edge)",
+      "image": "media/3be58674462654d531e039b7346bb69f4a42e7e2460cfae847b5ff60a271beed.jpg",
+      "rows": 1,
+      "orderNote": "No printed position numbers and no USB connector; vertical row ordered top to bottom. Square bottom pad not treated as a pin-1 mark (rule 9).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "CS",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "CLK",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "MISO",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "MOSI",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "INTERRUPT",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "ENABLE",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "back-connector",
+      "name": "8-pin side-entry connector (back view)",
+      "image": "media/3be58674462654d531e039b7346bb69f4a42e7e2460cfae847b5ff60a271beed.jpg",
+      "rows": 1,
+      "orderNote": "No printed pin numbers and no USB connector; vertical row ordered top to bottom.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VIN",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "CS",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "CLK",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "MISO",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "MOSI",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "INT",
+          "functions": [
+            "INTERRUPT"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "EN",
+          "functions": [
+            "ENABLE"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Front header labels are the boxed silkscreen beside each hole. Back connector: diagram callouts VIN CS CLK MISO MOSI INT EN GND, with board silkscreen VIN CS CLK MISO MOSI INTERRUPT ENABLE GND beside the contacts. The back view also shows the 8 header holes from behind without labels; they are the same holes as the front header and are not transcribed again.",
+  "uncertain": []
+}

@@ -1,0 +1,307 @@
+{
+  "recordId": "lilygo-other-t3-stm32",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/e1082272f79e2becc252ea9f3183a607586d92779160d02432d81816c8ab36c4.jpg",
+      "sha256": "e1082272f79e2becc252ea9f3183a607586d92779160d02432d81816c8ab36c4"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/e1082272f79e2becc252ea9f3183a607586d92779160d02432d81816c8ab36c4.jpg",
+      "rows": 1,
+      "orderNote": "No printed position numbers; vertical row, position 1 at the bottom end, closest to the USB-C receptacle at the bottom edge of the board.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BOOT0",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PA8",
+          "functions": [
+            "TIM1_CH1",
+            "I2S2_CK",
+            "SPI2_SCK"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA3",
+          "functions": [
+            "TIM2_CH4",
+            "I2S2_MCK"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PA2",
+          "functions": [
+            "TIM2_CH3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA1",
+          "functions": [
+            "TIM2_CH2",
+            "SPI1_SCK",
+            "I2C1_SMBA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PA0",
+          "functions": [
+            "TIM2_CH1",
+            "I2S_CKIN",
+            "I2C3_SMBA"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PB6",
+          "functions": [
+            "LPTIM1_ETR",
+            "I2C1_SCL"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PA7",
+          "functions": [
+            "TIM1_CH1N",
+            "SPI1_MOSI"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PB8",
+          "functions": [
+            "TIM1_CH2N",
+            "I2C1_SCL"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PB5",
+          "functions": [
+            "LPTIM1_IN1",
+            "SPI1_MOSI",
+            "I2C1_SMBA"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "PB4",
+          "functions": [
+            "SPI1_MISO",
+            "I2C3_SDA"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "PB3",
+          "functions": [
+            "TIM2_CH2",
+            "SPI1_SCK"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/e1082272f79e2becc252ea9f3183a607586d92779160d02432d81816c8ab36c4.jpg",
+      "rows": 1,
+      "orderNote": "No printed position numbers; vertical row, position 1 at the bottom end, closest to the USB-C receptacle at the bottom edge of the board.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "PB0",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "PB2",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "PA11",
+          "functions": [
+            "TIM1_CH4",
+            "SPI1_MISO",
+            "I2C2_SDA"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PA12",
+          "functions": [
+            "TIM1_ETR",
+            "SPI1_MOSI",
+            "I2C2_SCL"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PC13",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "RXD",
+          "functions": [
+            "UART_RX"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "TXD",
+          "functions": [
+            "UART_TX"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "PA15",
+          "functions": [
+            "TIM2_CH1",
+            "SPI1_NSS",
+            "I2C2_SDA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "top-header",
+      "name": "Top SWD pads",
+      "image": "media/e1082272f79e2becc252ea9f3183a607586d92779160d02432d81816c8ab36c4.jpg",
+      "rows": 1,
+      "orderNote": "No printed position numbers; horizontal row at the top edge, roughly equidistant from the bottom-center USB-C receptacle, so the left-to-right fallback was used.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SWDIO",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SWCLK",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "qwiic-1",
+      "name": "QWIIC connector (left)",
+      "image": "media/e1082272f79e2becc252ea9f3183a607586d92779160d02432d81816c8ab36c4.jpg",
+      "rows": 1,
+      "orderNote": "Horizontal row; position 1 at the right end, closest to the USB-C receptacle.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "UART_RX",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "UART_TX",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "qwiic-2",
+      "name": "QWIIC connector (right)",
+      "image": "media/e1082272f79e2becc252ea9f3183a607586d92779160d02432d81816c8ab36c4.jpg",
+      "rows": 1,
+      "orderNote": "Horizontal row; position 1 at the right end, closest to the USB-C receptacle.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PA3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "PA2",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "The USB-C receptacle is not labeled; it is identified from a metal shell with slotted legs protruding at the bottom edge under the JST-PH connector. Side-header and QWIIC orders depend on it (from the top if it is not USB).",
+    "Top SWD pads (GND, SWDIO, SWCLK, 3V3): the USB-C is near the bottom center so neither end is clearly closer; left-to-right order chosen."
+  ],
+  "notes": "LILYGO T3 STM32 PINMAP, board silkscreen T3-STM32 V1.0. Callout names on the side headers are the labels; silkscreen spelling UART_TX/UART_RX differs from callouts TXD/RXD. Several callouts render with a gap after the underscore (e.g. 'TIM2_ CH1'); recorded without the space. Skipped: LoRa IPEX antenna, solar input connector (pins unlabeled), JST-PH battery (+/- only), USB-C, LEDs, OLED and TF-card function tables (no pin positions)."
+}

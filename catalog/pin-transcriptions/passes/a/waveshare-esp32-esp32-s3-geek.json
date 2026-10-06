@@ -1,0 +1,193 @@
+{
+  "recordId": "waveshare-esp32-esp32-s3-geek",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/911bc1b12957c947c44f493654b4e5cb107d08e913f71610adec3bee2d3ca650.png",
+      "sha256": "911bc1b12957c947c44f493654b4e5cb107d08e913f71610adec3bee2d3ca650"
+    },
+    {
+      "file": "media/df5310e42363eb99e3b7c40466777f48cff56deb118013b706386496b1a854b6.webp",
+      "sha256": "df5310e42363eb99e3b7c40466777f48cff56deb118013b706386496b1a854b6"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "uart-port",
+      "name": "UART connector",
+      "image": "media/911bc1b12957c947c44f493654b4e5cb107d08e913f71610adec3bee2d3ca650.png",
+      "rows": 1,
+      "orderNote": "USB plug at left of image; horizontal label row ordered from the left, nearest the USB connector (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RX",
+          "functions": [
+            "44"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "TX",
+          "functions": [
+            "43"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gpio-port",
+      "name": "GPIO connector",
+      "image": "media/911bc1b12957c947c44f493654b4e5cb107d08e913f71610adec3bee2d3ca650.png",
+      "rows": 1,
+      "orderNote": "USB plug at left of image; horizontal label row ordered from the left, nearest the USB connector (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP13",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GP14",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GP6",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "i2c-port",
+      "name": "I2C connector",
+      "image": "media/911bc1b12957c947c44f493654b4e5cb107d08e913f71610adec3bee2d3ca650.png",
+      "rows": 1,
+      "orderNote": "USB plug at left of image; horizontal label row ordered from the left, nearest the USB connector (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SDA",
+          "functions": [
+            "16"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "SCL",
+          "functions": [
+            "17"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uart-port-img2",
+      "name": "UART connector",
+      "image": "media/df5310e42363eb99e3b7c40466777f48cff56deb118013b706386496b1a854b6.webp",
+      "rows": 1,
+      "orderNote": "USB plug at left of image; horizontal label row ordered from the left, nearest the USB connector (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RX",
+          "functions": [
+            "44"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "TX",
+          "functions": [
+            "43"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gpio-port-img2",
+      "name": "GPIO connector",
+      "image": "media/df5310e42363eb99e3b7c40466777f48cff56deb118013b706386496b1a854b6.webp",
+      "rows": 1,
+      "orderNote": "USB plug at left of image; horizontal label row ordered from the left, nearest the USB connector (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP13",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GP14",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GP6",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "i2c-port-img2",
+      "name": "I2C connector",
+      "image": "media/df5310e42363eb99e3b7c40466777f48cff56deb118013b706386496b1a854b6.webp",
+      "rows": 1,
+      "orderNote": "USB plug at left of image; horizontal label row ordered from the left, nearest the USB connector (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SDA",
+          "functions": [
+            "16"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "SCL",
+          "functions": [
+            "17"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Pin names are printed on the case label above each connector, not at the contacts; the label-to-contact mapping and contact count per connector (3, 3, 4) are inferred from the column order of the label blocks."
+  ],
+  "notes": "Both images show the same top view of the enclosure; each transcribed separately per rule 11. Bare numbers (44, 43, 16, 17) printed under RX/TX/SDA/SCL kept as functions. Boot button and other openings skipped."
+}

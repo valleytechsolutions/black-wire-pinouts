@@ -1,0 +1,880 @@
+{
+  "recordId": "waveshare-rp2040-rp2040-zero",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/3ac09fe059101fdab7ebc6021b3db52cbe71ce75d07b10b673537446289bdb90.jpg",
+      "sha256": "3ac09fe059101fdab7ebc6021b3db52cbe71ce75d07b10b673537446289bdb90"
+    },
+    {
+      "file": "media/b2fc91157b61b92ba29fad8cbd0307baf1a924b93e906a3780642691a85f921a.jpg",
+      "sha256": "b2fc91157b61b92ba29fad8cbd0307baf1a924b93e906a3780642691a85f921a"
+    },
+    {
+      "file": "media/316ff346c17e6cf5a7232234bc088c7b6358116765d7a89fc5bd452ed3946e29.jpg",
+      "sha256": "316ff346c17e6cf5a7232234bc088c7b6358116765d7a89fc5bd452ed3946e29"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-pads",
+      "name": "Left castellated pads",
+      "image": "media/3ac09fe059101fdab7ebc6021b3db52cbe71ce75d07b10b673537446289bdb90.jpg",
+      "rows": 1,
+      "orderNote": "No header position numbers; USB-C at top, so position 1 is the top pad nearest USB.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GP29",
+          "functions": [
+            "29",
+            "ADC3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP28",
+          "functions": [
+            "28",
+            "ADC2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP27",
+          "functions": [
+            "27",
+            "ADC1",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP26",
+          "functions": [
+            "26",
+            "ADC0",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP15",
+          "functions": [
+            "15",
+            "SPI1 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP14",
+          "functions": [
+            "14",
+            "SPI1 SCK",
+            "I2C1 SDA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-pads",
+      "name": "Right castellated pads",
+      "image": "media/3ac09fe059101fdab7ebc6021b3db52cbe71ce75d07b10b673537446289bdb90.jpg",
+      "rows": 1,
+      "orderNote": "No header position numbers; USB-C at top, so position 1 is the top pad nearest USB.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP0",
+          "functions": [
+            "0",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP1",
+          "functions": [
+            "1",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP2",
+          "functions": [
+            "2",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP3",
+          "functions": [
+            "3",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP4",
+          "functions": [
+            "4",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP5",
+          "functions": [
+            "5",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP6",
+          "functions": [
+            "6",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP7",
+          "functions": [
+            "7",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP8",
+          "functions": [
+            "8",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-pads",
+      "name": "Bottom castellated pads",
+      "image": "media/3ac09fe059101fdab7ebc6021b3db52cbe71ce75d07b10b673537446289bdb90.jpg",
+      "rows": 1,
+      "orderNote": "Bottom edge row; USB-C is centred at the opposite (top) edge so neither end is nearer; ordered left to right as displayed.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP13",
+          "functions": [
+            "13",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP12",
+          "functions": [
+            "12",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP11",
+          "functions": [
+            "11",
+            "SPI1 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP10",
+          "functions": [
+            "10",
+            "SPI1 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP9",
+          "functions": [
+            "9",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "back-pads",
+      "name": "Back-side SMD pads",
+      "image": "media/3ac09fe059101fdab7ebc6021b3db52cbe71ce75d07b10b673537446289bdb90.jpg",
+      "rows": 1,
+      "orderNote": "No header position numbers; USB-C at top, so position 1 is the top pad nearest USB. Back view; pads listed top to bottom.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GP25",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GP24",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GP23",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GP22",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GP21",
+          "functions": [
+            "I2C0 SCL"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP20",
+          "functions": [
+            "I2C0 SDA"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP19",
+          "functions": [
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP18",
+          "functions": [
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP17",
+          "functions": [
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-pads-img2",
+      "name": "Left castellated pads",
+      "image": "media/b2fc91157b61b92ba29fad8cbd0307baf1a924b93e906a3780642691a85f921a.jpg",
+      "rows": 1,
+      "orderNote": "No header position numbers; USB-C at top, so position 1 is the top pad nearest USB.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GP29",
+          "functions": [
+            "29",
+            "ADC3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP28",
+          "functions": [
+            "28",
+            "ADC2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP27",
+          "functions": [
+            "27",
+            "ADC1",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP26",
+          "functions": [
+            "26",
+            "ADC0",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP15",
+          "functions": [
+            "15",
+            "SPI1 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP14",
+          "functions": [
+            "14",
+            "SPI1 SCK",
+            "I2C1 SDA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-pads-img2",
+      "name": "Right castellated pads",
+      "image": "media/b2fc91157b61b92ba29fad8cbd0307baf1a924b93e906a3780642691a85f921a.jpg",
+      "rows": 1,
+      "orderNote": "No header position numbers; USB-C at top, so position 1 is the top pad nearest USB.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP0",
+          "functions": [
+            "0",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP1",
+          "functions": [
+            "1",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP2",
+          "functions": [
+            "2",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP3",
+          "functions": [
+            "3",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP4",
+          "functions": [
+            "4",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP5",
+          "functions": [
+            "5",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP6",
+          "functions": [
+            "6",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP7",
+          "functions": [
+            "7",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP8",
+          "functions": [
+            "8",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-pads-img2",
+      "name": "Bottom castellated pads",
+      "image": "media/b2fc91157b61b92ba29fad8cbd0307baf1a924b93e906a3780642691a85f921a.jpg",
+      "rows": 1,
+      "orderNote": "Bottom edge row; USB-C is centred at the opposite (top) edge so neither end is nearer; ordered left to right as displayed.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP13",
+          "functions": [
+            "13",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP12",
+          "functions": [
+            "12",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP11",
+          "functions": [
+            "11",
+            "SPI1 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP10",
+          "functions": [
+            "10",
+            "SPI1 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP9",
+          "functions": [
+            "9",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "back-pads-img2",
+      "name": "Back-side SMD pads",
+      "image": "media/b2fc91157b61b92ba29fad8cbd0307baf1a924b93e906a3780642691a85f921a.jpg",
+      "rows": 1,
+      "orderNote": "No header position numbers; USB-C at top, so position 1 is the top pad nearest USB. Back view; pads listed top to bottom.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GP25",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GP24",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GP23",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GP22",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GP21",
+          "functions": [
+            "I2C0 SCL"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP20",
+          "functions": [
+            "I2C0 SDA"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP19",
+          "functions": [
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP18",
+          "functions": [
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP17",
+          "functions": [
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-pads-img3",
+      "name": "Left castellated pads",
+      "image": "media/316ff346c17e6cf5a7232234bc088c7b6358116765d7a89fc5bd452ed3946e29.jpg",
+      "rows": 1,
+      "orderNote": "No header position numbers; USB-C at top, so position 1 is the top pad nearest USB. Numbers printed beside the pins (39, 38, 37, 34 ... 1, 2, 4 ...) skip values and are MCU pin numbers, kept as functions.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": [
+            "39"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "38"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3v3",
+          "functions": [
+            "37"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO029",
+          "functions": [
+            "ADC3",
+            "PWM6B"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO028",
+          "functions": [
+            "34",
+            "ADC2",
+            "PWM6A"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO027",
+          "functions": [
+            "32",
+            "ADC1",
+            "SCL1",
+            "PWM5B"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO026",
+          "functions": [
+            "31",
+            "ADC0",
+            "SDA1",
+            "PWM5A"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO015",
+          "functions": [
+            "20",
+            "SCL 1",
+            "MOSI 1",
+            "PWM7B"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO014",
+          "functions": [
+            "19",
+            "SDA 1",
+            "SCK 1",
+            "PWM7A"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-pads-img3",
+      "name": "Right castellated pads",
+      "image": "media/316ff346c17e6cf5a7232234bc088c7b6358116765d7a89fc5bd452ed3946e29.jpg",
+      "rows": 1,
+      "orderNote": "No header position numbers; USB-C at top, so position 1 is the top pad nearest USB. Numbers printed beside the pins (39, 38, 37, 34 ... 1, 2, 4 ...) skip values and are MCU pin numbers, kept as functions.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO00",
+          "functions": [
+            "1",
+            "SDA 0",
+            "MISO 0",
+            "TXD 0",
+            "PWM0A"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO01",
+          "functions": [
+            "2",
+            "SCL 0",
+            "CS 0",
+            "RXD 0",
+            "PWM0B"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO02",
+          "functions": [
+            "4",
+            "SDA 1",
+            "SCK 0",
+            "PWM1A"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO03",
+          "functions": [
+            "5",
+            "SCL 1",
+            "MOSI 0",
+            "PWM1B"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO04",
+          "functions": [
+            "6",
+            "SDA 0",
+            "MISO 0",
+            "TXD 1",
+            "PWM2A"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO05",
+          "functions": [
+            "7",
+            "SCL 0",
+            "CS 0",
+            "RXD 1",
+            "PWM2B"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO06",
+          "functions": [
+            "9",
+            "SDA 1",
+            "SCK 0",
+            "PWM3A"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO07",
+          "functions": [
+            "10",
+            "SCL 1",
+            "MOSI 0",
+            "PWM3B"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO08",
+          "functions": [
+            "11",
+            "SDA 0",
+            "MISO 1",
+            "TXD 1",
+            "PWM4A"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-pads-img3",
+      "name": "Bottom pins",
+      "image": "media/316ff346c17e6cf5a7232234bc088c7b6358116765d7a89fc5bd452ed3946e29.jpg",
+      "rows": 1,
+      "orderNote": "Bottom edge row; USB-C is centred at the opposite (top) edge so neither end is nearer; ordered left to right as displayed. Bottom-pin leader lines map 13,12,11,10,9 left to right.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO013",
+          "functions": [
+            "17",
+            "SCL 0",
+            "CS 1",
+            "RXD 0",
+            "PWM6B"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO012",
+          "functions": [
+            "16",
+            "SDA 0",
+            "MISO 1",
+            "TXD 0",
+            "PWM6A"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO011",
+          "functions": [
+            "15",
+            "SCL 1",
+            "MOSI 1",
+            "PWM5B"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO010",
+          "functions": [
+            "14",
+            "SDA 1",
+            "SCK 1",
+            "PWM5A"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO09",
+          "functions": [
+            "12",
+            "SCL 0",
+            "CS 1",
+            "RXD 1",
+            "PWM4B"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Images 1 and 2 are the same Waveshare artwork at different sizes; image 3 is a third-party (mischianti.org) pinout of the same board with different function naming; each transcribed separately per rule 11. Image 3 labels copied as printed (GPIO00, 3v3...). Silkscreen numbers in image 3 are too small to transcribe and were not added. In image 3 the MCU-number box beside GPIO029 is blank. WS2812 RGB LED pin (GP16 DIN) is internal, not a wiring point."
+}

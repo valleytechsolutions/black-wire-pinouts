@@ -1,0 +1,48 @@
+{
+  "recordId": "m5stack-gpio-device-unitv-ov7740",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/8ef02336edee8d9faad229efc29b0ad888146865e715ee4c392708d9fc3d8e5b.png",
+      "sha256": "8ef02336edee8d9faad229efc29b0ad888146865e715ee4c392708d9fc3d8e5b"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "grove-port",
+      "name": "HY2.0-4P connector",
+      "image": "media/8ef02336edee8d9faad229efc29b0ad888146865e715ee4c392708d9fc3d8e5b.png",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB connector shown; horizontal row ordered from the left of the image.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G34",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "G35",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "G",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "The image is a stylized infographic, not a board photo; the HY2.0-4P connector graphic's left-to-right label order is assumed to match the physical pin order."
+  ],
+  "notes": "Buttons A (GPIO 19) and B (GPIO 18) and the RGB LED (GPIO 8) were skipped (rule 1)."
+}

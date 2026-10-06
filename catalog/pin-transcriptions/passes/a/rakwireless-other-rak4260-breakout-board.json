@@ -1,0 +1,193 @@
+{
+  "recordId": "rakwireless-other-rak4260-breakout-board",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/59fb8566c308a9751ead52baa26c2019a4ffa50ab6dbd66368fc09b8b924036f.png",
+      "sha256": "59fb8566c308a9751ead52baa26c2019a4ffa50ab6dbd66368fc09b8b924036f"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "top-left-pads",
+      "name": "Top-left power pads",
+      "image": "media/59fb8566c308a9751ead52baa26c2019a4ffa50ab6dbd66368fc09b8b924036f.png",
+      "rows": 1,
+      "orderNote": "Printed pin numbers followed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VDD",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "top-right-pads",
+      "name": "Top-right power pads",
+      "image": "media/59fb8566c308a9751ead52baa26c2019a4ffa50ab6dbd66368fc09b8b924036f.png",
+      "rows": 1,
+      "orderNote": "Printed pin numbers followed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VDD",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/59fb8566c308a9751ead52baa26c2019a4ffa50ab6dbd66368fc09b8b924036f.png",
+      "rows": 1,
+      "orderNote": "Printed pin numbers followed (1-8, top to bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "UART3_RX",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "UART3_TX",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GPIO",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "SWDIO",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "SWCLK",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/59fb8566c308a9751ead52baa26c2019a4ffa50ab6dbd66368fc09b8b924036f.png",
+      "rows": 1,
+      "orderNote": "Printed pin numbers followed (1-8, top to bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "UART1_TX",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "UART1_RX",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "SPI_MISO",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "SPI_CLK",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "SPI_CLK",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "SPI_MOSI",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-i2c-pads",
+      "name": "Bottom I2C pads",
+      "image": "media/59fb8566c308a9751ead52baa26c2019a4ffa50ab6dbd66368fc09b8b924036f.png",
+      "rows": 1,
+      "orderNote": "Printed pin numbers followed (1 = right pad, 2 = left pad)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "I2C_SDA",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "I2C_SCL",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-usb-pads",
+      "name": "Bottom USB pads",
+      "image": "media/59fb8566c308a9751ead52baa26c2019a4ffa50ab6dbd66368fc09b8b924036f.png",
+      "rows": 1,
+      "orderNote": "Printed pin numbers followed (1 = right pad, 2 = left pad)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "USB_N",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "USB_P",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Right header pins 6 and 7 are both printed SPI_CLK; one may be a typo for another SPI signal (e.g. chip select), recorded as printed."
+  ],
+  "notes": "Labels recorded as printed, including four pins labelled only \"GPIO\" and right-header pins 6 and 7 both labelled SPI_CLK. Antenna connector skipped."
+}

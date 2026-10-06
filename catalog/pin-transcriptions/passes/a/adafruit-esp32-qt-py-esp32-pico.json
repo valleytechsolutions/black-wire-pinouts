@@ -1,0 +1,235 @@
+{
+  "recordId": "adafruit-esp32-qt-py-esp32-pico",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/ad7072e71d1e442ebef0205abfb203321c86d2c2b77013be9803108644183802.png",
+      "sha256": "ad7072e71d1e442ebef0205abfb203321c86d2c2b77013be9803108644183802"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left castellated header",
+      "image": "media/ad7072e71d1e442ebef0205abfb203321c86d2c2b77013be9803108644183802.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; vertical row: started at the end closest to the USB connector (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A0",
+          "functions": [
+            "26",
+            "ADC2_CH9",
+            "RTC7",
+            "DAC2"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "A1",
+          "functions": [
+            "25",
+            "ADC2_CH8",
+            "RTC6",
+            "DAC1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "A2",
+          "functions": [
+            "27",
+            "ADC2_CH7",
+            "T7",
+            "RTC17"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "A3",
+          "functions": [
+            "15",
+            "ADC2_CH3",
+            "HSPICS0",
+            "HS2_CMD",
+            "T3",
+            "RTC13",
+            "MTDO"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "SDA",
+          "functions": [
+            "4",
+            "ADC2_CH0",
+            "HSPIHD",
+            "HS2_DATA1",
+            "T0",
+            "RTC10"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "SCL",
+          "functions": [
+            "33",
+            "ADC1_CH5",
+            "T8",
+            "RTC8",
+            "32K XN"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "TX",
+          "functions": [
+            "32",
+            "ADC1_CH4",
+            "T9",
+            "RTC9",
+            "32K XP"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right castellated header",
+      "image": "media/ad7072e71d1e442ebef0205abfb203321c86d2c2b77013be9803108644183802.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; vertical row: started at the end closest to the USB connector (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": [
+            "3V"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "MOSI",
+          "functions": [
+            "MO",
+            "13",
+            "ADC2_CH4",
+            "HSPID",
+            "HS2_DATA3",
+            "T4",
+            "RTC14",
+            "MTCK"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "MISO",
+          "functions": [
+            "MI",
+            "12",
+            "ADC2_CH5",
+            "HSPIQ",
+            "HS2_DATA2",
+            "T5",
+            "RTC15",
+            "MTDI"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "SCK",
+          "functions": [
+            "14",
+            "ADC2_CH6",
+            "HSPICLK",
+            "HS2_CLK",
+            "T6",
+            "RTC16",
+            "MTMS"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "RX",
+          "functions": [
+            "7",
+            "SPIQ",
+            "HS1_DATA0",
+            "U2RTS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "top-pads",
+      "name": "Pads beside USB connector",
+      "image": "media/ad7072e71d1e442ebef0205abfb203321c86d2c2b77013be9803108644183802.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; both pads equidistant from USB: started at the left.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VBAT",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "stemma-qt",
+      "name": "I2C STEMMA QT connector",
+      "image": "media/ad7072e71d1e442ebef0205abfb203321c86d2c2b77013be9803108644183802.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; horizontal row, ends equidistant from USB: started at the left.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SDA1",
+          "functions": [
+            "22",
+            "VSPIWP",
+            "U0RTS"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "SCL1",
+          "functions": [
+            "19",
+            "VSPIQ",
+            "U0CTS"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Label = Arduino name; bare GPIO numbers placed in functions. NeoPixel, NeoPixel power and switch skipped."
+}

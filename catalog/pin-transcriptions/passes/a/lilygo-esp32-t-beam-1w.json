@@ -1,0 +1,188 @@
+{
+  "recordId": "lilygo-esp32-t-beam-1w",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/c6c5cb62d9a3d4c902169cdf49dea78140c9b070d087a7f7f288e737ff72b7ca.jpg",
+      "sha256": "c6c5cb62d9a3d4c902169cdf49dea78140c9b070d087a7f7f288e737ff72b7ca"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/c6c5cb62d9a3d4c902169cdf49dea78140c9b070d087a7f7f288e737ff72b7ca.jpg",
+      "rows": 1,
+      "orderNote": "No printed position numbers; vertical row, started at the end closest to the USB-C connector (top of image). Square top pad not treated as a pin-1 mark (rule 9).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "IO47",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "IO48",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "IO45",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "IO39",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "IO42",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "RXD",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "TXD",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "IO2",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/c6c5cb62d9a3d4c902169cdf49dea78140c9b070d087a7f7f288e737ff72b7ca.jpg",
+      "rows": 1,
+      "orderNote": "No printed position numbers; vertical row, started at the end closest to the USB-C connector (top of image). Square top pad not treated as a pin-1 mark (rule 9).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "MISO",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SCK",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "MOSI",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IO46",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "IO14*",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "IO18*",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "IO17*",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "IO21*",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "IO41*",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "IO7*",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "IO6*",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "IO5*",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "IO4*",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Labels read from the board silkscreen in the main photo; asterisks are printed on several right-header labels and kept as printed. Last label of each header (IO2 left, GND right) is printed small and offset beside the bottom hole. Fan power pins and QWIIC connectors in the inset photo have no individually legible pin labels and are skipped; the 30-pin FPC display connector is not an external wiring point.",
+  "uncertain": [
+    "right-header position 5: the leading character is hidden by the SD card slot; visible text reads \"O14*\", recorded as IO14* by inference from neighbouring IO labels.",
+    "Bottom-of-row mapping: on both headers the last two labels (TXD/IO2, 3V3/GND) are squeezed together near the last two holes; mapping assumed one label per hole in order."
+  ]
+}

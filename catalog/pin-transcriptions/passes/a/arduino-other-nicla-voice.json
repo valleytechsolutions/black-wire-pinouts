@@ -1,0 +1,608 @@
+{
+ "recordId": "arduino-other-nicla-voice",
+ "pass": "a",
+ "date": "2026-10-05",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/57312121d512280e745c2ddc7fb8f6e0902586cad7b5ac1dc49444755913b90a.png",
+   "sha256": "57312121d512280e745c2ddc7fb8f6e0902586cad7b5ac1dc49444755913b90a"
+  },
+  {
+   "file": "media/1b740abf1bf0b8493627ba3cc109263401515122592f2f3b6c3d57060b28045f.png",
+   "sha256": "1b740abf1bf0b8493627ba3cc109263401515122592f2f3b6c3d57060b28045f"
+  },
+  {
+   "file": "media/15e60ad41930f0aa73d9f37fa1c4b4255597e475e21c2dfe4a27d5fe7f5c70d7.png",
+   "sha256": "15e60ad41930f0aa73d9f37fa1c4b4255597e475e21c2dfe4a27d5fe7f5c70d7"
+  },
+  {
+   "file": "media/efc60e068021d41bfe65f09fae40125ad13a053dd1b9b53fe85af8b56c0c5861.png",
+   "sha256": "efc60e068021d41bfe65f09fae40125ad13a053dd1b9b53fe85af8b56c0c5861"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "J1",
+   "name": "J1",
+   "rows": 1,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "P0_24",
+     "functions": [
+      "5",
+      "LPIO0_EXT"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "NC",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "P0_29",
+     "functions": [
+      "6",
+      "CS"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "P0_27",
+     "functions": [
+      "8",
+      "COPI"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "P0_28",
+     "functions": [
+      "7",
+      "CIPO"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "P0_11",
+     "functions": [
+      "9",
+      "SCLK"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "P0_30",
+     "functions": [
+      "11",
+      "ADC2"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "P0_02",
+     "functions": [
+      "10",
+      "ADC1"
+     ]
+    }
+   ],
+   "image": "media/57312121d512280e745c2ddc7fb8f6e0902586cad7b5ac1dc49444755913b90a.png"
+  },
+  {
+   "id": "J2",
+   "name": "J2",
+   "rows": 1,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "P0_22",
+     "functions": [
+      "4",
+      "SDA"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "P0_23",
+     "functions": [
+      "3",
+      "SCL"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "P0_20",
+     "functions": [
+      "2",
+      "LPIO1_EXT/TX"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "P0_09",
+     "functions": [
+      "1",
+      "LPIO2_EXT/RX"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "P0_10",
+     "functions": [
+      "0",
+      "LPIO3_EXT"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "VDDIO_EXT",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "NC",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "VIN_BQ25120",
+     "functions": []
+    }
+   ],
+   "image": "media/57312121d512280e745c2ddc7fb8f6e0902586cad7b5ac1dc49444755913b90a.png"
+  },
+  {
+   "id": "J3",
+   "name": "J3",
+   "rows": 1,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "NTC",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "VBAT",
+     "functions": []
+    }
+   ],
+   "image": "media/57312121d512280e745c2ddc7fb8f6e0902586cad7b5ac1dc49444755913b90a.png"
+  },
+  {
+   "id": "J1-img2",
+   "name": "J1",
+   "rows": 1,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "P0_24",
+     "functions": [
+      "5",
+      "LPIO0_EXT",
+      "GPIO15"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "NC",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "P0_29",
+     "functions": [
+      "6",
+      "CS"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "P0_27",
+     "functions": [
+      "8",
+      "COPI"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "P0_28",
+     "functions": [
+      "7",
+      "CIPO"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "P0_11",
+     "functions": [
+      "9",
+      "SCLK"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "P0_30",
+     "functions": [
+      "11",
+      "ADC2"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "P0_02",
+     "functions": [
+      "10",
+      "ADC1"
+     ]
+    }
+   ],
+   "image": "media/1b740abf1bf0b8493627ba3cc109263401515122592f2f3b6c3d57060b28045f.png"
+  },
+  {
+   "id": "J2-img2",
+   "name": "J2",
+   "rows": 1,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "P0_22",
+     "functions": [
+      "4",
+      "SDA"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "P0_23",
+     "functions": [
+      "3",
+      "SCL"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "P0_20",
+     "functions": [
+      "2",
+      "LPIO1_EXT/TX",
+      "GPIO14"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "P0_09",
+     "functions": [
+      "1",
+      "LPIO2_EXT/RX",
+      "GPIO16"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "P0_10",
+     "functions": [
+      "0",
+      "LPIO3_EXT",
+      "GPIO6"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "VDDIO_EXT",
+     "functions": [
+      "LS/LDO"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "NC",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "VIN_BQ25120",
+     "functions": [
+      "IN"
+     ]
+    }
+   ],
+   "image": "media/1b740abf1bf0b8493627ba3cc109263401515122592f2f3b6c3d57060b28045f.png"
+  },
+  {
+   "id": "J3-img2",
+   "name": "J3",
+   "rows": 1,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "NTC",
+     "functions": [
+      "TS"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "VBAT",
+     "functions": [
+      "BAT"
+     ]
+    }
+   ],
+   "image": "media/1b740abf1bf0b8493627ba3cc109263401515122592f2f3b6c3d57060b28045f.png"
+  },
+  {
+   "id": "J4-img2",
+   "name": "J4",
+   "rows": 1,
+   "orderNote": "Bottom-view USB at bottom; bottom to top using colored battery leads and textual pin names.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "VBAT",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "NTC",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    }
+   ],
+   "image": "media/1b740abf1bf0b8493627ba3cc109263401515122592f2f3b6c3d57060b28045f.png"
+  },
+  {
+   "id": "J3-test-pads-img3",
+   "name": "J3-test-pads",
+   "rows": 1,
+   "orderNote": "Printed P1-P8; bottom to top.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "NC",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "NC",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "SWDIO_ANNA",
+     "functions": [
+      "SWDIO",
+      "PA_02"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "SWDCLK_ANNA",
+     "functions": [
+      "SWDCLK",
+      "PA_03"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "RESET",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "PA_30",
+     "functions": [
+      "SWDIO_D11"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "+1V8",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "PA_31",
+     "functions": [
+      "SWDCLK_D11"
+     ]
+    }
+   ],
+   "image": "media/15e60ad41930f0aa73d9f37fa1c4b4255597e475e21c2dfe4a27d5fe7f5c70d7.png"
+  },
+  {
+   "id": "test-CLK_32minus768kHz-img4",
+   "name": "test-CLK_32minus768kHz",
+   "rows": 1,
+   "orderNote": "Individually labeled test pad.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "CLK_32.768kHz",
+     "functions": []
+    }
+   ],
+   "image": "media/efc60e068021d41bfe65f09fae40125ad13a053dd1b9b53fe85af8b56c0c5861.png"
+  },
+  {
+   "id": "test-SCLK0-img4",
+   "name": "test-SCLK0",
+   "rows": 1,
+   "orderNote": "Individually labeled test pad.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "SCLK0",
+     "functions": []
+    }
+   ],
+   "image": "media/efc60e068021d41bfe65f09fae40125ad13a053dd1b9b53fe85af8b56c0c5861.png"
+  },
+  {
+   "id": "test-CIPO0-img4",
+   "name": "test-CIPO0",
+   "rows": 1,
+   "orderNote": "Individually labeled test pad.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "CIPO0",
+     "functions": []
+    }
+   ],
+   "image": "media/efc60e068021d41bfe65f09fae40125ad13a053dd1b9b53fe85af8b56c0c5861.png"
+  },
+  {
+   "id": "test-COPI0-img4",
+   "name": "test-COPI0",
+   "rows": 1,
+   "orderNote": "Individually labeled test pad.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "COPI0",
+     "functions": []
+    }
+   ],
+   "image": "media/efc60e068021d41bfe65f09fae40125ad13a053dd1b9b53fe85af8b56c0c5861.png"
+  },
+  {
+   "id": "test-CS0-img4",
+   "name": "test-CS0",
+   "rows": 1,
+   "orderNote": "Individually labeled test pad.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "CS0",
+     "functions": []
+    }
+   ],
+   "image": "media/efc60e068021d41bfe65f09fae40125ad13a053dd1b9b53fe85af8b56c0c5861.png"
+  },
+  {
+   "id": "test-CIPO_SENSOR-img4",
+   "name": "test-CIPO_SENSOR",
+   "rows": 1,
+   "orderNote": "Individually labeled test pad.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "CIPO_SENSOR",
+     "functions": []
+    }
+   ],
+   "image": "media/efc60e068021d41bfe65f09fae40125ad13a053dd1b9b53fe85af8b56c0c5861.png"
+  },
+  {
+   "id": "test-COPI_SENSOR-img4",
+   "name": "test-COPI_SENSOR",
+   "rows": 1,
+   "orderNote": "Individually labeled test pad.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "COPI_SENSOR",
+     "functions": []
+    }
+   ],
+   "image": "media/efc60e068021d41bfe65f09fae40125ad13a053dd1b9b53fe85af8b56c0c5861.png"
+  },
+  {
+   "id": "test-CS1_SENSOR-img4",
+   "name": "test-CS1_SENSOR",
+   "rows": 1,
+   "orderNote": "Individually labeled test pad.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "CS1_SENSOR",
+     "functions": []
+    }
+   ],
+   "image": "media/efc60e068021d41bfe65f09fae40125ad13a053dd1b9b53fe85af8b56c0c5861.png"
+  },
+  {
+   "id": "test-SCLK_SENSOR-img4",
+   "name": "test-SCLK_SENSOR",
+   "rows": 1,
+   "orderNote": "Individually labeled test pad.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "SCLK_SENSOR",
+     "functions": []
+    }
+   ],
+   "image": "media/efc60e068021d41bfe65f09fae40125ad13a053dd1b9b53fe85af8b56c0c5861.png"
+  },
+  {
+   "id": "test-3V3-img4",
+   "name": "test-3V3",
+   "rows": 1,
+   "orderNote": "Individually labeled test pad.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "3V3",
+     "functions": []
+    }
+   ],
+   "image": "media/efc60e068021d41bfe65f09fae40125ad13a053dd1b9b53fe85af8b56c0c5861.png"
+  },
+  {
+   "id": "test-Dminus-img4",
+   "name": "test-Dminus",
+   "rows": 1,
+   "orderNote": "Individually labeled test pad.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "D-",
+     "functions": []
+    }
+   ],
+   "image": "media/efc60e068021d41bfe65f09fae40125ad13a053dd1b9b53fe85af8b56c0c5861.png"
+  },
+  {
+   "id": "test-Dplus-img4",
+   "name": "test-Dplus",
+   "rows": 1,
+   "orderNote": "Individually labeled test pad.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "D+",
+     "functions": []
+    }
+   ],
+   "image": "media/efc60e068021d41bfe65f09fae40125ad13a053dd1b9b53fe85af8b56c0c5861.png"
+  }
+ ],
+ "notes": "Image 3 calls the test-pad group J3 although text describes pads between J2 headers; literal source designators preserved in separate views. J4 battery mapping follows explicitly drawn wire colors and note. Unnamed testpoints excluded; no internal component pin inferred.",
+ "unreadable": [],
+ "uncertain": []
+}

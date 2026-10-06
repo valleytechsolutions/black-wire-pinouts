@@ -1,0 +1,230 @@
+{
+  "recordId": "inland-support-652",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/9eea76c450424102406b5d7ed606467b14f4aaf0a51c2e72ddebf2c71f20e701.png",
+      "sha256": "9eea76c450424102406b5d7ed606467b14f4aaf0a51c2e72ddebf2c71f20e701"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/9eea76c450424102406b5d7ed606467b14f4aaf0a51c2e72ddebf2c71f20e701.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at end closest to micro USB (bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "CMD",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SD3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SD2",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "IO13",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "IO12",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "IO14",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "IO27",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "IO26",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "IO25",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "IO33",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "IO32",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "IO35",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "IO34",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "SENSOR VN",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "SENSOR VP",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "3.3V",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/9eea76c450424102406b5d7ed606467b14f4aaf0a51c2e72ddebf2c71f20e701.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at end closest to micro USB (bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "CLK",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SD0",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SD1",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IO15",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "IO2",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "IO0",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "IO4",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "IO16",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "IO17",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "IO5",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "IO18",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "IO19",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "IO21",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "RXD0",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "TXD0",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "IO22",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "IO23",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "Trailing 0 in TXD0, RXD0, IO0, SD0 assumed digit zero (O/0 not distinguishable)"
+  ],
+  "uncertain": [
+    "Right header GND label connects by a bracket to two pins (top pin and the pin after IO21); both recorded as GND",
+    "Image shows an ESP32-WROOM-32 core board without Inland branding; identity follows the record only, color/variant ('Black and Eco-friendly') not verifiable"
+  ],
+  "notes": "Top-corner holes are mounting holes, not pins. EN/Boot buttons, LED and micro USB skipped."
+}

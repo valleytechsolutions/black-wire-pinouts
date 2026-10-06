@@ -1,0 +1,69 @@
+{
+  "recordId": "waveshare-esp32-esp32-s3-touch-lcd-1-83",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/ff9a4404832672e63c1fbee27977934aa1fe7fdb3f39d2ccb0d256605815fdb0.jpg",
+      "sha256": "ff9a4404832672e63c1fbee27977934aa1fe7fdb3f39d2ccb0d256605815fdb0"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "header-2x4",
+      "name": "2x4 pin header (upper right)",
+      "image": "media/ff9a4404832672e63c1fbee27977934aa1fe7fdb3f39d2ccb0d256605815fdb0.jpg",
+      "rows": 2,
+      "orderNote": "USB rule + 2xN rule: the USB-C connector is on the left edge below the header, so the bottom end was taken as closest to USB; position 1 = bottom of the outer (right, board-edge) column, alternating outer/inner bottom to top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RXD",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "TXD",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "IO18",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "IO17",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Pin order start is ambiguous: the USB connector is on the left side edge, roughly level with neither end of the vertical header; the bottom end is slightly closer and was used. If the top end were used, the order would reverse (GND/IO17 first).",
+    "BAT and SPK connectors are not labeled per pin (only +/- marks); not transcribed."
+  ],
+  "notes": "Photo of ESP32-S3-Touch-LCD-1.83 back with callouts for a 2x4 header."
+}

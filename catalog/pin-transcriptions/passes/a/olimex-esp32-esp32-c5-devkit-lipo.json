@@ -1,0 +1,313 @@
+{
+  "recordId": "olimex-esp32-esp32-c5-devkit-lipo",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/f8b8bb0e97f52df2e16bbcb56bef247561c48f45dd10c37f614b57dc8170c15b.png",
+      "sha256": "f8b8bb0e97f52df2e16bbcb56bef247561c48f45dd10c37f614b57dc8170c15b"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "UEXT1",
+      "name": "UEXT connector (P-B-V-10-LF)",
+      "image": "media/f8b8bb0e97f52df2e16bbcb56bef247561c48f45dd10c37f614b57dc8170c15b.png",
+      "rows": 2,
+      "orderNote": "Printed schematic pin numbers followed (odd 1-9 one row, even 2-10 the other)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+3.3V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO5",
+          "functions": [
+            "LP_UART_TXD",
+            "U1TXD"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO4",
+          "functions": [
+            "LP_UART_RXD",
+            "U1RXD"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO3",
+          "functions": [
+            "LP_I2C_SCL",
+            "I2C_SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO2",
+          "functions": [
+            "LP_I2C_SDA",
+            "I2C_SDA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO8",
+          "functions": [
+            "SPI2_MISO"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO7",
+          "functions": [
+            "SPI2_MOSI"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO1",
+          "functions": [
+            "SPI2_CLK"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO0",
+          "functions": [
+            "SPI2_CS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "J1",
+      "name": "J1 EXT1 (HN1x16)",
+      "image": "media/f8b8bb0e97f52df2e16bbcb56bef247561c48f45dd10c37f614b57dc8170c15b.png",
+      "rows": 1,
+      "orderNote": "Printed schematic pin numbers followed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+3.3V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "ESP_EN",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO2",
+          "functions": [
+            "LP_I2C_SDA",
+            "I2C_SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO3",
+          "functions": [
+            "LP_I2C_SCL",
+            "I2C_SCL"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO0",
+          "functions": [
+            "SPI2_CS"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO1",
+          "functions": [
+            "SPI2_CLK"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO6",
+          "functions": [
+            "SPI2_MISO",
+            "ADC1_CH5"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO7",
+          "functions": [
+            "SPI2_MOSI"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO8",
+          "functions": [
+            "SPI2_MISO"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO9",
+          "functions": [
+            "PWR_SENS"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO10",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GPIO26",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GPIO25",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "?",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J3",
+      "name": "J3 EXT2 (HN1x16)",
+      "image": "media/f8b8bb0e97f52df2e16bbcb56bef247561c48f45dd10c37f614b57dc8170c15b.png",
+      "rows": 1,
+      "orderNote": "Printed schematic pin numbers followed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GPIO11",
+          "functions": [
+            "U0TXD"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO12",
+          "functions": [
+            "U0RXD"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO24",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO23",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "NC_GPIO15",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO27",
+          "functions": [
+            "USER_LED1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO4",
+          "functions": [
+            "LP_UART_RXD",
+            "U1RXD"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO5",
+          "functions": [
+            "LP_UART_TXD",
+            "U1TXD"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GPIO28",
+          "functions": [
+            "BOOT"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "USB_DP",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "USB_DN",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "?",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "J1 pin 16: no label, only a no-connect X",
+    "J3 pins 10 and 16: no label, only a no-connect X"
+  ],
+  "uncertain": [
+    "UEXT1 pin 7 is not labeled directly; its net runs to R14 (0R, fitted) to GPIO8\\SPI2_MISO and to R15 (NA, crossed out) to GPIO6\\SPI2_MISO\\ADC1_CH5; recorded as GPIO8 by following the fitted resistor",
+    "Image is a schematic page; physical header orientation on the board is not shown, only schematic pin numbers"
+  ],
+  "notes": "Schematic net names split on backslashes into label (GPIO name) and functions in printed order. Section heading says 'J1 and J2' but the second header is printed J3/EXT2."
+}

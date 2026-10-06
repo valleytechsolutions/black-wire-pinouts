@@ -1,0 +1,48 @@
+{
+  "recordId": "lilygo-esp32-t5-4-7-s3-e-paper-pro-lite",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/7cc04ae160f8c575d76baeaa2576b087e22619d1ac49f787f34dc4677de5c846.jpg",
+      "sha256": "7cc04ae160f8c575d76baeaa2576b087e22619d1ac49f787f34dc4677de5c846"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "bottom-connector",
+      "name": "Bottom-edge 4-pin connector (marked on rear case)",
+      "image": "media/7cc04ae160f8c575d76baeaa2576b087e22619d1ac49f787f34dc4677de5c846.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row in the rear view, started at the end closest to the USB-C opening (left)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "bottom-connector: the connector's individual pins are not visible; the four names are read from the case marking 'SCL SDA 3V3 GND' (left to right in the rear view, with an arrow toward the bottom edge) and assumed to map to pins in that order"
+  ],
+  "notes": "Image titled T5-4.7-S3 Epaper PRO Lite PINMAP (ESP32-S3-WROOM-1). Enclosed device. E-Paper PIN list (D0-D7, BL, STH, CKH, CKV, CFG_*), TF card, RTC and touch lists are internal assignments without physical pin positions, so not transcribed. BOOT/IO48, RST and PWR buttons, TF card slot and USB-C skipped."
+}

@@ -1,0 +1,208 @@
+{
+  "recordId": "flipper-devices-gpio-device-flipper-zero",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/493bec315a31038ad4c5d3c234b531bb5417a726e997eddd996c704407edc793.jpg",
+      "sha256": "493bec315a31038ad4c5d3c234b531bb5417a726e997eddd996c704407edc793"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "gpio-header",
+      "name": "GPIO header",
+      "image": "media/493bec315a31038ad4c5d3c234b531bb5417a726e997eddd996c704407edc793.jpg",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 1-18 followed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": [
+            "Up to 2A, FUSE"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PA7",
+          "functions": [
+            "SPI1.MOSI",
+            "I2C3.SCL",
+            "COMP2 OUT",
+            "ADC1.12",
+            "TIM1.1N",
+            "TIM17.1",
+            "EXTI 7"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA6",
+          "functions": [
+            "SPI1.MISO",
+            "LPUART1.CTS",
+            "ADC1.11",
+            "TIM1.BKIN",
+            "TIM16.1",
+            "EXTI 6",
+            "Used by down key"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA4",
+          "functions": [
+            "SPI1.CS",
+            "COMP1 IN-",
+            "COMP2 IN-",
+            "ADC1.9",
+            "LPTIM2.OUT",
+            "EXTI 4"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PB3",
+          "functions": [
+            "SWO",
+            "SPI1.SCK",
+            "USART1.DE/RTS",
+            "COMP2 IN-",
+            "TIM2.2",
+            "EXTI 3",
+            "Used by ok key"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PB2",
+          "functions": [
+            "SPI1.CS",
+            "I2C3.SMBA",
+            "COMP1 IN+",
+            "LPTIM1.OUT",
+            "EXTI 2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PC3",
+          "functions": [
+            "ADC1.4",
+            "LPTIM1.ETR",
+            "LPTIM2.ETR",
+            "EXTI 3",
+            "Used by ok key"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "3.3V",
+          "functions": [
+            "Up to 1A"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PA14",
+          "functions": [
+            "SWCLK",
+            "LPTIM1.OUT",
+            "EXTI 14"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "PA13",
+          "functions": [
+            "SWDIO",
+            "EXTI 13",
+            "Used by back key"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "PB6",
+          "functions": [
+            "MCO",
+            "USART1.TX",
+            "COMP2 IN+",
+            "LPTIM1.ETR",
+            "EXTI 6",
+            "Used by down key"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "PB7",
+          "functions": [
+            "USART1.RX",
+            "COMP2 IN-",
+            "LPTIM1.IN2",
+            "TIM1.BKIN",
+            "EXTI 7"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "PC1",
+          "functions": [
+            "LPUART1.TX",
+            "I2C3.SDA",
+            "ADC1.2",
+            "LPTIM1.OUT",
+            "EXTI 1",
+            "Shared with SubGhz"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "PC0",
+          "functions": [
+            "LPUART1.RX",
+            "I2C3.SCL",
+            "ADC1.1",
+            "LPTIM1.IN1",
+            "LPTIM2.IN1",
+            "EXTI 0"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "PB14",
+          "functions": [
+            "Pull-up 1K to 5V",
+            "iButton",
+            "onewire",
+            "I2C3.SDA",
+            "5V pull-up",
+            "TIM1.2N",
+            "EXTI 14"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Connector grouping: the diagram draws pins 1-8 and 9-18 as two blocks separated by a gap; numbering is continuous so they were kept as one 18-position row, but the image leaves open whether these are two physical connectors."
+  ],
+  "notes": "Functions are read outward from the pin (right to left in the diagram, ending at the EXTI column); short notes under a label or function box follow that entry. Labels are repeated on both sides of the diagram. Category legend boxes are omitted."
+}

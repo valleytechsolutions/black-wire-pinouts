@@ -1,0 +1,138 @@
+{
+ "recordId": "techoverflow-gpio-device-canipulator-v2",
+ "pass": "a",
+ "date": "2026-10-05",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/bc3f7569a325ef6f193da1bd2d937758b0531350264fc6b1afdc9949e76d0a1b.png",
+   "sha256": "bc3f7569a325ef6f193da1bd2d937758b0531350264fc6b1afdc9949e76d0a1b"
+  },
+  {
+   "file": "media/177954c7f7e87f5e6946df24e2e4d1e09a305dbb34353187e9b507270badfca6.png",
+   "sha256": "177954c7f7e87f5e6946df24e2e4d1e09a305dbb34353187e9b507270badfca6"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "can0-port",
+   "name": "can0-port",
+   "rows": 1,
+   "orderNote": "USB at upper right; top to bottom.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "VIN 12V",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "CAN0 H",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "CAN0 L",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": []
+    }
+   ],
+   "image": "media/bc3f7569a325ef6f193da1bd2d937758b0531350264fc6b1afdc9949e76d0a1b.png"
+  },
+  {
+   "id": "can1-port",
+   "name": "can1-port",
+   "rows": 1,
+   "orderNote": "USB above; top to bottom.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "CAN1 L",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "CAN1 H",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "VIN 12V",
+     "functions": []
+    }
+   ],
+   "image": "media/bc3f7569a325ef6f193da1bd2d937758b0531350264fc6b1afdc9949e76d0a1b.png"
+  },
+  {
+   "id": "expansion-header",
+   "name": "expansion-header",
+   "rows": 2,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GPIO3",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GPIO12",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GPIO8",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GPIO11",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "GPIO9",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "GPIO1",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "GPIO10",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "GPIO0",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "3V3",
+     "functions": []
+    }
+   ],
+   "image": "media/bc3f7569a325ef6f193da1bd2d937758b0531350264fc6b1afdc9949e76d0a1b.png"
+  }
+ ],
+ "notes": "Image 2 is an I/O usage table without physical connector geometry. Its sparse expansion references do not include all positions and are not merged into image 1. Termination jumpers have no individual signal labels; excluded.",
+ "unreadable": [],
+ "uncertain": []
+}

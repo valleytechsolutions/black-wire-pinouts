@@ -1,0 +1,67 @@
+{
+  "recordId": "nologo-other-super-nrf52840",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {"file": "media/5fb27580b3d4e38b2b6850f399d1a75aa93b6f3cee33b0ca6c48af91505a5ef3.jpg", "sha256": "5fb27580b3d4e38b2b6850f399d1a75aa93b6f3cee33b0ca6c48af91505a5ef3"},
+    {"file": "media/a46f3c7267640775fbe7c40d83d888415592583c66cb760ba7b62dd6306f26ad.jpg", "sha256": "a46f3c7267640775fbe7c40d83d888415592583c66cb760ba7b62dd6306f26ad"}
+  ],
+  "connectors": [
+    {"id": "left-header", "name": "Left castellated header (top view)", "image": "media/5fb27580b3d4e38b2b6850f399d1a75aa93b6f3cee33b0ca6c48af91505a5ef3.jpg", "rows": 1,
+     "orderNote": "No pin numbers; USB-C at top, so position 1 is the top pad (closest to USB).",
+     "pins": [
+      {"position": 1, "label": "P0.02", "functions": ["002", "D0", "A0"]},
+      {"position": 2, "label": "P0.03", "functions": ["003", "D1", "A1"]},
+      {"position": 3, "label": "P0.28", "functions": ["028", "D2", "A2"]},
+      {"position": 4, "label": "P0.29", "functions": ["029", "D3", "A3"]},
+      {"position": 5, "label": "P0.04", "functions": ["004", "D4", "A4", "SDA"]},
+      {"position": 6, "label": "P0.05", "functions": ["005", "D5", "A5", "SCL"]},
+      {"position": 7, "label": "P0.11", "functions": ["111", "D6", "TX"]}
+     ]},
+    {"id": "right-header", "name": "Right castellated header (top view)", "image": "media/5fb27580b3d4e38b2b6850f399d1a75aa93b6f3cee33b0ca6c48af91505a5ef3.jpg", "rows": 1,
+     "orderNote": "No pin numbers; USB-C at top, so position 1 is the top pad (closest to USB).",
+     "pins": [
+      {"position": 1, "label": "5V", "functions": []},
+      {"position": 2, "label": "GND", "functions": []},
+      {"position": 3, "label": "3V3", "functions": []},
+      {"position": 4, "label": "P1.15", "functions": ["115", "D10", "MOSI"]},
+      {"position": 5, "label": "P1.14", "functions": ["114", "D9", "MISO"]},
+      {"position": 6, "label": "P1.13", "functions": ["113", "D8", "SCK"]},
+      {"position": 7, "label": "P1.12", "functions": ["112", "D7", "RX"]}
+     ]},
+    {"id": "debug-pads-img2", "name": "Back SWD pads (2x2)", "image": "media/a46f3c7267640775fbe7c40d83d888415592583c66cb760ba7b62dd6306f26ad.jpg", "rows": 2,
+     "orderNote": "No pin numbers; USB at top of this back view. 2x2 pad group read as two horizontal rows: position 1 at the left of the row nearest the USB/top edge, then alternating rows (1 CLK, 2 GND, 3 DIO, 4 RST).",
+     "pins": [
+      {"position": 1, "label": "CLK", "functions": []},
+      {"position": 2, "label": "GND", "functions": []},
+      {"position": 3, "label": "DIO", "functions": []},
+      {"position": 4, "label": "RST", "functions": []}
+     ]},
+    {"id": "back-pads-img2", "name": "Back pad column", "image": "media/a46f3c7267640775fbe7c40d83d888415592583c66cb760ba7b62dd6306f26ad.jpg", "rows": 1,
+     "orderNote": "No pin numbers; USB at top of this back view, so position 1 is the top pad (closest to USB).",
+     "pins": [
+      {"position": 1, "label": "P0.31", "functions": ["031"]},
+      {"position": 2, "label": "P0.15", "functions": ["015"]},
+      {"position": 3, "label": "P0.19", "functions": ["019"]},
+      {"position": 4, "label": "P1.01", "functions": ["101"]},
+      {"position": 5, "label": "P1.03", "functions": ["103"]},
+      {"position": 6, "label": "P1.07", "functions": ["107"]},
+      {"position": 7, "label": "P1.05", "functions": ["105"]},
+      {"position": 8, "label": "010", "functions": ["NFC"]},
+      {"position": 9, "label": "009", "functions": ["NFC"]}
+     ]},
+    {"id": "battery-pads-img2", "name": "Back battery pads", "image": "media/a46f3c7267640775fbe7c40d83d888415592583c66cb760ba7b62dd6306f26ad.jpg", "rows": 1,
+     "orderNote": "No pin numbers; USB at top, so position 1 is the top pad.",
+     "pins": [
+      {"position": 1, "label": "BAT+", "functions": ["B+"]},
+      {"position": 2, "label": "BAT-", "functions": ["B-"]}
+     ]}
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "debug-pads-img2: the 2x2 SWD pad group could equally be read as two vertical columns (CLK/GND, DIO/RST); row grouping and resulting position order are not settled by the image.",
+    "back-pads-img2 positions 8-9: only silkscreen 010/009 and a shared NFC callout are printed, no P0.xx name; labels use the silkscreen numbers."
+  ],
+  "notes": "Image 1 is the top view, image 2 the back view. Labels use the printed P0.xx/P1.xx port names; silkscreen numbers first in functions, then callouts outward from the pin. LED callouts (P0.30 LED_GREEN, P0.06 LED_BLUE, P0.26 LED_RED), BAT-LED and the RST silkscreen near the USB on the top view are skipped as LED/button items. Unlabeled edge pads in the back view are the same castellated pads as image 1 and are not repeated. Battery pads are included because they carry BAT+/BAT- (B+/B-) labels."
+}

@@ -1,0 +1,62 @@
+{
+  "recordId": "adafruit-neokey-trinkey",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/b4bb0f7625ec61125e898116ff5b5cf0d9655cae6b437d2f560d67ad7beb6d41.png",
+      "sha256": "b4bb0f7625ec61125e898116ff5b5cf0d9655cae6b437d2f560d67ad7beb6d41"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "switch-holes",
+      "name": "Key switch holes",
+      "image": "media/b4bb0f7625ec61125e898116ff5b5cf0d9655cae6b437d2f560d67ad7beb6d41.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at hole closest to USB connector (upper hole)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "PA28",
+          "functions": [
+            "SWITCH",
+            "1",
+            "8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "touch-pad",
+      "name": "Right-edge touch pad",
+      "image": "media/b4bb0f7625ec61125e898116ff5b5cf0d9655cae6b437d2f560d67ad7beb6d41.png",
+      "rows": 1,
+      "orderNote": "Single pad",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PA07",
+          "functions": [
+            "TOUCH",
+            "2/A1",
+            "7",
+            "AIN7",
+            "Y5",
+            "S0.3",
+            "TCC1[1]",
+            "I2S/SD0"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "NEOPIXEL (0, PA15, 15, S2.3, S4.3, TC3[1], TCC0[5]) points to the on-board LED and is skipped. USB plug contacts unlabeled, skipped."
+}

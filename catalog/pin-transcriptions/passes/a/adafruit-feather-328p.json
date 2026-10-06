@@ -1,0 +1,237 @@
+{
+  "recordId": "adafruit-feather-328p",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/14fc1acdfb2733b4beef9c92c1b8947aaf14cb3ea1950b3692e0b4aaefb459a3.png",
+      "sha256": "14fc1acdfb2733b4beef9c92c1b8947aaf14cb3ea1950b3692e0b4aaefb459a3"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/14fc1acdfb2733b4beef9c92c1b8947aaf14cb3ea1950b3692e0b4aaefb459a3.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row: started at end closest to USB connector (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "AREF",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "PC0",
+          "functions": [
+            "A0",
+            "14"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PC1",
+          "functions": [
+            "A1",
+            "15"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PC2",
+          "functions": [
+            "A2",
+            "16"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PC3",
+          "functions": [
+            "A3",
+            "17"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "A6",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "A7",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "PB5",
+          "functions": [
+            "SCK",
+            "13"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "PB3",
+          "functions": [
+            "MOSI",
+            "11",
+            "OC2A"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "PB4",
+          "functions": [
+            "MOSI",
+            "12",
+            "MISO"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "PD0",
+          "functions": [
+            "D0/RX",
+            "0",
+            "RX"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "PD1",
+          "functions": [
+            "D1/TX",
+            "1",
+            "TX"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "PD7",
+          "functions": [
+            "D7",
+            "7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/14fc1acdfb2733b4beef9c92c1b8947aaf14cb3ea1950b3692e0b4aaefb459a3.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row: started at end closest to USB connector (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "PD4",
+          "functions": [
+            "D4",
+            "4"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PD3",
+          "functions": [
+            "D3",
+            "3",
+            "INT1",
+            "OC2B"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PD2",
+          "functions": [
+            "D2",
+            "2",
+            "INT0"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PB2",
+          "functions": [
+            "D10",
+            "10",
+            "SS",
+            "OC1B"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PB1",
+          "functions": [
+            "D9",
+            "9",
+            "OC1A"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PD6",
+          "functions": [
+            "D6",
+            "6",
+            "OC0A"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PD5",
+          "functions": [
+            "D5",
+            "5",
+            "OC0B"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "SDA",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Label = GPIO port name (legend 'GPIO', e.g. PC0) where printed, else Arduino name; Arduino name first in functions, then outward. The pin between MOSI and D0/RX has Arduino-name box printed 'MOSI' (copied as printed) with outer MISO tag. Bottom GND and 3.3V callouts point to prototyping-area rails, not header pins; skipped. Category tags omitted."
+}

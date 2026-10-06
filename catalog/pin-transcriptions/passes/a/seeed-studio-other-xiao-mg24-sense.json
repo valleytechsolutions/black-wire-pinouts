@@ -1,0 +1,423 @@
+{
+ "recordId": "seeed-studio-other-xiao-mg24-sense",
+ "pass": "a",
+ "date": "2026-10-05",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/9380b68e16fc9725d238f094dd8b0ba394bb4724eb68efc87ce797224cde5659.png",
+   "sha256": "9380b68e16fc9725d238f094dd8b0ba394bb4724eb68efc87ce797224cde5659"
+  },
+  {
+   "file": "media/ea8361252836b753020fd1f7a811851c25ccb3f46de577554247561ac312fe3b.png",
+   "sha256": "ea8361252836b753020fd1f7a811851c25ccb3f46de577554247561ac312fe3b"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "left-header",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "VBUS",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "D10",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "D9",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "D8",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "D7",
+     "functions": []
+    }
+   ],
+   "image": "media/9380b68e16fc9725d238f094dd8b0ba394bb4724eb68efc87ce797224cde5659.png"
+  },
+  {
+   "id": "right-header",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "D0",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "D1",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "D2",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "D3",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "D4",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "D5",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "D6",
+     "functions": []
+    }
+   ],
+   "image": "media/9380b68e16fc9725d238f094dd8b0ba394bb4724eb68efc87ce797224cde5659.png"
+  },
+  {
+   "id": "debug-pads",
+   "name": "debug-pads",
+   "rows": 2,
+   "orderNote": "USB top; top to bottom alternating left/right, equally close to board edges.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "MG24 SWCLK",
+     "functions": [
+      "M_CLK"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "MG24 SWDIO",
+     "functions": [
+      "M_DIO"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "MG24 RESET",
+     "functions": [
+      "M_R"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "SAMD11 RESET",
+     "functions": [
+      "S_R"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "SAMD11 SWCLK",
+     "functions": [
+      "S_CLK"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "SAMD11 SWDIO",
+     "functions": [
+      "S_DIO"
+     ]
+    }
+   ],
+   "image": "media/9380b68e16fc9725d238f094dd8b0ba394bb4724eb68efc87ce797224cde5659.png"
+  },
+  {
+   "id": "left-inner-pads",
+   "name": "left-inner-pads",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "PA09",
+     "functions": [
+      "D11",
+      "A11",
+      "11",
+      "SAMD11_TX"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "PA08",
+     "functions": [
+      "D12",
+      "A12",
+      "12",
+      "SAMD11_RX"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "PB02",
+     "functions": [
+      "D13",
+      "A13",
+      "13"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "PB03",
+     "functions": [
+      "D14",
+      "A14",
+      "14"
+     ]
+    }
+   ],
+   "image": "media/9380b68e16fc9725d238f094dd8b0ba394bb4724eb68efc87ce797224cde5659.png"
+  },
+  {
+   "id": "right-inner-pads",
+   "name": "right-inner-pads",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "PD02",
+     "functions": [
+      "D18",
+      "A18",
+      "18"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "PA00",
+     "functions": [
+      "D17",
+      "A17",
+      "17",
+      "SPI1_SCK"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "PB01",
+     "functions": [
+      "D16",
+      "A16",
+      "16",
+      "SPI1_MISO"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "PB00",
+     "functions": [
+      "D15",
+      "A15",
+      "15",
+      "SPI1_MOSI"
+     ]
+    }
+   ],
+   "image": "media/9380b68e16fc9725d238f094dd8b0ba394bb4724eb68efc87ce797224cde5659.png"
+  },
+  {
+   "id": "battery-pads",
+   "name": "battery-pads",
+   "rows": 1,
+   "orderNote": "USB centered above; left to right.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "BAT-",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "BAT+",
+     "functions": []
+    }
+   ],
+   "image": "media/9380b68e16fc9725d238f094dd8b0ba394bb4724eb68efc87ce797224cde5659.png"
+  },
+  {
+   "id": "left-header-img2",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "PC00",
+     "functions": [
+      "D0",
+      "A0",
+      "0"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "PC01",
+     "functions": [
+      "D1",
+      "A1",
+      "1"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "PC02",
+     "functions": [
+      "D2",
+      "A2",
+      "2"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "PC03",
+     "functions": [
+      "D3",
+      "A3",
+      "3"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "PC04",
+     "functions": [
+      "D4",
+      "A4",
+      "4",
+      "I2C0_SDA"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "PC05",
+     "functions": [
+      "D5",
+      "A5",
+      "5",
+      "I2C0_SCL"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "PC06",
+     "functions": [
+      "D6",
+      "A6",
+      "6",
+      "UART_TX"
+     ]
+    }
+   ],
+   "image": "media/ea8361252836b753020fd1f7a811851c25ccb3f46de577554247561ac312fe3b.png"
+  },
+  {
+   "id": "right-header-img2",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "VBUS",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "3.3V-OUT",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "PA05",
+     "functions": [
+      "D10",
+      "A10",
+      "10",
+      "SPI0_MOSI"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "PA04",
+     "functions": [
+      "D9",
+      "A9",
+      "9",
+      "SPI0_MISO"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "PA03",
+     "functions": [
+      "D8",
+      "A8",
+      "8",
+      "SPI0_SCK"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "PC07",
+     "functions": [
+      "D7",
+      "A7",
+      "7",
+      "UART_RX"
+     ]
+    }
+   ],
+   "image": "media/ea8361252836b753020fd1f7a811851c25ccb3f46de577554247561ac312fe3b.png"
+  }
+ ],
+ "notes": "Shared rear artwork applies to both MG24 variants; front images inspected separately. On-board component callouts excluded.",
+ "unreadable": [],
+ "uncertain": []
+}

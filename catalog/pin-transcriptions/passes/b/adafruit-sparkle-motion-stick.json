@@ -1,0 +1,52 @@
+{
+  "recordId": "adafruit-sparkle-motion-stick",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/a44d2fe1660ac0c81cda611e56ea4fc94c10e740c421db8d75993554d80dc18d.png",
+      "sha256": "a44d2fe1660ac0c81cda611e56ea4fc94c10e740c421db8d75993554d80dc18d"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "screw-terminal",
+      "name": "4-pin screw terminal block",
+      "image": "media/a44d2fe1660ac0c81cda611e56ea4fc94c10e740c421db8d75993554d80dc18d.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical terminal block, both ends equidistant from the USB plug on the left, so started at the top as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "D21",
+          "functions": [
+            "21",
+            "VSPIHD"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "D22",
+          "functions": [
+            "22",
+            "VSPIWP",
+            "U0RTS"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "5V",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Labels use CircuitPython names; bare GPIO numbers (also the silkscreen spelling) placed first in functions. LED (4), IR (10), NEOPIXEL (18), BUTTON (0) and the I2S MIC signals (WS 12, DATA 13, BCLK 14) are internal and skipped. USB plug contacts are not labeled."
+}

@@ -1,0 +1,174 @@
+{
+  "recordId": "wemos-esp32-lolin-c3-mini-v1-0",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/809f465475509765a385ad5b1feaedbd807e6e62e56dd1b6ddc40a213d0b77b9.jpg",
+      "sha256": "809f465475509765a385ad5b1feaedbd807e6e62e56dd1b6ddc40a213d0b77b9"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/809f465475509765a385ad5b1feaedbd807e6e62e56dd1b6ddc40a213d0b77b9.jpg",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; started at end closest to USB-C connector (bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": [
+            "3.3v"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "5",
+          "functions": [
+            "GPIO5",
+            "SS",
+            "ADC2_0",
+            "FSPIWP",
+            "MTDI"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "4",
+          "functions": [
+            "GPIO4",
+            "MOSI",
+            "ADC1_4",
+            "FSPIHD",
+            "MTMS"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "3",
+          "functions": [
+            "GPIO3",
+            "MISO",
+            "ADC1_3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "2",
+          "functions": [
+            "GPIO2",
+            "SCK",
+            "ADC1_2",
+            "FSPIQ",
+            "BOOT"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "1",
+          "functions": [
+            "GPIO1",
+            "ADC1_1",
+            "XTAL_32K_N"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "0",
+          "functions": [
+            "GPIO0",
+            "ADC1_0",
+            "XTAL_32K_P"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "EN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/809f465475509765a385ad5b1feaedbd807e6e62e56dd1b6ddc40a213d0b77b9.jpg",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; started at end closest to USB-C connector (bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "6",
+          "functions": [
+            "GPIO6",
+            "FSPICLK",
+            "MOSI",
+            "MTCK"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "7",
+          "functions": [
+            "GPIO7",
+            "FSPID",
+            "SS",
+            "MTDO",
+            "BULTIN LED"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "8",
+          "functions": [
+            "GPIO8",
+            "SDA",
+            "LOG"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "10",
+          "functions": [
+            "GPIO10",
+            "SCL",
+            "FSPICS0",
+            "JTAG"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "RX",
+          "functions": [
+            "21",
+            "GPIO21",
+            "RXD 0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "TX",
+          "functions": [
+            "20",
+            "GPIO20",
+            "TXD 0"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Labels are the board silkscreen; functions are callout boxes reading outward from the pin (number boxes that repeat the silkscreen omitted). 'BULTIN LED' copied as printed. The '9 / GPIO9 / BOOT' callout points to the BOOT button, not a header pin, and was skipped; RST button skipped."
+}

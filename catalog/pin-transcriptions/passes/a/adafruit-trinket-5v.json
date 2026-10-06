@@ -1,0 +1,129 @@
+{
+  "recordId": "adafruit-trinket-5v",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/f07c5fb88c433df2ad9d8da8a23b79b4be853051d1e8156fd05b3212608de71a.png",
+      "sha256": "f07c5fb88c433df2ad9d8da8a23b79b4be853051d1e8156fd05b3212608de71a"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left pads",
+      "image": "media/f07c5fb88c433df2ad9d8da8a23b79b4be853051d1e8156fd05b3212608de71a.png",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; vertical row starts at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": [
+            "BAT",
+            "(5.5-16)V BATTERY"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "Gnd"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PB4",
+          "functions": [
+            "#4",
+            "4",
+            "PCINT4",
+            "OC1B",
+            "A2",
+            "USB"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PB3",
+          "functions": [
+            "#3",
+            "3",
+            "PCINT3",
+            "!OC1B",
+            "A3",
+            "USB"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "RESET",
+          "functions": [
+            "Rst"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right pads",
+      "image": "media/f07c5fb88c433df2ad9d8da8a23b79b4be853051d1e8156fd05b3212608de71a.png",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; vertical row starts at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBUS",
+          "functions": [
+            "USB",
+            "+USB (+5V 500mA)"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PB0",
+          "functions": [
+            "#0",
+            "0",
+            "PCINT0",
+            "OC0A/!OC1A",
+            "MOSI"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PB1",
+          "functions": [
+            "#1",
+            "1",
+            "PCINT1",
+            "OC0B/OC1A",
+            "MISO",
+            "LED"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PB2",
+          "functions": [
+            "#2",
+            "2",
+            "INT0/PCINT2",
+            "SCK",
+            "A1"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": [
+            "+5V (150mA) regulated from BAT"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Labels use the printed GPIO port names (PBn); Arduino numbers and silkscreen '#n' follow in functions. Image is low resolution (about 530 px wide); silkscreen spellings read from an upscale. "
+}

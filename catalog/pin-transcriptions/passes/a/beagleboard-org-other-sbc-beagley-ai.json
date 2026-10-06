@@ -1,0 +1,536 @@
+{
+  "recordId": "beagleboard-org-other-sbc-beagley-ai",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/0d1814586fc78ffaab8d58836d2965495b6d985815a257459b0762956371c945.png",
+      "sha256": "0d1814586fc78ffaab8d58836d2965495b6d985815a257459b0762956371c945"
+    },
+    {
+      "file": "media/ce5e8dd6b0ba6986c94839d234303abafbe0ceb7959a732a20011f9a5f4439f2.png",
+      "sha256": "ce5e8dd6b0ba6986c94839d234303abafbe0ceb7959a732a20011f9a5f4439f2"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "HAT",
+      "name": "40-pin HAT header",
+      "image": "media/0d1814586fc78ffaab8d58836d2965495b6d985815a257459b0762956371c945.png",
+      "rows": 2,
+      "orderNote": "Pin numbers printed (01-40, odd left column, even right column); positions follow printed numbers",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO2",
+          "functions": [
+            "SDA",
+            "I2C1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO3",
+          "functions": [
+            "SCL",
+            "I2C1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO4",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GPIO14",
+          "functions": [
+            "TXD",
+            "UART"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GPIO15",
+          "functions": [
+            "RXD",
+            "UART"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO17",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GPIO18",
+          "functions": [
+            "CLK",
+            "PCM"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO27",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GPIO22",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "GPIO23",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GPIO24",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GPIO10",
+          "functions": [
+            "MOSI",
+            "SPI0"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "GPIO9",
+          "functions": [
+            "MISO",
+            "SPI0"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "GPIO25",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "GPIO11",
+          "functions": [
+            "SCLK",
+            "SPI0"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "GPIO8",
+          "functions": [
+            "CE0",
+            "SPI0"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "GPIO7",
+          "functions": [
+            "CE1",
+            "SPI0"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "GPIO0",
+          "functions": [
+            "SDA",
+            "EEPROM"
+          ]
+        },
+        {
+          "position": 28,
+          "label": "GPIO1",
+          "functions": [
+            "SCL",
+            "EEPROM"
+          ]
+        },
+        {
+          "position": 29,
+          "label": "GPIO5",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 31,
+          "label": "GPIO6",
+          "functions": []
+        },
+        {
+          "position": 32,
+          "label": "GPIO12",
+          "functions": [
+            "PWM0"
+          ]
+        },
+        {
+          "position": 33,
+          "label": "GPIO13",
+          "functions": [
+            "PWM1"
+          ]
+        },
+        {
+          "position": 34,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 35,
+          "label": "GPIO19",
+          "functions": [
+            "FS",
+            "PCM"
+          ]
+        },
+        {
+          "position": 36,
+          "label": "GPIO16",
+          "functions": []
+        },
+        {
+          "position": 37,
+          "label": "GPIO26",
+          "functions": []
+        },
+        {
+          "position": 38,
+          "label": "GPIO20",
+          "functions": [
+            "DIN",
+            "PCM"
+          ]
+        },
+        {
+          "position": 39,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 40,
+          "label": "GPIO21",
+          "functions": [
+            "DOUT",
+            "PCM"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "HAT-img2",
+      "name": "40-pin HAT header",
+      "image": "media/ce5e8dd6b0ba6986c94839d234303abafbe0ceb7959a732a20011f9a5f4439f2.png",
+      "rows": 2,
+      "orderNote": "Pin numbers printed (01-40, odd left column, even right column); positions follow printed numbers",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO2",
+          "functions": [
+            "SDA",
+            "I2C1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO3",
+          "functions": [
+            "SCL",
+            "I2C1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO4",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GPIO14",
+          "functions": [
+            "TXD",
+            "UART"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GPIO15",
+          "functions": [
+            "RXD",
+            "UART"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO17",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GPIO18",
+          "functions": [
+            "CLK",
+            "PCM"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO27",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GPIO22",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "GPIO23",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GPIO24",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GPIO10",
+          "functions": [
+            "MOSI",
+            "SPI0"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "GPIO9",
+          "functions": [
+            "MISO",
+            "SPI0"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "GPIO25",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "GPIO11",
+          "functions": [
+            "SCLK",
+            "SPI0"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "GPIO8",
+          "functions": [
+            "CE0",
+            "SPI0"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "GPIO7",
+          "functions": [
+            "CE1",
+            "SPI0"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "GPIO0",
+          "functions": [
+            "SDA",
+            "EEPROM"
+          ]
+        },
+        {
+          "position": 28,
+          "label": "GPIO1",
+          "functions": [
+            "SCL",
+            "EEPROM"
+          ]
+        },
+        {
+          "position": 29,
+          "label": "GPIO5",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 31,
+          "label": "GPIO6",
+          "functions": []
+        },
+        {
+          "position": 32,
+          "label": "GPIO12",
+          "functions": [
+            "PWM0"
+          ]
+        },
+        {
+          "position": 33,
+          "label": "GPIO13",
+          "functions": [
+            "PWM1"
+          ]
+        },
+        {
+          "position": 34,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 35,
+          "label": "GPIO19",
+          "functions": [
+            "FS",
+            "PCM"
+          ]
+        },
+        {
+          "position": 36,
+          "label": "GPIO16",
+          "functions": []
+        },
+        {
+          "position": 37,
+          "label": "GPIO26",
+          "functions": []
+        },
+        {
+          "position": 38,
+          "label": "GPIO20",
+          "functions": [
+            "DIN",
+            "PCM"
+          ]
+        },
+        {
+          "position": 39,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 40,
+          "label": "GPIO21",
+          "functions": [
+            "DOUT",
+            "PCM"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Both images show the same 40-pin HAT header pinout; transcribed separately per image. Other connectors drawn on the board illustration have no pin labels and are skipped. Slashed zeros distinguish 0 from O."
+}

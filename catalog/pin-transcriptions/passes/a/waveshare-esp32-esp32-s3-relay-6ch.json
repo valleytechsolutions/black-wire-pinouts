@@ -1,0 +1,605 @@
+{
+  "recordId": "waveshare-esp32-esp32-s3-relay-6ch",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/f5aea5c7a2159c8e07d07652f770da1a463ae02da85c2c3ba2e0c1f1c7c200df.webp",
+      "sha256": "f5aea5c7a2159c8e07d07652f770da1a463ae02da85c2c3ba2e0c1f1c7c200df"
+    },
+    {
+      "file": "media/38fdb2f6b11cbd10a5cd18e62117f3be4c2c3b26504db35a5a604bc6dd6a443a.jpg",
+      "sha256": "38fdb2f6b11cbd10a5cd18e62117f3be4c2c3b26504db35a5a604bc6dd6a443a"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Pico HAT 40PIN header, left column (diagram)",
+      "image": "media/f5aea5c7a2159c8e07d07652f770da1a463ae02da85c2c3ba2e0c1f1c7c200df.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row in the pinout diagram, started at the top (the end with the USB marking)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VSYS",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GPIO10",
+          "functions": [
+            "IO10"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO9",
+          "functions": [
+            "IO9"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO8",
+          "functions": [
+            "IO8"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO7",
+          "functions": [
+            "IO7"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GPIO6",
+          "functions": [
+            "IO6"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO5",
+          "functions": [
+            "IO5"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO4",
+          "functions": [
+            "IO4"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO40",
+          "functions": [
+            "IO40"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO39",
+          "functions": [
+            "IO39"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GPIO3",
+          "functions": [
+            "IO3"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO21",
+          "functions": [
+            "IO21"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Pico HAT 40PIN header, right column (diagram)",
+      "image": "media/f5aea5c7a2159c8e07d07652f770da1a463ae02da85c2c3ba2e0c1f1c7c200df.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row in the pinout diagram, started at the top (the end with the USB marking)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "TXD",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "RXD",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO13",
+          "functions": [
+            "IO13"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO14",
+          "functions": [
+            "IO14"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO15",
+          "functions": [
+            "IO15"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO16",
+          "functions": [
+            "IO16"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO47",
+          "functions": [
+            "IO47"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO48",
+          "functions": [
+            "IO48"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO17",
+          "functions": [
+            "IO17"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO18",
+          "functions": [
+            "IO18"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO35",
+          "functions": [
+            "IO35"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO36",
+          "functions": [
+            "IO36"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO37",
+          "functions": [
+            "IO37"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO38",
+          "functions": [
+            "IO38"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GPIO11",
+          "functions": [
+            "IO11"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO12",
+          "functions": [
+            "IO12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rs485-terminal",
+      "name": "RS485 screw terminal (photo, bottom edge)",
+      "image": "media/f5aea5c7a2159c8e07d07652f770da1a463ae02da85c2c3ba2e0c1f1c7c200df.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row, started at the left end (closest to the USB-C connector in the photo)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A+",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "B-",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Pico HAT 40PIN header, left column (diagram)",
+      "image": "media/38fdb2f6b11cbd10a5cd18e62117f3be4c2c3b26504db35a5a604bc6dd6a443a.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row in the pinout diagram, started at the top (the end with the USB marking)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VSYS",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GPIO10",
+          "functions": [
+            "IO10"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO9",
+          "functions": [
+            "IO9"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO8",
+          "functions": [
+            "IO8"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO7",
+          "functions": [
+            "IO7"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GPIO6",
+          "functions": [
+            "IO6"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO5",
+          "functions": [
+            "IO5"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO4",
+          "functions": [
+            "IO4"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO40",
+          "functions": [
+            "IO40"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO39",
+          "functions": [
+            "IO39"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GPIO3",
+          "functions": [
+            "IO3"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO21",
+          "functions": [
+            "IO21"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Pico HAT 40PIN header, right column (diagram)",
+      "image": "media/38fdb2f6b11cbd10a5cd18e62117f3be4c2c3b26504db35a5a604bc6dd6a443a.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row in the pinout diagram, started at the top (the end with the USB marking)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "TXD",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "RXD",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO13",
+          "functions": [
+            "IO13"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO14",
+          "functions": [
+            "IO14"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO15",
+          "functions": [
+            "IO15"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO16",
+          "functions": [
+            "IO16"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO47",
+          "functions": [
+            "IO47"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO48",
+          "functions": [
+            "IO48"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO17",
+          "functions": [
+            "IO17"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO18",
+          "functions": [
+            "IO18"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO35",
+          "functions": [
+            "IO35"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO36",
+          "functions": [
+            "IO36"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO37",
+          "functions": [
+            "IO37"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO38",
+          "functions": [
+            "IO38"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GPIO11",
+          "functions": [
+            "IO11"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO12",
+          "functions": [
+            "IO12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rs485-terminal-img2",
+      "name": "RS485 screw terminal (photo, bottom edge)",
+      "image": "media/38fdb2f6b11cbd10a5cd18e62117f3be4c2c3b26504db35a5a604bc6dd6a443a.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row, started at the left end (closest to the USB-C connector in the photo)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A+",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "B-",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Header labels read from the 40-pin pinout diagram (outer coloured labels as label, inner board silkscreen IOxx as first function). The diagram's 'USB' box is the board's silkscreen orientation mark. The side table maps GPIO0=BOOT Button, GPIO21=BUZZER, GPIO38=RGB, GPIO17=TXD (UART TX to RS485), GPIO18=RXD (UART RX to RS485), GPIO1/2/41/42/45/46=Relay CH1-CH6, VSYS=Power Input; these are not attached to header pins in the drawing so they are not added as pin functions. Skipped: DC 7~36V screw terminal (only +/- marks) and the 18 relay screw terminals (only channel numbers 1-6, no per-terminal labels). Image 2 is the same artwork at a slightly different size; transcribed separately per rule 11."
+}

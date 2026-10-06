@@ -1,0 +1,416 @@
+{
+  "recordId": "adafruit-rp2350-fruit-jam-mini-rp2350-computer",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/ee87d75b87aad2381b550f281df4086935528f36246a2c7daeac49eef8b18916.png",
+      "sha256": "ee87d75b87aad2381b550f281df4086935528f36246a2c7daeac49eef8b18916"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "gpio-header",
+      "name": "2x16 GPIO header",
+      "image": "media/ee87d75b87aad2381b550f281df4086935528f36246a2c7daeac49eef8b18916.png",
+      "rows": 2,
+      "orderNote": "No printed pin numbers; labels read from the vertical inset (no USB), start at top. 2xN rule: outer row first = inset left column (board view shows silkscreen 5V 3V GND A1... printed along the inner row matching the inset right column), alternating left/right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5.0V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5.0V",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3.3V",
+          "functions": [
+            "3V"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GPIO41",
+          "functions": [
+            "A1",
+            "CSn1",
+            "RX1",
+            "SCL0",
+            "PWM8B",
+            "ADC1"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO22",
+          "functions": [
+            "PERIPH_RST",
+            "SCK0",
+            "CTS1",
+            "SDA1",
+            "PWM3A"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO42",
+          "functions": [
+            "A2",
+            "SCK1",
+            "CTS1",
+            "SDA1",
+            "PWM9A",
+            "ADC2"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO30",
+          "functions": [
+            "SCK",
+            "SCK1",
+            "CTS0",
+            "SDA1",
+            "PWM7A"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO43",
+          "functions": [
+            "A3",
+            "TX1",
+            "RTS1",
+            "SCL1",
+            "PWM9B",
+            "ADC3"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO28",
+          "functions": [
+            "MISO",
+            "RX1",
+            "TX0",
+            "SDA0",
+            "PWM6A"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO44",
+          "functions": [
+            "A4",
+            "RX1",
+            "TX0",
+            "SDA0",
+            "PWM10A",
+            "ADC4"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO31",
+          "functions": [
+            "MOSI",
+            "TX1",
+            "RTS0",
+            "SCL1",
+            "PWM7B"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO45",
+          "functions": [
+            "A5",
+            "CSn1",
+            "RX0",
+            "SCL0",
+            "PWM10B",
+            "ADC5"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "D+3",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GPIO6",
+          "functions": [
+            "D6",
+            "SCK0",
+            "CTS1",
+            "SDA1",
+            "PWM3A"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "D-3",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "GPIO7",
+          "functions": [
+            "D7",
+            "TX0",
+            "RTS1",
+            "SCL1",
+            "PWM3B"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "GPIO0",
+          "functions": [
+            "BUTTON1",
+            "RX0",
+            "TX0",
+            "SDA0",
+            "PWM0A"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "GPIO8",
+          "functions": [
+            "D8",
+            "RX1",
+            "TX1",
+            "SDA0",
+            "PWM4A"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "GPIO20",
+          "functions": [
+            "SDA",
+            "RX0",
+            "TX1",
+            "SDA0",
+            "PWM2A"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "GPIO9",
+          "functions": [
+            "D9",
+            "CSn1",
+            "RX1",
+            "SCL0",
+            "PWM4B"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "GPIO21",
+          "functions": [
+            "SCL",
+            "CSn0",
+            "RX1",
+            "SCL0",
+            "PWM2B"
+          ]
+        },
+        {
+          "position": 26,
+          "label": "GPIO10",
+          "functions": [
+            "10",
+            "D10",
+            "SCK1",
+            "CTS1",
+            "SDA1",
+            "PWM5A"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 28,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 29,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "3.3V",
+          "functions": [
+            "3V"
+          ]
+        },
+        {
+          "position": 31,
+          "label": "5.0V",
+          "functions": []
+        },
+        {
+          "position": 32,
+          "label": "5.0V",
+          "functions": [
+            "5V"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stemma-qt",
+      "name": "STEMMA QT / I2C connector",
+      "image": "media/ee87d75b87aad2381b550f281df4086935528f36246a2c7daeac49eef8b18916.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal connector, end closest to USB-C (left, black wire) first; wires black, red, blue, yellow",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO20",
+          "functions": [
+            "SDA",
+            "RX0",
+            "TX1",
+            "SDA0",
+            "PWM2A"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO21",
+          "functions": [
+            "SCL",
+            "CSn0",
+            "RX1",
+            "SCL0",
+            "PWM2B"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a0-port",
+      "name": "3-pin A0 JST connector",
+      "image": "media/ee87d75b87aad2381b550f281df4086935528f36246a2c7daeac49eef8b18916.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal connector, end closest to USB-C (right, black dot) first; dots white, red, black left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO40",
+          "functions": [
+            "A0",
+            "RX1",
+            "TX1",
+            "SDA0",
+            "PWM8A",
+            "ADC0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "debug",
+      "name": "SWD debug connector",
+      "image": "media/ee87d75b87aad2381b550f281df4086935528f36246a2c7daeac49eef8b18916.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; labels read from vertical inset connector drawing (no USB), read from top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SWDIO",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SWCLK",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "speaker",
+      "name": "Speaker JST connector",
+      "image": "media/ee87d75b87aad2381b550f281df4086935528f36246a2c7daeac49eef8b18916.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical inset connector drawing (no USB), read from top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SPKN",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SPKP",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Skipped: USB HOST lines (GND, USB_HOST_DATA_PLUS, USB_HOST_DATA_MINUS, USB_HOST_5V_POWER) lead to an abstract USB HOST block with no physical pin positions; MicroSD, ESP32 (ESP_*), I2S/headphone, HSTX/DVI, LED, IR, NEOPIXEL and BUTTON labels are internal or on-board signals, not wiring points. Silkscreen spellings (5V, 3V, 10) taken from the board-view silkscreen along the header's inner row."
+}

@@ -1,0 +1,190 @@
+{
+  "recordId": "adafruit-esp32-mini-sparkle-motion",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/c53a06cf3b54e6f7298b64938e2b0817a0028bca120c1456d8e1732fbfebc4bb.png",
+      "sha256": "c53a06cf3b54e6f7298b64938e2b0817a0028bca120c1456d8e1732fbfebc4bb"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "top-header",
+      "name": "2x3 header (top right)",
+      "image": "media/c53a06cf3b54e6f7298b64938e2b0817a0028bca120c1456d8e1732fbfebc4bb.png",
+      "rows": 2,
+      "orderNote": "No pin numbers; 2xN rule: outer row = right column (nearer board edge), start end = bottom (closer to USB connector), alternating rows",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RX",
+          "functions": [
+            "26",
+            "ADC2_CH9",
+            "RTC7",
+            "DAC2"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "TX",
+          "functions": [
+            "25",
+            "ADC2_CH8",
+            "RTC6",
+            "DAC1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "D27",
+          "functions": [
+            "27",
+            "ADC2_CH7",
+            "T7",
+            "RTC17"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D14",
+          "functions": [
+            "14",
+            "ADC2_CH6",
+            "HSPICLK",
+            "HS2_CLK",
+            "T6",
+            "RTC16",
+            "MTMS"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right terminal pads",
+      "image": "media/c53a06cf3b54e6f7298b64938e2b0817a0028bca120c1456d8e1732fbfebc4bb.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; both ends equidistant from USB connector, so started at top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D33",
+          "functions": [
+            "33",
+            "ADC1_CH5",
+            "T8",
+            "RTC8",
+            "32K XN"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "D32",
+          "functions": [
+            "32",
+            "ADC1_CH4",
+            "T9",
+            "RTC9",
+            "32K XP"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "5V",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "jst-port",
+      "name": "3-pin JST connector (bottom)",
+      "image": "media/c53a06cf3b54e6f7298b64938e2b0817a0028bca120c1456d8e1732fbfebc4bb.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row, started at end closest to USB connector (left)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A0",
+          "functions": [
+            "13",
+            "ADC2_CH4",
+            "HSPID",
+            "HS2_DATA3",
+            "T4",
+            "RTC14",
+            "MTCK"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "i2c-port",
+      "name": "I2C (STEMMA QT style) connector",
+      "image": "media/c53a06cf3b54e6f7298b64938e2b0817a0028bca120c1456d8e1732fbfebc4bb.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row, started at end closest to USB connector (left)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SDA",
+          "functions": [
+            "19",
+            "VSPIQ",
+            "U0CTS"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "SCL",
+          "functions": [
+            "22",
+            "VSPIWP",
+            "U0RTS"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Button, NeoPixel, I2S mic and LED skipped. Labels use CircuitPython names; bare GPIO numbers placed first in functions."
+}

@@ -1,0 +1,22 @@
+{
+  "recordId": "lilygo-expansion-t-u2t",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "no-connector-map",
+  "images": [
+    {
+      "file": "media/14ac4b37f22a38ba802e7ac7bdcd618163d44853ee79eef4c913f0bba04fe023.jpg",
+      "sha256": "14ac4b37f22a38ba802e7ac7bdcd618163d44853ee79eef4c913f0bba04fe023"
+    },
+    {
+      "file": "media/9d44341ec992ae0de39122422dc272d31bc3025977f19681756173ab5f1db427.jpg",
+      "sha256": "9d44341ec992ae0de39122422dc272d31bc3025977f19681756173ab5f1db427"
+    }
+  ],
+  "connectors": [],
+  "unreadable": [],
+  "uncertain": [
+    "The USB-C plug contact table labels each contact individually (A1..A12, B1..B12 with GND/VBUS/RST/IO0/RX/TX); a reviewer may prefer to transcribe it as a connector under rule 1, but the image draws no contact positions, so it was treated as a function table (rule 8)."
+  ],
+  "notes": "Both images show the same artwork (Chinese and English notes): the T-U2T USB-to-TTL adapter plugged into a LilyGO e-paper board, a Board-to-T-U2T UART wiring table (IO1/TX-RX, IO3/RX-TX, GND-GND), and a USB-C male plug drawing with a contact table (A1 GND, B12 GND, A4 VBUS, B9 VBUS, B8 RST, A5 IO0, B7 RX, A6 TX, A7 RX, B6 TX, A8 RST, B5 IO0, B4 VBUS, A9 VBUS, B1 GND, A12 GND). No pin header, pads or contacts are drawn at physical positions; the only connector is the USB-C plug (rule 1), so no connector map is recorded."
+}

@@ -1,0 +1,108 @@
+{
+  "recordId": "waveshare-rp2350-rp2350-touch-lcd-4-3b",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/e0d237e8c9488dc52d9d947c6c2911d66e7e90b30f9b85558e10ec8c898eb1ba.jpg",
+      "sha256": "e0d237e8c9488dc52d9d947c6c2911d66e7e90b30f9b85558e10ec8c898eb1ba"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "screw-terminal",
+      "name": "Left screw terminal block",
+      "image": "media/e0d237e8c9488dc52d9d947c6c2911d66e7e90b30f9b85558e10ec8c898eb1ba.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VIN",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VOUT",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "CAN-L",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "CAN-H",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "RS485-B",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "RS485-A",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "DO0",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "DO1",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "D1 COM",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "DI0",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "DI1",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Position 13 board callout reads 'D1 COM' (glyph after D has a flag like a 1), while the connection diagrams in the same image print 'DI COM'; transcribed as printed on the callout"
+  ],
+  "notes": "Terminal labels read from the green callouts beside the board photo. Peripheral photo panels and connection diagrams are illustrative and not separate connectors. Small white connector near the RTC battery and other on-board items have no individual pin labels and were skipped. Terminal treated as one continuous 16-position block as drawn."
+}

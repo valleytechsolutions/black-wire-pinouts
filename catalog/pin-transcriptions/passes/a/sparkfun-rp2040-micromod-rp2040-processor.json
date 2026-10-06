@@ -1,0 +1,514 @@
+{
+ "recordId": "sparkfun-rp2040-micromod-rp2040-processor",
+ "pass": "a",
+ "date": "2026-10-04",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/2a6ec51903e95792330194420beac48fdc89b9fabef9c05bf6aa018df6e4554c.png",
+   "sha256": "2a6ec51903e95792330194420beac48fdc89b9fabef9c05bf6aa018df6e4554c"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "m2-edge",
+   "name": "MicroMod M.2 card-edge connector (odd pins top of board, even pins bottom of board)",
+   "image": "media/2a6ec51903e95792330194420beac48fdc89b9fabef9c05bf6aa018df6e4554c.png",
+   "rows": 2,
+   "orderNote": "Connector pin numbers 1-75 printed beside each contact; positions follow them (odd numbers on Top of Board view, even on Bottom of Board view).",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "3.3V",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "USB_D+",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "USB_D-",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "RESET",
+     "functions": [
+      "I - Open Drain"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "USB VIN",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "GPIO6",
+     "functions": [
+      "D0"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "BOOT",
+     "functions": [
+      "I - Open Drain"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "GPIO4",
+     "functions": [
+      "I2C_SDA"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "GPIO3",
+     "functions": [
+      "UART_RTS1",
+      "AUD_BCLK"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "GPIO5",
+     "functions": [
+      "I2C_SCL"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "GPIO2",
+     "functions": [
+      "UART_CTS1",
+      "AUD_LRCLK"
+     ]
+    },
+    {
+     "position": 16,
+     "label": "GPIO8",
+     "functions": [
+      "I2C_INT",
+      "TX2"
+     ]
+    },
+    {
+     "position": 17,
+     "label": "GPIO0",
+     "functions": [
+      "UART_TX1"
+     ]
+    },
+    {
+     "position": 18,
+     "label": "GPIO7",
+     "functions": [
+      "D1"
+     ]
+    },
+    {
+     "position": 19,
+     "label": "GPIO1",
+     "functions": [
+      "UART_RX1"
+     ]
+    },
+    {
+     "position": 20,
+     "label": "GPIO9",
+     "functions": [
+      "SDIO_DAT3",
+      "SPI_CS1",
+      "RX2"
+     ]
+    },
+    {
+     "position": 21,
+     "label": "SWDCK",
+     "functions": []
+    },
+    {
+     "position": 22,
+     "label": "GPIO8",
+     "functions": [
+      "I2C_INT",
+      "TX2"
+     ]
+    },
+    {
+     "position": 23,
+     "label": "SWDIO",
+     "functions": []
+    },
+    {
+     "position": 24,
+     "label": "Module Key",
+     "functions": []
+    },
+    {
+     "position": 25,
+     "label": "Module Key",
+     "functions": []
+    },
+    {
+     "position": 26,
+     "label": "Module Key",
+     "functions": []
+    },
+    {
+     "position": 27,
+     "label": "Module Key",
+     "functions": []
+    },
+    {
+     "position": 28,
+     "label": "Module Key",
+     "functions": []
+    },
+    {
+     "position": 29,
+     "label": "Module Key",
+     "functions": []
+    },
+    {
+     "position": 30,
+     "label": "Module Key",
+     "functions": []
+    },
+    {
+     "position": 31,
+     "label": "Module Key",
+     "functions": []
+    },
+    {
+     "position": 32,
+     "label": "GPIO13",
+     "functions": [
+      "PWM0"
+     ]
+    },
+    {
+     "position": 33,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 34,
+     "label": "GPIO26",
+     "functions": [
+      "ADC0"
+     ]
+    },
+    {
+     "position": 35,
+     "label": "USBHOST_D+",
+     "functions": []
+    },
+    {
+     "position": 36,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 37,
+     "label": "USBHOST_D-",
+     "functions": []
+    },
+    {
+     "position": 38,
+     "label": "GPIO27",
+     "functions": [
+      "ADC1"
+     ]
+    },
+    {
+     "position": 39,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 40,
+     "label": "GPIO16",
+     "functions": [
+      "G0"
+     ]
+    },
+    {
+     "position": 41,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 42,
+     "label": "GPIO17",
+     "functions": [
+      "G1"
+     ]
+    },
+    {
+     "position": 43,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 44,
+     "label": "GPIO18",
+     "functions": [
+      "G2"
+     ]
+    },
+    {
+     "position": 45,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 46,
+     "label": "GPIO19",
+     "functions": [
+      "G3"
+     ]
+    },
+    {
+     "position": 47,
+     "label": "GPIO24",
+     "functions": [
+      "PWM1",
+      "AUD_MCLK"
+     ]
+    },
+    {
+     "position": 48,
+     "label": "GPIO20",
+     "functions": [
+      "SPI_CIPO",
+      "G4"
+     ]
+    },
+    {
+     "position": 49,
+     "label": "BATT_VIN/3",
+     "functions": []
+    },
+    {
+     "position": 50,
+     "label": "GPIO3",
+     "functions": [
+      "RTS1",
+      "AUD_BCLK"
+     ]
+    },
+    {
+     "position": 51,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 52,
+     "label": "GPIO2",
+     "functions": [
+      "CTS1",
+      "AUD_LRCLK"
+     ]
+    },
+    {
+     "position": 53,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 54,
+     "label": "GPIO11",
+     "functions": [
+      "SDIO_DAT1",
+      "AUD_IN"
+     ]
+    },
+    {
+     "position": 55,
+     "label": "GPIO21",
+     "functions": [
+      "SPI_CS",
+      "G5"
+     ]
+    },
+    {
+     "position": 56,
+     "label": "GPIO10",
+     "functions": [
+      "SDIO_DAT2",
+      "AUD_OUT"
+     ]
+    },
+    {
+     "position": 57,
+     "label": "GPIO22",
+     "functions": [
+      "SPI_SCK",
+      "G6"
+     ]
+    },
+    {
+     "position": 58,
+     "label": "GPIO24",
+     "functions": [
+      "PWM1",
+      "AUD_MCLK"
+     ]
+    },
+    {
+     "position": 59,
+     "label": "GPIO23",
+     "functions": [
+      "SPI_COPI",
+      "G7"
+     ]
+    },
+    {
+     "position": 60,
+     "label": "GPIO14",
+     "functions": [
+      "SPI SCK1",
+      "SDIO_SCK"
+     ]
+    },
+    {
+     "position": 61,
+     "label": "GPIO20",
+     "functions": [
+      "SPI_CIPO",
+      "G4"
+     ]
+    },
+    {
+     "position": 62,
+     "label": "GPIO15",
+     "functions": [
+      "SPI_COPI1",
+      "SDIO_CMD"
+     ]
+    },
+    {
+     "position": 63,
+     "label": "GPIO25",
+     "functions": [
+      "G10"
+     ]
+    },
+    {
+     "position": 64,
+     "label": "GPIO12",
+     "functions": [
+      "SPI_CIPO1",
+      "SDIO_DATA0"
+     ]
+    },
+    {
+     "position": 65,
+     "label": "GPIO28",
+     "functions": [
+      "G9"
+     ]
+    },
+    {
+     "position": 66,
+     "label": "GPIO11",
+     "functions": [
+      "SDIO_DATA1",
+      "AUD_IN"
+     ]
+    },
+    {
+     "position": 67,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 68,
+     "label": "GPIO10",
+     "functions": [
+      "SDIO_DATA2",
+      "AUD_OUT"
+     ]
+    },
+    {
+     "position": 69,
+     "label": "GPIO23",
+     "functions": [
+      "SPI_COPI",
+      "G7"
+     ]
+    },
+    {
+     "position": 70,
+     "label": "GPIO9",
+     "functions": [
+      "SDIO_DATA3",
+      "SPI_CS1",
+      "RX2"
+     ]
+    },
+    {
+     "position": 71,
+     "label": "GPIO22",
+     "functions": [
+      "SPI_SCK",
+      "G6"
+     ]
+    },
+    {
+     "position": 72,
+     "label": "3.3V",
+     "functions": []
+    },
+    {
+     "position": 73,
+     "label": "GPIO21",
+     "functions": [
+      "SPI_CS",
+      "G5"
+     ]
+    },
+    {
+     "position": 74,
+     "label": "3.3V",
+     "functions": []
+    },
+    {
+     "position": 75,
+     "label": "GND",
+     "functions": []
+    }
+   ]
+  }
+ ],
+ "unreadable": [
+  "Pins 67, 53, 51, 43, 41 (top) and 8, 4 (bottom) have a printed number but no name (unlabeled), recorded as '?'."
+ ],
+ "uncertain": [],
+ "notes": "Pins 24-31 are labeled 'Module Key' (key notch positions) and kept so numbering stays physical. SPI_CS on pins 73/55 is printed with an overline over CS. 'SPI SCK1' (pin 60) printed without the underscore. Small '(I - Open Drain)' notes on BOOT (11) and RESET (6) recorded as functions. GPIO8 appears on pins 22 and 16 and GPIO9 on 70 and 20, as printed."
+}

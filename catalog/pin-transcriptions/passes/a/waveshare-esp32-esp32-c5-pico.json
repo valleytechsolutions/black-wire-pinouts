@@ -1,0 +1,701 @@
+{
+  "recordId": "waveshare-esp32-esp32-c5-pico",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/695a488243b2ffb0f377be85c08ad206b56d98fbc34b5918896b07fa26135c30.jpg",
+      "sha256": "695a488243b2ffb0f377be85c08ad206b56d98fbc34b5918896b07fa26135c30"
+    },
+    {
+      "file": "media/cea8ba576630f80bf097ad749d3b4c9407ab0446baa52e5de7492a188b20fc5b.webp",
+      "sha256": "cea8ba576630f80bf097ad749d3b4c9407ab0446baa52e5de7492a188b20fc5b"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/695a488243b2ffb0f377be85c08ad206b56d98fbc34b5918896b07fa26135c30.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB-C at top, so position 1 is the top pad (closest to USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VSYS",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3_EN",
+          "functions": [
+            "EN"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "3V3_OUT",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO28",
+          "functions": [
+            "GP28",
+            "BOOT"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO27",
+          "functions": [
+            "GP27",
+            "ROM",
+            "RGB_LED"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO26",
+          "functions": [
+            "GP26",
+            "STRAP"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "RESET/CHIP_PU",
+          "functions": [
+            "RUN"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO25",
+          "functions": [
+            "GP25",
+            "SDIO"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO24",
+          "functions": [
+            "GP24",
+            "I2C_SCL"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO23",
+          "functions": [
+            "GP23",
+            "I2C_SDA"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "EXIO3",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "EXIO4",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "EXIO5",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "EXIO6",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/695a488243b2ffb0f377be85c08ad206b56d98fbc34b5918896b07fa26135c30.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB-C at top, so position 1 is the top pad (closest to USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO0",
+          "functions": [
+            "GP0",
+            "U0TXD",
+            "LP_GPIO0",
+            "LP_UART_DTRN"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO1",
+          "functions": [
+            "GP1",
+            "U0TXD",
+            "LP_GPIO1",
+            "ADC1_CH0"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO2",
+          "functions": [
+            "GP2",
+            "MTMS",
+            "ADC1_CH1",
+            "LP_I2C_SDA",
+            "STRAP"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO3",
+          "functions": [
+            "GP3",
+            "MTDI",
+            "ADC1_CH2",
+            "LP_I2C_SCL",
+            "SDIO"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO4",
+          "functions": [
+            "GP4",
+            "MTCK",
+            "ADC1_CH3",
+            "FSPIHD"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO5",
+          "functions": [
+            "GP5",
+            "MTDO",
+            "ADC1_CH4",
+            "FSPIWP"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO6",
+          "functions": [
+            "GP6",
+            "BAT_ADC",
+            "ADC1_CH5",
+            "FSPICLK"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO7",
+          "functions": [
+            "GP7",
+            "SDIO_DATA1",
+            "JTAG",
+            "FSPID"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO8",
+          "functions": [
+            "GP8",
+            "SDIO_DATA0",
+            "PAD_COMP0"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO9",
+          "functions": [
+            "GP9",
+            "SDIO_CLK",
+            "PAD_COMP1"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO10",
+          "functions": [
+            "GP10",
+            "SDIO_CMD",
+            "FSPICS0"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO11",
+          "functions": [
+            "GP11",
+            "TX0"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO12",
+          "functions": [
+            "GP12",
+            "RX0"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO15",
+          "functions": [
+            "GP15",
+            "SPICS1"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "EXIO1",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "EXIO2",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "usb-pads",
+      "name": "D-/D+ pads below the USB-C connector",
+      "image": "media/695a488243b2ffb0f377be85c08ad206b56d98fbc34b5918896b07fa26135c30.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal pair beside the USB with neither end nearer, read left to right.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D-",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "D+",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "boot-pad",
+      "name": "BOOT pad",
+      "image": "media/695a488243b2ffb0f377be85c08ad206b56d98fbc34b5918896b07fa26135c30.jpg",
+      "rows": 1,
+      "orderNote": "Single pad.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BOOT",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left header",
+      "image": "media/cea8ba576630f80bf097ad749d3b4c9407ab0446baa52e5de7492a188b20fc5b.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB-C at top, so position 1 is the top pad (closest to USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VSYS",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3_EN",
+          "functions": [
+            "EN"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "3V3_OUT",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO28",
+          "functions": [
+            "GP28",
+            "BOOT"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO27",
+          "functions": [
+            "GP27",
+            "ROM",
+            "RGB_LED"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO26",
+          "functions": [
+            "GP26",
+            "STRAP"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "RESET/CHIP_PU",
+          "functions": [
+            "RUN"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO25",
+          "functions": [
+            "GP25",
+            "SDIO"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO24",
+          "functions": [
+            "GP24",
+            "I2C_SCL"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO23",
+          "functions": [
+            "GP23",
+            "I2C_SDA"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "EXIO3",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "EXIO4",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "EXIO5",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "EXIO6",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Right header",
+      "image": "media/cea8ba576630f80bf097ad749d3b4c9407ab0446baa52e5de7492a188b20fc5b.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB-C at top, so position 1 is the top pad (closest to USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO0",
+          "functions": [
+            "GP0",
+            "U0TXD",
+            "LP_GPIO0",
+            "LP_UART_DTRN"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO1",
+          "functions": [
+            "GP1",
+            "U0TXD",
+            "LP_GPIO1",
+            "ADC1_CH0"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO2",
+          "functions": [
+            "GP2",
+            "MTMS",
+            "ADC1_CH1",
+            "LP_I2C_SDA",
+            "STRAP"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO3",
+          "functions": [
+            "GP3",
+            "MTDI",
+            "ADC1_CH2",
+            "LP_I2C_SCL",
+            "SDIO"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO4",
+          "functions": [
+            "GP4",
+            "MTCK",
+            "ADC1_CH3",
+            "FSPIHD"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO5",
+          "functions": [
+            "GP5",
+            "MTDO",
+            "ADC1_CH4",
+            "FSPIWP"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO6",
+          "functions": [
+            "GP6",
+            "BAT_ADC",
+            "ADC1_CH5",
+            "FSPICLK"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO7",
+          "functions": [
+            "GP7",
+            "SDIO_DATA1",
+            "JTAG",
+            "FSPID"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO8",
+          "functions": [
+            "GP8",
+            "SDIO_DATA0",
+            "PAD_COMP0"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO9",
+          "functions": [
+            "GP9",
+            "SDIO_CLK",
+            "PAD_COMP1"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO10",
+          "functions": [
+            "GP10",
+            "SDIO_CMD",
+            "FSPICS0"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO11",
+          "functions": [
+            "GP11",
+            "TX0"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO12",
+          "functions": [
+            "GP12",
+            "RX0"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO15",
+          "functions": [
+            "GP15",
+            "SPICS1"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "EXIO1",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "EXIO2",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "usb-pads-img2",
+      "name": "D-/D+ pads below the USB-C connector",
+      "image": "media/cea8ba576630f80bf097ad749d3b4c9407ab0446baa52e5de7492a188b20fc5b.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal pair beside the USB with neither end nearer, read left to right.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D-",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "D+",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "boot-pad-img2",
+      "name": "BOOT pad",
+      "image": "media/cea8ba576630f80bf097ad749d3b4c9407ab0446baa52e5de7492a188b20fc5b.webp",
+      "rows": 1,
+      "orderNote": "Single pad.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BOOT",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "boot-pad / boot-pad-img2: a single square pad printed BOOT; the image does not show whether it is a wiring/test pad or a button footprint (buttons are skipped under rule 1)."
+  ],
+  "notes": "Both images show the same pinout artwork (board underside, USB-C at top); each is transcribed separately per rule 11. Labels use the GPIO/power callouts; silkscreen spellings (GP28, EN, RUN...) first in functions, then callouts outward from the pin. GP1's serial callout is printed 'U0TXD' (same as GP0) and is recorded as printed. STRAP/SDIO/ROM boxes printed beside individual pins are kept as functions; PWM wave icons omitted."
+}

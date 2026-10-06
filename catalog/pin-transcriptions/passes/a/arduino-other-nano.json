@@ -1,0 +1,839 @@
+{
+  "recordId": "arduino-other-nano",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/2c4b64d631fbc87322b4cc55b7b95898e4d331b99e6c1f9ea35f055546b3708e.png",
+      "sha256": "2c4b64d631fbc87322b4cc55b7b95898e4d331b99e6c1f9ea35f055546b3708e"
+    },
+    {
+      "file": "media/ce51b62aa4635bea471fe1cf4a46114f61e12f78f2bda4b37531c62443a7c31d.png",
+      "sha256": "ce51b62aa4635bea471fe1cf4a46114f61e12f78f2bda4b37531c62443a7c31d"
+    },
+    {
+      "file": "media/bb6073dbb20531990cb5d3db25c855506ca048c8692350c7e08950b8f2652a33.png",
+      "sha256": "bb6073dbb20531990cb5d3db25c855506ca048c8692350c7e08950b8f2652a33"
+    },
+    {
+      "file": "media/e412d7211aa739aaff2bb1a7941bd552f88ba6f4097082b294f0cd939bc3b364.png",
+      "sha256": "e412d7211aa739aaff2bb1a7941bd552f88ba6f4097082b294f0cd939bc3b364"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/2c4b64d631fbc87322b4cc55b7b95898e4d331b99e6c1f9ea35f055546b3708e.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB connector at top of image, start at end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PB5",
+          "functions": [
+            "D13"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "AREF",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "PC0",
+          "functions": [
+            "D14",
+            "A0",
+            "ADC[0]"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PC1",
+          "functions": [
+            "D15",
+            "A1",
+            "ADC[1]"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PC2",
+          "functions": [
+            "D16",
+            "A2",
+            "ADC[2]"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PC3",
+          "functions": [
+            "D17",
+            "A3",
+            "ADC[3]"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PC4",
+          "functions": [
+            "D18",
+            "A4",
+            "ADC[4]"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PC5",
+          "functions": [
+            "D19",
+            "A5",
+            "ADC[5]"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "ADC[6]",
+          "functions": [
+            "A6"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "ADC[7]",
+          "functions": [
+            "A7"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "PC6",
+          "functions": [
+            "RESET"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/2c4b64d631fbc87322b4cc55b7b95898e4d331b99e6c1f9ea35f055546b3708e.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB connector at top of image, start at end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PB4",
+          "functions": [
+            "D12",
+            "CIPO"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PB3",
+          "functions": [
+            "~D11",
+            "COPI"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PB2",
+          "functions": [
+            "~D10"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PB1",
+          "functions": [
+            "~D9"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PB0",
+          "functions": [
+            "D8"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PD7",
+          "functions": [
+            "D7"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PD6",
+          "functions": [
+            "~D6"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PD5",
+          "functions": [
+            "~D5"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PD4",
+          "functions": [
+            "D4"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PD3",
+          "functions": [
+            "~D3"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PD2",
+          "functions": [
+            "D2"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "PC6",
+          "functions": [
+            "RESET"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "PD0",
+          "functions": [
+            "D0/RX"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "PD1",
+          "functions": [
+            "D1/TX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left header",
+      "image": "media/ce51b62aa4635bea471fe1cf4a46114f61e12f78f2bda4b37531c62443a7c31d.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB connector at top of image, start at end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PB5",
+          "functions": [
+            "D13"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "AREF",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "PC0",
+          "functions": [
+            "D14",
+            "A0",
+            "ADC[0]"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PC1",
+          "functions": [
+            "D15",
+            "A1",
+            "ADC[1]"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PC2",
+          "functions": [
+            "D16",
+            "A2",
+            "ADC[2]"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PC3",
+          "functions": [
+            "D17",
+            "A3",
+            "ADC[3]"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PC4",
+          "functions": [
+            "D18",
+            "A4",
+            "ADC[4]"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PC5",
+          "functions": [
+            "D19",
+            "A5",
+            "ADC[5]"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "ADC[6]",
+          "functions": [
+            "A6"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "ADC[7]",
+          "functions": [
+            "A7"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "PC6",
+          "functions": [
+            "RESET"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Right header",
+      "image": "media/ce51b62aa4635bea471fe1cf4a46114f61e12f78f2bda4b37531c62443a7c31d.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB connector at top of image, start at end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PB4",
+          "functions": [
+            "D12",
+            "CIPO"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PB3",
+          "functions": [
+            "~D11",
+            "COPI"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PB2",
+          "functions": [
+            "~D10"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PB1",
+          "functions": [
+            "~D9"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PB0",
+          "functions": [
+            "D8"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PD7",
+          "functions": [
+            "D7"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PD6",
+          "functions": [
+            "~D6"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PD5",
+          "functions": [
+            "~D5"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PD4",
+          "functions": [
+            "D4"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PD3",
+          "functions": [
+            "~D3"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PD2",
+          "functions": [
+            "D2"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "PC6",
+          "functions": [
+            "RESET"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "PD0",
+          "functions": [
+            "D0/RX"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "PD1",
+          "functions": [
+            "D1/TX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img3",
+      "name": "Left header",
+      "image": "media/bb6073dbb20531990cb5d3db25c855506ca048c8692350c7e08950b8f2652a33.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB connector at top of image, start at end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PB5",
+          "functions": [
+            "D13",
+            "SCK",
+            "PCINT[5]"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "AREF",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "PC0",
+          "functions": [
+            "D14",
+            "A0",
+            "ADC[0]",
+            "PCINT[8]"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PC1",
+          "functions": [
+            "D15",
+            "A1",
+            "ADC[1]",
+            "PCINT[9]"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PC2",
+          "functions": [
+            "D16",
+            "A2",
+            "ADC[2]",
+            "PCINT[10]"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PC3",
+          "functions": [
+            "D17",
+            "A3",
+            "ADC[3]",
+            "PCINT[11]"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PC4",
+          "functions": [
+            "D18",
+            "A4",
+            "ADC[4]",
+            "SDA",
+            "PCINT[12]"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PC5",
+          "functions": [
+            "D19",
+            "A5",
+            "ADC[5]",
+            "SCL",
+            "PCINT[13]"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "ADC[6]",
+          "functions": [
+            "A6"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "ADC[7]",
+          "functions": [
+            "A7"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "PC6",
+          "functions": [
+            "RESET",
+            "PCINT[14]"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header-img3",
+      "name": "Right header",
+      "image": "media/bb6073dbb20531990cb5d3db25c855506ca048c8692350c7e08950b8f2652a33.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB connector at top of image, start at end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PB4",
+          "functions": [
+            "D12",
+            "CIPO",
+            "PCINT[4]"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PB3",
+          "functions": [
+            "~D11",
+            "COPI",
+            "OC2A",
+            "PCINT[3]"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PB2",
+          "functions": [
+            "~D10",
+            "SS",
+            "OC1B",
+            "PCINT[2]"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PB1",
+          "functions": [
+            "~D9",
+            "OC1A",
+            "PCINT[1]"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PB0",
+          "functions": [
+            "D8",
+            "CLKO/ICP1",
+            "PCINT[0]"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PD7",
+          "functions": [
+            "D7",
+            "AIN[1]",
+            "PCINT[23]"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PD6",
+          "functions": [
+            "~D6",
+            "AIN[0]",
+            "OC0A",
+            "PCINT[22]"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PD5",
+          "functions": [
+            "~D5",
+            "OC0B/T1",
+            "PCINT[21]"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PD4",
+          "functions": [
+            "D4",
+            "T0/XCK",
+            "PCINT[20]"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PD3",
+          "functions": [
+            "~D3",
+            "OC2B",
+            "PCINT[19]/INT[1]"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PD2",
+          "functions": [
+            "D2",
+            "PCINT[18]/INT[0]"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "PC6",
+          "functions": [
+            "RESET",
+            "PCINT[14]"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "PD0",
+          "functions": [
+            "D0/RX",
+            "RXD",
+            "PCINT[16]"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "PD1",
+          "functions": [
+            "D1/TX",
+            "TXD",
+            "PCINT[17]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "usb-connector-img4",
+      "name": "USB connector",
+      "image": "media/e412d7211aa739aaff2bb1a7941bd552f88ba6f4097082b294f0cd939bc3b364.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal connector, left-to-right by traced lines (top/left rule)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "USB ID",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "USB D+",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "USB D-",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "+5V",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "ICSP-img4",
+      "name": "ICSP header",
+      "image": "media/e412d7211aa739aaff2bb1a7941bd552f88ba6f4097082b294f0cd939bc3b364.png",
+      "rows": 2,
+      "orderNote": "Pin numbers 1-6 printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PB4",
+          "functions": [
+            "CIPO",
+            "PCINT[4]"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PB5",
+          "functions": [
+            "SCK",
+            "PCINT[5]"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PB3",
+          "functions": [
+            "COPI",
+            "OC2A",
+            "PCINT[3]"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Label = ATmega port name (PBx/PCx/PDx) where printed; A6/A7 use the printed port-colored ADC[6]/ADC[7]. ICSP header in images 1-3 has no pin labels (not transcribed there). LED and FT23RL chip pins not transcribed. Square pads at the bottom are not treated as pin-1 marks."
+}

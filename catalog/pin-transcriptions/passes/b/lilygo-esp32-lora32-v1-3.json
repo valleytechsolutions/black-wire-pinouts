@@ -1,0 +1,314 @@
+{
+  "recordId": "lilygo-esp32-lora32-v1-3",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/0cf65feedb9b4a105363db41f9eae3bca0a18bf3a9d7428687af89e16451f04b.jpg",
+      "sha256": "0cf65feedb9b4a105363db41f9eae3bca0a18bf3a9d7428687af89e16451f04b"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/0cf65feedb9b4a105363db41f9eae3bca0a18bf3a9d7428687af89e16451f04b.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or explicit pin-1 mark; position 1 at the bottom end, closest to the USB connector. Labels are the grey board-name boxes; functions read outward from the pin.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "36",
+          "functions": [
+            "S_VP",
+            "GPIO036",
+            "ADC1_0*"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "37",
+          "functions": [
+            "GPIO037"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "38",
+          "functions": [
+            "GPIO038"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "39",
+          "functions": [
+            "S_VN",
+            "GPIO039",
+            "ADC1_3*"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "34",
+          "functions": [
+            "GPIO034",
+            "ADC1_6*"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "35",
+          "functions": [
+            "GPIO035",
+            "ADC1_7*"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "32",
+          "functions": [
+            "GPIO032",
+            "ADC1_5",
+            "TOUCH9"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "33",
+          "functions": [
+            "GPIO033",
+            "ADC1_4",
+            "TOUCH8"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "25",
+          "functions": [
+            "GPIO025",
+            "ADC2_8*",
+            "DAC2"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "26",
+          "functions": [
+            "GPIO026",
+            "ADC2_9*",
+            "DAC1"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "27",
+          "functions": [
+            "GPIO027",
+            "ADC2_7*",
+            "TOUCH7"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "14",
+          "functions": [
+            "GPIO014",
+            "ADC2_6*",
+            "TOUCH6"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "12",
+          "functions": [
+            "GPIO012",
+            "ADC2_5",
+            "TOUCH5"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "13",
+          "functions": [
+            "GPIO013",
+            "ADC2_4",
+            "TPUCH4"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "21",
+          "functions": [
+            "SDA",
+            "GPIO021",
+            "V_SPI_HD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/0cf65feedb9b4a105363db41f9eae3bca0a18bf3a9d7428687af89e16451f04b.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or explicit pin-1 mark; position 1 at the bottom end, closest to the USB connector. Labels are the grey board-name boxes; functions read outward from the pin.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "RXD",
+          "functions": [
+            "CLX2",
+            "GPIO003",
+            "U0_RXD"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "TXD",
+          "functions": [
+            "CLX3",
+            "GPIO001",
+            "U0_TXD"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "0",
+          "functions": [
+            "GPIO000",
+            "ADC2_1",
+            "TOUCH1"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "22",
+          "functions": [
+            "SCL",
+            "GPIO022"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "19",
+          "functions": [
+            "GPIO019",
+            "VSPI_MISO"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "23",
+          "functions": [
+            "GPIO023",
+            "VSPI_MOSI"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "18",
+          "functions": [
+            "GPIO018",
+            "VSPI_SCK"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "05",
+          "functions": [
+            "GPIO005",
+            "VSPI_SS"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "15",
+          "functions": [
+            "GPIO015",
+            "ADC2_3",
+            "HSPI_CS0",
+            "TOUCH3"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "02",
+          "functions": [
+            "GPIO002",
+            "ADC2_2",
+            "HSPI_WP",
+            "TOUCH2"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "04",
+          "functions": [
+            "GPIO004",
+            "ADC2_0",
+            "HSPI_HD",
+            "TOUCH0"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "17",
+          "functions": [
+            "GPIO017"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "16",
+          "functions": [
+            "GPIO016"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Left pin 13 function printed 'TPUCH4' (copied as printed). Grey boxes print 04/02/05. LoRa SX1276 and OLED SSD1306 tables describe internal connections and were not transcribed. U0_TXD/U0_RXD: italic O/0 ambiguous, transcribed as zero."
+}

@@ -1,0 +1,848 @@
+{
+  "recordId": "lattepanda-3-delta",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/8dcb063f1942b0a6a066e43f4df00a95574d6ebbdc75e70a4f092f315c71845e.webp",
+      "sha256": "8dcb063f1942b0a6a066e43f4df00a95574d6ebbdc75e70a4f092f315c71845e"
+    },
+    {
+      "file": "media/f2711e9de62cb1ed462ced7eb664f776f4f9941a749e164a50c8892e16578c76.webp",
+      "sha256": "f2711e9de62cb1ed462ced7eb664f776f4f9941a749e164a50c8892e16578c76"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "sw-connector",
+      "name": "Power switch connector (left, top)",
+      "image": "media/8dcb063f1942b0a6a066e43f4df00a95574d6ebbdc75e70a4f092f315c71845e.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; no labeled USB connector; top-to-bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SW",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header",
+      "name": "Left 2x12 header (top group: power/control, audio, I2C)",
+      "image": "media/8dcb063f1942b0a6a066e43f4df00a95574d6ebbdc75e70a4f092f315c71845e.webp",
+      "rows": 2,
+      "orderNote": "2xN without numbers; no labeled USB connector; starts at top; odd = outer (left) column, even = inner (right) column",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SW",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "S4",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "S3",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "S0",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "SPR+",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "SW",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "SPR-",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "AUTO",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "SPL+",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "SPL-",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "1.8V",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header-rs232",
+      "name": "Left 2x5 header (RS232 group)",
+      "image": "media/8dcb063f1942b0a6a066e43f4df00a95574d6ebbdc75e70a4f092f315c71845e.webp",
+      "rows": 2,
+      "orderNote": "2xN without numbers; top start; odd = outer (left) column, even = inner (right) column",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SGND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RI",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "DTR",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "CTS",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "TXD",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "RTS",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "RXD",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "DSR",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "DCD",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header-usb-dc",
+      "name": "Left 2x6 header (USB2.0 and DC input group)",
+      "image": "media/8dcb063f1942b0a6a066e43f4df00a95574d6ebbdc75e70a4f092f315c71845e.webp",
+      "rows": 2,
+      "orderNote": "2xN without numbers; top start; odd = outer (left) column, even = inner (right) column",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "D-",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "D+",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "DC_IN",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "DC_IN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "dc-in-connector",
+      "name": "4-pin DC input connector (bottom left)",
+      "image": "media/8dcb063f1942b0a6a066e43f4df00a95574d6ebbdc75e70a4f092f315c71845e.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; top-to-bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "DC_IN",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "DC_IN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right 2x9 header (power, SPI flash group)",
+      "image": "media/8dcb063f1942b0a6a066e43f4df00a95574d6ebbdc75e70a4f092f315c71845e.webp",
+      "rows": 2,
+      "orderNote": "2xN without numbers; top start; odd = outer (right) column, even = inner (left) column",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RTC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "MOSI",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "WP",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "CLK",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "MISO",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "HOLD",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "CS#",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "VCC",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header-arduino",
+      "name": "Right 2x15 header (Arduino group)",
+      "image": "media/8dcb063f1942b0a6a066e43f4df00a95574d6ebbdc75e70a4f092f315c71845e.webp",
+      "rows": 2,
+      "orderNote": "2xN without numbers; top start; odd = outer (right) column, even = inner (left) column",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "MISO",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "MOSI",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SCK",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "D0",
+          "functions": [
+            "RXD1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "D7",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "D1",
+          "functions": [
+            "TXD1"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "D8",
+          "functions": [
+            "A8"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "D2",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "D9~",
+          "functions": [
+            "A9"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "D3~",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "D10~",
+          "functions": [
+            "A10"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "D4",
+          "functions": [
+            "A6"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "D11~",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "D5~",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "D12",
+          "functions": [
+            "A11"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "D6~",
+          "functions": [
+            "A7"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "D13~",
+          "functions": [
+            "D13 LED"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "D18",
+          "functions": [
+            "A0"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "D21",
+          "functions": [
+            "A3"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "D19",
+          "functions": [
+            "A1"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "D22",
+          "functions": [
+            "A4"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "D20",
+          "functions": [
+            "A2"
+          ]
+        },
+        {
+          "position": 26,
+          "label": "D23",
+          "functions": [
+            "A5"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 28,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 29,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "fan-connector",
+      "name": "4-pin connector (bottom right: GND, +5V DC, Sense, Control)",
+      "image": "media/8dcb063f1942b0a6a066e43f4df00a95574d6ebbdc75e70a4f092f315c71845e.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; top-to-bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "+5V DC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "Sense",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "Control",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "touch-panel-img2",
+      "name": "Touch Panel FPC connector",
+      "image": "media/f2711e9de62cb1ed462ced7eb664f776f4f9941a749e164a50c8892e16578c76.webp",
+      "rows": 1,
+      "orderNote": "Pin 1 marked at I2C_SCL (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "I2C_SCL",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "I2C_SDA",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "INT",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "3.3V",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "edp-img2",
+      "name": "eDP 30Pin connector",
+      "image": "media/f2711e9de62cb1ed462ced7eb664f776f4f9941a749e164a50c8892e16578c76.webp",
+      "rows": 1,
+      "orderNote": "Pin 1 marked at top GND",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "TX1_DN",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "TX1_DP",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "TX0_DN",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "TX0_DP",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "AUX_DP",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "AUX_DN",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "LCD_RST",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "EDP_HPD",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "BL_GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "BL_GND",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "BL_GND",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "BL_GND",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "BL_ENABLE",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "BL_PWM",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "CSI_USB_DP",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "CSI_USB_DN",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 27,
+          "label": "BL_PWR",
+          "functions": []
+        },
+        {
+          "position": 28,
+          "label": "BL_PWR",
+          "functions": []
+        },
+        {
+          "position": 29,
+          "label": "BL_PWR",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "CSI_USB",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Image 1 draws each side's 2-row header as one continuous strip with dark hole-less bands (left: after the 1.8V row and after the DSR/DCD row; right: after the VCC/CS# row). I split at those bands into separate connectors; they may instead be one physical header with missing positions.",
+    "Image 1 shows unlabeled port outlines at the top and bottom edges; none is labeled USB, so ordering used the top rule."
+  ],
+  "notes": "Image 1: top view. Skipped LEDs, Arduino RESET button, RTC battery holder (CR927) and POWER/SW button. '~' (PWM mark per legend) kept as printed in labels. Image 2: M.2 B-key and M-key slots skipped (no individual pin labels)."
+}

@@ -1,0 +1,125 @@
+{
+  "recordId": "m5stack-gpio-device-atom-matrix-v1-1",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/bba6704a0f8a17931ce75d4e4db97a1250d2f6eacef058d27fd850e7ec417cdb.jpg",
+      "sha256": "bba6704a0f8a17931ce75d4e4db97a1250d2f6eacef058d27fd850e7ec417cdb"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/bba6704a0f8a17931ce75d4e4db97a1250d2f6eacef058d27fd850e7ec417cdb.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB connector visible; vertical row read from the top as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "G22",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G19",
+          "functions": [
+            "MOSI"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "G23",
+          "functions": [
+            "CLK"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "G33",
+          "functions": [
+            "ADC",
+            "MISO"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/bba6704a0f8a17931ce75d4e4db97a1250d2f6eacef058d27fd850e7ec417cdb.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB connector visible; vertical row read from the top as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G21",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "G25",
+          "functions": [
+            "DAC",
+            "SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-port",
+      "name": "HY2.0-4P port",
+      "image": "media/bba6704a0f8a17931ce75d4e4db97a1250d2f6eacef058d27fd850e7ec417cdb.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB connector visible; horizontal row read from the left as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G26",
+          "functions": [
+            "DAC"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "G32",
+          "functions": [
+            "ADC"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Pin labels from the callouts beside each header; the back-label silkscreen (3V3, G22, G19, G23, G33 / G21, G25, 5V, G / G 5V G26 G32) agrees. Back-label notes such as Neo=G27, Btn=G39, IR G12, BMI270 C:21 D:25 are internal assignments, not header pins."
+}

@@ -1,0 +1,271 @@
+{
+  "recordId": "espressif-esp32-esp32-c3-devkit-rust-2",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/c5b92d82ab3895927ee2c443232b44867e18f38ab3e460341cf06d00e6c63a70.png",
+      "sha256": "c5b92d82ab3895927ee2c443232b44867e18f38ab3e460341cf06d00e6c63a70"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/c5b92d82ab3895927ee2c443232b44867e18f38ab3e460341cf06d00e6c63a70.png",
+      "rows": 1,
+      "orderNote": "No pin 1 mark or pin numbers printed; position 1 at the bottom end, closest to the USB connector. Labels are board silkscreen; functions read outward from the pin.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "9",
+          "functions": [
+            "GPIO9",
+            "BOOT",
+            "IE/WPU"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "20",
+          "functions": [
+            "GPIO20",
+            "U0RXD",
+            "IE"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "21",
+          "functions": [
+            "GPIO21",
+            "U0TXD",
+            "IE"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "8",
+          "functions": [
+            "GPIO8",
+            "LOG",
+            "IE",
+            "I2C SCL"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "7",
+          "functions": [
+            "GPIO7",
+            "FSPID",
+            "MTDO",
+            "IE",
+            "I2C SDA"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "6",
+          "functions": [
+            "GPIO6",
+            "FSPICLK",
+            "MTCK",
+            "IE*"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "5",
+          "functions": [
+            "GPIO5",
+            "RTC",
+            "ADC2_0",
+            "MTDI",
+            "FSPIWP",
+            "IE"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "4",
+          "functions": [
+            "GPIO4",
+            "RTC",
+            "ADC1_4",
+            "MTMS",
+            "FSPIHD",
+            "IE"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "3",
+          "functions": [
+            "GPIO3",
+            "RTC",
+            "ADC1_3",
+            "IE"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "2",
+          "functions": [
+            "GPIO2",
+            "RTC",
+            "ADC1_2",
+            "FSPIQ",
+            "IE",
+            "RGB"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "1",
+          "functions": [
+            "GPIO1",
+            "RTC",
+            "ADC1_1",
+            "XTAL32kN",
+            "ID"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "0",
+          "functions": [
+            "GPIO0",
+            "RTC",
+            "ADC1_0",
+            "XTAL32kP",
+            "ID"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "RST",
+          "functions": [
+            "PU"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/c5b92d82ab3895927ee2c443232b44867e18f38ab3e460341cf06d00e6c63a70.png",
+      "rows": 1,
+      "orderNote": "No pin 1 mark or pin numbers printed; position 1 at the bottom end, closest to the USB connector. Labels are board silkscreen; functions read outward from the pin. Pads 4-8 from the top carry no individual silkscreen; a bracket groups them under one NC label.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "19",
+          "functions": [
+            "GPIO19",
+            "USB_D+",
+            "ID/UPU"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "18",
+          "functions": [
+            "GPIO18",
+            "USB_D-",
+            "ID"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "EN",
+          "functions": [
+            "ENABLE"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "BAT+",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "charger",
+      "name": "Charger battery connector",
+      "image": "media/c5b92d82ab3895927ee2c443232b44867e18f38ab3e460341cf06d00e6c63a70.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; position 1 at the end closest to the USB connector (bottom).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BAT-",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "BAT+",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "GPIO reset-state tags (IE, ID, PU, IE*, IE/WPU, ID/UPU) are printed beside pins and were kept in functions as printed. PWM squiggles omitted."
+}

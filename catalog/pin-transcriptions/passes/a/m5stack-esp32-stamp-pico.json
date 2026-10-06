@@ -1,0 +1,163 @@
+{
+  "recordId": "m5stack-esp32-stamp-pico",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/e105afee2022b08e7d867779965b32fb78e09b8cba3d53f594e23ba8b2dc593f.png",
+      "sha256": "e105afee2022b08e7d867779965b32fb78e09b8cba3d53f594e23ba8b2dc593f"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-pads",
+      "name": "Left edge pads",
+      "image": "media/e105afee2022b08e7d867779965b32fb78e09b8cba3d53f594e23ba8b2dc593f.png",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB; vertical row ordered top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G26",
+          "functions": [
+            "MOSI",
+            "DAC2"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "G36",
+          "functions": [
+            "MISO",
+            "ADC"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "G18",
+          "functions": [
+            "SCK"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "G19",
+          "functions": [
+            "CS"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "G21",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "G22",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "G25",
+          "functions": [
+            "DAC1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-pads",
+      "name": "Right edge pads",
+      "image": "media/e105afee2022b08e7d867779965b32fb78e09b8cba3d53f594e23ba8b2dc593f.png",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB; vertical row ordered top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "G1",
+          "functions": [
+            "Tx0"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "G3",
+          "functions": [
+            "Rx0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "G0",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-pads",
+      "name": "Bottom edge pads",
+      "image": "media/e105afee2022b08e7d867779965b32fb78e09b8cba3d53f594e23ba8b2dc593f.png",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB; horizontal row ordered left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G32",
+          "functions": [
+            "ADC"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "G33",
+          "functions": [
+            "ADC"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Labels from the colored callouts. Legend color categories (IN-ONLY, IN/OUT etc.) omitted. Digit 0 in G0/Tx0/Rx0 is visibly narrower than the letter O in the legend text."
+}

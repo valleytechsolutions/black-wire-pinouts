@@ -1,0 +1,200 @@
+{
+  "recordId": "sparkfun-qwiic-pro-mini-esp32",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/dbf2337a2fada3d084287d8f7801064fbc5c16259f0827d9273c4d3d28d1ddec.jpg",
+      "sha256": "dbf2337a2fada3d084287d8f7801064fbc5c16259f0827d9273c4d3d28d1ddec"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "top-header",
+      "name": "Top header",
+      "image": "media/dbf2337a2fada3d084287d8f7801064fbc5c16259f0827d9273c4d3d28d1ddec.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers, no USB visible: horizontal row started at left.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "7",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "8",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "27",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "14",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "13",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "4",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "20",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "19",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "22",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "21",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-header",
+      "name": "Bottom header",
+      "image": "media/dbf2337a2fada3d084287d8f7801064fbc5c16259f0827d9273c4d3d28d1ddec.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers, no USB visible: horizontal row started at left.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RAW",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "35",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "34",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "39",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "38",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "37",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "32",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "33",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "25",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "26",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header",
+      "name": "Left serial header (faded in image)",
+      "image": "media/dbf2337a2fada3d084287d8f7801064fbc5c16259f0827d9273c4d3d28d1ddec.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers, no USB visible: vertical row started at top.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RXI",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "TXO",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "?",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "left-header positions 1 and 6: holes with no label printed beside them (unlabeled).",
+    "TXO: final character read as letter O (TX-out convention as printed), could be zero."
+  ],
+  "uncertain": [
+    "left-header is drawn faded/de-emphasized in the image; labels GND VCC RXI TXO are one rotated text run, assigned to holes 2-5 by vertical position.",
+    "'ANALOG INPUT' bracket printed over bottom-header pins 35..37 was not recorded as a per-pin function (treated as a group/category note)."
+  ],
+  "notes": "Back-side photo. Board name numbers used as labels (no GPIO prefixes printed)."
+}

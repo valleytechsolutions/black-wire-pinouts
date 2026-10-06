@@ -1,0 +1,280 @@
+{
+  "recordId": "inland-uno-v4-kit",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/a608e031c04fd8d4c4d7c8a512c114902c4009e9e8fe58128f542979812a4144.png",
+      "sha256": "a608e031c04fd8d4c4d7c8a512c114902c4009e9e8fe58128f542979812a4144"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "power-header",
+      "name": "Left power header",
+      "image": "media/a608e031c04fd8d4c4d7c8a512c114902c4009e9e8fe58128f542979812a4144.png",
+      "rows": 1,
+      "orderNote": "Started at the end closest to the USB connector (top), read top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IOREF",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": [
+            "Ground"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": [
+            "Ground"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "Vin",
+          "functions": [
+            "5V"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "analog-header",
+      "name": "Left analog header",
+      "image": "media/a608e031c04fd8d4c4d7c8a512c114902c4009e9e8fe58128f542979812a4144.png",
+      "rows": 1,
+      "orderNote": "Started at the end closest to the USB connector (top), read top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A0",
+          "functions": [
+            "Analog"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "A1",
+          "functions": [
+            "Analog"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "A2",
+          "functions": [
+            "Analog"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "A3",
+          "functions": [
+            "Analog"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "A4",
+          "functions": [
+            "Analog"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "A5",
+          "functions": [
+            "Analog"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digital-header-upper",
+      "name": "Right upper digital header (10 pins)",
+      "image": "media/a608e031c04fd8d4c4d7c8a512c114902c4009e9e8fe58128f542979812a4144.png",
+      "rows": 1,
+      "orderNote": "Started at the end closest to the USB connector (top), read top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "I2C Clock",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "I2C Data",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "AREF",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": [
+            "Ground"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "D13",
+          "functions": [
+            "13",
+            "SPI SCK"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D12",
+          "functions": [
+            "12",
+            "SPI MISO"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "D11",
+          "functions": [
+            "~11",
+            "Digital PWM",
+            "SPI MISO"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "D10",
+          "functions": [
+            "~10",
+            "Digital PWM",
+            "SPI SS"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "D9",
+          "functions": [
+            "~9",
+            "Digital PWM"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "D8",
+          "functions": [
+            "8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digital-header-lower",
+      "name": "Right lower digital header (8 pins)",
+      "image": "media/a608e031c04fd8d4c4d7c8a512c114902c4009e9e8fe58128f542979812a4144.png",
+      "rows": 1,
+      "orderNote": "Started at the end closest to the USB connector (top), read top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D7",
+          "functions": [
+            "7"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D6",
+          "functions": [
+            "~6",
+            "Digital PWM"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "D5",
+          "functions": [
+            "~5",
+            "Digital PWM"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D4",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "D3",
+          "functions": [
+            "~3",
+            "Digital PWM"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D2",
+          "functions": [
+            "2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "D1",
+          "functions": [
+            "TX 1",
+            "UART In"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "D0",
+          "functions": [
+            "RX 0",
+            "UART Out"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "power-header position 1: no label printed (unlabeled socket above IOREF)"
+  ],
+  "uncertain": [
+    "digital-header-upper positions 1-2 have no silkscreen; only callouts 'I2C -> Clock' and 'I2C -> Data' are printed, so labels 'I2C Clock'/'I2C Data' were formed from the callouts (arrow omitted).",
+    "Callouts as printed: D11 is labeled 'SPI -> MISO' (same as D12) and Vin's callout reads '5V'; copied as printed.",
+    "Callout category words 'Digital' and 'Analog' kept only where combined with a function ('Digital PWM') or as the only extra text on analog pins; '~' prefixes are the silkscreen PWM marks. Silkscreen 'TX->1' and 'RX<-0' include arrows, transcribed as 'TX 1'/'RX 0'.",
+    "Image shows a board silkscreened 'UNO R3'; nothing in the image names Inland or V4.0, so identity is not confirmed. Unlabeled ICSP/JP2 pin blocks not transcribed."
+  ],
+  "notes": "Annotated photo of an UNO R3-style board."
+}

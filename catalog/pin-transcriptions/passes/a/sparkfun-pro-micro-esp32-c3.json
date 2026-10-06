@@ -1,0 +1,207 @@
+{
+  "recordId": "sparkfun-pro-micro-esp32-c3",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/9eb74c181cbdda6cc4a300f33afc8e8dfd7a2ecbf8edf3912087a122d731d5b4.jpg",
+      "sha256": "9eb74c181cbdda6cc4a300f33afc8e8dfd7a2ecbf8edf3912087a122d731d5b4"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left edge pins",
+      "image": "media/9eb74c181cbdda6cc4a300f33afc8e8dfd7a2ecbf8edf3912087a122d731d5b4.jpg",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; started at the end closest to the USB connector (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VU",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "G",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "A3",
+          "functions": [
+            "PICO"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "A1",
+          "functions": [
+            "POCI"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "A0",
+          "functions": [
+            "SCLK"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "A4",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "A2",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right edge pins",
+      "image": "media/9eb74c181cbdda6cc4a300f33afc8e8dfd7a2ecbf8edf3912087a122d731d5b4.jpg",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; started at the end closest to the USB connector (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "RX",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "5",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "6",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "7",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "10",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "8",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "debug-pads",
+      "name": "2x3 labeled pads (DO/DI/G/EN/CK/MS)",
+      "image": "media/9eb74c181cbdda6cc4a300f33afc8e8dfd7a2ecbf8edf3912087a122d731d5b4.jpg",
+      "rows": 2,
+      "orderNote": "No pin numbers; 2xN rule: position 1 at the top (USB end) of the left column (nearer the board edge), alternating left/right per row.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D0",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "DI",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "CK",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "MS",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "usb-pads",
+      "name": "USB pads (G D+ D- V) below the USB connector",
+      "image": "media/9eb74c181cbdda6cc4a300f33afc8e8dfd7a2ecbf8edf3912087a122d731d5b4.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row with both ends equally near the USB connector, so started at the left.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "D+",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "D-",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "V",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "left-header A0/SCLK and debug-pads D0: O vs 0 not distinguishable, recorded as 0."
+  ],
+  "uncertain": [
+    "right-header positions 3 and 4: a single vertical 'GND' label spans both pads; recorded GND for both."
+  ],
+  "notes": "Back-side silkscreen view of the SparkFun ESP32-C3 Pro Micro. Combined silkscreen names split as label + function (A3/PICO -> A3 + PICO; SDA/5 -> 5 + SDA). The debug pads and USB pads are shown faded but have individually printed labels, so they are included. Solder jumpers (S, P, SHLD, I2C) skipped."
+}

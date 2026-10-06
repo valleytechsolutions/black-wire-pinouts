@@ -1,0 +1,309 @@
+{
+ "recordId": "arduino-other-portenta-h7-lite",
+ "pass": "a",
+ "date": "2026-10-03",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/e7e39a2ddcb37d3be4b8ec4b919fa038d4382d1af1af271b5148de146970b988.png",
+   "sha256": "e7e39a2ddcb37d3be4b8ec4b919fa038d4382d1af1af271b5148de146970b988"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "left-pads",
+   "name": "Left castellated edge (top view)",
+   "image": "media/e7e39a2ddcb37d3be4b8ec4b919fa038d4382d1af1af271b5148de146970b988.png",
+   "rows": 1,
+   "orderNote": "No pin numbers; USB-C connector at top of image, start at USB end (top)",
+   "pins": [
+    {
+     "position": 1,
+     "label": "AREF",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "PA0_C",
+     "functions": [
+      "A0",
+      "ADC A0",
+      "J2-73"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "PA1_C",
+     "functions": [
+      "A1",
+      "ADC A1",
+      "J2-75"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "PC2_C",
+     "functions": [
+      "A2",
+      "ADC A2",
+      "J2-77"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "PC3_C",
+     "functions": [
+      "A3",
+      "ADC A3",
+      "J2-79"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "PC2",
+     "functions": [
+      "A4",
+      "ADC A4",
+      "J2-74"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "PC3",
+     "functions": [
+      "D20",
+      "A5",
+      "ADC A5",
+      "J2-76"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "PA4",
+     "functions": [
+      "D21",
+      "A6",
+      "ADC A6",
+      "J2-78"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "PH15",
+     "functions": [
+      "D0",
+      "PWM 6",
+      "J2-62"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "PK1",
+     "functions": [
+      "D1",
+      "PWM 5",
+      "J2-60"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "PJ11",
+     "functions": [
+      "D2",
+      "PWM 4",
+      "J2-67"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "PG7",
+     "functions": [
+      "D3",
+      "PWM 3",
+      "J2-65"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "PC7",
+     "functions": [
+      "D4",
+      "PWM 2",
+      "J2-63"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "PC6",
+     "functions": [
+      "D5",
+      "PWM 1",
+      "J2-61"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "right-pads",
+   "name": "Right castellated edge (top view)",
+   "image": "media/e7e39a2ddcb37d3be4b8ec4b919fa038d4382d1af1af271b5148de146970b988.png",
+   "rows": 1,
+   "orderNote": "No pin numbers; USB-C connector at top of image, start at USB end (top)",
+   "pins": [
+    {
+     "position": 1,
+     "label": "+5V",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "VIN",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "+3V3",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "RESET",
+     "functions": [
+      "NRST"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "PA9",
+     "functions": [
+      "D14",
+      "UART1 TX",
+      "J1-33"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "PA10",
+     "functions": [
+      "D13",
+      "UART1 RX",
+      "J1-35"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "PH7",
+     "functions": [
+      "D12",
+      "I2C3 SCL",
+      "J1-46"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "PH8",
+     "functions": [
+      "D11",
+      "I2C3 SDA",
+      "J1-44"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "PC2",
+     "functions": [
+      "D10",
+      "SPI1 CIPO",
+      "J2-40"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "PI1",
+     "functions": [
+      "D9",
+      "SPI1 CK",
+      "J2-38"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "PC3",
+     "functions": [
+      "D8",
+      "SPI1 COPI",
+      "J2-42"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "PI0",
+     "functions": [
+      "D7",
+      "SPI1 CS",
+      "J2-36"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "PA8",
+     "functions": [
+      "D6",
+      "PWM 0",
+      "J2-59"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "i2c-connector",
+   "name": "5-pin connector next to USB-C (top view)",
+   "image": "media/e7e39a2ddcb37d3be4b8ec4b919fa038d4382d1af1af271b5148de146970b988.png",
+   "rows": 1,
+   "orderNote": "No pin numbers; connector vertical next to USB-C, order top to bottom (USB end first) following leader lines",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "PH8",
+     "functions": [
+      "I2C0 SDA",
+      "J1-44"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "PH7",
+     "functions": [
+      "I2C0 SCL",
+      "J1-46"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "PI0",
+     "functions": [
+      "SPI1 CS",
+      "J2-36"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "+5V",
+     "functions": []
+    }
+   ]
+  }
+ ],
+ "unreadable": [],
+ "notes": "Image shows a board titled \"PORTENTA H7\" (top view). Label = microcontroller port name (Microcontroller's Port column) where printed, otherwise the power/control name; RESET used as label with NRST in functions. Battery, USB-C and LED callouts skipped."
+}

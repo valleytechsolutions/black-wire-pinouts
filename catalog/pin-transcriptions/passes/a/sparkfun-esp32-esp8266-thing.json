@@ -1,0 +1,180 @@
+{
+  "recordId": "sparkfun-esp32-esp8266-thing",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/c87c82260b0c688966669222b18380c6848be90114eb2075973643df96fbbec1.png",
+      "sha256": "c87c82260b0c688966669222b18380c6848be90114eb2075973643df96fbbec1"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/c87c82260b0c688966669222b18380c6848be90114eb2075973643df96fbbec1.png",
+      "rows": 1,
+      "orderNote": "Square pad on the top GND pin and USB connector both at the top; started there. Label = 'Name' column; functions = remaining columns from the pin outward (exact duplicates of the label omitted).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": [
+            "3.3V"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "SDA",
+          "functions": [
+            "D2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "SCL",
+          "functions": [
+            "D14",
+            "SCL/SCLK"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "DTR",
+          "functions": [
+            "Auto-reset"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "TXO",
+          "functions": [
+            "D7",
+            "TX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "RXI",
+          "functions": [
+            "D8",
+            "RX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "3V3",
+          "functions": [
+            "Not Connected"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "NC",
+          "functions": [
+            "Not Connected"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/c87c82260b0c688966669222b18380c6848be90114eb2075973643df96fbbec1.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; started at the end closest to the micro-USB connector (top). Label = 'Name' column; functions = remaining columns from the pin outward (exact duplicates of the label omitted).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "Vin",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "5",
+          "functions": [
+            "D5",
+            "LED"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "0",
+          "functions": [
+            "D0",
+            "Used in reset"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "4",
+          "functions": [
+            "D4"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "13",
+          "functions": [
+            "D13",
+            "MOSI",
+            "SPID",
+            "MTCK"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "12",
+          "functions": [
+            "D12",
+            "MISO",
+            "SPIQ",
+            "MTDI"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "XPO",
+          "functions": [
+            "D16",
+            "Reset to deep sleep"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "ADC",
+          "functions": [
+            "A0",
+            "10-bit 1V"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "EN",
+          "functions": [
+            "Enable",
+            "Set to active High"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Two 10-pin headers. The Name column prints 'XPO' and 'Vin' where the board silkscreen reads 'XPD' and 'VIN'; Name column spelling used. Two unlabelled inner holes beside the left 3V3/NC pins are not transcribed. The back-side inset shows the same left-header pads (RXI, TXO, DTR, SCL) plus RST, DTR and FTDI VCC jumper pads, not separate connectors. JST LiPo and micro-USB connectors skipped."
+}

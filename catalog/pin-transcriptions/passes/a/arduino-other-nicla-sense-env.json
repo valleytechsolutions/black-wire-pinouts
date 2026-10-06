@@ -1,0 +1,642 @@
+{
+  "recordId": "arduino-other-nicla-sense-env",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/be16d597d30343157c1d5d2f656fc9024fdcc4b0332e1aceb2f3ce9878434aeb.png",
+      "sha256": "be16d597d30343157c1d5d2f656fc9024fdcc4b0332e1aceb2f3ce9878434aeb"
+    },
+    {
+      "file": "media/59c70532a0e5af39a3d05261753c1234545de8090e6815c83da1065fa82bdbea.png",
+      "sha256": "59c70532a0e5af39a3d05261753c1234545de8090e6815c83da1065fa82bdbea"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header (top view)",
+      "image": "media/be16d597d30343157c1d5d2f656fc9024fdcc4b0332e1aceb2f3ce9878434aeb.png",
+      "rows": 1,
+      "orderNote": "Pin numbers printed (1 at bottom of image), in numeric order",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P201",
+          "functions": [
+            "GPIO1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P012",
+          "functions": [
+            "AN007"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P103",
+          "functions": [
+            "SS"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P101",
+          "functions": [
+            "MOSI",
+            "SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "P100",
+          "functions": [
+            "MISO",
+            "SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P102",
+          "functions": [
+            "SCLK"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "P013",
+          "functions": [
+            "AN008"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "P014",
+          "functions": [
+            "AN009"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header (top view)",
+      "image": "media/be16d597d30343157c1d5d2f656fc9024fdcc4b0332e1aceb2f3ce9878434aeb.png",
+      "rows": 1,
+      "orderNote": "Pin numbers printed (1 at bottom of image), in numeric order",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P101",
+          "functions": [
+            "SDA",
+            "MOSI"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P100",
+          "functions": [
+            "SCL",
+            "MISO"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P109",
+          "functions": [
+            "SERIAL_RX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P110",
+          "functions": [
+            "SERIAL_TX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "+5V",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-pads",
+      "name": "Bottom view pads P1-P8",
+      "image": "media/be16d597d30343157c1d5d2f656fc9024fdcc4b0332e1aceb2f3ce9878434aeb.png",
+      "rows": 1,
+      "orderNote": "Pad numbers P1-P8 printed (P1 at bottom), in numeric order",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "P108",
+          "functions": [
+            "SWDIO"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P300",
+          "functions": [
+            "SWCLK"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "NC",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "eslov",
+      "name": "ESLOV connector",
+      "image": "media/be16d597d30343157c1d5d2f656fc9024fdcc4b0332e1aceb2f3ce9878434aeb.png",
+      "rows": 1,
+      "orderNote": "Pin numbers 1-5 printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VESLOV +5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "P112",
+          "functions": [
+            "GPIO3"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P100",
+          "functions": [
+            "MISO",
+            "SCL"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P101",
+          "functions": [
+            "MOSI",
+            "SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J3",
+      "name": "PMOD connector (J3)",
+      "image": "media/be16d597d30343157c1d5d2f656fc9024fdcc4b0332e1aceb2f3ce9878434aeb.png",
+      "rows": 2,
+      "orderNote": "Pin numbers 1-12 printed, in numeric order (1-6 one row, 7-12 other row)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P103",
+          "functions": [
+            "SS"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "P100",
+          "functions": [
+            "SCL",
+            "MISO"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P101",
+          "functions": [
+            "SDA",
+            "MOSI"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "P914",
+          "functions": [
+            "GPIO10"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "P012",
+          "functions": [
+            "AN007"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "P013",
+          "functions": [
+            "AN008"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "P201",
+          "functions": [
+            "GPIO1"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "+3V3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left header (top view)",
+      "image": "media/59c70532a0e5af39a3d05261753c1234545de8090e6815c83da1065fa82bdbea.png",
+      "rows": 1,
+      "orderNote": "Pin numbers printed (1 at bottom of image), in numeric order",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P201",
+          "functions": [
+            "GPIO1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P012",
+          "functions": [
+            "AN007"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P103",
+          "functions": [
+            "SS"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P101",
+          "functions": [
+            "MOSI",
+            "SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "P100",
+          "functions": [
+            "MISO",
+            "SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P102",
+          "functions": [
+            "SCLK"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "P013",
+          "functions": [
+            "AN008"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "P014",
+          "functions": [
+            "AN009"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Right header (top view)",
+      "image": "media/59c70532a0e5af39a3d05261753c1234545de8090e6815c83da1065fa82bdbea.png",
+      "rows": 1,
+      "orderNote": "Pin numbers printed (1 at bottom of image), in numeric order",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P101",
+          "functions": [
+            "SDA",
+            "MOSI"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P100",
+          "functions": [
+            "SCL",
+            "MISO"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P109",
+          "functions": [
+            "SERIAL_TX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P110",
+          "functions": [
+            "SERIAL_RX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "+5V",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-pads-img2",
+      "name": "Bottom view pads P1-P8",
+      "image": "media/59c70532a0e5af39a3d05261753c1234545de8090e6815c83da1065fa82bdbea.png",
+      "rows": 1,
+      "orderNote": "Pad numbers P1-P8 printed (P1 at bottom), in numeric order",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "P108",
+          "functions": [
+            "SWDIO"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P300",
+          "functions": [
+            "SWCLK"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "NC",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "eslov-img2",
+      "name": "ESLOV connector",
+      "image": "media/59c70532a0e5af39a3d05261753c1234545de8090e6815c83da1065fa82bdbea.png",
+      "rows": 1,
+      "orderNote": "Pin numbers 1-5 printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VESLOV +5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "P112",
+          "functions": [
+            "GPIO3"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P100",
+          "functions": [
+            "MISO",
+            "SCL"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P101",
+          "functions": [
+            "MOSI",
+            "SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J3-img2",
+      "name": "PMOD connector (J3)",
+      "image": "media/59c70532a0e5af39a3d05261753c1234545de8090e6815c83da1065fa82bdbea.png",
+      "rows": 2,
+      "orderNote": "Pin numbers 1-12 printed, in numeric order (1-6 one row, 7-12 other row)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P103",
+          "functions": [
+            "SS"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "P100",
+          "functions": [
+            "SCL",
+            "MISO"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P101",
+          "functions": [
+            "SDA",
+            "MOSI"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "P914",
+          "functions": [
+            "GPIO10"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "P012",
+          "functions": [
+            "AN007"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "P013",
+          "functions": [
+            "AN008"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "P201",
+          "functions": [
+            "GPIO1"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "+3V3",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Label = MCU port name (Pxxx) where printed. Zeros in names like AN009/P014 printed as slashed zeros. IN/OUT power icons and D (default) icons omitted. Images 1 and 2 differ only in UART labels on right-header pins 3/4 (image 1: P109 SERIAL_RX, P110 SERIAL_TX; image 2: P109 SERIAL_TX, P110 SERIAL_RX). Reset button, RGB/orange LEDs and sensor callouts (A/B/C) not transcribed."
+}

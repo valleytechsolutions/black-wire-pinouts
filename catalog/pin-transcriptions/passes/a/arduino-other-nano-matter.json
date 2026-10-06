@@ -1,0 +1,452 @@
+{
+  "recordId": "arduino-other-nano-matter",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/78bb6eb566bbb81da2ddf961cdbd4e80b6bc1fdc457260a203f235e5cc67fe80.png",
+      "sha256": "78bb6eb566bbb81da2ddf961cdbd4e80b6bc1fdc457260a203f235e5cc67fe80"
+    },
+    {
+      "file": "media/1c3367d040b35a4df7078abcc18efce9d4104a56b3392172a434098b5ca4c190.png",
+      "sha256": "1c3367d040b35a4df7078abcc18efce9d4104a56b3392172a434098b5ca4c190"
+    },
+    {
+      "file": "media/fc905c608690af20f38297cad41d7d3b35a47d9748e163470cd9fd9099e30402.png",
+      "sha256": "fc905c608690af20f38297cad41d7d3b35a47d9748e163470cd9fd9099e30402"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/78bb6eb566bbb81da2ddf961cdbd4e80b6bc1fdc457260a203f235e5cc67fe80.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB-C connector at top of image, start at end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "~D13",
+          "functions": [
+            "SCK"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "AREF",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "A0",
+          "functions": [
+            "~14",
+            "DAC0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "A1",
+          "functions": [
+            "~15",
+            "DAC2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "A2",
+          "functions": [
+            "~16"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "A3",
+          "functions": [
+            "~17"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "A4",
+          "functions": [
+            "~18",
+            "SDA"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "A5",
+          "functions": [
+            "~19",
+            "SCL"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "A6",
+          "functions": [
+            "~20",
+            "DAC1"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "A7",
+          "functions": [
+            "~21",
+            "DAC3"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "VIN",
+          "functions": [
+            "+21V max"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/78bb6eb566bbb81da2ddf961cdbd4e80b6bc1fdc457260a203f235e5cc67fe80.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB-C connector at top of image, start at end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "~D12",
+          "functions": [
+            "MISO"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "~D11",
+          "functions": [
+            "MOSI"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "~D10",
+          "functions": [
+            "SS"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "~D9",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "~D8",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "~D7",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "~D6",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "~D5",
+          "functions": [
+            "SCL1"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "~D4",
+          "functions": [
+            "SDA1"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "~D3",
+          "functions": [
+            "SS1"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "~D2",
+          "functions": [
+            "SCK1"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "~D1",
+          "functions": [
+            "MISO1",
+            "PIN_SERIAL_RX1"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "~D0",
+          "functions": [
+            "MOSI1",
+            "PIN_SERIAL_TX1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left header",
+      "image": "media/1c3367d040b35a4df7078abcc18efce9d4104a56b3392172a434098b5ca4c190.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB-C connector at top of image, start at end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "~D13",
+          "functions": [
+            "SCK"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "AREF",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "A0",
+          "functions": [
+            "~14",
+            "DAC0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "A1",
+          "functions": [
+            "~15",
+            "DAC2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "A2",
+          "functions": [
+            "~16"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "A3",
+          "functions": [
+            "~17"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "A4",
+          "functions": [
+            "~18",
+            "SDA"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "A5",
+          "functions": [
+            "~19",
+            "SCL"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "A6",
+          "functions": [
+            "~20",
+            "DAC1"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "A7",
+          "functions": [
+            "~21",
+            "DAC3"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "VIN",
+          "functions": [
+            "+21V max"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Right header",
+      "image": "media/1c3367d040b35a4df7078abcc18efce9d4104a56b3392172a434098b5ca4c190.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB-C connector at top of image, start at end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "~D12",
+          "functions": [
+            "MISO"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "~D11",
+          "functions": [
+            "MOSI"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "~D10",
+          "functions": [
+            "SS"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "~D9",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "~D8",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "~D7",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "~D6",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "~D5",
+          "functions": [
+            "SCL1"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "~D4",
+          "functions": [
+            "SDA1"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "~D3",
+          "functions": [
+            "SS1"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "~D2",
+          "functions": [
+            "SCK1"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "~D1",
+          "functions": [
+            "MISO1",
+            "PIN_SERIAL_RX1"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "~D0",
+          "functions": [
+            "MOSI1",
+            "PIN_SERIAL_TX1"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "No MCU port names printed; label = board name as printed (tilde kept). Analog rows print \"A0 ~14\" etc.: label A0, \"~14\" first in functions. OUT/IN power icons and D (default) icons omitted; +5V callout box (\"Outputs +5V when the board is USB powered\") not included as a function. Image 3 (bottom view) shows only individually scattered labeled test pads (USB D_P/D_N, MGM_SWDIO/SWCLK/RESET, D11_RESET/SWCLK/SWDIO, +3V3, GND, VUSB, +3V3_D11) and solder jumpers, with no header/row structure; not transcribed as connectors. Reset/user buttons, RGB/power LEDs not transcribed."
+}

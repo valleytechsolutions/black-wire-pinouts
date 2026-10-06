@@ -1,0 +1,53 @@
+{
+  "recordId": "adafruit-neo-trinkey",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/c811a248545a8a953ea2f7acbd4a66319043b45089f5c76a4e34d6a63f9ccc5d.png",
+      "sha256": "c811a248545a8a953ea2f7acbd4a66319043b45089f5c76a4e34d6a63f9ccc5d"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "edge-pads",
+      "name": "Touch pads (right edge)",
+      "image": "media/c811a248545a8a953ea2f7acbd4a66319043b45089f5c76a4e34d6a63f9ccc5d.png",
+      "rows": 1,
+      "orderNote": "Pads printed 1 and 2 on silkscreen; followed those numbers",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PA03",
+          "functions": [
+            "1",
+            "TOUCH1",
+            "1/A1",
+            "3",
+            "VREFA",
+            "AIN1",
+            "Y1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PA07",
+          "functions": [
+            "2",
+            "TOUCH2",
+            "2/A2",
+            "7",
+            "AIN7",
+            "Y5",
+            "S0.3",
+            "TCC1[1]",
+            "I2S/SD0"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Two capacitive touch pads at the right edge transcribed as edge pads. NEOPIXEL callout points at the on-board LEDs and is skipped (LED)."
+}

@@ -1,0 +1,228 @@
+{
+  "recordId": "nvidia-other-jetson-orin-nano-developer-kit",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/cc51e208ac8ee9d41fe523eb2c88d518cc990569e06a932cf32d922df472c9c8.png",
+      "sha256": "cc51e208ac8ee9d41fe523eb2c88d518cc990569e06a932cf32d922df472c9c8"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "J12",
+      "name": "40-pin expansion header",
+      "image": "media/cc51e208ac8ee9d41fe523eb2c88d518cc990569e06a932cf32d922df472c9c8.png",
+      "rows": 2,
+      "orderNote": "Printed pin numbers 1-40 followed (pin 1 square pad and numbered; odd left column, even right column).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5.0V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "I2C1_SDA",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "5.0V",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "I2C1_SCL",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO09",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "UART1_TXD",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "UART1_RXD",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "UART1_RTS*",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "I2S0_SCLK",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "SPI1_SCK",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GPIO12",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "SPI1_CS1*",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "SPI1_CS0*",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "SPI0_MOSI",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "SPI0_MISO",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "SPI1_MISO",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "SPI0_SCK",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "SPI0_CS0*",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "SPI0_CS1*",
+          "functions": []
+        },
+        {
+          "position": 27,
+          "label": "I2C0_SDA",
+          "functions": []
+        },
+        {
+          "position": 28,
+          "label": "I2C0_SCL",
+          "functions": []
+        },
+        {
+          "position": 29,
+          "label": "GPIO01",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 31,
+          "label": "GPIO11",
+          "functions": []
+        },
+        {
+          "position": 32,
+          "label": "GPIO07",
+          "functions": []
+        },
+        {
+          "position": 33,
+          "label": "GPIO13",
+          "functions": []
+        },
+        {
+          "position": 34,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 35,
+          "label": "I2S0_FS",
+          "functions": []
+        },
+        {
+          "position": 36,
+          "label": "UART1_CTS*",
+          "functions": []
+        },
+        {
+          "position": 37,
+          "label": "SPI1_MOSI",
+          "functions": []
+        },
+        {
+          "position": 38,
+          "label": "I2S0_DIN",
+          "functions": []
+        },
+        {
+          "position": 39,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 40,
+          "label": "I2S0_DOUT",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Board identity: the figure is from the 'Jetson Orin Nano Developer Kit Carrier Board Specification' and shows the carrier's J12 header as a schematic; assumed to be the developer kit's header."
+  ],
+  "notes": "Designator J12 taken from the page text. Asterisks are copied as printed (the figure does not define them). O/0 in names such as I2S0, SPI0, GPIO09 recorded as 0."
+}

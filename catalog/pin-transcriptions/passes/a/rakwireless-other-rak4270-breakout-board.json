@@ -1,0 +1,154 @@
+{
+  "recordId": "rakwireless-other-rak4270-breakout-board",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/bcd8e1573d105779d3060c7aa474554767b17ccbe5951b56a45e28ec20391f74.png",
+      "sha256": "bcd8e1573d105779d3060c7aa474554767b17ccbe5951b56a45e28ec20391f74"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "J1",
+      "name": "Left header J1",
+      "image": "media/bcd8e1573d105779d3060c7aa474554767b17ccbe5951b56a45e28ec20391f74.png",
+      "rows": 1,
+      "orderNote": "Pin 1 marked (\"1\" beside top pin); numbered top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PA3",
+          "functions": [
+            "UART2_RX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PA2",
+          "functions": [
+            "UART2_TX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA1",
+          "functions": [
+            "UART2_DE"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA12",
+          "functions": [
+            "UART1_DE"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PA13",
+          "functions": [
+            "SWDIO"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA14",
+          "functions": [
+            "SWCLK"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PB6",
+          "functions": [
+            "I2C_SCL"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PB7",
+          "functions": [
+            "I2C_SDA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "J2",
+      "name": "Right header J2",
+      "image": "media/bcd8e1573d105779d3060c7aa474554767b17ccbe5951b56a45e28ec20391f74.png",
+      "rows": 1,
+      "orderNote": "Pin 1 marked (\"1\" beside top pin); numbered top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VDD_3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "PA9",
+          "functions": [
+            "UART1_TX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA10",
+          "functions": [
+            "UART1_RX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "MCU_NRST",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "PB4",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "PA8",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J4",
+      "name": "Bottom 2-pin header J4",
+      "image": "media/bcd8e1573d105779d3060c7aa474554767b17ccbe5951b56a45e28ec20391f74.png",
+      "rows": 1,
+      "orderNote": "No pin-1 mark or USB; ordered left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VCC_3V3",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Labels printed as \"FUNCTION/PORTPIN\" split per rule 5: MCU port pin (PA3 etc.) as label, function name in functions. RF PORT/SMA, J3 antenna area, ID1-ID3 marks and internal U1 module pads skipped."
+}

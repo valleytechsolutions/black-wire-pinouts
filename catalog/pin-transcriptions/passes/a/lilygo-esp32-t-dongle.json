@@ -1,0 +1,48 @@
+{
+  "recordId": "lilygo-esp32-t-dongle",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/35faf9d27e5d82802565982a5ffa939f54ed8cdd92b25e1e4f791a4b2b8ac92f.jpg",
+      "sha256": "35faf9d27e5d82802565982a5ffa939f54ed8cdd92b25e1e4f791a4b2b8ac92f"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "jst-connector",
+      "name": "4-pin JST connector (left side)",
+      "image": "media/35faf9d27e5d82802565982a5ffa939f54ed8cdd92b25e1e4f791a4b2b8ac92f.jpg",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; vertical row, started at the end closest to a USB connector: the USB-A plug lies below the connector (bottom end, GND); the USB-A receptacle beside it is level with both ends.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IO44",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO43",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "VDD",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Labels from the diagram callout (VDD, IO43, IO44, GND top to bottom), matching the board silkscreen printed below the connector. TF card and LCD pin tables are internal peripherals, not wiring points. PWR/IO39 silkscreen on the right view labels LEDs, not pins.",
+  "uncertain": [
+    "Board has two USB connectors (USB-A plug at the bottom and a USB-A receptacle beside the JST connector); the USB-nearest rule was applied using the plug because the receptacle is level with the whole connector. Top-first order would be VDD, IO43, IO44, GND."
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "recordId": "elecrow-rp2040-crowpanel-pico-hmi-4-3-inch-display",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/a0c2f7e9b5fd9ed891b67541d30afa37ccf5f5344829563618796b87b7d83115.webp",
+      "sha256": "a0c2f7e9b5fd9ed891b67541d30afa37ccf5f5344829563618796b87b7d83115"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "J1",
+      "name": "J1 GPIO_D connector",
+      "image": "media/a0c2f7e9b5fd9ed891b67541d30afa37ccf5f5344829563618796b87b7d83115.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; the USB connector is at the bottom right, so position 1 is the right (USB-nearest) end of this horizontal connector.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "ADC_GP28",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J2",
+      "name": "J2 ADC connector",
+      "image": "media/a0c2f7e9b5fd9ed891b67541d30afa37ccf5f5344829563618796b87b7d83115.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; the USB connector is at the bottom right, so position 1 is the right (USB-nearest) end of this horizontal connector.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "ADC_GP26",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "ADC_GP27",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J6",
+      "name": "J6 I2C connector",
+      "image": "media/a0c2f7e9b5fd9ed891b67541d30afa37ccf5f5344829563618796b87b7d83115.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; the USB connector is at the bottom right, so position 1 is the right (USB-nearest) end of this horizontal connector.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SDA1_GP2",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SCL1_GP3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J5",
+      "name": "J5 GPIO_D connector",
+      "image": "media/a0c2f7e9b5fd9ed891b67541d30afa37ccf5f5344829563618796b87b7d83115.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; the USB connector is at the bottom right, so position 1 is the bottom (USB-nearest) end of this vertical connector.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PWM-GP22",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J4",
+      "name": "J4 4-pin header",
+      "image": "media/a0c2f7e9b5fd9ed891b67541d30afa37ccf5f5344829563618796b87b7d83115.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; the USB connector is at the bottom right, so position 1 is the right (USB-nearest) end of this horizontal connector.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "gp-header",
+      "name": "16-pad row with GP label table",
+      "image": "media/a0c2f7e9b5fd9ed891b67541d30afa37ccf5f5344829563618796b87b7d83115.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; the USB connector is at the bottom right, so position 1 is the right (USB-nearest) end of this horizontal connector.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GP28",
+          "functions": [
+            "28",
+            "ADC"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP27",
+          "functions": [
+            "27",
+            "ADC"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP26",
+          "functions": [
+            "26",
+            "ADC"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP22",
+          "functions": [
+            "22",
+            "PWM"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP17",
+          "functions": [
+            "17",
+            "CS"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP16",
+          "functions": [
+            "16",
+            "MISO"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP7",
+          "functions": [
+            "7",
+            "MOSI"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP6",
+          "functions": [
+            "6",
+            "CLK"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GP3",
+          "functions": [
+            "3",
+            "SCL1"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GP2",
+          "functions": [
+            "2",
+            "SDA1"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GP1",
+          "functions": [
+            "1",
+            "RX0"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GP0",
+          "functions": [
+            "0",
+            "TX0"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "J6 label 'SCL1_GP3': the character after 'SCL' is blurred and could be read as 1 or 4; recorded as SCL1_GP3 (the GP table also prints SCL1)."
+  ],
+  "uncertain": [
+    "J1, J2, J6 and J5 labels are printed in boxes beside the connectors rather than at each pad; which box belongs to which connector and the pad-by-pad mapping were inferred from proximity and the GPIO_D/ADC/I2C tags.",
+    "gp-header: the GP label table below the 16-pad row does not align pad-by-pad; mapping table order left-to-right onto the pads, and treating 'GP' + number as the pin name, is inferred. The row has no visible designator.",
+    "J10 (small connector with 4 fine pads) has a box reading 'SCL_GP21' and 'SDA_GP20'; only two labels for four pads, so it was not transcribed.",
+    "Labels of the J1/J2/J6/J5/gp-header connectors are tiny in the render; position 1 at the USB-nearest end depends on the USB connector being the bottom-right 'USB' port."
+  ],
+  "notes": "PCB render printed 'CrowPanel Pico Display-4.3 inch SKU:DIS01243P V1.0'. J1/J2/J6/J5 are 4-pad SMD connectors whose labels are printed in a separate box beside each (J1 box left of J1, J2 and J6 boxes right of each, J5 box to the lower right); box text order (left-to-right, or top-to-bottom for J5) is mapped to the pads in the same direction. gp-header: a row of 16 large pads with a table printed below it: 'GP' row 0 1 2 3 6 7 16 17 22 26 27 28 then GND 3V3 GND 3V3, and function row TX0 RX0 SDA1 SCL1 CLK MOSI MISO CS PWM ADC ADC ADC; labels written as GP<n> with the printed number first in functions. Skipped: J15 UART0 (USB-style connector, pins unlabeled), USB, BAT, buzzer B1 (GP21-BUZZER), TF card slot SD2 (GP6-CLK, GP7-MOSI, GP16-MISO, GP17-CS), J3 fine-pitch FPC (unlabeled), buttons, and J10 (see uncertain)."
+}

@@ -1,0 +1,820 @@
+{
+  "recordId": "olimex-rk3188-som-evb",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/70d239a8168985802f9a8a1fa620ef6182fa6c1d6f02950e81327d2793937ed0.png",
+      "sha256": "70d239a8168985802f9a8a1fa620ef6182fa6c1d6f02950e81327d2793937ed0"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "UEXT1",
+      "name": "UEXT1 (2x5)",
+      "image": "media/70d239a8168985802f9a8a1fa620ef6182fa6c1d6f02950e81327d2793937ed0.png",
+      "rows": 2,
+      "orderNote": "Pin numbers printed (1 and 2 marked in the drawing); left column numbered 1,2,3,4,5 in the image, taken as the physical odd positions 1,3,5,7,9; right column even positions.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO1_A1",
+          "functions": [
+            "UART0_TX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO1_A0",
+          "functions": [
+            "UART0_RX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO1_D1",
+          "functions": [
+            "I2C0_SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO1_D0",
+          "functions": [
+            "I2C0_SDA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO1_A4",
+          "functions": [
+            "SPI0_MISO"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO1_A5",
+          "functions": [
+            "SPI0_MOSI"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO1_A6",
+          "functions": [
+            "SPI0_SCK"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO1_A7",
+          "functions": [
+            "SPI0_CSN0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "UEXT2",
+      "name": "UEXT2 (2x5)",
+      "image": "media/70d239a8168985802f9a8a1fa620ef6182fa6c1d6f02950e81327d2793937ed0.png",
+      "rows": 2,
+      "orderNote": "Printed pin numbers followed (odd numbers left column, even right column; pin 1 top-left in the drawing).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO1_B3",
+          "functions": [
+            "UART3_TX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO1_B2",
+          "functions": [
+            "UART3_RX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO1_D7",
+          "functions": [
+            "I2C4_SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO1_D6",
+          "functions": [
+            "I2C4_SDA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO0_D4",
+          "functions": [
+            "SPI1_MISO"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO0_D5",
+          "functions": [
+            "SPI1_MOSI"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO0_D6",
+          "functions": [
+            "SPI1_CLK"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO0_D7",
+          "functions": [
+            "SPI1_CSNO"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EXT2",
+      "name": "EXT2 (2x20)",
+      "image": "media/70d239a8168985802f9a8a1fa620ef6182fa6c1d6f02950e81327d2793937ed0.png",
+      "rows": 2,
+      "orderNote": "Printed pin numbers followed (odd numbers left column, even right column; pin 1 top-left in the drawing).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO0_A1",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GPIO0_B0",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO0_A5",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GPIO0_B1",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO0_A6",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GPIO0_B2",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GPIO0_A7",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GPIO0_B7",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "CIF_D0",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO1_A2",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "CIF_D1",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "GPIO1_A3",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "CIF_D2",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "CIF_HREF",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "CIF_D3",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "CIF_CLKI",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "CIF_D4",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "CIF_CLKO",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "CIF_D5",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "CIF_VSYNC",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "CIF_D6",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "CIF_D15",
+          "functions": []
+        },
+        {
+          "position": 27,
+          "label": "CIF_D7",
+          "functions": []
+        },
+        {
+          "position": 28,
+          "label": "CIF_D14",
+          "functions": []
+        },
+        {
+          "position": 29,
+          "label": "CIF_D8",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "CIF_D13",
+          "functions": []
+        },
+        {
+          "position": 31,
+          "label": "CIF_D9",
+          "functions": []
+        },
+        {
+          "position": 32,
+          "label": "CIF_D12",
+          "functions": []
+        },
+        {
+          "position": 33,
+          "label": "CIF_D10",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 34,
+          "label": "CIF_D11",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 35,
+          "label": "GPIO2_D4",
+          "functions": []
+        },
+        {
+          "position": 36,
+          "label": "GPIO2_D5",
+          "functions": []
+        },
+        {
+          "position": 37,
+          "label": "GPIO3_A0",
+          "functions": []
+        },
+        {
+          "position": 38,
+          "label": "GPIO3_B1",
+          "functions": []
+        },
+        {
+          "position": 39,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 40,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "EXT1",
+      "name": "EXT1 (2x20)",
+      "image": "media/70d239a8168985802f9a8a1fa620ef6182fa6c1d6f02950e81327d2793937ed0.png",
+      "rows": 2,
+      "orderNote": "Printed pin numbers followed (odd numbers left column, even right column; pin 1 top-left in the drawing).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VCC_1.8",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "ADC_IN0",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "ADC_IN2",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "NWP",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "NRB0",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "NDQ0",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "NRE",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "NDQ1",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "NCLE",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "NDQ2",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "NALE",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "NDQ3",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "NWE",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "NDQ4",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "NCE0",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "NDQ5",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GPIO0_B4",
+          "functions": [
+            "LED1"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "NDQ6",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "GPIO0_B6",
+          "functions": [
+            "LED2"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "NDQ7",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "GPIO3_D5",
+          "functions": [
+            "PWM2"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "GPIO0_D0",
+          "functions": [
+            "FLASH_DQS"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "GPIO3_D6",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "GPIO0_D1",
+          "functions": [
+            "FLASH_CSN1"
+          ]
+        },
+        {
+          "position": 26,
+          "label": "GPIO0_C0",
+          "functions": []
+        },
+        {
+          "position": 27,
+          "label": "GPIO0_D2",
+          "functions": [
+            "FLASH_CSN2"
+          ]
+        },
+        {
+          "position": 28,
+          "label": "GPIO0_C1",
+          "functions": []
+        },
+        {
+          "position": 29,
+          "label": "GPIO0_D3",
+          "functions": [
+            "FLASH_CSN3"
+          ]
+        },
+        {
+          "position": 30,
+          "label": "GPIO0_C2",
+          "functions": []
+        },
+        {
+          "position": 31,
+          "label": "GPIO1_C0",
+          "functions": []
+        },
+        {
+          "position": 32,
+          "label": "GPIO0_C3",
+          "functions": []
+        },
+        {
+          "position": 33,
+          "label": "GPIO1_C4",
+          "functions": []
+        },
+        {
+          "position": 34,
+          "label": "GPIO0_C4",
+          "functions": []
+        },
+        {
+          "position": 35,
+          "label": "GPIO1_B4",
+          "functions": []
+        },
+        {
+          "position": 36,
+          "label": "GPIO0_C5",
+          "functions": []
+        },
+        {
+          "position": 37,
+          "label": "GPIO1_B5",
+          "functions": []
+        },
+        {
+          "position": 38,
+          "label": "GPIO0_C6",
+          "functions": []
+        },
+        {
+          "position": 39,
+          "label": "GPIO1_B7",
+          "functions": [
+            "SDO"
+          ]
+        },
+        {
+          "position": 40,
+          "label": "GPIO0_C7",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "LCD",
+      "name": "LCD (2x20)",
+      "image": "media/70d239a8168985802f9a8a1fa620ef6182fa6c1d6f02950e81327d2793937ed0.png",
+      "rows": 2,
+      "orderNote": "Printed pin numbers followed (odd numbers left column, even right column; pin 1 top-left in the drawing).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "LCD0_D16",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "LCD0_D17",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "LCD0_D18",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "LCD0_D19",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "LCD0_D20",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "LCD0_D21",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "LCD0_D22",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "LCD0_D23",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "LCD0_D8",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "LCD0_D9",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "LCD0_D10",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "LCD0_D11",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "LCD0_D12",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "LCD0_D13",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "LCD0_D14",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "LCD0_D15",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "LCD0_D0",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "LCD0_D1",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "LCD0_D2",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "LCD0_D3",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "LCD0_D4",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "LCD0_D5",
+          "functions": []
+        },
+        {
+          "position": 27,
+          "label": "LCD0_D6",
+          "functions": []
+        },
+        {
+          "position": 28,
+          "label": "LCD0_D7",
+          "functions": []
+        },
+        {
+          "position": 29,
+          "label": "LCD0_HSYNC",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "LCD0_VSYNC",
+          "functions": []
+        },
+        {
+          "position": 31,
+          "label": "LCD0_CLK",
+          "functions": []
+        },
+        {
+          "position": 32,
+          "label": "LCD0_DE",
+          "functions": []
+        },
+        {
+          "position": 33,
+          "label": "LCD0_L/R",
+          "functions": []
+        },
+        {
+          "position": 34,
+          "label": "LCD0_U/D",
+          "functions": []
+        },
+        {
+          "position": 35,
+          "label": "GPIO3_D7",
+          "functions": [
+            "LCD0_PWRE"
+          ]
+        },
+        {
+          "position": 36,
+          "label": "GPIO3_D4",
+          "functions": [
+            "PWM1"
+          ]
+        },
+        {
+          "position": 37,
+          "label": "X-",
+          "functions": []
+        },
+        {
+          "position": 38,
+          "label": "X+",
+          "functions": []
+        },
+        {
+          "position": 39,
+          "label": "Y-",
+          "functions": []
+        },
+        {
+          "position": 40,
+          "label": "Y+",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "RK3188-SOM-EVB pinout reference drawing (Olimex). Slash-separated names split: first part as label, rest as functions (LCD0_L/R and LCD0_U/D kept whole as single signal names). The font distinguishes slashed zero from letter O; spelling copied as printed, including UEXT2 pin 10 'SPI1_CSNO' (letter O, while UEXT1 prints SPI0_CSN0) and EXT2 pin 22 'CIF_CLKO'.",
+  "uncertain": [
+    "UEXT1 left-column labels are printed with numbers 1,2,3,4,5 (duplicating 2 and 4 from the right column); assigned to physical odd positions 1,3,5,7,9 by their row in the drawing."
+  ]
+}

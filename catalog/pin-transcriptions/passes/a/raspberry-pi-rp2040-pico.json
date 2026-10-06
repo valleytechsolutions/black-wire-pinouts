@@ -1,0 +1,1233 @@
+{
+ "recordId": "raspberry-pi-rp2040-pico",
+ "pass": "a",
+ "date": "2026-10-05",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/60c2ed518dc771533a0c1d048eb7462d82c00ecb61fec89dbd037986613f9c7f.jpg",
+   "sha256": "60c2ed518dc771533a0c1d048eb7462d82c00ecb61fec89dbd037986613f9c7f"
+  },
+  {
+   "file": "media/5a7e47bc5e3251bb40900508e44f56a523efe21b4180230a740eae6d986c01ea.jpg",
+   "sha256": "5a7e47bc5e3251bb40900508e44f56a523efe21b4180230a740eae6d986c01ea"
+  },
+  {
+   "file": "media/93ff72b0a60a69da63bb0b27ae4a2112fa38064e69f3c5d9436d6640306ace45.png",
+   "sha256": "93ff72b0a60a69da63bb0b27ae4a2112fa38064e69f3c5d9436d6640306ace45"
+  },
+  {
+   "file": "media/96396793c1e6bc3a95f323c315229c9c7a4700fe73affda89fc1f6711e529d26.png",
+   "sha256": "96396793c1e6bc3a95f323c315229c9c7a4700fe73affda89fc1f6711e529d26"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "left-header",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "Printed positions 1-20 top to bottom.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GP0",
+     "functions": [
+      "SPI0 RX",
+      "I2C0 SDA",
+      "UART0 TX"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "GP1",
+     "functions": [
+      "SPI0 CSn",
+      "I2C0 SCL",
+      "UART0 RX"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GP2",
+     "functions": [
+      "SPI0 SCK",
+      "I2C1 SDA"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GP3",
+     "functions": [
+      "SPI0 TX",
+      "I2C1 SCL"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GP4",
+     "functions": [
+      "SPI0 RX",
+      "I2C0 SDA",
+      "UART1 TX"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GP5",
+     "functions": [
+      "SPI0 CSn",
+      "I2C0 SCL",
+      "UART1 RX"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "GP6",
+     "functions": [
+      "SPI0 SCK",
+      "I2C1 SDA"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "GP7",
+     "functions": [
+      "SPI0 TX",
+      "I2C1 SCL"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "GP8",
+     "functions": [
+      "SPI1 RX",
+      "I2C0 SDA",
+      "UART1 TX"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "GP9",
+     "functions": [
+      "SPI1 CSn",
+      "I2C0 SCL",
+      "UART1 RX"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 14,
+     "label": "GP10",
+     "functions": [
+      "SPI1 SCK",
+      "I2C1 SDA"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "GP11",
+     "functions": [
+      "SPI1 TX",
+      "I2C1 SCL"
+     ]
+    },
+    {
+     "position": 16,
+     "label": "GP12",
+     "functions": [
+      "SPI1 RX",
+      "I2C0 SDA",
+      "UART0 TX"
+     ]
+    },
+    {
+     "position": 17,
+     "label": "GP13",
+     "functions": [
+      "SPI1 CSn",
+      "I2C0 SCL",
+      "UART0 RX"
+     ]
+    },
+    {
+     "position": 18,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "GP14",
+     "functions": [
+      "SPI1 SCK",
+      "I2C1 SDA"
+     ]
+    },
+    {
+     "position": 20,
+     "label": "GP15",
+     "functions": [
+      "SPI1 TX",
+      "I2C1 SCL"
+     ]
+    }
+   ],
+   "image": "media/60c2ed518dc771533a0c1d048eb7462d82c00ecb61fec89dbd037986613f9c7f.jpg"
+  },
+  {
+   "id": "right-header",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "Printed positions 21-40 bottom to top; local positions 1-20.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GP16",
+     "functions": [
+      "SPI0 RX",
+      "I2C0 SDA",
+      "UART0 TX"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "GP17",
+     "functions": [
+      "SPI0 CSn",
+      "I2C0 SCL",
+      "UART0 RX"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GP18",
+     "functions": [
+      "SPI0 SCK",
+      "I2C1 SDA"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GP19",
+     "functions": [
+      "SPI0 TX",
+      "I2C1 SCL"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GP20",
+     "functions": [
+      "I2C0 SDA"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GP21",
+     "functions": [
+      "I2C0 SCL"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "GP22",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "RUN",
+     "functions": []
+    },
+    {
+     "position": 11,
+     "label": "GP26",
+     "functions": [
+      "ADC0",
+      "I2C1 SDA"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "GP27",
+     "functions": [
+      "ADC1",
+      "I2C1 SCL"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "GND",
+     "functions": [
+      "AGND"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "GP28",
+     "functions": [
+      "ADC2"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "ADC_VREF",
+     "functions": []
+    },
+    {
+     "position": 16,
+     "label": "3V3(OUT)",
+     "functions": []
+    },
+    {
+     "position": 17,
+     "label": "3V3_EN",
+     "functions": []
+    },
+    {
+     "position": 18,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "VSYS",
+     "functions": []
+    },
+    {
+     "position": 20,
+     "label": "VBUS",
+     "functions": []
+    }
+   ],
+   "image": "media/60c2ed518dc771533a0c1d048eb7462d82c00ecb61fec89dbd037986613f9c7f.jpg"
+  },
+  {
+   "id": "DEBUG",
+   "name": "DEBUG",
+   "rows": 1,
+   "orderNote": "USB above left of debug row for W variants, centered above for Pico; left to right.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "SWCLK",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "SWDIO",
+     "functions": []
+    }
+   ],
+   "image": "media/60c2ed518dc771533a0c1d048eb7462d82c00ecb61fec89dbd037986613f9c7f.jpg"
+  },
+  {
+   "id": "left-header-img2",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "Printed positions 1-20 top to bottom.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GP0",
+     "functions": [
+      "SPI0 RX",
+      "I2C0 SDA",
+      "UART0 TX"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "GP1",
+     "functions": [
+      "SPI0 CSn",
+      "I2C0 SCL",
+      "UART0 RX"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GP2",
+     "functions": [
+      "SPI0 SCK",
+      "I2C1 SDA"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GP3",
+     "functions": [
+      "SPI0 TX",
+      "I2C1 SCL"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GP4",
+     "functions": [
+      "SPI0 RX",
+      "I2C0 SDA",
+      "UART1 TX"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GP5",
+     "functions": [
+      "SPI0 CSn",
+      "I2C0 SCL",
+      "UART1 RX"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "GP6",
+     "functions": [
+      "SPI0 SCK",
+      "I2C1 SDA"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "GP7",
+     "functions": [
+      "SPI0 TX",
+      "I2C1 SCL"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "GP8",
+     "functions": [
+      "SPI1 RX",
+      "I2C0 SDA",
+      "UART1 TX"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "GP9",
+     "functions": [
+      "SPI1 CSn",
+      "I2C0 SCL",
+      "UART1 RX"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 14,
+     "label": "GP10",
+     "functions": [
+      "SPI1 SCK",
+      "I2C1 SDA"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "GP11",
+     "functions": [
+      "SPI1 TX",
+      "I2C1 SCL"
+     ]
+    },
+    {
+     "position": 16,
+     "label": "GP12",
+     "functions": [
+      "SPI1 RX",
+      "I2C0 SDA",
+      "UART0 TX"
+     ]
+    },
+    {
+     "position": 17,
+     "label": "GP13",
+     "functions": [
+      "SPI1 CSn",
+      "I2C0 SCL",
+      "UART0 RX"
+     ]
+    },
+    {
+     "position": 18,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "GP14",
+     "functions": [
+      "SPI1 SCK",
+      "I2C1 SDA"
+     ]
+    },
+    {
+     "position": 20,
+     "label": "GP15",
+     "functions": [
+      "SPI1 TX",
+      "I2C1 SCL"
+     ]
+    }
+   ],
+   "image": "media/5a7e47bc5e3251bb40900508e44f56a523efe21b4180230a740eae6d986c01ea.jpg"
+  },
+  {
+   "id": "right-header-img2",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "Printed positions 21-40 bottom to top; local positions 1-20.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GP16",
+     "functions": [
+      "SPI0 RX",
+      "I2C0 SDA",
+      "UART0 TX"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "GP17",
+     "functions": [
+      "SPI0 CSn",
+      "I2C0 SCL",
+      "UART0 RX"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GP18",
+     "functions": [
+      "SPI0 SCK",
+      "I2C1 SDA"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GP19",
+     "functions": [
+      "SPI0 TX",
+      "I2C1 SCL"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GP20",
+     "functions": [
+      "I2C0 SDA"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GP21",
+     "functions": [
+      "I2C0 SCL"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "GP22",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "RUN",
+     "functions": []
+    },
+    {
+     "position": 11,
+     "label": "GP26",
+     "functions": [
+      "ADC0",
+      "I2C1 SDA"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "GP27",
+     "functions": [
+      "ADC1",
+      "I2C1 SCL"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "GND",
+     "functions": [
+      "AGND"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "GP28",
+     "functions": [
+      "ADC2"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "ADC_VREF",
+     "functions": []
+    },
+    {
+     "position": 16,
+     "label": "3V3(OUT)",
+     "functions": []
+    },
+    {
+     "position": 17,
+     "label": "3V3_EN",
+     "functions": []
+    },
+    {
+     "position": 18,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "VSYS",
+     "functions": []
+    },
+    {
+     "position": 20,
+     "label": "VBUS",
+     "functions": []
+    }
+   ],
+   "image": "media/5a7e47bc5e3251bb40900508e44f56a523efe21b4180230a740eae6d986c01ea.jpg"
+  },
+  {
+   "id": "DEBUG-img2",
+   "name": "DEBUG",
+   "rows": 1,
+   "orderNote": "USB above left of debug row for W variants, centered above for Pico; left to right.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "SWCLK",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "SWDIO",
+     "functions": []
+    }
+   ],
+   "image": "media/5a7e47bc5e3251bb40900508e44f56a523efe21b4180230a740eae6d986c01ea.jpg"
+  },
+  {
+   "id": "left-header-img3",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "Printed positions 1-20 top to bottom.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GP0",
+     "functions": [
+      "SPI0 RX",
+      "I2C0 SDA",
+      "UART0 TX"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "GP1",
+     "functions": [
+      "SPI0 CSn",
+      "I2C0 SCL",
+      "UART0 RX"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GP2",
+     "functions": [
+      "SPI0 SCK",
+      "I2C1 SDA"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GP3",
+     "functions": [
+      "SPI0 TX",
+      "I2C1 SCL"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GP4",
+     "functions": [
+      "SPI0 RX",
+      "I2C0 SDA",
+      "UART1 TX"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GP5",
+     "functions": [
+      "SPI0 CSn",
+      "I2C0 SCL",
+      "UART1 RX"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "GP6",
+     "functions": [
+      "SPI0 SCK",
+      "I2C1 SDA"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "GP7",
+     "functions": [
+      "SPI0 TX",
+      "I2C1 SCL"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "GP8",
+     "functions": [
+      "SPI1 RX",
+      "I2C0 SDA",
+      "UART1 TX"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "GP9",
+     "functions": [
+      "SPI1 CSn",
+      "I2C0 SCL",
+      "UART1 RX"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 14,
+     "label": "GP10",
+     "functions": [
+      "SPI1 SCK",
+      "I2C1 SDA"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "GP11",
+     "functions": [
+      "SPI1 TX",
+      "I2C1 SCL"
+     ]
+    },
+    {
+     "position": 16,
+     "label": "GP12",
+     "functions": [
+      "SPI1 RX",
+      "I2C0 SDA",
+      "UART0 TX"
+     ]
+    },
+    {
+     "position": 17,
+     "label": "GP13",
+     "functions": [
+      "SPI1 CSn",
+      "I2C0 SCL",
+      "UART0 RX"
+     ]
+    },
+    {
+     "position": 18,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "GP14",
+     "functions": [
+      "SPI1 SCK",
+      "I2C1 SDA"
+     ]
+    },
+    {
+     "position": 20,
+     "label": "GP15",
+     "functions": [
+      "SPI1 TX",
+      "I2C1 SCL"
+     ]
+    }
+   ],
+   "image": "media/93ff72b0a60a69da63bb0b27ae4a2112fa38064e69f3c5d9436d6640306ace45.png"
+  },
+  {
+   "id": "right-header-img3",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "Printed positions 21-40 bottom to top; local positions 1-20.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GP16",
+     "functions": [
+      "SPI0 RX",
+      "I2C0 SDA",
+      "UART0 TX"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "GP17",
+     "functions": [
+      "SPI0 CSn",
+      "I2C0 SCL",
+      "UART0 RX"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GP18",
+     "functions": [
+      "SPI0 SCK",
+      "I2C1 SDA"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GP19",
+     "functions": [
+      "SPI0 TX",
+      "I2C1 SCL"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GP20",
+     "functions": [
+      "I2C0 SDA"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GP21",
+     "functions": [
+      "I2C0 SCL"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "GP22",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "RUN",
+     "functions": []
+    },
+    {
+     "position": 11,
+     "label": "GP26",
+     "functions": [
+      "ADC0",
+      "I2C1 SDA"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "GP27",
+     "functions": [
+      "ADC1",
+      "I2C1 SCL"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "GND",
+     "functions": [
+      "AGND"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "GP28",
+     "functions": [
+      "ADC2"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "ADC_VREF",
+     "functions": []
+    },
+    {
+     "position": 16,
+     "label": "3V3(OUT)",
+     "functions": []
+    },
+    {
+     "position": 17,
+     "label": "3V3_EN",
+     "functions": []
+    },
+    {
+     "position": 18,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "VSYS",
+     "functions": []
+    },
+    {
+     "position": 20,
+     "label": "VBUS",
+     "functions": []
+    }
+   ],
+   "image": "media/93ff72b0a60a69da63bb0b27ae4a2112fa38064e69f3c5d9436d6640306ace45.png"
+  },
+  {
+   "id": "DEBUG-img3",
+   "name": "DEBUG",
+   "rows": 1,
+   "orderNote": "USB above left of debug row for W variants, centered above for Pico; left to right.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "SWCLK",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "SWDIO",
+     "functions": []
+    }
+   ],
+   "image": "media/93ff72b0a60a69da63bb0b27ae4a2112fa38064e69f3c5d9436d6640306ace45.png"
+  },
+  {
+   "id": "left-header-img4",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "Printed positions 1-20 top to bottom.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GP0",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GP1",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GP2",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "GP3",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "GP4",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "GP5",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "GP6",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "GP7",
+     "functions": []
+    },
+    {
+     "position": 11,
+     "label": "GP8",
+     "functions": []
+    },
+    {
+     "position": 12,
+     "label": "GP9",
+     "functions": []
+    },
+    {
+     "position": 13,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 14,
+     "label": "GP10",
+     "functions": []
+    },
+    {
+     "position": 15,
+     "label": "GP11",
+     "functions": []
+    },
+    {
+     "position": 16,
+     "label": "GP12",
+     "functions": []
+    },
+    {
+     "position": 17,
+     "label": "GP13",
+     "functions": []
+    },
+    {
+     "position": 18,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "GP14",
+     "functions": []
+    },
+    {
+     "position": 20,
+     "label": "GP15",
+     "functions": []
+    }
+   ],
+   "image": "media/96396793c1e6bc3a95f323c315229c9c7a4700fe73affda89fc1f6711e529d26.png"
+  },
+  {
+   "id": "right-header-img4",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "Printed positions 21-40 bottom to top; local positions 1-20.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GP16",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GP17",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GP18",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "GP19",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "GP20",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "GP21",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "GP22",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "RUN",
+     "functions": []
+    },
+    {
+     "position": 11,
+     "label": "GP26",
+     "functions": [
+      "ADC0"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "GP27",
+     "functions": [
+      "ADC1"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "GND",
+     "functions": [
+      "AGND"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "GP28",
+     "functions": [
+      "ADC2"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "ADC_VREF",
+     "functions": []
+    },
+    {
+     "position": 16,
+     "label": "3V3(OUT)",
+     "functions": []
+    },
+    {
+     "position": 17,
+     "label": "3V3_EN",
+     "functions": []
+    },
+    {
+     "position": 18,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "VSYS",
+     "functions": []
+    },
+    {
+     "position": 20,
+     "label": "VBUS",
+     "functions": []
+    }
+   ],
+   "image": "media/96396793c1e6bc3a95f323c315229c9c7a4700fe73affda89fc1f6711e529d26.png"
+  }
+ ],
+ "notes": "Each product image inspected independently. Peripheral aliases match across detailed views; simplified fourth Pico image retains only its printed aliases. Entirely unlabeled debug groups omitted in applicable images. On-board LED excluded.",
+ "unreadable": [],
+ "uncertain": []
+}

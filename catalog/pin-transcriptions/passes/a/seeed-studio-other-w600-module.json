@@ -1,0 +1,277 @@
+{
+  "recordId": "seeed-studio-other-w600-module",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/af9588b167f4d129c3231d6888a88e5946f36ca46f0a6160feaef09feae634b1.jpg",
+      "sha256": "af9588b167f4d129c3231d6888a88e5946f36ca46f0a6160feaef09feae634b1"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-pads",
+      "name": "Left castellated pads",
+      "image": "media/af9588b167f4d129c3231d6888a88e5946f36ca46f0a6160feaef09feae634b1.jpg",
+      "rows": 1,
+      "orderNote": "No pin 1 mark and no USB; vertical row, top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "WAKEUP",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "PB_12",
+          "functions": [
+            "TX1",
+            "UART1_TX",
+            "H_SPI_DO",
+            "SDIO_DAT3",
+            "I\u00b2C_DAT",
+            "GPIOPB_12"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PB_11",
+          "functions": [
+            "RX1",
+            "UART1_RX",
+            "H_SPI_DI",
+            "SDIO_DAT2",
+            "I\u00b2C_SCL",
+            "GPIOPB_11"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PB_10",
+          "functions": [
+            "RTS",
+            "UART1_RTS",
+            "H_SPI_CS",
+            "SDIO_DAT1",
+            "I\u00b2S_M_RL",
+            "GPIOPB_10"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PB_9",
+          "functions": [
+            "CTS",
+            "UART1_CTS",
+            "H_SPI_INT",
+            "SDIO_DAT0",
+            "I\u00b2S_M_SDA",
+            "GPIOPB_9"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PB_8",
+          "functions": [
+            "PB8",
+            "PWM_5",
+            "H_SPI_CK",
+            "SDIO_CK",
+            "I\u00b2S_M_SCL",
+            "GPIOPB_8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-pads",
+      "name": "Right castellated pads",
+      "image": "media/af9588b167f4d129c3231d6888a88e5946f36ca46f0a6160feaef09feae634b1.jpg",
+      "rows": 1,
+      "orderNote": "No pin 1 mark and no USB; vertical row, top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA_1",
+          "functions": [
+            "PA1",
+            "Reserved",
+            "SIM_DATA",
+            "PWM_2",
+            "SPI(M/S)_CK",
+            "GPIOPA_1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA_4",
+          "functions": [
+            "TX0",
+            "UART0_TX",
+            "PWM_5",
+            "SPI(M/S)_DO",
+            "I\u00b2S_M_SCL",
+            "GPIOPA_4"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PA_5",
+          "functions": [
+            "RX0",
+            "UART0_RX",
+            "PWM_1",
+            "SPI(M/S)_DI",
+            "I\u00b2S_M_EXTCLK",
+            "GPIOPB_5"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PB_13",
+          "functions": [
+            "PB13",
+            "PWM_2",
+            "I\u00b2C_SCL",
+            "SDIO_CMD",
+            "GPIOPB_13"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PB_14",
+          "functions": [
+            "PB14",
+            "H_SPI_INT",
+            "PWM_5",
+            "I\u00b2C_DAT",
+            "I\u00b2S_S_SDA",
+            "GPIOPB_14"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-pads",
+      "name": "Bottom castellated pads",
+      "image": "media/af9588b167f4d129c3231d6888a88e5946f36ca46f0a6160feaef09feae634b1.jpg",
+      "rows": 1,
+      "orderNote": "No pin 1 mark and no USB; horizontal row, left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PB_7",
+          "functions": [
+            "PB7",
+            "Reserved",
+            "SWCK",
+            "UART0_TX",
+            "SDIO_CMD",
+            "SPI(M/S)_CS",
+            "GPIOPB_7"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PB_6",
+          "functions": [
+            "PB6",
+            "Reserved",
+            "SWDAT",
+            "UART0_RX",
+            "PWM_4",
+            "SIM_CLK",
+            "GPIOPB_6"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "PB_18",
+          "functions": [
+            "PB18",
+            "H_SPI_DO",
+            "PWM_1",
+            "SPI(M/S)_DO",
+            "UART1_TX",
+            "GPIOPB_18"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PB_17",
+          "functions": [
+            "PB17",
+            "H_SPI_DI",
+            "PWM_2",
+            "SPI(M/S)_D1",
+            "UART1_RX",
+            "GPIOPB_17"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PB_16",
+          "functions": [
+            "PB16",
+            "H_SPI_CK",
+            "PWM_3",
+            "SPI(M/S)_CK",
+            "I\u00b2S_S_RL",
+            "GPIOPB_16"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PB_15",
+          "functions": [
+            "PB15",
+            "H_SPI_CS",
+            "PWM_4",
+            "SPI(M/S)_CS",
+            "I\u00b2S_S_SCL",
+            "GPIOPB_15"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Label choice: each pad has a level-1 pin name (e.g. PB_12) and a GPIO-style name (e.g. GPIOPB_12) inside the multiplexed list; the pin name was used as label.",
+    "Mapping of the multiplexed-function boxes to pads relies on crossing leader lines (left side); the GPIOPx_n suffixes agree with the pin names except PA_5, whose box reads GPIOPB_5."
+  ],
+  "notes": "W600 WiFi Module v1.01 pinout. Per the image note: first level = pin name (used as label), second level = default function, third level = multiplexed functions (split on '/' except inside 'SPI(M/S)'). Module silkscreen spellings put first in functions when different. Printed text copied as shown, including 'GPIOPB_5' on the PA_5 pad and 'SPI(M/S)_D1' on PB_17."
+}

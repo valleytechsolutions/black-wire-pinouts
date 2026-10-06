@@ -1,0 +1,191 @@
+{
+  "recordId": "seeed-studio-expansion-respeaker-lite",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/e870fcf94eeb62567f1a9c9c06538329cf75bd12dc29d95bef8408a016aa67f8.png",
+      "sha256": "e870fcf94eeb62567f1a9c9c06538329cf75bd12dc29d95bef8408a016aa67f8"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "top-row",
+      "name": "Upper 7-pad row (I2S / power)",
+      "image": "media/e870fcf94eeb62567f1a9c9c06538329cf75bd12dc29d95bef8408a016aa67f8.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed and no USB connector visible in this (cropped) view; horizontal row, so position 1 is the left end.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "I2S_DIN_XIAO(din)",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "I2S_LRCLK",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "I2S_BCLK",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "I2S_MCLK",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3v3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "5v",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "middle-row",
+      "name": "Middle 7-pad row",
+      "image": "media/e870fcf94eeb62567f1a9c9c06538329cf75bd12dc29d95bef8408a016aa67f8.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed and no USB connector visible in this (cropped) view; horizontal row, so position 1 is the left end.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "I2S_DIN_SEC(dout)",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "XIAO_D3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "XIAO_D2",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "XU316_RST",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "XIAO_WS2812",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-left-row",
+      "name": "Bottom-left 5-pad row (XMOS)",
+      "image": "media/e870fcf94eeb62567f1a9c9c06538329cf75bd12dc29d95bef8408a016aa67f8.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed and no USB connector visible in this (cropped) view; horizontal row, so position 1 is the left end.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "XMOS_X0D33",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "XMOS_X0D35",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "XMOS_X0D36",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "XMOS_X0D42",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "XMOS_X0D43",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-right-row",
+      "name": "Bottom-right 8-pad row",
+      "image": "media/e870fcf94eeb62567f1a9c9c06538329cf75bd12dc29d95bef8408a016aa67f8.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed and no USB connector visible in this (cropped) view; horizontal row, so position 1 is the left end.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3v3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "BUT_A",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "XIAO_D2",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "XIAO_D3",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "MUTE",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Board identity: the image is a cropped rear-side photo with no product name printed; only the silkscreen (Usr, Mute, RGB buttons/LEDs) is visible, so it cannot be confirmed from the image that it shows the 'reSpeaker Lite' product.",
+    "Bottom pads: the 5-pad XMOS group and the 8-pad group are recorded as separate connectors because of the wider gap between them; the image does not show whether they belong to one physical header."
+  ],
+  "notes": "Labels copied as printed on the blue callouts (lowercase '3v3' and '5v'); the character after 'XMOS_X' is a narrow zero, distinct from the O in 'XMOS'. Square pads (first pad of the bottom-left and bottom-right groups, and the MUTE pad) are not treated as pin-1 marks (rule 9). Skipped: a 2x3 cluster of unlabeled pads partly hidden behind the middle-row callouts, other unlabeled pads/test points, the Usr and Mute buttons and the RGB/Mute LEDs. The left part of the board is cut off in the image."
+}

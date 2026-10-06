@@ -1,0 +1,389 @@
+{
+  "recordId": "espressif-esp32-esp32-pico-kit-1",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/512cae1cedac03ef42898460c193db97da5f15942af1bc10fc8c94357ad9f7cd.png",
+      "sha256": "512cae1cedac03ef42898460c193db97da5f15942af1bc10fc8c94357ad9f7cd"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/512cae1cedac03ef42898460c193db97da5f15942af1bc10fc8c94357ad9f7cd.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; position 1 at end closest to the USB connector (bottom), counting upward",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V0",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO0",
+          "functions": [
+            "0",
+            "ADC2_CH1",
+            "RTC_GPIO11",
+            "TOUCH1",
+            "EMAC_TX_CLK",
+            "CLK_OUT1"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO4",
+          "functions": [
+            "4",
+            "ADC2_CH0",
+            "RTC_GPIO10",
+            "TOUCH0",
+            "HS2_DATA1",
+            "HSPIHD",
+            "SD_DATA1",
+            "EMAC_TX_ER"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO2",
+          "functions": [
+            "2",
+            "ADC2_CH2",
+            "RTC_GPIO12",
+            "TOUCH2",
+            "HS2_DATA0",
+            "HSPIWP",
+            "SD_DATA0"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO15",
+          "functions": [
+            "15",
+            "ADC2_CH3",
+            "RTC_GPIO13",
+            "TOUCH3",
+            "MTDO",
+            "HSPICS0",
+            "SD_CMD",
+            "EMAC_RXD3",
+            "HS2_CMD"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO13",
+          "functions": [
+            "13",
+            "ADC2_CH4",
+            "RTC_GPIO14",
+            "TOUCH4",
+            "MTCK",
+            "HSPID",
+            "SD_DATA3",
+            "EMAC_RX_ER",
+            "HS2_DATA3"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO12",
+          "functions": [
+            "12",
+            "ADC2_CH5",
+            "RTC_GPIO15",
+            "TOUCH5",
+            "MTDI",
+            "HSPIQ",
+            "SD_DATA2",
+            "EMAC_TXD3",
+            "HS2_DATA2"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO14",
+          "functions": [
+            "14",
+            "ADC2_CH6",
+            "RTC_GPIO16",
+            "TOUCH6",
+            "MTMS",
+            "HSPICLK",
+            "SD_CLK",
+            "EMAC_TXD2",
+            "HS2_CLK"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO27",
+          "functions": [
+            "27",
+            "ADC2_CH7",
+            "RTC_GPIO17",
+            "TOUCH7",
+            "EMAC_RX_DV"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO33",
+          "functions": [
+            "33",
+            "ADC1_CH5",
+            "RTC_GPIO8",
+            "TOUCH8",
+            "32K_XN"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO32",
+          "functions": [
+            "32",
+            "ADC1_CH4",
+            "RTC_GPIO9",
+            "TOUCH9",
+            "32K_XP"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO26",
+          "functions": [
+            "26",
+            "ADC2_CH9",
+            "RTC_GPIO7",
+            "DAC_2",
+            "EMAC_RXD1"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO25",
+          "functions": [
+            "25",
+            "ADC2_CH8",
+            "RTC_GPIO6",
+            "DAC_1",
+            "EMAC_RXD0"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO39",
+          "functions": [
+            "VN",
+            "ADC1_CH3",
+            "RTC_GPIO3"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO36",
+          "functions": [
+            "VP",
+            "ADC1_CH0",
+            "RTC_GPIO0"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/512cae1cedac03ef42898460c193db97da5f15942af1bc10fc8c94357ad9f7cd.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; position 1 at end closest to the USB connector (bottom), counting upward",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "CHIP_PU",
+          "functions": [
+            "EN"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO37",
+          "functions": [
+            "37",
+            "ADC1_CH1",
+            "RTC_GPIO1"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO38",
+          "functions": [
+            "38",
+            "ADC1_CH2",
+            "RTC_GPIO2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO34",
+          "functions": [
+            "34",
+            "ADC1_CH6",
+            "RTC_GPIO4"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO35",
+          "functions": [
+            "35",
+            "ADC1_CH7",
+            "RTC_GPIO5"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO1",
+          "functions": [
+            "TX0",
+            "U0TXD",
+            "CLK_OUT3",
+            "EMAC_RXD2"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO3",
+          "functions": [
+            "RX0",
+            "U0RXD",
+            "CLK_OUT2"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO9",
+          "functions": [
+            "9",
+            "SPIHD",
+            "SD_DATA2",
+            "HS1_DATA2",
+            "U1RXD"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO10",
+          "functions": [
+            "10",
+            "SPIWP",
+            "SD_DATA3",
+            "HS1_DATA3",
+            "U1TXD"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO5",
+          "functions": [
+            "5",
+            "VSPICS0",
+            "HS1_DATA6",
+            "EMAC_RX_CLK"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO7",
+          "functions": [
+            "7",
+            "SD_DATA0",
+            "U2RTS",
+            "HS1_DATA0"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO8",
+          "functions": [
+            "8",
+            "SD_DATA1",
+            "U2CTS",
+            "HS1_DATA1"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO19",
+          "functions": [
+            "19",
+            "VSPIQ",
+            "U0CTS",
+            "EMAC_TXD0"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO22",
+          "functions": [
+            "22",
+            "VSPIWP",
+            "U0RTS",
+            "EMAC_TXD1"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO21",
+          "functions": [
+            "21",
+            "VSPIHD",
+            "EMAC_TX_EN"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GPIO20",
+          "functions": [
+            "20"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Pinout diagram of ESP32-PICO-KIT-1 (ESP32-PICO-V3, micro-USB at bottom centre). Silkscreen text printed beside each pad is recorded first in functions where it differs from the label. The pad silkscreened EN is labelled CHIP_PU in the diagram. Wave (PWM) symbols omitted."
+}

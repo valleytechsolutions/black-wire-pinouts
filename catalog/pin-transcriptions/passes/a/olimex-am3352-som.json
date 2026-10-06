@@ -1,0 +1,1348 @@
+{
+  "recordId": "olimex-am3352-som",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/cd0c65e3da9e51e1d539c1a7167fbaad830f84d2cb87eecc9b0b77097b1f0ba4.png",
+      "sha256": "cd0c65e3da9e51e1d539c1a7167fbaad830f84d2cb87eecc9b0b77097b1f0ba4"
+    },
+    {
+      "file": "media/25c7f1525ca6192ffc25620fe2bccaf37f5b2446f76993730bd39c45a995c39a.png",
+      "sha256": "25c7f1525ca6192ffc25620fe2bccaf37f5b2446f76993730bd39c45a995c39a"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "AM_CON-LCD",
+      "name": "AM_CON-LCD 2x20 0.05in connector",
+      "image": "media/cd0c65e3da9e51e1d539c1a7167fbaad830f84d2cb87eecc9b0b77097b1f0ba4.png",
+      "rows": 2,
+      "orderNote": "Printed pin numbers 1-40 followed (odd numbers one row, even the other)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+5V",
+          "functions": [
+            "POWER INPUT"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "POWER GROUND"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": [
+            "POWER OUTPUT"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": [
+            "POWER GROUND"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "P0_26/LCD_D21",
+          "functions": [
+            "T11",
+            "LCD DATA"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P1_13/LCD_D18",
+          "functions": [
+            "R12",
+            "LCD DATA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "P1_15/LCD_D16",
+          "functions": [
+            "U13",
+            "LCD DATA"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "P2_6/LCD_D0",
+          "functions": [
+            "R1",
+            "LCD DATA",
+            "INITAL BOOT"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "P2_7/LCD_D1",
+          "functions": [
+            "R2",
+            "LCD DATA",
+            "INITAL BOOT"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "P2_8/LCD_D2",
+          "functions": [
+            "R3",
+            "LCD DATA",
+            "INITAL BOOT"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "P2_9/LCD_D3",
+          "functions": [
+            "R4",
+            "LCD DATA",
+            "INITAL BOOT"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "P2_10/LCD_D4",
+          "functions": [
+            "T1",
+            "LCD DATA",
+            "INITAL BOOT"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "P0_23/LCD_D22",
+          "functions": [
+            "T10",
+            "LCD DATA"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "P1_12/LCD_D19",
+          "functions": [
+            "T12",
+            "LCD DATA"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "P2_11/LCD_D5",
+          "functions": [
+            "T2",
+            "LCD DATA",
+            "INITAL BOOT"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "P2_12/LCD_D6",
+          "functions": [
+            "T3",
+            "LCD DATA",
+            "INITAL BOOT"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "P2_13/LCD_D7",
+          "functions": [
+            "T4",
+            "LCD DATA",
+            "INITAL BOOT"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "P2_14/LCD_D8",
+          "functions": [
+            "U1",
+            "LCD DATA",
+            "INITAL BOOT"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "P2_15/LCD_D9",
+          "functions": [
+            "U2",
+            "LCD DATA",
+            "INITAL BOOT"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "P2_16/LCD_D10",
+          "functions": [
+            "U3",
+            "LCD DATA",
+            "INITAL BOOT"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "P0_22/LCD_D23",
+          "functions": [
+            "U10",
+            "LCD DATA"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "P0_27/LCD_D20",
+          "functions": [
+            "U12",
+            "LCD DATA"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "P1_14/LCD_D17",
+          "functions": [
+            "V13",
+            "LCD DATA"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "P2_17/LCD_D11",
+          "functions": [
+            "U4",
+            "LCD DATA",
+            "INITAL BOOT"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "P0_8/LCD_D12",
+          "functions": [
+            "V2",
+            "LCD DATA",
+            "INITAL BOOT"
+          ]
+        },
+        {
+          "position": 26,
+          "label": "P0_9/LCD_D13",
+          "functions": [
+            "V3",
+            "LCD DATA",
+            "INITAL BOOT"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "P0_10/LCD_D14",
+          "functions": [
+            "V4",
+            "LCD DATA",
+            "INITAL BOOT"
+          ]
+        },
+        {
+          "position": 28,
+          "label": "P0_11/LCD_D15",
+          "functions": [
+            "T5",
+            "LCD DATA",
+            "INITAL BOOT"
+          ]
+        },
+        {
+          "position": 29,
+          "label": "P2_23/LCD_HSYNC",
+          "functions": [
+            "R5",
+            "LCD HSYNC"
+          ]
+        },
+        {
+          "position": 30,
+          "label": "P2_22/LCD_VSYNC",
+          "functions": [
+            "U5",
+            "LCD VSYNC"
+          ]
+        },
+        {
+          "position": 31,
+          "label": "P2_24/LCD_CLK",
+          "functions": [
+            "V5",
+            "LCD CLOCK"
+          ]
+        },
+        {
+          "position": 32,
+          "label": "P2_25/LCD_DE",
+          "functions": [
+            "R6",
+            "LCD DATA ENABLE"
+          ]
+        },
+        {
+          "position": 33,
+          "label": "NC*",
+          "functions": [
+            "NOT CONNECTED"
+          ]
+        },
+        {
+          "position": 34,
+          "label": "NC*",
+          "functions": [
+            "NOT CONNECTED"
+          ]
+        },
+        {
+          "position": 35,
+          "label": "P3_19/LCD_PWR_EN",
+          "functions": [
+            "C13",
+            "LCD POWER ENABLE"
+          ]
+        },
+        {
+          "position": 36,
+          "label": "P0_7/PWM0_OUT**",
+          "functions": [
+            "C18",
+            "LCD BACKLIGHT"
+          ]
+        },
+        {
+          "position": 37,
+          "label": "TPX1",
+          "functions": [
+            "Y22",
+            "TOUCHSCREEN"
+          ]
+        },
+        {
+          "position": 38,
+          "label": "TPX2",
+          "functions": [
+            "AA22",
+            "TOUCHSCREEN"
+          ]
+        },
+        {
+          "position": 39,
+          "label": "TPY1",
+          "functions": [
+            "Y23",
+            "TOUCHSCREEN"
+          ]
+        },
+        {
+          "position": 40,
+          "label": "TPY2",
+          "functions": [
+            "AA23",
+            "TOUCHSCREEN"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AM_CON-GPIO1",
+      "name": "AM_CON-GPIO1 2x20 0.05in connector",
+      "image": "media/cd0c65e3da9e51e1d539c1a7167fbaad830f84d2cb87eecc9b0b77097b1f0ba4.png",
+      "rows": 2,
+      "orderNote": "Printed pin numbers 1-40 followed (odd numbers one row, even the other)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+5V",
+          "functions": [
+            "POWER INPUT"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "POWER GROUND"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": [
+            "POWER OUTPUT"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": [
+            "POWER GROUND"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "P1_10/UART0_RX",
+          "functions": [
+            "E15",
+            "UART0 RX",
+            "YES, UART DEBUG"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P1_31/NDQS",
+          "functions": [
+            "V9"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "P1_11/UART0_TX",
+          "functions": [
+            "E16",
+            "UART0 TX",
+            "YES, UART DEBUG"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "P1_7/NDQ7",
+          "functions": [
+            "T9",
+            "NAND CONTROLLER",
+            "YES, NAND PADS"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "P2_4/NWE",
+          "functions": [
+            "U6",
+            "NAND CONTROLLER",
+            "YES, NAND PADS"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "P1_6/NDQ6",
+          "functions": [
+            "R9",
+            "NAND CONTROLLER",
+            "YES, NAND PADS"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "P2_2/NALE",
+          "functions": [
+            "R7",
+            "NAND CONTROLLER",
+            "YES, NAND PADS"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "P1_5/NDQ5",
+          "functions": [
+            "V8",
+            "NAND CONTROLLER",
+            "YES, NAND PADS"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "P2_5/NCLE",
+          "functions": [
+            "T6",
+            "NAND CONTROLLER",
+            "YES, NAND PADS"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "P1_4/NDQ4",
+          "functions": [
+            "U8",
+            "NAND CONTROLLER",
+            "YES, NAND PADS"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "P1_30/NCE1/LCD_U/D",
+          "functions": [
+            "U9",
+            "NAND; LCD UP/DOWN DIRECTION"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "P1_3/NDQ3",
+          "functions": [
+            "T8",
+            "NAND CONTROLLER",
+            "YES, NAND PADS"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "P1_29/NCE0",
+          "functions": [
+            "V6",
+            "NAND CONTROLLER",
+            "YES, NAND PADS"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "P1_2/NDQ2",
+          "functions": [
+            "R8",
+            "NAND CONTROLLER",
+            "YES, NAND PADS"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "P2_3/NRE",
+          "functions": [
+            "T7",
+            "NAND CONTROLLER",
+            "YES, NAND PADS"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "P1_1/NDQ1",
+          "functions": [
+            "V7",
+            "NAND CONTROLLER",
+            "YES, NAND PADS"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "P0_30/NRB0/CRS",
+          "functions": [
+            "T17",
+            "NAND CONTROLLER",
+            "YES, NAND PADS"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "P1_0/NDQ0",
+          "functions": [
+            "U7",
+            "NAND CONTROLLER",
+            "YES, NAND PADS"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "P1_28/ECOL",
+          "functions": [
+            "U18"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "SYS_RESETN",
+          "functions": [
+            "A10",
+            "RESET LINE",
+            "YES, GPIO2 AND GPIO3"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "P0_19/EMU2",
+          "functions": [
+            "A15"
+          ]
+        },
+        {
+          "position": 26,
+          "label": "P2_0/LCD_L/R",
+          "functions": [
+            "T13",
+            "NO; LCD LEFT/RIGHT DIRECTION"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "P1_27/RXD0",
+          "functions": [
+            "V17"
+          ]
+        },
+        {
+          "position": 28,
+          "label": "P2_1/NRB1",
+          "functions": [
+            "V12",
+            "NAND CONTROLLER",
+            "YES, NAND PADS"
+          ]
+        },
+        {
+          "position": 29,
+          "label": "P1_25/RXD2",
+          "functions": [
+            "U16"
+          ]
+        },
+        {
+          "position": 30,
+          "label": "P1_16/TXEN",
+          "functions": [
+            "R13"
+          ]
+        },
+        {
+          "position": 31,
+          "label": "P1_26/RXD1",
+          "functions": [
+            "T16"
+          ]
+        },
+        {
+          "position": 32,
+          "label": "P0_31/NWP/RXERR",
+          "functions": [
+            "U17",
+            "NAND CONTROLLER",
+            "YES, NAND PADS"
+          ]
+        },
+        {
+          "position": 33,
+          "label": "P1_24/RXD3",
+          "functions": [
+            "V16"
+          ]
+        },
+        {
+          "position": 34,
+          "label": "P1_20/TXD1",
+          "functions": [
+            "R14"
+          ]
+        },
+        {
+          "position": 35,
+          "label": "P1_23/RXCLK",
+          "functions": [
+            "T15"
+          ]
+        },
+        {
+          "position": 36,
+          "label": "P1_19/TXD2",
+          "functions": [
+            "T14"
+          ]
+        },
+        {
+          "position": 37,
+          "label": "P1_22/TXCLK",
+          "functions": [
+            "U15"
+          ]
+        },
+        {
+          "position": 38,
+          "label": "P1_18/EHRPWM1A/TXD3",
+          "functions": [
+            "U14"
+          ]
+        },
+        {
+          "position": 39,
+          "label": "P1_21/TXD0",
+          "functions": [
+            "V15"
+          ]
+        },
+        {
+          "position": 40,
+          "label": "P1_17/RXDV",
+          "functions": [
+            "V14"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AM_CON-GPIO2",
+      "name": "AM_CON-GPIO2 2x20 0.05in connector",
+      "image": "media/cd0c65e3da9e51e1d539c1a7167fbaad830f84d2cb87eecc9b0b77097b1f0ba4.png",
+      "rows": 2,
+      "orderNote": "Printed pin numbers 1-40 followed (odd numbers one row, even the other)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+5V",
+          "functions": [
+            "POWER INPUT"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "POWER GROUND"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": [
+            "POWER OUTPUT"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": [
+            "POWER GROUND"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "USB1-VBUS",
+          "functions": [
+            "T18"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "USB1_ID",
+          "functions": [
+            "P17"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "USB1_DP",
+          "functions": [
+            "R17"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "USB1_CE",
+          "functions": [
+            "P18"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "USB1_DM",
+          "functions": [
+            "R18"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "USB1_DRV",
+          "functions": [
+            "F15"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "USB0-VBUS",
+          "functions": [
+            "P15"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "USB0-ID",
+          "functions": [
+            "P16"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "USB0_DP",
+          "functions": [
+            "N17"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "USB0_CE",
+          "functions": [
+            "M15"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "USB0_DM",
+          "functions": [
+            "N18"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "USB0-DRV",
+          "functions": [
+            "F16"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "MMC0-SDCD#/EMU4",
+          "functions": [
+            "C15"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "PMIC_POWER_EN",
+          "functions": [
+            "C6"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "PWRONRSTN",
+          "functions": [
+            "B15"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "EXT_WAKEUP",
+          "functions": [
+            "C5"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "SYS_RESETN",
+          "functions": [
+            "A10",
+            "GPIO1 and GPIO3"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "NNMI",
+          "functions": [
+            "B18"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "P0_28/ETXD0",
+          "functions": [
+            "K17"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "P2_21/ERXD0",
+          "functions": [
+            "M16"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "P0_21/ETXD1",
+          "functions": [
+            "K16"
+          ]
+        },
+        {
+          "position": 26,
+          "label": "P2_20/ERXD1",
+          "functions": [
+            "L15"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "P0_17/ETXD2",
+          "functions": [
+            "K15"
+          ]
+        },
+        {
+          "position": 28,
+          "label": "P2_19/ERXD2",
+          "functions": [
+            "L16"
+          ]
+        },
+        {
+          "position": 29,
+          "label": "P0_16/ETXD3",
+          "functions": [
+            "J18"
+          ]
+        },
+        {
+          "position": 30,
+          "label": "P2_18/ERXD3",
+          "functions": [
+            "L17"
+          ]
+        },
+        {
+          "position": 31,
+          "label": "P3_3/ETXEN",
+          "functions": [
+            "J16"
+          ]
+        },
+        {
+          "position": 32,
+          "label": "P3_4/ERXDV",
+          "functions": [
+            "J17"
+          ]
+        },
+        {
+          "position": 33,
+          "label": "P3_9/ETXCK",
+          "functions": [
+            "K18"
+          ]
+        },
+        {
+          "position": 34,
+          "label": "P3_10/ERXCK",
+          "functions": [
+            "L18"
+          ]
+        },
+        {
+          "position": 35,
+          "label": "P3_2/ERXERR",
+          "functions": [
+            "J15"
+          ]
+        },
+        {
+          "position": 36,
+          "label": "P0_1/EMDC",
+          "functions": [
+            "M18"
+          ]
+        },
+        {
+          "position": 37,
+          "label": "P3_0/ECOL",
+          "functions": [
+            "H16"
+          ]
+        },
+        {
+          "position": 38,
+          "label": "P0_0/EMDIO",
+          "functions": [
+            "M17"
+          ]
+        },
+        {
+          "position": 39,
+          "label": "P3_1/ECRS",
+          "functions": [
+            "H17"
+          ]
+        },
+        {
+          "position": 40,
+          "label": "P0_29/EPHY-RST#/RFCL",
+          "functions": [
+            "H18"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AM_CON-GPIO3-img2",
+      "name": "AM_CON-GPIO3 2x20 0.05in connector",
+      "image": "media/25c7f1525ca6192ffc25620fe2bccaf37f5b2446f76993730bd39c45a995c39a.png",
+      "rows": 2,
+      "orderNote": "Printed pin numbers 1-40 followed (odd numbers one row, even the other)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+5V",
+          "functions": [
+            "POWER INPUT"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "POWER GROUND"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": [
+            "POWER OUTPUT"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": [
+            "POWER GROUND"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "P0_15/UART1_TXD",
+          "functions": [
+            "D15",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P0_14/UART1_RXD",
+          "functions": [
+            "D16",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "P0_13/I2C2_SCL",
+          "functions": [
+            "D17",
+            "I2C #2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "P0_12/I2C2_SDA",
+          "functions": [
+            "D18",
+            "I2C #2"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "P0_3/SPI0_D0(MISO)",
+          "functions": [
+            "B17",
+            "SPI0"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "P0_4/SPI0_D1(MOSI)",
+          "functions": [
+            "B16",
+            "SPI0"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "P0_2/SPI0_SCLK",
+          "functions": [
+            "A17",
+            "SPI0"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "P0_5/SPI0_CS0",
+          "functions": [
+            "A16",
+            "SPI0"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "P1_9/UART4_TXD",
+          "functions": [
+            "E17",
+            "UART4 TX"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "P1_8/UART4_RXD",
+          "functions": [
+            "E18",
+            "UART4 RX"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "P3_6/I2C0-SCL",
+          "functions": [
+            "C16",
+            "I2C #0"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "P3_5/I2C0-SDA",
+          "functions": [
+            "C17",
+            "I2C #0"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "P3_15/SPI1_D0(MISO)",
+          "functions": [
+            "B13",
+            "SPI1"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "P3_16/SPI1_D1(MOSI)",
+          "functions": [
+            "D12",
+            "SPI1"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "P3_14/SPI1_CLK",
+          "functions": [
+            "A13",
+            "SPI1"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "P3_17/SPI1_CS0",
+          "functions": [
+            "C12",
+            "SPI1"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "P3_18/LED1",
+          "functions": [
+            "B12"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "P0_20/EMU3",
+          "functions": [
+            "D14"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "P3_20/LED2",
+          "functions": [
+            "D13"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "P3_21/LED3",
+          "functions": [
+            "A14"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "P3_7/EMU0",
+          "functions": [
+            "C14"
+          ]
+        },
+        {
+          "position": 26,
+          "label": "P3_8/EMU1",
+          "functions": [
+            "B14"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "P0_7/PWM0_OUT",
+          "functions": [
+            "C18"
+          ]
+        },
+        {
+          "position": 28,
+          "label": "SYS_RESETN",
+          "functions": [
+            "A10",
+            "YES; GPIO1 AND GPIO2"
+          ]
+        },
+        {
+          "position": 29,
+          "label": "JTAG_TCK",
+          "functions": [
+            "A12",
+            "JTAG"
+          ]
+        },
+        {
+          "position": 30,
+          "label": "JTAG_TRST",
+          "functions": [
+            "B10",
+            "JTAG"
+          ]
+        },
+        {
+          "position": 31,
+          "label": "JTAG_TDI",
+          "functions": [
+            "B11",
+            "JTAG"
+          ]
+        },
+        {
+          "position": 32,
+          "label": "JTAG_TMS",
+          "functions": [
+            "C11",
+            "JTAG"
+          ]
+        },
+        {
+          "position": 33,
+          "label": "JTAG_TDO",
+          "functions": [
+            "A11",
+            "JTAG"
+          ]
+        },
+        {
+          "position": 34,
+          "label": "VREFP",
+          "functions": [
+            "B9",
+            "ADC POSITIVE REFERENCE"
+          ]
+        },
+        {
+          "position": 35,
+          "label": "AIN4",
+          "functions": [
+            "C8",
+            "ADC I/O"
+          ]
+        },
+        {
+          "position": 36,
+          "label": "AIN7",
+          "functions": [
+            "C9",
+            "ADC"
+          ]
+        },
+        {
+          "position": 37,
+          "label": "AIN5",
+          "functions": [
+            "B8",
+            "ADC OUPUT"
+          ]
+        },
+        {
+          "position": 38,
+          "label": "AIN6",
+          "functions": [
+            "A8",
+            "ADC"
+          ]
+        },
+        {
+          "position": 39,
+          "label": "VDDA_ADC",
+          "functions": [
+            "D8"
+          ]
+        },
+        {
+          "position": 40,
+          "label": "GNDA",
+          "functions": [
+            "POWER GROUND"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "UART0-img2",
+      "name": "UART0 debug header 5-pin 0.1in",
+      "image": "media/25c7f1525ca6192ffc25620fe2bccaf37f5b2446f76993730bd39c45a995c39a.png",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 1-5 followed (table and connector drawing)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P1_11/UART0_TX",
+          "functions": [
+            "TX",
+            "E16",
+            "UART0 TX",
+            "YES, GPIO1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P1_10/UART0_RX",
+          "functions": [
+            "RX",
+            "E15",
+            "UART0 RX",
+            "YES, GPIO1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": [
+            "POWER GROUND"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": [
+            "POWER GROUND"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "+5V",
+          "functions": [
+            "POWER OUTPUT"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "AM_CON-GPIO2 pin 40 signal name is clipped by the table cell: visible text P0_29/EPHY-RST#/RFCL, the rest cut off.",
+    "AM_CON-GPIO2 pin 21 multiplexing cell is clipped at the left; visible text ', GPIO1 and GPIO3'."
+  ],
+  "uncertain": [],
+  "notes": "Labels are the SIGNAL # NAME column copied as printed (including NC*, PWM0_OUT** footnote marks and the typo OUPUT in FUNCTION). Functions: AM3352 ball, then FUNCTION(S), then MULTIPLEXING when it is not NO/-. Signal names in this font use slashed zero; read as digit 0 in numbers and indices (P0_26, UART0, SPI0_D0, NCE0, NRB0, EMU0). Image 2 connector outline drawings carry only position numbers and the UART0 drawing labels TX, RX, GND, GND, +5V (TX/RX added to functions). Footnotes: pins 33/34 of AM_CON-LCD do not reach the processor; NAND flash not fitted by default."
+}

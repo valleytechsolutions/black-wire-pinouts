@@ -1,0 +1,479 @@
+{
+  "recordId": "luckfox-other-pico-ultra",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/762c65012ccd6737eed3b125d1761394f7ffed1e46a3b4697e3c18fb0332fa99.jpg",
+      "sha256": "762c65012ccd6737eed3b125d1761394f7ffed1e46a3b4697e3c18fb0332fa99"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left 2x13 header (upper view in image)",
+      "image": "media/762c65012ccd6737eed3b125d1761394f7ffed1e46a3b4697e3c18fb0332fa99.jpg",
+      "rows": 2,
+      "orderNote": "Pin numbers 1/2 printed above the header columns and 25/26 at the bottom; odd positions = left column, even = right column, rows top to bottom (USB at top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO1_A0_d",
+          "functions": [
+            "32",
+            "UART3_TX_M0",
+            "I2C2_SCL_M0",
+            "PWM7_IR_M0",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO1_A1_d",
+          "functions": [
+            "33",
+            "UART3_RX_M0",
+            "I2C2_SDA_M0",
+            "PWM4_M0",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO1_B0_d",
+          "functions": [
+            "40",
+            "UART4_RX_M0",
+            "PWM3_IR_M1",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO1_B2_d",
+          "functions": [
+            "42",
+            "UART2_TX_M1",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GPIO1_B3_u",
+          "functions": [
+            "43",
+            "UART2_RX_M1",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO1_B1_d",
+          "functions": [
+            "41",
+            "UART4_TX_M0",
+            "PWM7_IR_M1",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO1_C6_d",
+          "functions": [
+            "54",
+            "PWM10_M1",
+            "LCD_D1",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO1_D0_d",
+          "functions": [
+            "56",
+            "UART3_TX_M1",
+            "PWM3_IR_M2",
+            "LCD_DEN",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GPIO1_D1_d",
+          "functions": [
+            "57",
+            "UART3_RX_M1",
+            "PWM10_M2",
+            "LCD_HSYNC",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO2_A7_d",
+          "functions": [
+            "71",
+            "UART0_CTS_M1",
+            "I2C3_SDA_M0",
+            "PWM4_M1",
+            "LCD_D15",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GPIO2_A6_d",
+          "functions": [
+            "70",
+            "UART0_RTS_M1",
+            "I2C3_SCL_M0",
+            "PWM2_M1",
+            "LCD_D14",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GPIO1_C2_d",
+          "functions": [
+            "50",
+            "SPI0_MOSI_M0",
+            "I2C4_SCL_M1",
+            "PWM5_M2",
+            "LCD_D5",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "GPIO1_C3_d",
+          "functions": [
+            "51",
+            "SPI0_MISO_M0",
+            "I2C4_SDA_M1",
+            "PWM6_M2",
+            "LCD_D4",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "GPIO1_D3_d",
+          "functions": [
+            "59",
+            "UART5_TX_M1",
+            "I2C3_SCL_M1",
+            "PWM11_IR_M2",
+            "LCD_CLK",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "GPIO1_C1_d",
+          "functions": [
+            "49",
+            "SPI0_CLK_M0",
+            "PWM4_M2",
+            "LCD_D6",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "GPIO1_C0_d",
+          "functions": [
+            "48",
+            "SPI0_CS0_M0",
+            "PWM2_M2",
+            "LCD_D7",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "GPIO1_D2_d",
+          "functions": [
+            "58",
+            "UART5_RX_M1",
+            "I2C3_SDA_M1",
+            "PWM0_M1",
+            "LCD_VSYNC",
+            "3.3V"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right 2x13 header (lower view in image)",
+      "image": "media/762c65012ccd6737eed3b125d1761394f7ffed1e46a3b4697e3c18fb0332fa99.jpg",
+      "rows": 2,
+      "orderNote": "Pin numbers 1/2 printed above the header columns and 25/26 at the bottom; odd positions = left column, even = right column, rows top to bottom (USB at top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "1V8",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GPIO4_C0_z",
+          "functions": [
+            "144",
+            "SARADC_IN0",
+            "1.8V"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GPIO4_C1_z",
+          "functions": [
+            "145",
+            "SARADC_IN1",
+            "1.8V"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO1_C4_d",
+          "functions": [
+            "52",
+            "UART4_RX_M1",
+            "PWM8_M1",
+            "LCD_D3",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GPIO1_C5_d",
+          "functions": [
+            "53",
+            "UART4_TX_M1",
+            "PWM9_M1",
+            "LCD_D2",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "MICBIAS",
+          "functions": [
+            "1.8V"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO2_A1_d",
+          "functions": [
+            "65",
+            "UART1_RTS_M1",
+            "I2C4_SCL_M0",
+            "SDIO_D0_M0",
+            "LCD_D9",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "MIC1P",
+          "functions": [
+            "1.8V"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO2_A0_d",
+          "functions": [
+            "64",
+            "UART1_CTS_M1",
+            "I2C4_SDA_M0",
+            "SDIO_D1_M0",
+            "LCD_D8",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "MIC1N",
+          "functions": [
+            "1.8V"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO2_A5_d",
+          "functions": [
+            "69",
+            "UART1_RX_M1",
+            "SDIO_D2_M0",
+            "LCD_D13",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GPIO2_A4_d",
+          "functions": [
+            "68",
+            "UART1_TX_M1",
+            "SDIO_D3_M0",
+            "LCD_D12",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO1_C7_d",
+          "functions": [
+            "55",
+            "PWM11_IR_M1",
+            "LCD_D0",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "GPIO2_A2_d",
+          "functions": [
+            "66",
+            "SDIO_CLK_M0",
+            "LCD_D10",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "GPIO2_B0_d",
+          "functions": [
+            "72",
+            "UART0_RX_M1",
+            "I2C1_SCL_M1",
+            "PWM5_M1",
+            "LCD_D16",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "GPIO2_A3_d",
+          "functions": [
+            "67",
+            "SDIO_CMD_M0",
+            "LCD_D11",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "GPIO2_B1_d",
+          "functions": [
+            "73",
+            "UART0_TX_M1",
+            "I2C1_SDA_M1",
+            "PWM6_M1",
+            "LCD_D17",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "SPI0_* and SPI0_CS0_M0 (left-header GPIO1_C2_d/C3_d/C1_d/C0_d): printed as SPIO/CSO; O vs 0 not distinguishable, recorded as 0."
+  ],
+  "uncertain": [],
+  "notes": "Image shows two views of the same board, each highlighting one 2x13 header. Blue number next to each GPIO name (e.g. 32) recorded first in functions; trailing 3.3V/1.8V tags are the printed IO voltage. Labels are the green GPIO names per rule 5."
+}

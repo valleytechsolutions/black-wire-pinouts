@@ -1,0 +1,302 @@
+{
+  "recordId": "lilygo-esp32-lora32-v2-0",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/6bb93eb9f674d8955e73712b4d3ecc4e7ce799183eec7e70714f0d3c7bb98f50.jpg",
+      "sha256": "6bb93eb9f674d8955e73712b4d3ecc4e7ce799183eec7e70714f0d3c7bb98f50"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/6bb93eb9f674d8955e73712b4d3ecc4e7ce799183eec7e70714f0d3c7bb98f50.jpg",
+      "rows": 1,
+      "orderNote": "Micro-USB at bottom of board; start at bottom end (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO0",
+          "functions": [
+            "0",
+            "CLX1",
+            "ADC2_1",
+            "TOUCH1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO4",
+          "functions": [
+            "4",
+            "ADC2_0",
+            "HSPI_HD",
+            "TOUCH0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO2",
+          "functions": [
+            "2",
+            "ADC2_2",
+            "HSPI_WP",
+            "TOUCH2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO15",
+          "functions": [
+            "15",
+            "ADC2_3",
+            "HSPI_CS0",
+            "TOUCH3"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO13",
+          "functions": [
+            "13",
+            "ADC2_4",
+            "TPUCH4"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO5",
+          "functions": [
+            "5",
+            "V_SPI_CS0",
+            "LoRa_SCK"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO18",
+          "functions": [
+            "18",
+            "V_SPI_CLK",
+            "LoRa_CS"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO23",
+          "functions": [
+            "23",
+            "V_SPI_D"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO26",
+          "functions": [
+            "26",
+            "ADC2_9",
+            "DAC1",
+            "LoRa_IRQ"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "DI1",
+          "functions": [
+            "LORA1"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "DI2",
+          "functions": [
+            "LORA2"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO19",
+          "functions": [
+            "19",
+            "V_SPI_Q",
+            "U0_CTS",
+            "LoRa_Mosi"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO22",
+          "functions": [
+            "22",
+            "SCL",
+            "V_SPI_WP",
+            "OLED-SDA"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO03",
+          "functions": [
+            "RXD",
+            "CLX2",
+            "U0_RXD"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO01",
+          "functions": [
+            "TXD",
+            "CLX3",
+            "U0_tXD"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GPIO21",
+          "functions": [
+            "21",
+            "SDA",
+            "V_SPI_HD",
+            "OLED-SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/6bb93eb9f674d8955e73712b4d3ecc4e7ce799183eec7e70714f0d3c7bb98f50.jpg",
+      "rows": 1,
+      "orderNote": "Micro-USB at bottom of board; start at bottom end (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO12",
+          "functions": [
+            "12",
+            "ADC2_5*",
+            "TOUCH5",
+            "LoRa_RST"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO14",
+          "functions": [
+            "14",
+            "ADC2_6*",
+            "TOUCH6"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO27",
+          "functions": [
+            "27",
+            "ADC2_7*",
+            "TOUCH7",
+            "LoRa_MOSI"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GOIO25",
+          "functions": [
+            "25",
+            "ADC2_8*",
+            "DAC2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO33",
+          "functions": [
+            "33",
+            "XTAL33",
+            "ADC1_5*"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO32",
+          "functions": [
+            "32",
+            "XTAL32",
+            "ADC1_4*"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GOIO35",
+          "functions": [
+            "35",
+            "ADC1_7*"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GOIO34",
+          "functions": [
+            "34",
+            "ADC1_6*"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GPIO39",
+          "functions": [
+            "39",
+            "S_VN",
+            "ADC1_3*"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO36",
+          "functions": [
+            "36",
+            "S_VP",
+            "ADC1_0*"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "UART names printed \"UO_tXD\", \"UO_RXD\", \"UO_CTS\": letter O vs digit 0 not distinguishable; recorded as U0.",
+    "GPIO01/GPIO03 boxes: number of zeros hard to read at this resolution (\"GPIO01\"/\"GPIO001\")."
+  ],
+  "uncertain": [
+    "Left header: holes for DI2, DI1, 26, 23 and 18 are hidden behind the OLED in the photo; their physical positions are inferred from the evenly spaced label rows and leader lines."
+  ],
+  "notes": "Typos copied as printed: GOIO25/GOIO34/GOIO35, TPUCH4. Grey boxes (board numbers) placed first in functions. Asterisks on ADC names are printed. The SD card slot pins (DAT3, CMD, CLK, DAT0) are not header pins and were skipped."
+}

@@ -1,0 +1,293 @@
+{
+  "recordId": "waveshare-rp2040-rp2040-lora",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/67d02c9a62838756b5e27ef1b386177b06e23ec8bb2a79719b4fce2e07138347.jpg",
+      "sha256": "67d02c9a62838756b5e27ef1b386177b06e23ec8bb2a79719b4fce2e07138347"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-pads",
+      "name": "Left pads (pins 1-16)",
+      "image": "media/67d02c9a62838756b5e27ef1b386177b06e23ec8bb2a79719b4fce2e07138347.jpg",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 1-16, pin 1 at top.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP0",
+          "functions": [
+            "0",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP1",
+          "functions": [
+            "1",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GP2",
+          "functions": [
+            "2",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP3",
+          "functions": [
+            "3",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP4",
+          "functions": [
+            "4",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP5",
+          "functions": [
+            "5",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GP6",
+          "functions": [
+            "6",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP7",
+          "functions": [
+            "7",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP8",
+          "functions": [
+            "8",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP9",
+          "functions": [
+            "9",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GP10",
+          "functions": [
+            "10",
+            "SPI1 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GP11",
+          "functions": [
+            "11",
+            "SPI1 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GP12",
+          "functions": [
+            "12",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-pads",
+      "name": "Right pads (pins 25-40)",
+      "image": "media/67d02c9a62838756b5e27ef1b386177b06e23ec8bb2a79719b4fce2e07138347.jpg",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 25-40: position 1 = printed pin 25 at the bottom, position 16 = printed pin 40 at the top.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP19",
+          "functions": [
+            "19",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP20",
+          "functions": [
+            "20",
+            "I2C0 SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP21",
+          "functions": [
+            "21",
+            "I2C0 SCL"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GP22",
+          "functions": [
+            "22"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "RUN",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GP26",
+          "functions": [
+            "26",
+            "ADC0",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP27",
+          "functions": [
+            "27",
+            "ADC1",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": [
+            "AGND"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP28",
+          "functions": [
+            "28",
+            "ADC2"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "ADC_VREF",
+          "functions": [
+            "Vref"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "3V3(OUT)",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "3V3_EN",
+          "functions": [
+            "EN"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "VSYS",
+          "functions": [
+            "Vsys"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "VBUS",
+          "functions": [
+            "Vbus"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "SPI0/I2C0/UART0 names: O vs 0 not distinguishable, recorded as 0."
+  ],
+  "uncertain": [
+    "Board identity: the shield in the image reads 'RP2040-LoRa-HF' (frequency 850-930MHz), while the record is RP2040-LoRa; the image may show only the HF variant."
+  ],
+  "notes": "Silkscreen spellings (numbers, Vbus, Vsys, EN, 3V3, Vref) listed first in functions. Pin 35 has no GPIO box; its printed name ADC_VREF is used as label. GND pins on silkscreen read 'GND'. SX1262 table (GP13-18, GP23, GP24) and LED (GP25) are internal connections, not physical pins."
+}

@@ -1,0 +1,85 @@
+{
+  "recordId": "seeed-studio-other-rephone-strap-kit-for-pebble",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/717550fbff9948ff3edcb65bd75a6084961c0dbade83e3680c18fd5abb6928e9.png",
+      "sha256": "717550fbff9948ff3edcb65bd75a6084961c0dbade83e3680c18fd5abb6928e9"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-pads",
+      "name": "Left pad row",
+      "image": "media/717550fbff9948ff3edcb65bd75a6084961c0dbade83e3680c18fd5abb6928e9.png",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector on the board (only an external cable plug); started at the top of the vertical row as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "CLK",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "DIO",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-pads",
+      "name": "Right pad row (USB cable wires)",
+      "image": "media/717550fbff9948ff3edcb65bd75a6084961c0dbade83e3680c18fd5abb6928e9.png",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector on the board (only an external cable plug); started at the top of the vertical row as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "ISP",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "DP",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "DM",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "VBUS",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Line drawing of the strap kit board. 'RST' is printed with an overline (active low). The right pad row is shown wired to a USB cable (GND black, DP green, DM white, VBUS red). The four large round pads along the bottom edge have no labels and are skipped.",
+  "uncertain": []
+}

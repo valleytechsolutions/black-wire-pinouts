@@ -1,0 +1,156 @@
+{
+  "recordId": "olimex-esp32-esp32-c5-evb",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/52c2eebe280431a50a5c641f01cea7f9c6fcea75cd364b150383a7f105096f4e.png",
+      "sha256": "52c2eebe280431a50a5c641f01cea7f9c6fcea75cd364b150383a7f105096f4e"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "UEXT1",
+      "name": "UEXT connector (P-B-V-10-LF)",
+      "image": "media/52c2eebe280431a50a5c641f01cea7f9c6fcea75cd364b150383a7f105096f4e.png",
+      "rows": 2,
+      "orderNote": "Printed schematic pin numbers followed (odd 1-9 one row, even 2-10 the other)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+3.3V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO26",
+          "functions": [
+            "U1TXD"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO25",
+          "functions": [
+            "U1RXD"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO8",
+          "functions": [
+            "I2C_SCK"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO9",
+          "functions": [
+            "I2C_SDA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO6",
+          "functions": [
+            "SPI2_MISO"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO7",
+          "functions": [
+            "SPI2_MOSI"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO2",
+          "functions": [
+            "SPI2_CLK"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO10",
+          "functions": [
+            "SPI2_CS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EXT1",
+      "name": "EXT1 extension connector",
+      "image": "media/52c2eebe280431a50a5c641f01cea7f9c6fcea75cd364b150383a7f105096f4e.png",
+      "rows": 1,
+      "orderNote": "Printed schematic pin numbers followed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "+3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO0",
+          "functions": [
+            "EXT_PWR_SEN"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO1",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GPIO3",
+          "functions": [
+            "BAT_SEN"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO27",
+          "functions": [
+            "USER_LED"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO28",
+          "functions": [
+            "USER_BUT"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "ESP_EN",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Image is a schematic page; physical connector placement/orientation on the board is not shown"
+  ],
+  "notes": "Net names split on '/' into label (GPIO name) and function. EXT1 symbol carries the value 'NA' (possibly not fitted by default)."
+}

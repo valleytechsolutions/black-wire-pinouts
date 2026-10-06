@@ -1,0 +1,562 @@
+{
+  "recordId": "m5stack-esp32-tab5-iot-development-kit",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/82ef49b176e53bf2cbd062cde416684d358e038f2486824c1d31618df197ea85.png",
+      "sha256": "82ef49b176e53bf2cbd062cde416684d358e038f2486824c1d31618df197ea85"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "CAM_FPC",
+      "name": "Camera FPC connector",
+      "image": "media/82ef49b176e53bf2cbd062cde416684d358e038f2486824c1d31618df197ea85.png",
+      "rows": 1,
+      "orderNote": "Pin 1 and pin 24 marked; top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "CAM_SCL",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "CAM_SDA",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "CAM_MCLK",
+          "functions": [
+            "G36"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "CAM_RST",
+          "functions": [
+            "E1.P6"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "CSI_D1P",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "CSI_D1N",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "CSI_CKP",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "CSI_CKN",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "CSI_D0P",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "CSI_D0N",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "CAM_VDD3",
+          "functions": [
+            "2V8"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "CAM_VDD2",
+          "functions": [
+            "1V8"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "CAM_VDD1",
+          "functions": [
+            "RESERVED"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "LCD_FPC",
+      "name": "LCD FPC connector",
+      "image": "media/82ef49b176e53bf2cbd062cde416684d358e038f2486824c1d31618df197ea85.png",
+      "rows": 1,
+      "orderNote": "Pin 1 and pin 24 marked; top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "LEDK",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "LEDK",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "LEDA",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "LEDA",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "TP_RST",
+          "functions": [
+            "E1.P5"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "TP_INT",
+          "functions": [
+            "G23"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "SDA",
+          "functions": [
+            "G31"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "SCL",
+          "functions": [
+            "G32"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "DSI_CK_N",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "DSI_CK_P",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "DSI_D1_N",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "DSI_D1_P",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "DSI_D0_N",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "DSI_D0_P",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "LCD_RST",
+          "functions": [
+            "E1.P4"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "ExtPort2",
+      "name": "ExtPort2 (RS-485 / I2C)",
+      "image": "media/82ef49b176e53bf2cbd062cde416684d358e038f2486824c1d31618df197ea85.png",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; top to bottom (top rule; USB connectors are not clearly nearer either end)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "HVIN",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "485A",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "485B",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "SDA",
+          "functions": [
+            "G31"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "SCL",
+          "functions": [
+            "G32"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PORT-A",
+      "name": "PORT A",
+      "image": "media/82ef49b176e53bf2cbd062cde416684d358e038f2486824c1d31618df197ea85.png",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; top end is nearest the USB-C connector, top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G54",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "G53",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "Ext5V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "ExtPort1",
+      "name": "ExtPort1 (2x5)",
+      "image": "media/82ef49b176e53bf2cbd062cde416684d358e038f2486824c1d31618df197ea85.png",
+      "rows": 2,
+      "orderNote": "No pin numbers; 2x5 rule: start at the right end (nearest the USB-C connector) of the bottom row (nearest board edge), alternating bottom/top rows",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G49",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "G50",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G0",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "G1",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "EXT 5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "HVIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "stamp-left",
+      "name": "STAMP (COM.X) socket, left side",
+      "image": "media/82ef49b176e53bf2cbd062cde416684d358e038f2486824c1d31618df197ea85.png",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; top to bottom (top rule; USB not clearly nearer either end)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G46",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "G6",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G31",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "G32",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "G33",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "stamp-right",
+      "name": "STAMP (COM.X) socket, right side",
+      "image": "media/82ef49b176e53bf2cbd062cde416684d358e038f2486824c1d31618df197ea85.png",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; top end is nearest the USB-A connector, top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SYS-5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "G5",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "G18",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "G19",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "usb-a",
+      "name": "USB A connector",
+      "image": "media/82ef49b176e53bf2cbd062cde416684d358e038f2486824c1d31618df197ea85.png",
+      "rows": 1,
+      "orderNote": "Labels as drawn, top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "USB2 D+",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "USB2 D-",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "USB 5V OUT",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "usb-c",
+      "name": "USB-C connector",
+      "image": "media/82ef49b176e53bf2cbd062cde416684d358e038f2486824c1d31618df197ea85.png",
+      "rows": 1,
+      "orderNote": "Labels as drawn, top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "USB1_D+",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "USB1_D-",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "5VIN",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Image is a schematic-style block diagram rather than a physical board view; connector pin order is as drawn and may not match physical positions (especially USB-A/USB-C, which show only 4 signal labels).",
+    "STAMP socket shows only 5 left and 6 right labeled pads with a large gap between the upper and lower groups; whether further pads exist in the gaps is not shown.",
+    "Whether internal FPC connectors (CAM_FPC, LCD_FPC) and USB connectors should be included as wiring points is open; included because their pins are individually labeled.",
+    "ExtPort1 and ExtPort2 order: USB distance in a schematic drawing is not meaningful; ordering chosen by rule 4 geometry only."
+  ],
+  "notes": "Image is an M5Stack hardware block/schematic diagram of the board (V1.0) with connector pin lists. Skipped: 3.5mm headset jack (OUT_R, OUT_L, GND, HP_MIC), speaker, 2S battery socket, microSD slot table, 485-SW switch, antennas. Annotations 'name:GPIO' next to connector pins were taken as functions (e.g. CAM_MCLK: G36). Level-shifter/IC connections (TXS0102, SIT3088, ME6211) were not attributed to pins."
+}

@@ -1,0 +1,340 @@
+{
+ "recordId": "heltec-esp32-wifi-kit-32-v2-1",
+ "pass": "a",
+ "date": "2026-10-04",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/ef89799a178f03b05bc6e6a1de4eb23ea76285b8ea534e9f9130a575c8817b31.png",
+   "sha256": "ef89799a178f03b05bc6e6a1de4eb23ea76285b8ea534e9f9130a575c8817b31"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "left-header",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "USB at top; top-to-bottom physical hole order. Gray package numbers are aliases, not header positions.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "Vext",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "RST",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "GPIO13",
+     "functions": [
+      "13",
+      "ADC2_4",
+      "TPUCH4",
+      "Power Detection"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GPIO12",
+     "functions": [
+      "12",
+      "ADC2_5",
+      "TOUCH5"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GPIO14",
+     "functions": [
+      "14",
+      "ADC2_6",
+      "TOUCH6"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GPIO27",
+     "functions": [
+      "27",
+      "ADC2_7",
+      "TOUCH7"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GPIO26",
+     "functions": [
+      "26",
+      "ADC2_9",
+      "DAC1"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "GPIO25",
+     "functions": [
+      "25",
+      "ADC2_8",
+      "DAC2",
+      "LED"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "GPIO33*",
+     "functions": [
+      "33",
+      "XTAL32",
+      "ADC1_5",
+      "Touch8"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "GPIO32*",
+     "functions": [
+      "32",
+      "XTAL32",
+      "ADC1_4",
+      "Touch9"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "GPIO35*",
+     "functions": [
+      "35",
+      "ADC1_7"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "GPIO34*",
+     "functions": [
+      "34",
+      "ADC1_6"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "GPIO39*",
+     "functions": [
+      "39",
+      "Sensvn",
+      "ADC1_3*"
+     ]
+    },
+    {
+     "position": 16,
+     "label": "GPIO38*",
+     "functions": [
+      "38",
+      "CapVN",
+      "ADC1_2*"
+     ]
+    },
+    {
+     "position": 17,
+     "label": "GPIO37*",
+     "functions": [
+      "37",
+      "CapVP",
+      "ADC1_1*"
+     ]
+    },
+    {
+     "position": 18,
+     "label": "GPIO36*",
+     "functions": [
+      "36",
+      "Sensevp",
+      "ADC1_0*"
+     ]
+    }
+   ],
+   "image": "media/ef89799a178f03b05bc6e6a1de4eb23ea76285b8ea534e9f9130a575c8817b31.png"
+  },
+  {
+   "id": "right-header",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "USB at top; top-to-bottom physical hole order. Gray package numbers are aliases, not header positions.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "5V",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "Vext",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "GPIO1",
+     "functions": [
+      "TX",
+      "CLX3",
+      "U0_TXD"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GPIO3",
+     "functions": [
+      "RX",
+      "CLX2",
+      "U0_RXD"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GPIO15",
+     "functions": [
+      "15",
+      "ADC2_3",
+      "HSPI_CS0",
+      "Touch3",
+      "OLED_SCL"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GPIO2",
+     "functions": [
+      "2",
+      "CS",
+      "ADC2_2",
+      "HSPI_WP",
+      "Touch2"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GPIO0",
+     "functions": [
+      "0",
+      "CLK1",
+      "ADC2_1",
+      "Touch1",
+      "Button"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "GPIO4",
+     "functions": [
+      "4",
+      "ADC2_0",
+      "HSPI_HD",
+      "Touch0",
+      "OLED_SDA"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "GPIO16",
+     "functions": [
+      "16",
+      "U2_RXD",
+      "OLED_RST"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "GPIO17",
+     "functions": [
+      "17",
+      "U2_TXD"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "GPIO5",
+     "functions": [
+      "5",
+      "V_SPI_CS0"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "GPIO18",
+     "functions": [
+      "18",
+      "SCK",
+      "V_SPI_CLK"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "GPIO23",
+     "functions": [
+      "23",
+      "MOSI",
+      "V_SPI_D"
+     ]
+    },
+    {
+     "position": 16,
+     "label": "GPIO19",
+     "functions": [
+      "19",
+      "MISO",
+      "V_SPI_Q",
+      "U0_CTS"
+     ]
+    },
+    {
+     "position": 17,
+     "label": "GPIO22",
+     "functions": [
+      "22",
+      "SCL",
+      "V_SPI_WP",
+      "U0_RTS"
+     ]
+    },
+    {
+     "position": 18,
+     "label": "GPIO21",
+     "functions": [
+      "21",
+      "SDA",
+      "V_SPI_HD",
+      "Vext control"
+     ]
+    }
+   ],
+   "image": "media/ef89799a178f03b05bc6e6a1de4eb23ea76285b8ea534e9f9130a575c8817b31.png"
+  }
+ ],
+ "notes": "Shared artwork was read once; this is not an independent second reading.",
+ "unreadable": [],
+ "uncertain": [
+  "The shared image is titled NEW WIFI Kit 32 and does not visibly establish revision V2.1. Confirm applicability to this revision before export."
+ ]
+}

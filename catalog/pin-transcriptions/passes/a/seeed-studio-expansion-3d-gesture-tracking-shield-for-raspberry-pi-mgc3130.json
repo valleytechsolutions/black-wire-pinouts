@@ -1,0 +1,95 @@
+{
+  "recordId": "seeed-studio-expansion-3d-gesture-tracking-shield-for-raspberry-pi-mgc3130",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/5a84d82eaadc2ab867a38875dcd405f9c3762ef44d967330df8b5a26703cfea8.png",
+      "sha256": "5a84d82eaadc2ab867a38875dcd405f9c3762ef44d967330df8b5a26703cfea8"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "grove-port",
+      "name": "Grove I2C connector (bottom)",
+      "image": "media/5a84d82eaadc2ab867a38875dcd405f9c3762ef44d967330df8b5a26703cfea8.png",
+      "rows": 1,
+      "orderNote": "Pin numbers 1-4 printed in the callout",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": [
+            "Connect to the GND of Raspberry pi"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": [
+            "3.3v"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "SDA",
+          "functions": [
+            "Data pin of I2C"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "SCL",
+          "functions": [
+            "Clock pin of I2C"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "download-interface",
+      "name": "Download Interface pads (right)",
+      "image": "media/5a84d82eaadc2ab867a38875dcd405f9c3762ef44d967330df8b5a26703cfea8.png",
+      "rows": 1,
+      "orderNote": "No pin numbers or pin-1 label (small dot at bottom is not a labeled 1) and no USB connector; vertical row numbered top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "TS",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "The 2x20 'Raspberry Pi 40 Pin GPIO Header' is shown but none of its pins are individually labeled (only a '39' silkscreen mark at the left end); it was not transcribed rather than recorded as 40 '?' positions"
+  ],
+  "notes": "MGC3130 callout is the chip, not a connector."
+}

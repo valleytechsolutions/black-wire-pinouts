@@ -1,0 +1,412 @@
+{
+  "recordId": "milk-v-other-sbc-duo-s",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/8d169269477ccc90ab02a67cc2a083520ebe9999a2ccdfc0a5cccd83ecdb9447.webp",
+      "sha256": "8d169269477ccc90ab02a67cc2a083520ebe9999a2ccdfc0a5cccd83ecdb9447"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "right-header",
+      "name": "Right 2x13 header (pins 1-26, upper diagram)",
+      "image": "media/8d169269477ccc90ab02a67cc2a083520ebe9999a2ccdfc0a5cccd83ecdb9447.webp",
+      "rows": 2,
+      "orderNote": "Printed header pin numbers 1-26 followed; position n = printed pin n",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VSYS",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "B20",
+          "functions": [
+            "I2C3_SCL/I2C4_SDA",
+            "PWM3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "VSYS",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "B21",
+          "functions": [
+            "I2C3_SDA/I2C4_SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "B18",
+          "functions": [
+            "I2C1_SCL"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "A16",
+          "functions": [
+            "UART0_TX/UART1_TX",
+            "PWM4"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "A17",
+          "functions": [
+            "UART0_RX/UART1_RX",
+            "PWM5"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "B11",
+          "functions": [
+            "UART2_TX",
+            "I2C1_SDA",
+            "PWM1"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "B19",
+          "functions": [
+            "UART2_TX",
+            "PWM2"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "B12",
+          "functions": [
+            "UART2_RX",
+            "I2C1_SCL",
+            "PWM2"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "B22",
+          "functions": [
+            "UART2_RX"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "A20",
+          "functions": [
+            "JTAG_TRST"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "A19",
+          "functions": [
+            "UART1_TX/UART1_RTS",
+            "PWM7",
+            "JTAG_TMS"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "B13",
+          "functions": [
+            "I2C2_SCL",
+            "PWM3",
+            "SPI3_SDO"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "B14",
+          "functions": [
+            "I2C2_SDA",
+            "SPI3_SDI"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "A18",
+          "functions": [
+            "UART1_RX/UART1_CTS",
+            "PWM6",
+            "JTAG_TCK"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "B15",
+          "functions": [
+            "UART2_TX",
+            "SPI3_SCK"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "B16",
+          "functions": [
+            "UART2_RX",
+            "SPI3_CS"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "A28",
+          "functions": [
+            "UART2_TX/UART1_TX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header",
+      "name": "Left 2x13 header (pins 27-52, lower diagram)",
+      "image": "media/8d169269477ccc90ab02a67cc2a083520ebe9999a2ccdfc0a5cccd83ecdb9447.webp",
+      "rows": 2,
+      "orderNote": "Printed header pin numbers 27-52 followed in order; position n = printed pin n+26",
+      "pins": [
+        {
+          "position": 1,
+          "label": "C13",
+          "functions": [
+            "MIPI_TX_0P",
+            "PWM15"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "C15",
+          "functions": [
+            "MIPI_TX_1P",
+            "I2C2_SCL",
+            "PWM11",
+            "SPI0_SDI"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "C12",
+          "functions": [
+            "MIPI_TX_0N",
+            "PWM14"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "C14",
+          "functions": [
+            "MIPI_TX_1N",
+            "I2C2_SDA",
+            "PWM10",
+            "SPI0_SDO"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "C17",
+          "functions": [
+            "MIPI_TX_2P",
+            "I2C1_SCL",
+            "PWM9",
+            "SD1_D3",
+            "SPI0_CS_X"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "C21",
+          "functions": [
+            "MIPI_TX_3P",
+            "I2C1_SCL/I2C2_SCL",
+            "PWM15",
+            "SD1_D1"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "C16",
+          "functions": [
+            "MIPI_TX_2N",
+            "I2C1_SDA",
+            "PWM8",
+            "SD1_D2",
+            "SPI0_SCK"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "C20",
+          "functions": [
+            "MIPI_TX_3N",
+            "I2C1_SDA/I2C2_SDA",
+            "PWM14",
+            "SD1_D0"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "C19",
+          "functions": [
+            "MIPI_TX_4P",
+            "I2C2_SCL",
+            "PWM13",
+            "SD1_CMD"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "E0",
+          "functions": [
+            "UART2_TX",
+            "PWM8"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "C18",
+          "functions": [
+            "MIPI_TX_4N",
+            "I2C2_SDA",
+            "PWM12",
+            "SD1_CLK"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "E1",
+          "functions": [
+            "UART2_RX",
+            "I2C2_SCL",
+            "PWM9"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "E2",
+          "functions": [
+            "I2C2_SDA",
+            "PWM10"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "AUDIO_IN_L",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "B3",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "AUDIO_IN_R",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "B2",
+          "functions": [
+            "UART3_RX",
+            "I2C4_SDA",
+            "PWM13"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "AUDIO_OUT_L",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "B1",
+          "functions": [
+            "UART3_TX",
+            "I2C4_SCL",
+            "PWM12"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "AUDIO_OUT_R",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "VSYS",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Header pin numbers 1-52 printed on board drawing and diagram. Labels are the printed pin names (B20, A16, C13...). Legend at bottom has colour swatches with illegible/blank text, not used. Other board connectors (USB, Ethernet, FPC, small 2-pin header near the top) carry no pin labels and are skipped.",
+  "uncertain": []
+}

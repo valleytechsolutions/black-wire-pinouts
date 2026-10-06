@@ -1,0 +1,227 @@
+{
+  "recordId": "lilygo-esp32-t3-s3-mvsr-board",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/739670a771101d835533c93bcefc8d84ddebaa92c0eabebeb1e08a225364f9d3.jpg",
+      "sha256": "739670a771101d835533c93bcefc8d84ddebaa92c0eabebeb1e08a225364f9d3"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/739670a771101d835533c93bcefc8d84ddebaa92c0eabebeb1e08a225364f9d3.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector in the main board view (USB appears only in an inset); top of the image is position 1.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO16",
+          "functions": [
+            "16",
+            "U0CTS",
+            "ADC2_CH5"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO15",
+          "functions": [
+            "15",
+            "U0RTS",
+            "ADC2_CH4"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO18",
+          "functions": [
+            "18",
+            "U1RXD",
+            "ADC2_CH7"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO12",
+          "functions": [
+            "12",
+            "TOUCH12",
+            "FSPI_CLK",
+            "ADC2_CH1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO48",
+          "functions": [
+            "48"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO47",
+          "functions": [
+            "47"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO33",
+          "functions": [
+            "33",
+            "FSPI_HD"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO34",
+          "functions": [
+            "34",
+            "FSPI_CS0"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO35",
+          "functions": [
+            "35",
+            "FSPI_D"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO00",
+          "functions": [
+            "00"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO36",
+          "functions": [
+            "36",
+            "FSPI_CLK"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO37",
+          "functions": [
+            "37",
+            "FSPI_Q"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/739670a771101d835533c93bcefc8d84ddebaa92c0eabebeb1e08a225364f9d3.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector in the main board view (USB appears only in an inset); top of the image is position 1.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO38",
+          "functions": [
+            "38"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO43",
+          "functions": [
+            "TXD",
+            "CLK_OUT1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO44",
+          "functions": [
+            "RXD",
+            "CLK_OUT2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO39",
+          "functions": [
+            "39",
+            "CLK_OUT2"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO40",
+          "functions": [
+            "40",
+            "CLK_OUT3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO41",
+          "functions": [
+            "41"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO45",
+          "functions": [
+            "45"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO46",
+          "functions": [
+            "46"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO42",
+          "functions": [
+            "42"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "5V",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Board grouping: the main view shows the T3-S3-MVSRBoard_V1.0 daughterboard stacked over a T3-S3 board; the 13+13 holes visible are on the stacked board and carry no silkscreen, so the callout-to-hole mapping relies on row alignment and on the callouts applying to the stacked board's holes."
+  ],
+  "notes": "Labels from the callout boxes (number box placed first in functions when it differs). Board holes have no silkscreen labels. Speaker (BCLK/LRCLK/DATA/SD_MODE), microphone (BCLK/WS/DATA/EN), OLED, TF card, LoRa module and vibration motor (46) tables list GPIO assignments without physical pin positions and are not merged into header pins. The bottom of the board (GWIIC/battery area) is covered by the speaker and not shown."
+}

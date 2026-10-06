@@ -1,0 +1,294 @@
+{
+  "recordId": "espressif-esp32-esp32-c5-devkitc-1-v1-2",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/70967c5a07c43d472512cf498fb99dcde90cf8c5f11bc1d3bd2c6e584938ee06.png",
+      "sha256": "70967c5a07c43d472512cf498fb99dcde90cf8c5f11bc1d3bd2c6e584938ee06"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/70967c5a07c43d472512cf498fb99dcde90cf8c5f11bc1d3bd2c6e584938ee06.png",
+      "rows": 1,
+      "orderNote": "No printed position numbers; started at the bottom end, nearest the two USB connectors (UART and USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "5V0",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO25",
+          "functions": [
+            "25"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO26",
+          "functions": [
+            "26"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO10",
+          "functions": [
+            "10",
+            "FSPICS0",
+            "SDIO_CMD"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO9",
+          "functions": [
+            "9",
+            "PAD_COMP1",
+            "SDIO_CLK"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO8",
+          "functions": [
+            "8",
+            "PAD_COMP0",
+            "SDIO_DATA0"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO7",
+          "functions": [
+            "7",
+            "FSPID",
+            "SDIO_DATA1"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO6",
+          "functions": [
+            "6",
+            "LP_GPIO6",
+            "ADC1_CH5",
+            "FSPICLK"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO1",
+          "functions": [
+            "1",
+            "XTAL_32K_N",
+            "LP_GPIO1",
+            "LP_UART_DSRN",
+            "ADC1_CH0"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO0",
+          "functions": [
+            "0",
+            "XTAL_32K_P",
+            "LP_GPIO0",
+            "LP_UART_DTRN"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO3",
+          "functions": [
+            "3",
+            "MTDI",
+            "LP_GPIO3",
+            "LP_UART_CTSN",
+            "LP_I2C_SCL",
+            "ADC1_CH2"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO2",
+          "functions": [
+            "2",
+            "MTMS",
+            "LP_GPIO2",
+            "LP_UART_RTSN",
+            "LP_I2C_SDA",
+            "ADC1_CH1",
+            "FSPIQ"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/70967c5a07c43d472512cf498fb99dcde90cf8c5f11bc1d3bd2c6e584938ee06.png",
+      "rows": 1,
+      "orderNote": "No printed position numbers; started at the bottom end, nearest the two USB connectors (UART and USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO13",
+          "functions": [
+            "13",
+            "USB_D-",
+            "SDIO_DATA3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO14",
+          "functions": [
+            "14",
+            "USB_D+",
+            "SDIO_DATA2"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO28",
+          "functions": [
+            "28"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GPIO5",
+          "functions": [
+            "5",
+            "MTDO",
+            "LP_GPIO5",
+            "LP_UART_TXD",
+            "ADC1_CH4",
+            "FSPIWP"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO4",
+          "functions": [
+            "4",
+            "MTCK",
+            "LP_GPIO4",
+            "LP_UART_RXD",
+            "ADC1_CH3",
+            "FSPIHD"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO27",
+          "functions": [
+            "27"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO15",
+          "functions": [
+            "N/15"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO23",
+          "functions": [
+            "23"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO24",
+          "functions": [
+            "24"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO12",
+          "functions": [
+            "RX0",
+            "U0RXD"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO11",
+          "functions": [
+            "TX0",
+            "U0TXD"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Image titled ESP32-C5-DevKitC-1 (ESP32-C5-WROOM-1 module); no board revision printed. NC pins have no callout; label taken from silkscreen 'NC'. Silkscreen TX0/RX0 use a slashed zero. Skipped USB/UART connectors, RESET/BOOT buttons, LED and the 2-pad jumper. PWM-capable symbols omitted.",
+  "uncertain": []
+}

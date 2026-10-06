@@ -1,0 +1,906 @@
+{
+  "recordId": "arduino-gpio-device-nesso-n1",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/82b6b1d8636e0997ddc947a5f725f6011048d9d8c976f595dd8518805b091f9a.png",
+      "sha256": "82b6b1d8636e0997ddc947a5f725f6011048d9d8c976f595dd8518805b091f9a"
+    },
+    {
+      "file": "media/e33c2a0b31f78a9dc0ae4f3cbb1984fa49ef4ab6692fba4414abc2a2126ff9bb.png",
+      "sha256": "e33c2a0b31f78a9dc0ae4f3cbb1984fa49ef4ab6692fba4414abc2a2126ff9bb"
+    },
+    {
+      "file": "media/27ab0be9cc303b18ca582bd4d743aa6e602309b6edfa41ddc03a2caa4a9cb473.png",
+      "sha256": "27ab0be9cc303b18ca582bd4d743aa6e602309b6edfa41ddc03a2caa4a9cb473"
+    },
+    {
+      "file": "media/f27a232d9e2dcb7eefcc10c920d3081f818e7452e78d4263f56ba28233f2a669.png",
+      "sha256": "f27a232d9e2dcb7eefcc10c920d3081f818e7452e78d4263f56ba28233f2a669"
+    },
+    {
+      "file": "media/1b2349863a66d260d8ff0ebaf00703787890dc680b8833e334f165b05fabcd7b.png",
+      "sha256": "1b2349863a66d260d8ff0ebaf00703787890dc680b8833e334f165b05fabcd7b"
+    },
+    {
+      "file": "media/343dbda5cdf7ebb88e917073bea90c929cda28dd647a94afd970c14b34a3674d.png",
+      "sha256": "343dbda5cdf7ebb88e917073bea90c929cda28dd647a94afd970c14b34a3674d"
+    },
+    {
+      "file": "media/4382be8f60b154ed6818255df9605e9a38ae2da9c560be18f559361c020f70eb.png",
+      "sha256": "4382be8f60b154ed6818255df9605e9a38ae2da9c560be18f559361c020f70eb"
+    },
+    {
+      "file": "media/66f35b307699723d033cfb19af51e5a81f1a11841d8eb2c37d0abc60114f5ade.png",
+      "sha256": "66f35b307699723d033cfb19af51e5a81f1a11841d8eb2c37d0abc60114f5ade"
+    },
+    {
+      "file": "media/f4535c70907a01bc5bb919121cc2eecfbcc09e29744f93f1428b5fd9fa0b42c1.png",
+      "sha256": "f4535c70907a01bc5bb919121cc2eecfbcc09e29744f93f1428b5fd9fa0b42c1"
+    },
+    {
+      "file": "media/161e238392639a9b59bf825388ac585d2cae6e3c040fb7cd2984fde55d393b60.png",
+      "sha256": "161e238392639a9b59bf825388ac585d2cae6e3c040fb7cd2984fde55d393b60"
+    },
+    {
+      "file": "media/795652b45ccf0d8a3cbc7567e1e2afa6552045a61b3e3c1223bb4c7ff3bb7f83.png",
+      "sha256": "795652b45ccf0d8a3cbc7567e1e2afa6552045a61b3e3c1223bb4c7ff3bb7f83"
+    },
+    {
+      "file": "media/53585da9a0dd5456dc8455943d03cadbba115aca514448848934f3f2976fba5a.png",
+      "sha256": "53585da9a0dd5456dc8455943d03cadbba115aca514448848934f3f2976fba5a"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "qwiic-img2",
+      "name": "Qwiic connector",
+      "image": "media/e33c2a0b31f78a9dc0ae4f3cbb1984fa49ef4ab6692fba4414abc2a2126ff9bb.png",
+      "rows": 1,
+      "orderNote": "Pin numbers printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO10",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO8",
+          "functions": [
+            "SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grove-img3",
+      "name": "Grove connector",
+      "image": "media/27ab0be9cc303b18ca582bd4d743aa6e602309b6edfa41ddc03a2caa4a9cb473.png",
+      "rows": 1,
+      "orderNote": "Pin numbers 1-4 printed; case silkscreen above each pin added (G5/G4/5V OUT)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "+5V",
+          "functions": [
+            "5V OUT"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO5",
+          "functions": [
+            "G5",
+            "GROVE_IO_0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO4",
+          "functions": [
+            "G4",
+            "GROVE_IO_1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expansion-header-img3",
+      "name": "8-pin header (case labels)",
+      "image": "media/27ab0be9cc303b18ca582bd4d743aa6e602309b6edfa41ddc03a2caa4a9cb473.png",
+      "rows": 1,
+      "orderNote": "Case-label silkscreen only, no pin numbers and no USB in this view; labels read left-to-right as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V OUT",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G7",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "G2",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "G6",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "BAT",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "5V IN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "qwiic-img3",
+      "name": "Qwiic connector (case labels)",
+      "image": "media/27ab0be9cc303b18ca582bd4d743aa6e602309b6edfa41ddc03a2caa4a9cb473.png",
+      "rows": 1,
+      "orderNote": "Case-label silkscreen only, no pin numbers and no USB in this view; labels read top-to-bottom as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SCL",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-img4",
+      "name": "Grove connector",
+      "image": "media/f27a232d9e2dcb7eefcc10c920d3081f818e7452e78d4263f56ba28233f2a669.png",
+      "rows": 1,
+      "orderNote": "Pin numbers printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO5",
+          "functions": [
+            "GROVE_IO_0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO4",
+          "functions": [
+            "GROVE_IO_1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "usb-c-img4",
+      "name": "USB-C port",
+      "image": "media/f27a232d9e2dcb7eefcc10c920d3081f818e7452e78d4263f56ba28233f2a669.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB-C contact list read top-to-bottom as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO12",
+          "functions": [
+            "USB D-"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO13",
+          "functions": [
+            "USB D+"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expansion-header-img5",
+      "name": "8 pin expansion port",
+      "image": "media/1b2349863a66d260d8ff0ebaf00703787890dc680b8833e334f165b05fabcd7b.png",
+      "rows": 1,
+      "orderNote": "Pin numbers printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO7",
+          "functions": [
+            "~D1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO2",
+          "functions": [
+            "~D2"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO6",
+          "functions": [
+            "~D3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "BATTERY",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "+5V",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "qwiic-img7",
+      "name": "Qwiic connector",
+      "image": "media/4382be8f60b154ed6818255df9605e9a38ae2da9c560be18f559361c020f70eb.png",
+      "rows": 1,
+      "orderNote": "Pin numbers printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO10",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO8",
+          "functions": [
+            "SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expansion-header-img7",
+      "name": "8 x Header",
+      "image": "media/4382be8f60b154ed6818255df9605e9a38ae2da9c560be18f559361c020f70eb.png",
+      "rows": 1,
+      "orderNote": "Pin numbers printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO7",
+          "functions": [
+            "~D1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO6",
+          "functions": [
+            "~D3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO2",
+          "functions": [
+            "~D2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "BATTERY",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "+5V",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-img7",
+      "name": "Grove connector",
+      "image": "media/4382be8f60b154ed6818255df9605e9a38ae2da9c560be18f559361c020f70eb.png",
+      "rows": 1,
+      "orderNote": "Pin numbers printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO5",
+          "functions": [
+            "GROVE_IO_0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO4",
+          "functions": [
+            "GROVE_IO_1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "usb-c-img7",
+      "name": "USB-C port",
+      "image": "media/4382be8f60b154ed6818255df9605e9a38ae2da9c560be18f559361c020f70eb.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB-C contact list read top-to-bottom as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO12",
+          "functions": [
+            "USB D-"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO13",
+          "functions": [
+            "USB D+"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qwiic-img8",
+      "name": "Qwiic connector",
+      "image": "media/66f35b307699723d033cfb19af51e5a81f1a11841d8eb2c37d0abc60114f5ade.png",
+      "rows": 1,
+      "orderNote": "Pin numbers printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO10",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO8",
+          "functions": [
+            "SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expansion-header-img8",
+      "name": "8 x Header",
+      "image": "media/66f35b307699723d033cfb19af51e5a81f1a11841d8eb2c37d0abc60114f5ade.png",
+      "rows": 1,
+      "orderNote": "Pin numbers printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO7",
+          "functions": [
+            "~D1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO2",
+          "functions": [
+            "~D2"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO6",
+          "functions": [
+            "~D3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "BATTERY",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "+5V",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-img8",
+      "name": "Grove connector",
+      "image": "media/66f35b307699723d033cfb19af51e5a81f1a11841d8eb2c37d0abc60114f5ade.png",
+      "rows": 1,
+      "orderNote": "Pin numbers printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO5",
+          "functions": [
+            "GROVE_IO_0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO4",
+          "functions": [
+            "GROVE_IO_1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "usb-c-img8",
+      "name": "USB-C port",
+      "image": "media/66f35b307699723d033cfb19af51e5a81f1a11841d8eb2c37d0abc60114f5ade.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB-C contact list read top-to-bottom as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO12",
+          "functions": [
+            "USB D-"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO13",
+          "functions": [
+            "USB D+"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qwiic-img9",
+      "name": "Qwiic connector",
+      "image": "media/f4535c70907a01bc5bb919121cc2eecfbcc09e29744f93f1428b5fd9fa0b42c1.png",
+      "rows": 1,
+      "orderNote": "Pin numbers printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO10",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO8",
+          "functions": [
+            "SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grove-img10",
+      "name": "Grove connector",
+      "image": "media/161e238392639a9b59bf825388ac585d2cae6e3c040fb7cd2984fde55d393b60.png",
+      "rows": 1,
+      "orderNote": "Pin numbers 1-4 printed; case silkscreen above each pin added (G5/G4/5V OUT)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "+5V",
+          "functions": [
+            "5V OUT"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO5",
+          "functions": [
+            "G5",
+            "GROVE_IO_0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO4",
+          "functions": [
+            "G4",
+            "GROVE_IO_1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expansion-header-img10",
+      "name": "8-pin header (case labels)",
+      "image": "media/161e238392639a9b59bf825388ac585d2cae6e3c040fb7cd2984fde55d393b60.png",
+      "rows": 1,
+      "orderNote": "Case-label silkscreen only, no pin numbers and no USB in this view; labels read left-to-right as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V OUT",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G7",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "G2",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "G6",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "BAT",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "5V IN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "qwiic-img10",
+      "name": "Qwiic connector (case labels)",
+      "image": "media/161e238392639a9b59bf825388ac585d2cae6e3c040fb7cd2984fde55d393b60.png",
+      "rows": 1,
+      "orderNote": "Case-label silkscreen only, no pin numbers and no USB in this view; labels read top-to-bottom as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SCL",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-img11",
+      "name": "Grove connector",
+      "image": "media/795652b45ccf0d8a3cbc7567e1e2afa6552045a61b3e3c1223bb4c7ff3bb7f83.png",
+      "rows": 1,
+      "orderNote": "Pin numbers printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO5",
+          "functions": [
+            "GROVE_IO_0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO4",
+          "functions": [
+            "GROVE_IO_1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "usb-c-img11",
+      "name": "USB-C port",
+      "image": "media/795652b45ccf0d8a3cbc7567e1e2afa6552045a61b3e3c1223bb4c7ff3bb7f83.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB-C contact list read top-to-bottom as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO12",
+          "functions": [
+            "USB D-"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO13",
+          "functions": [
+            "USB D+"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expansion-header-img12",
+      "name": "8 pin expansion port",
+      "image": "media/53585da9a0dd5456dc8455943d03cadbba115aca514448848934f3f2976fba5a.png",
+      "rows": 1,
+      "orderNote": "Pin numbers printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO7",
+          "functions": [
+            "~D1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO2",
+          "functions": [
+            "~D2"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO6",
+          "functions": [
+            "~D3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "BATTERY",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "+5V",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Images 1 (82b6b1d8, LoRa module/antenna) and 6 (343dbda5, IMU/LCD/user button) show only internal signals and no wiring points. OUT/IN power-direction tags omitted as category tags. Image 7 (4382be8f, update 31 Oct 2025) shows header pins 4/5 as GPIO6 ~D3 / GPIO2 ~D2, while image 8 (66f35b30, 21 Nov 2025), images 5/12 and the case labels (G7 G2 G6) show GPIO2 ~D2 / GPIO6 ~D3; each image transcribed as shown. Header pin 6 BATTERY note in images 5/12: 'Unregulated ~3-4.2 V battery rail, output-only. Do not back-feed.' GROVE_POWER_EN (E1.P2), buttons, LEDs, IR emitter, buzzer and battery are not wiring points and are skipped."
+}

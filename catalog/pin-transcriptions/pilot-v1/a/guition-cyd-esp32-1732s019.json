@@ -1,0 +1,194 @@
+{
+  "recordId": "guition-cyd-esp32-1732s019",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/8b0987d1e1254c7ac1afbb3a9e7d60360f8668a52cff427cb18cd8fb0d7ab527.png",
+      "sha256": "8b0987d1e1254c7ac1afbb3a9e7d60360f8668a52cff427cb18cd8fb0d7ab527"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "P1",
+      "name": "Left header (P1)",
+      "image": "media/8b0987d1e1254c7ac1afbb3a9e7d60360f8668a52cff427cb18cd8fb0d7ab527.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; USB-C not visible in the back view that carries the pin labels, so started at the top of the image as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "4",
+          "functions": [
+            "GPIO04"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "5",
+          "functions": [
+            "GPIO05"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "6",
+          "functions": [
+            "GPIO06"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "7",
+          "functions": [
+            "GPIO07"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "15",
+          "functions": [
+            "GPIO15"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "16",
+          "functions": [
+            "GPIO16"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "17",
+          "functions": [
+            "GPIO17"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "18",
+          "functions": [
+            "GPIO18"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "19",
+          "functions": [
+            "GPIO19"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "20",
+          "functions": [
+            "GPIO20"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "Right header (P2)",
+      "image": "media/8b0987d1e1254c7ac1afbb3a9e7d60360f8668a52cff427cb18cd8fb0d7ab527.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; USB-C not visible in the back view that carries the pin labels, so started at the top of the image as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "2",
+          "functions": [
+            "GPIO02"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "42",
+          "functions": [
+            "GPIO42"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "41",
+          "functions": [
+            "GPIO41"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "40",
+          "functions": [
+            "GPIO40"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "39",
+          "functions": [
+            "GPIO39"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "38",
+          "functions": [
+            "GPIO38"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "45",
+          "functions": [
+            "GPIO45"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "48",
+          "functions": [
+            "GPIO48"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "47",
+          "functions": [
+            "GPIO47"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "21",
+          "functions": [
+            "GPIO21"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "5V",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Pins transcribed from the back-view drawing (module at top). Designators P1/P2 read from small silkscreen near the bottom of each header. Labels are the silkscreen/number boxes; functions are the pink GPIO callouts, normalized to 'GPIOnn' (left-side callouts render the O like a zero, e.g. 'GPI004'). The front view shows the USB-C at the bottom; if that orientation is applied to the back view, order would start at the bottom instead. LCD signal list (DC GPIO11, CS GPIO10, ...) is internal to the display and the small unlabeled connector near P1 was skipped. RESET/BOOT are buttons."
+}

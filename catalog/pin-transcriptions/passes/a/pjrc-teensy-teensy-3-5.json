@@ -1,0 +1,1032 @@
+{
+  "recordId": "pjrc-teensy-teensy-3-5",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/643a224d592bccb71047af709a8541aec2687feefc78f2629a36be7fa2b073a8.png",
+      "sha256": "643a224d592bccb71047af709a8541aec2687feefc78f2629a36be7fa2b073a8"
+    },
+    {
+      "file": "media/ebd124f029c7cace61f6f2928240c7be0dae7e1fb124b7c95c3e5117ca0d1b6c.png",
+      "sha256": "ebd124f029c7cace61f6f2928240c7be0dae7e1fb124b7c95c3e5117ca0d1b6c"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "top-header",
+      "name": "Top header",
+      "image": "media/643a224d592bccb71047af709a8541aec2687feefc78f2629a36be7fa2b073a8.png",
+      "rows": 1,
+      "orderNote": "USB connector on the left of the image; started at the end closest to USB (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "Vin",
+          "functions": [
+            "(3.6 to 6.0 volts)"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "Analog GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": [
+            "(250 mA max)"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "23",
+          "functions": [
+            "A9",
+            "PWM"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "22",
+          "functions": [
+            "A8",
+            "PWM"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "21",
+          "functions": [
+            "A7",
+            "PWM",
+            "CS0",
+            "MOSI1",
+            "RX1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "20",
+          "functions": [
+            "A6",
+            "PWM",
+            "CS0",
+            "SCK1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "19",
+          "functions": [
+            "A5",
+            "SCL0"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "18",
+          "functions": [
+            "A4",
+            "SDA0"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "17",
+          "functions": [
+            "A3",
+            "SDA0"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "16",
+          "functions": [
+            "A2",
+            "SCL0"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "15",
+          "functions": [
+            "A1",
+            "CS0"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "14",
+          "functions": [
+            "A0",
+            "PWM",
+            "SCK0"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "13",
+          "functions": [
+            "(LED)",
+            "SCK0"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "A22",
+          "functions": [
+            "DAC1"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "A21",
+          "functions": [
+            "DAC0"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "39",
+          "functions": [
+            "A20",
+            "MISO0"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "38",
+          "functions": [
+            "A19",
+            "PWM",
+            "SDA1"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "37",
+          "functions": [
+            "A18",
+            "PWM",
+            "SCL1"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "36",
+          "functions": [
+            "A17",
+            "PWM"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "35",
+          "functions": [
+            "A16",
+            "PWM"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "34",
+          "functions": [
+            "A15",
+            "SDA0",
+            "RX5"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "33",
+          "functions": [
+            "A14",
+            "SCL0",
+            "TX5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-header",
+      "name": "Bottom header",
+      "image": "media/643a224d592bccb71047af709a8541aec2687feefc78f2629a36be7fa2b073a8.png",
+      "rows": 1,
+      "orderNote": "USB connector on the left of the image; started at the end closest to USB (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "0",
+          "functions": [
+            "RX1",
+            "MOSI1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "1",
+          "functions": [
+            "TX1",
+            "MISO1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "2",
+          "functions": [
+            "PWM"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "3",
+          "functions": [
+            "PWM",
+            "CAN0TX",
+            "SCL2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "4",
+          "functions": [
+            "PWM",
+            "CAN0RX",
+            "SDA2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "5",
+          "functions": [
+            "PWM",
+            "TX1",
+            "MISO1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "6",
+          "functions": [
+            "PWM"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "7",
+          "functions": [
+            "PWM",
+            "RX3",
+            "MOSI0",
+            "SCL0"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "8",
+          "functions": [
+            "PWM",
+            "TX3",
+            "MISO0",
+            "SDA0"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "9",
+          "functions": [
+            "PWM",
+            "RX2",
+            "CS0"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "10",
+          "functions": [
+            "PWM",
+            "TX2",
+            "CS0"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "11",
+          "functions": [
+            "MOSI0"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "12",
+          "functions": [
+            "MISO0"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "24",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "25",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "26",
+          "functions": [
+            "TX1",
+            "SCL2"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "27",
+          "functions": [
+            "RX1",
+            "SCK0"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "28",
+          "functions": [
+            "MOSI0"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "29",
+          "functions": [
+            "PWM",
+            "CAN0TX"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "30",
+          "functions": [
+            "PWM",
+            "CAN0RX"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "31",
+          "functions": [
+            "A12",
+            "RX4",
+            "CS1"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "32",
+          "functions": [
+            "A13",
+            "TX4",
+            "SCK1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "top-header-img2",
+      "name": "Top row through-holes (back view, board silkscreen)",
+      "image": "media/ebd124f029c7cace61f6f2928240c7be0dae7e1fb124b7c95c3e5117ca0d1b6c.png",
+      "rows": 1,
+      "orderNote": "USB connector on the right of this (back-side) image; started at the end closest to USB (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "23",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "22",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "21",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "20",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "19",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "17",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "16",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "15",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "14",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "13",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "DA1",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "DA0",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "39",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "37",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "35",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "34",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "33",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-header-img2",
+      "name": "Bottom row through-holes (back view, board silkscreen)",
+      "image": "media/ebd124f029c7cace61f6f2928240c7be0dae7e1fb124b7c95c3e5117ca0d1b6c.png",
+      "rows": 1,
+      "orderNote": "USB connector on the right of this (back-side) image; started at the end closest to USB (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "0",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "1",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "2",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "4",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "5",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "6",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "7",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "8",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "9",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "10",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "11",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "12",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "24",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "25",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "26",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "27",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "28",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "29",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "30",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "31",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "32",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "interior-pads-img2",
+      "name": "Interior pads",
+      "image": "media/ebd124f029c7cace61f6f2928240c7be0dae7e1fb124b7c95c3e5117ca0d1b6c.png",
+      "rows": 1,
+      "orderNote": "Vertical column perpendicular to the USB axis; started at the top (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "Reset",
+          "functions": [
+            "R"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "Program",
+          "functions": [
+            "P"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3.3V",
+          "functions": [
+            "3V"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "VBat",
+          "functions": [
+            "Vb",
+            "3V coin cell for RTC"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "back-pads-upper-left-img2",
+      "name": "Upper SMD pad group 3.3V/47-50",
+      "image": "media/ebd124f029c7cace61f6f2928240c7be0dae7e1fb124b7c95c3e5117ca0d1b6c.png",
+      "rows": 1,
+      "orderNote": "USB connector on the right of this (back-side) image; started at the end closest to USB (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "50",
+          "functions": [
+            "A24"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "49",
+          "functions": [
+            "A23"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "48",
+          "functions": [
+            "TX6",
+            "SDA0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "47",
+          "functions": [
+            "RX6",
+            "SCL0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "3.3V",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "back-pads-upper-mid-img2",
+      "name": "Upper SMD pad group 51-53",
+      "image": "media/ebd124f029c7cace61f6f2928240c7be0dae7e1fb124b7c95c3e5117ca0d1b6c.png",
+      "rows": 1,
+      "orderNote": "USB connector on the right of this (back-side) image; started at the end closest to USB (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "53",
+          "functions": [
+            "SCK2"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "52",
+          "functions": [
+            "MOSI2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "51",
+          "functions": [
+            "MISO2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "back-pads-upper-right-img2",
+      "name": "Upper SMD pad group 54-57",
+      "image": "media/ebd124f029c7cace61f6f2928240c7be0dae7e1fb124b7c95c3e5117ca0d1b6c.png",
+      "rows": 1,
+      "orderNote": "USB connector on the right of this (back-side) image; started at the end closest to USB (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "57",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "56",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "55",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "54",
+          "functions": [
+            "CS2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "back-pads-lower-left-img2",
+      "name": "Lower SMD pad group GND/46-43",
+      "image": "media/ebd124f029c7cace61f6f2928240c7be0dae7e1fb124b7c95c3e5117ca0d1b6c.png",
+      "rows": 1,
+      "orderNote": "USB connector on the right of this (back-side) image; started at the end closest to USB (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "43",
+          "functions": [
+            "CS2"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "44",
+          "functions": [
+            "MOSI2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "45",
+          "functions": [
+            "MISO2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "46",
+          "functions": [
+            "SCK2"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "back-pads-lower-mid-img2",
+      "name": "Lower SMD pad group 42-40",
+      "image": "media/ebd124f029c7cace61f6f2928240c7be0dae7e1fb124b7c95c3e5117ca0d1b6c.png",
+      "rows": 1,
+      "orderNote": "USB connector on the right of this (back-side) image; started at the end closest to USB (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "40",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "41",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "42",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "debug-pads-img2",
+      "name": "Debug SMD pads",
+      "image": "media/ebd124f029c7cace61f6f2928240c7be0dae7e1fb124b7c95c3e5117ca0d1b6c.png",
+      "rows": 1,
+      "orderNote": "USB connector on the right of this (back-side) image; started at the end closest to USB (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "DE",
+          "functions": [
+            "Debug"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "DC",
+          "functions": [
+            "Debug"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "DD",
+          "functions": [
+            "Debug"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "small-pads-img2",
+      "name": "Row of small round pads",
+      "image": "media/ebd124f029c7cace61f6f2928240c7be0dae7e1fb124b7c95c3e5117ca0d1b6c.png",
+      "rows": 1,
+      "orderNote": "USB connector on the right of this (back-side) image; started at the end closest to USB (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": [
+            "not used"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "A26",
+          "functions": [
+            "D-"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "A25",
+          "functions": [
+            "D+"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inner-holes-img2",
+      "name": "Inner holes A11/A10/AREF",
+      "image": "media/ebd124f029c7cace61f6f2928240c7be0dae7e1fb124b7c95c3e5117ca0d1b6c.png",
+      "rows": 1,
+      "orderNote": "USB connector on the right of this (back-side) image; started at the end closest to USB (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "AREF",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "A10",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "A11",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "vusb-img2",
+      "name": "VUSB inner hole",
+      "image": "media/ebd124f029c7cace61f6f2928240c7be0dae7e1fb124b7c95c3e5117ca0d1b6c.png",
+      "rows": 1,
+      "orderNote": "Single point",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VUSB",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "usb-pads-img2",
+      "name": "USB D-/D+ pads beside the connector",
+      "image": "media/ebd124f029c7cace61f6f2928240c7be0dae7e1fb124b7c95c3e5117ca0d1b6c.png",
+      "rows": 1,
+      "orderNote": "Vertical pair; started at the top (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D-",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "D+",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "top-header-img2 positions 1-2 (the two outermost top-row holes at the USB end) have no silkscreen label in the back view",
+    "top-header-img2 position 9 and position 21: silkscreen numbers crossed by callout arrows, cannot be read with confidence",
+    "top-header-img2 position 19: diagonal silkscreen number beside the interior R pad is not legible with confidence"
+  ],
+  "uncertain": [
+    "small-pads-img2 position 1: callout reads \"not used\" and the silkscreen reads \"5V\"; recorded label 5V with \"not used\" as a function because \"not used\" is a note rather than a pin name",
+    "debug-pads-img2 position 1: the fourth pad of the Debug group has no callout arrow; label G taken from the silkscreen beneath it"
+  ],
+  "notes": "Image 1 is the front, image 2 the back of the same board; image-2 through-hole rows repeat the image-1 holes and are transcribed separately from board silkscreen (rule 11). Back-side SMD pad groups follow the silkscreen dashed groupings and callout arrows. Gray (faded) alternate-function text recorded as printed. Front unlabeled inner holes and the back H/D solder-jumper pads were skipped (rule 1)."
+}

@@ -1,0 +1,75 @@
+{
+  "recordId": "lilygo-esp32-t-encoder",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/0e6439379379c54d363b7d482b3dd23742e61a23a4e5f5d20f75cc8c06035542.jpg",
+      "sha256": "0e6439379379c54d363b7d482b3dd23742e61a23a4e5f5d20f75cc8c06035542"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left 1x4 header (female default)",
+      "image": "media/0e6439379379c54d363b7d482b3dd23742e61a23a4e5f5d20f75cc8c06035542.jpg",
+      "rows": 1,
+      "orderNote": "No printed numbers; started at the bottom end, closest to the Type-C USB connector",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IO04",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO02",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IO15",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right 1x4 header (female default)",
+      "image": "media/0e6439379379c54d363b7d482b3dd23742e61a23a4e5f5d20f75cc8c06035542.jpg",
+      "rows": 1,
+      "orderNote": "No printed numbers; started at the bottom end, closest to the Type-C USB connector",
+      "pins": [
+        {
+          "position": 1,
+          "label": "vbus",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IO14",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO12",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IO13",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Callout labels are aligned one per header cell; leader lines touch only the top cells (IO15, IO13) and the bottom right cell (vbus). 'vbus' copied in lowercase as printed. Encoder A/B/C (GPIO36/37/38), buzzer IO19, WS2812 data IO25 and RESET are on-board functions without physical pins and were not transcribed."
+}

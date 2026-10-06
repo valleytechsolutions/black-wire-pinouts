@@ -1,0 +1,699 @@
+{
+ "recordId": "lilygo-other-t-motion-v1-0",
+ "pass": "a",
+ "date": "2026-10-05",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/f9037a574ef8a4948c75956acd6f37003bc22ac6ef6963b1e05ef0b16e7321a0.jpg",
+   "sha256": "f9037a574ef8a4948c75956acd6f37003bc22ac6ef6963b1e05ef0b16e7321a0"
+  },
+  {
+   "file": "media/e06dae3b7b66c6b7e2ee9746803d95b69ec5e0d93df4a2130b0ac3db8fcdc5db.jpg",
+   "sha256": "e06dae3b7b66c6b7e2ee9746803d95b69ec5e0d93df4a2130b0ac3db8fcdc5db"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "left-header",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "USB at bottom; physical bottom-to-top order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "PA9",
+     "functions": [
+      "PA9_TX",
+      "I/O",
+      "VDD3_3",
+      "MCU_PIN",
+      "UART1_TX"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "PA10",
+     "functions": [
+      "PA10_RX",
+      "I/O",
+      "VDD3_3",
+      "MCU_PIN",
+      "UART1_RX"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "PA13",
+     "functions": [
+      "PA13_SDIO",
+      "SWDIO",
+      "VDD3_3",
+      "Serial write debug interface"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "PA14",
+     "functions": [
+      "PA14_SCLK",
+      "SWCLK",
+      "VDD3_3",
+      "Serial write debug interface"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "RST",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "5V",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "PB1",
+     "functions": [
+      "PB1_ADC",
+      "I/O",
+      "VDD3_3",
+      "MCU_PIN"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "PA4",
+     "functions": [
+      "I/O",
+      "VDD3_3",
+      "MCU_PIN"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "PA5",
+     "functions": [
+      "I/O",
+      "VDD3_3",
+      "MCU_PIN"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "PA6",
+     "functions": [
+      "I/O",
+      "VDD3_3",
+      "MCU_PIN"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "PA7",
+     "functions": [
+      "I/O",
+      "VDD3_3",
+      "MCU_PIN"
+     ]
+    }
+   ],
+   "image": "media/f9037a574ef8a4948c75956acd6f37003bc22ac6ef6963b1e05ef0b16e7321a0.jpg"
+  },
+  {
+   "id": "right-header",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "USB at bottom; physical bottom-to-top order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "PB6",
+     "functions": [
+      "I/O",
+      "VDD3_3",
+      "MCU_PIN"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "PB7",
+     "functions": [
+      "I/O",
+      "VDD3_3",
+      "MCU_PIN"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "PA8",
+     "functions": [
+      "I/O",
+      "VDD3_3",
+      "MCU_PIN"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "PA2",
+     "functions": [
+      "I/O",
+      "VDD3_3",
+      "MCU_PIN"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "PA3",
+     "functions": [
+      "I/O",
+      "VDD3_3",
+      "MCU_PIN"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "BOOT",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "GPS_RST",
+     "functions": [
+      "I",
+      "VDD1_8",
+      "RESET_PIN"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "PA0",
+     "functions": [
+      "I/O",
+      "VDD3_3",
+      "MCU_PIN"
+     ]
+    }
+   ],
+   "image": "media/f9037a574ef8a4948c75956acd6f37003bc22ac6ef6963b1e05ef0b16e7321a0.jpg"
+  },
+  {
+   "id": "gps-i2c-pads",
+   "name": "gps-i2c-pads",
+   "rows": 1,
+   "orderNote": "USB at bottom; physical bottom-to-top order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GPS_SDA",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GPS_SDA",
+     "functions": []
+    }
+   ],
+   "image": "media/f9037a574ef8a4948c75956acd6f37003bc22ac6ef6963b1e05ef0b16e7321a0.jpg"
+  },
+  {
+   "id": "gps-power-pad",
+   "name": "gps-power-pad",
+   "rows": 1,
+   "orderNote": "Single labeled pad.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "VDD_1V8",
+     "functions": []
+    }
+   ],
+   "image": "media/f9037a574ef8a4948c75956acd6f37003bc22ac6ef6963b1e05ef0b16e7321a0.jpg"
+  },
+  {
+   "id": "inner-pads",
+   "name": "inner-pads",
+   "rows": 1,
+   "orderNote": "USB centered below; left to right.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "PC4",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "PB0",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GPS_TXD",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GPS_RXD",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "PA1",
+     "functions": []
+    }
+   ],
+   "image": "media/f9037a574ef8a4948c75956acd6f37003bc22ac6ef6963b1e05ef0b16e7321a0.jpg"
+  },
+  {
+   "id": "pb4-pad",
+   "name": "pb4-pad",
+   "rows": 1,
+   "orderNote": "Single labeled pad.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "PB4",
+     "functions": []
+    }
+   ],
+   "image": "media/f9037a574ef8a4948c75956acd6f37003bc22ac6ef6963b1e05ef0b16e7321a0.jpg"
+  },
+  {
+   "id": "usb-solder-pads",
+   "name": "usb-solder-pads",
+   "rows": 1,
+   "orderNote": "USB centered below; left to right.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "5V",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "PA11",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "PA12",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": []
+    }
+   ],
+   "image": "media/f9037a574ef8a4948c75956acd6f37003bc22ac6ef6963b1e05ef0b16e7321a0.jpg"
+  },
+  {
+   "id": "usb-test-pads",
+   "name": "usb-test-pads",
+   "rows": 1,
+   "orderNote": "USB centered below; left to right.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "PA11",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "PA12",
+     "functions": []
+    }
+   ],
+   "image": "media/f9037a574ef8a4948c75956acd6f37003bc22ac6ef6963b1e05ef0b16e7321a0.jpg"
+  },
+  {
+   "id": "left-header-img2",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "USB at bottom; physical bottom-to-top order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "PA9",
+     "functions": [
+      "PA9_TX",
+      "I/O",
+      "VDD3_3",
+      "MCU_PIN",
+      "UART1_TX"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "PA10",
+     "functions": [
+      "PA10_RX",
+      "I/O",
+      "VDD3_3",
+      "MCU_PIN",
+      "UART1_RX"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "PA13",
+     "functions": [
+      "PA13_SDIO",
+      "SWDIO",
+      "VDD3_3",
+      "Serial write debug interface"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "PA14",
+     "functions": [
+      "PA14_SCLK",
+      "SWCLK",
+      "VDD3_3",
+      "Serial write debug interface"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "RST",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "5V",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "PB1",
+     "functions": [
+      "PB1_ADC",
+      "I/O",
+      "VDD3_3",
+      "MCU_PIN"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "PA4",
+     "functions": [
+      "I/O",
+      "VDD3_3",
+      "MCU_PIN"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "PA5",
+     "functions": [
+      "I/O",
+      "VDD3_3",
+      "MCU_PIN"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "PA6",
+     "functions": [
+      "I/O",
+      "VDD3_3",
+      "MCU_PIN"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "PA7",
+     "functions": [
+      "I/O",
+      "VDD3_3",
+      "MCU_PIN"
+     ]
+    }
+   ],
+   "image": "media/e06dae3b7b66c6b7e2ee9746803d95b69ec5e0d93df4a2130b0ac3db8fcdc5db.jpg"
+  },
+  {
+   "id": "right-header-img2",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "USB at bottom; physical bottom-to-top order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "PB6",
+     "functions": [
+      "I/O",
+      "VDD3_3",
+      "MCU_PIN"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "PB7",
+     "functions": [
+      "I/O",
+      "VDD3_3",
+      "MCU_PIN"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "PA8",
+     "functions": [
+      "I/O",
+      "VDD3_3",
+      "MCU_PIN"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "PA2",
+     "functions": [
+      "I/O",
+      "VDD3_3",
+      "MCU_PIN"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "PA3",
+     "functions": [
+      "I/O",
+      "VDD3_3",
+      "MCU_PIN"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "BOOT",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "GPS_RST",
+     "functions": [
+      "I",
+      "VDD1_8",
+      "RESET_PIN"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "PA0",
+     "functions": [
+      "I/O",
+      "VDD3_3",
+      "MCU_PIN"
+     ]
+    }
+   ],
+   "image": "media/e06dae3b7b66c6b7e2ee9746803d95b69ec5e0d93df4a2130b0ac3db8fcdc5db.jpg"
+  },
+  {
+   "id": "gps-i2c-pads-img2",
+   "name": "gps-i2c-pads",
+   "rows": 1,
+   "orderNote": "USB at bottom; physical bottom-to-top order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GPS_SDA",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GPS_SDA",
+     "functions": []
+    }
+   ],
+   "image": "media/e06dae3b7b66c6b7e2ee9746803d95b69ec5e0d93df4a2130b0ac3db8fcdc5db.jpg"
+  },
+  {
+   "id": "gps-power-pad-img2",
+   "name": "gps-power-pad",
+   "rows": 1,
+   "orderNote": "Single labeled pad.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "VDD_1V8",
+     "functions": []
+    }
+   ],
+   "image": "media/e06dae3b7b66c6b7e2ee9746803d95b69ec5e0d93df4a2130b0ac3db8fcdc5db.jpg"
+  },
+  {
+   "id": "inner-pads-img2",
+   "name": "inner-pads",
+   "rows": 1,
+   "orderNote": "USB centered below; left to right.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "PC4",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "PB0",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GPS_TXD",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GPS_RXD",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "PA1",
+     "functions": []
+    }
+   ],
+   "image": "media/e06dae3b7b66c6b7e2ee9746803d95b69ec5e0d93df4a2130b0ac3db8fcdc5db.jpg"
+  },
+  {
+   "id": "pb4-pad-img2",
+   "name": "pb4-pad",
+   "rows": 1,
+   "orderNote": "Single labeled pad.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "PB4",
+     "functions": []
+    }
+   ],
+   "image": "media/e06dae3b7b66c6b7e2ee9746803d95b69ec5e0d93df4a2130b0ac3db8fcdc5db.jpg"
+  },
+  {
+   "id": "usb-solder-pads-img2",
+   "name": "usb-solder-pads",
+   "rows": 1,
+   "orderNote": "USB centered below; left to right.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "5V",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "PA11",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "PA12",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": []
+    }
+   ],
+   "image": "media/e06dae3b7b66c6b7e2ee9746803d95b69ec5e0d93df4a2130b0ac3db8fcdc5db.jpg"
+  },
+  {
+   "id": "usb-test-pads-img2",
+   "name": "usb-test-pads",
+   "rows": 1,
+   "orderNote": "USB centered below; left to right.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "PA11",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "PA12",
+     "functions": []
+    }
+   ],
+   "image": "media/e06dae3b7b66c6b7e2ee9746803d95b69ec5e0d93df4a2130b0ac3db8fcdc5db.jpg"
+  }
+ ],
+ "notes": "Two image encodings inspected including closeups of silkscreen. Both GPS I2C pads visibly print GPS_SDA; kept as printed.",
+ "unreadable": [
+  "Inner pad between GPS_RXD and PA1 has a long label beginning EXTI2_RF whose complete spelling is not legible."
+ ],
+ "uncertain": []
+}

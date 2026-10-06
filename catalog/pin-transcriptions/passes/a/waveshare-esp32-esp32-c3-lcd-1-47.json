@@ -1,0 +1,321 @@
+{
+  "recordId": "waveshare-esp32-esp32-c3-lcd-1-47",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/c20124507333378a02f69e275a2e1b85817d2dd13dd3fd42b80302e11ea67a17.jpg",
+      "sha256": "c20124507333378a02f69e275a2e1b85817d2dd13dd3fd42b80302e11ea67a17"
+    },
+    {
+      "file": "media/0bbe78c4147a297dc62cf76365aa2bbd21e7d8ee7cfe40faae6119b01a3e13e9.webp",
+      "sha256": "0bbe78c4147a297dc62cf76365aa2bbd21e7d8ee7cfe40faae6119b01a3e13e9"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/c20124507333378a02f69e275a2e1b85817d2dd13dd3fd42b80302e11ea67a17.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at the top end nearest the USB-C connector",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3(OUT)",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO0",
+          "functions": [
+            "0",
+            "ADC1_CH0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO1",
+          "functions": [
+            "1",
+            "ADC1_CH1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO2",
+          "functions": [
+            "2",
+            "ADC1_CH2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO3",
+          "functions": [
+            "3",
+            "ADC1_CH3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO4",
+          "functions": [
+            "4",
+            "ADC1_CH4"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO9",
+          "functions": [
+            "9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/c20124507333378a02f69e275a2e1b85817d2dd13dd3fd42b80302e11ea67a17.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at the top end nearest the USB-C connector",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO21",
+          "functions": [
+            "TXD",
+            "UART0_TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO20",
+          "functions": [
+            "RXD",
+            "UART0_RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO19",
+          "functions": [
+            "D+",
+            "USB_D+"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO18",
+          "functions": [
+            "D-",
+            "USB_D-"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "EXIO7",
+          "functions": [
+            "EX7"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "EXIO6",
+          "functions": [
+            "EX6"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "EXIO5",
+          "functions": [
+            "EX5"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "EXIO4",
+          "functions": [
+            "EX4"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO10",
+          "functions": [
+            "10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left header",
+      "image": "media/0bbe78c4147a297dc62cf76365aa2bbd21e7d8ee7cfe40faae6119b01a3e13e9.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at the top end nearest the USB-C connector",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3(OUT)",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO0",
+          "functions": [
+            "0",
+            "ADC1_CH0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO1",
+          "functions": [
+            "1",
+            "ADC1_CH1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO2",
+          "functions": [
+            "2",
+            "ADC1_CH2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO3",
+          "functions": [
+            "3",
+            "ADC1_CH3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO4",
+          "functions": [
+            "4",
+            "ADC1_CH4"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO9",
+          "functions": [
+            "9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Right header",
+      "image": "media/0bbe78c4147a297dc62cf76365aa2bbd21e7d8ee7cfe40faae6119b01a3e13e9.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at the top end nearest the USB-C connector",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO21",
+          "functions": [
+            "TXD",
+            "UART0_TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO20",
+          "functions": [
+            "RXD",
+            "UART0_RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO19",
+          "functions": [
+            "D+",
+            "USB_D+"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO18",
+          "functions": [
+            "D-",
+            "USB_D-"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO7",
+          "functions": [
+            "EX7"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO6",
+          "functions": [
+            "EX6"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO5",
+          "functions": [
+            "EX5"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO4",
+          "functions": [
+            "EX4"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO10",
+          "functions": [
+            "10"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "The two images disagree on right-header positions 5-8 (silkscreen EX7, EX6, EX5, EX4): image 1 labels them EXIO7, EXIO6, EXIO5, EXIO4 (EXIO legend colour), image 2 labels them GPIO7, GPIO6, GPIO5, GPIO4 (GPIO colour). Each was recorded as printed."
+  ],
+  "notes": "Each image transcribed separately. Silkscreen (5V, GND, 3V3, 0-4, 9; TXD, RXD, D+, D-, EX7, EX6, EX5, EX4, 10) put first in functions."
+}

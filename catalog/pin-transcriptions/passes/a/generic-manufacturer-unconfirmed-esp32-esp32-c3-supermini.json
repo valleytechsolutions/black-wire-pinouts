@@ -1,0 +1,178 @@
+{
+  "recordId": "generic-manufacturer-unconfirmed-esp32-esp32-c3-supermini",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/2b512f1d3523dbdeb79c9a673c7ffd158e762554b653ce0051de9ad13580cf15.jpg",
+      "sha256": "2b512f1d3523dbdeb79c9a673c7ffd158e762554b653ce0051de9ad13580cf15"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left pin row",
+      "image": "media/2b512f1d3523dbdeb79c9a673c7ffd158e762554b653ce0051de9ad13580cf15.jpg",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; started at the end closest to the USB-C connector (top) and read downward",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO5",
+          "functions": [
+            "5",
+            "FSPIWP",
+            "MISO",
+            "MTDI",
+            "ADC2_0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO6",
+          "functions": [
+            "6",
+            "FSPICLK",
+            "MOSI",
+            "MTCK"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO7",
+          "functions": [
+            "7",
+            "FSPID",
+            "SS",
+            "MTDO"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO8",
+          "functions": [
+            "8",
+            "SDA",
+            "LOG",
+            "BULTIN LED"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO9",
+          "functions": [
+            "9",
+            "SCL",
+            "BOOT"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO10",
+          "functions": [
+            "10",
+            "FSPICS0",
+            "JTAG"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO20",
+          "functions": [
+            "20",
+            "TXD 0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO21",
+          "functions": [
+            "21",
+            "RXD 0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right pin row",
+      "image": "media/2b512f1d3523dbdeb79c9a673c7ffd158e762554b653ce0051de9ad13580cf15.jpg",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; started at the end closest to the USB-C connector (top) and read downward",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5v",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3.3v",
+          "functions": [
+            "3.3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO4",
+          "functions": [
+            "4",
+            "FSPIHD",
+            "SCK",
+            "MTMS",
+            "ADC1_4"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO3",
+          "functions": [
+            "3",
+            "ADC1_3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO2",
+          "functions": [
+            "2",
+            "ADC1_2",
+            "FSPIQ",
+            "BOOT"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO1",
+          "functions": [
+            "1",
+            "ADC1_1",
+            "XTAL_32K_N"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO0",
+          "functions": [
+            "0",
+            "ADC1_0",
+            "XTAL_32K_P"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Callout BULTIN LED copied as printed. Board silkscreen PW, BOOT, RST and 8 mark an LED/buttons, not pins; silkscreen 5V, G, 3.3, 21, 0 are listed in functions where they differ from the label."
+}

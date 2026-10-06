@@ -1,0 +1,319 @@
+{
+  "recordId": "waveshare-rp2350-rp2350-touch-lcd-2-8c",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/d0e31cf30f35c593ea59fcae60bb71e8fe3f0c79d3d660f53c6cc6b62bd1fb16.jpg",
+      "sha256": "d0e31cf30f35c593ea59fcae60bb71e8fe3f0c79d3d660f53c6cc6b62bd1fb16"
+    },
+    {
+      "file": "media/da65bd61a90b17fc216081770ff3d049f0f36016d83fd8e69b133d088622b640.jpg",
+      "sha256": "da65bd61a90b17fc216081770ff3d049f0f36016d83fd8e69b133d088622b640"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "i2c-connector",
+      "name": "I2C connector",
+      "image": "media/d0e31cf30f35c593ea59fcae60bb71e8fe3f0c79d3d660f53c6cc6b62bd1fb16.jpg",
+      "rows": 1,
+      "orderNote": "No position numbers; the \"PIO USB\" USB-C connector is visible in the same view below these connectors, so position 1 is the bottom pin (closest to USB) (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO6",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO7",
+          "functions": [
+            "SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uart-connector",
+      "name": "UART connector",
+      "image": "media/d0e31cf30f35c593ea59fcae60bb71e8fe3f0c79d3d660f53c6cc6b62bd1fb16.jpg",
+      "rows": 1,
+      "orderNote": "No position numbers; the \"PIO USB\" USB-C connector is visible in the same view below these connectors, so position 1 is the bottom pin (closest to USB) (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO4",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO5",
+          "functions": [
+            "RXD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fpc-connector",
+      "name": "12-pin FPC connector",
+      "image": "media/d0e31cf30f35c593ea59fcae60bb71e8fe3f0c79d3d660f53c6cc6b62bd1fb16.jpg",
+      "rows": 1,
+      "orderNote": "No position numbers; no USB connector in this view of the board (rear view, lower right), so position 1 is the top pin (rule 4/9)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO47",
+          "functions": [
+            "GP47"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO46",
+          "functions": [
+            "GP46"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO45",
+          "functions": [
+            "GP45"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO44",
+          "functions": [
+            "GP44"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO43",
+          "functions": [
+            "GP43"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO42",
+          "functions": [
+            "GP42"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "D+",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "D-",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "VBus",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "i2c-connector-img2",
+      "name": "I2C connector",
+      "image": "media/da65bd61a90b17fc216081770ff3d049f0f36016d83fd8e69b133d088622b640.jpg",
+      "rows": 1,
+      "orderNote": "No position numbers; the \"PIO USB\" USB-C connector is visible in the same view below these connectors, so position 1 is the bottom pin (closest to USB) (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO6",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO7",
+          "functions": [
+            "SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uart-connector-img2",
+      "name": "UART connector",
+      "image": "media/da65bd61a90b17fc216081770ff3d049f0f36016d83fd8e69b133d088622b640.jpg",
+      "rows": 1,
+      "orderNote": "No position numbers; the \"PIO USB\" USB-C connector is visible in the same view below these connectors, so position 1 is the bottom pin (closest to USB) (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO4",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO5",
+          "functions": [
+            "RXD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fpc-connector-img2",
+      "name": "12-pin FPC connector",
+      "image": "media/da65bd61a90b17fc216081770ff3d049f0f36016d83fd8e69b133d088622b640.jpg",
+      "rows": 1,
+      "orderNote": "No position numbers; no USB connector in this view of the board (rear view, lower right), so position 1 is the top pin (rule 4/9)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO47",
+          "functions": [
+            "GP47"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO46",
+          "functions": [
+            "GP46"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO45",
+          "functions": [
+            "GP45"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO44",
+          "functions": [
+            "GP44"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO43",
+          "functions": [
+            "GP43"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO42",
+          "functions": [
+            "GP42"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "D+",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "D-",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "VBus",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Callouts print \"SCL(GPIO7)\" etc.; label is the GPIO name and the silkscreen/callout signal name is in functions. FPC silkscreen prints GP42-GP47, callouts GPIO42-GPIO47; pin 12 callout \"VBus(5V)\" with silkscreen \"5V\". Both images are the same artwork at different sizes, transcribed separately. Skipped: PIO USB connector, battery connector (+/- only), buttons, buzzer, SD card, RTC."
+}

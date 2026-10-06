@@ -1,0 +1,685 @@
+{
+  "recordId": "waveshare-esp32-esp32-p4-wifi6",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/a71ba89aa368d479e7f915a5b8942d35a629067278d1811ce77854125d28e903.webp",
+      "sha256": "a71ba89aa368d479e7f915a5b8942d35a629067278d1811ce77854125d28e903"
+    },
+    {
+      "file": "media/c3edc5d765487b3fb7ce70b4b82b558e08f0edf85ae600ed20859849bbb72046.jpg",
+      "sha256": "c3edc5d765487b3fb7ce70b4b82b558e08f0edf85ae600ed20859849bbb72046"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/a71ba89aa368d479e7f915a5b8942d35a629067278d1811ce77854125d28e903.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at the top (closest to the USB-C connector)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO52",
+          "functions": [
+            "52"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO51",
+          "functions": [
+            "51"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO31",
+          "functions": [
+            "31"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO30",
+          "functions": [
+            "30"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO29",
+          "functions": [
+            "29"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO28",
+          "functions": [
+            "28"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO50",
+          "functions": [
+            "50"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO49",
+          "functions": [
+            "49"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO5",
+          "functions": [
+            "5"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO4",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO3",
+          "functions": [
+            "3"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO2",
+          "functions": [
+            "2"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO8",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO7",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GPIO24",
+          "functions": [
+            "24",
+            "DM"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO25",
+          "functions": [
+            "25",
+            "DP"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/a71ba89aa368d479e7f915a5b8942d35a629067278d1811ce77854125d28e903.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at the top (closest to the USB-C connector)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VSYS",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GPIO20",
+          "functions": [
+            "20"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO21",
+          "functions": [
+            "21"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO22",
+          "functions": [
+            "22"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO23",
+          "functions": [
+            "23"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "RUN",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GPIO26",
+          "functions": [
+            "26"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO27",
+          "functions": [
+            "27"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO32",
+          "functions": [
+            "32"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO33",
+          "functions": [
+            "33"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO46",
+          "functions": [
+            "46"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GPIO47",
+          "functions": [
+            "47"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO48",
+          "functions": [
+            "48"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uart-header",
+      "name": "4-pin header IO9/GND/RXD/TXD (centre)",
+      "image": "media/a71ba89aa368d479e7f915a5b8942d35a629067278d1811ce77854125d28e903.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row centred under the USB-C connector (ends equidistant), started at the left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO9",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RXD",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "TXD",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "usb-jst",
+      "name": "4-pin JST connector marked USB (centre, bottom)",
+      "image": "media/a71ba89aa368d479e7f915a5b8942d35a629067278d1811ce77854125d28e903.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row centred under the USB-C connector (ends equidistant), started at the left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "D-",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "D+",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "G",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left header",
+      "image": "media/c3edc5d765487b3fb7ce70b4b82b558e08f0edf85ae600ed20859849bbb72046.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at the top (closest to the USB-C connector)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO52",
+          "functions": [
+            "52"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO51",
+          "functions": [
+            "51"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO31",
+          "functions": [
+            "31"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO30",
+          "functions": [
+            "30"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO29",
+          "functions": [
+            "29"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO28",
+          "functions": [
+            "28"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO50",
+          "functions": [
+            "50"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO49",
+          "functions": [
+            "49"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO5",
+          "functions": [
+            "5"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO4",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO3",
+          "functions": [
+            "3"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO2",
+          "functions": [
+            "2"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO8",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO7",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GPIO24",
+          "functions": [
+            "24",
+            "DM"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO25",
+          "functions": [
+            "25",
+            "DP"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Right header",
+      "image": "media/c3edc5d765487b3fb7ce70b4b82b558e08f0edf85ae600ed20859849bbb72046.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at the top (closest to the USB-C connector)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VSYS",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GPIO20",
+          "functions": [
+            "20"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO21",
+          "functions": [
+            "21"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO22",
+          "functions": [
+            "22"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO23",
+          "functions": [
+            "23"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "RUN",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GPIO26",
+          "functions": [
+            "26"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO27",
+          "functions": [
+            "27"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO32",
+          "functions": [
+            "32"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO33",
+          "functions": [
+            "33"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO46",
+          "functions": [
+            "46"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GPIO47",
+          "functions": [
+            "47"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO48",
+          "functions": [
+            "48"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uart-header-img2",
+      "name": "4-pin header IO9/GND/RXD/TXD (centre)",
+      "image": "media/c3edc5d765487b3fb7ce70b4b82b558e08f0edf85ae600ed20859849bbb72046.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row centred under the USB-C connector (ends equidistant), started at the left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO9",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RXD",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "TXD",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "usb-jst-img2",
+      "name": "4-pin JST connector marked USB (centre, bottom)",
+      "image": "media/c3edc5d765487b3fb7ce70b4b82b558e08f0edf85ae600ed20859849bbb72046.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row centred under the USB-C connector (ends equidistant), started at the left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "D-",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "D+",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "G",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Images 1 (webp) and 2 (jpg) are identical artwork; transcribed separately per rule 11. Callout labels used; board silkscreen numbers (52, 51, SCL, 24...) listed first in functions. The 4-pin IO9/GND/RXD/TXD header and the 'USB' JST connector (V D- D+ G) are labelled only by board silkscreen. Buttons (BOOT, RESET), MIC, DISPLAY and CAMERA FPC connectors (no per-pin labels) skipped."
+}

@@ -1,0 +1,401 @@
+{
+ "recordId": "sparkfun-redboard-dev-12757",
+ "pass": "a",
+ "date": "2026-10-04",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/3f8ce2377c95e590d8d993e8b7cffb705ce17a91a5774268fbd3bc1ec0cb6b38.png",
+   "sha256": "3f8ce2377c95e590d8d993e8b7cffb705ce17a91a5774268fbd3bc1ec0cb6b38"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "power-header",
+   "name": "Power header (left upper)",
+   "image": "media/3f8ce2377c95e590d8d993e8b7cffb705ce17a91a5774268fbd3bc1ec0cb6b38.png",
+   "rows": 1,
+   "orderNote": "No printed position numbers; started at end closest to the MiniB USB connector (top of image). Label = port name (Pxx) or colored power name; white silkscreen name first in functions.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "NC",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "IOREF",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "PC6",
+     "functions": [
+      "RST",
+      "Reset",
+      "PCINT14"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "3.3V",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "5V",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "Vin",
+     "functions": []
+    }
+   ]
+  },
+  {
+   "id": "analog-header",
+   "name": "Analog header (left lower)",
+   "image": "media/3f8ce2377c95e590d8d993e8b7cffb705ce17a91a5774268fbd3bc1ec0cb6b38.png",
+   "rows": 1,
+   "orderNote": "No printed position numbers; started at end closest to the MiniB USB connector (top of image). Label = port name (Pxx) or colored power name; white silkscreen name first in functions.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "PC0",
+     "functions": [
+      "A0",
+      "A0/D14",
+      "ADC0",
+      "PCINT8"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "PC1",
+     "functions": [
+      "A1",
+      "A1/D15",
+      "ADC1",
+      "PCINT9"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "PC2",
+     "functions": [
+      "A2",
+      "A2/D16",
+      "ADC2",
+      "PCINT10"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "PC3",
+     "functions": [
+      "A3",
+      "A3/D17",
+      "ADC3",
+      "PCINT11"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "PC4",
+     "functions": [
+      "A4",
+      "A4/D18",
+      "ADC4",
+      "SDA",
+      "PCINT12"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "PC5",
+     "functions": [
+      "A5",
+      "A5/D19",
+      "ADC5",
+      "SCL",
+      "PCINT13"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "digital-header-upper",
+   "name": "Digital header (right upper)",
+   "image": "media/3f8ce2377c95e590d8d993e8b7cffb705ce17a91a5774268fbd3bc1ec0cb6b38.png",
+   "rows": 1,
+   "orderNote": "No printed position numbers; started at end closest to the MiniB USB connector (top of image). Label = port name (Pxx) or colored power name; white silkscreen name first in functions.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "PC5",
+     "functions": [
+      "SCL",
+      "A5/D19",
+      "ADC5",
+      "PCINT13"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "PC4",
+     "functions": [
+      "SDA",
+      "A4/D18",
+      "ADC4",
+      "PCINT12"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "AREF",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "PB5",
+     "functions": [
+      "13",
+      "D13",
+      "SCK",
+      "PCINT5",
+      "LED"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "PB4",
+     "functions": [
+      "12",
+      "D12",
+      "MISO",
+      "PCINT4"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "PB3",
+     "functions": [
+      "11",
+      "D11",
+      "8-bit",
+      "MOSI",
+      "PCINT3",
+      "OC2A"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "PCB2",
+     "functions": [
+      "10",
+      "D10",
+      "8-bit",
+      "SS",
+      "PCINT2",
+      "OC1B"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "PB1",
+     "functions": [
+      "9",
+      "D9",
+      "8-bit",
+      "PCINT1",
+      "OC1A"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "PB0",
+     "functions": [
+      "8",
+      "D8",
+      "PCINT0",
+      "ICP1",
+      "CLK0"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "digital-header-lower",
+   "name": "Digital header (right lower)",
+   "image": "media/3f8ce2377c95e590d8d993e8b7cffb705ce17a91a5774268fbd3bc1ec0cb6b38.png",
+   "rows": 1,
+   "orderNote": "No printed position numbers; started at end closest to the MiniB USB connector (top of image). Label = port name (Pxx) or colored power name; white silkscreen name first in functions.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "PD7",
+     "functions": [
+      "7",
+      "D7",
+      "PCINT23",
+      "IN1"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "PD6",
+     "functions": [
+      "6",
+      "D6",
+      "8-bit",
+      "PCINT22",
+      "OC0A",
+      "AIN0"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "PD5",
+     "functions": [
+      "5",
+      "D5",
+      "8-bit",
+      "PCINT21",
+      "OC0B",
+      "T1"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "PD4",
+     "functions": [
+      "4",
+      "D4",
+      "PCINT20",
+      "T0",
+      "XCK"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "PD3",
+     "functions": [
+      "3",
+      "D3",
+      "8-bit",
+      "INT1",
+      "PCINT19",
+      "OC2B"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "PD2",
+     "functions": [
+      "2",
+      "D2",
+      "INT0",
+      "PCINT18"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "PD1",
+     "functions": [
+      "TX0->1",
+      "D1",
+      "TXD",
+      "PCINT17"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "PD0",
+     "functions": [
+      "RX<-0",
+      "D0",
+      "RXD",
+      "PCINT16"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "isp-header",
+   "name": "ISP header (2x3, inset)",
+   "image": "media/3f8ce2377c95e590d8d993e8b7cffb705ce17a91a5774268fbd3bc1ec0cb6b38.png",
+   "rows": 2,
+   "orderNote": "2x3 inset without printed numbers or USB; horizontal rows ordered from the left, top row taken as outer row (position 1 = top-left), then alternating rows.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "Reset",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "PB5",
+     "functions": [
+      "SCK",
+      "D13",
+      "PCINT5",
+      "LED"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "PB3",
+     "functions": [
+      "MOSI",
+      "D11",
+      "8-bit",
+      "PCINT3",
+      "OC2A"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "PB4",
+     "functions": [
+      "MISO",
+      "D12",
+      "PCINT4"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "VCC",
+     "functions": []
+    }
+   ]
+  }
+ ],
+ "unreadable": [
+  "O/0 cannot be told apart in this font; written as 0 in TX0->1, RX<-0, T0 (D4 row), CLK0 (D8 row), OC0A, OC0B, AIN0, INT0."
+ ],
+ "uncertain": [
+  "ISP header inset shows no board edge, so which 2x3 row is the outer row is not determinable; top row of the inset was taken as outer."
+ ],
+ "notes": "'PCB2' (D10 port) and 'IN1' (D7 row) copied exactly as printed. Power-header NC pin has an empty silkscreen box. Barrel jack and reset button skipped. Repeated names in the same row kept once."
+}

@@ -1,0 +1,258 @@
+{
+  "recordId": "sparkfun-pro-micro-5v-16mhz",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/97dcdf16c15d4c0dd8410fa9d93088a73e27fc2af9e4aaa0aceafa6afb743f45.png",
+      "sha256": "97dcdf16c15d4c0dd8410fa9d93088a73e27fc2af9e4aaa0aceafa6afb743f45"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/97dcdf16c15d4c0dd8410fa9d93088a73e27fc2af9e4aaa0aceafa6afb743f45.png",
+      "rows": 1,
+      "orderNote": "USB nearest end (MicroB at top of image): top first",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PD3",
+          "functions": [
+            "TXO",
+            "D1",
+            "TX1",
+            "INT3"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PD2",
+          "functions": [
+            "RXI",
+            "D0",
+            "RX1",
+            "INT2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "PD1",
+          "functions": [
+            "2",
+            "D2",
+            "SDA",
+            "INT1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PD0",
+          "functions": [
+            "3",
+            "D3",
+            "8-bit",
+            "SCL",
+            "INT0",
+            "OC0B"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PD4",
+          "functions": [
+            "4",
+            "D4/A6",
+            "ADC8",
+            "ICP1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PC6",
+          "functions": [
+            "5",
+            "D5",
+            "10-bit (HS)",
+            "OC3A",
+            "OCA4"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PD7",
+          "functions": [
+            "6",
+            "D6/A7",
+            "ADC10",
+            "10-bit (HS)",
+            "OC4D",
+            "TO"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PE6",
+          "functions": [
+            "7",
+            "D7",
+            "INT6",
+            "AIN0"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PB4",
+          "functions": [
+            "8",
+            "D8/A8",
+            "ADC11",
+            "PCINT4"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "PB5",
+          "functions": [
+            "9",
+            "D9/A9",
+            "ADC12",
+            "16-bit",
+            "PCINT5",
+            "OC1A",
+            "OC4B"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/97dcdf16c15d4c0dd8410fa9d93088a73e27fc2af9e4aaa0aceafa6afb743f45.png",
+      "rows": 1,
+      "orderNote": "USB nearest end (MicroB at top of image): top first",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RAW",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RST",
+          "functions": [
+            "Reset"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "PF4",
+          "functions": [
+            "A3",
+            "ADC4",
+            "TCK"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PF5",
+          "functions": [
+            "A2",
+            "ADC5",
+            "TMS"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PF6",
+          "functions": [
+            "A1",
+            "ADC6",
+            "TDO"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PF7",
+          "functions": [
+            "A0",
+            "ADC7",
+            "TDI"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PB1",
+          "functions": [
+            "15",
+            "D15",
+            "SCK",
+            "PCINT1"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PB3",
+          "functions": [
+            "14",
+            "D14",
+            "MISO",
+            "PCINT3",
+            "PD0"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PB2",
+          "functions": [
+            "16",
+            "D16",
+            "MOSI",
+            "PCINT2",
+            "PDI"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "PB6",
+          "functions": [
+            "10",
+            "D10/A10",
+            "ADC13",
+            "16-bit",
+            "PCINT6",
+            "OC1B",
+            "OC4B"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "O/0 not distinguishable in 'OC0B' (left pin 6) and 'PD0' function on right pin 10 (ISP data-out position); recorded as 0 per rule 5"
+  ],
+  "uncertain": [],
+  "notes": "Label = purple 'Port' name (MCU port pin, treated as the GPIO name under rule 5); white 'Name' box (board silkscreen) first in functions, then the green Arduino name and remaining tags read outward. 'OCA4' (sic) and 'OC4B' carry an overline in the image (inverted output) which is omitted. 'TO' and 'TXO' printed with a letter O. SS/PB0/D17 RX_LED and TX_LED/D30/PD5 entries are LED signals without a pin position and were skipped; J1 solder jumper skipped."
+}

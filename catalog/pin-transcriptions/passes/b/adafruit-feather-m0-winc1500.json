@@ -1,0 +1,341 @@
+{
+  "recordId": "adafruit-feather-m0-winc1500",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/bb7039405dd186a741d98551fb6e21c4804272277b8585e130ab39f77c610f98.png",
+      "sha256": "bb7039405dd186a741d98551fb6e21c4804272277b8585e130ab39f77c610f98"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/bb7039405dd186a741d98551fb6e21c4804272277b8585e130ab39f77c610f98.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB connector at top of image, vertical row started at end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "AREF",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "PA02",
+          "functions": [
+            "A0",
+            "14/A0",
+            "2",
+            "VOUT",
+            "AIN0",
+            "Y0"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PB08",
+          "functions": [
+            "A1",
+            "15/A1",
+            "8",
+            "AIN2",
+            "Y14",
+            "S4.0",
+            "TC4[0]"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PB09",
+          "functions": [
+            "A2",
+            "16/A2",
+            "9",
+            "AIN3",
+            "Y15",
+            "S4.1",
+            "TC4[1]"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PA04",
+          "functions": [
+            "A3",
+            "17/A3",
+            "4",
+            "VREFB",
+            "AIN4",
+            "Y2",
+            "S0.0",
+            "TCC0[0]"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PA05",
+          "functions": [
+            "A4",
+            "18/A4",
+            "5",
+            "AIN5",
+            "Y3",
+            "S0.1",
+            "TCC0[1]"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PB02",
+          "functions": [
+            "A5",
+            "19/A5",
+            "2",
+            "AIN10",
+            "Y8",
+            "S5.0",
+            "TC6[0]"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PB11",
+          "functions": [
+            "SCK",
+            "24",
+            "11",
+            "S4.3",
+            "TC5[1]",
+            "TCC0[5]",
+            "I2S/SCK1"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "PB10",
+          "functions": [
+            "MOSI",
+            "23",
+            "10",
+            "S4.2",
+            "TC5[0]",
+            "TCC0[4]",
+            "I2S/MCK1"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "PA12",
+          "functions": [
+            "MISO",
+            "22",
+            "12",
+            "S2.0",
+            "S4.0",
+            "TCC2[0]",
+            "TCC0[6]"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "PA11",
+          "functions": [
+            "D0",
+            "0",
+            "11",
+            "AIN19",
+            "S0.3",
+            "S2.3",
+            "TCC1[1]",
+            "TCC0[3]",
+            "I2S/FS0"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "PA10",
+          "functions": [
+            "D1",
+            "1",
+            "10",
+            "AIN18",
+            "S0.2",
+            "S2.2",
+            "TCC1[0]",
+            "TCC0[2]",
+            "I2S/SCK0"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "WAKE",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/bb7039405dd186a741d98551fb6e21c4804272277b8585e130ab39f77c610f98.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB connector at top of image, vertical row started at end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "PA17",
+          "functions": [
+            "D13",
+            "13",
+            "1",
+            "S1.1",
+            "S3.1",
+            "TCC2[1]",
+            "TCC0[7]"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PA19",
+          "functions": [
+            "D12",
+            "12",
+            "3",
+            "S1.3",
+            "S3.3",
+            "TC3[1]",
+            "TCC0[3]",
+            "I2S/SD0"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA16",
+          "functions": [
+            "D11",
+            "11",
+            "0",
+            "S1.0",
+            "S3.0",
+            "TCC2[0]",
+            "TCC0[6]"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PA18",
+          "functions": [
+            "D10",
+            "10",
+            "2",
+            "S1.2",
+            "S3.2",
+            "TC3[0]",
+            "TCC0[2]"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PA07",
+          "functions": [
+            "D9",
+            "9/A7",
+            "7",
+            "AIN7",
+            "Y5",
+            "S0.3",
+            "TCC1[1]",
+            "I2S/SD0"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PA20",
+          "functions": [
+            "D6",
+            "6",
+            "4",
+            "S5.2",
+            "S3.2",
+            "TC7[0]",
+            "TCC0[6]",
+            "I2S/SCK0"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PA15",
+          "functions": [
+            "D5",
+            "5",
+            "15",
+            "S2.3",
+            "S4.3",
+            "TC3[1]",
+            "TCC0[5]"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PA23",
+          "functions": [
+            "SCL",
+            "21",
+            "7",
+            "S3.1",
+            "S5.1",
+            "TC4[1]",
+            "TCC0[5]"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "PA22",
+          "functions": [
+            "SDA",
+            "20",
+            "6",
+            "S3.0",
+            "S5.0",
+            "TC4[0]",
+            "TCC0[4]"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Labels use the GPIO (port) name; functions read outward from the pin (CircuitPython name, Arduino name, INT, DAC/AREF, ADC, Touch, SERCOM, SERCOM Alt, Timer, Timer Alt, Special), exact duplicates dropped. Board-render silkscreen too small to transcribe reliably; diagram name boxes used. Legend-area descriptions of VBUS/VBAT/3.3V omitted. WiFi Module Control (D2/D4/D7/D8 to module) entries are internal, no header positions; skipped. WiFi icons next to SCK/MOSI/MISO omitted."
+}

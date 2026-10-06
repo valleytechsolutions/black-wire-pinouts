@@ -1,0 +1,349 @@
+{
+  "recordId": "wisdpi-rp2040-tiny-rp2040",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/f206165f970f492a304a3bdd598f379e849325c98363cf7054e304eabbb9ca18.jpg",
+      "sha256": "f206165f970f492a304a3bdd598f379e849325c98363cf7054e304eabbb9ca18"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left castellated edge (table PIN 1-12)",
+      "image": "media/f206165f970f492a304a3bdd598f379e849325c98363cf7054e304eabbb9ca18.jpg",
+      "rows": 1,
+      "orderNote": "Printed PIN numbers 1-12 followed; PIN 1 (GP0) is at the top, nearest USB",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP0",
+          "functions": [
+            "SPI0_RX",
+            "I2C0 SDA",
+            "UART0_TX",
+            "PWM0_A"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP1",
+          "functions": [
+            "1",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX",
+            "PWM0_B"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP2",
+          "functions": [
+            "2",
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART0 CTS",
+            "PWM1_A"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP3",
+          "functions": [
+            "3",
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART0 RTS",
+            "PWM1_B"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP4",
+          "functions": [
+            "4",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX",
+            "PWM2_A"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP5",
+          "functions": [
+            "5",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX",
+            "PWM2_B"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP6",
+          "functions": [
+            "6",
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART1 CTS",
+            "PWM3_A"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP7",
+          "functions": [
+            "7",
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART1 RTS",
+            "PWM3_B"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP8",
+          "functions": [
+            "8",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART1 TX",
+            "PWM4_A"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP9",
+          "functions": [
+            "9",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART1 RX",
+            "PWM4_B"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP10",
+          "functions": [
+            "10",
+            "SPI1 SCK",
+            "I2C1 SDA",
+            "UART1 CTS",
+            "PWM5_A"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP11",
+          "functions": [
+            "11",
+            "SPI1 TX",
+            "I2C1 SCL",
+            "UART1 RTS",
+            "PWM5_B"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-pads",
+      "name": "Bottom castellated edge (table PIN 13-17)",
+      "image": "media/f206165f970f492a304a3bdd598f379e849325c98363cf7054e304eabbb9ca18.jpg",
+      "rows": 1,
+      "orderNote": "Printed PIN numbers 13-17 followed (left to right); arrows link each bottom pad to its table row",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP12",
+          "functions": [
+            "12",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART0 TX",
+            "PWM6_A"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP13",
+          "functions": [
+            "13",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART0 RX",
+            "PWM6_B"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP14",
+          "functions": [
+            "14",
+            "SPI1 SCK",
+            "I2C1 SDA",
+            "UART0 CTS",
+            "PWM7_A"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP15",
+          "functions": [
+            "15",
+            "SPI1 TX",
+            "I2C1 SCL",
+            "UART0 RTS",
+            "PWM7_B"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP16",
+          "functions": [
+            "16",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX",
+            "PWM0_A"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right castellated edge (table PIN 18-29)",
+      "image": "media/f206165f970f492a304a3bdd598f379e849325c98363cf7054e304eabbb9ca18.jpg",
+      "rows": 1,
+      "orderNote": "Printed PIN numbers 18-29 followed ascending, so position 1 = PIN 18 (GP17) at the bottom and position 12 = PIN 29 (VBUS) at the top next to USB",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP17",
+          "functions": [
+            "17",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX",
+            "PWM0 B"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP18",
+          "functions": [
+            "18",
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART0 CTS",
+            "PWM1 A"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP19",
+          "functions": [
+            "19",
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART0 RTS",
+            "PWM1 B"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP20",
+          "functions": [
+            "20",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX",
+            "PWM2 A"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP21",
+          "functions": [
+            "21",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX",
+            "PWM2 B"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP22",
+          "functions": [
+            "22",
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART1 CTS",
+            "PWM3 A"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP26",
+          "functions": [
+            "26",
+            "A0",
+            "SPI1 SCK",
+            "I2C1 SDA",
+            "UART1 CTS",
+            "PWM5 A"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP27",
+          "functions": [
+            "27",
+            "A1",
+            "SPI1 TX",
+            "I2C1 SCL",
+            "UART1 RTS",
+            "PWM5 B"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP28",
+          "functions": [
+            "28",
+            "A2",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART0 TX",
+            "PWM6 A"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "+3.3V",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "VBUS",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "GPIO column prints GP26/A0, GP27/A1, GP28/A2; label uses the GP name and the A name is kept in functions. Silkscreen numbers (1, 2, ... 28, 3V3) put first in functions. Table PIN numbers 1-29 run continuously around the board and were used for ordering only. NC rows (GP23, GP24) and the USER_LED/RGB_LED rows are internal and not physical pins. Underscore/space spelling differences (UART0_TX, SPI0_RX, PWM0_A vs PWM0 B) copied as printed."
+}

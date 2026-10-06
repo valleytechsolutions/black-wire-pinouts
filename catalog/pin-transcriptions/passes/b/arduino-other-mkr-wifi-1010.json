@@ -1,0 +1,754 @@
+{
+ "recordId": "arduino-other-mkr-wifi-1010",
+ "pass": "b",
+ "date": "2026-10-03",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/b091b4cf1a0ac5582a44d90afc82eac14d7b5af03b2ea0989abf7a555681bea5.png",
+   "sha256": "b091b4cf1a0ac5582a44d90afc82eac14d7b5af03b2ea0989abf7a555681bea5"
+  },
+  {
+   "file": "media/62679774ac6947d2b205c71b5ef0ed92677168ecc81d0b0462d4ddeef06a89fb.png",
+   "sha256": "62679774ac6947d2b205c71b5ef0ed92677168ecc81d0b0462d4ddeef06a89fb"
+  },
+  {
+   "file": "media/85403de0fc5b507797533d87eaecf5165d478b9e4a7e0aeb5d5e0ff6e018d6a3.png",
+   "sha256": "85403de0fc5b507797533d87eaecf5165d478b9e4a7e0aeb5d5e0ff6e018d6a3"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "left-header",
+   "name": "Left header",
+   "image": "media/b091b4cf1a0ac5582a44d90afc82eac14d7b5af03b2ea0989abf7a555681bea5.png",
+   "rows": 1,
+   "orderNote": "No pin numbers; USB connector at the top of the image, vertical row started at the end closest to USB (top).",
+   "pins": [
+    {
+     "position": 1,
+     "label": "PA03",
+     "functions": [
+      "AREF",
+      "AREF/AIN[1]"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "PA02",
+     "functions": [
+      "D15",
+      "A0",
+      "DAC0/AIN[0]"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "PB02",
+     "functions": [
+      "D16",
+      "A1",
+      "AIN[10]"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "PB03",
+     "functions": [
+      "D17",
+      "A2",
+      "AIN[11]"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "PA04",
+     "functions": [
+      "D18~",
+      "A3",
+      "AIN[4]"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "PA05",
+     "functions": [
+      "D19~",
+      "A4",
+      "AIN[5]"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "PA06",
+     "functions": [
+      "D20",
+      "A5",
+      "AIN[6]"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "PA07",
+     "functions": [
+      "D21",
+      "A6",
+      "AIN[7]"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "PA22",
+     "functions": [
+      "D0~"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "PA23",
+     "functions": [
+      "D1~"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "PA10",
+     "functions": [
+      "D2~"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "PA11",
+     "functions": [
+      "D3~"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "PB10",
+     "functions": [
+      "D4~"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "PB11",
+     "functions": [
+      "D5~"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "right-header",
+   "name": "Right header",
+   "image": "media/b091b4cf1a0ac5582a44d90afc82eac14d7b5af03b2ea0989abf7a555681bea5.png",
+   "rows": 1,
+   "orderNote": "No pin numbers; USB connector at the top of the image, vertical row started at the end closest to USB (top).",
+   "pins": [
+    {
+     "position": 1,
+     "label": "+5V",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "VIN",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "+3V3",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "RESET",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "PB22",
+     "functions": [
+      "D14",
+      "TX (SC5)"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "PB23",
+     "functions": [
+      "D13",
+      "RX (SC5)"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "PA09",
+     "functions": [
+      "~D12",
+      "SCL (SC2)"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "PA08",
+     "functions": [
+      "D11",
+      "SDA (SC2)"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "PA19",
+     "functions": [
+      "~D10",
+      "CIPO (SC1)"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "PA17",
+     "functions": [
+      "D9",
+      "SCK (SC1)"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "PA16",
+     "functions": [
+      "~D8",
+      "COPI (SC1)"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "PA21",
+     "functions": [
+      "~D7"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "PA20",
+     "functions": [
+      "~D6"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "top-connector",
+   "name": "5-pin connector at top right (SDA/SCL)",
+   "image": "media/b091b4cf1a0ac5582a44d90afc82eac14d7b5af03b2ea0989abf7a555681bea5.png",
+   "rows": 1,
+   "orderNote": "No pin numbers; connector pins stacked vertically at the top right, near the USB connector at the top of the image; started at the end closest to USB (top).",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "PA08",
+     "functions": [
+      "SDA"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "PA09",
+     "functions": [
+      "SCL"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "PA21",
+     "functions": [
+      "WK"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "+5V",
+     "functions": []
+    }
+   ]
+  },
+  {
+   "id": "left-header-img2",
+   "name": "Left header (full pinout)",
+   "image": "media/62679774ac6947d2b205c71b5ef0ed92677168ecc81d0b0462d4ddeef06a89fb.png",
+   "rows": 1,
+   "orderNote": "No pin numbers; USB connector at the top of the image, vertical row started at the end closest to USB (top).",
+   "pins": [
+    {
+     "position": 1,
+     "label": "PA03",
+     "functions": [
+      "AREF",
+      "AREF/AIN[1]",
+      "INT[3]"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "PA02",
+     "functions": [
+      "D15",
+      "A0",
+      "DAC0/AIN[0]",
+      "INT[2]"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "PB02",
+     "functions": [
+      "D16",
+      "A1",
+      "AIN[10]",
+      "TC6/WO[0]",
+      "INT[2]",
+      "SC5 P0A"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "PB03",
+     "functions": [
+      "D17",
+      "A2",
+      "AIN[11]",
+      "TC6/WO[1]",
+      "INT[3]",
+      "SC5 P1A"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "PA04",
+     "functions": [
+      "D18~",
+      "A3",
+      "AIN[4]",
+      "TCC0/WO[0]",
+      "INT[4]",
+      "SC0 P0A"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "PA05",
+     "functions": [
+      "D19~",
+      "A4",
+      "AIN[5]",
+      "TCC0/WO[1]",
+      "INT[5]",
+      "SC0 P1A"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "PA06",
+     "functions": [
+      "D20",
+      "A5",
+      "AIN[6]",
+      "TCC1/WO[0]",
+      "INT[6]",
+      "SC0 P2A"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "PA07",
+     "functions": [
+      "D21",
+      "A6",
+      "AIN[7]",
+      "I2S_SD0",
+      "TCC1/WO[1]",
+      "INT[7]",
+      "SC0 P3A"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "PA22",
+     "functions": [
+      "D0~",
+      "TCC0/WO[4]",
+      "TC4/WO[0]",
+      "INT[6]",
+      "SC3 P0/SC5 P0A"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "PA23",
+     "functions": [
+      "D1~",
+      "TCC0/WO[5]",
+      "TC4/WO[1]",
+      "INT[7]",
+      "SC3 P1/SC5 P1A"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "PA10",
+     "functions": [
+      "D2~",
+      "AIN[18]",
+      "I2S_SCK[0]",
+      "TCC0/WO[2]",
+      "TCC1/WO[0]",
+      "INT[10]",
+      "SC0 P2/SC2 P2A"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "PA11",
+     "functions": [
+      "D3~",
+      "AIN[19]",
+      "I2S_FS[0]",
+      "TCC0/WO[3]",
+      "TCC1/WO[1]",
+      "INT[11]",
+      "SC0 P3/SC2 P3A"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "PB10",
+     "functions": [
+      "D4~",
+      "TCC0/WO[4]",
+      "TC5/WO[0]",
+      "INT[10]",
+      "SC4 P2A"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "PB11",
+     "functions": [
+      "D5~",
+      "TC5/WO[1]",
+      "INT[11]"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "right-header-img2",
+   "name": "Right header (full pinout)",
+   "image": "media/62679774ac6947d2b205c71b5ef0ed92677168ecc81d0b0462d4ddeef06a89fb.png",
+   "rows": 1,
+   "orderNote": "No pin numbers; USB connector at the top of the image, vertical row started at the end closest to USB (top).",
+   "pins": [
+    {
+     "position": 1,
+     "label": "+5V",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "VIN",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "+3V3",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "RESET",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "PB22",
+     "functions": [
+      "D14",
+      "TX (SC5)",
+      "TX",
+      "TC7/WO[0]",
+      "INT[6]",
+      "SC5 P2A"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "PB23",
+     "functions": [
+      "D13",
+      "RX (SC5)",
+      "RX",
+      "TC7/WO[1]",
+      "INT[7]",
+      "SC5 P3A"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "PA09",
+     "functions": [
+      "~D12",
+      "SCL (SC2)",
+      "AIN[17]",
+      "I2S_MCK[0]",
+      "TCC0/WO[0]",
+      "TCC1/WO[3]",
+      "INT[9]",
+      "SC0 P1/SC2 P1A"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "PA08",
+     "functions": [
+      "D11",
+      "SDA (SC2)",
+      "AIN[16]",
+      "I2S_SD1",
+      "TCC0/WO[0]",
+      "TCC1/WO[2]",
+      "NMI",
+      "SC0 P0/SC2 P0A"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "PA19",
+     "functions": [
+      "~D10",
+      "CIPO (SC1)",
+      "CIPO",
+      "TC3/WO[1]",
+      "TCC0/WO[3]",
+      "INT[3]",
+      "SC1 P3/SC3 P3A"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "PA17",
+     "functions": [
+      "D9",
+      "SCK (SC1)",
+      "SCK",
+      "TCC2/WO[1]",
+      "TCC0/WO[7]",
+      "INT[1]",
+      "SC1 P1/SC3 P1A"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "PA16",
+     "functions": [
+      "~D8",
+      "COPI (SC1)",
+      "COPI",
+      "TCC2/WO[0]",
+      "TCC0/WO[6]",
+      "INT[0]",
+      "SC1 P0/SC3 P0A"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "PA21",
+     "functions": [
+      "~D7",
+      "TC7/WO[1]",
+      "TCC0/WO[7]",
+      "INT[5]",
+      "SC5 P3/SC3 P3A"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "PA20",
+     "functions": [
+      "~D6",
+      "TC7/WO[0]",
+      "TCC0/WO[6]",
+      "INT[4]",
+      "SC5 P2/SC3 P2A"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "top-connector-img2",
+   "name": "5-pin connector at top right (SDA/SCL) (full pinout)",
+   "image": "media/62679774ac6947d2b205c71b5ef0ed92677168ecc81d0b0462d4ddeef06a89fb.png",
+   "rows": 1,
+   "orderNote": "No pin numbers; connector pins stacked vertically at the top right, near the USB connector at the top of the image; started at the end closest to USB (top).",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "PA08",
+     "functions": [
+      "SDA",
+      "AIN[16]",
+      "I2S_SD1",
+      "TCC0/WO[0]",
+      "TCC1/WO[2]",
+      "NMI",
+      "SC0 P0/SC2 P0A"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "PA09",
+     "functions": [
+      "SCL",
+      "AIN[17]",
+      "I2S_MCK[0]",
+      "TCC0/WO[0]",
+      "TCC1/WO[3]",
+      "INT[9]",
+      "SC0 P1/SC2 P1A"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "PA21",
+     "functions": [
+      "WK",
+      "TC7/WO[1]",
+      "TCC0/WO[7]",
+      "INT[5]",
+      "SC5 P3/SC3 P3A"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "+5V",
+     "functions": []
+    }
+   ]
+  },
+  {
+   "id": "usb-connector-img3",
+   "name": "USB connector (individually labeled signals)",
+   "image": "media/85403de0fc5b507797533d87eaecf5165d478b9e4a7e0aeb5d5e0ff6e018d6a3.png",
+   "rows": 1,
+   "orderNote": "No pin numbers; the labeled lines enter the USB connector (top edge) as a horizontal row; started at the left end as displayed (GND first).",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "PA18",
+     "functions": [
+      "USB ID"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "PA25",
+     "functions": [
+      "USB P"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "PA24",
+     "functions": [
+      "USB N"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "VBUS",
+     "functions": [
+      "+5V"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "swd-pads-img3",
+   "name": "6-pad SWD footprint on bottom side",
+   "image": "media/85403de0fc5b507797533d87eaecf5165d478b9e4a7e0aeb5d5e0ff6e018d6a3.png",
+   "rows": 2,
+   "orderNote": "Pad numbers 1-6 printed; followed them.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "+3V3",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "PA31",
+     "functions": [
+      "SWDIO",
+      "TCC1/WO[1]",
+      "INT[11]"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "PA30",
+     "functions": [
+      "SWCLK",
+      "TCC1/WO[0]",
+      "INT[10]"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "?",
+     "functions": []
+    }
+   ]
+  }
+ ],
+ "unreadable": [
+  "img3 swd-pads-img3 pads 3 and 6: number only, no signal label (unlabeled)",
+  "Slashed zeros read as 0 (e.g. PA08, TC5/WO[0])"
+ ],
+ "notes": "Labels use the SAMD21 port name (PAxx/PBxx) where printed, else the power/control name. Functions read outward from the pin; two names in one box split in outward order; UART/I2C/SPI bracket tags omitted; '~' kept as printed. Image 3 note at VBUS: 'When in USB OTG mode, VBUS works as output and 5V is generated from the LiPo battery'. Skipped: Li-Po battery connector (+/-), LED_BUILTIN, Battery Charger LED and Power LED callouts, internal BQ24195L, NINA W102, ECC508 and ADC_VBAT signals, unlabeled SM05B-SRSS-TB and S2B-PH connectors."
+}

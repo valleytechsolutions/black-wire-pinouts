@@ -1,0 +1,326 @@
+{
+  "recordId": "adafruit-esp32-feather-esp32-c6-4mb-flash-no-psram",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/70e2c74c3e745272edc32ad7e3172f9e9d74c5bed936e0ee6d564f0a7f4a59f9.png",
+      "sha256": "70e2c74c3e745272edc32ad7e3172f9e9d74c5bed936e0ee6d564f0a7f4a59f9"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/70e2c74c3e745272edc32ad7e3172f9e9d74c5bed936e0ee6d564f0a7f4a59f9.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "IO1",
+          "functions": [
+            "A0",
+            "1",
+            "LP_UART_DSRN",
+            "ADC1_CH1",
+            "XTAL_32K_N"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "IO4",
+          "functions": [
+            "A1",
+            "4",
+            "LP_UART_RXD",
+            "ADC1_CH4",
+            "FSPIHD",
+            "MTMS"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "IO6",
+          "functions": [
+            "A2/IO6",
+            "6",
+            "LP_I2C_SDA",
+            "ADC1_CH6",
+            "FSPICLK",
+            "MTCK"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "IO5",
+          "functions": [
+            "A3/IO5",
+            "5",
+            "LP_UART_TXD",
+            "ADC1_CH5",
+            "FSPIWP",
+            "MTDI"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "IO3",
+          "functions": [
+            "A4",
+            "3",
+            "LP_UART_CTSN",
+            "ADC1_CH3"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "IO2",
+          "functions": [
+            "A5",
+            "2",
+            "LP_UART_RTSN",
+            "ADC1_CH2",
+            "FSPIQ"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "IO21",
+          "functions": [
+            "SCK",
+            "21",
+            "SDIO_DATA1"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "IO22",
+          "functions": [
+            "MOSI",
+            "22",
+            "SDIO_DATA2"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "IO23",
+          "functions": [
+            "MISO",
+            "23",
+            "SDIO_DATA3"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "IO17",
+          "functions": [
+            "RX",
+            "17"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "IO16",
+          "functions": [
+            "TX",
+            "16"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "IO9",
+          "functions": [
+            "9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/70e2c74c3e745272edc32ad7e3172f9e9d74c5bed936e0ee6d564f0a7f4a59f9.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IO15",
+          "functions": [
+            "15"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "IO14",
+          "functions": [
+            "14"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "IO0",
+          "functions": [
+            "0",
+            "LP_UART_DTRN",
+            "ADC1_CH0",
+            "XTAL_32K_P"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "IO8",
+          "functions": [
+            "8"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "IO7",
+          "functions": [
+            "7",
+            "LP_I2C_SCL",
+            "FSPID",
+            "MTDO"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "IO6",
+          "functions": [
+            "A2/IO6",
+            "6",
+            "LP_I2C_SDA",
+            "ADC1_CH6",
+            "FSPICLK",
+            "MTCK"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "IO5",
+          "functions": [
+            "A3/IO5",
+            "5",
+            "LP_UART_TXD",
+            "ADC1_CH5",
+            "FSPIWP",
+            "MTDI"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "IO18",
+          "functions": [
+            "SCL",
+            "18",
+            "SDIO_CMD"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "IO19",
+          "functions": [
+            "SDA",
+            "19",
+            "SDIO_CLK"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "i2c-port",
+      "name": "I2C (STEMMA QT style) connector (bottom)",
+      "image": "media/70e2c74c3e745272edc32ad7e3172f9e9d74c5bed936e0ee6d564f0a7f4a59f9.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row with no end nearer the USB connector, started at left (wire colors black, red, blue, yellow)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO19",
+          "functions": [
+            "SDA",
+            "19",
+            "SDIO_CLK"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "IO18",
+          "functions": [
+            "SCL",
+            "18",
+            "SDIO_CMD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "battery-jst",
+      "name": "Battery JST connector",
+      "image": "media/70e2c74c3e745272edc32ad7e3172f9e9d74c5bed936e0ee6d564f0a7f4a59f9.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; pins stacked vertically, started at the top (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VBAT",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Labels use GPIO names (IOn) with the CircuitPython name and Arduino number first in functions; green LP_* boxes kept as function names. Board-render silkscreen not transcribed. LED, BUTTON, NEOPIXEL and NEOPIXEL_I2C_POWER entries have no pad and were skipped."
+}

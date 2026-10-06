@@ -1,0 +1,314 @@
+{
+ "recordId": "heltec-other-cubecell-htcc-ab02a",
+ "pass": "a",
+ "date": "2026-10-04",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/81adf17bedb8dd08e636cb2064e872d33b77ee6005f3be4b52077516bf88e3c2.png",
+   "sha256": "81adf17bedb8dd08e636cb2064e872d33b77ee6005f3be4b52077516bf88e3c2"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "left-header",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "USB at top; top-to-bottom physical hole order. Gray package numbers are aliases, not header positions.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "VIN",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "VEXT",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "RX2",
+     "functions": [
+      "29"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "TX2",
+     "functions": [
+      "30"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GPIO7",
+     "functions": [
+      "23"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GPIO8",
+     "functions": [
+      "36",
+      "SCL1"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GPIO9",
+     "functions": [
+      "37",
+      "SDA1"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GPIO10",
+     "functions": [
+      "38"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "SCL0",
+     "functions": [
+      "39"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "SDA0",
+     "functions": [
+      "40"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "GPIO11",
+     "functions": [
+      "41"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "GPIO12",
+     "functions": [
+      "42"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "GPIO13",
+     "functions": [
+      "45"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "GPIO14",
+     "functions": [
+      "46"
+     ]
+    },
+    {
+     "position": 16,
+     "label": "RESET",
+     "functions": [
+      "50"
+     ]
+    }
+   ],
+   "image": "media/81adf17bedb8dd08e636cb2064e872d33b77ee6005f3be4b52077516bf88e3c2.png"
+  },
+  {
+   "id": "right-header",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "USB at top; top-to-bottom physical hole order. Gray package numbers are aliases, not header positions.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "VDD",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "VEXT",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "TX1",
+     "functions": [
+      "18",
+      "Serial Chip"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "RX1",
+     "functions": [
+      "17",
+      "Serial Chip"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GPIO15",
+     "functions": [
+      "19",
+      "VEXT Control"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GPIO16",
+     "functions": [
+      "20",
+      "VBAT_ADC Control",
+      "USER BUTTON"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GPIO6",
+     "functions": [
+      "22"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GPIO5",
+     "functions": [
+      "21"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "GPIO4",
+     "functions": [
+      "11",
+      "PWM2"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "GPIO3",
+     "functions": [
+      "10",
+      "CLK1",
+      "PWM1"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "GPIO2",
+     "functions": [
+      "9",
+      "MISO1"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "GPIO1",
+     "functions": [
+      "8",
+      "MOSI1"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "ADC3",
+     "functions": [
+      "4"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "ADC2",
+     "functions": [
+      "2"
+     ]
+    },
+    {
+     "position": 16,
+     "label": "ADC1",
+     "functions": [
+      "3",
+      "Power Detection"
+     ]
+    }
+   ],
+   "image": "media/81adf17bedb8dd08e636cb2064e872d33b77ee6005f3be4b52077516bf88e3c2.png"
+  },
+  {
+   "id": "bottom-left-header",
+   "name": "bottom-left-header",
+   "rows": 1,
+   "orderNote": "USB at top; top-to-bottom physical hole order. Gray package numbers are aliases, not header positions.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "NSS0",
+     "functions": [
+      "NSS",
+      "28",
+      "LoRa_NSS"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "CLK0",
+     "functions": [
+      "CLK",
+      "27",
+      "LoRa_CLK"
+     ]
+    }
+   ],
+   "image": "media/81adf17bedb8dd08e636cb2064e872d33b77ee6005f3be4b52077516bf88e3c2.png"
+  },
+  {
+   "id": "bottom-right-header",
+   "name": "bottom-right-header",
+   "rows": 1,
+   "orderNote": "USB at top; top-to-bottom physical hole order. Gray package numbers are aliases, not header positions.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "MOSI0",
+     "functions": [
+      "MO",
+      "25",
+      "LoRa_MOSI"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "MISO0",
+     "functions": [
+      "MI",
+      "26",
+      "LoRa_MISO"
+     ]
+    }
+   ],
+   "image": "media/81adf17bedb8dd08e636cb2064e872d33b77ee6005f3be4b52077516bf88e3c2.png"
+  }
+ ],
+ "notes": "ADC2 and ADC1 carry gray package numbers 2 and 3 respectively in this image; preserved literally.",
+ "unreadable": [],
+ "uncertain": []
+}

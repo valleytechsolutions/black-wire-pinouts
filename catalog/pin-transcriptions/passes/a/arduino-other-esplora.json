@@ -1,0 +1,89 @@
+{
+  "recordId": "arduino-other-esplora",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/64bbb00619d05cab669cae0d2955f5c5782eb8c49cdbdf88eeb9be79a6be8e9a.jpg",
+      "sha256": "64bbb00619d05cab669cae0d2955f5c5782eb8c49cdbdf88eeb9be79a6be8e9a"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "right-header",
+      "name": "Right-side 10-pin header",
+      "image": "media/64bbb00619d05cab669cae0d2955f5c5782eb8c49cdbdf88eeb9be79a6be8e9a.jpg",
+      "rows": 1,
+      "orderNote": "Pin numbers printed (Pin 1 to Pin 10, top to bottom); followed printed numbers",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+5v",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "D14",
+          "functions": [
+            "MISO"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "D15",
+          "functions": [
+            "SCK"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D16",
+          "functions": [
+            "MOSI"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "D7",
+          "functions": [
+            "LCD_CS"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D8",
+          "functions": [
+            "CARD_CS"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "D0",
+          "functions": [
+            "DC_LCD"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "D1",
+          "functions": [
+            "RST_LCD"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "+5v",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Label is the Arduino IDE name (D14...) where printed, otherwise the schematic power name; schematic names in functions. Left-side header is marked 'These pins are not currently connected' and has no pin labels; skipped. ICSP header visible but unlabeled; skipped. Image is a third-party annotated photo ('Not Official Documentation')."
+}

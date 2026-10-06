@@ -1,0 +1,204 @@
+{
+  "recordId": "adafruit-esp32-qt-py-esp32-c3",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/d2db9b2391be28b9b65dd147591c573e645aae152df238bc470ee9b4ffbe5b64.png",
+      "sha256": "d2db9b2391be28b9b65dd147591c573e645aae152df238bc470ee9b4ffbe5b64"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/d2db9b2391be28b9b65dd147591c573e645aae152df238bc470ee9b4ffbe5b64.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A0",
+          "functions": [
+            "4",
+            "ADC1_CH4",
+            "MTMS"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "A1",
+          "functions": [
+            "3",
+            "ADC1_CH3"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "A2",
+          "functions": [
+            "1",
+            "ADC1_CH1",
+            "32K_XN"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "A3",
+          "functions": [
+            "0",
+            "ADC1_CH0",
+            "32K_XP"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "SDA",
+          "functions": [
+            "5",
+            "ADC2_CH0",
+            "FSPIHD",
+            "MTDI"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "SCL",
+          "functions": [
+            "6",
+            "FSPICLK",
+            "MTCK"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "TX",
+          "functions": [
+            "21",
+            "U0TXD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/d2db9b2391be28b9b65dd147591c573e645aae152df238bc470ee9b4ffbe5b64.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": [
+            "3V"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "MOSI",
+          "functions": [
+            "MO",
+            "7",
+            "FSPID",
+            "MTDO"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "MISO",
+          "functions": [
+            "MI",
+            "8"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "SCK",
+          "functions": [
+            "10",
+            "FSPICS0"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "RX",
+          "functions": [
+            "20",
+            "U0RXD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "top-pads",
+      "name": "Pads beside USB connector",
+      "image": "media/d2db9b2391be28b9b65dd147591c573e645aae152df238bc470ee9b4ffbe5b64.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; both pads equidistant from USB, horizontal row started at left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VBAT",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "i2c-port",
+      "name": "I2C (STEMMA QT style) connector",
+      "image": "media/d2db9b2391be28b9b65dd147591c573e645aae152df238bc470ee9b4ffbe5b64.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at end closest to USB connector (left end, under USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SDA",
+          "functions": [
+            "5",
+            "ADC2_CH0",
+            "FSPIHD",
+            "MTDI"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "SCL",
+          "functions": [
+            "6",
+            "FSPICLK",
+            "MTCK"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Switch button and NeoPixel skipped. Labels use CircuitPython names; bare GPIO numbers placed in functions."
+}

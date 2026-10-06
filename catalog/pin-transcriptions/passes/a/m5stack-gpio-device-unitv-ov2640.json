@@ -1,0 +1,48 @@
+{
+  "recordId": "m5stack-gpio-device-unitv-ov2640",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/629396d7e80dd92cb60a0fc95699c71e9eca345efd1367d49c594d1e955c2852.png",
+      "sha256": "629396d7e80dd92cb60a0fc95699c71e9eca345efd1367d49c594d1e955c2852"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "HY2.0-4P",
+      "name": "HY2.0-4P connector",
+      "image": "media/629396d7e80dd92cb60a0fc95699c71e9eca345efd1367d49c594d1e955c2852.png",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector shown; horizontal row numbered left to right as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G34",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "G35",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "G",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "The image is a stylized infographic, not a board photo: the HY2.0-4P connector is drawn as four labeled cells, so it is not shown how this left-to-right order maps onto the physical connector's orientation"
+  ],
+  "notes": "Buttons A (GPIO 19) and B (GPIO 18), RGB LED (GPIO 8), OV2640 camera and TF slot are not wiring points and are skipped."
+}

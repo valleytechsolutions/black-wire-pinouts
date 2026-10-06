@@ -1,0 +1,179 @@
+{
+  "recordId": "seeed-studio-other-ble-bee",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/0a88651d39dda061fc9a80da2520fc78fc73a9d0c9512426188dee573ac84310.jpg",
+      "sha256": "0a88651d39dda061fc9a80da2520fc78fc73a9d0c9512426188dee573ac84310"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left 1x10 header",
+      "image": "media/0a88651d39dda061fc9a80da2520fc78fc73a9d0c9512426188dee573ac84310.jpg",
+      "rows": 1,
+      "orderNote": "Pad numbers printed inside the pads: 1 (square) at top to 10 at bottom.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RX",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "PIO0",
+          "functions": [
+            "KEY"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right 1x10 header",
+      "image": "media/0a88651d39dda061fc9a80da2520fc78fc73a9d0c9512426188dee573ac84310.jpg",
+      "rows": 1,
+      "orderNote": "Pad numbers printed but partly hidden by the drill holes; visible digits read 2?/9/8/7/6/5/4/3/2/1 top to bottom, interpreted as 20 (top) down to 11 (bottom). Following ascending printed numbers, position 1 = bottom pad (11), position 10 = top pad (20).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "RTS",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PIO1",
+          "functions": [
+            "LED"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "CTS",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "PIO3",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "PIO2",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "?",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-header",
+      "name": "Bottom 1x5 header",
+      "image": "media/0a88651d39dda061fc9a80da2520fc78fc73a9d0c9512426188dee573ac84310.jpg",
+      "rows": 1,
+      "orderNote": "Pad numbers 1 (square) to 5 printed, left to right.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "?",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "left-header positions 4, 6, 7, 8: pads have no label (only pad numbers 4, 6, 7, 8).",
+    "right-header positions 1, 4, 5, 9, 10 (bottom pad, 4th and 5th from bottom, 2nd from top, top pad): no label printed, only partly legible pad numbers.",
+    "bottom-header positions 1-5: no function labels printed, only pad numbers 1-5."
+  ],
+  "uncertain": [
+    "right-header pad numbers are only partly legible (two-digit numbers clipped by the holes); the 11..20 bottom-to-top numbering, and therefore position 1 at the bottom, is inferred from the visible last digits."
+  ],
+  "notes": "EAGLE-style board drawing labeled 'BLE Bee 12/09/2013 v1.0 by Seeed Studio' (board text mirrored, pin labels not). 'PIO0/KEY' and 'PIO1/LED' split into GPIO label and function."
+}

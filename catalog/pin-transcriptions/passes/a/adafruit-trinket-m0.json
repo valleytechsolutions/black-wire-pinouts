@@ -1,0 +1,143 @@
+{
+  "recordId": "adafruit-trinket-m0",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/0e8add2b6193525d7c6c1bf4f7a9c56bd44808a3028f09958f5b9b672d5dc33e.png",
+      "sha256": "0e8add2b6193525d7c6c1bf4f7a9c56bd44808a3028f09958f5b9b672d5dc33e"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left pads",
+      "image": "media/0e8add2b6193525d7c6c1bf4f7a9c56bd44808a3028f09958f5b9b672d5dc33e.png",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; vertical row starts at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": [
+            "Bat"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "Gnd"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA06",
+          "functions": [
+            "4",
+            "D4",
+            "4/A4",
+            "6",
+            "AIN6",
+            "Y4",
+            "S0.2",
+            "TCC1[0]"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA07",
+          "functions": [
+            "3",
+            "D3",
+            "3/A3",
+            "7",
+            "AIN7",
+            "Y5",
+            "S0.3",
+            "TCC1[1]",
+            "I2S/SD0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "RESET",
+          "functions": [
+            "Rst"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right pads",
+      "image": "media/0e8add2b6193525d7c6c1bf4f7a9c56bd44808a3028f09958f5b9b672d5dc33e.png",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; vertical row starts at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBUS",
+          "functions": [
+            "USB"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PA08",
+          "functions": [
+            "0",
+            "D0",
+            "0/A2",
+            "NMI",
+            "AIN16",
+            "S0.0",
+            "S2.0",
+            "TCC0[0]",
+            "TCC1[2]",
+            "I2S/SD1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA02",
+          "functions": [
+            "1~",
+            "D1",
+            "1/A0",
+            "2",
+            "VOUT",
+            "AIN0",
+            "Y0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA09",
+          "functions": [
+            "2",
+            "D2",
+            "2/A1",
+            "9",
+            "AIN17",
+            "S0.1",
+            "S2.1",
+            "TCC0[1]",
+            "TCC1[3]",
+            "I2S/MCK0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "3.3V",
+          "functions": [
+            "3V"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Labels use the printed GPIO port names (PAxx). Silkscreen next to D1 read as '1~' from a low-resolution upscale. D13 LED and APA102_MOSI/APA102_SCK (on-board DotStar) are not wiring points."
+}

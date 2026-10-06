@@ -1,0 +1,109 @@
+{
+  "recordId": "seeed-studio-expansion-4-channel-16-bit-adc-for-raspberry-pi-ads1115",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/69c941e54faec1712326d0b0e96a29fc2d751e132bef45339e968992af03618b.png",
+      "sha256": "69c941e54faec1712326d0b0e96a29fc2d751e132bef45339e968992af03618b"
+    },
+    {
+      "file": "media/0c7b66172d3e16f99d3395e2a1ca558e12955f83b403b47af0c1a5830ad7eac0.png",
+      "sha256": "0c7b66172d3e16f99d3395e2a1ca558e12955f83b403b47af0c1a5830ad7eac0"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "grove-port",
+      "name": "Grove connector",
+      "image": "media/69c941e54faec1712326d0b0e96a29fc2d751e132bef45339e968992af03618b.png",
+      "rows": 1,
+      "orderNote": "Callouts 1-4 run left to right; no USB connector shown, ordered from left (rule 4); silkscreen AIN0 NC 3V3 GND matches",
+      "pins": [
+        {
+          "position": 1,
+          "label": "AIN0",
+          "functions": [
+            "Analog pin 0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "NC",
+          "functions": [
+            "I2C serial data"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": [
+            "Power output, out put 3.3V"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": [
+            "Power pin, GND output"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "screw-terminal",
+      "name": "6-way screw terminal",
+      "image": "media/69c941e54faec1712326d0b0e96a29fc2d751e132bef45339e968992af03618b.png",
+      "rows": 1,
+      "orderNote": "No USB connector shown; horizontal row ordered from left (rule 4). Diagram callouts 5,6,7,8,9,0 are legend indices, not position numbers",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": [
+            "the same as pin 4."
+          ]
+        },
+        {
+          "position": 2,
+          "label": "AIN0",
+          "functions": [
+            "Analog pin 0"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "AIN1",
+          "functions": [
+            "Analog pin 1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "AIN2",
+          "functions": [
+            "Analog pin 2"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "AIN3",
+          "functions": [
+            "Analog pin 3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "3V3",
+          "functions": [
+            "Power output, out put 3.3V"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Legend descriptions copied as short printed notes, including the legend's 'NC: I2C serial data' text as printed. The 2x20 Raspberry Pi header in both images has no per-pin labels and is not transcribed. Image 2 shows the back side with the I2C address solder jumpers (JP1-JP4: GND 0x48 default, 3V3 0x49, SDA 0x4A, SCL 0x4B to ADDR); these are jumpers, not wiring points, so image 2 contributes no connectors."
+}

@@ -1,0 +1,294 @@
+{
+  "recordId": "adafruit-pro-trinket-5v",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/2d78d9a72729649fa5a91b021a61129de6d2a720624e08155b3bb3409d4b8ecb.png",
+      "sha256": "2d78d9a72729649fa5a91b021a61129de6d2a720624e08155b3bb3409d4b8ecb"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/2d78d9a72729649fa5a91b021a61129de6d2a720624e08155b3bb3409d4b8ecb.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PB1",
+          "functions": [
+            "9",
+            "OC1A"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PB2",
+          "functions": [
+            "10",
+            "SS",
+            "OC1B"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PB3",
+          "functions": [
+            "11",
+            "MOSI",
+            "OC2A"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PB4",
+          "functions": [
+            "12",
+            "MISO"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PB5",
+          "functions": [
+            "13",
+            "SCK"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "AREF",
+          "functions": [
+            "Ar"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PC0",
+          "functions": [
+            "14",
+            "A0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PC1",
+          "functions": [
+            "15",
+            "A1"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PC2",
+          "functions": [
+            "16",
+            "A2"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PC3",
+          "functions": [
+            "17",
+            "A3"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PC4",
+          "functions": [
+            "18",
+            "A4",
+            "SDA"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "PC5",
+          "functions": [
+            "19",
+            "A5",
+            "SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "analog-pads",
+      "name": "Inner A6/A7 pads",
+      "image": "media/2d78d9a72729649fa5a91b021a61129de6d2a720624e08155b3bb3409d4b8ecb.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A6",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "A7",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/2d78d9a72729649fa5a91b021a61129de6d2a720624e08155b3bb3409d4b8ecb.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": [
+            "BATTERY 5.5-16V"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "VBUS",
+          "functions": [
+            "BUS",
+            "USB 5V 500mA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "5V",
+          "functions": [
+            "150mA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PB0",
+          "functions": [
+            "8"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PD6",
+          "functions": [
+            "6",
+            "OC0A"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PD5",
+          "functions": [
+            "5",
+            "OC0B"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PD4",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PD3",
+          "functions": [
+            "3",
+            "INT1",
+            "OC2B"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PD1",
+          "functions": [
+            "TX",
+            "1"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PD0",
+          "functions": [
+            "RX",
+            "0"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "RESET",
+          "functions": [
+            "RST"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ftdi-header",
+      "name": "Bottom FTDI header",
+      "image": "media/2d78d9a72729649fa5a91b021a61129de6d2a720624e08155b3bb3409d4b8ecb.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row with USB connector at the opposite edge (neither end closer), started at left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": [
+            "BLK"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VBUS",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PD0",
+          "functions": [
+            "RX",
+            "0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PD1",
+          "functions": [
+            "TX",
+            "1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "DTR/RTS",
+          "functions": [
+            "GRN"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Small board-render silkscreen read where legible and different (G, BUS, 3V/5V, TX, RX, RST, Ar, BLK, GRN); VBAT pad silkscreen (BAT plus a blurred symbol) too small to read and omitted. LEDs, button and USB skipped."
+}

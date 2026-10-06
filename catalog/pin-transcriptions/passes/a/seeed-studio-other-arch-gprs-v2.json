@@ -1,0 +1,303 @@
+{
+  "recordId": "seeed-studio-other-arch-gprs-v2",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/53b16b9b830284fb175c841915703871bac8ca901187ccd85b3faaf2b9e2b5be.png",
+      "sha256": "53b16b9b830284fb175c841915703871bac8ca901187ccd85b3faaf2b9e2b5be"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header-upper",
+      "name": "Left header (power)",
+      "image": "media/53b16b9b830284fb175c841915703871bac8ca901187ccd85b3faaf2b9e2b5be.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at top (end closest to USB at top of board).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P1_16",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header-lower",
+      "name": "Left header (analog)",
+      "image": "media/53b16b9b830284fb175c841915703871bac8ca901187ccd85b3faaf2b9e2b5be.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at top (end closest to USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P0_11",
+          "functions": [
+            "AnalogIn"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P0_12",
+          "functions": [
+            "AnalogIn"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P0_13",
+          "functions": [
+            "AnalogIn"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P0_14",
+          "functions": [
+            "AnalogIn"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "P0_16",
+          "functions": [
+            "AnalogIn"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P0_22",
+          "functions": [
+            "AnalogIn",
+            "PwmOut"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-upper",
+      "name": "Right header (upper)",
+      "image": "media/53b16b9b830284fb175c841915703871bac8ca901187ccd85b3faaf2b9e2b5be.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at top (end closest to USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P0_4",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P0_5",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P0_7",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "P1_29",
+          "functions": [
+            "SCK"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P0_8",
+          "functions": [
+            "MISO",
+            "PwmOut"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "P0_9",
+          "functions": [
+            "MOSI",
+            "PwmOut"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "P0_2",
+          "functions": [
+            "SSEL"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "P1_28",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "P1_4",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header-lower",
+      "name": "Right header (lower)",
+      "image": "media/53b16b9b830284fb175c841915703871bac8ca901187ccd85b3faaf2b9e2b5be.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at top (end closest to USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P1_5",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "P1_25",
+          "functions": [
+            "PwmOut"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P1_24",
+          "functions": [
+            "PwmOut"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P1_18",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "P1_17",
+          "functions": [
+            "RXD"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P0_17",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "P0_19",
+          "functions": [
+            "TXD",
+            "PwmOut"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "P0_18",
+          "functions": [
+            "RXD",
+            "PwmOut"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "icsp-header",
+      "name": "2x3 SPI header (bottom)",
+      "image": "media/53b16b9b830284fb175c841915703871bac8ca901187ccd85b3faaf2b9e2b5be.png",
+      "rows": 2,
+      "orderNote": "2x3 without printed numbers; horizontal rows started at left end (marginally closer to the top USB), position 1 in the outer (bottom, nearest board edge) row, alternating bottom/top.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "P1_19",
+          "functions": [
+            "SSEL"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P1_22",
+          "functions": [
+            "MOSI"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P1_20",
+          "functions": [
+            "SCK"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "P1_21",
+          "functions": [
+            "MISO"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "icsp-header: hole-to-label assignment traced from crossing leader lines (top row right-to-left: MISO, SCK, SSEL; bottom row right-to-left: NC, MOSI, GND); start end (left vs right) is ambiguous because the USB connector is roughly centered above the header."
+  ],
+  "notes": "Three unlabeled white JST/Grove-style connectors and the solar panel / battery connectors are not individually labeled and were skipped. SIM900 TXD P1_27 / RXD P1_26 and SD card pins are internal (no header position)."
+}

@@ -1,0 +1,729 @@
+{
+  "recordId": "waveshare-rp2350-rp2350-zero-cm",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/09ad805a766a2b10e6c7b11ab33c666ef177ab56b19063a02ae1573ce3512504.jpg",
+      "sha256": "09ad805a766a2b10e6c7b11ab33c666ef177ab56b19063a02ae1573ce3512504"
+    },
+    {
+      "file": "media/dbdfe9fbec7d447aa68199b5d0443d76d9231e93d4850b8e0de4a98aa41b4e6b.webp",
+      "sha256": "dbdfe9fbec7d447aa68199b5d0443d76d9231e93d4850b8e0de4a98aa41b4e6b"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left castellated edge (top view)",
+      "image": "media/09ad805a766a2b10e6c7b11ab33c666ef177ab56b19063a02ae1573ce3512504.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB-C at top of top view, so position 1 is the top pad (closest to USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GP29",
+          "functions": [
+            "29",
+            "ADC3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP28",
+          "functions": [
+            "28",
+            "ADC2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP27",
+          "functions": [
+            "27",
+            "ADC1",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP26",
+          "functions": [
+            "26",
+            "ADC0",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP15",
+          "functions": [
+            "15",
+            "SPI1 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP14",
+          "functions": [
+            "14",
+            "SPI1 SCK",
+            "I2C1 SDA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right castellated edge (top view)",
+      "image": "media/09ad805a766a2b10e6c7b11ab33c666ef177ab56b19063a02ae1573ce3512504.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB-C at top of top view, so position 1 is the top pad (closest to USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP0",
+          "functions": [
+            "0",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP1",
+          "functions": [
+            "1",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP2",
+          "functions": [
+            "2",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP3",
+          "functions": [
+            "3",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP4",
+          "functions": [
+            "4",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP5",
+          "functions": [
+            "5",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP6",
+          "functions": [
+            "6",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP7",
+          "functions": [
+            "7",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP8",
+          "functions": [
+            "8",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-header",
+      "name": "Bottom castellated edge (top view)",
+      "image": "media/09ad805a766a2b10e6c7b11ab33c666ef177ab56b19063a02ae1573ce3512504.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row with neither end nearer the USB, read left to right (silkscreen 13, 12, 11, 10, 9).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP13",
+          "functions": [
+            "13",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP12",
+          "functions": [
+            "12",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP11",
+          "functions": [
+            "11",
+            "SPI1 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP10",
+          "functions": [
+            "10",
+            "SPI1 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP9",
+          "functions": [
+            "9",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "swd-pads",
+      "name": "SWD pads (bottom view)",
+      "image": "media/09ad805a766a2b10e6c7b11ab33c666ef177ab56b19063a02ae1573ce3512504.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row next to the USB at top of the bottom view, neither end nearer USB, read left to right.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SWDIO",
+          "functions": [
+            "SWD"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SWCLK",
+          "functions": [
+            "CLK"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "back-pads",
+      "name": "Inner pad column (bottom view)",
+      "image": "media/09ad805a766a2b10e6c7b11ab33c666ef177ab56b19063a02ae1573ce3512504.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB at top of the bottom view, so position 1 is the top pad (closest to USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP25",
+          "functions": [
+            "25",
+            "SPI1 CSn",
+            "I2C0 SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP24",
+          "functions": [
+            "24",
+            "SPI1 RX",
+            "I2C0 SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP23",
+          "functions": [
+            "23",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP22",
+          "functions": [
+            "22",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP21",
+          "functions": [
+            "21",
+            "SPI0 CSn",
+            "I2C0 SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP20",
+          "functions": [
+            "20",
+            "SPI0 RX",
+            "I2C0 SDA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP19",
+          "functions": [
+            "19",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP18",
+          "functions": [
+            "18",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP17",
+          "functions": [
+            "17",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left castellated edge (top view)",
+      "image": "media/dbdfe9fbec7d447aa68199b5d0443d76d9231e93d4850b8e0de4a98aa41b4e6b.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB-C at top of top view, so position 1 is the top pad (closest to USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GP29",
+          "functions": [
+            "29",
+            "ADC3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP28",
+          "functions": [
+            "28",
+            "ADC2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP27",
+          "functions": [
+            "27",
+            "ADC1",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP26",
+          "functions": [
+            "26",
+            "ADC0",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP15",
+          "functions": [
+            "15",
+            "SPI1 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP14",
+          "functions": [
+            "14",
+            "SPI1 SCK",
+            "I2C1 SDA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Right castellated edge (top view)",
+      "image": "media/dbdfe9fbec7d447aa68199b5d0443d76d9231e93d4850b8e0de4a98aa41b4e6b.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB-C at top of top view, so position 1 is the top pad (closest to USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP0",
+          "functions": [
+            "0",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP1",
+          "functions": [
+            "1",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP2",
+          "functions": [
+            "2",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP3",
+          "functions": [
+            "3",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP4",
+          "functions": [
+            "4",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP5",
+          "functions": [
+            "5",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP6",
+          "functions": [
+            "6",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP7",
+          "functions": [
+            "7",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP8",
+          "functions": [
+            "8",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-header-img2",
+      "name": "Bottom castellated edge (top view)",
+      "image": "media/dbdfe9fbec7d447aa68199b5d0443d76d9231e93d4850b8e0de4a98aa41b4e6b.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row with neither end nearer the USB, read left to right (silkscreen 13, 12, 11, 10, 9).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP13",
+          "functions": [
+            "13",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP12",
+          "functions": [
+            "12",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP11",
+          "functions": [
+            "11",
+            "SPI1 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP10",
+          "functions": [
+            "10",
+            "SPI1 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP9",
+          "functions": [
+            "9",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "swd-pads-img2",
+      "name": "SWD pads (bottom view)",
+      "image": "media/dbdfe9fbec7d447aa68199b5d0443d76d9231e93d4850b8e0de4a98aa41b4e6b.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row next to the USB at top of the bottom view, neither end nearer USB, read left to right.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SWDIO",
+          "functions": [
+            "SWD"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SWCLK",
+          "functions": [
+            "CLK"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "back-pads-img2",
+      "name": "Inner pad column (bottom view)",
+      "image": "media/dbdfe9fbec7d447aa68199b5d0443d76d9231e93d4850b8e0de4a98aa41b4e6b.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB at top of the bottom view, so position 1 is the top pad (closest to USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP25",
+          "functions": [
+            "25",
+            "SPI1 CSn",
+            "I2C0 SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP24",
+          "functions": [
+            "24",
+            "SPI1 RX",
+            "I2C0 SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP23",
+          "functions": [
+            "23",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP22",
+          "functions": [
+            "22",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP21",
+          "functions": [
+            "21",
+            "SPI0 CSn",
+            "I2C0 SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP20",
+          "functions": [
+            "20",
+            "SPI0 RX",
+            "I2C0 SDA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP19",
+          "functions": [
+            "19",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP18",
+          "functions": [
+            "18",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP17",
+          "functions": [
+            "17",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Both images show the same pinout artwork (top view above, bottom view below); each is transcribed separately per rule 11. Labels use the callout names; silkscreen spellings first in functions (SWD/CLK for the SWD pads). The bottom-view outer edge pads are unlabeled duplicates of the top-view castellations and are not repeated. GP16 is shown only as the WS2812 RGB LED pin (DIN) and has no pad, so it is skipped."
+}

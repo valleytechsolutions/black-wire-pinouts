@@ -1,0 +1,602 @@
+{
+  "recordId": "pimoroni-rp2040-tiny-fx",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/2cfcd1b94f8604fede21f9fbe4431dd07228e8b59fadfd5bcf752133a6b6f4ba.png",
+      "sha256": "2cfcd1b94f8604fede21f9fbe4431dd07228e8b59fadfd5bcf752133a6b6f4ba"
+    },
+    {
+      "file": "media/e22169cba7d76b67eaf08bd764384cd7bed17129bdd9c83351d1b4c35c7b18d1.png",
+      "sha256": "e22169cba7d76b67eaf08bd764384cd7bed17129bdd9c83351d1b4c35c7b18d1"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "led-1",
+      "name": "Mono LED output 1 (left edge)",
+      "image": "media/2cfcd1b94f8604fede21f9fbe4431dd07228e8b59fadfd5bcf752133a6b6f4ba.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical 2-pin connector, started at the bottom end (toward the USB-C connector at the lower right)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP3",
+          "functions": [
+            "One In",
+            "1 B"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "5V Out",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "led-2",
+      "name": "Mono LED output 2 (left edge)",
+      "image": "media/2cfcd1b94f8604fede21f9fbe4431dd07228e8b59fadfd5bcf752133a6b6f4ba.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical 2-pin connector, started at the bottom end (toward the USB-C connector at the lower right)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP2",
+          "functions": [
+            "Two In",
+            "1 A"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "5V Out",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "led-3",
+      "name": "Mono LED output 3 (left edge)",
+      "image": "media/2cfcd1b94f8604fede21f9fbe4431dd07228e8b59fadfd5bcf752133a6b6f4ba.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical 2-pin connector, started at the bottom end (toward the USB-C connector at the lower right)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP4",
+          "functions": [
+            "Three In",
+            "2 A"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "5V Out",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "led-4",
+      "name": "Mono LED output 4 (left edge)",
+      "image": "media/2cfcd1b94f8604fede21f9fbe4431dd07228e8b59fadfd5bcf752133a6b6f4ba.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical 2-pin connector, started at the bottom end (toward the USB-C connector at the lower right)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP5",
+          "functions": [
+            "Four In",
+            "2 B"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "5V Out",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "led-5",
+      "name": "Mono LED output 5 (left edge)",
+      "image": "media/2cfcd1b94f8604fede21f9fbe4431dd07228e8b59fadfd5bcf752133a6b6f4ba.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical 2-pin connector, started at the bottom end (toward the USB-C connector at the lower right)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP8",
+          "functions": [
+            "Five In",
+            "4 A"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "5V Out",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "led-6",
+      "name": "Mono LED output 6 (left edge)",
+      "image": "media/2cfcd1b94f8604fede21f9fbe4431dd07228e8b59fadfd5bcf752133a6b6f4ba.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical 2-pin connector, started at the bottom end (toward the USB-C connector at the lower right)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP9",
+          "functions": [
+            "Six In",
+            "4 B"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "5V Out",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "rgb-connector",
+      "name": "RGB LED output (top edge)",
+      "image": "media/2cfcd1b94f8604fede21f9fbe4431dd07228e8b59fadfd5bcf752133a6b6f4ba.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row, started at the right end (closest to the USB-C connector at the lower right)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V Out",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GP13",
+          "functions": [
+            "Red In",
+            "6 B"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP14",
+          "functions": [
+            "Green In",
+            "7 A"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP15",
+          "functions": [
+            "Blue In",
+            "7 B"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "audio-connector",
+      "name": "Audio / speaker output (right edge, top)",
+      "image": "media/2cfcd1b94f8604fede21f9fbe4431dd07228e8b59fadfd5bcf752133a6b6f4ba.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at the bottom end (closest to the USB-C connector)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SPEAKER+",
+          "functions": [
+            "+"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "SPEAKER-",
+          "functions": [
+            "-"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sensor-connector",
+      "name": "3-pin sensor connector (right edge)",
+      "image": "media/2cfcd1b94f8604fede21f9fbe4431dd07228e8b59fadfd5bcf752133a6b6f4ba.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at the bottom end (closest to the USB-C connector)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": [
+            "-"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP26",
+          "functions": [
+            "S",
+            "SENS",
+            "1 TX",
+            "5 A",
+            "0"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": [
+            "+"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qwst-connector",
+      "name": "QW/ST connector (right edge)",
+      "image": "media/2cfcd1b94f8604fede21f9fbe4431dd07228e8b59fadfd5bcf752133a6b6f4ba.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at the bottom end (closest to the USB-C connector)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GP16",
+          "functions": [
+            "SDA",
+            "0 SDA",
+            "0 TX",
+            "0 A"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP17",
+          "functions": [
+            "SCL",
+            "0 SCL",
+            "0 RX",
+            "0 B"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "power-connector",
+      "name": "JST power input (bottom edge)",
+      "image": "media/2cfcd1b94f8604fede21f9fbe4431dd07228e8b59fadfd5bcf752133a6b6f4ba.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row, started at the right end (closest to the USB-C connector)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": [
+            "-"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "5V IN",
+          "functions": [
+            "5V"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "led-1-img2",
+      "name": "Mono LED output 1 (left edge)",
+      "image": "media/e22169cba7d76b67eaf08bd764384cd7bed17129bdd9c83351d1b4c35c7b18d1.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical 2-pin connector, started at the bottom end (toward the USB-C connector at the lower right)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP3",
+          "functions": [
+            "One In",
+            "1 B"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "5V Out",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "led-2-img2",
+      "name": "Mono LED output 2 (left edge)",
+      "image": "media/e22169cba7d76b67eaf08bd764384cd7bed17129bdd9c83351d1b4c35c7b18d1.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical 2-pin connector, started at the bottom end (toward the USB-C connector at the lower right)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP2",
+          "functions": [
+            "Two In",
+            "1 A"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "5V Out",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "led-3-img2",
+      "name": "Mono LED output 3 (left edge)",
+      "image": "media/e22169cba7d76b67eaf08bd764384cd7bed17129bdd9c83351d1b4c35c7b18d1.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical 2-pin connector, started at the bottom end (toward the USB-C connector at the lower right)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP4",
+          "functions": [
+            "Three In",
+            "2 A"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "5V Out",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "led-4-img2",
+      "name": "Mono LED output 4 (left edge)",
+      "image": "media/e22169cba7d76b67eaf08bd764384cd7bed17129bdd9c83351d1b4c35c7b18d1.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical 2-pin connector, started at the bottom end (toward the USB-C connector at the lower right)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP5",
+          "functions": [
+            "Four In",
+            "2 B"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "5V Out",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "led-5-img2",
+      "name": "Mono LED output 5 (left edge)",
+      "image": "media/e22169cba7d76b67eaf08bd764384cd7bed17129bdd9c83351d1b4c35c7b18d1.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical 2-pin connector, started at the bottom end (toward the USB-C connector at the lower right)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP8",
+          "functions": [
+            "Five In",
+            "4 A"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "5V Out",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "led-6-img2",
+      "name": "Mono LED output 6 (left edge)",
+      "image": "media/e22169cba7d76b67eaf08bd764384cd7bed17129bdd9c83351d1b4c35c7b18d1.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical 2-pin connector, started at the bottom end (toward the USB-C connector at the lower right)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP9",
+          "functions": [
+            "Six In",
+            "4 B"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "5V Out",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "rgb-connector-img2",
+      "name": "RGB LED output (top edge)",
+      "image": "media/e22169cba7d76b67eaf08bd764384cd7bed17129bdd9c83351d1b4c35c7b18d1.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row, started at the right end (closest to the USB-C connector at the lower right)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V Out",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GP13",
+          "functions": [
+            "Red In",
+            "6 B"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP14",
+          "functions": [
+            "Green In",
+            "7 A"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP15",
+          "functions": [
+            "Blue In",
+            "7 B"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "audio-connector-img2",
+      "name": "Audio / speaker output (right edge, top)",
+      "image": "media/e22169cba7d76b67eaf08bd764384cd7bed17129bdd9c83351d1b4c35c7b18d1.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at the bottom end (closest to the USB-C connector)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SPEAKER+",
+          "functions": [
+            "+"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "SPEAKER-",
+          "functions": [
+            "-"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sensor-connector-img2",
+      "name": "3-pin sensor connector (right edge)",
+      "image": "media/e22169cba7d76b67eaf08bd764384cd7bed17129bdd9c83351d1b4c35c7b18d1.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at the bottom end (closest to the USB-C connector)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": [
+            "-"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP26",
+          "functions": [
+            "S",
+            "SENS",
+            "1 TX",
+            "5 A",
+            "0"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": [
+            "+"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qwst-connector-img2",
+      "name": "QW/ST connector (right edge)",
+      "image": "media/e22169cba7d76b67eaf08bd764384cd7bed17129bdd9c83351d1b4c35c7b18d1.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at the bottom end (closest to the USB-C connector)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GP16",
+          "functions": [
+            "SDA",
+            "0 SDA",
+            "0 TX",
+            "0 A"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP17",
+          "functions": [
+            "SCL",
+            "0 SCL",
+            "0 RX",
+            "0 B"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "power-connector-img2",
+      "name": "JST power input (bottom edge)",
+      "image": "media/e22169cba7d76b67eaf08bd764384cd7bed17129bdd9c83351d1b4c35c7b18d1.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row, started at the right end (closest to the USB-C connector)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": [
+            "-"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "5V IN",
+          "functions": [
+            "5V"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "The individual contacts of the 2-pin LED connectors and the JST power connector are not drawn distinctly; which contact carries '5V Out' vs the 'In' signal (and 5V IN vs GND) is inferred from the stacking/placement of the callout labels beside each connector.",
+    "LED output 1 sits level with the USB-C connector, so 'end closest to USB' is marginal for it; bottom-first was applied to all six LED connectors for consistency."
+  ],
+  "notes": "Image 2 is the same Pins and Dims artwork at a smaller size; transcribed separately per rule 11. Numbers before PWM/I2C/UART names are the peripheral index per the image key (e.g. '0 SDA' = I2C0 SDA, '4 B' = PWM slice 4 channel B). On-board silkscreen marks (+, S, -, 5V) are listed first in functions. ADC column for GP26 shows '0'."
+}

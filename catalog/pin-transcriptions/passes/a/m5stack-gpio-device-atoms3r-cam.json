@@ -1,0 +1,129 @@
+{
+  "recordId": "m5stack-gpio-device-atoms3r-cam",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/5f6b2adae17dcf671160daa54efbc8f5bcca58c1f0116507ead3a96069148715.jpg",
+      "sha256": "5f6b2adae17dcf671160daa54efbc8f5bcca58c1f0116507ead3a96069148715"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/5f6b2adae17dcf671160daa54efbc8f5bcca58c1f0116507ead3a96069148715.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB connector visible; vertical row read from the top as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "G5",
+          "functions": [
+            "ACH4",
+            "TCH5"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "G6",
+          "functions": [
+            "ACH5",
+            "TCH6"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "G7",
+          "functions": [
+            "ACH6",
+            "TCH7"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "G8",
+          "functions": [
+            "ACH7",
+            "TCH8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/5f6b2adae17dcf671160daa54efbc8f5bcca58c1f0116507ead3a96069148715.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB connector visible; vertical row read from the top as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G39",
+          "functions": [
+            "CLK_OUT3"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "G38",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "port-a",
+      "name": "PORT.A (HY2.0-4P)",
+      "image": "media/5f6b2adae17dcf671160daa54efbc8f5bcca58c1f0116507ead3a96069148715.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB connector visible; horizontal row read from the left as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G2",
+          "functions": [
+            "ACH1",
+            "TCH2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "G1",
+          "functions": [
+            "ACH0",
+            "TCH1"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Labels from the callouts beside each header; back-label silkscreen agrees. G0 SCL / G45 SDA (BMI270/BMM150) and the GC0308 camera table (CAM_SDA G12 ... POWER_N G18) are internal connections with no header position, so not transcribed."
+}

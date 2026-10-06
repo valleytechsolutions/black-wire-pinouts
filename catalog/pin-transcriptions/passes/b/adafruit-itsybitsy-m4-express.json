@@ -1,0 +1,416 @@
+{
+  "recordId": "adafruit-itsybitsy-m4-express",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/e77eb70fb6e88f97721720709f4f17d9671bfceedc7fe7c86921eb731ee2efd9.png",
+      "sha256": "e77eb70fb6e88f97721720709f4f17d9671bfceedc7fe7c86921eb731ee2efd9"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/e77eb70fb6e88f97721720709f4f17d9671bfceedc7fe7c86921eb731ee2efd9.png",
+      "rows": 1,
+      "orderNote": "USB connector at top of image; vertical row started at the end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "AREF",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "VHI",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "PA02",
+          "functions": [
+            "A0",
+            "14/A0",
+            "2",
+            "VOUT0",
+            "A0[0]"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA05",
+          "functions": [
+            "A1",
+            "15/A1",
+            "5",
+            "VOUT1",
+            "A0[5]",
+            "S0.1",
+            "TC0[1]"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PB08",
+          "functions": [
+            "A2",
+            "16/A2",
+            "8",
+            "A0[2]/A1[0]",
+            "S4.0",
+            "TC4[0]"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PB09",
+          "functions": [
+            "A3",
+            "17/A3",
+            "9",
+            "A0[3]/A1[1]",
+            "S4.1",
+            "TC4[1]"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PA04",
+          "functions": [
+            "A4",
+            "18/A4",
+            "4",
+            "VREFB",
+            "A0[4]",
+            "S0.0",
+            "TC0[0]"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PA06",
+          "functions": [
+            "A5",
+            "19/A5",
+            "6",
+            "VREFC",
+            "A0[6]",
+            "S0.2",
+            "TC1[0]",
+            "SDCD"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PA01",
+          "functions": [
+            "SCK",
+            "24",
+            "1",
+            "S1.1",
+            "TC2[1]"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "PA00",
+          "functions": [
+            "MOSI",
+            "25",
+            "0",
+            "S1.0",
+            "TC2[0]"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "PB23",
+          "functions": [
+            "MISO",
+            "23",
+            "7",
+            "S1.2",
+            "S5.3",
+            "TC7[1]"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "PA07",
+          "functions": [
+            "D2",
+            "2/A6",
+            "7",
+            "A0[7]",
+            "S0.3",
+            "TC1[1]",
+            "SDWP"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/e77eb70fb6e88f97721720709f4f17d9671bfceedc7fe7c86921eb731ee2efd9.png",
+      "rows": 1,
+      "orderNote": "USB connector at top of image; vertical row started at the end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "PA22",
+          "functions": [
+            "D13",
+            "13",
+            "6",
+            "S3.0",
+            "S5.1",
+            "TC4[0]",
+            "TCC1[6]",
+            "TCC0[2]",
+            "SDI",
+            "DATA6"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PA23",
+          "functions": [
+            "D12",
+            "12",
+            "7",
+            "S3.1",
+            "S5.0",
+            "TC4[1]",
+            "TCC1[7]",
+            "TCC0[3]",
+            "SOF 1KHZ",
+            "FS1",
+            "DATA7"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA21",
+          "functions": [
+            "D11",
+            "11",
+            "5",
+            "S5.3",
+            "S3.3",
+            "TC7[1]",
+            "TCC1[5]",
+            "TCC0[1]",
+            "SDCK",
+            "SDO",
+            "DATA5"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PA20",
+          "functions": [
+            "D10",
+            "10",
+            "4",
+            "S5.2",
+            "S3.2",
+            "TC7[0]",
+            "TCC1[4]",
+            "TCC0[0]",
+            "SDCMD",
+            "FS0",
+            "DATA4"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PA19",
+          "functions": [
+            "D9",
+            "9",
+            "3",
+            "S1.3",
+            "S3.3",
+            "TC3[1]",
+            "TCC1[3]",
+            "TCC0[7]",
+            "DATA3"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PA18",
+          "functions": [
+            "D7",
+            "7",
+            "2",
+            "S1.2",
+            "S3.2",
+            "TC3[0]",
+            "TCC1[2]",
+            "TCC0[6]",
+            "DATA2"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PA15",
+          "functions": [
+            "D5",
+            "5",
+            "15",
+            "S2.3",
+            "S4.3",
+            "TC3[1]",
+            "TCC2[1]",
+            "TCC1[3]"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PA13",
+          "functions": [
+            "SCL",
+            "22",
+            "13",
+            "S2.1",
+            "S4.0",
+            "TC2[1]",
+            "TCC0[7]",
+            "TCC1[3]",
+            "SDWP",
+            "DEN2"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "PA12",
+          "functions": [
+            "SDA",
+            "21",
+            "12",
+            "S2.0",
+            "S4.1",
+            "TC2[0]",
+            "TCC0[6]",
+            "TCC1[2]",
+            "SDCD",
+            "DEN1"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "PA17",
+          "functions": [
+            "D1",
+            "1",
+            "1",
+            "S1.1",
+            "S3.0",
+            "TC2[1]",
+            "TCC1[1]",
+            "TCC0[5]",
+            "DATA1"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "PA16",
+          "functions": [
+            "D0",
+            "0",
+            "0",
+            "S1.0",
+            "S3.1",
+            "TC2[0]",
+            "TCC1[0]",
+            "TCC0[4]",
+            "DATA0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-pads",
+      "name": "Bottom-edge pads",
+      "image": "media/e77eb70fb6e88f97721720709f4f17d9671bfceedc7fe7c86921eb731ee2efd9.png",
+      "rows": 1,
+      "orderNote": "Bottom-edge row between the corner pads; USB centered at top so neither end is closer; started at left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SWDIO",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SWCLK",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "PB22",
+          "functions": [
+            "D3",
+            "3",
+            "6",
+            "S1.2",
+            "S5.2",
+            "TC7[0]",
+            "SOF 1KHZ"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PA14",
+          "functions": [
+            "D4",
+            "4",
+            "14",
+            "S2.2",
+            "S4.2",
+            "TC3[0]",
+            "TCC2[0]",
+            "TCC1[2]",
+            "CLK"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Bottom-left corner pad (D2) counted in left header and bottom-right corner pad (D0) in right header; the five pads between them form the bottom row (assignment read from leader lines). APA102_MOSI/APA102_SCK go to the on-board LED, not a pin; skipped. Board-render silkscreen not transcribed (diagram name boxes used)."
+}

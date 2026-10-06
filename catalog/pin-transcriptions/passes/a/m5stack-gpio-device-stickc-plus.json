@@ -1,0 +1,181 @@
+{
+  "recordId": "m5stack-gpio-device-stickc-plus",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/7fef8372ff885e0e5a2bb37338d5b7c5465c7cfced0b75e14ef5ed8ee530786d.png",
+      "sha256": "7fef8372ff885e0e5a2bb37338d5b7c5465c7cfced0b75e14ef5ed8ee530786d"
+    },
+    {
+      "file": "media/a057b44bd30c234e522e9d8614967fd584e30ef207c56fb00c16d8e852bf8f81.png",
+      "sha256": "a057b44bd30c234e522e9d8614967fd584e30ef207c56fb00c16d8e852bf8f81"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "top-header",
+      "name": "8-pin top header",
+      "image": "media/7fef8372ff885e0e5a2bb37338d5b7c5465c7cfced0b75e14ef5ed8ee530786d.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; no physical USB connector drawn (USB-C appears only as a block-diagram box); horizontal row starts at left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G26",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "G36/G25",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "G0",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "BAT",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "5V",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-port",
+      "name": "HY2.0-4P Grove port (bottom)",
+      "image": "media/7fef8372ff885e0e5a2bb37338d5b7c5465c7cfced0b75e14ef5ed8ee530786d.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row starts at left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "V",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "G32",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "G33",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "top-header-img2",
+      "name": "8-pin top header",
+      "image": "media/a057b44bd30c234e522e9d8614967fd584e30ef207c56fb00c16d8e852bf8f81.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; no USB connector shown; horizontal row starts at left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G26",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "G36/G25",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "G0",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "BAT",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "5V",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-port-img2",
+      "name": "HY2.0-4P Grove port (bottom)",
+      "image": "media/a057b44bd30c234e522e9d8614967fd584e30ef207c56fb00c16d8e852bf8f81.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row starts at left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "V",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "G32",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "G33",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Top header: the two 5V pins carry arrow icons (up arrow on position 2, down arrow on position 8); icons omitted per rule 6. Grove V pin printed as large 'V' with small 'OUT'. Image 2 labels the product M5STICK CPlus 1.1 / Model Name M5StickC Plus. Internal buttons, buzzer, IR, LED, LCD, MIC, IMU, RTC signals are not pins and were skipped."
+}

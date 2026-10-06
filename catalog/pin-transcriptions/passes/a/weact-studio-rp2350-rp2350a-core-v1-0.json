@@ -1,0 +1,395 @@
+{
+  "recordId": "weact-studio-rp2350-rp2350a-core-v1-0",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/4eb80a0cefce7235e8876c3fc25f6f75af03dd41363039ff1d8b72a5b5ba66ef.png",
+      "sha256": "4eb80a0cefce7235e8876c3fc25f6f75af03dd41363039ff1d8b72a5b5ba66ef"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/4eb80a0cefce7235e8876c3fc25f6f75af03dd41363039ff1d8b72a5b5ba66ef.png",
+      "rows": 1,
+      "orderNote": "No header position numbers (silkscreen numbers are GPIO numbers); USB-C at bottom, started at end nearest USB (bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBUS",
+          "functions": [
+            "VIN"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GP29",
+          "functions": [
+            "29",
+            "ADC3"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP28",
+          "functions": [
+            "28",
+            "ADC2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": [
+            "G",
+            "AGND"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP27",
+          "functions": [
+            "27",
+            "ADC1",
+            "I2C1_SCL"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP26",
+          "functions": [
+            "26",
+            "ADC0",
+            "I2C1_SDA"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "RUN",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GP22",
+          "functions": [
+            "22"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GP21",
+          "functions": [
+            "21",
+            "I2C0_SCL"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GP20",
+          "functions": [
+            "20",
+            "I2C0_SDA"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GP19",
+          "functions": [
+            "19",
+            "SPI0_TX",
+            "I2C1_SCL"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GP18",
+          "functions": [
+            "18",
+            "SPI0_SCK",
+            "I2C1_SDA"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GP17",
+          "functions": [
+            "17",
+            "SPI0_CSn",
+            "I2C0_SCL",
+            "UART0_RX"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GP16",
+          "functions": [
+            "16",
+            "SPI0_RX",
+            "I2C0_SDA",
+            "UART0_TX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/4eb80a0cefce7235e8876c3fc25f6f75af03dd41363039ff1d8b72a5b5ba66ef.png",
+      "rows": 1,
+      "orderNote": "No header position numbers (silkscreen numbers are GPIO numbers); USB-C at bottom, started at end nearest USB (bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP0",
+          "functions": [
+            "0",
+            "SPI0_RX",
+            "I2C0_SDA",
+            "UART0_TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP1",
+          "functions": [
+            "1",
+            "SPI0_CSn",
+            "I2C0_SCL",
+            "UART0_RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP2",
+          "functions": [
+            "2",
+            "SPI0_SCK",
+            "I2C1_SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP3",
+          "functions": [
+            "3",
+            "SPI0_TX",
+            "I2C1_SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP4",
+          "functions": [
+            "4",
+            "SPI0_RX",
+            "I2C0_SDA",
+            "UART1_TX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP5",
+          "functions": [
+            "5",
+            "SPI0_CSn",
+            "I2C0_SCL",
+            "UART1_RX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP6",
+          "functions": [
+            "6",
+            "SPI0_SCK",
+            "I2C1_SDA"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP7",
+          "functions": [
+            "7",
+            "SPI0_TX",
+            "I2C1_SCL"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP8",
+          "functions": [
+            "8",
+            "SPI1_RX",
+            "I2C0_SDA",
+            "UART1_TX"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP9",
+          "functions": [
+            "9",
+            "SPI1_CSn",
+            "I2C0_SCL",
+            "UART1_RX"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GP10",
+          "functions": [
+            "10",
+            "SPI1_SCK",
+            "I2C1_SDA"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GP11",
+          "functions": [
+            "11",
+            "SPI1_TX",
+            "I2C1_SCL"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GP12",
+          "functions": [
+            "12",
+            "SPI1_RX",
+            "I2C0_SDA",
+            "UART0_TX"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GP13",
+          "functions": [
+            "13",
+            "SPI1_CSn",
+            "I2C0_SCL",
+            "UART0_RX"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GP14",
+          "functions": [
+            "14",
+            "SPI1_SCK",
+            "I2C1_SDA"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GP15",
+          "functions": [
+            "15",
+            "SPI1_TX",
+            "I2C1_SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "debug-header",
+      "name": "Debug pads (3V3/DIO/CLK/GND)",
+      "image": "media/4eb80a0cefce7235e8876c3fc25f6f75af03dd41363039ff1d8b72a5b5ba66ef.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal 4-pad debug row near top edge, equidistant from USB ends, used left-to-right rule",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "DIO",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "CLK",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Transcribed from the lower 'RP2350A_V10 Pinout' diagram; the upper board render in the same image shows the same board and was not transcribed separately. Silkscreen GPIO numbers (16, 17, G...) placed first in functions; 'G' = GND silkscreen. A note box '3.6V-6.5V To 3.3V@800ma' spans the 5V and VBUS pins and is not assigned to either. GP29/ADC3 marked in the diagram as a difference from the original Pico2. KEY(GP23), LED(GP24), LED(GP25) callouts point to the button/LEDs, not pins."
+}

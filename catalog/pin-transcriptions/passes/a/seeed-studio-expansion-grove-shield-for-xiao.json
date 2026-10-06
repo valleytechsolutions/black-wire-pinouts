@@ -1,0 +1,795 @@
+{
+  "recordId": "seeed-studio-expansion-grove-shield-for-xiao",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/dd8d56eb2a29c427d3fffe0614db4d6786d7ccbc7253ef0aef9c343e1796043a.png",
+      "sha256": "dd8d56eb2a29c427d3fffe0614db4d6786d7ccbc7253ef0aef9c343e1796043a"
+    },
+    {
+      "file": "media/32932e35556f8d69a71012fae9d4d51605479340408988814bfd522009ed659e.png",
+      "sha256": "32932e35556f8d69a71012fae9d4d51605479340408988814bfd522009ed659e"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "top-breakout",
+      "name": "Top breakout holes beside XIAO",
+      "image": "media/dd8d56eb2a29c427d3fffe0614db4d6786d7ccbc7253ef0aef9c343e1796043a.png",
+      "rows": 1,
+      "orderNote": "Horizontal row, no numbers; USB-C at the left, so position 1 is the left hole",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "A10",
+          "functions": [
+            "D10",
+            "MOSI"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "A9",
+          "functions": [
+            "D9",
+            "MISO"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "A8",
+          "functions": [
+            "D8",
+            "SCK"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "A7",
+          "functions": [
+            "D7",
+            "RX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-breakout",
+      "name": "Bottom breakout holes beside XIAO",
+      "image": "media/dd8d56eb2a29c427d3fffe0614db4d6786d7ccbc7253ef0aef9c343e1796043a.png",
+      "rows": 1,
+      "orderNote": "Horizontal row, no numbers; USB-C at the left, so position 1 is the left hole",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A0",
+          "functions": [
+            "D0",
+            "DAC"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "A1",
+          "functions": [
+            "D1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "A2",
+          "functions": [
+            "D2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "A3",
+          "functions": [
+            "D3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "A4",
+          "functions": [
+            "D4",
+            "SDA"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "A5",
+          "functions": [
+            "D5",
+            "SCL"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "A6",
+          "functions": [
+            "D6",
+            "TX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grove-1",
+      "name": "Grove connector 1 (top row, left to right #1)",
+      "image": "media/dd8d56eb2a29c427d3fffe0614db4d6786d7ccbc7253ef0aef9c343e1796043a.png",
+      "rows": 1,
+      "orderNote": "Vertical 4-pin Grove connector without numbers; started at the end closest to the USB-C connector (bottom end for top-row connectors)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D0",
+          "functions": [
+            "0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D1",
+          "functions": [
+            "1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-2",
+      "name": "Grove connector 2 (top row, left to right #2)",
+      "image": "media/dd8d56eb2a29c427d3fffe0614db4d6786d7ccbc7253ef0aef9c343e1796043a.png",
+      "rows": 1,
+      "orderNote": "Vertical 4-pin Grove connector without numbers; started at the end closest to the USB-C connector (bottom end for top-row connectors)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D1",
+          "functions": [
+            "1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D2",
+          "functions": [
+            "2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-3",
+      "name": "Grove connector 3 (top row, left to right #3)",
+      "image": "media/dd8d56eb2a29c427d3fffe0614db4d6786d7ccbc7253ef0aef9c343e1796043a.png",
+      "rows": 1,
+      "orderNote": "Vertical 4-pin Grove connector without numbers; started at the end closest to the USB-C connector (bottom end for top-row connectors)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D2",
+          "functions": [
+            "2"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D3",
+          "functions": [
+            "3"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-4",
+      "name": "Grove connector 4 (top row, left to right #4)",
+      "image": "media/dd8d56eb2a29c427d3fffe0614db4d6786d7ccbc7253ef0aef9c343e1796043a.png",
+      "rows": 1,
+      "orderNote": "Vertical 4-pin Grove connector without numbers; started at the end closest to the USB-C connector (bottom end for top-row connectors)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D5",
+          "functions": [
+            "SCL",
+            "5"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D4",
+          "functions": [
+            "SDA",
+            "4"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-5",
+      "name": "Grove connector 5 (bottom row, left to right #1)",
+      "image": "media/dd8d56eb2a29c427d3fffe0614db4d6786d7ccbc7253ef0aef9c343e1796043a.png",
+      "rows": 1,
+      "orderNote": "Vertical 4-pin Grove connector without numbers; started at the end closest to the USB-C connector (top end for bottom-row connectors)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "D4",
+          "functions": [
+            "SDA",
+            "4"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D5",
+          "functions": [
+            "SCL",
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grove-6",
+      "name": "Grove connector 6 (bottom row, left to right #2)",
+      "image": "media/dd8d56eb2a29c427d3fffe0614db4d6786d7ccbc7253ef0aef9c343e1796043a.png",
+      "rows": 1,
+      "orderNote": "Vertical 4-pin Grove connector without numbers; started at the end closest to the USB-C connector (top end for bottom-row connectors)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "D6",
+          "functions": [
+            "TX",
+            "6"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D7",
+          "functions": [
+            "RX",
+            "7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grove-7",
+      "name": "Grove connector 7 (bottom row, left to right #3)",
+      "image": "media/dd8d56eb2a29c427d3fffe0614db4d6786d7ccbc7253ef0aef9c343e1796043a.png",
+      "rows": 1,
+      "orderNote": "Vertical 4-pin Grove connector without numbers; started at the end closest to the USB-C connector (top end for bottom-row connectors)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "D9",
+          "functions": [
+            "9"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D8",
+          "functions": [
+            "8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grove-8",
+      "name": "Grove connector 8 (bottom row, left to right #4)",
+      "image": "media/dd8d56eb2a29c427d3fffe0614db4d6786d7ccbc7253ef0aef9c343e1796043a.png",
+      "rows": 1,
+      "orderNote": "Vertical 4-pin Grove connector without numbers; started at the end closest to the USB-C connector (top end for bottom-row connectors)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "D10",
+          "functions": [
+            "10"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D9",
+          "functions": [
+            "9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "top-breakout-img2",
+      "name": "Top breakout holes beside XIAO",
+      "image": "media/32932e35556f8d69a71012fae9d4d51605479340408988814bfd522009ed659e.png",
+      "rows": 1,
+      "orderNote": "Horizontal row, no numbers; USB-C at the left, so position 1 is the left hole",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "A10",
+          "functions": [
+            "D10",
+            "MOSI"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "A9",
+          "functions": [
+            "D9",
+            "MISO"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "A8",
+          "functions": [
+            "D8",
+            "SCK"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "A7",
+          "functions": [
+            "D7",
+            "RX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-breakout-img2",
+      "name": "Bottom breakout holes beside XIAO",
+      "image": "media/32932e35556f8d69a71012fae9d4d51605479340408988814bfd522009ed659e.png",
+      "rows": 1,
+      "orderNote": "Horizontal row, no numbers; USB-C at the left, so position 1 is the left hole",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A0",
+          "functions": [
+            "D0",
+            "DAC"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "A1",
+          "functions": [
+            "D1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "A2",
+          "functions": [
+            "D2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "A3",
+          "functions": [
+            "D3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "A4",
+          "functions": [
+            "D4",
+            "SDA"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "A5",
+          "functions": [
+            "D5",
+            "SCL"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "A6",
+          "functions": [
+            "D6",
+            "TX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grove-1-img2",
+      "name": "Grove connector 1 (top row, left to right #1)",
+      "image": "media/32932e35556f8d69a71012fae9d4d51605479340408988814bfd522009ed659e.png",
+      "rows": 1,
+      "orderNote": "Vertical 4-pin Grove connector without numbers; started at the end closest to the USB-C connector (bottom end for top-row connectors)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "0",
+          "functions": [
+            "D0",
+            "A0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "1",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-2-img2",
+      "name": "Grove connector 2 (top row, left to right #2)",
+      "image": "media/32932e35556f8d69a71012fae9d4d51605479340408988814bfd522009ed659e.png",
+      "rows": 1,
+      "orderNote": "Vertical 4-pin Grove connector without numbers; started at the end closest to the USB-C connector (bottom end for top-row connectors)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "1",
+          "functions": [
+            "D1",
+            "A1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "2",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-3-img2",
+      "name": "Grove connector 3 (top row, left to right #3)",
+      "image": "media/32932e35556f8d69a71012fae9d4d51605479340408988814bfd522009ed659e.png",
+      "rows": 1,
+      "orderNote": "Vertical 4-pin Grove connector without numbers; started at the end closest to the USB-C connector (bottom end for top-row connectors)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "2",
+          "functions": [
+            "D2",
+            "A2"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-4-img2",
+      "name": "Grove connector 4 (top row, left to right #4)",
+      "image": "media/32932e35556f8d69a71012fae9d4d51605479340408988814bfd522009ed659e.png",
+      "rows": 1,
+      "orderNote": "Vertical 4-pin Grove connector without numbers; started at the end closest to the USB-C connector (bottom end for top-row connectors)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SCL",
+          "functions": [
+            "5",
+            "D5",
+            "A5"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "SDA",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-5-img2",
+      "name": "Grove connector 5 (bottom row, left to right #1)",
+      "image": "media/32932e35556f8d69a71012fae9d4d51605479340408988814bfd522009ed659e.png",
+      "rows": 1,
+      "orderNote": "Vertical 4-pin Grove connector without numbers; started at the end closest to the USB-C connector (top end for bottom-row connectors)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SDA",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "SCL",
+          "functions": [
+            "5",
+            "D5",
+            "A5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grove-6-img2",
+      "name": "Grove connector 6 (bottom row, left to right #2)",
+      "image": "media/32932e35556f8d69a71012fae9d4d51605479340408988814bfd522009ed659e.png",
+      "rows": 1,
+      "orderNote": "Vertical 4-pin Grove connector without numbers; started at the end closest to the USB-C connector (top end for bottom-row connectors)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "TX",
+          "functions": [
+            "6"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "RX",
+          "functions": [
+            "7",
+            "D7",
+            "A7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grove-7-img2",
+      "name": "Grove connector 7 (bottom row, left to right #3)",
+      "image": "media/32932e35556f8d69a71012fae9d4d51605479340408988814bfd522009ed659e.png",
+      "rows": 1,
+      "orderNote": "Vertical 4-pin Grove connector without numbers; started at the end closest to the USB-C connector (top end for bottom-row connectors)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "9",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "8",
+          "functions": [
+            "D8",
+            "A8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grove-8-img2",
+      "name": "Grove connector 8 (bottom row, left to right #4)",
+      "image": "media/32932e35556f8d69a71012fae9d4d51605479340408988814bfd522009ed659e.png",
+      "rows": 1,
+      "orderNote": "Vertical 4-pin Grove connector without numbers; started at the end closest to the USB-C connector (top end for bottom-row connectors)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "10",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "9",
+          "functions": [
+            "D9",
+            "A9"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Image 2 prints one D/A callout pair per Grove connector (e.g. D0/A0, D5/A5, D7/A7; the I2C/UART boxes are treated as category tags and omitted); attached to the pin whose silkscreen number matches it, which is an inferred mapping and differs from image 1's two D callouts per connector.",
+    "Image 1 Grove pin labels come from the two stacked D callouts above/below each connector, mapped to the two signal pins in drawn order (upper callout = upper signal pin); the callouts are not drawn next to individual pins."
+  ],
+  "notes": "Breakout rows: labels are the analog names nearest the pin (A0..A10) with Dn and SPI/I2C/UART/DAC names read outward; power columns 5V, GND, 3V3. The XIAO module itself and its castellated pads are part of the inserted product, recorded only via the shield breakout holes. Grove connector silkscreen printed as 'SDA|4', 'TX|6' etc. is split at the bar into its two names (SDA, 4). The two vertical groups of 5 round pads between the Grove blocks are unlabeled and skipped. Image 2 Grove labels use the silkscreen names."
+}

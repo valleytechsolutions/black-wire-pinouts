@@ -1,0 +1,48 @@
+{
+  "recordId": "lilygo-esp32-t-lora-dual",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/42df0943165c30fba0e71fd919b5fbe0ed6c7cc8b249619eaf6bb4e233fe00d7.jpg",
+      "sha256": "42df0943165c30fba0e71fd919b5fbe0ed6c7cc8b249619eaf6bb4e233fe00d7"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "bottom-header",
+      "name": "Bottom 4-pin header",
+      "image": "media/42df0943165c30fba0e71fd919b5fbe0ed6c7cc8b249619eaf6bb4e233fe00d7.jpg",
+      "rows": 1,
+      "orderNote": "No printed position numbers and no USB connector visible; horizontal row ordered left to right.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": [
+            "+5V"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RX",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Labels from the diagram callouts below the pads (GND, 5V, TX, RX); the board silkscreen (blurry) appears to read GND, +5V, TX, RX. Antenna connectors skipped. The LR1121 No.1/No.2 GPIO tables describe internal radio connections, not wiring points.",
+  "uncertain": []
+}

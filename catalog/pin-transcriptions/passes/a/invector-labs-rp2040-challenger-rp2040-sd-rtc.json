@@ -1,0 +1,270 @@
+{
+  "recordId": "invector-labs-rp2040-challenger-rp2040-sd-rtc",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/2148536681857407901a4152349c575799fb652876db47a4b80abd98c6a02009.png",
+      "sha256": "2148536681857407901a4152349c575799fb652876db47a4b80abd98c6a02009"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/2148536681857407901a4152349c575799fb652876db47a4b80abd98c6a02009.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; position 1 at the end nearest the USB-C connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RESET",
+          "functions": [
+            "RST"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "+3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "ARef",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "A0",
+          "functions": [
+            "ADC0",
+            "CTS1",
+            "SDA1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "A1",
+          "functions": [
+            "ADC1",
+            "RTS1",
+            "SCL1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "A2",
+          "functions": [
+            "ADC2",
+            "TX0",
+            "SDA0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "A3",
+          "functions": [
+            "ADC3",
+            "RX0",
+            "SCL0"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "IO19",
+          "functions": [
+            "A4",
+            "RTS0",
+            "SCL1",
+            "A4*"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "IO21",
+          "functions": [
+            "A5",
+            "RX1",
+            "SCL0",
+            "A5*"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "IO22",
+          "functions": [
+            "SCK",
+            "CTS1",
+            "SDA1"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "IO23",
+          "functions": [
+            "SDO",
+            "RTS1",
+            "SCL1"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "IO24",
+          "functions": [
+            "SDI",
+            "TX1",
+            "SDA0"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "IO17",
+          "functions": [
+            "RX",
+            "RX0",
+            "SCL0"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "IO16",
+          "functions": [
+            "TX",
+            "TX0",
+            "SDA0"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/2148536681857407901a4152349c575799fb652876db47a4b80abd98c6a02009.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; position 1 at the end nearest the USB-C connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "EN",
+          "functions": [
+            "En"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "USB",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IO8",
+          "functions": [
+            "13",
+            "TX1",
+            "SDA0",
+            "D13"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "IO7",
+          "functions": [
+            "12",
+            "RTS1",
+            "SCL1",
+            "D12"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "IO6",
+          "functions": [
+            "11",
+            "CTS1",
+            "SDA1",
+            "D11"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "IO5",
+          "functions": [
+            "10",
+            "RX1",
+            "SCL0",
+            "D10"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "IO4",
+          "functions": [
+            "9",
+            "TX1",
+            "SDA0",
+            "D9"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "IO3",
+          "functions": [
+            "6",
+            "RTS0",
+            "SCL1",
+            "D6"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "IO2",
+          "functions": [
+            "5",
+            "CTS0",
+            "SDA1",
+            "D5"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "IO1",
+          "functions": [
+            "SCL",
+            "RX0",
+            "SCL0"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "IO0",
+          "functions": [
+            "SDA",
+            "TX0",
+            "SDA0"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "O and 0 look alike in callouts such as TX0/RX0/SDA0/SCL0/CTS0/RTS0 and IO0; recorded as 0 (IO prefix as letters)"
+  ],
+  "uncertain": [],
+  "notes": "Label is the orange RP2040 GPIO box (IOxx) where it names a GPIO; A0-A3 rows show ADCn instead, so the board name A0-A3 is the label. PCB silkscreen first in functions; silkscreen for +3.3V and ARef is partly hidden by components and not recorded. '*' on A4/A5 = digital I/O, not analog, per legend. Battery JST connector (Battery -/+ only), SD card slot and the small Bi2C connector (no pin labels) skipped."
+}

@@ -1,0 +1,241 @@
+{
+  "recordId": "arduino-other-mini-03",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/de513da31785df58e380f086419a819a107ed045c35e853f35b67863bfdf820b.png",
+      "sha256": "de513da31785df58e380f086419a819a107ed045c35e853f35b67863bfdf820b"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left column",
+      "image": "media/de513da31785df58e380f086419a819a107ed045c35e853f35b67863bfdf820b.png",
+      "rows": 1,
+      "orderNote": "No USB or pin 1 mark; vertical row read top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "RX",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GROUND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "n.c,",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "2",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "3",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "4",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "5",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "6",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "7",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "8",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "9",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right column",
+      "image": "media/de513da31785df58e380f086419a819a107ed045c35e853f35b67863bfdf820b.png",
+      "rows": 1,
+      "orderNote": "No USB or pin 1 mark; vertical row read top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+9V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GROUND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "AD3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "AD2",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "AD1",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "AD0",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "13",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "12",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "11",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "10",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "top-header",
+      "name": "Top row between the corner pads",
+      "image": "media/de513da31785df58e380f086419a819a107ed045c35e853f35b67863bfdf820b.png",
+      "rows": 1,
+      "orderNote": "No USB or pin 1 mark; horizontal row read left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO7",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RX",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GROUND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-2x2",
+      "name": "2x2 pad block at bottom left",
+      "image": "media/de513da31785df58e380f086419a819a107ed045c35e853f35b67863bfdf820b.png",
+      "rows": 2,
+      "orderNote": "2xN rule: rows taken as horizontal; position 1 = left pad of the bottom (outer) row, alternating bottom/top rows left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "AD4",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "AD6",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "AD5",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "AD7",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-header",
+      "name": "Two pads at bottom right",
+      "image": "media/de513da31785df58e380f086419a819a107ed045c35e853f35b67863bfdf820b.png",
+      "rows": 1,
+      "orderNote": "No USB or pin 1 mark; horizontal row read left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GROUND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Corner pads (top-left 'TX', top-right '+9V') assigned to the left/right columns because their labels sit beside the columns; they also lie in line with the top row.",
+    "Bottom 2x2 block: labels AD6/AD4/AD7/AD5 are attached by leader lines; mapping read as top-left AD6, bottom-left (square) AD4, top-right AD7, bottom-right AD5. Grouping as one 2x2 connector and row orientation are interpretations.",
+    "Digital pins are printed only as numbers (2-13); used as printed."
+  ],
+  "notes": "Line drawing of the board, no product name visible."
+}

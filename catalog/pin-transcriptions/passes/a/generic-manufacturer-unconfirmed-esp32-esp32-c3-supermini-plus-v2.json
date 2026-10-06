@@ -1,0 +1,207 @@
+{
+  "recordId": "generic-manufacturer-unconfirmed-esp32-esp32-c3-supermini-plus-v2",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/36e2ddd572a430a02544208f2b4c7f4542de2cfb179adcbe7e5c9a4b68fd0694.jpg",
+      "sha256": "36e2ddd572a430a02544208f2b4c7f4542de2cfb179adcbe7e5c9a4b68fd0694"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left edge pads",
+      "image": "media/36e2ddd572a430a02544208f2b4c7f4542de2cfb179adcbe7e5c9a4b68fd0694.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at top (end closest to the USB-C connector).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO5",
+          "functions": [
+            "5",
+            "FSPIWP",
+            "MISO",
+            "MTDI",
+            "ADC2_0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO6",
+          "functions": [
+            "6",
+            "FSPICLK",
+            "MOSI",
+            "MTCK"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO7",
+          "functions": [
+            "7",
+            "FSPID",
+            "SS",
+            "MTDO"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO8",
+          "functions": [
+            "8",
+            "SDA",
+            "LOG",
+            "RGB LED"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO9",
+          "functions": [
+            "9",
+            "SCL",
+            "BOOT"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO10",
+          "functions": [
+            "10",
+            "FSPICS0",
+            "JTAG"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO20",
+          "functions": [
+            "20",
+            "TXD 0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO21",
+          "functions": [
+            "21",
+            "RXD 0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right edge pads",
+      "image": "media/36e2ddd572a430a02544208f2b4c7f4542de2cfb179adcbe7e5c9a4b68fd0694.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at top (end closest to the USB-C connector).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5v",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3.3v",
+          "functions": [
+            "3.3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO4",
+          "functions": [
+            "4",
+            "FSPIHD",
+            "SCK",
+            "MTMS",
+            "ADC1_4"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO3",
+          "functions": [
+            "3",
+            "ADC1_3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO2",
+          "functions": [
+            "2",
+            "ADC1_2",
+            "FSPIQ",
+            "BOOT"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO1",
+          "functions": [
+            "1",
+            "ADC1_1",
+            "XTAL_32K_N"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO0",
+          "functions": [
+            "0",
+            "ADC1_0",
+            "XTAL_32K_P"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "usb-pads",
+      "name": "Back pads 19/18 (back view)",
+      "image": "media/36e2ddd572a430a02544208f2b4c7f4542de2cfb179adcbe7e5c9a4b68fd0694.jpg",
+      "rows": 1,
+      "orderNote": "Back view; no pin numbers; both pads equally near the USB-C connector, so horizontal row started at left as displayed.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO19",
+          "functions": [
+            "19",
+            "USB_D-",
+            "Input disabled"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO18",
+          "functions": [
+            "18",
+            "USB_D+",
+            "Input disabled"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "Letter O vs digit 0 cannot be told apart in the diagram font (GPIO0, ADC1_0, ADC2_0, FSPICS0, TXD 0, RXD 0); read as 0. MTDO read as letter O. Front left-column silkscreen is not legible; dark number boxes recorded in functions instead."
+  ],
+  "uncertain": [],
+  "notes": "Third-party (mischianti.org) pinout titled 'ESP32-C3 SuperMini Plus (V2)'; front with callouts plus a back view. The back view repeats the edge pads with silkscreen numbers and shows two extra pads (19, 18) with callouts. Right-column silkscreen (5V, G, 3.3) recorded in functions. Skipped per rule 1: BOOT/RST buttons, USB-C, U.FL antenna connector."
+}

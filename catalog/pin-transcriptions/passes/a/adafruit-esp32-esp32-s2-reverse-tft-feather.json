@@ -1,0 +1,618 @@
+{
+  "recordId": "adafruit-esp32-esp32-s2-reverse-tft-feather",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/b6fe04c9ccb6be2de27d098fd1ad9aef177994ba1a6827abeb03769c7ab5d59d.png",
+      "sha256": "b6fe04c9ccb6be2de27d098fd1ad9aef177994ba1a6827abeb03769c7ab5d59d"
+    },
+    {
+      "file": "media/83e8d38c00cbc54ac22a2534127679560ca9da4b98db41d044e448bad093767e.png",
+      "sha256": "83e8d38c00cbc54ac22a2534127679560ca9da4b98db41d044e448bad093767e"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header (back view)",
+      "image": "media/b6fe04c9ccb6be2de27d098fd1ad9aef177994ba1a6827abeb03769c7ab5d59d.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; vertical row started at the end closest to the USB connector (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO18",
+          "functions": [
+            "A0",
+            "ADC2_CH7",
+            "U1RXD",
+            "DAC_2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO17",
+          "functions": [
+            "A1",
+            "ADC2_CH6",
+            "U1TXD",
+            "DAC_1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO16",
+          "functions": [
+            "A2",
+            "ADC2_CH5",
+            "U0CTS",
+            "XTAL_32K_N"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO15",
+          "functions": [
+            "A3",
+            "ADC2_CH4",
+            "U0RTS",
+            "XTAL_32K_P"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO14",
+          "functions": [
+            "A4",
+            "ADC2_CH3",
+            "FSPIWP",
+            "T14"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO8",
+          "functions": [
+            "A5",
+            "ADC1_CH7",
+            "T8"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO36",
+          "functions": [
+            "SCK",
+            "FSPICLK"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO35",
+          "functions": [
+            "MOSI",
+            "FSPID"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO37",
+          "functions": [
+            "MISO",
+            "FSPIQ"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO2",
+          "functions": [
+            "RX",
+            "ADC1_CH1",
+            "T2"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO1",
+          "functions": [
+            "TX",
+            "ADC1_CH0",
+            "T1"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "TXD0",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header (back view)",
+      "image": "media/b6fe04c9ccb6be2de27d098fd1ad9aef177994ba1a6827abeb03769c7ab5d59d.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; vertical row started at the end closest to the USB connector (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO13",
+          "functions": [
+            "D13",
+            "ADC2_CH2",
+            "FSPIQ",
+            "T13"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO12",
+          "functions": [
+            "D12",
+            "ADC2_CH1",
+            "FSPICLK",
+            "T12"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO11",
+          "functions": [
+            "D11",
+            "ADC2_CH0",
+            "FSPID",
+            "T11"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO10",
+          "functions": [
+            "D10",
+            "ADC1_CH9",
+            "FSPICS0",
+            "T10"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO9",
+          "functions": [
+            "D9",
+            "ADC1_CH8",
+            "FSPIHD",
+            "T9"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO6",
+          "functions": [
+            "D6",
+            "ADC1_CH5",
+            "T6"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO5",
+          "functions": [
+            "D5",
+            "ADC1_CH4",
+            "T5"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO41",
+          "functions": [
+            "SCL",
+            "MTDI"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO42",
+          "functions": [
+            "SDA",
+            "MTMS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stemma-qt",
+      "name": "I2C STEMMA QT connector (back view)",
+      "image": "media/b6fe04c9ccb6be2de27d098fd1ad9aef177994ba1a6827abeb03769c7ab5d59d.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; horizontal connector, left end nearer the USB connector: read left to right (GND, VSENSOR, SDA, SCL wires).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VSENSOR",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO42",
+          "functions": [
+            "SDA",
+            "MTMS"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO41",
+          "functions": [
+            "SCL",
+            "MTDI"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "battery-jst",
+      "name": "Battery JST connector (back view)",
+      "image": "media/b6fe04c9ccb6be2de27d098fd1ad9aef177994ba1a6827abeb03769c7ab5d59d.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; pins stacked vertically, started at the top end (closest to USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VBAT",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left header (display-side view)",
+      "image": "media/83e8d38c00cbc54ac22a2534127679560ca9da4b98db41d044e448bad093767e.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; vertical row started at the end closest to the USB connector (bottom of this display-side view).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO18",
+          "functions": [
+            "A0",
+            "ADC2_CH7",
+            "U1RXD",
+            "DAC_2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO17",
+          "functions": [
+            "A1",
+            "ADC2_CH6",
+            "U1TXD",
+            "DAC_1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO16",
+          "functions": [
+            "A2",
+            "ADC2_CH5",
+            "U0CTS",
+            "XTAL_32K_N"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO15",
+          "functions": [
+            "A3",
+            "ADC2_CH4",
+            "U0RTS",
+            "XTAL_32K_P"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO14",
+          "functions": [
+            "A4",
+            "ADC2_CH3",
+            "FSPIWP",
+            "T14"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO8",
+          "functions": [
+            "A5",
+            "ADC1_CH7",
+            "T8"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO36",
+          "functions": [
+            "SCK",
+            "FSPICLK"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO35",
+          "functions": [
+            "MOSI",
+            "FSPID"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO37",
+          "functions": [
+            "MISO",
+            "FSPIQ"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO2",
+          "functions": [
+            "RX",
+            "ADC1_CH1",
+            "T2"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO1",
+          "functions": [
+            "TX",
+            "ADC1_CH0",
+            "T1"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "TXD0",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Right header (display-side view)",
+      "image": "media/83e8d38c00cbc54ac22a2534127679560ca9da4b98db41d044e448bad093767e.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; vertical row started at the end closest to the USB connector (bottom of this display-side view).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO13",
+          "functions": [
+            "D13",
+            "ADC2_CH2",
+            "FSPIQ",
+            "T13"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO12",
+          "functions": [
+            "D12",
+            "ADC2_CH1",
+            "FSPICLK",
+            "T12"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO11",
+          "functions": [
+            "D11",
+            "ADC2_CH0",
+            "FSPID",
+            "T11"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO10",
+          "functions": [
+            "D10",
+            "ADC1_CH9",
+            "FSPICS0",
+            "T10"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO9",
+          "functions": [
+            "D9",
+            "ADC1_CH8",
+            "FSPIHD",
+            "T9"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO6",
+          "functions": [
+            "D6",
+            "ADC1_CH5",
+            "T6"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO5",
+          "functions": [
+            "D5",
+            "ADC1_CH4",
+            "T5"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO4",
+          "functions": [
+            "SCL",
+            "ADC1_CH3",
+            "T4"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO3",
+          "functions": [
+            "SDA",
+            "ADC1_CH2",
+            "T3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stemma-qt-img2",
+      "name": "I2C STEMMA QT connector (display-side view)",
+      "image": "media/83e8d38c00cbc54ac22a2534127679560ca9da4b98db41d044e448bad093767e.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; horizontal connector, ends equidistant from USB: read left to right (GND, VSENSOR, SDA, SCL wires).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VSENSOR",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO3",
+          "functions": [
+            "SDA",
+            "ADC1_CH2",
+            "T3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO4",
+          "functions": [
+            "SCL",
+            "ADC1_CH3",
+            "T4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "battery-jst-img2",
+      "name": "Battery JST connector (display-side view)",
+      "image": "media/83e8d38c00cbc54ac22a2534127679560ca9da4b98db41d044e448bad093767e.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; pins stacked vertically, started at the bottom end (closest to USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VBAT",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Label = printed GPIO name; CircuitPython name first in functions, then outward. Green 'Power Domain' tags (RTC, CPU, SPI/CPU) omitted as category-only tags. Underscores in ADCx_CHy are faint/rendered as spaces. The two images disagree on SCL/SDA: back view prints GPIO41/GPIO42 (MTDI/MTMS), display-side view prints GPIO4/GPIO3; each transcribed as printed. Display, NeoPixel, buttons (D0/BUTTON GPIO0, D1, D2) skipped."
+}

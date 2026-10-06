@@ -1,0 +1,111 @@
+{
+  "recordId": "seeed-studio-other-tiny-ble",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/2471d21a8b7610ab4ca4433f75eb3e29a3ac14060e5d682ee510beea0f64eb04.png",
+      "sha256": "2471d21a8b7610ab4ca4433f75eb3e29a3ac14060e5d682ee510beea0f64eb04"
+    },
+    {
+      "file": "media/6b9812111bf31cd9dd12200ae5786ecdf7f0dc351ff28d506cc8b9c6040dc439.png",
+      "sha256": "6b9812111bf31cd9dd12200ae5786ecdf7f0dc351ff28d506cc8b9c6040dc439"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-pads",
+      "name": "Left edge pads",
+      "image": "media/2471d21a8b7610ab4ca4433f75eb3e29a3ac14060e5d682ee510beea0f64eb04.png",
+      "rows": 1,
+      "orderNote": "No USB connector shown in this view; vertical row ordered from top (rule 4/9)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "p3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "p4",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "p5",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "p6",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-pads-img2",
+      "name": "Bottom edge pads",
+      "image": "media/6b9812111bf31cd9dd12200ae5786ecdf7f0dc351ff28d506cc8b9c6040dc439.png",
+      "rows": 1,
+      "orderNote": "USB connector at top-left of this view; horizontal row started at the left end, nearest the USB connector (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SWDIO",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SWCLK",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RX",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Image 2 bottom pads appear as two clusters of four (SWDIO..TX and VCC..GND) separated by a gap; transcribed as one row of 8, but they may be two separate connectors."
+  ],
+  "notes": "Image 1 also prints a legend (MPU6050 SDA p18, SCL p19, INT p20; LED R p22, G p21, B p23; BUTTON p17; BATTERY p1) that refers to internal connections, not pin positions; omitted. BAT connector and partially cut-off unlabeled pads at the top edge of image 1 skipped (rule 1)."
+}

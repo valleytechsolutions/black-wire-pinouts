@@ -1,0 +1,255 @@
+{
+  "recordId": "lilygo-other-t-display-k230",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/dafb6abe992e70ea1b10e446963ea17efd2c3c2d6e41c2991ea3dd3275527437.jpg",
+      "sha256": "dafb6abe992e70ea1b10e446963ea17efd2c3c2d6e41c2991ea3dd3275527437"
+    },
+    {
+      "file": "media/491de1860770625e7866b9687c6c0930bd4e873d06f8eef6e49f0436fb22f943.jpg",
+      "sha256": "491de1860770625e7866b9687c6c0930bd4e873d06f8eef6e49f0436fb22f943"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "GPIO-40",
+      "name": "GPIO-40 2.54mm 2x20 header",
+      "image": "media/dafb6abe992e70ea1b10e446963ea17efd2c3c2d6e41c2991ea3dd3275527437.jpg",
+      "rows": 2,
+      "orderNote": "Printed header pin numbers 01-40 followed (odd left column, even right column)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "ADC0",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "ADC2",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "ADC1",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO47",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GPIO43",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO14",
+          "functions": [
+            "Lora_CS"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO46",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO17",
+          "functions": [
+            "Lora_MISO"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO18",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GPIO53",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GPIO52",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GPIO33",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO62",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GPIO34",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "GPIO32",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "GPIO29",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GPIO31",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GPIO28",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "GPIO30",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "GPIO6",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "GPIO26",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "GPIO3",
+          "functions": [
+            "GPIO03",
+            "Lora_TCXO_EN"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "GPIO5",
+          "functions": [
+            "Lora_RST"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "GPIO63",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "GPIO27",
+          "functions": []
+        },
+        {
+          "position": 27,
+          "label": "GPIO35",
+          "functions": []
+        },
+        {
+          "position": 28,
+          "label": "GPIO4",
+          "functions": [
+            "Lora_IRQ"
+          ]
+        },
+        {
+          "position": 29,
+          "label": "GPIO45",
+          "functions": [
+            "WIFI_EN"
+          ]
+        },
+        {
+          "position": 30,
+          "label": "GPIO2",
+          "functions": []
+        },
+        {
+          "position": 31,
+          "label": "GPIO44",
+          "functions": [
+            "Lora_EN"
+          ]
+        },
+        {
+          "position": 32,
+          "label": "GPIO42",
+          "functions": []
+        },
+        {
+          "position": 33,
+          "label": "GPIO15",
+          "functions": [
+            "Lora_SCK"
+          ]
+        },
+        {
+          "position": 34,
+          "label": "GPIO16",
+          "functions": [
+            "Lora_MOSI"
+          ]
+        },
+        {
+          "position": 35,
+          "label": "GPIO19",
+          "functions": [
+            "Lora_BUSY"
+          ]
+        },
+        {
+          "position": 36,
+          "label": "GPIO20",
+          "functions": [
+            "Lora_DIO1"
+          ]
+        },
+        {
+          "position": 37,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 38,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 39,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 40,
+          "label": "USB-IN-5V",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Functions such as Lora_CS / WIFI_EN come from the separate 'PIN Used' list in image 1 and were attached by matching GPIO numbers (GPIO03 in the list matched to header GPIO3); the list is not drawn on the pins."
+  ],
+  "notes": "Labels copied from the GPIO-40 table in image 1. Image 2 shows the same 2x20 header on the board photo but prints no per-pin labels (only peripheral GPIO lists for LoRa, AMOLED, Touch, SD card, cameras and HDMI), so no connector is recorded from image 2. Camera FPC, HDMI, Ethernet, USB-C and audio connectors have no individually labeled pins."
+}

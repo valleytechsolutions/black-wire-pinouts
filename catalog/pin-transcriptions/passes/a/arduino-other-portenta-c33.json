@@ -1,0 +1,5642 @@
+{
+ "recordId": "arduino-other-portenta-c33",
+ "pass": "a",
+ "date": "2026-10-03",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/a0e5a6ad56bab1cd7d27e59baf8b398a5a420c72ef3cb2312ecdba8dbb1e34f3.png",
+   "sha256": "a0e5a6ad56bab1cd7d27e59baf8b398a5a420c72ef3cb2312ecdba8dbb1e34f3"
+  },
+  {
+   "file": "media/a8db52161884c4dd15b5954f5fb3d3ae359ba1664da09f09f88bc3c046fa623e.png",
+   "sha256": "a8db52161884c4dd15b5954f5fb3d3ae359ba1664da09f09f88bc3c046fa623e"
+  },
+  {
+   "file": "media/d9836ac5ca07f9e704b087508293cc048e6651570f02086cc102507dc99d6515.png",
+   "sha256": "d9836ac5ca07f9e704b087508293cc048e6651570f02086cc102507dc99d6515"
+  },
+  {
+   "file": "media/86574c9189c19e7669eb9adb03fd58eb4745603ad9b9c4b70f29a051ab92fce7.png",
+   "sha256": "86574c9189c19e7669eb9adb03fd58eb4745603ad9b9c4b70f29a051ab92fce7"
+  },
+  {
+   "file": "media/d776b169c93aa79ac321043c643804a96292611a68ef919694cc81b78c73fad4.png",
+   "sha256": "d776b169c93aa79ac321043c643804a96292611a68ef919694cc81b78c73fad4"
+  },
+  {
+   "file": "media/077a4b0df944c6af38600fac4d67ba5eadbca11de314ce7a10d4470093338c92.png",
+   "sha256": "077a4b0df944c6af38600fac4d67ba5eadbca11de314ce7a10d4470093338c92"
+  },
+  {
+   "file": "media/d08de749d248ad065eed7ff4346f66b541c13d33cebc2daafbbc5fbe6763b28a.png",
+   "sha256": "d08de749d248ad065eed7ff4346f66b541c13d33cebc2daafbbc5fbe6763b28a"
+  },
+  {
+   "file": "media/93b110cc793d08454f57941e2f0e8f58f33d22561ec27ad4ca153961e4099f62.png",
+   "sha256": "93b110cc793d08454f57941e2f0e8f58f33d22561ec27ad4ca153961e4099f62"
+  },
+  {
+   "file": "media/1fd72c8b498bc7602ccd858372147a1d4f447afa580abfb0ab1d2028a06eb694.png",
+   "sha256": "1fd72c8b498bc7602ccd858372147a1d4f447afa580abfb0ab1d2028a06eb694"
+  },
+  {
+   "file": "media/fc432df9a8bc30249e2e5d03d15faf634a552798f9a40e5fa84cfc1e42a603e7.png",
+   "sha256": "fc432df9a8bc30249e2e5d03d15faf634a552798f9a40e5fa84cfc1e42a603e7"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "J1",
+   "name": "J1 high-density connector",
+   "image": "media/a0e5a6ad56bab1cd7d27e59baf8b398a5a420c72ef3cb2312ecdba8dbb1e34f3.png",
+   "rows": 2,
+   "orderNote": "Pin numbers printed (1-80, odd and even columns); position = printed pin number",
+   "pins": [
+    {
+     "position": 1,
+     "label": "ETH A+",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "ETH A-",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "ETH B+",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "ETH B-",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 11,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 12,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 13,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 14,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 15,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 16,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 17,
+     "label": "ETH L1",
+     "functions": []
+    },
+    {
+     "position": 18,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "ETH L2",
+     "functions": []
+    },
+    {
+     "position": 20,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 21,
+     "label": "VIN",
+     "functions": []
+    },
+    {
+     "position": 22,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 23,
+     "label": "VIN",
+     "functions": []
+    },
+    {
+     "position": 24,
+     "label": "USB0 VBUS",
+     "functions": []
+    },
+    {
+     "position": 25,
+     "label": "USB1 D+",
+     "functions": []
+    },
+    {
+     "position": 26,
+     "label": "USB0 D+",
+     "functions": []
+    },
+    {
+     "position": 27,
+     "label": "USB1 D-",
+     "functions": []
+    },
+    {
+     "position": 28,
+     "label": "USB0 D-",
+     "functions": []
+    },
+    {
+     "position": 29,
+     "label": "USB1 ID",
+     "functions": []
+    },
+    {
+     "position": 30,
+     "label": "USB0 ID",
+     "functions": []
+    },
+    {
+     "position": 31,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 32,
+     "label": "VIN",
+     "functions": []
+    },
+    {
+     "position": 33,
+     "label": "UART1 TX",
+     "functions": [
+      "D14"
+     ]
+    },
+    {
+     "position": 34,
+     "label": "UART0 TX",
+     "functions": [
+      "49"
+     ]
+    },
+    {
+     "position": 35,
+     "label": "UART1 RX",
+     "functions": [
+      "D13"
+     ]
+    },
+    {
+     "position": 36,
+     "label": "UART0 RX",
+     "functions": [
+      "50"
+     ]
+    },
+    {
+     "position": 37,
+     "label": "UART1 RTS",
+     "functions": [
+      "61"
+     ]
+    },
+    {
+     "position": 38,
+     "label": "UART0 RTS",
+     "functions": [
+      "51"
+     ]
+    },
+    {
+     "position": 39,
+     "label": "UART1 CTS",
+     "functions": [
+      "62"
+     ]
+    },
+    {
+     "position": 40,
+     "label": "UART0 CTS",
+     "functions": [
+      "52"
+     ]
+    },
+    {
+     "position": 41,
+     "label": "VIN",
+     "functions": []
+    },
+    {
+     "position": 42,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 43,
+     "label": "I2C1 SDA",
+     "functions": [
+      "37"
+     ]
+    },
+    {
+     "position": 44,
+     "label": "I2C0 SDA",
+     "functions": [
+      "D11"
+     ]
+    },
+    {
+     "position": 45,
+     "label": "I2C1 SD6",
+     "functions": [
+      "38"
+     ]
+    },
+    {
+     "position": 46,
+     "label": "I2C0 SCL",
+     "functions": [
+      "D12"
+     ]
+    },
+    {
+     "position": 47,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 48,
+     "label": "VIN",
+     "functions": []
+    },
+    {
+     "position": 49,
+     "label": "CAN1 TX",
+     "functions": [
+      "44"
+     ]
+    },
+    {
+     "position": 50,
+     "label": "CAN0 TX",
+     "functions": [
+      "42"
+     ]
+    },
+    {
+     "position": 51,
+     "label": "CAN1 RX",
+     "functions": [
+      "43"
+     ]
+    },
+    {
+     "position": 52,
+     "label": "CAN0 RX",
+     "functions": [
+      "41"
+     ]
+    },
+    {
+     "position": 53,
+     "label": "VSYS",
+     "functions": []
+    },
+    {
+     "position": 54,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 55,
+     "label": "SDC CLK",
+     "functions": [
+      "84"
+     ]
+    },
+    {
+     "position": 56,
+     "label": "I2S MCK",
+     "functions": [
+      "63"
+     ]
+    },
+    {
+     "position": 57,
+     "label": "SDC CMD",
+     "functions": [
+      "85"
+     ]
+    },
+    {
+     "position": 58,
+     "label": "I2S WS",
+     "functions": [
+      "64"
+     ]
+    },
+    {
+     "position": 59,
+     "label": "SDC D0",
+     "functions": [
+      "86"
+     ]
+    },
+    {
+     "position": 60,
+     "label": "I2S SDI",
+     "functions": [
+      "65"
+     ]
+    },
+    {
+     "position": 61,
+     "label": "SDC D1",
+     "functions": [
+      "87"
+     ]
+    },
+    {
+     "position": 62,
+     "label": "I2S SDO",
+     "functions": [
+      "66"
+     ]
+    },
+    {
+     "position": 63,
+     "label": "SDC D2",
+     "functions": [
+      "88"
+     ]
+    },
+    {
+     "position": 64,
+     "label": "VSYS",
+     "functions": []
+    },
+    {
+     "position": 65,
+     "label": "SDC D3",
+     "functions": [
+      "89"
+     ]
+    },
+    {
+     "position": 66,
+     "label": "82",
+     "functions": []
+    },
+    {
+     "position": 67,
+     "label": "SDC CD",
+     "functions": [
+      "90"
+     ]
+    },
+    {
+     "position": 68,
+     "label": "83",
+     "functions": []
+    },
+    {
+     "position": 69,
+     "label": "SDC WP",
+     "functions": [
+      "91"
+     ]
+    },
+    {
+     "position": 70,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 71,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 72,
+     "label": "V-SDCARD/+3V3_EXT",
+     "functions": []
+    },
+    {
+     "position": 73,
+     "label": "RESET",
+     "functions": []
+    },
+    {
+     "position": 74,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 75,
+     "label": "SWDIO",
+     "functions": []
+    },
+    {
+     "position": 76,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 77,
+     "label": "SCK",
+     "functions": []
+    },
+    {
+     "position": 78,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 79,
+     "label": "SWO",
+     "functions": []
+    },
+    {
+     "position": 80,
+     "label": "?",
+     "functions": []
+    }
+   ]
+  },
+  {
+   "id": "J2",
+   "name": "J2 high-density connector",
+   "image": "media/a0e5a6ad56bab1cd7d27e59baf8b398a5a420c72ef3cb2312ecdba8dbb1e34f3.png",
+   "rows": 2,
+   "orderNote": "Pin numbers printed (1-80, odd and even columns); position = printed pin number",
+   "pins": [
+    {
+     "position": 1,
+     "label": "BOOT",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "BT_SEL",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "76",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "PWRON",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "75",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "LICELL",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "73",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "72",
+     "functions": []
+    },
+    {
+     "position": 11,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 12,
+     "label": "71",
+     "functions": []
+    },
+    {
+     "position": 13,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 14,
+     "label": "67",
+     "functions": []
+    },
+    {
+     "position": 15,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 16,
+     "label": "74",
+     "functions": []
+    },
+    {
+     "position": 17,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 18,
+     "label": "68",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 20,
+     "label": "70",
+     "functions": []
+    },
+    {
+     "position": 21,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 22,
+     "label": "69",
+     "functions": []
+    },
+    {
+     "position": 23,
+     "label": "+3V3_EXT",
+     "functions": []
+    },
+    {
+     "position": 24,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 25,
+     "label": "UART3 TX",
+     "functions": [
+      "53"
+     ]
+    },
+    {
+     "position": 26,
+     "label": "UART2 TX",
+     "functions": [
+      "57"
+     ]
+    },
+    {
+     "position": 27,
+     "label": "UART3 RX",
+     "functions": [
+      "54"
+     ]
+    },
+    {
+     "position": 28,
+     "label": "UART2 RX",
+     "functions": [
+      "58"
+     ]
+    },
+    {
+     "position": 29,
+     "label": "UART3 RTS",
+     "functions": [
+      "55"
+     ]
+    },
+    {
+     "position": 30,
+     "label": "UART2 RTS",
+     "functions": [
+      "59"
+     ]
+    },
+    {
+     "position": 31,
+     "label": "UART3 CTS",
+     "functions": [
+      "56"
+     ]
+    },
+    {
+     "position": 32,
+     "label": "UART2 CTS",
+     "functions": [
+      "60"
+     ]
+    },
+    {
+     "position": 33,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 34,
+     "label": "+3V3_EXT",
+     "functions": []
+    },
+    {
+     "position": 35,
+     "label": "SPI0 CS",
+     "functions": [
+      "D7"
+     ]
+    },
+    {
+     "position": 36,
+     "label": "SPI1 CS",
+     "functions": [
+      "48"
+     ]
+    },
+    {
+     "position": 37,
+     "label": "SPI0 SCLK",
+     "functions": [
+      "D9"
+     ]
+    },
+    {
+     "position": 38,
+     "label": "SPI1 SCLK",
+     "functions": [
+      "47"
+     ]
+    },
+    {
+     "position": 39,
+     "label": "SPI0 CIPO",
+     "functions": [
+      "D10"
+     ]
+    },
+    {
+     "position": 40,
+     "label": "SPI1 CIPO",
+     "functions": [
+      "45"
+     ]
+    },
+    {
+     "position": 41,
+     "label": "SPI0 COPI",
+     "functions": [
+      "D8"
+     ]
+    },
+    {
+     "position": 42,
+     "label": "SPI1 COPI",
+     "functions": [
+      "46"
+     ]
+    },
+    {
+     "position": 43,
+     "label": "+3V3_EXT",
+     "functions": []
+    },
+    {
+     "position": 44,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 45,
+     "label": "I2C2 SDA",
+     "functions": [
+      "39"
+     ]
+    },
+    {
+     "position": 46,
+     "label": "GPIO 0",
+     "functions": [
+      "27"
+     ]
+    },
+    {
+     "position": 47,
+     "label": "I2C2 SCL",
+     "functions": [
+      "40"
+     ]
+    },
+    {
+     "position": 48,
+     "label": "GPIO 1",
+     "functions": [
+      "28"
+     ]
+    },
+    {
+     "position": 49,
+     "label": "78",
+     "functions": []
+    },
+    {
+     "position": 50,
+     "label": "GPIO 2",
+     "functions": [
+      "29"
+     ]
+    },
+    {
+     "position": 51,
+     "label": "79",
+     "functions": []
+    },
+    {
+     "position": 52,
+     "label": "GPIO 3",
+     "functions": [
+      "30"
+     ]
+    },
+    {
+     "position": 53,
+     "label": "80",
+     "functions": []
+    },
+    {
+     "position": 54,
+     "label": "GPIO 4",
+     "functions": [
+      "31"
+     ]
+    },
+    {
+     "position": 55,
+     "label": "81",
+     "functions": []
+    },
+    {
+     "position": 56,
+     "label": "GPIO 5",
+     "functions": [
+      "32"
+     ]
+    },
+    {
+     "position": 57,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 58,
+     "label": "GPIO 6",
+     "functions": [
+      "33"
+     ]
+    },
+    {
+     "position": 59,
+     "label": "PWM 0",
+     "functions": [
+      "D0~"
+     ]
+    },
+    {
+     "position": 60,
+     "label": "PWM 5",
+     "functions": [
+      "D5~"
+     ]
+    },
+    {
+     "position": 61,
+     "label": "PWM 1",
+     "functions": [
+      "D1~"
+     ]
+    },
+    {
+     "position": 62,
+     "label": "PWM 6",
+     "functions": [
+      "D6~"
+     ]
+    },
+    {
+     "position": 63,
+     "label": "PWM 2",
+     "functions": [
+      "D2~"
+     ]
+    },
+    {
+     "position": 64,
+     "label": "PWM 7",
+     "functions": [
+      "23"
+     ]
+    },
+    {
+     "position": 65,
+     "label": "PWM 3",
+     "functions": [
+      "D3~"
+     ]
+    },
+    {
+     "position": 66,
+     "label": "PWM 8",
+     "functions": [
+      "24"
+     ]
+    },
+    {
+     "position": 67,
+     "label": "PWM 4",
+     "functions": [
+      "D4~"
+     ]
+    },
+    {
+     "position": 68,
+     "label": "PWM 9",
+     "functions": [
+      "25"
+     ]
+    },
+    {
+     "position": 69,
+     "label": "+3V3_EXT",
+     "functions": []
+    },
+    {
+     "position": 70,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 71,
+     "label": "ADC VREF+",
+     "functions": []
+    },
+    {
+     "position": 72,
+     "label": "GND/VREF-",
+     "functions": []
+    },
+    {
+     "position": 73,
+     "label": "ADC A0",
+     "functions": [
+      "A0"
+     ]
+    },
+    {
+     "position": 74,
+     "label": "ADC A4",
+     "functions": [
+      "A4"
+     ]
+    },
+    {
+     "position": 75,
+     "label": "ADC A1",
+     "functions": [
+      "A1"
+     ]
+    },
+    {
+     "position": 76,
+     "label": "ADC A5",
+     "functions": [
+      "A5/DAC1"
+     ]
+    },
+    {
+     "position": 77,
+     "label": "ADC A2",
+     "functions": [
+      "A2"
+     ]
+    },
+    {
+     "position": 78,
+     "label": "ADC A6",
+     "functions": [
+      "A6/DAC0"
+     ]
+    },
+    {
+     "position": 79,
+     "label": "ADC A3",
+     "functions": [
+      "A3"
+     ]
+    },
+    {
+     "position": 80,
+     "label": "ADC A7",
+     "functions": []
+    }
+   ]
+  },
+  {
+   "id": "J1-img3",
+   "name": "J1 high-density connector",
+   "image": "media/d9836ac5ca07f9e704b087508293cc048e6651570f02086cc102507dc99d6515.png",
+   "rows": 2,
+   "orderNote": "Pin numbers printed (1-80, odd and even columns); position = printed pin number",
+   "pins": [
+    {
+     "position": 1,
+     "label": "ETH A+",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "ETH A-",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "ETH B+",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "ETH B-",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 11,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 12,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 13,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 14,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 15,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 16,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 17,
+     "label": "ETH L1",
+     "functions": []
+    },
+    {
+     "position": 18,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "ETH L2",
+     "functions": []
+    },
+    {
+     "position": 20,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 21,
+     "label": "VIN",
+     "functions": []
+    },
+    {
+     "position": 22,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 23,
+     "label": "VIN",
+     "functions": []
+    },
+    {
+     "position": 24,
+     "label": "USB0 VBUS",
+     "functions": []
+    },
+    {
+     "position": 25,
+     "label": "USB1 D+",
+     "functions": []
+    },
+    {
+     "position": 26,
+     "label": "USB0 D+",
+     "functions": []
+    },
+    {
+     "position": 27,
+     "label": "USB1 D-",
+     "functions": []
+    },
+    {
+     "position": 28,
+     "label": "USB0 D-",
+     "functions": []
+    },
+    {
+     "position": 29,
+     "label": "USB1 ID",
+     "functions": []
+    },
+    {
+     "position": 30,
+     "label": "USB0 ID",
+     "functions": []
+    },
+    {
+     "position": 31,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 32,
+     "label": "VIN",
+     "functions": []
+    },
+    {
+     "position": 33,
+     "label": "UART1 TX",
+     "functions": [
+      "D14"
+     ]
+    },
+    {
+     "position": 34,
+     "label": "UART0 TX",
+     "functions": [
+      "49"
+     ]
+    },
+    {
+     "position": 35,
+     "label": "UART1 RX",
+     "functions": [
+      "D13"
+     ]
+    },
+    {
+     "position": 36,
+     "label": "UART0 RX",
+     "functions": [
+      "50"
+     ]
+    },
+    {
+     "position": 37,
+     "label": "UART1 RTS",
+     "functions": [
+      "61"
+     ]
+    },
+    {
+     "position": 38,
+     "label": "UART0 RTS",
+     "functions": [
+      "51"
+     ]
+    },
+    {
+     "position": 39,
+     "label": "UART1 CTS",
+     "functions": [
+      "62"
+     ]
+    },
+    {
+     "position": 40,
+     "label": "UART0 CTS",
+     "functions": [
+      "52"
+     ]
+    },
+    {
+     "position": 41,
+     "label": "VIN",
+     "functions": []
+    },
+    {
+     "position": 42,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 43,
+     "label": "I2C1 SDA",
+     "functions": [
+      "37"
+     ]
+    },
+    {
+     "position": 44,
+     "label": "I2C0 SDA",
+     "functions": [
+      "D11"
+     ]
+    },
+    {
+     "position": 45,
+     "label": "I2C1 SD6",
+     "functions": [
+      "38"
+     ]
+    },
+    {
+     "position": 46,
+     "label": "I2C0 SCL",
+     "functions": [
+      "D12"
+     ]
+    },
+    {
+     "position": 47,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 48,
+     "label": "VIN",
+     "functions": []
+    },
+    {
+     "position": 49,
+     "label": "CAN1 TX",
+     "functions": [
+      "44"
+     ]
+    },
+    {
+     "position": 50,
+     "label": "CAN0 TX",
+     "functions": [
+      "42"
+     ]
+    },
+    {
+     "position": 51,
+     "label": "CAN1 RX",
+     "functions": [
+      "43"
+     ]
+    },
+    {
+     "position": 52,
+     "label": "CAN0 RX",
+     "functions": [
+      "41"
+     ]
+    },
+    {
+     "position": 53,
+     "label": "VSYS",
+     "functions": []
+    },
+    {
+     "position": 54,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 55,
+     "label": "SDC CLK",
+     "functions": [
+      "84"
+     ]
+    },
+    {
+     "position": 56,
+     "label": "I2S MCK",
+     "functions": [
+      "63"
+     ]
+    },
+    {
+     "position": 57,
+     "label": "SDC CMD",
+     "functions": [
+      "85"
+     ]
+    },
+    {
+     "position": 58,
+     "label": "I2S WS",
+     "functions": [
+      "64"
+     ]
+    },
+    {
+     "position": 59,
+     "label": "SDC D0",
+     "functions": [
+      "86"
+     ]
+    },
+    {
+     "position": 60,
+     "label": "I2S SDI",
+     "functions": [
+      "65"
+     ]
+    },
+    {
+     "position": 61,
+     "label": "SDC D1",
+     "functions": [
+      "87"
+     ]
+    },
+    {
+     "position": 62,
+     "label": "I2S SDO",
+     "functions": [
+      "66"
+     ]
+    },
+    {
+     "position": 63,
+     "label": "SDC D2",
+     "functions": [
+      "88"
+     ]
+    },
+    {
+     "position": 64,
+     "label": "VSYS",
+     "functions": []
+    },
+    {
+     "position": 65,
+     "label": "SDC D3",
+     "functions": [
+      "89"
+     ]
+    },
+    {
+     "position": 66,
+     "label": "82",
+     "functions": []
+    },
+    {
+     "position": 67,
+     "label": "SDC CD",
+     "functions": [
+      "90"
+     ]
+    },
+    {
+     "position": 68,
+     "label": "83",
+     "functions": []
+    },
+    {
+     "position": 69,
+     "label": "SDC WP",
+     "functions": [
+      "91"
+     ]
+    },
+    {
+     "position": 70,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 71,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 72,
+     "label": "V-SDCARD/+3V3_EXT",
+     "functions": []
+    },
+    {
+     "position": 73,
+     "label": "RESET",
+     "functions": []
+    },
+    {
+     "position": 74,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 75,
+     "label": "SWDIO",
+     "functions": []
+    },
+    {
+     "position": 76,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 77,
+     "label": "SCK",
+     "functions": []
+    },
+    {
+     "position": 78,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 79,
+     "label": "SWO",
+     "functions": []
+    },
+    {
+     "position": 80,
+     "label": "?",
+     "functions": []
+    }
+   ]
+  },
+  {
+   "id": "J2-img3",
+   "name": "J2 high-density connector",
+   "image": "media/d9836ac5ca07f9e704b087508293cc048e6651570f02086cc102507dc99d6515.png",
+   "rows": 2,
+   "orderNote": "Pin numbers printed (1-80, odd and even columns); position = printed pin number",
+   "pins": [
+    {
+     "position": 1,
+     "label": "BOOT",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "BT_SEL",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "76",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "PWRON",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "75",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "LICELL",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "73",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "72",
+     "functions": []
+    },
+    {
+     "position": 11,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 12,
+     "label": "71",
+     "functions": []
+    },
+    {
+     "position": 13,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 14,
+     "label": "67",
+     "functions": []
+    },
+    {
+     "position": 15,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 16,
+     "label": "74",
+     "functions": []
+    },
+    {
+     "position": 17,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 18,
+     "label": "68",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 20,
+     "label": "70",
+     "functions": []
+    },
+    {
+     "position": 21,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 22,
+     "label": "69",
+     "functions": []
+    },
+    {
+     "position": 23,
+     "label": "+3V3_EXT",
+     "functions": []
+    },
+    {
+     "position": 24,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 25,
+     "label": "UART3 TX",
+     "functions": [
+      "53"
+     ]
+    },
+    {
+     "position": 26,
+     "label": "UART2 TX",
+     "functions": [
+      "57"
+     ]
+    },
+    {
+     "position": 27,
+     "label": "UART3 RX",
+     "functions": [
+      "54"
+     ]
+    },
+    {
+     "position": 28,
+     "label": "UART2 RX",
+     "functions": [
+      "58"
+     ]
+    },
+    {
+     "position": 29,
+     "label": "UART3 RTS",
+     "functions": [
+      "55"
+     ]
+    },
+    {
+     "position": 30,
+     "label": "UART2 RTS",
+     "functions": [
+      "59"
+     ]
+    },
+    {
+     "position": 31,
+     "label": "UART3 CTS",
+     "functions": [
+      "56"
+     ]
+    },
+    {
+     "position": 32,
+     "label": "UART2 CTS",
+     "functions": [
+      "60"
+     ]
+    },
+    {
+     "position": 33,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 34,
+     "label": "+3V3_EXT",
+     "functions": []
+    },
+    {
+     "position": 35,
+     "label": "SPI0 CS",
+     "functions": [
+      "D7"
+     ]
+    },
+    {
+     "position": 36,
+     "label": "SPI1 CS",
+     "functions": [
+      "48"
+     ]
+    },
+    {
+     "position": 37,
+     "label": "SPI0 SCLK",
+     "functions": [
+      "D9"
+     ]
+    },
+    {
+     "position": 38,
+     "label": "SPI1 SCLK",
+     "functions": [
+      "47"
+     ]
+    },
+    {
+     "position": 39,
+     "label": "SPI0 CIPO",
+     "functions": [
+      "D10"
+     ]
+    },
+    {
+     "position": 40,
+     "label": "SPI1 CIPO",
+     "functions": [
+      "45"
+     ]
+    },
+    {
+     "position": 41,
+     "label": "SPI0 COPI",
+     "functions": [
+      "D8"
+     ]
+    },
+    {
+     "position": 42,
+     "label": "SPI1 COPI",
+     "functions": [
+      "46"
+     ]
+    },
+    {
+     "position": 43,
+     "label": "+3V3_EXT",
+     "functions": []
+    },
+    {
+     "position": 44,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 45,
+     "label": "I2C2 SDA",
+     "functions": [
+      "39"
+     ]
+    },
+    {
+     "position": 46,
+     "label": "GPIO 0",
+     "functions": [
+      "27"
+     ]
+    },
+    {
+     "position": 47,
+     "label": "I2C2 SCL",
+     "functions": [
+      "40"
+     ]
+    },
+    {
+     "position": 48,
+     "label": "GPIO 1",
+     "functions": [
+      "28"
+     ]
+    },
+    {
+     "position": 49,
+     "label": "78",
+     "functions": []
+    },
+    {
+     "position": 50,
+     "label": "GPIO 2",
+     "functions": [
+      "29"
+     ]
+    },
+    {
+     "position": 51,
+     "label": "79",
+     "functions": []
+    },
+    {
+     "position": 52,
+     "label": "GPIO 3",
+     "functions": [
+      "30"
+     ]
+    },
+    {
+     "position": 53,
+     "label": "80",
+     "functions": []
+    },
+    {
+     "position": 54,
+     "label": "GPIO 4",
+     "functions": [
+      "31"
+     ]
+    },
+    {
+     "position": 55,
+     "label": "81",
+     "functions": []
+    },
+    {
+     "position": 56,
+     "label": "GPIO 5",
+     "functions": [
+      "32"
+     ]
+    },
+    {
+     "position": 57,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 58,
+     "label": "GPIO 6",
+     "functions": [
+      "33"
+     ]
+    },
+    {
+     "position": 59,
+     "label": "PWM 0",
+     "functions": [
+      "D0~"
+     ]
+    },
+    {
+     "position": 60,
+     "label": "PWM 5",
+     "functions": [
+      "D5~"
+     ]
+    },
+    {
+     "position": 61,
+     "label": "PWM 1",
+     "functions": [
+      "D1~"
+     ]
+    },
+    {
+     "position": 62,
+     "label": "PWM 6",
+     "functions": [
+      "D6~"
+     ]
+    },
+    {
+     "position": 63,
+     "label": "PWM 2",
+     "functions": [
+      "D2~"
+     ]
+    },
+    {
+     "position": 64,
+     "label": "PWM 7",
+     "functions": [
+      "23"
+     ]
+    },
+    {
+     "position": 65,
+     "label": "PWM 3",
+     "functions": [
+      "D3~"
+     ]
+    },
+    {
+     "position": 66,
+     "label": "PWM 8",
+     "functions": [
+      "24"
+     ]
+    },
+    {
+     "position": 67,
+     "label": "PWM 4",
+     "functions": [
+      "D4~"
+     ]
+    },
+    {
+     "position": 68,
+     "label": "PWM 9",
+     "functions": [
+      "25"
+     ]
+    },
+    {
+     "position": 69,
+     "label": "+3V3_EXT",
+     "functions": []
+    },
+    {
+     "position": 70,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 71,
+     "label": "ADC VREF+",
+     "functions": []
+    },
+    {
+     "position": 72,
+     "label": "GND/VREF-",
+     "functions": []
+    },
+    {
+     "position": 73,
+     "label": "ADC A0",
+     "functions": [
+      "A0"
+     ]
+    },
+    {
+     "position": 74,
+     "label": "ADC A4",
+     "functions": [
+      "A4"
+     ]
+    },
+    {
+     "position": 75,
+     "label": "ADC A1",
+     "functions": [
+      "A1"
+     ]
+    },
+    {
+     "position": 76,
+     "label": "ADC A5",
+     "functions": [
+      "A5/DAC1"
+     ]
+    },
+    {
+     "position": 77,
+     "label": "ADC A2",
+     "functions": [
+      "A2"
+     ]
+    },
+    {
+     "position": 78,
+     "label": "ADC A6",
+     "functions": [
+      "A6/DAC0"
+     ]
+    },
+    {
+     "position": 79,
+     "label": "ADC A3",
+     "functions": [
+      "A3"
+     ]
+    },
+    {
+     "position": 80,
+     "label": "ADC A7",
+     "functions": []
+    }
+   ]
+  },
+  {
+   "id": "J1-img5",
+   "name": "J1 high-density connector",
+   "image": "media/d776b169c93aa79ac321043c643804a96292611a68ef919694cc81b78c73fad4.png",
+   "rows": 2,
+   "orderNote": "Pin numbers printed (1-80, odd and even columns); position = printed pin number",
+   "pins": [
+    {
+     "position": 1,
+     "label": "ETH A+",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "ETH A-",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "ETH B+",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "ETH B-",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 11,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 12,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 13,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 14,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 15,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 16,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 17,
+     "label": "ETH L1",
+     "functions": []
+    },
+    {
+     "position": 18,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "ETH L2",
+     "functions": []
+    },
+    {
+     "position": 20,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 21,
+     "label": "VIN",
+     "functions": []
+    },
+    {
+     "position": 22,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 23,
+     "label": "VIN",
+     "functions": []
+    },
+    {
+     "position": 24,
+     "label": "USB0 VBUS",
+     "functions": []
+    },
+    {
+     "position": 25,
+     "label": "USB1 D+",
+     "functions": []
+    },
+    {
+     "position": 26,
+     "label": "USB0 D+",
+     "functions": []
+    },
+    {
+     "position": 27,
+     "label": "USB1 D-",
+     "functions": []
+    },
+    {
+     "position": 28,
+     "label": "USB0 D-",
+     "functions": []
+    },
+    {
+     "position": 29,
+     "label": "USB1 ID",
+     "functions": []
+    },
+    {
+     "position": 30,
+     "label": "USB0 ID",
+     "functions": []
+    },
+    {
+     "position": 31,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 32,
+     "label": "VIN",
+     "functions": []
+    },
+    {
+     "position": 33,
+     "label": "UART1 TX",
+     "functions": [
+      "D14"
+     ]
+    },
+    {
+     "position": 34,
+     "label": "UART0 TX",
+     "functions": [
+      "49"
+     ]
+    },
+    {
+     "position": 35,
+     "label": "UART1 RX",
+     "functions": [
+      "D13"
+     ]
+    },
+    {
+     "position": 36,
+     "label": "UART0 RX",
+     "functions": [
+      "50"
+     ]
+    },
+    {
+     "position": 37,
+     "label": "UART1 RTS",
+     "functions": [
+      "61"
+     ]
+    },
+    {
+     "position": 38,
+     "label": "UART0 RTS",
+     "functions": [
+      "51"
+     ]
+    },
+    {
+     "position": 39,
+     "label": "UART1 CTS",
+     "functions": [
+      "62"
+     ]
+    },
+    {
+     "position": 40,
+     "label": "UART0 CTS",
+     "functions": [
+      "52"
+     ]
+    },
+    {
+     "position": 41,
+     "label": "VIN",
+     "functions": []
+    },
+    {
+     "position": 42,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 43,
+     "label": "I2C1 SDA",
+     "functions": [
+      "37"
+     ]
+    },
+    {
+     "position": 44,
+     "label": "I2C0 SDA",
+     "functions": [
+      "D11"
+     ]
+    },
+    {
+     "position": 45,
+     "label": "I2C1 SCL",
+     "functions": [
+      "38"
+     ]
+    },
+    {
+     "position": 46,
+     "label": "I2C0 SCL",
+     "functions": [
+      "D12"
+     ]
+    },
+    {
+     "position": 47,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 48,
+     "label": "VIN",
+     "functions": []
+    },
+    {
+     "position": 49,
+     "label": "CAN1 TX",
+     "functions": [
+      "44"
+     ]
+    },
+    {
+     "position": 50,
+     "label": "CAN0 TX",
+     "functions": [
+      "42"
+     ]
+    },
+    {
+     "position": 51,
+     "label": "CAN1 RX",
+     "functions": [
+      "43"
+     ]
+    },
+    {
+     "position": 52,
+     "label": "CAN0 RX",
+     "functions": [
+      "41"
+     ]
+    },
+    {
+     "position": 53,
+     "label": "VSYS",
+     "functions": []
+    },
+    {
+     "position": 54,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 55,
+     "label": "SDC CLK",
+     "functions": [
+      "84"
+     ]
+    },
+    {
+     "position": 56,
+     "label": "I2S MCK",
+     "functions": [
+      "63"
+     ]
+    },
+    {
+     "position": 57,
+     "label": "SDC CMD",
+     "functions": [
+      "85"
+     ]
+    },
+    {
+     "position": 58,
+     "label": "I2S WS",
+     "functions": [
+      "64"
+     ]
+    },
+    {
+     "position": 59,
+     "label": "SDC D0",
+     "functions": [
+      "86"
+     ]
+    },
+    {
+     "position": 60,
+     "label": "I2S SDI",
+     "functions": [
+      "65"
+     ]
+    },
+    {
+     "position": 61,
+     "label": "SDC D1",
+     "functions": [
+      "87"
+     ]
+    },
+    {
+     "position": 62,
+     "label": "I2S SDO",
+     "functions": [
+      "66"
+     ]
+    },
+    {
+     "position": 63,
+     "label": "SDC D2",
+     "functions": [
+      "88"
+     ]
+    },
+    {
+     "position": 64,
+     "label": "VSYS",
+     "functions": []
+    },
+    {
+     "position": 65,
+     "label": "SDC D3",
+     "functions": [
+      "89"
+     ]
+    },
+    {
+     "position": 66,
+     "label": "82",
+     "functions": []
+    },
+    {
+     "position": 67,
+     "label": "SDC CD",
+     "functions": [
+      "90"
+     ]
+    },
+    {
+     "position": 68,
+     "label": "83",
+     "functions": []
+    },
+    {
+     "position": 69,
+     "label": "SDC WP",
+     "functions": [
+      "91"
+     ]
+    },
+    {
+     "position": 70,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 71,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 72,
+     "label": "V-SDCARD/+3V3_EXT",
+     "functions": []
+    },
+    {
+     "position": 73,
+     "label": "RESET",
+     "functions": []
+    },
+    {
+     "position": 74,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 75,
+     "label": "SWDIO",
+     "functions": []
+    },
+    {
+     "position": 76,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 77,
+     "label": "SCK",
+     "functions": []
+    },
+    {
+     "position": 78,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 79,
+     "label": "SWO",
+     "functions": []
+    },
+    {
+     "position": 80,
+     "label": "?",
+     "functions": []
+    }
+   ]
+  },
+  {
+   "id": "J2-img5",
+   "name": "J2 high-density connector",
+   "image": "media/d776b169c93aa79ac321043c643804a96292611a68ef919694cc81b78c73fad4.png",
+   "rows": 2,
+   "orderNote": "Pin numbers printed (1-80, odd and even columns); position = printed pin number",
+   "pins": [
+    {
+     "position": 1,
+     "label": "BOOT",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "BT_SEL",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "76",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "PWRON",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "75",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "LICELL",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "73",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "72",
+     "functions": []
+    },
+    {
+     "position": 11,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 12,
+     "label": "71",
+     "functions": []
+    },
+    {
+     "position": 13,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 14,
+     "label": "67",
+     "functions": []
+    },
+    {
+     "position": 15,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 16,
+     "label": "74",
+     "functions": []
+    },
+    {
+     "position": 17,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 18,
+     "label": "68",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 20,
+     "label": "70",
+     "functions": []
+    },
+    {
+     "position": 21,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 22,
+     "label": "69",
+     "functions": []
+    },
+    {
+     "position": 23,
+     "label": "+3V3_EXT",
+     "functions": []
+    },
+    {
+     "position": 24,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 25,
+     "label": "UART3 TX",
+     "functions": [
+      "53"
+     ]
+    },
+    {
+     "position": 26,
+     "label": "UART2 TX",
+     "functions": [
+      "57"
+     ]
+    },
+    {
+     "position": 27,
+     "label": "UART3 RX",
+     "functions": [
+      "54"
+     ]
+    },
+    {
+     "position": 28,
+     "label": "UART2 RX",
+     "functions": [
+      "58"
+     ]
+    },
+    {
+     "position": 29,
+     "label": "UART3 RTS",
+     "functions": [
+      "55"
+     ]
+    },
+    {
+     "position": 30,
+     "label": "UART2 RTS",
+     "functions": [
+      "59"
+     ]
+    },
+    {
+     "position": 31,
+     "label": "UART3 CTS",
+     "functions": [
+      "56"
+     ]
+    },
+    {
+     "position": 32,
+     "label": "UART2 CTS",
+     "functions": [
+      "60"
+     ]
+    },
+    {
+     "position": 33,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 34,
+     "label": "+3V3_EXT",
+     "functions": []
+    },
+    {
+     "position": 35,
+     "label": "SPI0 CS",
+     "functions": [
+      "D7"
+     ]
+    },
+    {
+     "position": 36,
+     "label": "SPI1 CS",
+     "functions": [
+      "48"
+     ]
+    },
+    {
+     "position": 37,
+     "label": "SPI0 SCLK",
+     "functions": [
+      "D9"
+     ]
+    },
+    {
+     "position": 38,
+     "label": "SPI1 SCLK",
+     "functions": [
+      "47"
+     ]
+    },
+    {
+     "position": 39,
+     "label": "SPI0 CIPO",
+     "functions": [
+      "D10"
+     ]
+    },
+    {
+     "position": 40,
+     "label": "SPI1 CIPO",
+     "functions": [
+      "45"
+     ]
+    },
+    {
+     "position": 41,
+     "label": "SPI0 COPI",
+     "functions": [
+      "D8"
+     ]
+    },
+    {
+     "position": 42,
+     "label": "SPI1 COPI",
+     "functions": [
+      "46"
+     ]
+    },
+    {
+     "position": 43,
+     "label": "+3V3_EXT",
+     "functions": []
+    },
+    {
+     "position": 44,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 45,
+     "label": "I2C2 SDA",
+     "functions": [
+      "39"
+     ]
+    },
+    {
+     "position": 46,
+     "label": "GPIO 0",
+     "functions": [
+      "27"
+     ]
+    },
+    {
+     "position": 47,
+     "label": "I2C2 SCL",
+     "functions": [
+      "40"
+     ]
+    },
+    {
+     "position": 48,
+     "label": "GPIO 1",
+     "functions": [
+      "28"
+     ]
+    },
+    {
+     "position": 49,
+     "label": "78",
+     "functions": []
+    },
+    {
+     "position": 50,
+     "label": "GPIO 2",
+     "functions": [
+      "29"
+     ]
+    },
+    {
+     "position": 51,
+     "label": "79",
+     "functions": []
+    },
+    {
+     "position": 52,
+     "label": "GPIO 3",
+     "functions": [
+      "30"
+     ]
+    },
+    {
+     "position": 53,
+     "label": "80",
+     "functions": []
+    },
+    {
+     "position": 54,
+     "label": "GPIO 4",
+     "functions": [
+      "31"
+     ]
+    },
+    {
+     "position": 55,
+     "label": "81",
+     "functions": []
+    },
+    {
+     "position": 56,
+     "label": "GPIO 5",
+     "functions": [
+      "32"
+     ]
+    },
+    {
+     "position": 57,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 58,
+     "label": "GPIO 6",
+     "functions": [
+      "33"
+     ]
+    },
+    {
+     "position": 59,
+     "label": "PWM 0",
+     "functions": [
+      "D0~"
+     ]
+    },
+    {
+     "position": 60,
+     "label": "PWM 5",
+     "functions": [
+      "D5~"
+     ]
+    },
+    {
+     "position": 61,
+     "label": "PWM 1",
+     "functions": [
+      "D1~"
+     ]
+    },
+    {
+     "position": 62,
+     "label": "PWM 6",
+     "functions": [
+      "D6~"
+     ]
+    },
+    {
+     "position": 63,
+     "label": "PWM 2",
+     "functions": [
+      "D2~"
+     ]
+    },
+    {
+     "position": 64,
+     "label": "PWM 7",
+     "functions": [
+      "23"
+     ]
+    },
+    {
+     "position": 65,
+     "label": "PWM 3",
+     "functions": [
+      "D3~"
+     ]
+    },
+    {
+     "position": 66,
+     "label": "PWM 8",
+     "functions": [
+      "24"
+     ]
+    },
+    {
+     "position": 67,
+     "label": "PWM 4",
+     "functions": [
+      "D4~"
+     ]
+    },
+    {
+     "position": 68,
+     "label": "PWM 9",
+     "functions": [
+      "25"
+     ]
+    },
+    {
+     "position": 69,
+     "label": "+3V3_EXT",
+     "functions": []
+    },
+    {
+     "position": 70,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 71,
+     "label": "ADC VREF+",
+     "functions": []
+    },
+    {
+     "position": 72,
+     "label": "GND/VREF-",
+     "functions": []
+    },
+    {
+     "position": 73,
+     "label": "ADC A0",
+     "functions": [
+      "A0"
+     ]
+    },
+    {
+     "position": 74,
+     "label": "ADC A4",
+     "functions": [
+      "A4"
+     ]
+    },
+    {
+     "position": 75,
+     "label": "ADC A1",
+     "functions": [
+      "A1"
+     ]
+    },
+    {
+     "position": 76,
+     "label": "ADC A5",
+     "functions": [
+      "A5/DAC1"
+     ]
+    },
+    {
+     "position": 77,
+     "label": "ADC A2",
+     "functions": [
+      "A2"
+     ]
+    },
+    {
+     "position": 78,
+     "label": "ADC A6",
+     "functions": [
+      "A6/DAC0"
+     ]
+    },
+    {
+     "position": 79,
+     "label": "ADC A3",
+     "functions": [
+      "A3"
+     ]
+    },
+    {
+     "position": 80,
+     "label": "ADC A7",
+     "functions": []
+    }
+   ]
+  },
+  {
+   "id": "left-pads-img2",
+   "name": "Left castellated edge (top view)",
+   "image": "media/a8db52161884c4dd15b5954f5fb3d3ae359ba1664da09f09f88bc3c046fa623e.png",
+   "rows": 1,
+   "orderNote": "No pin numbers; USB connector at top of image, start at USB end (top)",
+   "pins": [
+    {
+     "position": 1,
+     "label": "AREF",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "P006",
+     "functions": [
+      "A0",
+      "J2-73",
+      "AN006"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "P005",
+     "functions": [
+      "A1",
+      "J2-75",
+      "AN005"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "P004",
+     "functions": [
+      "A2",
+      "J2-77",
+      "AN004"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "P002",
+     "functions": [
+      "A3",
+      "J2-79",
+      "AN002"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "P001",
+     "functions": [
+      "A4",
+      "J2-74",
+      "AN001"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "P015",
+     "functions": [
+      "A5",
+      "J2-76",
+      "AN013"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "P014",
+     "functions": [
+      "A6",
+      "J2-78",
+      "AN012"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "P105",
+     "functions": [
+      "D0~",
+      "J2-59"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "P106",
+     "functions": [
+      "D1~",
+      "J2-61"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "P111",
+     "functions": [
+      "D2~",
+      "J2-63"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "P303",
+     "functions": [
+      "D3~",
+      "J2-65"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "P401",
+     "functions": [
+      "D4~",
+      "J2-67"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "P210",
+     "functions": [
+      "D5~",
+      "J2-60"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "right-pads-img2",
+   "name": "Right castellated edge (top view)",
+   "image": "media/a8db52161884c4dd15b5954f5fb3d3ae359ba1664da09f09f88bc3c046fa623e.png",
+   "rows": 1,
+   "orderNote": "No pin numbers; USB connector at top of image, start at USB end (top)",
+   "pins": [
+    {
+     "position": 1,
+     "label": "+5V",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "VIN",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "+3V3_EXT",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "RESET",
+     "functions": [
+      "NRST"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "P602",
+     "functions": [
+      "D14/TX",
+      "J1-33",
+      "SCI_TXD9"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "P110",
+     "functions": [
+      "D13/RX",
+      "J1-35",
+      "SCI_RXD9"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "P408",
+     "functions": [
+      "D12",
+      "J1-46",
+      "IIC_SCL0"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "P407",
+     "functions": [
+      "D11",
+      "J1-44",
+      "IIC_SDA0"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "P315",
+     "functions": [
+      "D10/CIPO",
+      "J2-39",
+      "SCI_RXD4"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "P204",
+     "functions": [
+      "D9/SCLK",
+      "J2-37",
+      "SCI_SCK4"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "P900",
+     "functions": [
+      "D8/COPI",
+      "J2-41",
+      "SCI_TXD4"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "P402",
+     "functions": [
+      "D7/CS",
+      "J2-35",
+      "SCI_CTS4"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "P601",
+     "functions": [
+      "~D6",
+      "J2-62"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "i2c-connector-img2",
+   "name": "5-pin I2C connector next to USB",
+   "image": "media/a8db52161884c4dd15b5954f5fb3d3ae359ba1664da09f09f88bc3c046fa623e.png",
+   "rows": 1,
+   "orderNote": "No pin numbers; order top to bottom as wired in drawing (USB end first)",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "P407",
+     "functions": [
+      "SDA",
+      "J1-44",
+      "IIC_SDA0"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "P408",
+     "functions": [
+      "SCL",
+      "J1-46",
+      "IIC_SCL0"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "P402",
+     "functions": [
+      "INT/CS",
+      "J2-35",
+      "SCI_CTS4"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "+5V",
+     "functions": []
+    }
+   ]
+  },
+  {
+   "id": "left-pads-img4",
+   "name": "Left castellated edge (top view)",
+   "image": "media/86574c9189c19e7669eb9adb03fd58eb4745603ad9b9c4b70f29a051ab92fce7.png",
+   "rows": 1,
+   "orderNote": "No pin numbers; USB connector at top of image, start at USB end (top)",
+   "pins": [
+    {
+     "position": 1,
+     "label": "AREF",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "P006",
+     "functions": [
+      "A0",
+      "J2-73",
+      "AN006"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "P005",
+     "functions": [
+      "A1",
+      "J2-75",
+      "AN005"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "P004",
+     "functions": [
+      "A2",
+      "J2-77",
+      "AN004"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "P002",
+     "functions": [
+      "A3",
+      "J2-79",
+      "AN002"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "P001",
+     "functions": [
+      "A4",
+      "J2-74",
+      "AN001"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "P015",
+     "functions": [
+      "A5",
+      "J2-76",
+      "AN013"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "P014",
+     "functions": [
+      "A6",
+      "J2-78",
+      "AN012"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "P105",
+     "functions": [
+      "D0~",
+      "J2-59"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "P106",
+     "functions": [
+      "D1~",
+      "J2-61"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "P111",
+     "functions": [
+      "D2~",
+      "J2-63"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "P303",
+     "functions": [
+      "D3~",
+      "J2-65"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "P401",
+     "functions": [
+      "D4~",
+      "J2-67"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "P210",
+     "functions": [
+      "D5~",
+      "J2-60"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "right-pads-img4",
+   "name": "Right castellated edge (top view)",
+   "image": "media/86574c9189c19e7669eb9adb03fd58eb4745603ad9b9c4b70f29a051ab92fce7.png",
+   "rows": 1,
+   "orderNote": "No pin numbers; USB connector at top of image, start at USB end (top)",
+   "pins": [
+    {
+     "position": 1,
+     "label": "+5V",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "VIN",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "+3V3_EXT",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "RESET",
+     "functions": [
+      "NRST"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "P602",
+     "functions": [
+      "D14/TX",
+      "J1-33",
+      "SCI_TXD9"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "P110",
+     "functions": [
+      "D13/RX",
+      "J1-35",
+      "SCI_RXD9"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "P408",
+     "functions": [
+      "D12",
+      "J1-46",
+      "IIC_SCL0"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "P407",
+     "functions": [
+      "D11",
+      "J1-44",
+      "IIC_SDA0"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "P315",
+     "functions": [
+      "D10/CIPO",
+      "J2-39",
+      "SCI_RXD4"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "P204",
+     "functions": [
+      "D9/SCLK",
+      "J2-37",
+      "SCI_SCK4"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "P900",
+     "functions": [
+      "D8/COPI",
+      "J2-41",
+      "SCI_TXD4"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "P402",
+     "functions": [
+      "D7/CS",
+      "J2-35",
+      "SCI_CTS4"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "P601",
+     "functions": [
+      "~D6",
+      "J2-62"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "i2c-connector-img4",
+   "name": "5-pin I2C connector next to USB",
+   "image": "media/86574c9189c19e7669eb9adb03fd58eb4745603ad9b9c4b70f29a051ab92fce7.png",
+   "rows": 1,
+   "orderNote": "No pin numbers; order top to bottom as wired in drawing (USB end first)",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "P407",
+     "functions": [
+      "SDA",
+      "J1-44",
+      "IIC_SDA0"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "P408",
+     "functions": [
+      "SCL",
+      "J1-46",
+      "IIC_SCL0"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "P402",
+     "functions": [
+      "INT/CS",
+      "J2-35",
+      "SCI_CTS4"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "+5V",
+     "functions": []
+    }
+   ]
+  },
+  {
+   "id": "J1-img6",
+   "name": "J1 high-density connector, odd pins page",
+   "image": "media/077a4b0df944c6af38600fac4d67ba5eadbca11de314ce7a10d4470093338c92.png",
+   "rows": 2,
+   "orderNote": "Pin numbers printed (1-80, odd and even columns); position = printed pin number; only odd pins labeled on this page",
+   "pins": [
+    {
+     "position": 1,
+     "label": "ETH A+",
+     "functions": [
+      "TXP"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "ETH A-",
+     "functions": [
+      "TXN"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "ETH B+",
+     "functions": [
+      "RXP"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "ETH B-",
+     "functions": [
+      "RXN"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 11,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 12,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 13,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 14,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 15,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 16,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 17,
+     "label": "ETH L1",
+     "functions": [
+      "LED1"
+     ]
+    },
+    {
+     "position": 18,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "ETH L2",
+     "functions": [
+      "LED2"
+     ]
+    },
+    {
+     "position": 20,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 21,
+     "label": "VIN",
+     "functions": []
+    },
+    {
+     "position": 22,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 23,
+     "label": "VIN",
+     "functions": [
+      "PB01"
+     ]
+    },
+    {
+     "position": 24,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 25,
+     "label": "USB1 D+",
+     "functions": [
+      "USBHS_DP"
+     ]
+    },
+    {
+     "position": 26,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 27,
+     "label": "USB1 D-",
+     "functions": [
+      "USBHS_DM"
+     ]
+    },
+    {
+     "position": 28,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 29,
+     "label": "P907",
+     "functions": [
+      "USB1 ID",
+      "IRQ10"
+     ]
+    },
+    {
+     "position": 30,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 31,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 32,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 33,
+     "label": "P602",
+     "functions": [
+      "UART1 TX",
+      "D14",
+      "SCI_TXD9",
+      "GTIOC7B",
+      "AGTO3"
+     ]
+    },
+    {
+     "position": 34,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 35,
+     "label": "P110",
+     "functions": [
+      "UART1 RX",
+      "D13",
+      "SCI_RXD9",
+      "IRQ3",
+      "GTOVLO/GTIOC1B",
+      "AGTEE3"
+     ]
+    },
+    {
+     "position": 36,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 37,
+     "label": "P603",
+     "functions": [
+      "UART1 RTS",
+      "61",
+      "SCI_RTS9",
+      "GTIOC7A",
+      "AGTIO4"
+     ]
+    },
+    {
+     "position": 38,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 39,
+     "label": "P604",
+     "functions": [
+      "UART1 CTS",
+      "62",
+      "SCI_CTS9",
+      "GTIOC8B",
+      "AGTEE4"
+     ]
+    },
+    {
+     "position": 40,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 41,
+     "label": "VIN",
+     "functions": []
+    },
+    {
+     "position": 42,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 43,
+     "label": "P511",
+     "functions": [
+      "I2C1 SDA",
+      "37",
+      "IIC_SDA1",
+      "IRQ15",
+      "GTIOC0B"
+     ]
+    },
+    {
+     "position": 44,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 45,
+     "label": "P512",
+     "functions": [
+      "I2C1 SCL",
+      "38",
+      "IIC_SCL1",
+      "IRQ14",
+      "GTIOC0A"
+     ]
+    },
+    {
+     "position": 46,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 47,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 48,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 49,
+     "label": "P609",
+     "functions": [
+      "CAN1 TX",
+      "44",
+      "CTX1",
+      "GTIOC5A",
+      "AGTO5"
+     ]
+    },
+    {
+     "position": 50,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 51,
+     "label": "P610",
+     "functions": [
+      "CAN1 RX",
+      "43",
+      "CRX1",
+      "GTIOC5B",
+      "AGTO4"
+     ]
+    },
+    {
+     "position": 52,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 53,
+     "label": "VSYS",
+     "functions": []
+    },
+    {
+     "position": 54,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 55,
+     "label": "P413",
+     "functions": [
+      "SDC CLK",
+      "84",
+      "SD0CLK_A",
+      "GTOUUP",
+      "AGTEE3"
+     ]
+    },
+    {
+     "position": 56,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 57,
+     "label": "P412",
+     "functions": [
+      "SDC CMD",
+      "85",
+      "SD0CMD_A",
+      "GTOULO",
+      "AGTEE1"
+     ]
+    },
+    {
+     "position": 58,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 59,
+     "label": "P411",
+     "functions": [
+      "SDC D0",
+      "86",
+      "SD0DAT0_A",
+      "IRQ4",
+      "GTOVUP/GTIOC9A",
+      "AGTOA1"
+     ]
+    },
+    {
+     "position": 60,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 61,
+     "label": "P410",
+     "functions": [
+      "SDC D1",
+      "87",
+      "SD0DAT1_A",
+      "IRQ4",
+      "GTOVLO/GTIOC9B",
+      "AGTB1"
+     ]
+    },
+    {
+     "position": 62,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 63,
+     "label": "P206",
+     "functions": [
+      "SDC D2",
+      "88",
+      "SD0DAT2_A",
+      "IRQ0-DS",
+      "GTIU"
+     ]
+    },
+    {
+     "position": 64,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 65,
+     "label": "P205",
+     "functions": [
+      "SDC D3",
+      "89",
+      "SD0DAT3_A",
+      "IRQ1-DS",
+      "GTIV/GTIOC4A",
+      "AGTO1",
+      "CLKOUT"
+     ]
+    },
+    {
+     "position": 66,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 67,
+     "label": "P415",
+     "functions": [
+      "SDC CD",
+      "90",
+      "SD0CD",
+      "IRQ8",
+      "GTIOC0A",
+      "AGTIO4"
+     ]
+    },
+    {
+     "position": 68,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 69,
+     "label": "P414",
+     "functions": [
+      "SDC WP",
+      "91",
+      "SD0WP",
+      "IRQ9",
+      "GTIOC0B",
+      "AGTIO5"
+     ]
+    },
+    {
+     "position": 70,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 71,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 72,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 73,
+     "label": "RESET",
+     "functions": []
+    },
+    {
+     "position": 74,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 75,
+     "label": "P108",
+     "functions": [
+      "SWDIO",
+      "GTOULO/GTIOC0B",
+      "AGTOA3"
+     ]
+    },
+    {
+     "position": 76,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 77,
+     "label": "P300",
+     "functions": [
+      "SCK",
+      "SWCLK",
+      "GTOUUP/GTIOC0A"
+     ]
+    },
+    {
+     "position": 78,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 79,
+     "label": "P109",
+     "functions": [
+      "SWO",
+      "GTOVUP/GTIOC1A",
+      "AGTOB3",
+      "CLKOUT"
+     ]
+    },
+    {
+     "position": 80,
+     "label": "?",
+     "functions": []
+    }
+   ]
+  },
+  {
+   "id": "J1-img7",
+   "name": "J1 high-density connector, even pins page",
+   "image": "media/d08de749d248ad065eed7ff4346f66b541c13d33cebc2daafbbc5fbe6763b28a.png",
+   "rows": 2,
+   "orderNote": "Pin numbers printed (1-80, odd and even columns); position = printed pin number; only even pins labeled on this page",
+   "pins": [
+    {
+     "position": 1,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 11,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 12,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 13,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 14,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 15,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 16,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 17,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 18,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 20,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 21,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 22,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 23,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 24,
+     "label": "P501",
+     "functions": [
+      "USB0 VBUS",
+      "IRQ11",
+      "GTIV",
+      "AGTOB0"
+     ]
+    },
+    {
+     "position": 25,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 26,
+     "label": "USB0 D+",
+     "functions": [
+      "USB_DP"
+     ]
+    },
+    {
+     "position": 27,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 28,
+     "label": "USB0 D-",
+     "functions": [
+      "USB_DM"
+     ]
+    },
+    {
+     "position": 29,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 30,
+     "label": "P905",
+     "functions": [
+      "USB0 ID",
+      "IRQ8"
+     ]
+    },
+    {
+     "position": 31,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 32,
+     "label": "VIN",
+     "functions": []
+    },
+    {
+     "position": 33,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 34,
+     "label": "P613",
+     "functions": [
+      "UART0 TX",
+      "49",
+      "SCI_TXD7",
+      "AGTO1"
+     ]
+    },
+    {
+     "position": 35,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 36,
+     "label": "P614",
+     "functions": [
+      "UART0 RX",
+      "50",
+      "SCI_RXD7",
+      "AGTO0"
+     ]
+    },
+    {
+     "position": 37,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 38,
+     "label": "P611",
+     "functions": [
+      "UART0 RTS",
+      "51",
+      "SCI_RTS7",
+      "AGTO3"
+     ]
+    },
+    {
+     "position": 39,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 40,
+     "label": "P404",
+     "functions": [
+      "UART0 CTS",
+      "52",
+      "SCI_CTS7",
+      "IRQ15-DS",
+      "GTIOC3B",
+      "AGTIO0_G/AGTIO1/AGTIO2/AGTIO3",
+      "RTCIC2"
+     ]
+    },
+    {
+     "position": 41,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 42,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 43,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 44,
+     "label": "P407",
+     "functions": [
+      "I2C0 SDA",
+      "D11",
+      "IIC_SDA0",
+      "ADTRG0",
+      "GTIOC6A",
+      "AGTIO0",
+      "RTCOUT"
+     ]
+    },
+    {
+     "position": 45,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 46,
+     "label": "P408",
+     "functions": [
+      "I2C0 SCL",
+      "D12",
+      "IIC_SCL0",
+      "IRQ7",
+      "GTOWLO/GTIOC6B",
+      "AGTOB2"
+     ]
+    },
+    {
+     "position": 47,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 48,
+     "label": "VIN",
+     "functions": []
+    },
+    {
+     "position": 49,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 50,
+     "label": "P203",
+     "functions": [
+      "CAN0 TX",
+      "42",
+      "CTX0",
+      "IRQ2-DS",
+      "GTIOC5A",
+      "AGTOA3"
+     ]
+    },
+    {
+     "position": 51,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 52,
+     "label": "P202",
+     "functions": [
+      "CAN0 RX",
+      "41",
+      "CRX0",
+      "IRQ3-DS",
+      "GTIOC5B",
+      "AGTOB3"
+     ]
+    },
+    {
+     "position": 53,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 54,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 55,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 56,
+     "label": "P112",
+     "functions": [
+      "I2S MCK",
+      "63",
+      "SIBCK0_B",
+      "GTIOC3B",
+      "AGTOB5"
+     ]
+    },
+    {
+     "position": 57,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 58,
+     "label": "P113",
+     "functions": [
+      "I2S WS",
+      "64",
+      "SSILRCK0/SSIFS0_B",
+      "GTIOC2A",
+      "AGTEE5"
+     ]
+    },
+    {
+     "position": 59,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 60,
+     "label": "P114",
+     "functions": [
+      "I2S SDI",
+      "65",
+      "SSIRXD0_B",
+      "GTIOC2B",
+      "AGTIO5"
+     ]
+    },
+    {
+     "position": 61,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 62,
+     "label": "P115",
+     "functions": [
+      "I2S SDO",
+      "66",
+      "SSITXD0_B",
+      "GTIOC4A"
+     ]
+    },
+    {
+     "position": 63,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 64,
+     "label": "VSYS",
+     "functions": []
+    },
+    {
+     "position": 65,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 66,
+     "label": "P007",
+     "functions": [
+      "82"
+     ]
+    },
+    {
+     "position": 67,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 68,
+     "label": "P008",
+     "functions": [
+      "83",
+      "IRQ12-DS"
+     ]
+    },
+    {
+     "position": 69,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 70,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 71,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 72,
+     "label": "V-SDCARD/+3V3_EXT",
+     "functions": []
+    },
+    {
+     "position": 73,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 74,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 75,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 76,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 77,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 78,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 79,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 80,
+     "label": "?",
+     "functions": []
+    }
+   ]
+  },
+  {
+   "id": "J2-img8",
+   "name": "J2 high-density connector, even pins page",
+   "image": "media/93b110cc793d08454f57941e2f0e8f58f33d22561ec27ad4ca153961e4099f62.png",
+   "rows": 2,
+   "orderNote": "Pin numbers printed (1-80, odd and even columns); position = printed pin number; only even pins labeled on this page",
+   "pins": [
+    {
+     "position": 1,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "PA10",
+     "functions": [
+      "IRQ4"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "PA09",
+     "functions": [
+      "76",
+      "IRQ5"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "PA08",
+     "functions": [
+      "75",
+      "IRQ6"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "P314",
+     "functions": [
+      "73"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "P313",
+     "functions": [
+      "72"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 12,
+     "label": "P312",
+     "functions": [
+      "71",
+      "AGTOA1"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 14,
+     "label": "P908",
+     "functions": [
+      "67",
+      "IRQ11"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 16,
+     "label": "PA01",
+     "functions": [
+      "74"
+     ]
+    },
+    {
+     "position": 17,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 18,
+     "label": "P403",
+     "functions": [
+      "68",
+      "IRQ14-DS",
+      "GTIOC3A",
+      "AGTIO0/AGTIO1/AGTIO2/AGTIO3",
+      "RTCIC1"
+     ]
+    },
+    {
+     "position": 19,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 20,
+     "label": "P612",
+     "functions": [
+      "70",
+      "AGTO2"
+     ]
+    },
+    {
+     "position": 21,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 22,
+     "label": "P901",
+     "functions": [
+      "69",
+      "AGTIO1_E"
+     ]
+    },
+    {
+     "position": 23,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 24,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 25,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 26,
+     "label": "P805",
+     "functions": [
+      "UART2 TX",
+      "57",
+      "SCI_TXD5"
+     ]
+    },
+    {
+     "position": 27,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 28,
+     "label": "P513",
+     "functions": [
+      "UART2 RX",
+      "58",
+      "SCI_RXD5"
+     ]
+    },
+    {
+     "position": 29,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 30,
+     "label": "P508",
+     "functions": [
+      "UART2 RTS",
+      "59",
+      "SCI_RTS5"
+     ]
+    },
+    {
+     "position": 31,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 32,
+     "label": "P500",
+     "functions": [
+      "UART2 CTS",
+      "60",
+      "SCI_CTS5",
+      "GTIU",
+      "AGTOA0"
+     ]
+    },
+    {
+     "position": 33,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 34,
+     "label": "+3V3_EXT",
+     "functions": []
+    },
+    {
+     "position": 35,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 36,
+     "label": "P103",
+     "functions": [
+      "SPI1 CS",
+      "48",
+      "SPI_CSLB0",
+      "GTOWUP/GTIOC2A",
+      "AGTIO2"
+     ]
+    },
+    {
+     "position": 37,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 38,
+     "label": "P102",
+     "functions": [
+      "SPI1 SCLK",
+      "47",
+      "SPI_RSPCKB",
+      "GTOWLO/GTIOC2B",
+      "AGTO0"
+     ]
+    },
+    {
+     "position": 39,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 40,
+     "label": "P100",
+     "functions": [
+      "SPI1 CIPO",
+      "45",
+      "SPI_CIPOB",
+      "IRQ2",
+      "GTETRGA/GTIOC5B",
+      "AGTIO0"
+     ]
+    },
+    {
+     "position": 41,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 42,
+     "label": "P101",
+     "functions": [
+      "SPI1 COPI",
+      "46",
+      "SPI_COPIB",
+      "IRQ1",
+      "GTETRGB/GTIOC5A",
+      "AGTEE0"
+     ]
+    },
+    {
+     "position": 43,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 44,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 45,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 46,
+     "label": "P009",
+     "functions": [
+      "GPIO 0",
+      "27",
+      "IRQ13-DS"
+     ]
+    },
+    {
+     "position": 47,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 48,
+     "label": "P409",
+     "functions": [
+      "GPIO 1",
+      "28",
+      "IRQ6",
+      "GTOWUP",
+      "AGTOA2"
+     ]
+    },
+    {
+     "position": 49,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 50,
+     "label": "P505",
+     "functions": [
+      "GPIO 2",
+      "29",
+      "IRQ14",
+      "AGTOB3"
+     ]
+    },
+    {
+     "position": 51,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 52,
+     "label": "P706",
+     "functions": [
+      "GPIO 3",
+      "30",
+      "IRQ7"
+     ]
+    },
+    {
+     "position": 53,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 54,
+     "label": "P707",
+     "functions": [
+      "GPIO 4",
+      "31",
+      "IRQ8"
+     ]
+    },
+    {
+     "position": 55,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 56,
+     "label": "P708",
+     "functions": [
+      "GPIO 5",
+      "32",
+      "IRQ11"
+     ]
+    },
+    {
+     "position": 57,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 58,
+     "label": "P802",
+     "functions": [
+      "GPIO 6",
+      "33",
+      "IRQ3"
+     ]
+    },
+    {
+     "position": 59,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 60,
+     "label": "P210",
+     "functions": [
+      "PWM 5",
+      "D5~",
+      "GTIW",
+      "AGTOB5"
+     ]
+    },
+    {
+     "position": 61,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 62,
+     "label": "P601",
+     "functions": [
+      "PWM 6",
+      "D6~",
+      "GTIOC6A",
+      "AGTEE3"
+     ]
+    },
+    {
+     "position": 63,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 64,
+     "label": "P605",
+     "functions": [
+      "PWM 7",
+      "23",
+      "GTIOC8A",
+      "AGTO4"
+     ]
+    },
+    {
+     "position": 65,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 66,
+     "label": "P608",
+     "functions": [
+      "PWM 8",
+      "24",
+      "GTIOC4B"
+     ]
+    },
+    {
+     "position": 67,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 68,
+     "label": "P311",
+     "functions": [
+      "PWM 9",
+      "25",
+      "AGTOB1"
+     ]
+    },
+    {
+     "position": 69,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 70,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 71,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 72,
+     "label": "GND/VREF-",
+     "functions": []
+    },
+    {
+     "position": 73,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 74,
+     "label": "P001",
+     "functions": [
+      "ADC A4",
+      "A4",
+      "IRQ7-DS",
+      "AN001"
+     ]
+    },
+    {
+     "position": 75,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 76,
+     "label": "P015",
+     "functions": [
+      "ADC A5",
+      "A5/DAC1",
+      "IRQ13",
+      "AN013"
+     ]
+    },
+    {
+     "position": 77,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 78,
+     "label": "P014",
+     "functions": [
+      "ADC A6",
+      "A6/DAC0",
+      "AN012"
+     ]
+    },
+    {
+     "position": 79,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 80,
+     "label": "P000",
+     "functions": [
+      "ADC A7",
+      "IRQ6-DS",
+      "AN000"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "J2-img9",
+   "name": "J2 high-density connector, odd pins page",
+   "image": "media/1fd72c8b498bc7602ccd858372147a1d4f447afa580abfb0ab1d2028a06eb694.png",
+   "rows": 2,
+   "orderNote": "Pin numbers printed (1-80, odd and even columns); position = printed pin number; only odd pins labeled on this page",
+   "pins": [
+    {
+     "position": 1,
+     "label": "P201/MD",
+     "functions": [
+      "BOOT"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "P207",
+     "functions": [
+      "BT_SEL"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "PWRON",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "LICELL",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 11,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 12,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 13,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 14,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 15,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 16,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 17,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 18,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 20,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 21,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 22,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 23,
+     "label": "+3V3_EXT",
+     "functions": []
+    },
+    {
+     "position": 24,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 25,
+     "label": "P506",
+     "functions": [
+      "UART3 TX",
+      "53",
+      "SCI_TXD6",
+      "IRQ15"
+     ]
+    },
+    {
+     "position": 26,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 27,
+     "label": "P304",
+     "functions": [
+      "UART3 RX",
+      "54",
+      "SCI_RXD6",
+      "IRQ9",
+      "GTOWLO/GTIOC7A",
+      "AGTEE2"
+     ]
+    },
+    {
+     "position": 28,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 29,
+     "label": "P503",
+     "functions": [
+      "UART3 RTS",
+      "55",
+      "SCI_RTS6",
+      "GTETRGC",
+      "AGTOB2"
+     ]
+    },
+    {
+     "position": 30,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 31,
+     "label": "P502",
+     "functions": [
+      "UART3 CTS",
+      "56",
+      "SCI_CTS6",
+      "IRQ12",
+      "GTIW",
+      "AGTOA2"
+     ]
+    },
+    {
+     "position": 32,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 33,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 34,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 35,
+     "label": "P402",
+     "functions": [
+      "SPI0 CS",
+      "D7",
+      "SCI_CTS4",
+      "IRQ4-DS",
+      "AGTIO0/AGTIO1/AGTIO2/AGTIO3",
+      "RTCIC0"
+     ]
+    },
+    {
+     "position": 36,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 37,
+     "label": "P204",
+     "functions": [
+      "SPI0 SCLK",
+      "D9",
+      "SCI_SCK4",
+      "GTIW/GTIOC4B",
+      "AGTIO1"
+     ]
+    },
+    {
+     "position": 38,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 39,
+     "label": "P315",
+     "functions": [
+      "SPI0 CIPO",
+      "D10",
+      "SCI_RXD4"
+     ]
+    },
+    {
+     "position": 40,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 41,
+     "label": "P900",
+     "functions": [
+      "SPI0 COPI",
+      "D8",
+      "SCI_TXD4"
+     ]
+    },
+    {
+     "position": 42,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 43,
+     "label": "+3V3_EXT",
+     "functions": []
+    },
+    {
+     "position": 44,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 45,
+     "label": "P302",
+     "functions": [
+      "I2C2 SDA",
+      "39",
+      "SCI_SDA2",
+      "IRQ5",
+      "GTOUUP/GTIOC4A"
+     ]
+    },
+    {
+     "position": 46,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 47,
+     "label": "P301",
+     "functions": [
+      "I2C2 SCL",
+      "40",
+      "SCI_SCL2",
+      "IRQ6",
+      "GTOULO/GTIOC4B",
+      "AGTIO0"
+     ]
+    },
+    {
+     "position": 48,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 49,
+     "label": "P507",
+     "functions": [
+      "78"
+     ]
+    },
+    {
+     "position": 50,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 51,
+     "label": "PB00",
+     "functions": [
+      "79"
+     ]
+    },
+    {
+     "position": 52,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 53,
+     "label": "P615",
+     "functions": [
+      "80",
+      "IRQ7"
+     ]
+    },
+    {
+     "position": 54,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 55,
+     "label": "P003",
+     "functions": [
+      "81"
+     ]
+    },
+    {
+     "position": 56,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 57,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 58,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 59,
+     "label": "P105",
+     "functions": [
+      "PWM 0",
+      "D0~",
+      "IRQ0",
+      "GTETRGA/GTIOC1A",
+      "AGTO2"
+     ]
+    },
+    {
+     "position": 60,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 61,
+     "label": "P106",
+     "functions": [
+      "PWM 1",
+      "D1~",
+      "GTIOC8B",
+      "AGTOB0"
+     ]
+    },
+    {
+     "position": 62,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 63,
+     "label": "P111",
+     "functions": [
+      "PWM 2",
+      "D2~",
+      "IRQ4",
+      "GTIOC3A",
+      "AGTOA5"
+     ]
+    },
+    {
+     "position": 64,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 65,
+     "label": "P303",
+     "functions": [
+      "PWM 3",
+      "D3~",
+      "GTIOC7B"
+     ]
+    },
+    {
+     "position": 66,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 67,
+     "label": "P401",
+     "functions": [
+      "PWM 4",
+      "D4~",
+      "IRQ5-DS",
+      "GTETRGA/GTIOC6B"
+     ]
+    },
+    {
+     "position": 68,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 69,
+     "label": "+3V3_EXT",
+     "functions": []
+    },
+    {
+     "position": 70,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 71,
+     "label": "ADC VREF+",
+     "functions": []
+    },
+    {
+     "position": 72,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 73,
+     "label": "P006",
+     "functions": [
+      "ADC A0",
+      "A0",
+      "IRQ11-DS",
+      "AN006"
+     ]
+    },
+    {
+     "position": 74,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 75,
+     "label": "P005",
+     "functions": [
+      "ADC A1",
+      "A1",
+      "IRQ10-DS",
+      "AN005"
+     ]
+    },
+    {
+     "position": 76,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 77,
+     "label": "P004",
+     "functions": [
+      "ADC A2",
+      "A2",
+      "IRQ9-DS",
+      "AN004"
+     ]
+    },
+    {
+     "position": 78,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 79,
+     "label": "P002",
+     "functions": [
+      "ADC A3",
+      "A3",
+      "IRQ8-DS",
+      "AN002"
+     ]
+    },
+    {
+     "position": 80,
+     "label": "?",
+     "functions": []
+    }
+   ]
+  }
+ ],
+ "unreadable": [
+  "J1: positions 2, 4, 6, 8-16, 18, 20, 70-71, 74, 76, 78, 80 unlabeled (pin numbers shown with no signal name)",
+  "J2: positions 2, 9, 11, 13, 15, 17, 19, 21 unlabeled (pin numbers shown with no signal name)",
+  "J1-img3: positions 2, 4, 6, 8-16, 18, 20, 70-71, 74, 76, 78, 80 unlabeled (pin numbers shown with no signal name)",
+  "J2-img3: positions 2, 9, 11, 13, 15, 17, 19, 21 unlabeled (pin numbers shown with no signal name)",
+  "J1-img5: positions 2, 4, 6, 8-16, 18, 20, 70-71, 74, 76, 78, 80 unlabeled (pin numbers shown with no signal name)",
+  "J2-img5: positions 2, 9, 11, 13, 15, 17, 19, 21 unlabeled (pin numbers shown with no signal name)",
+  "J1-img6: positions 2, 4, 6, 8-16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70-72, 74, 76, 78, 80 unlabeled (even pins not labeled on this odd-pin page, and odd pins shown with number only)",
+  "J1-img7: positions 1-21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69-71, 73-80 unlabeled (odd pins not labeled on this even-pin page, and even pins shown with number only)",
+  "J2-img8: positions 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79 unlabeled (odd pins not labeled on this even-pin page, and even pins shown with number only)",
+  "J2-img9: positions 2, 4, 6, 8-22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78, 80 unlabeled (even pins not labeled on this odd-pin page, and odd pins shown with number only)"
+ ],
+ "notes": "Label = microcontroller port name (P###) where a Micro column is printed, otherwise the signal name next to the pin. Group bracket tags (SCI9, USB_HS, ANALOG...), IN/OUT power icons and D (default) icons omitted. Image 1 has a transparent background (dark text invisible on dark render); pin numbers become visible when flattened on white. Image 1 and 3 print J1 pin 45 as \"I2C1 SD6\"; images 5 and 6 print \"I2C1 SCL\". Image 10 shows only labeled test points (no connector rows) and is not transcribed; USB-C signals on image 4 are not transcribed (no physical pin positions). Battery connector skipped."
+}

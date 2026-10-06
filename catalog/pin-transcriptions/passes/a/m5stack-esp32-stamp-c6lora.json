@@ -1,0 +1,546 @@
+{
+  "recordId": "m5stack-esp32-stamp-c6lora",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/c722f16e3e3e02640facb8ae68911494ccb6e94cf6bebbf730bff721d401d643.png",
+      "sha256": "c722f16e3e3e02640facb8ae68911494ccb6e94cf6bebbf730bff721d401d643"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-pads",
+      "name": "Left edge pads",
+      "image": "media/c722f16e3e3e02640facb8ae68911494ccb6e94cf6bebbf730bff721d401d643.png",
+      "rows": 1,
+      "orderNote": "Printed pad numbers 1-18, top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": [
+            "1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "EXT_P2",
+          "functions": [
+            "2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "EXT_P3",
+          "functions": [
+            "3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "EXT_P4",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "EXT_P1",
+          "functions": [
+            "5"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "EXT_P0",
+          "functions": [
+            "6"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO9",
+          "functions": [
+            "7"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO11",
+          "functions": [
+            "8"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": [
+            "9"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO8",
+          "functions": [
+            "10"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO10",
+          "functions": [
+            "11"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": [
+            "12"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": [
+            "13"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": [
+            "14"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": [
+            "15"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GND",
+          "functions": [
+            "16"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GND",
+          "functions": [
+            "17"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": [
+            "18"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-pads",
+      "name": "Bottom edge pads",
+      "image": "media/c722f16e3e3e02640facb8ae68911494ccb6e94cf6bebbf730bff721d401d643.png",
+      "rows": 1,
+      "orderNote": "Printed pad numbers 19-35 run left to right; corner pads 68 (left end) and 69 (right end) placed at their physical ends",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": [
+            "68"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "19"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": [
+            "20"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": [
+            "21"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": [
+            "22"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": [
+            "23"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "LORA_IRQ",
+          "functions": [
+            "24"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "IRQ_LINE",
+          "functions": [
+            "25"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "MODULE_EN",
+          "functions": [
+            "26"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "VBAT_IN",
+          "functions": [
+            "27"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "VBAT_IN",
+          "functions": [
+            "28"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": [
+            "29"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": [
+            "30"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": [
+            "31"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": [
+            "32"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "VDD_3V3",
+          "functions": [
+            "33"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GND",
+          "functions": [
+            "34"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": [
+            "35"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GND",
+          "functions": [
+            "69"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-pads",
+      "name": "Right edge pads",
+      "image": "media/c722f16e3e3e02640facb8ae68911494ccb6e94cf6bebbf730bff721d401d643.png",
+      "rows": 1,
+      "orderNote": "Printed pad numbers 36-53, bottom to top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "USB_D_N",
+          "functions": [
+            "36"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "USB_D_P",
+          "functions": [
+            "37"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO2",
+          "functions": [
+            "38"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO7",
+          "functions": [
+            "39"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO4",
+          "functions": [
+            "40"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO5",
+          "functions": [
+            "41"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO6",
+          "functions": [
+            "42"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO15",
+          "functions": [
+            "43"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "ESP_U0RXD",
+          "functions": [
+            "44"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "ESP_U0TXD",
+          "functions": [
+            "45"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO18",
+          "functions": [
+            "46"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "SPI_CLK",
+          "functions": [
+            "47"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "SPI_MOSI",
+          "functions": [
+            "48"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "SPI_MISO",
+          "functions": [
+            "49"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": [
+            "50"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GND",
+          "functions": [
+            "51"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GND",
+          "functions": [
+            "52"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": [
+            "53"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "top-pads",
+      "name": "Top edge pads",
+      "image": "media/c722f16e3e3e02640facb8ae68911494ccb6e94cf6bebbf730bff721d401d643.png",
+      "rows": 1,
+      "orderNote": "Printed pad numbers 54-66 run right to left; corner pads 70 (right end) and 67 (left end) placed at their physical ends",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": [
+            "70"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "54"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": [
+            "55"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": [
+            "56"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": [
+            "57"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": [
+            "58"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": [
+            "59"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "ESP_nRST",
+          "functions": [
+            "60"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": [
+            "61"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": [
+            "62"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": [
+            "63"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": [
+            "64"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": [
+            "65"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": [
+            "66"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": [
+            "67"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Corner pads 67, 68, 69, 70 sit at the corners of the outline; their assignment to the top/bottom rows (rather than the left/right columns or a separate group) is a grouping the image leaves open.",
+    "Centre GND pad arrays 71 and 72 were skipped as non-edge thermal/ground pads; whether they should count as wiring points is not settled by the image."
+  ],
+  "notes": "Module footprint drawing (pad numbers 1-72) next to a photo of the Stamp C6LoRa shield. Printed pad numbers kept as the first function. Centre ground pad arrays 71 (9 pads) and 72 (9 pads), both labelled GND, are not edge pads and are not transcribed."
+}

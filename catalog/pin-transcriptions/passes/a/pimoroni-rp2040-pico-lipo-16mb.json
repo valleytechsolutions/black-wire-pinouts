@@ -1,0 +1,410 @@
+{
+  "recordId": "pimoroni-rp2040-pico-lipo-16mb",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/25121958667ebd0b80c4414ee49a6f25ecf3d9ce6b8eb7b87b1e1cf42a97d1ff.png",
+      "sha256": "25121958667ebd0b80c4414ee49a6f25ecf3d9ce6b8eb7b87b1e1cf42a97d1ff"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header (pins 1-20)",
+      "image": "media/25121958667ebd0b80c4414ee49a6f25ecf3d9ce6b8eb7b87b1e1cf42a97d1ff.png",
+      "rows": 1,
+      "orderNote": "Printed pin numbers followed: position 1 = printed pin 1 (top, USB end) through position 20 = printed pin 20.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP0",
+          "functions": [
+            "0",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX",
+            "CONSOLE"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP1",
+          "functions": [
+            "1",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX",
+            "CONSOLE"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GP2",
+          "functions": [
+            "2",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP3",
+          "functions": [
+            "3",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP4",
+          "functions": [
+            "4",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP5",
+          "functions": [
+            "5",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GP6",
+          "functions": [
+            "6",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP7",
+          "functions": [
+            "7",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP8",
+          "functions": [
+            "8",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP9",
+          "functions": [
+            "9",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GP10",
+          "functions": [
+            "SPI1 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GP11",
+          "functions": [
+            "SPI1 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GP12",
+          "functions": [
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GP13",
+          "functions": [
+            "13",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GP14",
+          "functions": [
+            "14",
+            "SPI1 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GP15",
+          "functions": [
+            "15",
+            "SPI1 TX",
+            "I2C1 SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header (pins 21-40)",
+      "image": "media/25121958667ebd0b80c4414ee49a6f25ecf3d9ce6b8eb7b87b1e1cf42a97d1ff.png",
+      "rows": 1,
+      "orderNote": "Printed pin numbers followed: position 1 = printed pin 21 (bottom) through position 20 = printed pin 40 (top, USB end); position n = printed pin 20+n.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP16",
+          "functions": [
+            "16",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP17",
+          "functions": [
+            "17",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GP18",
+          "functions": [
+            "18",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP19",
+          "functions": [
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP20",
+          "functions": [
+            "I2C0 SDA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP21",
+          "functions": [
+            "I2C0 SCL"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GP22",
+          "functions": [
+            "22"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "RUN",
+          "functions": [
+            "RU"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP26",
+          "functions": [
+            "26",
+            "ADC0",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP27",
+          "functions": [
+            "27",
+            "ADC1",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": [
+            "AGND"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GP28",
+          "functions": [
+            "28",
+            "ADC2"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "ADC_VREF",
+          "functions": [
+            "VA"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "3V3_OUT",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "3V3_EN",
+          "functions": [
+            "3E"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "VSYS",
+          "functions": [
+            "VS"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "VBUS",
+          "functions": [
+            "VB"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qwst-connector",
+      "name": "QW/ST connector",
+      "image": "media/25121958667ebd0b80c4414ee49a6f25ecf3d9ce6b8eb7b87b1e1cf42a97d1ff.png",
+      "rows": 1,
+      "orderNote": "No pin 1 mark or numbers; USB-nearest rule: started at the GND end (right end, horizontally nearer the top-center USB-C connector).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SCL",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "debug-connector",
+      "name": "Debug connector",
+      "image": "media/25121958667ebd0b80c4414ee49a6f25ecf3d9ce6b8eb7b87b1e1cf42a97d1ff.png",
+      "rows": 1,
+      "orderNote": "No pin 1 mark or numbers; USB-nearest rule: started at the SWCLK end (left end, horizontally nearer the top-center USB-C connector).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SWCLK",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SWDIO",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Board identity: image is titled 'Pimoroni Pico LiPo' and lists '4MB/16MB Flash'; it does not show a variant marking specific to the 16MB model.",
+    "qwst-connector and debug-connector: label-to-pin mapping inferred from the printed label boxes sitting above each JST housing in left-to-right order; the image does not tie each label to an individual contact.",
+    "qwst-connector and debug-connector: both connectors sit under the USB-C connector's horizontal span, so which end is 'closest to USB' is geometrically marginal (chosen by distance to the USB connector's center).",
+    "Battery JST connector at the bottom is marked only with '+' and '-' polarity symbols; skipped as a battery-only connector, but it is unclear whether these symbols count as individual pin labels under rule 1."
+  ],
+  "notes": "Peripheral functions are printed as a peripheral-number digit plus pin name under column headers (UART, I2C, SPI, ADC; key: '0 SDA' = I2C0 SDA); recorded as e.g. 'SPI0 RX', 'I2C0 SDA', 'UART0 TX'. 'CONSOLE' is a dashed box enclosing UART0 TX/RX on pins 1-2. Board silkscreen numbers are added as the first function where visible; silkscreen for left pins 14-16 (GP10-GP12) and right pins 25-27 (GP19-GP21) is hidden behind the QW/ST/debug label boxes and omitted. '-' (GND) and '+' (3V3_OUT) silkscreen marks are symbols and omitted. Left-side 'PIO' and 'POWER' column headers are category tags and omitted. Pin 33 GND carries AGND in the ADC column."
+}

@@ -1,0 +1,311 @@
+{
+  "recordId": "benjamin-shockley-rp2040-figpi",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/a9af3da866c0de29984b382383d82b03e89c184add3c353b5c0f95c786404133.png",
+      "sha256": "a9af3da866c0de29984b382383d82b03e89c184add3c353b5c0f95c786404133"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "adc",
+      "name": "ADC JST connector",
+      "image": "media/a9af3da866c0de29984b382383d82b03e89c184add3c353b5c0f95c786404133.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at end closest to the USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A3",
+          "functions": [
+            "38",
+            "26",
+            "D3"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "A2",
+          "functions": [
+            "39",
+            "27",
+            "D2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "A1",
+          "functions": [
+            "40",
+            "28",
+            "D1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "A0",
+          "functions": [
+            "41",
+            "29",
+            "D0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spi",
+      "name": "SPI JST connector",
+      "image": "media/a9af3da866c0de29984b382383d82b03e89c184add3c353b5c0f95c786404133.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at end closest to the USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D9",
+          "functions": [
+            "RX",
+            "06",
+            "04",
+            "MISO"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D14",
+          "functions": [
+            "CS",
+            "07",
+            "05"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "D8",
+          "functions": [
+            "CLK",
+            "08",
+            "06",
+            "SCK"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D10",
+          "functions": [
+            "TX",
+            "09",
+            "07",
+            "MOSI"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "i2c1",
+      "name": "I2C1 STEMMA connector",
+      "image": "media/a9af3da866c0de29984b382383d82b03e89c184add3c353b5c0f95c786404133.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at end closest to the USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": [
+            "3V"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "D18",
+          "functions": [
+            "DA",
+            "29",
+            "18",
+            "SDA1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D19",
+          "functions": [
+            "CL",
+            "30",
+            "19",
+            "SCL1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "i2c0",
+      "name": "I2C0 STEMMA connector",
+      "image": "media/a9af3da866c0de29984b382383d82b03e89c184add3c353b5c0f95c786404133.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at end closest to the USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D5",
+          "functions": [
+            "CL",
+            "28",
+            "17",
+            "SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D4",
+          "functions": [
+            "DA",
+            "27",
+            "16",
+            "SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": [
+            "3V"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uart",
+      "name": "UART JST connector",
+      "image": "media/a9af3da866c0de29984b382383d82b03e89c184add3c353b5c0f95c786404133.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at end closest to the USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D12",
+          "functions": [
+            "12",
+            "34",
+            "22"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D11",
+          "functions": [
+            "11",
+            "35",
+            "23"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "TX",
+          "functions": [
+            "36",
+            "24",
+            "D6"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "RX",
+          "functions": [
+            "37",
+            "25",
+            "D7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "batt",
+      "name": "BATT connector",
+      "image": "media/a9af3da866c0de29984b382383d82b03e89c184add3c353b5c0f95c786404133.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at end closest to the USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BATT IN",
+          "functions": [
+            "+"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "-"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "debug-pads",
+      "name": "D/C debug pads",
+      "image": "media/a9af3da866c0de29984b382383d82b03e89c184add3c353b5c0f95c786404133.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; both pads equidistant from USB, read left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SWD",
+          "functions": [
+            "D",
+            "25"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "SWCLK",
+          "functions": [
+            "C",
+            "24"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neopix-pads",
+      "name": "NEOPIX OUT/IN pads",
+      "image": "media/a9af3da866c0de29984b382383d82b03e89c184add3c353b5c0f95c786404133.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; both pads equidistant from USB, read left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NEOPIXEL",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "NEOPIXEL",
+          "functions": [
+            "IN"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Label = board name (CircuitPython D/A name or callout name, preferring the one matching the silkscreen); functions = silkscreen spelling first, then chip pin, GPIO pin and other names read outward from the pin. Bare GPIO numbers (e.g. 26) are printed without a GPIO prefix, so not used as label. D/C pads matched to SWD/SWCLK by leader lines running up the board centre. Skipped LEDs, buttons, uUSB and status NeoPixels."
+}

@@ -1,0 +1,316 @@
+{
+ "recordId": "seeed-studio-esp32-xiao-esp32s3",
+ "pass": "a",
+ "date": "2026-10-05",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/49dfbb6d873c52990b4985e0533ec04c811b3d180eb266bd476ca013e75b714d.png",
+   "sha256": "49dfbb6d873c52990b4985e0533ec04c811b3d180eb266bd476ca013e75b714d"
+  },
+  {
+   "file": "media/27a54de4cd855aa5269fbfbc9c49715fcedf104dbf1b7cef7e9a4833b206a8e2.png",
+   "sha256": "27a54de4cd855aa5269fbfbc9c49715fcedf104dbf1b7cef7e9a4833b206a8e2"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "left-header",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "VUSB",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "D10",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "D9",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "D8",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "D7",
+     "functions": []
+    }
+   ],
+   "image": "media/49dfbb6d873c52990b4985e0533ec04c811b3d180eb266bd476ca013e75b714d.png"
+  },
+  {
+   "id": "right-header",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "D0",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "D1",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "D2",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "D3",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "D4",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "D5",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "D6",
+     "functions": []
+    }
+   ],
+   "image": "media/49dfbb6d873c52990b4985e0533ec04c811b3d180eb266bd476ca013e75b714d.png"
+  },
+  {
+   "id": "debug-pads",
+   "name": "debug-pads",
+   "rows": 2,
+   "orderNote": "USB top; alternating left/right, top to bottom; equally close to edges.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "MTDO",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "MTDI",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "EN",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "MTCK",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "MTMS",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "USB_D+",
+     "functions": [
+      "D+"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "USB_D-",
+     "functions": [
+      "D-"
+     ]
+    }
+   ],
+   "image": "media/49dfbb6d873c52990b4985e0533ec04c811b3d180eb266bd476ca013e75b714d.png"
+  },
+  {
+   "id": "battery-pads",
+   "name": "battery-pads",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "BAT-",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "BAT+",
+     "functions": []
+    }
+   ],
+   "image": "media/49dfbb6d873c52990b4985e0533ec04c811b3d180eb266bd476ca013e75b714d.png"
+  },
+  {
+   "id": "left-header-img2",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GPIO1",
+     "functions": [
+      "D0 / T",
+      "ADC1 / A0",
+      "RTC"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "GPIO2",
+     "functions": [
+      "D1 / T",
+      "ADC1 / A1",
+      "RTC"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GPIO3",
+     "functions": [
+      "D2 / T",
+      "ADC1 / A2",
+      "RTC"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GPIO4",
+     "functions": [
+      "D3 / T",
+      "ADC1 / A3",
+      "RTC"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GPIO5",
+     "functions": [
+      "D4 / T",
+      "ADC1 / A4",
+      "I2C1_SDA",
+      "RTC"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GPIO6",
+     "functions": [
+      "D5 / T",
+      "ADC1 / A5",
+      "I2C1_SCL",
+      "RTC"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GPIO43",
+     "functions": [
+      "D6",
+      "UART0_TX"
+     ]
+    }
+   ],
+   "image": "media/27a54de4cd855aa5269fbfbc9c49715fcedf104dbf1b7cef7e9a4833b206a8e2.png"
+  },
+  {
+   "id": "right-header-img2",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "VBUS",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "3.3V-OUT",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GPIO9",
+     "functions": [
+      "D10 / T",
+      "ADC1 / A10",
+      "SPI0_MOSI",
+      "RTC"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GPIO8",
+     "functions": [
+      "D9 / T",
+      "ADC1 / A9",
+      "SPI0_MISO",
+      "RTC"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GPIO7",
+     "functions": [
+      "D8 / T",
+      "ADC1 / A8",
+      "SPI0_SCK",
+      "RTC"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GPIO44",
+     "functions": [
+      "D7",
+      "UART0_RX"
+     ]
+    }
+   ],
+   "image": "media/27a54de4cd855aa5269fbfbc9c49715fcedf104dbf1b7cef7e9a4833b206a8e2.png"
+  }
+ ],
+ "notes": "T denotes capacitive touch. Unlabeled mezzanine connector omitted; component callouts excluded.",
+ "unreadable": [],
+ "uncertain": []
+}

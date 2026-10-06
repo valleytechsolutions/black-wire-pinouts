@@ -1,0 +1,651 @@
+{
+  "recordId": "waveshare-esp32-esp32-s3-lcd-2",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/f9a6a5b4cdc493f7abd966497b9b9eb3323bf6dc770ea76fcf71683a882b65a7.jpg",
+      "sha256": "f9a6a5b4cdc493f7abd966497b9b9eb3323bf6dc770ea76fcf71683a882b65a7"
+    },
+    {
+      "file": "media/8d60e522d17fd4ff229bd49117acca31b61e198e17afda69b9cdd7ae168f47ee.webp",
+      "sha256": "8d60e522d17fd4ff229bd49117acca31b61e198e17afda69b9cdd7ae168f47ee"
+    },
+    {
+      "file": "media/27e6bde491d5d14bc9c2265525f71f3985f2765a5bf15a586027be4d25d5f684.png",
+      "sha256": "27e6bde491d5d14bc9c2265525f71f3985f2765a5bf15a586027be4d25d5f684"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/f9a6a5b4cdc493f7abd966497b9b9eb3323bf6dc770ea76fcf71683a882b65a7.jpg",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 1-14 followed (top to bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "TXD",
+          "functions": [
+            "TX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "RXD",
+          "functions": [
+            "RX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO47",
+          "functions": [
+            "47"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO48",
+          "functions": [
+            "48"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO15",
+          "functions": [
+            "15"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO13",
+          "functions": [
+            "13"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO11",
+          "functions": [
+            "11"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO12",
+          "functions": [
+            "12"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO14",
+          "functions": [
+            "14"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO9",
+          "functions": [
+            "9"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "VBAT",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/f9a6a5b4cdc493f7abd966497b9b9eb3323bf6dc770ea76fcf71683a882b65a7.jpg",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 15-28 followed (bottom to top); position n = printed pin n+14",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO19",
+          "functions": [
+            "19"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO20",
+          "functions": [
+            "20"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO10",
+          "functions": [
+            "10"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO7",
+          "functions": [
+            "7"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO8",
+          "functions": [
+            "8"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO21",
+          "functions": [
+            "21"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO18",
+          "functions": [
+            "18"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO17",
+          "functions": [
+            "17"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO16",
+          "functions": [
+            "16"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO6",
+          "functions": [
+            "6"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO4",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO2",
+          "functions": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Right header",
+      "image": "media/8d60e522d17fd4ff229bd49117acca31b61e198e17afda69b9cdd7ae168f47ee.webp",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 1-14 followed (top to bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "TXD",
+          "functions": [
+            "TX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "RXD",
+          "functions": [
+            "RX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO47",
+          "functions": [
+            "47"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO48",
+          "functions": [
+            "48"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO15",
+          "functions": [
+            "15"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO13",
+          "functions": [
+            "13"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO11",
+          "functions": [
+            "11"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO12",
+          "functions": [
+            "12"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO14",
+          "functions": [
+            "14"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO9",
+          "functions": [
+            "9"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "VBAT",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left header",
+      "image": "media/8d60e522d17fd4ff229bd49117acca31b61e198e17afda69b9cdd7ae168f47ee.webp",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 15-28 followed (bottom to top); position n = printed pin n+14",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO19",
+          "functions": [
+            "19"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO20",
+          "functions": [
+            "20"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO10",
+          "functions": [
+            "10"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO7",
+          "functions": [
+            "7"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO8",
+          "functions": [
+            "8"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO21",
+          "functions": [
+            "21"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO18",
+          "functions": [
+            "18"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO17",
+          "functions": [
+            "17"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO16",
+          "functions": [
+            "16"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO6",
+          "functions": [
+            "6"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO4",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO2",
+          "functions": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-img3",
+      "name": "Right header",
+      "image": "media/27e6bde491d5d14bc9c2265525f71f3985f2765a5bf15a586027be4d25d5f684.png",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 1-14 followed (top to bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "TXD",
+          "functions": [
+            "TX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "RXD",
+          "functions": [
+            "RX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO47",
+          "functions": [
+            "47"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO48",
+          "functions": [
+            "48"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO15",
+          "functions": [
+            "15"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO13",
+          "functions": [
+            "13"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO11",
+          "functions": [
+            "11"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO12",
+          "functions": [
+            "12"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO14",
+          "functions": [
+            "14"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO9",
+          "functions": [
+            "9"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "VBAT",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header-img3",
+      "name": "Left header",
+      "image": "media/27e6bde491d5d14bc9c2265525f71f3985f2765a5bf15a586027be4d25d5f684.png",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 15-28 followed (bottom to top); position n = printed pin n+14",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO19",
+          "functions": [
+            "19"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO20",
+          "functions": [
+            "20"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO10",
+          "functions": [
+            "10"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO7",
+          "functions": [
+            "7"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO8",
+          "functions": [
+            "8"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO21",
+          "functions": [
+            "21"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO18",
+          "functions": [
+            "18"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO17",
+          "functions": [
+            "17"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO16",
+          "functions": [
+            "16"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO6",
+          "functions": [
+            "6"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO4",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO2",
+          "functions": [
+            "2"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Board identity: the silkscreen in all three images reads 'ESP32-S3-T...-LCD-2' with the middle hidden by a sticker, apparently 'ESP32-S3-Touch-LCD-2', not ESP32-S3-LCD-2; the images may show the touch variant."
+  ],
+  "notes": "Three copies of the same top-view pinout with printed pin numbers 1-28 running down the right header and up the left header; each physical row is its own connector. Silkscreen numbers/letters recorded first in functions. BAT connector (only +/- marks) skipped."
+}

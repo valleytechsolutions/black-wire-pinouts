@@ -1,0 +1,255 @@
+{
+  "recordId": "espressif-esp32-esp32-c3-devkit-rust-2",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/c5b92d82ab3895927ee2c443232b44867e18f38ab3e460341cf06d00e6c63a70.png",
+      "sha256": "c5b92d82ab3895927ee2c443232b44867e18f38ab3e460341cf06d00e6c63a70"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/c5b92d82ab3895927ee2c443232b44867e18f38ab3e460341cf06d00e6c63a70.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; started at the end closest to the USB connector (bottom). Label = pin-name callout; functions listed from the pin outward, including printed reset-state tags (IE/ID/PU).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO9",
+          "functions": [
+            "BOOT",
+            "IE/WPU"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO20",
+          "functions": [
+            "U0RXD",
+            "IE"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO21",
+          "functions": [
+            "U0TXD",
+            "IE"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO8",
+          "functions": [
+            "LOG",
+            "IE",
+            "I2C SCL"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO7",
+          "functions": [
+            "FSPID",
+            "MTDO",
+            "IE",
+            "I2C SDA"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO6",
+          "functions": [
+            "FSPICLK",
+            "MTCK",
+            "IE*"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO5",
+          "functions": [
+            "RTC",
+            "ADC2_0",
+            "MTDI",
+            "FSPIWP",
+            "IE"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO4",
+          "functions": [
+            "RTC",
+            "ADC1_4",
+            "MTMS",
+            "FSPIHD",
+            "IE"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO3",
+          "functions": [
+            "RTC",
+            "ADC1_3",
+            "IE"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO2",
+          "functions": [
+            "RTC",
+            "ADC1_2",
+            "FSPIQ",
+            "IE",
+            "RGB"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO1",
+          "functions": [
+            "RTC",
+            "ADC1_1",
+            "XTAL32kN",
+            "ID"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO0",
+          "functions": [
+            "RTC",
+            "ADC1_0",
+            "XTAL32kP",
+            "ID"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "RST",
+          "functions": [
+            "PU"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/c5b92d82ab3895927ee2c443232b44867e18f38ab3e460341cf06d00e6c63a70.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; started at the end closest to the USB connector (bottom). Label = pin-name callout; functions listed from the pin outward, including printed reset-state tags (IE/ID/PU).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO19",
+          "functions": [
+            "USB_D+",
+            "ID/UPU"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO18",
+          "functions": [
+            "USB_D-",
+            "ID"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "ENABLE",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "BAT+",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "charger",
+      "name": "Charger battery pads",
+      "image": "media/c5b92d82ab3895927ee2c443232b44867e18f38ab3e460341cf06d00e6c63a70.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; started at the end closest to the USB connector (BAT- is nearer the USB-C connector).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BAT-",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "BAT+",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Pins without a callout use their silkscreen (NC); five right-header pins are grouped under one 'NC' bracket. The EN pin silkscreen reads 'EN' while its callout reads 'ENABLE'; callout used. Square GND pad and shaped 3V3/BAT+/5V pads were not treated as pin-1 marks."
+}

@@ -1,0 +1,48 @@
+{
+  "recordId": "lilygo-esp32-t-mini-e-paper-s3",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/3e8d1fabecba6314b64878b091c7b7bf2daea3e959e23c6eebd269a2d8e77013.jpg",
+      "sha256": "3e8d1fabecba6314b64878b091c7b7bf2daea3e959e23c6eebd269a2d8e77013"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "qwiic",
+      "name": "QWIIC connector",
+      "image": "media/3e8d1fabecba6314b64878b091c7b7bf2daea3e959e23c6eebd269a2d8e77013.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or pin-1 mark; order taken from the printed caption left to right (SDA SCL 3.3V GND), matching left-to-right for a horizontal row",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "QWIIC pin order is inferred from a caption printed beneath a small photo of the connector; the photo does not show which contact carries which signal."
+  ],
+  "notes": "Kit pinmap image of the assembled device. Only wiring point with labelled pins is the QWIIC connector on the battery/RTC module. LoRa, TF card and Display tables are internal GPIO assignments without physical positions; RTC note says SDA:IO18, SCL:IO09 for the RTC, not stated for QWIIC. GPIO00/GPIO03/GPIO04 arrows point at a rotary/button control, not pins. USB-C, antenna and battery holder skipped."
+}

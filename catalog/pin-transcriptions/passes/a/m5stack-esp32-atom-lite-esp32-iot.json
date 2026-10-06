@@ -1,0 +1,124 @@
+{
+  "recordId": "m5stack-esp32-atom-lite-esp32-iot",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/c560ae52e54a7bf6ed5c0b990a0ab89a1e2f41c220798f03aa412b4ae7efa6c3.jpg",
+      "sha256": "c560ae52e54a7bf6ed5c0b990a0ab89a1e2f41c220798f03aa412b4ae7efa6c3"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/c560ae52e54a7bf6ed5c0b990a0ab89a1e2f41c220798f03aa412b4ae7efa6c3.jpg",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; USB connector not visible in the main view, so started at the top (vertical row). Functions listed from the pin outward.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "G22",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G19",
+          "functions": [
+            "MOSI"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "G23",
+          "functions": [
+            "CLK"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "G33",
+          "functions": [
+            "ADC",
+            "MISO"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/c560ae52e54a7bf6ed5c0b990a0ab89a1e2f41c220798f03aa412b4ae7efa6c3.jpg",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; USB connector not visible in the main view, so started at the top (vertical row). Functions listed from the pin outward.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G21",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "G25",
+          "functions": [
+            "DAC",
+            "SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-port",
+      "name": "HY2.0-4P port",
+      "image": "media/c560ae52e54a7bf6ed5c0b990a0ab89a1e2f41c220798f03aa412b4ae7efa6c3.jpg",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; horizontal row read left to right (matches silkscreen G, 5V, G26, G32).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G26",
+          "functions": [
+            "DAC"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "G32",
+          "functions": [
+            "ADC"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "The USB-C connector appears only in a separate side-view inset, so its position relative to the headers in the main view is not established; top/left fallback rule used. Silkscreen also shows IR G12, Neo=G27, Btn=G39 (internal, not wiring points)."
+}

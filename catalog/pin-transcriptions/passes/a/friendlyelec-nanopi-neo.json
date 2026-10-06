@@ -1,0 +1,376 @@
+{
+  "recordId": "friendlyelec-nanopi-neo",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/c69acd469d1fb0ae2eef3cd449c2a6c2b1652207f12acedfa96e7d92d23f0ba2.jpg",
+      "sha256": "c69acd469d1fb0ae2eef3cd449c2a6c2b1652207f12acedfa96e7d92d23f0ba2"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "right-header",
+      "name": "Right 2x12 header",
+      "image": "media/c69acd469d1fb0ae2eef3cd449c2a6c2b1652207f12acedfa96e7d92d23f0ba2.jpg",
+      "rows": 2,
+      "orderNote": "Micro USB at top: started at the top; 2xN rule: position 1 = top of the outer (right, board-edge) column, alternating outer/inner top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": [
+            "IN/OUT"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "5V",
+          "functions": [
+            "IN/OUT"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "SDA",
+          "functions": [
+            "I2C0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "SCL",
+          "functions": [
+            "I2C0"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PG6",
+          "functions": [
+            "UART1",
+            "TX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PG11",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "PG7",
+          "functions": [
+            "UART1",
+            "RX"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "PA6",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "PA0",
+          "functions": [
+            "UART2",
+            "TX"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "PA2",
+          "functions": [
+            "UART2",
+            "RTS"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "PG8",
+          "functions": [
+            "UART1",
+            "RTS"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "PA3",
+          "functions": [
+            "UART2",
+            "CTS"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "PG9",
+          "functions": [
+            "UART1",
+            "CTS"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "3.3V",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "PC0",
+          "functions": [
+            "SPI0",
+            "MOSI"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "PA1",
+          "functions": [
+            "UART2",
+            "RX"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "PC1",
+          "functions": [
+            "SPI0",
+            "MISO"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "PC3",
+          "functions": [
+            "SPI0",
+            "CS"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "PC2",
+          "functions": [
+            "SPI0",
+            "CLK"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-outer-header",
+      "name": "Left outer column (12 pins)",
+      "image": "media/c69acd469d1fb0ae2eef3cd449c2a6c2b1652207f12acedfa96e7d92d23f0ba2.jpg",
+      "rows": 1,
+      "orderNote": "Micro USB at top: read top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D+",
+          "functions": [
+            "USB1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "D-",
+          "functions": [
+            "USB1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D+",
+          "functions": [
+            "USB2"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "D-",
+          "functions": [
+            "USB2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PL11",
+          "functions": [
+            "IR",
+            "RX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PA17",
+          "functions": [
+            "SPDIF",
+            "OUT"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "LRCK",
+          "functions": [
+            "I2S0"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "BCK",
+          "functions": [
+            "I2S0"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "DOUT",
+          "functions": [
+            "I2S0"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "DIN",
+          "functions": [
+            "I2S0"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-inner-header",
+      "name": "Left inner column (8 pins, bottom-aligned)",
+      "image": "media/c69acd469d1fb0ae2eef3cd449c2a6c2b1652207f12acedfa96e7d92d23f0ba2.jpg",
+      "rows": 1,
+      "orderNote": "Micro USB at top: read top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "MP",
+          "functions": [
+            "LINEIN"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "MN",
+          "functions": [
+            "LINEIN"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "LR",
+          "functions": [
+            "LINEOUT"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "LL",
+          "functions": [
+            "LINEOUT"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "RX",
+          "functions": [
+            "UART0"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "TX",
+          "functions": [
+            "UART0"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "5V",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "cvbs-pads",
+      "name": "CVBS pads near bottom",
+      "image": "media/c69acd469d1fb0ae2eef3cd449c2a6c2b1652207f12acedfa96e7d92d23f0ba2.jpg",
+      "rows": 1,
+      "orderNote": "Micro USB at top: read top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "CVBS",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "O vs 0 in 'I2C0', 'I2S0', 'UART0', 'SPI0', 'PA0', 'PC0': read as digit 0"
+  ],
+  "uncertain": [
+    "Labels are given in an off-board diagram with dot columns; mapping of diagram dot columns to the board's pad columns was matched by pin counts and the square pad positions (right header inner column has the square at 3.3V).",
+    "Left side treated as two separate single-row connectors (12-pin outer column and 8-pin inner column) because the inner column is shorter; they could be one partially populated 2-row header.",
+    "Board drawing shows only two pads near the bottom center; matching them to the CVBS/GND callouts is an interpretation.",
+    "Group names (USB1, USB2, I2S0, UART0/1/2, SPI0, I2C0, LINEIN, LINEOUT) were treated as functions; for the right header 5V box spans two rows, so both outer pins of rows 1-2 take 5V."
+  ],
+  "notes": "FriendlyELEC 'NanoPi NEO v1.4 pinout diagram'."
+}

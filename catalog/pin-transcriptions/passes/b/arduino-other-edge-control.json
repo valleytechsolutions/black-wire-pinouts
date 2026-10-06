@@ -1,0 +1,1922 @@
+{
+  "recordId": "arduino-other-edge-control",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/6049e9c42fd380be11d4cf123a753ede3e76a105ea69c3640abffda647a78c6f.png",
+      "sha256": "6049e9c42fd380be11d4cf123a753ede3e76a105ea69c3640abffda647a78c6f"
+    },
+    {
+      "file": "media/23953c699f950d715e6e1175a79c4664026299d3dc2e14c0656495ede91978b5.png",
+      "sha256": "23953c699f950d715e6e1175a79c4664026299d3dc2e14c0656495ede91978b5"
+    },
+    {
+      "file": "media/a5f1865766c272ca0f6b8ef9905ed71b0e8b56ac220f41288617a6ee289de188.png",
+      "sha256": "a5f1865766c272ca0f6b8ef9905ed71b0e8b56ac220f41288617a6ee289de188"
+    },
+    {
+      "file": "media/b27e61bacb78f1f3a49d7c6ad4b0014bae61d708441c254f750b4b4b007dfd70.png",
+      "sha256": "b27e61bacb78f1f3a49d7c6ad4b0014bae61d708441c254f750b4b4b007dfd70"
+    },
+    {
+      "file": "media/23f3b1b92ee985086b8d1628ac7d63341128f5b26b9129f2be1631001a5a48ab.png",
+      "sha256": "23f3b1b92ee985086b8d1628ac7d63341128f5b26b9129f2be1631001a5a48ab"
+    },
+    {
+      "file": "media/abe9d0c1e4e91fe74d99086514243c927acae7371a7f49db79c36e6d1f6c541b.png",
+      "sha256": "abe9d0c1e4e91fe74d99086514243c927acae7371a7f49db79c36e6d1f6c541b"
+    },
+    {
+      "file": "media/d628384cffc8f5c09de2f06dcdf37e06dda76c74732e39f9d6f18d5c255235e1.png",
+      "sha256": "d628384cffc8f5c09de2f06dcdf37e06dda76c74732e39f9d6f18d5c255235e1"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header-top",
+      "name": "Left side 2x9 header (latching cmd)",
+      "image": "media/6049e9c42fd380be11d4cf123a753ede3e76a105ea69c3640abffda647a78c6f.png",
+      "rows": 2,
+      "orderNote": "Pin numbers 1-18 printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "STROBE8_P",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "STROBE8_N",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "STROBE9_P",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "STROBE9_N",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "STROBE10_P",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "STROBE10_N",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "STROBE11_P",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "STROBE11_N",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "STROBE12_P",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "STROBE12_N",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "STROBE13_P",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "STROBE13_N",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "STROBE14_P",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "STROBE14_N",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "STROBE15_P",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "STROBE15_N",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "GATED_VBAT",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header-bottom",
+      "name": "Left side 2x9 header (solar/relay)",
+      "image": "media/6049e9c42fd380be11d4cf123a753ede3e76a105ea69c3640abffda647a78c6f.png",
+      "rows": 2,
+      "orderNote": "Pin numbers 1-18 printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SOLAR+",
+          "functions": [
+            "18V Solar Panel"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RELAY1_P",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "RELAY1_N",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "RELAY2_P",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "RELAY2_N",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "Pull Down",
+          "functions": [
+            "GND"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "RELAY3_P",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "NTC",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "RELAY3_N",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "RELAY4_P",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "BATTERY+",
+          "functions": [
+            "12V Lead-Acid Battery"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "RELAY4_N",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header-1",
+      "name": "Right side 2x9 header (+12V/IRQ input)",
+      "image": "media/6049e9c42fd380be11d4cf123a753ede3e76a105ea69c3640abffda647a78c6f.png",
+      "rows": 2,
+      "orderNote": "Pin numbers 1-18 printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+BAText",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "P1.15",
+          "functions": [
+            "IRQ_C_CH_1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "+BAText",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "P1.14",
+          "functions": [
+            "IRQ_C_CH_2"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "+BAText",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "P0.26",
+          "functions": [
+            "IRQ_C_CH_3"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "+BAText",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "P0.06",
+          "functions": [
+            "IRQ_C_CH_4"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "+BAText",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "P0.27",
+          "functions": [
+            "IRQ_C_CH_5"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "+BAText",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "P1.00",
+          "functions": [
+            "IRQ_C_CH_6",
+            "Shared with RTC Clock (U22 PCF8563T)"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "P0.13",
+          "functions": [
+            "CMD_TRIAC_CLK"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "P0.15",
+          "functions": [
+            "CM_TRIAC_3"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "P0.14",
+          "functions": [
+            "CMD_TRIAC_DATA"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "P0.16",
+          "functions": [
+            "CM_TRIAC_4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-2",
+      "name": "Right side 2x9 header (analog/4-20mA)",
+      "image": "media/6049e9c42fd380be11d4cf123a753ede3e76a105ea69c3640abffda647a78c6f.png",
+      "rows": 2,
+      "orderNote": "Pin numbers 1-18 printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+19V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "X8",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "+19V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "X9",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "+19V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "X10",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "+19V",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "X11",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "0-5V_CH5_P",
+          "functions": [
+            "X4"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "0-5V_CH1_P",
+          "functions": [
+            "X0"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "0-5V_CH6_P",
+          "functions": [
+            "X5"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "0-5V_CH2_P",
+          "functions": [
+            "X1"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "0-5V_CH7_P",
+          "functions": [
+            "X6"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "0-5V_CH3_P",
+          "functions": [
+            "X2"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "0-5V_CH8_P",
+          "functions": [
+            "X7"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "0-5V_CH4_P",
+          "functions": [
+            "X3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-3",
+      "name": "Right side 2x9 header (latching out)",
+      "image": "media/6049e9c42fd380be11d4cf123a753ede3e76a105ea69c3640abffda647a78c6f.png",
+      "rows": 2,
+      "orderNote": "Pin numbers 1-18 printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PULSE_OUT0_P",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "PULSE_OUT0_N",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PULSE_OUT1_P",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "PULSE_OUT1_N",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "PULSE_OUT2_P",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "PULSE_OUT2_N",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "PULSE_OUT3_P",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "PULSE_OUT3_N",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "PULSE_OUT4_P",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "PULSE_OUT4_N",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "PULSE_OUT5_P",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "PULSE_OUT5_N",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "PULSE_OUT6_P",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "PULSE_OUT6_N",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "PULSE_OUT7_P",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "PULSE_OUT7_N",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header-4",
+      "name": "Right side 2x9 header (watermark input)",
+      "image": "media/6049e9c42fd380be11d4cf123a753ede3e76a105ea69c3640abffda647a78c6f.png",
+      "rows": 2,
+      "orderNote": "Pin numbers 1-18 printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "WaterMrk1",
+          "functions": [
+            "X1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "WaterMrk2",
+          "functions": [
+            "X2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "WaterMrk3",
+          "functions": [
+            "X3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "WaterMrk4",
+          "functions": [
+            "X4"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "WaterMrk5",
+          "functions": [
+            "X5"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "WaterMrk6",
+          "functions": [
+            "X6"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "WaterMrk7",
+          "functions": [
+            "X7"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "WaterMrk8",
+          "functions": [
+            "X8"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "WaterMrk9",
+          "functions": [
+            "X9"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "WaterMrk10",
+          "functions": [
+            "X10"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "WaterMrk11",
+          "functions": [
+            "X11"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "WaterMrk12",
+          "functions": [
+            "X12"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "WaterMrk13",
+          "functions": [
+            "X13"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "WaterMrk14",
+          "functions": [
+            "X14"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "WaterMrk15",
+          "functions": [
+            "X15"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "WaterMrk16",
+          "functions": [
+            "X16"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "P0.05",
+          "functions": [
+            "SENSOR COMMON"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "P0.05",
+          "functions": [
+            "SENSOR COMMON"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "J6-img2",
+      "name": "J6 SD card reader 114-00841-68",
+      "image": "media/23953c699f950d715e6e1175a79c4664026299d3dc2e14c0656495ede91978b5.png",
+      "rows": 1,
+      "orderNote": "Pin numbers 1-7 printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "DATA2",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "P1.12",
+          "functions": [
+            "CD/DAT3/SS"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P0.20",
+          "functions": [
+            "CMD/COPI",
+            "QSPID0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "+3V3",
+          "functions": [
+            "VDD"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "P0.19",
+          "functions": [
+            "CLK/SCK",
+            "GPIOCLK"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": [
+            "VSS"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "P0.21",
+          "functions": [
+            "DAT0/CIPO",
+            "QSPID1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "J5-img2",
+      "name": "J5 USB",
+      "image": "media/23953c699f950d715e6e1175a79c4664026299d3dc2e14c0656495ede91978b5.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical list, started at the top as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBUS",
+          "functions": [
+            "IN VBUS"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "USB DP",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "USB DM",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "USB ID",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "MKR1-left-img2",
+      "name": "MKR1 slot left header",
+      "image": "media/23953c699f950d715e6e1175a79c4664026299d3dc2e14c0656495ede91978b5.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB connector at top of board view, so position 1 is the top pin (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "CS",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "D15",
+          "functions": [
+            "A0"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "D16",
+          "functions": [
+            "A1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D17",
+          "functions": [
+            "A2"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "D18",
+          "functions": [
+            "A3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D19",
+          "functions": [
+            "A4"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "D20",
+          "functions": [
+            "A5"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "D23",
+          "functions": [
+            "A6"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "D0",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "D1",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "D2",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "D3",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "D4",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "D5",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "MKR1-right-img2",
+      "name": "MKR1 slot right header",
+      "image": "media/23953c699f950d715e6e1175a79c4664026299d3dc2e14c0656495ede91978b5.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB connector at top of board view, so position 1 is the top pin (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VIN",
+          "functions": [
+            "P1.02",
+            "ON_MKR1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "RESET",
+          "functions": [
+            "RESET_N"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P1.10",
+          "functions": [
+            "D14",
+            "TXD_MKR1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "P1.11",
+          "functions": [
+            "D13",
+            "RXD_MKR1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "P0.11",
+          "functions": [
+            "D12",
+            "I2C_SCL_1"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "P1.09",
+          "functions": [
+            "D11",
+            "I2C_SDA_1"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "D10",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "D9",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "D8",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "D7",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "D6",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "MKR2-left-img3",
+      "name": "MKR2 slot left header",
+      "image": "media/a5f1865766c272ca0f6b8ef9905ed71b0e8b56ac220f41288617a6ee289de188.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB connector at top of board view, so position 1 is the top pin (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "CS",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "D15",
+          "functions": [
+            "A0"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "D16",
+          "functions": [
+            "A1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D17",
+          "functions": [
+            "A2"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "D18",
+          "functions": [
+            "A3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D19",
+          "functions": [
+            "A4"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "D20",
+          "functions": [
+            "A5"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "D23",
+          "functions": [
+            "A6"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "D0",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "D1",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "D2",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "D3",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "D4",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "D5",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "MKR2-right-img3",
+      "name": "MKR2 slot right header",
+      "image": "media/a5f1865766c272ca0f6b8ef9905ed71b0e8b56ac220f41288617a6ee289de188.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB connector at top of board view, so position 1 is the top pin (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VIN",
+          "functions": [
+            "P1.03",
+            "ON_MKR2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "RESET",
+          "functions": [
+            "RESET_N"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P0.24",
+          "functions": [
+            "D14",
+            "TXD_MKR2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "P0.25",
+          "functions": [
+            "D13",
+            "RXD_MKR2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "P0.02",
+          "functions": [
+            "D12",
+            "I2C_SCL_2"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "P0.31",
+          "functions": [
+            "D11",
+            "I2C_SDA_2"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "D10",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "D9",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "D8",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "D7",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "D6",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header-top-img4",
+      "name": "Left side 2x9 header (latching cmd)",
+      "image": "media/b27e61bacb78f1f3a49d7c6ad4b0014bae61d708441c254f750b4b4b007dfd70.png",
+      "rows": 2,
+      "orderNote": "Pin numbers 1-18 printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "STROBE8_P",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "STROBE8_N",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "STROBE9_P",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "STROBE9_N",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "STROBE10_P",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "STROBE10_N",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "STROBE11_P",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "STROBE11_N",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "STROBE12_P",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "STROBE12_N",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "STROBE13_P",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "STROBE13_N",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "STROBE14_P",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "STROBE14_N",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "STROBE15_P",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "STROBE15_N",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "GATED_VBAT",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header-bottom-img4",
+      "name": "Left side 2x9 header (solar/relay)",
+      "image": "media/b27e61bacb78f1f3a49d7c6ad4b0014bae61d708441c254f750b4b4b007dfd70.png",
+      "rows": 2,
+      "orderNote": "Pin numbers 1-18 printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SOLAR+",
+          "functions": [
+            "18V Solar Panel"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RELAY1_P",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "RELAY1_N",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "RELAY2_P",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "RELAY2_N",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "Pull Down",
+          "functions": [
+            "GND"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "RELAY3_P",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "NTC",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "RELAY3_N",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "RELAY4_P",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "BATTERY+",
+          "functions": [
+            "12V Lead-Acid Battery"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "RELAY4_N",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header-1-img5",
+      "name": "Right side 2x9 header (+12V/IRQ input)",
+      "image": "media/23f3b1b92ee985086b8d1628ac7d63341128f5b26b9129f2be1631001a5a48ab.png",
+      "rows": 2,
+      "orderNote": "Pin numbers 1-18 printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+BAText",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "P1.15",
+          "functions": [
+            "IRQ_C_CH_1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "+BAText",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "P1.14",
+          "functions": [
+            "IRQ_C_CH_2"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "+BAText",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "P0.26",
+          "functions": [
+            "IRQ_C_CH_3"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "+BAText",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "P0.06",
+          "functions": [
+            "IRQ_C_CH_4"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "+BAText",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "P0.27",
+          "functions": [
+            "IRQ_C_CH_5"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "+BAText",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "P1.00",
+          "functions": [
+            "IRQ_C_CH_6",
+            "Shared with RTC Clock (U22 PCF8563T)"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "P0.13",
+          "functions": [
+            "CMD_TRIAC_CLK"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "P0.15",
+          "functions": [
+            "CM_TRIAC_3"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "P0.14",
+          "functions": [
+            "CMD_TRIAC_DATA"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "P0.16",
+          "functions": [
+            "CM_TRIAC_4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-2-img5",
+      "name": "Right side 2x9 header (analog/4-20mA)",
+      "image": "media/23f3b1b92ee985086b8d1628ac7d63341128f5b26b9129f2be1631001a5a48ab.png",
+      "rows": 2,
+      "orderNote": "Pin numbers 1-18 printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+19V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "X8",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "+19V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "X9",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "+19V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "X10",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "+19V",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "X11",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "0-5V_CH5_P",
+          "functions": [
+            "X4"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "0-5V_CH1_P",
+          "functions": [
+            "X0"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "0-5V_CH6_P",
+          "functions": [
+            "X5"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "0-5V_CH2_P",
+          "functions": [
+            "X1"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "0-5V_CH7_P",
+          "functions": [
+            "X6"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "0-5V_CH3_P",
+          "functions": [
+            "X2"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "0-5V_CH8_P",
+          "functions": [
+            "X7"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "0-5V_CH4_P",
+          "functions": [
+            "X3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-3-img5",
+      "name": "Right side 2x9 header (latching out)",
+      "image": "media/23f3b1b92ee985086b8d1628ac7d63341128f5b26b9129f2be1631001a5a48ab.png",
+      "rows": 2,
+      "orderNote": "Pin numbers 1-18 printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PULSE_OUT0_P",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "PULSE_OUT0_N",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PULSE_OUT1_P",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "PULSE_OUT1_N",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "PULSE_OUT2_P",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "PULSE_OUT2_N",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "PULSE_OUT3_P",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "PULSE_OUT3_N",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "PULSE_OUT4_P",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "PULSE_OUT4_N",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "PULSE_OUT5_P",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "PULSE_OUT5_N",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "PULSE_OUT6_P",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "PULSE_OUT6_N",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "PULSE_OUT7_P",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "PULSE_OUT7_N",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header-4-img5",
+      "name": "Right side 2x9 header (watermark input)",
+      "image": "media/23f3b1b92ee985086b8d1628ac7d63341128f5b26b9129f2be1631001a5a48ab.png",
+      "rows": 2,
+      "orderNote": "Pin numbers 1-18 printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "WaterMrk1",
+          "functions": [
+            "X1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "WaterMrk2",
+          "functions": [
+            "X2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "WaterMrk3",
+          "functions": [
+            "X3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "WaterMrk4",
+          "functions": [
+            "X4"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "WaterMrk5",
+          "functions": [
+            "X5"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "WaterMrk6",
+          "functions": [
+            "X6"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "WaterMrk7",
+          "functions": [
+            "X7"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "WaterMrk8",
+          "functions": [
+            "X8"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "WaterMrk9",
+          "functions": [
+            "X9"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "WaterMrk10",
+          "functions": [
+            "X10"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "WaterMrk11",
+          "functions": [
+            "X11"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "WaterMrk12",
+          "functions": [
+            "X12"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "WaterMrk13",
+          "functions": [
+            "X13"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "WaterMrk14",
+          "functions": [
+            "X14"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "WaterMrk15",
+          "functions": [
+            "X15"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "WaterMrk16",
+          "functions": [
+            "X16"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "P0.05",
+          "functions": [
+            "SENSOR COMMON"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "P0.05",
+          "functions": [
+            "SENSOR COMMON"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DEBUG-img7",
+      "name": "DEBUG 2x5 header",
+      "image": "media/d628384cffc8f5c09de2f06dcdf37e06dda76c74732e39f9d6f18d5c255235e1.png",
+      "rows": 2,
+      "orderNote": "Pin numbers 1-10 printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SWDIO",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SWDCLK",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "RESET_N",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "?",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "img1 left-header-bottom: pins 2, 5, 7, 9 have pin numbers but no label (unlabeled)",
+    "img4 left-header-bottom: pins 2, 5, 7, 9 have pin numbers but no label (unlabeled)",
+    "img7 DEBUG: pins 3, 5, 7, 10 have pin numbers but no label (unlabeled)"
+  ],
+  "notes": "Headers drawn in side view with printed pin numbers; WaterMrk/X pills read as one pill (WaterMrkN as label, mux channel XN as function). Image 6 shows the LCD 16-pin connector (ASX00023) without individual pin labels; image 7's other callouts are ICs, not connectors. J4 battery holder skipped."
+}

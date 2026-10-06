@@ -1,0 +1,159 @@
+{
+  "recordId": "m5stack-gpio-device-cardputerzero",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/985cab63c2d6dde209a952656f3577858e60e8a1263fc4cb0910f94e9751bce6.webp",
+      "sha256": "985cab63c2d6dde209a952656f3577858e60e8a1263fc4cb0910f94e9751bce6"
+    },
+    {
+      "file": "media/6aee9f746bd4b25c57dcb64e4337865e848b7dfc138bc2831a2e644c9f9c2259.webp",
+      "sha256": "6aee9f746bd4b25c57dcb64e4337865e848b7dfc138bc2831a2e644c9f9c2259"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "port-x",
+      "name": "PORT.X Grove port",
+      "image": "media/985cab63c2d6dde209a952656f3577858e60e8a1263fc4cb0910f94e9751bce6.webp",
+      "rows": 1,
+      "orderNote": "Top-to-bottom as printed on the label strip (USB C2 is directly above, so the USB-nearest end is also the top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": [
+            "GROVE"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "TX",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "RX",
+          "functions": [
+            "SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "side-header-img2",
+      "name": "2x7 side header",
+      "image": "media/6aee9f746bd4b25c57dcb64e4337865e848b7dfc138bc2831a2e644c9f9c2259.webp",
+      "rows": 2,
+      "orderNote": "No printed numbers or USB in this view: position 1 at the left end of the top (outer) row, then alternating top/bottom rows",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G26",
+          "functions": [
+            "D+*"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "5V IN",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G23",
+          "functions": [
+            "D-*"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "G",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "G22",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "5V OUT",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "G11",
+          "functions": [
+            "CLK"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "G2",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "G10",
+          "functions": [
+            "MO"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "G3",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "G9",
+          "functions": [
+            "MI"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "G14",
+          "functions": [
+            "TX"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "G7",
+          "functions": [
+            "CS1"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "G15",
+          "functions": [
+            "RX"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "side-header-img2: the two label rows are printed above the header; mapping the upper label row to the upper socket row and lower label row to the lower socket row is inferred",
+    "side-header-img2: which socket row is the outer (board-edge) row is not clear from the side view; top row taken as outer",
+    "port-x: the label strip is a diagram on the case sticker, not the physical connector; the label-to-pin mapping follows the strip order"
+  ],
+  "notes": "Image 1 is the top-face block diagram sticker; only PORT.X has per-pin labels. Image 2 shows the 2x7 female header on the side with a two-line label strip above it. '*' marks after D+ and D- recorded as printed. Internal assignments (I2C, IIS, LCD, keyboard matrix) are not wiring points and are skipped."
+}

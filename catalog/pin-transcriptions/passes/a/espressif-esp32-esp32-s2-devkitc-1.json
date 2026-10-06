@@ -1,0 +1,424 @@
+{
+  "recordId": "espressif-esp32-esp32-s2-devkitc-1",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/f3b8dc8a02407f47dd928c2f8050b48b5d5e4e95ab6da63be64d8a6e4ed3054d.png",
+      "sha256": "f3b8dc8a02407f47dd928c2f8050b48b5d5e4e95ab6da63be64d8a6e4ed3054d"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/f3b8dc8a02407f47dd928c2f8050b48b5d5e4e95ab6da63be64d8a6e4ed3054d.png",
+      "rows": 1,
+      "orderNote": "No header position numbers printed (PCB silkscreen shows GPIO numbers); started at end closest to the USB connectors (bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "5V0",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO14",
+          "functions": [
+            "14",
+            "ADC2_3",
+            "TOUCH14",
+            "FSPIWP",
+            "FSPIDQS"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO13",
+          "functions": [
+            "13",
+            "ADC2_2",
+            "TOUCH13",
+            "FSPIQ",
+            "FSPIIO7"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO12",
+          "functions": [
+            "12",
+            "ADC2_1",
+            "TOUCH12",
+            "FSPICLK",
+            "FSPIIO6"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO11",
+          "functions": [
+            "11",
+            "ADC2_0",
+            "TOUCH11",
+            "FSPID",
+            "FSPIIO5"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO10",
+          "functions": [
+            "10",
+            "ADC1_9",
+            "TOUCH10",
+            "FSPICS0",
+            "FSPIIO4"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO9",
+          "functions": [
+            "9",
+            "ADC1_8",
+            "TOUCH9",
+            "FSPIHD"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO46",
+          "functions": [
+            "46",
+            "LOG"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO3",
+          "functions": [
+            "3",
+            "ADC1_2",
+            "TOUCH3"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO8",
+          "functions": [
+            "8",
+            "ADC1_7",
+            "TOUCH8"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO18",
+          "functions": [
+            "18",
+            "ADC2_7",
+            "U1RXD",
+            "DAC_2",
+            "CLK_OUT3",
+            "RGB_LED",
+            "PU"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO17",
+          "functions": [
+            "17",
+            "ADC2_6",
+            "U1TXD",
+            "DAC_1"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO16",
+          "functions": [
+            "16",
+            "ADC2_5",
+            "U0CTS",
+            "XTAL_32K_N"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO15",
+          "functions": [
+            "15",
+            "ADC2_4",
+            "U0RTS",
+            "XTAL_32K_P"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO7",
+          "functions": [
+            "7",
+            "ADC1_6",
+            "TOUCH7"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO6",
+          "functions": [
+            "6",
+            "ADC1_5",
+            "TOUCH6"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GPIO5",
+          "functions": [
+            "5",
+            "ADC1_4",
+            "TOUCH5"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GPIO4",
+          "functions": [
+            "4",
+            "ADC1_3",
+            "TOUCH4"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/f3b8dc8a02407f47dd928c2f8050b48b5d5e4e95ab6da63be64d8a6e4ed3054d.png",
+      "rows": 1,
+      "orderNote": "No header position numbers printed (PCB silkscreen shows GPIO numbers); started at end closest to the USB connectors (bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO19",
+          "functions": [
+            "19",
+            "ADC2_8",
+            "USB_D-",
+            "U1RTS",
+            "CLK_OUT2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO20",
+          "functions": [
+            "20",
+            "ADC2_9",
+            "USB_D+",
+            "U1CTS",
+            "CLK_OUT1"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO21",
+          "functions": [
+            "21"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO33",
+          "functions": [
+            "33",
+            "SPIIO4",
+            "FSPIHD"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO34",
+          "functions": [
+            "34",
+            "SPIIO5",
+            "FSPICS0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO45",
+          "functions": [
+            "45",
+            "VSPI"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO0",
+          "functions": [
+            "0",
+            "BOOT"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO35",
+          "functions": [
+            "35",
+            "SPIIO6",
+            "FSPID"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO36",
+          "functions": [
+            "36",
+            "SPIIO7",
+            "FSPICLK"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO37",
+          "functions": [
+            "37",
+            "SPIDQS",
+            "FSPIQ"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO38",
+          "functions": [
+            "38",
+            "FSPIWP"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO39",
+          "functions": [
+            "39",
+            "MTCK",
+            "CLK_OUT3"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO40",
+          "functions": [
+            "40",
+            "MTDO",
+            "CLK_OUT2"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO41",
+          "functions": [
+            "41",
+            "MTDI",
+            "CLK_OUT1"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO42",
+          "functions": [
+            "42",
+            "MTMS"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GPIO2",
+          "functions": [
+            "2",
+            "ADC1_1",
+            "TOUCH2"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GPIO1",
+          "functions": [
+            "1",
+            "ADC1_0",
+            "TOUCH1"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO44",
+          "functions": [
+            "RX",
+            "U0RXD",
+            "CLK_OUT2"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "GPIO43",
+          "functions": [
+            "TX",
+            "U0TXD",
+            "CLK_OUT1"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "PCB silkscreen beside each pad listed first in functions. 'RTC' category boxes and PWM/input-only symbols omitted. 'PU' on GPIO18 kept as a printed note (legend: pull-up only on boards with ESP32-S2-SOLO or SOLO-U module)."
+}

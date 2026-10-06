@@ -1,0 +1,583 @@
+{
+  "recordId": "m5stack-esp32-stamp-s3-pin1-27",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/31cab85a3085745794ef05378e8ea89d3d9af2548b933f709070f9d2b180025a.png",
+      "sha256": "31cab85a3085745794ef05378e8ea89d3d9af2548b933f709070f9d2b180025a"
+    },
+    {
+      "file": "media/37249f2574a8702c053b1807a9793ea4dbf7d44ff7ddccf3640c61a5a9863b77.jpg",
+      "sha256": "37249f2574a8702c053b1807a9793ea4dbf7d44ff7ddccf3640c61a5a9863b77"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left pins (label art)",
+      "image": "media/31cab85a3085745794ef05378e8ea89d3d9af2548b933f709070f9d2b180025a.png",
+      "rows": 1,
+      "orderNote": "Circled numbers are GPIO numbers, not position numbers; no USB connector drawn on this label art, so numbering runs top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "1",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "2",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "4",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "5",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "6",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "7",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "8",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "9",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "10",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GPIO11",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO12",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "13",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO14",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "15",
+          "functions": [
+            "SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right pins (label art)",
+      "image": "media/31cab85a3085745794ef05378e8ea89d3d9af2548b933f709070f9d2b180025a.png",
+      "rows": 1,
+      "orderNote": "Circled numbers are GPIO numbers, not position numbers; no USB connector drawn on this label art, so numbering runs top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "46",
+          "functions": [
+            "GP"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "43",
+          "functions": [
+            "U0 Tx"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "42",
+          "functions": [
+            "MMS"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "44",
+          "functions": [
+            "U0Rx"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "41",
+          "functions": [
+            "MDI"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "EN",
+          "functions": [
+            "RST"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "40",
+          "functions": [
+            "MDO"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO0",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "39",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "backside-port",
+      "name": "Backside port (Ext. + LCD.PORT), printed numbered list",
+      "image": "media/31cab85a3085745794ef05378e8ea89d3d9af2548b933f709070f9d2b180025a.png",
+      "rows": 1,
+      "orderNote": "Printed position numbers 1-12 followed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "G18",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G17",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "G16",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "G38",
+          "functions": [
+            "BL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "G33",
+          "functions": [
+            "RST"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "G34",
+          "functions": [
+            "RS"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "G35",
+          "functions": [
+            "DAT"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "G36",
+          "functions": [
+            "SCK"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "G37",
+          "functions": [
+            "CS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-pads-img2",
+      "name": "Left edge pads",
+      "image": "media/37249f2574a8702c053b1807a9793ea4dbf7d44ff7ddccf3640c61a5a9863b77.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB-C at bottom, so position 1 is the bottom pad and numbering runs upward",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G15",
+          "functions": [
+            "A2CH4",
+            "SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "G14",
+          "functions": [
+            "A2CH3",
+            "TCH14"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "G13",
+          "functions": [
+            "A2CH2",
+            "TCH13",
+            "SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "G12",
+          "functions": [
+            "A2CH1",
+            "TCH12"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "G11",
+          "functions": [
+            "A2CH0",
+            "TCH11"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "G10",
+          "functions": [
+            "A1CH9",
+            "TCH10"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "G9",
+          "functions": [
+            "A1CH8",
+            "TCH9"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "G8",
+          "functions": [
+            "A1CH7",
+            "TCH8"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "G7",
+          "functions": [
+            "A1CH6",
+            "TCH7"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "G6",
+          "functions": [
+            "A1CH5",
+            "TCH6"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "G5",
+          "functions": [
+            "A1CH4",
+            "TCH5"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "G4",
+          "functions": [
+            "A1CH3",
+            "TCH4"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "G3",
+          "functions": [
+            "A1CH2",
+            "TCH3"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "G2",
+          "functions": [
+            "A1CH1",
+            "TCH2"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "G1",
+          "functions": [
+            "A1CH0",
+            "TCH1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-pads-img2",
+      "name": "Right edge pads",
+      "image": "media/37249f2574a8702c053b1807a9793ea4dbf7d44ff7ddccf3640c61a5a9863b77.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB-C at bottom, so position 1 is the bottom pad and numbering runs upward",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "G39",
+          "functions": [
+            "CLK3",
+            "MTCK"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "G0",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "G40",
+          "functions": [
+            "CLK2",
+            "MTDO"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "G41",
+          "functions": [
+            "CLK1",
+            "MTDI"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "G44",
+          "functions": [
+            "CLK2",
+            "RXD"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "G42",
+          "functions": [
+            "MTMS"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "G43",
+          "functions": [
+            "CLK1",
+            "TXD"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "G46",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-port-img2",
+      "name": "Backside port (LCD.PORT + Ext.), callout from the back-view inset",
+      "image": "media/37249f2574a8702c053b1807a9793ea4dbf7d44ff7ddccf3640c61a5a9863b77.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; the horizontal row's two ends are about equally far from the USB-C connector, so started at the left as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G37",
+          "functions": [
+            "CS"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G36",
+          "functions": [
+            "SCK"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "G35",
+          "functions": [
+            "DAT"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "G34",
+          "functions": [
+            "RS"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "G33",
+          "functions": [
+            "RST"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "G38",
+          "functions": [
+            "BL"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "G16",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "G17",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "G18",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "5V",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Image 1 prints 'G21 RGB STATUS' immediately left of the 39 pad label; read as an annotation for the RGB LED on G21 (image 2's table lists G21 RGB), not a function of pin 39, but the placement leaves it open.",
+    "Image 2 bottom row ordering: started at the left (USB ends tie); image 1's numbered backside list runs 1=5V ... 12=G37/CS, the reverse of image 2's left-to-right order, so the physical start end of this port is open."
+  ],
+  "notes": "Image 1 is the module label artwork: circled numbers are GPIO numbers recorded as labels where no GPIO name is printed ('GPIO' + circle recorded as GPIO11/GPIO12/GPIO14/GPIO0). Short notes beside pins (GP, U0 Tx, MMS, MDI, MDO, U0Rx, RST, SDA, SCL) recorded as functions as printed; GND bottom-right is a pin. USB D-:G19/D+:G20 and BTN 0 are notes, not pins. Image 2: labels G1..G46 with ADC (A1CHn/A2CHn), touch, clock-out, JTAG, UART and I2C names read outward."
+}

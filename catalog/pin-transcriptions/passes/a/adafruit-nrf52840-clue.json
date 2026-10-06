@@ -1,0 +1,274 @@
+{
+  "recordId": "adafruit-nrf52840-clue",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/6825935f0ea15911b37edb42fdbb306aed411fd657172e0e39bee95a973cbda2.png",
+      "sha256": "6825935f0ea15911b37edb42fdbb306aed411fd657172e0e39bee95a973cbda2"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "edge-pads",
+      "name": "Bottom edge connector (25 fingers incl. 5 large ring pads)",
+      "image": "media/6825935f0ea15911b37edb42fdbb306aed411fd657172e0e39bee95a973cbda2.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; no USB visible; horizontal row read left to right (left rule)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P0.28",
+          "functions": [
+            "A5",
+            "3",
+            "AIN4"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P0.04",
+          "functions": [
+            "0",
+            "#0",
+            "A2",
+            "AIN2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P0.02",
+          "functions": [
+            "A6",
+            "4",
+            "AIN0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P1.02",
+          "functions": [
+            "BUTTON_A",
+            "5"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "P1.09",
+          "functions": [
+            "D6",
+            "6"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P0.07",
+          "functions": [
+            "D7",
+            "7"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "P0.05",
+          "functions": [
+            "1",
+            "#1",
+            "A3",
+            "AIN3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "P1.07",
+          "functions": [
+            "D8",
+            "8"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "P0.27",
+          "functions": [
+            "D9",
+            "9"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "P0.30",
+          "functions": [
+            "A7",
+            "10",
+            "AIN6"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "P1.10",
+          "functions": [
+            "BUTTON_B",
+            "11"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "P0.31",
+          "functions": [
+            "A0",
+            "12",
+            "AIN7"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "P0.03",
+          "functions": [
+            "2",
+            "#2",
+            "A4",
+            "AIN1"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "P0.08",
+          "functions": [
+            "SCK",
+            "13"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "P0.06",
+          "functions": [
+            "MISO",
+            "14"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "P0.26",
+          "functions": [
+            "MOSI",
+            "15"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "P0.29",
+          "functions": [
+            "A1",
+            "16",
+            "AIN5"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "3.3V",
+          "functions": [
+            "3V"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "P0.25",
+          "functions": [
+            "SCL",
+            "19"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "P0.24",
+          "functions": [
+            "SDA",
+            "20"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "stemma-qt",
+      "name": "STEMMA QT / I2C connector (top)",
+      "image": "media/6825935f0ea15911b37edb42fdbb306aed411fd657172e0e39bee95a973cbda2.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; no USB visible; horizontal row read left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "P0.24",
+          "functions": [
+            "SDA",
+            "20"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P0.25",
+          "functions": [
+            "SCL",
+            "19"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "battery-connector",
+      "name": "Battery connection points (top left)",
+      "image": "media/6825935f0ea15911b37edb42fdbb306aed411fd657172e0e39bee95a973cbda2.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; no USB visible; horizontal pair read left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Label = GPIO name (P0.xx); CircuitPython name then Arduino number in functions; HS/LS speed tags omitted. Edge fingers counted from the callout lines: 3.3V callout has three lines (finger left of 3V ring, 3V ring, finger right of it) and GND three (finger, GND ring, last finger). Two fingers have no bottom callout but are connected by drawn lines to the BUTTON_A (finger 4) and BUTTON_B (finger 11) callouts; transcribed with those callouts' GPIO names. Large ring pads also carry silkscreen 0/1/2/3V/GND and #0/#1/#2. Display, microphone, speaker, NFC, proximity, LED and accelerometer callouts are internal/on-board and skipped."
+}

@@ -1,0 +1,108 @@
+{
+  "recordId": "lilygo-esp32-t-qt-c6",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/7b082705b737dc34e0f07cc69f4ade83ba17888181ea005d267ea46e3c75460e.jpg",
+      "sha256": "7b082705b737dc34e0f07cc69f4ade83ba17888181ea005d267ea46e3c75460e"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "back-header",
+      "name": "2x4 female header (back view)",
+      "image": "media/7b082705b737dc34e0f07cc69f4ade83ba17888181ea005d267ea46e3c75460e.jpg",
+      "rows": 2,
+      "orderNote": "2xN without printed numbers; USB not visible in the back view, so started at the top; position 1 = top hole of the left (outer, nearest case edge) column, then alternating right/left down the header",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO22",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IO21",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO03",
+          "functions": [
+            "IO3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "IO00",
+          "functions": [
+            "IO0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "3.3V",
+          "functions": [
+            "+3.3V"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "IO01",
+          "functions": [
+            "IO1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "5V",
+          "functions": [
+            "+5V"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qwiic",
+      "name": "QwiiC-4PIN connector (Type-C end view)",
+      "image": "media/7b082705b737dc34e0f07cc69f4ade83ba17888181ea005d267ea46e3c75460e.jpg",
+      "rows": 1,
+      "orderNote": "No printed numbers; the Type-C connector sits centred above the Qwiic socket so neither end is nearer USB; started at the left of the image as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RX",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "G",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "2x4 header: the label table and case silkscreen give a 4-row x 2-column grid joined to the header by a single line; mapping each grid cell to the hole in the same position is inferred, not drawn per hole.",
+    "Qwiic order: Type-C is centred above the socket so the USB-nearest rule does not pick an end; left-to-right of the end view was used. The back-view case print 'GND +3.3V TX RX' (mirror order) is consistent with this."
+  ],
+  "notes": "Header labels use the callout table spelling (IO03, IO00, 3.3V, IO01, 5V); case silkscreen spellings (IO3, IO0, +3.3V, IO1, +5V) placed first in functions. 2-pin battery connector marked only + / - skipped (rule 1). LCD, touch, PMU I2C, Bat_ADC and LED callouts are internal signals with no physical pins. Qwiic labels taken from the end-view callout only (G kept as printed)."
+}

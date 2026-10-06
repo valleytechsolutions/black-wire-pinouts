@@ -1,0 +1,438 @@
+{
+  "recordId": "sparkfun-azurewave-thing-plus-aw-cu488",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/3e00a160556d9cb6cd2a0260cd774b1b71012aba754333c710bf6db9618c0af1.png",
+      "sha256": "3e00a160556d9cb6cd2a0260cd774b1b71012aba754333c710bf6db9618c0af1"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/3e00a160556d9cb6cd2a0260cd774b1b71012aba754333c710bf6db9618c0af1.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; started at the end closest to the USB-C connector (bottom of image).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": [
+            "~3.7V"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "EN",
+          "functions": [
+            "Enable"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "VUSB",
+          "functions": [
+            "+5V"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PB[29]",
+          "functions": [
+            "13",
+            "INT",
+            "LED_BUILTIN",
+            "AOUTP_R"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PB[26]",
+          "functions": [
+            "12",
+            "INT"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PB[22]",
+          "functions": [
+            "11",
+            "INT",
+            "PWM"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PB[23]",
+          "functions": [
+            "10",
+            "INT",
+            "PWM"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PB[3]",
+          "functions": [
+            "9/A6",
+            "9",
+            "INT",
+            "ADC6",
+            "SWD_CLK"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PA[19]",
+          "functions": [
+            "8/CS",
+            "8",
+            "INT",
+            "CS",
+            "RX2"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PA[30]",
+          "functions": [
+            "7",
+            "INT",
+            "PWM"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PA[25]",
+          "functions": [
+            "6/SCL",
+            "6",
+            "INT",
+            "PWM",
+            "SCL(a)",
+            "RX1(b)"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "PA[26]",
+          "functions": [
+            "5/SDA",
+            "5",
+            "INT",
+            "PWM",
+            "SDA(a)",
+            "TX1(b)"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "PA[28]",
+          "functions": [
+            "26",
+            "INT",
+            "PWM"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "PA[27]",
+          "functions": [
+            "27",
+            "INT",
+            "SWD_DATA"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "PA[15]",
+          "functions": [
+            "28",
+            "INT",
+            "CS(b)"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "PA[14]",
+          "functions": [
+            "29",
+            "INT",
+            "CLK(b)"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/3e00a160556d9cb6cd2a0260cd774b1b71012aba754333c710bf6db9618c0af1.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; started at the end closest to the USB-C connector (bottom of image).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RESET",
+          "functions": [
+            "Reset"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": [
+            "+3.3V"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "N/C",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "PB[4]",
+          "functions": [
+            "14/A0",
+            "14",
+            "INT",
+            "PWM",
+            "ADC0",
+            "PICO1(a)"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PB[5]",
+          "functions": [
+            "15/A1",
+            "15",
+            "INT",
+            "PWM",
+            "ADC1",
+            "SCL(b)",
+            "POCI1(a)"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PB[6]",
+          "functions": [
+            "16/A2",
+            "16",
+            "INT",
+            "ADC2",
+            "SDA(b)",
+            "SCK1(a)"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PB[7]",
+          "functions": [
+            "17/A3",
+            "17",
+            "INT",
+            "PWM",
+            "ADC3",
+            "CS1(a)"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PB[1]",
+          "functions": [
+            "18/A4",
+            "18",
+            "INT",
+            "ADC4",
+            "TX1(c)"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PB[2]",
+          "functions": [
+            "19/A5",
+            "19",
+            "INT",
+            "ADC5",
+            "RX1(b)"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PA[18]",
+          "functions": [
+            "0/SCK",
+            "0",
+            "INT",
+            "SCK",
+            "TX2"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "PA[16]",
+          "functions": [
+            "1/PICO",
+            "1",
+            "INT",
+            "PICO"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "PA[17]",
+          "functions": [
+            "2/POCI",
+            "2",
+            "INT",
+            "POCI"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "PA[13]",
+          "functions": [
+            "3/RX1",
+            "3",
+            "INT",
+            "PWM",
+            "POCI1(b)",
+            "RX1(a)"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "PA[12]",
+          "functions": [
+            "4/TX1",
+            "4",
+            "INT",
+            "PWM",
+            "PICO1(b)",
+            "TX1(a)"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "PB[31]",
+          "functions": [
+            "20",
+            "INT",
+            "AOUTP_L"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "PA[0]",
+          "functions": [
+            "21",
+            "INT",
+            "MIC_BIAS"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "PA[4]",
+          "functions": [
+            "22",
+            "INT",
+            "MIC1_P"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "PA[2]",
+          "functions": [
+            "23",
+            "INT"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "PA[7]",
+          "functions": [
+            "24/TX",
+            "24",
+            "INT",
+            "TX"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "PA[8]",
+          "functions": [
+            "25/RX",
+            "25",
+            "INT",
+            "RX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qwiic",
+      "name": "Qwiic connector",
+      "image": "media/3e00a160556d9cb6cd2a0260cd774b1b71012aba754333c710bf6db9618c0af1.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; started at the end closest to the USB-C connector (bottom of image). Vertical connector on the left edge; bottom pin first.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PA[25]",
+          "functions": [
+            "SCL",
+            "6",
+            "INT",
+            "PWM",
+            "RX1(b)"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PA[26]",
+          "functions": [
+            "SDA",
+            "5",
+            "INT",
+            "PWM",
+            "TX1(b)"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": [
+            "+3.3V"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Qwiic connector: the label-to-pin mapping is inferred from coloured leader lines entering the connector graphic (GND top, then 3.3V, SDA, SCL toward the USB end)."
+  ],
+  "notes": "Label uses the port name (PA[x]/PB[x]) as the GPIO name; board names (e.g. 9/A6) and Arduino numbers that differ are kept first in functions. Header gaps between 26 and 5/SDA (left) and 21 and 20 (right) have no hole. JST LiPo connector, buttons and back-of-board jumper inset skipped (rule 1)."
+}

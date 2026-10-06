@@ -1,0 +1,400 @@
+{
+  "recordId": "sparkfun-redboard-dev-13975",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/b3dc6eb7c530ec0046538247bae3077101b299d39e156ec9a2af7a761823b99a.png",
+      "sha256": "b3dc6eb7c530ec0046538247bae3077101b299d39e156ec9a2af7a761823b99a"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "power-header",
+      "name": "Power header (left)",
+      "image": "media/b3dc6eb7c530ec0046538247bae3077101b299d39e156ec9a2af7a761823b99a.png",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; vertical row, end nearest the USB connector (top) first",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IOREF",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "Reset",
+          "functions": [
+            "RST",
+            "PC6",
+            "PCINT14"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "Vin",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "analog-header",
+      "name": "Analog header (left)",
+      "image": "media/b3dc6eb7c530ec0046538247bae3077101b299d39e156ec9a2af7a761823b99a.png",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; vertical row, end nearest the USB connector (top) first",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A0/D14",
+          "functions": [
+            "A0",
+            "PC0",
+            "ADC0",
+            "PCINT8"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "A1/D15",
+          "functions": [
+            "A1",
+            "PC1",
+            "ADC1",
+            "PCINT9"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "A2/D16",
+          "functions": [
+            "A2",
+            "PC2",
+            "ADC2",
+            "PCINT10"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "A3/D17",
+          "functions": [
+            "A3",
+            "PC3",
+            "ADC3",
+            "PCINT11"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "A4/D18",
+          "functions": [
+            "A4",
+            "PC4",
+            "ADC4",
+            "SDA",
+            "PCINT12"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "A5/D19",
+          "functions": [
+            "A5",
+            "PC5",
+            "ADC5",
+            "SCL",
+            "PCINT13"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digital-header-upper",
+      "name": "Digital header, upper (right)",
+      "image": "media/b3dc6eb7c530ec0046538247bae3077101b299d39e156ec9a2af7a761823b99a.png",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; vertical row, end nearest the USB connector (top) first",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A5/D19",
+          "functions": [
+            "SCL",
+            "PC5",
+            "ADC5",
+            "PCINT13"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "A4/D18",
+          "functions": [
+            "SDA",
+            "PC4",
+            "ADC4",
+            "PCINT12"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "AREF",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "D13",
+          "functions": [
+            "13",
+            "PB5",
+            "SCK",
+            "PCINT5",
+            "LED"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D12",
+          "functions": [
+            "12",
+            "PB4",
+            "MISO",
+            "PCINT4"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "D11",
+          "functions": [
+            "11",
+            "PB3",
+            "8-bit",
+            "MOSI",
+            "PCINT3",
+            "OC2A"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "D10",
+          "functions": [
+            "10",
+            "PB2",
+            "8-bit",
+            "SS",
+            "PCINT2",
+            "OC1B"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "D9",
+          "functions": [
+            "9",
+            "PB1",
+            "8-bit",
+            "PCINT1",
+            "OC1A"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "D8",
+          "functions": [
+            "8",
+            "PB0",
+            "PCINT0",
+            "ICP1",
+            "CLKO"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digital-header-lower",
+      "name": "Digital header, lower (right)",
+      "image": "media/b3dc6eb7c530ec0046538247bae3077101b299d39e156ec9a2af7a761823b99a.png",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; vertical row, end nearest the USB connector (top) first",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D7",
+          "functions": [
+            "7",
+            "PD7",
+            "PCINT23",
+            "IN1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D6",
+          "functions": [
+            "6",
+            "PD6",
+            "8-bit",
+            "PCINT22",
+            "OC0A",
+            "AIN0"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "D5",
+          "functions": [
+            "5",
+            "PD5",
+            "8-bit",
+            "PCINT21",
+            "OC0B",
+            "T1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D4",
+          "functions": [
+            "4",
+            "PD4",
+            "PCINT20",
+            "T0",
+            "XCK"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "D3",
+          "functions": [
+            "3",
+            "PD3",
+            "8-bit",
+            "INT1",
+            "PCINT19",
+            "OC2B"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D2",
+          "functions": [
+            "2",
+            "PD2",
+            "INT0",
+            "PCINT18"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "D1",
+          "functions": [
+            "TX0->1",
+            "PD1",
+            "TXD",
+            "PCINT17"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "D0",
+          "functions": [
+            "RX<-0",
+            "PD0",
+            "RXD",
+            "PCINT16"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ISP",
+      "name": "ISP header (2x3)",
+      "image": "media/b3dc6eb7c530ec0046538247bae3077101b299d39e156ec9a2af7a761823b99a.png",
+      "rows": 2,
+      "orderNote": "No pin numbers; 2x3 rule: start at the right end (nearer the USB connector in the image) of the top row, alternating top/bottom rows",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D12",
+          "functions": [
+            "MISO",
+            "PB4",
+            "PCINT4"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "D13",
+          "functions": [
+            "SCK",
+            "PB5",
+            "PCINT5",
+            "LED"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D11",
+          "functions": [
+            "MOSI",
+            "PB3",
+            "8-bit",
+            "PCINT3",
+            "OC2A"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "Reset",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Label choice for ATmega pins: the AVR port names (PB5, PC0...) were treated as port names, not GPIO names, so the Arduino names (D13, A0/D14) were used as labels.",
+    "ISP header is drawn as a detached diagram, so 'row nearest the board edge' is undefined; top row chosen as the outer row. A bar mark above the MISO pin may indicate pin 1 but is not labeled."
+  ],
+  "notes": "SparkFun RedBoard (DEV-13975) pinout. White 'Name' boxes are the silkscreen and are placed first in functions when they differ; the Arduino name (D13, A0/D14) is used as the label. Lower digital pin 7 shows 'IN1' as printed. A bar is drawn above the top-right ISP pin (MISO) but no '1' is printed."
+}

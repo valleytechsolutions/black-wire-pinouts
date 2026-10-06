@@ -1,0 +1,367 @@
+{
+  "recordId": "nologo-rp2040-rp2040-promicro",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/12a80ea94874ac87499bf1b505c1abe36d0392d5fc22d13fbc76f21f049f1dcc.png",
+      "sha256": "12a80ea94874ac87499bf1b505c1abe36d0392d5fc22d13fbc76f21f049f1dcc"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/12a80ea94874ac87499bf1b505c1abe36d0392d5fc22d13fbc76f21f049f1dcc.png",
+      "rows": 1,
+      "orderNote": "USB connector at top; vertical row starts at the end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP10",
+          "functions": [
+            "10",
+            "SPI1 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP0",
+          "functions": [
+            "0",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP1",
+          "functions": [
+            "1",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP2",
+          "functions": [
+            "2",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP3",
+          "functions": [
+            "3",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP4",
+          "functions": [
+            "4",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP5",
+          "functions": [
+            "5",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP6",
+          "functions": [
+            "6",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP7",
+          "functions": [
+            "7",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP8",
+          "functions": [
+            "8",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GP9",
+          "functions": [
+            "9",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/12a80ea94874ac87499bf1b505c1abe36d0392d5fc22d13fbc76f21f049f1dcc.png",
+      "rows": 1,
+      "orderNote": "USB connector at top; vertical row starts at the end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP11",
+          "functions": [
+            "11",
+            "SPI1 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GP29",
+          "functions": [
+            "29",
+            "ADC3"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP28",
+          "functions": [
+            "28",
+            "ADC2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP27",
+          "functions": [
+            "27",
+            "ADC1",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP26",
+          "functions": [
+            "26",
+            "ADC0",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP22",
+          "functions": [
+            "22"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP20",
+          "functions": [
+            "20",
+            "I2C0 SDA"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP23",
+          "functions": [
+            "23"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GP21",
+          "functions": [
+            "21",
+            "I2C0 SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-header",
+      "name": "Bottom edge pads between the corner pins",
+      "image": "media/12a80ea94874ac87499bf1b505c1abe36d0392d5fc22d13fbc76f21f049f1dcc.png",
+      "rows": 1,
+      "orderNote": "Horizontal row, USB not nearer either end; left-to-right per top/left rule",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP12",
+          "functions": [
+            "12",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP13",
+          "functions": [
+            "13",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP14",
+          "functions": [
+            "14",
+            "SPI1 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP15",
+          "functions": [
+            "15",
+            "SPI1 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP16",
+          "functions": [
+            "16",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "boot-pad",
+      "name": "Inner pad below USB (callout BOOT)",
+      "image": "media/12a80ea94874ac87499bf1b505c1abe36d0392d5fc22d13fbc76f21f049f1dcc.png",
+      "rows": 1,
+      "orderNote": "Single pad",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BOOT",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "inner-pads",
+      "name": "Inner pads 18 and 24 (under RESET silkscreen)",
+      "image": "media/12a80ea94874ac87499bf1b505c1abe36d0392d5fc22d13fbc76f21f049f1dcc.png",
+      "rows": 1,
+      "orderNote": "Horizontal pair, left-to-right per top/left rule",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP18",
+          "functions": [
+            "18",
+            "SPI0 SCK",
+            "I2C0 SDA"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP24",
+          "functions": [
+            "24"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pad-25",
+      "name": "Inner pad 25 near bottom-left",
+      "image": "media/12a80ea94874ac87499bf1b505c1abe36d0392d5fc22d13fbc76f21f049f1dcc.png",
+      "rows": 1,
+      "orderNote": "Single pad",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP25",
+          "functions": [
+            "25",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Grouping: the bottom-corner pins (silkscreen 9 and 21) are assigned to the left/right columns; physically they also terminate the bottom row of pads 12-16.",
+    "Inner pads (BOOT pad, 18, 24, 25) recorded as separate small connectors; the image does not show whether they are meant as wiring points or test pads. The BOOT pad has no silkscreen label; its name comes from the callout line."
+  ],
+  "notes": "GP17 callout (RGB_LED) points to the onboard LED, not a pad, so it is not transcribed. Silkscreen 'RESET' and 'BOOT' texts near inner pads appear to refer to buttons/pads; labels taken from callouts."
+}

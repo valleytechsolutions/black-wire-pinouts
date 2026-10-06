@@ -1,0 +1,466 @@
+{
+  "recordId": "seeed-studio-expansion-expansion-board-base-for-xiao",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/daa59ba0e33be1629b30893f0e2302899bcf44897f76bf35cfaae3ba18567d2a.jpg",
+      "sha256": "daa59ba0e33be1629b30893f0e2302899bcf44897f76bf35cfaae3ba18567d2a"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "top-header",
+      "name": "Upper XIAO breakout header (USB5V..7)",
+      "image": "media/daa59ba0e33be1629b30893f0e2302899bcf44897f76bf35cfaae3ba18567d2a.jpg",
+      "rows": 2,
+      "orderNote": "2x7 header without printed position numbers and no USB connector on this board: position 1 at the left end of the outer row (nearest the top board edge), then alternating rows; both holes of each printed column take that column's label (rule 10).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": [
+            "USB5V"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": [
+            "USB5V"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "D10",
+          "functions": [
+            "10",
+            "A10",
+            "MOSI"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "D10",
+          "functions": [
+            "10",
+            "A10",
+            "MOSI"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "D9",
+          "functions": [
+            "9",
+            "A9",
+            "MOSI"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "D9",
+          "functions": [
+            "9",
+            "A9",
+            "MOSI"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "D8",
+          "functions": [
+            "8",
+            "A8",
+            "SCK"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "D8",
+          "functions": [
+            "8",
+            "A8",
+            "SCK"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "D7",
+          "functions": [
+            "7",
+            "A7",
+            "RX"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "D7",
+          "functions": [
+            "7",
+            "A7",
+            "RX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-header",
+      "name": "Lower XIAO breakout header (0..6)",
+      "image": "media/daa59ba0e33be1629b30893f0e2302899bcf44897f76bf35cfaae3ba18567d2a.jpg",
+      "rows": 2,
+      "orderNote": "2x7 header without printed position numbers and no USB connector on this board: position 1 at the left end of the outer row (nearest the bottom board edge), then alternating rows; both holes of each printed column take that column's label (rule 10).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D0",
+          "functions": [
+            "0",
+            "A0",
+            "DAC"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D0",
+          "functions": [
+            "0",
+            "A0",
+            "DAC"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "D1",
+          "functions": [
+            "1",
+            "A1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D1",
+          "functions": [
+            "1",
+            "A1"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "D2",
+          "functions": [
+            "2",
+            "A2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D2",
+          "functions": [
+            "2",
+            "A2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "D3",
+          "functions": [
+            "3",
+            "A3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "D3",
+          "functions": [
+            "3",
+            "A3"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "D4",
+          "functions": [
+            "4",
+            "A4",
+            "SDA"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "D4",
+          "functions": [
+            "4",
+            "A4",
+            "SDA"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "D5",
+          "functions": [
+            "5",
+            "A5",
+            "SCL"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "D5",
+          "functions": [
+            "5",
+            "A5",
+            "SCL"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "D6",
+          "functions": [
+            "6",
+            "A6",
+            "TX"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "D6",
+          "functions": [
+            "6",
+            "A6",
+            "TX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "swd-pads",
+      "name": "SWD pads (2x2)",
+      "image": "media/daa59ba0e33be1629b30893f0e2302899bcf44897f76bf35cfaae3ba18567d2a.jpg",
+      "rows": 2,
+      "orderNote": "2x2 pads without printed numbers: position 1 at the top of the left column (nearest the left board edge), then alternating columns.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SWCLK",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SWDIO",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RESET",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right 2x4 header (SWD/UART)",
+      "image": "media/daa59ba0e33be1629b30893f0e2302899bcf44897f76bf35cfaae3ba18567d2a.jpg",
+      "rows": 2,
+      "orderNote": "2x4 header without printed numbers and no USB connector: position 1 at the top of the right column (nearest the right board edge), then alternating columns.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RXI7",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SWCLK",
+          "functions": [
+            "SWDCLK"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "TXI6",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SWDIO",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-iic-1",
+      "name": "Grove IIC (left)",
+      "image": "media/daa59ba0e33be1629b30893f0e2302899bcf44897f76bf35cfaae3ba18567d2a.jpg",
+      "rows": 1,
+      "orderNote": "Horizontal row, no USB connector: left to right.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SCLI5",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SDAI4",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-iic-2",
+      "name": "Grove IIC (right)",
+      "image": "media/daa59ba0e33be1629b30893f0e2302899bcf44897f76bf35cfaae3ba18567d2a.jpg",
+      "rows": 1,
+      "orderNote": "Horizontal row, no USB connector: left to right.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SCLI5",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SDAI4",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-a0-d0",
+      "name": "Grove A0-D0",
+      "image": "media/daa59ba0e33be1629b30893f0e2302899bcf44897f76bf35cfaae3ba18567d2a.jpg",
+      "rows": 1,
+      "orderNote": "Horizontal row, no USB connector: left to right.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "N/A",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "D0",
+          "functions": [
+            "0",
+            "A0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grove-uart",
+      "name": "Grove UART",
+      "image": "media/daa59ba0e33be1629b30893f0e2302899bcf44897f76bf35cfaae3ba18567d2a.jpg",
+      "rows": 1,
+      "orderNote": "Horizontal row, no USB connector: left to right.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "TXI6",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RXI7",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Grove A0-D0 pin '0': connector-level callouts A0/D0 applied to the pin silkscreened '0' by inference."
+  ],
+  "notes": "Seeed 'Pinout' of the Expansion Board Base for XIAO (render without the XIAO module fitted). Header labels: board names D0-D10 chosen as labels; silkscreen digit first in functions, then callouts read outward (A-number, then SPI/IIC/UART/DAC). Callout 'MOSI' appears on both columns 10 and 9 as printed. Silkscreen names SCLI5, SDAI4, TXI6, RXI7 recorded as printed (the 'I' may be a separator). Connector-level callouts: IIC groves 'A5, D5, IIC'; A0-D0 grove 'A0, D0'; UART grove 'UART, A7, D7'. Skipped: 3.7V LiPo battery connector (+/- only), RTC chip, buttons, buzzer, power switch."
+}

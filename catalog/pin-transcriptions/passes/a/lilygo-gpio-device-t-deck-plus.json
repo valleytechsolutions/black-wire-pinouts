@@ -1,0 +1,64 @@
+{
+  "recordId": "lilygo-gpio-device-t-deck-plus",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/a92a4c2a04825e73f4f77c8a23ae04a1680edab36660629f700eeee78656355b.jpg",
+      "sha256": "a92a4c2a04825e73f4f77c8a23ae04a1680edab36660629f700eeee78656355b"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "esp32-c3-pads",
+      "name": "ESP32-C3 pads (rear overlay)",
+      "image": "media/a92a4c2a04825e73f4f77c8a23ae04a1680edab36660629f700eeee78656355b.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; no USB connector visible in this view; vertical row read from the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "TX",
+          "functions": [
+            "21"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "RX",
+          "functions": [
+            "20"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "IO09",
+          "functions": [
+            "BOOT"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "VCC",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "ESP32-C3 pads: label-to-pad mapping inferred from the caption list order beside six pads; the pads belong to an internal ESP32-C3 board shown through a translucent overlay, not a user header."
+  ],
+  "notes": "Device pinmap. The only labelled physical pin row is a column of six pads on a translucent overlay of an ESP32-C3 board on the rear, captioned TX(21) RX(20) IO09(BOOT) RST GND VCC / ESP32-C3. The GPS \"Seat used\" 4-pin connector only lists RX(44)/TX(43) without per-pin mapping and is skipped. LCD, microphone, TF card, LoRa and trackball tables are internal assignments."
+}

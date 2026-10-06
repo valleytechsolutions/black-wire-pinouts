@@ -1,0 +1,99 @@
+{
+  "recordId": "seeed-studio-expansion-ds1307-rtc-for-raspberry-pi",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/99ca455f6fa13f38cd99cf44758e273ea07b9b8ebe241309c53b012d4eb332d1.jpg",
+      "sha256": "99ca455f6fa13f38cd99cf44758e273ea07b9b8ebe241309c53b012d4eb332d1"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "pi-header",
+      "name": "2x5 Raspberry Pi header",
+      "image": "media/99ca455f6fa13f38cd99cf44758e273ea07b9b8ebe241309c53b012d4eb332d1.jpg",
+      "rows": 2,
+      "orderNote": "Pin 1 marked with '1' at the top-right pad; numbered from pin 1 alternating top/bottom rows, moving left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SDA_3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "SCL_3V3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO7",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "RX",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "uart-pads",
+      "name": "TX/RX 2-pad column",
+      "image": "media/99ca455f6fa13f38cd99cf44758e273ea07b9b8ebe241309c53b012d4eb332d1.jpg",
+      "rows": 1,
+      "orderNote": "No numbers or USB; vertical, started at the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "RX",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Header labels come from a separate colour-square key below the photo (top line GND, GPIO7, SCL_3V3, SDA_3V3, 3V3; bottom line RX, TX, GND, 5V, 5V); the key's text is not aligned exactly with the squares, and the key is assumed to have the same orientation as the board photo (pin 1 top-right = 3V3).",
+    "Numbering after pin 1 (alternating rows) is assumed; only pin 1 is marked.",
+    "Board silkscreen reads only 'Pi RTC'; it does not identify the DS1307 chip, so identity is assumed from context."
+  ],
+  "notes": ""
+}

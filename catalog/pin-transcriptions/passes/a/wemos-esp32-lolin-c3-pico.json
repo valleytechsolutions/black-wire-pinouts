@@ -1,0 +1,235 @@
+{
+  "recordId": "wemos-esp32-lolin-c3-pico",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/a862b0da9a92527386db6272ec9a77068aabd6d3546e6000151ecaf68786bd33.jpg",
+      "sha256": "a862b0da9a92527386db6272ec9a77068aabd6d3546e6000151ecaf68786bd33"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/a862b0da9a92527386db6272ec9a77068aabd6d3546e6000151ecaf68786bd33.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at bottom (end closest to the USB-C connector).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3.3v",
+          "functions": [
+            "3V"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO5",
+          "functions": [
+            "5",
+            "SS",
+            "ADC2_0",
+            "FSPIWP",
+            "MTDI"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO4",
+          "functions": [
+            "4",
+            "MOSI",
+            "ADC1_4",
+            "FSPIHD",
+            "MTMS"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO0",
+          "functions": [
+            "0",
+            "ADC1_0",
+            "XTAL_32K_P"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO1",
+          "functions": [
+            "1",
+            "ADC1_1",
+            "XTAL_32K_N"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO2",
+          "functions": [
+            "2",
+            "SCK",
+            "ADC1_2",
+            "FSPIQ",
+            "BOOT"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO3",
+          "functions": [
+            "3",
+            "MISO",
+            "ADC1_3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "EN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/a862b0da9a92527386db6272ec9a77068aabd6d3546e6000151ecaf68786bd33.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at bottom (end closest to the USB-C connector).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBUS",
+          "functions": [
+            "V"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO6",
+          "functions": [
+            "6",
+            "FSPICLK",
+            "MOSI",
+            "MTCK"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO7",
+          "functions": [
+            "7",
+            "FSPID",
+            "SS",
+            "MTDO",
+            "RGB LED"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO8",
+          "functions": [
+            "8",
+            "SDA",
+            "LOG"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO10",
+          "functions": [
+            "10",
+            "SCL",
+            "FSPICS0",
+            "JTAG"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO21",
+          "functions": [
+            "RX",
+            "21",
+            "RXD 0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO20",
+          "functions": [
+            "TX",
+            "20",
+            "TXD 0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "i2c-connector",
+      "name": "I2C JST connector",
+      "image": "media/a862b0da9a92527386db6272ec9a77068aabd6d3546e6000151ecaf68786bd33.jpg",
+      "rows": 1,
+      "orderNote": "Callouts are grouped by a bracket without per-pin leader lines; recorded in the printed top-to-bottom callout order.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GPIO08",
+          "functions": [
+            "8",
+            "SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO10",
+          "functions": [
+            "10",
+            "SCL"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "3.3v",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "battery-connector",
+      "name": "Battery JST connector",
+      "image": "media/a862b0da9a92527386db6272ec9a77068aabd6d3546e6000151ecaf68786bd33.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal 2-pin connector started at the pin closest to the USB-C connector (right pin), per leader lines.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "V+",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "Letter O vs digit 0 cannot be told apart in the diagram font (GPIO0, GPIO08, ADC1_0, ADC2_0, FSPICS0, TXD 0, RXD 0); read as 0. MTDO read as letter O."
+  ],
+  "uncertain": [
+    "I2C JST connector: the four callouts (GND, SDA/GPIO08, SCL/GPIO10, 3.3v) are joined by a bracket, so which physical contact carries which signal is not shown; order is the callout order only."
+  ],
+  "notes": "Third-party (mischianti.org) pinout titled 'WeMos LOLIN ESP32 C3 pico'. Board silkscreen recorded first in functions when it differs, then the dark number box. The battery connector bracket also carries '3 GPIO03 ADC_BATTERY' (battery sense), not a separate pin. The small back-view inset repeats the same headers and was not transcribed separately. Skipped per rule 1: RST and GPIO9/BOOT buttons, USB-C, antenna."
+}

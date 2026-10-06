@@ -1,0 +1,140 @@
+{
+  "recordId": "lilygo-esp32-t-can485-ch9102",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/c9527c3a79ba0898be7f88ec854868cd7b83919c360166e7f4dfe02f31b6a73f.jpg",
+      "sha256": "c9527c3a79ba0898be7f88ec854868cd7b83919c360166e7f4dfe02f31b6a73f"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "can-terminal",
+      "name": "CAN 3-pin screw terminal (top view, upper left)",
+      "image": "media/c9527c3a79ba0898be7f88ec854868cd7b83919c360166e7f4dfe02f31b6a73f.jpg",
+      "rows": 1,
+      "orderNote": "No printed numbers; vertical terminal, started at the top end (closest to the USB-C connector in the top view)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "CAN_A",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "CAN_B",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "rs485-terminal",
+      "name": "RS-485 3-pin screw terminal (top view, lower left)",
+      "image": "media/c9527c3a79ba0898be7f88ec854868cd7b83919c360166e7f4dfe02f31b6a73f.jpg",
+      "rows": 1,
+      "orderNote": "No printed numbers; vertical terminal, started at the top end (closest to the USB-C connector in the top view)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RS_A",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RS_B",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "gpio-header",
+      "name": "2x6 expansion header (labels from bottom view)",
+      "image": "media/c9527c3a79ba0898be7f88ec854868cd7b83919c360166e7f4dfe02f31b6a73f.jpg",
+      "rows": 2,
+      "orderNote": "2xN without printed numbers, read in the bottom view where the USB-C shell is at the top: position 1 = outer (left, board-edge) row at the USB end, then alternating inner/outer down the header",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IO25",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO32",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IO33",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "IO05",
+          "functions": [
+            "IO5"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "IO12",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "IO34",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "IO35",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "IO18",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "VDD",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "VDD",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "CAN and RS-485 terminals: silkscreen 'CAN_A GND CAN_B' / 'RS_A GND RS_B' is printed left-to-right beside terminals whose screws run top-to-bottom; mapping CAN_A/RS_A to the top screw is inferred, not shown.",
+    "2x6 header: callout and silkscreen label columns are assumed to match the physical columns (left labels = outer/left row); the image does not draw leader lines to individual holes.",
+    "5~12V POWER DC 2-pin screw terminal skipped: only a small 'GND' silkscreen is visible above it and the other pin has no individual label, so it was treated as a power-only connector (rule 1)."
+  ],
+  "notes": "Labels for the 2x6 header come from the bottom-view callouts (IO05 etc.); silkscreen spelling IO5 added in functions. Board silkscreen for the second row first column is blurry (IO32/IO37 look-alike); the callout reads IO32 and was used. Callouts for CAN_RX/TX, RS485_RX/TX/EN/SE, CAN_SE, SD_* and WS2812 are on-board signals with no physical pin and were not transcribed. Square pad on the header (inner top in bottom view) is not treated as pin 1 (rule 9)."
+}

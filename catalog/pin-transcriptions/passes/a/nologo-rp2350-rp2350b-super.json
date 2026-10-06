@@ -1,0 +1,722 @@
+{
+  "recordId": "nologo-rp2350-rp2350b-super",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/d5d37dee3f556b967e3a6de248cca9333869c838e64a508a0dde53459ce0f7f5.jpg",
+      "sha256": "d5d37dee3f556b967e3a6de248cca9333869c838e64a508a0dde53459ce0f7f5"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "outer-top-row",
+      "name": "Outer ring, top row (incl. both top corners)",
+      "image": "media/d5d37dee3f556b967e3a6de248cca9333869c838e64a508a0dde53459ce0f7f5.jpg",
+      "rows": 1,
+      "orderNote": "No USB connector or pin-1 mark in image; horizontal row read left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GP1",
+          "functions": [
+            "1",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX",
+            "PWM0 B"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3 EN",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "RUN",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "USB DP",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "USB DM",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "BOOTSEL",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GP46",
+          "functions": [
+            "46",
+            "SPI1 SCK",
+            "I2C1 SDA",
+            "UART0 TX",
+            "PWM11 A",
+            "ADC6"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "?",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "inner-top-row",
+      "name": "Inner ring, top row (incl. inner top corners)",
+      "image": "media/d5d37dee3f556b967e3a6de248cca9333869c838e64a508a0dde53459ce0f7f5.jpg",
+      "rows": 1,
+      "orderNote": "No USB connector or pin-1 mark in image; horizontal row read left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GP0",
+          "functions": [
+            "0",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX",
+            "PWM0 A"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "ADC VREF",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "SWCLK",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "SWDIO",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GP47",
+          "functions": [
+            "47",
+            "SPI1 TX",
+            "I2C1 SCL",
+            "UART0 RX",
+            "PWM11 B",
+            "ADC7",
+            "PSRAM CSn"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "outer-left-column",
+      "name": "Outer ring, left column (excl. corners)",
+      "image": "media/d5d37dee3f556b967e3a6de248cca9333869c838e64a508a0dde53459ce0f7f5.jpg",
+      "rows": 1,
+      "orderNote": "No USB connector or pin-1 mark in image; vertical row read top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP2",
+          "functions": [
+            "2",
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART0 TX",
+            "PWM1 A"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP4",
+          "functions": [
+            "4",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX",
+            "PWM2 A"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP6",
+          "functions": [
+            "6",
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART1 TX",
+            "PWM3 A"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP8",
+          "functions": [
+            "8",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART1 TX",
+            "PWM4 A"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP10",
+          "functions": [
+            "10",
+            "SPI1 SCK",
+            "I2C1 SDA",
+            "UART1 TX",
+            "PWM5 A"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP12",
+          "functions": [
+            "12",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART0 TX",
+            "PWM6 A",
+            "HSTX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP14",
+          "functions": [
+            "14",
+            "SPI1 SCK",
+            "I2C1 SDA",
+            "UART0 TX",
+            "PWM7 A",
+            "HSTX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP16",
+          "functions": [
+            "16",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX",
+            "PWM0 A",
+            "HSTX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inner-left-column",
+      "name": "Inner ring, left column (excl. inner corners)",
+      "image": "media/d5d37dee3f556b967e3a6de248cca9333869c838e64a508a0dde53459ce0f7f5.jpg",
+      "rows": 1,
+      "orderNote": "No USB connector or pin-1 mark in image; vertical row read top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP3",
+          "functions": [
+            "3",
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART0 RX",
+            "PWM1 B"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP5",
+          "functions": [
+            "5",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX",
+            "PWM2 B"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP7",
+          "functions": [
+            "7",
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART1 RX",
+            "PWM3 B"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP9",
+          "functions": [
+            "9",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART1 RX",
+            "PWM4 B"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP11",
+          "functions": [
+            "11",
+            "SPI1 TX",
+            "I2C1 SCL",
+            "UART1 RX",
+            "PWM5 B"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP13",
+          "functions": [
+            "13",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART0 RX",
+            "PWM6 B",
+            "HSTX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inner-bottom-row",
+      "name": "Inner ring, bottom row (incl. inner bottom corners)",
+      "image": "media/d5d37dee3f556b967e3a6de248cca9333869c838e64a508a0dde53459ce0f7f5.jpg",
+      "rows": 1,
+      "orderNote": "No USB connector or pin-1 mark in image; horizontal row read left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP15",
+          "functions": [
+            "15",
+            "SPI1 TX",
+            "I2C1 SCL",
+            "UART0 RX",
+            "PWM7 B",
+            "HSTX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP19",
+          "functions": [
+            "19",
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART0 RX",
+            "PWM1 B",
+            "HSTX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP21",
+          "functions": [
+            "21",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX",
+            "PWM2 B"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP23",
+          "functions": [
+            "23",
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART1 RX",
+            "PWM3 B"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP25",
+          "functions": [
+            "25",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART1 RX",
+            "PWM4 B"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP27",
+          "functions": [
+            "27",
+            "SPI1 TX",
+            "I2C1 SCL",
+            "UART1 RX",
+            "PWM5 B"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP29",
+          "functions": [
+            "29",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART0 RX",
+            "PWM6 B"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP31",
+          "functions": [
+            "31",
+            "SPI1 TX",
+            "I2C1 SCL",
+            "UART0 RX",
+            "PWM7 B"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outer-bottom-row",
+      "name": "Outer ring, bottom row (incl. both bottom corners)",
+      "image": "media/d5d37dee3f556b967e3a6de248cca9333869c838e64a508a0dde53459ce0f7f5.jpg",
+      "rows": 1,
+      "orderNote": "No USB connector or pin-1 mark in image; horizontal row read left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GP17",
+          "functions": [
+            "17",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX",
+            "PWM0 B",
+            "HSTX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP18",
+          "functions": [
+            "18",
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART0 TX",
+            "PWM1 A",
+            "HSTX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP20",
+          "functions": [
+            "20",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX",
+            "PWM2 A"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP22",
+          "functions": [
+            "22",
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART1 TX",
+            "PWM3 A"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP24",
+          "functions": [
+            "24",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART1 TX",
+            "PWM4 A"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP26",
+          "functions": [
+            "26",
+            "SPI1 SCK",
+            "I2C1 SDA",
+            "UART1 TX",
+            "PWM5 A"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP28",
+          "functions": [
+            "28",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART0 TX",
+            "PWM6 A"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP30",
+          "functions": [
+            "30",
+            "SPI1 SCK",
+            "I2C1 SDA",
+            "UART0 TX",
+            "PWM7 A"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "outer-right-column",
+      "name": "Outer ring, right column (excl. corners)",
+      "image": "media/d5d37dee3f556b967e3a6de248cca9333869c838e64a508a0dde53459ce0f7f5.jpg",
+      "rows": 1,
+      "orderNote": "No USB connector or pin-1 mark in image; vertical row read top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP45",
+          "functions": [
+            "45",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART0 RX",
+            "PWM10 B",
+            "ADC5"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP44",
+          "functions": [
+            "44",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART0 TX",
+            "PWM10 A",
+            "ADC4"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP42",
+          "functions": [
+            "42",
+            "SPI1 SCK",
+            "I2C1 SDA",
+            "UART1 TX",
+            "PWM9 A",
+            "ADC2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP40",
+          "functions": [
+            "40",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART1 TX",
+            "PWM8 A",
+            "ADC0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP38",
+          "functions": [
+            "38",
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART1 TX",
+            "PWM11 A"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP36",
+          "functions": [
+            "36",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX",
+            "PWM10 A"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP34",
+          "functions": [
+            "34",
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART0 TX",
+            "PWM9 A"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP32",
+          "functions": [
+            "32",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX",
+            "PWM8 A"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inner-right-column",
+      "name": "Inner ring, right column (excl. inner corners)",
+      "image": "media/d5d37dee3f556b967e3a6de248cca9333869c838e64a508a0dde53459ce0f7f5.jpg",
+      "rows": 1,
+      "orderNote": "No USB connector or pin-1 mark in image; vertical row read top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP43",
+          "functions": [
+            "43",
+            "SPI1 TX",
+            "I2C1 SCL",
+            "UART1 RX",
+            "PWM9 B",
+            "ADC3"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP41",
+          "functions": [
+            "41",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART1 RX",
+            "PWM8 B",
+            "ADC1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP39",
+          "functions": [
+            "39",
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART1 RX",
+            "PWM11 B"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP37",
+          "functions": [
+            "37",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX",
+            "PWM10 B"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP35",
+          "functions": [
+            "35",
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART0 RX",
+            "PWM9 B"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP33",
+          "functions": [
+            "33",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX",
+            "PWM8 B"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "outer-top-row positions 1 and 10 (top-left and top-right outer corner pads): no callout of their own; the GND callout lines pass over them on the way to the inner corner pads."
+  ],
+  "uncertain": [
+    "Physical layout is a 64-pad double ring (outer ring 10 pads per side, inner ring 8 per side) around a square module; split into eight single-row connectors (rows, columns excluding shared corners). The connector grouping and corner assignment are an interpretation.",
+    "Pad assignment of each callout was traced by following curved leader lines in a small image; staggered inner/outer pads make the trace error-prone.",
+    "Top outer corner pads may be GND (GND leader lines pass over them) but are recorded as \"?\".",
+    "Peripheral function names were composed from the column header plus the printed peripheral number (e.g. \"0\" under SPI next to \"RX\" -> \"SPI0 RX\"), per the image key; ADC column number -> \"ADC0\".",
+    "GP47 row (ADC7, PSRAM CSn) is drawn faded/greyed in the image; meaning not stated."
+  ],
+  "notes": "Image \"Pins and Dims\", RP2350B 25.4x25.4mm, 64 pins (48 GPIO). Grey/blue/green number boxes next to each pad copied as first function after the GP label."
+}

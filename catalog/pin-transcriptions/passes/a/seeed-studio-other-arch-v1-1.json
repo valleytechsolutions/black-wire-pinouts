@@ -1,0 +1,456 @@
+{
+  "recordId": "seeed-studio-other-arch-v1-1",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/0b8bb29f0f0ce659a0fe65d2a213b904efe5c9e1b82030b0b37b8ac6d81cc2d1.png",
+      "sha256": "0b8bb29f0f0ce659a0fe65d2a213b904efe5c9e1b82030b0b37b8ac6d81cc2d1"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "power-header",
+      "name": "Left power header",
+      "image": "media/0b8bb29f0f0ce659a0fe65d2a213b904efe5c9e1b82030b0b37b8ac6d81cc2d1.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at top (end closest to micro-USB at top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P0_23",
+          "functions": [
+            "AnalogIn"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "IOREF",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "analog-header",
+      "name": "Left analog header",
+      "image": "media/0b8bb29f0f0ce659a0fe65d2a213b904efe5c9e1b82030b0b37b8ac6d81cc2d1.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at top (end closest to micro-USB at top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P0_11",
+          "functions": [
+            "AnalogIn"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P0_12",
+          "functions": [
+            "AnalogIn"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P0_13",
+          "functions": [
+            "AnalogIn"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P0_14",
+          "functions": [
+            "AnalogIn"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "P0_16",
+          "functions": [
+            "AnalogIn"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P0_22",
+          "functions": [
+            "AnalogIn",
+            "PwmOut"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digital-header-upper",
+      "name": "Right upper header",
+      "image": "media/0b8bb29f0f0ce659a0fe65d2a213b904efe5c9e1b82030b0b37b8ac6d81cc2d1.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at top (end closest to micro-USB at top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P0_4",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P0_5",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P0_7",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "P1_29",
+          "functions": [
+            "SCK"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P0_8",
+          "functions": [
+            "MISO",
+            "PwmOut"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "P0_9",
+          "functions": [
+            "MOSI",
+            "PwmOut"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "P0_2",
+          "functions": [
+            "SSEL"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "P1_27",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "P1_26",
+          "functions": [
+            "RXD",
+            "PwmOut"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digital-header-lower",
+      "name": "Right lower header",
+      "image": "media/0b8bb29f0f0ce659a0fe65d2a213b904efe5c9e1b82030b0b37b8ac6d81cc2d1.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at top (end closest to micro-USB at top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P1_5",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "P1_25",
+          "functions": [
+            "PwmOut"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P1_24",
+          "functions": [
+            "PwmOut"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P1_18",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "P1_17",
+          "functions": [
+            "RXD"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P0_17",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "P0_19",
+          "functions": [
+            "TXD",
+            "PwmOut"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "P0_18",
+          "functions": [
+            "RXD",
+            "PwmOut"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "swd-header",
+      "name": "SWD 2x3 header (top right)",
+      "image": "media/0b8bb29f0f0ce659a0fe65d2a213b904efe5c9e1b82030b0b37b8ac6d81cc2d1.png",
+      "rows": 2,
+      "orderNote": "No pin numbers; 2xN rule: started at top (closest to USB), right column nearest board edge, alternating columns",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "P0_15",
+          "functions": [
+            "AnalogIn"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P1_4",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "P0_10",
+          "functions": [
+            "PwmOut"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "P0_0",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "spi-header",
+      "name": "SPI 2x3 header (bottom)",
+      "image": "media/0b8bb29f0f0ce659a0fe65d2a213b904efe5c9e1b82030b0b37b8ac6d81cc2d1.png",
+      "rows": 2,
+      "orderNote": "No pin numbers; 2xN rule: started at right end (closest to USB), bottom row nearest board edge, alternating rows",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "P1_21",
+          "functions": [
+            "MISO"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P1_22",
+          "functions": [
+            "MOSI"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P1_20",
+          "functions": [
+            "SCK"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "P1_23",
+          "functions": [
+            "SSEL",
+            "PwmOut"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grove-analog",
+      "name": "ANALOG Grove connector",
+      "image": "media/0b8bb29f0f0ce659a0fe65d2a213b904efe5c9e1b82030b0b37b8ac6d81cc2d1.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row started at right end (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A1",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "A0",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-i2c",
+      "name": "I2C Grove connector",
+      "image": "media/0b8bb29f0f0ce659a0fe65d2a213b904efe5c9e1b82030b0b37b8ac6d81cc2d1.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row started at right end (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P0_4",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P0_5",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-uart",
+      "name": "UART Grove connector",
+      "image": "media/0b8bb29f0f0ce659a0fe65d2a213b904efe5c9e1b82030b0b37b8ac6d81cc2d1.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row started at right end (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P1_14",
+          "functions": [
+            "RX",
+            "RXD",
+            "PwmOut"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P1_13",
+          "functions": [
+            "TX",
+            "TXD",
+            "PwmOut"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Callout name used as label, silkscreen spelling first in functions where different. ANALOG Grove has only silkscreen labels (no callouts). Unlabeled 2x4 header near SPI skipped.",
+  "uncertain": [
+    "SWD and SPI 2x3 header pin-to-callout assignment traced from thin diagonal leader lines; SPI mapping in particular could be off.",
+    "Grove I2C pin 3/4 to P0_5/P0_4 mapping traced from crossing leader lines."
+  ]
+}

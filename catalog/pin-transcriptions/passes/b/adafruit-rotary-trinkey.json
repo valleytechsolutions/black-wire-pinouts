@@ -1,0 +1,38 @@
+{
+  "recordId": "adafruit-rotary-trinkey",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/17ce093d02567cd81322f2e55a9cd1a908c59db506d6fd598b3013629b96e4c7.png",
+      "sha256": "17ce093d02567cd81322f2e55a9cd1a908c59db506d6fd598b3013629b96e4c7"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "touch-pad",
+      "name": "Right-edge touch pad",
+      "image": "media/17ce093d02567cd81322f2e55a9cd1a908c59db506d6fd598b3013629b96e4c7.png",
+      "rows": 1,
+      "orderNote": "Single pad",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PA06",
+          "functions": [
+            "TOUCH",
+            "4/A2",
+            "6",
+            "AIN6",
+            "Y4",
+            "S0.2",
+            "TCC1[0]"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Only the capacitive touch pad is a physical wiring point. ROTA (PA04), ROTB (PA00) and SWITCH (PA27) lead to the legs of the on-board rotary encoder (a mounted component, not a wiring point) and NEOPIXEL (PA01) to the LED; skipped. USB plug contacts unlabeled, skipped."
+}

@@ -1,0 +1,272 @@
+{
+  "recordId": "dfrobot-dfr0321",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/522393a0baa6feda63409f79e4ee8d0741b3df04b9c8574f64a5606ade9cc21b.webp",
+      "sha256": "522393a0baa6feda63409f79e4ee8d0741b3df04b9c8574f64a5606ade9cc21b"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "top-header-left",
+      "name": "Top digital header (left segment, 10)",
+      "image": "media/522393a0baa6feda63409f79e4ee8d0741b3df04b9c8574f64a5606ade9cc21b.webp",
+      "rows": 1,
+      "orderNote": "MicroUSB on the left edge; horizontal row started at the left end (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "AREF",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "13",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "12",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "11",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "10",
+          "functions": [
+            "SPI CS"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "9",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "8",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "top-header-right",
+      "name": "Top digital header (right segment, 8)",
+      "image": "media/522393a0baa6feda63409f79e4ee8d0741b3df04b9c8574f64a5606ade9cc21b.webp",
+      "rows": 1,
+      "orderNote": "MicroUSB on the left edge; horizontal row started at the left end (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "7",
+          "functions": [
+            "SPI IRQ"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "6",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "5",
+          "functions": [
+            "VBAT SW"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "4",
+          "functions": [
+            "SPI CS"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "2",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "1",
+          "functions": [
+            "TX1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "0",
+          "functions": [
+            "RX1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "power-header",
+      "name": "Power header",
+      "image": "media/522393a0baa6feda63409f79e4ee8d0741b3df04b9c8574f64a5606ade9cc21b.webp",
+      "rows": 1,
+      "orderNote": "MicroUSB on the left edge; horizontal row started at the left end (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IOREF",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "analog-header",
+      "name": "Analog in header",
+      "image": "media/522393a0baa6feda63409f79e4ee8d0741b3df04b9c8574f64a5606ade9cc21b.webp",
+      "rows": 1,
+      "orderNote": "MicroUSB on the left edge; horizontal row started at the left end (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A0",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "1",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "2",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "4",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "5",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "icsp",
+      "name": "ICSP header",
+      "image": "media/522393a0baa6feda63409f79e4ee8d0741b3df04b9c8574f64a5606ade9cc21b.webp",
+      "rows": 2,
+      "orderNote": "2x3, no pin numbers or pin-1 mark: top row (closest to USB) first, right column (outer, nearest right edge) then left, alternating",
+      "pins": [
+        {
+          "position": 1,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "D14",
+          "functions": [
+            "SPI MISO"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "D16",
+          "functions": [
+            "SPI MOSI"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D15",
+          "functions": [
+            "SPI SCK"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "?",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "power-header position 1: unlabeled hole",
+    "icsp positions 1, 5, 6: no label or callout"
+  ],
+  "notes": "'~' PWM marks omitted. Digital-pin notes come from purple 'Pins Used' callouts (D5 VBAT SW, D7 SPI IRQ, D10 SPI CS = CC3000 driver pins; D4 SPI CS = MicroSD). ICSP labels come from callout lines: D14 line ends just above the top-left hole, D15 at middle-left, D16 at middle-right. Top header drawn as two strips with a gap after pin 8."
+}

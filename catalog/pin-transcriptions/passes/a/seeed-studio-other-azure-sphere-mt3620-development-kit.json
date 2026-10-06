@@ -1,0 +1,783 @@
+{
+  "recordId": "seeed-studio-other-azure-sphere-mt3620-development-kit",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/5378fab1a818ba7ba02abdbd0cc991c8dcacc53cec0966a2f171281dc23c6f9d.png",
+      "sha256": "5378fab1a818ba7ba02abdbd0cc991c8dcacc53cec0966a2f171281dc23c6f9d"
+    },
+    {
+      "file": "media/71ce0b46d6bb7c8e38b0a3dc241baa185e60fd4458edfe7f7627cffb8280e224.png",
+      "sha256": "71ce0b46d6bb7c8e38b0a3dc241baa185e60fd4458edfe7f7627cffb8280e224"
+    },
+    {
+      "file": "media/fcac32894f7735d51e15dc830a43705d8b942c1e43c189718c1bf95a9978669f.jpg",
+      "sha256": "fcac32894f7735d51e15dc830a43705d8b942c1e43c189718c1bf95a9978669f"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "H3",
+      "name": "H3 extension header",
+      "image": "media/5378fab1a818ba7ba02abdbd0cc991c8dcacc53cec0966a2f171281dc23c6f9d.png",
+      "rows": 2,
+      "orderNote": "Printed pin numbers (circled 1..n, odd left column, even right); position = printed number.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "WAKEUP",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO 66",
+          "functions": [
+            "SCLK3",
+            "TXD3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "IO0_TXD",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO 67",
+          "functions": [
+            "MOSI3",
+            "RTS3",
+            "SCL3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "IO1_TXD",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO 68",
+          "functions": [
+            "MISO3",
+            "RXD3",
+            "SDA3"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PMU_EN",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GPIO 69",
+          "functions": [
+            "CSA3",
+            "CTS3"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO 70",
+          "functions": [
+            "CSB3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "H4",
+      "name": "H4 extension header",
+      "image": "media/5378fab1a818ba7ba02abdbd0cc991c8dcacc53cec0966a2f171281dc23c6f9d.png",
+      "rows": 2,
+      "orderNote": "Printed pin numbers (circled 1..n, odd left column, even right); position = printed number.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SWDIO",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SWCLK",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SWO",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO 33",
+          "functions": [
+            "MISO1",
+            "RXD1",
+            "SDA1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO 38",
+          "functions": [
+            "MISO2",
+            "RXD2",
+            "SDA2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO 31",
+          "functions": [
+            "SCLK1",
+            "TXD1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO 36",
+          "functions": [
+            "SCLK2",
+            "TXD2"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO 34",
+          "functions": [
+            "CSA1",
+            "CTS1"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO 39",
+          "functions": [
+            "CSA2",
+            "CTS2"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO 32",
+          "functions": [
+            "MOSI1",
+            "RTS1",
+            "SCL1"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO 37",
+          "functions": [
+            "MOSI2",
+            "RTS2",
+            "SCL2"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO 35",
+          "functions": [
+            "CSB1"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO 40",
+          "functions": [
+            "CSB2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "H1-img2",
+      "name": "H1 extension header",
+      "image": "media/71ce0b46d6bb7c8e38b0a3dc241baa185e60fd4458edfe7f7627cffb8280e224.png",
+      "rows": 2,
+      "orderNote": "Printed pin numbers (circled 1..n, odd left column, even right); position = printed number.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SYS_RST_B",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO 59",
+          "functions": [
+            "I2S0_RX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO0",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO 56",
+          "functions": [
+            "I2S0_TX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO1",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO 58",
+          "functions": [
+            "I2S0_FS"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO2",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO 57",
+          "functions": [
+            "I2S0_MCLK"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO3",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GPIO 60",
+          "functions": [
+            "I2S0_BCLK"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO4",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "H2-img2",
+      "name": "H2 extension header",
+      "image": "media/71ce0b46d6bb7c8e38b0a3dc241baa185e60fd4458edfe7f7627cffb8280e224.png",
+      "rows": 2,
+      "orderNote": "Printed pin numbers (circled 1..n, odd left column, even right); position = printed number.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO 28",
+          "functions": [
+            "MISO0",
+            "RXD0",
+            "SDA0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO 26",
+          "functions": [
+            "SCLK0",
+            "TXD0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO 5",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO 29",
+          "functions": [
+            "CSA0",
+            "CTS0"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO 6",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO 27",
+          "functions": [
+            "MOSI0",
+            "RTS0",
+            "SCL0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO 7",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO 30",
+          "functions": [
+            "CSB0"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "ADC_VREF",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GPIO 41",
+          "functions": [
+            "ADC0"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO 43",
+          "functions": [
+            "ADC2"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO 42",
+          "functions": [
+            "ADC1"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO 44",
+          "functions": [
+            "ADC3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "H1-img3",
+      "name": "H1 extension header",
+      "image": "media/fcac32894f7735d51e15dc830a43705d8b942c1e43c189718c1bf95a9978669f.jpg",
+      "rows": 2,
+      "orderNote": "Printed pin numbers (circled 1..n, odd left column, even right); position = printed number.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SYS_RST_B",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO 59",
+          "functions": [
+            "I2S0_RX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO0",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO 56",
+          "functions": [
+            "I2S0_TX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO1",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO 58",
+          "functions": [
+            "I2S0_FS"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO2",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO 57",
+          "functions": [
+            "I2S0_MCLK"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO3",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GPIO 60",
+          "functions": [
+            "I2S0_BCLK"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO4",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "H2-img3",
+      "name": "H2 extension header",
+      "image": "media/fcac32894f7735d51e15dc830a43705d8b942c1e43c189718c1bf95a9978669f.jpg",
+      "rows": 2,
+      "orderNote": "Printed pin numbers (circled 1..n, odd left column, even right); position = printed number.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO 28",
+          "functions": [
+            "MISO0",
+            "RXD0",
+            "SDA0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO 26",
+          "functions": [
+            "SCLK0",
+            "TXD0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO 5",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO 29",
+          "functions": [
+            "CSA0",
+            "CTS0"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO 6",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO 27",
+          "functions": [
+            "MOSI0",
+            "RTS0",
+            "SCL0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO 7",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO 30",
+          "functions": [
+            "CSB0"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "ADC_VREF",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GPIO 41",
+          "functions": [
+            "ADC0"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO 43",
+          "functions": [
+            "ADC2"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO 42",
+          "functions": [
+            "ADC1"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO 44",
+          "functions": [
+            "ADC3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "H3-img3",
+      "name": "H3 extension header",
+      "image": "media/fcac32894f7735d51e15dc830a43705d8b942c1e43c189718c1bf95a9978669f.jpg",
+      "rows": 2,
+      "orderNote": "Printed pin numbers (circled 1..n, odd left column, even right); position = printed number.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V_OUT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "WAKEUP",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO 66",
+          "functions": [
+            "SCLK3",
+            "TXD3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "IO0_TXD",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO 67",
+          "functions": [
+            "MOSI3",
+            "RTS3",
+            "SCL3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "IO1_TXD",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO 68",
+          "functions": [
+            "MISO3",
+            "RXD3",
+            "SDA3"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PMU_EN",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GPIO 69",
+          "functions": [
+            "CSA3",
+            "CTS3"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO 70",
+          "functions": [
+            "CSB3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "H4-img3",
+      "name": "H4 extension header",
+      "image": "media/fcac32894f7735d51e15dc830a43705d8b942c1e43c189718c1bf95a9978669f.jpg",
+      "rows": 2,
+      "orderNote": "Printed pin numbers (circled 1..n, odd left column, even right); position = printed number.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SWDIO",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SWCLK",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SWO",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO 33",
+          "functions": [
+            "MISO1",
+            "RXD1",
+            "SDA1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO 38",
+          "functions": [
+            "MISO2",
+            "RXD2",
+            "SDA2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO 31",
+          "functions": [
+            "SCLK1",
+            "TXD1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO 36",
+          "functions": [
+            "SCLK2",
+            "TXD2"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO 34",
+          "functions": [
+            "CSA1",
+            "CTS1"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO 39",
+          "functions": [
+            "CSA2",
+            "CTS2"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO 32",
+          "functions": [
+            "MOSI1",
+            "RTS1",
+            "SCL1"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO 37",
+          "functions": [
+            "MOSI2",
+            "RTS2",
+            "SCL2"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO 35",
+          "functions": [
+            "CSB1"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO 40",
+          "functions": [
+            "CSB2"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Image 3: board silkscreen shows a labeled \"GND\" test loop and a single pad under the text \"BAT-3V3\" (which may instead label jumper J3); neither was transcribed as a connector. Jumpers J1-J3 have no per-pin labels and were skipped."
+  ],
+  "notes": "H3 pin 1 is printed \"5V\" in image 1 and \"5V_OUT\" in image 3; copied as printed. Labels copied with the printed spacing (\"GPIO 66\" vs \"GPIO0\"). O/0 decided by context (IO0_TXD, I2S0_RX, SDA0). A faint ghost \"3.3V\"/\"3V\" text beside H1 in images 2 and 3 is an artwork remnant, not a pin label. 5V DC jack, antenna connectors and micro-USB skipped."
+}

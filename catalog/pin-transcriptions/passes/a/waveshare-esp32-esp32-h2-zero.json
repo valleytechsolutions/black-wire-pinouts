@@ -1,0 +1,640 @@
+{
+ "recordId": "waveshare-esp32-esp32-h2-zero",
+ "pass": "a",
+ "date": "2026-10-05",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/b00ad9622a7c18ffbe76cd068b6944bf57235693e3a98fa5fd596e0f9cf7b4a6.jpg",
+   "sha256": "b00ad9622a7c18ffbe76cd068b6944bf57235693e3a98fa5fd596e0f9cf7b4a6"
+  },
+  {
+   "file": "media/4429f98a85b062179df70ebc873556f83949bf01afd4026f0009b0851d29afeb.webp",
+   "sha256": "4429f98a85b062179df70ebc873556f83949bf01afd4026f0009b0851d29afeb"
+  },
+  {
+   "file": "media/0c7b5cb42377e83957853f6568aa948ec151d749578efd20e50e217344656749.jpg",
+   "sha256": "0c7b5cb42377e83957853f6568aa948ec151d749578efd20e50e217344656749"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "left-header",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "5V",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GPIO0",
+     "functions": [
+      "0",
+      "FSPIQ"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GPIO1",
+     "functions": [
+      "1",
+      "FSPICS0",
+      "ADC1_CH0"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GPIO2",
+     "functions": [
+      "2",
+      "FSPIWP",
+      "ADC1_CH1",
+      "MTMS"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GPIO3",
+     "functions": [
+      "3",
+      "FSPIHD",
+      "ADC1_CH2",
+      "MTDO"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GPIO4",
+     "functions": [
+      "4",
+      "FSPICLK",
+      "ADC1_CH3",
+      "MTCK"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GPIO5",
+     "functions": [
+      "5",
+      "FSPID",
+      "ADC1_CH4",
+      "MTDI"
+     ]
+    }
+   ],
+   "image": "media/b00ad9622a7c18ffbe76cd068b6944bf57235693e3a98fa5fd596e0f9cf7b4a6.jpg"
+  },
+  {
+   "id": "right-header",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GPIO24",
+     "functions": [
+      "TX",
+      "FSPICS2",
+      "U0TXD"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "GPIO23",
+     "functions": [
+      "RX",
+      "FSPICS1",
+      "U0RXD"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GPIO25",
+     "functions": [
+      "25",
+      "FSPICS3"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GPIO22",
+     "functions": [
+      "22"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GPIO14",
+     "functions": [
+      "14",
+      "XTAL_32K_N"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GPIO13",
+     "functions": [
+      "13",
+      "XTAL_32K_P"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GPIO12",
+     "functions": [
+      "12"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GPIO11",
+     "functions": [
+      "11",
+      "ZCD1"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GPIO10",
+     "functions": [
+      "10",
+      "ZCD2"
+     ]
+    }
+   ],
+   "image": "media/b00ad9622a7c18ffbe76cd068b6944bf57235693e3a98fa5fd596e0f9cf7b4a6.jpg"
+  },
+  {
+   "id": "rear-pads",
+   "name": "rear-pads",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GPIO27",
+     "functions": [
+      "27",
+      "FSPICS5",
+      "USB_D+"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "GPIO26",
+     "functions": [
+      "26",
+      "FSPICS4",
+      "USB_D-"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GPIO9",
+     "functions": [
+      "9",
+      "BOOT"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GPIO8",
+     "functions": [
+      "8",
+      "LOG"
+     ]
+    }
+   ],
+   "image": "media/b00ad9622a7c18ffbe76cd068b6944bf57235693e3a98fa5fd596e0f9cf7b4a6.jpg"
+  },
+  {
+   "id": "left-header-img2",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "5V",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GPIO0",
+     "functions": [
+      "0",
+      "FSPIQ"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GPIO1",
+     "functions": [
+      "1",
+      "FSPICS0",
+      "ADC1_CH0"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GPIO2",
+     "functions": [
+      "2",
+      "FSPIWP",
+      "ADC1_CH1",
+      "MTMS"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GPIO3",
+     "functions": [
+      "3",
+      "FSPIHD",
+      "ADC1_CH2",
+      "MTDO"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GPIO4",
+     "functions": [
+      "4",
+      "FSPICLK",
+      "ADC1_CH3",
+      "MTCK"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GPIO5",
+     "functions": [
+      "5",
+      "FSPID",
+      "ADC1_CH4",
+      "MTDI"
+     ]
+    }
+   ],
+   "image": "media/4429f98a85b062179df70ebc873556f83949bf01afd4026f0009b0851d29afeb.webp"
+  },
+  {
+   "id": "right-header-img2",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GPIO24",
+     "functions": [
+      "TX",
+      "FSPICS2",
+      "U0TXD"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "GPIO23",
+     "functions": [
+      "RX",
+      "FSPICS1",
+      "U0RXD"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GPIO25",
+     "functions": [
+      "25",
+      "FSPICS3"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GPIO22",
+     "functions": [
+      "22"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GPIO14",
+     "functions": [
+      "14",
+      "XTAL_32K_N"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GPIO13",
+     "functions": [
+      "13",
+      "XTAL_32K_P"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GPIO12",
+     "functions": [
+      "12"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GPIO11",
+     "functions": [
+      "11",
+      "ZCD1"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GPIO10",
+     "functions": [
+      "10",
+      "ZCD2"
+     ]
+    }
+   ],
+   "image": "media/4429f98a85b062179df70ebc873556f83949bf01afd4026f0009b0851d29afeb.webp"
+  },
+  {
+   "id": "rear-pads-img2",
+   "name": "rear-pads",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GPIO27",
+     "functions": [
+      "27",
+      "FSPICS5",
+      "USB_D+"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "GPIO26",
+     "functions": [
+      "26",
+      "FSPICS4",
+      "USB_D-"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GPIO9",
+     "functions": [
+      "9",
+      "BOOT"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GPIO8",
+     "functions": [
+      "8",
+      "LOG"
+     ]
+    }
+   ],
+   "image": "media/4429f98a85b062179df70ebc873556f83949bf01afd4026f0009b0851d29afeb.webp"
+  },
+  {
+   "id": "left-header-img3",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "5V",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GPIO0",
+     "functions": [
+      "0",
+      "FSPIQ"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GPIO1",
+     "functions": [
+      "1",
+      "FSPICS0",
+      "ADC1_CH0"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GPIO2",
+     "functions": [
+      "2",
+      "FSPIWP",
+      "ADC1_CH1",
+      "MTMS"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GPIO3",
+     "functions": [
+      "3",
+      "FSPIHD",
+      "ADC1_CH2",
+      "MTDO"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GPIO4",
+     "functions": [
+      "4",
+      "FSPICLK",
+      "ADC1_CH3",
+      "MTCK"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GPIO5",
+     "functions": [
+      "5",
+      "FSPID",
+      "ADC1_CH4",
+      "MTDI"
+     ]
+    }
+   ],
+   "image": "media/0c7b5cb42377e83957853f6568aa948ec151d749578efd20e50e217344656749.jpg"
+  },
+  {
+   "id": "right-header-img3",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GPIO24",
+     "functions": [
+      "TX",
+      "FSPICS2",
+      "U0TXD"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "GPIO23",
+     "functions": [
+      "RX",
+      "FSPICS1",
+      "U0RXD"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GPIO25",
+     "functions": [
+      "25",
+      "FSPICS3"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GPIO22",
+     "functions": [
+      "22"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GPIO14",
+     "functions": [
+      "14",
+      "XTAL_32K_N"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GPIO13",
+     "functions": [
+      "13",
+      "XTAL_32K_P"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GPIO12",
+     "functions": [
+      "12"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GPIO11",
+     "functions": [
+      "11",
+      "ZCD1"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GPIO10",
+     "functions": [
+      "10",
+      "ZCD2"
+     ]
+    }
+   ],
+   "image": "media/0c7b5cb42377e83957853f6568aa948ec151d749578efd20e50e217344656749.jpg"
+  },
+  {
+   "id": "rear-pads-img3",
+   "name": "rear-pads",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GPIO27",
+     "functions": [
+      "27",
+      "FSPICS5",
+      "USB_D+"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "GPIO26",
+     "functions": [
+      "26",
+      "FSPICS4",
+      "USB_D-"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GPIO9",
+     "functions": [
+      "9",
+      "BOOT"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GPIO8",
+     "functions": [
+      "8",
+      "LOG"
+     ]
+    }
+   ],
+   "image": "media/0c7b5cb42377e83957853f6568aa948ec151d749578efd20e50e217344656749.jpg"
+  }
+ ],
+ "notes": "Three encodings of same pinout artwork inspected. Rear perimeter has no labels; mapped from front only. Symbols excluded.",
+ "unreadable": [],
+ "uncertain": []
+}

@@ -1,0 +1,827 @@
+{
+  "recordId": "arduino-other-nano-every",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/1c1248d4eadd1cd3b4b5127385e571a452aa236fc75361c800f8318276326442.png",
+      "sha256": "1c1248d4eadd1cd3b4b5127385e571a452aa236fc75361c800f8318276326442"
+    },
+    {
+      "file": "media/18943c5d8ec973ba3d0c8e606c88a4610d4da8f26cae568c29cb2400b8990bed.png",
+      "sha256": "18943c5d8ec973ba3d0c8e606c88a4610d4da8f26cae568c29cb2400b8990bed"
+    },
+    {
+      "file": "media/ca19bfdb7087692441ab1082e2fa84bbd1fd3fe43b30f434f18853354a8bea5c.png",
+      "sha256": "ca19bfdb7087692441ab1082e2fa84bbd1fd3fe43b30f434f18853354a8bea5c"
+    },
+    {
+      "file": "media/9ec8352457992f8823e31e08ca925dac0dff4fe3f29b6e540b39305d5bfe860f.png",
+      "sha256": "9ec8352457992f8823e31e08ca925dac0dff4fe3f29b6e540b39305d5bfe860f"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/1c1248d4eadd1cd3b4b5127385e571a452aa236fc75361c800f8318276326442.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB connector at top of image, start at end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PE2",
+          "functions": [
+            "D13",
+            "SCK"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PD7",
+          "functions": [
+            "AREF"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PD3",
+          "functions": [
+            "D14",
+            "A0",
+            "AIN[3]"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PD2",
+          "functions": [
+            "D15",
+            "A1",
+            "AIN[2]"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PD1",
+          "functions": [
+            "D16",
+            "A2",
+            "AIN[1]"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PD0",
+          "functions": [
+            "D17",
+            "A3",
+            "AIN[0]"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PA2",
+          "functions": [
+            "D18",
+            "A4",
+            "SDA"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PA3",
+          "functions": [
+            "D19",
+            "A5",
+            "SCL"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PD4",
+          "functions": [
+            "D20",
+            "A6",
+            "AIN[4]"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PD5",
+          "functions": [
+            "D21",
+            "A7",
+            "AIN[5]"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/1c1248d4eadd1cd3b4b5127385e571a452aa236fc75361c800f8318276326442.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB connector at top of image, start at end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PE1",
+          "functions": [
+            "D12",
+            "MISO (SC1)"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PE0",
+          "functions": [
+            "D11",
+            "MOSI (SC1)"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PB1",
+          "functions": [
+            "~D10"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PB0",
+          "functions": [
+            "~D9"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PE3",
+          "functions": [
+            "D8"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA1",
+          "functions": [
+            "D7"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PF4",
+          "functions": [
+            "~D6"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PB2",
+          "functions": [
+            "~D5"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PC6",
+          "functions": [
+            "D4"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PF5",
+          "functions": [
+            "~D3"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PA0",
+          "functions": [
+            "D2"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "PC5",
+          "functions": [
+            "RX"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "PC4",
+          "functions": [
+            "TX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left header",
+      "image": "media/18943c5d8ec973ba3d0c8e606c88a4610d4da8f26cae568c29cb2400b8990bed.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB connector at top of image, start at end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PE2",
+          "functions": [
+            "D13",
+            "SCK"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PD7",
+          "functions": [
+            "AREF"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PD3",
+          "functions": [
+            "D14",
+            "A0",
+            "AIN[3]"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PD2",
+          "functions": [
+            "D15",
+            "A1",
+            "AIN[2]"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PD1",
+          "functions": [
+            "D16",
+            "A2",
+            "AIN[1]"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PD0",
+          "functions": [
+            "D17",
+            "A3",
+            "AIN[0]"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PA2/PF2",
+          "functions": [
+            "D18",
+            "A4",
+            "SDA"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PA3/PF3",
+          "functions": [
+            "D19",
+            "A5",
+            "SCL"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PD4",
+          "functions": [
+            "D20",
+            "A6",
+            "AIN[4]"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PD5",
+          "functions": [
+            "D21",
+            "A7",
+            "AIN[5]"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Right header",
+      "image": "media/18943c5d8ec973ba3d0c8e606c88a4610d4da8f26cae568c29cb2400b8990bed.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB connector at top of image, start at end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PE1",
+          "functions": [
+            "D12",
+            "CIPO (SC1)"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PE0",
+          "functions": [
+            "D11",
+            "COPI (SC1)"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PB1",
+          "functions": [
+            "~D10"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PB0",
+          "functions": [
+            "~D9"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PE3",
+          "functions": [
+            "D8"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA1",
+          "functions": [
+            "D7"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PF4",
+          "functions": [
+            "~D6"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PB2",
+          "functions": [
+            "~D5"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PC6",
+          "functions": [
+            "D4"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PF5",
+          "functions": [
+            "~D3"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PA0",
+          "functions": [
+            "D2"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "PC5",
+          "functions": [
+            "RX"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "PC4",
+          "functions": [
+            "TX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img3",
+      "name": "Left header",
+      "image": "media/ca19bfdb7087692441ab1082e2fa84bbd1fd3fe43b30f434f18853354a8bea5c.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB connector at top of image, start at end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PE2",
+          "functions": [
+            "D13",
+            "SCK",
+            "AIN[10]",
+            "TCA0-WO2",
+            "INT[34]"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PD7",
+          "functions": [
+            "AREF",
+            "VREFA/AIN[7]",
+            "INT[31]"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PD3",
+          "functions": [
+            "D14",
+            "A0",
+            "AIN[3]",
+            "TCA0-WO3",
+            "INT[27]"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PD2",
+          "functions": [
+            "D15",
+            "A1",
+            "AIN[2]",
+            "TCA0-WO2",
+            "INT[26]"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PD1",
+          "functions": [
+            "D16",
+            "A2",
+            "AIN[1]",
+            "TCA0-WO1",
+            "INT[25]"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PD0",
+          "functions": [
+            "D17",
+            "A3",
+            "AIN[0]",
+            "TCA0-WO0",
+            "INT[24]"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PA2/PF2",
+          "functions": [
+            "D18",
+            "A4",
+            "SDA",
+            "TCA0-WO2/TCB0-WO",
+            "INT[2]"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PA3/PF3",
+          "functions": [
+            "D19",
+            "A5",
+            "SCL",
+            "TCA0-WO3/TCB1-WO",
+            "INT[3]"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PD4",
+          "functions": [
+            "D20",
+            "A6",
+            "AIN[4]",
+            "TCA0-WO4",
+            "INT[28]"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PD5",
+          "functions": [
+            "D21",
+            "A7",
+            "AIN[5]",
+            "TCA0-WO5",
+            "INT[29]"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header-img3",
+      "name": "Right header",
+      "image": "media/ca19bfdb7087692441ab1082e2fa84bbd1fd3fe43b30f434f18853354a8bea5c.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB connector at top of image, start at end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PE1",
+          "functions": [
+            "D12",
+            "CIPO (SC1)",
+            "AIN[9]",
+            "CIPO",
+            "TCA0-WO1",
+            "INT[33]"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PE0",
+          "functions": [
+            "D11",
+            "COPI (SC1)",
+            "AIN[8]",
+            "COPI",
+            "TCA0-WO0",
+            "INT[32]"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PB1",
+          "functions": [
+            "~D10",
+            "TCA0-WO1",
+            "INT[10]"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PB0",
+          "functions": [
+            "~D9",
+            "TCA0-WO0",
+            "INT[9]"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PE3",
+          "functions": [
+            "D8",
+            "AIN[11]",
+            "SS",
+            "TCA0-WO3",
+            "INT[35]"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA1",
+          "functions": [
+            "D7",
+            "TCA0-WO1",
+            "INT[1]"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PF4",
+          "functions": [
+            "~D6",
+            "AIN[14]",
+            "TCA0-WO4/TCB0-WO",
+            "INT[44]"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PB2",
+          "functions": [
+            "~D5",
+            "TCA0-WO2",
+            "INT[11]"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PC6",
+          "functions": [
+            "D4",
+            "INT[22]"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PF5",
+          "functions": [
+            "~D3",
+            "AIN[15]",
+            "TCA0-WO5/TCB1-WO",
+            "INT[45]"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PA0",
+          "functions": [
+            "D2",
+            "TCA0-WO0",
+            "INT[0]"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "PC5",
+          "functions": [
+            "RX",
+            "RX1",
+            "TCA0-WO5",
+            "INT[21]"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "PC4",
+          "functions": [
+            "TX",
+            "TX1",
+            "TCA0-WO4",
+            "INT[20]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "swd-pads-img4",
+      "name": "Bottom programming pads",
+      "image": "media/9ec8352457992f8823e31e08ca925dac0dff4fe3f29b6e540b39305d5bfe860f.png",
+      "rows": 2,
+      "orderNote": "Pad numbers 1-6 printed, in numeric order",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SWDIO",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SWCLK",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "UPDI",
+          "functions": [
+            "PA14/PA15"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "PF06",
+          "functions": [
+            "RESET",
+            "PA28"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Label = ATmega4809 port name (Pxn) where printed; SDA/SCL ports printed as \"PA2/PF2\", \"PA3/PF3\" on images 2-3 (image 1 prints PA2, PA3). Exact duplicate cells (e.g. SCK twice, AIN[n] twice, CIPO/COPI) listed once. Image 4: pads 2-4 also print SAMD11 names (SWDIO, SWCLK, PA14/PA15) and pad 6 prints PF06 and SAMD11 PA28; SAMD11 internal pin callouts, USB N/USB P lines and TX/RX LEDs not transcribed as connectors."
+}

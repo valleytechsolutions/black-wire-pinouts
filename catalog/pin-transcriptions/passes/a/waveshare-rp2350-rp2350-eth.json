@@ -1,0 +1,453 @@
+{
+  "recordId": "waveshare-rp2350-rp2350-eth",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/9dc585ff35cddd38f49ed6814c1a893222f3691fe100f2faf95b88fd94d6604b.jpg",
+      "sha256": "9dc585ff35cddd38f49ed6814c1a893222f3691fe100f2faf95b88fd94d6604b"
+    },
+    {
+      "file": "media/3262b94c37393d94670beaa361a7f43b122aae96352939bff01fc95e4d349c91.jpg",
+      "sha256": "3262b94c37393d94670beaa361a7f43b122aae96352939bff01fc95e4d349c91"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left castellated pads",
+      "image": "media/9dc585ff35cddd38f49ed6814c1a893222f3691fe100f2faf95b88fd94d6604b.jpg",
+      "rows": 1,
+      "orderNote": "No position numbers; started at the end closest to the USB-C connector (top) and read downward.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBUS",
+          "functions": [
+            "Vbus"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "VSYS",
+          "functions": [
+            "Vsys"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "3V3_EN",
+          "functions": [
+            "EN"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "3V3(OUT)",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "ADC_VREF",
+          "functions": [
+            "VREF"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP28",
+          "functions": [
+            "28",
+            "ADC2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": [
+            "G",
+            "AGND"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP27",
+          "functions": [
+            "27",
+            "ADC1",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP26",
+          "functions": [
+            "26",
+            "ADC0",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "RUN",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GP22",
+          "functions": [
+            "22"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right castellated pads",
+      "image": "media/9dc585ff35cddd38f49ed6814c1a893222f3691fe100f2faf95b88fd94d6604b.jpg",
+      "rows": 1,
+      "orderNote": "No position numbers; started at the end closest to the USB-C connector (top) and read downward.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP0",
+          "functions": [
+            "0",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP1",
+          "functions": [
+            "1",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP2",
+          "functions": [
+            "2",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP3",
+          "functions": [
+            "3",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP4",
+          "functions": [
+            "4",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP5",
+          "functions": [
+            "5",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP6",
+          "functions": [
+            "6",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP7",
+          "functions": [
+            "7",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP8",
+          "functions": [
+            "8",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP9",
+          "functions": [
+            "9",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left castellated pads",
+      "image": "media/3262b94c37393d94670beaa361a7f43b122aae96352939bff01fc95e4d349c91.jpg",
+      "rows": 1,
+      "orderNote": "No position numbers; started at the end closest to the USB-C connector (top) and read downward.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBUS",
+          "functions": [
+            "Vbus"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "VSYS",
+          "functions": [
+            "Vsys"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "3V3_EN",
+          "functions": [
+            "EN"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "3V3(OUT)",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "ADC_VREF",
+          "functions": [
+            "VREF"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP28",
+          "functions": [
+            "28",
+            "ADC2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": [
+            "G",
+            "AGND"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP27",
+          "functions": [
+            "27",
+            "ADC1",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP26",
+          "functions": [
+            "26",
+            "ADC0",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "RUN",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GP22",
+          "functions": [
+            "22"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Right castellated pads",
+      "image": "media/3262b94c37393d94670beaa361a7f43b122aae96352939bff01fc95e4d349c91.jpg",
+      "rows": 1,
+      "orderNote": "No position numbers; started at the end closest to the USB-C connector (top) and read downward.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP0",
+          "functions": [
+            "0",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP1",
+          "functions": [
+            "1",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP2",
+          "functions": [
+            "2",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP3",
+          "functions": [
+            "3",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP4",
+          "functions": [
+            "4",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP5",
+          "functions": [
+            "5",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP6",
+          "functions": [
+            "6",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP7",
+          "functions": [
+            "7",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP8",
+          "functions": [
+            "8",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP9",
+          "functions": [
+            "9",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Both images show the same RP2350-ETH pinout artwork (silkscreen RP2350-ETH visible); transcribed from each image separately. Silkscreen numbers beside the pads are GPIO numbers, kept as functions. Legend categories omitted."
+}

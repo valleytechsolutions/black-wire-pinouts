@@ -1,0 +1,292 @@
+{
+  "recordId": "seeed-studio-expansion-mt3620-grove-breakout",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/17ab6d5a8f63d22a76067f8e06599d3146ffa16afe0816be5760b7a2ad6dfbf1.png",
+      "sha256": "17ab6d5a8f63d22a76067f8e06599d3146ffa16afe0816be5760b7a2ad6dfbf1"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "A0",
+      "name": "Grove port A0 (left)",
+      "image": "media/17ab6d5a8f63d22a76067f8e06599d3146ffa16afe0816be5760b7a2ad6dfbf1.png",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector shown (the 'USB' silkscreen marks a cutout only); vertical connector ordered from the top of the image.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A0",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "I2C-left",
+      "name": "Grove port I2C (left)",
+      "image": "media/17ab6d5a8f63d22a76067f8e06599d3146ffa16afe0816be5760b7a2ad6dfbf1.png",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector shown (the 'USB' silkscreen marks a cutout only); vertical connector ordered from the top of the image.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO31",
+          "functions": [
+            "TXD1",
+            "SCLK1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO33",
+          "functions": [
+            "RXD1",
+            "MISO1",
+            "SDA1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "UART1",
+      "name": "Grove port UART1 (left)",
+      "image": "media/17ab6d5a8f63d22a76067f8e06599d3146ffa16afe0816be5760b7a2ad6dfbf1.png",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector shown (the 'USB' silkscreen marks a cutout only); vertical connector ordered from the top of the image.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO33",
+          "functions": [
+            "RXD1",
+            "MISO1",
+            "SDA1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO31",
+          "functions": [
+            "TXD1",
+            "SCLK1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "D1",
+      "name": "Grove port D1 (left)",
+      "image": "media/17ab6d5a8f63d22a76067f8e06599d3146ffa16afe0816be5760b7a2ad6dfbf1.png",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector shown (the 'USB' silkscreen marks a cutout only); vertical connector ordered from the top of the image.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO35",
+          "functions": [
+            "CSB1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO34",
+          "functions": [
+            "CTS1",
+            "CSA1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "A1",
+      "name": "Grove port A1 (right)",
+      "image": "media/17ab6d5a8f63d22a76067f8e06599d3146ffa16afe0816be5760b7a2ad6dfbf1.png",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector shown (the 'USB' silkscreen marks a cutout only); vertical connector ordered from the top of the image.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "A1",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "I2C-right",
+      "name": "Grove port I2C (right)",
+      "image": "media/17ab6d5a8f63d22a76067f8e06599d3146ffa16afe0816be5760b7a2ad6dfbf1.png",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector shown (the 'USB' silkscreen marks a cutout only); vertical connector ordered from the top of the image.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO33",
+          "functions": [
+            "RXD1",
+            "MISO1",
+            "SDA1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO31",
+          "functions": [
+            "TXD1",
+            "SCLK1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "UART0",
+      "name": "Grove port UART0 (right)",
+      "image": "media/17ab6d5a8f63d22a76067f8e06599d3146ffa16afe0816be5760b7a2ad6dfbf1.png",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector shown (the 'USB' silkscreen marks a cutout only); vertical connector ordered from the top of the image.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO8",
+          "functions": [
+            "TXD0",
+            "GPIO26",
+            "SCLK0",
+            "PWM8"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO10",
+          "functions": [
+            "RXD0",
+            "GPIO28",
+            "MISO0",
+            "PWM10",
+            "SDA0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "D0",
+      "name": "Grove port D0 (right)",
+      "image": "media/17ab6d5a8f63d22a76067f8e06599d3146ffa16afe0816be5760b7a2ad6dfbf1.png",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector shown (the 'USB' silkscreen marks a cutout only); vertical connector ordered from the top of the image.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO30",
+          "functions": [
+            "CSB0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO6",
+          "functions": [
+            "GPIO43",
+            "PWM6",
+            "ADC2"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Grove port ids use the silkscreen port names. The 6-pin SPI0 header and the two 12-pin socket rows for the dev board have no individually labeled pins and were skipped (rule 1). Two ports are both silkscreened 'I2C'; ids I2C-left and I2C-right keep ids unique."
+}

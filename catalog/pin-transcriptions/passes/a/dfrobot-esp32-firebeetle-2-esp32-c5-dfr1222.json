@@ -1,0 +1,257 @@
+{
+  "recordId": "dfrobot-esp32-firebeetle-2-esp32-c5-dfr1222",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/aef7cedcb5e1247695086e4f6d5d21e365f2893a2fab51d5e5391b6238351c88.png",
+      "sha256": "aef7cedcb5e1247695086e4f6d5d21e365f2893a2fab51d5e5391b6238351c88"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/aef7cedcb5e1247695086e4f6d5d21e365f2893a2fab51d5e5391b6238351c88.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; started at end closest to USB-C (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": [
+            "3.3V"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "SCK",
+          "functions": [
+            "23"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "MO",
+          "functions": [
+            "24",
+            "MOSI"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "MI",
+          "functions": [
+            "25",
+            "MISO"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "SCL",
+          "functions": [
+            "10",
+            "CMD"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "SDA",
+          "functions": [
+            "9",
+            "CLK"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "D9",
+          "functions": [
+            "28"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "D6",
+          "functions": [
+            "27"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "D3",
+          "functions": [
+            "26"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "D2",
+          "functions": [
+            "8",
+            "DAT0"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "TX",
+          "functions": [
+            "11"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "RX",
+          "functions": [
+            "12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/aef7cedcb5e1247695086e4f6d5d21e365f2893a2fab51d5e5391b6238351c88.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; started at end closest to USB-C (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VIN",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": [
+            "3V3_C"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SCL",
+          "functions": [
+            "10"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "SDA",
+          "functions": [
+            "9"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "A4",
+          "functions": [
+            "5",
+            "ADC1_4",
+            "LP_TX",
+            "MTDO"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "A3",
+          "functions": [
+            "4",
+            "ADC1_3",
+            "LP_RX",
+            "MTCK"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "A2",
+          "functions": [
+            "3",
+            "ADC1_2",
+            "MTDI"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "A1",
+          "functions": [
+            "2",
+            "ADC1_1",
+            "MTMS"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "D13",
+          "functions": [
+            "15"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "D12",
+          "functions": [
+            "6",
+            "ADC1_5",
+            "LP_SDA"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "D11",
+          "functions": [
+            "7",
+            "LP_SCL",
+            "DAT1"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "NC",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Labels are the board silkscreen; functions are the callout names other than the silkscreen name, listed from nearest the pin outward. Callout names that duplicate the silkscreen label (e.g. SCL, SDA, D9, A4, TX) are not repeated. Right-header 3V3 silkscreen has an overline; callout reads 3V3_C. Top-edge 15/D13 LED and 28/BOOT button labels are not wiring points and were skipped."
+}

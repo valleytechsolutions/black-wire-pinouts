@@ -1,0 +1,657 @@
+{
+ "recordId": "arduino-other-opta",
+ "pass": "a",
+ "date": "2026-10-05",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/2f3d8f1eb4f6b1bcd2836b3ba28158b1c8c395f56f3698887d4697d63f8f60ef.png",
+   "sha256": "2f3d8f1eb4f6b1bcd2836b3ba28158b1c8c395f56f3698887d4697d63f8f60ef"
+  },
+  {
+   "file": "media/7c8ea5b8878429fb037b005a1d80d7cbbfc999b0f6181f82dce97f832e9d5ebc.png",
+   "sha256": "7c8ea5b8878429fb037b005a1d80d7cbbfc999b0f6181f82dce97f832e9d5ebc"
+  },
+  {
+   "file": "media/95a454f4d2f18fc503b41608227696145728c522815219b6030c91796ce23630.png",
+   "sha256": "95a454f4d2f18fc503b41608227696145728c522815219b6030c91796ce23630"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "input-1",
+   "name": "input-1",
+   "rows": 1,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "VIN",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "VIN",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "PA0_C",
+     "functions": [
+      "A0",
+      "I1"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "PC2_C",
+     "functions": [
+      "A1",
+      "I2"
+     ]
+    }
+   ],
+   "image": "media/2f3d8f1eb4f6b1bcd2836b3ba28158b1c8c395f56f3698887d4697d63f8f60ef.png"
+  },
+  {
+   "id": "input-2",
+   "name": "input-2",
+   "rows": 1,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "PF_12",
+     "functions": [
+      "A2",
+      "I3"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "PB_0",
+     "functions": [
+      "A3",
+      "I4"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "PF_10",
+     "functions": [
+      "A4",
+      "I5"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "PF_8",
+     "functions": [
+      "A5",
+      "I6"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "PF_6",
+     "functions": [
+      "A6",
+      "I7"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "PF_4",
+     "functions": [
+      "A7",
+      "I8"
+     ]
+    }
+   ],
+   "image": "media/2f3d8f1eb4f6b1bcd2836b3ba28158b1c8c395f56f3698887d4697d63f8f60ef.png"
+  },
+  {
+   "id": "earth",
+   "name": "earth",
+   "rows": 1,
+   "orderNote": "Single named terminal.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "FE",
+     "functions": [
+      "Functional Earth"
+     ]
+    }
+   ],
+   "image": "media/2f3d8f1eb4f6b1bcd2836b3ba28158b1c8c395f56f3698887d4697d63f8f60ef.png"
+  },
+  {
+   "id": "RS485",
+   "name": "RS485",
+   "rows": 1,
+   "orderNote": "USB at left; physical left-to-right order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "A(-)",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "B(+)",
+     "functions": []
+    }
+   ],
+   "image": "media/2f3d8f1eb4f6b1bcd2836b3ba28158b1c8c395f56f3698887d4697d63f8f60ef.png"
+  },
+  {
+   "id": "relay-1",
+   "name": "relay-1",
+   "rows": 1,
+   "orderNote": "USB at bottom-left; left to right. Both terminals identified only by shared relay label.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "D0",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "D0",
+     "functions": []
+    }
+   ],
+   "image": "media/2f3d8f1eb4f6b1bcd2836b3ba28158b1c8c395f56f3698887d4697d63f8f60ef.png"
+  },
+  {
+   "id": "relay-2",
+   "name": "relay-2",
+   "rows": 1,
+   "orderNote": "USB at bottom-left; left to right. Both terminals identified only by shared relay label.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "D1",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "D1",
+     "functions": []
+    }
+   ],
+   "image": "media/2f3d8f1eb4f6b1bcd2836b3ba28158b1c8c395f56f3698887d4697d63f8f60ef.png"
+  },
+  {
+   "id": "relay-3",
+   "name": "relay-3",
+   "rows": 1,
+   "orderNote": "USB at bottom-left; left to right. Both terminals identified only by shared relay label.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "D2",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "D2",
+     "functions": []
+    }
+   ],
+   "image": "media/2f3d8f1eb4f6b1bcd2836b3ba28158b1c8c395f56f3698887d4697d63f8f60ef.png"
+  },
+  {
+   "id": "relay-4",
+   "name": "relay-4",
+   "rows": 1,
+   "orderNote": "USB at bottom-left; left to right. Both terminals identified only by shared relay label.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "D3",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "D3",
+     "functions": []
+    }
+   ],
+   "image": "media/2f3d8f1eb4f6b1bcd2836b3ba28158b1c8c395f56f3698887d4697d63f8f60ef.png"
+  },
+  {
+   "id": "input-1-img2",
+   "name": "input-1",
+   "rows": 1,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "VIN",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "VIN",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "PA0_C",
+     "functions": [
+      "A0",
+      "I1"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "PC2_C",
+     "functions": [
+      "A1",
+      "I2"
+     ]
+    }
+   ],
+   "image": "media/7c8ea5b8878429fb037b005a1d80d7cbbfc999b0f6181f82dce97f832e9d5ebc.png"
+  },
+  {
+   "id": "input-2-img2",
+   "name": "input-2",
+   "rows": 1,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "PF_12",
+     "functions": [
+      "A2",
+      "I3"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "PB_0",
+     "functions": [
+      "A3",
+      "I4"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "PF_10",
+     "functions": [
+      "A4",
+      "I5"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "PF_8",
+     "functions": [
+      "A5",
+      "I6"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "PF_6",
+     "functions": [
+      "A6",
+      "I7"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "PF_4",
+     "functions": [
+      "A7",
+      "I8"
+     ]
+    }
+   ],
+   "image": "media/7c8ea5b8878429fb037b005a1d80d7cbbfc999b0f6181f82dce97f832e9d5ebc.png"
+  },
+  {
+   "id": "earth-img2",
+   "name": "earth",
+   "rows": 1,
+   "orderNote": "Single named terminal.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "FE",
+     "functions": [
+      "Functional Earth"
+     ]
+    }
+   ],
+   "image": "media/7c8ea5b8878429fb037b005a1d80d7cbbfc999b0f6181f82dce97f832e9d5ebc.png"
+  },
+  {
+   "id": "RS485-img2",
+   "name": "RS485",
+   "rows": 1,
+   "orderNote": "USB at left; physical left-to-right order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "A(-)",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "B(+)",
+     "functions": []
+    }
+   ],
+   "image": "media/7c8ea5b8878429fb037b005a1d80d7cbbfc999b0f6181f82dce97f832e9d5ebc.png"
+  },
+  {
+   "id": "relay-1-img2",
+   "name": "relay-1",
+   "rows": 1,
+   "orderNote": "USB at bottom-left; left to right. Both terminals identified only by shared relay label.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "D0",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "D0",
+     "functions": []
+    }
+   ],
+   "image": "media/7c8ea5b8878429fb037b005a1d80d7cbbfc999b0f6181f82dce97f832e9d5ebc.png"
+  },
+  {
+   "id": "relay-2-img2",
+   "name": "relay-2",
+   "rows": 1,
+   "orderNote": "USB at bottom-left; left to right. Both terminals identified only by shared relay label.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "D1",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "D1",
+     "functions": []
+    }
+   ],
+   "image": "media/7c8ea5b8878429fb037b005a1d80d7cbbfc999b0f6181f82dce97f832e9d5ebc.png"
+  },
+  {
+   "id": "relay-3-img2",
+   "name": "relay-3",
+   "rows": 1,
+   "orderNote": "USB at bottom-left; left to right. Both terminals identified only by shared relay label.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "D2",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "D2",
+     "functions": []
+    }
+   ],
+   "image": "media/7c8ea5b8878429fb037b005a1d80d7cbbfc999b0f6181f82dce97f832e9d5ebc.png"
+  },
+  {
+   "id": "relay-4-img2",
+   "name": "relay-4",
+   "rows": 1,
+   "orderNote": "USB at bottom-left; left to right. Both terminals identified only by shared relay label.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "D3",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "D3",
+     "functions": []
+    }
+   ],
+   "image": "media/7c8ea5b8878429fb037b005a1d80d7cbbfc999b0f6181f82dce97f832e9d5ebc.png"
+  },
+  {
+   "id": "input-1-img3",
+   "name": "input-1",
+   "rows": 1,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "VIN",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "VIN",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "PA0_C",
+     "functions": [
+      "A0",
+      "I1"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "PC2_C",
+     "functions": [
+      "A1",
+      "I2"
+     ]
+    }
+   ],
+   "image": "media/95a454f4d2f18fc503b41608227696145728c522815219b6030c91796ce23630.png"
+  },
+  {
+   "id": "input-2-img3",
+   "name": "input-2",
+   "rows": 1,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "PF_12",
+     "functions": [
+      "A2",
+      "I3"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "PB_0",
+     "functions": [
+      "A3",
+      "I4"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "PF_10",
+     "functions": [
+      "A4",
+      "I5"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "PF_8",
+     "functions": [
+      "A5",
+      "I6"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "PF_6",
+     "functions": [
+      "A6",
+      "I7"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "PF_4",
+     "functions": [
+      "A7",
+      "I8"
+     ]
+    }
+   ],
+   "image": "media/95a454f4d2f18fc503b41608227696145728c522815219b6030c91796ce23630.png"
+  },
+  {
+   "id": "earth-img3",
+   "name": "earth",
+   "rows": 1,
+   "orderNote": "Single named terminal.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "FE",
+     "functions": [
+      "Functional Earth"
+     ]
+    }
+   ],
+   "image": "media/95a454f4d2f18fc503b41608227696145728c522815219b6030c91796ce23630.png"
+  },
+  {
+   "id": "relay-1-img3",
+   "name": "relay-1",
+   "rows": 1,
+   "orderNote": "USB at bottom-left; left to right. Both terminals identified only by shared relay label.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "D0",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "D0",
+     "functions": []
+    }
+   ],
+   "image": "media/95a454f4d2f18fc503b41608227696145728c522815219b6030c91796ce23630.png"
+  },
+  {
+   "id": "relay-2-img3",
+   "name": "relay-2",
+   "rows": 1,
+   "orderNote": "USB at bottom-left; left to right. Both terminals identified only by shared relay label.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "D1",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "D1",
+     "functions": []
+    }
+   ],
+   "image": "media/95a454f4d2f18fc503b41608227696145728c522815219b6030c91796ce23630.png"
+  },
+  {
+   "id": "relay-3-img3",
+   "name": "relay-3",
+   "rows": 1,
+   "orderNote": "USB at bottom-left; left to right. Both terminals identified only by shared relay label.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "D2",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "D2",
+     "functions": []
+    }
+   ],
+   "image": "media/95a454f4d2f18fc503b41608227696145728c522815219b6030c91796ce23630.png"
+  },
+  {
+   "id": "relay-4-img3",
+   "name": "relay-4",
+   "rows": 1,
+   "orderNote": "USB at bottom-left; left to right. Both terminals identified only by shared relay label.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "D3",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "D3",
+     "functions": []
+    }
+   ],
+   "image": "media/95a454f4d2f18fc503b41608227696145728c522815219b6030c91796ce23630.png"
+  }
+ ],
+ "notes": "RS485, WiFi and Lite variants separately transcribed. PI_6/PI_5/PI_7/PI_4 annotations are relay control GPIOs, not exposed relay-contact signal names, so excluded from contact aliases. USB/Ethernet have no individual contact labels. LEDs and buttons excluded.",
+ "unreadable": [],
+ "uncertain": [
+  "Relay pairs have only a shared D0-D3 relay designation; distinct terminal identities not supplied."
+ ]
+}

@@ -1,0 +1,230 @@
+{
+  "recordId": "rakwireless-other-rak11720-module",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/193f2caf31a982c28bea2fe76cae75855a0bea6f434563ae7f00b4644704b086.png",
+      "sha256": "193f2caf31a982c28bea2fe76cae75855a0bea6f434563ae7f00b4644704b086"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "edge-pads",
+      "name": "Castellated edge pads (all sides)",
+      "image": "media/193f2caf31a982c28bea2fe76cae75855a0bea6f434563ae7f00b4644704b086.png",
+      "rows": 1,
+      "orderNote": "Pad numbers 1-34 printed around the module; followed as printed (top edge 1-12 right to left, left 13-16, bottom 17-24, right 25-34 bottom to top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP43",
+          "functions": [
+            "UART1_RX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP42",
+          "functions": [
+            "UART1_TX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP12",
+          "functions": [
+            "ADC9"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP39",
+          "functions": [
+            "UART0_TX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP40",
+          "functions": [
+            "UART0_RX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP45",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GP21",
+          "functions": [
+            "SWDIO"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP20",
+          "functions": [
+            "SWDCK"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP27",
+          "functions": [
+            "I2C2_SCL"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP25",
+          "functions": [
+            "I2C2_SDA"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "LORA RF",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GP7",
+          "functions": [
+            "SPI0_MOSI"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GP6",
+          "functions": [
+            "SPI0_MISO"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GP5",
+          "functions": [
+            "SPI0_CLK"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GP1",
+          "functions": [
+            "SPI0_NSS"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GP4",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "GP36",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "SWO",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "VDD",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "GP32",
+          "functions": [
+            "ADC4"
+          ]
+        },
+        {
+          "position": 26,
+          "label": "GP31",
+          "functions": [
+            "ADC3"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "GP37",
+          "functions": []
+        },
+        {
+          "position": 28,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 29,
+          "label": "GP44",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "GP38",
+          "functions": []
+        },
+        {
+          "position": 31,
+          "label": "GP33",
+          "functions": [
+            "ADC5"
+          ]
+        },
+        {
+          "position": 32,
+          "label": "GP13",
+          "functions": [
+            "ADC8"
+          ]
+        },
+        {
+          "position": 33,
+          "label": "BLE RF",
+          "functions": []
+        },
+        {
+          "position": 34,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Module pads with printed numbers 1-34; one connector entry for the castellated pad ring. Combined labels like GP40/UART0_RX split into label GP40 and function UART0_RX."
+}

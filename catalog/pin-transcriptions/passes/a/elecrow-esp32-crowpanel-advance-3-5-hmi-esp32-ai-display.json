@@ -1,0 +1,207 @@
+{
+  "recordId": "elecrow-esp32-crowpanel-advance-3-5-hmi-esp32-ai-display",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/560a1e59ea5e455a205dfdbf08107c1bf8ecbd132e7be80fbd9be041409fd71d.webp",
+      "sha256": "560a1e59ea5e455a205dfdbf08107c1bf8ecbd132e7be80fbd9be041409fd71d"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "J15",
+      "name": "UART1-OUT",
+      "image": "media/560a1e59ea5e455a205dfdbf08107c1bf8ecbd132e7be80fbd9be041409fd71d.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row, started at the right end (side nearer the USB connectors on the right board edge). Labels printed as a block to the left of the connector, applied left-to-right to the pads.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO17",
+          "functions": [
+            "TX1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "IO18",
+          "functions": [
+            "RX1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "J13",
+      "name": "I2C-OUT",
+      "image": "media/560a1e59ea5e455a205dfdbf08107c1bf8ecbd132e7be80fbd9be041409fd71d.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row, started at the right end (nearer the USB connectors). Labels printed as a block to the right of the connector, applied left-to-right to the pads.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO16",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "IO15",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J10",
+      "name": "UART0-IN",
+      "image": "media/560a1e59ea5e455a205dfdbf08107c1bf8ecbd132e7be80fbd9be041409fd71d.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row, started at the right end (nearer the USB connectors). Labels printed as a block to the right of the connector, applied left-to-right to the pads.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO44",
+          "functions": [
+            "RX0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "IO43",
+          "functions": [
+            "TX0"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "5V_IN",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J9",
+      "name": "Wireless module header (left)",
+      "image": "media/560a1e59ea5e455a205dfdbf08107c1bf8ecbd132e7be80fbd9be041409fd71d.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at the bottom end (nearer the USB connectors). Labels taken from the left column of the legend box between J9 and J11, legend top row = top pad pair.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IO3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "IO9",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "IO10",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "IO1",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J11",
+      "name": "Wireless module header (right)",
+      "image": "media/560a1e59ea5e455a205dfdbf08107c1bf8ecbd132e7be80fbd9be041409fd71d.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at the bottom end (nearer the USB connectors). Labels taken from the right column of the legend box between J9 and J11, legend top row = top pad pair.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IO0",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO46",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "IO15",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "IO16",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "IO2",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "J15, J13 and J10 labels are printed as a separate text block beside each 4-pad JST footprint, not next to individual pads; the left-to-right label order was mapped to the left-to-right pads by inference.",
+    "J9 and J11 are each drawn as 2x7 SMD pad footprints but the legend between them lists only 2x7 = 14 names; assignment of the legend's left column to J9 and right column to J11 (one name per pad pair, rows:1) is inferred, as is whether each pad pair is one pin."
+  ],
+  "notes": "PCB render (V1.0, SKU DIS01835A). Skipped: SPK (J12) and BAT (J3) with only +/- marks, USB0/USB1, TF slot, MIC, buttons. Printed hyphen/underscore suffixes (IO18-RX1, IO15_SDA, IO43-TX0) split into GPIO label plus function. IIC address legend (IO15-RTC_SDA, IO16-RTC_SCL) refers to the RTC chip, not a connector."
+}

@@ -1,0 +1,110 @@
+{
+  "recordId": "lilygo-esp32-t-connect-pro",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/6deeab0cf38d158da6811b1368277a41a07b653710899971b1d12efc41cdc960.jpg",
+      "sha256": "6deeab0cf38d158da6811b1368277a41a07b653710899971b1d12efc41cdc960"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "terminal-1",
+      "name": "Bottom terminal block 1 (RS232 group)",
+      "image": "media/6deeab0cf38d158da6811b1368277a41a07b653710899971b1d12efc41cdc960.jpg",
+      "rows": 1,
+      "orderNote": "No printed numbers; horizontal row in the top-left inset (which shows no USB connector), ordered left to right.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SGND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "T0UT",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RIN",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "DGND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "terminal-2",
+      "name": "Bottom terminal block 2 (RS485 group)",
+      "image": "media/6deeab0cf38d158da6811b1368277a41a07b653710899971b1d12efc41cdc960.jpg",
+      "rows": 1,
+      "orderNote": "No printed numbers; horizontal row in the top-left inset (which shows no USB connector), ordered left to right.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SGND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "A",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "B",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "DGND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "terminal-3",
+      "name": "Bottom terminal block 3 (CAN group)",
+      "image": "media/6deeab0cf38d158da6811b1368277a41a07b653710899971b1d12efc41cdc960.jpg",
+      "rows": 1,
+      "orderNote": "No printed numbers; horizontal row in the top-left inset (which shows no USB connector), ordered left to right.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SGND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "L",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "H",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "DGND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "All terminal labels are very small and low-resolution in the inset (top-left Relay Device view); readings are best effort. terminal-3 position 1 could read AGND rather than SGND.",
+    "terminal-1 position 2: O and 0 cannot be told apart at this resolution; recorded as T0UT per rule 5."
+  ],
+  "notes": "The only per-terminal labels are on the enclosure faceplate in the top-left inset photo. The 12~24V DC input terminal is marked only +/- and is skipped (rule 1). The 3-way relay output terminal has no legible per-terminal labels and is skipped. Group names (RS232/RS485/CAN) are inferred from the A/B and L/H terminal names only for the connector names. GPIO tables (RS485, RS232, CAN, LCD, LoRa, Ethernet, Touch) are not tied to terminal positions.",
+  "uncertain": [
+    "Terminal labels are read from a small, low-resolution inset; TOUT, RIN and the SGND/AGND first labels in particular may be misread.",
+    "Grouping into three 4-terminal blocks follows the visible gaps between the screw blocks; the faceplate labels sit in a continuous strip above them."
+  ]
+}

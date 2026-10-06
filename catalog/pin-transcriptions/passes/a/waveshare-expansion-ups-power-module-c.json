@@ -1,0 +1,69 @@
+{
+  "recordId": "waveshare-expansion-ups-power-module-c",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/c2886cc0f071689e5a44edb9f6f80288f76b151bcb452bc3a6591ece67705632.jpg",
+      "sha256": "c2886cc0f071689e5a44edb9f6f80288f76b151bcb452bc3a6591ece67705632"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "header-2x3",
+      "name": "2x3 pin header",
+      "image": "media/c2886cc0f071689e5a44edb9f6f80288f76b151bcb452bc3a6591ece67705632.jpg",
+      "rows": 2,
+      "orderNote": "Pin numbers 1, 3, 5, 6 printed; followed them (1 bottom-right, 5 top-right, 6 top-left); unnumbered holes 2 and 4 inferred as bottom-left and middle-left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": [
+            "3.3V power input"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SDA",
+          "functions": [
+            "Monitoring chip SDA pin"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "SCL",
+          "functions": [
+            "Monitoring chip SCL pin"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": [
+            "Ground"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "Positions 2 and 4 (left column, bottom and middle holes): no label or pin number printed"
+  ],
+  "uncertain": [
+    "Pin numbers 2 and 4 are not printed; their physical positions were inferred from the odd/even column pattern (1,3,5 right column; 6 top-left).",
+    "Descriptions ('Ground', '3.3V power input', 'Monitoring chip SDA/SCL pin') come from a separate legend table beside the board, matched by name."
+  ],
+  "notes": "Cropped photo of the module with a callout for a 2x3 header and a legend table."
+}

@@ -1,0 +1,432 @@
+{
+  "recordId": "adafruit-metro-m7-with-microsd",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/a0b1e5657a9122e0b7aa4ab8bbee4f91e6026c37a089e6d30bff53391cab041e.png",
+      "sha256": "a0b1e5657a9122e0b7aa4ab8bbee4f91e6026c37a089e6d30bff53391cab041e"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "power-header",
+      "name": "Left power header",
+      "image": "media/a0b1e5657a9122e0b7aa4ab8bbee4f91e6026c37a089e6d30bff53391cab041e.png",
+      "rows": 1,
+      "orderNote": "Vertical row, no pin numbers; started at the end closest to the USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": [
+            "33V"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "RESET",
+          "functions": [
+            "RST"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "3.3V",
+          "functions": [
+            "33V"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "analog-header",
+      "name": "Left analog header",
+      "image": "media/a0b1e5657a9122e0b7aa4ab8bbee4f91e6026c37a089e6d30bff53391cab041e.png",
+      "rows": 1,
+      "orderNote": "Vertical row, no pin numbers; started at the end closest to the USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO_AD_02",
+          "functions": [
+            "A0",
+            "ADC2",
+            "SCL",
+            "PCS1",
+            "TXD",
+            "TRACE_CLK"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO_AD_01",
+          "functions": [
+            "A1",
+            "ADC1",
+            "SDA",
+            "PCS1",
+            "RXD",
+            "TRACE_SWO"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO_AD_00",
+          "functions": [
+            "A2",
+            "ADC0",
+            "PCS2",
+            "TXD",
+            "TRACE0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO_AD_05",
+          "functions": [
+            "A3",
+            "ADC5",
+            "PWM3_B",
+            "PCS0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO_AD_10",
+          "functions": [
+            "A4",
+            "ADC10",
+            "PWM2_X",
+            "SDO",
+            "JTAG_TDI"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO_AD_08",
+          "functions": [
+            "A5",
+            "ADC8",
+            "SCL",
+            "CTS_B/TXD",
+            "CM7_TXEV/JTAG_TRSTB"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-upper",
+      "name": "Right upper digital header",
+      "image": "media/a0b1e5657a9122e0b7aa4ab8bbee4f91e6026c37a089e6d30bff53391cab041e.png",
+      "rows": 1,
+      "orderNote": "Vertical row, no pin numbers; started at the end closest to the USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO_02",
+          "functions": [
+            "SCL",
+            "PWM0_A",
+            "RX_SYNC"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO_01",
+          "functions": [
+            "SDA",
+            "PWM0_B",
+            "RX_BCLK"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO_03",
+          "functions": [
+            "D13",
+            "PWM1_B",
+            "RX_DATA0"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO_04",
+          "functions": [
+            "D12",
+            "PWM1_A",
+            "TX_DATA0"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO_05",
+          "functions": [
+            "D11",
+            "PWM2_B",
+            "RXD",
+            "TX_DATA1/RX_DATA1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO_06",
+          "functions": [
+            "D10",
+            "PWM2_A",
+            "TXD",
+            "TX_BCLK"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO_07",
+          "functions": [
+            "D9",
+            "PWM3_B",
+            "RTS_B/RXD",
+            "TX_SYNC"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO_08",
+          "functions": [
+            "D8",
+            "PWM3_A",
+            "CTS_B/TXD",
+            "MCLK"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-lower",
+      "name": "Right lower digital header",
+      "image": "media/a0b1e5657a9122e0b7aa4ab8bbee4f91e6026c37a089e6d30bff53391cab041e.png",
+      "rows": 1,
+      "orderNote": "Vertical row, no pin numbers; started at the end closest to the USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO_11",
+          "functions": [
+            "D7",
+            "SDA",
+            "SS1_B",
+            "RXD",
+            "TRACE3"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO_SD_02",
+          "functions": [
+            "D6",
+            "PWM0_A",
+            "DATA2",
+            "TX_DATA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO_SD_01",
+          "functions": [
+            "D5",
+            "PWM0_B",
+            "DATA1",
+            "TX_BCLK"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO_SD_00",
+          "functions": [
+            "D4",
+            "SS0_B",
+            "TX_SYNC",
+            "CM7_RXEV"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO_12",
+          "functions": [
+            "D3",
+            "SCL",
+            "TXD",
+            "TRACE2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO_13",
+          "functions": [
+            "D2",
+            "PCS2",
+            "RXD",
+            "TRACE1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO_10",
+          "functions": [
+            "D1",
+            "D1/TX",
+            "HREQ/SCL",
+            "TXD"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO_09",
+          "functions": [
+            "D0",
+            "D0/RX",
+            "SDA",
+            "SS1_B",
+            "RXD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "icsp-header",
+      "name": "ICSP 2x3 header at bottom edge",
+      "image": "media/a0b1e5657a9122e0b7aa4ab8bbee4f91e6026c37a089e6d30bff53391cab041e.png",
+      "rows": 2,
+      "orderNote": "2x3 header, horizontal rows, no pin numbers; started at the end closest to the USB connector (right), position 1 on the outer row nearest the bottom board edge (GND MO 5V), alternating outer/inner",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GPIO_AD_03",
+          "functions": [
+            "MI",
+            "MISO",
+            "ADC3",
+            "PWM2_B",
+            "SDI",
+            "JTAG_DE_B"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO_AD_04",
+          "functions": [
+            "MO",
+            "MOSI",
+            "ADC4",
+            "PWM2_A",
+            "SDO"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO_AD_06",
+          "functions": [
+            "SCK",
+            "ADC6",
+            "PWM3_A",
+            "HREQ"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "RESET",
+          "functions": [
+            "RST"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stemma-qt",
+      "name": "STEMMA QT I2C connector at bottom edge",
+      "image": "media/a0b1e5657a9122e0b7aa4ab8bbee4f91e6026c37a089e6d30bff53391cab041e.png",
+      "rows": 1,
+      "orderNote": "Horizontal 4-pin connector, no pin numbers; started at the end closest to the USB connector (right, SCL)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO_02",
+          "functions": [
+            "SCL",
+            "PWM0_A",
+            "RX_SYNC"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO_01",
+          "functions": [
+            "SDA",
+            "PWM0_B",
+            "RX_BCLK"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "power-header position 1: pad above the first 33V pad has no label (unlabeled)",
+    "SS0_B, RX_DATA0, TX_DATA0: letter O vs digit 0 not distinguishable; recorded as 0"
+  ],
+  "notes": "Underscores in names are drawn faintly; transcribed as underscores. microSD socket signals (SD_CD, MISO, MOSI, SCK, SD_CS) belong to the card slot, not a wiring point, skipped. SWD connector has no individually labeled pins, skipped. NeoPixel, DC jack, switches and reset button skipped. TX/RX silkscreen arrows next to D1/D0 not recorded separately. STEMMA QT pin labels are on callouts wired to the on-board connector; order follows the on-board connector."
+}

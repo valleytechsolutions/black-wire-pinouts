@@ -1,0 +1,1430 @@
+{
+  "recordId": "arduino-rp2040-nano-rp2040-connect",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/d6264d4eb5a088fb6b39e1768e2fe397053a8b7c50962b98f1ddf75b465a1ecd.png",
+      "sha256": "d6264d4eb5a088fb6b39e1768e2fe397053a8b7c50962b98f1ddf75b465a1ecd"
+    },
+    {
+      "file": "media/39ce33dc1e3809647df80e3b93275e0e1a582852981cb0137456ae47cb04db61.png",
+      "sha256": "39ce33dc1e3809647df80e3b93275e0e1a582852981cb0137456ae47cb04db61"
+    },
+    {
+      "file": "media/dfaa90cb7778fdf56dc838e47f4b2b68f57b6c31d488e0d202765df26f9ba420.png",
+      "sha256": "dfaa90cb7778fdf56dc838e47f4b2b68f57b6c31d488e0d202765df26f9ba420"
+    },
+    {
+      "file": "media/7f0b9ba4dc4314d7fe16f2f9560be7296830872a22970d482645bfd49c7ee700.png",
+      "sha256": "7f0b9ba4dc4314d7fe16f2f9560be7296830872a22970d482645bfd49c7ee700"
+    },
+    {
+      "file": "media/d4f47cb45ad3ca014373d33856475cbc97e91042c274a1037fd6d564f06e7b27.png",
+      "sha256": "d4f47cb45ad3ca014373d33856475cbc97e91042c274a1037fd6d564f06e7b27"
+    },
+    {
+      "file": "media/223c5494051ff2e4db21a67026d89984d21dcacfdfbfe0ecebc154dca38b0099.png",
+      "sha256": "223c5494051ff2e4db21a67026d89984d21dcacfdfbfe0ecebc154dca38b0099"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/d6264d4eb5a088fb6b39e1768e2fe397053a8b7c50962b98f1ddf75b465a1ecd.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; vertical row, started at the top end (closest to the USB connector at the top of the board).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO6",
+          "functions": [
+            "D13",
+            "SCK"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "AREF",
+          "functions": [
+            "PA03"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO26",
+          "functions": [
+            "D14",
+            "A0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO27",
+          "functions": [
+            "D15",
+            "A1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO28",
+          "functions": [
+            "D16",
+            "A2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO29",
+          "functions": [
+            "D17",
+            "A3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO12",
+          "functions": [
+            "D18",
+            "A4",
+            "A4/SDA"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO13",
+          "functions": [
+            "D19",
+            "A5",
+            "A5/SCL"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "A6",
+          "functions": [
+            "D20"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "A7",
+          "functions": [
+            "D21"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "REC",
+          "functions": [
+            "QSPI_CSn"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/d6264d4eb5a088fb6b39e1768e2fe397053a8b7c50962b98f1ddf75b465a1ecd.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; vertical row, started at the top end (closest to the USB connector at the top of the board).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO4",
+          "functions": [
+            "D12",
+            "CIPO"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO7",
+          "functions": [
+            "D11",
+            "COPI"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO5",
+          "functions": [
+            "D10"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO21",
+          "functions": [
+            "D9"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO20",
+          "functions": [
+            "D8"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO19",
+          "functions": [
+            "D7"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO18",
+          "functions": [
+            "D6"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO17",
+          "functions": [
+            "D5"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO16",
+          "functions": [
+            "D4"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO15",
+          "functions": [
+            "D3"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO25",
+          "functions": [
+            "D2"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO1",
+          "functions": [
+            "RX"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO0",
+          "functions": [
+            "TX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left header",
+      "image": "media/39ce33dc1e3809647df80e3b93275e0e1a582852981cb0137456ae47cb04db61.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; vertical row, started at the top end (closest to the USB connector at the top of the board).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO6",
+          "functions": [
+            "D13",
+            "SCK"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "AREF",
+          "functions": [
+            "PA03"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO26",
+          "functions": [
+            "D14",
+            "A0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO27",
+          "functions": [
+            "D15",
+            "A1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO28",
+          "functions": [
+            "D16",
+            "A2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO29",
+          "functions": [
+            "D17",
+            "A3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO12",
+          "functions": [
+            "D18",
+            "A4",
+            "A4/SDA"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO13",
+          "functions": [
+            "D19",
+            "A5",
+            "A5/SCL"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "A6",
+          "functions": [
+            "D20"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "A7",
+          "functions": [
+            "D21"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "REC",
+          "functions": [
+            "QSPI_CSn"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Right header",
+      "image": "media/39ce33dc1e3809647df80e3b93275e0e1a582852981cb0137456ae47cb04db61.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; vertical row, started at the top end (closest to the USB connector at the top of the board).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO4",
+          "functions": [
+            "D12",
+            "CIPO"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO7",
+          "functions": [
+            "D11",
+            "COPI"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO5",
+          "functions": [
+            "D10"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO21",
+          "functions": [
+            "D9"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO20",
+          "functions": [
+            "D8"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO19",
+          "functions": [
+            "D7"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO18",
+          "functions": [
+            "D6"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO17",
+          "functions": [
+            "D5"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO16",
+          "functions": [
+            "D4"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO15",
+          "functions": [
+            "D3"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO25",
+          "functions": [
+            "D2"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO1",
+          "functions": [
+            "RX"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO0",
+          "functions": [
+            "TX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img3",
+      "name": "Left header",
+      "image": "media/dfaa90cb7778fdf56dc838e47f4b2b68f57b6c31d488e0d202765df26f9ba420.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; vertical row, started at the top end (closest to the USB connector at the top of the board).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO6",
+          "functions": [
+            "D13",
+            "SCK"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "AREF",
+          "functions": [
+            "PA03"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO26",
+          "functions": [
+            "D14",
+            "A0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO27",
+          "functions": [
+            "D15",
+            "A1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO28",
+          "functions": [
+            "D16",
+            "A2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO29",
+          "functions": [
+            "D17",
+            "A3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO12",
+          "functions": [
+            "D18",
+            "A4",
+            "A4/SDA"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO13",
+          "functions": [
+            "D19",
+            "A5",
+            "A5/SCL"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "A6",
+          "functions": [
+            "D20"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "A7",
+          "functions": [
+            "D21"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "REC",
+          "functions": [
+            "QSPI_CSn"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header-img3",
+      "name": "Right header",
+      "image": "media/dfaa90cb7778fdf56dc838e47f4b2b68f57b6c31d488e0d202765df26f9ba420.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; vertical row, started at the top end (closest to the USB connector at the top of the board).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO4",
+          "functions": [
+            "D12",
+            "CIPO"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO7",
+          "functions": [
+            "D11",
+            "COPI"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO5",
+          "functions": [
+            "D10"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO21",
+          "functions": [
+            "D9"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO20",
+          "functions": [
+            "D8"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO19",
+          "functions": [
+            "D7"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO18",
+          "functions": [
+            "D6"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO17",
+          "functions": [
+            "D5"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO16",
+          "functions": [
+            "D4"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO15",
+          "functions": [
+            "D3"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO25",
+          "functions": [
+            "D2"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO1",
+          "functions": [
+            "RX"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO0",
+          "functions": [
+            "TX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img4",
+      "name": "Left header",
+      "image": "media/7f0b9ba4dc4314d7fe16f2f9560be7296830872a22970d482645bfd49c7ee700.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; vertical row, started at the top end (closest to the USB connector at the top of the board).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO6",
+          "functions": [
+            "D13",
+            "SCK",
+            "PWM3 A",
+            "UART1 CTS",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "AREF",
+          "functions": [
+            "PA03"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO26",
+          "functions": [
+            "D14",
+            "A0",
+            "PWM5 A",
+            "UART1 CTS",
+            "SPI1 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO27",
+          "functions": [
+            "D15",
+            "A1",
+            "PWM5 B",
+            "UART1 RTS",
+            "SPI1 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO28",
+          "functions": [
+            "D16",
+            "A2",
+            "PWM6 A",
+            "UART0 TX",
+            "SPI1 RX",
+            "I2C0 SDA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO29",
+          "functions": [
+            "D17",
+            "A3",
+            "PWM6 B",
+            "UART0 RX",
+            "SPI1 CSn",
+            "I2C0 SCL"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO12",
+          "functions": [
+            "D18",
+            "A4",
+            "A4/SDA",
+            "PWM6 A",
+            "UART0 TX",
+            "SPI1 RX",
+            "I2C0 SDA"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO13",
+          "functions": [
+            "D19",
+            "A5",
+            "A5/SCL",
+            "PWM6 B",
+            "UART0 RX",
+            "SPI1 CSn",
+            "I2C0 SCL"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "A6",
+          "functions": [
+            "D20"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "A7",
+          "functions": [
+            "D21"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "REC",
+          "functions": [
+            "QSPI_CSn"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header-img4",
+      "name": "Right header",
+      "image": "media/7f0b9ba4dc4314d7fe16f2f9560be7296830872a22970d482645bfd49c7ee700.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; vertical row, started at the top end (closest to the USB connector at the top of the board).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO4",
+          "functions": [
+            "D12",
+            "CIPO",
+            "PWM2 A",
+            "UART1 TX",
+            "SPI0 RX",
+            "I2C0 SDA"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO7",
+          "functions": [
+            "D11",
+            "COPI",
+            "PWM3 B",
+            "UART1 RTS",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO5",
+          "functions": [
+            "D10",
+            "PWM2 B",
+            "UART1 RX",
+            "SPI0 CSn",
+            "I2C0 SCL"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO21",
+          "functions": [
+            "D9",
+            "PWM2 B",
+            "UART1 RX",
+            "SPI0 CSn",
+            "I2C0 SCL"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO20",
+          "functions": [
+            "D8",
+            "PWM2 A",
+            "UART1 TX",
+            "SPI0 RX",
+            "I2C0 SDA"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO19",
+          "functions": [
+            "D7",
+            "PWM1 B",
+            "UART0 RTS",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO18",
+          "functions": [
+            "D6",
+            "PWM1 A",
+            "UART0 CTS",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO17",
+          "functions": [
+            "D5",
+            "PWM0 B",
+            "UART0 RX",
+            "SPI0 CSn",
+            "I2C0 SCL"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO16",
+          "functions": [
+            "D4",
+            "PWM0 A",
+            "UART0 TX",
+            "SPI0 RX",
+            "I2C0 SDA"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO15",
+          "functions": [
+            "D3",
+            "PWM7 B",
+            "UART0 RTS",
+            "SPI1 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO25",
+          "functions": [
+            "D2",
+            "PWM4 B",
+            "UART1 RX",
+            "SPI1 CSn",
+            "I2C0 SCL"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO1",
+          "functions": [
+            "RX",
+            "PWM0 B",
+            "UART0 RX",
+            "SPI0 CSn",
+            "I2C0 SCL"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO0",
+          "functions": [
+            "TX",
+            "PWM0 A",
+            "UART0 TX",
+            "SPI0 RX",
+            "I2C0 SDA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img5",
+      "name": "Left header",
+      "image": "media/d4f47cb45ad3ca014373d33856475cbc97e91042c274a1037fd6d564f06e7b27.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; vertical row, started at the top end (closest to the USB connector at the top of the board).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO6",
+          "functions": [
+            "D13",
+            "SCK",
+            "SIO",
+            "PIO0",
+            "PIO1",
+            "USB OVCUR DET"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "AREF",
+          "functions": [
+            "PA03"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO26",
+          "functions": [
+            "D14",
+            "A0",
+            "SIO",
+            "PIO0",
+            "PIO1",
+            "USB VBUS EN"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO27",
+          "functions": [
+            "D15",
+            "A1",
+            "SIO",
+            "PIO0",
+            "PIO1",
+            "USB OVCUR DET"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO28",
+          "functions": [
+            "D16",
+            "A2",
+            "SIO",
+            "PIO0",
+            "PIO1",
+            "USB VBUS DET"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO29",
+          "functions": [
+            "D17",
+            "A3",
+            "SIO",
+            "PIO0",
+            "PIO1",
+            "USB VBUS EN"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO12",
+          "functions": [
+            "D18",
+            "A4",
+            "A4/SDA",
+            "SIO",
+            "PIO0",
+            "PIO1",
+            "USB OVCUR DET",
+            "ADC2 /GPIO34"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO13",
+          "functions": [
+            "D19",
+            "A5",
+            "A5/SCL",
+            "SIO",
+            "PIO0",
+            "PIO1",
+            "USB VBUS DET",
+            "ADC3 /GPIO39"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "A6",
+          "functions": [
+            "D20",
+            "ADC4 /GPIO36"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "A7",
+          "functions": [
+            "D21",
+            "ADC34/GPIO35"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "REC",
+          "functions": [
+            "QSPI_CSn",
+            "SPIV_HD/RMII_TXEN/GPIO21"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header-img5",
+      "name": "Right header",
+      "image": "media/d4f47cb45ad3ca014373d33856475cbc97e91042c274a1037fd6d564f06e7b27.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; vertical row, started at the top end (closest to the USB connector at the top of the board).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO4",
+          "functions": [
+            "D12",
+            "CIPO",
+            "SIO",
+            "PIO0",
+            "PIO1",
+            "USB VBUS DET"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO7",
+          "functions": [
+            "D11",
+            "COPI",
+            "SIO",
+            "PIO0",
+            "PIO1",
+            "USB VBUS DET"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO5",
+          "functions": [
+            "D10",
+            "SIO",
+            "PIO0",
+            "PIO1",
+            "USB VBUS EN"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO21",
+          "functions": [
+            "D9",
+            "CLOCK GPOUT0",
+            "SIO",
+            "PIO0",
+            "PIO1",
+            "USB OVCUR DET"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO20",
+          "functions": [
+            "D8",
+            "CLOCK GPIN0",
+            "SIO",
+            "PIO0",
+            "PIO1",
+            "USB VBUS EN"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO19",
+          "functions": [
+            "D7",
+            "SIO",
+            "PIO0",
+            "PIO1",
+            "USB VBUS DET"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO18",
+          "functions": [
+            "D6",
+            "SIO",
+            "PIO0",
+            "PIO1",
+            "USB OVCUR DET"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO17",
+          "functions": [
+            "D5",
+            "SIO",
+            "PIO0",
+            "PIO1",
+            "USB VBUS EN"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO16",
+          "functions": [
+            "D4",
+            "SIO",
+            "PIO0",
+            "PIO1",
+            "USB VBUS DET"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO15",
+          "functions": [
+            "D3",
+            "SIO",
+            "PIO0",
+            "PIO1",
+            "USB OVCUR DET"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO25",
+          "functions": [
+            "D2",
+            "CLOCK GPOUT3",
+            "SIO",
+            "PIO0",
+            "PIO1",
+            "USB VBUS DET"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "RESET",
+          "functions": [
+            "GPIO19"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO1",
+          "functions": [
+            "RX",
+            "SIO",
+            "PIO0",
+            "PIO1",
+            "USB VBUS DET"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO0",
+          "functions": [
+            "TX",
+            "SIO",
+            "PIO0",
+            "PIO1",
+            "USB OVCUR DET"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "JTAG-img6",
+      "name": "JTAG pads (bottom)",
+      "image": "media/223c5494051ff2e4db21a67026d89984d21dcacfdfbfe0ecebc154dca38b0099.png",
+      "rows": 2,
+      "orderNote": "Pad numbers printed (1, 2, 3, 5, 6; no pad 4 shown); positions 1-5 follow the printed numbers in order, printed number first in functions.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+3V3",
+          "functions": [
+            "1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "SWDIO",
+          "functions": [
+            "2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "SWCLK",
+          "functions": [
+            "3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": [
+            "5"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "RESETN",
+          "functions": [
+            "6",
+            "RESET"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "micro-usb-img6",
+      "name": "Micro USB connector lines",
+      "image": "media/223c5494051ff2e4db21a67026d89984d21dcacfdfbfe0ecebc154dca38b0099.png",
+      "rows": 1,
+      "orderNote": "No contact numbers printed; listed top to bottom as printed.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+5V",
+          "functions": [
+            "IN"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "USB N",
+          "functions": [
+            "D-"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "USB P",
+          "functions": [
+            "D+"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "USB ID",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "JTAG-img6: printed pad numbers are 1, 2, 3, 5, 6 with no pad 4 drawn; positions renumbered 1-5 to stay consecutive, so position numbers do not match printed numbers for the last two pads.",
+    "micro-usb-img6: the Micro USB callouts (+5V, USB N, USB P, USB ID, GND) show signals, not physical contact positions; order is the printed list order and it is unclear whether this receptacle belongs in the connector list."
+  ],
+  "notes": "Images 1-3 show the same top view; images 4 and 5 add function columns; each transcribed separately per rule 11. Label = GPIOn where printed; A6/A7 have no GPIO so the analog name is used with D20/D21 in functions; AREF and REC keep their control names with PA03 / QSPI_CSn in functions. Column headers (I2C, SPI, UART, PWM, DEFAULT, SIO, PIO0, PIO1, USB, TIMER) omitted as category tags; NINA-W102-00B entries kept as printed functions. RESET printed with an overline. Image 6: LED callouts, MP2322GQH chip pins (IN/EN/SW), solder jumpers SJ1/SJ4 and the bottom +3V3/GND battery note (header pins already listed) skipped."
+}

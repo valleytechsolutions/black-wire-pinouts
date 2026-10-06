@@ -1,0 +1,260 @@
+{
+  "recordId": "seeed-studio-gpio-device-reterminal",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/9d189da2f85eee8ad9943d9ed4bc1bc840bf61ff0ae375ec49a74ae8d9a151d6.jpg",
+      "sha256": "9d189da2f85eee8ad9943d9ed4bc1bc840bf61ff0ae375ec49a74ae8d9a151d6"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "header",
+      "name": "40-pin 2x20 header",
+      "image": "media/9d189da2f85eee8ad9943d9ed4bc1bc840bf61ff0ae375ec49a74ae8d9a151d6.jpg",
+      "rows": 2,
+      "orderNote": "Printed pin numbers 1-40 followed (odd = left column, even = right column)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO 2",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO 3",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO 4",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GPIO 14",
+          "functions": [
+            "TX"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GPIO 15",
+          "functions": [
+            "RX"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO 17",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GPIO 18",
+          "functions": [
+            "CLK"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO 27",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GPIO 22",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "GPIO 23",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GPIO 24",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GPIO 10",
+          "functions": [
+            "MOSI"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "GPIO 9",
+          "functions": [
+            "MISO"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "GPIO 25",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "GPIO 11",
+          "functions": [
+            "CLK"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "GPIO 8",
+          "functions": [
+            "CE0"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "GPIO 7",
+          "functions": [
+            "CE1"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "GPIO 0",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 28,
+          "label": "GPIO 1",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 29,
+          "label": "GPIO 5",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 31,
+          "label": "USB_DM",
+          "functions": []
+        },
+        {
+          "position": 32,
+          "label": "GPIO 12",
+          "functions": [
+            "PWM0"
+          ]
+        },
+        {
+          "position": 33,
+          "label": "USB_DP",
+          "functions": []
+        },
+        {
+          "position": 34,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 35,
+          "label": "GPIO 19",
+          "functions": [
+            "FS"
+          ]
+        },
+        {
+          "position": 36,
+          "label": "GPIO 16",
+          "functions": []
+        },
+        {
+          "position": 37,
+          "label": "GPIO 26",
+          "functions": []
+        },
+        {
+          "position": 38,
+          "label": "GPIO 20",
+          "functions": [
+            "DIN"
+          ]
+        },
+        {
+          "position": 39,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 40,
+          "label": "GPIO 21",
+          "functions": [
+            "DOUT"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "O/0 ambiguity in GPIO 0, CE0, PWM0; recorded as 0"
+  ],
+  "uncertain": [],
+  "notes": "Header shown as a callout from a side view of the enclosure. Labels copied with the printed space (e.g. 'GPIO 2')."
+}

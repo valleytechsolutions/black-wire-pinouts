@@ -1,0 +1,157 @@
+{
+  "recordId": "dfrobot-dfr0816",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/07ca4ba7e53ba6353666d7625921eed12ddb1517266bd4ef57d8043460df8779.webp",
+      "sha256": "07ca4ba7e53ba6353666d7625921eed12ddb1517266bd4ef57d8043460df8779"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-pads",
+      "name": "Left edge pads",
+      "image": "media/07ca4ba7e53ba6353666d7625921eed12ddb1517266bd4ef57d8043460df8779.webp",
+      "rows": 1,
+      "orderNote": "USB-C connector at the top; vertical row started at the top end (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "A0",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "A1",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "15",
+          "functions": [
+            "15/SCK",
+            "SCK"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "16",
+          "functions": [
+            "16/MO",
+            "MOSI"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "14",
+          "functions": [
+            "14/MI",
+            "MISO"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "11",
+          "functions": [
+            "11~",
+            "PWM"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-pads",
+      "name": "Right edge pads",
+      "image": "media/07ca4ba7e53ba6353666d7625921eed12ddb1517266bd4ef57d8043460df8779.webp",
+      "rows": 1,
+      "orderNote": "USB-C connector at the top; vertical row started at the top end (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VIN",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "0",
+          "functions": [
+            "RX/0",
+            "RX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "1",
+          "functions": [
+            "TX/1",
+            "TX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "2",
+          "functions": [
+            "SDA/2",
+            "SDA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "3",
+          "functions": [
+            "SCL/3",
+            "SCL"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "9",
+          "functions": [
+            "~9",
+            "PWM"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rst-pad",
+      "name": "RST pad next to USB",
+      "image": "media/07ca4ba7e53ba6353666d7625921eed12ddb1517266bd4ef57d8043460df8779.webp",
+      "rows": 1,
+      "orderNote": "Single pad",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RST",
+          "functions": [
+            "Resetting can be realized via short-circuit with GND"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Labels from the callout tags (orange port numbers, power names); differing silkscreen spellings listed first in functions. Single RST pad included because it is individually labeled; its note is from the callout."
+}

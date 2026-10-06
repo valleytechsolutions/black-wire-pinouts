@@ -1,0 +1,644 @@
+{
+  "recordId": "orange-pi-other-sbc-4a",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/ffc399fb0a58f8ed7194d330f6d2ca170039131ce582f9e8f57905a4673a2288.png",
+      "sha256": "ffc399fb0a58f8ed7194d330f6d2ca170039131ce582f9e8f57905a4673a2288"
+    },
+    {
+      "file": "media/5834a21655971022763115b668696a803f313d6f84f284247626ca9d1ba3a56e.png",
+      "sha256": "5834a21655971022763115b668696a803f313d6f84f284247626ca9d1ba3a56e"
+    },
+    {
+      "file": "media/5e09c6b8c497dc606455a63291b50e2d5b8b642a98317f214a2a190f6b947b8b.png",
+      "sha256": "5e09c6b8c497dc606455a63291b50e2d5b8b642a98317f214a2a190f6b947b8b"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "header-40pin",
+      "name": "40-pin header (pin table)",
+      "image": "media/ffc399fb0a58f8ed7194d330f6d2ca170039131ce582f9e8f57905a4673a2288.png",
+      "rows": 2,
+      "orderNote": "Printed pin numbers (引脚序号) 1-40 followed; odd pins in left half of table, even pins in right half",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PI1",
+          "functions": [
+            "257",
+            "TWI4_SDA",
+            "UART4-TX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "PI0",
+          "functions": [
+            "256",
+            "TWI4_SCK",
+            "UART4-RX",
+            "PWM0-1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "PB4",
+          "functions": [
+            "36",
+            "PWM0-8",
+            "TWI1-SCK"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PB13",
+          "functions": [
+            "45",
+            "UART7-TX",
+            "PWM0-4"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "PB14",
+          "functions": [
+            "46",
+            "UART7-RX",
+            "PWM0-5"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PB0",
+          "functions": [
+            "32",
+            "UART2-TX",
+            "PWM0-6",
+            "SPI2-CS0"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "PB5",
+          "functions": [
+            "37",
+            "PWM0-9",
+            "TWI1-SDA"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "PB1",
+          "functions": [
+            "33",
+            "UART2-RX",
+            "PWM0-7",
+            "SPI2-CLK"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "PB2",
+          "functions": [
+            "34",
+            "SPI2-MOSI"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "PI13",
+          "functions": [
+            "269",
+            "PWM0-14"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "PI14",
+          "functions": [
+            "270",
+            "PWM0-15"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "PI4",
+          "functions": [
+            "261",
+            "SPI1_MOSI"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "PI5",
+          "functions": [
+            "260",
+            "SPI1_MISO"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "PI6",
+          "functions": [
+            "258",
+            "UART6-TX"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "PI3",
+          "functions": [
+            "259",
+            "SPI1_CLK",
+            "UART5-RX"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "PI2",
+          "functions": [
+            "262",
+            "SPI1_CS0",
+            "UART5-TX"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "PI7",
+          "functions": [
+            "263",
+            "UART6-RX"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "PI9",
+          "functions": [
+            "265",
+            "TWI5-SDA"
+          ]
+        },
+        {
+          "position": 28,
+          "label": "PI8",
+          "functions": [
+            "264",
+            "TWI5-SCK"
+          ]
+        },
+        {
+          "position": 29,
+          "label": "PB3",
+          "functions": [
+            "35",
+            "SPI2-MISO"
+          ]
+        },
+        {
+          "position": 30,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 31,
+          "label": "PB11",
+          "functions": [
+            "43",
+            "PWM0-2"
+          ]
+        },
+        {
+          "position": 32,
+          "label": "PI11",
+          "functions": [
+            "267",
+            "PWM0-12",
+            "UART3-TX"
+          ]
+        },
+        {
+          "position": 33,
+          "label": "PI12",
+          "functions": [
+            "268",
+            "PWM0-13",
+            "UART3-RX"
+          ]
+        },
+        {
+          "position": 34,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 35,
+          "label": "PB6",
+          "functions": [
+            "38",
+            "PWM0-10"
+          ]
+        },
+        {
+          "position": 36,
+          "label": "PI10",
+          "functions": [
+            "266"
+          ]
+        },
+        {
+          "position": 37,
+          "label": "PB12",
+          "functions": [
+            "44"
+          ]
+        },
+        {
+          "position": 38,
+          "label": "PB7",
+          "functions": [
+            "39",
+            "PWM0-11"
+          ]
+        },
+        {
+          "position": 39,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 40,
+          "label": "PB8",
+          "functions": [
+            "40"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "header-40pin-odd-img2",
+      "name": "40-pin header odd-numbered pins (pin table)",
+      "image": "media/5834a21655971022763115b668696a803f313d6f84f284247626ca9d1ba3a56e.png",
+      "rows": 1,
+      "orderNote": "Printed pin numbers followed in ascending order; position k = printed pin 2k-1 (pins 1,3,...,39)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "PI1",
+          "functions": [
+            "257",
+            "TWI4_SDA",
+            "UART4-TX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PI0",
+          "functions": [
+            "256",
+            "TWI4_SCK",
+            "UART4-RX",
+            "PWM0-1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PB4",
+          "functions": [
+            "36",
+            "PWM0-8",
+            "TWI1-SCK"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "PB0",
+          "functions": [
+            "32",
+            "UART2-TX",
+            "PWM0-6",
+            "SPI2-CS0"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PB1",
+          "functions": [
+            "33",
+            "UART2-RX",
+            "PWM0-7",
+            "SPI2-CLK"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PB2",
+          "functions": [
+            "34",
+            "SPI2-MOSI"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "PI4",
+          "functions": [
+            "261",
+            "SPI1_MOSI"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PI5",
+          "functions": [
+            "260",
+            "SPI1_MISO"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "PI3",
+          "functions": [
+            "259",
+            "SPI1_CLK",
+            "UART5-RX"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "PI9",
+          "functions": [
+            "265",
+            "TWI5-SDA"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "PB3",
+          "functions": [
+            "35",
+            "SPI2-MISO"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "PB11",
+          "functions": [
+            "43",
+            "PWM0-2"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "PI12",
+          "functions": [
+            "268",
+            "PWM0-13",
+            "UART3-RX"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "PB6",
+          "functions": [
+            "38",
+            "PWM0-10"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "PB12",
+          "functions": [
+            "44"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "header-40pin-even-img3",
+      "name": "40-pin header even-numbered pins (pin table)",
+      "image": "media/5e09c6b8c497dc606455a63291b50e2d5b8b642a98317f214a2a190f6b947b8b.png",
+      "rows": 1,
+      "orderNote": "Printed pin numbers followed in ascending order; position k = printed pin 2k (pins 2,4,...,40)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "PB13",
+          "functions": [
+            "45",
+            "UART7-TX",
+            "PWM0-4"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PB14",
+          "functions": [
+            "46",
+            "UART7-RX",
+            "PWM0-5"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PB5",
+          "functions": [
+            "37",
+            "PWM0-9",
+            "TWI1-SDA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "PI13",
+          "functions": [
+            "269",
+            "PWM0-14"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PI14",
+          "functions": [
+            "270",
+            "PWM0-15"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "PI6",
+          "functions": [
+            "258",
+            "UART6-TX"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "PI2",
+          "functions": [
+            "262",
+            "SPI1_CS0",
+            "UART5-TX"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "PI7",
+          "functions": [
+            "263",
+            "UART6-RX"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "PI8",
+          "functions": [
+            "264",
+            "TWI5-SCK"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "PI11",
+          "functions": [
+            "267",
+            "PWM0-12",
+            "UART3-TX"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "PI10",
+          "functions": [
+            "266"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "PB7",
+          "functions": [
+            "39",
+            "PWM0-11"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "PB8",
+          "functions": [
+            "40"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "All three images are pin-function tables (Chinese headers: 复用功能 = alternate function, GPIO序号 = GPIO number, 引脚序号 = pin number), not board drawings. Image 1 is the full 40-pin table; images 2 and 3 are the odd and even halves of the same table, each transcribed as one physical row per rule 2. Label = GPIO column; functions = GPIO number then alternate functions read outward from the pin-number column. No connector designator is printed; board identity is not shown in the images."
+}

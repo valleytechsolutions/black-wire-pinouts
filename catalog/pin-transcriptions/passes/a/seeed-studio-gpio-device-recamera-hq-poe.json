@@ -1,0 +1,92 @@
+{
+  "recordId": "seeed-studio-gpio-device-recamera-hq-poe",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/6b6ddedb37088c4c9eaa543f397650b06d3595fcd322c2bb71477abdbd604496.png",
+      "sha256": "6b6ddedb37088c4c9eaa543f397650b06d3595fcd322c2bb71477abdbd604496"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "jst-6pin",
+      "name": "6-pin JST connector",
+      "image": "media/6b6ddedb37088c4c9eaa543f397650b06d3595fcd322c2bb71477abdbd604496.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at end closest to USB-C (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GPIO488",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO487",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "TX",
+          "functions": [
+            "ttyS3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO490",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "RX",
+          "functions": [
+            "ttyS3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ttyS0-pads",
+      "name": "ttyS0 UART pads",
+      "image": "media/6b6ddedb37088c4c9eaa543f397650b06d3595fcd322c2bb71477abdbd604496.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at end closest to USB-C (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "TX",
+          "functions": [
+            "ttyS0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "RX",
+          "functions": [
+            "ttyS0"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Image shows a single PCB with USB-C and a WC-PD06H PoE power module but no product name; cannot confirm from the image that this is the reCamera HQ PoE board",
+    "'ttyS3' box encloses TX, GPIO490 and RX; ttyS3 recorded as a function only on TX and RX",
+    "Silkscreen next to the ttyS0 pads reads TX/RX/GND; callout 'ttyS0' added as function for TX and RX"
+  ],
+  "notes": "Two buttons, USB-C and screw holes skipped."
+}

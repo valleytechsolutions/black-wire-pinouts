@@ -1,0 +1,432 @@
+{
+  "recordId": "luckfox-other-lyra-ultra",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/8d6f2ed81ad486f5fb5f217c1f554c1c6cac2ce43de8330e891bf881db617530.jpg",
+      "sha256": "8d6f2ed81ad486f5fb5f217c1f554c1c6cac2ce43de8330e891bf881db617530"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "header-upper-diagram",
+      "name": "2x13 header shown in the upper diagram (on the left edge of that board view)",
+      "image": "media/8d6f2ed81ad486f5fb5f217c1f554c1c6cac2ce43de8330e891bf881db617530.jpg",
+      "rows": 2,
+      "orderNote": "No pin 1 mark (blue numbers are GPIO numbers); started at the end closest to the USB-C connector (top); position 1 = left column (nearest the board edge), alternating columns",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3_OUT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VSYS",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO0_A0_u",
+          "functions": [
+            "0",
+            "TP + RTC",
+            "RM_IO0",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "VSYS",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO0_A1_d",
+          "functions": [
+            "1",
+            "TP + RTC",
+            "RM_IO1",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO0_A2_u",
+          "functions": [
+            "2",
+            "RM_IO2",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO0_C6_u",
+          "functions": [
+            "22",
+            "UART0_TX",
+            "RM_IO22",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GPIO0_C7_u",
+          "functions": [
+            "23",
+            "UART0_RX",
+            "RM_IO23",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO0_A3_d",
+          "functions": [
+            "3",
+            "RM_IO3",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO0_B6_d",
+          "functions": [
+            "14",
+            "RM_IO14",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO0_A4_d",
+          "functions": [
+            "4",
+            "RM_IO4",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GPIO0_A5_d",
+          "functions": [
+            "5",
+            "RM_IO5",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO0_B5_d",
+          "functions": [
+            "13",
+            "RM_IO13",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "3V3_OUT",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GPIO0_B4_d",
+          "functions": [
+            "12",
+            "RM_IO12",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GPIO0_A6_d",
+          "functions": [
+            "6",
+            "RM_IO6",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "GPIO0_A7_d",
+          "functions": [
+            "7",
+            "RM_IO7",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "GPIO0_B3_d",
+          "functions": [
+            "11",
+            "RM_IO11",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "GPIO0_B0_d",
+          "functions": [
+            "8",
+            "RM_IO8",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "GPIO0_B2_d",
+          "functions": [
+            "10",
+            "RM_IO10",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "GPIO0_B1_d",
+          "functions": [
+            "9",
+            "RM_IO9",
+            "3.3V"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "header-lower-diagram",
+      "name": "2x13 header shown in the lower diagram (on the right edge of that board view)",
+      "image": "media/8d6f2ed81ad486f5fb5f217c1f554c1c6cac2ce43de8330e891bf881db617530.jpg",
+      "rows": 2,
+      "orderNote": "No pin 1 mark (blue numbers are GPIO numbers); started at the end closest to the USB-C connector (top); position 1 = right column (nearest the board edge), alternating columns",
+      "pins": [
+        {
+          "position": 1,
+          "label": "1.8V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VSYS",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO4_B3_z",
+          "functions": [
+            "139",
+            "SARADC_IN3",
+            "1.8V"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "3V3_OUT",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO4_B2_z",
+          "functions": [
+            "138",
+            "SARADC_IN2",
+            "1.8V"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GPIO1_B1_d",
+          "functions": [
+            "41",
+            "RM_IO24",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO0_C0_d",
+          "functions": [
+            "16",
+            "RM_IO16",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO1_B2_d",
+          "functions": [
+            "42",
+            "RM_IO25",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO2_B7_d",
+          "functions": [
+            "79",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO1_B3_d",
+          "functions": [
+            "43",
+            "RM_IO26",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO2_B6_d",
+          "functions": [
+            "78",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO1_C2_d",
+          "functions": [
+            "50",
+            "RM_IO27",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GPIO1_C3_d",
+          "functions": [
+            "51",
+            "RM_IO28",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GPIO0_C1_d",
+          "functions": [
+            "17",
+            "RM_IO17",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO1_D1_d",
+          "functions": [
+            "57",
+            "RM_IO29",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "GPIO0_C2_d",
+          "functions": [
+            "18",
+            "RM_IO18",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "GPIO1_D2_d",
+          "functions": [
+            "58",
+            "RM_IO30",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "GPIO0_C4_d",
+          "functions": [
+            "20",
+            "RM_IO20",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "GPIO1_D3_d",
+          "functions": [
+            "59",
+            "RM_IO31",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "The image has two separate board views, each detailing one 2x13 header; they appear to be the left-edge and right-edge headers of the same board, but which physical header each diagram corresponds to is an interpretation.",
+    "2x13 outer/inner column choice depends on which board edge the header sits at in each view; it is not labeled."
+  ],
+  "notes": "Blue boxes beside pins (0, 1, 22, 139...) are GPIO numbers, listed first in functions. Voltage tags (3.3V, 1.8V) beside RM_IO names are included as functions. RM_IO legend (UART, CAN, SPI, PWM, PMU, I2S, PDM, I2C, SPDIF, TOUCH_KEY) is a category legend and was not attached to pins."
+}

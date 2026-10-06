@@ -1,0 +1,128 @@
+{
+  "recordId": "lilygo-gpio-device-t-watch-block-ultrasonic",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/94c026ef3ceb89aecfb1ebb77b86aece3a4fddc08adf5d5b69c9ec788c0eb222.jpg",
+      "sha256": "94c026ef3ceb89aecfb1ebb77b86aece3a4fddc08adf5d5b69c9ec788c0eb222"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "b2b-connector",
+      "name": "2x10 board-to-board connector (magnified inset, main board socket)",
+      "image": "media/94c026ef3ceb89aecfb1ebb77b86aece3a4fddc08adf5d5b69c9ec788c0eb222.jpg",
+      "rows": 2,
+      "orderNote": "No pin numbers in the labeled inset and no USB there, so started at the top; no board edge visible, so the left column is taken as the first row, alternating left/right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO19",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO23",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "VDD3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO18",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GPIO34",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO05",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GPIO27",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO21",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GPIO12",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GPIO22",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GPIO04",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GPIO02",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO15",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GPIO13",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "GPIO33",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "GPIO25",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GPIO26",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GPIO14",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "VCC",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "b2b-connector: inset shows no board edge or pin-1 mark, so which column is the outer row (position 1) is a choice (left column used); label columns are slightly offset vertically from the pins, so per-pin mapping is inferred by order"
+  ],
+  "notes": "Image titled LILYGO T-Watch-Block; the module shown is an HC-SR04 Ultrasonic sensor on a wheeled block, with printed VCC = VCC, TRIG = GPIO18, ECHO = GPIO19, motor Enable GPIO02, Wheels A IO25/IO26, B IO13/IO15. The HC-SR04's own Vcc/Trig/Echo/Gnd pins are shown mated into the block and are not transcribed as a free wiring point; unlabeled pads on the module board photo skipped. Skipped: Button1 GPIO36, Button2 POWER, USB-C."
+}

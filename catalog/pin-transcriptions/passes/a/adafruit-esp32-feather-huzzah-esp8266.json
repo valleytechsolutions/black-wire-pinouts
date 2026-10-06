@@ -1,0 +1,264 @@
+{
+  "recordId": "adafruit-esp32-feather-huzzah-esp8266",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/6234e254b9f852948db422f259367859fd7ef49ea3f8741cb3b4f549852f16c4.png",
+      "sha256": "6234e254b9f852948db422f259367859fd7ef49ea3f8741cb3b4f549852f16c4"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/6234e254b9f852948db422f259367859fd7ef49ea3f8741cb3b4f549852f16c4.png",
+      "rows": 1,
+      "orderNote": "Dark 'Physical PIN' numbers are ESP8266 module pin numbers and are not sequential along the header, so not used for order; vertical row started at the end closest to the USB connector (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RESET",
+          "functions": [
+            "RST",
+            "1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": [
+            "3V"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "ADC",
+          "functions": [
+            "2",
+            "TOUT",
+            "A0",
+            "17"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "IO14",
+          "functions": [
+            "5",
+            "HSPICLK",
+            "SCK",
+            "14"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "IO13",
+          "functions": [
+            "MO",
+            "7",
+            "RXD2",
+            "HSPID",
+            "CTS0",
+            "MOSI",
+            "13"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "IO12",
+          "functions": [
+            "MI",
+            "6",
+            "HSPIQ",
+            "MISO",
+            "12"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "IO3",
+          "functions": [
+            "15",
+            "RXD0",
+            "RX",
+            "3"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "IO1",
+          "functions": [
+            "16",
+            "TXD0",
+            "CS1",
+            "TX",
+            "1"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "CHPD",
+          "functions": [
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/6234e254b9f852948db422f259367859fd7ef49ea3f8741cb3b4f549852f16c4.png",
+      "rows": 1,
+      "orderNote": "Dark 'Physical PIN' numbers are module pin numbers, not header order; vertical row started at the end closest to the USB connector (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": [
+            "BAT"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "En",
+          "functions": [
+            "EN"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "VBUS",
+          "functions": [
+            "USB"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "IO14",
+          "functions": [
+            "5",
+            "HSPICLK",
+            "SCK",
+            "14"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "IO12",
+          "functions": [
+            "6",
+            "HSPIQ",
+            "MISO",
+            "12"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "IO13",
+          "functions": [
+            "7",
+            "RXD2",
+            "HSPID",
+            "MOSI",
+            "13"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "IO15",
+          "functions": [
+            "10",
+            "TXD2",
+            "HSPICS",
+            "RTS0",
+            "15"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "IO0",
+          "functions": [
+            "12",
+            "CS2",
+            "0"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "IO16",
+          "functions": [
+            "4",
+            "WAKE",
+            "16"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "IO2",
+          "functions": [
+            "11",
+            "TXD1",
+            "2"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "IO5",
+          "functions": [
+            "14",
+            "SCL",
+            "5"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "IO4",
+          "functions": [
+            "13",
+            "SDA",
+            "4"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Label = 'Port PIN' name (IOx, ADC) or power/control name; functions read outward: module physical pin number, serial/HSPI names, IDE number. Board silkscreen spellings that differ (RST, 3V, MO, MI, BAT, EN, USB) placed first. Left positions 3 and 6-10 have only a grey dot with no callout; board silkscreen reads NC, used as label. HSPI suffixes printed as superscripts (HSPI^CLK, ^D, ^Q, ^CS) are written joined. RESET is printed with an overline. Green 'ADC' analog tag on the ADC pin repeats the label and was dropped. PWM squiggles, LED icon on IO0 and the 'Connect to ground to disable the 3.3V regulator' note on En omitted. Battery JST has no individually labeled pins; skipped."
+}

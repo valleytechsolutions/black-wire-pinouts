@@ -1,0 +1,155 @@
+{
+  "recordId": "dfrobot-dfr1117",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/1ade6183d522b00de8da8f309db79285379e0169720357d54cd08b39a38d2a9c.webp",
+      "sha256": "1ade6183d522b00de8da8f309db79285379e0169720357d54cd08b39a38d2a9c"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header (front view)",
+      "image": "media/1ade6183d522b00de8da8f309db79285379e0169720357d54cd08b39a38d2a9c.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at end closest to USB-C (top), front view",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "4",
+          "functions": [
+            "A3",
+            "LP_RX",
+            "ADC1_4",
+            "MTDI"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "5",
+          "functions": [
+            "A4",
+            "LP_TX",
+            "ADC1_5",
+            "MTMS"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "23",
+          "functions": [
+            "SCK",
+            "DAT3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "22",
+          "functions": [
+            "MOSI",
+            "DAT2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "21",
+          "functions": [
+            "MISO",
+            "DAT1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "7",
+          "functions": [
+            "D11",
+            "LP_SCL",
+            "MTDO"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header (front view)",
+      "image": "media/1ade6183d522b00de8da8f309db79285379e0169720357d54cd08b39a38d2a9c.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at end closest to USB-C (top), front view",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VIN",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "17",
+          "functions": [
+            "RX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "16",
+          "functions": [
+            "TX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "19",
+          "functions": [
+            "SDA",
+            "CLK"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "20",
+          "functions": [
+            "SCL",
+            "DAT0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "6",
+          "functions": [
+            "D12",
+            "LP_SDA",
+            "ADC1_6",
+            "MTCK"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Image shows front (with callouts) and back view of the same board; transcribed the front view only since the back view shows the same physical pins mirrored. Only bare numbers are printed for GPIOs, used as labels.",
+  "uncertain": [
+    "Image contains both front and back views of the same pins; only the front view was transcribed to avoid duplicating physical pins."
+  ]
+}

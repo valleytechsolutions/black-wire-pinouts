@@ -1,0 +1,242 @@
+{
+  "recordId": "espressif-esp32-esp32-c3-devkitm-1",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/fc7af279350219e235de68524038271ce9dc4cfa28c908b7315eee2676c997c7.png",
+      "sha256": "fc7af279350219e235de68524038271ce9dc4cfa28c908b7315eee2676c997c7"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/fc7af279350219e235de68524038271ce9dc4cfa28c908b7315eee2676c997c7.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; started at end closest to the USB connector (bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V0",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "5V0",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO10",
+          "functions": [
+            "FSPICS0",
+            "IE"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO1",
+          "functions": [
+            "ADC1_1",
+            "XTAL32kN",
+            "ID"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO0",
+          "functions": [
+            "ADC1_0",
+            "XTAL32kP",
+            "ID"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "RST",
+          "functions": [
+            "PU"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GPIO3",
+          "functions": [
+            "ADC1_3",
+            "IE"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO2",
+          "functions": [
+            "ADC1_2",
+            "FSPIQ",
+            "IE"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/fc7af279350219e235de68524038271ce9dc4cfa28c908b7315eee2676c997c7.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; started at end closest to the USB connector (bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GPIO19",
+          "functions": [
+            "USB_D+",
+            "ID/UPU"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO18",
+          "functions": [
+            "USB_D-",
+            "ID"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO4",
+          "functions": [
+            "ADC1_4",
+            "FSPIHD",
+            "MTMS",
+            "IE"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO5",
+          "functions": [
+            "ADC2_0",
+            "FSPIWP",
+            "MTDI",
+            "IE"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO6",
+          "functions": [
+            "FSPICLK",
+            "MTCK",
+            "IE*"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO7",
+          "functions": [
+            "FSPID",
+            "MTDO",
+            "IE"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GPIO8",
+          "functions": [
+            "LOG",
+            "RGB_LED",
+            "IE"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO9",
+          "functions": [
+            "BOOT",
+            "IE/WPU"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GPIO20",
+          "functions": [
+            "U0RXD",
+            "IE"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO21",
+          "functions": [
+            "U0TXD",
+            "IE"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "No PCB silkscreen labels shown next to pads. GPIO-state notes (IE, ID, PU, IE/WPU, ID/UPU, IE*) kept as short printed notes. 'RTC' boxes omitted as category-only tags; PWM wave symbols omitted."
+}

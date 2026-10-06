@@ -1,0 +1,49 @@
+{
+  "recordId": "lilygo-esp32-t-dongle-c5",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/2560633a0912425aa09584195e63bc560fe5d78ec68fbd158f3fe22cacd77644.jpg",
+      "sha256": "2560633a0912425aa09584195e63bc560fe5d78ec68fbd158f3fe22cacd77644"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "stemma-qt-port",
+      "name": "STEMMA QT/Qwiic JST-SH 1.0mm 4-pin",
+      "image": "media/2560633a0912425aa09584195e63bc560fe5d78ec68fbd158f3fe22cacd77644.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or pin-1 mark; labels are printed as a horizontal list beside the vertical connector, transcribed left to right as printed. The image does not tie each label to a specific physical contact.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RX",
+          "functions": [
+            "IO12"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "TX",
+          "functions": [
+            "IO11"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Only the STEMMA QT/Qwiic connector is a user wiring point. TF card, LCD, USB plug and LED signal lists describe internal connections and were not transcribed as connectors. Boot button (IO28) skipped."
+}

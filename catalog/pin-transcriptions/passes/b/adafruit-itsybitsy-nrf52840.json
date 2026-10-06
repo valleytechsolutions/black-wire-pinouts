@@ -1,0 +1,244 @@
+{
+  "recordId": "adafruit-itsybitsy-nrf52840",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/bdd5211a6210c225db6361c048fabebfa3139d1f0c6b9d55722dbd538932f6b1.png",
+      "sha256": "bdd5211a6210c225db6361c048fabebfa3139d1f0c6b9d55722dbd538932f6b1"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/bdd5211a6210c225db6361c048fabebfa3139d1f0c6b9d55722dbd538932f6b1.png",
+      "rows": 1,
+      "orderNote": "USB connector at top of image; vertical row started at the end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "VHI",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "P0.04",
+          "functions": [
+            "A0",
+            "14/A0",
+            "AIN2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P0.30",
+          "functions": [
+            "A1",
+            "15/A1",
+            "AIN6"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "P0.28",
+          "functions": [
+            "A2",
+            "16/A2",
+            "AIN4"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "P0.31",
+          "functions": [
+            "A3",
+            "17/A3",
+            "AIN7"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "P0.02",
+          "functions": [
+            "A4",
+            "18/A4",
+            "AIN0"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "P0.03",
+          "functions": [
+            "A5",
+            "19/A5",
+            "AIN1"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "P0.13",
+          "functions": [
+            "SCK",
+            "25"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "P0.15",
+          "functions": [
+            "MOSI",
+            "24"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "P0.20",
+          "functions": [
+            "MISO",
+            "23"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "P1.02",
+          "functions": [
+            "D2",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/bdd5211a6210c225db6361c048fabebfa3139d1f0c6b9d55722dbd538932f6b1.png",
+      "rows": 1,
+      "orderNote": "USB connector at top of image; vertical row started at the end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "P0.12",
+          "functions": [
+            "D13",
+            "13"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "P0.11",
+          "functions": [
+            "D12",
+            "12"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P0.26",
+          "functions": [
+            "D11",
+            "11"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "P0.05",
+          "functions": [
+            "D10",
+            "10",
+            "AIN3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "P0.07",
+          "functions": [
+            "D9",
+            "9"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "P1.08",
+          "functions": [
+            "D7",
+            "7"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "P0.27",
+          "functions": [
+            "D5",
+            "5"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "P0.14",
+          "functions": [
+            "SCL",
+            "22"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "P0.16",
+          "functions": [
+            "SDA",
+            "21"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "P0.24",
+          "functions": [
+            "TX",
+            "1"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "P0.25",
+          "functions": [
+            "RX",
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "HS/LS speed tags omitted as category-only. SWITCH, L, APA102_MOSI and APA102_SCK are on-board components, not header pins; skipped. Board-render silkscreen not transcribed (diagram name boxes used)."
+}

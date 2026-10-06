@@ -1,0 +1,168 @@
+{
+  "recordId": "lilygo-esp32-t-weigh",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/5bd15aaf7343861d450add2fd2d6285c517113165fc819539f6611179bf09692.jpg",
+      "sha256": "5bd15aaf7343861d450add2fd2d6285c517113165fc819539f6611179bf09692"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "right-connector-1",
+      "name": "Right-edge 4-pin connector 1 (counting from top)",
+      "image": "media/5bd15aaf7343861d450add2fd2d6285c517113165fc819539f6611179bf09692.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at the end closest to the USB-C connector (lower left) - bottom end (IN+)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IN+",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IN-",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "VDD",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-connector-2",
+      "name": "Right-edge 4-pin connector 2 (counting from top)",
+      "image": "media/5bd15aaf7343861d450add2fd2d6285c517113165fc819539f6611179bf09692.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at the end closest to the USB-C connector (lower left) - bottom end (IN+)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IN+",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IN-",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "VDD",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-connector-3",
+      "name": "Right-edge 4-pin connector 3 (counting from top)",
+      "image": "media/5bd15aaf7343861d450add2fd2d6285c517113165fc819539f6611179bf09692.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at the end closest to the USB-C connector (lower left) - bottom end (IN+)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IN+",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IN-",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "VDD",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-connector-4",
+      "name": "Right-edge 4-pin connector 4 (counting from top)",
+      "image": "media/5bd15aaf7343861d450add2fd2d6285c517113165fc819539f6611179bf09692.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at the end closest to the USB-C connector (lower left) - top end (VDD), since this connector sits below the USB-C connector's top edge",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VDD",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IN-",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IN+",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "i2c-header",
+      "name": "Centre-left 4-pin header",
+      "image": "media/5bd15aaf7343861d450add2fd2d6285c517113165fc819539f6611179bf09692.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at the end closest to the USB-C connector (bottom end, SDA)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO33",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "IO32",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "VDD",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Right connector 3 is roughly level with the USB-C connector: its bottom pin (IN+) was judged closest to USB, but the distance difference to its top pin is small"
+  ],
+  "notes": "Power screw terminal (DC 5-12V) has no individually labeled pins and is skipped. Reset/Boot buttons, antenna connectors and switch skipped. Group A-D HIGH/LOW dot legends (27/14/26/25) are a level table, not pin positions. HX711 and SX1262 IO lists are internal signal assignments with no pads shown."
+}

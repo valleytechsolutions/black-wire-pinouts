@@ -1,0 +1,305 @@
+{
+  "recordId": "benjamin-shockley-rp2040-figpi",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/a9af3da866c0de29984b382383d82b03e89c184add3c353b5c0f95c786404133.png",
+      "sha256": "a9af3da866c0de29984b382383d82b03e89c184add3c353b5c0f95c786404133"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "adc",
+      "name": "ADC JST connector",
+      "image": "media/a9af3da866c0de29984b382383d82b03e89c184add3c353b5c0f95c786404133.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at end closest to the micro USB connector (top of connector as displayed)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "26",
+          "functions": [
+            "A3",
+            "38",
+            "D3"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "27",
+          "functions": [
+            "A2",
+            "39",
+            "D2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "28",
+          "functions": [
+            "A1",
+            "40",
+            "D1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "29",
+          "functions": [
+            "A0",
+            "41",
+            "D0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spi",
+      "name": "SPI JST connector",
+      "image": "media/a9af3da866c0de29984b382383d82b03e89c184add3c353b5c0f95c786404133.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at end closest to the micro USB connector (top of connector as displayed)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "04",
+          "functions": [
+            "RX",
+            "06",
+            "MISO",
+            "D9"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "05",
+          "functions": [
+            "CS",
+            "07",
+            "D14"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "06",
+          "functions": [
+            "CLK",
+            "08",
+            "SCK",
+            "D8"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "07",
+          "functions": [
+            "TX",
+            "09",
+            "MOSI",
+            "D10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "i2c1",
+      "name": "I2C1 (STEMMA_I2C1) JST connector",
+      "image": "media/a9af3da866c0de29984b382383d82b03e89c184add3c353b5c0f95c786404133.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at end closest to the micro USB connector (top of connector as displayed)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": [
+            "3V"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "18",
+          "functions": [
+            "DA",
+            "29",
+            "SDA1",
+            "D18"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "19",
+          "functions": [
+            "CL",
+            "30",
+            "SCL1",
+            "D19"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "i2c0",
+      "name": "I2C0 (STEMMA_I2C0) JST connector",
+      "image": "media/a9af3da866c0de29984b382383d82b03e89c184add3c353b5c0f95c786404133.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at end closest to the micro USB connector (top of connector as displayed)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "17",
+          "functions": [
+            "CL",
+            "28",
+            "SCL",
+            "D5"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "16",
+          "functions": [
+            "DA",
+            "27",
+            "SDA",
+            "D4"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": [
+            "3V"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uart",
+      "name": "UART JST connector",
+      "image": "media/a9af3da866c0de29984b382383d82b03e89c184add3c353b5c0f95c786404133.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at end closest to the micro USB connector (top of connector as displayed)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "22",
+          "functions": [
+            "12",
+            "34",
+            "D12"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "23",
+          "functions": [
+            "11",
+            "35",
+            "D11"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "24",
+          "functions": [
+            "TX",
+            "36",
+            "D6"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "25",
+          "functions": [
+            "RX",
+            "37",
+            "D7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "batt",
+      "name": "BATT JST connector",
+      "image": "media/a9af3da866c0de29984b382383d82b03e89c184add3c353b5c0f95c786404133.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at end closest to the micro USB connector (top of connector as displayed)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BATT IN",
+          "functions": [
+            "+"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "-"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "debug-pads",
+      "name": "D / C pads between I2C1 and I2C0",
+      "image": "media/a9af3da866c0de29984b382383d82b03e89c184add3c353b5c0f95c786404133.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal pair, both equidistant from USB; started at left as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "C",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "neopix-pads",
+      "name": "NEOPIX OUT / IN pads",
+      "image": "media/a9af3da866c0de29984b382383d82b03e89c184add3c353b5c0f95c786404133.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal pair, both equidistant from USB; started at left as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "OUT",
+          "functions": [
+            "NEOPIXEL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "IN",
+          "functions": [
+            "NEOPIXEL"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Label is the GPIO PIN number box (light grey, printed as e.g. 26 or 04 with leading zero, copied as printed); silkscreen name at the JST pin first in functions, then CHIP PIN number and CircuitPython names read outward. Callout rows mapped to JST pins in the same top-to-bottom order. 'SWD 25' and 'SWCLK 24' (CORTEX DBG) callout lines run behind the board and cannot be traced to the D/C pads, so they are not attached. Buttons, status LEDs and the D13 LED are skipped."
+}

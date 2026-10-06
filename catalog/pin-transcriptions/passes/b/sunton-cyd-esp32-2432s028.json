@@ -1,0 +1,144 @@
+{
+  "recordId": "sunton-cyd-esp32-2432s028",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/5cc01ba6a45d5e3e05ac7934eca49b8b39d567ebf5a027ac56b0cf73fbeb2e00.png",
+      "sha256": "5cc01ba6a45d5e3e05ac7934eca49b8b39d567ebf5a027ac56b0cf73fbeb2e00"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "P1",
+      "name": "Serial connector (4-pin JST, left edge)",
+      "image": "media/5cc01ba6a45d5e3e05ac7934eca49b8b39d567ebf5a027ac56b0cf73fbeb2e00.png",
+      "rows": 1,
+      "orderNote": "No explicit pin 1 marking; started at end closest to the micro-USB connector (bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "RX",
+          "functions": [
+            "40",
+            "GPIO3",
+            "RXD 0",
+            "CLK2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "TX",
+          "functions": [
+            "41",
+            "GPIO1",
+            "TXD 0",
+            "CLK3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "VIN",
+          "functions": [
+            "5v"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CN1",
+      "name": "Temp humidity interface (4-pin JST, bottom edge)",
+      "image": "media/5cc01ba6a45d5e3e05ac7934eca49b8b39d567ebf5a027ac56b0cf73fbeb2e00.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; horizontal connector started at the end closest to the USB connector (left)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IO27",
+          "functions": [
+            "16",
+            "GPIO27",
+            "ADC2_7",
+            "Touch7",
+            "RTC GPIO17"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "IO22",
+          "functions": [
+            "39",
+            "GPIO22",
+            "V_SPI_WP",
+            "SCL",
+            "RTS 0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "P3",
+      "name": "Extended IO (I2C) (4-pin JST, bottom edge)",
+      "image": "media/5cc01ba6a45d5e3e05ac7934eca49b8b39d567ebf5a027ac56b0cf73fbeb2e00.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; horizontal connector started at the end closest to the USB connector (left)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO21",
+          "functions": [
+            "42",
+            "GPIO21",
+            "VSPI_HD",
+            "SDA"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "IO22",
+          "functions": [
+            "39",
+            "GPIO22",
+            "V_SPI_WP",
+            "SCL",
+            "RTS 0"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "IO35",
+          "functions": [
+            "11",
+            "GPIO35",
+            "ADC1_7",
+            "RTC GPIO5",
+            "Input only"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Labels are the board silkscreen next to each connector (P1: VIN TX RX GND; CN1: 3.3V IO27 IO22 GND; P3: IO21 IO22 IO35 GND). Dark number boxes (e.g. 41, 16) are transcribed as printed. A small white dot sits by the top (VIN) pin of P1 but is not labeled as pin 1, so the USB-proximity rule was used. Skipped: SPEAK 2-pin connector (pins not individually labeled), SD-card slot (SPI flash and SD callouts), on-board touch/RGB LED/backlight/display/BOOT signal callouts, micro-USB."
+}

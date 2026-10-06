@@ -1,0 +1,169 @@
+{
+  "recordId": "waveshare-esp32-esp32-s3-lcd-1-69",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/c85b90a42778bff9208c3f4ddc4c00701d527903b56156eea35a13a85353f262.jpg",
+      "sha256": "c85b90a42778bff9208c3f4ddc4c00701d527903b56156eea35a13a85353f262"
+    },
+    {
+      "file": "media/dbc59db51f63b8ab833f40c99d70946dda1cc7def8ba8dc432758ab2416d0c4b.png",
+      "sha256": "dbc59db51f63b8ab833f40c99d70946dda1cc7def8ba8dc432758ab2416d0c4b"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "side-connector",
+      "name": "12-pin side connector",
+      "image": "media/c85b90a42778bff9208c3f4ddc4c00701d527903b56156eea35a13a85353f262.jpg",
+      "rows": 1,
+      "orderNote": "USB-C connector at bottom of image; vertical connector ordered from the bottom end, nearest USB (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "U0RXD",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "U0TXD",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GPIO10",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO11",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO2",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO3",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GPIO16",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GPIO17",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GPIO18",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "side-connector-img2",
+      "name": "12-pin side connector",
+      "image": "media/dbc59db51f63b8ab833f40c99d70946dda1cc7def8ba8dc432758ab2416d0c4b.png",
+      "rows": 1,
+      "orderNote": "USB-C connector at bottom of image; vertical connector ordered from the bottom end, nearest USB (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "U0RXD",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "U0TXD",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GPIO10",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO11",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO2",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO3",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GPIO16",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GPIO17",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GPIO18",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "The 12 names are a list joined to the connector by a single bracket line, not leader lines per pin; mapping assumes the list's top-to-bottom order matches the connector's top-to-bottom contacts."
+  ],
+  "notes": "Both images show the same annotated view; transcribed separately per rule 11. RTC (+/-) and BAT connectors skipped (rule 1). Printed 'SDA(GPIO11)'/'SCL(GPIO10)' recorded with the GPIO name as label."
+}

@@ -1,0 +1,433 @@
+{
+  "recordId": "luckfox-other-nova",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/e380184fcf77ed8a4212d0c58edc47ee8a15f507d14ad6879daa0cd821323ff9.jpg",
+      "sha256": "e380184fcf77ed8a4212d0c58edc47ee8a15f507d14ad6879daa0cd821323ff9"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left 2x13 header (upper view in image)",
+      "image": "media/e380184fcf77ed8a4212d0c58edc47ee8a15f507d14ad6879daa0cd821323ff9.jpg",
+      "rows": 2,
+      "orderNote": "Pin numbers 1/2 printed above the header columns and 25/26 at the bottom; odd positions = left column, even = right column, rows top to bottom (USB at top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3v3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO0_B3",
+          "functions": [
+            "I2C1_SDA",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO0_B4",
+          "functions": [
+            "I2C1_SCL",
+            "OWIRE_M0",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO1_A0",
+          "functions": [
+            "3.3V"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO4_B1",
+          "functions": [
+            "UART4_TX",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GPIO4_B0",
+          "functions": [
+            "UART4_RX",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO0_C1",
+          "functions": [
+            "UART3_RX_M1",
+            "SPDIF_TX",
+            "PWM5",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO0_B6",
+          "functions": [
+            "PWM1",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO0_C2",
+          "functions": [
+            "UART3_TX_M1",
+            "SPDIF_RX",
+            "PWM6",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GPIO3_B4",
+          "functions": [
+            "UART3_RX",
+            "I2C3_SDA_M1",
+            "SPI1_MOSI",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO0_B7",
+          "functions": [
+            "I2C3_SDA_M0",
+            "PWM2",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "3v3",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GPIO0_C0",
+          "functions": [
+            "I2C3_SCL_M0",
+            "PWM3",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GPIO1_C7",
+          "functions": [
+            "UART2_TX_M0",
+            "UART1_RTSN",
+            "SPI2_MOSI",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "GPIO1_C6",
+          "functions": [
+            "UART2_RX_M0",
+            "UART1_CTSN",
+            "SPI2_MISO",
+            "OWIRE_M1",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "GPIO3_B2",
+          "functions": [
+            "SPI1_MISO",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "GPIO1_D0",
+          "functions": [
+            "UART1_RX",
+            "I2C0_SDA",
+            "SPI2_CLK",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "GPIO1_D1",
+          "functions": [
+            "UART1_TX",
+            "I2C0_SCL",
+            "SPI2_CSN0",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "GPIO3_B5",
+          "functions": [
+            "UART3_TX",
+            "I2C3_SCL_M1",
+            "SPI1_CSN0",
+            "3.3V"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right 2x13 header (lower view in image)",
+      "image": "media/e380184fcf77ed8a4212d0c58edc47ee8a15f507d14ad6879daa0cd821323ff9.jpg",
+      "rows": 2,
+      "orderNote": "Pin numbers 1/2 printed above the header columns and 25/26 at the bottom; odd positions = left column, even = right column, rows top to bottom (USB at top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "1.8V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "ADC_IN0",
+          "functions": [
+            "1.8V"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "ADC_IN1",
+          "functions": [
+            "1.8V"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO2_A4",
+          "functions": [
+            "I2S0_MCLK",
+            "PDM_CLK_M_M2",
+            "SPI1_MISO_M1",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "ADC_IN2",
+          "functions": [
+            "1.8V"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO2_A5",
+          "functions": [
+            "I2S0_SCLK_TX",
+            "SPI1_MOSI_M1",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "ADC_IN3",
+          "functions": [
+            "1.8V"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO2_A6",
+          "functions": [
+            "I2S0_SCLK_RX",
+            "PDM_CLK_S_M2",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "ADC_IN4",
+          "functions": [
+            "1.8V"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO2_A7",
+          "functions": [
+            "I2S0_LCLK_TX",
+            "SPI1_CLK_M1",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "ADC_IN5",
+          "functions": [
+            "1.8V"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO2_B0",
+          "functions": [
+            "I2S0_LCLK_RX",
+            "PWM7",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GPIO2_B1",
+          "functions": [
+            "I2S0_SDO0",
+            "SPI1_CSN0_M1",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO2_B5",
+          "functions": [
+            "I2S0_SDO0",
+            "PDM_SDI0_M2",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "GPIO2_B2",
+          "functions": [
+            "I2S0_SDO1",
+            "PWM8",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "GPIO2_B6",
+          "functions": [
+            "I2S0_SDO1",
+            "PDM_SDI1_M2",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "GPIO2_B3",
+          "functions": [
+            "I2S0_SDO2",
+            "PWM9",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "GPIO2_B7",
+          "functions": [
+            "I2S0_SDO2",
+            "PDM_SDI2_M2",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "GPIO2_B4",
+          "functions": [
+            "I2S0_SDO3",
+            "PWM10",
+            "3.3V"
+          ]
+        },
+        {
+          "position": 26,
+          "label": "GPIO2_C0",
+          "functions": [
+            "I2S0_SDO3",
+            "PDM_SDI3_M2",
+            "PWM11",
+            "3.3V"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "Names containing 0 vs O (e.g. GPIO0_*, I2S0_*, SPI2_CSN0, ADC_IN0, I2C0_*): O vs 0 not reliably distinguishable in this font, recorded as 0."
+  ],
+  "uncertain": [],
+  "notes": "Image shows two views of the same board (silkscreen 'Luckfox Nova' visible), each highlighting one 2x13 header. Trailing 3.3V/1.8V tags are the printed IO voltage. '3v3' copied with lowercase v as printed on the upper view. I2S0_SDO0-3 is printed on both GPIO2_B1-B4 and GPIO2_B5-C0; copied as printed."
+}

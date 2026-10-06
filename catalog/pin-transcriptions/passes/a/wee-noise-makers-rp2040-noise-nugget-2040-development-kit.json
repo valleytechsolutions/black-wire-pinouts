@@ -1,0 +1,559 @@
+{
+  "recordId": "wee-noise-makers-rp2040-noise-nugget-2040-development-kit",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/67958d5927e73d15a7886c29dba668c645cf9a3625c8d581a9c53bb17b185432.png",
+      "sha256": "67958d5927e73d15a7886c29dba668c645cf9a3625c8d581a9c53bb17b185432"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "top-header",
+      "name": "Top header (callouts 1-19)",
+      "image": "media/67958d5927e73d15a7886c29dba668c645cf9a3625c8d581a9c53bb17b185432.png",
+      "rows": 1,
+      "orderNote": "Printed callout numbers 1-19 followed: position 1 = callout 1 (right end, square pad) to 19 (left end)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "Left Speaker +",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "Left Speaker -",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "Right Speaker +",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "Right Speaker -",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "Not Reset",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "USB D-",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "USB D+",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "+3.3V (out)",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "Boot",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "Power-En",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "+1.8V (out)",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "VIN (in)",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "Left Line-out +",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "Left Line-out -",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "Right Line-out +",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "Right Line-out -",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "NC",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header",
+      "name": "Left header (callouts 20-34)",
+      "image": "media/67958d5927e73d15a7886c29dba668c645cf9a3625c8d581a9c53bb17b185432.png",
+      "rows": 1,
+      "orderNote": "Printed callout numbers 20-34 followed: position 1 = callout 20 (top, square GND pad) to 34 (bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GP29",
+          "functions": [
+            "SPI1 CSn",
+            "UART0 RX",
+            "I2C0 SCL",
+            "6B",
+            "ADC3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP28",
+          "functions": [
+            "SPI1 RX",
+            "UART0 TX",
+            "I2C0 SDA",
+            "6A",
+            "ADC2"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP27",
+          "functions": [
+            "SPI1 TX",
+            "UART1 RTS",
+            "I2C1 SCL",
+            "5B",
+            "ADC1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP26",
+          "functions": [
+            "SPI1 SCK",
+            "UART1 CTS",
+            "I2C1 SDA",
+            "5A",
+            "ADC0"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP25",
+          "functions": [
+            "SPI1 CSn",
+            "UART1 RX",
+            "I2C0 SCL",
+            "4B"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP24",
+          "functions": [
+            "SPI1 RX",
+            "UART1 TX",
+            "I2C0 SDA",
+            "4A"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP23",
+          "functions": [
+            "SPI0 TX",
+            "UART1 RTS",
+            "I2C1 SCL",
+            "3B"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP22",
+          "functions": [
+            "SPI0 SCK",
+            "UART1 CTS",
+            "I2C1 SDA",
+            "3A"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP21",
+          "functions": [
+            "SPI0 CSn",
+            "UART1 RX",
+            "I2C0 SCL",
+            "2B"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP20",
+          "functions": [
+            "SPI0 RX",
+            "UART1 TX",
+            "I2C0 SDA",
+            "2A"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GP19",
+          "functions": [
+            "SPI0 TX",
+            "UART0 RTS",
+            "I2C1 SCL",
+            "1B"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GP18",
+          "functions": [
+            "SPI0 SCK",
+            "UART0 CTS",
+            "I2C1 SDA",
+            "1A"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GP17",
+          "functions": [
+            "SPI0 CSn",
+            "UART0 RX",
+            "I2C0 SCL",
+            "0B"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-header",
+      "name": "Bottom header (callouts 35-53)",
+      "image": "media/67958d5927e73d15a7886c29dba668c645cf9a3625c8d581a9c53bb17b185432.png",
+      "rows": 1,
+      "orderNote": "Printed callout numbers 35-53 followed: position 1 = callout 35 (left end, line traced to leftmost hole) to 53 (right end, square pad)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP8",
+          "functions": [
+            "SPI1 RX",
+            "UART1 TX",
+            "I2C0 SDA",
+            "4A"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP9",
+          "functions": [
+            "SPI1 CSn",
+            "UART1 RX",
+            "I2C0 SCL",
+            "4B"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP10",
+          "functions": [
+            "SPI1 SCK",
+            "UART1 CTS",
+            "I2C1 SDA",
+            "5A"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP11",
+          "functions": [
+            "SPI1 TX",
+            "UART1 RTS",
+            "I2C1 SCL",
+            "5B"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP12",
+          "functions": [
+            "SPI1 RX",
+            "UART0 TX",
+            "I2C0 SDA",
+            "6A"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP13",
+          "functions": [
+            "SPI1 CSn",
+            "UART0 RX",
+            "I2C0 SCL",
+            "6B"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP14",
+          "functions": [
+            "SPI1 SCK",
+            "UART0 CTS",
+            "I2C1 SDA",
+            "7A"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP15",
+          "functions": [
+            "SPI1 TX",
+            "UART0 RTS",
+            "I2C1 SCL",
+            "7B"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP16",
+          "functions": [
+            "SPI0 RX",
+            "UART0 TX",
+            "I2C0 SDA",
+            "0A"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP4",
+          "functions": [
+            "SPI0 RX",
+            "UART1 TX",
+            "I2C0 SDA",
+            "2A"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP5",
+          "functions": [
+            "SPI0 CSn",
+            "UART1 RX",
+            "I2C0 SCL",
+            "2B"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "I2C1 SDA",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "I2C1 SCL",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "SWCLK",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "SWDIO",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "Mic Bias",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "Right In 3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header (callouts 54-68)",
+      "image": "media/67958d5927e73d15a7886c29dba668c645cf9a3625c8d581a9c53bb17b185432.png",
+      "rows": 1,
+      "orderNote": "Printed callout numbers 54-68 followed: position 1 = callout 54 (bottom, square pad) to 68 (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "Left In 3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "Left In 2",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "Right In 2",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "Right In 1",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "Left In 1",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "Jack Detect",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "Left Headphone",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "Right Headphone",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "speaker-terminal-r",
+      "name": "Speaker screw terminal R",
+      "image": "media/67958d5927e73d15a7886c29dba668c645cf9a3625c8d581a9c53bb17b185432.png",
+      "rows": 1,
+      "orderNote": "No printed numbers; horizontal, started at the left end (nearest USB-C)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "R-",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "R+",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "speaker-terminal-l",
+      "name": "Speaker screw terminal L",
+      "image": "media/67958d5927e73d15a7886c29dba668c645cf9a3625c8d581a9c53bb17b185432.png",
+      "rows": 1,
+      "orderNote": "No printed numbers; horizontal, started at the left end (nearest USB-C)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "L-",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "L+",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Image shows the Noise Nugget 2040 DevKit v3.0 (silkscreen) with callouts 1-68 running counter-clockwise around the four socket headers; callout numbers used as positions per header. Pin 10 callout is partly cut off at the image top but legible. Board silkscreen on the header holes is mostly too blurry to read reliably and was not transcribed. Skipped MIDI/headset/line TRS jacks, Boot/Reset buttons, USB-C, the unlabeled 'debug' connector, and the prototyping grid. Speaker terminal labels are small silkscreen (R-, R+, L-, L+).",
+  "uncertain": [
+    "bottom-header positions 1-9 (callouts 35-43): callout labels run GP8..GP16 left to right, but the board silkscreen under these holes reads GPIO16, GPIO15 ... GPIO9, GPIO8 left to right; the label-to-hole mapping for these nine pins is in conflict.",
+    "right-header positions 2-3 (callouts 55 Left In 2, 56 Right In 2): board silkscreen reads IN2R then IN2L going upward, the reverse of the callout labels.",
+    "Prototyping area columns labeled VIN/GND and 3V3/GND (and the hole grid below the bottom header) were not transcribed; unclear whether they should count as wiring connectors."
+  ]
+}

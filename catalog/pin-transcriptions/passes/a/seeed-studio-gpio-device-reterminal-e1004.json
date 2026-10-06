@@ -1,0 +1,79 @@
+{
+  "recordId": "seeed-studio-gpio-device-reterminal-e1004",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/b5d85d6b63c54f40efa3f4dae043f008feffe2dec55f1f628ce863d1461450ef.png",
+      "sha256": "b5d85d6b63c54f40efa3f4dae043f008feffe2dec55f1f628ce863d1461450ef"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "ST-FH-254-0148-2x4P",
+      "name": "2x4 connector (left column / right column)",
+      "image": "media/b5d85d6b63c54f40efa3f4dae043f008feffe2dec55f1f628ce863d1461450ef.png",
+      "rows": 2,
+      "orderNote": "Printed numbers 1-4 per column; positions alternate left column then right column for each printed number (L1,R1,L2,R2,...)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO40",
+          "functions": [
+            "I2C2_SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO42",
+          "functions": [
+            "RX1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO39",
+          "functions": [
+            "I2C1_SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO41",
+          "functions": [
+            "TX1"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GPIO6",
+          "functions": [
+            "ADC"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "The table numbers pins 1-4 per column but the image does not mark which physical end of the vertical connector is pin 1; top-to-bottom mapping inferred from table order.",
+    "The rear panel shows two 2x4 connectors side by side (a dark female header and a white-outlined one); the callout zoom shows only the dark one. The white-outlined 2x4 connector has no labels and was not transcribed; it is unclear whether the table applies to it instead or as well."
+  ],
+  "notes": "Callout titled 'ST-FH-254-0148-2x4P 2x4 CONNECTOR PINOUT' with LEFT COLUMN and RIGHT COLUMN tables. Connector id taken from the printed part designation with the multiplication sign written as x."
+}

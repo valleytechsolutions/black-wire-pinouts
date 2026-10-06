@@ -1,0 +1,401 @@
+{
+  "recordId": "waveshare-rp2040-rp2040-ble",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/f025e397b128443d462d14ab33d1f4ea95ab5010193f08f28867c1c557ab7678.jpg",
+      "sha256": "f025e397b128443d462d14ab33d1f4ea95ab5010193f08f28867c1c557ab7678"
+    },
+    {
+      "file": "media/4d98230f6ffa97f442beae6075518db7afb065d08f06711bd4609b60583a9954.png",
+      "sha256": "4d98230f6ffa97f442beae6075518db7afb065d08f06711bd4609b60583a9954"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left castellated pads",
+      "image": "media/f025e397b128443d462d14ab33d1f4ea95ab5010193f08f28867c1c557ab7678.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector visible; vertical row ordered from the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP0",
+          "functions": [
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP1",
+          "functions": [
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GP2",
+          "functions": [
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP3",
+          "functions": [
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP4",
+          "functions": [
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP5",
+          "functions": [
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GP6",
+          "functions": [
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP7",
+          "functions": [
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP8",
+          "functions": [
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP9",
+          "functions": [
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right castellated pads",
+      "image": "media/f025e397b128443d462d14ab33d1f4ea95ab5010193f08f28867c1c557ab7678.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector visible; vertical row ordered from the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VSYS",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3_EN",
+          "functions": [
+            "EN"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "3V3(OUT)",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "ADC_VREF",
+          "functions": [
+            "VREF"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP28",
+          "functions": [
+            "ADC2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": [
+            "AGND"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP27",
+          "functions": [
+            "ADC1",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP26",
+          "functions": [
+            "ADC0",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "RUN",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GP22",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left castellated pads",
+      "image": "media/4d98230f6ffa97f442beae6075518db7afb065d08f06711bd4609b60583a9954.png",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector visible; vertical row ordered from the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP0",
+          "functions": [
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP1",
+          "functions": [
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GP2",
+          "functions": [
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP3",
+          "functions": [
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP4",
+          "functions": [
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP5",
+          "functions": [
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GP6",
+          "functions": [
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP7",
+          "functions": [
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP8",
+          "functions": [
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP9",
+          "functions": [
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Right castellated pads",
+      "image": "media/4d98230f6ffa97f442beae6075518db7afb065d08f06711bd4609b60583a9954.png",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector visible; vertical row ordered from the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VSYS",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3_EN",
+          "functions": [
+            "EN"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "3V3(OUT)",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "ADC_VREF",
+          "functions": [
+            "VREF"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP28",
+          "functions": [
+            "ADC2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": [
+            "AGND"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP27",
+          "functions": [
+            "ADC1",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP26",
+          "functions": [
+            "ADC0",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "RUN",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GP22",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Both images show the same artwork at different resolutions; each transcribed separately. Board silkscreen matches the callouts except EN (3V3_EN), 3V3 (3V3(OUT)) and VREF (ADC_VREF), which are put first in functions. The small connector at the top edge has no pin labels and is not transcribed."
+}

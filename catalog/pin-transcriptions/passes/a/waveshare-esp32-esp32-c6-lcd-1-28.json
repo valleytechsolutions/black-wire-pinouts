@@ -1,0 +1,181 @@
+{
+  "recordId": "waveshare-esp32-esp32-c6-lcd-1-28",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/9fe7792d17e045d857e0988f6898d59cfc2746cb15ff5124205dd536f947dbdd.jpg",
+      "sha256": "9fe7792d17e045d857e0988f6898d59cfc2746cb15ff5124205dd536f947dbdd"
+    },
+    {
+      "file": "media/feaebe94efc6071b0e7e49bee4dcaee8ddb162b3690331f7553309f9fbe07aee.webp",
+      "sha256": "feaebe94efc6071b0e7e49bee4dcaee8ddb162b3690331f7553309f9fbe07aee"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-connector",
+      "name": "Left-edge 14-pin connector",
+      "image": "media/9fe7792d17e045d857e0988f6898d59cfc2746cb15ff5124205dd536f947dbdd.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical 14-pin connector, USB-C on the right edge roughly level with the connector middle; the top end is marginally closer to the USB connector, so position 1 is the top pin. Leader lines are nested without crossing: callouts top-to-bottom map to pins top-to-bottom.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RXD",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "TXD",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "BOOT",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "IO1",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "IO2",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "IO3",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "IO4",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "IO6",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "IO23",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "I2C SCL",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "I2C SDA",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-connector-img2",
+      "name": "Left-edge 14-pin connector",
+      "image": "media/feaebe94efc6071b0e7e49bee4dcaee8ddb162b3690331f7553309f9fbe07aee.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical 14-pin connector, USB-C on the right edge roughly level with the connector middle; the top end is marginally closer to the USB connector, so position 1 is the top pin. Leader lines are nested without crossing: callouts top-to-bottom map to pins top-to-bottom.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RXD",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "TXD",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "BOOT",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "IO1",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "IO2",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "IO3",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "IO4",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "IO6",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "IO23",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "I2C SCL",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "I2C SDA",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Order start is a near-tie: the USB-C connector sits about level with the middle of the 14-pin connector, with the top end only a few pixels closer; a reading starting from the bottom would reverse positions."
+  ],
+  "notes": "Both images carry the same pinout artwork (board silkscreen 'ESP32-C6-LCD-1.28'); each is transcribed separately (rule 11). Skipped: BAT connector (only +/- marks), RTC connector (no individual pin labels), USB-C, RST/BOOT buttons."
+}

@@ -1,0 +1,38 @@
+{
+  "recordId": "rakwireless-expansion-rak5005-o",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/ae1fd105257dbc181aedd24b92dbd4b141bf36fe8dd5c51059ab16e019ac810a.png",
+      "sha256": "ae1fd105257dbc181aedd24b92dbd4b141bf36fe8dd5c51059ab16e019ac810a"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "P1",
+      "name": "BATTERY connector",
+      "image": "media/ae1fd105257dbc181aedd24b92dbd4b141bf36fe8dd5c51059ab16e019ac810a.png",
+      "rows": 1,
+      "orderNote": "No pin 1 label; started at the end closest to the micro-USB connector (lower pin)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "A small triangle is printed beside the GND (upper) pin of P1; it may be a pin-1 marker, which would reverse the order. Not labeled '1', so the USB-nearest rule was used."
+  ],
+  "notes": "Only P1 (BATTERY) has per-pin callouts. P2 (SOLAR), J10/J11/J12 headers and the J4-J7 WisBlock slots are not labeled per pin and were skipped. Board silkscreen 'RAK5005-0 V1.0'."
+}

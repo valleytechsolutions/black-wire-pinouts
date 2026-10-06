@@ -1,0 +1,264 @@
+{
+  "recordId": "sunton-cyd-esp32-3248s035r",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/463ec925993ba82be8dab641297396cb8d3df1c11f8f3d1ec9baf15d8efd058f.png",
+      "sha256": "463ec925993ba82be8dab641297396cb8d3df1c11f8f3d1ec9baf15d8efd058f"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "P3",
+      "name": "Extended IO connector P3",
+      "image": "media/463ec925993ba82be8dab641297396cb8d3df1c11f8f3d1ec9baf15d8efd058f.png",
+      "rows": 1,
+      "orderNote": "Pin numbers 1-4 printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO21",
+          "functions": [
+            "21"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "IO22",
+          "functions": [
+            "22"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "IO35",
+          "functions": [
+            "35"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "CN1",
+      "name": "Temperature and humidity interface CN1",
+      "image": "media/463ec925993ba82be8dab641297396cb8d3df1c11f8f3d1ec9baf15d8efd058f.png",
+      "rows": 1,
+      "orderNote": "Pin numbers 1-4 printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IO21",
+          "functions": [
+            "21"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "P1",
+      "name": "4P-1.25 power supply base P1",
+      "image": "media/463ec925993ba82be8dab641297396cb8d3df1c11f8f3d1ec9baf15d8efd058f.png",
+      "rows": 1,
+      "orderNote": "Pin numbers 1-4 printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VIN",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "TX",
+          "functions": [
+            "TXD2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "RX",
+          "functions": [
+            "RXD2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "P4",
+      "name": "Speaker JST_1.25_2P P4",
+      "image": "media/463ec925993ba82be8dab641297396cb8d3df1c11f8f3d1ec9baf15d8efd058f.png",
+      "rows": 1,
+      "orderNote": "Pin numbers 1-2 printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VO1",
+          "functions": [
+            "SPEAK"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "VO2",
+          "functions": [
+            "SPEAK"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "TP-C",
+      "name": "Touch FPC-6P-0.5 connector TP-C",
+      "image": "media/463ec925993ba82be8dab641297396cb8d3df1c11f8f3d1ec9baf15d8efd058f.png",
+      "rows": 1,
+      "orderNote": "Pin numbers 1-6 printed (6 at left, 1 at right)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IO33",
+          "functions": [
+            "CTP SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "IO32",
+          "functions": [
+            "CTP SCL"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "IO25",
+          "functions": [
+            "CTP RST"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "IO21",
+          "functions": [
+            "CTP INT"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "?",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "USB1",
+      "name": "USB-Micro B USB1",
+      "image": "media/463ec925993ba82be8dab641297396cb8d3df1c11f8f3d1ec9baf15d8efd058f.png",
+      "rows": 1,
+      "orderNote": "No printed numbers; USB connector itself, ordered left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "V+",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D-",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "C+",
+          "functions": [
+            "D+"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "ID",
+          "functions": [
+            "NC"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "V-",
+          "functions": [
+            "GND"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-pads",
+      "name": "Through-hole pads S5/S1/S3",
+      "image": "media/463ec925993ba82be8dab641297396cb8d3df1c11f8f3d1ec9baf15d8efd058f.png",
+      "rows": 1,
+      "orderNote": "No printed numbers; vertical column started at bottom end nearest USB1",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3.3V-TFT",
+          "functions": [
+            "S5"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "S1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "4.6V",
+          "functions": [
+            "S3"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "TP-C positions 1 and 6: no label in the pin list (only 2-5 are listed); a \"GND\" text sits near the right end of the connector but is not tied to a numbered pin."
+  ],
+  "uncertain": [
+    "USB1: transcribed because its pins carry individual labels, but two label sets disagree: annotation above the pins reads V+, D-, C+, ID, V-; silkscreen beside reads 5V, D-, D+, NC, GND. Annotation used as label, silkscreen as first function.",
+    "test-pads: S3/S1/S5 are labeled through-hole pads (4.6V, GND, 3.3V-TFT); unclear whether they are intended wiring points or test points.",
+    "TP-C is the touch-panel FPC socket; included as a labeled FPC connector but it is not a header."
+  ],
+  "notes": "Numbered connectors follow printed numbers. ESP-WROOM-32 module pad name list (U2), TF card slot pin table, flash pin labels and resistor/LED/button parts are not board wiring points and were skipped. Circled \"*\" (Common) and \"I\" (Input) symbols and mVAC measurement annotations omitted. Silkscreen VO1/VO2 read with letter O."
+}

@@ -1,0 +1,649 @@
+{
+ "recordId": "sunton-cyd-esp32-2432s028r",
+ "pass": "a",
+ "date": "2026-10-05",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/5e05a01c0b42b8d9d291411e3ead8a2cd85681caa71e4d06b22efa989fe7081b.png",
+   "sha256": "5e05a01c0b42b8d9d291411e3ead8a2cd85681caa71e4d06b22efa989fe7081b"
+  },
+  {
+   "file": "media/c0158331fedcda6c125ae08e65caa275ba37f6960845d3095839dde6373566c0.png",
+   "sha256": "c0158331fedcda6c125ae08e65caa275ba37f6960845d3095839dde6373566c0"
+  },
+  {
+   "file": "media/aa7f07eb612c7264b7c51bc17a61a3ec085a2c30656ea4fc52d9237e7d7bcd60.png",
+   "sha256": "aa7f07eb612c7264b7c51bc17a61a3ec085a2c30656ea4fc52d9237e7d7bcd60"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "expansion-io1",
+   "name": "expansion-io1",
+   "rows": 1,
+   "orderNote": "USB at bottom; physical bottom-to-top order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "IO21",
+     "functions": [
+      "I2C SDA"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "IO22",
+     "functions": [
+      "I2C SCL"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "IO35",
+     "functions": [
+      "Input only",
+      "ADC1_CH7"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": []
+    }
+   ],
+   "image": "media/5e05a01c0b42b8d9d291411e3ead8a2cd85681caa71e4d06b22efa989fe7081b.png"
+  },
+  {
+   "id": "expansion-io2",
+   "name": "expansion-io2",
+   "rows": 1,
+   "orderNote": "USB at bottom; physical bottom-to-top order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "3.3V",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "IO27",
+     "functions": [
+      "TOUCH7",
+      "ADC2_CH7"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "IO22",
+     "functions": [
+      "I2C SCL"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": []
+    }
+   ],
+   "image": "media/5e05a01c0b42b8d9d291411e3ead8a2cd85681caa71e4d06b22efa989fe7081b.png"
+  },
+  {
+   "id": "serial-port",
+   "name": "serial-port",
+   "rows": 1,
+   "orderNote": "USB at right; right-to-left ordering. Source lists signals without individual leader lines.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "RX",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "TX",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "VIN",
+     "functions": []
+    }
+   ],
+   "image": "media/5e05a01c0b42b8d9d291411e3ead8a2cd85681caa71e4d06b22efa989fe7081b.png"
+  },
+  {
+   "id": "P3-img2",
+   "name": "P3",
+   "rows": 1,
+   "orderNote": "USB at bottom; physical bottom-to-top order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "IO21",
+     "functions": [
+      "Common"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "IO22",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "IO35",
+     "functions": [
+      "Input"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": []
+    }
+   ],
+   "image": "media/c0158331fedcda6c125ae08e65caa275ba37f6960845d3095839dde6373566c0.png"
+  },
+  {
+   "id": "CN1-img2",
+   "name": "CN1",
+   "rows": 1,
+   "orderNote": "USB at bottom; physical bottom-to-top order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "3.3V",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "IO27",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "NC",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": []
+    }
+   ],
+   "image": "media/c0158331fedcda6c125ae08e65caa275ba37f6960845d3095839dde6373566c0.png"
+  },
+  {
+   "id": "P4-img2",
+   "name": "P4",
+   "rows": 1,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "VO1",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "VO2",
+     "functions": []
+    }
+   ],
+   "image": "media/c0158331fedcda6c125ae08e65caa275ba37f6960845d3095839dde6373566c0.png"
+  },
+  {
+   "id": "P1-img2",
+   "name": "P1",
+   "rows": 1,
+   "orderNote": "USB at right; right to left.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "RX",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "TX",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "VIN",
+     "functions": []
+    }
+   ],
+   "image": "media/c0158331fedcda6c125ae08e65caa275ba37f6960845d3095839dde6373566c0.png"
+  },
+  {
+   "id": "USB1-img2",
+   "name": "USB1",
+   "rows": 1,
+   "orderNote": "USB contacts across top of connector; left to right.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "5V",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "D-",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "D+",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "NC",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "GND",
+     "functions": []
+    }
+   ],
+   "image": "media/c0158331fedcda6c125ae08e65caa275ba37f6960845d3095839dde6373566c0.png"
+  },
+  {
+   "id": "TF-img2",
+   "name": "TF",
+   "rows": 1,
+   "orderNote": "USB at bottom; physical bottom-to-top order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "CD",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "DAT1",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "IO19",
+     "functions": [
+      "DAT0",
+      "MCU MISO",
+      "RN2"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": [
+      "VSS"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "IO18",
+     "functions": [
+      "CLX",
+      "TF_CLK"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "3.3V",
+     "functions": [
+      "VDD"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "IO23",
+     "functions": [
+      "CMD",
+      "MCU MOSI",
+      "RN2"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "IO5",
+     "functions": [
+      "CD",
+      "TF_CS",
+      "RN2"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "3.3V",
+     "functions": [
+      "DAT2"
+     ]
+    }
+   ],
+   "image": "media/c0158331fedcda6c125ae08e65caa275ba37f6960845d3095839dde6373566c0.png"
+  },
+  {
+   "id": "S3-img2",
+   "name": "S3",
+   "rows": 1,
+   "orderNote": "Named single testpoint.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "4.6V",
+     "functions": []
+    }
+   ],
+   "image": "media/c0158331fedcda6c125ae08e65caa275ba37f6960845d3095839dde6373566c0.png"
+  },
+  {
+   "id": "S1-img2",
+   "name": "S1",
+   "rows": 1,
+   "orderNote": "Named single testpoint.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    }
+   ],
+   "image": "media/c0158331fedcda6c125ae08e65caa275ba37f6960845d3095839dde6373566c0.png"
+  },
+  {
+   "id": "S5-img2",
+   "name": "S5",
+   "rows": 1,
+   "orderNote": "Named single testpoint.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "3.3V-TFT",
+     "functions": []
+    }
+   ],
+   "image": "media/c0158331fedcda6c125ae08e65caa275ba37f6960845d3095839dde6373566c0.png"
+  },
+  {
+   "id": "P3-img3",
+   "name": "P3",
+   "rows": 1,
+   "orderNote": "USB at bottom; physical bottom-to-top order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "IO21",
+     "functions": [
+      "Common"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "IO22",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "IO35",
+     "functions": [
+      "Input"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": []
+    }
+   ],
+   "image": "media/aa7f07eb612c7264b7c51bc17a61a3ec085a2c30656ea4fc52d9237e7d7bcd60.png"
+  },
+  {
+   "id": "CN1-img3",
+   "name": "CN1",
+   "rows": 1,
+   "orderNote": "USB at bottom; physical bottom-to-top order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "3.3V",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "IO27",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "NC",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": []
+    }
+   ],
+   "image": "media/aa7f07eb612c7264b7c51bc17a61a3ec085a2c30656ea4fc52d9237e7d7bcd60.png"
+  },
+  {
+   "id": "P4-img3",
+   "name": "P4",
+   "rows": 1,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "VO1",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "VO2",
+     "functions": []
+    }
+   ],
+   "image": "media/aa7f07eb612c7264b7c51bc17a61a3ec085a2c30656ea4fc52d9237e7d7bcd60.png"
+  },
+  {
+   "id": "P1-img3",
+   "name": "P1",
+   "rows": 1,
+   "orderNote": "USB at right; right to left.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "RX",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "TX",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "VIN",
+     "functions": []
+    }
+   ],
+   "image": "media/aa7f07eb612c7264b7c51bc17a61a3ec085a2c30656ea4fc52d9237e7d7bcd60.png"
+  },
+  {
+   "id": "USB1-img3",
+   "name": "USB1",
+   "rows": 1,
+   "orderNote": "USB contacts across top of connector; left to right.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "5V",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "D-",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "D+",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "NC",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "GND",
+     "functions": []
+    }
+   ],
+   "image": "media/aa7f07eb612c7264b7c51bc17a61a3ec085a2c30656ea4fc52d9237e7d7bcd60.png"
+  },
+  {
+   "id": "TF-img3",
+   "name": "TF",
+   "rows": 1,
+   "orderNote": "USB at bottom; physical bottom-to-top order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "CD",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "DAT1",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "IO19",
+     "functions": [
+      "DAT0",
+      "MCU MISO",
+      "RN2"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": [
+      "VSS"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "IO18",
+     "functions": [
+      "CLX",
+      "TF_CLK"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "3.3V",
+     "functions": [
+      "VDD"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "IO23",
+     "functions": [
+      "CMD",
+      "MCU MOSI",
+      "RN2"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "IO5",
+     "functions": [
+      "CD",
+      "TF_CS",
+      "RN2"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "3.3V",
+     "functions": [
+      "DAT2"
+     ]
+    }
+   ],
+   "image": "media/aa7f07eb612c7264b7c51bc17a61a3ec085a2c30656ea4fc52d9237e7d7bcd60.png"
+  },
+  {
+   "id": "S3-img3",
+   "name": "S3",
+   "rows": 1,
+   "orderNote": "Named single testpoint.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "4.6V",
+     "functions": []
+    }
+   ],
+   "image": "media/aa7f07eb612c7264b7c51bc17a61a3ec085a2c30656ea4fc52d9237e7d7bcd60.png"
+  },
+  {
+   "id": "S1-img3",
+   "name": "S1",
+   "rows": 1,
+   "orderNote": "Named single testpoint.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    }
+   ],
+   "image": "media/aa7f07eb612c7264b7c51bc17a61a3ec085a2c30656ea4fc52d9237e7d7bcd60.png"
+  },
+  {
+   "id": "S5-img3",
+   "name": "S5",
+   "rows": 1,
+   "orderNote": "Named single testpoint.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "3.3V-TFT",
+     "functions": []
+    }
+   ],
+   "image": "media/aa7f07eb612c7264b7c51bc17a61a3ec085a2c30656ea4fc52d9237e7d7bcd60.png"
+  }
+ ],
+ "notes": "Annotated chip leads and component solder joints are not external headers. Image 1 speaker connector lacks individual names. Image 1 assigns IO22 to expansion IO2 contact 2; later images print NC. Each source retained.",
+ "unreadable": [],
+ "uncertain": [
+  "First overview signal lists lack per-pin leaders for serial connector; order inferred from list alignment and requires review.",
+  "Expansion IO2 second contact differs across images (IO22 versus NC)."
+ ]
+}

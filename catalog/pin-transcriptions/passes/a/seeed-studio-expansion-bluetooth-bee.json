@@ -1,0 +1,195 @@
+{
+  "recordId": "seeed-studio-expansion-bluetooth-bee",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/3e2d762a2855ad3f0ba70dcb8f1031e23dde345f74d424f475c95f26ac06bc8e.jpg",
+      "sha256": "3e2d762a2855ad3f0ba70dcb8f1031e23dde345f74d424f475c95f26ac06bc8e"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left column",
+      "image": "media/3e2d762a2855ad3f0ba70dcb8f1031e23dde345f74d424f475c95f26ac06bc8e.jpg",
+      "rows": 1,
+      "orderNote": "No USB or numbered pin 1; vertical row read top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PIO9",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "PIO8",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PIO7",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "PIO6",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "RTS",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "PIO5",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "PIO4",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "PCMSY",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "CTS",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "PIO3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right column",
+      "image": "media/3e2d762a2855ad3f0ba70dcb8f1031e23dde345f74d424f475c95f26ac06bc8e.jpg",
+      "rows": 1,
+      "orderNote": "No USB or numbered pin 1 (square pad at top not used as a mark); vertical row read top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3U3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RX",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "PIO0",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "PIO1",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "PCMCK",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "PCMOT",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "PCMIN",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-pads",
+      "name": "Bottom row of pads between the corner pads",
+      "image": "media/3e2d762a2855ad3f0ba70dcb8f1031e23dde345f74d424f475c95f26ac06bc8e.jpg",
+      "rows": 1,
+      "orderNote": "No USB or numbered pin 1; horizontal row read left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PIO2",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "USBDP",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "USBDN",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "CLK",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "MI",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "MO",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "CS",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "AIO1",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "AIO0",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "O vs 0: digits in 'PIO0' and 'AIO0' read as 0"
+  ],
+  "uncertain": [
+    "Right-column top label is printed as '3U3' in this font (likely a stylised '3V3'); kept as printed.",
+    "Bottom-row labels are offset to the left of their pads; mapped one label per pad in left-to-right order. 'AIO1'/'AIO0' first letter partly overlapped by a text-origin cross.",
+    "Corner pads assigned to the columns: bottom-left 'PIO3' (label below the pad) to the left column, bottom-right 'GND' (rotated label) to the right column."
+  ],
+  "notes": "Board outline drawing labeled 'Bluetooth Bee by Icing 12/02/2009'."
+}

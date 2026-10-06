@@ -1,0 +1,222 @@
+{
+  "recordId": "seeed-studio-expansion-uartsb-frame",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/95615f7b56a80e668ff95385270c3751e82a260afce9adb65ec055e8d8efefae.png",
+      "sha256": "95615f7b56a80e668ff95385270c3751e82a260afce9adb65ec055e8d8efefae"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "J1",
+      "name": "Left header",
+      "image": "media/95615f7b56a80e668ff95385270c3751e82a260afce9adb65ec055e8d8efefae.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; started at the end closest to the USB connector (bottom of image). Labels are printed below each pad.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "D7",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "*D6",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "*D5",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "D4",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "*D3",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "D2",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "TXD",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "RXD",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J2",
+      "name": "Right header",
+      "image": "media/95615f7b56a80e668ff95385270c3751e82a260afce9adb65ec055e8d8efefae.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; started at the end closest to the USB connector (bottom of image). Labels are printed below each pad.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "*D9",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "*D10",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "*D11",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "D12",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "D13",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "RST",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "center-header",
+      "name": "Center 1x6 header (mirrored labels)",
+      "image": "media/95615f7b56a80e668ff95385270c3751e82a260afce9adb65ec055e8d8efefae.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; square pad not treated as pin 1 (rule 9). Started at the end closest to the USB connector (bottom).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "CTS",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "TXD",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "RXD",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "DTR",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "center-2x3-header",
+      "name": "Center 2x3 header (mirrored labels)",
+      "image": "media/95615f7b56a80e668ff95385270c3751e82a260afce9adb65ec055e8d8efefae.png",
+      "rows": 2,
+      "orderNote": "2x3 without printed numbers: position 1 at the USB (bottom) end of the column nearest the board edge (right column), alternating right/left columns. Square pad (CTS) not treated as pin 1.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "CTS",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "DSR",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "DCD",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "RI",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "J1 grouping: the 5V pad sits in its own outlined box below the 10-pin left box; the mirrored 'J1' designator is printed under the 5V box. Recorded as one 11-pin J1, but the 5V pad may be a separate single-pin connector, and J1 may refer to only one of the two boxes.",
+    "Center 1x6 header label-to-pin mapping inferred: its labels are mirrored/flipped and there are 6 labels (DTR, RXD, TXD, 3V3, CTS, GND) for 6 pads with DTR above the top pad and nothing below the bottom pad; assumed each label belongs to the pad directly below it in the displayed image.",
+    "Center 2x3 header label-to-pin mapping inferred the same way (flipped labels GND/RI above the top row, DCD/DSR and 3V3/CTS between rows, none below the bottom row); assumed each label belongs to the pad directly below it."
+  ],
+  "notes": "Single board-layout image (Seeed Studio, seeedstudio.com) with USB connector at the bottom; the product name 'UartSB' is not printed. Asterisks before D3, D5, D6, D9, D10, D11 recorded as printed. Skipped: FPC1 connector at top (pads not individually labeled), USB connector, TX/RX/PWR LEDs, unlabeled vias. Rotated color texts beside the center 1x6 header omitted per rule 6. Magenta marker crosses overlapping D4 and D12 labels ignored. Designators J1/J2 are printed mirrored."
+}

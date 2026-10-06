@@ -1,0 +1,323 @@
+{
+  "recordId": "rakwireless-other-rak4630-module",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/70d8433b1cbab5201159dbf063d96b9db062bb4944f9025158396615ba4ae24a.png",
+      "sha256": "70d8433b1cbab5201159dbf063d96b9db062bb4944f9025158396615ba4ae24a"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "top-pads",
+      "name": "Top edge pads",
+      "image": "media/70d8433b1cbab5201159dbf063d96b9db062bb4944f9025158396615ba4ae24a.png",
+      "rows": 1,
+      "orderNote": "Printed pad numbers followed; positions 1-13 = printed pads 1-13 (pad 1 at right)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "USB-",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "USB+",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "P0.13",
+          "functions": [
+            "I2C_SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "P0.14",
+          "functions": [
+            "I2C_SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P0.15",
+          "functions": [
+            "UART2_RX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "P0.16",
+          "functions": [
+            "UART2_TX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "P0.17",
+          "functions": [
+            "UART2_DE"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "P0.19",
+          "functions": [
+            "UART1_RX"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "P0.20",
+          "functions": [
+            "UART1_TX"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "P0.21",
+          "functions": [
+            "UART1_DE"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "P0.10",
+          "functions": [
+            "NFC2"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "P0.09",
+          "functions": [
+            "NFC1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-pads",
+      "name": "Left edge pads",
+      "image": "media/70d8433b1cbab5201159dbf063d96b9db062bb4944f9025158396615ba4ae24a.png",
+      "rows": 1,
+      "orderNote": "Printed pad numbers followed; positions 1-9 = printed pads 14-22 (top to bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "RF_BT",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "NRF_RESET",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "SWDCLK",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "SWDIO",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "VBAT_SX",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "VBAT_IO_SX",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-pads",
+      "name": "Bottom edge pads",
+      "image": "media/70d8433b1cbab5201159dbf063d96b9db062bb4944f9025158396615ba4ae24a.png",
+      "rows": 1,
+      "orderNote": "Printed pad numbers followed; positions 1-13 = printed pads 23-35 (left to right)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P0.2",
+          "functions": [
+            "I2C_SDA_2"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P0.25",
+          "functions": [
+            "I2C_SCL_2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P1.01",
+          "functions": [
+            "SW1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P1.02",
+          "functions": [
+            "SW2"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "P1.03",
+          "functions": [
+            "LED1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P1.04",
+          "functions": [
+            "LED2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "P0.03",
+          "functions": [
+            "QSPI_CLK"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "P0.02",
+          "functions": [
+            "QSPI_DIO3"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "P0.28",
+          "functions": [
+            "QSPI_DIO2"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "P0.29",
+          "functions": [
+            "QSPI_DIO1"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "P0.30",
+          "functions": [
+            "QSPI_DIO0"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "P0.26",
+          "functions": [
+            "QSPI_CS"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-pads",
+      "name": "Right edge pads",
+      "image": "media/70d8433b1cbab5201159dbf063d96b9db062bb4944f9025158396615ba4ae24a.png",
+      "rows": 1,
+      "orderNote": "Printed pad numbers followed; positions 1-9 = printed pads 36-44 (bottom to top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "RF_LoRa",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "P0.31",
+          "functions": [
+            "AIN7"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "P0.05",
+          "functions": [
+            "AIN3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P0.04",
+          "functions": [
+            "AIN2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "VDD_NRF",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "VBAT_NRF",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Module castellated pads numbered 1-44 continuously around the module; split into one connector per physical edge per rule 2, keeping printed numbering order. Labels printed \"PORT.PIN/FUNCTION\" split per rule 5. Bottom labels are printed with a space after \"P0.\" / \"P1.\" (e.g. \"P0. 2/I2C_SDA_2\"); the space was dropped. Pad 23 reads \"P0. 2\" as printed (only one digit). u.FL antenna connectors skipped."
+}

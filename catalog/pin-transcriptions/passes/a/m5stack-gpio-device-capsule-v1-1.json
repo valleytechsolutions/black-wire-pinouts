@@ -1,0 +1,164 @@
+{
+  "recordId": "m5stack-gpio-device-capsule-v1-1",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/e1af4c20dd897cbe9ab090648bc2df98339fce67b56eff32e99ff5c1079982e6.jpg",
+      "sha256": "e1af4c20dd897cbe9ab090648bc2df98339fce67b56eff32e99ff5c1079982e6"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-edge",
+      "name": "Left edge pins",
+      "image": "media/e1af4c20dd897cbe9ab090648bc2df98339fce67b56eff32e99ff5c1079982e6.jpg",
+      "rows": 1,
+      "orderNote": "No printed position numbers (the 1-15 numbers are GPIO numbers) and no USB connector drawn; ordered top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "1",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "5",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "7",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "9",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "5Vin",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "13",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "15",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-edge",
+      "name": "Right edge pins",
+      "image": "media/e1af4c20dd897cbe9ab090648bc2df98339fce67b56eff32e99ff5c1079982e6.jpg",
+      "rows": 1,
+      "orderNote": "No printed position numbers and no USB connector drawn; ordered top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5Vout",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "BatIn",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "nWAKE",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "Tx",
+          "functions": [
+            "43"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "Rx",
+          "functions": [
+            "44"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "EN",
+          "functions": [
+            "Rst"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "Boot",
+          "functions": [
+            "0"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-port",
+      "name": "PORT.A connector",
+      "image": "media/e1af4c20dd897cbe9ab090648bc2df98339fce67b56eff32e99ff5c1079982e6.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row ordered left to right as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "15",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "13",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "5V OUT",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "G",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Connector grouping: the vertical PORT.A text beside left-edge pins 13 and 15 suggests the PORT.A box may describe those same signals rather than a separate physical connector; it was transcribed as its own connector."
+  ],
+  "notes": "Left-edge numbers sit in colored circles keyed by a PIN legend (ADC1/ADC2/no ADC/POWER), so they are GPIO numbers kept as labels as printed. Right-edge numbers printed beside board names (Tx 43, Rx 44, Boot 0) are kept as functions; Rst/EN uses the control name EN. nWAKE is printed as a small n above WAKE. Buttons, IR, buzzer, LEDs, SD, IMU, RTC, mic and USB D-/D+ GPIO notes are not wiring points and were skipped."
+}

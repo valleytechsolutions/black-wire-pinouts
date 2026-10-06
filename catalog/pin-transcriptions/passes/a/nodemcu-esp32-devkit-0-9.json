@@ -1,0 +1,242 @@
+{
+  "recordId": "nodemcu-esp32-devkit-0-9",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/f728c7e66ab0e445d8accec88f0839cd7834b81874323e86f09552996d1ca248.png",
+      "sha256": "f728c7e66ab0e445d8accec88f0839cd7834b81874323e86f09552996d1ca248"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/f728c7e66ab0e445d8accec88f0839cd7834b81874323e86f09552996d1ca248.png",
+      "rows": 1,
+      "orderNote": "No USB connector shown; vertical row ordered from top of image (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A0",
+          "functions": [
+            "ADC0",
+            "TOUT"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "RSV",
+          "functions": [
+            "NC"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "RSV",
+          "functions": [
+            "NC"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "RSV",
+          "functions": [
+            "NC"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "RSV",
+          "functions": [
+            "NC"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "RSV",
+          "functions": [
+            "NC"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "RSV",
+          "functions": [
+            "NC"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "3V3",
+          "functions": [
+            "3.3V"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "3V3",
+          "functions": [
+            "3.3V"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "5V",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/f728c7e66ab0e445d8accec88f0839cd7834b81874323e86f09552996d1ca248.png",
+      "rows": 1,
+      "orderNote": "No USB connector shown; vertical row ordered from top of image (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO16",
+          "functions": [
+            "D0",
+            "USER",
+            "WAKE"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO5",
+          "functions": [
+            "D1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO4",
+          "functions": [
+            "D2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO0",
+          "functions": [
+            "D3",
+            "FLASH"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO2",
+          "functions": [
+            "D4",
+            "TXD1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "3V3",
+          "functions": [
+            "3.3V"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GPIO14",
+          "functions": [
+            "D5",
+            "HSPICLK"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO12",
+          "functions": [
+            "D6",
+            "HSPIQ"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO13",
+          "functions": [
+            "D7",
+            "RXD2",
+            "HSPID"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO15",
+          "functions": [
+            "D8",
+            "TXD2",
+            "HSPICS"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO3",
+          "functions": [
+            "D9",
+            "RXD0"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO1",
+          "functions": [
+            "D10",
+            "TXD0"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "3V3",
+          "functions": [
+            "3.3V"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Image is the 'NODE MCU DEVKIT INSTRUCTION V0.9 2014-12-7' pin definition diagram (stylized DEVKIT outline). Board-side names (A0, RSV, D0...) are those printed inside the outline; GPIO names used as label per rule 5 with the board name first in functions. Colour legend entries omitted."
+}

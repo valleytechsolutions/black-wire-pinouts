@@ -1,0 +1,193 @@
+{
+  "recordId": "lilygo-esp32-t-beam-bpf",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/0785fdfced764ed912ae3f9e17dfb157021ac1ca92d27fc7eb3b6ee8c9ea1e96.jpg",
+      "sha256": "0785fdfced764ed912ae3f9e17dfb157021ac1ca92d27fc7eb3b6ee8c9ea1e96"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/0785fdfced764ed912ae3f9e17dfb157021ac1ca92d27fc7eb3b6ee8c9ea1e96.jpg",
+      "rows": 1,
+      "orderNote": "No printed position numbers; vertical row, started at the end closest to the USB-C connector (top of image). Square bottom pad not treated as a pin-1 mark (rule 9).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IO0",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "B01",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "B02",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "IO48",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "IO45",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "IO47",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "IO38",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "IO40",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "IO41",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "IO42",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "IO2",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "DC3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/0785fdfced764ed912ae3f9e17dfb157021ac1ca92d27fc7eb3b6ee8c9ea1e96.jpg",
+      "rows": 1,
+      "orderNote": "No printed position numbers; vertical row, started at the end closest to the USB-C connector (top of image). Square bottom pad not treated as a pin-1 mark (rule 9).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "ALD01",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "IO17",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "IO15",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "RXD",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "TXD",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "DC1",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "left-header positions 5-6 (B01, B02) and right-header position 7 (ALD01): O and 0 cannot be told apart in this font; recorded with 0 per rule 5.",
+    "right-header positions 1-6: only tiny silkscreen labels beside the holes (beside the SD card slot), too blurred to read; partial impressions only (several look like IO1x).",
+    "right-header positions 7-15: tiny silkscreen labels next to the holes (apparently GPIO names, e.g. near SDA something like IO8) are too blurred to read reliably and were not transcribed; the boxed labels were used."
+  ],
+  "notes": "Labels read from the boxed silkscreen labels on the board in the main photo; on the left header the tiny per-hole silkscreen repeats the boxed names. QWIIC connectors and other connectors in the top inset photo have no legible per-pin labels and are skipped.",
+  "uncertain": [
+    "right-header position 13: the first character is hidden by a mounting hole; visible \"?XD\" recorded as TXD by inference (it follows RXD).",
+    "right-header position 11: boxed label looks like \"JO15\" (first glyph has a hook); recorded as IO15, which the tiny silkscreen beside the hole appears to show.",
+    "right-header positions 7-15: the tiny per-hole silkscreen appears to give different (GPIO) names than the boxed labels (e.g. SDA hole), so the boxed label may not be the GPIO name rule 5 prefers; unreadable at this resolution."
+  ]
+}

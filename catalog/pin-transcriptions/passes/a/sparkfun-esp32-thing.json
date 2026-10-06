@@ -1,0 +1,364 @@
+{
+  "recordId": "sparkfun-esp32-thing",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/85062f2303463f5beb6fbb714bb4ebc0ce2d99aaf43a2fe2cc8b766346a15e0b.png",
+      "sha256": "85062f2303463f5beb6fbb714bb4ebc0ce2d99aaf43a2fe2cc8b766346a15e0b"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/85062f2303463f5beb6fbb714bb4ebc0ce2d99aaf43a2fe2cc8b766346a15e0b.png",
+      "rows": 1,
+      "orderNote": "Closest to USB connector (micro-B at bottom): bottom to top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VUSB",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3V3",
+          "functions": [
+            "3.3V"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "RST",
+          "functions": [
+            "Reset"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO13",
+          "functions": [
+            "13",
+            "ADC2_4",
+            "HSP_ID",
+            "Touch4"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO12",
+          "functions": [
+            "12",
+            "ADC2_5",
+            "HSPI_Q",
+            "Touch5"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO14",
+          "functions": [
+            "14",
+            "ADC2_6",
+            "HSPI_CLK",
+            "Touch6"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO27",
+          "functions": [
+            "27",
+            "ADC2_7",
+            "Touch7"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO26",
+          "functions": [
+            "26",
+            "ADC2_9",
+            "DAC2"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO25",
+          "functions": [
+            "25",
+            "ADC2_8",
+            "DAC1"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO35*",
+          "functions": [
+            "35",
+            "ADC1_7",
+            "VDET2"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO34*",
+          "functions": [
+            "34",
+            "ADC1_6",
+            "VDET1"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO33",
+          "functions": [
+            "33",
+            "XTAL32",
+            "ADC1_5",
+            "Touch8"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO32",
+          "functions": [
+            "32",
+            "XTAL32",
+            "ADC1_4",
+            "Touch9"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO39*",
+          "functions": [
+            "39",
+            "SensVN",
+            "ADC1_3*"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GPIO38*",
+          "functions": [
+            "38",
+            "CapVN",
+            "ADC1_2*"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GPIO37*",
+          "functions": [
+            "37",
+            "CapVP",
+            "ADC1_1*"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO36*",
+          "functions": [
+            "36",
+            "SenseVP",
+            "ADC1_0*"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/85062f2303463f5beb6fbb714bb4ebc0ce2d99aaf43a2fe2cc8b766346a15e0b.png",
+      "rows": 1,
+      "orderNote": "Closest to USB connector (micro-B at bottom): bottom to top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VUSB",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3V3",
+          "functions": [
+            "3.3V"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO16",
+          "functions": [
+            "16",
+            "U2_RXD"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO17",
+          "functions": [
+            "17",
+            "U2_TXD"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO4",
+          "functions": [
+            "4",
+            "ADC2_0",
+            "HSPI_HD",
+            "Touch0"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO0",
+          "functions": [
+            "0",
+            "CLK1",
+            "ADC2_1",
+            "Touch1",
+            "Button"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO2",
+          "functions": [
+            "2",
+            "CS",
+            "ADC2_2",
+            "HSPI_WP",
+            "Touch2"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO15",
+          "functions": [
+            "15",
+            "ADC2_3",
+            "HSPI_CS0",
+            "Touch3"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO5",
+          "functions": [
+            "5",
+            "V_SPI_CS0",
+            "LED (Blue)"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO18",
+          "functions": [
+            "18",
+            "SCK",
+            "V_SPI_CLK"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO23",
+          "functions": [
+            "23",
+            "MOSI",
+            "V_SPI_D"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO19",
+          "functions": [
+            "19",
+            "MISO",
+            "V_SPI_Q",
+            "U0_CTS"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO22",
+          "functions": [
+            "22",
+            "SCL",
+            "V_SPI_WP",
+            "U0_RTS"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO3",
+          "functions": [
+            "RX",
+            "CLK2",
+            "U0_RXD"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GPIO1",
+          "functions": [
+            "TX",
+            "CLK3",
+            "U0_TXD"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GPIO21",
+          "functions": [
+            "21",
+            "SDA",
+            "V_SPI_HD"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Labels are printed GPIO names (asterisks kept as printed: *GPIO = input only, *ADC = preamplifier ADC per legend); white Name column first in functions. RST is printed with an overline. HSP_ID copied as printed. LiPo JST and buttons skipped.",
+  "uncertain": []
+}

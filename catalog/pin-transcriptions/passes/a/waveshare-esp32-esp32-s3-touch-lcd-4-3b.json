@@ -1,0 +1,220 @@
+{
+  "recordId": "waveshare-esp32-esp32-s3-touch-lcd-4-3b",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/69caee206478ff98c88ad5435e54bf3a27a50df60ba84d8d791d10d607043030.jpg",
+      "sha256": "69caee206478ff98c88ad5435e54bf3a27a50df60ba84d8d791d10d607043030"
+    },
+    {
+      "file": "media/6b6d207e8ddd4c384ee1eb180559c5ac3202eeee1db81436eae71188b151c402.webp",
+      "sha256": "6b6d207e8ddd4c384ee1eb180559c5ac3202eeee1db81436eae71188b151c402"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "terminal-block",
+      "name": "Left screw terminal block",
+      "image": "media/69caee206478ff98c88ad5435e54bf3a27a50df60ba84d8d791d10d607043030.jpg",
+      "rows": 1,
+      "orderNote": "No printed position numbers; USB-C is at the top of the board, so position 1 is the top terminal (closest to USB) (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VIN",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VOUT",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "CAN-L",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "CAN-H",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "RS485-B",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "RS485-A",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "DO0",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "DO1",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "DI COM",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "DI0",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "DI1",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bl-pads",
+      "name": "BL/GND pads",
+      "image": "media/69caee206478ff98c88ad5435e54bf3a27a50df60ba84d8d791d10d607043030.jpg",
+      "rows": 1,
+      "orderNote": "No printed position numbers; USB-C is at the top of the board, so position 1 is the top terminal (closest to USB) (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BL",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "terminal-block-img2",
+      "name": "Left screw terminal block",
+      "image": "media/6b6d207e8ddd4c384ee1eb180559c5ac3202eeee1db81436eae71188b151c402.webp",
+      "rows": 1,
+      "orderNote": "No printed position numbers; USB-C is at the top of the board, so position 1 is the top terminal (closest to USB) (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VIN",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VOUT",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "CAN-L",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "CAN-H",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "RS485-B",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "RS485-A",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "DO0",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "DO1",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "DI COM",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "DI0",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "DI1",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "bl-pads: two small pads beside the FPC connector with the vertical text \"BL GND\"; which pad is BL and which is GND is inferred from text order (top = BL), and whether these are intended wiring points is unclear."
+  ],
+  "notes": "16-position green screw terminal on the left edge, labels printed on the green callouts; the zoomed board label for position 13 looks like \"D1 COM\" but the bottom connection diagrams in the same image print \"DI COM\", recorded as DI COM. Bottom \"connection diagram\" panels are wiring examples of the same terminal (subsets: GND/DI COM/DO1/DO0, DI1/DI0/GND/DI COM), not separate connectors. Image 2 is a smaller copy of the same artwork; its BL/GND pads are too small to read and are not transcribed. Skipped: USB-C, SD card, RESET/BOOT buttons, battery connector (+/- only), CAN/RS-485 120R DIP switch, battery switch, coin cell, LEDs, FPC connectors."
+}

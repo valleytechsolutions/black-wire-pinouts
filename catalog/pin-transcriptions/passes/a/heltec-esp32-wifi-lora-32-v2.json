@@ -1,0 +1,334 @@
+{
+ "recordId": "heltec-esp32-wifi-lora-32-v2",
+ "pass": "a",
+ "date": "2026-10-04",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/6127cc306c19ea93facc1f069afaa4217475d58f36e27e311a19189260ed6fde.png",
+   "sha256": "6127cc306c19ea93facc1f069afaa4217475d58f36e27e311a19189260ed6fde"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "left-header",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "USB at top; top-to-bottom physical hole order. Gray package numbers are aliases, not header positions.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "5V",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "Vext",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "Vext",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "GPIO3",
+     "functions": [
+      "RX",
+      "U0_RXD"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GPIO1",
+     "functions": [
+      "TX",
+      "U0_TXD"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "RST",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "GPIO0",
+     "functions": [
+      "0",
+      "ADC2_1",
+      "Touch1",
+      "PRG Button"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GPIO22",
+     "functions": [
+      "22",
+      "SCL",
+      "V_SPI_WP",
+      "U0_RTS"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "GPIO19",
+     "functions": [
+      "19",
+      "V_SPI_Q",
+      "U0_CTS",
+      "LoRa_MISO"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "GPIO23",
+     "functions": [
+      "23",
+      "V_SPI_D"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "GPIO18",
+     "functions": [
+      "18",
+      "V_SPI_CLK",
+      "LoRa_CS"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "GPIO5",
+     "functions": [
+      "5",
+      "V_SPI_CS0",
+      "LoRa_SCK"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "GPIO15",
+     "functions": [
+      "15",
+      "ADC2_3",
+      "HSPI_CS0",
+      "Touch3",
+      "OLED_SCL"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "GPIO2",
+     "functions": [
+      "2",
+      "ADC2_2",
+      "HSPI_WP",
+      "Touch2"
+     ]
+    },
+    {
+     "position": 16,
+     "label": "GPIO4",
+     "functions": [
+      "4",
+      "ADC2_0",
+      "HSPI_HD",
+      "Touch0",
+      "OLED_SDA"
+     ]
+    },
+    {
+     "position": 17,
+     "label": "GPIO17",
+     "functions": [
+      "17",
+      "U2_TXD"
+     ]
+    },
+    {
+     "position": 18,
+     "label": "GPIO16",
+     "functions": [
+      "16",
+      "U2_RXD",
+      "OLED_RST"
+     ]
+    }
+   ],
+   "image": "media/6127cc306c19ea93facc1f069afaa4217475d58f36e27e311a19189260ed6fde.png"
+  },
+  {
+   "id": "right-header",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "USB at top; top-to-bottom physical hole order. Gray package numbers are aliases, not header positions.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GPI36*",
+     "functions": [
+      "36",
+      "ADC1_0*"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GPI37*",
+     "functions": [
+      "37",
+      "ADC1_1*"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GPI38*",
+     "functions": [
+      "38",
+      "ADC1_2*"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GPI39*",
+     "functions": [
+      "39",
+      "ADC1_3*"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GPI34*",
+     "functions": [
+      "34",
+      "ADC1_6",
+      "LoRa DIO2"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GPI35*",
+     "functions": [
+      "35",
+      "ADC1_7",
+      "LoRa DIO1"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "GPIO32",
+     "functions": [
+      "32",
+      "XTAL32",
+      "ADC1_4",
+      "Touch9"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "GPIO33",
+     "functions": [
+      "33",
+      "XTAL32",
+      "ADC1_5",
+      "Touch8"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "GPIO25",
+     "functions": [
+      "25",
+      "ADC2_8",
+      "DAC2",
+      "LED"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "GPIO26",
+     "functions": [
+      "26",
+      "ADC2_9",
+      "DAC1",
+      "LoRa_DIO0"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "GPIO27",
+     "functions": [
+      "27",
+      "ADC2_7",
+      "TOUCH7",
+      "LoRa_MOSI"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "GPIO14",
+     "functions": [
+      "14",
+      "ADC2_6",
+      "TOUCH6",
+      "LoRa_RST"
+     ]
+    },
+    {
+     "position": 16,
+     "label": "GPIO12",
+     "functions": [
+      "12",
+      "ADC2_5",
+      "TOUCH5"
+     ]
+    },
+    {
+     "position": 17,
+     "label": "GPIO13",
+     "functions": [
+      "13",
+      "ADC2_4",
+      "TPUCH4"
+     ]
+    },
+    {
+     "position": 18,
+     "label": "GPIO21",
+     "functions": [
+      "21",
+      "SDA",
+      "V_SPI_HD",
+      "Vext control"
+     ]
+    }
+   ],
+   "image": "media/6127cc306c19ea93facc1f069afaa4217475d58f36e27e311a19189260ed6fde.png"
+  }
+ ],
+ "notes": "GPI prefixes and TPUCH4 are copied as printed. This record cites only its own revision-specific image.",
+ "unreadable": [],
+ "uncertain": []
+}

@@ -1,0 +1,39 @@
+{
+  "recordId": "lilygo-gpio-device-t-deck",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [{"file": "media/de4ea53827a367c9e2f0db690ded9dd24d08110c868f20f0245c9259f004523f.jpg", "sha256": "de4ea53827a367c9e2f0db690ded9dd24d08110c868f20f0245c9259f004523f"}],
+  "connectors": [
+    {"id": "uart-jst", "name": "4-pin JST connector (top right of back view)", "image": "media/de4ea53827a367c9e2f0db690ded9dd24d08110c868f20f0245c9259f004523f.jpg", "rows": 1,
+     "orderNote": "No pin 1 mark; vertical row, started at the end closest to the USB connector (bottom of board), so GND first",
+     "pins": [
+       {"position": 1, "label": "GND", "functions": []},
+       {"position": 2, "label": "VCC", "functions": []},
+       {"position": 3, "label": "TX", "functions": ["43"]},
+       {"position": 4, "label": "RX", "functions": ["44"]}
+     ]},
+    {"id": "esp32-c3-header", "name": "ESP32-C3 6-pad header (right edge of back view)", "image": "media/de4ea53827a367c9e2f0db690ded9dd24d08110c868f20f0245c9259f004523f.jpg", "rows": 1,
+     "orderNote": "No printed pin numbers; vertical row, started at the end closest to the USB connector (bottom), so VCC first. An arrow points at TX(21) but is not labeled 1",
+     "pins": [
+       {"position": 1, "label": "VCC", "functions": []},
+       {"position": 2, "label": "GND", "functions": []},
+       {"position": 3, "label": "RST", "functions": []},
+       {"position": 4, "label": "IO09", "functions": ["BOOT"]},
+       {"position": 5, "label": "RX", "functions": ["20"]},
+       {"position": 6, "label": "TX", "functions": ["21"]}
+     ]},
+    {"id": "gpio-pads", "name": "Labeled GPIO pads left of LoRa module", "image": "media/de4ea53827a367c9e2f0db690ded9dd24d08110c868f20f0245c9259f004523f.jpg", "rows": 1,
+     "orderNote": "No pin 1 mark; vertical pair, started at the end closest to the USB connector (bottom), so GPIO2 first",
+     "pins": [
+       {"position": 1, "label": "GPIO2", "functions": []},
+       {"position": 2, "label": "GPIO1", "functions": []}
+     ]}
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "esp32-c3-header: a black arrow points at TX(21); it may be intended as a pin 1 marker, which would reverse the order (TX(21) first). Recorded with the USB-nearest rule because the arrow is not labeled 1.",
+    "gpio-pads: GPIO1/GPIO2 are two small labeled pads printed on the silkscreen; unclear whether they are intended wiring points or test pads, and whether they form one connector."
+  ],
+  "notes": "Back view of the T-Deck. JST connector silkscreen reads RX, TX, VCC, GND; callouts read RX(44), TX(43), VCC, GND (numbers kept as functions). ESP32-C3 header callouts TX(21), RX(20), IO09(BOOT), RST, GND, VCC. Battery JST (BAT) and speaker JST (SPEAKR) skipped: pins not individually labeled. LCD, TF card, trackball, keyboard I2C, microphone and LoRa assignments are internal signal lists, not physical wiring points. LoRa module castellated pads are unlabeled."
+}

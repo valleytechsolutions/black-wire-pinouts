@@ -1,0 +1,249 @@
+{
+  "recordId": "adafruit-nrf52840-clue",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/6825935f0ea15911b37edb42fdbb306aed411fd657172e0e39bee95a973cbda2.png",
+      "sha256": "6825935f0ea15911b37edb42fdbb306aed411fd657172e0e39bee95a973cbda2"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "edge-connector",
+      "name": "Bottom edge connector fingers",
+      "image": "media/6825935f0ea15911b37edb42fdbb306aed411fd657172e0e39bee95a973cbda2.png",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector in view; horizontal row started at left. One position per physical finger (25), traced via leader lines",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P0.28",
+          "functions": [
+            "A5",
+            "3",
+            "AIN4"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P0.04",
+          "functions": [
+            "0",
+            "A2",
+            "AIN2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P0.02",
+          "functions": [
+            "A6",
+            "4",
+            "AIN0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "P1.09",
+          "functions": [
+            "D6",
+            "6"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P0.07",
+          "functions": [
+            "D7",
+            "7"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "P0.05",
+          "functions": [
+            "1",
+            "A3",
+            "AIN3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "P1.07",
+          "functions": [
+            "D8",
+            "8"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "P0.27",
+          "functions": [
+            "D9",
+            "9"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "P0.30",
+          "functions": [
+            "A7",
+            "10",
+            "AIN6"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "P0.31",
+          "functions": [
+            "A0",
+            "12",
+            "AIN7"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "P0.03",
+          "functions": [
+            "2",
+            "A4",
+            "AIN1"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "P0.08",
+          "functions": [
+            "SCK",
+            "13"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "P0.06",
+          "functions": [
+            "MISO",
+            "14"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "P0.26",
+          "functions": [
+            "MOSI",
+            "15"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "P0.29",
+          "functions": [
+            "A1",
+            "16",
+            "AIN5"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "3.3V",
+          "functions": [
+            "3V"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "P0.25",
+          "functions": [
+            "SCL",
+            "19"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "P0.24",
+          "functions": [
+            "SDA",
+            "20"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "stemma-qt",
+      "name": "Top JST (STEMMA QT) connector",
+      "image": "media/6825935f0ea15911b37edb42fdbb306aed411fd657172e0e39bee95a973cbda2.png",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector in view; horizontal row started at left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "P0.24",
+          "functions": [
+            "SDA",
+            "20"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P0.25",
+          "functions": [
+            "SCL",
+            "19"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "edge-connector position 4: finger between A6 and D6 has no leader line or label (unlabeled)",
+    "edge-connector position 11: finger between A7 and A0 has no leader line or label (unlabeled)"
+  ],
+  "notes": "Three fingers lead to the 3.3V label and three to GND (large 3V/GND pads plus flanking fingers). HS/LS speed tags treated as category-only tags and omitted. Large-pad silkscreen (0/1/2/3V) put first in functions per rule 5; #0/#1/#2 duplicates not added. Buttons, LEDs, NeoPixel, display, microphone, accelerometer, speaker and NFC entries have no physical wiring position and were skipped. Battery connector (GND/VBAT) skipped as battery-only."
+}

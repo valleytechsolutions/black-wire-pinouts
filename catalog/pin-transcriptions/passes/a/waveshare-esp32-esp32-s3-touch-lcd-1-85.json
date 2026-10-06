@@ -1,0 +1,153 @@
+{
+  "recordId": "waveshare-esp32-esp32-s3-touch-lcd-1-85",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/c0dfa8b1d8a14096f40d0a205f32f53407684b440a0897f75f0f6a0748196925.jpg",
+      "sha256": "c0dfa8b1d8a14096f40d0a205f32f53407684b440a0897f75f0f6a0748196925"
+    },
+    {
+      "file": "media/b3ddd8821f9765798c71cf71e6779568d4034c4ea537f61d3a527476a3463a71.webp",
+      "sha256": "b3ddd8821f9765798c71cf71e6779568d4034c4ea537f61d3a527476a3463a71"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "i2c-port",
+      "name": "I2C connector (left of USB-C)",
+      "image": "media/c0dfa8b1d8a14096f40d0a205f32f53407684b440a0897f75f0f6a0748196925.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or pin-1 mark; started at the end closest to the USB-C connector",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO10",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO11",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "uart-port",
+      "name": "UART connector (right of USB-C)",
+      "image": "media/c0dfa8b1d8a14096f40d0a205f32f53407684b440a0897f75f0f6a0748196925.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or pin-1 mark; started at the end closest to the USB-C connector",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO43",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO44",
+          "functions": [
+            "RXD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "i2c-port-img2",
+      "name": "I2C connector (left of USB-C)",
+      "image": "media/b3ddd8821f9765798c71cf71e6779568d4034c4ea537f61d3a527476a3463a71.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers or pin-1 mark; started at the end closest to the USB-C connector",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO10",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO11",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "uart-port-img2",
+      "name": "UART connector (right of USB-C)",
+      "image": "media/b3ddd8821f9765798c71cf71e6779568d4034c4ea537f61d3a527476a3463a71.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers or pin-1 mark; started at the end closest to the USB-C connector",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO43",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO44",
+          "functions": [
+            "RXD"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Both images show the bottom of the round board with two 4-pin connectors labeled by leader lines. Skipped RST (button), RTC battery connector (only +/- marks) and the unlabeled connector at upper right. Image 2 is a slightly different photo (populated MIC part, date code) with identical pin labels; transcribed separately per rule 11. Labels use the GPIO name, the printed signal name in functions."
+}

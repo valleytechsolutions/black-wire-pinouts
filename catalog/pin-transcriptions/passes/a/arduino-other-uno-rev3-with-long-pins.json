@@ -1,0 +1,279 @@
+{
+  "recordId": "arduino-other-uno-rev3-with-long-pins",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/80dab00a5ee12c3a1fdf23171e55cc9bd094e954e595e19ec772d89de62cadb2.png",
+      "sha256": "80dab00a5ee12c3a1fdf23171e55cc9bd094e954e595e19ec772d89de62cadb2"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "power-header",
+      "name": "Left power header",
+      "image": "media/80dab00a5ee12c3a1fdf23171e55cc9bd094e954e595e19ec772d89de62cadb2.png",
+      "rows": 1,
+      "orderNote": "No printed position numbers; USB connector at top of image, started at end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IOREF",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RESET",
+          "functions": [
+            "PC6"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "analog-header",
+      "name": "Left analog header",
+      "image": "media/80dab00a5ee12c3a1fdf23171e55cc9bd094e954e595e19ec772d89de62cadb2.png",
+      "rows": 1,
+      "orderNote": "No printed position numbers; USB connector at top of image, started at end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A0",
+          "functions": [
+            "D14",
+            "PC0",
+            "ADC[0]"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "A1",
+          "functions": [
+            "D15",
+            "PC1",
+            "ADC[1]"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "A2",
+          "functions": [
+            "D16",
+            "PC2",
+            "ADC[2]"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "A3",
+          "functions": [
+            "D17",
+            "PC3",
+            "ADC[3]"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "A4",
+          "functions": [
+            "D18",
+            "PC4",
+            "ADC[4]"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "A5",
+          "functions": [
+            "D19",
+            "PC5",
+            "ADC[5]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digital-header-high",
+      "name": "Right digital header (D8-D19)",
+      "image": "media/80dab00a5ee12c3a1fdf23171e55cc9bd094e954e595e19ec772d89de62cadb2.png",
+      "rows": 1,
+      "orderNote": "No printed position numbers; USB connector at top of image, started at end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D19/SCL",
+          "functions": [
+            "PC5",
+            "SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D18/SDA",
+          "functions": [
+            "PC4",
+            "SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "AREF",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "D13",
+          "functions": [
+            "PB5",
+            "SCK"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D12",
+          "functions": [
+            "PB4",
+            "CIPO"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "~D11",
+          "functions": [
+            "PB3",
+            "COPI"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "~D10",
+          "functions": [
+            "PB2",
+            "SS"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "~D9",
+          "functions": [
+            "PB1"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "D8",
+          "functions": [
+            "PB0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digital-header-low",
+      "name": "Right digital header (D0-D7)",
+      "image": "media/80dab00a5ee12c3a1fdf23171e55cc9bd094e954e595e19ec772d89de62cadb2.png",
+      "rows": 1,
+      "orderNote": "No printed position numbers; USB connector at top of image, started at end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D7",
+          "functions": [
+            "PD7"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "~D6",
+          "functions": [
+            "PD6"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "~D5",
+          "functions": [
+            "PD5"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D4",
+          "functions": [
+            "PD4"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "~D3",
+          "functions": [
+            "PD3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D2",
+          "functions": [
+            "PD2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "D1/TX",
+          "functions": [
+            "PD1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "D0/RX",
+          "functions": [
+            "PD0"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Board identity: image is titled 'ARDUINO UNO REV3' and does not show or mention the long-pin header variant named by this record"
+  ],
+  "notes": "Board drawn rotated with USB connector at top; headers vertical. Analog pins carry both A0-A5 and D14-D19; A-name used as label, D-name first in functions (it is printed nearest the pin). Combined names (D19/SCL, D0/RX) and tilde PWM marks kept as printed. Skipped: ICSP 2x3 headers (unlabeled), DC jack, USB, LED callouts (LED_BUILTIN PB5, TX LED PD5, RX LED PD4, Power). Arrow symbols beside +3V3/+5V/VIN omitted."
+}

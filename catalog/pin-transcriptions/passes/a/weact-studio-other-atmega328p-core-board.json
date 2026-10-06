@@ -1,0 +1,399 @@
+{
+  "recordId": "weact-studio-other-atmega328p-core-board",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/03380ea932cb69921e82ccb0ad8cb0fd1ac221acb7226ff3f0b046b55aa88329.png",
+      "sha256": "03380ea932cb69921e82ccb0ad8cb0fd1ac221acb7226ff3f0b046b55aa88329"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header (TX1 ... D12)",
+      "image": "media/03380ea932cb69921e82ccb0ad8cb0fd1ac221acb7226ff3f0b046b55aa88329.png",
+      "rows": 1,
+      "orderNote": "No header position numbers (dark tags are MCU package pin numbers); USB-C at bottom, started at the USB end (D12).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PB4",
+          "functions": [
+            "D12",
+            "16",
+            "PCINT4",
+            "MISO",
+            "12"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PB3",
+          "functions": [
+            "D11",
+            "15",
+            "PCINT3",
+            "OC2",
+            "MOSI",
+            "11"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PB2",
+          "functions": [
+            "D10",
+            "14",
+            "PCINT2",
+            "OC1B",
+            "SS",
+            "10"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PB1",
+          "functions": [
+            "D9",
+            "13",
+            "PCINT1",
+            "OC1A",
+            "9"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PB0",
+          "functions": [
+            "D8",
+            "12",
+            "PCINT20",
+            "CLKO",
+            "ICP1",
+            "8"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PD7",
+          "functions": [
+            "D7",
+            "11",
+            "PCINT23",
+            "AIN1",
+            "7"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PD6",
+          "functions": [
+            "D6",
+            "10",
+            "PCINT22",
+            "AIN0",
+            "OC0A",
+            "6"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PD5",
+          "functions": [
+            "D5",
+            "9",
+            "PCINT21",
+            "OC0B",
+            "T1",
+            "5"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PD4",
+          "functions": [
+            "D4",
+            "2",
+            "PCINT20",
+            "XCK",
+            "T0",
+            "4"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PD3",
+          "functions": [
+            "D3",
+            "1",
+            "PCINT19",
+            "INT1",
+            "OC2B",
+            "3"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PD2",
+          "functions": [
+            "D2",
+            "32",
+            "PCINT18",
+            "INT0",
+            "2"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "PC6",
+          "functions": [
+            "RST",
+            "29",
+            "PCINT14",
+            "RESET"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "PD0",
+          "functions": [
+            "RX0",
+            "30",
+            "PCINT16",
+            "RXD",
+            "0"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "PD1",
+          "functions": [
+            "TX1",
+            "31",
+            "PCINT17",
+            "TXD",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header (VIN ... D13)",
+      "image": "media/03380ea932cb69921e82ccb0ad8cb0fd1ac221acb7226ff3f0b046b55aa88329.png",
+      "rows": 1,
+      "orderNote": "No header position numbers (dark tags are MCU package pin numbers); USB-C at bottom, started at the USB end (D13).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PB5",
+          "functions": [
+            "D13",
+            "17",
+            "PCINT5",
+            "SCK",
+            "13"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": [
+            "3mA Output Max"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "AREF",
+          "functions": [
+            "REF",
+            "21"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PC0",
+          "functions": [
+            "A0",
+            "23",
+            "PCINT8",
+            "ADC0",
+            "14"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PC1",
+          "functions": [
+            "A1",
+            "24",
+            "PCINT9",
+            "ADC1",
+            "15"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PC2",
+          "functions": [
+            "A2",
+            "25",
+            "PCINT10",
+            "ADC2",
+            "16"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PC3",
+          "functions": [
+            "A3",
+            "26",
+            "PCINT11",
+            "ADC3",
+            "17"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PC4",
+          "functions": [
+            "A4",
+            "27",
+            "PCINT12",
+            "ADC4",
+            "SDA",
+            "18"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PC5",
+          "functions": [
+            "A5",
+            "28",
+            "PCINT13",
+            "ADC5",
+            "SCL",
+            "19"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "A6",
+          "functions": [
+            "19",
+            "ADC6",
+            "Exclusively analog"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "A7",
+          "functions": [
+            "22",
+            "ADC7",
+            "Exclusively analog"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "5V",
+          "functions": [
+            "300mA Output Max"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "PC6",
+          "functions": [
+            "RST",
+            "29",
+            "PCINT14",
+            "RESET"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "VIN",
+          "functions": [
+            "5-12V Input"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "icsp",
+      "name": "ICSP 2x3 header",
+      "image": "media/03380ea932cb69921e82ccb0ad8cb0fd1ac221acb7226ff3f0b046b55aa88329.png",
+      "rows": 2,
+      "orderNote": "Pin 1 marked ('1' beside the top-right pin of the ICSP Pinout drawing); continued by alternating rows from pin 1 (top row = row of pin 1).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PB4",
+          "functions": [
+            "18",
+            "PCINT4",
+            "MISO"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PB5",
+          "functions": [
+            "19",
+            "PCINT5",
+            "SCK"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PB3",
+          "functions": [
+            "17",
+            "PCINT3",
+            "OC2A",
+            "MOSI"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PC6",
+          "functions": [
+            "1",
+            "PCINT14",
+            "RESET"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "ATMEGA328P-MU Core Board (WeAct Studio). Labels are the AVR port-pin names (PB4, PC6...) where printed, else power/analog names; board silkscreen (D12, RX0, REF...) is first in functions, then callouts read outward (MCU package pin number, PCINT, alternate functions, Arduino IDE number). PCINT superscripts written inline (PCINT17). PB0 is printed with 'PCINT20' (copied as printed). Overlines on RESET and SS omitted. ICSP RESET row shows MCU pin '1' (main header shows 29) - copied as printed. ICSP labels from the separate 'ICSP Pinout' drawing; board silkscreen around the header (GND RST / 5V MISO) agrees. PWM wave symbols and port-power-group colours omitted.",
+  "uncertain": [
+    "'Exclusively analog' note sits between the A7 and A6 rows; recorded on both pins."
+  ]
+}

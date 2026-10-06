@@ -1,0 +1,448 @@
+{
+  "recordId": "heltec-esp32-wireless-tracker",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/bc467f850258872f950d9d970ce5146bcc4f07bf9be307dd6a16d02bb8857806.png",
+      "sha256": "bc467f850258872f950d9d970ce5146bcc4f07bf9be307dd6a16d02bb8857806"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-top-header",
+      "name": "Left 8-pin header (upper)",
+      "image": "media/bc467f850258872f950d9d970ce5146bcc4f07bf9be307dd6a16d02bb8857806.png",
+      "rows": 1,
+      "orderNote": "Pin numbers 1-8 printed (1 at the top by the USB-C connector); followed them.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "Vext",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header",
+      "name": "Left 16-pin header (lower)",
+      "image": "media/bc467f850258872f950d9d970ce5146bcc4f07bf9be307dd6a16d02bb8857806.png",
+      "rows": 1,
+      "orderNote": "Pin numbers 1-16 printed (1 at the top); followed them.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RST",
+          "functions": [
+            "RST_SW"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "0",
+          "functions": [
+            "USER_SW"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "1",
+          "functions": [
+            "ADC1_CH0",
+            "TOUCH1",
+            "Vbat_Read",
+            "VBAT=Vbat_Read*4.9"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "2",
+          "functions": [
+            "ADC1_CH1",
+            "TOUCH2",
+            "ADC_Ctrl"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "3",
+          "functions": [
+            "ADC1_CH2",
+            "TOUCH3",
+            "Vext_Ctrl"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "19",
+          "functions": [
+            "U1RTS",
+            "ADC2_CH8",
+            "CLK_OUT2",
+            "USB_D-"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "20",
+          "functions": [
+            "U1CTS",
+            "ADC2_CH9",
+            "CLK_OUT1",
+            "USB_D+"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "21",
+          "functions": [
+            "TFT_LED_K"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "26",
+          "functions": [
+            "SPICS1"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "48",
+          "functions": [
+            "D_SEL"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "47",
+          "functions": [
+            "Boot_Mode"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "33",
+          "functions": [
+            "SPIIO4",
+            "FSPIHD",
+            "SUBSPIHD",
+            "GNSS_TX"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "34",
+          "functions": [
+            "SPIIO5",
+            "FSPICS0",
+            "SUBSPICS0",
+            "GNSS_RX"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "35",
+          "functions": [
+            "SPIIO6",
+            "FSPID",
+            "SUBSPID",
+            "GNSS_RST"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "36",
+          "functions": [
+            "SPIIO7",
+            "FSPICLK",
+            "SUBSPICLK",
+            "GNSS_PPS"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "37",
+          "functions": [
+            "SPIDQS",
+            "FSPIQ",
+            "SUBSPIQ"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-top-header",
+      "name": "Right 8-pin header (upper)",
+      "image": "media/bc467f850258872f950d9d970ce5146bcc4f07bf9be307dd6a16d02bb8857806.png",
+      "rows": 1,
+      "orderNote": "Pin numbers 1-8 printed (1 at the top by the USB-C connector); followed them.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "18",
+          "functions": [
+            "U1RXD",
+            "ADC2_CH7",
+            "CLK_OUT3",
+            "LED Write Ctrl"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "17",
+          "functions": [
+            "U1TXD",
+            "ADC2_CH6"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "16",
+          "functions": [
+            "U0CTS",
+            "ADC2_CH5",
+            "XTAL_32K_N"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "15",
+          "functions": [
+            "U0RTS",
+            "ADC2_CH4",
+            "XTAL_32K_P"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "7",
+          "functions": [
+            "ADC1_CH6",
+            "TOUCH7"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "6",
+          "functions": [
+            "ADC1_CH5",
+            "TOUCH6"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "5",
+          "functions": [
+            "ADC1_CH4",
+            "TOUCH5"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "4",
+          "functions": [
+            "ADC1_CH3",
+            "TOUCH4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right 16-pin header (lower)",
+      "image": "media/bc467f850258872f950d9d970ce5146bcc4f07bf9be307dd6a16d02bb8857806.png",
+      "rows": 1,
+      "orderNote": "Pin numbers 1-16 printed (1 at the top); followed them.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "46",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "45",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "44",
+          "functions": [
+            "U0RXD"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "43",
+          "functions": [
+            "U0TXD"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "14",
+          "functions": [
+            "ADC2_CH3",
+            "TOUCH14",
+            "FSPIDQS",
+            "SUBSPIWP",
+            "FSPIWP",
+            "LoRa_DIO1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "13",
+          "functions": [
+            "ADC2_CH2",
+            "TOUCH13",
+            "FSPIIO7",
+            "SUBSPIQ",
+            "FSPIQ",
+            "LoRa_Busy"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "12",
+          "functions": [
+            "ADC2_CH1",
+            "TOUCH12",
+            "FSPIIO6",
+            "SUBSPICLK",
+            "FSPICLK",
+            "LoRa_RST"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "11",
+          "functions": [
+            "ADC2_CH0",
+            "TOUCH11",
+            "FSPIIO5",
+            "SUBSPID",
+            "FSPID",
+            "LoRa_MISO"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "10",
+          "functions": [
+            "ADC1_CH9",
+            "TOUCH10",
+            "FSPIIO4",
+            "SUBSPICS0",
+            "FSPICS0",
+            "LoRa_MOSI"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "9",
+          "functions": [
+            "ADC1_CH8",
+            "TOUCH9",
+            "SUBSPIHD",
+            "FSPIHD",
+            "LoRa_SCK"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "8",
+          "functions": [
+            "ADC1_CH7",
+            "TOUCH8",
+            "SUBSPICS1",
+            "LoRa_NSS"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "42",
+          "functions": [
+            "MTMS",
+            "TFT_SDIN"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "41",
+          "functions": [
+            "MTDI",
+            "TFT_SCLK"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "40",
+          "functions": [
+            "MTDO",
+            "TFT_RS"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "39",
+          "functions": [
+            "MTCK",
+            "TFT_RES"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "38",
+          "functions": [
+            "FSPIWP",
+            "SUBSPIWP",
+            "TFT_CS"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "left-header pin 1 'RST' and the dark-box functions (TOUCHn, CLK_OUTn, SUBSPI*/FSPI* on some pins, MTMS/MTDI/MTDO/MTCK) are printed in very dim grey; read as shown, CLK_OUT1 on left-header pin 7 is the least legible."
+  ],
+  "uncertain": [],
+  "notes": "HT-Tracker_V1 pin map (Heltec). GPIO numbers are printed as bare numbers in the pink GPIO boxes and copied as printed. Dimmed (dark) boxes were included as functions. Pull up/down arrow icons and colour legend omitted. Board silkscreen is too small to read and was not added. Skipped USB-C, RST/USER buttons, GNSS antenna."
+}

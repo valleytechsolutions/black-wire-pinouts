@@ -1,0 +1,148 @@
+{
+  "recordId": "lilygo-esp32-t-halow-p4",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/36718b1ebf13b2fb20ec36128eb53b165e84a74e28734fd3dc876b073922c031.jpg",
+      "sha256": "36718b1ebf13b2fb20ec36128eb53b165e84a74e28734fd3dc876b073922c031"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left edge pads",
+      "image": "media/36718b1ebf13b2fb20ec36128eb53b165e84a74e28734fd3dc876b073922c031.jpg",
+      "rows": 1,
+      "orderNote": "No printed position numbers; USB-C at the bottom of the board, started at the USB end (C6_TX).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "C6_TX",
+          "functions": [
+            "C6_TXD"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "C6_RX",
+          "functions": [
+            "C6_RXD"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO23",
+          "functions": [
+            "IO23",
+            "23",
+            "ADC2_CH7"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO22",
+          "functions": [
+            "IO22",
+            "22",
+            "ADC1_CH6"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO21",
+          "functions": [
+            "IO21",
+            "21",
+            "ADC1_CH5"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO20",
+          "functions": [
+            "IO20",
+            "20",
+            "ADC1_CH4"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO11",
+          "functions": [
+            "IO11",
+            "11",
+            "TOUCH09"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO10",
+          "functions": [
+            "IO10",
+            "10",
+            "TOUCH08"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO09",
+          "functions": [
+            "IO9",
+            "09",
+            "TOUCH07"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO08",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO07",
+          "functions": [
+            "SDA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c6-upload-pads",
+      "name": "C6_RST / C6_BOOT pads",
+      "image": "media/36718b1ebf13b2fb20ec36128eb53b165e84a74e28734fd3dc876b073922c031.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB-C at bottom, started at the end nearer the USB (C6_BOOT is lower in the main view).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "C6_BOOT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "C6_RST",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Left-edge labels from callouts (GPIO / power names); silkscreen (SDA, IO9, C6_RXD...) first in functions, then callouts read outward. 'I2C' category cells omitted. The C6_RST/C6_BOOT pad pair is the upload-jumper pair from the 'Upload Tips' inset (silkscreen C6_RST, C6_BOOT); included as labeled pads. Camera, SD/C6, Halow and AMOLED lists are internal assignments; unlabeled right-edge pads, M.2 edge and connectors skipped.",
+  "uncertain": [
+    "C6_RST/C6_BOOT are a two-pad programming jumper rather than a header; whether they count as wiring points is a judgment."
+  ]
+}

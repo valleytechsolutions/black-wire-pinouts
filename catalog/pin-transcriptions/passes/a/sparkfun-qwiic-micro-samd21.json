@@ -1,0 +1,44 @@
+{
+  "recordId": "sparkfun-qwiic-micro-samd21",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [{"file": "media/ce58339cee09909d1bf6496dfdc76ef20f41a77f85d9b3d00df41a2b3e6d91c0.png", "sha256": "ce58339cee09909d1bf6496dfdc76ef20f41a77f85d9b3d00df41a2b3e6d91c0"}],
+  "connectors": [
+    {"id": "left-header", "name": "Left edge pads", "image": "media/ce58339cee09909d1bf6496dfdc76ef20f41a77f85d9b3d00df41a2b3e6d91c0.png", "rows": 1,
+     "orderNote": "No printed position numbers; started at end closest to USB connector (top). Label = port name (PAxx); silkscreen pin name first in functions.",
+     "pins": [
+       {"position": 1, "label": "PA02", "functions": ["D1", "A0", "DAC"]},
+       {"position": 2, "label": "PA06", "functions": ["D2", "A1", "MOSI"]},
+       {"position": 3, "label": "PA05", "functions": ["D3", "A2", "MISO"]},
+       {"position": 4, "label": "PA07", "functions": ["D4", "A3", "SCK"]},
+       {"position": 5, "label": "PA00", "functions": ["D5", "CS"]},
+       {"position": 6, "label": "PA01", "functions": ["D6"]},
+       {"position": 7, "label": "PA04", "functions": ["D7", "A5", "AREFB"]}
+     ]},
+    {"id": "right-header", "name": "Right edge pads", "image": "media/ce58339cee09909d1bf6496dfdc76ef20f41a77f85d9b3d00df41a2b3e6d91c0.png", "rows": 1,
+     "orderNote": "No printed position numbers; started at end closest to USB connector (top). Six pads visible on the board photo.",
+     "pins": [
+       {"position": 1, "label": "PA23", "functions": ["D16", "RX"]},
+       {"position": 2, "label": "PA22", "functions": ["D17", "TX"]},
+       {"position": 3, "label": "PA09", "functions": ["SCL", "D8"]},
+       {"position": 4, "label": "PA08", "functions": ["SDA", "D0"]},
+       {"position": 5, "label": "3.3V", "functions": []},
+       {"position": 6, "label": "GND", "functions": []}
+     ]},
+    {"id": "swd-pads", "name": "SWD pads (inset)", "image": "media/ce58339cee09909d1bf6496dfdc76ef20f41a77f85d9b3d00df41a2b3e6d91c0.png", "rows": 1,
+     "orderNote": "Inset shows four pads in a horizontal row with leader lines; no USB in inset, so ordered left to right.",
+     "pins": [
+       {"position": 1, "label": "PA31", "functions": ["SWDIO", "D23"]},
+       {"position": 2, "label": "PA30", "functions": ["SWCLK", "D22"]},
+       {"position": 3, "label": "GND", "functions": []},
+       {"position": 4, "label": "RESET", "functions": []}
+     ]}
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "The right-side label stack begins with a RESET / CONTROL row level with D1, but the board photo shows no pad at that position (only the mounting hole and the reset button). It was not transcribed as a pad on right-header; it may belong to an unseen pad or to the reset button.",
+    "SWD inset leader lines: mapping read as leftmost pad = SWDIO, then SWCLK, GND, RESET; the lines are small and the mapping is inferred from where each vertical line turns."
+  ],
+  "notes": "The D13 / LED / PA10 / A4 label stack below the board points at the D13 LED, not a pad; skipped per rule 1. Qwiic connector pins are not individually labeled; skipped. Duplicate repeated names (e.g. pin name D1 and Arduino D1, SCL in both pin-name and serial columns) kept once."
+}

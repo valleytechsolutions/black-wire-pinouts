@@ -1,0 +1,85 @@
+{
+  "recordId": "lilygo-esp32-t-encoder-pro",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/e89f9d1e0f36583649dd7c780232db496857e7f4693deb49a0ee0b22cddd7fd9.jpg",
+      "sha256": "e89f9d1e0f36583649dd7c780232db496857e7f4693deb49a0ee0b22cddd7fd9"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "qwiic-upper",
+      "name": "Qwiic 4-pin (upper, I2C)",
+      "image": "media/e89f9d1e0f36583649dd7c780232db496857e7f4693deb49a0ee0b22cddd7fd9.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at the end nearer the USB-C connector (right end as displayed), assuming the printed list GND/3V3/SDA/SCL runs left to right.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SCL",
+          "functions": [
+            "15"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "SDA",
+          "functions": [
+            "16"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "qwiic-lower",
+      "name": "Qwiic 4-pin (lower, UART)",
+      "image": "media/e89f9d1e0f36583649dd7c780232db496857e7f4693deb49a0ee0b22cddd7fd9.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at the end nearer the USB-C connector (right end as displayed), assuming the printed 'RX TX 5V GND' runs left to right.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "TX",
+          "functions": [
+            "43"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "RX",
+          "functions": [
+            "44"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Rear view shows '2 x Qwiic 4-pin' connectors. Upper connector labels printed as a stacked list GND, 3V3, (16)SDA, (15)SCL; lower as 'RX TX 5V GND' with 44 43 above RX TX. Numbers in parentheses/above are GPIO numbers, kept as functions. Encoder, touch, AMOLED and buzzer GPIO lists are internal assignments, not wiring points; skipped.",
+  "uncertain": [
+    "Label-to-pin mapping for both Qwiic connectors is inferred: the labels are printed as lists beside the connectors with one leader line each, so which physical end is GND (upper) or RX (lower) is not explicit."
+  ]
+}

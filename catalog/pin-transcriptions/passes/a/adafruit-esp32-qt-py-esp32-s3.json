@@ -1,0 +1,205 @@
+{
+  "recordId": "adafruit-esp32-qt-py-esp32-s3",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/595bcb41b09177e15b48b5844260683279fe9ac9d14a1a659ff22aeb76da650b.png",
+      "sha256": "595bcb41b09177e15b48b5844260683279fe9ac9d14a1a659ff22aeb76da650b"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left castellated header",
+      "image": "media/595bcb41b09177e15b48b5844260683279fe9ac9d14a1a659ff22aeb76da650b.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; vertical row: started at the end closest to the USB connector (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO18",
+          "functions": [
+            "A0",
+            "ADC2_CH7",
+            "U1RXD"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO17",
+          "functions": [
+            "A1",
+            "ADC2_CH6",
+            "U1TXD"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO9",
+          "functions": [
+            "A2",
+            "ADC1_CH8",
+            "FSPIHD",
+            "T9"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO8",
+          "functions": [
+            "A3",
+            "ADC1_CH7",
+            "T8"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO7",
+          "functions": [
+            "SDA",
+            "ADC1_CH6",
+            "T7"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO6",
+          "functions": [
+            "SCL",
+            "ADC1_CH5",
+            "T6"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO5",
+          "functions": [
+            "TX",
+            "ADC1_CH4",
+            "T5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right castellated header",
+      "image": "media/595bcb41b09177e15b48b5844260683279fe9ac9d14a1a659ff22aeb76da650b.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; vertical row: started at the end closest to the USB connector (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": [
+            "3V"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO35",
+          "functions": [
+            "MOSI",
+            "MO",
+            "FSPID"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO37",
+          "functions": [
+            "MISO",
+            "MI",
+            "FSPIQ"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO36",
+          "functions": [
+            "SCK",
+            "FSPICLK"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO16",
+          "functions": [
+            "RX",
+            "ADC2_CH5",
+            "U0CTS",
+            "XTAL_32K_N"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "top-pads",
+      "name": "Pads beside USB connector",
+      "image": "media/595bcb41b09177e15b48b5844260683279fe9ac9d14a1a659ff22aeb76da650b.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; both pads equidistant from USB: started at the left.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VBAT",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "stemma-qt",
+      "name": "I2C STEMMA QT connector",
+      "image": "media/595bcb41b09177e15b48b5844260683279fe9ac9d14a1a659ff22aeb76da650b.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; horizontal row, ends equidistant from USB: started at the left.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO41",
+          "functions": [
+            "SDA",
+            "MTDI"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO40",
+          "functions": [
+            "SCL",
+            "MTDO"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Label = printed GPIO name; CircuitPython name first in functions (silkscreen abbreviation MO/MI/3V follows). Green 'Power Domain' tags (RTC, CPU, SPI/CPU) omitted as category-only tags. Underscores in ADCx_CHy are faint. Button, NeoPixel and NeoPixel power skipped."
+}

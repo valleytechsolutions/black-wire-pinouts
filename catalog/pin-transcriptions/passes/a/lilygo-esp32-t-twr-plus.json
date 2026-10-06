@@ -1,0 +1,324 @@
+{
+  "recordId": "lilygo-esp32-t-twr-plus",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/318ed3411a0dec0ee64dc01cc30ccba985d7f3874ee89ad58d0ce757e34837c2.jpg",
+      "sha256": "318ed3411a0dec0ee64dc01cc30ccba985d7f3874ee89ad58d0ce757e34837c2"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/318ed3411a0dec0ee64dc01cc30ccba985d7f3874ee89ad58d0ce757e34837c2.jpg",
+      "rows": 1,
+      "orderNote": "No printed position numbers; USB-C connector is at the upper part of the left board edge, so the vertical row starts at the top end (closest to USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "LDO2",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO44",
+          "functions": [
+            "RXD",
+            "CLK_OUT2"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO43",
+          "functions": [
+            "TXD",
+            "CLK_OUT1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO14",
+          "functions": [
+            "14",
+            "TOUCH14",
+            "FSPI_WP",
+            "ADC2_CH3"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO11",
+          "functions": [
+            "MOSI",
+            "TOUCH11",
+            "FSPI_D",
+            "ADC2_CH0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO12",
+          "functions": [
+            "SCK",
+            "TOUCH12",
+            "FSPI_CLK",
+            "ADC2_CH1"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "LDO1",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GPIO13",
+          "functions": [
+            "MISO",
+            "TOUCH13",
+            "FSPI_Q",
+            "ADC2_CH2"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO12",
+          "functions": [
+            "SCK",
+            "TOUCH12",
+            "FSPI_CLK",
+            "ADC2_CH1"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO45",
+          "functions": [
+            "45"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO11",
+          "functions": [
+            "MOSI",
+            "TOUCH11",
+            "FSPI_D",
+            "ADC2_CH0"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO13",
+          "functions": [
+            "MISO",
+            "TOUCH13",
+            "FSPI_Q",
+            "ADC2_CH2"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO02",
+          "functions": [
+            "2",
+            "TOUCH02",
+            "ADC1_CH1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/318ed3411a0dec0ee64dc01cc30ccba985d7f3874ee89ad58d0ce757e34837c2.jpg",
+      "rows": 1,
+      "orderNote": "No printed position numbers; top end is closest to the USB-C connector, ordered top to bottom.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "DC5",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO13",
+          "functions": [
+            "13",
+            "TOUCH13",
+            "FSPI_Q",
+            "ADC2_CH2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO12",
+          "functions": [
+            "12",
+            "TOUCH12",
+            "FSPI_CLK",
+            "ADC2_CH1"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO11",
+          "functions": [
+            "11",
+            "TOUCH11",
+            "FSPI_D",
+            "ADC2_CH0"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO14",
+          "functions": [
+            "14",
+            "TOUCH14",
+            "FSPI_WP",
+            "ADC2_CH3"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "DC1",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GPIO09",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO08",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "LDO3",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GPIO16",
+          "functions": [
+            "16",
+            "U0CTS",
+            "ADC2_CH4"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO15",
+          "functions": [
+            "15",
+            "U0RTS",
+            "ADC2_CH5"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "radio-burn-port",
+      "name": "Radio Burn Port (4-pin JST on back view)",
+      "image": "media/318ed3411a0dec0ee64dc01cc30ccba985d7f3874ee89ad58d0ce757e34837c2.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB in the back view; horizontal row ordered left to right, matching the printed label sequence RG RV RT RR.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RG",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "RV",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RT",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RR",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "jst-sh-4pin",
+      "name": "JST-SH 1.0mm 4-pin (STEMMA QT / Qwiic) on back view",
+      "image": "media/318ed3411a0dec0ee64dc01cc30ccba985d7f3874ee89ad58d0ce757e34837c2.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB in the back view; horizontal row ordered left to right, matching the printed label sequence RXD TXD 3V3 GND.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RXD",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "TXD",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "radio-burn-port and jst-sh-4pin: labels are printed as a group above each connector in a small back photo; the per-pin mapping assumes the left-to-right label order matches the pins."
+  ],
+  "notes": "Image titled LILYGO T-TWR PLUS PINMAP. Red boxes read LDO1/LDO2/LDO3 (letter O per signal-name context). Exact repeats (SCL/SDA) omitted from functions."
+}

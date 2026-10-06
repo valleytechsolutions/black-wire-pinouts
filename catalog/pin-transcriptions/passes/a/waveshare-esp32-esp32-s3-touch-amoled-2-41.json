@@ -1,0 +1,312 @@
+{
+  "recordId": "waveshare-esp32-esp32-s3-touch-amoled-2-41",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/a2b2ac2bc7c77fac568981d5314fa607934c2a27462a1f72985af7e2b25b30d4.jpg",
+      "sha256": "a2b2ac2bc7c77fac568981d5314fa607934c2a27462a1f72985af7e2b25b30d4"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "header",
+      "name": "2x17 pin header",
+      "image": "media/a2b2ac2bc7c77fac568981d5314fa607934c2a27462a1f72985af7e2b25b30d4.jpg",
+      "rows": 2,
+      "orderNote": "No pin numbers; USB-C is beside the header near mid-length (top end marginally closer); started at top, outer row = left column (nearest left board edge), alternating rows",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO1",
+          "functions": [
+            "1"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "EXIO5",
+          "functions": [
+            "EX5"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO2",
+          "functions": [
+            "2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "EXIO6",
+          "functions": [
+            "EX6"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO4",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "EXIO7",
+          "functions": [
+            "EX7"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO5",
+          "functions": [
+            "5"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO43",
+          "functions": [
+            "TXD",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO6",
+          "functions": [
+            "6"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO44",
+          "functions": [
+            "RXD",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO7",
+          "functions": [
+            "7"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "GPIO8",
+          "functions": [
+            "8"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GPIO18",
+          "functions": [
+            "18"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GPIO47",
+          "functions": [
+            "SDA",
+            "I2C SDA"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO38",
+          "functions": [
+            "38"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "GPIO48",
+          "functions": [
+            "SCL",
+            "I2C SCL"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "GPIO39",
+          "functions": [
+            "39"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "GPIO42",
+          "functions": [
+            "42"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "GPIO40",
+          "functions": [
+            "40"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "GPIO45",
+          "functions": [
+            "45"
+          ]
+        },
+        {
+          "position": 26,
+          "label": "GPIO41",
+          "functions": [
+            "41"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "GPIO46",
+          "functions": [
+            "46"
+          ]
+        },
+        {
+          "position": 28,
+          "label": "GPIO20",
+          "functions": [
+            "20",
+            "D_P"
+          ]
+        },
+        {
+          "position": 29,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "GPIO19",
+          "functions": [
+            "19",
+            "D_N"
+          ]
+        },
+        {
+          "position": 31,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 32,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 33,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 34,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "uart",
+      "name": "UART JST connector",
+      "image": "media/a2b2ac2bc7c77fac568981d5314fa607934c2a27462a1f72985af7e2b25b30d4.jpg",
+      "rows": 1,
+      "orderNote": "Started at end closest to USB-C (bottom of connector as displayed)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "TXD",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RXD",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "i2c",
+      "name": "I2C JST connector",
+      "image": "media/a2b2ac2bc7c77fac568981d5314fa607934c2a27462a1f72985af7e2b25b30d4.jpg",
+      "rows": 1,
+      "orderNote": "Started at end closest to USB-C (top of connector as displayed)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "USB-C sits to the side of the 2x17 header near its middle; top end chosen as start though distances to both ends are similar",
+    "Outer row taken as the left column (closest to the left board edge in the image)",
+    "UART and I2C connector silkscreen is faint and printed upside down; labels read RXD/TXD/3V3/GND (UART, top to bottom) and SCL/SDA/3V3/GND (I2C, top to bottom)"
+  ],
+  "notes": "BAT (+/-) and RTC (-/+) battery connectors, buttons and USB-C skipped. QMI8658, SD card, PCF85063 and TCA9554 boxes list internal assignments. Header silkscreen names (EX5, TXD, 42, 1...) put first in functions."
+}

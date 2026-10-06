@@ -1,0 +1,576 @@
+{
+  "recordId": "waveshare-esp32-esp32-s3-touch-lcd-3-5",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/c01a41cf397a905d595f7d29fd0bb5ab179eae06d7e0b2a487aa8e3665319211.jpg",
+      "sha256": "c01a41cf397a905d595f7d29fd0bb5ab179eae06d7e0b2a487aa8e3665319211"
+    },
+    {
+      "file": "media/7860dd9ede0f17a083114551d40682ddd7c845e4f6af3f2a7346c279a420212a.png",
+      "sha256": "7860dd9ede0f17a083114551d40682ddd7c845e4f6af3f2a7346c279a420212a"
+    },
+    {
+      "file": "media/331ec56cf3a6fc1a0113fdbe697b7622a25e43eab8c68b5547dd563606c0052b.webp",
+      "sha256": "331ec56cf3a6fc1a0113fdbe697b7622a25e43eab8c68b5547dd563606c0052b"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "header-2x16",
+      "name": "32-pin header",
+      "image": "media/c01a41cf397a905d595f7d29fd0bb5ab179eae06d7e0b2a487aa8e3665319211.jpg",
+      "rows": 2,
+      "orderNote": "Printed pin numbers 1-32 followed (odd column left, even column right)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO21",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GPIO19",
+          "functions": [
+            "DN"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO38",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "DPIO20",
+          "functions": [
+            "DP"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO39",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GPIO11",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GPIO40",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GPIO10",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GPIO41",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO9",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GPIO42",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "GPIO17",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "GPIO45",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GPIO18",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GPIO46",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "GPIO0",
+          "functions": [
+            "BOOT"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "GPIO47",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "GPIO48",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "PWR",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "GPIO43",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 26,
+          "label": "GPIO7",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "GPIO44",
+          "functions": [
+            "RXD"
+          ]
+        },
+        {
+          "position": 28,
+          "label": "GPIO8",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 29,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 31,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 32,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "header-2x16-img2",
+      "name": "32-pin header",
+      "image": "media/7860dd9ede0f17a083114551d40682ddd7c845e4f6af3f2a7346c279a420212a.png",
+      "rows": 2,
+      "orderNote": "Printed pin numbers 1-32 followed (odd column left, even column right)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO21",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GPIO19",
+          "functions": [
+            "DN"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO38",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "DPIO20",
+          "functions": [
+            "DP"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO39",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GPIO11",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GPIO40",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GPIO10",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GPIO41",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO9",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GPIO42",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "GPIO17",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "GPIO45",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GPIO18",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GPIO46",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "GPIO0",
+          "functions": [
+            "BOOT"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "GPIO47",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "GPIO48",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "PWR",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "GPIO44",
+          "functions": [
+            "RXD"
+          ]
+        },
+        {
+          "position": 26,
+          "label": "GPIO7",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "GPIO43",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 28,
+          "label": "GPIO8",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 29,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 31,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 32,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "header-2x16-img3",
+      "name": "32-pin header",
+      "image": "media/331ec56cf3a6fc1a0113fdbe697b7622a25e43eab8c68b5547dd563606c0052b.webp",
+      "rows": 2,
+      "orderNote": "Printed pin numbers 1-32 followed (odd column left, even column right)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO21",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GPIO19",
+          "functions": [
+            "DN"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO38",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "DPIO20",
+          "functions": [
+            "DP"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO39",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GPIO11",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GPIO40",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GPIO10",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GPIO41",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO9",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GPIO42",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "GPIO17",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "GPIO45",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GPIO18",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GPIO46",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "GPIO0",
+          "functions": [
+            "BOOT"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "GPIO47",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "GPIO48",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "PWR",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "GPIO44",
+          "functions": [
+            "RXD"
+          ]
+        },
+        {
+          "position": 26,
+          "label": "GPIO7",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "GPIO43",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 28,
+          "label": "GPIO8",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 29,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 31,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 32,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Image 1 prints TXD(GPIO43) at pin 25 and RXD(GPIO44) at pin 27, while images 2 and 3 print RXD(GPIO44) at 25 and TXD(GPIO43) at 27; the images may show different board revisions/variants and the images do not name the product, so which applies to ESP32-S3-Touch-LCD-3.5 is unclear."
+  ],
+  "notes": "Back view of a Waveshare display board with a 2x16 header and printed pin numbers. Labels use the GPIO name inside parentheses with the prefix (DN, DP, BOOT, TXD, RXD, SCL, SDA) in functions. Pin 8 is printed 'DP(DPIO20)' (likely typo for GPIO20); recorded as printed. Images 2 and 3 show the same header labels on slightly different board photos (image 3 shows a speaker fitted). Battery, speaker (SPK) connectors only have +/- marks and are skipped."
+}

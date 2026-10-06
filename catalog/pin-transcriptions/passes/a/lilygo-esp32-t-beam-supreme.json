@@ -1,0 +1,413 @@
+{
+  "recordId": "lilygo-esp32-t-beam-supreme",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/0327955191f4a863bbc31da8ced5eb8ce444aabc53302aed09972f9de70dd750.jpg",
+      "sha256": "0327955191f4a863bbc31da8ced5eb8ce444aabc53302aed09972f9de70dd750"
+    },
+    {
+      "file": "media/57ec7a1bb35a2a282310dd4f524001de5981decb8e586f6be048bf75a3596cbe.jpg",
+      "sha256": "57ec7a1bb35a2a282310dd4f524001de5981decb8e586f6be048bf75a3596cbe"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/0327955191f4a863bbc31da8ced5eb8ce444aabc53302aed09972f9de70dd750.jpg",
+      "rows": 1,
+      "orderNote": "No USB connector visible in this header view; top-to-bottom rule",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": [
+            "Battery Input"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "VBUS",
+          "functions": [
+            "5V Input"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "VSYS",
+          "functions": [
+            "5V Output ( 500 mA)"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "B-LDO2",
+          "functions": [
+            "0.5V~3.3V Output (300mA)"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "DC4",
+          "functions": [
+            "0.6 ~ 1.84 (2A)"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "DC5",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "DC1",
+          "functions": [
+            "3.3V (500mA)"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "RXD",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "TXD",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/0327955191f4a863bbc31da8ced5eb8ce444aabc53302aed09972f9de70dd750.jpg",
+      "rows": 1,
+      "orderNote": "No USB connector visible in this header view; top-to-bottom rule",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "A-LDO2",
+          "functions": [
+            "0.5V~3.3V Output (300mA)"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "IO46",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "IO45",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "IO39",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "IO38",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "IO2",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "IO3",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "IO6",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "IO21",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "IO48",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "jst-uart",
+      "name": "4-pin JST connector (bottom of expansion board)",
+      "image": "media/0327955191f4a863bbc31da8ced5eb8ce444aabc53302aed09972f9de70dd750.jpg",
+      "rows": 1,
+      "orderNote": "Left-to-right (USB connector at left edge of the expansion board view); labels printed in order under the connector",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "DC1",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "TXD",
+          "functions": [
+            "IO43"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "RXD",
+          "functions": [
+            "IO44"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left header",
+      "image": "media/57ec7a1bb35a2a282310dd4f524001de5981decb8e586f6be048bf75a3596cbe.jpg",
+      "rows": 1,
+      "orderNote": "No USB connector visible in this header view; top-to-bottom rule",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": [
+            "Battery Input"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "VBUS",
+          "functions": [
+            "5V Input"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "VSYS",
+          "functions": [
+            "5V Output ( 500 mA)"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "B-LDO2",
+          "functions": [
+            "0.5V~3.3V Output (300mA)"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "DC4",
+          "functions": [
+            "0.6 ~ 1.84 (2A)"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "DC5",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "DC1",
+          "functions": [
+            "3.3V (500mA)"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "RXD",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "TXD",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Right header",
+      "image": "media/57ec7a1bb35a2a282310dd4f524001de5981decb8e586f6be048bf75a3596cbe.jpg",
+      "rows": 1,
+      "orderNote": "No USB connector visible in this header view; top-to-bottom rule",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "A-LDO2",
+          "functions": [
+            "0.5V~3.3V Output (300mA)"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "IO46",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "IO45",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "IO39",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "IO38",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "IO2",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "IO3",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "IO6",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "IO21",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "IO48",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "jst-uart-img2",
+      "name": "4-pin JST connector (bottom of expansion board)",
+      "image": "media/57ec7a1bb35a2a282310dd4f524001de5981decb8e586f6be048bf75a3596cbe.jpg",
+      "rows": 1,
+      "orderNote": "Left-to-right (USB connector at left edge of the expansion board view); labels printed in order under the connector",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "DC1",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "TXD",
+          "functions": [
+            "IO43"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "RXD",
+          "functions": [
+            "IO44"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "jst-uart / jst-uart-img2: the 4 labels (GND DC1 TXD RXD) are printed below the connector and spread wider than it; the label-to-pin mapping is inferred from left-to-right order"
+  ],
+  "notes": "Both images are the same composite; headers read from the bottom-left board view with external labels. Notes for VBAT/VBUS/VSYS, A-LDO2/B-LDO2, DC4 and DC1 come from the printed legend text in the image. Several left-header pads (GND after VSYS through DC5) are hidden under the display flex in the photo but are labeled. TF card, LoRa, IMU, RTC, PMU, BME280 and QMC6310 IO lists are internal assignments, not header pins, and are skipped. Images differ only in PMU SDA/SCL text."
+}

@@ -1,0 +1,242 @@
+{
+  "recordId": "lilygo-esp32-t-beam-v1-1",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/c4373b7e0f9d2100d17578aeaff95f70c62d8314fba945afbbf7c82b939b05a6.jpg",
+      "sha256": "c4373b7e0f9d2100d17578aeaff95f70c62d8314fba945afbbf7c82b939b05a6"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/c4373b7e0f9d2100d17578aeaff95f70c62d8314fba945afbbf7c82b939b05a6.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at bottom end (closest to micro-USB on the left edge near the bottom of the headers)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO02",
+          "functions": [
+            "2",
+            "ADC12",
+            "TOUCH2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO13",
+          "functions": [
+            "13",
+            "ADC14",
+            "TOUCH4"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO14",
+          "functions": [
+            "14",
+            "ADC16",
+            "TOUCH6"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO25",
+          "functions": [
+            "25",
+            "ADC18",
+            "DAC1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO33",
+          "functions": [
+            "33",
+            "ADC5",
+            "TOUCH8"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO32",
+          "functions": [
+            "32",
+            "ADC4",
+            "TOUCH9"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO35",
+          "functions": [
+            "35",
+            "ADC7"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO15",
+          "functions": [
+            "15",
+            "ADC13",
+            "TOUCH3"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GPIO39",
+          "functions": [
+            "VN",
+            "SVN",
+            "ADC3"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO36",
+          "functions": [
+            "VP",
+            "SVP",
+            "ADC0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/c4373b7e0f9d2100d17578aeaff95f70c62d8314fba945afbbf7c82b939b05a6.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at bottom end (closest to micro-USB on the left edge near the bottom of the headers)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "Lora_IO2",
+          "functions": [
+            "LoRa2"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "Lora_IO1",
+          "functions": [
+            "LoRa1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": [
+            "3.3V"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "22",
+          "functions": [
+            "21",
+            "Wire_SCL"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "21",
+          "functions": [
+            "22",
+            "Wire_SDA"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "DCDC1",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO00",
+          "functions": [
+            "0",
+            "ADC11",
+            "TOUCH1"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO4",
+          "functions": [
+            "4",
+            "ADC10",
+            "TOUCH0"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "23",
+          "functions": [
+            "VSPI_MOSI"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GOIO03",
+          "functions": [
+            "RX",
+            "RXD",
+            "Serial RX"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GOIO01",
+          "functions": [
+            "TX",
+            "TXD",
+            "Serial TX"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "Stylized callout font: GPIO36/39/32/33/25/14/13 render with an open 'O' resembling 'GPIC'; recorded as GPIO. O vs 0 ambiguous in ADC0, GPIO00, GPIO02, Lora_IO1/IO2 and the 'GOIO01/GOIO03' callouts (recorded as printed reading; 'GOIO' appears to be a typo for GPIO)."
+  ],
+  "notes": "Labels from callouts; silkscreen spelling first in functions when different. LoRa module and NEO GPS internal pin tables are not header pins and were not transcribed. Right-side callouts are aligned by row with the pins (leader lines stop short of the board).",
+  "uncertain": [
+    "Right header: silkscreen reads 22 then 21 (top to bottom) while callouts read 21 (Wire_SDA) then 22 (Wire_SCL) for the same rows; callout labels used with silkscreen in functions.",
+    "Right header row 7: silkscreen 3V3 but callout DCDC1.",
+    "Right-side callouts are matched to pins by row alignment only."
+  ]
+}

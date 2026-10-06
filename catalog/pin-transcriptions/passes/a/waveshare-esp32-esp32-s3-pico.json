@@ -1,0 +1,609 @@
+{
+  "recordId": "waveshare-esp32-esp32-s3-pico",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/fc8a1e69c46cded150da4bc8e65ba68180529324e81f72c8b270485e57ac7b82.webp",
+      "sha256": "fc8a1e69c46cded150da4bc8e65ba68180529324e81f72c8b270485e57ac7b82"
+    },
+    {
+      "file": "media/dbe380d2eb31978d22697ccd6437dfd9de015424c994de97c4460b6217892270.jpg",
+      "sha256": "dbe380d2eb31978d22697ccd6437dfd9de015424c994de97c4460b6217892270"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "right-header",
+      "name": "Right castellated row (pins 1-20)",
+      "image": "media/fc8a1e69c46cded150da4bc8e65ba68180529324e81f72c8b270485e57ac7b82.webp",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 1-20, top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP11",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GP12",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GP13",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GP14",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GP15",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GP16",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GP17",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GP18",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GP33",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GP34",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GP35",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GP36",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "GP37",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "GP38",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GP39",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "GP40",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header",
+      "name": "Left castellated row (pins 21-40)",
+      "image": "media/fc8a1e69c46cded150da4bc8e65ba68180529324e81f72c8b270485e57ac7b82.webp",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 21-40, bottom to top; position 1 = printed 21",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP42",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GP41",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GP1",
+          "functions": [
+            "ADC1_CH0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP2",
+          "functions": [
+            "ADC1_CH1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP4",
+          "functions": [
+            "ADC1_CH3"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP5",
+          "functions": [
+            "ADC1_CH4"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GP6",
+          "functions": [
+            "ADC1_CH5"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "RUN",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GP7",
+          "functions": [
+            "ADC1_CH6"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP8",
+          "functions": [
+            "ADC1_CH7"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GP9",
+          "functions": [
+            "ADC1_CH8"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GP10",
+          "functions": [
+            "ADC1_CH9"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "3V3(OUT)",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "3V3_EN",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "VSYS",
+          "functions": [
+            "Vsys"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "VBUS",
+          "functions": [
+            "Vbus"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-pads",
+      "name": "Labelled test pads TP1-TP6 (near USB)",
+      "image": "media/fc8a1e69c46cded150da4bc8e65ba68180529324e81f72c8b270485e57ac7b82.webp",
+      "rows": 1,
+      "orderNote": "Ordered by printed TP designator numbers TP1-TP6",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": [
+            "TP1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D_N",
+          "functions": [
+            "TP2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "D_P",
+          "functions": [
+            "TP3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP3",
+          "functions": [
+            "TP4"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP21",
+          "functions": [
+            "TP5"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP0",
+          "functions": [
+            "TP6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Right castellated row (pins 1-20)",
+      "image": "media/dbe380d2eb31978d22697ccd6437dfd9de015424c994de97c4460b6217892270.jpg",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 1-20, top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP11",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GP12",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GP13",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GP14",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GP15",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GP16",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GP17",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GP18",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GP33",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GP34",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GP35",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GP36",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "GP37",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "GP38",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GP39",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "GP40",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left castellated row (pins 21-40)",
+      "image": "media/dbe380d2eb31978d22697ccd6437dfd9de015424c994de97c4460b6217892270.jpg",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 21-40, bottom to top; position 1 = printed 21",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP42",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GP41",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GP1",
+          "functions": [
+            "ADC1_CH0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP2",
+          "functions": [
+            "ADC1_CH1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP4",
+          "functions": [
+            "ADC1_CH3"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP5",
+          "functions": [
+            "ADC1_CH4"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GP6",
+          "functions": [
+            "ADC1_CH5"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "RUN",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GP7",
+          "functions": [
+            "ADC1_CH6"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP8",
+          "functions": [
+            "ADC1_CH7"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GP9",
+          "functions": [
+            "ADC1_CH8"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GP10",
+          "functions": [
+            "ADC1_CH9"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "3V3(OUT)",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "3V3_EN",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "VSYS",
+          "functions": [
+            "Vsys"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "VBUS",
+          "functions": [
+            "Vbus"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-pads-img2",
+      "name": "Labelled test pads TP1-TP6 (near USB)",
+      "image": "media/dbe380d2eb31978d22697ccd6437dfd9de015424c994de97c4460b6217892270.jpg",
+      "rows": 1,
+      "orderNote": "Ordered by printed TP designator numbers TP1-TP6",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": [
+            "TP1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D_N",
+          "functions": [
+            "TP2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "D_P",
+          "functions": [
+            "TP3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP3",
+          "functions": [
+            "TP4"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP21",
+          "functions": [
+            "TP5"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP0",
+          "functions": [
+            "TP6"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Test pads TP1-TP6 are scattered pads, not a header row; grouping them as one 'test-pads' connector ordered by TP number is a choice the image leaves open."
+  ],
+  "notes": "Bottom-view pinout. Images 1 and 2 are identical artwork (webp and jpg); transcribed separately per rule 11. Outer labels used as label; differing board silkscreen (Vbus, Vsys, 3V3) listed first in functions. Test-pad labels mapped by the leader lines: GND-TP1, D_N-TP2, D_P-TP3, GP3-TP4, GP21-TP5, GP0-TP6."
+}

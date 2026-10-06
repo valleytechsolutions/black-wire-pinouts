@@ -1,0 +1,144 @@
+{
+  "recordId": "adafruit-trrs-trinkey",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/ef87fc52fe04904fe85dfb9b937f5d05e7b5546db716b9746da17a70b3a2a176.png",
+      "sha256": "ef87fc52fe04904fe85dfb9b937f5d05e7b5546db716b9746da17a70b3a2a176"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "trrs-jack",
+      "name": "TRRS audio jack contacts",
+      "image": "media/ef87fc52fe04904fe85dfb9b937f5d05e7b5546db716b9746da17a70b3a2a176.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; jack contacts listed vertically beside the board, neither end closer to USB, so top-to-bottom as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PA02",
+          "functions": [
+            "TIP",
+            "2",
+            "VOUT",
+            "AIN0",
+            "Y0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PA03",
+          "functions": [
+            "TIP_SWITCH",
+            "3",
+            "VREFA",
+            "AIN1",
+            "Y1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA06",
+          "functions": [
+            "RING_1",
+            "6",
+            "AIN6",
+            "Y4",
+            "S0.2",
+            "TCC1[0]"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA07",
+          "functions": [
+            "RING_1_SWITCH",
+            "7",
+            "AIN7",
+            "Y5",
+            "S0.3",
+            "TCC1[1]",
+            "I2S/SD0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PA04",
+          "functions": [
+            "RING_2",
+            "4",
+            "VREFB",
+            "AIN4",
+            "Y2",
+            "S0.0",
+            "TCC0[0]"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA05",
+          "functions": [
+            "SLEEVE",
+            "5",
+            "AIN5",
+            "Y3",
+            "S0.1",
+            "TCC0[1]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "i2c-port",
+      "name": "STEMMA QT / I2C connector",
+      "image": "media/ef87fc52fe04904fe85dfb9b937f5d05e7b5546db716b9746da17a70b3a2a176.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; connector drawn horizontally below board with USB plug on the left, so position 1 is the wire end closest to USB (leftmost wire = SCL), matching the top-to-bottom label list",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PA09",
+          "functions": [
+            "SCL",
+            "9",
+            "AIN17",
+            "S0.1",
+            "S2.0",
+            "TCC0[1]",
+            "TCC1[3]",
+            "I2S/MCK0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PA08",
+          "functions": [
+            "SDA",
+            "NMI",
+            "AIN16",
+            "S0.0",
+            "S2.0",
+            "TCC0[0]",
+            "TCC1[2]",
+            "I2S/SD1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Adafruit pinout diagram. NEOPIXEL (PA01) is an on-board LED and is skipped. Labels use the PAxx GPIO names; CircuitPython names (TIP, SCL...) are listed first in functions."
+}

@@ -1,0 +1,57 @@
+{
+  "recordId": "adafruit-rp2040-trinkey-qt2040",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/0f098d6564c04fa421e1ee09565fa0635a9ceae3590fa1e4fb44b10fb4894a72.png",
+      "sha256": "0f098d6564c04fa421e1ee09565fa0635a9ceae3590fa1e4fb44b10fb4894a72"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "stemma-qt",
+      "name": "STEMMA QT connector",
+      "image": "media/0f098d6564c04fa421e1ee09565fa0635a9ceae3590fa1e4fb44b10fb4894a72.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical connector on the right edge, both ends equidistant from the USB plug, so started at the top as displayed (colored dots yellow, blue, red, black)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO17",
+          "functions": [
+            "SCL",
+            "CSn0",
+            "RX0",
+            "SCL0",
+            "PWM0B"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO16",
+          "functions": [
+            "SDA",
+            "RX0",
+            "TX0",
+            "SDA0",
+            "PWM0A"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Only the STEMMA QT connector is shown as a wiring point; its four pins are individually labeled. USB plug skipped. NEOPIXEL (GPIO27) and BUTTON (GPIO12) are internal and skipped. Labels use GPIO names with the CircuitPython name first in functions."
+}

@@ -1,0 +1,228 @@
+{
+  "recordId": "lilygo-esp32-t8-c3",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/f4b35576d02f641386f5472390f00dd04ec305770c950bc2935b1d5eff787eb7.jpg",
+      "sha256": "f4b35576d02f641386f5472390f00dd04ec305770c950bc2935b1d5eff787eb7"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/f4b35576d02f641386f5472390f00dd04ec305770c950bc2935b1d5eff787eb7.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; USB-C at bottom, so position 1 is the bottom (USB-nearest) end.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GPIO10",
+          "functions": [
+            "IO10",
+            "FSPI_CS0"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO08",
+          "functions": [
+            "IO8",
+            "BOOT"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO07",
+          "functions": [
+            "IO7",
+            "FSPI_D"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO06",
+          "functions": [
+            "IO6",
+            "FSPI_CLK"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO03",
+          "functions": [
+            "IO3",
+            "ADC1_CH3"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO01",
+          "functions": [
+            "IO1",
+            "ADC1_CH1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "NC",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/f4b35576d02f641386f5472390f00dd04ec305770c950bc2935b1d5eff787eb7.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; USB-C at bottom, so position 1 is the bottom (USB-nearest) end.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GPIO04",
+          "functions": [
+            "IO04",
+            "FSPI_HD",
+            "ADC1_CH4"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO00",
+          "functions": [
+            "IO00",
+            "ADC1_CH0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO02",
+          "functions": [
+            "IO02",
+            "FSPI_Q",
+            "ADC1_CH2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO05",
+          "functions": [
+            "IO05",
+            "FSPI_WP",
+            "ADC2_CH0"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "D-",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "D+",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GPIO20",
+          "functions": [
+            "RX0",
+            "Serial RX0"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO21",
+          "functions": [
+            "TX0",
+            "Serial TX0"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO09",
+          "functions": [
+            "IO09"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "Grey and pink callouts use a font where letter O and digit 0 look alike (IO09, GPIO00, TX0, FSPI_CS0); digit 0 used after the IO/GPIO prefix and in TX0/RX0/CS0."
+  ],
+  "uncertain": [],
+  "notes": "Image titled 'LILYGO T8-C3 ESP32 C3'. Labels from the pink GPIOxx callouts; grey IOxx/TX0/RX0 names listed first in functions. TF Card table (CS -- IO06, SCK -- IO04, MISO -- IO02, MOSI -- IO07) describes on-board wiring and is not a connector. JST 1.25mm battery connector, antenna and USB-C skipped."
+}

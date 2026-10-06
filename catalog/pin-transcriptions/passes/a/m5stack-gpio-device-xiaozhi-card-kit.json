@@ -1,0 +1,77 @@
+{
+  "recordId": "m5stack-gpio-device-xiaozhi-card-kit",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/f57548d6fbd6ce5643fb59a1adfffe0d805df5aeef02d931fa83c93074130864.jpg",
+      "sha256": "f57548d6fbd6ce5643fb59a1adfffe0d805df5aeef02d931fa83c93074130864"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-pads",
+      "name": "Bottom-left 4 pogo pads",
+      "image": "media/f57548d6fbd6ce5643fb59a1adfffe0d805df5aeef02d931fa83c93074130864.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers and no identifiable USB connector; horizontal row ordered left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G0",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G17",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "G18",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-pads",
+      "name": "Bottom-right 4 pogo pads",
+      "image": "media/f57548d6fbd6ce5643fb59a1adfffe0d805df5aeef02d931fa83c93074130864.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers and no identifiable USB connector; horizontal row ordered left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "DM",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "DP",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "A slot-shaped opening at the bottom center between the two pad groups may be a USB-C port, but it is not labeled. If it is USB, rule 4 would start the left group at its right end (G18) and the right group at its left end (5V); left-to-right order was used for both."
+  ],
+  "notes": "Labels read from the callout bars below the device; the two callout groups are linked to the two 4-pad groups by shaded leader shapes."
+}

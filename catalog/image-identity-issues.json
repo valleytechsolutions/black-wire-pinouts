@@ -1,0 +1,948 @@
+{
+ "scope": "Records whose pinout image may show another product or variant. Replace or re-attribute the image; no reading of it can fix this.",
+ "records": [
+  {
+   "recordId": "arduino-other-mini-04-and-05-shared-reference",
+   "notes": [
+    "Board identity: drawing is labeled 'MINI 04' only; nothing in the image confirms it also applies to Mini 05.",
+    "Corner pads (top-left 'TX', top-right '+9V') assigned to the left/right columns because their labels sit beside the columns; they also lie in line with the top row.",
+    "Bottom 2x2 block: labels AD6/AD4/AD7/AD5 are attached by leader lines; mapping read as top-left AD6, bottom-left (square) AD4, top-right AD7, bottom-right AD5. Grouping as one 2x2 connector and row orientation are interpretations.",
+    "Digital pins are printed only as numbers (2-13); used as printed."
+   ]
+  },
+  {
+   "recordId": "arduino-other-opta",
+   "notes": [
+    "Relay pairs have only a shared D0-D3 relay designation; distinct terminal identities not supplied."
+   ]
+  },
+  {
+   "recordId": "arduino-other-uno-rev3-with-long-pins",
+   "notes": [
+    "Board identity: image is titled 'ARDUINO UNO REV3' and does not show or mention the long-pin header variant named by this record"
+   ]
+  },
+  {
+   "recordId": "banana-pi-other-sbc-bpi-cm5-pro",
+   "notes": [
+    "Treated as a different product per rule 12: the images are pin tables for the ArmSoM-CM5 (with CM4 and BPI-CM4 reference columns), not the BPI-CM5 Pro. The tables list pin numbers 1-200 with Default/Act function columns but no board drawing."
+   ]
+  },
+  {
+   "recordId": "dfrobot-dfr0213",
+   "notes": [
+    "Board silkscreen reads 'Dreamer Nano V4.0' while the record is V4.1; identity of revision not confirmed.",
+    "Label-to-pad association: silkscreen text sits between pads; assigned each label to the pad directly below it (consistent with the side callouts Serial TX/RX, SDA, SCL, 6.5V-12V and the last labels D12/D13). Top pads: left 'D1TX' and right 'VIN' are printed rotated beside the pad.",
+    "ICSP 2x3 header (marked 'SPI' and '1') not transcribed because its pins are not individually labelled."
+   ]
+  },
+  {
+   "recordId": "dfrobot-dfr0975-u",
+   "notes": [
+    "Board identity: the image shows an ESP32-S3-WROOM-1 module (PCB-antenna outline) labelled 'FireBeetle 2 ESP32-S3 V1.0', not visibly a -U (external antenna) variant; this record's DFR0975-U may differ.",
+    "Rear-view top pads: the JTAG 2x2 cluster (TDI/TMS/TCK/TDO) and the loose pads 47/D14, VUSB, GND, RST were grouped and ordered by judgment; the image does not define them as headers or give an order."
+   ]
+  },
+  {
+   "recordId": "dfrobot-dfr1145",
+   "notes": [
+    "Board identity: the image's silkscreen reads 'FireBeetle 2 ESP32-S3 V1.0'; nothing in the image identifies it as the DFR1145 'AIoT Development Board', which may be a different board.",
+    "Rear-view top pads: the JTAG 2x2 cluster (TDI/TMS/TCK/TDO) and the loose pads 47/D14, VUSB, GND, RST were grouped and ordered by judgment; the image does not define them as headers or give an order."
+   ]
+  },
+  {
+   "recordId": "dfrobot-dfr1284",
+   "notes": [
+    "Image shows a module printed 'ESP32-C5-WROOM-1' and no product name; the record is the ESP32-C5-U(N4) IO Development Kit, so the image may depict a different variant (e.g. the non-U board)."
+   ]
+  },
+  {
+   "recordId": "dfrobot-dfr1287",
+   "notes": [
+    "Image shows a module printed 'ESP32-C5-WROOM-1' and no product name; the record is the ESP32-C5-U(N4) IoT Development Board, so the image may depict a different variant (e.g. the non-U board)."
+   ]
+  },
+  {
+   "recordId": "elecrow-esp32-crowpanel-advance-4-3-hmi-esp32-ai-display",
+   "notes": [
+    "J2/J12/J13: labels are a rotated legend beside the connector, not next to each pad; mapping legend line order (left-to-right) to pad order (left-to-right) is an interpretation.",
+    "J9/J11: 2x7 SMD pad footprints with a single 7+7 'Wireless module' legend between them; assignment of the left legend column to J9 and right column to J11, and treating both pads of a row as the same signal, is an interpretation.",
+    "J3 (BAT) and J15 (SPK) are labeled only with -/+ polarity marks; included as labeled connectors, could be considered battery/speaker-only connectors to skip.",
+    "Image is a bare PCB render (no components fitted); unlabeled FPC2, J5 TF slot, and USB J1 skipped."
+   ]
+  },
+  {
+   "recordId": "elecrow-esp32-crowpanel-esp32-hmi-4-3-inch-display",
+   "notes": [
+    "J7, J10, J4 and J5 have no label beside each individual pad; names come from a nearby silkscreen text box (e.g. 'IO38 IO37 3V3 GND' next to J7, '3V3 3V3 GND GND IO18-RX1 IO17-TX1 IO38 IO37' next to J4, 'VON- VOP+' next to J5). The pad-to-name mapping assumes the box lines run left-to-right in the same order as the pads; the image does not mark this explicitly.",
+    "Board identity: the PCB silkscreen reads 'ESP32 Display-4.3 Inch SKU:DIS06043H V2.0' (Elecrow); the record name 'CrowPanel ESP32 HMI 4.3-inch Display' is not printed in the image."
+   ]
+  },
+  {
+   "recordId": "elecrow-rp2040-crowpanel-pico-hmi-4-3-inch-display",
+   "notes": [
+    "J1, J2, J6 and J5 labels are printed in boxes beside the connectors rather than at each pad; which box belongs to which connector and the pad-by-pad mapping were inferred from proximity and the GPIO_D/ADC/I2C tags.",
+    "gp-header: the GP label table below the 16-pad row does not align pad-by-pad; mapping table order left-to-right onto the pads, and treating 'GP' + number as the pin name, is inferred. The row has no visible designator.",
+    "J10 (small connector with 4 fine pads) has a box reading 'SCL_GP21' and 'SDA_GP20'; only two labels for four pads, so it was not transcribed.",
+    "Labels of the J1/J2/J6/J5/gp-header connectors are tiny in the render; position 1 at the USB-nearest end depends on the USB connector being the bottom-right 'USB' port."
+   ]
+  },
+  {
+   "recordId": "espressif-esp32-esp32-c61-devkitc-1",
+   "notes": [
+    "The two images assign different signals to the same pads (image 1: GPIO29 and NC/GPIO14 on the left, GPIO28/27/26/25 with SDIO on the right; image 2: those pads are NC and NC/GPIO14 moves to the right header). They look like two module variants of the same board; which applies to this record is not settled by the images."
+   ]
+  },
+  {
+   "recordId": "espressif-esp32-esp32-c61-devkitc-1-v1-0",
+   "notes": [
+    "Board identity/version: the image title reads only \"ESP32-C61-DevKitC-1\" with no hardware version; nothing in the image confirms it is v1.0 (another, different ESP32-C61-DevKitC-1 diagram exists for v2.0)."
+   ]
+  },
+  {
+   "recordId": "espressif-esp32-esp32-c61-devkitc-1-v2-0",
+   "notes": [
+    "Board identity/version: the image title reads only \"ESP32-C61-DevKitC-1\" with no hardware version; nothing in the image confirms it is v2.0 (a different ESP32-C61-DevKitC-1 diagram with NC pads in place of GPIO25-29 also exists)."
+   ]
+  },
+  {
+   "recordId": "espressif-esp32-esp32-devkitc-v4-wroom-32e",
+   "notes": [
+    "Image is titled 'ESP32-DevKitC' and the module is drawn as 'ESP32-WROOM' with no version or WROOM-32E marking; cannot confirm it depicts the DevKitC V4 with WROOM-32E."
+   ]
+  },
+  {
+   "recordId": "espressif-esp32-esp32-s2-saola-1mi",
+   "notes": [
+    "Pinout is a third-party diagram (mischianti.org) titled 'ESP32 S2 Saola 1MI'; board silkscreen in the photo is too small to confirm the variant."
+   ]
+  },
+  {
+   "recordId": "espressif-esp32-esp32-s3-devkitc-1-v1-1",
+   "notes": [
+    "Image is titled 'ESP32-S3-DevKitC-1' with no hardware revision; it cannot confirm it depicts v1.1 specifically."
+   ]
+  },
+  {
+   "recordId": "espressif-esp32-esp8684-devkitm-1-v1-1",
+   "notes": [
+    "Image is titled 'ESP8684-DevKitM-1' with no board revision; it cannot confirm v1.1."
+   ]
+  },
+  {
+   "recordId": "freenove-esp32-esp32-wrover-board-v1-6",
+   "notes": [
+    "Image is titled 'FREENOVE ESP32 WROVER CAM Pinout' and the board reads 'ESP32-WROVER-CAM'; cannot confirm from the image that it is the 'ESP32 WROVER Board v1.6' record",
+    "Silkscreen 'VCC' box spans both bottom-left pins labeled 5V; applied to both",
+    "Silkscreen 'GND' box beside right pins 10-11 from the top (after GPIO5) spans two pins; both recorded as GND per callouts"
+   ]
+  },
+  {
+   "recordId": "generic-manufacturer-unconfirmed-esp32-esp32-cam",
+   "notes": [
+    "Dark number boxes (18, 20, 21 ... 41) interpreted as ESP32 chip pin numbers, placed after silkscreen name in functions",
+    "Third-party mischianti.org diagram titled 'ESP32 CAMERA'; board silkscreen reads ESP32-CAM"
+   ]
+  },
+  {
+   "recordId": "generic-manufacturer-unconfirmed-esp32-nodemcu-32s",
+   "notes": [
+    "Dark number boxes next to each pin (5, 8, 10 ... 42) interpreted as ESP32 chip pin numbers rather than header positions and placed first in functions",
+    "Image is a third-party (mischianti.org) diagram of an 'ESP32 NODEMCU-32S ESP-32S Kit' photo; board identity follows the image title only",
+    "Left header label 'GPIO09' copied as printed (extra leading zero)"
+   ]
+  },
+  {
+   "recordId": "generic-manufacturer-unconfirmed-other-stm32f103c6t6-blue-pill",
+   "notes": [
+    "Board identity: the image title is 'STM32F103C6', but the chip in the board photo is marked 'CKS32F 103C8T6' (a CKS part, C8 rather than C6); the photo may not show the exact product named in the record.",
+    "BOOT jumper header: labels are on a schematic 2x3 grid drawn below the micro-USB, not on the photo. Which column is the outer row and which end is physically nearest the USB on the real board (in the photo the jumper block sits above the USB, so its bottom/GND row would be nearer) are not settled by the image; positions follow the grid as drawn.",
+    "Top SWD header: pad mapping taken from leader lines (GND, PA14, PA13, 3V3 left to right); the photo shows the four pins but no silkscreen for them."
+   ]
+  },
+  {
+   "recordId": "generic-manufacturer-unconfirmed-other-stm32f103c8t6-blue-pill",
+   "notes": [
+    "Board identity: the image title is 'STM32F103C8', but the chip in the board photo is marked 'CKS32F 103C8T6' (a CKS part); the photo may not show the exact product named in the record.",
+    "BOOT jumper header: labels are on a schematic 2x3 grid drawn below the micro-USB, not on the photo. Which column is the outer row and which end is physically nearest the USB on the real board (in the photo the jumper block sits above the USB, so its bottom/GND row would be nearer) are not settled by the image; positions follow the grid as drawn.",
+    "Top SWD header: pad mapping taken from leader lines (GND, PA14, PA13, 3V3 left to right); the photo shows the four pins but no silkscreen for them."
+   ]
+  },
+  {
+   "recordId": "halehound-cyd-spi-28",
+   "notes": [
+    "Board identity: the record is the CYD 2.8 SPI-exposed build, but the bottom photo shows a board marked '3.5' and the top close-up does not show which display board it is.",
+    "Pad count per side (14) is inferred from overlapping grey pad markers; the exact number and spacing of unlabeled pads is not settled by the image.",
+    "'GPIO 0' label is printed below the right column rather than beside a pad; assigned to the lowest right-side pad because the green wire attaches there.",
+    "Bottom photo shows JST connectors with small silkscreen labels (SPI, I2C, UART, IO35/IO39) but on a board marked 3.5; skipped as possibly a different product."
+   ]
+  },
+  {
+   "recordId": "hatlabs-sh-esp32",
+   "notes": [
+    "Silkscreen labels are printed in two text rows below the header; the upper text row was assigned to the upper (outer) pin row and the lower text row to the lower (inner) pin row. The image does not explicitly tie text rows to pin rows.",
+    "Column alignment of labels to pin columns was estimated from horizontal positions; labels in the right part (G/0, 27/G, 26/25, 18/5, 21/19, 23/22) are slightly offset from the pin columns.",
+    "Power/ground are printed only as 'G' and '+'; kept as printed. Circles around some numbers and boxes grouping pins (one marked 'I2C') were omitted as symbols/group tags.",
+    "Image is a cropped 3D render of one header area; no board name visible. Row of square edge pads and an FPC connector at the bottom are unlabeled/cut off and not transcribed."
+   ]
+  },
+  {
+   "recordId": "heltec-esp32-wifi-kit-32-v2-1",
+   "notes": [
+    "The shared image is titled NEW WIFI Kit 32 and does not visibly establish revision V2.1. Confirm applicability to this revision before export."
+   ]
+  },
+  {
+   "recordId": "heltec-esp32-wireless-tracker-v2-3",
+   "notes": [
+    "Record names V2.3; image says Rev. 2.0 and HT-Tracker_V2. Confirm this pin map applies to V2.3."
+   ]
+  },
+  {
+   "recordId": "high-code-gpio-device-high-boy-rev-2-2-mvp",
+   "notes": [
+    "Image is a PCB-editor 3D render (silkscreen 'High_Boy REV 2.2'), not a pinout diagram; it does not say whether this is the MVP build named in the record.",
+    "Labeled single test pads (GND/SYS/3V3/5V, BAT, I2C_SDA/I2C_SCL, IR_RX/IR_TX) were treated as wiring points and grouped by proximity; the image does not show whether they are intended as connection points, and the grouping is a judgment."
+   ]
+  },
+  {
+   "recordId": "inland-support-644",
+   "notes": [
+    "Image is a generic Fritzing 'UNO R3' illustration (caption 'Source: Fritzing'); it does not show Inland branding, so identity with the Inland UNO R3 board is not confirmed by the image.",
+    "Labels for the two top-right pins taken from callouts ('Clock'/'Data' with I2C) because no SCL/SDA name is printed.",
+    "ICSP and ICSP2 2x3 headers are shown but their pins are not individually labelled (only a '1' marker), so they were skipped."
+   ]
+  },
+  {
+   "recordId": "inland-support-652",
+   "notes": [
+    "Right header GND label connects by a bracket to two pins (top pin and the pin after IO21); both recorded as GND",
+    "Image shows an ESP32-WROOM-32 core board without Inland branding; identity follows the record only, color/variant ('Black and Eco-friendly') not verifiable"
+   ]
+  },
+  {
+   "recordId": "inland-uno-v4-kit",
+   "notes": [
+    "digital-header-upper positions 1-2 have no silkscreen; only callouts 'I2C -> Clock' and 'I2C -> Data' are printed, so labels 'I2C Clock'/'I2C Data' were formed from the callouts (arrow omitted).",
+    "Callouts as printed: D11 is labeled 'SPI -> MISO' (same as D12) and Vin's callout reads '5V'; copied as printed.",
+    "Callout category words 'Digital' and 'Analog' kept only where combined with a function ('Digital PWM') or as the only extra text on analog pins; '~' prefixes are the silkscreen PWM marks. Silkscreen 'TX->1' and 'RX<-0' include arrows, transcribed as 'TX 1'/'RX 0'.",
+    "Image shows a board silkscreened 'UNO R3'; nothing in the image names Inland or V4.0, so identity is not confirmed. Unlabeled ICSP/JP2 pin blocks not transcribed."
+   ]
+  },
+  {
+   "recordId": "invector-labs-rp2040-challenger-nb-rp2040-wifi",
+   "notes": [
+    "Image prints only the ILABS logo, not the product name; identity as Challenger NB RP2040 WiFi (vs. sibling Challenger variants) is assumed from the record."
+   ]
+  },
+  {
+   "recordId": "invector-labs-rp2040-challenger-rp2040-wifi",
+   "notes": [
+    "Image prints only the ILABS logo, not the product name; identity as Challenger RP2040 WiFi (vs. sibling Challenger variants) is assumed from the record."
+   ]
+  },
+  {
+   "recordId": "lilygo-esp32-t-display-c5",
+   "notes": [
+    "USB connector identity: the metal receptacle at the bottom edge (under the battery JST) is unlabeled; it was treated as the USB connector, which sets bottom-first order for both headers and right-end-first order for the UART JST. If not USB, the headers would start at the top.",
+    "uart-jst: the callout text 'GND 3V TX RX' and '(25)(24)' sits beside the connector rather than on leader lines; mapping each word to a pin in order (and (25) to TX, (24) to RX) is inferred."
+   ]
+  },
+  {
+   "recordId": "lilygo-esp32-t-display-s3-pro-lr1121",
+   "notes": [
+    "Image titled 'T-Diaplsy S3 Pro LR1121 Shield' (as printed): front photo of the assembled device with tables of internal peripheral-to-IO assignments (LR1121, RTC, RT9080 power, MAX98357A, microphone, vibration motor). No pin header, pads or labeled wiring connector positions are shown."
+   ]
+  },
+  {
+   "recordId": "lilygo-esp32-t-sim7080x-s3",
+   "notes": [
+    "Board identity: image title reads \"LILYGO T-SIM7080G-S3 PINOUT\" while the record is T-SIM7080X-S3; assumed the same product (X as variant wildcard).",
+    "Pin order: both USB connectors are on the long side of the board, not at a header end; bottom end chosen as nearest, which reverses the visual top-to-bottom listing."
+   ]
+  },
+  {
+   "recordId": "lilygo-esp32-t3-s3-mvsr-board",
+   "notes": [
+    "Board grouping: the main view shows the T3-S3-MVSRBoard_V1.0 daughterboard stacked over a T3-S3 board; the 13+13 holes visible are on the stacked board and carry no silkscreen, so the callout-to-hole mapping relies on row alignment and on the callouts applying to the stacked board's holes."
+   ]
+  },
+  {
+   "recordId": "lilygo-gpio-device-t-echo-lite",
+   "notes": [
+    "Image is a cropped PCB render of one area; board name not visible, so identity cannot be confirmed from the image.",
+    "Labels of the 4-pin SMD connector are printed upside-down (rotated 180 degrees) relative to the image; order taken top to bottom as displayed.",
+    "A row of oval edge pads at the left is unlabeled and partly cut off; not transcribed."
+   ]
+  },
+  {
+   "recordId": "lilygo-gpio-device-t-glass",
+   "notes": [
+    "Image shows the enclosed T-Glass product (glasses frame and closed arm housing) with function-to-GPIO tables (BHI260AP, display glass, RTC, microphone, board functions). No pin headers, pads or labeled connectors are visible, so there are no physical pin positions to transcribe."
+   ]
+  },
+  {
+   "recordId": "lilygo-gpio-device-t-watch-s3",
+   "notes": [
+    "Image titled T-Watch S3 ESP32-S3 LORA shows an enclosed smartwatch with function tables only (TFT, DRV2605 haptic, RTC, LoRa SX1262, PMU AXP2101, IR, BMA423, I2S MAX98357A, PDM MIC, capacitive touch). No physical pin header, pads or labeled connector positions are shown; the only external connector is the USB port."
+   ]
+  },
+  {
+   "recordId": "lilygo-gpio-device-t-watch-s3-plus",
+   "notes": [
+    "Image titled T-Watch S3 PLUS (add GPS) shows an enclosed smartwatch with function tables only (TFT, DRV2605 haptic, RTC, LoRa SX1262, PMU AXP2101, IR, BMA423, I2S MAX98357A, PDM MIC, capacitive touch, GPS MIA-M10Q UART_TX IO41 / UART_RX IO42). No physical pin header, pads or labeled connector positions are shown; the only external connector is the USB port."
+   ]
+  },
+  {
+   "recordId": "lilygo-other-t-echo-plus",
+   "notes": [
+    "Image (titled T-Echo Plus Battery Pack PINMAP) shows the enclosed T-Echo Plus device front and back plus an E-Paper module photo, with peripheral GPIO tables (LoRa SX1262, GPS, E-Paper, RTC, BAT_ADC, buzzer, vibration motor, BHI260AP). No headers, pads or labelled connectors with physical pin positions are shown; the two small contacts on the side are unlabelled."
+   ]
+  },
+  {
+   "recordId": "lilygo-other-t-pcie-sim7600e",
+   "notes": [
+    "Image is a cropped PCB layout view showing only eight odd-numbered pads (1-15) of what appears to be an edge connector; even-numbered pads (other side) and any further pins are not shown, so the connector is likely partial.",
+    "Board identity cannot be confirmed from the image: it is a PCB layout fragment with no product name visible.",
+    "Printed pin numbers (1,3,...) were put in functions as the printed pad number; positions renumbered consecutively 1-8 per schema.",
+    "A row of through-holes is partly visible at the right image edge; unlabeled and cut off, not transcribed."
+   ]
+  },
+  {
+   "recordId": "lolin-esp32-d1-mini",
+   "notes": [
+    "Board identity: the record is filed as an ESP32 D1 MINI, but the image is titled 'WeMos D1 mini' and shows a module labeled ESP-12F with ESP8266-style functions (GPIO16 WAKE, ADC0 TOUT); it may depict a different product than the record."
+   ]
+  },
+  {
+   "recordId": "m5stack-esp32-stamp-c3-mate",
+   "notes": [
+    "Board identity: the image is titled \"M5STAMP C3\" and shows the bare stamp module; nothing in the image identifies it as the \"Stamp-C3 Mate\" variant or shows whether that variant has a different header arrangement."
+   ]
+  },
+  {
+   "recordId": "m5stack-esp32-stamp-c3u-mate",
+   "notes": [
+    "Board identity: the image is titled 'M5STAMP C3U' and shows the bare Stamp C3U module; it does not identify the 'Stamp-C3U Mate' variant named in the record."
+   ]
+  },
+  {
+   "recordId": "m5stack-esp32-stamp-pico-diy-kit",
+   "notes": [
+    "Board identity: the image is titled 'M5STAMP PICO' and shows only the Stamp-Pico module; it does not show what the DIY Kit adds (e.g. headers or accessories), so it is assumed to depict this product's board."
+   ]
+  },
+  {
+   "recordId": "m5stack-esp32-stamp-pico-mate",
+   "notes": [
+    "Board identity: the image is titled 'M5STAMP PICO' and shows only the Stamp-Pico module; it does not show what the Mate package adds, so it is assumed to depict this product's board."
+   ]
+  },
+  {
+   "recordId": "m5stack-esp32-stamp-s3-pin2-54",
+   "notes": [
+    "Image 1 prints 'G21 RGB STATUS' immediately left of the 39 pad label; read as an annotation for the RGB LED on G21 (image 2's table lists G21 RGB), not a function of pin 39, but the placement leaves it open.",
+    "Image 2 bottom row ordering: started at the left (USB ends tie); image 1's numbered backside list runs 1=5V ... 12=G37/CS, the reverse of image 2's left-to-right order, so the physical start end of this port is open.",
+    "Board identity of image 2: the photo shows the full 1.27 mm pad set (17 left, 11 right pads, all GPIOs) while image 1 for this PIN2.54 record labels only 9 left and 7 right pins; image 2 may depict the 1.27 mm variant or bare module rather than this 2.54 mm header product."
+   ]
+  },
+  {
+   "recordId": "m5stack-esp32-stamp-s3bat-dip",
+   "notes": [
+    "Board identity: the image is titled STAMP S3Bat and shows the bare castellated module; nothing in it identifies the DIP variant, so it may not show this exact product."
+   ]
+  },
+  {
+   "recordId": "m5stack-expansion-module13-2-lan",
+   "notes": [
+    "Image shows the module's solder-jumper options for INT, RST and CS. The 2x15 stacking header and other through-holes are not labeled per pin, so no physical pin map is available."
+   ]
+  },
+  {
+   "recordId": "m5stack-expansion-stamp-uwb",
+   "notes": [
+    "Silkscreen names WAK, SYN and RST come from the rear view of the module in the same image and were matched to the front-view left pads by vertical order (mirrored view); the mapping is inferred. The rear silkscreen near the IRQ pad reads 'RQ' (an 'I' may be hidden by a trace), so no silkscreen spelling was added for IRQ."
+   ]
+  },
+  {
+   "recordId": "m5stack-expansion-stamp-uwb-f",
+   "notes": [
+    "Silkscreen 'WAK' comes from the rear view of the module in the same image and was matched to the front-view WAKEUP pad by vertical order (mirrored view); the mapping is inferred."
+   ]
+  },
+  {
+   "recordId": "m5stack-gpio-device-atoms3r-cam-ai-chatbot",
+   "notes": [
+    "Board identity: the image is titled 'ATOM S3R CAM' and shows only that unit; it does not show anything specific to the AI Chatbot product, so it may depict the base AtomS3R-CAM rather than this kit"
+   ]
+  },
+  {
+   "recordId": "m5stack-gpio-device-atoms3r-m12-volcengine-kit",
+   "notes": [
+    "Board identity: the image is titled 'ATOM S3R M12' and shows only that unit; nothing specific to the Volcengine Kit is shown, so it may depict the base AtomS3R-M12 rather than the kit"
+   ]
+  },
+  {
+   "recordId": "m5stack-gpio-device-cardputerzero",
+   "notes": [
+    "side-header-img2: the two label rows are printed above the header; mapping the upper label row to the upper socket row and lower label row to the lower socket row is inferred",
+    "side-header-img2: which socket row is the outer (board-edge) row is not clear from the side view; top row taken as outer",
+    "port-x: the label strip is a diagram on the case sticker, not the physical connector; the label-to-pin mapping follows the strip order"
+   ]
+  },
+  {
+   "recordId": "m5stack-gpio-device-station-485",
+   "notes": [
+    "Board identity: the image is a shared system/block diagram (V1.0) that does not name the Station-485 variant; the RS485/PWR485 section and 18650 battery are marked OPTIONAL.",
+    "The PWR485 connector is drawn as a small colored-cell illustration on the device outline; it is assumed to show physical pin order (B, A, V, G). A separate block-diagram legend lists the same pins as G V A B.",
+    "Grove ports P.A1, P.A2, P.B1, P.B2, P.C1, P.C2 are shown only with GPIO pairs (33/32, 33/32, 35/25, 36/26, 13/14, 16/17) and no individual pin positions, so they were not transcribed.",
+    "Pin order: the USB OUTPUT port is at the top center and roughly equidistant from both ends of the PWR485 row; left-to-right order was used."
+   ]
+  },
+  {
+   "recordId": "m5stack-gpio-device-station-bat",
+   "notes": [
+    "Board identity: the image is a shared system/block diagram (V1.0) that does not name the Station-Bat variant; the RS485/PWR485 section and 18650 battery are marked OPTIONAL.",
+    "The PWR485 connector is drawn as a small colored-cell illustration on the device outline; it is assumed to show physical pin order (B, A, V, G). A separate block-diagram legend lists the same pins as G V A B.",
+    "Grove ports P.A1, P.A2, P.B1, P.B2, P.C1, P.C2 are shown only with GPIO pairs (33/32, 33/32, 35/25, 36/26, 13/14, 16/17) and no individual pin positions, so they were not transcribed.",
+    "Pin order: the USB OUTPUT port is at the top center and roughly equidistant from both ends of the PWR485 row; left-to-right order was used."
+   ]
+  },
+  {
+   "recordId": "micro-bit-educational-foundation-other-micro-bit-v2",
+   "notes": [
+    "Board identity: the image shows only an edge-connector strip with no revision marking, so it cannot confirm this is the V2 rather than another micro:bit revision."
+   ]
+  },
+  {
+   "recordId": "microchip-avr-iot-wg",
+   "notes": [
+    "Board identity: the image is titled only 'AVR-IoT Development Board' and does not name the WG variant or AC164160; it cannot confirm which AVR-IoT variant is shown."
+   ]
+  },
+  {
+   "recordId": "milk-v-mars",
+   "notes": [
+    "The image is a pin table with a header graphic only; it does not show the board, so it cannot confirm this is the Milk-V Mars header."
+   ]
+  },
+  {
+   "recordId": "milk-v-other-sbc-duo-256m",
+   "notes": [
+    "Board identity: the image does not print a product name; it shows an SG2002-based board in this form factor, so the Duo 256M variant cannot be confirmed from the image alone."
+   ]
+  },
+  {
+   "recordId": "nologo-esp32-esp32-s2-pico",
+   "notes": [
+    "Board identity: the image shows no product name or chip marking (only 'OC-136 94V-0H'), so it cannot be confirmed as the ESP32-S2 Pico."
+   ]
+  },
+  {
+   "recordId": "nologo-rp2040-rp2040-promini",
+   "notes": [
+    "Board identity: the PCB is printed 'Pico_Mini RP2040', not 'ProMini'; may be the same product under another name or a different board",
+    "Each side/bottom pad shows two holes in one oval pad; treated as a double-column header per rule 10 (rows 2, both holes same label) but they may be one electrical pad intended as a single wiring point",
+    "Grouping of the small labeled pads near the USB connector (USB-N, USB-P, GND) into one connector is my choice; the GND pad sits below the other two"
+   ]
+  },
+  {
+   "recordId": "nvidia-other-jetson-agx-orin-developer-kit",
+   "notes": [
+    "Board identity: the figure is from the 'Jetson AGX Orin Developer Kit Carrier Board' document and shows the carrier's J30 header as a schematic top view; assumed to be the developer kit's header."
+   ]
+  },
+  {
+   "recordId": "nvidia-other-jetson-orin-nano-developer-kit",
+   "notes": [
+    "Board identity: the figure is from the 'Jetson Orin Nano Developer Kit Carrier Board Specification' and shows the carrier's J12 header as a schematic; assumed to be the developer kit's header."
+   ]
+  },
+  {
+   "recordId": "opensourcesdrlab-portapack-h4m",
+   "notes": [
+    "Image shows only an isolated 2x6 connector drawing with no board, designator or connector name, so it cannot confirm which PortaPack H4M connector this is.",
+    "Printed numbering runs row by row (1-6 top, 7-12 bottom), not alternating; positions follow the printed numbers."
+   ]
+  },
+  {
+   "recordId": "pimoroni-rp2040-pico-lipo-16mb",
+   "notes": [
+    "Board identity: image is titled 'Pimoroni Pico LiPo' and lists '4MB/16MB Flash'; it does not show a variant marking specific to the 16MB model.",
+    "qwst-connector and debug-connector: label-to-pin mapping inferred from the printed label boxes sitting above each JST housing in left-to-right order; the image does not tie each label to an individual contact.",
+    "qwst-connector and debug-connector: both connectors sit under the USB-C connector's horizontal span, so which end is 'closest to USB' is geometrically marginal (chosen by distance to the USB connector's center).",
+    "Battery JST connector at the bottom is marked only with '+' and '-' polarity symbols; skipped as a battery-only connector, but it is unclear whether these symbols count as individual pin labels under rule 1."
+   ]
+  },
+  {
+   "recordId": "rakwireless-other-rak3272-sip-breakout-board",
+   "notes": [
+    "Image 1 shows a module marked 'RAK3172-SIP' and no board name; the image does not show that it is the RAK3272-SiP breakout board named in this record (image 2 is marked RAK3272-SiP).",
+    "Image 2 label-to-pad mapping is inferred: the four 9-label columns (PA1 1..3V3, PC6..PB8, PB11..PA10, PA7..3V3) were assigned left-to-right to outer-left pads, J5, J6, outer-right pads. The first column is printed directly beside J5 and the fourth beside J6, so J5 = PA1 1..3V3 and J6 = PA7..3V3 is an equally possible reading.",
+    "Image 2 J7/J8 mapping is inferred: the two label rows 'PB15 PA15 PC13' and 'PB5 PB4 PB3' are both printed above J7 and were assigned top-to-bottom to J7 then J8; PA8/3V3 (J7 ends) and GND/3V3 (J8 ends) are printed beside the rows. Which middle hole each label belongs to is also inferred from horizontal position.",
+    "Image 1 inner hole columns and the 2x5 hole block at the bottom are unlabeled in that image and were not transcribed."
+   ]
+  },
+  {
+   "recordId": "rakwireless-other-rak4200-module",
+   "notes": [
+    "Board identity: the module artwork is printed 'RAK4200(H)' (FCC ID ...-RAK4200(H)); the record name has no (H) suffix, so this may be the H variant rather than the base module"
+   ]
+  },
+  {
+   "recordId": "rakwireless-other-rak811-breakout-board-high-rf",
+   "notes": [
+    "Image names the board only 'LoRa Breakboard' (RAKwireless); it does not show RAK811 or 'High RF', so the specific High RF variant cannot be confirmed from the image."
+   ]
+  },
+  {
+   "recordId": "rakwireless-other-rak811-breakout-board-low-rf",
+   "notes": [
+    "Image is titled 'RAK811 LoRa Breakout Board' and does not say whether it is the Low RF or High RF variant."
+   ]
+  },
+  {
+   "recordId": "raspberry-pi-raspberry-pi-sbc-model-b-revisions-and-40-pin-header-comparison",
+   "notes": [
+    "Image is a table comparing three headers from different board revisions (Pi B Rev 1 P1, Pi A/B Rev 2 P1, Pi B+ J8); all three transcribed as separate connectors with ids P1-rev1/P1-rev2/J8 (P1 designator printed for two of them). Which header(s) apply to this record is left to review.",
+    "Image is a pin-number table rather than a board drawing; physical layout inferred from the two-column odd/even Pin No. grid."
+   ]
+  },
+  {
+   "recordId": "seeed-studio-esp32-xiao-esp32s3-wio-sx1262-kit",
+   "notes": [
+    "Board identity: the kit is two boards. Image 1 shows the Wio-SX1262 module and image 2 shows the XIAO ESP32S3 front; both are transcribed, but it is open which board(s) this record should expose as terminals."
+   ]
+  },
+  {
+   "recordId": "seeed-studio-esp32-xiao-esp32s3-wio-sx1262-kit-with-3d-printed-enclosure",
+   "notes": [
+    "Board identity: the kit is two boards. Image 1 shows the Wio-SX1262 module and image 2 shows the XIAO ESP32S3 front; both are transcribed, but it is open which board(s) this record should expose as terminals.",
+    "The images show only the two bare boards; the 3D printed enclosure is not shown, so terminal accessibility inside the enclosure is not established by the images."
+   ]
+  },
+  {
+   "recordId": "seeed-studio-expansion-ds1307-rtc-for-raspberry-pi",
+   "notes": [
+    "Header labels come from a separate colour-square key below the photo (top line GND, GPIO7, SCL_3V3, SDA_3V3, 3V3; bottom line RX, TX, GND, 5V, 5V); the key's text is not aligned exactly with the squares, and the key is assumed to have the same orientation as the board photo (pin 1 top-right = 3V3).",
+    "Numbering after pin 1 (alternating rows) is assumed; only pin 1 is marked.",
+    "Board silkscreen reads only 'Pi RTC'; it does not identify the DS1307 chip, so identity is assumed from context."
+   ]
+  },
+  {
+   "recordId": "seeed-studio-expansion-grove-base-boosterpack",
+   "notes": [
+    "Image shows the generic 'BoosterPack Pinout Standard' diagram (LaunchPad emulator with 20-pin and 40-pin BoosterPack headers), not the Grove Base BoosterPack board; no board-specific connector map."
+   ]
+  },
+  {
+   "recordId": "seeed-studio-expansion-respeaker-lite",
+   "notes": [
+    "Board identity: the image is a cropped rear-side photo with no product name printed; only the silkscreen (Usr, Mute, RGB buttons/LEDs) is visible, so it cannot be confirmed from the image that it shows the 'reSpeaker Lite' product.",
+    "Bottom pads: the 5-pad XMOS group and the 8-pad group are recorded as separate connectors because of the wider gap between them; the image does not show whether they belong to one physical header."
+   ]
+  },
+  {
+   "recordId": "seeed-studio-expansion-respeaker-xvf3800-usb-4-mic-array",
+   "notes": [
+    "2x10 header: which column counts as the outer (board-edge) row is an interpretation; the inset shows no board edge.",
+    "Labels \"12C_SDA\", \"12C_SCL\", \"12S_*\" copied as printed with a leading \"1\" (likely I2C/I2S typo); \"12S_DATAQ\" possibly DATA0.",
+    "Only the two magnified insets are labeled; other headers/pads visible in the overview photo are not legible and were not transcribed.",
+    "Same image is also used for the \"with XIAO ESP32S3\" record; the photo shows the array board with empty XIAO pads, which fits this product but the variant cannot be confirmed from the image."
+   ]
+  },
+  {
+   "recordId": "seeed-studio-expansion-serial-port-bluetooth-module-master-slave",
+   "notes": [
+    "Image is a module footprint/dimension drawing (U1 labelled, U2 dimensioned without labels); it does not name the product, so identity with the Serial Port Bluetooth Module (Master-Slave) is assumed from context.",
+    "Labels are low resolution; PIO8 in particular resembles 'PIO6' and was read by sequence position — physical order of right-row PIO numbers is interpreted from blurry text."
+   ]
+  },
+  {
+   "recordId": "seeed-studio-expansion-wifi-shield-v1-2",
+   "notes": [
+    "Image shows only the 3x8 jumper/selector block for routing WIFI_TX/WIFI_RX to D0-D7, not the whole shield; Arduino shield headers are not shown. Unclear whether this jumper block should be treated as a breadboard connector.",
+    "Top and bottom rows labelled only by row captions WIFI_TX / WIFI_RX with a red bus line; every hole in those rows given the row label.",
+    "3-row ordering (column-wise, top to bottom) chosen by analogy with rule 4; board edge orientation not shown."
+   ]
+  },
+  {
+   "recordId": "seeed-studio-expansion-wifi-shield-v2-0",
+   "notes": [
+    "Board identity: the silkscreen in the image reads 'Wifi Shield' with a version string ending '...1.3 04/30/2014' (mirrored text, first characters hidden), while the record is Wifi Shield V2.0; the image may show an earlier revision.",
+    "J3: one 'GND' label is printed centered between pads 6 and 7 (8 pads, 7 labels); both pads were given GND.",
+    "J1 and spi-header: labels are printed in two text columns beside a 2-column header (J1: IO3..VCC / GND..AWAKE, both columns left of the pads; spi-header: MISO,SCK,/RES / VCC,MOSI,GND, both right of the pads). The left label column was mapped to the left pad column; the reverse mapping is possible.",
+    "J8/J7/J2: silkscreen prints bare numbers under 'Digital pins' / 'ANALOG'; labels composed as D<n>/A<n> with the bare number kept in functions.",
+    "The 3x8 jumper block was split into three 1x8 connectors because each row carries its own printed 1-8 pad numbering; it could alternatively be one rows:3 connector."
+   ]
+  },
+  {
+   "recordId": "seeed-studio-expansion-xiao-debug-mate",
+   "notes": [
+    "Each socket has a two-row label sticker (green row and dark-blue row) beside a 2x7 socket; the image does not show which label row belongs to which socket row. Assumed the sticker rows map to socket rows in the same spatial order (green/blue as stacked).",
+    "Red boxes highlight a white corner mark on each sticker (at the D11/5V and D18/A0 columns), which may indicate pin 1, but it is not labelled 1 so it was not used for ordering.",
+    "Image 1 and image 2 name the inner-row pins differently (RX/SCK/MISO/MOSI and TX/SCL/SDA/A3-A0 vs D7-D10 and D0-D6); they appear to be the two opposite faces/sockets of the enclosure, transcribed separately.",
+    "Product name is not printed in either image; identity as XIAO Debug Mate is taken from the record only."
+   ]
+  },
+  {
+   "recordId": "seeed-studio-gpio-device-recamera-hq-poe",
+   "notes": [
+    "Image shows a single PCB with USB-C and a WC-PD06H PoE power module but no product name; cannot confirm from the image that this is the reCamera HQ PoE board",
+    "'ttyS3' box encloses TX, GPIO490 and RX; ttyS3 recorded as a function only on TX and RX",
+    "Silkscreen next to the ttyS0 pads reads TX/RX/GND; callout 'ttyS0' added as function for TX and RX"
+   ]
+  },
+  {
+   "recordId": "seeed-studio-gpio-device-respeaker-flex-with-xiao-esp32s3",
+   "notes": [
+    "Board identity: the image does not name the product; it shows a carrier board with an empty XIAO footprint (pads labeled XIAO_D0...) and no XIAO ESP32S3 mounted, so it may depict the reSpeaker board alone rather than the 'with XIAO ESP32S3' bundle.",
+    "Pin order: the overview thumbnail in the same image shows a USB-C connector at the bottom edge, but the insets the labels are read from do not; top/left rule applied per rule 9. A USB-nearest reading would reverse the XIAO pad columns."
+   ]
+  },
+  {
+   "recordId": "seeed-studio-gpio-device-respeaker-lite-voice-assistant-kit",
+   "notes": [
+    "Board identity: the image is a cropped rear-side photo with no product name printed; only the silkscreen (Usr, Mute, RGB buttons/LEDs) is visible, so it cannot be confirmed from the image that it shows the 'reSpeaker Lite Voice Assistant Kit' product. The same image is also cited for the reSpeaker Lite record; this file is the same single reading of that shared image.",
+    "Bottom pads: the 5-pad XMOS group and the 8-pad group are recorded as separate connectors because of the wider gap between them; the image does not show whether they belong to one physical header."
+   ]
+  },
+  {
+   "recordId": "seeed-studio-gpio-device-respeaker-xvf3800-usb-4-mic-array-with-xiao-esp32s3",
+   "notes": [
+    "2x10 header: which column counts as the outer (board-edge) row is an interpretation; the inset shows no board edge.",
+    "Labels \"12C_SDA\", \"12C_SCL\", \"12S_*\" copied as printed with a leading \"1\" (likely I2C/I2S typo); \"12S_DATAQ\" possibly DATA0.",
+    "Only the two magnified insets are labeled; other headers/pads visible in the overview photo are not legible and were not transcribed.",
+    "Board identity: image shows the array board with empty XIAO footprint pads and no XIAO ESP32S3 mounted; same image is used for the plain XVF3800 array record. XIAO module pins are not shown."
+   ]
+  },
+  {
+   "recordId": "seeed-studio-gpio-device-sensecap-indicator-d1",
+   "notes": [
+    "Image does not name the SenseCAP Indicator variant (D1/D1L/D1Pro/D1S); the same artwork is used for all four records.",
+    "Position order for an A/B-numbered USB-C receptacle is not settled by the rules; chose column-wise alternation A1, B12, A2, B11 ... from the left of the drawing.",
+    "The drawing links both the side USB-C port and the rear USB-C port to this single pinout; it is unclear whether it describes one physical connector or both."
+   ]
+  },
+  {
+   "recordId": "seeed-studio-gpio-device-sensecap-indicator-d1l",
+   "notes": [
+    "Image does not name the SenseCAP Indicator variant (D1/D1L/D1Pro/D1S); the same artwork is used for all four records.",
+    "Position order for an A/B-numbered USB-C receptacle is not settled by the rules; chose column-wise alternation A1, B12, A2, B11 ... from the left of the drawing.",
+    "The drawing links both the side USB-C port and the rear USB-C port to this single pinout; it is unclear whether it describes one physical connector or both."
+   ]
+  },
+  {
+   "recordId": "seeed-studio-gpio-device-sensecap-indicator-d1pro",
+   "notes": [
+    "Image does not name the SenseCAP Indicator variant (D1/D1L/D1Pro/D1S); the same artwork is used for all four records.",
+    "Position order for an A/B-numbered USB-C receptacle is not settled by the rules; chose column-wise alternation A1, B12, A2, B11 ... from the left of the drawing.",
+    "The drawing links both the side USB-C port and the rear USB-C port to this single pinout; it is unclear whether it describes one physical connector or both."
+   ]
+  },
+  {
+   "recordId": "seeed-studio-gpio-device-sensecap-indicator-d1s",
+   "notes": [
+    "Image does not name the SenseCAP Indicator variant (D1/D1L/D1Pro/D1S); the same artwork is used for all four records.",
+    "Position order for an A/B-numbered USB-C receptacle is not settled by the rules; chose column-wise alternation A1, B12, A2, B11 ... from the left of the drawing.",
+    "The drawing links both the side USB-C port and the rear USB-C port to this single pinout; it is unclear whether it describes one physical connector or both."
+   ]
+  },
+  {
+   "recordId": "seeed-studio-other-air602-wifi-development-board",
+   "notes": [
+    "Board silkscreen reads 'EVB_W602_A11'; the image does not print 'Air602', so identity with the Air602 WiFi Development Board is assumed from context only."
+   ]
+  },
+  {
+   "recordId": "seeed-studio-other-arch-max-v1-1",
+   "notes": [
+    "J2 silkscreen labels are read from a low-resolution photo; even legible-looking entries (B10/B11/B9, D-/E- numbers) may be misread. Callouts in the image only give SD Card and SPI groups with arrows, not per-pin positions, so they were not used.",
+    "Header designators (J11, J5, J6 on the left; J4, J3 on the right) are printed between headers and could not be assigned with confidence, so descriptive ids were used.",
+    "Left/right callouts: label used the port name (PA_0 etc.); silkscreen short names (A3, B0...) and Arduino names (A1, D13...) kept in functions; left-header-1 position 2 callout says 3V3 while silkscreen reads IOREF.",
+    "Board identity: this image appears visually identical to the Arch Max (non-V1.1) pinout artwork and shows no revision marking, so it is not confirmed that it depicts V1.1 specifically."
+   ]
+  },
+  {
+   "recordId": "seeed-studio-other-sbc-mini-ai-computer-t906",
+   "notes": [
+    "Board identity: the image shows only a black 12-pin 2x6 wire-to-board connector with a pin table; no product name or board is visible, so it cannot be confirmed that this is the T906's connector.",
+    "Hole mapping inferred from callouts: pins 1 and 7 are at one end and 6 and 12 at the other, with 1-6 and 7-12 taken as the two rows; the photo is small and the callout arrows for 1/7 point close together, so which physical row holds 1-6 is not fully clear."
+   ]
+  },
+  {
+   "recordId": "seeed-studio-other-sbc-odyssey-stm32mp157c",
+   "notes": [
+    "J17 orientation: the USB-C (left edge) and USB-A ports (bottom) are at similar distances from both ends of J17; the bottom end was taken as nearest USB. Its labels come from faded background silkscreen, not the pinout callouts."
+   ]
+  },
+  {
+   "recordId": "seeed-studio-other-sbc-recomputer-classic-j501",
+   "notes": [
+    "Image is a header pin table only, with no board name or board outline; cannot confirm from the image that it is the reComputer Classic J501 header or where the header sits on the board."
+   ]
+  },
+  {
+   "recordId": "seeed-studio-other-sbc-reserver-j2032",
+   "notes": [
+    "Pin order: the right end of the header is only marginally nearer the 'MCU USB' connector than the left end (USB-A ports also present far left), so the USB-nearest start end is borderline.",
+    "Board identity: the image prints no product name; it shows a Jetson Xavier NX carrier which is assumed to be the reServer J2032."
+   ]
+  },
+  {
+   "recordId": "seeed-studio-other-seeeduino-v2-2",
+   "notes": [
+    "Drawing is labeled only 'Seeeduino' with no version or MCU marking; it cannot confirm the V2.2 variant. The same image file is used for three Seeeduino records.",
+    "Grouping: the UART column (VCC/TX/RX/GND) continues physically into the right column of the 2x3 DTR/RI/DCD + RTS/DSR/CTS block; split into a 1x4 and a 2x3 connector by label grouping.",
+    "The i2c-header column physically joins the analog row at analog pad 3; its pad count and the '3' label placement are ambiguous.",
+    "Group headings: 'ADC' and 'ANALOG' recorded as functions on their pins; 'DIGITAL' and 'POWER' headings omitted as category text."
+   ]
+  },
+  {
+   "recordId": "seeed-studio-other-seeeduino-v2-2-atmega168p",
+   "notes": [
+    "Drawing is labeled only 'Seeeduino' with no version or MCU marking; it cannot confirm the V2.2 (ATmega168P) variant. The same image file is used for three Seeeduino records.",
+    "Grouping: the UART column (VCC/TX/RX/GND) continues physically into the right column of the 2x3 DTR/RI/DCD + RTS/DSR/CTS block; split into a 1x4 and a 2x3 connector by label grouping.",
+    "The i2c-header column physically joins the analog row at analog pad 3; its pad count and the '3' label placement are ambiguous.",
+    "Group headings: 'ADC' and 'ANALOG' recorded as functions on their pins; 'DIGITAL' and 'POWER' headings omitted as category text."
+   ]
+  },
+  {
+   "recordId": "seeed-studio-other-seeeduino-v2-21",
+   "notes": [
+    "Drawing is labeled only 'Seeeduino' with no version or MCU marking; it cannot confirm the V2.21 variant. The same image file is used for three Seeeduino records.",
+    "Grouping: the UART column (VCC/TX/RX/GND) continues physically into the right column of the 2x3 DTR/RI/DCD + RTS/DSR/CTS block; split into a 1x4 and a 2x3 connector by label grouping.",
+    "The i2c-header column physically joins the analog row at analog pad 3; its pad count and the '3' label placement are ambiguous.",
+    "Group headings: 'ADC' and 'ANALOG' recorded as functions on their pins; 'DIGITAL' and 'POWER' headings omitted as category text."
+   ]
+  },
+  {
+   "recordId": "seeed-studio-other-seeeduino-v3-0",
+   "notes": [
+    "Image 1 (titled 'FTDI_Pinput') draws a 7-hole column (VCC..DCD) beside a 3-hole column (RTS, DSR, CTS) aligned with its lower three holes; transcribed as two single-row connectors, but it may be one partially populated 2-row header.",
+    "Image 2 is a schematic-style block diagram (ATmega328 in a rectangle with pin lines); its pin-line groups were treated as physical header rows, but the drawing may not reflect physical pin positions or header boundaries. A6/A7 are drawn in the same evenly spaced group as RST..Vin."
+   ]
+  },
+  {
+   "recordId": "seeed-studio-other-semtech-lr2021-lora-plus-evaluation-kit",
+   "notes": [
+    "SWD-Debug header: the callout lists SWDIO in the top row and SWCLK in the second row, but the board silkscreen beside the pins reads SWCLK at the top row and SWDIO in the second row. I followed the callout (SWDIO = position 8, SWCLK = position 6).",
+    "Image 2: USB-nearest ordering uses the USB-C connector of the mounted XIAO module; for the vertical debug headers on the far right edge the 'nearest end' (bottom) is a weak call.",
+    "Board identity: both images show the 'LoRa Plus Expansion Board v2a' carrier (image 2 with a XIAO nRF54L15 and LR2021 module mounted) rather than one standalone board; transcribed as the kit's board."
+   ]
+  },
+  {
+   "recordId": "seeed-studio-other-wio-e5-development-kit",
+   "notes": [
+    "Board identity: the image is titled 'LoRa-E5 Dev Board Pinout' (module LoRa-E5-HF); the record is 'Wio-E5 Development Kit'. The image does not itself show that these are the same product.",
+    "Top header has an empty slot (no pad drawn) between D5/PB5 and GND, and the bottom header has one between A3/PB3 and A4/PB4; each strip is recorded as one connector without a position for the empty slot. Whether the slot is a physical hole (and whether each strip is one header or two) is not settled by the image."
+   ]
+  },
+  {
+   "recordId": "seeed-studio-other-wio-e5-mini",
+   "notes": [
+    "Board identity: image is titled 'LoRa-E5 mini Pinout' and shows a 'LoRa-E5-HF' module, while the record is 'Wio-E5 mini'.",
+    "battery-pads: small V+/V- pads at the left edge included as a labeled connector; they may be battery-only pads that should be skipped."
+   ]
+  },
+  {
+   "recordId": "seeed-studio-other-wio-tracker-1110-dev-kit-for-meshtastic",
+   "notes": [
+    "Left-side callout diagrams draw the first signal (D0_1/P0.13 etc.) at the top pin, but the board silkscreen puts 13/15/30 at the bottom pin and GND at the top; physical order follows the silkscreen and the callout names were matched by number (P0.13 to 13, etc.).",
+    "Grove I2C SCL callout is printed 'P0.0' with a stray '4' drawn below it overlapping 'P0.05'; recorded as printed 'P0.0' (silkscreen shows 4); the intended name may be P0.04.",
+    "3V3 and GND positions come from the board silkscreen only; the callout diagrams do not name them.",
+    "Board identity: the image is the same artwork used for the Wio Tracker 1110 Dev Board and shows only a bare board (WM1110-A module); nothing in the image names the Meshtastic kit or shows kit contents."
+   ]
+  },
+  {
+   "recordId": "seeed-studio-other-xiao-nrf52840-sense",
+   "notes": [
+    "Board identity: images 1 and 3 show only \"XIAO nRF52840\" (silkscreen v1.0 / Model: XIAO-nRF52840) with no Sense-specific parts; image 2 also says Model: XIAO-nRF52840 but labels a 6-Dof IMU and microphone. Images 1 and 3 may depict the non-Sense board.",
+    "swd-pads: 2x2 pad block with no printed numbers; the position order (top row left-to-right, then bottom row) is a choice the image leaves open.",
+    "Image 1 left-pads: the silkscreen \"8\" and \"7\" sit close together near the two lowest pads; mapped 8 to the 6th pad and 7 to the 7th."
+   ]
+  },
+  {
+   "recordId": "sparkfun-quicklogic-thing-plus-eos-s3",
+   "notes": [
+    "J8: the inset shows the header rotated; deciding which inset column is the board-edge row (right column assumed, from the square pad and jumper placement) is inferred, which sets the odd/even interleave.",
+    "SWD connector: label-to-pin mapping inferred from leader lines that bend between rows; which column is the board-edge row is not shown, so left column was taken as odd positions.",
+    "Qwiic connector pin order follows the inset label order top-to-bottom; the physical pin each label wire reaches is drawn but small."
+   ]
+  },
+  {
+   "recordId": "unexpected-maker-esp32-omgs3",
+   "notes": [
+    "The module render shows no pads, holes or castellations; the 7 top / 9 left / 9 right positions and their order are inferred only from how the callout stacks abut the board edges. The actual pin geometry (e.g. underside pads) is not shown."
+   ]
+  },
+  {
+   "recordId": "waveshare-esp32-esp32-c6-lcd-1-9",
+   "notes": [
+    "Board identity: the board silkscreen in the image reads 'ESP32-C6-Touch-LCD-1.9', while the record is ESP32-C6-LCD-1.9 (non-touch); the image may show the touch variant."
+   ]
+  },
+  {
+   "recordId": "waveshare-esp32-esp32-s3-eth-8di-8ro",
+   "notes": [
+    "Board identity: the image is a cropped view of the 2x14 header with no product name visible, and the identical image is attached to both the ESP32-S3-ETH-8DI-8RO and ESP32-S3-ETH-8DI-8RO-C records; it cannot confirm which variant (or both) it depicts."
+   ]
+  },
+  {
+   "recordId": "waveshare-esp32-esp32-s3-eth-8di-8ro-c",
+   "notes": [
+    "Board identity: the image is a cropped view of the 2x14 header with no product name visible, and the identical image is attached to both the ESP32-S3-ETH-8DI-8RO and ESP32-S3-ETH-8DI-8RO-C records; it cannot confirm which variant (or both) it depicts."
+   ]
+  },
+  {
+   "recordId": "waveshare-esp32-esp32-s3-lcd-1-9",
+   "notes": [
+    "Board identity: the board silkscreen in the image reads 'ESP32-S3-Touch-LCD-1.9', while the record is ESP32-S3-LCD-1.9 (non-touch); the image may show the touch variant."
+   ]
+  },
+  {
+   "recordId": "waveshare-esp32-esp32-s3-lcd-2",
+   "notes": [
+    "Board identity: the silkscreen in all three images reads 'ESP32-S3-T...-LCD-2' with the middle hidden by a sticker, apparently 'ESP32-S3-Touch-LCD-2', not ESP32-S3-LCD-2; the images may show the touch variant."
+   ]
+  },
+  {
+   "recordId": "waveshare-esp32-esp32-s3-lcd-2-8b",
+   "notes": [
+    "Board silkscreen in the lower view reads '...SP32-S3-Touch-LCD-2.8B' (Touch variant), while the record is 'ESP32-S3-LCD-2.8B'.",
+    "The image combines two views; the USB-C port appears only in the upper view. The 2x12 header was ordered from the lower view alone (top start); the right column was judged nearer the board edge."
+   ]
+  },
+  {
+   "recordId": "waveshare-esp32-esp32-s3-lcd-2-8c",
+   "notes": [
+    "Board identity: the lower-right board in the image is silkscreened 'ESP32-S3-Touch-LCD-2.8C 480x480 Pixels', while the record is ESP32-S3-LCD-2.8C (no 'Touch'); the upper-left view carries no product name.",
+    "The image shows two board views; it is assumed both are the same product. The 12-pin connector's order used the top rule because its view shows no USB connector; if the dot below the last GND pin marks pin 1, the order would be reversed.",
+    "I2C/UART 4-pin connector order assumes the USB-C receptacle labeled 'UART' counts as the USB connector for the closest-end rule."
+   ]
+  },
+  {
+   "recordId": "waveshare-esp32-esp32-s3-lr1121-xf",
+   "notes": [
+    "Board identity: the module shield in the image reads 'ESP32-S3-LR1121-HF', while the record is ESP32-S3-LR1121-XF; the image may show the HF variant."
+   ]
+  },
+  {
+   "recordId": "waveshare-esp32-esp32-s3-touch-lcd-1-46b",
+   "notes": [
+    "Board silkscreen in both images reads ESP32-S3-Touch-LCD-1.46 with no visible B suffix; the image may show the non-B variant rather than the 1.46B."
+   ]
+  },
+  {
+   "recordId": "waveshare-esp32-esp32-s3-touch-lcd-2-8c",
+   "notes": [
+    "I2C and UART connectors: USB-C port is below-left of both, so bottom-first (GND) order used; top/left rule would reverse them",
+    "Both views are in the same image (two board renderings); 12-pin connector order uses only the lower view where USB-C is not visible",
+    "VBus(5V) callout vs '5V' silkscreen: label 5V with VBus in functions"
+   ]
+  },
+  {
+   "recordId": "waveshare-esp32-esp32-s3-touch-lcd-3-5",
+   "notes": [
+    "Image 1 prints TXD(GPIO43) at pin 25 and RXD(GPIO44) at pin 27, while images 2 and 3 print RXD(GPIO44) at 25 and TXD(GPIO43) at 27; the images may show different board revisions/variants and the images do not name the product, so which applies to ESP32-S3-Touch-LCD-3.5 is unclear."
+   ]
+  },
+  {
+   "recordId": "waveshare-esp32-esp32-s3-touch-lcd-3-5b",
+   "notes": [
+    "Image 1 prints TXD(GPIO43) at pin 25 and RXD(GPIO44) at pin 27, while images 2 and 3 print RXD(GPIO44) at 25 and TXD(GPIO43) at 27; the images may show different board revisions/variants and the images do not name the product, so which applies to ESP32-S3-Touch-LCD-3.5B is unclear."
+   ]
+  },
+  {
+   "recordId": "waveshare-expansion-ddsm315",
+   "notes": [
+    "Image shows only the cable-end connectors (with a 'SPOTPEAR' watermark) and does not name the DDSM315; identity assumed from context.",
+    "These are cable plug housings, not board headers; pin order follows the drawn contacts top to bottom."
+   ]
+  },
+  {
+   "recordId": "waveshare-expansion-os05a20-5mp-usb-camera-b",
+   "notes": [
+    "Image shows no product name or variant marking; the (C) variant's image is visually identical, so it cannot confirm which camera variant is depicted."
+   ]
+  },
+  {
+   "recordId": "waveshare-expansion-os05a20-5mp-usb-camera-c",
+   "notes": [
+    "Image shows no product name or variant marking; the (B) variant's image is visually identical, so it cannot confirm which camera variant is depicted."
+   ]
+  },
+  {
+   "recordId": "waveshare-expansion-pcie-to-minipcie-gbe-usb3-2-hat-plus",
+   "notes": [
+    "Only pins used by the module are labeled; the image does not name the board, so identity as this HAT rests on the visible GbE/USB ports and PCIe FPC connector."
+   ]
+  },
+  {
+   "recordId": "waveshare-other-core51822-b",
+   "notes": [
+    "Image shows an nRF51822 module labelled 'nRF51822' only; it does not print 'Core51822 (B)', so the exact variant cannot be confirmed from the image."
+   ]
+  },
+  {
+   "recordId": "waveshare-other-xnucleo-f030r8",
+   "notes": [
+    "CN7 even pins and CN6 pins share the same label lines (and CN7 even pins 28-38 run through CN8); CN10 odd pins 3-21 share label lines with CN5 and 23-37 with CN9 via slanted leader lines. Labels assigned by following the leader lines; Arduino D/A names were applied only to the Arduino headers (CN5/CN6/CN8/CN9).",
+    "No board name shown in the image; the drawing is a generic Nucleo-style header map, so it cannot be confirmed from the image alone to be the XNUCLEO-F030R8."
+   ]
+  },
+  {
+   "recordId": "waveshare-other-xnucleo-f103rb",
+   "notes": [
+    "CN7 even pins and CN6 pins share the same label lines (and CN7 even pins 28-38 run through CN8); CN10 odd pins 3-21 share label lines with CN5 and 23-37 with CN9 via slanted leader lines. Labels assigned by following the leader lines; Arduino D/A names were applied only to the Arduino headers (CN5/CN6/CN8/CN9).",
+    "No board name shown in the image; the drawing is a generic Nucleo-style header map, so it cannot be confirmed from the image alone to be the XNUCLEO-F103RB."
+   ]
+  },
+  {
+   "recordId": "waveshare-other-xnucleo-f401re",
+   "notes": [
+    "CN7 even pins and CN6 pins share the same label lines (and CN7 even pins 28-38 run through CN8); CN10 odd pins 3-21 share label lines with CN5 and 23-37 with CN9 via slanted leader lines. Labels assigned by following the leader lines; Arduino D/A names were applied only to the Arduino headers (CN5/CN6/CN8/CN9).",
+    "No board name shown in the image; the drawing is a generic Nucleo-style header map, so it cannot be confirmed from the image alone to be the XNUCLEO-F401RE."
+   ]
+  },
+  {
+   "recordId": "waveshare-other-xnucleo-f411re",
+   "notes": [
+    "CN7 even pins and CN6 pins share the same label lines (and CN7 even pins 28-38 run through CN8); CN10 odd pins 3-21 share label lines with CN5 and 23-37 with CN9 via slanted leader lines. Labels assigned by following the leader lines; Arduino D/A names were applied only to the Arduino headers (CN5/CN6/CN8/CN9).",
+    "No board name shown in the image; the drawing is a generic Nucleo-style header map, so it cannot be confirmed from the image alone to be the XNUCLEO-F411RE."
+   ]
+  },
+  {
+   "recordId": "waveshare-rp2040-rp2040-lora",
+   "notes": [
+    "Board identity: the shield in the image reads 'RP2040-LoRa-HF' (frequency 850-930MHz), while the record is RP2040-LoRa; the image may show only the HF variant."
+   ]
+  },
+  {
+   "recordId": "waveshare-rp2350-rp2350-touch-lcd-4-3b",
+   "notes": [
+    "Position 13 board callout reads 'D1 COM' (glyph after D has a flag like a 1), while the connection diagrams in the same image print 'DI COM'; transcribed as printed on the callout"
+   ]
+  },
+  {
+   "recordId": "weact-studio-esp32-esp32c3-core-board",
+   "notes": [
+    "Board identity: the image is titled 'WeAct Studio ESP32-C3Fx4 Mini Core'; the record is 'ESP32C3 Core Board'. The image does not show that these names refer to the same product."
+   ]
+  },
+  {
+   "recordId": "weact-studio-esp32-esp32s3-a",
+   "notes": [
+    "Board identity: image is titled 'WeAct ESP32 S3 DevKitC 1' (mischianti.org), record is 'ESP32S3-A'; may be the same board under another name.",
+    "Pinout labels '3.3v'/'5v' used as labels with silkscreen 3V3/5V in functions; the dark number boxes (e.g. '4', '43') duplicate silkscreen numbers."
+   ]
+  },
+  {
+   "recordId": "weact-studio-rp2040-rp2040-core",
+   "notes": [
+    "Image 1 printed pin numbers contain errors: the last two left pins are printed '14' and '15' (expected 19, 20); on the right column the GPIO029 row has a blank number box and the numbers read 36, 35, (blank), 33, 34, 32, 31, 29 - out of sequence. Positions follow the physical row order implied by the overall numbering direction (left top-down 1-20, right bottom-up 21-40), not the misprinted values.",
+    "Image 2 DEBUG header labels are printed in one text box ('GND SWDIO SWCLK 3V3') below the header rather than per pin; left-to-right mapping onto the four pins is inferred (consistent with the '-' and '+' silkscreen at the ends)."
+   ]
+  }
+ ]
+}

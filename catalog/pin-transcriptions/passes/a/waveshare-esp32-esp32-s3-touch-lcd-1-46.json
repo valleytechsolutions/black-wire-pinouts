@@ -1,0 +1,171 @@
+{
+  "recordId": "waveshare-esp32-esp32-s3-touch-lcd-1-46",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/4d02a7350b2f782a8aae43d17696a73ecc88a9e64db26b765f8f2560947aecf3.webp",
+      "sha256": "4d02a7350b2f782a8aae43d17696a73ecc88a9e64db26b765f8f2560947aecf3"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "header-2x10",
+      "name": "2x10 pin header (right side of board)",
+      "image": "media/4d02a7350b2f782a8aae43d17696a73ecc88a9e64db26b765f8f2560947aecf3.webp",
+      "rows": 2,
+      "orderNote": "Pin numbers 1-20 printed in the pin table (odd = left column, even = right column, 1 at top-left); followed them.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP13",
+          "functions": [
+            "13"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP17",
+          "functions": [
+            "17"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP12",
+          "functions": [
+            "12"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP16",
+          "functions": [
+            "16"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "RXD",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GP14",
+          "functions": [
+            "14"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "TXD",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GP3",
+          "functions": [
+            "3"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP1",
+          "functions": [
+            "1"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GP0",
+          "functions": [
+            "0"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "DP",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "DN",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "BAT",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "5V",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "spk-pads",
+      "name": "Speaker solder pads (SPX)",
+      "image": "media/4d02a7350b2f782a8aae43d17696a73ecc88a9e64db26b765f8f2560947aecf3.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal pair, started at the end closest to the USB-C connector (the + pad on the right).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+",
+          "functions": [
+            "SPX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "-",
+          "functions": [
+            "SPX"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Labels taken from the printed pin table; board silkscreen spellings (13, 12, G, ...) added to functions. Silkscreen for pin 16 is blurry (reads DN/DA) and was not added. Skipped: BAT battery JST (only +/- polarity marks), RTC connector and FPC (no pin labels), USB-C, buttons, MIC. Silkscreen prints 'SPX' for the speaker pads; copied as printed."
+}

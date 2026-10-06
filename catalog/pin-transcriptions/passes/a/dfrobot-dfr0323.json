@@ -1,0 +1,534 @@
+{
+  "recordId": "dfrobot-dfr0323",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/95081ce19f792bfc9e468805968b688579b5e5af44430ab0c33d61a430f0a061.webp",
+      "sha256": "95081ce19f792bfc9e468805968b688579b5e5af44430ab0c33d61a430f0a061"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "top-header-1",
+      "name": "Top header segment 1 (SCL to 8)",
+      "image": "media/95081ce19f792bfc9e468805968b688579b5e5af44430ab0c33d61a430f0a061.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; start at end closest to USB (left)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "AREF",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "13",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "12",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "11",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "10",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "9",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "8",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "top-header-2",
+      "name": "Top header segment 2 (7 to 0)",
+      "image": "media/95081ce19f792bfc9e468805968b688579b5e5af44430ab0c33d61a430f0a061.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; start at end closest to USB (left)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "7",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "6",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "5",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "4",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "2",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "1",
+          "functions": [
+            "TX0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "0",
+          "functions": [
+            "RX0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "top-header-3",
+      "name": "Top COMMUNICATION header (14 to 21)",
+      "image": "media/95081ce19f792bfc9e468805968b688579b5e5af44430ab0c33d61a430f0a061.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; start at end closest to USB (left)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "14",
+          "functions": [
+            "TX3"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "15",
+          "functions": [
+            "RX3"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "16",
+          "functions": [
+            "TX2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "17",
+          "functions": [
+            "RX2"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "18",
+          "functions": [
+            "TX1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "19",
+          "functions": [
+            "RX1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "20",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "21",
+          "functions": [
+            "SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digital-header",
+      "name": "Right DIGITAL 2x18 header",
+      "image": "media/95081ce19f792bfc9e468805968b688579b5e5af44430ab0c33d61a430f0a061.webp",
+      "rows": 2,
+      "orderNote": "No pin numbers; 2xN vertical: start at end closest to USB (top), position 1 = column nearest right board edge, alternating columns; labels printed per hole (even numbers left, odd right)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "22",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "24",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "26",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "28",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "31",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "30",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "32",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "35",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "34",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "37",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "36",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "39",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "38",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "41",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "40",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "43",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "42",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "45",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "44",
+          "functions": []
+        },
+        {
+          "position": 27,
+          "label": "47",
+          "functions": []
+        },
+        {
+          "position": 28,
+          "label": "46",
+          "functions": []
+        },
+        {
+          "position": 29,
+          "label": "49",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "48",
+          "functions": []
+        },
+        {
+          "position": 31,
+          "label": "51",
+          "functions": []
+        },
+        {
+          "position": 32,
+          "label": "50",
+          "functions": []
+        },
+        {
+          "position": 33,
+          "label": "53",
+          "functions": []
+        },
+        {
+          "position": 34,
+          "label": "52",
+          "functions": []
+        },
+        {
+          "position": 35,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 36,
+          "label": "?",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "power-header",
+      "name": "POWER header",
+      "image": "media/95081ce19f792bfc9e468805968b688579b5e5af44430ab0c33d61a430f0a061.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; start at end closest to USB (left)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IOREF",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "analog-header-1",
+      "name": "ANALOG IN header segment 0-7",
+      "image": "media/95081ce19f792bfc9e468805968b688579b5e5af44430ab0c33d61a430f0a061.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; start at end closest to USB (left)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "0",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "1",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "2",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "4",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "5",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "6",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "7",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "analog-header-2",
+      "name": "ANALOG IN header segment 8-15",
+      "image": "media/95081ce19f792bfc9e468805968b688579b5e5af44430ab0c33d61a430f0a061.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; start at end closest to USB (left)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "8",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "9",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "10",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "11",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "12",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "13",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "14",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "15",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "digital-header positions 1,3,5,7,9 (right-column holes of rows 5V,22,24,26,28): no label printed",
+    "digital-header position 13 (right hole of row 32): label covered by callout line junction, only trailing 3 visible",
+    "digital-header position 36 (left hole of GND row): no label printed",
+    "power-header position 1: unlabeled pad"
+  ],
+  "notes": "Callout texts are blurred/illegible. Top label 13 is crossed by a callout line but its digits are discernible; 39 is crossed by a green line but legible. 2x18 header labels read per hole (5V printed only on left of top row, GND only on right of bottom row). Single GND label is centered over power-header positions 6-7; both given GND. Skipped two unlabeled 2x3 headers."
+}

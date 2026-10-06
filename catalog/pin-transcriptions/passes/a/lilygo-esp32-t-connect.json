@@ -1,0 +1,334 @@
+{
+  "recordId": "lilygo-esp32-t-connect",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/a36397aeffc19c72271b793382651bf36721e26cb8c98d88127a4c1b23d526fb.jpg",
+      "sha256": "a36397aeffc19c72271b793382651bf36721e26cb8c98d88127a4c1b23d526fb"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "main-header",
+      "name": "2x12 pin header",
+      "image": "media/a36397aeffc19c72271b793382651bf36721e26cb8c98d88127a4c1b23d526fb.jpg",
+      "rows": 2,
+      "orderNote": "No printed pin numbers; 2xN rule: start at the end nearest the USB-C connector (top), position 1 in the outer row (right column, nearest the board edge), alternating outer/inner",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO1",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IO2",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO42",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IO41",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "IO40",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "IO39",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "IO38",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "IO37",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "IO36",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "IO35",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "IO45",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "IO48",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "IO47",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "IO21",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "IO14",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "IO13",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "IO12",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "IO11",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "IO46",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "V3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "qwiic",
+      "name": "QWIIC connector",
+      "image": "media/a36397aeffc19c72271b793382651bf36721e26cb8c98d88127a4c1b23d526fb.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal, end nearest the USB-C connector (left) first",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "TX",
+          "functions": [
+            "43"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "RX",
+          "functions": [
+            "44"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "usb-pads",
+      "name": "USB pads (left edge)",
+      "image": "media/a36397aeffc19c72271b793382651bf36721e26cb8c98d88127a4c1b23d526fb.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, end nearest the USB-C connector (top) first",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "D+",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "D-",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "terminal-d",
+      "name": "Screw terminal SGD/DGD",
+      "image": "media/a36397aeffc19c72271b793382651bf36721e26cb8c98d88127a4c1b23d526fb.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal, end nearer the USB-C connector (left) first",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SGD",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "L",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "R",
+          "functions": [
+            "H"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "DGD",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "terminal-c",
+      "name": "Screw terminal SGC/DGC",
+      "image": "media/a36397aeffc19c72271b793382651bf36721e26cb8c98d88127a4c1b23d526fb.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal, end nearer the USB-C connector (left) first",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SGC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "L",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "R",
+          "functions": [
+            "H"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "DGC",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "terminal-b",
+      "name": "Screw terminal SGB/DGB",
+      "image": "media/a36397aeffc19c72271b793382651bf36721e26cb8c98d88127a4c1b23d526fb.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal, end nearer the USB-C connector (left) first",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SGB",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "L",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "R",
+          "functions": [
+            "H"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "DGB",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "terminal-a",
+      "name": "Screw terminal SGA/DGA",
+      "image": "media/a36397aeffc19c72271b793382651bf36721e26cb8c98d88127a4c1b23d526fb.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal, end nearer the USB-C connector (left) first",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SGA",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "L",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "R",
+          "functions": [
+            "H"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "DGA",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Screw terminal third position: callout below reads 'R' but the PCB silkscreen above it reads 'H'; callout used as label, 'H' kept as function"
+  ],
+  "notes": "Header labels from PCB silkscreen beside each pin ('V3' as printed at the bottom-left of the header). Header housing markings '1B' and a small triangle near +5V are not labeled pin numbers, so rule 4's 2xN default was used. QWIIC (43)/(44) are GPIO numbers kept as functions. TX_1..RX_4 / IO04..IO10 and DATA/CLOCK IO8/IO3 callouts describe internal RS485/CAN and APA102 LED wiring, not header pins. 7~12V screw terminal and the four 3-pin RS485/CAN module sockets have no individual pin labels and are skipped."
+}

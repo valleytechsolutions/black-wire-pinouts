@@ -1,0 +1,134 @@
+{
+  "recordId": "elecrow-esp32-crowpanel-esp32-hmi-3-5-inch-display",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/f2bda2ae9694bca808132bc8ce6249bba49f7e16ca341c553f60f42482d3e9ea.webp",
+      "sha256": "f2bda2ae9694bca808132bc8ce6249bba49f7e16ca341c553f60f42482d3e9ea"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "J10",
+      "name": "UART0 connector (top)",
+      "image": "media/f2bda2ae9694bca808132bc8ce6249bba49f7e16ca341c553f60f42482d3e9ea.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row, started at the end closest to the USB-C connector (J3, left edge), i.e. the leftmost pad.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO3",
+          "functions": [
+            "RXD"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "IO1",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J6",
+      "name": "I2C connector (top)",
+      "image": "media/f2bda2ae9694bca808132bc8ce6249bba49f7e16ca341c553f60f42482d3e9ea.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row, started at the end closest to the USB-C connector (left edge), i.e. the leftmost pad.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO21",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "IO22",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J7",
+      "name": "GPIO_D connector (top right)",
+      "image": "media/f2bda2ae9694bca808132bc8ce6249bba49f7e16ca341c553f60f42482d3e9ea.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row, started at the end closest to the USB-C connector (left edge), i.e. the leftmost pad.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO25",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IO32",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J8",
+      "name": "SPK speaker connector (bottom)",
+      "image": "media/f2bda2ae9694bca808132bc8ce6249bba49f7e16ca341c553f60f42482d3e9ea.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row, started at the end closest to the USB-C connector (left edge), i.e. the left pad.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VON-",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VOP+",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "J10, J6, J7: pin names are printed in a legend box to the left of each connector, not at each pad; pad mapping assumes the legend's left-to-right order matches the pads.",
+    "J8: VON-/VOP+ are printed in a separate box to the right of the connector; VON- = left pad, VOP+ = right pad is inferred from the legend order."
+  ],
+  "notes": "PCB render of the CrowPanel 3.5-inch board (ESP32 Display-3.5 Inch, DIS05035H, V2.0). Combined legends printed as 'IO3-RXD', 'IO21-SCL' etc. split into GPIO label plus function. 'IO26-SPK' box near J8 is a signal note, not a pin. Skipped: J3 USB-C (UART0), J5 BAT battery connector, TF slot SD1, BOOT/RESET buttons."
+}

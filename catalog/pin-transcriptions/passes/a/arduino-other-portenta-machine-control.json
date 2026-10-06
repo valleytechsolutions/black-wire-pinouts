@@ -1,0 +1,2428 @@
+{
+  "recordId": "arduino-other-portenta-machine-control",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/7bf9cf6e637c7669f53d21c1bee6cae5dfde358e03e8fa455a51aa5477e3e250.png",
+      "sha256": "7bf9cf6e637c7669f53d21c1bee6cae5dfde358e03e8fa455a51aa5477e3e250"
+    },
+    {
+      "file": "media/df68408b82dc9d8881d88d4448705b1a96df8e9567f6307bc4c4b8dac2cbef47.png",
+      "sha256": "df68408b82dc9d8881d88d4448705b1a96df8e9567f6307bc4c4b8dac2cbef47"
+    },
+    {
+      "file": "media/b0924059b624eb056948b8112fd61ac9ce27175b9c06b964a3ec3b840fede7aa.png",
+      "sha256": "b0924059b624eb056948b8112fd61ac9ce27175b9c06b964a3ec3b840fede7aa"
+    },
+    {
+      "file": "media/eab811ca93774ec426e600be203f8512c1701fd7ca619d57e6a67915473f7695.png",
+      "sha256": "eab811ca93774ec426e600be203f8512c1701fd7ca619d57e6a67915473f7695"
+    },
+    {
+      "file": "media/9255f4a25238ecc441b5abb79c9955e5984ca3bcfbf903c4e46c045b66c49a2f.png",
+      "sha256": "9255f4a25238ecc441b5abb79c9955e5984ca3bcfbf903c4e46c045b66c49a2f"
+    },
+    {
+      "file": "media/7cc795113c2e0dd9ad1f421e294157d0415b71ac0dc5512a04c44899013ea628.png",
+      "sha256": "7cc795113c2e0dd9ad1f421e294157d0415b71ac0dc5512a04c44899013ea628"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "power-supply",
+      "name": "Power supply terminal block",
+      "image": "media/7bf9cf6e637c7669f53d21c1bee6cae5dfde358e03e8fa455a51aa5477e3e250.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; horizontal terminal block ordered left to right as displayed (the USB connectors sit mid-board, not at an end; see uncertain).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+24V",
+          "functions": [
+            "IN"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "+24V",
+          "functions": [
+            "IN"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "hmi-comm",
+      "name": "HMI - Comm protocols terminal block",
+      "image": "media/7bf9cf6e637c7669f53d21c1bee6cae5dfde358e03e8fa455a51aa5477e3e250.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; horizontal terminal block ordered left to right as displayed (the USB connectors sit mid-board, not at an end; see uncertain).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+24V",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RS485 TX P",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RS485 TX N",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "RS485 RX P",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "RS485 RX N",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "CAN H",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "CAN L",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "temperature-probes",
+      "name": "Temperature probes terminal block",
+      "image": "media/7bf9cf6e637c7669f53d21c1bee6cae5dfde358e03e8fa455a51aa5477e3e250.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; horizontal terminal block ordered left to right as displayed (the USB connectors sit mid-board, not at an end; see uncertain).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "TP0",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "TN0",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RTD0",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "TP1",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "TN1",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "RTD1",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "TP2",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "TN2",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "RTD2",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "analog-inputs",
+      "name": "Analog inputs terminal block",
+      "image": "media/7bf9cf6e637c7669f53d21c1bee6cae5dfde358e03e8fa455a51aa5477e3e250.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; horizontal terminal block ordered left to right as displayed (the USB connectors sit mid-board, not at an end; see uncertain).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+24V",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "AI0",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "+24V",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "AI1",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "+24V",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "AI2",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "analog-outputs",
+      "name": "Analog outputs terminal block",
+      "image": "media/7bf9cf6e637c7669f53d21c1bee6cae5dfde358e03e8fa455a51aa5477e3e250.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; horizontal terminal block ordered left to right as displayed (the USB connectors sit mid-board, not at an end; see uncertain).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PJ11",
+          "functions": [
+            "AO0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PK1",
+          "functions": [
+            "AO1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "PG7",
+          "functions": [
+            "AO2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "PC7",
+          "functions": [
+            "AO3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "digital-inputs",
+      "name": "Digital inputs terminal block",
+      "image": "media/7bf9cf6e637c7669f53d21c1bee6cae5dfde358e03e8fa455a51aa5477e3e250.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; horizontal terminal block ordered left to right as displayed (the USB connectors sit mid-board, not at an end; see uncertain).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "00",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "01",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "02",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "03",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "04",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "05",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "06",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "07",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "digital-outputs",
+      "name": "Digital outputs terminal block",
+      "image": "media/7bf9cf6e637c7669f53d21c1bee6cae5dfde358e03e8fa455a51aa5477e3e250.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; horizontal terminal block ordered left to right as displayed (the USB connectors sit mid-board, not at an end; see uncertain).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+24V",
+          "functions": [
+            "IN"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "00",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "01",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "02",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "03",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "04",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "05",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "06",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "07",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "programmable-digital-io",
+      "name": "Programmable digital I/O terminal block",
+      "image": "media/7bf9cf6e637c7669f53d21c1bee6cae5dfde358e03e8fa455a51aa5477e3e250.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; horizontal terminal block ordered left to right as displayed (the USB connectors sit mid-board, not at an end; see uncertain).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+24V",
+          "functions": [
+            "IN"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "00",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "01",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "02",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "03",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "04",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "05",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "06",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "07",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "08",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "09",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "10",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "11",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "encoders",
+      "name": "Encoders terminal block",
+      "image": "media/7bf9cf6e637c7669f53d21c1bee6cae5dfde358e03e8fa455a51aa5477e3e250.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; horizontal terminal block ordered left to right as displayed (the USB connectors sit mid-board, not at an end; see uncertain).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+24V",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PJ8",
+          "functions": [
+            "A0"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PH12",
+          "functions": [
+            "B0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PH11",
+          "functions": [
+            "Z0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PC13",
+          "functions": [
+            "A1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PI7",
+          "functions": [
+            "B1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PJ10",
+          "functions": [
+            "Z1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "power-supply-img2",
+      "name": "Power supply terminal block",
+      "image": "media/df68408b82dc9d8881d88d4448705b1a96df8e9567f6307bc4c4b8dac2cbef47.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; horizontal terminal block ordered left to right as displayed (the USB connectors sit mid-board, not at an end; see uncertain).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+24V",
+          "functions": [
+            "IN"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "+24V",
+          "functions": [
+            "IN"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "hmi-comm-img2",
+      "name": "HMI - Comm protocols terminal block",
+      "image": "media/df68408b82dc9d8881d88d4448705b1a96df8e9567f6307bc4c4b8dac2cbef47.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; horizontal terminal block ordered left to right as displayed (the USB connectors sit mid-board, not at an end; see uncertain).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+24V",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RS485 TX P",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RS485 TX N",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "RS485 RX P",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "RS485 RX N",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "CAN H",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "CAN L",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "temperature-probes-img2",
+      "name": "Temperature probes terminal block",
+      "image": "media/df68408b82dc9d8881d88d4448705b1a96df8e9567f6307bc4c4b8dac2cbef47.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; horizontal terminal block ordered left to right as displayed (the USB connectors sit mid-board, not at an end; see uncertain).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "TP0",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "TN0",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RTD0",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "TP1",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "TN1",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "RTD1",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "TP2",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "TN2",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "RTD2",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "analog-inputs-img2",
+      "name": "Analog inputs terminal block",
+      "image": "media/df68408b82dc9d8881d88d4448705b1a96df8e9567f6307bc4c4b8dac2cbef47.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; horizontal terminal block ordered left to right as displayed (the USB connectors sit mid-board, not at an end; see uncertain).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+24V",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "AI0",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "+24V",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "AI1",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "+24V",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "AI2",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "analog-outputs-img2",
+      "name": "Analog outputs terminal block",
+      "image": "media/df68408b82dc9d8881d88d4448705b1a96df8e9567f6307bc4c4b8dac2cbef47.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; horizontal terminal block ordered left to right as displayed (the USB connectors sit mid-board, not at an end; see uncertain).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PJ11",
+          "functions": [
+            "AO0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PK1",
+          "functions": [
+            "AO1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "PG7",
+          "functions": [
+            "AO2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "PC7",
+          "functions": [
+            "AO3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "power-supply-img3",
+      "name": "Power supply terminal block",
+      "image": "media/b0924059b624eb056948b8112fd61ac9ce27175b9c06b964a3ec3b840fede7aa.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; horizontal terminal block ordered left to right as displayed (the USB connectors sit mid-board, not at an end; see uncertain).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+24V",
+          "functions": [
+            "IN"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "+24V",
+          "functions": [
+            "IN"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "hmi-comm-img3",
+      "name": "HMI - Comm protocols terminal block",
+      "image": "media/b0924059b624eb056948b8112fd61ac9ce27175b9c06b964a3ec3b840fede7aa.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; horizontal terminal block ordered left to right as displayed (the USB connectors sit mid-board, not at an end; see uncertain).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+24V",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RS485 TX P",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RS485 TX N",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "RS485 RX P",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "RS485 RX N",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "CAN H",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "CAN L",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "temperature-probes-img3",
+      "name": "Temperature probes terminal block",
+      "image": "media/b0924059b624eb056948b8112fd61ac9ce27175b9c06b964a3ec3b840fede7aa.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; horizontal terminal block ordered left to right as displayed (the USB connectors sit mid-board, not at an end; see uncertain).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "TP0",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "TN0",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RTD0",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "TP1",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "TN1",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "RTD1",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "TP2",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "TN2",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "RTD2",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "analog-inputs-img3",
+      "name": "Analog inputs terminal block",
+      "image": "media/b0924059b624eb056948b8112fd61ac9ce27175b9c06b964a3ec3b840fede7aa.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; horizontal terminal block ordered left to right as displayed (the USB connectors sit mid-board, not at an end; see uncertain).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+24V",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "AI0",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "+24V",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "AI1",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "+24V",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "AI2",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "analog-outputs-img3",
+      "name": "Analog outputs terminal block",
+      "image": "media/b0924059b624eb056948b8112fd61ac9ce27175b9c06b964a3ec3b840fede7aa.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; horizontal terminal block ordered left to right as displayed (the USB connectors sit mid-board, not at an end; see uncertain).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PJ11",
+          "functions": [
+            "AO0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PK1",
+          "functions": [
+            "AO1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "PG7",
+          "functions": [
+            "AO2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "PC7",
+          "functions": [
+            "AO3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "digital-inputs-img4",
+      "name": "Digital inputs terminal block",
+      "image": "media/eab811ca93774ec426e600be203f8512c1701fd7ca619d57e6a67915473f7695.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; horizontal terminal block ordered left to right as displayed (the USB connectors sit mid-board, not at an end; see uncertain).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "00",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "01",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "02",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "03",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "04",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "05",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "06",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "07",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "digital-outputs-img4",
+      "name": "Digital outputs terminal block",
+      "image": "media/eab811ca93774ec426e600be203f8512c1701fd7ca619d57e6a67915473f7695.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; horizontal terminal block ordered left to right as displayed (the USB connectors sit mid-board, not at an end; see uncertain).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+24V",
+          "functions": [
+            "IN"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "00",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "01",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "02",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "03",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "04",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "05",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "06",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "07",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "programmable-digital-io-img4",
+      "name": "Programmable digital I/O terminal block",
+      "image": "media/eab811ca93774ec426e600be203f8512c1701fd7ca619d57e6a67915473f7695.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; horizontal terminal block ordered left to right as displayed (the USB connectors sit mid-board, not at an end; see uncertain).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+24V",
+          "functions": [
+            "IN"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "00",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "01",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "02",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "03",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "04",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "05",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "06",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "07",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "08",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "09",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "10",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "11",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "encoders-img4",
+      "name": "Encoders terminal block",
+      "image": "media/eab811ca93774ec426e600be203f8512c1701fd7ca619d57e6a67915473f7695.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; horizontal terminal block ordered left to right as displayed (the USB connectors sit mid-board, not at an end; see uncertain).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+24V",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PJ8",
+          "functions": [
+            "A0"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PH12",
+          "functions": [
+            "B0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PH11",
+          "functions": [
+            "Z0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PC13",
+          "functions": [
+            "A1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PI7",
+          "functions": [
+            "B1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PJ10",
+          "functions": [
+            "Z1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "micro-usb-img5",
+      "name": "Micro USB connector lines",
+      "image": "media/9255f4a25238ecc441b5abb79c9955e5984ca3bcfbf903c4e46c045b66c49a2f.png",
+      "rows": 1,
+      "orderNote": "No contact numbers printed; listed top to bottom as printed.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+5V",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "USB D-",
+          "functions": [
+            "J1-27"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "USB D+",
+          "functions": [
+            "J1-25"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PJ6",
+          "functions": [
+            "USB ID"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "usb-a-img5",
+      "name": "USB A connector lines",
+      "image": "media/9255f4a25238ecc441b5abb79c9955e5984ca3bcfbf903c4e46c045b66c49a2f.png",
+      "rows": 1,
+      "orderNote": "No contact numbers printed; listed top to bottom as printed.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+5V",
+          "functions": [
+            "IN"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PA11",
+          "functions": [
+            "USB D-",
+            "J1-28"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA12",
+          "functions": [
+            "USB D+",
+            "J1-26"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-img5",
+      "name": "Grove connector",
+      "image": "media/9255f4a25238ecc441b5abb79c9955e5984ca3bcfbf903c4e46c045b66c49a2f.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; vertical connector, listed top to bottom as printed (top-row rule).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PH7",
+          "functions": [
+            "I2C SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PH8",
+          "functions": [
+            "I2C SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "ethernet-img5",
+      "name": "Ethernet connector lines",
+      "image": "media/9255f4a25238ecc441b5abb79c9955e5984ca3bcfbf903c4e46c045b66c49a2f.png",
+      "rows": 1,
+      "orderNote": "No contact numbers printed; listed top to bottom as printed.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A_N",
+          "functions": [
+            "ETH_A_N"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "A_P",
+          "functions": [
+            "ETH_A_P"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "B_N",
+          "functions": [
+            "ETH_B_N"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "B_P",
+          "functions": [
+            "ETH_B_P"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "C_N",
+          "functions": [
+            "ETH_C_N"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "C_P",
+          "functions": [
+            "ETH_C_P"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "D_N",
+          "functions": [
+            "ETH_D_N"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "D_P",
+          "functions": [
+            "ETH_D_P"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "LED1",
+          "functions": [
+            "ETH_L1"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "LED2",
+          "functions": [
+            "ETH_L2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "J1-img6",
+      "name": "J1-Female Portenta high-density connector (bottom view)",
+      "image": "media/7cc795113c2e0dd9ad1f421e294157d0415b71ac0dc5512a04c44899013ea628.png",
+      "rows": 2,
+      "orderNote": "Pin numbers 1-80 printed; positions follow them (odd left column, even right column).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "ETH A+",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "ETH A-",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "ETH B+",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "ETH B-",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "DSI D1+",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "DSI D1-",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "DSI D0+",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "DSI D0-",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "ETH L1",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "DSI CK+",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "ETH L2",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "DSI CK-",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "VIN",
+          "functions": [
+            "IN"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "USB1 VBUS",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "USB1 D+",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "USB0 D+",
+          "functions": []
+        },
+        {
+          "position": 27,
+          "label": "USB1 D-",
+          "functions": []
+        },
+        {
+          "position": 28,
+          "label": "USB0 D-",
+          "functions": []
+        },
+        {
+          "position": 29,
+          "label": "USB1 ID",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 31,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 32,
+          "label": "VIN",
+          "functions": [
+            "IN"
+          ]
+        },
+        {
+          "position": 33,
+          "label": "UART1 TX",
+          "functions": []
+        },
+        {
+          "position": 34,
+          "label": "UART0 TX",
+          "functions": []
+        },
+        {
+          "position": 35,
+          "label": "UART1 RX",
+          "functions": []
+        },
+        {
+          "position": 36,
+          "label": "UART0 RX",
+          "functions": []
+        },
+        {
+          "position": 37,
+          "label": "UART1 RTS",
+          "functions": []
+        },
+        {
+          "position": 38,
+          "label": "UART0 RTS",
+          "functions": []
+        },
+        {
+          "position": 39,
+          "label": "UART1 CTS",
+          "functions": []
+        },
+        {
+          "position": 40,
+          "label": "UART0 CTS",
+          "functions": []
+        },
+        {
+          "position": 41,
+          "label": "VIN",
+          "functions": [
+            "IN"
+          ]
+        },
+        {
+          "position": 42,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 43,
+          "label": "I2C1 SDA",
+          "functions": []
+        },
+        {
+          "position": 44,
+          "label": "I2C0 SDA",
+          "functions": []
+        },
+        {
+          "position": 45,
+          "label": "I2C1 SD6",
+          "functions": []
+        },
+        {
+          "position": 46,
+          "label": "I2C0 SCL",
+          "functions": []
+        },
+        {
+          "position": 47,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 48,
+          "label": "VIN",
+          "functions": [
+            "IN"
+          ]
+        },
+        {
+          "position": 49,
+          "label": "CAN1 TX",
+          "functions": []
+        },
+        {
+          "position": 50,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 51,
+          "label": "CAN1 RX",
+          "functions": []
+        },
+        {
+          "position": 52,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 53,
+          "label": "VSYS",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 54,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 55,
+          "label": "SDC CLK",
+          "functions": []
+        },
+        {
+          "position": 56,
+          "label": "I2S MCK",
+          "functions": []
+        },
+        {
+          "position": 57,
+          "label": "SDC CMD",
+          "functions": []
+        },
+        {
+          "position": 58,
+          "label": "I2S WS",
+          "functions": []
+        },
+        {
+          "position": 59,
+          "label": "SDC D0",
+          "functions": []
+        },
+        {
+          "position": 60,
+          "label": "I2S DI",
+          "functions": []
+        },
+        {
+          "position": 61,
+          "label": "SDC D1",
+          "functions": []
+        },
+        {
+          "position": 62,
+          "label": "I2S DO",
+          "functions": []
+        },
+        {
+          "position": 63,
+          "label": "SDC D2",
+          "functions": []
+        },
+        {
+          "position": 64,
+          "label": "VSYS",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 65,
+          "label": "SDC D3",
+          "functions": []
+        },
+        {
+          "position": 66,
+          "label": "DMIC CK",
+          "functions": []
+        },
+        {
+          "position": 67,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 68,
+          "label": "DMIC D0",
+          "functions": []
+        },
+        {
+          "position": 69,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 70,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 71,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 72,
+          "label": "V-SDCARD",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 73,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 74,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 75,
+          "label": "SWDIO",
+          "functions": []
+        },
+        {
+          "position": 76,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 77,
+          "label": "SWCK",
+          "functions": []
+        },
+        {
+          "position": 78,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 79,
+          "label": "SWO",
+          "functions": []
+        },
+        {
+          "position": 80,
+          "label": "?",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J2-img6",
+      "name": "J2-Female Portenta high-density connector (bottom view)",
+      "image": "media/7cc795113c2e0dd9ad1f421e294157d0415b71ac0dc5512a04c44899013ea628.png",
+      "rows": 2,
+      "orderNote": "Pin numbers 1-80 printed; positions follow them (even left column, odd right column).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "FORCE_BOOTLOADER",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "CAM D7",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "BOOT_SOURCE",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "CAM D6",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "POWER_ON_REQ",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "CAM D5",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "COINCELL",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "CAM D4",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "CAM D3",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "CAM D2",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "CAM D1",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "CAM D0",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "CAM VS",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "CAM CLK",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "CAM HS",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "VCC/+3V3",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "UART3 TX",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "UART2 TX",
+          "functions": []
+        },
+        {
+          "position": 27,
+          "label": "UART3 RX",
+          "functions": []
+        },
+        {
+          "position": 28,
+          "label": "UART2 RX",
+          "functions": []
+        },
+        {
+          "position": 29,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 31,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 32,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 33,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 34,
+          "label": "VCC",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 35,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 36,
+          "label": "SPI1 CS",
+          "functions": []
+        },
+        {
+          "position": 37,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 38,
+          "label": "SPI1 CK",
+          "functions": []
+        },
+        {
+          "position": 39,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 40,
+          "label": "SPI1 CIPO",
+          "functions": []
+        },
+        {
+          "position": 41,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 42,
+          "label": "SPI1 COPI",
+          "functions": []
+        },
+        {
+          "position": 43,
+          "label": "VCC/+3V3",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 44,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 45,
+          "label": "I2C2 SDA",
+          "functions": []
+        },
+        {
+          "position": 46,
+          "label": "GPIO 0",
+          "functions": []
+        },
+        {
+          "position": 47,
+          "label": "I2C2 SCL",
+          "functions": []
+        },
+        {
+          "position": 48,
+          "label": "GPIO 1",
+          "functions": []
+        },
+        {
+          "position": 49,
+          "label": "SAI CK",
+          "functions": []
+        },
+        {
+          "position": 50,
+          "label": "GPIO 2",
+          "functions": []
+        },
+        {
+          "position": 51,
+          "label": "SAI FS",
+          "functions": []
+        },
+        {
+          "position": 52,
+          "label": "GPIO 3",
+          "functions": []
+        },
+        {
+          "position": 53,
+          "label": "SAI D0",
+          "functions": []
+        },
+        {
+          "position": 54,
+          "label": "GPIO 4",
+          "functions": []
+        },
+        {
+          "position": 55,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 56,
+          "label": "GPIO 5",
+          "functions": []
+        },
+        {
+          "position": 57,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 58,
+          "label": "GPIO 6",
+          "functions": []
+        },
+        {
+          "position": 59,
+          "label": "PWM 1",
+          "functions": []
+        },
+        {
+          "position": 60,
+          "label": "PWM 6",
+          "functions": []
+        },
+        {
+          "position": 61,
+          "label": "PWM 2",
+          "functions": []
+        },
+        {
+          "position": 62,
+          "label": "PWM 7",
+          "functions": []
+        },
+        {
+          "position": 63,
+          "label": "PWM 3",
+          "functions": []
+        },
+        {
+          "position": 64,
+          "label": "PWM 8",
+          "functions": []
+        },
+        {
+          "position": 65,
+          "label": "PWM 4",
+          "functions": []
+        },
+        {
+          "position": 66,
+          "label": "PWM 9",
+          "functions": []
+        },
+        {
+          "position": 67,
+          "label": "PWM 5",
+          "functions": []
+        },
+        {
+          "position": 68,
+          "label": "PWM 10",
+          "functions": []
+        },
+        {
+          "position": 69,
+          "label": "VCC/+3V3",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 70,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 71,
+          "label": "ADC VREF+",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 72,
+          "label": "ADC VREF-",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 73,
+          "label": "ADC A0",
+          "functions": []
+        },
+        {
+          "position": 74,
+          "label": "ADC A4",
+          "functions": []
+        },
+        {
+          "position": 75,
+          "label": "ADC A1",
+          "functions": []
+        },
+        {
+          "position": 76,
+          "label": "ADC A5",
+          "functions": []
+        },
+        {
+          "position": 77,
+          "label": "ADC A2",
+          "functions": []
+        },
+        {
+          "position": 78,
+          "label": "ADC A6",
+          "functions": []
+        },
+        {
+          "position": 79,
+          "label": "ADC A3",
+          "functions": []
+        },
+        {
+          "position": 80,
+          "label": "ADC A7",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "J1-img6 position 2: printed pin 2 has no label (unlabeled).",
+    "J1-img6 position 4: printed pin 4 has no label (unlabeled).",
+    "J1-img6 position 6: printed pin 6 has no label (unlabeled).",
+    "J1-img6 position 8: printed pin 8 has no label (unlabeled).",
+    "J1-img6 position 9: printed pin 9 has no label (unlabeled).",
+    "J1-img6 position 11: printed pin 11 has no label (unlabeled).",
+    "J1-img6 position 13: printed pin 13 has no label (unlabeled).",
+    "J1-img6 position 15: printed pin 15 has no label (unlabeled).",
+    "J1-img6 position 24: printed pin 24 has no label (unlabeled).",
+    "J1-img6 position 30: printed pin 30 has no label (unlabeled).",
+    "J1-img6 position 50: printed pin 50 has no label (unlabeled).",
+    "J1-img6 position 52: printed pin 52 has no label (unlabeled).",
+    "J1-img6 position 67: printed pin 67 has no label (unlabeled).",
+    "J1-img6 position 69: printed pin 69 has no label (unlabeled).",
+    "J1-img6 position 70: printed pin 70 has no label (unlabeled).",
+    "J1-img6 position 71: printed pin 71 has no label (unlabeled).",
+    "J1-img6 position 74: printed pin 74 has no label (unlabeled).",
+    "J1-img6 position 76: printed pin 76 has no label (unlabeled).",
+    "J1-img6 position 78: printed pin 78 has no label (unlabeled).",
+    "J1-img6 position 80: printed pin 80 has no label (unlabeled).",
+    "J2-img6 position 9: printed pin 9 has no label (unlabeled).",
+    "J2-img6 position 11: printed pin 11 has no label (unlabeled).",
+    "J2-img6 position 13: printed pin 13 has no label (unlabeled).",
+    "J2-img6 position 15: printed pin 15 has no label (unlabeled).",
+    "J2-img6 position 17: printed pin 17 has no label (unlabeled).",
+    "J2-img6 position 19: printed pin 19 has no label (unlabeled).",
+    "J2-img6 position 21: printed pin 21 has no label (unlabeled).",
+    "J2-img6 position 29: printed pin 29 has no label (unlabeled).",
+    "J2-img6 position 30: printed pin 30 has no label (unlabeled).",
+    "J2-img6 position 31: printed pin 31 has no label (unlabeled).",
+    "J2-img6 position 32: printed pin 32 has no label (unlabeled).",
+    "J2-img6 position 35: printed pin 35 has no label (unlabeled).",
+    "J2-img6 position 37: printed pin 37 has no label (unlabeled).",
+    "J2-img6 position 39: printed pin 39 has no label (unlabeled).",
+    "J2-img6 position 41: printed pin 41 has no label (unlabeled).",
+    "J2-img6 position 55: printed pin 55 has no label (unlabeled)."
+  ],
+  "uncertain": [
+    "Terminal blocks (images 1-4): the USB-A and micro USB connectors sit in the middle of the board, so the USB-nearest rule gives no consistent start end (e.g. the temperature-probe block is nearly equidistant); all blocks were ordered left to right as displayed instead.",
+    "micro-usb-img5 / usb-a-img5 / ethernet-img5: these callouts list connector signals, not physical contact positions; order is the printed list order and it is unclear whether these receptacles belong in the connector list.",
+    "grove-img5: the Grove connector's physical pin order is not marked; the top-to-bottom callout order is assumed to match the connector pins."
+  ],
+  "notes": "Images 1-4 show the same top-view terminal blocks (image 1 all, images 2-3 top row, image 4 bottom row); transcribed per image per rule 11. IN/OUT badges on power pins kept as functions. Port names (PJ11, PJ8, PH7, PA11...) used as labels where printed, with the board function name in functions. Group headings (POWER SUPPLY, ANALOG INPUTS, DIGITAL OUTPUTS...) omitted as category tags. Status LEDs and the RS485/CAN transceiver chip-pin callouts (U19, U15) in image 5 skipped. Image 6 J1/J2 are the board's Portenta sockets; 'I2C1 SD6' copied as printed. Tables in images 2-4 are explanatory and not transcribed."
+}

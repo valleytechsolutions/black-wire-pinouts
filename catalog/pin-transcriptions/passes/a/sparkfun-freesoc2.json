@@ -1,0 +1,717 @@
+{
+  "recordId": "sparkfun-freesoc2",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/46f583fac280cebdc13d43c36315809f8c1cdd25999e336c42a95da2bb5274bc.png",
+      "sha256": "46f583fac280cebdc13d43c36315809f8c1cdd25999e336c42a95da2bb5274bc"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "power-header",
+      "name": "Left power header",
+      "image": "media/46f583fac280cebdc13d43c36315809f8c1cdd25999e336c42a95da2bb5274bc.png",
+      "rows": 1,
+      "orderNote": "Closest to USB connectors (both micro-B at top): top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VDDIO Arduino",
+          "functions": [
+            "VDDIO2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "Reset",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "V_IN",
+          "functions": [
+            "Vin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "analog-header",
+      "name": "Left analog header",
+      "image": "media/46f583fac280cebdc13d43c36315809f8c1cdd25999e336c42a95da2bb5274bc.png",
+      "rows": 1,
+      "orderNote": "Closest to USB connectors (both micro-B at top): top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A0",
+          "functions": [
+            "P15.5"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "A1",
+          "functions": [
+            "P15.4"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "A2",
+          "functions": [
+            "P6.3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "A3",
+          "functions": [
+            "P6.2"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "A4",
+          "functions": [
+            "P6.1",
+            "SDA"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "A5",
+          "functions": [
+            "P6.0",
+            "SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sio-header",
+      "name": "Left SIO header",
+      "image": "media/46f583fac280cebdc13d43c36315809f8c1cdd25999e336c42a95da2bb5274bc.png",
+      "rows": 1,
+      "orderNote": "Closest to USB connectors (both micro-B at top): top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VDDIO",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SIO P12.0",
+          "functions": [
+            "P12.0",
+            "SIO"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "SIO P12.1",
+          "functions": [
+            "P12.1",
+            "SIO"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "SIO P12.2",
+          "functions": [
+            "P12.2",
+            "SIO"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "SIO P12.3",
+          "functions": [
+            "P12.3",
+            "SIO"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "SIO P12.6",
+          "functions": [
+            "P12.6",
+            "SIO"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "SIO P12.7",
+          "functions": [
+            "P12.7",
+            "SIO"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-upper",
+      "name": "Right upper Arduino header",
+      "image": "media/46f583fac280cebdc13d43c36315809f8c1cdd25999e336c42a95da2bb5274bc.png",
+      "rows": 1,
+      "orderNote": "Closest to USB connectors (both micro-B at top): top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A4",
+          "functions": [
+            "P6.4",
+            "SDA"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "A5",
+          "functions": [
+            "P6.8",
+            "SCL"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "D13",
+          "functions": [
+            "P6.7",
+            "SCK"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D12",
+          "functions": [
+            "P6.6",
+            "MISO"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "D11",
+          "functions": [
+            "P6.5",
+            "PWM",
+            "MOSI"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "D10",
+          "functions": [
+            "P6.4",
+            "PWM",
+            "CS"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "D9",
+          "functions": [
+            "P12.5",
+            "PWM"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "D8",
+          "functions": [
+            "P12.4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-lower",
+      "name": "Right lower Arduino header",
+      "image": "media/46f583fac280cebdc13d43c36315809f8c1cdd25999e336c42a95da2bb5274bc.png",
+      "rows": 1,
+      "orderNote": "Closest to USB connectors (both micro-B at top): top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D7",
+          "functions": [
+            "P2.7"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D6",
+          "functions": [
+            "P2.6",
+            "PWM"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "D5",
+          "functions": [
+            "P2.5",
+            "PWM"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D4",
+          "functions": [
+            "P2.4"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "D3",
+          "functions": [
+            "P2.3",
+            "PWM",
+            "INT1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D2",
+          "functions": [
+            "P2.2",
+            "INT0"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "D1",
+          "functions": [
+            "P2.1",
+            "TX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "D0",
+          "functions": [
+            "P2.0",
+            "RX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "debugger-io",
+      "name": "Debugger IO 2x6 header (top right)",
+      "image": "media/46f583fac280cebdc13d43c36315809f8c1cdd25999e336c42a95da2bb5274bc.png",
+      "rows": 2,
+      "orderNote": "2xN: closest to USB (top) first, outer (right, board-edge) row = 1, alternating",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.0",
+          "functions": [
+            "Debugger"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "12.6",
+          "functions": [
+            "Debugger"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "12.7",
+          "functions": [
+            "Debugger"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "3.6",
+          "functions": [
+            "Debugger"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "3.7",
+          "functions": [
+            "Debugger"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "3.4",
+          "functions": [
+            "Debugger"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "3.5",
+          "functions": [
+            "Debugger"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "0.0",
+          "functions": [
+            "Debugger"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "0.1",
+          "functions": [
+            "Debugger"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "VDDIO",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "1.2",
+          "functions": [
+            "Debugger"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "port4-header",
+      "name": "Port 4 2x6 header (right side)",
+      "image": "media/46f583fac280cebdc13d43c36315809f8c1cdd25999e336c42a95da2bb5274bc.png",
+      "rows": 2,
+      "orderNote": "2xN: closest to USB (top) first, outer (right, board-edge) row = 1, alternating",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VDDIO",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "VDDIO",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "4.7",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "4.6",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "4.5",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "4.4",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "4.3",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "4.2",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "4.1",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "4.0",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "port5-header",
+      "name": "Port 5 2x6 header (bottom left)",
+      "image": "media/46f583fac280cebdc13d43c36315809f8c1cdd25999e336c42a95da2bb5274bc.png",
+      "rows": 2,
+      "orderNote": "2xN horizontal: start at the end closest to the USB connectors (right end), outer (bottom, board-edge) row = 1, alternating",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5.1",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5.0",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "5.3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "5.2",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "5.5",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "5.4",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "5.7",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "5.6",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "VDDIO",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "VDDIO",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "port3-header",
+      "name": "Port 3 2x6 header (bottom middle)",
+      "image": "media/46f583fac280cebdc13d43c36315809f8c1cdd25999e336c42a95da2bb5274bc.png",
+      "rows": 2,
+      "orderNote": "2xN horizontal: ends equidistant from the two USB connectors, so left rule; outer (bottom, board-edge) row = 1, alternating",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3.1",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.0",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3.2",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3.5",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "3.4",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "3.7",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "3.6",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "VDDIO",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "VDDIO",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "port0-header",
+      "name": "Port 0 2x6 header (bottom right)",
+      "image": "media/46f583fac280cebdc13d43c36315809f8c1cdd25999e336c42a95da2bb5274bc.png",
+      "rows": 2,
+      "orderNote": "2xN horizontal: start at the end closest to the USB connectors (left end), outer (bottom, board-edge) row = 1, alternating",
+      "pins": [
+        {
+          "position": 1,
+          "label": "0.1",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "0.0",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "0.3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "0.2",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "0.5",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "0.4",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "0.7",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "0.6",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "VDDIO",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "VDDIO",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "right-header-lower D2: INT0 printed in a font where O and 0 look alike; recorded as 0"
+  ],
+  "notes": "Arduino Configuration image. Labels from the white Name column; port numbers and categories as functions. JST connector (polarity marks only), SWD ports (no per-pin labels) and buttons skipped. Board silkscreen on the left analog header reads A4/SCL and A5/SDA while the callouts give A4=SDA, A5=SCL; callouts used.",
+  "uncertain": [
+    "2x6 headers (debugger-io, port4-header, port5/3/0-header): the callout tables give two label columns per header but do not show which column is the outer vs inner hole row; assumed the right-hand table column (debugger GND..., x.7/x.5/x.3/x.1) is the outer row",
+    "right-header-upper A4/A5: callouts read P6.4/SDA and P6.8/SCL, but board silkscreen reads A4/SCL P6.1 and A5/SDA P6.0; P6.4 is also given for D10. Callout text copied as printed",
+    "bottom 2x6 headers: USB connectors are on the opposite edge; start end chosen by geometric distance (port5 right end, port0 left end, port3 tie -> left)"
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "recordId": "waveshare-esp32-esp32-c3-lcd-0-71",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/e7322ac3864d1f3fbd7cd09b1b8a1c2b5a3301164f71529a4e993025da4adc6e.jpg",
+      "sha256": "e7322ac3864d1f3fbd7cd09b1b8a1c2b5a3301164f71529a4e993025da4adc6e"
+    },
+    {
+      "file": "media/b562a6027948253474d5f11e2dcadad74be1eb61aa88eea63f23da6de5615ea0.jpg",
+      "sha256": "b562a6027948253474d5f11e2dcadad74be1eb61aa88eea63f23da6de5615ea0"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-edge-pads",
+      "name": "Left edge pads",
+      "image": "media/e7322ac3864d1f3fbd7cd09b1b8a1c2b5a3301164f71529a4e993025da4adc6e.jpg",
+      "rows": 1,
+      "orderNote": "No pin 1 mark or pin numbers; position 1 at the bottom end of the edge row, closest to the USB-C connector. Labels are the board names (silkscreen, repeated in the grey header row of the callout table); functions are listed top to bottom as printed.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G",
+          "functions": [
+            "GND"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3",
+          "functions": [
+            "GPIO3",
+            "SPI",
+            "I2C",
+            "ADC",
+            "I2S",
+            "TWAI",
+            "PWM",
+            "UART1"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "2",
+          "functions": [
+            "GPIO2",
+            "SPI",
+            "I2C",
+            "ADC",
+            "I2S",
+            "TWAI",
+            "PWM",
+            "UART1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "0",
+          "functions": [
+            "GPIO0",
+            "SPI",
+            "I2C",
+            "ADC",
+            "I2S",
+            "TWAI",
+            "PWM",
+            "UART1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-edge-pads",
+      "name": "Right edge pads",
+      "image": "media/e7322ac3864d1f3fbd7cd09b1b8a1c2b5a3301164f71529a4e993025da4adc6e.jpg",
+      "rows": 1,
+      "orderNote": "No pin 1 mark or pin numbers; position 1 at the bottom end of the edge row, closest to the USB-C connector. Labels are the board names (silkscreen, repeated in the grey header row of the callout table); functions are listed top to bottom as printed.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G",
+          "functions": [
+            "GND"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "G",
+          "functions": [
+            "GND"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "10",
+          "functions": [
+            "GPIO10",
+            "SPI",
+            "I2C",
+            "12S",
+            "TWAI",
+            "PWM",
+            "UART1"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "20",
+          "functions": [
+            "GPIO20",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "21",
+          "functions": [
+            "GPIO21",
+            "UART0 TX"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Image 2 is a smaller copy of image 1 with identical content. On the board photo the right-side '10' silkscreen is partly hidden by the callout dot; the callout table header row reads 10. GPIO10 function printed as 12S (copied as printed)."
+}

@@ -1,0 +1,341 @@
+{
+  "recordId": "lilygo-rp2350-t-pico-2350",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/50bd861113bd1e89d81e00f32d3997804520721fd0fcc13e7da065c8365364d2.jpg",
+      "sha256": "50bd861113bd1e89d81e00f32d3997804520721fd0fcc13e7da065c8365364d2"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header (E32-C6)",
+      "image": "media/50bd861113bd1e89d81e00f32d3997804520721fd0fcc13e7da065c8365364d2.jpg",
+      "rows": 1,
+      "orderNote": "No printed position numbers; vertical row, started at the end closest to the USB-C connector (bottom).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "E-IO09",
+          "functions": [
+            "EIO5"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "E-IO19",
+          "functions": [
+            "EIO6"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "E-IO08",
+          "functions": [
+            "EIO4"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "E-IO20",
+          "functions": [
+            "EIO7"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "E-IO21",
+          "functions": [
+            "EIO8"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "E-IO05",
+          "functions": [
+            "EIO3"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "E-IO04",
+          "functions": [
+            "EIO2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "E-IO03",
+          "functions": [
+            "EIO1"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "E-IO02",
+          "functions": [
+            "EIO0"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "E-RX",
+          "functions": [
+            "ERX"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "E-TX",
+          "functions": [
+            "ETX"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header (RP2350)",
+      "image": "media/50bd861113bd1e89d81e00f32d3997804520721fd0fcc13e7da065c8365364d2.jpg",
+      "rows": 1,
+      "orderNote": "No printed position numbers; vertical row, started at the end closest to the USB-C connector (bottom).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VIN",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "IO04",
+          "functions": [
+            "IO4"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "IO03",
+          "functions": [
+            "IO3"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "IO02",
+          "functions": [
+            "IO2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "IO01",
+          "functions": [
+            "IO1"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "IO00",
+          "functions": [
+            "IO0"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "IO20",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "IO21",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "IO22",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "IO23",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "qwiic-left",
+      "name": "QWIIC connector (left of USB-C)",
+      "image": "media/50bd861113bd1e89d81e00f32d3997804520721fd0fcc13e7da065c8365364d2.jpg",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; horizontal row, started at the end closest to the USB-C connector (right end).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO03",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "IO02",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "qwiic-right",
+      "name": "QWIIC connector (right of USB-C)",
+      "image": "media/50bd861113bd1e89d81e00f32d3997804520721fd0fcc13e7da065c8365364d2.jpg",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; horizontal row, started at the end closest to the USB-C connector (left end).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO21",
+          "functions": [
+            "RX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "IO20",
+          "functions": [
+            "TX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fpc-connector",
+      "name": "Numbered connector list on the enclosure (1-13)",
+      "image": "media/50bd861113bd1e89d81e00f32d3997804520721fd0fcc13e7da065c8365364d2.jpg",
+      "rows": 1,
+      "orderNote": "Positions follow the printed numbers 1:GND ... 13:GND.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO4",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO1",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO6",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GPIO0",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO7",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GPIO11",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Header labels from the diagram callouts; the enclosure plate prints a second list (left: 3V3 GND ETX ERX EIO0 EIO1 EIO2 EIO3 EIO8 EIO7 EIO4 EIO6 EIO5 top to bottom; right: IO23 ... VIN) which is recorded in functions. QWIIC labels from the callouts 3V3 GND IO02(SDA) IO03(SCL) and 3V3 GND IO21(RX) IO20(TX). The 1:GND ... 13:GND list is printed on the enclosure above a small FPC connector window. The 2-pin connector beside it is unlabelled and skipped. LCD, touch, TF card, HDMI and UART tables are internal.",
+  "uncertain": [
+    "left-header: the diagram callouts (E-IO02, E-IO03, E-IO04, E-IO05, E-IO21, E-IO20, E-IO08, E-IO19, E-IO09) disagree with the enclosure/PCB labels (EIO0, EIO1, EIO2, EIO3, EIO8, EIO7, EIO4, EIO6, EIO5) for positions 1-9; the PCB silkscreen EIO6 beside the second-from-bottom pin matches the enclosure list. Callout used as label, enclosure name kept in functions.",
+    "QWIIC connectors: enclosure boxes read GND 3V3 SDA SCL and GND 3V3 RX TX, while the callouts read 3V3 GND ... ; the GND/3V3 order of each QWIIC is therefore uncertain (callout order used).",
+    "fpc-connector: 13 numbered entries are printed above a small FPC connector, but the image does not show which physical contact is 1 or that all 13 belong to that connector (13:GND is printed apart from the others)."
+  ]
+}

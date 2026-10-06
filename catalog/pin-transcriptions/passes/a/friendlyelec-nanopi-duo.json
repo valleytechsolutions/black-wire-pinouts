@@ -1,0 +1,289 @@
+{
+  "recordId": "friendlyelec-nanopi-duo",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/5b8978a99b2cfae89a3faca78ced6d7b3143b45e9bd170f5f725e0691246cee2.jpg",
+      "sha256": "5b8978a99b2cfae89a3faca78ced6d7b3143b45e9bd170f5f725e0691246cee2"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left 16-pin column",
+      "image": "media/5b8978a99b2cfae89a3faca78ced6d7b3143b45e9bd170f5f725e0691246cee2.jpg",
+      "rows": 1,
+      "orderNote": "Micro USB at bottom: started at the bottom end, read bottom to top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IOA5",
+          "functions": [
+            "DRX",
+            "DEBUG UART0",
+            "RX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "IOA4",
+          "functions": [
+            "DTX",
+            "DEBUG UART0",
+            "TX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IOA11",
+          "functions": [
+            "SCL",
+            "I2C0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "IOA12",
+          "functions": [
+            "SDA",
+            "I2C0"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "IOA13",
+          "functions": [
+            "CS",
+            "SPI1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "IOA14",
+          "functions": [
+            "CLK",
+            "SPI1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "IOA16",
+          "functions": [
+            "MI",
+            "SPI1",
+            "MISO"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "IOA15",
+          "functions": [
+            "MO",
+            "SPI1",
+            "MOSI"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "IOG7",
+          "functions": [
+            "RX1",
+            "UART1",
+            "RX"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "IOG6",
+          "functions": [
+            "TX1",
+            "UART1",
+            "TX"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "CVBS",
+          "functions": [
+            "CVB"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "LOL",
+          "functions": [
+            "LINEOUT",
+            "L"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "LOR",
+          "functions": [
+            "LINEOUT",
+            "R"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "MICP",
+          "functions": [
+            "MIC",
+            "P"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "MICN",
+          "functions": [
+            "MIC",
+            "N"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right 16-pin column",
+      "image": "media/5b8978a99b2cfae89a3faca78ced6d7b3143b45e9bd170f5f725e0691246cee2.jpg",
+      "rows": 1,
+      "orderNote": "Micro USB at bottom: started at the bottom end, read bottom to top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V in",
+          "functions": [
+            "IN/OUT"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "5V in",
+          "functions": [
+            "IN/OUT"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "IOL11",
+          "functions": [
+            "IRRX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "IOG11",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "DM3",
+          "functions": [
+            "USB3",
+            "D-"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "DP3",
+          "functions": [
+            "USB3",
+            "D+"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "DM2",
+          "functions": [
+            "USB2",
+            "D-"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "DP2",
+          "functions": [
+            "USB2",
+            "D+"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "RD-",
+          "functions": [
+            "EPHY",
+            "RXN"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "RD+",
+          "functions": [
+            "EPHY",
+            "RXP"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "TD-",
+          "functions": [
+            "EPHY",
+            "TXN"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "TD+",
+          "functions": [
+            "EPHY",
+            "TXP"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "LNK",
+          "functions": [
+            "EPHY",
+            "LED-LINK"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "SPD",
+          "functions": [
+            "EPHY",
+            "LED-SPD"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "O vs 0 in 'UART0', 'I2C0': read as digit 0"
+  ],
+  "uncertain": [
+    "Labels come from an off-board diagram with name columns on both sides of each dot column; the name next to the dot (e.g. 'MICN', 'TX1', 'CVB') and the far-side names were all kept, with GPIO names (IOxx) used as labels where printed.",
+    "Left row 5 shows 'CVB' next to the pin and 'CVBS' further out; 'CVBS' used as label with 'CVB' as alternate spelling. Right rows 15-16 share one '5V in' / 'IN/OUT' box spanning both pins.",
+    "Right row 11 shows 'IOG11' on both sides; right row 12 shows 'IRRX' near the pin and 'IOL11' further out."
+  ],
+  "notes": "FriendlyELEC 'NanoPi Duo pinout diagram'."
+}

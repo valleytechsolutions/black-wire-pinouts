@@ -1,0 +1,327 @@
+{
+  "recordId": "nullbits-rp2040-bit-c-pro",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/1ef7bc3864f9de93e9e1d1d6a66c2c882e518012d3250526c2ddb95a48a130df.png",
+      "sha256": "1ef7bc3864f9de93e9e1d1d6a66c2c882e518012d3250526c2ddb95a48a130df"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/1ef7bc3864f9de93e9e1d1d6a66c2c882e518012d3250526c2ddb95a48a130df.png",
+      "rows": 1,
+      "orderNote": "No header pin numbers; started at the end closest to the USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO0",
+          "functions": [
+            "D0",
+            "RX0",
+            "TX0",
+            "SDA0",
+            "PWM0A"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO1",
+          "functions": [
+            "D1",
+            "CSn0",
+            "RX0",
+            "SCL0",
+            "PWM0B"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO2",
+          "functions": [
+            "D2",
+            "SCK0",
+            "CTS0",
+            "SDA1",
+            "PWM1A"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO3",
+          "functions": [
+            "D3",
+            "TX0",
+            "RTS0",
+            "SCL1",
+            "PWM1B"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO4",
+          "functions": [
+            "D4",
+            "RX0",
+            "TX1",
+            "SDA0",
+            "PWM2A"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO5",
+          "functions": [
+            "D5",
+            "CSn0",
+            "RX1",
+            "SCL0",
+            "PWM2B"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO6",
+          "functions": [
+            "D6",
+            "SCK0",
+            "CTS1",
+            "SDA1",
+            "PWM3A"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO7",
+          "functions": [
+            "D7",
+            "TX0",
+            "RTS1",
+            "SCL1",
+            "PWM3B"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO8",
+          "functions": [
+            "D8",
+            "RX1",
+            "TX1",
+            "SDA0",
+            "PWM4A"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO9",
+          "functions": [
+            "D9",
+            "CSn1",
+            "RX1",
+            "SCL0",
+            "PWM4B"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/1ef7bc3864f9de93e9e1d1d6a66c2c882e518012d3250526c2ddb95a48a130df.png",
+      "rows": 1,
+      "orderNote": "No header pin numbers; started at the end closest to the USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RAW",
+          "functions": [
+            "MAX 6V"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "SHORT ON POWER ON FOR BOOTLOADER"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PROG",
+          "functions": [
+            "SHORT ON POWER ON FOR BOOTLOADER"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO29",
+          "functions": [
+            "A3",
+            "CSn1",
+            "RX0",
+            "SCL0",
+            "PWM6B",
+            "ADC3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO28",
+          "functions": [
+            "A2",
+            "RX1",
+            "TX0",
+            "SDA0",
+            "PWM6A",
+            "ADC2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO27",
+          "functions": [
+            "A1",
+            "TX1",
+            "RTS1",
+            "SCL1",
+            "PWM5B",
+            "ADC1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO26",
+          "functions": [
+            "A0",
+            "SCK1",
+            "CTS1",
+            "SDA1",
+            "PWM5A",
+            "ADC0"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO22",
+          "functions": [
+            "SCK",
+            "SCK0",
+            "CTS1",
+            "SDA1",
+            "PWM3A"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO20",
+          "functions": [
+            "MISO",
+            "RX0",
+            "TX1",
+            "SDA0",
+            "PWM2A"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO23",
+          "functions": [
+            "MOSI",
+            "TX0",
+            "RTS1",
+            "SCL1",
+            "PWM3B"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO21",
+          "functions": [
+            "D10",
+            "CSn0",
+            "RX1",
+            "SCL0",
+            "PWM2B"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-pads",
+      "name": "Bottom edge pads",
+      "image": "media/1ef7bc3864f9de93e9e1d1d6a66c2c882e518012d3250526c2ddb95a48a130df.png",
+      "rows": 1,
+      "orderNote": "Horizontal row along the bottom edge, equally far from the USB connector; started at the left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO11",
+          "functions": [
+            "TX1",
+            "RTS1",
+            "SCL1",
+            "PWM5B"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO12",
+          "functions": [
+            "RX1",
+            "TX0",
+            "SDA0",
+            "PWM6A"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO13",
+          "functions": [
+            "CSn1",
+            "RX0",
+            "SCL0",
+            "PWM6B"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO14",
+          "functions": [
+            "SCK1",
+            "CTS0",
+            "SDA1",
+            "PWM7A"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Pro Micro style board. Grey Pro Micro pin names (D0, A3, SCK...) placed first in functions. The note 'SHORT ON POWER ON FOR BOOTLOADER' brackets the right-header GND and PROG pins and is recorded on both. The bottom-row corner pads belong to the D9 and D10 positions of the side headers; the five pads between them form the bottom row. RGB LED assignments (GPIO16-18) are internal and skipped.",
+  "uncertain": []
+}

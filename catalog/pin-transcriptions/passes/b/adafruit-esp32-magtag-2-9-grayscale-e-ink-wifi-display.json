@@ -1,0 +1,147 @@
+{
+  "recordId": "adafruit-esp32-magtag-2-9-grayscale-e-ink-wifi-display",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/60548ca69a8e9303efce0a4a9ceed5bad7d92daf8c5647ba6da119cf531af54d.png",
+      "sha256": "60548ca69a8e9303efce0a4a9ceed5bad7d92daf8c5647ba6da119cf531af54d"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "a1-port",
+      "name": "A1 3-pin connector (bottom left)",
+      "image": "media/60548ca69a8e9303efce0a4a9ceed5bad7d92daf8c5647ba6da119cf531af54d.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB connector not shown; horizontal row started at left (black, red, white dots)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO18",
+          "functions": [
+            "A1",
+            "ADC2_CH7",
+            "U1RXD",
+            "DAC_2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "i2c-port",
+      "name": "I2C (STEMMA QT style) connector (bottom center)",
+      "image": "media/60548ca69a8e9303efce0a4a9ceed5bad7d92daf8c5647ba6da119cf531af54d.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB connector not shown; horizontal row started at left (yellow, blue, red, black dots)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO34",
+          "functions": [
+            "SCL",
+            "FSPICS0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO33",
+          "functions": [
+            "SDA",
+            "FSPIHD"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "d10-port",
+      "name": "D10 3-pin connector (bottom right)",
+      "image": "media/60548ca69a8e9303efce0a4a9ceed5bad7d92daf8c5647ba6da119cf531af54d.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB connector not shown; horizontal row started at left (black, red, white dots)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO10",
+          "functions": [
+            "D10",
+            "ADC1_CH9",
+            "FSPICS0",
+            "T10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uart-pads",
+      "name": "RXD0/TXD0 pads",
+      "image": "media/60548ca69a8e9303efce0a4a9ceed5bad7d92daf8c5647ba6da119cf531af54d.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB connector not shown; vertical row started at top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RXD0",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "TXD0",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "battery-jst",
+      "name": "Battery connector (left edge)",
+      "image": "media/60548ca69a8e9303efce0a4a9ceed5bad7d92daf8c5647ba6da119cf531af54d.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB connector not shown; vertical row started at top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Labels use GPIO names with the CircuitPython name first in functions; Power Domain tags (RTC, SPI/CPU) omitted. Buttons, NeoPixels, light sensor, display (EPD_*), speaker, D13 LED, voltage monitor and accelerometer interrupt are not wiring points and were skipped."
+}

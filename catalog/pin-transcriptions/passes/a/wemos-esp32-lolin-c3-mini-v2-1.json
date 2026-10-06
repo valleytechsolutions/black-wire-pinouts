@@ -1,0 +1,175 @@
+{
+  "recordId": "wemos-esp32-lolin-c3-mini-v2-1",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/bba6db5ea3addeb36185933c1c116e410926fe74573211ec36c7bbc40db78bc9.jpg",
+      "sha256": "bba6db5ea3addeb36185933c1c116e410926fe74573211ec36c7bbc40db78bc9"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left pin row",
+      "image": "media/bba6db5ea3addeb36185933c1c116e410926fe74573211ec36c7bbc40db78bc9.jpg",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; started at the end closest to the USB-C connector (bottom) and read upward",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3.3v",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO5",
+          "functions": [
+            "5",
+            "SS",
+            "ADC2_0",
+            "FSPIWP",
+            "MTDI"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO4",
+          "functions": [
+            "4",
+            "MOSI",
+            "ADC1_4",
+            "FSPIHD",
+            "MTMS"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO0",
+          "functions": [
+            "0",
+            "ADC1_0",
+            "XTAL_32K_P"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO1",
+          "functions": [
+            "1",
+            "ADC1_1",
+            "XTAL_32K_N"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO2",
+          "functions": [
+            "2",
+            "SCK",
+            "ADC1_2",
+            "FSPIQ",
+            "BOOT"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO3",
+          "functions": [
+            "3",
+            "MISO",
+            "ADC1_3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "EN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right pin row",
+      "image": "media/bba6db5ea3addeb36185933c1c116e410926fe74573211ec36c7bbc40db78bc9.jpg",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; started at the end closest to the USB-C connector (bottom) and read upward",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO6",
+          "functions": [
+            "6",
+            "FSPICLK",
+            "MOSI",
+            "MTCK"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO7",
+          "functions": [
+            "7",
+            "FSPID",
+            "SS",
+            "MTDO",
+            "RGB LED"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO8",
+          "functions": [
+            "8",
+            "SDA",
+            "LOG"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO10",
+          "functions": [
+            "10",
+            "SCL",
+            "FSPICS0",
+            "JTAG"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO21",
+          "functions": [
+            "RX",
+            "21",
+            "RXD 0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO20",
+          "functions": [
+            "TX",
+            "20",
+            "TXD 0"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "GPIO9 BOOT callout points to a push button, not a pin, so it was skipped. 3.3v label is the diagram callout; silkscreen reads 3V3."
+}

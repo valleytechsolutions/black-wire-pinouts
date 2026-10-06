@@ -1,0 +1,264 @@
+{
+  "recordId": "seeed-studio-expansion-uartsbee-v3-1",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/8fdcdaf2f00cb3bd3aabe95d4f24ded08673e335daa561774f08de85640cb66d.png",
+      "sha256": "8fdcdaf2f00cb3bd3aabe95d4f24ded08673e335daa561774f08de85640cb66d"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "xbee-left",
+      "name": "XBee socket left row",
+      "image": "media/8fdcdaf2f00cb3bd3aabe95d4f24ded08673e335daa561774f08de85640cb66d.png",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB connector visible; vertical row started at the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "DIO0",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "DIO1",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "DIO2",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "DIO3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "RTS",
+          "functions": [
+            "D2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "DIO5",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "VREF",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "ON",
+          "functions": [
+            "Sleep"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "CTS",
+          "functions": [
+            "D3"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "DIO4",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "xbee-right",
+      "name": "XBee socket right row",
+      "image": "media/8fdcdaf2f00cb3bd3aabe95d4f24ded08673e335daa561774f08de85640cb66d.png",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB connector visible; vertical row started at the top (square pad not treated as pin 1)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "DOUT",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "DIN",
+          "functions": [
+            "CONFIG"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "CD",
+          "functions": [
+            "DOUT_EN",
+            "DO8"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "PWM0",
+          "functions": [
+            "RSSI"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "DI8",
+          "functions": [
+            "DTR"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-header",
+      "name": "Bottom header row",
+      "image": "media/8fdcdaf2f00cb3bd3aabe95d4f24ded08673e335daa561774f08de85640cb66d.png",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB connector visible; horizontal row started at the left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "DTR",
+          "functions": [
+            "D4"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "RXD",
+          "functions": [
+            "D1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "TXD",
+          "functions": [
+            "D0"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "VCC",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bitbang-header",
+      "name": "2x3 BitBang signal header",
+      "image": "media/8fdcdaf2f00cb3bd3aabe95d4f24ded08673e335daa561774f08de85640cb66d.png",
+      "rows": 2,
+      "orderNote": "2xN without numbers and no USB visible: position 1 = left hole of the bottom row (nearest the bottom board edge), then alternating bottom/top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RI",
+          "functions": [
+            "D7"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "DSR",
+          "functions": [
+            "D5"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "DCD",
+          "functions": [
+            "D6"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "CTS",
+          "functions": [
+            "D3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "VCC",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "XBee right row positions 7 and 8 (between PWM0/RSSI and DI8/DTR) have no label; recorded as '?' (unlabeled).",
+    "Bottom header leftmost pad has no label; recorded as '?' (unlabeled)."
+  ],
+  "uncertain": [
+    "Two outer columns of large unlabelled pads (left and right, about 10 each) are shown beside the XBee rows; not transcribed because no labels are printed for them.",
+    "BitBang D0-D7 functions taken from the side table (UartSBee signal -> BitBang I/O) by matching signal names; the table is not attached to pads.",
+    "Bottom header leftmost pad: unclear whether it belongs to the bottom row or the left outer pad column (it is in line with both)."
+  ],
+  "notes": "Silkscreen reads 'UartSBee V3.1 03/23/2010 by Albert.Miao'. Table maps TxD D0, RxD D1, RTS D2, CTS D3, DTR D4, DSR D5, DCD D6, RI D7."
+}

@@ -1,0 +1,289 @@
+{
+  "recordId": "lilygo-esp32-t-sim7080x-s3",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/6abc3ebf8aefd1bd0dcea3c6da85c7d3f1299e103906c05e8ccbb72a1ec2bf54.jpg",
+      "sha256": "6abc3ebf8aefd1bd0dcea3c6da85c7d3f1299e103906c05e8ccbb72a1ec2bf54"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/6abc3ebf8aefd1bd0dcea3c6da85c7d3f1299e103906c05e8ccbb72a1ec2bf54.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers printed (gray boxes carry GPIO numbers). The Type-C and micro-USB connectors sit on the left board edge below the header midpoint, so the bottom end is closest to USB; numbered from the bottom (DC5/VSYS end) upward.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "DC5",
+          "functions": [
+            "1.4~3.7V"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO14",
+          "functions": [
+            "14",
+            "TOUCH14",
+            "FSPIWP",
+            "ADC2_CH3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO13",
+          "functions": [
+            "13",
+            "TOUCH13",
+            "FSPIQ",
+            "ADC2_CH2"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO12",
+          "functions": [
+            "12",
+            "TOUCH12",
+            "FSPICLK",
+            "ADC2_CH1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO11",
+          "functions": [
+            "11",
+            "TOUCH11",
+            "FSPID",
+            "ADC2_CH0"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO10",
+          "functions": [
+            "10",
+            "TOUCH10",
+            "FSPICS0",
+            "ADC1_CH9"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO09",
+          "functions": [
+            "09",
+            "TOUCH09",
+            "FSPIHD",
+            "ADC1_CH8"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO46",
+          "functions": [
+            "46"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO03",
+          "functions": [
+            "03",
+            "TOUCH03",
+            "ADC1_CH2"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO08",
+          "functions": [
+            "08",
+            "TOUCH08",
+            "ADC1_CH7"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO18",
+          "functions": [
+            "18",
+            "U1RXD",
+            "ADC2_CH7"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO17",
+          "functions": [
+            "17",
+            "U1TXD",
+            "ADC2_CH6"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO16",
+          "functions": [
+            "16",
+            "U0CTS",
+            "ADC2_CH5"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/6abc3ebf8aefd1bd0dcea3c6da85c7d3f1299e103906c05e8ccbb72a1ec2bf54.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers printed (gray boxes carry GPIO numbers). The Type-C and micro-USB connectors sit on the left board edge below the header midpoint, so the bottom end is closest to USB; numbered from the bottom (DC5/VSYS end) upward.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VSYS",
+          "functions": [
+            "Supply Voltage"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO21",
+          "functions": [
+            "21"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO47",
+          "functions": [
+            "47"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO48",
+          "functions": [
+            "48"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO45",
+          "functions": [
+            "45"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO00",
+          "functions": [
+            "0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO35",
+          "functions": [
+            "35",
+            "FSPI_D"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO36",
+          "functions": [
+            "36",
+            "FSPI_CLK"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO37",
+          "functions": [
+            "37",
+            "FSPI_Q"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO44",
+          "functions": [
+            "RXD",
+            "CLK_OUT2"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO43",
+          "functions": [
+            "TXD",
+            "CLK_OUT1"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO02",
+          "functions": [
+            "2",
+            "TOUCH02",
+            "ADC1_CH1"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO01",
+          "functions": [
+            "1",
+            "TOUCH01",
+            "ADC1_CH0"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "U0CTS: O vs 0 not distinguishable; 0 used."
+  ],
+  "uncertain": [
+    "Board identity: image title reads \"LILYGO T-SIM7080G-S3 PINOUT\" while the record is T-SIM7080X-S3; assumed the same product (X as variant wildcard).",
+    "Pin order: both USB connectors are on the long side of the board, not at a header end; bottom end chosen as nearest, which reverses the visual top-to-bottom listing."
+  ],
+  "notes": "Labels = pink GPIO column; functions = gray-box number then names outward. Camera PIN, SIM PIN and PMU lists give no physical positions and were skipped. Rear-view inset of the same headers, the STEMMA QT/Qwiic JST-SH 4-pin (pins not individually labeled), solar JST input, USB and antenna connectors were not transcribed."
+}

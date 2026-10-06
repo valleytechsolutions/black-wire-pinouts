@@ -1,0 +1,487 @@
+{
+  "recordId": "waveshare-rp2350-rp2350-touch-lcd-3-49",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/da43df4df78a8a1b855811f703c379bf601d2c47b09e681007251185f3a910a3.jpg",
+      "sha256": "da43df4df78a8a1b855811f703c379bf601d2c47b09e681007251185f3a910a3"
+    },
+    {
+      "file": "media/fad703a4ce8cfb649368338a88ea065525213b1ad1fea86b2e5d9db772f1abca.jpg",
+      "sha256": "fad703a4ce8cfb649368338a88ea065525213b1ad1fea86b2e5d9db772f1abca"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left pads",
+      "image": "media/da43df4df78a8a1b855811f703c379bf601d2c47b09e681007251185f3a910a3.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector visible; vertical row ordered from the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP7",
+          "functions": [
+            "SCL",
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP6",
+          "functions": [
+            "SDA",
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP41",
+          "functions": [
+            "41",
+            "SPI1 CSn",
+            "ADC1",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP42",
+          "functions": [
+            "42",
+            "SPI1 SCK",
+            "ADC2",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP43",
+          "functions": [
+            "43",
+            "SPI1 TX",
+            "ADC3",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP44",
+          "functions": [
+            "44",
+            "SPI1 RX",
+            "ADC4",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP45",
+          "functions": [
+            "45",
+            "SPI1 CSn",
+            "ADC5",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP46",
+          "functions": [
+            "46",
+            "SPI1 SCK",
+            "ADC6",
+            "UART0 TX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right pads",
+      "image": "media/da43df4df78a8a1b855811f703c379bf601d2c47b09e681007251185f3a910a3.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector visible; vertical row ordered from the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP18",
+          "functions": [
+            "18",
+            "SPI0 SCK",
+            "12C1 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP19",
+          "functions": [
+            "19",
+            "SPI0 TX",
+            "12C1 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP17",
+          "functions": [
+            "17",
+            "SPI0 CSn",
+            "12C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP16",
+          "functions": [
+            "16",
+            "SPI0 RX",
+            "12C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP15",
+          "functions": [
+            "15",
+            "SPI1 TX",
+            "12C1 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP14",
+          "functions": [
+            "14",
+            "SPI1 SCK",
+            "12C1 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP13",
+          "functions": [
+            "13",
+            "SPI1 CSn",
+            "12C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP12",
+          "functions": [
+            "12",
+            "SPI1 RX",
+            "12C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "SWDIO",
+          "functions": [
+            "DIO"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "SWCLK",
+          "functions": [
+            "CLK"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left pads",
+      "image": "media/fad703a4ce8cfb649368338a88ea065525213b1ad1fea86b2e5d9db772f1abca.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector visible; vertical row ordered from the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP7",
+          "functions": [
+            "SCL",
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP6",
+          "functions": [
+            "SDA",
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP41",
+          "functions": [
+            "41",
+            "SPI1 CSn",
+            "ADC1",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP42",
+          "functions": [
+            "42",
+            "SPI1 SCK",
+            "ADC2",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP43",
+          "functions": [
+            "43",
+            "SPI1 TX",
+            "ADC3",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP44",
+          "functions": [
+            "44",
+            "SPI1 RX",
+            "ADC4",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP45",
+          "functions": [
+            "45",
+            "SPI1 CSn",
+            "ADC5",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP46",
+          "functions": [
+            "46",
+            "SPI1 SCK",
+            "ADC6",
+            "UART0 TX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Right pads",
+      "image": "media/fad703a4ce8cfb649368338a88ea065525213b1ad1fea86b2e5d9db772f1abca.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector visible; vertical row ordered from the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP18",
+          "functions": [
+            "18",
+            "SPI0 SCK",
+            "12C1 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP19",
+          "functions": [
+            "19",
+            "SPI0 TX",
+            "12C1 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP17",
+          "functions": [
+            "17",
+            "SPI0 CSn",
+            "12C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP16",
+          "functions": [
+            "16",
+            "SPI0 RX",
+            "12C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP15",
+          "functions": [
+            "15",
+            "SPI1 TX",
+            "12C1 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP14",
+          "functions": [
+            "14",
+            "SPI1 SCK",
+            "12C1 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP13",
+          "functions": [
+            "13",
+            "SPI1 CSn",
+            "12C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP12",
+          "functions": [
+            "12",
+            "SPI1 RX",
+            "12C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "SWDIO",
+          "functions": [
+            "DIO"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "SWCLK",
+          "functions": [
+            "CLK"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Both images show the same artwork at different resolutions; each transcribed separately. Right-side I2C callouts are printed '12C0'/'12C1' (digit 1 instead of I) and copied as printed; left side prints 'I2C1'. Silkscreen (BAT, 3V3, G, SCL, SDA, 41-46; 5V, 3V3, G, 18, 19, 17-12, DIO, G, CLK) put first in functions where it differs. Skipped: BAT +/- battery connector, RST button, CHG LED."
+}

@@ -1,0 +1,197 @@
+{
+  "recordId": "guition-cyd-esp32-1732s019",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/8b0987d1e1254c7ac1afbb3a9e7d60360f8668a52cff427cb18cd8fb0d7ab527.png",
+      "sha256": "8b0987d1e1254c7ac1afbb3a9e7d60360f8668a52cff427cb18cd8fb0d7ab527"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "P1",
+      "name": "P1 left header (back view)",
+      "image": "media/8b0987d1e1254c7ac1afbb3a9e7d60360f8668a52cff427cb18cd8fb0d7ab527.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; the back-side view the labels are read from does not show the USB connector, so top-to-bottom (rule 9)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO04",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO05",
+          "functions": [
+            "5"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO06",
+          "functions": [
+            "6"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO07",
+          "functions": [
+            "7"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO15",
+          "functions": [
+            "15"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO16",
+          "functions": [
+            "16"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO17",
+          "functions": [
+            "17"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO18",
+          "functions": [
+            "18"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO19",
+          "functions": [
+            "19"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO20",
+          "functions": [
+            "20"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "P2 right header (back view)",
+      "image": "media/8b0987d1e1254c7ac1afbb3a9e7d60360f8668a52cff427cb18cd8fb0d7ab527.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; the back-side view the labels are read from does not show the USB connector, so top-to-bottom (rule 9)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO02",
+          "functions": [
+            "2"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO42",
+          "functions": [
+            "42"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO41",
+          "functions": [
+            "41"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO40",
+          "functions": [
+            "40"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO39",
+          "functions": [
+            "39"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO38",
+          "functions": [
+            "38"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO45",
+          "functions": [
+            "45"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO48",
+          "functions": [
+            "48"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO47",
+          "functions": [
+            "47"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO21",
+          "functions": [
+            "21"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "5V",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "O and 0 look alike after the GPIO prefix (printed GPI004, GPIOO2 etc.); GPIO prefix read as letters and the following character as 0"
+  ],
+  "uncertain": [],
+  "notes": "Header designators P1/P2 from the PCB silkscreen next to each row. Number boxes (e.g. 4, 42) kept as functions. Front-view LCD signal list (DC GPIO11, CS GPIO10, SCK GPIO12, MISO GPIO13, TFT_BL GPIO14, RST GPIO1) describes on-board display wiring, not header pins. Small unlabeled connector on the back and RESET/BOOT buttons skipped."
+}

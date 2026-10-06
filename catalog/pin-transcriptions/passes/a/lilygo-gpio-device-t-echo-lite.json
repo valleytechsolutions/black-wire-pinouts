@@ -1,0 +1,81 @@
+{
+  "recordId": "lilygo-gpio-device-t-echo-lite",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/f902d7b853c846fe0acb437718a8987042fdca8cd56581a1afb64c3fff83c404.jpg",
+      "sha256": "f902d7b853c846fe0acb437718a8987042fdca8cd56581a1afb64c3fff83c404"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "swd-header",
+      "name": "4-hole debug header (highlighted in red box)",
+      "image": "media/f902d7b853c846fe0acb437718a8987042fdca8cd56581a1afb64c3fff83c404.jpg",
+      "rows": 1,
+      "orderNote": "No USB or pin 1 mark visible; horizontal row read left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VDDH",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SWCLK",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SWDIO",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "side-connector",
+      "name": "4-pin SMD connector at right",
+      "image": "media/f902d7b853c846fe0acb437718a8987042fdca8cd56581a1afb64c3fff83c404.jpg",
+      "rows": 1,
+      "orderNote": "No USB or pin 1 mark visible; vertical row read top to bottom as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P0.25",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "P0.23",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "G",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "O vs 0 in 'P0.25'/'P0.23': read as digit 0"
+  ],
+  "uncertain": [
+    "Image is a cropped PCB render of one area; board name not visible, so identity cannot be confirmed from the image.",
+    "Labels of the 4-pin SMD connector are printed upside-down (rotated 180 degrees) relative to the image; order taken top to bottom as displayed.",
+    "A row of oval edge pads at the left is unlabeled and partly cut off; not transcribed."
+  ],
+  "notes": "PCB render crop with a highlighted 4-pin SWD header and a 4-pin side connector."
+}

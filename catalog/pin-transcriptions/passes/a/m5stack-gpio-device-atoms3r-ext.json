@@ -1,0 +1,235 @@
+{
+  "recordId": "m5stack-gpio-device-atoms3r-ext",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/c9a248c4e6125c5924aff0cb7af4e2e5706987076d06f60b200f140be4700773.jpg",
+      "sha256": "c9a248c4e6125c5924aff0cb7af4e2e5706987076d06f60b200f140be4700773"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/c9a248c4e6125c5924aff0cb7af4e2e5706987076d06f60b200f140be4700773.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB connector visible; vertical row read from the top as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "G5",
+          "functions": [
+            "ACH4",
+            "TCH5"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "G6",
+          "functions": [
+            "ACH5",
+            "TCH6"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "G7",
+          "functions": [
+            "ACH6",
+            "TCH7"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "G8",
+          "functions": [
+            "ACH7",
+            "TCH8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/c9a248c4e6125c5924aff0cb7af4e2e5706987076d06f60b200f140be4700773.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB connector visible; vertical row read from the top as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G39",
+          "functions": [
+            "CLK_OUT3"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "G38",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "port-a",
+      "name": "PORT.A (HY2.0-4P)",
+      "image": "media/c9a248c4e6125c5924aff0cb7af4e2e5706987076d06f60b200f140be4700773.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB connector visible; horizontal row read from the left as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G2",
+          "functions": [
+            "ACH1",
+            "TCH2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "G1",
+          "functions": [
+            "ACH0",
+            "TCH1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proto-board",
+      "name": "PROTO BOARD connector (19 positions)",
+      "image": "media/c9a248c4e6125c5924aff0cb7af4e2e5706987076d06f60b200f140be4700773.jpg",
+      "rows": 2,
+      "orderNote": "Position numbers 1-19 printed in the PROTO BOARD table",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "1.2V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "2.8V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "G3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "G4",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "G9",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "G10",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "G11",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "G12",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "G13",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "G17",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "G21",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "G40",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "G42",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "G46",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "G48",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "proto-board: the table gives position numbers 1-19, but the small PROTO drawing shows a staggered double row of pads without numbers, so which physical pad carries each number (and whether rows should be 2) is not shown"
+  ],
+  "notes": "Header labels from the callouts beside each header; back-label silkscreen agrees. G0 SCL / G45 SDA (BMI270/BMM150) are internal with no header position. PROTO BOARD labels are the ESP32-S3-PICO-1-N8R8 column of the table."
+}

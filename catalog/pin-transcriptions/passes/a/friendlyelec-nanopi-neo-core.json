@@ -1,0 +1,500 @@
+{
+  "recordId": "friendlyelec-nanopi-neo-core",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/9490311db8f2473248b2dba16cb9bf6d8dabb77854b8fbb805e778858b576fa6.jpg",
+      "sha256": "9490311db8f2473248b2dba16cb9bf6d8dabb77854b8fbb805e778858b576fa6"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left 2x12 header",
+      "image": "media/9490311db8f2473248b2dba16cb9bf6d8dabb77854b8fbb805e778858b576fa6.jpg",
+      "rows": 2,
+      "orderNote": "No pin numbers printed. 2xN rule: start at top end (nearest the micro-USB connector at top of board), outer (board-edge) column first, alternating. Diagram's left dot column (with square marker) matches the board's outer left column with the square pad.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "PA15",
+          "functions": [
+            "SPI1",
+            "MOSI"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "DP1",
+          "functions": [
+            "USB1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA16",
+          "functions": [
+            "SPI1",
+            "MISO"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "DM1",
+          "functions": [
+            "USB1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA14",
+          "functions": [
+            "SPI1",
+            "CLK"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "DP2",
+          "functions": [
+            "USB2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PA13",
+          "functions": [
+            "SPI1",
+            "CS"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "DM2",
+          "functions": [
+            "USB2"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "MP",
+          "functions": [
+            "LINEIN"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PL11",
+          "functions": [
+            "IR"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "MN",
+          "functions": [
+            "LINEIN"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "PA17",
+          "functions": [
+            "SPDIF"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "LR",
+          "functions": [
+            "LINEOUT"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "LRCK",
+          "functions": [
+            "I2S0"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "LL",
+          "functions": [
+            "LINEOUT"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "BCK",
+          "functions": [
+            "I2S0"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "RX",
+          "functions": [
+            "UART0"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "DOUT",
+          "functions": [
+            "I2S0"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "TX",
+          "functions": [
+            "UART0"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "DIN",
+          "functions": [
+            "I2S0"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right 2x12 header",
+      "image": "media/9490311db8f2473248b2dba16cb9bf6d8dabb77854b8fbb805e778858b576fa6.jpg",
+      "rows": 2,
+      "orderNote": "No pin numbers printed. 2xN rule: start at top end (nearest the micro-USB connector), outer (board-edge, right dot column) first, alternating. Diagram's left dot column (square marker) matches the board's inner right column with the square pad.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": [
+            "IN/OUT"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "5V",
+          "functions": [
+            "IN/OUT"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "SDA",
+          "functions": [
+            "I2C0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "SCL",
+          "functions": [
+            "I2C0"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PG6",
+          "functions": [
+            "UART1",
+            "TX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PG11",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "PG7",
+          "functions": [
+            "UART1",
+            "RX"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "PA6",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "PA0",
+          "functions": [
+            "UART2",
+            "TX"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "PA2",
+          "functions": [
+            "UART2",
+            "RTS"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "PG8",
+          "functions": [
+            "UART1",
+            "RTS"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "PA3",
+          "functions": [
+            "UART2",
+            "CTS"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "PG9",
+          "functions": [
+            "UART1",
+            "CTS"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "3.3V",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "PC0",
+          "functions": [
+            "SPI0",
+            "MOSI"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "PA1",
+          "functions": [
+            "UART2",
+            "RX"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "PC1",
+          "functions": [
+            "SPI0",
+            "MISO"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "PC3",
+          "functions": [
+            "SPI0",
+            "CS"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "PC2",
+          "functions": [
+            "SPI0",
+            "CLK"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-header",
+      "name": "Bottom 2x10 header",
+      "image": "media/9490311db8f2473248b2dba16cb9bf6d8dabb77854b8fbb805e778858b576fa6.jpg",
+      "rows": 2,
+      "orderNote": "No pin numbers printed. 2xN rule: start at right end (nearer the micro-USB connector at top right), outer (board-edge, lower dot row) first, alternating. Diagram's upper dot row (square marker at right) matches the board's inner bottom row with the square pad.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SPD",
+          "functions": [
+            "NET"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "LNK",
+          "functions": [
+            "NET"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "TXN",
+          "functions": [
+            "NET"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "TXP",
+          "functions": [
+            "NET"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "RXN",
+          "functions": [
+            "NET"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "RXP",
+          "functions": [
+            "NET"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "PG7",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "DP3",
+          "functions": [
+            "USB3"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "SCL2",
+          "functions": [
+            "I2C2"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "DM3",
+          "functions": [
+            "USB3"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "SDA2",
+          "functions": [
+            "I2C2"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "5V",
+          "functions": [
+            "IN/OUT"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "5V",
+          "functions": [
+            "IN/OUT"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Header diagrams are drawn beside the board; labels mapped to physical columns by matching orientation and the square pad markers. Block names (USB1, SPI1, I2S0, UART1, NET, I2C2...) recorded in functions, read outward from the pin. Power pins with notes: '3.3V' + 'OUT', '5V' + 'IN/OUT' (5V box spans two pins on the right and bottom headers)."
+}

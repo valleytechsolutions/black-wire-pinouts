@@ -1,0 +1,388 @@
+{
+  "recordId": "sipeed-tang-nano-4k",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/3e3f1f88bb96a0812348a50be7e76101c17be472bae381af81924f52112757c1.png",
+      "sha256": "3e3f1f88bb96a0812348a50be7e76101c17be472bae381af81924f52112757c1"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/3e3f1f88bb96a0812348a50be7e76101c17be472bae381af81924f52112757c1.png",
+      "rows": 1,
+      "orderNote": "No header position numbers printed (the orange numbers are FPGA physical/package pin numbers, kept as functions); vertical row, started at the top end closest to the USB-C connector",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IOB5A",
+          "functions": [
+            "15",
+            "USR_KEY_2"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "1V8",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "IOT10B",
+          "functions": [
+            "02",
+            "FLASH_CS",
+            "MSPI_CS"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "IOR9B",
+          "functions": [
+            "33",
+            "DVP_XCLK",
+            "GCLKT_2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "IOT4B",
+          "functions": [
+            "08",
+            "FLASH_WP",
+            "JTAGSEL"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "IOT5B",
+          "functions": [
+            "09",
+            "FLASH_HOLD",
+            "DONE"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "IOB6A",
+          "functions": [
+            "16",
+            "PIXDATA6"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "IOB4A",
+          "functions": [
+            "13"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "IOB6B",
+          "functions": [
+            "17",
+            "PIXDATA2"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "IOB13A",
+          "functions": [
+            "18",
+            "PIXDATA5"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "IOB13B",
+          "functions": [
+            "19",
+            "PIXDATA3"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "IOB16A",
+          "functions": [
+            "20",
+            "PIXDATA4",
+            "GCLKT_5"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "IOB16B",
+          "functions": [
+            "21",
+            "PIXDATA1",
+            "GCLKC_5"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "IOB22A",
+          "functions": [
+            "22",
+            "PIXDATA0",
+            "GCLKT_4"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "IOB22B",
+          "functions": [
+            "23",
+            "PIXDATA7",
+            "GCLKC_4"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "IOR17B",
+          "functions": [
+            "27",
+            "HDMI_TXC_N"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "IOR17A",
+          "functions": [
+            "28",
+            "HDMI_TXC_P"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "IOR15B",
+          "functions": [
+            "29",
+            "HDMI_TX0_N"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "IOR15A",
+          "functions": [
+            "30",
+            "HDMI_TX0_P"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/3e3f1f88bb96a0812348a50be7e76101c17be472bae381af81924f52112757c1.png",
+      "rows": 1,
+      "orderNote": "No header position numbers printed (the orange numbers are FPGA physical/package pin numbers, kept as functions); vertical row, started at the top end closest to the USB-C connector",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IOB4B",
+          "functions": [
+            "14",
+            "USR_KEY_1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "IOT3B",
+          "functions": [
+            "07",
+            "JTAG_TCK"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "IOT2B",
+          "functions": [
+            "04",
+            "JTAG_TDO"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "IOT2A",
+          "functions": [
+            "03",
+            "JTAG_TDI"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "IOT3A",
+          "functions": [
+            "06",
+            "JTAG_TMS"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "2V5",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "IOT17B",
+          "functions": [
+            "44",
+            "CAM_SCL",
+            "GCLKC_0"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "IOT13B",
+          "functions": [
+            "46",
+            "CAM_SDA",
+            "LPLL_C_in"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "IOT10A",
+          "functions": [
+            "01",
+            "FLASH_CLK",
+            "MCLK"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "IOT11A",
+          "functions": [
+            "48",
+            "FLASH_DI",
+            "MO"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "IOT11B",
+          "functions": [
+            "47",
+            "FLASH_DO",
+            "MI"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "IOT17A",
+          "functions": [
+            "43",
+            "DVP_VSYNC",
+            "GCLKT_0"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "IOT20B",
+          "functions": [
+            "42",
+            "DVP_HSYNC",
+            "GCLKC_1"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "IOT20A",
+          "functions": [
+            "41",
+            "DVP_PCLK",
+            "GCLKT_1"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "IOT26B",
+          "functions": [
+            "40",
+            "PIXDATA9"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "IOT26A",
+          "functions": [
+            "39",
+            "PIXDATA8"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "IOT7A/B",
+          "functions": [
+            "10",
+            "MODE/LED"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "IOR2A",
+          "functions": [
+            "35",
+            "HDMI_TX2_P",
+            "RPLL_T_in"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "IOR2B",
+          "functions": [
+            "34",
+            "HDMI_TX2_N",
+            "RPLL_C_in"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "IOR11A",
+          "functions": [
+            "32",
+            "HDMI_TX1_P",
+            "GCLKT_3"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "IOR11B",
+          "functions": [
+            "31",
+            "HDMI_TX1_N",
+            "GCLKC_3"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Sipeed Tang Nano 4K pinout. Legend identifies orange numbers as 'Physical Pin' (package pin) and blue tags as bank pin names; bank pin name used as label, physical pin number first in functions, then the outer tags. Bank colour circles (VIO levels) omitted. HDMI connector at bottom and FPC camera connector are not individually labeled and were skipped."
+}

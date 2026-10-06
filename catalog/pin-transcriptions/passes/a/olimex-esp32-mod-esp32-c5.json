@@ -1,0 +1,98 @@
+{
+  "recordId": "olimex-esp32-mod-esp32-c5",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/e69dbe5824364701ec083194ebef3e5ab297cf4b94b716a6d03fb04c362b0a55.png",
+      "sha256": "e69dbe5824364701ec083194ebef3e5ab297cf4b94b716a6d03fb04c362b0a55"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "UEXT1",
+      "name": "UEXT connector",
+      "image": "media/e69dbe5824364701ec083194ebef3e5ab297cf4b94b716a6d03fb04c362b0a55.png",
+      "rows": 2,
+      "orderNote": "Printed schematic pin numbers followed (odd 1-9 one row, even 2-10 the other)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+3.3V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO4",
+          "functions": [
+            "LP_UART_RXD",
+            "U1RXD"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO5",
+          "functions": [
+            "LP_UART_TXD",
+            "U1TXD"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO3",
+          "functions": [
+            "LP_I2C_SCL",
+            "I2C_SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO2",
+          "functions": [
+            "LP_I2C_SDA",
+            "I2C_SDA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO6",
+          "functions": [
+            "SPI2_MISO"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO7",
+          "functions": [
+            "SPI2_MOSI"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO1",
+          "functions": [
+            "SPI2_CLK"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO0",
+          "functions": [
+            "SPI2_CS"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Image is a schematic of the UEXT connector only; other board connectors (if any) and physical orientation are not shown"
+  ],
+  "notes": "Net names split on backslashes into label and functions in printed order. Pin 2 net also carries a PWR_FLAG symbol (schematic marker, not a pin name)."
+}

@@ -1,0 +1,273 @@
+{
+  "recordId": "invector-labs-rp2040-challenger-rp2040-subghz",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/fcf966924b4a9361470ca46057a634ca055bd90c21bbd2489778e98f18e2ee58.png",
+      "sha256": "fcf966924b4a9361470ca46057a634ca055bd90c21bbd2489778e98f18e2ee58"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/fcf966924b4a9361470ca46057a634ca055bd90c21bbd2489778e98f18e2ee58.png",
+      "rows": 1,
+      "orderNote": "No printed position numbers; vertical row, position 1 at the top end, closest to the USB-C connector.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RESET",
+          "functions": [
+            "RST"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "+3.3V",
+          "functions": [
+            "3V"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "ARef",
+          "functions": [
+            "ARf"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "ADC0",
+          "functions": [
+            "A0",
+            "CTS1",
+            "SDA1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "ADC1",
+          "functions": [
+            "A1",
+            "RTS1",
+            "SCL1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "ADC2",
+          "functions": [
+            "A2",
+            "TX0",
+            "SDA0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "ADC3",
+          "functions": [
+            "A3",
+            "RX0",
+            "SCL0"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "IO19",
+          "functions": [
+            "A4",
+            "RTS0",
+            "SCL1",
+            "A4*"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "IO21",
+          "functions": [
+            "A5",
+            "CTS1",
+            "SCL0",
+            "A5*"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "IO22",
+          "functions": [
+            "SCK",
+            "SDA1"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "IO23",
+          "functions": [
+            "SDO",
+            "RTS1",
+            "SCL1"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "IO20",
+          "functions": [
+            "SDI",
+            "TX1",
+            "SDA0"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "IO17",
+          "functions": [
+            "RX",
+            "RX0",
+            "SCL0"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "IO16",
+          "functions": [
+            "TX",
+            "TX0",
+            "SDA0"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/fcf966924b4a9361470ca46057a634ca055bd90c21bbd2489778e98f18e2ee58.png",
+      "rows": 1,
+      "orderNote": "No printed position numbers; vertical row, position 1 at the top end, closest to the USB-C connector.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "EN",
+          "functions": [
+            "En"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "USB / 5V",
+          "functions": [
+            "USB"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "IO8",
+          "functions": [
+            "13",
+            "TX1",
+            "SDA0",
+            "D13"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "IO7",
+          "functions": [
+            "12",
+            "RTS1",
+            "SCL1",
+            "D12"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "IO6",
+          "functions": [
+            "11",
+            "CTS1",
+            "SDA1",
+            "D11"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "IO5",
+          "functions": [
+            "10",
+            "RX1",
+            "SCL0",
+            "D10"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "IO4",
+          "functions": [
+            "9",
+            "TX1",
+            "SDA0",
+            "D9"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "IO3",
+          "functions": [
+            "6",
+            "RTS0",
+            "SCL1",
+            "D6"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "IO2",
+          "functions": [
+            "5",
+            "CTS0",
+            "SDA1",
+            "D5"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "IO1",
+          "functions": [
+            "SCL",
+            "RX0",
+            "SCL0"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "IO0",
+          "functions": [
+            "SDA",
+            "TX0",
+            "SDA0"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "ILABS pinout, 'Board: Challenger RP2040 SubGHz' (RFM69HCW module), 98-00237-1 V0.1. Labels are the orange 'RP2040 GPIO pins' callouts (ADC0-ADC3 on A0-A3) or power/control callouts; silkscreen spelling first in functions, then callouts outward. Legend: '* = Digital I/O, not Analog inputs on this board' (A4*, A5*). Skipped: USB-C, LiPo battery connector (Battery +/- only), U.FL antenna, RFM69 module castellations (unlabeled), buttons, LEDs."
+}

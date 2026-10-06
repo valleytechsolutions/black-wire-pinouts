@@ -1,0 +1,332 @@
+{
+  "recordId": "lilygo-esp32-t8-s3",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/25894c85f16149d070cb1dba94d0c65e99431e8fd59b820334d047a0b109daf3.jpg",
+      "sha256": "25894c85f16149d070cb1dba94d0c65e99431e8fd59b820334d047a0b109daf3"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/25894c85f16149d070cb1dba94d0c65e99431e8fd59b820334d047a0b109daf3.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers (gray boxes carry GPIO numbers). USB-C at the bottom; numbered from the bottom upward.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GPIO32",
+          "functions": [
+            "IO32",
+            "32"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO18",
+          "functions": [
+            "IO18",
+            "18",
+            "U1 RXD",
+            "ADC2_CH7"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO17",
+          "functions": [
+            "IO17",
+            "17",
+            "U1 TXD",
+            "ADC2_CH6"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO16",
+          "functions": [
+            "IO16",
+            "16",
+            "U0 CTS",
+            "ADC2_CH5"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO15",
+          "functions": [
+            "IO15",
+            "15",
+            "U0 RTS",
+            "ADC2_CH4"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO14",
+          "functions": [
+            "IO14",
+            "14",
+            "ADC2_CH3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO09",
+          "functions": [
+            "IO9",
+            "9",
+            "TOUCH09",
+            "ADC1_CH9"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO08",
+          "functions": [
+            "IO8",
+            "8",
+            "TOUCH08",
+            "ADC1_CH8"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO07",
+          "functions": [
+            "IO7",
+            "7",
+            "TOUCH07",
+            "ADC1_CH7"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO06",
+          "functions": [
+            "IO6",
+            "6",
+            "TOUCH06",
+            "ADC1_CH6"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO05",
+          "functions": [
+            "IO5",
+            "5",
+            "TOUCH05",
+            "ADC1_CH5"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO03",
+          "functions": [
+            "IO3",
+            "3",
+            "TOUCH03",
+            "ADC1_CH3"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO02",
+          "functions": [
+            "IO2",
+            "2",
+            "TOUCH02",
+            "ADC1_CH2"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO01",
+          "functions": [
+            "IO1",
+            "1",
+            "TOUCH01",
+            "ADC1_CH1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/25894c85f16149d070cb1dba94d0c65e99431e8fd59b820334d047a0b109daf3.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers (gray boxes carry GPIO numbers). USB-C at the bottom; numbered from the bottom upward.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": [
+            "+5V"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO33",
+          "functions": [
+            "IO33",
+            "33",
+            "FSPIHD"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO34",
+          "functions": [
+            "IO34",
+            "34",
+            "FSPICS0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO35",
+          "functions": [
+            "IO35",
+            "35",
+            "FSPID"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO36",
+          "functions": [
+            "IO36",
+            "36",
+            "FSPICLK"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO37",
+          "functions": [
+            "IO37",
+            "37",
+            "FSPIQ"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO38",
+          "functions": [
+            "IO38",
+            "38",
+            "FSPIWP"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO39",
+          "functions": [
+            "IO39",
+            "39",
+            "MTCK"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO40",
+          "functions": [
+            "IO40",
+            "40",
+            "MTDO"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO41",
+          "functions": [
+            "IO41",
+            "41",
+            "MTDI"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO42",
+          "functions": [
+            "IO42",
+            "42",
+            "MTMS"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO21",
+          "functions": [
+            "IO21",
+            "21"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "uart-jst",
+      "name": "4-pin JST (G 3V3 TX RX)",
+      "image": "media/25894c85f16149d070cb1dba94d0c65e99431e8fd59b820334d047a0b109daf3.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal, started at the end closest to the USB-C connector (right end, RX) and went left.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RX",
+          "functions": [
+            "44"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "TX",
+          "functions": [
+            "43"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "G",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "GPIO0x and U0 names: O vs 0 not distinguishable; 0 used."
+  ],
+  "uncertain": [],
+  "notes": "TF Card pin list has no positions. STEMMA QT/Qwiic JST-SH 4-pin inset and MX1.25 2PIN battery connector have no individually labeled pins; skipped. Right header silkscreen for the top pins (GND, 3V3, IO21, IO42, IO41) is crowded but consistent with the callouts."
+}

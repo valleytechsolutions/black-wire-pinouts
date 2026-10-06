@@ -1,0 +1,394 @@
+{
+ "recordId": "heltec-esp32-wifi-lora-32-v4-r8",
+ "pass": "a",
+ "date": "2026-10-04",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/2c2339cc9d2f1fa435f52d0dd9203baebd0b0922cdf4d98102be23a87edb9b2e.png",
+   "sha256": "2c2339cc9d2f1fa435f52d0dd9203baebd0b0922cdf4d98102be23a87edb9b2e"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "J3",
+   "name": "J3",
+   "rows": 1,
+   "orderNote": "Printed 1–18, bottom to top with USB at bottom.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GPIO37",
+     "functions": [
+      "SPIDQS",
+      "FSPIQ",
+      "SUBSPIQ"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GPIO46",
+     "functions": [
+      "LED_Write"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GPIO45",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "GPIO42",
+     "functions": [
+      "MTMS",
+      "VGNSS_Ctrl"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GPIO41",
+     "functions": [
+      "MTDI",
+      "GNSS_PPS"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GPIO40",
+     "functions": [
+      "MTDO",
+      "Vext_Ctrl"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "GPIO39",
+     "functions": [
+      "MTCK",
+      "GNSS_TX"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "GPIO38",
+     "functions": [
+      "FSPIWP",
+      "SUBSPIWP",
+      "GNSS_RX"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "GPIO1",
+     "functions": [
+      "ADC1_CH0",
+      "TOUCH1",
+      "VBAT_Read"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "GPIO2",
+     "functions": [
+      "ADC1_CH1",
+      "TOUCH2",
+      "FEM_EN"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "GPIO3",
+     "functions": [
+      "ADC1_CH2",
+      "TOUCH3"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "GPIO4",
+     "functions": [
+      "ADC1_CH3",
+      "TOUCH4"
+     ]
+    },
+    {
+     "position": 16,
+     "label": "GPIO5",
+     "functions": [
+      "ADC1_CH4",
+      "TOUCH5",
+      "PA_CTX"
+     ]
+    },
+    {
+     "position": 17,
+     "label": "GPIO6",
+     "functions": [
+      "ADC1_CH5",
+      "TOUCH6"
+     ]
+    },
+    {
+     "position": 18,
+     "label": "GPIO7",
+     "functions": [
+      "ADC1_CH6",
+      "TOUCH7",
+      "VFEM_Ctrl"
+     ]
+    }
+   ],
+   "image": "media/2c2339cc9d2f1fa435f52d0dd9203baebd0b0922cdf4d98102be23a87edb9b2e.png"
+  },
+  {
+   "id": "J2",
+   "name": "J2",
+   "rows": 1,
+   "orderNote": "Printed 1–18, bottom to top with USB at bottom.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "5V",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "Ve",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "Ve",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "GPIO44",
+     "functions": [
+      "U0RXD"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GPIO43",
+     "functions": [
+      "U0TXD"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "RST",
+     "functions": [
+      "RST_SW"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GPIO0",
+     "functions": [
+      "USER_SW"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GPIO36",
+     "functions": [
+      "SPIIO7",
+      "FSPICLK",
+      "SUBSPICLK"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "GPIO35",
+     "functions": [
+      "SPIIO6",
+      "FSPID",
+      "SUBSPID"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "GPIO34",
+     "functions": [
+      "SPIIO5",
+      "FSPICS0",
+      "SUBSPICS0"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "GPIO33",
+     "functions": [
+      "SPIIO4",
+      "FSPIHD",
+      "SUBSPIHD"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "GPIO47",
+     "functions": []
+    },
+    {
+     "position": 14,
+     "label": "GPIO48",
+     "functions": []
+    },
+    {
+     "position": 15,
+     "label": "GPIO26",
+     "functions": [
+      "SPICS1"
+     ]
+    },
+    {
+     "position": 16,
+     "label": "GPIO21",
+     "functions": [
+      "OLED_RST"
+     ]
+    },
+    {
+     "position": 17,
+     "label": "GPIO20",
+     "functions": [
+      "U1CTS",
+      "ADC2_CH9",
+      "CLK_OUT1",
+      "USB_D+"
+     ]
+    },
+    {
+     "position": 18,
+     "label": "GPIO19",
+     "functions": [
+      "U1RST",
+      "ADC2_CH9",
+      "CLK_OUT2",
+      "USB_D-"
+     ]
+    }
+   ],
+   "image": "media/2c2339cc9d2f1fa435f52d0dd9203baebd0b0922cdf4d98102be23a87edb9b2e.png"
+  },
+  {
+   "id": "top-pads",
+   "name": "top-pads",
+   "rows": 1,
+   "orderNote": "USB is centered below; top pads read left to right in the main image.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GPIO15",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GPIO16",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GPIO17",
+     "functions": [
+      "OLED_SDA"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GPIO18",
+     "functions": [
+      "OLED_SCL"
+     ]
+    }
+   ],
+   "image": "media/2c2339cc9d2f1fa435f52d0dd9203baebd0b0922cdf4d98102be23a87edb9b2e.png"
+  },
+  {
+   "id": "gnss-port",
+   "name": "gnss-port",
+   "rows": 1,
+   "orderNote": "Left-to-right order of GNSS label strip; physical orientation needs review.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GPIO42",
+     "functions": [
+      "VGNSS_Ctrl"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GPIO39",
+     "functions": [
+      "GNSS_TX"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GPIO38",
+     "functions": [
+      "GNSS_RX"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GPIO40",
+     "functions": [
+      "GNSS_Wake"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GPIO41",
+     "functions": [
+      "GNSS_PPS"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "NC",
+     "functions": []
+    }
+   ],
+   "image": "media/2c2339cc9d2f1fa435f52d0dd9203baebd0b0922cdf4d98102be23a87edb9b2e.png"
+  }
+ ],
+ "notes": "",
+ "unreadable": [],
+ "uncertain": [
+  "GNSS label strip has eight entries but no leader lines tying its left-to-right order to the underside connector view. Confirm physical pin order."
+ ]
+}

@@ -1,0 +1,279 @@
+{
+  "recordId": "friendlyelec-nanopi-duo2",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/3c148f3e7472b1a55b35ae96efb43c5d006378c53d4ffc093c1d86f41d9164a1.jpg",
+      "sha256": "3c148f3e7472b1a55b35ae96efb43c5d006378c53d4ffc093c1d86f41d9164a1"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/3c148f3e7472b1a55b35ae96efb43c5d006378c53d4ffc093c1d86f41d9164a1.jpg",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB connector at the top of the board, so the vertical row is ordered top to bottom (USB-nearest end first).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": [
+            "IN/OUT"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": [
+            "IN/OUT"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "PL11",
+          "functions": [
+            "IRRX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PG11",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "DM3",
+          "functions": [
+            "USB3",
+            "D-"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "DP3",
+          "functions": [
+            "USB3",
+            "D+"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "DM2",
+          "functions": [
+            "USB2",
+            "D-"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "DP2",
+          "functions": [
+            "USB2",
+            "D+"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "RD-",
+          "functions": [
+            "EPHY",
+            "RXN"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "RD+",
+          "functions": [
+            "EPHY",
+            "RXP"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "TD-",
+          "functions": [
+            "EPHY",
+            "TXN"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "TD+",
+          "functions": [
+            "EPHY",
+            "TXP"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "LNK",
+          "functions": [
+            "EPHY",
+            "LED-LINK"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "SPD",
+          "functions": [
+            "EPHY",
+            "LED-SPD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/3c148f3e7472b1a55b35ae96efb43c5d006378c53d4ffc093c1d86f41d9164a1.jpg",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB connector at the top of the board, so the vertical row is ordered top to bottom (USB-nearest end first).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PA5",
+          "functions": [
+            "RXD",
+            "DEBUG UART0",
+            "RX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PA4",
+          "functions": [
+            "TXD",
+            "DEBUG UART0",
+            "TX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "PA11",
+          "functions": [
+            "SCL",
+            "I2C0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PA12",
+          "functions": [
+            "SDA",
+            "I2C0"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA13",
+          "functions": [
+            "CS",
+            "SPI1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PA14",
+          "functions": [
+            "CLK",
+            "SPI1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PA16",
+          "functions": [
+            "MISO",
+            "SPI1"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PA15",
+          "functions": [
+            "MOSI",
+            "SPI1"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PG7",
+          "functions": [
+            "RX1",
+            "UART1",
+            "RX"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PG6",
+          "functions": [
+            "TX1",
+            "UART1",
+            "TX"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "CVBS",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "LL",
+          "functions": [
+            "LINEOUT",
+            "L"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "LR",
+          "functions": [
+            "LINEOUT",
+            "R"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "MP",
+          "functions": [
+            "MIC",
+            "P"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "MN",
+          "functions": [
+            "MIC",
+            "N"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Image titled NanoPi Duo2 v1.1 pinout diagram. Pins 1 and 2 of the left header each have a line to the shared 5V / IN/OUT box. Group boxes (USB3, USB2, EPHY, DEBUG UART0, I2C0, SPI1, UART1, LINEOUT, MIC) recorded as functions in reading order outward. Lone pad at bottom center is unlabeled and skipped."
+}

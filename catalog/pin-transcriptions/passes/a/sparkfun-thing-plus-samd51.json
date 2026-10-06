@@ -1,0 +1,284 @@
+{
+  "recordId": "sparkfun-thing-plus-samd51",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/fc0e7280105b246187a991f34e65fc81df598e9a80f17251cc13d58c23ab240f.png",
+      "sha256": "fc0e7280105b246187a991f34e65fc81df598e9a80f17251cc13d58c23ab240f"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/fc0e7280105b246187a991f34e65fc81df598e9a80f17251cc13d58c23ab240f.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; started at end closest to the micro-B USB connector (bottom of image)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "EN",
+          "functions": [
+            "VREG"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "VUSB",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "D13",
+          "functions": [
+            "PA17",
+            "INT12",
+            "1:0/3:1",
+            "LED"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "D12",
+          "functions": [
+            "PA19",
+            "INT3",
+            "1:3/3:3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D11",
+          "functions": [
+            "PA16",
+            "INT0",
+            "1:0/3:1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "D10",
+          "functions": [
+            "PA18",
+            "INT2",
+            "1:2/3:2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "D9",
+          "functions": [
+            "PA07",
+            "AIN7",
+            "INT7",
+            "0:3"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "D6",
+          "functions": [
+            "PA20",
+            "INT4",
+            "5:2/3:2"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "D5",
+          "functions": [
+            "PA15",
+            "INT15",
+            "2:3/4:3"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "SCL",
+          "functions": [
+            "D21",
+            "PA23",
+            "INT7",
+            "3:1/5:0"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "SDA",
+          "functions": [
+            "D20",
+            "PA22",
+            "INT6",
+            "3:0/5:1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/fc0e7280105b246187a991f34e65fc81df598e9a80f17251cc13d58c23ab240f.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; started at end closest to the micro-B USB connector (bottom of image)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": [
+            "3.3V"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "A0",
+          "functions": [
+            "PA02",
+            "AIN0",
+            "INT2",
+            "DAC0"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "A1",
+          "functions": [
+            "PB08",
+            "AIN2",
+            "INT8",
+            "4:0"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "A2",
+          "functions": [
+            "PB09",
+            "AIN3",
+            "INT9",
+            "4:1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "A3",
+          "functions": [
+            "PA04",
+            "AIN4",
+            "INT4",
+            "0:0",
+            "VREFB"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "A4",
+          "functions": [
+            "PA05",
+            "AIN5",
+            "INT5",
+            "0:1",
+            "DAC1"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "A5",
+          "functions": [
+            "PB02",
+            "AIN14",
+            "INT2",
+            "5:0"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "SCK",
+          "functions": [
+            "D24",
+            "PB13",
+            "INT13",
+            "4:1"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "MOSI",
+          "functions": [
+            "D23",
+            "PB12",
+            "INT12",
+            "4:0"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "MISO",
+          "functions": [
+            "D22",
+            "PB11",
+            "INT11",
+            "4:3"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "D0",
+          "functions": [
+            "PA13",
+            "INT13",
+            "RX",
+            "2:1/4:0"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "D1",
+          "functions": [
+            "PA12",
+            "INT12",
+            "TX",
+            "2:0/4:1"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "D4",
+          "functions": [
+            "PA06",
+            "AIN6",
+            "INT6",
+            "0:2",
+            "VREFC"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Back-side inset shows SWDIO and SWDCLK test points (PA31/PA30) between the 0/RX, 22/MISO and 23/MOSI pads; treated as test points and not transcribed as a connector."
+  ],
+  "notes": "Label = 'Name' column box next to each pad (matches silkscreen); functions read outward: Arduino, Port, ADC/Interrupt, Serial, Sercom, DAC/Misc. Pin 13 'LED' note from bottom table included. JST-PH battery and Qwiic JST-SH connectors skipped (pins not individually labeled)."
+}

@@ -1,0 +1,152 @@
+{
+  "recordId": "seeed-studio-expansion-wifi-shield-v1-2",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/2e0488f098fb989697474caa82b63e4fde6043ab544328cfea74d0ab72cdfad9.png",
+      "sha256": "2e0488f098fb989697474caa82b63e4fde6043ab544328cfea74d0ab72cdfad9"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "uart-select-jumper",
+      "name": "3x8 UART select jumper header (WIFI_TX row / D7-D0 row / WIFI_RX row)",
+      "image": "media/2e0488f098fb989697474caa82b63e4fde6043ab544328cfea74d0ab72cdfad9.png",
+      "rows": 3,
+      "orderNote": "No pin numbers, no USB and no board outline shown; columns numbered left to right, each column top (WIFI_TX) to bottom (WIFI_RX); square pads on the right end not treated as pin-1 marks",
+      "pins": [
+        {
+          "position": 1,
+          "label": "WIFI_TX",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "D7",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "WIFI_RX",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "WIFI_TX",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "WIFI_RX",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "WIFI_TX",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "WIFI_RX",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "WIFI_TX",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "WIFI_RX",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "WIFI_TX",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "WIFI_RX",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "WIFI_TX",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "WIFI_RX",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "WIFI_TX",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "WIFI_RX",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "WIFI_TX",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "D0",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "WIFI_RX",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "Middle row positions for columns 2-7 have no printed label (only D7 at the left end and D0 at the right end are printed); recorded as '?' (unlabeled)."
+  ],
+  "uncertain": [
+    "Image shows only the 3x8 jumper/selector block for routing WIFI_TX/WIFI_RX to D0-D7, not the whole shield; Arduino shield headers are not shown. Unclear whether this jumper block should be treated as a breadboard connector.",
+    "Top and bottom rows labelled only by row captions WIFI_TX / WIFI_RX with a red bus line; every hole in those rows given the row label.",
+    "3-row ordering (column-wise, top to bottom) chosen by analogy with rule 4; board edge orientation not shown."
+  ],
+  "notes": ""
+}

@@ -1,0 +1,490 @@
+{
+  "recordId": "sparkfun-micromod-esp32-processor",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/fb59b63c6422bb7d3726a0133936afc9e97b7405d2018f50405f7c6b7cb894b0.png",
+      "sha256": "fb59b63c6422bb7d3726a0133936afc9e97b7405d2018f50405f7c6b7cb894b0"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "edge-pads",
+      "name": "MicroMod M.2 edge connector (top odd, bottom even)",
+      "image": "media/fb59b63c6422bb7d3726a0133936afc9e97b7405d2018f50405f7c6b7cb894b0.png",
+      "rows": 2,
+      "orderNote": "Printed pin numbers 1-75 (odd on top of board, even on bottom); position = printed pin number",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "USB_D+",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "USB_D-",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "RESET#",
+          "functions": [
+            "(Open Drain)"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "USB_VIN",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "D0",
+          "functions": [
+            "14"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "BOOT",
+          "functions": [
+            "(opendrain)",
+            "G0"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "I2C_SDA",
+          "functions": [
+            "21"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "I2C_SCL",
+          "functions": [
+            "22"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "I2C_INT#",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "UART_TX1",
+          "functions": [
+            "G3",
+            "AUD_OUT",
+            "17"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "D1",
+          "functions": [
+            "27"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "UART_RX1",
+          "functions": [
+            "G4",
+            "AUD_IN",
+            "16"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "Module Key",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "Module Key",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "Module Key",
+          "functions": []
+        },
+        {
+          "position": 27,
+          "label": "Module Key",
+          "functions": []
+        },
+        {
+          "position": 28,
+          "label": "Module Key",
+          "functions": []
+        },
+        {
+          "position": 29,
+          "label": "Module Key",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "Module Key",
+          "functions": []
+        },
+        {
+          "position": 31,
+          "label": "Module Key",
+          "functions": []
+        },
+        {
+          "position": 32,
+          "label": "PWM0",
+          "functions": [
+            "13"
+          ]
+        },
+        {
+          "position": 33,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 34,
+          "label": "A0",
+          "functions": [
+            "34"
+          ]
+        },
+        {
+          "position": 35,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 36,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 37,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 38,
+          "label": "A1",
+          "functions": [
+            "35"
+          ]
+        },
+        {
+          "position": 39,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 40,
+          "label": "G0",
+          "functions": [
+            "15"
+          ]
+        },
+        {
+          "position": 41,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 42,
+          "label": "G1",
+          "functions": [
+            "AUD_LRCLK",
+            "SCL1",
+            "25"
+          ]
+        },
+        {
+          "position": 43,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 44,
+          "label": "G2",
+          "functions": [
+            "AUD_BCLK",
+            "SDA1",
+            "26"
+          ]
+        },
+        {
+          "position": 45,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 46,
+          "label": "G3",
+          "functions": [
+            "AUD_OUT",
+            "UART_TX1",
+            "17"
+          ]
+        },
+        {
+          "position": 47,
+          "label": "PWM1",
+          "functions": [
+            "12"
+          ]
+        },
+        {
+          "position": 48,
+          "label": "G4",
+          "functions": [
+            "AUD_IN",
+            "UART_RX1",
+            "16"
+          ]
+        },
+        {
+          "position": 49,
+          "label": "BATT_VIN",
+          "functions": [
+            "39"
+          ]
+        },
+        {
+          "position": 50,
+          "label": "AUD_BCLK",
+          "functions": [
+            "G2",
+            "SDA1",
+            "26"
+          ]
+        },
+        {
+          "position": 51,
+          "label": "I2C_SDA1",
+          "functions": [
+            "G2",
+            "AUD_BCLK",
+            "26"
+          ]
+        },
+        {
+          "position": 52,
+          "label": "AUD_LRCLK",
+          "functions": [
+            "G1",
+            "SCL1",
+            "25"
+          ]
+        },
+        {
+          "position": 53,
+          "label": "I2C_SCL1",
+          "functions": [
+            "G1",
+            "AUD_LRCLK",
+            "25"
+          ]
+        },
+        {
+          "position": 54,
+          "label": "AUD_IN",
+          "functions": [
+            "G4",
+            "UART_RX1",
+            "16"
+          ]
+        },
+        {
+          "position": 55,
+          "label": "SPI_CS#",
+          "functions": [
+            "5"
+          ]
+        },
+        {
+          "position": 56,
+          "label": "AUD_OUT",
+          "functions": [
+            "G3",
+            "UART_TX1",
+            "17"
+          ]
+        },
+        {
+          "position": 57,
+          "label": "SPI_SCK",
+          "functions": [
+            "18"
+          ]
+        },
+        {
+          "position": 58,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 59,
+          "label": "SPI_COPI",
+          "functions": [
+            "23"
+          ]
+        },
+        {
+          "position": 60,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 61,
+          "label": "SPI_CIPO",
+          "functions": [
+            "19"
+          ]
+        },
+        {
+          "position": 62,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 63,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 64,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 65,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 66,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 67,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 68,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 69,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 70,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 71,
+          "label": "G6",
+          "functions": [
+            "33"
+          ]
+        },
+        {
+          "position": 72,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 73,
+          "label": "G5",
+          "functions": [
+            "32"
+          ]
+        },
+        {
+          "position": 74,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 75,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "Pins 4, 8, 13, 15, 20, 21, 22, 23, 35, 36, 37, 41, 43, 45, 58, 60, 62, 63, 64, 65, 66, 67, 68, 69, 70, 72 have a printed pin number but no label (unlabeled)"
+  ],
+  "notes": "Label is the function cell adjacent to the pin number; other cells read outward, with the teal-bordered Arduino/ESP32 GPIO numbers as functions. Module Key positions recorded as printed. Top-of-board and bottom-of-board views of the same edge connector combined via printed pin numbers.",
+  "uncertain": []
+}

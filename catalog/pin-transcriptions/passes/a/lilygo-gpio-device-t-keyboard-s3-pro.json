@@ -1,0 +1,86 @@
+{
+  "recordId": "lilygo-gpio-device-t-keyboard-s3-pro",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/16205d4456d8a7c62d956b3b61e77cc14a8c4bdc485da54ad9ea2df28108787f.jpg",
+      "sha256": "16205d4456d8a7c62d956b3b61e77cc14a8c4bdc485da54ad9ea2df28108787f"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "qwiic-left",
+      "name": "Left STEMMA QT/Qwiic JST-SH 1.0mm 4-pin (UART)",
+      "image": "media/16205d4456d8a7c62d956b3b61e77cc14a8c4bdc485da54ad9ea2df28108787f.jpg",
+      "rows": 1,
+      "orderNote": "No printed numbers; horizontal connector, started at the left end (closest to the USB port to its left), following the left-to-right order of the case print",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "+3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO43",
+          "functions": [
+            "TX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "IO44",
+          "functions": [
+            "RX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qwiic-right",
+      "name": "Right STEMMA QT/Qwiic JST-SH 1.0mm 4-pin (I2C)",
+      "image": "media/16205d4456d8a7c62d956b3b61e77cc14a8c4bdc485da54ad9ea2df28108787f.jpg",
+      "rows": 1,
+      "orderNote": "No printed numbers; horizontal connector, started at the left end (closest to the USB port to its left), following the left-to-right order of the case print",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "+3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO6",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "IO7",
+          "functions": [
+            "SCL"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "The Qwiic sockets are seen end-on and their individual contacts are not visible; pin positions are assumed to follow the left-to-right order of the case print 'GND +3.3V (IO43)TX (IO44)RX' / 'GND +3.3V (IO6)SDA (IO7)SCL'.",
+    "Assignment of the two print lines to the two sockets is inferred from the arrow under the left socket (first line) and the bracket line running up to the right socket (second line)."
+  ],
+  "notes": "Case print shows '(IO43)TX' etc.; the IO name is used as label and the board name kept in functions. The magnetic pogo-pin connector (External I2C SDA IO06 / SCL IO07 callout) has no individually labeled contacts and was skipped. LCD, encoder, built-in I2C and boot callouts are internal signals."
+}

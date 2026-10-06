@@ -1,0 +1,168 @@
+{
+  "recordId": "m5stack-gpio-device-capsule",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/8a4ac1dd249c802d6b6746e1cea23f0c3297395fe8cdcdc34a25e341814629e3.png",
+      "sha256": "8a4ac1dd249c802d6b6746e1cea23f0c3297395fe8cdcdc34a25e341814629e3"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left edge pins",
+      "image": "media/8a4ac1dd249c802d6b6746e1cea23f0c3297395fe8cdcdc34a25e341814629e3.png",
+      "rows": 1,
+      "orderNote": "Numbers 1-15 are GPIO numbers (color-coded ADC1/ADC2), not position numbers; no USB connector drawn, so ordered top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "1",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "5",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "7",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "9",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "5Vin",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "13",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "15",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right edge pins",
+      "image": "media/8a4ac1dd249c802d6b6746e1cea23f0c3297395fe8cdcdc34a25e341814629e3.png",
+      "rows": 1,
+      "orderNote": "Numbers 43/44/0 are GPIO numbers; no USB connector drawn, so ordered top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5Vout",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "BatIn",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "nWAKE",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "43",
+          "functions": [
+            "Tx"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "44",
+          "functions": [
+            "Rx"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "EN",
+          "functions": [
+            "Rst"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "0",
+          "functions": [
+            "Boot"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "port-a",
+      "name": "PORT.A (Grove) connector legend",
+      "image": "media/8a4ac1dd249c802d6b6746e1cea23f0c3297395fe8cdcdc34a25e341814629e3.png",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB connector drawn; ordered left to right as printed in the PORT.A box",
+      "pins": [
+        {
+          "position": 1,
+          "label": "15",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "13",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "5V",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "G",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Left and right edge columns sit at the same nine heights; the image does not show whether they are two single rows or one 2x9 header, so recorded as two 1-row connectors",
+    "PORT.A box (15, 13, 5V OUT, G) is a legend; physical contact order of the Grove connector is not drawn and was taken left to right as printed",
+    "Right-side pairs 'Tx 43', 'Rx 44', 'Rst EN', 'Boot 0': labels chosen as the pin-side text (43, 44, EN, 0) with the outer word in functions"
+  ],
+  "notes": "M5Stack Capsule pin label card. Left-column numbers are GPIO numbers printed without a G prefix (kept as printed); 'n' is printed above 'WAKE' (recorded as nWAKE). Internal functions (RST/OFF, IR G4, WAKE BTN G42, buzzer G2, BAT/2 ADC G6, BTN0, microSD CS:11 MI:39 MO:12 SCK:14, BM8563 SDA:8 SCL:10, mic CLK:40 DAT:41, USB D-:G19/D+:G20, RGB status G21) are not pins and were skipped. Color legend (ADC1/ADC2/no ADC/POWER) omitted per rule 6."
+}

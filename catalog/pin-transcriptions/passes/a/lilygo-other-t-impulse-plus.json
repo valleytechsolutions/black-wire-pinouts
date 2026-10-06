@@ -1,0 +1,38 @@
+{
+  "recordId": "lilygo-other-t-impulse-plus",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/67efbcf57e9caa7b178b08ed42dd6332418bf0a814356681cb891674ab3e8355.jpg",
+      "sha256": "67efbcf57e9caa7b178b08ed42dd6332418bf0a814356681cb891674ab3e8355"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "back-contacts",
+      "name": "2 contact pins on the back of the enclosure",
+      "image": "media/67efbcf57e9caa7b178b08ed42dd6332418bf0a814356681cb891674ab3e8355.jpg",
+      "rows": 1,
+      "orderNote": "No pin-1 mark and no USB connector visible; vertical pair ordered top to bottom.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "R",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "B",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "The only physical contacts shown are two round contacts on the back of the enclosure, with moulded letters beside them (read as R top, B bottom, printed rotated). All other text is peripheral GPIO tables given as (port, pin) pairs, not wiring points. The four holes at the bottom of the back are not labelled.",
+  "uncertain": [
+    "back-contacts: the moulded letters are rotated and low-contrast; read as R and B but could be other glyphs. Their function (likely a charging/accessory contact pair) is not stated in the image, and they may be a power-only connector that rule 1 would skip."
+  ]
+}

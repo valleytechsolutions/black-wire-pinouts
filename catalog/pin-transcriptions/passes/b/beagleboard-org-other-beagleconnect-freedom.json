@@ -1,0 +1,310 @@
+{
+  "recordId": "beagleboard-org-other-beagleconnect-freedom",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/6a45ddbc54ac55af5c98854e774325297e9b8fd54fc67e98382be492a403add4.png",
+      "sha256": "6a45ddbc54ac55af5c98854e774325297e9b8fd54fc67e98382be492a403add4"
+    },
+    {
+      "file": "media/8be337dd13879ee3eb1db5fb7d315ed4d90f135d694134d9bb36d1efa122682c.png",
+      "sha256": "8be337dd13879ee3eb1db5fb7d315ed4d90f135d694134d9bb36d1efa122682c"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "P4",
+      "name": "Left header",
+      "image": "media/6a45ddbc54ac55af5c98854e774325297e9b8fd54fc67e98382be492a403add4.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers (triangle marker not labeled 1); started at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "DIO_24",
+          "functions": [
+            "AN",
+            "D16",
+            "A1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "DIO_05",
+          "functions": [
+            "RST",
+            "D17"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "DIO_27",
+          "functions": [
+            "CS",
+            "D7",
+            "A4"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "DIO_10",
+          "functions": [
+            "SCK",
+            "P1.6",
+            "D9"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "DIO_11",
+          "functions": [
+            "MISO",
+            "P1.4",
+            "D10"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "DIO_09",
+          "functions": [
+            "MOSI",
+            "P1.5",
+            "D8"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "P3",
+      "name": "Right header",
+      "image": "media/6a45ddbc54ac55af5c98854e774325297e9b8fd54fc67e98382be492a403add4.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers (triangle marker not labeled 1); started at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "DIO_19",
+          "functions": [
+            "PWM",
+            "D6"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "DIO_20",
+          "functions": [
+            "INT",
+            "D1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "DIO_21",
+          "functions": [
+            "RX",
+            "D4"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "DIO_22",
+          "functions": [
+            "TX",
+            "D5"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "DIO_25",
+          "functions": [
+            "SCL",
+            "P4.2",
+            "D12",
+            "A3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "DIO_26",
+          "functions": [
+            "SDA",
+            "P4.1",
+            "D11",
+            "A2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "+5V",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "P1-img2",
+      "name": "Left header",
+      "image": "media/8be337dd13879ee3eb1db5fb7d315ed4d90f135d694134d9bb36d1efa122682c.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers (triangle marker not labeled 1); started at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "DIO_23",
+          "functions": [
+            "AN",
+            "D15",
+            "A0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "DIO_06",
+          "functions": [
+            "RST",
+            "D18"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "DIO_28",
+          "functions": [
+            "CS",
+            "D3",
+            "A5"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "DIO_10",
+          "functions": [
+            "SCK",
+            "P1.6",
+            "D9"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "DIO_11",
+          "functions": [
+            "MISO",
+            "P1.4",
+            "D10"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "DIO_09",
+          "functions": [
+            "MOSI",
+            "P1.5",
+            "D8"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "P2-img2",
+      "name": "Right header",
+      "image": "media/8be337dd13879ee3eb1db5fb7d315ed4d90f135d694134d9bb36d1efa122682c.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers (triangle marker not labeled 1); started at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "DIO_17",
+          "functions": [
+            "PWM",
+            "D2"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "DIO_16",
+          "functions": [
+            "INT",
+            "D0"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "DIO_12",
+          "functions": [
+            "RX",
+            "D13"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "DIO_13",
+          "functions": [
+            "TX",
+            "D14"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "DIO_25",
+          "functions": [
+            "SCL",
+            "P4.2",
+            "D12",
+            "A3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "DIO_26",
+          "functions": [
+            "SDA",
+            "P4.1",
+            "D11",
+            "A2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "+5V",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Image 1 and image 2 show different board revisions (headers P4/P3 vs P1/P2) with different DIO assignments; transcribed separately. Skipped LiPo battery connector, buzzer, buttons and unlabeled pads."
+}

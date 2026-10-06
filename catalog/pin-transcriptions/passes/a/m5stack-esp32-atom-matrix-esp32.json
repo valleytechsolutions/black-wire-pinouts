@@ -1,0 +1,124 @@
+{
+  "recordId": "m5stack-esp32-atom-matrix-esp32",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/50b58e784ae85243b6c91374311717c43e35b38158859daa51b91246b393a9e1.jpg",
+      "sha256": "50b58e784ae85243b6c91374311717c43e35b38158859daa51b91246b393a9e1"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/50b58e784ae85243b6c91374311717c43e35b38158859daa51b91246b393a9e1.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector visible; vertical row, started at top of image",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "G22",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G19",
+          "functions": [
+            "MOSI"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "G23",
+          "functions": [
+            "CLK"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "G33",
+          "functions": [
+            "ADC",
+            "MISO"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/50b58e784ae85243b6c91374311717c43e35b38158859daa51b91246b393a9e1.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector visible; vertical row, started at top of image",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G21",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "G25",
+          "functions": [
+            "DAC",
+            "SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-port",
+      "name": "HY2.0-4P Grove port",
+      "image": "media/50b58e784ae85243b6c91374311717c43e35b38158859daa51b91246b393a9e1.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector visible; horizontal row, started at left of image",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G26",
+          "functions": [
+            "DAC"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "G32",
+          "functions": [
+            "ADC"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Labels are the grey/colored callout names beside each pin dot; functions read outward from the pin. Device sticker shows the same names (right-header GND appears as 'G'). Right header has 4 pins aligned with the lower 4 positions of the 5-pin left header. Sticker notes (Neo=G27, Btn=G39, IR G12, MPU6886 C:21 D:25) describe on-board parts, not wiring points."
+}

@@ -1,0 +1,257 @@
+{
+  "recordId": "pandabyte-esp32-xc5",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/250625682413af428afdadf5fdd5261783c70ccde50502df6c31e1eaead42afd.png",
+      "sha256": "250625682413af428afdadf5fdd5261783c70ccde50502df6c31e1eaead42afd"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/250625682413af428afdadf5fdd5261783c70ccde50502df6c31e1eaead42afd.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; this back view does not show the USB connector itself (only its mounting slots), so top-to-bottom (rule 9; square pad not used as pin 1)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GPIO26",
+          "functions": [
+            "26"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO25",
+          "functions": [
+            "25"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO11",
+          "functions": [
+            "TX",
+            "TX0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO12",
+          "functions": [
+            "RX",
+            "RX0"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO24",
+          "functions": [
+            "24",
+            "BUTTON"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO23",
+          "functions": [
+            "23",
+            "LED"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPI15",
+          "functions": [
+            "15"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO27",
+          "functions": [
+            "27"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO4",
+          "functions": [
+            "4",
+            "LP_RX",
+            "ADC1_3"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO5",
+          "functions": [
+            "5",
+            "LP_TX",
+            "ADC1_4"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO28",
+          "functions": [
+            "28",
+            "BOOT"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/250625682413af428afdadf5fdd5261783c70ccde50502df6c31e1eaead42afd.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; this back view does not show the USB connector itself (only its mounting slots), so top-to-bottom (rule 9; square pad not used as pin 1)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RST",
+          "functions": [
+            "EN"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO2",
+          "functions": [
+            "2",
+            "LP_SDA",
+            "ADC1_1"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO3",
+          "functions": [
+            "3",
+            "LP_SCL",
+            "ADC1_2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO0",
+          "functions": [
+            "0",
+            "SDA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO1",
+          "functions": [
+            "1",
+            "SCL",
+            "ADC1_0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO6",
+          "functions": [
+            "6",
+            "CS",
+            "ADC1_5"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO7",
+          "functions": [
+            "7"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO8",
+          "functions": [
+            "8",
+            "MOSI"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO9",
+          "functions": [
+            "9",
+            "MISO"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO10",
+          "functions": [
+            "10",
+            "SCK",
+            "RGB"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO13",
+          "functions": [
+            "13",
+            "USB_D-"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO14",
+          "functions": [
+            "14",
+            "USB_D+"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "5V",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "O and 0 look alike in TX0/RX0 and ADC1_0; recorded as 0"
+  ],
+  "uncertain": [],
+  "notes": "Callout GPIO names as labels; PCB silkscreen (26, TX, EN...) first in functions. 'GPI15' is printed without the O and copied as printed. Squiggle (PWM) icons omitted."
+}

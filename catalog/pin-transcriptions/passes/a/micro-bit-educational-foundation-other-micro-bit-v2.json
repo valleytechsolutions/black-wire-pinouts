@@ -1,0 +1,198 @@
+{
+  "recordId": "micro-bit-educational-foundation-other-micro-bit-v2",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/43051f7be0aeb57a3ebae2deb17c040b592c7eb349942b36fe406134e1f4a793.png",
+      "sha256": "43051f7be0aeb57a3ebae2deb17c040b592c7eb349942b36fe406134e1f4a793"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "edge-pads",
+      "name": "Edge connector",
+      "image": "media/43051f7be0aeb57a3ebae2deb17c040b592c7eb349942b36fe406134e1f4a793.png",
+      "rows": 1,
+      "orderNote": "No USB or pin numbers shown; vertical row ordered from the top of the image as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "P20",
+          "functions": [
+            "SDA",
+            "I2C1"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "P19",
+          "functions": [
+            "SCL",
+            "I2C1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "+3v3",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "+3v3",
+          "functions": [
+            "3V"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "+3v3",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "P16",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "P15",
+          "functions": [
+            "MOSI",
+            "SPI1"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "P14",
+          "functions": [
+            "MISO",
+            "SPI1"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "P13",
+          "functions": [
+            "SCK",
+            "SPI1"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "P2",
+          "functions": [
+            "2",
+            "ANALOG IN"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "p12",
+          "functions": [
+            "Reserved: accessibility"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "P11",
+          "functions": [
+            "BUTTON B"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "P10",
+          "functions": [
+            "LED Col 5",
+            "ANALOG IN"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "P9",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "P8",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "P1",
+          "functions": [
+            "1",
+            "ANALOG IN"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "P7",
+          "functions": [
+            "LED Col 2"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "P6",
+          "functions": [
+            "LED Col 4"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "P5",
+          "functions": [
+            "BUTTON A"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "P4",
+          "functions": [
+            "LED Col 1",
+            "ANALOG IN"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "P0",
+          "functions": [
+            "0",
+            "ANALOG IN"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "P3",
+          "functions": [
+            "LED Col 3",
+            "ANALOG IN"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Board identity: the image shows only an edge-connector strip with no revision marking, so it cannot confirm this is the V2 rather than another micro:bit revision."
+  ],
+  "notes": "26 edge positions: top corner pad, five large ring pads (silkscreen GND, 3V, 2, 1, 0) and the narrow strips between them, bottom corner pad. Ring silkscreen ('3V', '2', '1', '0') listed first in functions where it differs from the callout name. SDA/SCL and MOSI/MISO/SCK are drawn inside I2C1/SPI1 group boxes; recorded as the signal followed by the group name. 'p12' copied in lower case as printed."
+}

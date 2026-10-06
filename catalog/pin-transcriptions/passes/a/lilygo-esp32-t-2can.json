@@ -1,0 +1,318 @@
+{
+  "recordId": "lilygo-esp32-t-2can",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/d9c259f56f26f0736bb82563ef5fec58cf21d9ed4f8827cb1acfebf7dd49fa5d.jpg",
+      "sha256": "d9c259f56f26f0736bb82563ef5fec58cf21d9ed4f8827cb1acfebf7dd49fa5d"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "U8",
+      "name": "U8 2.54mm header pads (bottom view)",
+      "image": "media/d9c259f56f26f0736bb82563ef5fec58cf21d9ed4f8827cb1acfebf7dd49fa5d.jpg",
+      "rows": 2,
+      "orderNote": "No printed position numbers; started at the end nearest the USB-C connector (right end in the bottom view), outer row = top row (nearer the board edge), alternating outer/inner",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IO46",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO0",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IO18",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "IO17",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "IO14",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "IO21",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "IO47",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "IO48",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "IO45",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "IO5",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "IO15",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "IO4",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "IO16",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "IO40",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "IO36",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "IO41",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "IO37",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "IO42",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "IO38",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "IO39",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "IO35",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "3V",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "qwiic-1",
+      "name": "QWIIC connector (upper)",
+      "image": "media/d9c259f56f26f0736bb82563ef5fec58cf21d9ed4f8827cb1acfebf7dd49fa5d.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical, ordered from the end nearest the USB-C connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RX",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "qwiic-2",
+      "name": "QWIIC connector (lower)",
+      "image": "media/d9c259f56f26f0736bb82563ef5fec58cf21d9ed4f8827cb1acfebf7dd49fa5d.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical, ordered from the end nearest the USB-C connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO01",
+          "functions": [
+            "IO1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "IO02",
+          "functions": [
+            "IO2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dc-in",
+      "name": "DC 12~24V screw terminal",
+      "image": "media/d9c259f56f26f0736bb82563ef5fec58cf21d9ed4f8827cb1acfebf7dd49fa5d.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical, ordered from the end nearest the USB-C connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "12-24V",
+          "functions": [
+            "DC 12~24V"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "can-a",
+      "name": "CAN A screw terminal",
+      "image": "media/d9c259f56f26f0736bb82563ef5fec58cf21d9ed4f8827cb1acfebf7dd49fa5d.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical, top to bottom (top end is nearer the USB-C connector)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D GND",
+          "functions": [
+            "DGNDA"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "CAN H",
+          "functions": [
+            "CANHA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "CAN L",
+          "functions": [
+            "CANLA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "S GND",
+          "functions": [
+            "SGNDA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "can-b",
+      "name": "CAN B screw terminal",
+      "image": "media/d9c259f56f26f0736bb82563ef5fec58cf21d9ed4f8827cb1acfebf7dd49fa5d.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical, top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D GND",
+          "functions": [
+            "DGNDB"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "CAN H",
+          "functions": [
+            "CANHB"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "CAN L",
+          "functions": [
+            "CANLB"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "S GND",
+          "functions": [
+            "SGNDB"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "U8 labels are tiny, rotated silkscreen at low resolution: top-row positions 1-2 (left end) read as GND, the top-row label read as IO0 is partly cut off (could be GND), and the bottom-row 4th label (IO38) could also be IO36/IO28; bottom-row first label reads 3V and may be truncated."
+  ],
+  "uncertain": [
+    "U8 pin order: a small triangle is printed at the left end of the bottom row (opposite the USB end), which may be a pin-1 mark; the USB-nearest rule was applied instead because the mark is not labeled 1.",
+    "U8 labels IO38 (bottom row, 4th from left) and IO0 (top row, 2nd from right) are low-resolution readings."
+  ],
+  "notes": "The bottom view also shows the through-hole pads of both CAN terminals with silkscreen DGNDA/CANHA/CANLA/SGNDA and DGNDB/CANHB/CANLB/SGNDB; these are the same physical terminals, so the silkscreen names were added as functions rather than separate connectors. MCP2515 SPI notes (CS IO10, SCLK IO12, MOSI IO11, MISO IO13, RST IO09) describe internal wiring, not pins. Buttons and antenna skipped."
+}

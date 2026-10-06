@@ -1,0 +1,220 @@
+{
+  "recordId": "seeed-studio-expansion-serial-port-bluetooth-module-master-slave",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/bde0aff47cb55cc116e1ca3a69a30240420249ffe8bce4cf769288f1f9389e3e.jpg",
+      "sha256": "bde0aff47cb55cc116e1ca3a69a30240420249ffe8bce4cf769288f1f9389e3e"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-pads",
+      "name": "Left edge pads (U1 footprint)",
+      "image": "media/bde0aff47cb55cc116e1ca3a69a30240420249ffe8bce4cf769288f1f9389e3e.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB; vertical row started at the top (small circle marker near the top-left pad is not labelled 1)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "RX",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "CTS",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RTS",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "PCM_CLK",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "PCM_OUT",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "PCM_IN",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "PCM_SYNC",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "AIO0",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "AIO1",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-pads",
+      "name": "Right edge pads (U1 footprint)",
+      "image": "media/bde0aff47cb55cc116e1ca3a69a30240420249ffe8bce4cf769288f1f9389e3e.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB; vertical row started at the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PIO11",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "PIO10",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PIO9",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "PIO8",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "PIO7",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "PIO6",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "PIO5",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "PIO4",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "PIO3",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "PIO2",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "PIO1",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "PIO0",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-pads",
+      "name": "Bottom edge pads (U1 footprint)",
+      "image": "media/bde0aff47cb55cc116e1ca3a69a30240420249ffe8bce4cf769288f1f9389e3e.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB; horizontal row started at the left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "USB_D-",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "CSB",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "MOSI",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "MISO",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "CLK",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "USB_D+",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "Labels are very small and blurry; 'AIO0', 'PIO0', 'PIO10' use 0 where O/0 cannot be told apart. '3.3V' appears as '3. 3V' (spacing).",
+    "Bottom-row labels are rotated and low-resolution; 'USB_D-', 'CSB', 'MOSI', 'MISO', 'USB_D+' read with low confidence."
+  ],
+  "uncertain": [
+    "Image is a module footprint/dimension drawing (U1 labelled, U2 dimensioned without labels); it does not name the product, so identity with the Serial Port Bluetooth Module (Master-Slave) is assumed from context.",
+    "Labels are low resolution; PIO8 in particular resembles 'PIO6' and was read by sequence position \u2014 physical order of right-row PIO numbers is interpreted from blurry text."
+  ],
+  "notes": "Only the labelled U1 footprint transcribed; the U2 drawing repeats the footprint with dimensions only."
+}

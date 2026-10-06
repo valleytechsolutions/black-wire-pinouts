@@ -1,0 +1,126 @@
+{
+  "recordId": "waveshare-esp32-esp32-s3-touch-amoled-1-32",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/703d4fff9aea846926740a5844e5e24661adad6fc72d1d840f8ac41bb9ae24de.jpg",
+      "sha256": "703d4fff9aea846926740a5844e5e24661adad6fc72d1d840f8ac41bb9ae24de"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-connector",
+      "name": "12-pin side connector (left edge)",
+      "image": "media/703d4fff9aea846926740a5844e5e24661adad6fc72d1d840f8ac41bb9ae24de.jpg",
+      "rows": 1,
+      "orderNote": "No pin 1 mark or numbers; the two ends are about equally distant from the USB-C connector, so ordered top to bottom (vertical row), matching the printed label list order.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VSYS",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO0",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO1",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GPIO2",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "USB_N",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "USB_P",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "TXD",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "RXD",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bat-connector",
+      "name": "BAT 2-pin JST connector",
+      "image": "media/703d4fff9aea846926740a5844e5e24661adad6fc72d1d840f8ac41bb9ae24de.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at the end closest to the USB connector (right end).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "-",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "+",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "spk-connector",
+      "name": "SPK 2-pin JST connector",
+      "image": "media/703d4fff9aea846926740a5844e5e24661adad6fc72d1d840f8ac41bb9ae24de.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at the end closest to the USB connector (right end).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "-",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "+",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "left-connector: the label list is drawn as a single block with one leader line to the connector, so the label-to-pin mapping (list top = connector top) is inferred; also both connector ends are roughly equidistant from USB-C, so the USB-nearest start end is not clear-cut (top used)."
+  ],
+  "notes": "Board silkscreen reads ESP32-S3-Touch-AMOLED-1.32. BAT and SPK 2-pin connectors have +/- silkscreen per pin and are included. Codec (ES8311), display (CO5300) and touch (CST820) GPIO tables, and the PWR (GPIO17) / BOOT (GPIO0) buttons, are not wiring points."
+}

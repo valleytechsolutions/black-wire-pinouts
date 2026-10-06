@@ -1,0 +1,275 @@
+{
+  "recordId": "lilygo-esp32-t3-s3-e-paper",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/951604acc0393b1ee7b7802c2a3afd8d4cae06651f23b278da97971281b86778.jpg",
+      "sha256": "951604acc0393b1ee7b7802c2a3afd8d4cae06651f23b278da97971281b86778"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/951604acc0393b1ee7b7802c2a3afd8d4cae06651f23b278da97971281b86778.jpg",
+      "rows": 1,
+      "orderNote": "No position numbers printed (the grey boxes are GPIO numbers, kept as functions); vertical row, started at the end closest to the USB-C connector (bottom edge).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO37",
+          "functions": [
+            "IO37",
+            "37",
+            "FSPI_Q"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO36",
+          "functions": [
+            "IO36",
+            "36",
+            "FSPI_CLK"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO00",
+          "functions": [
+            "IO0",
+            "00"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO35",
+          "functions": [
+            "IO35",
+            "35",
+            "FSPI_D"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO34",
+          "functions": [
+            "IO34",
+            "34",
+            "FSPI_CS0"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO33",
+          "functions": [
+            "IO33",
+            "33",
+            "FSPI_HD"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO47",
+          "functions": [
+            "IO47",
+            "47"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO48",
+          "functions": [
+            "IO48",
+            "48"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO12",
+          "functions": [
+            "IO12",
+            "12",
+            "TOUCH12",
+            "FSPI_CLK",
+            "ADC2_CH1"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO18",
+          "functions": [
+            "IO18",
+            "18",
+            "U1RXD",
+            "ADC2_CH7"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GPIO15",
+          "functions": [
+            "IO15",
+            "15",
+            "U0RTS",
+            "ADC2_CH4"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO16",
+          "functions": [
+            "IO16",
+            "16",
+            "U0CTS",
+            "ADC2_CH5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/951604acc0393b1ee7b7802c2a3afd8d4cae06651f23b278da97971281b86778.jpg",
+      "rows": 1,
+      "orderNote": "No position numbers printed (the grey boxes are GPIO numbers, kept as functions); vertical row, started at the end closest to the USB-C connector (bottom edge).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO42",
+          "functions": [
+            "IO42",
+            "42"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO46",
+          "functions": [
+            "IO46",
+            "46"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO45",
+          "functions": [
+            "IO45",
+            "45"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO41",
+          "functions": [
+            "IO41",
+            "41"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO40",
+          "functions": [
+            "IO40",
+            "40",
+            "CLK_OUT3"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO39",
+          "functions": [
+            "IO39",
+            "39",
+            "CLK_OUT2"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO44",
+          "functions": [
+            "RXD",
+            "CLK_OUT2"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO43",
+          "functions": [
+            "TXD",
+            "CLK_OUT1"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO38",
+          "functions": [
+            "IO38",
+            "38"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qwiic",
+      "name": "QwiiC 4-pin connector (bottom left)",
+      "image": "media/951604acc0393b1ee7b7802c2a3afd8d4cae06651f23b278da97971281b86778.jpg",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; horizontal row, started at the end closest to the USB-C connector (right end).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO44",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IO43",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "U0CTS, U0RTS (left-header) and FSPI_CS0: O and 0 cannot be told apart in the label font; recorded with 0 per rule 5."
+  ],
+  "notes": "Header labels: GPIO names from the pink callouts; functions list the board silkscreen spelling first (IO16 etc.), then the grey box number and other callouts read outward from the pin. TXD/RXD pins: callout GPIO43/GPIO44 used as label, TXD/RXD (box and silkscreen) in functions. QwiiC labels from the board silkscreen beside the connector (GND 3.3V IO43 IO44 left to right). LoRa module, E-Paper and TF card tables are internal; battery JST (2.0mm) skipped.",
+  "uncertain": []
+}

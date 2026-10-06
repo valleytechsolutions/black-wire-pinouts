@@ -1,0 +1,597 @@
+{
+  "recordId": "seeed-studio-esp32-xiao-esp32s3-sense",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/91b5266fd29b73c7218173430c035444960460f89c4ac582fe595e395053f02f.png",
+      "sha256": "91b5266fd29b73c7218173430c035444960460f89c4ac582fe595e395053f02f"
+    },
+    {
+      "file": "media/1c244cdaa031b54d7cbaa0abcec30eaabf958b6c3784ee6ff3d0d89107e14409.jpg",
+      "sha256": "1c244cdaa031b54d7cbaa0abcec30eaabf958b6c3784ee6ff3d0d89107e14409"
+    },
+    {
+      "file": "media/5fe775f131ab8e84a1860b5435c30edf1e77f7ab9bc4e08c2e428fc4bb4c00c8.png",
+      "sha256": "5fe775f131ab8e84a1860b5435c30edf1e77f7ab9bc4e08c2e428fc4bb4c00c8"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-pads",
+      "name": "Left edge pads (bottom view, silkscreen labels)",
+      "image": "media/91b5266fd29b73c7218173430c035444960460f89c4ac582fe595e395053f02f.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; USB connector at top of image, so position 1 is the top pad. Image 1 is a bottom view",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VUSB",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "D10",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "D9",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "D8",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "D7",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-pads",
+      "name": "Right edge pads (bottom view, silkscreen labels)",
+      "image": "media/91b5266fd29b73c7218173430c035444960460f89c4ac582fe595e395053f02f.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; USB connector at top of image, so position 1 is the top pad. Image 1 is a bottom view",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D0",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "D1",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "D2",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "D3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "D4",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "D5",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "D6",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "jtag-pads",
+      "name": "Bottom JTAG/USB pads (2x4)",
+      "image": "media/91b5266fd29b73c7218173430c035444960460f89c4ac582fe595e395053f02f.png",
+      "rows": 2,
+      "orderNote": "No numbers printed; 2x4 pad block, position 1 at the top (nearest USB) of the left column, then alternating columns (left, right) row by row",
+      "pins": [
+        {
+          "position": 1,
+          "label": "MTDO",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "MTDI",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "MTCK",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "MTMS",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "USB_D+",
+          "functions": [
+            "D+"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "USB_D-",
+          "functions": [
+            "D-"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "battery-pads",
+      "name": "Bottom battery pads",
+      "image": "media/91b5266fd29b73c7218173430c035444960460f89c4ac582fe595e395053f02f.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; USB connector at top of image, so position 1 is the top pad",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BAT-",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "BAT+",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-pads-img2",
+      "name": "Left edge pads (front)",
+      "image": "media/1c244cdaa031b54d7cbaa0abcec30eaabf958b6c3784ee6ff3d0d89107e14409.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; USB connector at top of image, so position 1 is the top pad",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO1",
+          "functions": [
+            "D0",
+            "A0",
+            "TOUCH1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO2",
+          "functions": [
+            "D1",
+            "A1",
+            "TOUCH2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO3",
+          "functions": [
+            "D2",
+            "A2",
+            "TOUCH3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO4",
+          "functions": [
+            "D3",
+            "A3",
+            "TOUCH4"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO5",
+          "functions": [
+            "D4",
+            "A4",
+            "SDA",
+            "TOUCH5"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO6",
+          "functions": [
+            "D5",
+            "A5",
+            "SCL",
+            "TOUCH6"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO43",
+          "functions": [
+            "D6",
+            "TX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-pads-img2",
+      "name": "Right edge pads (front)",
+      "image": "media/1c244cdaa031b54d7cbaa0abcec30eaabf958b6c3784ee6ff3d0d89107e14409.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; USB connector at top of image, so position 1 is the top pad",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO9",
+          "functions": [
+            "D10",
+            "A10",
+            "MOSI",
+            "TOUCH9"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO8",
+          "functions": [
+            "D9",
+            "A9",
+            "MISO",
+            "TOUCH8"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO7",
+          "functions": [
+            "D8",
+            "A8",
+            "SCK",
+            "TOUCH7"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO44",
+          "functions": [
+            "D7",
+            "RX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sense-left-pad-img2",
+      "name": "Camera board left pad",
+      "image": "media/1c244cdaa031b54d7cbaa0abcec30eaabf958b6c3784ee6ff3d0d89107e14409.jpg",
+      "rows": 1,
+      "orderNote": "Single pad",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO42",
+          "functions": [
+            "D11",
+            "A11",
+            "TOUCH12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sense-right-pad-img2",
+      "name": "Camera board right pad",
+      "image": "media/1c244cdaa031b54d7cbaa0abcec30eaabf958b6c3784ee6ff3d0d89107e14409.jpg",
+      "rows": 1,
+      "orderNote": "Single pad",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO41",
+          "functions": [
+            "D12",
+            "A12",
+            "TOUCH13"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sense-left-pad-img3",
+      "name": "Camera board left pad",
+      "image": "media/5fe775f131ab8e84a1860b5435c30edf1e77f7ab9bc4e08c2e428fc4bb4c00c8.png",
+      "rows": 1,
+      "orderNote": "Single pad",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO42",
+          "functions": [
+            "D11",
+            "JTAG_MTMS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sense-right-pad-img3",
+      "name": "Camera board right pad",
+      "image": "media/5fe775f131ab8e84a1860b5435c30edf1e77f7ab9bc4e08c2e428fc4bb4c00c8.png",
+      "rows": 1,
+      "orderNote": "Single pad",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO41",
+          "functions": [
+            "D12",
+            "JTAG_MTDI"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2b-connector-img3",
+      "name": "30-pin board-to-board connector",
+      "image": "media/5fe775f131ab8e84a1860b5435c30edf1e77f7ab9bc4e08c2e428fc4bb4c00c8.png",
+      "rows": 2,
+      "orderNote": "Pin numbers 1-30 printed; positions follow printed numbers (1-15 one column bottom-to-top, 16-30 other column top-to-bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GPIO3",
+          "functions": [
+            "D2/A2/SD_CS"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO7",
+          "functions": [
+            "D8/A8/SD_SCK"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO8",
+          "functions": [
+            "D9/A9/SD_MISO"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO9",
+          "functions": [
+            "D10/A10/SD_MOSI"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO10",
+          "functions": [
+            "XMCLK"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO11",
+          "functions": [
+            "DVP_Y8/SPI1_MOSI"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO12",
+          "functions": [
+            "DVP_Y7/SPI1_MISO"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO13",
+          "functions": [
+            "DVP_PCLK/SPI1_SCK"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO14",
+          "functions": [
+            "DVP_Y6"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO15",
+          "functions": [
+            "DVP_Y2"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO16",
+          "functions": [
+            "DVP_Y5"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO17",
+          "functions": [
+            "DVP_Y3"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO18",
+          "functions": [
+            "DVP_Y4"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "VIN",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "GPIO21",
+          "functions": [
+            "USER LED"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "VCC_3V3",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "VCC_3V3",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "GPIO48",
+          "functions": [
+            "DVP_Y9"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "GPIO47",
+          "functions": [
+            "DVP_HREF"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "GPIO38",
+          "functions": [
+            "DVP_VSYNC/I2S_SD"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "GPIO39",
+          "functions": [
+            "CAM_SCL/I2S_SCK",
+            "MTCK"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "GPIO40",
+          "functions": [
+            "CAM_SDA/I2S_WS",
+            "MTDO"
+          ]
+        },
+        {
+          "position": 26,
+          "label": "GPIO41",
+          "functions": [
+            "PDM_DATA",
+            "MTDI"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "GPIO42",
+          "functions": [
+            "PDM_CLK",
+            "MTMS"
+          ]
+        },
+        {
+          "position": 28,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 29,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "jtag-pads: 2x4 pad block with no printed numbers; position order (alternating left/right column from the top) is a choice the image leaves open."
+  ],
+  "notes": "Image 1 is a bottom view; edge pad labels are the silkscreen text, center pads use the callout names with differing silkscreen (D+, D-) in functions. Image 3 B2B connector: four unnumbered SHIELD pads omitted so positions follow the printed 1-30 numbers. Camera usage / MicroSD / Microphone group captions omitted as category tags. Image 2 bottom board and image 3 top board are the camera expansion board with single D11/D12 pads."
+}

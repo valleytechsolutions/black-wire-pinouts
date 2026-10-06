@@ -1,0 +1,849 @@
+{
+  "recordId": "beagleboard-org-other-sbc-beaglebone-ai-64",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/cecdfe3d8ba83ab9c9b57ea2170c4f5f8eb86893a63cec7174b34f9799f33cc8.png",
+      "sha256": "cecdfe3d8ba83ab9c9b57ea2170c4f5f8eb86893a63cec7174b34f9799f33cc8"
+    },
+    {
+      "file": "media/e35258d2ff290994522cbdbe88dcc65f1b57c3ea41ee3c9b862285c1700d328b.png",
+      "sha256": "e35258d2ff290994522cbdbe88dcc65f1b57c3ea41ee3c9b862285c1700d328b"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "P8",
+      "name": "P8 cape header",
+      "image": "media/cecdfe3d8ba83ab9c9b57ea2170c4f5f8eb86893a63cec7174b34f9799f33cc8.png",
+      "rows": 2,
+      "orderNote": "Pin numbers printed (01-46, odd left column, even right column); positions follow printed numbers",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": [
+            "P8.01"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "P8.02"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO0_20",
+          "functions": [
+            "P8.03",
+            "AH21"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO0_48",
+          "functions": [
+            "P8.04",
+            "AC29"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO0_33",
+          "functions": [
+            "P8.05",
+            "AH25"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO0_34",
+          "functions": [
+            "P8.06",
+            "AG25"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO0_15",
+          "functions": [
+            "P8.07",
+            "AD24"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO0_14",
+          "functions": [
+            "P8.08",
+            "AG24"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO0_17",
+          "functions": [
+            "P8.09",
+            "AE24"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO0_16",
+          "functions": [
+            "P8.10",
+            "AC24"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO0_60",
+          "functions": [
+            "P8.11",
+            "AB24"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO0_59",
+          "functions": [
+            "P8.12",
+            "AH28"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO0_89",
+          "functions": [
+            "P8.13",
+            "V27"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO0_75",
+          "functions": [
+            "P8.14",
+            "AF27"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO0_61",
+          "functions": [
+            "P8.15",
+            "AB29"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO0_62",
+          "functions": [
+            "P8.16",
+            "AB28"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO0_3",
+          "functions": [
+            "P8.17",
+            "AF22"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GPIO0_4",
+          "functions": [
+            "P8.18",
+            "AJ23"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GPIO0_88",
+          "functions": [
+            "P8.19",
+            "V29"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO0_76",
+          "functions": [
+            "P8.20",
+            "AF26"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "GPIO0_30",
+          "functions": [
+            "P8.21",
+            "AF21"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "GPIO0_5",
+          "functions": [
+            "P8.22",
+            "AH23"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "GPIO0_31",
+          "functions": [
+            "P8.23",
+            "AB23"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "GPIO0_6",
+          "functions": [
+            "P8.24",
+            "AD20"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "GPIO0_35",
+          "functions": [
+            "P8.25",
+            "AH26"
+          ]
+        },
+        {
+          "position": 26,
+          "label": "GPIO0_51",
+          "functions": [
+            "P8.26",
+            "AC27"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "GPIO0_71",
+          "functions": [
+            "P8.27",
+            "AA28"
+          ]
+        },
+        {
+          "position": 28,
+          "label": "GPIO0_72",
+          "functions": [
+            "P8.28",
+            "Y24"
+          ]
+        },
+        {
+          "position": 29,
+          "label": "GPIO0_73",
+          "functions": [
+            "P8.29",
+            "AA25"
+          ]
+        },
+        {
+          "position": 30,
+          "label": "GPIO0_74",
+          "functions": [
+            "P8.30",
+            "AG26"
+          ]
+        },
+        {
+          "position": 31,
+          "label": "GPIO0_32",
+          "functions": [
+            "P8.31",
+            "AJ25",
+            "AE29",
+            "GPIO0_63"
+          ]
+        },
+        {
+          "position": 32,
+          "label": "GPIO0_26",
+          "functions": [
+            "P8.32",
+            "AG21",
+            "AD28",
+            "GPIO0_64"
+          ]
+        },
+        {
+          "position": 33,
+          "label": "GPIO0_25",
+          "functions": [
+            "P8.33",
+            "AH24",
+            "AA2",
+            "GPIO0_111"
+          ]
+        },
+        {
+          "position": 34,
+          "label": "GPIO0_7",
+          "functions": [
+            "P8.34",
+            "AD22"
+          ]
+        },
+        {
+          "position": 35,
+          "label": "GPIO0_24",
+          "functions": [
+            "P8.35",
+            "AD23",
+            "Y3",
+            "GPIO0_116"
+          ]
+        },
+        {
+          "position": 36,
+          "label": "GPIO0_8",
+          "functions": [
+            "P8.36",
+            "AE20"
+          ]
+        },
+        {
+          "position": 37,
+          "label": "GPIO0_106",
+          "functions": [
+            "P8.37",
+            "Y27",
+            "AD21",
+            "GPIO0_11"
+          ]
+        },
+        {
+          "position": 38,
+          "label": "GPIO0_105",
+          "functions": [
+            "P8.38",
+            "Y29",
+            "AJ20",
+            "GPIO0_9"
+          ]
+        },
+        {
+          "position": 39,
+          "label": "GPIO0_69",
+          "functions": [
+            "P8.39",
+            "AC26"
+          ]
+        },
+        {
+          "position": 40,
+          "label": "GPIO0_70",
+          "functions": [
+            "P8.40",
+            "AA24"
+          ]
+        },
+        {
+          "position": 41,
+          "label": "GPIO0_67",
+          "functions": [
+            "P8.41",
+            "AD29"
+          ]
+        },
+        {
+          "position": 42,
+          "label": "GPIO0_68",
+          "functions": [
+            "P8.42",
+            "AB27"
+          ]
+        },
+        {
+          "position": 43,
+          "label": "GPIO0_65",
+          "functions": [
+            "P8.43",
+            "AD27"
+          ]
+        },
+        {
+          "position": 44,
+          "label": "GPIO0_66",
+          "functions": [
+            "P8.44",
+            "AC25"
+          ]
+        },
+        {
+          "position": 45,
+          "label": "GPIO0_79",
+          "functions": [
+            "P8.45",
+            "AG29"
+          ]
+        },
+        {
+          "position": 46,
+          "label": "GPIO0_80",
+          "functions": [
+            "P8.46",
+            "Y25"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E-img2",
+      "name": "E1-E4 pins above P9 header",
+      "image": "media/e35258d2ff290994522cbdbe88dcc65f1b57c3ea41ee3c9b862285c1700d328b.png",
+      "rows": 2,
+      "orderNote": "Pins printed E1-E4 (E1/E3 left column, E2/E4 right column); positions follow printed numbers",
+      "pins": [
+        {
+          "position": 1,
+          "label": "USB1_DP",
+          "functions": [
+            "E1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "USB1_DN",
+          "functions": [
+            "E2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "VSYS_5V0",
+          "functions": [
+            "E3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": [
+            "E4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P9-img2",
+      "name": "P9 cape header",
+      "image": "media/e35258d2ff290994522cbdbe88dcc65f1b57c3ea41ee3c9b862285c1700d328b.png",
+      "rows": 2,
+      "orderNote": "Pin numbers printed (01-46, odd left column, even right column); positions follow printed numbers",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": [
+            "P9.01"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "P9.02"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "VOUT_3V3",
+          "functions": [
+            "P9.03"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "VOUT_3V3",
+          "functions": [
+            "P9.04"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "VIN",
+          "functions": [
+            "P9.05"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "VIN",
+          "functions": [
+            "P9.06"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "VOUT_SYS",
+          "functions": [
+            "P9.07"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "VOUT_SYS",
+          "functions": [
+            "P9.08"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "RESET#",
+          "functions": [
+            "P9.09"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "RESET#",
+          "functions": [
+            "P9.10"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO0_1",
+          "functions": [
+            "P9.11",
+            "AC23"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO0_45",
+          "functions": [
+            "P9.12",
+            "AE27"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO0_2",
+          "functions": [
+            "P9.13",
+            "AG22"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO0_93",
+          "functions": [
+            "P9.14",
+            "U27"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO0_47",
+          "functions": [
+            "P9.15",
+            "AD25"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO0_94",
+          "functions": [
+            "P9.16",
+            "U24"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO0_28",
+          "functions": [
+            "P9.17",
+            "AC21",
+            "AA3",
+            "GPIO0_115"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GPIO0_40",
+          "functions": [
+            "P9.18",
+            "AH22",
+            "Y2",
+            "GPIO0_120"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GPIO1_1",
+          "functions": [
+            "P9.19",
+            "W5",
+            "AF29",
+            "GPIO0_78"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO1_2",
+          "functions": [
+            "P9.20",
+            "W6",
+            "AE25",
+            "GPIO0_77"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "GPIO0_39",
+          "functions": [
+            "P9.21",
+            "AJ22",
+            "U28",
+            "GPIO0_90"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "GPIO0_38",
+          "functions": [
+            "P9.22",
+            "AC22",
+            "U29",
+            "GPIO0_91"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "GPIO0_10",
+          "functions": [
+            "P9.23",
+            "AG20"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "GPIO0_119",
+          "functions": [
+            "P9.24",
+            "Y5",
+            "AJ24",
+            "GPIO0_13"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "GPIO0_127",
+          "functions": [
+            "P9.25",
+            "AC4",
+            "W26",
+            "GPIO0_104"
+          ]
+        },
+        {
+          "position": 26,
+          "label": "GPIO0_118",
+          "functions": [
+            "P9.26",
+            "Y1",
+            "AF24",
+            "GPIO0_12"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "GPIO0_46",
+          "functions": [
+            "P9.27",
+            "AD26",
+            "AB1",
+            "GPIO0_124"
+          ]
+        },
+        {
+          "position": 28,
+          "label": "GPIO1_11",
+          "functions": [
+            "P9.28",
+            "U2",
+            "AF28",
+            "GPIO0_43"
+          ]
+        },
+        {
+          "position": 29,
+          "label": "GPIO1_14",
+          "functions": [
+            "P9.29",
+            "V5",
+            "AB25",
+            "GPIO0_53"
+          ]
+        },
+        {
+          "position": 30,
+          "label": "GPIO1_13",
+          "functions": [
+            "P9.30",
+            "V6",
+            "AE28",
+            "GPIO0_44"
+          ]
+        },
+        {
+          "position": 31,
+          "label": "GPIO1_12",
+          "functions": [
+            "P9.31",
+            "U3",
+            "AB26",
+            "GPIO0_52"
+          ]
+        },
+        {
+          "position": 32,
+          "label": "VDD_ADC",
+          "functions": [
+            "P9.32"
+          ]
+        },
+        {
+          "position": 33,
+          "label": "GPIO0_50",
+          "functions": [
+            "P9.33",
+            "K24",
+            "AIN4",
+            "AC28"
+          ]
+        },
+        {
+          "position": 34,
+          "label": "GND",
+          "functions": [
+            "P9.34"
+          ]
+        },
+        {
+          "position": 35,
+          "label": "GPIO0_55",
+          "functions": [
+            "P9.35",
+            "K29",
+            "AIN6",
+            "AH27"
+          ]
+        },
+        {
+          "position": 36,
+          "label": "GPIO0_56",
+          "functions": [
+            "P9.36",
+            "K27",
+            "AIN5",
+            "AH29"
+          ]
+        },
+        {
+          "position": 37,
+          "label": "GPIO0_57",
+          "functions": [
+            "P9.37",
+            "K28",
+            "AIN2",
+            "AG28"
+          ]
+        },
+        {
+          "position": 38,
+          "label": "GPIO0_58",
+          "functions": [
+            "P9.38",
+            "L28",
+            "AIN3",
+            "AG27"
+          ]
+        },
+        {
+          "position": 39,
+          "label": "GPIO0_54",
+          "functions": [
+            "P9.39",
+            "K25",
+            "AIN0",
+            "AJ28"
+          ]
+        },
+        {
+          "position": 40,
+          "label": "GPIO0_81",
+          "functions": [
+            "P9.40",
+            "K26",
+            "AIN1",
+            "AA26"
+          ]
+        },
+        {
+          "position": 41,
+          "label": "GPIO1_0",
+          "functions": [
+            "P9.41",
+            "AD5"
+          ]
+        },
+        {
+          "position": 42,
+          "label": "GPIO0_123",
+          "functions": [
+            "P9.42",
+            "AC2",
+            "AJ21",
+            "GPIO0_18"
+          ]
+        },
+        {
+          "position": 43,
+          "label": "GND",
+          "functions": [
+            "P9.43"
+          ]
+        },
+        {
+          "position": 44,
+          "label": "GND",
+          "functions": [
+            "P9.44"
+          ]
+        },
+        {
+          "position": 45,
+          "label": "GND",
+          "functions": [
+            "P9.45"
+          ]
+        },
+        {
+          "position": 46,
+          "label": "GND",
+          "functions": [
+            "P9.46"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Label is the SoC GPIO name nearest the pin when printed (second GPIO name and SoC ball numbers in functions, read outward); otherwise the power/GND/reset name. Cape header pin name (P8.xx/P9.xx) first in functions. E1-E4 are drawn in the same block above P9.01/P9.02 but numbered separately, so recorded as a separate connector."
+}

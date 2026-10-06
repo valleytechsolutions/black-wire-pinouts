@@ -1,0 +1,45 @@
+{
+  "recordId": "adafruit-sht4x-trinkey",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/d230d08c1a06ca227bd0bc57c6ed592b88284ff42a9aa7ed8013433f1ac2c23b.png",
+      "sha256": "d230d08c1a06ca227bd0bc57c6ed592b88284ff42a9aa7ed8013433f1ac2c23b"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "usb-plug",
+      "name": "USB-A plug contacts",
+      "image": "media/d230d08c1a06ca227bd0bc57c6ed592b88284ff42a9aa7ed8013433f1ac2c23b.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; the row is the USB connector itself, read from top of image",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "D+",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "D-",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "VBUS",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Included the USB-A edge contacts because each is individually labeled (rule 1). Not transcribed: the TOUCH capacitive pad (1/A1, PA07) at the board end, which is a touch electrode rather than a wiring point; SDA/SCL lead to the on-board SHT45 sensor; NEOPIXEL is on-board."
+}

@@ -1,0 +1,634 @@
+{
+ "recordId": "seeed-studio-other-xiao-samd21",
+ "pass": "a",
+ "date": "2026-10-05",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/8da55c4b38fd192e952e18e89f42fb0aca6989bacac8ff3b48007b2c46c80a87.png",
+   "sha256": "8da55c4b38fd192e952e18e89f42fb0aca6989bacac8ff3b48007b2c46c80a87"
+  },
+  {
+   "file": "media/1bd0b1afe02b023362dcfa28f587e56a23a197f819817e58fec967a86d4e88d2.jpg",
+   "sha256": "1bd0b1afe02b023362dcfa28f587e56a23a197f819817e58fec967a86d4e88d2"
+  },
+  {
+   "file": "media/e327fae80cf3f1f46a5a24f4794f6ac812ab0847284d25a22d2c98350b41b92d.png",
+   "sha256": "e327fae80cf3f1f46a5a24f4794f6ac812ab0847284d25a22d2c98350b41b92d"
+  },
+  {
+   "file": "media/93bd6c34807afb43b88523b2a2b7d16dd588e0a2405e83a430ac7dd70cd239bf.jpg",
+   "sha256": "93bd6c34807afb43b88523b2a2b7d16dd588e0a2405e83a430ac7dd70cd239bf"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "left-header",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "VCC",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "10",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "9",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "8",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "7",
+     "functions": []
+    }
+   ],
+   "image": "media/8da55c4b38fd192e952e18e89f42fb0aca6989bacac8ff3b48007b2c46c80a87.png"
+  },
+  {
+   "id": "right-header",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "0",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "1",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "2",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "3",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "4",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "5",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "6",
+     "functions": []
+    }
+   ],
+   "image": "media/8da55c4b38fd192e952e18e89f42fb0aca6989bacac8ff3b48007b2c46c80a87.png"
+  },
+  {
+   "id": "debug-pads",
+   "name": "debug-pads",
+   "rows": 2,
+   "orderNote": "USB top; alternating left/right, top to bottom.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "SWCLK",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "SWDIO",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "RST",
+     "functions": []
+    }
+   ],
+   "image": "media/8da55c4b38fd192e952e18e89f42fb0aca6989bacac8ff3b48007b2c46c80a87.png"
+  },
+  {
+   "id": "power-pads",
+   "name": "power-pads",
+   "rows": 1,
+   "orderNote": "USB centered above; left to right.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "VBUS",
+     "functions": [
+      "VIN"
+     ]
+    }
+   ],
+   "image": "media/8da55c4b38fd192e952e18e89f42fb0aca6989bacac8ff3b48007b2c46c80a87.png"
+  },
+  {
+   "id": "left-header-img2",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "A0",
+     "functions": [
+      "D0",
+      "DAC",
+      "QT"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "A1",
+     "functions": [
+      "D1",
+      "QT"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "A2",
+     "functions": [
+      "2",
+      "D2"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "A3",
+     "functions": [
+      "3",
+      "D3"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "A4",
+     "functions": [
+      "4",
+      "D4",
+      "SDA"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "A5",
+     "functions": [
+      "5",
+      "D5",
+      "SCL"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "A6",
+     "functions": [
+      "6",
+      "D6",
+      "TX",
+      "QT"
+     ]
+    }
+   ],
+   "image": "media/1bd0b1afe02b023362dcfa28f587e56a23a197f819817e58fec967a86d4e88d2.jpg"
+  },
+  {
+   "id": "right-header-img2",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "5V",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "A10",
+     "functions": [
+      "10",
+      "D10",
+      "MOSI"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "A9",
+     "functions": [
+      "9",
+      "D9",
+      "MISO"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "A8",
+     "functions": [
+      "8",
+      "D8",
+      "SCK"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "A7",
+     "functions": [
+      "7",
+      "D7",
+      "RX",
+      "QT"
+     ]
+    }
+   ],
+   "image": "media/1bd0b1afe02b023362dcfa28f587e56a23a197f819817e58fec967a86d4e88d2.jpg"
+  },
+  {
+   "id": "reset-pads-img2",
+   "name": "reset-pads",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "RST",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "?",
+     "functions": []
+    }
+   ],
+   "image": "media/1bd0b1afe02b023362dcfa28f587e56a23a197f819817e58fec967a86d4e88d2.jpg"
+  },
+  {
+   "id": "left-header-img3",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "PA02",
+     "functions": [
+      "D0",
+      "A0",
+      "0",
+      "DAC",
+      "PTC-Y0"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "PA04",
+     "functions": [
+      "D1",
+      "A1",
+      "1",
+      "PTC-Y2"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "PA10",
+     "functions": [
+      "D2",
+      "A2",
+      "2"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "PA11",
+     "functions": [
+      "D3",
+      "A3",
+      "3"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "PA08",
+     "functions": [
+      "D4",
+      "A4",
+      "4",
+      "I2C_SDA"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "PA09",
+     "functions": [
+      "D5",
+      "A5",
+      "5",
+      "I2C_SCL"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "PB08",
+     "functions": [
+      "D6",
+      "A6",
+      "6",
+      "UART_TX",
+      "PTC-Y14"
+     ]
+    }
+   ],
+   "image": "media/e327fae80cf3f1f46a5a24f4794f6ac812ab0847284d25a22d2c98350b41b92d.png"
+  },
+  {
+   "id": "right-header-img3",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "VBUS",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "3.3V-OUT",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "PA06",
+     "functions": [
+      "D10",
+      "A10",
+      "10",
+      "SPI_MOSI",
+      "PTC-Y4"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "PA05",
+     "functions": [
+      "D9",
+      "A9",
+      "9",
+      "SPI_MISO",
+      "PTC-Y3"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "PA07",
+     "functions": [
+      "D8",
+      "A8",
+      "8",
+      "SPI_SCK",
+      "PTC-Y5"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "PB09",
+     "functions": [
+      "D7",
+      "A7",
+      "7",
+      "UART_RX",
+      "PTC-Y15"
+     ]
+    }
+   ],
+   "image": "media/e327fae80cf3f1f46a5a24f4794f6ac812ab0847284d25a22d2c98350b41b92d.png"
+  },
+  {
+   "id": "reset-pads-img3",
+   "name": "reset-pads",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "RESETN",
+     "functions": [
+      "RST",
+      "RESET"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "?",
+     "functions": []
+    }
+   ],
+   "image": "media/e327fae80cf3f1f46a5a24f4794f6ac812ab0847284d25a22d2c98350b41b92d.png"
+  },
+  {
+   "id": "left-header-img4",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "A0",
+     "functions": [
+      "D0",
+      "DAC"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "A1",
+     "functions": [
+      "D1"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "A2",
+     "functions": [
+      "2",
+      "D2"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "A3",
+     "functions": [
+      "3",
+      "D3"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "A4",
+     "functions": [
+      "4",
+      "D4",
+      "SDA"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "A5",
+     "functions": [
+      "5",
+      "D5",
+      "SCL"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "A6",
+     "functions": [
+      "6",
+      "D6",
+      "TX"
+     ]
+    }
+   ],
+   "image": "media/93bd6c34807afb43b88523b2a2b7d16dd588e0a2405e83a430ac7dd70cd239bf.jpg"
+  },
+  {
+   "id": "right-header-img4",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "5V",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "A10",
+     "functions": [
+      "10",
+      "D10",
+      "MOSI"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "A9",
+     "functions": [
+      "9",
+      "D9",
+      "MISO"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "A8",
+     "functions": [
+      "8",
+      "D8",
+      "SCK"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "A7",
+     "functions": [
+      "7",
+      "D7",
+      "RX"
+     ]
+    }
+   ],
+   "image": "media/93bd6c34807afb43b88523b2a2b7d16dd588e0a2405e83a430ac7dd70cd239bf.jpg"
+  },
+  {
+   "id": "reset-pads-img4",
+   "name": "reset-pads",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "RST",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "?",
+     "functions": []
+    }
+   ],
+   "image": "media/93bd6c34807afb43b88523b2a2b7d16dd588e0a2405e83a430ac7dd70cd239bf.jpg"
+  }
+ ],
+ "notes": "Images 2 and 4 include distinct QT annotations. On-board LEDs excluded.",
+ "unreadable": [
+  "Second pad of reset pair has no individual label in front views."
+ ],
+ "uncertain": []
+}

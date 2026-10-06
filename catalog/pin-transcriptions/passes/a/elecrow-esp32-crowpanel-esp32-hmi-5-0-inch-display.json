@@ -1,0 +1,190 @@
+{
+  "recordId": "elecrow-esp32-crowpanel-esp32-hmi-5-0-inch-display",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/f1d71b9d58385e90775f0724d91feccedf84d48fde2f04b2383922c0ef751c4d.webp",
+      "sha256": "f1d71b9d58385e90775f0724d91feccedf84d48fde2f04b2383922c0ef751c4d"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "J8",
+      "name": "I2C connector (top edge)",
+      "image": "media/f1d71b9d58385e90775f0724d91feccedf84d48fde2f04b2383922c0ef751c4d.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers or pin-1 mark. USB-C connector J3 is at the right edge, so position 1 is the right end of this horizontal row (nearest the USB connector).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO19",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "IO20",
+          "functions": [
+            "SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "J2",
+      "name": "GPIO_D connector (top edge)",
+      "image": "media/f1d71b9d58385e90775f0724d91feccedf84d48fde2f04b2383922c0ef751c4d.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers or pin-1 mark. USB-C connector J3 is at the right edge, so position 1 is the right end of this horizontal row (nearest the USB connector).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IO38",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J10",
+      "name": "UART0 connector (top edge)",
+      "image": "media/f1d71b9d58385e90775f0724d91feccedf84d48fde2f04b2383922c0ef751c4d.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers or pin-1 mark. USB-C connector J3 is at the right edge, so position 1 is the right end of this horizontal row (nearest the USB connector).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO43",
+          "functions": [
+            "TX0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "IO44",
+          "functions": [
+            "RX0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "J4",
+      "name": "8-pin connector, GPIO_D + I2C (top edge)",
+      "image": "media/f1d71b9d58385e90775f0724d91feccedf84d48fde2f04b2383922c0ef751c4d.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers or pin-1 mark. USB-C connector J3 is at the right edge, so position 1 is the right end of this horizontal row (nearest the USB connector).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO20",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "IO19",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "IO38",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J5",
+      "name": "SPK speaker connector (bottom left)",
+      "image": "media/f1d71b9d58385e90775f0724d91feccedf84d48fde2f04b2383922c0ef751c4d.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers or pin-1 mark. USB-C connector J3 is at the right edge, so position 1 is the right end of this horizontal row (nearest the USB connector).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VOP+",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VON-",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Label-to-pad mapping inferred for J8, J2, J10, J4 and J5: the silkscreen prints each connector's names as a separate column list in a box beside the connector, with no lines or numbers tying a name to a pad; assumed the list order left-to-right matches the pads left-to-right.",
+    "J4 list order (GND,3V3,NC,IO38 | GND,3V3,IO19-SDA,IO20-SCL) is the mirror of the separate J2 and J8 lists, so the assumed left-to-right correspondence on J4 (and on the 4-pin connectors) may be reversed.",
+    "J4 is drawn as one 8-pad connector outline with one designator but has two function captions (GPIO_D under the left four pads, I2C under the right four); transcribed as one connector.",
+    "J1 (BAT) was skipped as a battery-only connector, but it carries polarity marks ('+' beside the lower pad and a bar mark near the upper pad) that could count as individual pin labels.",
+    "Position 1 taken as the right end of each top-edge row and of J5 because USB-C J3 is on the right edge, although J3 is not in line with these rows."
+  ],
+  "notes": "PCB render, silkscreen 'ESP32 Display-5 Inch SKU:DIS07050H', 'V2.0', www.elecrow.com. Combined names such as 'IO20-SCL' split into label IO20 plus function SCL; slashed zeros (IO20, RX0, TX0) read as 0. Skipped per rule 1: J3 USB-C (UART0, with nearby GND/5V text not tied to individual pins), J1 BAT battery connector, JP1 40-pin and J6 10-pin FPC connectors (only end numbers 1/40 and 1/10 printed, pins not individually labeled), SD1 TF card slot, U2 module pads, BOOT/RESET buttons, PWR LED. The I2S-CTRL / IO18-I2S-LRCLK / IO42-I2S-BCLK / IO17-I2S-SDIN box beside amplifier U11 describes internal connections, not a wiring point."
+}

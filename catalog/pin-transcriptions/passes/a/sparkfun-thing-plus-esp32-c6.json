@@ -1,0 +1,193 @@
+{
+  "recordId": "sparkfun-thing-plus-esp32-c6",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/af8722654eacf3d6bfc6d621df8b1eb23e9f281dfea3b413ce481a9efce4766e.jpg",
+      "sha256": "af8722654eacf3d6bfc6d621df8b1eb23e9f281dfea3b413ce481a9efce4766e"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/af8722654eacf3d6bfc6d621df8b1eb23e9f281dfea3b413ce481a9efce4766e.jpg",
+      "rows": 1,
+      "orderNote": "No printed numbers; started at bottom end nearest USB-C",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RGB",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "IO0",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "IO1",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "IO2",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "IO3",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "IO4",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "IO5",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "IO19",
+          "functions": [
+            "SCK"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "IO20",
+          "functions": [
+            "PICO"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "IO21",
+          "functions": [
+            "POCI"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "IO17",
+          "functions": [
+            "RX"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "IO16",
+          "functions": [
+            "TX"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "IO9",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/af8722654eacf3d6bfc6d621df8b1eb23e9f281dfea3b413ce481a9efce4766e.jpg",
+      "rows": 1,
+      "orderNote": "No printed numbers; started at bottom end nearest USB-C",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VUSB",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IO18",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "IO22",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "IO11",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "IO10",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "IO8",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "IO23",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "IO15",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "IO7",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "IO6",
+          "functions": [
+            "SDA"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "left-header position 12: printed \"IO20/PIGO\" or \"IO20/PICO\" - a via dot sits inside the C, making it resemble G; recorded as PICO."
+  ],
+  "uncertain": [
+    "left-header position 1: the bottom-left hole has no label box of its own; a rotated \"RST\" label sits directly below it beside the reset resistors and was taken as its label (mapping inferred)."
+  ],
+  "notes": "Labels printed as \"IOn/NAME\" split into GPIO label plus function per rule 5 (e.g. SDA/IO6 -> IO6 with SDA). MEAS jumper holes, solder jumpers (I2C, ALRT, PWR, SD_DET, RGB, CHG, LP, SHLD) and microSD slot skipped."
+}

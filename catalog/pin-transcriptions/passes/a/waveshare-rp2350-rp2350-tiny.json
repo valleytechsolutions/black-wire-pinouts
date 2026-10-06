@@ -1,0 +1,378 @@
+{
+  "recordId": "waveshare-rp2350-rp2350-tiny",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/72c5d94485588761dc61a08ace8a78525f87a30c4039dd8bc7cf7bfea0f2812f.jpg",
+      "sha256": "72c5d94485588761dc61a08ace8a78525f87a30c4039dd8bc7cf7bfea0f2812f"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-pads",
+      "name": "Left castellated pads (top view)",
+      "image": "media/72c5d94485588761dc61a08ace8a78525f87a30c4039dd8bc7cf7bfea0f2812f.jpg",
+      "rows": 1,
+      "orderNote": "No USB connector identified; started at top (rule 4 top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GP29",
+          "functions": [
+            "29",
+            "ADC3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP28",
+          "functions": [
+            "28",
+            "ADC2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP27",
+          "functions": [
+            "27",
+            "ADC1",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP26",
+          "functions": [
+            "26",
+            "ADC0",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP15",
+          "functions": [
+            "15",
+            "SPI1 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP14",
+          "functions": [
+            "14",
+            "SPI1 SCK",
+            "I2C1 SDA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-pads",
+      "name": "Right castellated pads (top view)",
+      "image": "media/72c5d94485588761dc61a08ace8a78525f87a30c4039dd8bc7cf7bfea0f2812f.jpg",
+      "rows": 1,
+      "orderNote": "No USB connector identified; started at top (rule 4 top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP0",
+          "functions": [
+            "0",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP1",
+          "functions": [
+            "1",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP2",
+          "functions": [
+            "2",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP3",
+          "functions": [
+            "3",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP4",
+          "functions": [
+            "4",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP5",
+          "functions": [
+            "5",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP6",
+          "functions": [
+            "6",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP7",
+          "functions": [
+            "7",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP8",
+          "functions": [
+            "8",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-pads",
+      "name": "Bottom-edge castellated pads (top view)",
+      "image": "media/72c5d94485588761dc61a08ace8a78525f87a30c4039dd8bc7cf7bfea0f2812f.jpg",
+      "rows": 1,
+      "orderNote": "Horizontal row, no USB identified; started at left as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP13",
+          "functions": [
+            "13",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP12",
+          "functions": [
+            "12",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP11",
+          "functions": [
+            "11",
+            "SPI1 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP10",
+          "functions": [
+            "10",
+            "SPI1 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP9",
+          "functions": [
+            "9",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "swd-pads",
+      "name": "SWD pads (bottom view)",
+      "image": "media/72c5d94485588761dc61a08ace8a78525f87a30c4039dd8bc7cf7bfea0f2812f.jpg",
+      "rows": 1,
+      "orderNote": "Horizontal row; started at left as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SWCLK",
+          "functions": [
+            "CLK"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SWDIO",
+          "functions": [
+            "DIO"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "back-left-pads",
+      "name": "Rear inner left pad column (bottom view)",
+      "image": "media/72c5d94485588761dc61a08ace8a78525f87a30c4039dd8bc7cf7bfea0f2812f.jpg",
+      "rows": 1,
+      "orderNote": "Started at top as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3v3",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP23",
+          "functions": [
+            "23"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP22",
+          "functions": [
+            "22"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP21",
+          "functions": [
+            "21",
+            "I2C0 SCL"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP20",
+          "functions": [
+            "20",
+            "I2C0 SDA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "back-right-pads",
+      "name": "Rear inner right pad column (bottom view)",
+      "image": "media/72c5d94485588761dc61a08ace8a78525f87a30c4039dd8bc7cf7bfea0f2812f.jpg",
+      "rows": 1,
+      "orderNote": "Started at top as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP16",
+          "functions": [
+            "16",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP17",
+          "functions": [
+            "17",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP18",
+          "functions": [
+            "18",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP19",
+          "functions": [
+            "19",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Top-edge FPC-style connector is not labeled as USB; USB-proximity rule not applied, top/left rule used",
+    "'User mode selection pads' (GP24, GP25, GND, GND) callout points to a tiny 2x2 solder-pad group; per-pad mapping is not clear from the leader lines, so they were not transcribed as a connector",
+    "Rear inner pads (3v3/GP23..GP20 and GND/GP16..GP19) are SMD pads on the back; included as labeled pad rows",
+    "Callout prints '3v3' (lowercase v) while silkscreen reads '3V3'; label kept as callout spelling"
+  ],
+  "notes": "Castellated pads on the bottom view duplicate the top view and were not repeated. WS2812 RGB LED on GP16 (DIN) is an internal note."
+}

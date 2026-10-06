@@ -1,0 +1,194 @@
+{
+  "recordId": "arduino-gpio-device-stella",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/853835a7a1019304eec5233e773617f1bcfa0d9279043dd919275480c33b0133.png",
+      "sha256": "853835a7a1019304eec5233e773617f1bcfa0d9279043dd919275480c33b0133"
+    },
+    {
+      "file": "media/509b6126ec62b9baed197a705e3279e9c8cc6f583fa6aae78f74b16c8b68856b.png",
+      "sha256": "509b6126ec62b9baed197a705e3279e9c8cc6f583fa6aae78f74b16c8b68856b"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "debug-pads",
+      "name": "Debug/power pad row (top view)",
+      "image": "media/853835a7a1019304eec5233e773617f1bcfa0d9279043dd919275480c33b0133.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; top-view pad row, USB-C is at the lower right so position 1 is the bottom pad (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SWO",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SWDCLK",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "SWDIO",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "+3.3V",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "qwiic",
+      "name": "Qwiic connector",
+      "image": "media/853835a7a1019304eec5233e773617f1bcfa0d9279043dd919275480c33b0133.png",
+      "rows": 1,
+      "orderNote": "Pin numbers 1-4 printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "+3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "I2C SDA",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "I2C SCL",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "nfc-pads",
+      "name": "NFC antenna pads (bottom view)",
+      "image": "media/853835a7a1019304eec5233e773617f1bcfa0d9279043dd919275480c33b0133.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; bottom view shows no USB, labels read top-to-bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NFC1",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "NFC2",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "debug-pads-img2",
+      "name": "Debug/power pad row (top view)",
+      "image": "media/509b6126ec62b9baed197a705e3279e9c8cc6f583fa6aae78f74b16c8b68856b.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; top-view pad row, USB-C is at the lower right so position 1 is the bottom pad (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SWO",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SWDCLK",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "SWDIO",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "+3.3V",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "qwiic-img2",
+      "name": "Qwiic connector",
+      "image": "media/509b6126ec62b9baed197a705e3279e9c8cc6f583fa6aae78f74b16c8b68856b.png",
+      "rows": 1,
+      "orderNote": "Pin numbers 1-4 printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "+3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "I2C SDA",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "I2C SCL",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "nfc-pads-img2",
+      "name": "NFC antenna pads (bottom view)",
+      "image": "media/509b6126ec62b9baed197a705e3279e9c8cc6f583fa6aae78f74b16c8b68856b.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; bottom view shows no USB, labels read top-to-bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NFC1",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "NFC2",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "The same 6-pad row is also shown in the bottom view (GND, RESET, SWO, SWDCLK, SWDIO, +3.3V top-to-bottom); it is recorded once from the top view. IN power tag omitted. KEY/RST buttons, USB-C and CR2032 battery holder skipped."
+}

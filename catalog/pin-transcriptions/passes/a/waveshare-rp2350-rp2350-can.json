@@ -1,0 +1,743 @@
+{
+  "recordId": "waveshare-rp2350-rp2350-can",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/9426a785920e15fd879fae5b5e9bb0a43184f0595dc9b7128f4292958e917e8a.jpg",
+      "sha256": "9426a785920e15fd879fae5b5e9bb0a43184f0595dc9b7128f4292958e917e8a"
+    },
+    {
+      "file": "media/d10a2e0365a8a8726bd90ebaf864c9168d8e7c7faa9adeb60b63cff1a6076516.png",
+      "sha256": "d10a2e0365a8a8726bd90ebaf864c9168d8e7c7faa9adeb60b63cff1a6076516"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "right-header",
+      "name": "Right edge pads (printed pins 1-20)",
+      "image": "media/9426a785920e15fd879fae5b5e9bb0a43184f0595dc9b7128f4292958e917e8a.jpg",
+      "rows": 1,
+      "orderNote": "Printed pin numbers followed: position 1 = printed pin 1 (top) through position 20 = printed pin 20 (bottom).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP0",
+          "functions": [
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP1",
+          "functions": [
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GP2",
+          "functions": [
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP3",
+          "functions": [
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP4",
+          "functions": [
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP5",
+          "functions": [
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GP6",
+          "functions": [
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP7",
+          "functions": [
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP8",
+          "functions": [
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP9",
+          "functions": [
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GP10",
+          "functions": [
+            "SPI1 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GP11",
+          "functions": [
+            "SPI1 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GP12",
+          "functions": [
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GP13",
+          "functions": [
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GP14",
+          "functions": [
+            "SPI1 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GP15",
+          "functions": [
+            "SPI1 TX",
+            "I2C1 SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header",
+      "name": "Left edge pads (printed pins 21-40)",
+      "image": "media/9426a785920e15fd879fae5b5e9bb0a43184f0595dc9b7128f4292958e917e8a.jpg",
+      "rows": 1,
+      "orderNote": "Printed pin numbers followed: position 1 = printed pin 21 (bottom) through position 20 = printed pin 40 (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP16",
+          "functions": [
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP17",
+          "functions": [
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GP18",
+          "functions": [
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP19",
+          "functions": [
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP20",
+          "functions": [
+            "I2C0 SDA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP21",
+          "functions": [
+            "I2C0 SCL"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GP22",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "RUN",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GP26",
+          "functions": [
+            "GP26_A0",
+            "ADC0",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP27",
+          "functions": [
+            "GP27_A1",
+            "ADC1",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": [
+            "AGND"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GP28",
+          "functions": [
+            "GP28_A2",
+            "ADC2"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "ADC_VREF",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "3V3(OUT)",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "3V3_EN",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "VSYS",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "VBUS",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "swd-pads",
+      "name": "SWD debug pads",
+      "image": "media/9426a785920e15fd879fae5b5e9bb0a43184f0595dc9b7128f4292958e917e8a.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row started at the end closest to the USB-C connector (SWCLK pad, below the connector) and read leftward.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SWCLK",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SWDIO",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "can-terminal",
+      "name": "CAN screw terminal",
+      "image": "media/9426a785920e15fd879fae5b5e9bb0a43184f0595dc9b7128f4292958e917e8a.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal terminal started at the end closest to the USB-C connector (H, right end) and read leftward.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "CAN_H",
+          "functions": [
+            "H"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "CAN_L",
+          "functions": [
+            "L"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Right edge pads (printed pins 1-20)",
+      "image": "media/d10a2e0365a8a8726bd90ebaf864c9168d8e7c7faa9adeb60b63cff1a6076516.png",
+      "rows": 1,
+      "orderNote": "Printed pin numbers followed: position 1 = printed pin 1 (top) through position 20 = printed pin 20 (bottom).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP0",
+          "functions": [
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP1",
+          "functions": [
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GP2",
+          "functions": [
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP3",
+          "functions": [
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP4",
+          "functions": [
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP5",
+          "functions": [
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GP6",
+          "functions": [
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP7",
+          "functions": [
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP8",
+          "functions": [
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP9",
+          "functions": [
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GP10",
+          "functions": [
+            "SPI1 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GP11",
+          "functions": [
+            "SPI1 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GP12",
+          "functions": [
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GP13",
+          "functions": [
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GP14",
+          "functions": [
+            "SPI1 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GP15",
+          "functions": [
+            "SPI1 TX",
+            "I2C1 SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left edge pads (printed pins 21-40)",
+      "image": "media/d10a2e0365a8a8726bd90ebaf864c9168d8e7c7faa9adeb60b63cff1a6076516.png",
+      "rows": 1,
+      "orderNote": "Printed pin numbers followed: position 1 = printed pin 21 (bottom) through position 20 = printed pin 40 (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP16",
+          "functions": [
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP17",
+          "functions": [
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GP18",
+          "functions": [
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP19",
+          "functions": [
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP20",
+          "functions": [
+            "I2C0 SDA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP21",
+          "functions": [
+            "I2C0 SCL"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GP22",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "RUN",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GP26",
+          "functions": [
+            "GP26_A0",
+            "ADC0",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP27",
+          "functions": [
+            "GP27_A1",
+            "ADC1",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": [
+            "AGND"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GP28",
+          "functions": [
+            "GP28_A2",
+            "ADC2"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "ADC_VREF",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "3V3(OUT)",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "3V3_EN",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "VSYS",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "VBUS",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "swd-pads-img2",
+      "name": "SWD debug pads",
+      "image": "media/d10a2e0365a8a8726bd90ebaf864c9168d8e7c7faa9adeb60b63cff1a6076516.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row started at the end closest to the USB-C connector (SWCLK pad, below the connector) and read leftward.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SWCLK",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SWDIO",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "can-terminal-img2",
+      "name": "CAN screw terminal",
+      "image": "media/d10a2e0365a8a8726bd90ebaf864c9168d8e7c7faa9adeb60b63cff1a6076516.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal terminal started at the end closest to the USB-C connector (H, right end) and read leftward.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "CAN_H",
+          "functions": [
+            "H"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "CAN_L",
+          "functions": [
+            "L"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Both images show the same RP2350-CAN style pinout artwork (back view, Waveshare logo; product name not printed on the board in view); transcribed from each image separately. Printed pin numbers 1-40 run 1-20 down the right row and 21-40 up the left row; positions restart at 1 per connector. The XL2515/LED used-pin tables are not tied to pin positions and are not added to pin functions. Legend categories omitted. Silkscreen GP28_A2 is partly crossed by a leader line."
+}

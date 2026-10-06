@@ -1,0 +1,224 @@
+{
+  "recordId": "espressif-esp32-esp32-c3-devkitc-02",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/4e5591dd28a0fbd5c83ce8ecb4549dd5c349fb8b035a3013b18a8b4ab616a8c2.png",
+      "sha256": "4e5591dd28a0fbd5c83ce8ecb4549dd5c349fb8b035a3013b18a8b4ab616a8c2"
+    },
+    {
+      "file": "media/5c38137ec085b2fc53afc28c123f76ef1b0eb3d0941320b823fd1fde236c0327.jpg",
+      "sha256": "5c38137ec085b2fc53afc28c123f76ef1b0eb3d0941320b823fd1fde236c0327"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/4e5591dd28a0fbd5c83ce8ecb4549dd5c349fb8b035a3013b18a8b4ab616a8c2.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; started at the end closest to the USB connector (bottom). Label = pin-name callout; functions listed from the pin outward.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V0",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "5V0",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO9",
+          "functions": [
+            "BOOT"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO8",
+          "functions": [
+            "LOG",
+            "RGB_LED"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO7",
+          "functions": [
+            "MTDO"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO6",
+          "functions": [
+            "MTCK"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO5",
+          "functions": [
+            "MTDI",
+            "ADC2_CH0"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO4",
+          "functions": [
+            "MTMS",
+            "ADC1_CH4"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/4e5591dd28a0fbd5c83ce8ecb4549dd5c349fb8b035a3013b18a8b4ab616a8c2.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; started at the end closest to the USB connector (bottom). Label = pin-name callout; functions listed from the pin outward.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO19",
+          "functions": [
+            "USB_D+"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO18",
+          "functions": [
+            "USB_D-"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GPIO21",
+          "functions": [
+            "U0TXD"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO20",
+          "functions": [
+            "U0RXD"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO10",
+          "functions": [
+            "JTAG"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GPIO3",
+          "functions": [
+            "ADC1_CH3"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO2",
+          "functions": [
+            "ADC1_CH2",
+            "BOOT"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO1",
+          "functions": [
+            "ADC1_CH1",
+            "XTAL_32K_N"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO0",
+          "functions": [
+            "ADC1_CH0",
+            "XTAL_32K_P"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Transcribed from the first (Espressif) image. The second (mischianti.org) image shows the same 15+15 label sequence (spelled 3.3v/5v) but conflicting functions: it labels GPIO20 'TXD 0' and GPIO21 'RXD 0', GPIO18 'USB_D+' and GPIO19 'USB_D-', and adds SPI/I2C aliases (SCK, MISO, MOSI, SS, FSPIHD, FSPIWP, FSPICLK, FSPID, FSPIQ, FSPICS0, SDA, SCL). Its legend also lists GPIO30 as built-in LED, not a header pin."
+}

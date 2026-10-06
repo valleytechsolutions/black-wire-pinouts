@@ -1,0 +1,49 @@
+{
+  "recordId": "lilygo-esp32-t-dongle-c5",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/2560633a0912425aa09584195e63bc560fe5d78ec68fbd158f3fe22cacd77644.jpg",
+      "sha256": "2560633a0912425aa09584195e63bc560fe5d78ec68fbd158f3fe22cacd77644"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "qwiic",
+      "name": "STEMMA QT/Qwiic JST-SH 1.0mm 4-pin",
+      "image": "media/2560633a0912425aa09584195e63bc560fe5d78ec68fbd158f3fe22cacd77644.jpg",
+      "rows": 1,
+      "orderNote": "No pin 1 marked and the image does not map labels to individual physical contacts; positions follow the printed label order left to right (RX, TX, 3V3, GND).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RX",
+          "functions": [
+            "IO12"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "TX",
+          "functions": [
+            "IO11"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Only the 4-pin JST-SH connector is a user wiring point. TF card, LCD, LED, USB and boot-button GPIO assignments are internal and not transcribed. The connector is drawn vertically on the board while its labels are printed horizontally, so physical pin order is not established by the image."
+}

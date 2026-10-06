@@ -1,0 +1,177 @@
+{
+  "recordId": "lilygo-esp32-t-display-s3-amoled-1-43",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/ede4c6cf0a54c3595941a26c06fe7fbb7d9bf40ddf749317408cb9eb947f4184.jpg",
+      "sha256": "ede4c6cf0a54c3595941a26c06fe7fbb7d9bf40ddf749317408cb9eb947f4184"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "H1",
+      "name": "Top header",
+      "image": "media/ede4c6cf0a54c3595941a26c06fe7fbb7d9bf40ddf749317408cb9eb947f4184.jpg",
+      "rows": 2,
+      "orderNote": "2x7 header without printed position numbers: position 1 at the left end (closest to the Type-C connector) of the outer row (nearest the board edge), then alternating outer/inner rows. Outer row = top label line, inner row = second label line.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "40",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "BAT",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "41",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "G",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "42",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "G",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "43",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "3V",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "44",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "38",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "45",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "39",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "46",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "H2",
+      "name": "Bottom header",
+      "image": "media/ede4c6cf0a54c3595941a26c06fe7fbb7d9bf40ddf749317408cb9eb947f4184.jpg",
+      "rows": 2,
+      "orderNote": "2x7 header without printed position numbers: position 1 at the left end (closest to the Type-C connector) of the outer row (nearest the board edge), then alternating outer/inner rows. Outer row = bottom label line, inner row = the label line above it.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "21",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "BAT",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "48",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "G",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "47",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "G",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "05",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "18",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "03",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "sda",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "02",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "scl",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "01",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "H1/H2: the two label lines per header are printed outside the photo, not on the board; assigning each line to the outer vs inner physical row (by proximity) and each label to a column is inferred."
+  ],
+  "notes": "Back-of-board photo with two 2x7 female headers (silkscreen H1 top, H2 bottom) and label lines printed outside the photo. Labels recorded as printed (G, 3V, 05, sda, scl). QWIIC connector skipped (pins not individually labeled); Type-C, BOOT/Reset buttons skipped."
+}

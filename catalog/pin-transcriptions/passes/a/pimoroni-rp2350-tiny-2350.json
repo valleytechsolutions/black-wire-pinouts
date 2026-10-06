@@ -1,0 +1,463 @@
+{
+  "recordId": "pimoroni-rp2350-tiny-2350",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/ebafb325389ca989cba994236342b5e2e81144220c1ed82dbf899d4e80adbeea.png",
+      "sha256": "ebafb325389ca989cba994236342b5e2e81144220c1ed82dbf899d4e80adbeea"
+    },
+    {
+      "file": "media/f20c0fe24eaacbeb41f2a162725dd0552a012c79df2ffd234153c16fffb44740.png",
+      "sha256": "f20c0fe24eaacbeb41f2a162725dd0552a012c79df2ffd234153c16fffb44740"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left castellated pads",
+      "image": "media/ebafb325389ca989cba994236342b5e2e81144220c1ed82dbf899d4e80adbeea.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at the top end nearest the USB-C connector",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBUS",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": [
+            "3V"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP29",
+          "functions": [
+            "A3",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART0 RX",
+            "PWM6 B",
+            "ADC3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP28",
+          "functions": [
+            "A2",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART0 TX",
+            "PWM6 A",
+            "ADC2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP27",
+          "functions": [
+            "A1",
+            "SPI1 TX",
+            "I2C1 SCL",
+            "UART1 RX",
+            "PWM5 B",
+            "ADC1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP26",
+          "functions": [
+            "A0",
+            "SPI1 SCK",
+            "I2C1 SDA",
+            "UART1 TX",
+            "PWM5 A",
+            "ADC0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right castellated pads",
+      "image": "media/ebafb325389ca989cba994236342b5e2e81144220c1ed82dbf899d4e80adbeea.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at the top end nearest the USB-C connector",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP0",
+          "functions": [
+            "0",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX",
+            "PWM0 A"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP1",
+          "functions": [
+            "1",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX",
+            "PWM0 B"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP2",
+          "functions": [
+            "2",
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART0 TX",
+            "PWM1 A"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP3",
+          "functions": [
+            "3",
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART0 RX",
+            "PWM1 B"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP4",
+          "functions": [
+            "4",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX",
+            "PWM2 A"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP5",
+          "functions": [
+            "5",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX",
+            "PWM2 B"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP6",
+          "functions": [
+            "6",
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART1 TX",
+            "PWM3 A"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP7",
+          "functions": [
+            "7",
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART1 RX",
+            "PWM3 B"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qwst-port",
+      "name": "QW/ST connector",
+      "image": "media/ebafb325389ca989cba994236342b5e2e81144220c1ed82dbf899d4e80adbeea.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal label row below the connector at the bottom edge, ordered left to right (USB-C at the opposite edge)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GP12",
+          "functions": [
+            "SDA",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART0 TX",
+            "PWM6 A",
+            "HSTX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP13",
+          "functions": [
+            "SCL",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART0 RX",
+            "PWM6 B",
+            "HSTX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left castellated pads",
+      "image": "media/f20c0fe24eaacbeb41f2a162725dd0552a012c79df2ffd234153c16fffb44740.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at the top end nearest the USB-C connector",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBUS",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": [
+            "3V"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP29",
+          "functions": [
+            "A3",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART0 RX",
+            "PWM6 B",
+            "ADC3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP28",
+          "functions": [
+            "A2",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART0 TX",
+            "PWM6 A",
+            "ADC2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP27",
+          "functions": [
+            "A1",
+            "SPI1 TX",
+            "I2C1 SCL",
+            "UART1 RX",
+            "PWM5 B",
+            "ADC1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP26",
+          "functions": [
+            "A0",
+            "SPI1 SCK",
+            "I2C1 SDA",
+            "UART1 TX",
+            "PWM5 A",
+            "ADC0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Right castellated pads",
+      "image": "media/f20c0fe24eaacbeb41f2a162725dd0552a012c79df2ffd234153c16fffb44740.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at the top end nearest the USB-C connector",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP0",
+          "functions": [
+            "0",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX",
+            "PWM0 A"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP1",
+          "functions": [
+            "1",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX",
+            "PWM0 B"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP2",
+          "functions": [
+            "2",
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART0 TX",
+            "PWM1 A"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP3",
+          "functions": [
+            "3",
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART0 RX",
+            "PWM1 B"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP4",
+          "functions": [
+            "4",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX",
+            "PWM2 A"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP5",
+          "functions": [
+            "5",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX",
+            "PWM2 B"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP6",
+          "functions": [
+            "6",
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART1 TX",
+            "PWM3 A"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP7",
+          "functions": [
+            "7",
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART1 RX",
+            "PWM3 B"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qwst-port-img2",
+      "name": "QW/ST connector",
+      "image": "media/f20c0fe24eaacbeb41f2a162725dd0552a012c79df2ffd234153c16fffb44740.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal label row below the connector at the bottom edge, ordered left to right (USB-C at the opposite edge)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GP12",
+          "functions": [
+            "SDA",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART0 TX",
+            "PWM6 A",
+            "HSTX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP13",
+          "functions": [
+            "SCL",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART0 RX",
+            "PWM6 B",
+            "HSTX"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Both images show the same artwork at different resolutions; each transcribed separately. Peripheral functions written as column header + printed instance number + signal (e.g. 'SPI1 CSn', 'PWM6 B', 'ADC3'). Silkscreen 5V/3V and A0-A3, 0-7 put first in functions. QW/ST labels (GND, 3V3, SDA, SCL) are printed callouts beneath the connector; SDA/SCL lead to faded GP12/GP13 callout rows. Skipped: RESET and BOOT/USER (GP23) buttons, LED R/G/B (GP18-GP20)."
+}

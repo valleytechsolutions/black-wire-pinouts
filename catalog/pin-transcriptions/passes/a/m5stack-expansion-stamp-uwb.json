@@ -1,0 +1,172 @@
+{
+  "recordId": "m5stack-expansion-stamp-uwb",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/be0b15e5b9ab67dc6d9dac8c3bfb50fdaf38fb48886d656480fbb0b2969da01f.jpg",
+      "sha256": "be0b15e5b9ab67dc6d9dac8c3bfb50fdaf38fb48886d656480fbb0b2969da01f"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-pads",
+      "name": "Left edge castellated pads (front view)",
+      "image": "media/be0b15e5b9ab67dc6d9dac8c3bfb50fdaf38fb48886d656480fbb0b2969da01f.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB; vertical row ordered top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "WAKEUP",
+          "functions": [
+            "WAK"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "IRQ",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GP7",
+          "functions": [
+            "SYN"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "RSTn",
+          "functions": [
+            "RST"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-pads",
+      "name": "Right edge castellated pads (front view)",
+      "image": "media/be0b15e5b9ab67dc6d9dac8c3bfb50fdaf38fb48886d656480fbb0b2969da01f.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB; vertical row ordered top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "CLK",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "CSn",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "MOSI",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "MISO",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "fpc-connector",
+      "name": "Rear 12-pin FPC connector",
+      "image": "media/be0b15e5b9ab67dc6d9dac8c3bfb50fdaf38fb48886d656480fbb0b2969da01f.jpg",
+      "rows": 1,
+      "orderNote": "Printed numbers 1-12 (1 at right, arrow 1->12 to the left)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GP7",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IRQ",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "WAKEUP",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "RSTn",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "MISO",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "MOSI",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "CSn",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "CLK",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Silkscreen names WAK, SYN and RST come from the rear view of the module in the same image and were matched to the front-view left pads by vertical order (mirrored view); the mapping is inferred. The rear silkscreen near the IRQ pad reads 'RQ' (an 'I' may be hidden by a trace), so no silkscreen spelling was added for IRQ."
+  ],
+  "notes": "Labels taken from the colored callouts on the front view. FPC connector shown on the rear view; table prints only numbers 1, 2, 11, 12, intermediate positions follow the printed 1->12 arrow."
+}

@@ -1,0 +1,373 @@
+{
+  "recordId": "adafruit-feather-m4-express",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/905fa46673cb6825fad74441391b4af8603b0ad1dd7b6e0602a060c84756cb67.png",
+      "sha256": "905fa46673cb6825fad74441391b4af8603b0ad1dd7b6e0602a060c84756cb67"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/905fa46673cb6825fad74441391b4af8603b0ad1dd7b6e0602a060c84756cb67.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row: started at end closest to USB connector (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "AREF",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "PA02",
+          "functions": [
+            "A0",
+            "14/A0",
+            "2",
+            "VOUT0",
+            "A0[0]"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA05",
+          "functions": [
+            "A1",
+            "15/A1",
+            "5",
+            "VOUT1",
+            "A0[5]",
+            "S0.1",
+            "TC0[1]"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PB08",
+          "functions": [
+            "A2",
+            "16/A2",
+            "8",
+            "A0[2]/A1[0]",
+            "S4.0",
+            "TC4[0]"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PB09",
+          "functions": [
+            "A3",
+            "17/A3",
+            "9",
+            "A0[3]/A1[1]",
+            "S4.1",
+            "TC4[1]"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PA04",
+          "functions": [
+            "A4",
+            "18/A4",
+            "4",
+            "VREFB",
+            "A0[4]",
+            "S0.0",
+            "TC0[0]"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PA06",
+          "functions": [
+            "A5",
+            "19/A5",
+            "6",
+            "VREFC",
+            "A0[6]",
+            "S0.2",
+            "TC1[0]",
+            "SDCD"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PA17",
+          "functions": [
+            "SCK",
+            "25",
+            "1",
+            "S1.1",
+            "S3.0",
+            "TC2[1]",
+            "TCC1[1]",
+            "TCC0[5]",
+            "DATA1"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "PB23",
+          "functions": [
+            "MOSI",
+            "24",
+            "7",
+            "S1.2",
+            "S5.3",
+            "TC7[1]"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "PB22",
+          "functions": [
+            "MISO",
+            "23",
+            "6",
+            "S1.2",
+            "S5.2",
+            "TC7[0]",
+            "SOF 1KHZ"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "PB17",
+          "functions": [
+            "D0",
+            "0",
+            "1",
+            "S5.1",
+            "TC6[1]",
+            "TCC3[1]",
+            "TCC0[5]",
+            "SDWP",
+            "MCK0"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "PB16",
+          "functions": [
+            "D1",
+            "1",
+            "0",
+            "S5.0",
+            "TC6[0]",
+            "TCC3[0]",
+            "TCC0[4]",
+            "SDCD",
+            "SCK0"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "PA14",
+          "functions": [
+            "D4",
+            "4",
+            "14",
+            "S2.2",
+            "S4.2",
+            "TC3[0]",
+            "TCC2[0]",
+            "TCC1[2]",
+            "CLK"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/905fa46673cb6825fad74441391b4af8603b0ad1dd7b6e0602a060c84756cb67.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row: started at end closest to USB connector (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "PA23",
+          "functions": [
+            "D13",
+            "13",
+            "7",
+            "S3.1",
+            "S5.0",
+            "TC4[1]",
+            "TCC1[7]",
+            "TCC0[3]",
+            "SOF 1KHZ",
+            "FS1",
+            "DATA7"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PA22",
+          "functions": [
+            "D12",
+            "12",
+            "6",
+            "S3.0",
+            "S5.1",
+            "TC4[0]",
+            "TCC1[6]",
+            "TCC0[2]",
+            "SDI",
+            "DATA6"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA21",
+          "functions": [
+            "D11",
+            "11",
+            "5",
+            "S5.3",
+            "S3.3",
+            "TC7[1]",
+            "TCC1[5]",
+            "TCC0[1]",
+            "SDCK",
+            "SDO",
+            "DATA5"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PA20",
+          "functions": [
+            "D10",
+            "10",
+            "4",
+            "S5.2",
+            "S3.2",
+            "TC7[0]",
+            "TCC1[4]",
+            "TCC0[0]",
+            "SDCMD",
+            "FS0",
+            "DATA4"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PA19",
+          "functions": [
+            "D9",
+            "9",
+            "3",
+            "S1.3",
+            "S3.3",
+            "TC3[1]",
+            "TCC1[3]",
+            "TCC0[7]",
+            "DATA3"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PA18",
+          "functions": [
+            "D6",
+            "6",
+            "2",
+            "S1.2",
+            "S3.2",
+            "TC3[0]",
+            "TCC1[2]",
+            "TCC0[6]",
+            "DATA2"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PA16",
+          "functions": [
+            "D5",
+            "5",
+            "0",
+            "S1.0",
+            "S3.1",
+            "TC2[0]",
+            "TCC1[0]",
+            "TCC0[4]",
+            "DATA0"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PA13",
+          "functions": [
+            "SCL",
+            "22",
+            "13",
+            "S2.1",
+            "S4.0",
+            "TC2[1]",
+            "TCC0[7]",
+            "TCC1[3]",
+            "SDWP",
+            "DEN2"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "PA12",
+          "functions": [
+            "SDA",
+            "21",
+            "12",
+            "S2.0",
+            "S4.1",
+            "TC2[0]",
+            "TCC0[6]",
+            "TCC1[2]",
+            "SDCD",
+            "DEN1"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Label = GPIO port name (legend 'GPIO', e.g. PA02); CircuitPython name first in functions, then outward (Arduino name, INT number, ...). NEOPIXEL callout is an on-board LED (no pin); skipped. Prototyping-area holes have no callouts; skipped. Category tags omitted."
+}

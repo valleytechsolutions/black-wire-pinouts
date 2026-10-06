@@ -1,0 +1,301 @@
+{
+  "recordId": "lilygo-esp32-t-call-sim800c",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/3cd82ae481df24137d4a359b1148b57147fd55f14e6cbab997e6a533269ec24f.png",
+      "sha256": "3cd82ae481df24137d4a359b1148b57147fd55f14e6cbab997e6a533269ec24f"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left pin row",
+      "image": "media/3cd82ae481df24137d4a359b1148b57147fd55f14e6cbab997e6a533269ec24f.png",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; started at the end closest to the USB-C connector (bottom) and read upward",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GPIO15",
+          "functions": [
+            "15",
+            "ADC13",
+            "TOUCH3"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO13",
+          "functions": [
+            "13",
+            "ADC14",
+            "TOUCH4"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO02",
+          "functions": [
+            "02",
+            "ADC12",
+            "TOUCH2"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO12",
+          "functions": [
+            "12",
+            "ADC15",
+            "TOUCH5"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO14",
+          "functions": [
+            "14",
+            "ADC16",
+            "TOUCH6"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO04",
+          "functions": [
+            "04",
+            "ADC10",
+            "TOUCH0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO27",
+          "functions": [
+            "27",
+            "ADC17",
+            "TOUCH7"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO26",
+          "functions": [
+            "26",
+            "ADC19",
+            "DAC2"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO25",
+          "functions": [
+            "25",
+            "ADC18",
+            "DAC1"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO33",
+          "functions": [
+            "33",
+            "ADC5",
+            "TOUCH8"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO32",
+          "functions": [
+            "32",
+            "ADC4",
+            "TOUCH9"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO34",
+          "functions": [
+            "34",
+            "ADC6"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right pin row",
+      "image": "media/3cd82ae481df24137d4a359b1148b57147fd55f14e6cbab997e6a533269ec24f.png",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; started at the end closest to the USB-C connector (bottom) and read upward",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VIN",
+          "functions": [
+            "5VIN"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO00",
+          "functions": [
+            "0",
+            "ADC11",
+            "TOUCH1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO39",
+          "functions": [
+            "39",
+            "SVN",
+            "ADC3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO36",
+          "functions": [
+            "36",
+            "SVP",
+            "ADC0"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "5",
+          "functions": [
+            "05",
+            "VSPI_SS"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "18",
+          "functions": [
+            "VSPI_SCK"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "19",
+          "functions": [
+            "VSPI_MISO"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "23",
+          "functions": [
+            "VSPI_MOSI"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "21",
+          "functions": [
+            "Wire_SDA"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "22",
+          "functions": [
+            "Wire_SCL"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "G0IO03",
+          "functions": [
+            "RX",
+            "RXD",
+            "Serial RX"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "G0IO01",
+          "functions": [
+            "TX",
+            "TXD",
+            "Serial TX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "usb-pads",
+      "name": "VBUS/DM/DP/GND pads (left edge, below left header)",
+      "image": "media/3cd82ae481df24137d4a359b1148b57147fd55f14e6cbab997e6a533269ec24f.png",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; vertical row started at the end closest to the USB-C connector (bottom) and read upward",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "DP",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "DM",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "VBUS",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "The callout font does not distinguish letter O from digit 0. Digit positions in GPIO names (GPIO04, GPIO02, GPIO00) are written 0; the right-row TX/RX callouts read G?IO01 and G?IO03 with an O/0 second character, recorded as G0IO01 / G0IO03 (apparent typo, copied rather than corrected)."
+  ],
+  "uncertain": [
+    "usb-pads: silkscreen VBUS, DM, DP, GND sits between four pads; assigned each label to the pad immediately above it. If labels belong to the pad below, the mapping shifts by one.",
+    "usb-pads may be test/programming pads rather than a header; included because each pad is individually labeled."
+  ],
+  "notes": "Gray name boxes nearest each pin and board silkscreen (e.g. 05, 36, 5VIN, TX) are listed first in functions. SIM800C inset table (TX 27, RX 26, PWKEY 4, DTR 32, POWER 25, RI 33) describes internal module connections, not header pins, and was not transcribed. Pins 22, 21, 23, 19, 18, 5 have no printed GPIO name, so the board number is used as the label."
+}

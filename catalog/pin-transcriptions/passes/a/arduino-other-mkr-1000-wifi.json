@@ -1,0 +1,827 @@
+{
+ "recordId": "arduino-other-mkr-1000-wifi",
+ "pass": "a",
+ "date": "2026-10-05",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/372cb535c54015164936b2fc23b38fbb2e9375daeb64a35ee866ac4bd2fe191d.png",
+   "sha256": "372cb535c54015164936b2fc23b38fbb2e9375daeb64a35ee866ac4bd2fe191d"
+  },
+  {
+   "file": "media/2d845668657b6641576c68bda783c102536e362a014641cff15ec80ee5a9ccc6.png",
+   "sha256": "2d845668657b6641576c68bda783c102536e362a014641cff15ec80ee5a9ccc6"
+  },
+  {
+   "file": "media/07a4fa18b99f09cdecb991787024adccb7a894f0e5141a505814530810c84507.png",
+   "sha256": "07a4fa18b99f09cdecb991787024adccb7a894f0e5141a505814530810c84507"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "left-header",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "PA03",
+     "functions": [
+      "AREF",
+      "AREF/AIN[1]"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "PA02",
+     "functions": [
+      "A0",
+      "D15",
+      "DAC0/AIN[0]"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "PB02",
+     "functions": [
+      "A1",
+      "D16",
+      "AIN[10]"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "PB03",
+     "functions": [
+      "A2",
+      "D17",
+      "AIN[11]"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "PA04",
+     "functions": [
+      "A3",
+      "D18",
+      "AIN[4]"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "PA05",
+     "functions": [
+      "A4",
+      "D19",
+      "AIN[5]"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "PA06",
+     "functions": [
+      "A5",
+      "D20",
+      "AIN[6]"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "PA07",
+     "functions": [
+      "A6",
+      "D21",
+      "AIN[7]"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "PA22",
+     "functions": [
+      "D0"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "PA23",
+     "functions": [
+      "D1"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "PA10",
+     "functions": [
+      "D2"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "PA11",
+     "functions": [
+      "D3"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "PB10",
+     "functions": [
+      "D4"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "PB11",
+     "functions": [
+      "D5"
+     ]
+    }
+   ],
+   "image": "media/372cb535c54015164936b2fc23b38fbb2e9375daeb64a35ee866ac4bd2fe191d.png"
+  },
+  {
+   "id": "right-header",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "+5V",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "VIN",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "+3V3",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "RESET",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "PB22",
+     "functions": [
+      "D14",
+      "TX (SC5)"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "PB23",
+     "functions": [
+      "D13",
+      "RX (SC5)"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "PA09",
+     "functions": [
+      "D12",
+      "SCL (SC2)"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "PA08",
+     "functions": [
+      "D11",
+      "SDA (SC2)"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "PA19",
+     "functions": [
+      "D10",
+      "CIPO (SC1)"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "PA17",
+     "functions": [
+      "D9",
+      "SCK (SC1)"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "PA16",
+     "functions": [
+      "D8",
+      "COPI (SC1)"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "PA21",
+     "functions": [
+      "D7"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "PA20",
+     "functions": [
+      "D6"
+     ]
+    }
+   ],
+   "image": "media/372cb535c54015164936b2fc23b38fbb2e9375daeb64a35ee866ac4bd2fe191d.png"
+  },
+  {
+   "id": "left-header-img2",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "PA03",
+     "functions": [
+      "AREF",
+      "AREF/AIN[1]",
+      "INT[3]"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "PA02",
+     "functions": [
+      "A0",
+      "D15",
+      "DAC0/AIN[0]",
+      "INT[2]"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "PB02",
+     "functions": [
+      "A1",
+      "D16",
+      "AIN[10]",
+      "TC6/WO[0]",
+      "INT[2]",
+      "SC5 P0A"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "PB03",
+     "functions": [
+      "A2",
+      "D17",
+      "AIN[11]",
+      "TC6/WO[1]",
+      "INT[3]",
+      "SC5 P1A"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "PA04",
+     "functions": [
+      "A3",
+      "D18",
+      "AIN[4]",
+      "TCC0/WO[0]",
+      "INT[4]",
+      "SC0 P0A"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "PA05",
+     "functions": [
+      "A4",
+      "D19",
+      "AIN[5]",
+      "TCC0/WO[1]",
+      "INT[5]",
+      "SC0 P1A"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "PA06",
+     "functions": [
+      "A5",
+      "D20",
+      "AIN[6]",
+      "TCC1/WO[0]",
+      "INT[6]",
+      "SC0 P2A"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "PA07",
+     "functions": [
+      "A6",
+      "D21",
+      "AIN[7]",
+      "I2S_SD0",
+      "TCC1/WO[1]",
+      "INT[7]",
+      "SC0 P3A"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "PA22",
+     "functions": [
+      "D0",
+      "TC4/WO[0]",
+      "TCC0/WO[4]",
+      "INT[6]",
+      "SC3 P0/SC5 P0A"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "PA23",
+     "functions": [
+      "D1",
+      "TC4/WO[1]",
+      "TCC0/WO[5]",
+      "INT[7]",
+      "SC3 P1/SC5 P1A"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "PA10",
+     "functions": [
+      "D2",
+      "AIN[18]",
+      "I2S_SCK[0]",
+      "TCC1/WO[0]",
+      "TCC0/WO[2]",
+      "INT[10]",
+      "SC0 P2/SC2 P2A"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "PA11",
+     "functions": [
+      "D3",
+      "AIN[19]",
+      "I2S_FS[0]",
+      "TCC1/WO[1]",
+      "TCC0/WO[3]",
+      "INT[11]",
+      "SC0 P3/SC2 P3A"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "PB10",
+     "functions": [
+      "D4",
+      "TC5/WO[0]",
+      "TCC0/WO[4]",
+      "INT[10]",
+      "SC4 P2A"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "PB11",
+     "functions": [
+      "D5",
+      "TC5/WO[1]",
+      "TCC5/WO[1]",
+      "INT[11]"
+     ]
+    }
+   ],
+   "image": "media/2d845668657b6641576c68bda783c102536e362a014641cff15ec80ee5a9ccc6.png"
+  },
+  {
+   "id": "right-header-img2",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "+5V",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "VIN",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "+3V3",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "RESET",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "PB22",
+     "functions": [
+      "D14",
+      "TX (SC5)",
+      "TX",
+      "TC7/WO[0]",
+      "INT[6]",
+      "SC5 P2A"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "PB23",
+     "functions": [
+      "D13",
+      "RX (SC5)",
+      "RX",
+      "TC7/WO[1]",
+      "INT[7]",
+      "SC5 P3A"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "PA09",
+     "functions": [
+      "D12",
+      "SCL (SC2)",
+      "AIN[17]",
+      "I2S_MCK[0]",
+      "TCC0/WO[0]",
+      "TCC1/WO[3]",
+      "INT[9]",
+      "SC0 P1/SC2 P1A"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "PA08",
+     "functions": [
+      "D11",
+      "SDA (SC2)",
+      "AIN[16]",
+      "I2S_SD1",
+      "TCC0/WO[0]",
+      "TCC1/WO[2]",
+      "NMI",
+      "SC0 P0/SC2 P0A"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "PA19",
+     "functions": [
+      "D10",
+      "CIPO (SC1)",
+      "CIPO",
+      "TC3/WO[1]",
+      "TCC0/WO[3]",
+      "INT[3]",
+      "SC1 P3/SC3 P3A"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "PA17",
+     "functions": [
+      "D9",
+      "SCK (SC1)",
+      "SCK",
+      "TCC2/WO[1]",
+      "TCC0/WO[7]",
+      "INT[1]",
+      "SC1 P1/SC3 P1A"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "PA16",
+     "functions": [
+      "D8",
+      "COPI (SC1)",
+      "COPI",
+      "TCC2/WO[0]",
+      "TCC0/WO[6]",
+      "INT[0]",
+      "SC1 P0/SC3 P0A"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "PA21",
+     "functions": [
+      "D7",
+      "TC7/WO[1]",
+      "TCC0/WO[7]",
+      "INT[5]",
+      "SC5 P3/SC3 P3A"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "PA20",
+     "functions": [
+      "D6",
+      "TC7/WO[0]",
+      "TCC0/WO[6]",
+      "INT[4]",
+      "SC5 P2/SC3 P2A"
+     ]
+    }
+   ],
+   "image": "media/2d845668657b6641576c68bda783c102536e362a014641cff15ec80ee5a9ccc6.png"
+  },
+  {
+   "id": "USB-img3",
+   "name": "USB",
+   "rows": 1,
+   "orderNote": "USB centered; left to right by leaders.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "PA18",
+     "functions": [
+      "USB ID",
+      "TC3/WO[0]",
+      "TCC0/WO[2]",
+      "INT[2]",
+      "SC1 P2/SC3 P2A"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "PA25",
+     "functions": [
+      "USB P",
+      "TC5/WO[1]",
+      "TCC1/WO[3]",
+      "INT[13]",
+      "SC3 P3/SC5 P3A"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "PA24",
+     "functions": [
+      "USB N",
+      "TC5/WO[0]",
+      "TCC1/WO[2]",
+      "INT[12]",
+      "SC3 P2/SC5 P2A"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "VBUS",
+     "functions": []
+    }
+   ],
+   "image": "media/07a4fa18b99f09cdecb991787024adccb7a894f0e5141a505814530810c84507.png"
+  },
+  {
+   "id": "SWD-img3",
+   "name": "SWD",
+   "rows": 2,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "+3V3",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "PA31",
+     "functions": [
+      "SWDIO",
+      "TCC1/WO[1]",
+      "INT[11]"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "PA30",
+     "functions": [
+      "SWCLK",
+      "TCC1/WO[0]",
+      "INT[10]"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "RESET_N",
+     "functions": []
+    }
+   ],
+   "image": "media/07a4fa18b99f09cdecb991787024adccb7a894f0e5141a505814530810c84507.png"
+  },
+  {
+   "id": "TP5-img3",
+   "name": "TP5",
+   "rows": 1,
+   "orderNote": "Single explicitly identified test point.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "TP5",
+     "functions": []
+    }
+   ],
+   "image": "media/07a4fa18b99f09cdecb991787024adccb7a894f0e5141a505814530810c84507.png"
+  },
+  {
+   "id": "TP6-img3",
+   "name": "TP6",
+   "rows": 1,
+   "orderNote": "Single explicitly identified test point.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "TP6",
+     "functions": []
+    }
+   ],
+   "image": "media/07a4fa18b99f09cdecb991787024adccb7a894f0e5141a505814530810c84507.png"
+  },
+  {
+   "id": "TP7-img3",
+   "name": "TP7",
+   "rows": 1,
+   "orderNote": "Single explicitly identified test point.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "TP7",
+     "functions": []
+    }
+   ],
+   "image": "media/07a4fa18b99f09cdecb991787024adccb7a894f0e5141a505814530810c84507.png"
+  },
+  {
+   "id": "TP8-img3",
+   "name": "TP8",
+   "rows": 1,
+   "orderNote": "Single explicitly identified test point.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "WIFI_I2C_SCL",
+     "functions": [
+      "TP8"
+     ]
+    }
+   ],
+   "image": "media/07a4fa18b99f09cdecb991787024adccb7a894f0e5141a505814530810c84507.png"
+  },
+  {
+   "id": "TP9-img3",
+   "name": "TP9",
+   "rows": 1,
+   "orderNote": "Single explicitly identified test point.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "WIFI_CHIP_EN",
+     "functions": [
+      "TP9"
+     ]
+    }
+   ],
+   "image": "media/07a4fa18b99f09cdecb991787024adccb7a894f0e5141a505814530810c84507.png"
+  },
+  {
+   "id": "TP10-img3",
+   "name": "TP10",
+   "rows": 1,
+   "orderNote": "Single explicitly identified test point.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "UART_RXD",
+     "functions": [
+      "TP10"
+     ]
+    }
+   ],
+   "image": "media/07a4fa18b99f09cdecb991787024adccb7a894f0e5141a505814530810c84507.png"
+  },
+  {
+   "id": "TP11-img3",
+   "name": "TP11",
+   "rows": 1,
+   "orderNote": "Single explicitly identified test point.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "WIFI_I2C_SDA",
+     "functions": [
+      "TP11"
+     ]
+    }
+   ],
+   "image": "media/07a4fa18b99f09cdecb991787024adccb7a894f0e5141a505814530810c84507.png"
+  },
+  {
+   "id": "TP12-img3",
+   "name": "TP12",
+   "rows": 1,
+   "orderNote": "Single explicitly identified test point.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "UART_TXD",
+     "functions": [
+      "TP12"
+     ]
+    }
+   ],
+   "image": "media/07a4fa18b99f09cdecb991787024adccb7a894f0e5141a505814530810c84507.png"
+  },
+  {
+   "id": "TP13-img3",
+   "name": "TP13",
+   "rows": 1,
+   "orderNote": "Single explicitly identified test point.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "WIFI_RESET_N",
+     "functions": [
+      "TP13"
+     ]
+    }
+   ],
+   "image": "media/07a4fa18b99f09cdecb991787024adccb7a894f0e5141a505814530810c84507.png"
+  }
+ ],
+ "notes": "PWM hatch omitted. Onboard component and LED callouts excluded. Rear testpoints explicitly identified by TP designators are included.",
+ "unreadable": [
+  "SWD positions 6-8 shown but unnamed."
+ ],
+ "uncertain": []
+}

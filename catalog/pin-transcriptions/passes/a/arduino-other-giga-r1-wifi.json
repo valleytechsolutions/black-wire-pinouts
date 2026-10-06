@@ -1,0 +1,2806 @@
+{
+  "recordId": "arduino-other-giga-r1-wifi",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/9c3a233a2196800ac64e47141c4179bfb2b764a5b74dbcff0f73aab4926f469e.png",
+      "sha256": "9c3a233a2196800ac64e47141c4179bfb2b764a5b74dbcff0f73aab4926f469e"
+    },
+    {
+      "file": "media/a905026c2b02d658f16d853c29f137946552f98bf58dd722cfc51671bf608a00.png",
+      "sha256": "a905026c2b02d658f16d853c29f137946552f98bf58dd722cfc51671bf608a00"
+    },
+    {
+      "file": "media/e2a028bbba83b1ae7153e005f7d437eab06f929d944e25499a7aabffdf44c0f9.png",
+      "sha256": "e2a028bbba83b1ae7153e005f7d437eab06f929d944e25499a7aabffdf44c0f9"
+    },
+    {
+      "file": "media/ccc1c5af51350fb11c2ba0db12b40ff480cdd588faeb345def359923d1a2d3cf.png",
+      "sha256": "ccc1c5af51350fb11c2ba0db12b40ff480cdd588faeb345def359923d1a2d3cf"
+    },
+    {
+      "file": "media/1fa07bb1a76525f50ce5c631272de835a5be4c956e3b01c1c57fb546e76a1561.png",
+      "sha256": "1fa07bb1a76525f50ce5c631272de835a5be4c956e3b01c1c57fb546e76a1561"
+    },
+    {
+      "file": "media/32c292fe9568d9bc47038f55d873c295445649982a89ad6ec08e45e1b318e1e8.png",
+      "sha256": "32c292fe9568d9bc47038f55d873c295445649982a89ad6ec08e45e1b318e1e8"
+    },
+    {
+      "file": "media/f5966c465e8afb7ebee9fa3fbb2babcd3a09b0dd97e426a0daf87f21365d0d25.png",
+      "sha256": "f5966c465e8afb7ebee9fa3fbb2babcd3a09b0dd97e426a0daf87f21365d0d25"
+    },
+    {
+      "file": "media/2d3e072bed93c2b1970b10b73433ee89887031c2fa3e9f7cf114d134c6086cda.png",
+      "sha256": "2d3e072bed93c2b1970b10b73433ee89887031c2fa3e9f7cf114d134c6086cda"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "power-pads",
+      "name": "OFF/GND/VRTC pads",
+      "image": "media/9c3a233a2196800ac64e47141c4179bfb2b764a5b74dbcff0f73aab4926f469e.png",
+      "rows": 1,
+      "orderNote": "USB connectors at top of board view; vertical row, position 1 at top (nearest USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "OFF",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VRTC",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header-1",
+      "name": "Left power header",
+      "image": "media/9c3a233a2196800ac64e47141c4179bfb2b764a5b74dbcff0f73aab4926f469e.png",
+      "rows": 1,
+      "orderNote": "USB connectors at top of board view; vertical row, position 1 at top (nearest USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IOREF",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header-2",
+      "name": "Left analog header A0-A7",
+      "image": "media/9c3a233a2196800ac64e47141c4179bfb2b764a5b74dbcff0f73aab4926f469e.png",
+      "rows": 1,
+      "orderNote": "USB connectors at top of board view; vertical row, position 1 at top (nearest USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PC4",
+          "functions": [
+            "D76",
+            "A0",
+            "ADC1_INP4",
+            "OPAMP1_OUT"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PC5",
+          "functions": [
+            "D77",
+            "A1",
+            "ADC1_INP8",
+            "OPAMP1_IN-"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PB0",
+          "functions": [
+            "D78",
+            "A2",
+            "ADC1_INP9",
+            "OPAMP1_IN+"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PB1",
+          "functions": [
+            "D79",
+            "A3",
+            "ADC1_INP5"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PC3",
+          "functions": [
+            "D80",
+            "A4",
+            "ADC1_INP13"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PC2",
+          "functions": [
+            "D81",
+            "A5",
+            "ADC1_INP12"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PC0",
+          "functions": [
+            "D82",
+            "A6",
+            "ADC1_INP10"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PA0",
+          "functions": [
+            "D83",
+            "A7",
+            "ADC1_INP16"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-3",
+      "name": "Left header A8-A11/DAC/CAN",
+      "image": "media/9c3a233a2196800ac64e47141c4179bfb2b764a5b74dbcff0f73aab4926f469e.png",
+      "rows": 1,
+      "orderNote": "USB connectors at top of board view; vertical row, position 1 at top (nearest USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PC2_C",
+          "functions": [
+            "A8",
+            "ADC3_INP0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PC3_C",
+          "functions": [
+            "A9",
+            "ADC3_INP1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA1_C",
+          "functions": [
+            "A10",
+            "ADC2_INP1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA0_C",
+          "functions": [
+            "A11",
+            "ADC2_INP0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PA4",
+          "functions": [
+            "D84",
+            "DAC0",
+            "DAC1_OUT1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA5",
+          "functions": [
+            "D85",
+            "DAC1",
+            "DAC1_OUT2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PB5",
+          "functions": [
+            "D93",
+            "CAN RX",
+            "FDCAN2_RX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PB13",
+          "functions": [
+            "D94",
+            "CAN TX",
+            "FDCAN2_TX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-1",
+      "name": "Right header SCL1-D8",
+      "image": "media/9c3a233a2196800ac64e47141c4179bfb2b764a5b74dbcff0f73aab4926f469e.png",
+      "rows": 1,
+      "orderNote": "USB connectors at top of board view; vertical row, position 1 at top (nearest USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PB6",
+          "functions": [
+            "D101/SCL1",
+            "I2C4_SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PH12",
+          "functions": [
+            "D102/SDA1",
+            "I2C4_SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "AREF",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "PH6",
+          "functions": [
+            "~D13",
+            "SPI5_SCK"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PJ11",
+          "functions": [
+            "~D12",
+            "SPI5_CIPO"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PJ10",
+          "functions": [
+            "~D11",
+            "SPI5_COPI"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PK1",
+          "functions": [
+            "~D10",
+            "SPI5_NSS"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PB9",
+          "functions": [
+            "~D9",
+            "I2C1_SDA"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PB8",
+          "functions": [
+            "~D8",
+            "I2C1_SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-2",
+      "name": "Right header D7-D0",
+      "image": "media/9c3a233a2196800ac64e47141c4179bfb2b764a5b74dbcff0f73aab4926f469e.png",
+      "rows": 1,
+      "orderNote": "USB connectors at top of board view; vertical row, position 1 at top (nearest USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PB4",
+          "functions": [
+            "~D7"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PD13",
+          "functions": [
+            "~D6"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA7",
+          "functions": [
+            "~D5"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PJ8",
+          "functions": [
+            "~D4"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PA2",
+          "functions": [
+            "~D3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA3",
+          "functions": [
+            "~D2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PA9",
+          "functions": [
+            "D1/TX0",
+            "USART1_TX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PB7",
+          "functions": [
+            "D0/RX0",
+            "USART1_RX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-3",
+      "name": "Right header D14-D21",
+      "image": "media/9c3a233a2196800ac64e47141c4179bfb2b764a5b74dbcff0f73aab4926f469e.png",
+      "rows": 1,
+      "orderNote": "USB connectors at top of board view; vertical row, position 1 at top (nearest USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PG14",
+          "functions": [
+            "D14/TX3",
+            "USART6_TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PC7",
+          "functions": [
+            "D15/RX3",
+            "USART6_RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PH13",
+          "functions": [
+            "D16/TX2",
+            "USART4_TX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PI9",
+          "functions": [
+            "D17/RX2",
+            "USART4_RX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PD5",
+          "functions": [
+            "D18/TX1",
+            "USART2_TX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PD6",
+          "functions": [
+            "D19/RX1",
+            "USART2_RX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PB11",
+          "functions": [
+            "D20/SDA",
+            "I2C2_SDA"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PH4",
+          "functions": [
+            "D21/SCL",
+            "I2C2_SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "double-header",
+      "name": "D22-D53 double header (top view inset)",
+      "image": "media/9c3a233a2196800ac64e47141c4179bfb2b764a5b74dbcff0f73aab4926f469e.png",
+      "rows": 2,
+      "orderNote": "Inset of the D22-D53 double header does not show USB; no pin numbers; position 1 at top of the row nearest the board edge (right column, D23 side), alternating rows",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PG13",
+          "functions": [
+            "D23"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PJ12",
+          "functions": [
+            "D22"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PJ0",
+          "functions": [
+            "D25"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PG12",
+          "functions": [
+            "D24"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PJ1",
+          "functions": [
+            "D27"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PJ14",
+          "functions": [
+            "D26"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PJ2",
+          "functions": [
+            "D29"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PJ15",
+          "functions": [
+            "D28"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PJ3",
+          "functions": [
+            "D31"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "PK3",
+          "functions": [
+            "D30"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "PJ4",
+          "functions": [
+            "D33"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "PK4",
+          "functions": [
+            "D32"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "PJ5",
+          "functions": [
+            "D35"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "PK5",
+          "functions": [
+            "D34"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "PJ6",
+          "functions": [
+            "D37"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "PK6",
+          "functions": [
+            "D36"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "PI14",
+          "functions": [
+            "D39"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "PJ7",
+          "functions": [
+            "D38"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "PK7",
+          "functions": [
+            "D41"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "PE6",
+          "functions": [
+            "D40"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "PI10",
+          "functions": [
+            "D43"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "PI15",
+          "functions": [
+            "D42"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "PI13",
+          "functions": [
+            "D45"
+          ]
+        },
+        {
+          "position": 26,
+          "label": "PG10",
+          "functions": [
+            "D44"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "PB2",
+          "functions": [
+            "D47"
+          ]
+        },
+        {
+          "position": 28,
+          "label": "PH15",
+          "functions": [
+            "D46"
+          ]
+        },
+        {
+          "position": 29,
+          "label": "PE4",
+          "functions": [
+            "D49"
+          ]
+        },
+        {
+          "position": 30,
+          "label": "PK0",
+          "functions": [
+            "D48"
+          ]
+        },
+        {
+          "position": 31,
+          "label": "PE5",
+          "functions": [
+            "D51"
+          ]
+        },
+        {
+          "position": 32,
+          "label": "PI11",
+          "functions": [
+            "D50"
+          ]
+        },
+        {
+          "position": 33,
+          "label": "PG7",
+          "functions": [
+            "D53"
+          ]
+        },
+        {
+          "position": 34,
+          "label": "PK2",
+          "functions": [
+            "D52"
+          ]
+        },
+        {
+          "position": 35,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 36,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "FS_USB-C-img2",
+      "name": "FS USB-C connector",
+      "image": "media/a905026c2b02d658f16d853c29f137946552f98bf58dd722cfc51671bf608a00.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical list, top to bottom (top rule)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBUS_USB0",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "PA12",
+          "functions": [
+            "DP",
+            "USB-OTG-FS_DP"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA11",
+          "functions": [
+            "DM",
+            "USB-OTG-FS_DM"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "HS_USB-A-img2",
+      "name": "HS USB-A connector",
+      "image": "media/a905026c2b02d658f16d853c29f137946552f98bf58dd722cfc51671bf608a00.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical list, top to bottom (top rule)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBUS_USB1",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "PB15",
+          "functions": [
+            "DP",
+            "USB-OTG-HS_DP"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PB14",
+          "functions": [
+            "DM",
+            "USB-OTG-HS_DM"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "audio-jack-img2",
+      "name": "Audio jack",
+      "image": "media/a905026c2b02d658f16d853c29f137946552f98bf58dd722cfc51671bf608a00.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical list, top to bottom (top rule)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PA5",
+          "functions": [
+            "LEFT",
+            "DAC1",
+            "D85"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PA4",
+          "functions": [
+            "RIGHT",
+            "DAC0",
+            "D84"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA0",
+          "functions": [
+            "MIC",
+            "A7",
+            "D83"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spi-header-img2",
+      "name": "SPI 2x3 header",
+      "image": "media/a905026c2b02d658f16d853c29f137946552f98bf58dd722cfc51671bf608a00.png",
+      "rows": 2,
+      "orderNote": "Pin numbers printed (1-6); followed printed numbers",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PG9",
+          "functions": [
+            "D89",
+            "SPI1_CIPO"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PB3",
+          "functions": [
+            "D91",
+            "SPI1_SCK"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PD7",
+          "functions": [
+            "D90",
+            "SPI1_COPI"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "RESET",
+          "functions": [
+            "NRST"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "JTAG-img2",
+      "name": "JTAG 2x5 header",
+      "image": "media/a905026c2b02d658f16d853c29f137946552f98bf58dd722cfc51671bf608a00.png",
+      "rows": 2,
+      "orderNote": "Pin numbers printed (1-10); followed printed numbers",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "PA13",
+          "functions": [
+            "SWD",
+            "SWDIO"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "PA14",
+          "functions": [
+            "SCK",
+            "SWCLK"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "RESET",
+          "functions": [
+            "NRST"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "J6-img2",
+      "name": "J6 camera header (top view)",
+      "image": "media/a905026c2b02d658f16d853c29f137946552f98bf58dd722cfc51671bf608a00.png",
+      "rows": 2,
+      "orderNote": "Pin 1 marked (circled 1) at the top of the left column; no other numbers; continued alternating rows (odd left, even right) from pin 1",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PB6",
+          "functions": [
+            "D101/SCL1",
+            "I2C4_SCL"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PH12",
+          "functions": [
+            "D102/SDA1",
+            "I2C4_SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PI5",
+          "functions": [
+            "D54",
+            "VSYNC"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PH8",
+          "functions": [
+            "D55",
+            "HREF"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PA6",
+          "functions": [
+            "D56",
+            "PCLK"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PJ9",
+          "functions": [
+            "D57",
+            "XCLK"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PI7",
+          "functions": [
+            "D58",
+            "DOUT7"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PI6",
+          "functions": [
+            "D59",
+            "DOUT6"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PI4",
+          "functions": [
+            "D60",
+            "DOUT5"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "PH14",
+          "functions": [
+            "D61",
+            "DOUT4"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "PG11",
+          "functions": [
+            "D62",
+            "DOUT3"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "PH11",
+          "functions": [
+            "D63",
+            "DOUT2"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "PH10",
+          "functions": [
+            "D64",
+            "DOUT1"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "PH9",
+          "functions": [
+            "D65",
+            "DOUT0"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "PA1",
+          "functions": [
+            "D66",
+            "POWER_EN"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "PD4",
+          "functions": [
+            "D67",
+            "PWDN"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "PA1",
+          "functions": [
+            "D66",
+            "POWER_EN"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "PD4",
+          "functions": [
+            "D67",
+            "PWDN"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "J5-img2",
+      "name": "J5 display header (top view)",
+      "image": "media/a905026c2b02d658f16d853c29f137946552f98bf58dd722cfc51671bf608a00.png",
+      "rows": 2,
+      "orderNote": "Pin 1 marked (circled 1) at the top of the left column; no other numbers; continued alternating rows (odd left, even right) from pin 1",
+      "pins": [
+        {
+          "position": 1,
+          "label": "DSI_D1_N",
+          "functions": [
+            "D1N"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "DSI_D1_P",
+          "functions": [
+            "D1P"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "DSI_CK_N",
+          "functions": [
+            "CKN"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "DSI_CK_P",
+          "functions": [
+            "CKP"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "DSI_D0_N",
+          "functions": [
+            "D0N"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "DSI_D0_P",
+          "functions": [
+            "D0P"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "PC6",
+          "functions": [
+            "D68"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "PI0",
+          "functions": [
+            "D69"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "PI1",
+          "functions": [
+            "D70"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "PI2",
+          "functions": [
+            "D71"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "PI3",
+          "functions": [
+            "D72"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "PC1",
+          "functions": [
+            "D73",
+            "DFSDM1_DATIN0"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "PB12",
+          "functions": [
+            "D74"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "PD3",
+          "functions": [
+            "D75",
+            "DFSDM1_CKOUT"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J6-img3",
+      "name": "J6 camera header (bottom view)",
+      "image": "media/e2a028bbba83b1ae7153e005f7d437eab06f929d944e25499a7aabffdf44c0f9.png",
+      "rows": 2,
+      "orderNote": "Bottom view; pin 1 marked (circled 1) at the bottom of the left column; continued alternating rows from pin 1 upward",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PB6",
+          "functions": [
+            "D101/SCL1",
+            "I2C4_SCL"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PH12",
+          "functions": [
+            "D102/SDA1",
+            "I2C4_SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PI5",
+          "functions": [
+            "D54",
+            "VSYNC"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PH8",
+          "functions": [
+            "D55",
+            "HREF"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PA6",
+          "functions": [
+            "D56",
+            "PCLK"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PJ9",
+          "functions": [
+            "D57",
+            "XCLK"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PI7",
+          "functions": [
+            "D58",
+            "DOUT7"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PI6",
+          "functions": [
+            "D59",
+            "DOUT6"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PI4",
+          "functions": [
+            "D60",
+            "DOUT5"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "PH14",
+          "functions": [
+            "D61",
+            "DOUT4"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "PG11",
+          "functions": [
+            "D62",
+            "DOUT3"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "PH11",
+          "functions": [
+            "D63",
+            "DOUT2"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "PH10",
+          "functions": [
+            "D64",
+            "DOUT1"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "PH9",
+          "functions": [
+            "D65",
+            "DOUT0"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "PA1",
+          "functions": [
+            "D66",
+            "POWER_EN"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "PD4",
+          "functions": [
+            "D67",
+            "PWDN"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "PA1",
+          "functions": [
+            "D66",
+            "POWER_EN"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "PD4",
+          "functions": [
+            "D67",
+            "PWDN"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "J5-img3",
+      "name": "J5 display header (bottom view)",
+      "image": "media/e2a028bbba83b1ae7153e005f7d437eab06f929d944e25499a7aabffdf44c0f9.png",
+      "rows": 2,
+      "orderNote": "Bottom view; pin 1 marked (circled 1) at the bottom of the left column; continued alternating rows from pin 1 upward",
+      "pins": [
+        {
+          "position": 1,
+          "label": "DSI_D1_N",
+          "functions": [
+            "D1N"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "DSI_D1_P",
+          "functions": [
+            "D1P"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "DSI_CK_N",
+          "functions": [
+            "CKN"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "DSI_CK_P",
+          "functions": [
+            "CKP"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "DSI_D0_N",
+          "functions": [
+            "D0N"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "DSI_D0_P",
+          "functions": [
+            "D0P"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "PC6",
+          "functions": [
+            "D68"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "PI0",
+          "functions": [
+            "D69"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "PI1",
+          "functions": [
+            "D70"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "PI2",
+          "functions": [
+            "D71"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "PI3",
+          "functions": [
+            "D72"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "PC1",
+          "functions": [
+            "D73",
+            "DFSDM1_DATIN0"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "PB12",
+          "functions": [
+            "D74"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "PD3",
+          "functions": [
+            "D75",
+            "DFSDM1_CKOUT"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "audio-jack-img4",
+      "name": "Audio jack",
+      "image": "media/ccc1c5af51350fb11c2ba0db12b40ff480cdd588faeb345def359923d1a2d3cf.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical list, top to bottom (top rule)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PA5",
+          "functions": [
+            "LEFT",
+            "DAC1",
+            "D85",
+            "ADC12_INN18/ADC12_INP19/DAC1_OUT2"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PA4",
+          "functions": [
+            "RIGHT",
+            "DAC0",
+            "D84",
+            "ADC12_INP18/DAC1_OUT1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA0",
+          "functions": [
+            "MIC",
+            "A7",
+            "D83",
+            "ADC1_INP16"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "power-pads-img4",
+      "name": "OFF/GND/VRTC pads",
+      "image": "media/ccc1c5af51350fb11c2ba0db12b40ff480cdd588faeb345def359923d1a2d3cf.png",
+      "rows": 1,
+      "orderNote": "USB connectors at top of board view; vertical row, position 1 at top (nearest USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "OFF",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VRTC",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header-1-img4",
+      "name": "Left power header",
+      "image": "media/ccc1c5af51350fb11c2ba0db12b40ff480cdd588faeb345def359923d1a2d3cf.png",
+      "rows": 1,
+      "orderNote": "USB connectors at top of board view; vertical row, position 1 at top (nearest USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IOREF",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header-2-img4",
+      "name": "Left analog header A0-A7",
+      "image": "media/ccc1c5af51350fb11c2ba0db12b40ff480cdd588faeb345def359923d1a2d3cf.png",
+      "rows": 1,
+      "orderNote": "USB connectors at top of board view; vertical row, position 1 at top (nearest USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PC4",
+          "functions": [
+            "D76",
+            "A0",
+            "ADC12_INP_4",
+            "COMP1_INM",
+            "OPAMP1_VOUT"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PC5",
+          "functions": [
+            "D77",
+            "A1",
+            "ADC12_INN4/ADC12_INP8",
+            "OPAMP1_VINM, VINM0"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PB0",
+          "functions": [
+            "D78",
+            "A2",
+            "ADC12_INP5/ADC12_INP9",
+            "COMP1_INP",
+            "OPAMP1_VINP",
+            "TIM1_CH2N/TIM3_CH3/TIM8_CH2N"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PB1",
+          "functions": [
+            "D79",
+            "A3",
+            "ADC12_INP5",
+            "COMP1_INM",
+            "TIM1_CH3N/TIM3_CH4/TIM8_CH3N"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PC3",
+          "functions": [
+            "D80",
+            "A4",
+            "ADC12_INN12/ADC12_INP13",
+            "SYS_TRGIO"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PC2",
+          "functions": [
+            "D81",
+            "A5",
+            "ADC123_INN11/ADC123_INP12"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PC0",
+          "functions": [
+            "D82",
+            "A6",
+            "ADC123_INP10",
+            "COMP1_INM"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PA0",
+          "functions": [
+            "D83",
+            "A7",
+            "ADC1_INP16",
+            "TIM2_CH1/TIM2_ETR/TIM5_CH1/TIM8_ETR/TIM15_BKIN",
+            "SYS_WKUP0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-3-img4",
+      "name": "Left header A8-A11/DAC/CAN",
+      "image": "media/ccc1c5af51350fb11c2ba0db12b40ff480cdd588faeb345def359923d1a2d3cf.png",
+      "rows": 1,
+      "orderNote": "USB connectors at top of board view; vertical row, position 1 at top (nearest USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PC2_C",
+          "functions": [
+            "A8",
+            "ADC3_INN1/ADC3_INP0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PC3_C",
+          "functions": [
+            "A9",
+            "ADC3_INP1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA1_C",
+          "functions": [
+            "A10",
+            "ADC12_INP1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA0_C",
+          "functions": [
+            "A11",
+            "ADC12_INN1/ADC12_INP0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PA4",
+          "functions": [
+            "D84",
+            "DAC0",
+            "ADC12_INP18/DAC1_OUT1",
+            "TIM5_ETR"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA5",
+          "functions": [
+            "D85",
+            "DAC1",
+            "ADC12_INN18, INP19/DAC1_OUT2",
+            "TIM2_CH1/TIM2_ETR/TIM8_CH1N"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PB5",
+          "functions": [
+            "D93",
+            "CAN RX",
+            "FDCAN2_RX",
+            "TIM17_BKIN/TIM3_CH2",
+            "HRTIM_EEV7"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PB13",
+          "functions": [
+            "D94",
+            "CAN TX",
+            "FDCAN2_TX",
+            "TIM1_CH1N",
+            "LPTIM2_OUT",
+            "SYS_WKUP5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-1-img5",
+      "name": "Right header SCL1-D8",
+      "image": "media/1fa07bb1a76525f50ce5c631272de835a5be4c956e3b01c1c57fb546e76a1561.png",
+      "rows": 1,
+      "orderNote": "USB connectors at top of board view; vertical row, position 1 at top (nearest USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PB6",
+          "functions": [
+            "D101/SCL1",
+            "I2C1_SCL/I2C4_SCL",
+            "TIM16_CH1N/TIM4_CH1",
+            "HRTIM_EEV8"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PH12",
+          "functions": [
+            "D102/SDA1",
+            "I2C4_SDA",
+            "TIM5_CH3"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "AREF",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "PH6",
+          "functions": [
+            "~D13",
+            "SPI5_SCK"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PJ11",
+          "functions": [
+            "~D12",
+            "SPI5_CIPO",
+            "TIM1_CH2/TIM8_CH2N"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PJ10",
+          "functions": [
+            "~D11",
+            "SPI5_COPI",
+            "TIM1_CH2N/TIM8_CH2/"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PK1",
+          "functions": [
+            "~D10",
+            "SPI5_NSS",
+            "TIM1_CH1/TIM8_CH3N"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PB9",
+          "functions": [
+            "~D9",
+            "I2C1_SDA/I2C4_SDA/I2C4_SMBA",
+            "TIM17_CH1/TIM4_CH4"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PB8",
+          "functions": [
+            "~D8",
+            "I2C1_SCL/I2C4_SCL",
+            "TIM16_CH1/TIM4_CH3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-2-img5",
+      "name": "Right header D7-D0",
+      "image": "media/1fa07bb1a76525f50ce5c631272de835a5be4c956e3b01c1c57fb546e76a1561.png",
+      "rows": 1,
+      "orderNote": "USB connectors at top of board view; vertical row, position 1 at top (nearest USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PB4",
+          "functions": [
+            "~D7"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PD13",
+          "functions": [
+            "~D6",
+            "TIM4_CH2",
+            "LPTIM1_OUT"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA7",
+          "functions": [
+            "~D5",
+            "TIM14_CH1/TIM1_CH1N/TIM3_CH2/TIM8_CH1N"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PJ8",
+          "functions": [
+            "~D4",
+            "TIM1_CH3N/TIM8_CH1"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PA2",
+          "functions": [
+            "~D3",
+            "TIM2_CH3/TIM5_CH3/TIM15_CH1",
+            "LPTIM4_OUT",
+            "SYS_WKUP1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA3",
+          "functions": [
+            "~D2",
+            "TIM2_CH4/TIM5_CH4/TIM5_CH4",
+            "LPTIM5_OUT"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PA9",
+          "functions": [
+            "D1/TX0",
+            "USART1_TX",
+            "TIM1_CH2",
+            "HRTIM_CHC1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PB7",
+          "functions": [
+            "D0/RX0",
+            "USART1_RX",
+            "TIM17_CH1N/TIM4_CH2",
+            "HRTIM_EEV9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-3-img5",
+      "name": "Right header D14-D21",
+      "image": "media/1fa07bb1a76525f50ce5c631272de835a5be4c956e3b01c1c57fb546e76a1561.png",
+      "rows": 1,
+      "orderNote": "USB connectors at top of board view; vertical row, position 1 at top (nearest USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PG14",
+          "functions": [
+            "D14/TX3",
+            "USART6_TX",
+            "LPTIM1_ETR"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PC7",
+          "functions": [
+            "D15/RX3",
+            "USART6_RX",
+            "TIM3_CH2/TIM8_CH2",
+            "HRTIM_CHA2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PH13",
+          "functions": [
+            "D16/TX2",
+            "USART4_TX",
+            "TIM8_CH1N"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PI9",
+          "functions": [
+            "D17/RX2",
+            "USART4_RX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PD5",
+          "functions": [
+            "D18/TX1",
+            "USART2_TX",
+            "HRTIM_EEV4"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PD6",
+          "functions": [
+            "D19/RX1",
+            "USART2_RX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PB11",
+          "functions": [
+            "D20/SDA",
+            "I2C2_SDA",
+            "TIM2_CH4",
+            "HRTIM_SCIN",
+            "LPTIM2_ETR"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PH4",
+          "functions": [
+            "D21/SCL",
+            "I2C2_SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "double-header-img6",
+      "name": "D22-D53 double header (top view inset)",
+      "image": "media/32c292fe9568d9bc47038f55d873c295445649982a89ad6ec08e45e1b318e1e8.png",
+      "rows": 2,
+      "orderNote": "Inset of the D22-D53 double header does not show USB; no pin numbers; position 1 at top of the row nearest the board edge (right column, D23 side), alternating rows",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PG13",
+          "functions": [
+            "D23",
+            "HRTIM_EEV10",
+            "LPTIM1_OUT",
+            "LTDC_R0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PJ12",
+          "functions": [
+            "D22",
+            "LTDC_B0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PJ0",
+          "functions": [
+            "D25",
+            "LTDC_R1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PG12",
+          "functions": [
+            "D24",
+            "HRTIM_EEV5",
+            "LPTIM1_IN1",
+            "LTDC_B1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PJ1",
+          "functions": [
+            "D27",
+            "LTDC_R2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PJ14",
+          "functions": [
+            "D26",
+            "LTDC_B2"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PJ2",
+          "functions": [
+            "D29",
+            "LTDC_R3"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PJ15",
+          "functions": [
+            "D28",
+            "LTDC_B3"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PJ3",
+          "functions": [
+            "D31",
+            "LTDC_R4"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "PK3",
+          "functions": [
+            "D30",
+            "LTDC_B4"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "PJ4",
+          "functions": [
+            "D33",
+            "LTDC_R5"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "PK4",
+          "functions": [
+            "D32",
+            "LTDC_B5"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "PJ5",
+          "functions": [
+            "D35",
+            "LTDC_R6"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "PK5",
+          "functions": [
+            "D34",
+            "LTDC_B6"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "PJ6",
+          "functions": [
+            "D37",
+            "TIM8_CH2",
+            "LTDC_R7"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "PK6",
+          "functions": [
+            "D36",
+            "LTDC_B7"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "PI14",
+          "functions": [
+            "D39",
+            "LTDC_CLK"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "PJ7",
+          "functions": [
+            "D38",
+            "TIM8_CH2N",
+            "LTDC_G0"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "PK7",
+          "functions": [
+            "D41",
+            "LTDC_DE"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "PE6",
+          "functions": [
+            "D40",
+            "TIM15_CH2/TIM1_BKIN2/TIM1_BKIN2-COMP12",
+            "LTDC_G1"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "PI10",
+          "functions": [
+            "D43",
+            "LTDC_HSYNC"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "PI15",
+          "functions": [
+            "D42",
+            "LTDC_G2"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "PI13",
+          "functions": [
+            "D45",
+            "LTDC_VSYNC"
+          ]
+        },
+        {
+          "position": 26,
+          "label": "PG10",
+          "functions": [
+            "D44",
+            "HRTIM_FLT5",
+            "LTDC_G3"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "PB2",
+          "functions": [
+            "D47",
+            "SAI1_D1/SAI1_SD-A/SAI4_D1/SAI4_SD-A/"
+          ]
+        },
+        {
+          "position": 28,
+          "label": "PH15",
+          "functions": [
+            "D46",
+            "TIM8_CH3N",
+            "LTDC_G4"
+          ]
+        },
+        {
+          "position": 29,
+          "label": "PE4",
+          "functions": [
+            "D49",
+            "TIM15_CH1N",
+            "SAI1_D2/SAI1_FS-A/SAI4_D2/SAI4_FS-A"
+          ]
+        },
+        {
+          "position": 30,
+          "label": "PK0",
+          "functions": [
+            "D48",
+            "TIM1_CH1N/TIM8_CH3",
+            "LTDC_G5"
+          ]
+        },
+        {
+          "position": 31,
+          "label": "PE5",
+          "functions": [
+            "D51",
+            "TIM15_CH1",
+            "SAI1_CK2/SAI1_SCK-A/SAI4_CK2/SAI4_SCK-A"
+          ]
+        },
+        {
+          "position": 32,
+          "label": "PI11",
+          "functions": [
+            "D50",
+            "LTDC_G6"
+          ]
+        },
+        {
+          "position": 33,
+          "label": "PG7",
+          "functions": [
+            "D53",
+            "HRTIM_CHE2",
+            "SAI1_MCLK-A"
+          ]
+        },
+        {
+          "position": 34,
+          "label": "PK2",
+          "functions": [
+            "D52",
+            "TIM1_BKIN/TIM1_BKIN-COMP12/TIM8_BKIN/TIM8_BKIN-COMP12",
+            "LTDC_G7"
+          ]
+        },
+        {
+          "position": 35,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 36,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J6-img7",
+      "name": "J6 camera header (top view)",
+      "image": "media/f5966c465e8afb7ebee9fa3fbb2babcd3a09b0dd97e426a0daf87f21365d0d25.png",
+      "rows": 2,
+      "orderNote": "No pin numbers or pin-1 mark and no USB in view; position 1 at top of the row nearest the visible board edge (left column; right side is a cut line), alternating rows",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PB6",
+          "functions": [
+            "D101/SCL1",
+            "I2C1_SCL/I2C4_SCL",
+            "TIM16_CH1N/TIM4_CH1",
+            "HRTIM_EEV8"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PH12",
+          "functions": [
+            "D102/SDA1",
+            "I2C4_SDA",
+            "TIM5_CH3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PI5",
+          "functions": [
+            "D54",
+            "VSYNC",
+            "TIM8_CH1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PH8",
+          "functions": [
+            "D55",
+            "HREF",
+            "TIM5_ETR"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PA6",
+          "functions": [
+            "D56",
+            "PCLK",
+            "TIM13_CH1/TIM1_BKIN/TIM1_BKIN-COMP12/TIM3_CH1/TIM8_BKIN/TIM8_BKIN-COMP12"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PJ9",
+          "functions": [
+            "D57",
+            "XCLK",
+            "TIM1_CH3/TIM8_CH1N"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PI7",
+          "functions": [
+            "D58",
+            "DOUT7",
+            "TIM8_CH3"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PI6",
+          "functions": [
+            "D59",
+            "DOUT6",
+            "TIM8_CH2"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PI4",
+          "functions": [
+            "D60",
+            "DOUT5",
+            "TIM8_BKIN/TIM8_BKIN-COMP12"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "PH14",
+          "functions": [
+            "D61",
+            "DOUT4",
+            "TIM8_CH2N"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "PG11",
+          "functions": [
+            "D62",
+            "DOUT3",
+            "HRTIM_EEV4",
+            "LPTIM2_OUT"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "PH11",
+          "functions": [
+            "D63",
+            "DOUT2",
+            "TIM5_CH2"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "PH10",
+          "functions": [
+            "D64",
+            "DOUT1",
+            "TIM5_CH1"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "PH9",
+          "functions": [
+            "D65",
+            "DOUT0"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "PA1",
+          "functions": [
+            "D66",
+            "POWER_EN",
+            "TIM2_CH2/TIM5_CH2/TIM15_CH1N",
+            "LPTIM2_OUT"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "PD4",
+          "functions": [
+            "D67",
+            "PWDN",
+            "HRTIM_FLT3"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "PA1",
+          "functions": [
+            "D66",
+            "POWER_EN",
+            "TIM2_CH2/TIM5_CH2/TIM15_CH1N",
+            "LPTIM2_OUT"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "PD4",
+          "functions": [
+            "D67",
+            "PWDN",
+            "HRTIM_FLT3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "J5-img7",
+      "name": "J5 display header (top view)",
+      "image": "media/f5966c465e8afb7ebee9fa3fbb2babcd3a09b0dd97e426a0daf87f21365d0d25.png",
+      "rows": 2,
+      "orderNote": "No pin numbers or pin-1 mark and no USB in view; position 1 at top of the row nearest the visible board edge (right column; left side is a cut line), alternating rows",
+      "pins": [
+        {
+          "position": 1,
+          "label": "DSI_D1_P",
+          "functions": [
+            "D1P"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "DSI_D1_N",
+          "functions": [
+            "D1N"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "DSI_CK_P",
+          "functions": [
+            "CKP"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "DSI_CK_N",
+          "functions": [
+            "CKN"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "DSI_D0_P",
+          "functions": [
+            "D0P"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "DSI_D0_N",
+          "functions": [
+            "D0N"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "PI0",
+          "functions": [
+            "D69",
+            "I2S2_WS",
+            "TIM5_CH4"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "PC6",
+          "functions": [
+            "D68",
+            "I2S2_MCK",
+            "TIM3_CH1/TIM8_CH1",
+            "HRTIM_CHA1"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "PI2",
+          "functions": [
+            "D71",
+            "I2S2_SDI",
+            "TIM8_CH4"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "PI1",
+          "functions": [
+            "D70",
+            "I2S2_CK",
+            "TIM8_BKIN2/TIM8_BKIN2-COMP12"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "PC1",
+          "functions": [
+            "D73",
+            "DFSDM1_DATIN0"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "PI3",
+          "functions": [
+            "D72",
+            "I2S2_SDO",
+            "TIM8_ETR"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "PD3",
+          "functions": [
+            "D75",
+            "DFSDM1_CKOUT"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "PB12",
+          "functions": [
+            "D74",
+            "TIM1_BKIN/TIM1_BKIN-COMP12"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "VIN",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Labels use the STM32 'Micro' column name (PB6, DSI_D1_N...) where printed; Arduino names (D76, A0, ~D13) and peripheral names follow in functions, read outward. IN/OUT power badges, D default icons, column headers and color tags omitted. RESET overlined Micro name in image 1/4 is an exact repeat and omitted. J6 rows 9 and 10 are both bracketed to D66 (left) and D67 (right) ('Pins D66 and D67 are duplicated pins'). Long notes not recorded as functions: OFF pad 'Short this with GND to turn off the entire board', VRTC coin-cell note, 'Pins A8, A9, A10 and A11 are ONLY analog pins, no GPIO peripherals', 'DSI PINS have only display feature, NO GPIO, NO Analog', 'J6 is compatible with Arducam', image 6 'Configured to be used with LTDC Display at 24bit'. Skipped: BOOT0 and reset buttons, RGB LED, unlabeled on-board headers in image 1, D1 diode/U9 switch callouts, image 8 (internal SDRAM/FMC, wireless module, crypto and QSPI flash; no external pin positions). J5 in image 7 has no pin-1 mark, so the edge rule gives the right column first there, while images 2/3 mark pin 1 on the left (D1N) column."
+}

@@ -1,0 +1,230 @@
+{
+  "recordId": "raspberry-pi-raspberry-pi-sbc-zero-2-w",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/46859f2d2d9bc25b3036990332e77c97ca9dcd038fc637206565eaf5395d2a68.png",
+      "sha256": "46859f2d2d9bc25b3036990332e77c97ca9dcd038fc637206565eaf5395d2a68"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "gpio-header",
+      "name": "2x20 header holes (unlabeled)",
+      "image": "media/46859f2d2d9bc25b3036990332e77c97ca9dcd038fc637206565eaf5395d2a68.png",
+      "rows": 2,
+      "orderNote": "No pin numbers and no USB connector drawn; horizontal rows started at left end, position 1 in the outer (top, nearest board edge) row, alternating top/bottom. The square pad at the right end of the bottom row is not treated as a pin-1 mark (rule 9).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 27,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 28,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 29,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 31,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 32,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 33,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 34,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 35,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 36,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 37,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 38,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 39,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 40,
+          "label": "?",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "gpio-header: all 40 holes are drawn without any label in this image (unlabeled)."
+  ],
+  "uncertain": [
+    "Image is a bottom-side test-point map: the 2x20 header holes carry no labels at all, while labeled test pads (RUN, CORE, WL_ON, BT_ON, 5V, STATUS_LED, GND, USB_DP, USB_DM, TV, 1V8, OTG, 3V3, SD_DAT0-3, SD_CLK, SD_CMD) are scattered individual pads; test pads were not transcribed as a connector. Unclear whether this should instead be no-connector-map."
+  ],
+  "notes": "Raspberry Pi Zero-format board outline with test-point labels; header shown only as unlabeled holes."
+}

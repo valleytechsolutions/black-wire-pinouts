@@ -1,0 +1,51 @@
+{
+  "recordId": "m5stack-gpio-device-station-bat",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/3fbfeecc25cae5c681b58fe342d6815aaac74ce99df60c8222c5dae9208d827a.jpg",
+      "sha256": "3fbfeecc25cae5c681b58fe342d6815aaac74ce99df60c8222c5dae9208d827a"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "pwr485",
+      "name": "PWR485 terminal (bottom edge)",
+      "image": "media/3fbfeecc25cae5c681b58fe342d6815aaac74ce99df60c8222c5dae9208d827a.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; the USB OUTPUT port is roughly equidistant from both ends, so the horizontal row is ordered left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "B",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "A",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "G",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Board identity: the image is a shared system/block diagram (V1.0) that does not name the Station-Bat variant; the RS485/PWR485 section and 18650 battery are marked OPTIONAL.",
+    "The PWR485 connector is drawn as a small colored-cell illustration on the device outline; it is assumed to show physical pin order (B, A, V, G). A separate block-diagram legend lists the same pins as G V A B.",
+    "Grove ports P.A1, P.A2, P.B1, P.B2, P.C1, P.C2 are shown only with GPIO pairs (33/32, 33/32, 35/25, 36/26, 13/14, 16/17) and no individual pin positions, so they were not transcribed.",
+    "Pin order: the USB OUTPUT port is at the top center and roughly equidistant from both ends of the PWR485 row; left-to-right order was used."
+  ],
+  "notes": "Most of the image is a block diagram (AXP192, INA3221, CH9102, SP3485, LCD). USB ports skipped per rule 1."
+}

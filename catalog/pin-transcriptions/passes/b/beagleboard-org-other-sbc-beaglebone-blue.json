@@ -1,0 +1,384 @@
+{
+  "recordId": "beagleboard-org-other-sbc-beaglebone-blue",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/67bca5266bae5149fb208a247c8ce52a6db7b45a3ec5a1e8130cd82a7fa8998b.jpg",
+      "sha256": "67bca5266bae5149fb208a247c8ce52a6db7b45a3ec5a1e8130cd82a7fa8998b"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "power-out",
+      "name": "Power out",
+      "image": "media/67bca5266bae5149fb208a247c8ce52a6db7b45a3ec5a1e8130cd82a7fa8998b.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal callout row read left to right (top/left rule; USB not part of callout diagram)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "can",
+      "name": "CAN",
+      "image": "media/67bca5266bae5149fb208a247c8ce52a6db7b45a3ec5a1e8130cd82a7fa8998b.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal callout row read left to right (top/left rule; USB not part of callout diagram)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "CANL",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "CANH",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "adcs",
+      "name": "ADCs",
+      "image": "media/67bca5266bae5149fb208a247c8ce52a6db7b45a3ec5a1e8130cd82a7fa8998b.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal callout row read left to right (top/left rule; USB not part of callout diagram)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "AIN3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "AIN2",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "AIN1",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "AIN0",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "VDD_ADC",
+          "functions": [
+            "1V8"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "i2c",
+      "name": "I2C",
+      "image": "media/67bca5266bae5149fb208a247c8ce52a6db7b45a3ec5a1e8130cd82a7fa8998b.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal callout row read left to right (top/left rule; USB not part of callout diagram)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "gp1",
+      "name": "GP1",
+      "image": "media/67bca5266bae5149fb208a247c8ce52a6db7b45a3ec5a1e8130cd82a7fa8998b.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal callout row read left to right (top/left rule; USB not part of callout diagram)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "LED_GREEN",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "LED_RED",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO3_1",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO3_2",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "gp0",
+      "name": "GP0",
+      "image": "media/67bca5266bae5149fb208a247c8ce52a6db7b45a3ec5a1e8130cd82a7fa8998b.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal callout row read left to right (top/left rule; USB not part of callout diagram)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO3_17",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GPIO3_20",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO1_17",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO1_25",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "uart-gps",
+      "name": "UART GPS",
+      "image": "media/67bca5266bae5149fb208a247c8ce52a6db7b45a3ec5a1e8130cd82a7fa8998b.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal callout row read left to right (top/left rule; USB not part of callout diagram)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RX",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "?",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "spi",
+      "name": "SPI 1.2 / SPI1.1",
+      "image": "media/67bca5266bae5149fb208a247c8ce52a6db7b45a3ec5a1e8130cd82a7fa8998b.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal callout row read left to right (top/left rule; USB not part of callout diagram)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "Slave Select",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SCK",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "MISO",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "MOSI",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "uart",
+      "name": "UART1 / UART5 / UART0",
+      "image": "media/67bca5266bae5149fb208a247c8ce52a6db7b45a3ec5a1e8130cd82a7fa8998b.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal callout row read left to right (top/left rule; USB not part of callout diagram)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "RX",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "uart-dsm",
+      "name": "UART DSM",
+      "image": "media/67bca5266bae5149fb208a247c8ce52a6db7b45a3ec5a1e8130cd82a7fa8998b.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal callout row read left to right (top/left rule; USB not part of callout diagram)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RX",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "quadrature-encoder",
+      "name": "4 Quadrature encoder inputs",
+      "image": "media/67bca5266bae5149fb208a247c8ce52a6db7b45a3ec5a1e8130cd82a7fa8998b.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical callout read top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "Signal A",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "Signal B",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "uart-gps position 6: callout shows 6 holes but only 5 labels (GND,5V,TX,RX,GND under holes 1-5); hole 6 unlabeled"
+  ],
+  "notes": "Callout diagram of JST connectors. One entry per callout diagram: the SPI callout covers SPI1.2 and SPI1.1, the UART callout covers UART1, UART5 and UART0, and the quadrature callout covers 4 identical encoder connectors. 8 servo outputs and DC motor connectors have no pin labels and were skipped. ADC pin 5 printed \"VDD_ADC (1V8)\"."
+}

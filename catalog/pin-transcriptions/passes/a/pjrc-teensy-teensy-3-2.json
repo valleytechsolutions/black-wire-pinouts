@@ -1,0 +1,691 @@
+{
+  "recordId": "pjrc-teensy-teensy-3-2",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/8e0f04945e94081bebfe3e7ef1695bfaca78d8ffe097e5351bb6dc58dea60df3.png",
+      "sha256": "8e0f04945e94081bebfe3e7ef1695bfaca78d8ffe097e5351bb6dc58dea60df3"
+    },
+    {
+      "file": "media/faf86dbdcad68cee2f0bc3172588ac82becb402f9c501dc55701a83e357584b5.png",
+      "sha256": "faf86dbdcad68cee2f0bc3172588ac82becb402f9c501dc55701a83e357584b5"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "top-header",
+      "name": "Top header",
+      "image": "media/8e0f04945e94081bebfe3e7ef1695bfaca78d8ffe097e5351bb6dc58dea60df3.png",
+      "rows": 1,
+      "orderNote": "USB connector on the left of the image; started at the end closest to USB (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "Vin",
+          "functions": [
+            "(3.6 to 6.0 volts)"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "AGND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": [
+            "(250 mA max)"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "23",
+          "functions": [
+            "A9",
+            "Touch",
+            "PWM"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "22",
+          "functions": [
+            "A8",
+            "Touch",
+            "PWM"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "21",
+          "functions": [
+            "A7",
+            "RX1",
+            "CS",
+            "PWM"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "20",
+          "functions": [
+            "A6",
+            "CS",
+            "PWM"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "19",
+          "functions": [
+            "A5",
+            "SCL0",
+            "Touch"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "18",
+          "functions": [
+            "A4",
+            "SDA0",
+            "Touch"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "17",
+          "functions": [
+            "A3",
+            "SDA0",
+            "Touch"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "16",
+          "functions": [
+            "A2",
+            "SCL0",
+            "Touch"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "15",
+          "functions": [
+            "A1",
+            "CS",
+            "Touch"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "14",
+          "functions": [
+            "A0",
+            "SCK"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "13",
+          "functions": [
+            "(LED)",
+            "SCK"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-header",
+      "name": "Bottom header",
+      "image": "media/8e0f04945e94081bebfe3e7ef1695bfaca78d8ffe097e5351bb6dc58dea60df3.png",
+      "rows": 1,
+      "orderNote": "USB connector on the left of the image; started at the end closest to USB (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "0",
+          "functions": [
+            "RX1",
+            "Touch"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "1",
+          "functions": [
+            "TX1",
+            "Touch"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "2",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3",
+          "functions": [
+            "TX",
+            "PWM"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "4",
+          "functions": [
+            "RX",
+            "PWM"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "5",
+          "functions": [
+            "TX1",
+            "PWM"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "6",
+          "functions": [
+            "PWM"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "7",
+          "functions": [
+            "RX3",
+            "DOUT"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "8",
+          "functions": [
+            "TX3",
+            "DIN"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "9",
+          "functions": [
+            "RX2",
+            "CS",
+            "PWM"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "10",
+          "functions": [
+            "TX2",
+            "CS",
+            "PWM"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "11",
+          "functions": [
+            "DOUT"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "12",
+          "functions": [
+            "DIN"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "end-pads",
+      "name": "Right-end pads",
+      "image": "media/8e0f04945e94081bebfe3e7ef1695bfaca78d8ffe097e5351bb6dc58dea60df3.png",
+      "rows": 1,
+      "orderNote": "Vertical column perpendicular to the USB axis; started at the top (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A14/DAC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "Program",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "VBat",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "top-header-img2",
+      "name": "Top row through-holes (back view, board silkscreen)",
+      "image": "media/faf86dbdcad68cee2f0bc3172588ac82becb402f9c501dc55701a83e357584b5.png",
+      "rows": 1,
+      "orderNote": "USB connector on the right of this (back-side) image; started at the end closest to USB (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "AGND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "23",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "22",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "21",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "20",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "19",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "17",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "16",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "15",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "14",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "13",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-header-img2",
+      "name": "Bottom row through-holes (back view, board silkscreen)",
+      "image": "media/faf86dbdcad68cee2f0bc3172588ac82becb402f9c501dc55701a83e357584b5.png",
+      "rows": 1,
+      "orderNote": "USB connector on the right of this (back-side) image; started at the end closest to USB (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "0",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "1",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "2",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "4",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "5",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "6",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "7",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "8",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "9",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "10",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "11",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "12",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "end-pads-img2",
+      "name": "Left-end pads (back view)",
+      "image": "media/faf86dbdcad68cee2f0bc3172588ac82becb402f9c501dc55701a83e357584b5.png",
+      "rows": 1,
+      "orderNote": "Vertical column perpendicular to the USB axis; started at the top (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "DAC/A14",
+          "functions": [
+            "D"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "Program",
+          "functions": [
+            "P"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "3.3V",
+          "functions": [
+            "V"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "VBat",
+          "functions": [
+            "BAT"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "back-pads-upper-img2",
+      "name": "Upper row of back-side SMD pads",
+      "image": "media/faf86dbdcad68cee2f0bc3172588ac82becb402f9c501dc55701a83e357584b5.png",
+      "rows": 1,
+      "orderNote": "USB connector on the right of this (back-side) image; started at the end closest to USB (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A13",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": [
+            "3V"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "33",
+          "functions": [
+            "Touch"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "32",
+          "functions": [
+            "Touch",
+            "PWM"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "31",
+          "functions": [
+            "A20",
+            "TX2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "30",
+          "functions": [
+            "A19",
+            "SDA1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "29",
+          "functions": [
+            "A18",
+            "SCL1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "back-pads-lower-img2",
+      "name": "Lower row of back-side SMD pads",
+      "image": "media/faf86dbdcad68cee2f0bc3172588ac82becb402f9c501dc55701a83e357584b5.png",
+      "rows": 1,
+      "orderNote": "USB connector on the right of this (back-side) image; started at the end closest to USB (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A12",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "24",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "25",
+          "functions": [
+            "Touch",
+            "PWM"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "26",
+          "functions": [
+            "A15",
+            "RX2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "27",
+          "functions": [
+            "A16"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "28",
+          "functions": [
+            "A17"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inner-holes-img2",
+      "name": "Inner holes A11/A10/AREF",
+      "image": "media/faf86dbdcad68cee2f0bc3172588ac82becb402f9c501dc55701a83e357584b5.png",
+      "rows": 1,
+      "orderNote": "USB connector on the right of this (back-side) image; started at the end closest to USB (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "AREF",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "A10",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "A11",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "vusb-img2",
+      "name": "VUSB inner hole",
+      "image": "media/faf86dbdcad68cee2f0bc3172588ac82becb402f9c501dc55701a83e357584b5.png",
+      "rows": 1,
+      "orderNote": "Single point",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VUSB",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "reset-pad-img2",
+      "name": "Reset pad",
+      "image": "media/faf86dbdcad68cee2f0bc3172588ac82becb402f9c501dc55701a83e357584b5.png",
+      "rows": 1,
+      "orderNote": "Single point",
+      "pins": [
+        {
+          "position": 1,
+          "label": "Reset",
+          "functions": [
+            "RST"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "usb-signal-pads-img2",
+      "name": "USB signal pads",
+      "image": "media/faf86dbdcad68cee2f0bc3172588ac82becb402f9c501dc55701a83e357584b5.png",
+      "rows": 1,
+      "orderNote": "Vertical pair; started at the top (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D-",
+          "functions": [
+            "USB Signals"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D+",
+          "functions": [
+            "USB Signals"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "top-header-img2 position 1 (outermost top-row hole at the USB end) has no silkscreen label in the back view",
+    "top-header-img2 position 9: the silkscreen number is crossed by a callout arrow and cannot be read with confidence (looks like 13 or 18)"
+  ],
+  "uncertain": [],
+  "notes": "Image 1 is the front, image 2 the back of the same board; image-2 through-hole rows are the same physical holes as image 1, transcribed separately per rule 11 from board silkscreen. Back-side pads are mapped by the callout arrows. Gray (faded) alternate-function text recorded as printed. The pink TX/RX on pins 3/4 belong to the CAN Bus legend. Unlabeled inner holes near the USB connector in image 1 skipped (rule 1). Crystal/capacitor/coin-cell/VIN-cut callouts are not wiring points."
+}

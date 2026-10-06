@@ -1,0 +1,613 @@
+{
+  "recordId": "dfrobot-dfr0323",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/95081ce19f792bfc9e468805968b688579b5e5af44430ab0c33d61a430f0a061.webp",
+      "sha256": "95081ce19f792bfc9e468805968b688579b5e5af44430ab0c33d61a430f0a061"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "top-header-left",
+      "name": "Top header (SCL..8)",
+      "image": "media/95081ce19f792bfc9e468805968b688579b5e5af44430ab0c33d61a430f0a061.webp",
+      "rows": 1,
+      "orderNote": "USB port on the left edge; horizontal row started at the left end (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "AREF",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "12",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "11",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "10",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "9",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "8",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "top-header-pwm",
+      "name": "Top header PWM (7..0)",
+      "image": "media/95081ce19f792bfc9e468805968b688579b5e5af44430ab0c33d61a430f0a061.webp",
+      "rows": 1,
+      "orderNote": "USB port on the left edge; horizontal row started at the left end (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "7",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "6",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "5",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "4",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "2",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "1",
+          "functions": [
+            "TX0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "0",
+          "functions": [
+            "RX0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "top-header-comm",
+      "name": "Top communication header (14..21)",
+      "image": "media/95081ce19f792bfc9e468805968b688579b5e5af44430ab0c33d61a430f0a061.webp",
+      "rows": 1,
+      "orderNote": "USB port on the left edge; horizontal row started at the left end (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "14",
+          "functions": [
+            "TX3"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "15",
+          "functions": [
+            "RX3"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "16",
+          "functions": [
+            "TX2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "17",
+          "functions": [
+            "RX2"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "18",
+          "functions": [
+            "TX1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "19",
+          "functions": [
+            "RX1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "20",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "21",
+          "functions": [
+            "SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-double-header",
+      "name": "Right 2x18 digital header",
+      "image": "media/95081ce19f792bfc9e468805968b688579b5e5af44430ab0c33d61a430f0a061.webp",
+      "rows": 2,
+      "orderNote": "2xN, no position numbers: started at the top end (closest to USB); right column (outer, nearest right edge) first, alternating with left column",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "22",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "24",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "26",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "28",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "31",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "30",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "32",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "35",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "34",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "37",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "36",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "39",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "38",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "41",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "40",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "43",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "42",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "45",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "44",
+          "functions": []
+        },
+        {
+          "position": 27,
+          "label": "47",
+          "functions": []
+        },
+        {
+          "position": 28,
+          "label": "46",
+          "functions": []
+        },
+        {
+          "position": 29,
+          "label": "49",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "48",
+          "functions": []
+        },
+        {
+          "position": 31,
+          "label": "51",
+          "functions": []
+        },
+        {
+          "position": 32,
+          "label": "50",
+          "functions": []
+        },
+        {
+          "position": 33,
+          "label": "53",
+          "functions": []
+        },
+        {
+          "position": 34,
+          "label": "52",
+          "functions": []
+        },
+        {
+          "position": 35,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 36,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "power-header",
+      "name": "Power header",
+      "image": "media/95081ce19f792bfc9e468805968b688579b5e5af44430ab0c33d61a430f0a061.webp",
+      "rows": 1,
+      "orderNote": "USB port on the left edge; horizontal row started at the left end (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IOREF",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "analog-header-0-7",
+      "name": "Analog in header 0-7",
+      "image": "media/95081ce19f792bfc9e468805968b688579b5e5af44430ab0c33d61a430f0a061.webp",
+      "rows": 1,
+      "orderNote": "USB port on the left edge; horizontal row started at the left end (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "0",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "1",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "2",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "4",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "5",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "6",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "7",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "analog-header-8-15",
+      "name": "Analog in header 8-15",
+      "image": "media/95081ce19f792bfc9e468805968b688579b5e5af44430ab0c33d61a430f0a061.webp",
+      "rows": 1,
+      "orderNote": "USB port on the left edge; horizontal row started at the left end (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "8",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "9",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "10",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "11",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "12",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "13",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "14",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "15",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "upper-left-2x3",
+      "name": "Unlabeled 2x3 header near Bluetooth section",
+      "image": "media/95081ce19f792bfc9e468805968b688579b5e5af44430ab0c33d61a430f0a061.webp",
+      "rows": 2,
+      "orderNote": "2x3 horizontal, no numbers: left end (closest to USB) first, top row (outer) then bottom row, alternating",
+      "pins": [
+        {
+          "position": 1,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "?",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "center-2x3",
+      "name": "Unlabeled 2x3 header near MCU (ICSP position)",
+      "image": "media/95081ce19f792bfc9e468805968b688579b5e5af44430ab0c33d61a430f0a061.webp",
+      "rows": 2,
+      "orderNote": "2x3 vertical, no numbers: top end (closest to USB) first, right column then left, alternating",
+      "pins": [
+        {
+          "position": 1,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "?",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "top-header-left position 5: label partly hidden by the 'L Led' callout line (only a trailing '3' visible)",
+    "right-double-header right-column holes in rows 22, 24, 26, 28: no odd-number labels printed",
+    "right-double-header right-column hole in row 32: label hidden by callout line (only a trailing '3' visible)",
+    "power-header position 1: unlabeled hole",
+    "upper-left-2x3 and center-2x3: no per-pin labels"
+  ],
+  "notes": "Right double header: 5V row at top and GND row at bottom, both holes taking the row label; even numbers printed left, odd numbers right. Labels 38/39 and TX2/16 are crossed by callout lines but legible. 'GND' on the power header is printed between holes 6 and 7, both take it. Callout texts blurred and unused."
+}

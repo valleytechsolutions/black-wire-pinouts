@@ -1,0 +1,19 @@
+{
+  "recordId": "m5stack-expansion-module-llm-kit",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "no-connector-map",
+  "images": [
+    {
+      "file": "media/6bdb99d8d30cd11f5acb0e249c72af7a88e247753e048377fc58df8d6d1993bb.jpg",
+      "sha256": "6bdb99d8d30cd11f5acb0e249c72af7a88e247753e048377fc58df8d6d1993bb"
+    }
+  ],
+  "connectors": [],
+  "unreadable": [],
+  "uncertain": [
+    "UART selection pads were treated as configuration jumpers (like DIP switches), not wiring points; if they should count, they form a 2x4 pad block labeled TX G18/G7/G14/G10 and RX G17/G13/G6/G0 (top to bottom).",
+    "Board identity: the image shows only the Module LLM board itself (labelled M5 LLM); it does not show whatever else the Module LLM Kit includes, and the same image is attached to the plain Module LLM record."
+  ],
+  "notes": "Back view of the M5 Module LLM (AX630C) with a function block overlay. The 2x15 M-Bus header on the right has no pin labels in the image (only stray silkscreen fragments such as 5V/DSU partly hidden by the overlay). The labeled 'UART' block is a 2x4 set of selection jumper pads (TX: G18/G7/G14/G10, RX: G17/G13/G6/G0) with a table mapping them to CoreS3/Core2/Core pins (default G18/G17 on CoreS3, G13/G14 on Core2, G16/G17 on Core); it selects which bus pins carry UART rather than providing wiring points. No labeled physical pin positions, so no connector map."
+}

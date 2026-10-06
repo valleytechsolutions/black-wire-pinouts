@@ -1,0 +1,302 @@
+{
+ "recordId": "seeed-studio-esp32-xiao-esp32c6",
+ "pass": "a",
+ "date": "2026-10-05",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/15b3042d4a9fee23bc47a762607a95cc5f6386115896c8cf452a0a48533c15f1.png",
+   "sha256": "15b3042d4a9fee23bc47a762607a95cc5f6386115896c8cf452a0a48533c15f1"
+  },
+  {
+   "file": "media/1b91ef5a524472c379fcd251d20b6a9d71493a91cfc161ac032e9384499a045d.png",
+   "sha256": "1b91ef5a524472c379fcd251d20b6a9d71493a91cfc161ac032e9384499a045d"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "left-header",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "VBUS",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "D10",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "D9",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "D8",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "D7",
+     "functions": []
+    }
+   ],
+   "image": "media/15b3042d4a9fee23bc47a762607a95cc5f6386115896c8cf452a0a48533c15f1.png"
+  },
+  {
+   "id": "right-header",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "D0",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "D1",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "D2",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "D3",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "D4",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "D5",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "D6",
+     "functions": []
+    }
+   ],
+   "image": "media/15b3042d4a9fee23bc47a762607a95cc5f6386115896c8cf452a0a48533c15f1.png"
+  },
+  {
+   "id": "debug-pads",
+   "name": "debug-pads",
+   "rows": 2,
+   "orderNote": "USB top; alternating left/right, top to bottom; equally close to board edges.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "MTDO",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "MTDI",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "EN",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "MTCK",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "MTMS",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "3.3V",
+     "functions": [
+      "3V3"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "BOOT",
+     "functions": []
+    }
+   ],
+   "image": "media/15b3042d4a9fee23bc47a762607a95cc5f6386115896c8cf452a0a48533c15f1.png"
+  },
+  {
+   "id": "battery-pads",
+   "name": "battery-pads",
+   "rows": 1,
+   "orderNote": "USB centered above; left to right.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "BAT-",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "BAT+",
+     "functions": []
+    }
+   ],
+   "image": "media/15b3042d4a9fee23bc47a762607a95cc5f6386115896c8cf452a0a48533c15f1.png"
+  },
+  {
+   "id": "left-header-img2",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GPIO0",
+     "functions": [
+      "D0",
+      "ADC1 / A0",
+      "LP_GPIO0"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "GPIO1",
+     "functions": [
+      "D1",
+      "ADC1 / A1",
+      "LP_GPIO1"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GPIO2",
+     "functions": [
+      "D2",
+      "ADC1 / A2",
+      "LP_GPIO2"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GPIO21",
+     "functions": [
+      "D3"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GPIO22",
+     "functions": [
+      "D4",
+      "I2C_SDA"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GPIO23",
+     "functions": [
+      "D5",
+      "I2C_SCL"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GPIO16",
+     "functions": [
+      "D6",
+      "U0TXD"
+     ]
+    }
+   ],
+   "image": "media/1b91ef5a524472c379fcd251d20b6a9d71493a91cfc161ac032e9384499a045d.png"
+  },
+  {
+   "id": "right-header-img2",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "VBUS",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "3.3V-OUT",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GPIO18",
+     "functions": [
+      "D10",
+      "SPI_MOSI"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GPIO20",
+     "functions": [
+      "D9",
+      "SPI_MISO"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GPIO19",
+     "functions": [
+      "D8",
+      "SPI_SCK"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GPIO17",
+     "functions": [
+      "D7",
+      "U0RXD"
+     ]
+    }
+   ],
+   "image": "media/1b91ef5a524472c379fcd251d20b6a9d71493a91cfc161ac032e9384499a045d.png"
+  }
+ ],
+ "notes": "Buttons, LEDs and antenna/RF component callouts excluded.",
+ "unreadable": [],
+ "uncertain": []
+}

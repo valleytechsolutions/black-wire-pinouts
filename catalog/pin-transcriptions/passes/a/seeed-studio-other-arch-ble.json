@@ -1,0 +1,313 @@
+{
+  "recordId": "seeed-studio-other-arch-ble",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/626889300cefda52873385dace848c889f82576e7cb401cbf5ff458f240638e7.png",
+      "sha256": "626889300cefda52873385dace848c889f82576e7cb401cbf5ff458f240638e7"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-power-header",
+      "name": "Left upper header (power)",
+      "image": "media/626889300cefda52873385dace848c889f82576e7cb401cbf5ff458f240638e7.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; started at the end closest to the USB connector (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "p30",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-analog-header",
+      "name": "Left lower header (AnalogIn)",
+      "image": "media/626889300cefda52873385dace848c889f82576e7cb401cbf5ff458f240638e7.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; started at the end closest to the USB connector (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "p1",
+          "functions": [
+            "AnalogIn"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "p2",
+          "functions": [
+            "AnalogIn"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "p3",
+          "functions": [
+            "AnalogIn"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "p4",
+          "functions": [
+            "AnalogIn"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "p5",
+          "functions": [
+            "AnalogIn"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "p6",
+          "functions": [
+            "AnalogIn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-upper-header",
+      "name": "Right upper header",
+      "image": "media/626889300cefda52873385dace848c889f82576e7cb401cbf5ff458f240638e7.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; started at the end closest to the USB connector (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "p6",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "p5",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "p0",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "p29",
+          "functions": [
+            "SCK"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "p28",
+          "functions": [
+            "MISO"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "p25",
+          "functions": [
+            "MOSI"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "p24",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "p23",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "p15",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-lower-header",
+      "name": "Right lower header",
+      "image": "media/626889300cefda52873385dace848c889f82576e7cb401cbf5ff458f240638e7.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; started at the end closest to the USB connector (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "p14",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "p13",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "p12",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "p11",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "p10",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "p9",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "p8",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "p7",
+          "functions": [
+            "RXD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "center-header",
+      "name": "Center 2x6 header (RX/TX/SWD)",
+      "image": "media/626889300cefda52873385dace848c889f82576e7cb401cbf5ff458f240638e7.png",
+      "rows": 2,
+      "orderNote": "No pin numbers; 2xN rule: position 1 at the top (USB end) of the left column (nearer the board's left edge), then alternating left/right per row.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RX",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "p8",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "p7",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "SWDIO",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "SWDIO",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "SWCLK",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "SWCLK",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "center-header positions 10 and 11: row 5 right hole and row 6 left hole have no printed label (unlabeled)."
+  ],
+  "uncertain": [
+    "center-header: labels are printed per column (RX|p8, TX|p7, SWDIO|SWDIO, SWCLK|SWCLK), but rows 5 and 6 each carry only one label (GND on the left, 3V3 on the right); recorded the other hole as unlabeled '?' rather than applying the row label to both holes.",
+    "Eight 4-pin Grove-style connectors each carry two printed names (p11 p1, p29 p28, p12 p2, p25 p24, p13 p3, p23 p6, p14 p4, p15 p5) above the housing, not aligned to individual pins; the name-to-pin mapping and the other two pins are not shown, so they were not transcribed."
+  ],
+  "notes": "Illustrated Arch BLE pinout (Arduino-shaped board). 'AnalogIn' group box for p1-p6 recorded as a function on each pin. Unlabeled 2x3 header at the bottom edge skipped."
+}

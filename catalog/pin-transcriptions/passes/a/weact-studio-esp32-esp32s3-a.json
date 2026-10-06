@@ -1,0 +1,460 @@
+{
+  "recordId": "weact-studio-esp32-esp32s3-a",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/35ff0a996a12f265e804a98260f30f382fccd0dcdd2e7b7258eb9a8b890e7adf.jpg",
+      "sha256": "35ff0a996a12f265e804a98260f30f382fccd0dcdd2e7b7258eb9a8b890e7adf"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/35ff0a996a12f265e804a98260f30f382fccd0dcdd2e7b7258eb9a8b890e7adf.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at bottom (end closest to the two USB-C connectors).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5v",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO014",
+          "functions": [
+            "14",
+            "RTC GPIO14",
+            "ADC2_3",
+            "Touch14",
+            "FSPIDQS",
+            "FSPIWP"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO013",
+          "functions": [
+            "13",
+            "RTC GPIO13",
+            "ADC2_2",
+            "Touch13",
+            "FSPIQ",
+            "FSPIIO7",
+            "MISO"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO012",
+          "functions": [
+            "12",
+            "RTC GPIO12",
+            "ADC2_1",
+            "Touch12",
+            "FSPICLK",
+            "FSPIIO6",
+            "SCK"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO011",
+          "functions": [
+            "11",
+            "RTC GPIO11",
+            "ADC2_0",
+            "Touch11",
+            "FSPID",
+            "FSPIIO5",
+            "MOSI"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO010",
+          "functions": [
+            "10",
+            "RTC GPIO10",
+            "ADC1_9",
+            "Touch10",
+            "FSPICS0",
+            "FSPIIO4",
+            "SS"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO009",
+          "functions": [
+            "9",
+            "RTC GPIO9",
+            "ADC1_8",
+            "Touch9",
+            "FSPIHD",
+            "SCL"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO046",
+          "functions": [
+            "46",
+            "LOG"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO003",
+          "functions": [
+            "3",
+            "RTC GPIO3",
+            "ADC1_2",
+            "Touch3",
+            "JTAG"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO008",
+          "functions": [
+            "8",
+            "RTC GPIO8",
+            "ADC1_7",
+            "Touch8",
+            "SDA"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO018",
+          "functions": [
+            "18",
+            "RTC GPIO18",
+            "ADC2_7",
+            "RXD 1",
+            "CLK_OUT3"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO017",
+          "functions": [
+            "17",
+            "RTC GPIO17",
+            "ADC2_6",
+            "TXD 1"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO016",
+          "functions": [
+            "16",
+            "RTC GPIO16",
+            "ADC2_5",
+            "CTS 0",
+            "TXD 1",
+            "XTAL_32K_N"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO015",
+          "functions": [
+            "15",
+            "RTC GPIO15",
+            "ADC2_4",
+            "RTS 0",
+            "RXD 1",
+            "Touch12",
+            "XTAL_32K_P"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO007",
+          "functions": [
+            "7",
+            "RTC GPIO7",
+            "ADC1_6",
+            "Touch7"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO006",
+          "functions": [
+            "6",
+            "RTC GPIO6",
+            "ADC1_5",
+            "Touch6"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GPIO005",
+          "functions": [
+            "5",
+            "RTC GPIO5",
+            "ADC1_4",
+            "Touch5"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GPIO004",
+          "functions": [
+            "4",
+            "RTC GPIO4",
+            "ADC1_3",
+            "Touch4"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "3.3v",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "3.3v",
+          "functions": [
+            "3V3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/35ff0a996a12f265e804a98260f30f382fccd0dcdd2e7b7258eb9a8b890e7adf.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at bottom (end closest to the two USB-C connectors).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO019",
+          "functions": [
+            "19",
+            "RTC GPIO19",
+            "ADC2_8",
+            "USB_D-",
+            "RTS 1",
+            "CLK_OUT2",
+            "RXD 2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO020",
+          "functions": [
+            "20",
+            "RTC GPIO20",
+            "ADC2_9",
+            "USB_D+",
+            "CTS 1",
+            "CLK_OUT1",
+            "TXD 2"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO021",
+          "functions": [
+            "21",
+            "RTC GPIO21"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO047",
+          "functions": [
+            "47",
+            "SPICLK_P"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO048",
+          "functions": [
+            "48",
+            "SPICLK_N",
+            "RGB LED"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO045",
+          "functions": [
+            "45",
+            "VSPI",
+            "BUTTON"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO000",
+          "functions": [
+            "0",
+            "BOOT"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO035",
+          "functions": [
+            "35",
+            "SPIIO6",
+            "FSPID",
+            "MOSI OTG"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO036",
+          "functions": [
+            "36",
+            "SPIIO7",
+            "FSPICLK",
+            "SCK OTG"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO037",
+          "functions": [
+            "37",
+            "SPIDQS",
+            "FSPIQ",
+            "MISO OTG"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO038",
+          "functions": [
+            "38",
+            "FSPIWP"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO039",
+          "functions": [
+            "39",
+            "CLK_OUT3",
+            "MTCK"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO040",
+          "functions": [
+            "40",
+            "CLK_OUT2",
+            "MTDO"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO041",
+          "functions": [
+            "41",
+            "CLK_OUT1",
+            "MTDI"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO042",
+          "functions": [
+            "42",
+            "MTMS"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GPIO002",
+          "functions": [
+            "2",
+            "RTC GPIO2",
+            "ADC1_1",
+            "Touch2"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GPIO001",
+          "functions": [
+            "1",
+            "RTC GPIO1",
+            "ADC1_0",
+            "Touch1"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO044",
+          "functions": [
+            "Rx",
+            "44",
+            "CLK_OUT2",
+            "RXD 0"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "GPIO043",
+          "functions": [
+            "Tx",
+            "43",
+            "CLK_OUT1",
+            "TXD 0"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "Many labels contain zero vs letter O ambiguity in this font (GPIO0xx, RTC GPIO0x, TXD 0, RXD 0, RTS 0, CTS 0, ADC1_0, ADC2_0, FSPICS0, MTDO); read as 0 except MTDO.",
+    "Striped/hatched boxes RTS 0, CTS 0, TXD 1, RXD 1, CTS 1, RTS 1 are partially obscured by hatching; read best effort."
+  ],
+  "uncertain": [
+    "Board identity: image is titled 'WeAct ESP32 S3 DevKitC 1' (mischianti.org), record is 'ESP32S3-A'; may be the same board under another name.",
+    "Pinout labels '3.3v'/'5v' used as labels with silkscreen 3V3/5V in functions; the dark number boxes (e.g. '4', '43') duplicate silkscreen numbers."
+  ],
+  "notes": "Third-party pinout diagram. Label = GPIO name from magenta box spelled as printed (GPIO004 etc.)."
+}

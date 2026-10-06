@@ -1,0 +1,48 @@
+{
+  "recordId": "lilygo-esp32-t-motor",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [{"file": "media/4d8fc007b886d646ee6bd08857e06c3846b222ce578dcf961b3fdb5d983bdf24.jpg", "sha256": "4d8fc007b886d646ee6bd08857e06c3846b222ce578dcf961b3fdb5d983bdf24"}],
+  "connectors": [
+    {"id": "motor", "name": "MOTOR connector (top)", "image": "media/4d8fc007b886d646ee6bd08857e06c3846b222ce578dcf961b3fdb5d983bdf24.jpg", "rows": 1,
+     "orderNote": "No pin numbers and no USB connector visible; horizontal row numbered left to right as displayed",
+     "pins": [
+       {"position": 1, "label": "B+", "functions": []},
+       {"position": 2, "label": "B-", "functions": []},
+       {"position": 3, "label": "A-", "functions": []},
+       {"position": 4, "label": "A+", "functions": []}
+     ]},
+    {"id": "P1", "name": "POWER connector (right)", "image": "media/4d8fc007b886d646ee6bd08857e06c3846b222ce578dcf961b3fdb5d983bdf24.jpg", "rows": 1,
+     "orderNote": "No pin numbers and no USB connector visible; vertical row numbered top to bottom",
+     "pins": [
+       {"position": 1, "label": "V+", "functions": []},
+       {"position": 2, "label": "GND", "functions": []},
+       {"position": 3, "label": "COM", "functions": []},
+       {"position": 4, "label": "IO33", "functions": ["EN"]},
+       {"position": 5, "label": "IO25", "functions": ["Stp", "STP"]},
+       {"position": 6, "label": "IO32", "functions": ["Dir", "DIR"]}
+     ]},
+    {"id": "P2", "name": "OLED header (bottom)", "image": "media/4d8fc007b886d646ee6bd08857e06c3846b222ce578dcf961b3fdb5d983bdf24.jpg", "rows": 1,
+     "orderNote": "No pin numbers and no USB connector visible; horizontal row numbered left to right as displayed",
+     "pins": [
+       {"position": 1, "label": "IO21", "functions": ["SDA"]},
+       {"position": 2, "label": "IO22", "functions": ["SCL"]},
+       {"position": 3, "label": "VDD", "functions": []},
+       {"position": 4, "label": "GND", "functions": []}
+     ]},
+    {"id": "P3", "name": "Left-centre header (silkscreen only)", "image": "media/4d8fc007b886d646ee6bd08857e06c3846b222ce578dcf961b3fdb5d983bdf24.jpg", "rows": 1,
+     "orderNote": "No pin numbers and no USB connector visible; vertical row numbered top to bottom",
+     "pins": [
+       {"position": 1, "label": "TX", "functions": []},
+       {"position": 2, "label": "RX", "functions": []},
+       {"position": 3, "label": "IO0", "functions": []},
+       {"position": 4, "label": "EN", "functions": []},
+       {"position": 5, "label": "GND", "functions": []},
+       {"position": 6, "label": "VDD", "functions": []}
+     ]}
+  ],
+  "unreadable": ["P3 position 3 silkscreen 'IO0': final character O vs 0 cannot be told apart; recorded as 0"],
+  "uncertain": ["P2 pin labels taken from the callout boxes below the header; the board silkscreen next to P2 is rotated and blurry, so the callout-to-pad alignment (only GND has a leader line, to the rightmost square pad) is inferred from left-to-right order"],
+  "notes": "Skipped IO0/RST and B1-B3 buttons, the TMC2209 RX/TX callouts (internal signals, no pads shown) and the MT6816 encoder board SPI callouts (no individual pads labeled). P3 labels are silkscreen only (no callouts)."
+}

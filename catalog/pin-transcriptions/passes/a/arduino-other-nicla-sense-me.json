@@ -1,0 +1,572 @@
+{
+  "recordId": "arduino-other-nicla-sense-me",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/3d065f3347ef3f95f49dca150dc448f51823071758e15453ad52e2bd4989c251.png",
+      "sha256": "3d065f3347ef3f95f49dca150dc448f51823071758e15453ad52e2bd4989c251"
+    },
+    {
+      "file": "media/66b44b4290d1c8811242a30b964baef73f00cefafe77ace665c985084d21b59d.png",
+      "sha256": "66b44b4290d1c8811242a30b964baef73f00cefafe77ace665c985084d21b59d"
+    },
+    {
+      "file": "media/13996149d748d72edbc66f2602d403ac39455faca28263a81dc1bb9529995abb.png",
+      "sha256": "13996149d748d72edbc66f2602d403ac39455faca28263a81dc1bb9529995abb"
+    },
+    {
+      "file": "media/d825ed898fdd408ae3711db4f454b7b104f8c71b83c1367f7aa738c0285fc72d.png",
+      "sha256": "d825ed898fdd408ae3711db4f454b7b104f8c71b83c1367f7aa738c0285fc72d"
+    },
+    {
+      "file": "media/937879b1d2cefb1bbb5cfc1fae5c1f05601d867d7a8feff5e48df98f4e8a0a30.png",
+      "sha256": "937879b1d2cefb1bbb5cfc1fae5c1f05601d867d7a8feff5e48df98f4e8a0a30"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/3d065f3347ef3f95f49dca150dc448f51823071758e15453ad52e2bd4989c251.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB connector (gray tab) at bottom edge of image, start at end closest to USB (bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P0.24",
+          "functions": [
+            "GPIO0",
+            "GIPO0_EXT"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "P0.29",
+          "functions": [
+            "CS"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P0.27",
+          "functions": [
+            "COPI"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "P0.28",
+          "functions": [
+            "CIPO"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P0.11",
+          "functions": [
+            "SCLK"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "P0.30",
+          "functions": [
+            "A1",
+            "ADC2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "P0.02",
+          "functions": [
+            "A0",
+            "ADC1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/3d065f3347ef3f95f49dca150dc448f51823071758e15453ad52e2bd4989c251.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB connector (gray tab) at bottom edge of image, start at end closest to USB (bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P0.22",
+          "functions": [
+            "SDA1",
+            "SDA"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P0.23",
+          "functions": [
+            "SCL1",
+            "SCL"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P0.20",
+          "functions": [
+            "GPIO1/TX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P0.09",
+          "functions": [
+            "GPIO2/RX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "P0.10",
+          "functions": [
+            "GPIO3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "VDDIO_EXT",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "VIN_BQ25120",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "top-pads",
+      "name": "Top edge battery pads",
+      "image": "media/3d065f3347ef3f95f49dca150dc448f51823071758e15453ad52e2bd4989c251.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row, start at end closest to USB (left; same as left rule)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "NTC",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J1-img2",
+      "name": "J1 left header",
+      "image": "media/66b44b4290d1c8811242a30b964baef73f00cefafe77ace665c985084d21b59d.png",
+      "rows": 1,
+      "orderNote": "Pin numbers printed, in numeric order (1 at bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P0_24",
+          "functions": [
+            "5/LPIO0",
+            "LPIO0_EXT"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "P0_29",
+          "functions": [
+            "6/CS",
+            "CS"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P0_27",
+          "functions": [
+            "8/COPI",
+            "COPI"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "P0_28",
+          "functions": [
+            "7/CIPO",
+            "CIPO"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P0_11",
+          "functions": [
+            "9/SCLK",
+            "SCLK"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "P0_30",
+          "functions": [
+            "11/A1",
+            "ADC2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "P0_02",
+          "functions": [
+            "10/A0",
+            "ADC1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "J2-img2",
+      "name": "J2 right header",
+      "image": "media/66b44b4290d1c8811242a30b964baef73f00cefafe77ace665c985084d21b59d.png",
+      "rows": 1,
+      "orderNote": "Pin numbers printed, in numeric order (1 at bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P0_22",
+          "functions": [
+            "4/SDA1",
+            "SDA"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P0_23",
+          "functions": [
+            "3/SCL1",
+            "SCL"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P0_20",
+          "functions": [
+            "2/LPIO1/TX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P0_09",
+          "functions": [
+            "1/LPIO2/RX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "P0_10",
+          "functions": [
+            "0/LPIO3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "VDDIO_EXT",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "VIN_BQ25120",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J3-img2",
+      "name": "J3 battery pads",
+      "image": "media/66b44b4290d1c8811242a30b964baef73f00cefafe77ace665c985084d21b59d.png",
+      "rows": 1,
+      "orderNote": "Pin numbers printed (1, 2)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NTC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VBAT",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J1-img3",
+      "name": "J1 left header",
+      "image": "media/13996149d748d72edbc66f2602d403ac39455faca28263a81dc1bb9529995abb.png",
+      "rows": 1,
+      "orderNote": "Pin numbers printed, in numeric order (1 at bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P0_24",
+          "functions": [
+            "5/LPIO0",
+            "LPIO0_EXT",
+            "PWM"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "P0_29",
+          "functions": [
+            "6/CS",
+            "CS",
+            "PWM"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P0_27",
+          "functions": [
+            "8/COPI",
+            "COPI",
+            "PWM"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "P0_28",
+          "functions": [
+            "7/CIPO",
+            "CIPO",
+            "PWM"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P0_11",
+          "functions": [
+            "9/SCLK",
+            "SCLK",
+            "PWM"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "P0_30",
+          "functions": [
+            "11/A1",
+            "ADC2",
+            "PWM"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "P0_02",
+          "functions": [
+            "10/A0",
+            "ADC1",
+            "PWM"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "J2-img3",
+      "name": "J2 right header",
+      "image": "media/13996149d748d72edbc66f2602d403ac39455faca28263a81dc1bb9529995abb.png",
+      "rows": 1,
+      "orderNote": "Pin numbers printed, in numeric order (1 at bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P0_22",
+          "functions": [
+            "4/SDA1",
+            "SDA",
+            "PWM"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P0_23",
+          "functions": [
+            "3/SCL1",
+            "SCL",
+            "PWM"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P0_20",
+          "functions": [
+            "2/LPIO1/TX",
+            "PWM"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P0_09",
+          "functions": [
+            "1/LPIO2/RX",
+            "PWM"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "P0_10",
+          "functions": [
+            "0/LPIO3",
+            "PWM"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "VDDIO_EXT",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "VIN_BQ25120",
+          "functions": [
+            "IN"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "J3-img3",
+      "name": "J3 battery pads",
+      "image": "media/13996149d748d72edbc66f2602d403ac39455faca28263a81dc1bb9529995abb.png",
+      "rows": 1,
+      "orderNote": "Pin numbers printed (1, 2)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NTC",
+          "functions": [
+            "TS"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "VBAT",
+          "functions": [
+            "BAT"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-edge-pads-img4",
+      "name": "Bottom view left-edge debug pads",
+      "image": "media/d825ed898fdd408ae3711db4f454b7b104f8c71b83c1367f7aa738c0285fc72d.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB connector at bottom of bottom view, start at end closest to USB (bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SWDIO_BHI",
+          "functions": [
+            "JTAG DIO"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "SWDCLK_BHI",
+          "functions": [
+            "JTAG CLK"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "SWDIO_ANNA",
+          "functions": [
+            "SWDIO"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "SWDCLK_ANNA",
+          "functions": [
+            "SWDCLK"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "PA30",
+          "functions": [
+            "SWDIO_D11"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "+1V8",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "PA31",
+          "functions": [
+            "SWDCLK_D11"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Label = nRF52832 port name (P0.xx / P0_xx as printed per image). Image 1 prints \"GIPO0_EXT\" (typo kept). Image 3: PWM cells included as functions; BQ25120AYFPR pin names (IN, TS, BAT) connected to VIN_BQ25120/NTC/VBAT included as functions; IN/OUT power icons and D icons omitted; VDDIO_EXT note (\"To power the Nicla Sense ME using VDDIO_EXT, disable the LS/LDO pin of BQ25120AYFPR\") not included. Image 4: SAMD11 (PA31/PA30) and BHI260AP (JTAG CLK/DIO) names on bottom debug pads; the interleaved header holes in the bottom view are unlabeled and not transcribed. Image 5 (Test Points) shows only scattered labeled test points (BHI INT, BMP SCLK/SDI/SDO/CS, BME CS, FLASH CLK/D0-D3/CS, +3V3, USB D_P/D_N) with no row structure; not transcribed as connectors."
+}

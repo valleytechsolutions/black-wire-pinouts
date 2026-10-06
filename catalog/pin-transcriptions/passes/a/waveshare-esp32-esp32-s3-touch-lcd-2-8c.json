@@ -1,0 +1,174 @@
+{
+  "recordId": "waveshare-esp32-esp32-s3-touch-lcd-2-8c",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/93ff49d174fad1fa56f7df1cfa26b111a04f08b9c2c7c66f010df8b678eb1415.jpg",
+      "sha256": "93ff49d174fad1fa56f7df1cfa26b111a04f08b9c2c7c66f010df8b678eb1415"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "i2c",
+      "name": "I2C JST connector",
+      "image": "media/93ff49d174fad1fa56f7df1cfa26b111a04f08b9c2c7c66f010df8b678eb1415.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at end closest to the USB-C port (bottom as displayed)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO15",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO7",
+          "functions": [
+            "SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uart",
+      "name": "UART JST connector",
+      "image": "media/93ff49d174fad1fa56f7df1cfa26b111a04f08b9c2c7c66f010df8b678eb1415.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at end closest to the USB-C port (bottom as displayed)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO43",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO44",
+          "functions": [
+            "RXD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fpc-12pin",
+      "name": "12-pin expansion connector (second board view)",
+      "image": "media/93ff49d174fad1fa56f7df1cfa26b111a04f08b9c2c7c66f010df8b678eb1415.jpg",
+      "rows": 1,
+      "orderNote": "USB connector not visible in this view; started at top (rule 4 top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO0",
+          "functions": [
+            "GP0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO44",
+          "functions": [
+            "RXD"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO43",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO15",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO7",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO20",
+          "functions": [
+            "D+"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO19",
+          "functions": [
+            "D-"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "5V",
+          "functions": [
+            "VBus"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "GPIO0 / GP0 trailing O vs 0 indistinguishable, recorded as 0"
+  ],
+  "uncertain": [
+    "I2C and UART connectors: USB-C port is below-left of both, so bottom-first (GND) order used; top/left rule would reverse them",
+    "Both views are in the same image (two board renderings); 12-pin connector order uses only the lower view where USB-C is not visible",
+    "VBus(5V) callout vs '5V' silkscreen: label 5V with VBus in functions"
+  ],
+  "notes": "Callout format 'SCL(GPIO7)': GPIO name used as label, function name in functions."
+}

@@ -1,0 +1,311 @@
+{
+  "recordId": "lilygo-esp32-t3-tcxo",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/a36fd6c3f35a1b2e634934d42c2aa3d3e80df83ac331d0ae75c1f4c7799ffe11.jpg",
+      "sha256": "a36fd6c3f35a1b2e634934d42c2aa3d3e80df83ac331d0ae75c1f4c7799ffe11"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/a36fd6c3f35a1b2e634934d42c2aa3d3e80df83ac331d0ae75c1f4c7799ffe11.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; started at end closest to the USB-C connector (bottom).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G0I025",
+          "functions": [
+            "25",
+            "ADC2_8*",
+            "DAC2"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO4",
+          "functions": [
+            "04",
+            "ADC2_0",
+            "HSPI_HD",
+            "TOUCH0"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO0",
+          "functions": [
+            "00",
+            "ADC2_1",
+            "TOUCH1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO2",
+          "functions": [
+            "02",
+            "ADC2_2",
+            "HSPI_WP",
+            "TOUCH2"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO15",
+          "functions": [
+            "15",
+            "ADC2_3",
+            "HSPI_CS0",
+            "TOUCH3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO27",
+          "functions": [
+            "27",
+            "ADC2_10",
+            "TOUCH4"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO12",
+          "functions": [
+            "12",
+            "ADC2_5",
+            "TOUCH5"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO14",
+          "functions": [
+            "14",
+            "ADC2_6*",
+            "TOUCH6"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "G0I035",
+          "functions": [
+            "35",
+            "ADC1_7*"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "G0I034",
+          "functions": [
+            "34",
+            "ADC1_6*"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "RST",
+          "functions": [
+            "RST/EN"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO39",
+          "functions": [
+            "39",
+            "S_VN",
+            "ADC1_3*"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO36",
+          "functions": [
+            "36",
+            "S_VP",
+            "ADC1_0*"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/a36fd6c3f35a1b2e634934d42c2aa3d3e80df83ac331d0ae75c1f4c7799ffe11.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; started at end closest to the USB-C connector (bottom).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO26",
+          "functions": [
+            "26",
+            "ADC2_9*",
+            "DAC1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "IO33",
+          "functions": [
+            "LoRa1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "IO32",
+          "functions": [
+            "LoRa2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO19",
+          "functions": [
+            "19",
+            "V_SPI_Q",
+            "V0_CTS"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO23",
+          "functions": [
+            "23",
+            "V_SPI_D"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO22",
+          "functions": [
+            "22",
+            "SCL",
+            "V_SPI_WP"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO03",
+          "functions": [
+            "UART_RX",
+            "RXD",
+            "CLX2",
+            "U0_RXD"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO01",
+          "functions": [
+            "UART_TX",
+            "TXD",
+            "CLX3",
+            "U0_TXD"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO21",
+          "functions": [
+            "21",
+            "SDA",
+            "V_SPI_HD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qwiic-left",
+      "name": "Bottom-left QWIIC connector",
+      "image": "media/a36fd6c3f35a1b2e634934d42c2aa3d3e80df83ac331d0ae75c1f4c7799ffe11.jpg",
+      "rows": 1,
+      "orderNote": "Horizontal connector, no pin numbers; started at end closest to the USB-C connector (right end). Labels from board silkscreen.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "UART_RX",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "UART_TX",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "qwiic-right",
+      "name": "Bottom-middle QWIIC connector",
+      "image": "media/a36fd6c3f35a1b2e634934d42c2aa3d3e80df83ac331d0ae75c1f4c7799ffe11.jpg",
+      "rows": 1,
+      "orderNote": "Horizontal connector, no pin numbers; started at end closest to the USB-C connector (right end). Labels from board silkscreen.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO21",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IO22",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "Callout font does not distinguish O from 0: the pink labels printed like 'GOIO34', 'GOIO35', 'GOIO25' were recorded with 0 for the ambiguous characters (G0I034, G0I035, G0I025); 'UO_TXD', 'UO_RXD', 'VO_CTS' recorded as U0_TXD, U0_RXD, V0_CTS."
+  ],
+  "uncertain": [
+    "Left-header labels for pins 34, 35 and 25 are printed 'G?I?34' etc. (apparently a misprint of a GPIO prefix); because the string is not a literal IO/GPIO prefix the O/0 rule was applied character by character, giving G0I034/G0I035/G0I025. A reviewer may prefer GOIO34-style letters."
+  ],
+  "notes": "Image title: LILYGO T3 V3.0 TCXO ESP32 PINMAP (board silkscreen T3_V3.0). Header functions are the callout labels read outward from each pin (gray box first); board IOxx silkscreen is not repeated when it matches the callout. Right-header pins called out only as LoRa2/LoRa1 take their GPIO names from the board silkscreen (IO32/IO33). Silkscreen RST/EN, UART_TX, UART_RX listed first in functions. Solar input holder, JST-PH 2.0mm battery connector and IPEX antenna skipped. LoRa (MOSI 27, SCLK 5, CS 18, DIO 26, RST 23, MISO 19), OLED (SDA 21, SCL 22), TF card and LED IO25 assignments are on-board; TCXO enable IO12."
+}

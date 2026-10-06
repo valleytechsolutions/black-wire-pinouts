@@ -1,0 +1,131 @@
+{
+  "recordId": "m5stack-gpio-device-cardputer-adv",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/a42e191744a0ef12ed4a8e5b89623b384e1252fd5e6ebbaece763b8f78f96460.webp",
+      "sha256": "a42e191744a0ef12ed4a8e5b89623b384e1252fd5e6ebbaece763b8f78f96460"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "top-header",
+      "name": "2x7 expansion header (top edge)",
+      "image": "media/a42e191744a0ef12ed4a8e5b89623b384e1252fd5e6ebbaece763b8f78f96460.webp",
+      "rows": 2,
+      "orderNote": "No printed pin numbers; horizontal 2x7 header, started at the left end (closest to the USB-C connector on the left side); position 1 in the outer (top, board-edge) row, then alternating rows",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V IN",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G4",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "G6",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "5V OUT",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "G40",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "G8",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "G14",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "G9",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "G39",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "G13",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "G5",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "G15",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-port",
+      "name": "4-pin port (right edge)",
+      "image": "media/a42e191744a0ef12ed4a8e5b89623b384e1252fd5e6ebbaece763b8f78f96460.webp",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; vertical row, started at the end closest to the USB-C connector. The USB-C is on the opposite (left) side, slightly lower than this port, so the lower G1 end is nearest",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G1",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "G2",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "*5V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "top-header: the image is an illustrated diagram; the 2x7 label table is drawn at the header location but it is not certain the table cells correspond one-to-one with physical holes in this row/column arrangement."
+  ],
+  "notes": "Cardputer-Adv illustrated pin map. 2x7 header labels: top row G3 G4 G6 G40 G14 G39 G5; bottom row 5V IN, GND, 5V OUT, G8 SDA, G9 SCL, G13, G15. Right port printed GND, *5V, G2, G1 (asterisk printed on 5V, label copied as printed; no footnote for it is visible). 3.5mm headphone jack (GND, OUT_LR, HP_DET), USB-C (D-:G19, D+:G20), and internal peripheral assignments (ES8311, BMI270, TCA8418, LCD) are not physical wiring points and were skipped."
+}

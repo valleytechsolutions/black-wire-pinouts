@@ -1,0 +1,163 @@
+{
+  "recordId": "m5stack-esp32-stamp-c3-mate",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/b54c7d8b0c14b0f3eb5bd9c6c50ae4a75210cf3fcb9a973186e10ee981662e51.png",
+      "sha256": "b54c7d8b0c14b0f3eb5bd9c6c50ae4a75210cf3fcb9a973186e10ee981662e51"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left pad row",
+      "image": "media/b54c7d8b0c14b0f3eb5bd9c6c50ae4a75210cf3fcb9a973186e10ee981662e51.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at end closest to USB-C connector (bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G0",
+          "functions": [
+            "ADC"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "G1",
+          "functions": [
+            "ADC"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "G10",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "G8",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "G7",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "G6",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "G5",
+          "functions": [
+            "ADC"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "G4",
+          "functions": [
+            "ADC"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right pad row",
+      "image": "media/b54c7d8b0c14b0f3eb5bd9c6c50ae4a75210cf3fcb9a973186e10ee981662e51.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at end closest to USB-C connector (bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G19",
+          "functions": [
+            "D+"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "G18",
+          "functions": [
+            "D-"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "G9",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "G20",
+          "functions": [
+            "Rx0"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "G21",
+          "functions": [
+            "Tx0"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Board identity: the image is titled \"M5STAMP C3\" and shows the bare stamp module; nothing in the image identifies it as the \"Stamp-C3 Mate\" variant or shows whether that variant has a different header arrangement."
+  ],
+  "notes": "Image is titled \"M5STAMP C3\". Only the two labeled outer pad rows transcribed; unlabeled inner pads beside the USB-C connector skipped (rule 1). Each row ordered from its bottom (USB) end."
+}

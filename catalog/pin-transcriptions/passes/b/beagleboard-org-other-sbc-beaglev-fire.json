@@ -1,0 +1,759 @@
+{
+  "recordId": "beagleboard-org-other-sbc-beaglev-fire",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/357194878d150f55e41a20c11b9b97e1d1220db4590bc69bf759c7b9c9095a94.png",
+      "sha256": "357194878d150f55e41a20c11b9b97e1d1220db4590bc69bf759c7b9c9095a94"
+    },
+    {
+      "file": "media/7ef41f8c1536109fb748b334d0cd5c093bd14e5eb52acac85a5c72922dd0f6b3.png",
+      "sha256": "7ef41f8c1536109fb748b334d0cd5c093bd14e5eb52acac85a5c72922dd0f6b3"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "P8",
+      "name": "P8 cape header",
+      "image": "media/357194878d150f55e41a20c11b9b97e1d1220db4590bc69bf759c7b9c9095a94.png",
+      "rows": 2,
+      "orderNote": "Printed pin numbers 01-46 followed (odd = left column, even = right column)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": [
+            "P8.01"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "P8.02"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "HSIO6NB0",
+          "functions": [
+            "P8.03",
+            "V22",
+            "LED3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "HSIO6PB0",
+          "functions": [
+            "P8.04",
+            "W22",
+            "LED4"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "HSIO12NB0",
+          "functions": [
+            "P8.05",
+            "V19",
+            "LED5"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "HSIO12PB0",
+          "functions": [
+            "P8.06",
+            "V20",
+            "LED6"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "HSIO30NB0",
+          "functions": [
+            "P8.07",
+            "V15",
+            "LED7"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "HSIO30PB0",
+          "functions": [
+            "P8.08",
+            "V14",
+            "LED8"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "HSIO8NB0",
+          "functions": [
+            "P8.09",
+            "V21",
+            "LED9"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "HSIO8PB0",
+          "functions": [
+            "P8.10",
+            "W21",
+            "LED10"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "HSIO7NB0",
+          "functions": [
+            "P8.11",
+            "Y21",
+            "LED11"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "HSIO7PB0",
+          "functions": [
+            "P8.12",
+            "Y20",
+            "LED12"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO47PB1",
+          "functions": [
+            "P8.13",
+            "B10",
+            "LED13"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO47NB1",
+          "functions": [
+            "P8.14",
+            "B9",
+            "LED14"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "HSIO34NB0",
+          "functions": [
+            "P8.15",
+            "T12"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "HSIO34PB0",
+          "functions": [
+            "P8.16",
+            "U12"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "HSIO29PB0",
+          "functions": [
+            "P8.17",
+            "W13"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "HSIO15PB0",
+          "functions": [
+            "P8.18",
+            "T16"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "HSIO19NB0",
+          "functions": [
+            "P8.19",
+            "W18"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "HSIO15NB0",
+          "functions": [
+            "P8.20",
+            "R16"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "HSIO9PB0",
+          "functions": [
+            "P8.21",
+            "AA21"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "HSIO9NB0",
+          "functions": [
+            "P8.22",
+            "AA22"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "HSIO18PB0",
+          "functions": [
+            "P8.23",
+            "AB18"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "HSIO18NB0",
+          "functions": [
+            "P8.24",
+            "AA18"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "HSIO16PB0",
+          "functions": [
+            "P8.25",
+            "V17"
+          ]
+        },
+        {
+          "position": 26,
+          "label": "GPIO49NB1",
+          "functions": [
+            "P8.26",
+            "A12"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "GPIO49PB1",
+          "functions": [
+            "P8.27",
+            "A13"
+          ]
+        },
+        {
+          "position": 28,
+          "label": "GPIO51NB1",
+          "functions": [
+            "P8.28",
+            "B14"
+          ]
+        },
+        {
+          "position": 29,
+          "label": "GPIO51PB1",
+          "functions": [
+            "P8.29",
+            "B13"
+          ]
+        },
+        {
+          "position": 30,
+          "label": "GPIO50NB1",
+          "functions": [
+            "P8.30",
+            "D14"
+          ]
+        },
+        {
+          "position": 31,
+          "label": "GPIO50PB1",
+          "functions": [
+            "P8.31",
+            "D13"
+          ]
+        },
+        {
+          "position": 32,
+          "label": "GPIO53NB1",
+          "functions": [
+            "P8.32",
+            "B15"
+          ]
+        },
+        {
+          "position": 33,
+          "label": "GPIO53PB1",
+          "functions": [
+            "P8.33",
+            "A15"
+          ]
+        },
+        {
+          "position": 34,
+          "label": "GPIO52NB1",
+          "functions": [
+            "P8.34",
+            "C15"
+          ]
+        },
+        {
+          "position": 35,
+          "label": "GPIO52PB1",
+          "functions": [
+            "P8.35",
+            "C14"
+          ]
+        },
+        {
+          "position": 36,
+          "label": "GPIO37NB1",
+          "functions": [
+            "P8.36",
+            "B4"
+          ]
+        },
+        {
+          "position": 37,
+          "label": "GPIO37PB1",
+          "functions": [
+            "P8.37",
+            "C4"
+          ]
+        },
+        {
+          "position": 38,
+          "label": "GPIO3NB1",
+          "functions": [
+            "P8.38",
+            "C17"
+          ]
+        },
+        {
+          "position": 39,
+          "label": "GPIO3PB1",
+          "functions": [
+            "P8.39",
+            "B17"
+          ]
+        },
+        {
+          "position": 40,
+          "label": "GPIO5NB1",
+          "functions": [
+            "P8.40",
+            "B18"
+          ]
+        },
+        {
+          "position": 41,
+          "label": "GPIO5PB1",
+          "functions": [
+            "P8.41",
+            "A18"
+          ]
+        },
+        {
+          "position": 42,
+          "label": "GPIO36NB1",
+          "functions": [
+            "P8.42",
+            "D6"
+          ]
+        },
+        {
+          "position": 43,
+          "label": "GPIO36PB1",
+          "functions": [
+            "P8.43",
+            "D7"
+          ]
+        },
+        {
+          "position": 44,
+          "label": "GPIO42NB1",
+          "functions": [
+            "P8.44",
+            "D8"
+          ]
+        },
+        {
+          "position": 45,
+          "label": "GPIO42PB1",
+          "functions": [
+            "P8.45",
+            "D9"
+          ]
+        },
+        {
+          "position": 46,
+          "label": "GPIO4PB1",
+          "functions": [
+            "P8.46",
+            "D18"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P9-img2",
+      "name": "P9 cape header",
+      "image": "media/7ef41f8c1536109fb748b334d0cd5c093bd14e5eb52acac85a5c72922dd0f6b3.png",
+      "rows": 2,
+      "orderNote": "Printed pin numbers 01-46 followed (odd = left column, even = right column)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": [
+            "P9.01"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "P9.02"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "VCC_3V3",
+          "functions": [
+            "P9.03"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "VCC_3V3",
+          "functions": [
+            "P9.04"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "VDD_5V",
+          "functions": [
+            "P9.05"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "VDD_5V",
+          "functions": [
+            "P9.06"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "SYS_5V",
+          "functions": [
+            "P9.07"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "SYS_5V",
+          "functions": [
+            "P9.08"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "P9.09",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "SYS_RSTN",
+          "functions": [
+            "P9.10"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO38NB1",
+          "functions": [
+            "P9.11",
+            "B5"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO38PB1",
+          "functions": [
+            "P9.12",
+            "C5"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO2NB1",
+          "functions": [
+            "P9.13",
+            "D19"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO39PB1",
+          "functions": [
+            "P9.14",
+            "C6"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO40NB1",
+          "functions": [
+            "P9.15",
+            "A5"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO40PB1",
+          "functions": [
+            "P9.16",
+            "A6"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO44NB1",
+          "functions": [
+            "P9.17",
+            "C9"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GPIO44PB1",
+          "functions": [
+            "P9.18",
+            "C10"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GPIO45PB1",
+          "functions": [
+            "P9.19",
+            "A10"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO45NB1",
+          "functions": [
+            "P9.20",
+            "A11"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "GPIO43NB1",
+          "functions": [
+            "P9.21",
+            "B8"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "GPIO43PB1",
+          "functions": [
+            "P9.22",
+            "A8"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "GPIO48NB1",
+          "functions": [
+            "P9.23",
+            "C12"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "GPIO48PB1",
+          "functions": [
+            "P9.24",
+            "B12"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "GPIO41NB1",
+          "functions": [
+            "P9.25",
+            "B7"
+          ]
+        },
+        {
+          "position": 26,
+          "label": "GPIO41PB1",
+          "functions": [
+            "P9.26",
+            "A7"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "GPIO46NB1",
+          "functions": [
+            "P9.27",
+            "D11"
+          ]
+        },
+        {
+          "position": 28,
+          "label": "GPIO46PB1",
+          "functions": [
+            "P9.28",
+            "C11"
+          ]
+        },
+        {
+          "position": 29,
+          "label": "GPIO1PB1",
+          "functions": [
+            "P9.29",
+            "F17"
+          ]
+        },
+        {
+          "position": 30,
+          "label": "GPIO1NB1",
+          "functions": [
+            "P9.30",
+            "F16"
+          ]
+        },
+        {
+          "position": 31,
+          "label": "GPIO4NB1",
+          "functions": [
+            "P9.31",
+            "E18"
+          ]
+        },
+        {
+          "position": 32,
+          "label": "VDD_ADC",
+          "functions": [
+            "P9.32"
+          ]
+        },
+        {
+          "position": 33,
+          "label": "ADC_CH4",
+          "functions": [
+            "P9.33"
+          ]
+        },
+        {
+          "position": 34,
+          "label": "GND",
+          "functions": [
+            "P9.34"
+          ]
+        },
+        {
+          "position": 35,
+          "label": "ADC_CH6",
+          "functions": [
+            "P9.35"
+          ]
+        },
+        {
+          "position": 36,
+          "label": "ADC_CH5",
+          "functions": [
+            "P9.36"
+          ]
+        },
+        {
+          "position": 37,
+          "label": "ADC_CH2",
+          "functions": [
+            "P9.37"
+          ]
+        },
+        {
+          "position": 38,
+          "label": "ADC_CH3",
+          "functions": [
+            "P9.38"
+          ]
+        },
+        {
+          "position": 39,
+          "label": "ADC_CH0",
+          "functions": [
+            "P9.39"
+          ]
+        },
+        {
+          "position": 40,
+          "label": "ADC_CH1",
+          "functions": [
+            "P9.40"
+          ]
+        },
+        {
+          "position": 41,
+          "label": "GPIO0PB1",
+          "functions": [
+            "P9.41",
+            "E15"
+          ]
+        },
+        {
+          "position": 42,
+          "label": "GPIO0NB1",
+          "functions": [
+            "P9.42",
+            "E14"
+          ]
+        },
+        {
+          "position": 43,
+          "label": "GND",
+          "functions": [
+            "P9.43"
+          ]
+        },
+        {
+          "position": 44,
+          "label": "GND",
+          "functions": [
+            "P9.44"
+          ]
+        },
+        {
+          "position": 45,
+          "label": "GND",
+          "functions": [
+            "P9.45"
+          ]
+        },
+        {
+          "position": 46,
+          "label": "GND",
+          "functions": [
+            "P9.46"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Diagram views. Label = FPGA pin name / power / ADC name; functions = cape header pin name, FPGA pin number, user LED. P9.09 has only its cape header name printed, used as label. Zero drawn with a dot, distinguishable from letter O (HSIO = letter O)."
+}

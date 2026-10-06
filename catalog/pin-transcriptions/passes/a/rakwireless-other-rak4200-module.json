@@ -1,0 +1,128 @@
+{
+  "recordId": "rakwireless-other-rak4200-module",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/4b7433edf93b470a9d97b486da2322df910747d8e13eafb5bad65acaa15b5e5a.png",
+      "sha256": "4b7433edf93b470a9d97b486da2322df910747d8e13eafb5bad65acaa15b5e5a"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "edge-pads",
+      "name": "Castellated module pads",
+      "image": "media/4b7433edf93b470a9d97b486da2322df910747d8e13eafb5bad65acaa15b5e5a.png",
+      "rows": 1,
+      "orderNote": "Printed pad numbers 1-20 followed (left side top-down 1-12, right side bottom-up 13-20)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "UART2_RX",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "UART2_TX",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "UART2_DE",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "UART1_TX",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "UART1_RX",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "UART1_DE",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "SWDIO",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "SWCLK",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "I2C_SCL",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "I2C_SDA",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "RF",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "SPI_CLK",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "SPI_MISO",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "SPI_MOSI",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "MCU_NRST",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "VDD",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Board identity: the module artwork is printed 'RAK4200(H)' (FCC ID ...-RAK4200(H)); the record name has no (H) suffix, so this may be the H variant rather than the base module"
+  ],
+  "notes": "Module footprint; right side has a gap between pads 15 and 16 (no pads drawn there)."
+}

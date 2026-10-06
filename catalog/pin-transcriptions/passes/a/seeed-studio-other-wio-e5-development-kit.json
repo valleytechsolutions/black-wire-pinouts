@@ -1,0 +1,559 @@
+{
+  "recordId": "seeed-studio-other-wio-e5-development-kit",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/99b25bf0f6de8bed630cbb857eb8d1b29e73daa0b22d7fa8a5df1e5dce93f22e.png",
+      "sha256": "99b25bf0f6de8bed630cbb857eb8d1b29e73daa0b22d7fa8a5df1e5dce93f22e"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "top-header",
+      "name": "Top header (POWER IN / SPI / USART)",
+      "image": "media/99b25bf0f6de8bed630cbb857eb8d1b29e73daa0b22d7fa8a5df1e5dce93f22e.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; USB-C connector is on the left board edge, so position 1 is the end closest to it (left end).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VIN",
+          "functions": [
+            "BAT"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "5V",
+          "functions": [
+            "5V (EN)"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": [
+            "3V3 (EN)"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PA10",
+          "functions": [
+            "MOSI"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PB14",
+          "functions": [
+            "MISO"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PB9",
+          "functions": [
+            "NSS"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PB13",
+          "functions": [
+            "SCK"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PA0",
+          "functions": [
+            "D0"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PB5",
+          "functions": [
+            "D5"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "5V",
+          "functions": [
+            "5V (EN)"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "PA9",
+          "functions": [
+            "D9"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "PB10",
+          "functions": [
+            "D10"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "3V3",
+          "functions": [
+            "3V3 (EN)"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "PA2",
+          "functions": [
+            "TX2"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "PA3",
+          "functions": [
+            "RX2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spi-header",
+      "name": "SPI header",
+      "image": "media/99b25bf0f6de8bed630cbb857eb8d1b29e73daa0b22d7fa8a5df1e5dce93f22e.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; USB-C connector is on the left board edge, so position 1 is the end closest to it (left end).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "MOSI",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "MISO",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "NSS",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SCK",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "usart-header",
+      "name": "USART header",
+      "image": "media/99b25bf0f6de8bed630cbb857eb8d1b29e73daa0b22d7fa8a5df1e5dce93f22e.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; USB-C connector is on the left board edge, so position 1 is the end closest to it (left end).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "TX2",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RX2",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "iic-port-1",
+      "name": "IIC connector (left)",
+      "image": "media/99b25bf0f6de8bed630cbb857eb8d1b29e73daa0b22d7fa8a5df1e5dce93f22e.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; USB-C connector is on the left board edge, so position 1 is the end closest to it; vertical connector, bottom end is closer to the USB connector.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "iic-port-2",
+      "name": "IIC connector (middle)",
+      "image": "media/99b25bf0f6de8bed630cbb857eb8d1b29e73daa0b22d7fa8a5df1e5dce93f22e.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; USB-C connector is on the left board edge, so position 1 is the end closest to it; vertical connector, bottom end is closer to the USB connector.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "uart-port",
+      "name": "UART connector",
+      "image": "media/99b25bf0f6de8bed630cbb857eb8d1b29e73daa0b22d7fa8a5df1e5dce93f22e.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; USB-C connector is on the left board edge, so position 1 is the end closest to it; vertical connector, bottom end is closer to the USB connector.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RX",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "battery-connector",
+      "name": "Battery connector (+/-)",
+      "image": "media/99b25bf0f6de8bed630cbb857eb8d1b29e73daa0b22d7fa8a5df1e5dce93f22e.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; USB-C connector is on the left board edge, so position 1 is the end closest to it; vertical connector above the USB-C, so the lower (-) pin is closer.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "-",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "+",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "iic-header",
+      "name": "IIC header (red)",
+      "image": "media/99b25bf0f6de8bed630cbb857eb8d1b29e73daa0b22d7fa8a5df1e5dce93f22e.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; USB-C connector is on the left board edge, so position 1 is the end closest to it (left end).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SCL",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "usb-ttl-header",
+      "name": "USB -> TTL header",
+      "image": "media/99b25bf0f6de8bed630cbb857eb8d1b29e73daa0b22d7fa8a5df1e5dce93f22e.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; USB-C connector is on the left board edge, so position 1 is the end closest to it (left end).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RX",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "lpuart-header",
+      "name": "LPUART header",
+      "image": "media/99b25bf0f6de8bed630cbb857eb8d1b29e73daa0b22d7fa8a5df1e5dce93f22e.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; USB-C connector is on the left board edge, so position 1 is the end closest to it (left end).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RX",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "swd-header",
+      "name": "SWD/SWIM header",
+      "image": "media/99b25bf0f6de8bed630cbb857eb8d1b29e73daa0b22d7fa8a5df1e5dce93f22e.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; USB-C connector is on the left board edge, so position 1 is the end closest to it (left end).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SWDIO",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SWCLK",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "rs485-terminal",
+      "name": "RS485 screw terminal",
+      "image": "media/99b25bf0f6de8bed630cbb857eb8d1b29e73daa0b22d7fa8a5df1e5dce93f22e.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; USB-C connector is on the left board edge, so position 1 is the end closest to it; vertical terminal on the right edge, top (B) end is closer to the USB connector.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "B",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "A",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-header",
+      "name": "Bottom header (SWD/SWIM / IIC / UART / LPUART)",
+      "image": "media/99b25bf0f6de8bed630cbb857eb8d1b29e73daa0b22d7fa8a5df1e5dce93f22e.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; USB-C connector is on the left board edge, so position 1 is the end closest to it (left end).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VCC",
+          "functions": [
+            "MCU_VCC"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PA13",
+          "functions": [
+            "SWDIO"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA14",
+          "functions": [
+            "SWDLK"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "PA15",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PB15",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PB3",
+          "functions": [
+            "A3"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PB4",
+          "functions": [
+            "A4"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PB6",
+          "functions": [
+            "TX"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PB7",
+          "functions": [
+            "RX"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "PC1",
+          "functions": [
+            "TX1"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "PC0",
+          "functions": [
+            "RX1"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Board identity: the image is titled 'LoRa-E5 Dev Board Pinout' (module LoRa-E5-HF); the record is 'Wio-E5 Development Kit'. The image does not itself show that these are the same product.",
+    "Top header has an empty slot (no pad drawn) between D5/PB5 and GND, and the bottom header has one between A3/PB3 and A4/PB4; each strip is recorded as one connector without a position for the empty slot. Whether the slot is a physical hole (and whether each strip is one header or two) is not settled by the image."
+  ],
+  "notes": "Top/bottom header labels use the grey MCU port names (PA10, PB14...) as label per rule 5, with silkscreen/board names (MOSI, D0, TX2...) in functions; where no port name is printed (5V, 3V3, GND, RST) the silkscreen name is the label and the coloured tag (e.g. '5V (EN)', 'MCU_VCC') is in functions. Position 3 on the bottom header is printed 'SWDLK' (bottom header silkscreen and tag) while the blue SWD/SWIM header silkscreen prints 'SWCLK'; both recorded as printed. Skipped: two-pin jumpers (Power Test Pin, RS485 Enable(A4), Button Enable(D0), LED Enable(D5), 3V3 Enable(D9), 5V Enable(D10)) whose individual pins are not labeled, USB-C, antenna (SMA/u.FL), buttons, LEDs. Battery JST connector included because its pins are marked + and -."
+}

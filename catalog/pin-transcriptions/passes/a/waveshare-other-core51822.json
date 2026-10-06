@@ -1,0 +1,217 @@
+{
+  "recordId": "waveshare-other-core51822",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/d9e02e47519ebc95edb06523417b877eb92c4cb1cf7e15daf707aa1af07eff5f.jpg",
+      "sha256": "d9e02e47519ebc95edb06523417b877eb92c4cb1cf7e15daf707aa1af07eff5f"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left 2x9 header",
+      "image": "media/d9e02e47519ebc95edb06523417b877eb92c4cb1cf7e15daf707aa1af07eff5f.jpg",
+      "rows": 2,
+      "orderNote": "No pin numbers or USB; 2xN rule: position 1 = top of the outer (left, board-edge) column, alternating outer/inner top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "P21",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "P22",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "P23",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "P24",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "P25",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "P28",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "P29",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "P30",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "P00",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "P01",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "P02",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "P03",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "P04",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right 2x9 header",
+      "image": "media/d9e02e47519ebc95edb06523417b877eb92c4cb1cf7e15daf707aa1af07eff5f.jpg",
+      "rows": 2,
+      "orderNote": "No pin numbers or USB; 2xN rule: position 1 = top of the outer (right, board-edge) column, alternating outer/inner top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P20",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "P18",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "P19",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "P17",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "SWCLK",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "SWDIO",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "P16",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "P15",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "P14",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "P13",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "P12",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "P11",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "P10",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "P09",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "P08",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "P07",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "P06",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "P05",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Each 2x9 header is treated as one rows:2 connector; the 'outer' column was taken as the one nearer the left/right board edge. Square pads at the bottom of the inner columns were not used as pin-1 marks (rule 9)."
+  ],
+  "notes": "Photo of NRF51822 module board with pin callouts."
+}

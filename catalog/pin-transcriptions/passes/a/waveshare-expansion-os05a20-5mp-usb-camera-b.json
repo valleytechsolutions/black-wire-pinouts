@@ -1,0 +1,53 @@
+{
+  "recordId": "waveshare-expansion-os05a20-5mp-usb-camera-b",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/d185f5e9c7c53d1cf40c75bd574247b6fd1b07649399a570cea82025115567b8.jpg",
+      "sha256": "d185f5e9c7c53d1cf40c75bd574247b6fd1b07649399a570cea82025115567b8"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "usb-connector",
+      "name": "5-pin USB connector",
+      "image": "media/d185f5e9c7c53d1cf40c75bd574247b6fd1b07649399a570cea82025115567b8.jpg",
+      "rows": 1,
+      "orderNote": "Pin 1 and pin 5 marked on silkscreen ('1' at bottom, '5' at top); positions follow them",
+      "pins": [
+        {
+          "position": 1,
+          "label": "USB 5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "D-",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "D+",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "DGND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "DGND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Image shows no product name or variant marking; the (C) variant's image is visually identical, so it cannot confirm which camera variant is depicted."
+  ],
+  "notes": "Read from the callout lines: bottom pin (1) to 'USB 5V', then D-, D+, DGND, DGND at top (5). Board silkscreen marks 1.8V and 2.8V test points (skipped). SPOTPEAR watermark on photo."
+}

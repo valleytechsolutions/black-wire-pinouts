@@ -1,0 +1,1340 @@
+{
+ "recordId": "espressif-esp32-esp32-s3-devkitc-1",
+ "pass": "a",
+ "date": "2026-10-05",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/8e5671e714d017b110c4bbe40ffae93067070cde1805f471a79b15aa0d8275df.jpg",
+   "sha256": "8e5671e714d017b110c4bbe40ffae93067070cde1805f471a79b15aa0d8275df"
+  },
+  {
+   "file": "media/3237fd9183a10d686a5bdd2268e40fb6f5624526a85132e717b8ada8b5cbdf7b.jpg",
+   "sha256": "3237fd9183a10d686a5bdd2268e40fb6f5624526a85132e717b8ada8b5cbdf7b"
+  },
+  {
+   "file": "media/ba61b31fb9a494fa9ee67e512ad69260b9c1240b872626f791bc2b19a41d1d58.jpg",
+   "sha256": "ba61b31fb9a494fa9ee67e512ad69260b9c1240b872626f791bc2b19a41d1d58"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "left-header",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "USB at bottom; physical bottom-to-top order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": [
+      "G"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "5V0",
+     "functions": [
+      "5V"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GPIO14",
+     "functions": [
+      "14",
+      "RTC",
+      "TOUCH14",
+      "ADC2_3",
+      "FSPIDQS",
+      "SUBSPIWP",
+      "FSPIWP"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GPIO13",
+     "functions": [
+      "13",
+      "RTC",
+      "TOUCH13",
+      "ADC2_2",
+      "FSPIIO7",
+      "SUBSPIQ",
+      "FSPIQ"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GPIO12",
+     "functions": [
+      "12",
+      "RTC",
+      "TOUCH12",
+      "ADC2_1",
+      "FSPIIO6",
+      "SUBSPICLK",
+      "FSPICLK"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GPIO11",
+     "functions": [
+      "11",
+      "RTC",
+      "TOUCH11",
+      "ADC2_0",
+      "FSPIIO5",
+      "SUBSPID",
+      "FSPID"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GPIO10",
+     "functions": [
+      "10",
+      "RTC",
+      "TOUCH10",
+      "ADC1_9",
+      "FSPIIO4",
+      "SUBSPICS0",
+      "FSPICS0"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GPIO9",
+     "functions": [
+      "9",
+      "RTC",
+      "TOUCH9",
+      "ADC1_8",
+      "SUBSPIHD",
+      "FSPIHD"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GPIO46",
+     "functions": [
+      "46",
+      "LOG"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "GPIO3",
+     "functions": [
+      "3",
+      "RTC",
+      "TOUCH3",
+      "ADC1_2",
+      "JTAG"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "GPIO8",
+     "functions": [
+      "8",
+      "RTC",
+      "TOUCH8",
+      "ADC1_7"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "GPIO18",
+     "functions": [
+      "18",
+      "RTC",
+      "U1RXD",
+      "ADC2_7",
+      "CLK_OUT3"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "GPIO17",
+     "functions": [
+      "17",
+      "RTC",
+      "U1TXD",
+      "ADC2_6"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "GPIO16",
+     "functions": [
+      "16",
+      "RTC",
+      "U0CTS",
+      "ADC2_5",
+      "XTAL_32K_N"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "GPIO15",
+     "functions": [
+      "15",
+      "RTC",
+      "U0RTS",
+      "ADC2_4",
+      "XTAL_32K_P"
+     ]
+    },
+    {
+     "position": 16,
+     "label": "GPIO7",
+     "functions": [
+      "7",
+      "RTC",
+      "TOUCH7",
+      "ADC1_6"
+     ]
+    },
+    {
+     "position": 17,
+     "label": "GPIO6",
+     "functions": [
+      "6",
+      "RTC",
+      "TOUCH6",
+      "ADC1_5"
+     ]
+    },
+    {
+     "position": 18,
+     "label": "GPIO5",
+     "functions": [
+      "5",
+      "RTC",
+      "TOUCH5",
+      "ADC1_4"
+     ]
+    },
+    {
+     "position": 19,
+     "label": "GPIO4",
+     "functions": [
+      "4",
+      "RTC",
+      "TOUCH4",
+      "ADC1_3"
+     ]
+    },
+    {
+     "position": 20,
+     "label": "RST",
+     "functions": []
+    },
+    {
+     "position": 21,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 22,
+     "label": "3V3",
+     "functions": []
+    }
+   ],
+   "image": "media/8e5671e714d017b110c4bbe40ffae93067070cde1805f471a79b15aa0d8275df.jpg"
+  },
+  {
+   "id": "right-header",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "USB at bottom; physical bottom-to-top order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": [
+      "G"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": [
+      "G"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GPIO19",
+     "functions": [
+      "19",
+      "USB_D-",
+      "RTC",
+      "U1RTS",
+      "ADC2_8",
+      "CLK_OUT2"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GPIO20",
+     "functions": [
+      "20",
+      "USB_D+",
+      "RTC",
+      "U1CTS",
+      "ADC2_9",
+      "CLK_OUT1"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GPIO21",
+     "functions": [
+      "21",
+      "RTC"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GPIO47",
+     "functions": [
+      "47",
+      "SPICLK_P"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GPIO48",
+     "functions": [
+      "48",
+      "SPICLK_N",
+      "RGB_LED"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GPIO45",
+     "functions": [
+      "45",
+      "VSPI"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GPIO0",
+     "functions": [
+      "0",
+      "BOOT"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "GPIO35",
+     "functions": [
+      "35",
+      "SPIIO6",
+      "FSPID",
+      "SUBSPID"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "GPIO36",
+     "functions": [
+      "36",
+      "SPIIO7",
+      "FSPICLK",
+      "SUBSPICLK"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "GPIO37",
+     "functions": [
+      "37",
+      "SPIDQS",
+      "FSPIQ",
+      "SUBSPIQ"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "GPIO38",
+     "functions": [
+      "38",
+      "FSPIWP",
+      "SUBSPIWP"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "GPIO39",
+     "functions": [
+      "39",
+      "MTCK",
+      "CLK_OUT3",
+      "SUBSPICS1"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "GPIO40",
+     "functions": [
+      "40",
+      "MTDO",
+      "CLK_OUT2"
+     ]
+    },
+    {
+     "position": 16,
+     "label": "GPIO41",
+     "functions": [
+      "41",
+      "MTDI",
+      "CLK_OUT1"
+     ]
+    },
+    {
+     "position": 17,
+     "label": "GPIO42",
+     "functions": [
+      "42",
+      "MTMS"
+     ]
+    },
+    {
+     "position": 18,
+     "label": "GPIO2",
+     "functions": [
+      "2",
+      "RTC",
+      "TOUCH2",
+      "ADC1_1"
+     ]
+    },
+    {
+     "position": 19,
+     "label": "GPIO1",
+     "functions": [
+      "1",
+      "RTC",
+      "TOUCH1",
+      "ADC1_0"
+     ]
+    },
+    {
+     "position": 20,
+     "label": "GPIO44",
+     "functions": [
+      "RX",
+      "U0RXD",
+      "CLK_OUT2"
+     ]
+    },
+    {
+     "position": 21,
+     "label": "GPIO43",
+     "functions": [
+      "TX",
+      "U0TXD",
+      "CLK_OUT1"
+     ]
+    },
+    {
+     "position": 22,
+     "label": "GND",
+     "functions": [
+      "G"
+     ]
+    }
+   ],
+   "image": "media/8e5671e714d017b110c4bbe40ffae93067070cde1805f471a79b15aa0d8275df.jpg"
+  },
+  {
+   "id": "left-header-img2",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "USB at bottom; physical bottom-to-top order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": [
+      "G"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "5V0",
+     "functions": [
+      "5V"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GPIO14",
+     "functions": [
+      "14",
+      "RTC",
+      "TOUCH14",
+      "ADC2_3",
+      "FSPIDQS",
+      "SUBSPIWP",
+      "FSPIWP"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GPIO13",
+     "functions": [
+      "13",
+      "RTC",
+      "TOUCH13",
+      "ADC2_2",
+      "FSPIIO7",
+      "SUBSPIQ",
+      "FSPIQ"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GPIO12",
+     "functions": [
+      "12",
+      "RTC",
+      "TOUCH12",
+      "ADC2_1",
+      "FSPIIO6",
+      "SUBSPICLK",
+      "FSPICLK"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GPIO11",
+     "functions": [
+      "11",
+      "RTC",
+      "TOUCH11",
+      "ADC2_0",
+      "FSPIIO5",
+      "SUBSPID",
+      "FSPID"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GPIO10",
+     "functions": [
+      "10",
+      "RTC",
+      "TOUCH10",
+      "ADC1_9",
+      "FSPIIO4",
+      "SUBSPICS0",
+      "FSPICS0"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GPIO9",
+     "functions": [
+      "9",
+      "RTC",
+      "TOUCH9",
+      "ADC1_8",
+      "SUBSPIHD",
+      "FSPIHD"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GPIO46",
+     "functions": [
+      "46",
+      "LOG"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "GPIO3",
+     "functions": [
+      "3",
+      "RTC",
+      "TOUCH3",
+      "ADC1_2",
+      "JTAG"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "GPIO8",
+     "functions": [
+      "8",
+      "RTC",
+      "TOUCH8",
+      "ADC1_7"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "GPIO18",
+     "functions": [
+      "18",
+      "RTC",
+      "U1RXD",
+      "ADC2_7",
+      "CLK_OUT3"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "GPIO17",
+     "functions": [
+      "17",
+      "RTC",
+      "U1TXD",
+      "ADC2_6"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "GPIO16",
+     "functions": [
+      "16",
+      "RTC",
+      "U0CTS",
+      "ADC2_5",
+      "XTAL_32K_N"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "GPIO15",
+     "functions": [
+      "15",
+      "RTC",
+      "U0RTS",
+      "ADC2_4",
+      "XTAL_32K_P"
+     ]
+    },
+    {
+     "position": 16,
+     "label": "GPIO7",
+     "functions": [
+      "7",
+      "RTC",
+      "TOUCH7",
+      "ADC1_6"
+     ]
+    },
+    {
+     "position": 17,
+     "label": "GPIO6",
+     "functions": [
+      "6",
+      "RTC",
+      "TOUCH6",
+      "ADC1_5"
+     ]
+    },
+    {
+     "position": 18,
+     "label": "GPIO5",
+     "functions": [
+      "5",
+      "RTC",
+      "TOUCH5",
+      "ADC1_4"
+     ]
+    },
+    {
+     "position": 19,
+     "label": "GPIO4",
+     "functions": [
+      "4",
+      "RTC",
+      "TOUCH4",
+      "ADC1_3"
+     ]
+    },
+    {
+     "position": 20,
+     "label": "RST",
+     "functions": []
+    },
+    {
+     "position": 21,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 22,
+     "label": "3V3",
+     "functions": []
+    }
+   ],
+   "image": "media/3237fd9183a10d686a5bdd2268e40fb6f5624526a85132e717b8ada8b5cbdf7b.jpg"
+  },
+  {
+   "id": "right-header-img2",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "USB at bottom; physical bottom-to-top order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": [
+      "G"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": [
+      "G"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GPIO19",
+     "functions": [
+      "19",
+      "USB_D-",
+      "RTC",
+      "U1RTS",
+      "ADC2_8",
+      "CLK_OUT2"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GPIO20",
+     "functions": [
+      "20",
+      "USB_D+",
+      "RTC",
+      "U1CTS",
+      "ADC2_9",
+      "CLK_OUT1"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GPIO21",
+     "functions": [
+      "21",
+      "RTC"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GPIO47",
+     "functions": [
+      "47",
+      "SPICLK_P"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GPIO48",
+     "functions": [
+      "48",
+      "SPICLK_N"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GPIO45",
+     "functions": [
+      "45",
+      "VSPI"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GPIO0",
+     "functions": [
+      "0",
+      "BOOT"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "GPIO35",
+     "functions": [
+      "35",
+      "SPIIO6",
+      "FSPID",
+      "SUBSPID"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "GPIO36",
+     "functions": [
+      "36",
+      "SPIIO7",
+      "FSPICLK",
+      "SUBSPICLK"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "GPIO37",
+     "functions": [
+      "37",
+      "SPIDQS",
+      "FSPIQ",
+      "SUBSPIQ"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "GPIO38",
+     "functions": [
+      "38",
+      "FSPIWP",
+      "SUBSPIWP",
+      "RGB_LED"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "GPIO39",
+     "functions": [
+      "39",
+      "MTCK",
+      "CLK_OUT3",
+      "SUBSPICS1"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "GPIO40",
+     "functions": [
+      "40",
+      "MTDO",
+      "CLK_OUT2"
+     ]
+    },
+    {
+     "position": 16,
+     "label": "GPIO41",
+     "functions": [
+      "41",
+      "MTDI",
+      "CLK_OUT1"
+     ]
+    },
+    {
+     "position": 17,
+     "label": "GPIO42",
+     "functions": [
+      "42",
+      "MTMS"
+     ]
+    },
+    {
+     "position": 18,
+     "label": "GPIO2",
+     "functions": [
+      "2",
+      "RTC",
+      "TOUCH2",
+      "ADC1_1"
+     ]
+    },
+    {
+     "position": 19,
+     "label": "GPIO1",
+     "functions": [
+      "1",
+      "RTC",
+      "TOUCH1",
+      "ADC1_0"
+     ]
+    },
+    {
+     "position": 20,
+     "label": "GPIO44",
+     "functions": [
+      "RX",
+      "U0RXD",
+      "CLK_OUT2"
+     ]
+    },
+    {
+     "position": 21,
+     "label": "GPIO43",
+     "functions": [
+      "TX",
+      "U0TXD",
+      "CLK_OUT1"
+     ]
+    },
+    {
+     "position": 22,
+     "label": "GND",
+     "functions": [
+      "G"
+     ]
+    }
+   ],
+   "image": "media/3237fd9183a10d686a5bdd2268e40fb6f5624526a85132e717b8ada8b5cbdf7b.jpg"
+  },
+  {
+   "id": "left-header-img3",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "USB at bottom; physical bottom-to-top order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": [
+      "G"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "5v",
+     "functions": [
+      "5V"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GPIO14",
+     "functions": [
+      "14",
+      "RTC GPIO14",
+      "ADC2_3",
+      "Touch14",
+      "FSPIDQS",
+      "FSPIWP"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GPIO13",
+     "functions": [
+      "13",
+      "RTC GPIO13",
+      "ADC2_2",
+      "Touch13",
+      "FSPIQ",
+      "FSPIIO7",
+      "MISO"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GPIO12",
+     "functions": [
+      "12",
+      "RTC GPIO12",
+      "ADC2_1",
+      "Touch12",
+      "FSPICLK",
+      "FSPIIO6",
+      "SCK"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GPIO11",
+     "functions": [
+      "11",
+      "RTC GPIO11",
+      "ADC2_0",
+      "Touch11",
+      "FSPID",
+      "FSPIIO5",
+      "MOSI"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GPIO10",
+     "functions": [
+      "10",
+      "RTC GPIO10",
+      "ADC1_9",
+      "Touch10",
+      "FSPICS0",
+      "FSPIIO4",
+      "SS"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GPIO09",
+     "functions": [
+      "9",
+      "RTC GPIO9",
+      "ADC1_8",
+      "Touch9",
+      "FSPIHD",
+      "SCL"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GPIO46",
+     "functions": [
+      "46",
+      "LOG"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "GPIO03",
+     "functions": [
+      "3",
+      "RTC GPIO3",
+      "ADC1_2",
+      "Touch3",
+      "JTAG"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "GPIO08",
+     "functions": [
+      "8",
+      "RTC GPIO8",
+      "ADC1_7",
+      "Touch8",
+      "SDA"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "GPIO18",
+     "functions": [
+      "18",
+      "RTC GPIO18",
+      "ADC2_7",
+      "RXD 1",
+      "CLK_OUT3"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "GPIO17",
+     "functions": [
+      "17",
+      "RTC GPIO17",
+      "ADC2_6",
+      "TXD 1"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "GPIO16",
+     "functions": [
+      "16",
+      "RTC GPIO16",
+      "ADC2_5",
+      "CTS 0",
+      "TXD 1",
+      "XTAL_32K_N"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "GPIO15",
+     "functions": [
+      "15",
+      "RTC GPIO15",
+      "ADC2_4",
+      "RTS 0",
+      "RXD 1",
+      "Touch12",
+      "XTAL_32K_P"
+     ]
+    },
+    {
+     "position": 16,
+     "label": "GPIO07",
+     "functions": [
+      "7",
+      "RTC GPIO7",
+      "ADC1_6",
+      "Touch7"
+     ]
+    },
+    {
+     "position": 17,
+     "label": "GPIO06",
+     "functions": [
+      "6",
+      "RTC GPIO6",
+      "ADC1_5",
+      "Touch6"
+     ]
+    },
+    {
+     "position": 18,
+     "label": "GPIO05",
+     "functions": [
+      "5",
+      "RTC GPIO5",
+      "ADC1_4",
+      "Touch5"
+     ]
+    },
+    {
+     "position": 19,
+     "label": "GPIO04",
+     "functions": [
+      "4",
+      "RTC GPIO4",
+      "ADC1_3",
+      "Touch4"
+     ]
+    },
+    {
+     "position": 20,
+     "label": "RST",
+     "functions": []
+    },
+    {
+     "position": 21,
+     "label": "3.3v",
+     "functions": [
+      "3V3"
+     ]
+    },
+    {
+     "position": 22,
+     "label": "3.3v",
+     "functions": [
+      "3V3"
+     ]
+    }
+   ],
+   "image": "media/ba61b31fb9a494fa9ee67e512ad69260b9c1240b872626f791bc2b19a41d1d58.jpg"
+  },
+  {
+   "id": "right-header-img3",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "USB at bottom; physical bottom-to-top order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": [
+      "G"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": [
+      "G"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GPIO19",
+     "functions": [
+      "19",
+      "RTC GPIO19",
+      "ADC2_8",
+      "USB_D-",
+      "RTS 1",
+      "CLK_OUT2",
+      "RXD 2"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GPIO20",
+     "functions": [
+      "20",
+      "RTC GPIO20",
+      "ADC2_9",
+      "USB_D+",
+      "CTS 1",
+      "CLK_OUT1",
+      "TXD 2"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GPIO21",
+     "functions": [
+      "21",
+      "RTC GPIO21"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GPIO47",
+     "functions": [
+      "47",
+      "SPICLK_P"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GPIO48",
+     "functions": [
+      "48",
+      "SPICLK_N",
+      "RGB LED"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GPIO45",
+     "functions": [
+      "45",
+      "VSPI"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GPIO00",
+     "functions": [
+      "0",
+      "BOOT"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "GPIO35",
+     "functions": [
+      "35",
+      "SPIIO6",
+      "FSPID",
+      "MOSI OTG"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "GPIO36",
+     "functions": [
+      "36",
+      "SPIIO7",
+      "FSPICLK",
+      "SCK OTG"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "GPIO37",
+     "functions": [
+      "37",
+      "SPIDQS",
+      "FSPIQ",
+      "MISO OTG"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "GPIO38",
+     "functions": [
+      "38",
+      "FSPIWP",
+      "BUILTIN LED"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "GPIO39",
+     "functions": [
+      "39",
+      "CLK_OUT3",
+      "MTCK"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "GPIO40",
+     "functions": [
+      "40",
+      "CLK_OUT2",
+      "MTDO"
+     ]
+    },
+    {
+     "position": 16,
+     "label": "GPIO41",
+     "functions": [
+      "41",
+      "CLK_OUT1",
+      "MTDI"
+     ]
+    },
+    {
+     "position": 17,
+     "label": "GPIO42",
+     "functions": [
+      "42",
+      "MTMS"
+     ]
+    },
+    {
+     "position": 18,
+     "label": "GPIO02",
+     "functions": [
+      "2",
+      "RTC GPIO2",
+      "ADC1_1",
+      "Touch2"
+     ]
+    },
+    {
+     "position": 19,
+     "label": "GPIO01",
+     "functions": [
+      "1",
+      "RTC GPIO1",
+      "ADC1_0",
+      "Touch1"
+     ]
+    },
+    {
+     "position": 20,
+     "label": "GPIO44",
+     "functions": [
+      "RX",
+      "44",
+      "CLK_OUT2",
+      "RXD 0"
+     ]
+    },
+    {
+     "position": 21,
+     "label": "GPIO43",
+     "functions": [
+      "TX",
+      "43",
+      "CLK_OUT1",
+      "TXD 0"
+     ]
+    },
+    {
+     "position": 22,
+     "label": "GND",
+     "functions": [
+      "G"
+     ]
+    }
+   ],
+   "image": "media/ba61b31fb9a494fa9ee67e512ad69260b9c1240b872626f791bc2b19a41d1d58.jpg"
+  }
+ ],
+ "notes": "All three maps read separately; RGB_LED moves between GPIO48 and GPIO38 in the two reference drawings. Image-specific aliases retained, including Touch12 on GPIO15 in third image. Numeric aliases are GPIO/chip numbers, not physical positions. Symbols excluded.",
+ "unreadable": [],
+ "uncertain": []
+}

@@ -1,0 +1,596 @@
+{
+  "recordId": "pimoroni-rp2350-plasma-2350",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/6fd0c9f1d0cdd5072ee9ead1812fff3707d1cdf79957c7923790df9f81bd468c.png",
+      "sha256": "6fd0c9f1d0cdd5072ee9ead1812fff3707d1cdf79957c7923790df9f81bd468c"
+    },
+    {
+      "file": "media/cbf2e29f511e37f140288c7e1f8b051b8f6ad53538f55500a82fe3c314d4808c.png",
+      "sha256": "cbf2e29f511e37f140288c7e1f8b051b8f6ad53538f55500a82fe3c314d4808c"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-pads",
+      "name": "Left edge pads",
+      "image": "media/6fd0c9f1d0cdd5072ee9ead1812fff3707d1cdf79957c7923790df9f81bd468c.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at the end nearest the USB-C connector (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GP0",
+          "functions": [
+            "TX",
+            "0 RX",
+            "0 SDA",
+            "0 TX",
+            "0 A"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP1",
+          "functions": [
+            "RX",
+            "0 CSn",
+            "0 SCL",
+            "0 RX",
+            "0 B"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GP20",
+          "functions": [
+            "SDA",
+            "0 RX",
+            "0 SDA",
+            "1 TX",
+            "2 A"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP21",
+          "functions": [
+            "SCL",
+            "0 CSn",
+            "0 SCL",
+            "1 RX",
+            "2 B"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP19",
+          "functions": [
+            "INT",
+            "0 TX",
+            "1 SCL",
+            "0 RX",
+            "1 B"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GP26",
+          "functions": [
+            "A0",
+            "1 SCK",
+            "1 SDA",
+            "1 TX",
+            "5 A",
+            "0"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP27",
+          "functions": [
+            "A1",
+            "1 TX",
+            "1 SCL",
+            "1 RX",
+            "5 B",
+            "1"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP28",
+          "functions": [
+            "A2",
+            "1 RX",
+            "0 SDA",
+            "0 TX",
+            "6 A",
+            "2"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "SWCLK",
+          "functions": [
+            "SWC"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "SWDIO",
+          "functions": [
+            "SWD"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "qwst-connector",
+      "name": "QW/ST connector",
+      "image": "media/6fd0c9f1d0cdd5072ee9ead1812fff3707d1cdf79957c7923790df9f81bd468c.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at the end nearest the USB-C connector (left end, SCL).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SCL",
+          "functions": [
+            "0 SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "SDA",
+          "functions": [
+            "0 SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "spce-connector",
+      "name": "SP/CE connector",
+      "image": "media/6fd0c9f1d0cdd5072ee9ead1812fff3707d1cdf79957c7923790df9f81bd468c.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at the end nearest the USB-C connector (top, 5V).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GP9",
+          "functions": [
+            "CS",
+            "1 CSn",
+            "0 SCL",
+            "1 RX",
+            "4 B"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP10",
+          "functions": [
+            "SCK",
+            "1 SCK",
+            "1 SDA",
+            "1 TX",
+            "5 A"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP11",
+          "functions": [
+            "TX",
+            "1 TX",
+            "1 SCL",
+            "1 RX",
+            "5 B"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP8",
+          "functions": [
+            "RX",
+            "1 RX",
+            "0 SDA",
+            "1 TX",
+            "4 A"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP7",
+          "functions": [
+            "BL",
+            "0 TX",
+            "1 SCL",
+            "1 RX",
+            "3 B"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "screw-terminal",
+      "name": "LED screw terminal",
+      "image": "media/6fd0c9f1d0cdd5072ee9ead1812fff3707d1cdf79957c7923790df9f81bd468c.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at the end nearest the USB-C connector (right end, 5V; the USB-C sits slightly right of the terminal block's centre).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GP15",
+          "functions": [
+            "DAT",
+            "LED DATA (5V)"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP14",
+          "functions": [
+            "CLK",
+            "LED CLK (5V)"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-pads-img2",
+      "name": "Left edge pads",
+      "image": "media/cbf2e29f511e37f140288c7e1f8b051b8f6ad53538f55500a82fe3c314d4808c.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at the end nearest the USB-C connector (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GP0",
+          "functions": [
+            "TX",
+            "0 RX",
+            "0 SDA",
+            "0 TX",
+            "0 A"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP1",
+          "functions": [
+            "RX",
+            "0 CSn",
+            "0 SCL",
+            "0 RX",
+            "0 B"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GP20",
+          "functions": [
+            "SDA",
+            "0 RX",
+            "0 SDA",
+            "1 TX",
+            "2 A"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP21",
+          "functions": [
+            "SCL",
+            "0 CSn",
+            "0 SCL",
+            "1 RX",
+            "2 B"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP19",
+          "functions": [
+            "INT",
+            "0 TX",
+            "1 SCL",
+            "0 RX",
+            "1 B"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GP26",
+          "functions": [
+            "A0",
+            "1 SCK",
+            "1 SDA",
+            "1 TX",
+            "5 A",
+            "0"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP27",
+          "functions": [
+            "A1",
+            "1 TX",
+            "1 SCL",
+            "1 RX",
+            "5 B",
+            "1"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP28",
+          "functions": [
+            "A2",
+            "1 RX",
+            "0 SDA",
+            "0 TX",
+            "6 A",
+            "2"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "SWCLK",
+          "functions": [
+            "SWC"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "SWDIO",
+          "functions": [
+            "SWD"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "qwst-connector-img2",
+      "name": "QW/ST connector",
+      "image": "media/cbf2e29f511e37f140288c7e1f8b051b8f6ad53538f55500a82fe3c314d4808c.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at the end nearest the USB-C connector (left end, SCL).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SCL",
+          "functions": [
+            "0 SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "SDA",
+          "functions": [
+            "0 SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "spce-connector-img2",
+      "name": "SP/CE connector",
+      "image": "media/cbf2e29f511e37f140288c7e1f8b051b8f6ad53538f55500a82fe3c314d4808c.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at the end nearest the USB-C connector (top, 5V).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GP9",
+          "functions": [
+            "CS",
+            "1 CSn",
+            "0 SCL",
+            "1 RX",
+            "4 B"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP10",
+          "functions": [
+            "SCK",
+            "1 SCK",
+            "1 SDA",
+            "1 TX",
+            "5 A"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP11",
+          "functions": [
+            "TX",
+            "1 TX",
+            "1 SCL",
+            "1 RX",
+            "5 B"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP8",
+          "functions": [
+            "RX",
+            "1 RX",
+            "0 SDA",
+            "1 TX",
+            "4 A"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP7",
+          "functions": [
+            "BL",
+            "0 TX",
+            "1 SCL",
+            "1 RX",
+            "3 B"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "screw-terminal-img2",
+      "name": "LED screw terminal",
+      "image": "media/cbf2e29f511e37f140288c7e1f8b051b8f6ad53538f55500a82fe3c314d4808c.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at the end nearest the USB-C connector (right end, 5V; the USB-C sits slightly right of the terminal block's centre).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GP15",
+          "functions": [
+            "DAT",
+            "LED DATA (5V)"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP14",
+          "functions": [
+            "CLK",
+            "LED CLK (5V)"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Screw terminal: the USB-C connector is only slightly closer to the right (5V) end than the left (GND) end; order from the right end is a near-tie.",
+    "SP/CE connector: eight labels (5V, 3V3, CS, SCK, TX, RX, BL, GND) are listed beside the connector; the connector's individual contacts are not distinguishable, so the label-to-contact mapping assumes one label per contact in listed order."
+  ],
+  "notes": "Callout tokens recorded as printed with their leading peripheral/channel number, e.g. '0 SDA' = I2C0 SDA per the image key (column order SPI/PIO, I2C, UART, PWM, ADC); bare '0','1','2' on GP26-GP28 are the ADC column. Board-tag names (TX, SDA, A0, CS...) placed first in functions; SWC/SWD tags used as functions with callouts SWCLK/SWDIO as labels. Screw terminal GND silkscreen is a ground symbol. Buttons (RESET, BOOT/USER GP22, BTN A GP12) and RGB LED (GP16-18) skipped. Image 2 is the same diagram at lower resolution."
+}

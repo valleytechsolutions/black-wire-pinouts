@@ -1,0 +1,931 @@
+{
+  "recordId": "waveshare-esp32-esp32-s3-tiny",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/ca73c19d54de06bcbcf9a03c65a182e99ea4db90e6e13f8a5967614b0f31dd81.jpg",
+      "sha256": "ca73c19d54de06bcbcf9a03c65a182e99ea4db90e6e13f8a5967614b0f31dd81"
+    },
+    {
+      "file": "media/d6ba0edc0f5a3215e9526effc8765ba45bc7bb7f5127aec86521ff5ea1893834.jpg",
+      "sha256": "d6ba0edc0f5a3215e9526effc8765ba45bc7bb7f5127aec86521ff5ea1893834"
+    },
+    {
+      "file": "media/23a8bd9f469d612283eee8a5b0fc759965da5751f41a7830b0741988389eb675.webp",
+      "sha256": "23a8bd9f469d612283eee8a5b0fc759965da5751f41a7830b0741988389eb675"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left castellated pads (top view)",
+      "image": "media/ca73c19d54de06bcbcf9a03c65a182e99ea4db90e6e13f8a5967614b0f31dd81.jpg",
+      "rows": 1,
+      "orderNote": "No USB connector shown in this view; top/left rule: vertical rows start at the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3(OUT)",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP1",
+          "functions": [
+            "1"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP2",
+          "functions": [
+            "2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP3",
+          "functions": [
+            "3"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP4",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP5",
+          "functions": [
+            "5"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP6",
+          "functions": [
+            "6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-header",
+      "name": "Bottom-edge castellated pads (top view)",
+      "image": "media/ca73c19d54de06bcbcf9a03c65a182e99ea4db90e6e13f8a5967614b0f31dd81.jpg",
+      "rows": 1,
+      "orderNote": "No USB connector shown in this view; top/left rule: horizontal row starts at the left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP7",
+          "functions": [
+            "7"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP8",
+          "functions": [
+            "8"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP9",
+          "functions": [
+            "9"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP10",
+          "functions": [
+            "10"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP11",
+          "functions": [
+            "11"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right castellated pads (top view)",
+      "image": "media/ca73c19d54de06bcbcf9a03c65a182e99ea4db90e6e13f8a5967614b0f31dd81.jpg",
+      "rows": 1,
+      "orderNote": "No USB connector shown in this view; top/left rule: vertical rows start at the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "TX",
+          "functions": [
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "RX",
+          "functions": [
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP18",
+          "functions": [
+            "18"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP17",
+          "functions": [
+            "17"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP16",
+          "functions": [
+            "16"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP15",
+          "functions": [
+            "15"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP14",
+          "functions": [
+            "14"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP13",
+          "functions": [
+            "13"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP12",
+          "functions": [
+            "12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "back-left-pads",
+      "name": "Bottom-side inner left pad column (bottom view)",
+      "image": "media/ca73c19d54de06bcbcf9a03c65a182e99ea4db90e6e13f8a5967614b0f31dd81.jpg",
+      "rows": 1,
+      "orderNote": "No USB connector shown in this view; top/left rule: vertical rows start at the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP48",
+          "functions": [
+            "48"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP47",
+          "functions": [
+            "47"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP45",
+          "functions": [
+            "45"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP42",
+          "functions": [
+            "42"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP41",
+          "functions": [
+            "41"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP40",
+          "functions": [
+            "40"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP39",
+          "functions": [
+            "39"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "back-right-pads",
+      "name": "Bottom-side inner right pad column (bottom view)",
+      "image": "media/ca73c19d54de06bcbcf9a03c65a182e99ea4db90e6e13f8a5967614b0f31dd81.jpg",
+      "rows": 1,
+      "orderNote": "No USB connector shown in this view; top/left rule: vertical rows start at the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP21",
+          "functions": [
+            "21"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP33",
+          "functions": [
+            "33"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP34",
+          "functions": [
+            "34"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP35",
+          "functions": [
+            "35"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP36",
+          "functions": [
+            "36"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP37",
+          "functions": [
+            "37"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP38",
+          "functions": [
+            "38"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left castellated pads (top view)",
+      "image": "media/d6ba0edc0f5a3215e9526effc8765ba45bc7bb7f5127aec86521ff5ea1893834.jpg",
+      "rows": 1,
+      "orderNote": "No USB connector shown in this view; top/left rule: vertical rows start at the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3(OUT)",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP1",
+          "functions": [
+            "1"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP2",
+          "functions": [
+            "2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP3",
+          "functions": [
+            "3"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP4",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP5",
+          "functions": [
+            "5"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP6",
+          "functions": [
+            "6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-header-img2",
+      "name": "Bottom-edge castellated pads (top view)",
+      "image": "media/d6ba0edc0f5a3215e9526effc8765ba45bc7bb7f5127aec86521ff5ea1893834.jpg",
+      "rows": 1,
+      "orderNote": "No USB connector shown in this view; top/left rule: horizontal row starts at the left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP7",
+          "functions": [
+            "7"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP8",
+          "functions": [
+            "8"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP9",
+          "functions": [
+            "9"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP10",
+          "functions": [
+            "10"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP11",
+          "functions": [
+            "11"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Right castellated pads (top view)",
+      "image": "media/d6ba0edc0f5a3215e9526effc8765ba45bc7bb7f5127aec86521ff5ea1893834.jpg",
+      "rows": 1,
+      "orderNote": "No USB connector shown in this view; top/left rule: vertical rows start at the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "TX",
+          "functions": [
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "RX",
+          "functions": [
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP18",
+          "functions": [
+            "18"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP17",
+          "functions": [
+            "17"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP16",
+          "functions": [
+            "16"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP15",
+          "functions": [
+            "15"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP14",
+          "functions": [
+            "14"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP13",
+          "functions": [
+            "13"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP12",
+          "functions": [
+            "12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "back-left-pads-img2",
+      "name": "Bottom-side inner left pad column (bottom view)",
+      "image": "media/d6ba0edc0f5a3215e9526effc8765ba45bc7bb7f5127aec86521ff5ea1893834.jpg",
+      "rows": 1,
+      "orderNote": "No USB connector shown in this view; top/left rule: vertical rows start at the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP48",
+          "functions": [
+            "48"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP47",
+          "functions": [
+            "47"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP45",
+          "functions": [
+            "45"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP42",
+          "functions": [
+            "42"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP41",
+          "functions": [
+            "41"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP40",
+          "functions": [
+            "40"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP39",
+          "functions": [
+            "39"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "back-right-pads-img2",
+      "name": "Bottom-side inner right pad column (bottom view)",
+      "image": "media/d6ba0edc0f5a3215e9526effc8765ba45bc7bb7f5127aec86521ff5ea1893834.jpg",
+      "rows": 1,
+      "orderNote": "No USB connector shown in this view; top/left rule: vertical rows start at the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP21",
+          "functions": [
+            "21"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP33",
+          "functions": [
+            "33"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP34",
+          "functions": [
+            "34"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP35",
+          "functions": [
+            "35"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP36",
+          "functions": [
+            "36"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP37",
+          "functions": [
+            "37"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP38",
+          "functions": [
+            "38"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img3",
+      "name": "Left castellated pads (top view)",
+      "image": "media/23a8bd9f469d612283eee8a5b0fc759965da5751f41a7830b0741988389eb675.webp",
+      "rows": 1,
+      "orderNote": "No USB connector shown in this view; top/left rule: vertical rows start at the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3(OUT)",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP1",
+          "functions": [
+            "1"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP2",
+          "functions": [
+            "2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP3",
+          "functions": [
+            "3"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP4",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP5",
+          "functions": [
+            "5"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP6",
+          "functions": [
+            "6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-header-img3",
+      "name": "Bottom-edge castellated pads (top view)",
+      "image": "media/23a8bd9f469d612283eee8a5b0fc759965da5751f41a7830b0741988389eb675.webp",
+      "rows": 1,
+      "orderNote": "No USB connector shown in this view; top/left rule: horizontal row starts at the left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP7",
+          "functions": [
+            "7"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP8",
+          "functions": [
+            "8"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP9",
+          "functions": [
+            "9"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP10",
+          "functions": [
+            "10"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP11",
+          "functions": [
+            "11"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-img3",
+      "name": "Right castellated pads (top view)",
+      "image": "media/23a8bd9f469d612283eee8a5b0fc759965da5751f41a7830b0741988389eb675.webp",
+      "rows": 1,
+      "orderNote": "No USB connector shown in this view; top/left rule: vertical rows start at the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "TX",
+          "functions": [
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "RX",
+          "functions": [
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP18",
+          "functions": [
+            "18"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP17",
+          "functions": [
+            "17"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP16",
+          "functions": [
+            "16"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP15",
+          "functions": [
+            "15"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP14",
+          "functions": [
+            "14"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP13",
+          "functions": [
+            "13"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP12",
+          "functions": [
+            "12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "back-left-pads-img3",
+      "name": "Bottom-side inner left pad column (bottom view)",
+      "image": "media/23a8bd9f469d612283eee8a5b0fc759965da5751f41a7830b0741988389eb675.webp",
+      "rows": 1,
+      "orderNote": "No USB connector shown in this view; top/left rule: vertical rows start at the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP48",
+          "functions": [
+            "48"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP47",
+          "functions": [
+            "47"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP45",
+          "functions": [
+            "45"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP42",
+          "functions": [
+            "42"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP41",
+          "functions": [
+            "41"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP40",
+          "functions": [
+            "40"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP39",
+          "functions": [
+            "39"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "back-right-pads-img3",
+      "name": "Bottom-side inner right pad column (bottom view)",
+      "image": "media/23a8bd9f469d612283eee8a5b0fc759965da5751f41a7830b0741988389eb675.webp",
+      "rows": 1,
+      "orderNote": "No USB connector shown in this view; top/left rule: vertical rows start at the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP21",
+          "functions": [
+            "21"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP33",
+          "functions": [
+            "33"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP34",
+          "functions": [
+            "34"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP35",
+          "functions": [
+            "35"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP36",
+          "functions": [
+            "36"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP37",
+          "functions": [
+            "37"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP38",
+          "functions": [
+            "38"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Three copies of the same pinout: top view with castellated pads on left, bottom and right edges, and bottom view (silkscreen ESP32-S3-Tiny) with two inner columns of 7 labeled pads. Castellated edges in the bottom view are unlabeled there and duplicate the top-view pads, so they are not repeated. GP7/GP8 callouts on the left and GP9-GP11 on the right lead to bottom-edge pads silkscreened 7-11. Category-only tags (UART, PWM, I2S, ADC, I2C, SPI) omitted. Legend 'WS2812 RGB LED used pins GP38 DIN' is not tied to a pad and is noted here only."
+}

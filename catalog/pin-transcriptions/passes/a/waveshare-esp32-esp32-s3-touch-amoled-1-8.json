@@ -1,0 +1,412 @@
+{
+  "recordId": "waveshare-esp32-esp32-s3-touch-amoled-1-8",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/f4857cded4418d651fcce3d53b82443286458472b49886638e03d5f7eb7b896d.jpg",
+      "sha256": "f4857cded4418d651fcce3d53b82443286458472b49886638e03d5f7eb7b896d"
+    },
+    {
+      "file": "media/2f66b70063d76ca2a28cc61da6d55b36912ecfcf8a4e3594256ecca7030b8527.webp",
+      "sha256": "2f66b70063d76ca2a28cc61da6d55b36912ecfcf8a4e3594256ecca7030b8527"
+    },
+    {
+      "file": "media/62fb28d705823f4b683560a921a2f9433c9c862f9df9b76744d7f724d09c963b.jpg",
+      "sha256": "62fb28d705823f4b683560a921a2f9433c9c862f9df9b76744d7f724d09c963b"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/f4857cded4418d651fcce3d53b82443286458472b49886638e03d5f7eb7b896d.jpg",
+      "rows": 1,
+      "orderNote": "Vertical header; USB-C connector at bottom of board, so position 1 is the bottom (USB-nearest) end",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO42",
+          "functions": [
+            "IO42"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO41",
+          "functions": [
+            "IO41"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO40",
+          "functions": [
+            "IO40"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO39",
+          "functions": [
+            "IO39"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO38",
+          "functions": [
+            "IO38"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO18",
+          "functions": [
+            "IO18"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO17",
+          "functions": [
+            "IO17"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO15",
+          "functions": [
+            "SDA/IO15",
+            "SDA"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO14",
+          "functions": [
+            "SCL/IO14",
+            "SCL"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "RXD",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "TXD",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "VBUS",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "usb-pads",
+      "name": "Two pads beside header (IO19/IO20)",
+      "image": "media/f4857cded4418d651fcce3d53b82443286458472b49886638e03d5f7eb7b896d.jpg",
+      "rows": 1,
+      "orderNote": "Vertical header; USB-C connector at bottom of board, so position 1 is the bottom (USB-nearest) end; lower pad (IO19) is position 1",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO19",
+          "functions": [
+            "IO19",
+            "USB_N"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO20",
+          "functions": [
+            "IO20",
+            "USB_P"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left header",
+      "image": "media/2f66b70063d76ca2a28cc61da6d55b36912ecfcf8a4e3594256ecca7030b8527.webp",
+      "rows": 1,
+      "orderNote": "Vertical header; USB-C connector at bottom of board, so position 1 is the bottom (USB-nearest) end",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO42",
+          "functions": [
+            "IO42"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO41",
+          "functions": [
+            "IO41"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO40",
+          "functions": [
+            "IO40"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO39",
+          "functions": [
+            "IO39"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO38",
+          "functions": [
+            "IO38"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO18",
+          "functions": [
+            "IO18"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO17",
+          "functions": [
+            "IO17"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO15",
+          "functions": [
+            "SDA/IO15",
+            "SDA"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO14",
+          "functions": [
+            "SCL/IO14",
+            "SCL"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "RXD",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "TXD",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "VBUS",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "usb-pads-img2",
+      "name": "Two pads beside header (IO19/IO20)",
+      "image": "media/2f66b70063d76ca2a28cc61da6d55b36912ecfcf8a4e3594256ecca7030b8527.webp",
+      "rows": 1,
+      "orderNote": "Vertical header; USB-C connector at bottom of board, so position 1 is the bottom (USB-nearest) end; lower pad (IO19) is position 1",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO19",
+          "functions": [
+            "IO19",
+            "USB_N"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO20",
+          "functions": [
+            "IO20",
+            "USB_P"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img3",
+      "name": "Left header",
+      "image": "media/62fb28d705823f4b683560a921a2f9433c9c862f9df9b76744d7f724d09c963b.jpg",
+      "rows": 1,
+      "orderNote": "Vertical header; USB-C connector at bottom of board, so position 1 is the bottom (USB-nearest) end",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO42",
+          "functions": [
+            "IO42"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO41",
+          "functions": [
+            "IO41"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO40",
+          "functions": [
+            "IO40"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO39",
+          "functions": [
+            "IO39"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO38",
+          "functions": [
+            "IO38"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO18",
+          "functions": [
+            "IO18"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO17",
+          "functions": [
+            "IO17"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO15",
+          "functions": [
+            "SDA/IO15",
+            "SDA"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO14",
+          "functions": [
+            "SCL/IO14",
+            "SCL"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "RXD",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "TXD",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "VBUS",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "usb-pads-img3",
+      "name": "Two pads beside header (IO19/IO20)",
+      "image": "media/62fb28d705823f4b683560a921a2f9433c9c862f9df9b76744d7f724d09c963b.jpg",
+      "rows": 1,
+      "orderNote": "Vertical header; USB-C connector at bottom of board, so position 1 is the bottom (USB-nearest) end; lower pad (IO19) is position 1",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO19",
+          "functions": [
+            "IO19",
+            "USB_N"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO20",
+          "functions": [
+            "IO20",
+            "USB_P"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Three copies of the same back-view pinout (board silkscreen ESP32-S3-Touch-AMOLED-1.8). Silkscreen IOxx names recorded first in functions; callout GPIO names used as labels. The two separate pads to the right of the header are silkscreened IO19/IO20; callout lines map USB_P(GPIO20) to the upper pad and USB_N(GPIO19) to the lower pad. BAT and RTC connectors have only +/- marks and are skipped."
+}

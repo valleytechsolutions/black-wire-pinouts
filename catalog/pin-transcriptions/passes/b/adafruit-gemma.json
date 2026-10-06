@@ -1,0 +1,85 @@
+{
+  "recordId": "adafruit-gemma",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/075ded35d15516b53daf83656c216f95548f37c5428c6bdf9a459ffb8b38e044.png",
+      "sha256": "075ded35d15516b53daf83656c216f95548f37c5428c6bdf9a459ffb8b38e044"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-pads",
+      "name": "Left sew-on pads",
+      "image": "media/075ded35d15516b53daf83656c216f95548f37c5428c6bdf9a459ffb8b38e044.png",
+      "rows": 1,
+      "orderNote": "USB connector at top of image; vertical column of pads started at the end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PB2",
+          "functions": [
+            "2",
+            "INT0/PCINT2",
+            "SCL",
+            "SCK",
+            "A1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PB0",
+          "functions": [
+            "0",
+            "PCINT0",
+            "OC0A/!OC1A",
+            "SDA",
+            "MOSI"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": [
+            "150mA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-pads",
+      "name": "Right sew-on pads",
+      "image": "media/075ded35d15516b53daf83656c216f95548f37c5428c6bdf9a459ffb8b38e044.png",
+      "rows": 1,
+      "orderNote": "USB connector at top of image; vertical column of pads started at the end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "PB1",
+          "functions": [
+            "1",
+            "PCINT1",
+            "OC0B/OC1A",
+            "MISO"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "Vout",
+          "functions": [
+            "MAX of USB or BAT+"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Round board; the six edge pads form a left and right column of three. Battery JST connector unlabeled per pin, skipped. Board-render silkscreen (D2/A1, D0~, 3Vo, D1~, Vout) not transcribed separately (diagram name boxes used)."
+}

@@ -1,0 +1,1701 @@
+{
+  "recordId": "waveshare-esp32-esp32-c6-dev-kit-n8",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/bb915ef09d941df55ac3fbfc7d73647a2c6e4ab7af9f53772b95105fe457cf44.jpg",
+      "sha256": "bb915ef09d941df55ac3fbfc7d73647a2c6e4ab7af9f53772b95105fe457cf44"
+    },
+    {
+      "file": "media/a888a269f80b332d1a55b793ede156d63a60e6ba85edc6879c67efd1914758e5.webp",
+      "sha256": "a888a269f80b332d1a55b793ede156d63a60e6ba85edc6879c67efd1914758e5"
+    },
+    {
+      "file": "media/dafce72e4ab1db0f938d784a9cf1acf80a0e2c136f60ad801b7be8ef93839801.png",
+      "sha256": "dafce72e4ab1db0f938d784a9cf1acf80a0e2c136f60ad801b7be8ef93839801"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/bb915ef09d941df55ac3fbfc7d73647a2c6e4ab7af9f53772b95105fe457cf44.jpg",
+      "rows": 2,
+      "orderNote": "No printed pin numbers; USB-C at bottom, so position 1 is the bottom (NC) row nearest USB. Each printed row has two holes (2x16): odd positions = outer (board-edge) hole, even = inner hole; both take the row label.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO3",
+          "functions": [
+            "3",
+            "LP_GPIO3",
+            "LP_UART_CTSN",
+            "ADC1_CH3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO3",
+          "functions": [
+            "3",
+            "LP_GPIO3",
+            "LP_UART_CTSN",
+            "ADC1_CH3"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO2",
+          "functions": [
+            "2",
+            "LP_GPIO2",
+            "LP_UART_RTSN",
+            "ADC1_CH2",
+            "FSPIQ"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO2",
+          "functions": [
+            "2",
+            "LP_GPIO2",
+            "LP_UART_RTSN",
+            "ADC1_CH2",
+            "FSPIQ"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO11",
+          "functions": [
+            "11"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO11",
+          "functions": [
+            "11"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO10",
+          "functions": [
+            "10"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO10",
+          "functions": [
+            "10"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO8",
+          "functions": [
+            "8",
+            "BOOT",
+            "ROM",
+            "RGB LED"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO8",
+          "functions": [
+            "8",
+            "BOOT",
+            "ROM",
+            "RGB LED"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO1",
+          "functions": [
+            "1",
+            "XTAL_32K_N",
+            "LP_GPIO1",
+            "LP_UART_DSRN",
+            "ADC1_CH1"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GPIO1",
+          "functions": [
+            "1",
+            "XTAL_32K_N",
+            "LP_GPIO1",
+            "LP_UART_DSRN",
+            "ADC1_CH1"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GPIO0",
+          "functions": [
+            "0",
+            "XTAL_32K_P",
+            "LP_GPIO0",
+            "LP_UART_DTRN",
+            "ADC1_CH0"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO0",
+          "functions": [
+            "0",
+            "XTAL_32K_P",
+            "LP_GPIO0",
+            "LP_UART_DTRN",
+            "ADC1_CH0"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "GPIO7",
+          "functions": [
+            "7",
+            "MTDO",
+            "LP_GPIO7",
+            "LP_I2C_SCL",
+            "FSPID"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "GPIO7",
+          "functions": [
+            "7",
+            "MTDO",
+            "LP_GPIO7",
+            "LP_I2C_SCL",
+            "FSPID"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "GPIO6",
+          "functions": [
+            "6",
+            "MTCK",
+            "LP_GPIO6",
+            "LP_I2C_SDA",
+            "ADC1_CH6",
+            "FSPICLK"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "GPIO6",
+          "functions": [
+            "6",
+            "MTCK",
+            "LP_GPIO6",
+            "LP_I2C_SDA",
+            "ADC1_CH6",
+            "FSPICLK"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "GPIO5",
+          "functions": [
+            "5",
+            "MTDI",
+            "LP_GPIO5",
+            "LP_UART_TXD",
+            "ADC1_CH5",
+            "FSPIWP",
+            "SDIO"
+          ]
+        },
+        {
+          "position": 26,
+          "label": "GPIO5",
+          "functions": [
+            "5",
+            "MTDI",
+            "LP_GPIO5",
+            "LP_UART_TXD",
+            "ADC1_CH5",
+            "FSPIWP",
+            "SDIO"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "GPIO4",
+          "functions": [
+            "4",
+            "MTMS",
+            "LP_GPIO4",
+            "LP_UART_RXD",
+            "ADC1_CH4",
+            "FSPIHD",
+            "SDIO"
+          ]
+        },
+        {
+          "position": 28,
+          "label": "GPIO4",
+          "functions": [
+            "4",
+            "MTMS",
+            "LP_GPIO4",
+            "LP_UART_RXD",
+            "ADC1_CH4",
+            "FSPIHD",
+            "SDIO"
+          ]
+        },
+        {
+          "position": 29,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 31,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 32,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/bb915ef09d941df55ac3fbfc7d73647a2c6e4ab7af9f53772b95105fe457cf44.jpg",
+      "rows": 2,
+      "orderNote": "No printed pin numbers; USB-C at bottom, so position 1 is the bottom (NC) row nearest USB. Each printed row has two holes (2x16): odd positions = outer (board-edge) hole, even = inner hole; both take the row label.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO12",
+          "functions": [
+            "12",
+            "USB_D-"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO12",
+          "functions": [
+            "12",
+            "USB_D-"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO13",
+          "functions": [
+            "13",
+            "USB_D+"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO13",
+          "functions": [
+            "13",
+            "USB_D+"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO9",
+          "functions": [
+            "9",
+            "BOOT"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO9",
+          "functions": [
+            "9",
+            "BOOT"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO18",
+          "functions": [
+            "18",
+            "SDIO_CMD",
+            "FSPICS2"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO18",
+          "functions": [
+            "18",
+            "SDIO_CMD",
+            "FSPICS2"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO19",
+          "functions": [
+            "19",
+            "SDIO_CLK",
+            "FSPICS3"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO19",
+          "functions": [
+            "19",
+            "SDIO_CLK",
+            "FSPICS3"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO20",
+          "functions": [
+            "20",
+            "SDIO_DATA0",
+            "FSPICS4"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GPIO20",
+          "functions": [
+            "20",
+            "SDIO_DATA0",
+            "FSPICS4"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GPIO21",
+          "functions": [
+            "21",
+            "SDIO_DATA1",
+            "FSPICS5"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO21",
+          "functions": [
+            "21",
+            "SDIO_DATA1",
+            "FSPICS5"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "GPIO22",
+          "functions": [
+            "22",
+            "SDIO_DATA2"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "GPIO22",
+          "functions": [
+            "22",
+            "SDIO_DATA2"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "GPIO23",
+          "functions": [
+            "23",
+            "SDIO_DATA3"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "GPIO23",
+          "functions": [
+            "23",
+            "SDIO_DATA3"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "GPIO15",
+          "functions": [
+            "15",
+            "JTAG"
+          ]
+        },
+        {
+          "position": 26,
+          "label": "GPIO15",
+          "functions": [
+            "15",
+            "JTAG"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "GPIO17",
+          "functions": [
+            "RX",
+            "U0RXD",
+            "FSPICS1"
+          ]
+        },
+        {
+          "position": 28,
+          "label": "GPIO17",
+          "functions": [
+            "RX",
+            "U0RXD",
+            "FSPICS1"
+          ]
+        },
+        {
+          "position": 29,
+          "label": "GPIO16",
+          "functions": [
+            "TX",
+            "U0TXD",
+            "FSPICS0"
+          ]
+        },
+        {
+          "position": 30,
+          "label": "GPIO16",
+          "functions": [
+            "TX",
+            "U0TXD",
+            "FSPICS0"
+          ]
+        },
+        {
+          "position": 31,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 32,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left header",
+      "image": "media/a888a269f80b332d1a55b793ede156d63a60e6ba85edc6879c67efd1914758e5.webp",
+      "rows": 2,
+      "orderNote": "No printed pin numbers; USB-C at bottom, so position 1 is the bottom (NC) row nearest USB. Each printed row has two holes (2x16): odd positions = outer (board-edge) hole, even = inner hole; both take the row label.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO3",
+          "functions": [
+            "3",
+            "LP_GPIO3",
+            "LP_UART_CTSN",
+            "ADC1_CH3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO3",
+          "functions": [
+            "3",
+            "LP_GPIO3",
+            "LP_UART_CTSN",
+            "ADC1_CH3"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO2",
+          "functions": [
+            "2",
+            "LP_GPIO2",
+            "LP_UART_RTSN",
+            "ADC1_CH2",
+            "FSPIQ"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO2",
+          "functions": [
+            "2",
+            "LP_GPIO2",
+            "LP_UART_RTSN",
+            "ADC1_CH2",
+            "FSPIQ"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO11",
+          "functions": [
+            "11"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO11",
+          "functions": [
+            "11"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO10",
+          "functions": [
+            "10"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO10",
+          "functions": [
+            "10"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO8",
+          "functions": [
+            "8",
+            "BOOT",
+            "ROM",
+            "RGB LED"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO8",
+          "functions": [
+            "8",
+            "BOOT",
+            "ROM",
+            "RGB LED"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO1",
+          "functions": [
+            "1",
+            "XTAL_32K_N",
+            "LP_GPIO1",
+            "LP_UART_DSRN",
+            "ADC1_CH1"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GPIO1",
+          "functions": [
+            "1",
+            "XTAL_32K_N",
+            "LP_GPIO1",
+            "LP_UART_DSRN",
+            "ADC1_CH1"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GPIO0",
+          "functions": [
+            "0",
+            "XTAL_32K_P",
+            "LP_GPIO0",
+            "LP_UART_DTRN",
+            "ADC1_CH0"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO0",
+          "functions": [
+            "0",
+            "XTAL_32K_P",
+            "LP_GPIO0",
+            "LP_UART_DTRN",
+            "ADC1_CH0"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "GPIO7",
+          "functions": [
+            "7",
+            "MTDO",
+            "LP_GPIO7",
+            "LP_I2C_SCL",
+            "FSPID"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "GPIO7",
+          "functions": [
+            "7",
+            "MTDO",
+            "LP_GPIO7",
+            "LP_I2C_SCL",
+            "FSPID"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "GPIO6",
+          "functions": [
+            "6",
+            "MTCK",
+            "LP_GPIO6",
+            "LP_I2C_SDA",
+            "ADC1_CH6",
+            "FSPICLK"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "GPIO6",
+          "functions": [
+            "6",
+            "MTCK",
+            "LP_GPIO6",
+            "LP_I2C_SDA",
+            "ADC1_CH6",
+            "FSPICLK"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "GPIO5",
+          "functions": [
+            "5",
+            "MTDI",
+            "LP_GPIO5",
+            "LP_UART_TXD",
+            "ADC1_CH5",
+            "FSPIWP",
+            "SDIO"
+          ]
+        },
+        {
+          "position": 26,
+          "label": "GPIO5",
+          "functions": [
+            "5",
+            "MTDI",
+            "LP_GPIO5",
+            "LP_UART_TXD",
+            "ADC1_CH5",
+            "FSPIWP",
+            "SDIO"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "GPIO4",
+          "functions": [
+            "4",
+            "MTMS",
+            "LP_GPIO4",
+            "LP_UART_RXD",
+            "ADC1_CH4",
+            "FSPIHD",
+            "SDIO"
+          ]
+        },
+        {
+          "position": 28,
+          "label": "GPIO4",
+          "functions": [
+            "4",
+            "MTMS",
+            "LP_GPIO4",
+            "LP_UART_RXD",
+            "ADC1_CH4",
+            "FSPIHD",
+            "SDIO"
+          ]
+        },
+        {
+          "position": 29,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 31,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 32,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Right header",
+      "image": "media/a888a269f80b332d1a55b793ede156d63a60e6ba85edc6879c67efd1914758e5.webp",
+      "rows": 2,
+      "orderNote": "No printed pin numbers; USB-C at bottom, so position 1 is the bottom (NC) row nearest USB. Each printed row has two holes (2x16): odd positions = outer (board-edge) hole, even = inner hole; both take the row label.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO12",
+          "functions": [
+            "12",
+            "USB_D-"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO12",
+          "functions": [
+            "12",
+            "USB_D-"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO13",
+          "functions": [
+            "13",
+            "USB_D+"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO13",
+          "functions": [
+            "13",
+            "USB_D+"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO9",
+          "functions": [
+            "9",
+            "BOOT"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO9",
+          "functions": [
+            "9",
+            "BOOT"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO18",
+          "functions": [
+            "18",
+            "SDIO_CMD",
+            "FSPICS2"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO18",
+          "functions": [
+            "18",
+            "SDIO_CMD",
+            "FSPICS2"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO19",
+          "functions": [
+            "19",
+            "SDIO_CLK",
+            "FSPICS3"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO19",
+          "functions": [
+            "19",
+            "SDIO_CLK",
+            "FSPICS3"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO20",
+          "functions": [
+            "20",
+            "SDIO_DATA0",
+            "FSPICS4"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GPIO20",
+          "functions": [
+            "20",
+            "SDIO_DATA0",
+            "FSPICS4"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GPIO21",
+          "functions": [
+            "21",
+            "SDIO_DATA1",
+            "FSPICS5"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO21",
+          "functions": [
+            "21",
+            "SDIO_DATA1",
+            "FSPICS5"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "GPIO22",
+          "functions": [
+            "22",
+            "SDIO_DATA2"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "GPIO22",
+          "functions": [
+            "22",
+            "SDIO_DATA2"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "GPIO23",
+          "functions": [
+            "23",
+            "SDIO_DATA3"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "GPIO23",
+          "functions": [
+            "23",
+            "SDIO_DATA3"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "GPIO15",
+          "functions": [
+            "15",
+            "JTAG"
+          ]
+        },
+        {
+          "position": 26,
+          "label": "GPIO15",
+          "functions": [
+            "15",
+            "JTAG"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "GPIO17",
+          "functions": [
+            "RX",
+            "U0RXD",
+            "FSPICS1"
+          ]
+        },
+        {
+          "position": 28,
+          "label": "GPIO17",
+          "functions": [
+            "RX",
+            "U0RXD",
+            "FSPICS1"
+          ]
+        },
+        {
+          "position": 29,
+          "label": "GPIO16",
+          "functions": [
+            "TX",
+            "U0TXD",
+            "FSPICS0"
+          ]
+        },
+        {
+          "position": 30,
+          "label": "GPIO16",
+          "functions": [
+            "TX",
+            "U0TXD",
+            "FSPICS0"
+          ]
+        },
+        {
+          "position": 31,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 32,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img3",
+      "name": "Left header",
+      "image": "media/dafce72e4ab1db0f938d784a9cf1acf80a0e2c136f60ad801b7be8ef93839801.png",
+      "rows": 2,
+      "orderNote": "No printed pin numbers; USB-C at bottom, so position 1 is the bottom (NC) row nearest USB. Each printed row has two holes (2x16): odd positions = outer (board-edge) hole, even = inner hole; both take the row label.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO3",
+          "functions": [
+            "3",
+            "LP_GPIO3",
+            "LP_UART_CTSN",
+            "ADC1_CH3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO3",
+          "functions": [
+            "3",
+            "LP_GPIO3",
+            "LP_UART_CTSN",
+            "ADC1_CH3"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO2",
+          "functions": [
+            "2",
+            "LP_GPIO2",
+            "LP_UART_RTSN",
+            "ADC1_CH2",
+            "FSPIQ"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO2",
+          "functions": [
+            "2",
+            "LP_GPIO2",
+            "LP_UART_RTSN",
+            "ADC1_CH2",
+            "FSPIQ"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO11",
+          "functions": [
+            "11"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO11",
+          "functions": [
+            "11"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO10",
+          "functions": [
+            "10"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO10",
+          "functions": [
+            "10"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO8",
+          "functions": [
+            "8",
+            "BOOT",
+            "ROM",
+            "RGB LED"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO8",
+          "functions": [
+            "8",
+            "BOOT",
+            "ROM",
+            "RGB LED"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO1",
+          "functions": [
+            "1",
+            "XTAL_32K_N",
+            "LP_GPIO1",
+            "LP_UART_DSRN",
+            "ADC1_CH1"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GPIO1",
+          "functions": [
+            "1",
+            "XTAL_32K_N",
+            "LP_GPIO1",
+            "LP_UART_DSRN",
+            "ADC1_CH1"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GPIO0",
+          "functions": [
+            "0",
+            "XTAL_32K_P",
+            "LP_GPIO0",
+            "LP_UART_DTRN",
+            "ADC1_CH0"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO0",
+          "functions": [
+            "0",
+            "XTAL_32K_P",
+            "LP_GPIO0",
+            "LP_UART_DTRN",
+            "ADC1_CH0"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "GPIO7",
+          "functions": [
+            "7",
+            "MTDO",
+            "LP_GPIO7",
+            "LP_I2C_SCL",
+            "FSPID"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "GPIO7",
+          "functions": [
+            "7",
+            "MTDO",
+            "LP_GPIO7",
+            "LP_I2C_SCL",
+            "FSPID"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "GPIO6",
+          "functions": [
+            "6",
+            "MTCK",
+            "LP_GPIO6",
+            "LP_I2C_SDA",
+            "ADC1_CH6",
+            "FSPICLK"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "GPIO6",
+          "functions": [
+            "6",
+            "MTCK",
+            "LP_GPIO6",
+            "LP_I2C_SDA",
+            "ADC1_CH6",
+            "FSPICLK"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "GPIO5",
+          "functions": [
+            "5",
+            "MTDI",
+            "LP_GPIO5",
+            "LP_UART_TXD",
+            "ADC1_CH5",
+            "FSPIWP"
+          ]
+        },
+        {
+          "position": 26,
+          "label": "GPIO5",
+          "functions": [
+            "5",
+            "MTDI",
+            "LP_GPIO5",
+            "LP_UART_TXD",
+            "ADC1_CH5",
+            "FSPIWP"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "GPIO4",
+          "functions": [
+            "4",
+            "MTMS",
+            "LP_GPIO4",
+            "LP_UART_RXD",
+            "ADC1_CH4",
+            "FSPIHD"
+          ]
+        },
+        {
+          "position": 28,
+          "label": "GPIO4",
+          "functions": [
+            "4",
+            "MTMS",
+            "LP_GPIO4",
+            "LP_UART_RXD",
+            "ADC1_CH4",
+            "FSPIHD"
+          ]
+        },
+        {
+          "position": 29,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 31,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 32,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header-img3",
+      "name": "Right header",
+      "image": "media/dafce72e4ab1db0f938d784a9cf1acf80a0e2c136f60ad801b7be8ef93839801.png",
+      "rows": 2,
+      "orderNote": "No printed pin numbers; USB-C at bottom, so position 1 is the bottom (NC) row nearest USB. Each printed row has two holes (2x16): odd positions = outer (board-edge) hole, even = inner hole; both take the row label.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO12",
+          "functions": [
+            "12",
+            "USB_D-"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO12",
+          "functions": [
+            "12",
+            "USB_D-"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO13",
+          "functions": [
+            "13",
+            "USB_D+"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO13",
+          "functions": [
+            "13",
+            "USB_D+"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO9",
+          "functions": [
+            "9",
+            "BOOT"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO9",
+          "functions": [
+            "9",
+            "BOOT"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO18",
+          "functions": [
+            "18",
+            "SDIO_CMD",
+            "FSPICS2"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO18",
+          "functions": [
+            "18",
+            "SDIO_CMD",
+            "FSPICS2"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO19",
+          "functions": [
+            "19",
+            "SDIO_CLK",
+            "FSPICS3"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO19",
+          "functions": [
+            "19",
+            "SDIO_CLK",
+            "FSPICS3"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO20",
+          "functions": [
+            "20",
+            "SDIO_DATA0",
+            "FSPICS4"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GPIO20",
+          "functions": [
+            "20",
+            "SDIO_DATA0",
+            "FSPICS4"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GPIO21",
+          "functions": [
+            "21",
+            "SDIO_DATA1",
+            "FSPICS5"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO21",
+          "functions": [
+            "21",
+            "SDIO_DATA1",
+            "FSPICS5"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "GPIO22",
+          "functions": [
+            "22",
+            "SDIO_DATA2"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "GPIO22",
+          "functions": [
+            "22",
+            "SDIO_DATA2"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "GPIO23",
+          "functions": [
+            "23",
+            "SDIO_DATA3"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "GPIO23",
+          "functions": [
+            "23",
+            "SDIO_DATA3"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "GPIO15",
+          "functions": [
+            "15",
+            "JTAG"
+          ]
+        },
+        {
+          "position": 26,
+          "label": "GPIO15",
+          "functions": [
+            "15",
+            "JTAG"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "GPIO17",
+          "functions": [
+            "RX",
+            "U0RXD",
+            "FSPICS1"
+          ]
+        },
+        {
+          "position": 28,
+          "label": "GPIO17",
+          "functions": [
+            "RX",
+            "U0RXD",
+            "FSPICS1"
+          ]
+        },
+        {
+          "position": 29,
+          "label": "GPIO16",
+          "functions": [
+            "TX",
+            "U0TXD",
+            "FSPICS0"
+          ]
+        },
+        {
+          "position": 30,
+          "label": "GPIO16",
+          "functions": [
+            "TX",
+            "U0TXD",
+            "FSPICS0"
+          ]
+        },
+        {
+          "position": 31,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 32,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Images 1 and 2 show the same artwork. Image 3 is a re-rendered variant without the SDIO tags on GPIO4/GPIO5; transcribed separately per rule 11. Silkscreen labels (4, TX, G, ...) listed first in functions; NC rows are printed NC on the silkscreen."
+}

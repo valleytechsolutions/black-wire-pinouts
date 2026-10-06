@@ -1,0 +1,377 @@
+{
+ "recordId": "seeed-studio-gpio-device-wio-terminal",
+ "pass": "a",
+ "date": "2026-10-05",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/63f91d125d4191ea30cf3aa574c0577b4570469862bcb3de9ce6f2e97bff4993.jpg",
+   "sha256": "63f91d125d4191ea30cf3aa574c0577b4570469862bcb3de9ce6f2e97bff4993"
+  },
+  {
+   "file": "media/16b1b25abf9851642672128a765aa3f0111a022514f51566e19131c634e0b444.jpg",
+   "sha256": "16b1b25abf9851642672128a765aa3f0111a022514f51566e19131c634e0b444"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "left-grove",
+   "name": "left-grove",
+   "rows": 1,
+   "orderNote": "No USB shown; physical left-to-right order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "BCM3",
+     "functions": [
+      "5",
+      "I2C1_SCL"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "BCM2",
+     "functions": [
+      "3",
+      "I2C1_SDA"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": []
+    }
+   ],
+   "image": "media/63f91d125d4191ea30cf3aa574c0577b4570469862bcb3de9ce6f2e97bff4993.jpg"
+  },
+  {
+   "id": "right-grove",
+   "name": "right-grove",
+   "rows": 1,
+   "orderNote": "No USB shown; physical left-to-right order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "BCM27",
+     "functions": [
+      "13",
+      "D0",
+      "A0"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "BCM22",
+     "functions": [
+      "15",
+      "D1",
+      "A1"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": []
+    }
+   ],
+   "image": "media/63f91d125d4191ea30cf3aa574c0577b4570469862bcb3de9ce6f2e97bff4993.jpg"
+  },
+  {
+   "id": "expansion-header-img2",
+   "name": "expansion-header",
+   "rows": 2,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "5V",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "BCM2",
+     "functions": [
+      "I2C1_SDA"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "5V",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "BCM3",
+     "functions": [
+      "I2C1_SCL"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "BCM4",
+     "functions": [
+      "GPCLK0"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "BCM14",
+     "functions": [
+      "TXD"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "BCM15",
+     "functions": [
+      "RXD"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "BCM17",
+     "functions": [
+      "DAC0"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "BCM18",
+     "functions": [
+      "I2S_BCLK"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "BCM27",
+     "functions": [
+      "D0",
+      "A0",
+      "PWM0"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 15,
+     "label": "BCM22",
+     "functions": [
+      "D1",
+      "A1"
+     ]
+    },
+    {
+     "position": 16,
+     "label": "BCM23",
+     "functions": [
+      "A2",
+      "D2",
+      "PWM1"
+     ]
+    },
+    {
+     "position": 17,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 18,
+     "label": "BCM24",
+     "functions": [
+      "A3",
+      "D3"
+     ]
+    },
+    {
+     "position": 19,
+     "label": "BCM10",
+     "functions": [
+      "SPI_MOSI",
+      "MOSI"
+     ]
+    },
+    {
+     "position": 20,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 21,
+     "label": "BCM9",
+     "functions": [
+      "SPI_MISO",
+      "MISO"
+     ]
+    },
+    {
+     "position": 22,
+     "label": "BCM25",
+     "functions": [
+      "A4",
+      "D4"
+     ]
+    },
+    {
+     "position": 23,
+     "label": "BCM11",
+     "functions": [
+      "SPI_SCLK",
+      "SCLK",
+      "PWM2"
+     ]
+    },
+    {
+     "position": 24,
+     "label": "BCM8",
+     "functions": [
+      "SPI_CS",
+      "CE0"
+     ]
+    },
+    {
+     "position": 25,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 26,
+     "label": "BCM7",
+     "functions": [
+      "DAC1",
+      "CE1"
+     ]
+    },
+    {
+     "position": 27,
+     "label": "BCM0",
+     "functions": [
+      "I2C0_SDA"
+     ]
+    },
+    {
+     "position": 28,
+     "label": "BCM1",
+     "functions": [
+      "I2C0_SCL"
+     ]
+    },
+    {
+     "position": 29,
+     "label": "BCM5",
+     "functions": [
+      "GPCLK1"
+     ]
+    },
+    {
+     "position": 30,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 31,
+     "label": "BCM6",
+     "functions": [
+      "GPCLK2"
+     ]
+    },
+    {
+     "position": 32,
+     "label": "BCM12",
+     "functions": [
+      "A5",
+      "D5"
+     ]
+    },
+    {
+     "position": 33,
+     "label": "BCM13",
+     "functions": [
+      "D6",
+      "A6",
+      "PWM3"
+     ]
+    },
+    {
+     "position": 34,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 35,
+     "label": "BCM19",
+     "functions": [
+      "I2S_LRCLK"
+     ]
+    },
+    {
+     "position": 36,
+     "label": "BCM16",
+     "functions": [
+      "A7",
+      "D7"
+     ]
+    },
+    {
+     "position": 37,
+     "label": "BCM26",
+     "functions": [
+      "D8",
+      "A8",
+      "PWM4"
+     ]
+    },
+    {
+     "position": 38,
+     "label": "BCM20",
+     "functions": [
+      "I2S_SDIN"
+     ]
+    },
+    {
+     "position": 39,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 40,
+     "label": "BCM21",
+     "functions": [
+      "I2S_SDOUT"
+     ]
+    }
+   ],
+   "image": "media/16b1b25abf9851642672128a765aa3f0111a022514f51566e19131c634e0b444.jpg"
+  }
+ ],
+ "notes": "Front Grove numbers refer to main expansion-header aliases, not four-contact port positions. No USB shown in front view, so each port is read left to right.",
+ "unreadable": [],
+ "uncertain": []
+}

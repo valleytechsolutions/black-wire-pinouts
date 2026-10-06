@@ -1,0 +1,85 @@
+{
+  "recordId": "seeed-studio-gpio-device-sensecap-indicator",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/7324a3885d2f950aaed6953f5218b8d6335b5cb67d28f8052beba9b449297590.png",
+      "sha256": "7324a3885d2f950aaed6953f5218b8d6335b5cb67d28f8052beba9b449297590"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "grove-adc",
+      "name": "Grove (ADC)",
+      "image": "media/7324a3885d2f950aaed6953f5218b8d6335b5cb67d28f8052beba9b449297590.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; each Grove connector is drawn as a separate vertical diagram, ordered from the top of the diagram as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO26",
+          "functions": [
+            "ADC0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO27",
+          "functions": [
+            "ADC1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grove-iic",
+      "name": "Grove (IIC)",
+      "image": "media/7324a3885d2f950aaed6953f5218b8d6335b5cb67d28f8052beba9b449297590.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; each Grove connector is drawn as a separate vertical diagram, ordered from the top of the diagram as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO20",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO21",
+          "functions": [
+            "SCL"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Two Grove 4-pin connectors on the back with per-pin labels in separate vertical connector drawings. USB Type-C and button skipped.",
+  "uncertain": [
+    "The labeled Grove pin drawings are separate vertical schematics beside a photo where the physical connectors are horizontal; the USB-nearest rule cannot be applied to the drawings, so top-of-drawing order was used."
+  ]
+}

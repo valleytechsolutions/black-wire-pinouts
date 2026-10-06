@@ -1,0 +1,178 @@
+{
+  "recordId": "heltec-esp32-esp32-c3-devboard",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/027b4110ffb3a6db08c22e10fa5fee8c9bda0dbe47b03f915a6512eb83d48c38.png",
+      "sha256": "027b4110ffb3a6db08c22e10fa5fee8c9bda0dbe47b03f915a6512eb83d48c38"
+    },
+    {
+      "file": "media/20b90c82306c688921cceaf89261286f99e39233c403f8cac69536f3112658d8.png",
+      "sha256": "20b90c82306c688921cceaf89261286f99e39233c403f8cac69536f3112658d8"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "J3",
+      "name": "Header J3 (left)",
+      "image": "media/027b4110ffb3a6db08c22e10fa5fee8c9bda0dbe47b03f915a6512eb83d48c38.png",
+      "rows": 1,
+      "orderNote": "Pin numbers 1-10 printed (1 at the bottom, nearest USB-C); positions follow them. No silkscreen names shown, so labels are the GPIO/power/primary name nearest the pin number; functions read outward.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO7",
+          "functions": [
+            "FSPID",
+            "MTDO"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO6",
+          "functions": [
+            "FSPICLK",
+            "MTCK"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO5",
+          "functions": [
+            "FSPIWP",
+            "MTDI",
+            "ADC2_CH0"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO4",
+          "functions": [
+            "FSPIHD",
+            "MTMS",
+            "ADC1_CH4"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO3",
+          "functions": [
+            "ADC1_CH3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO2",
+          "functions": [
+            "FSPIQ",
+            "ADC1_CH2"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO1",
+          "functions": [
+            "32_XN",
+            "ADC1_CH1"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO0",
+          "functions": [
+            "32_XP",
+            "ADC1_CH0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "J2",
+      "name": "Header J2 (right)",
+      "image": "media/027b4110ffb3a6db08c22e10fa5fee8c9bda0dbe47b03f915a6512eb83d48c38.png",
+      "rows": 1,
+      "orderNote": "Pin numbers 1-10 printed (1 at the bottom, nearest USB-C); positions follow them. No silkscreen names shown, so labels are the GPIO/power/primary name nearest the pin number; functions read outward.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO18",
+          "functions": [
+            "USB_D-",
+            "LED_Ctrl"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO19",
+          "functions": [
+            "USB_D+"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "UORXD",
+          "functions": [
+            "CH340K_TX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "U0TXD",
+          "functions": [
+            "CH340K_RX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO9",
+          "functions": [
+            "USER_SW"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO8",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "EN",
+          "functions": [
+            "RST_SW"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO10",
+          "functions": [
+            "FSPICS0"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Image 2 (datasheet page) shows the same pin map; transcribed from image 1 (higher resolution). J2 pin 5 is printed 'UORXD' (letter O) while pin 6 reads 'U0TXD'; copied as printed. Pull-up arrows on J2 pins 7, 8, 9 omitted as symbols."
+}

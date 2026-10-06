@@ -1,0 +1,175 @@
+{
+  "recordId": "waveshare-esp32-esp32-s3-cam-ovxxxx",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/453863863741b243a1dc41b22e96dcb22bd287b25125323c7f335b9f712fe70a.jpg",
+      "sha256": "453863863741b243a1dc41b22e96dcb22bd287b25125323c7f335b9f712fe70a"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "i2c-port",
+      "name": "I2C connector (rear view, left of USB-C)",
+      "image": "media/453863863741b243a1dc41b22e96dcb22bd287b25125323c7f335b9f712fe70a.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; pin positions from the board silkscreen (GND 3V3 SDA SCL left to right). USB-C is to the right, so position 1 is the right end.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO7",
+          "functions": [
+            "SCL",
+            "I2C_SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO8",
+          "functions": [
+            "SDA",
+            "I2C_SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": [
+            "3.3V"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "uart-port",
+      "name": "UART connector (rear view, right of USB-C)",
+      "image": "media/453863863741b243a1dc41b22e96dcb22bd287b25125323c7f335b9f712fe70a.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; pin positions from the board silkscreen (GND 3V3 TXD RXD left to right). USB-C is to the left, so position 1 is the left end.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": [
+            "3.3V"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO43",
+          "functions": [
+            "TXD",
+            "UART0_TXD"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO44",
+          "functions": [
+            "RXD",
+            "UART0_RXD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spk-connector",
+      "name": "SPK speaker connector (rear view, left edge)",
+      "image": "media/453863863741b243a1dc41b22e96dcb22bd287b25125323c7f335b9f712fe70a.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical connector, USB-C is at the bottom edge, so the bottom (-) end is position 1.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "-",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "+",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bat-connector",
+      "name": "BAT battery connector (rear view, left edge)",
+      "image": "media/453863863741b243a1dc41b22e96dcb22bd287b25125323c7f335b9f712fe70a.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical connector, USB-C is at the bottom edge, so the bottom (-) end is position 1.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "-",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "+",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "swd-pads",
+      "name": "SWD / PC6 / GND pads (rear view, right edge)",
+      "image": "media/453863863741b243a1dc41b22e96dcb22bd287b25125323c7f335b9f712fe70a.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical pad row, USB-C is at the bottom edge, so the bottom (GND) pad is position 1.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "PC6",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SWD",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "rst-pads",
+      "name": "GND / RST pads (front view, bottom edge)",
+      "image": "media/453863863741b243a1dc41b22e96dcb22bd287b25125323c7f335b9f712fe70a.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal pad pair centred above the USB-C so neither end is clearly closer; top/left rule used (left first).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "RST",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "SPK and BAT 2-pin connectors: the + and - marks beside them are taken as per-pin labels, and the 'BAT' text below the lower connector is taken to name that connector; the image does not draw explicit leaders.",
+    "SWD/PC6/GND and GND/RST: labeled round pads/holes, recorded as wiring points; the image does not show whether they are intended as header positions or test pads."
+  ],
+  "notes": "One image with a front view (board silkscreen 'ESP32-S3-CAM-OVxxxx') and a rear view. Labels for the I2C/UART connectors use the GPIO names from the callout tables (rule 5), with the small board silkscreen (SDA, SCL, TXD, RXD; low resolution) first in functions, then the table's bus names. Skipped: TF card, camera FPC and SPI/QSPI LCD FPC tables (function lists without pin positions), ES7210+ES8311 codec table (internal GPIO assignments, no connector), USB-C, BOOT/USER/PWR buttons, CHG LED, MIC1/MIC2."
+}

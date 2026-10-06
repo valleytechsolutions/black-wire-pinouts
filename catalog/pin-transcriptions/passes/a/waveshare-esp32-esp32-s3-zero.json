@@ -1,0 +1,1480 @@
+{
+ "recordId": "waveshare-esp32-esp32-s3-zero",
+ "pass": "a",
+ "date": "2026-10-05",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/613767333bbc154450d320508ce03e438f2ef8aa239afa22dc3d4458b873e8a7.jpg",
+   "sha256": "613767333bbc154450d320508ce03e438f2ef8aa239afa22dc3d4458b873e8a7"
+  },
+  {
+   "file": "media/0df7f252e55d66721df03cd248f02cec854ba2e6f04af637d33372fa570a1947.webp",
+   "sha256": "0df7f252e55d66721df03cd248f02cec854ba2e6f04af637d33372fa570a1947"
+  },
+  {
+   "file": "media/ba5ad1b550198324fecb00337401689d40f69b9f84ae3d0fbab69d58e2fcfc43.jpg",
+   "sha256": "ba5ad1b550198324fecb00337401689d40f69b9f84ae3d0fbab69d58e2fcfc43"
+  },
+  {
+   "file": "media/a66daef7d28692a96d32700f2abed5122298c2788b79474c7fd975187b015092.jpg",
+   "sha256": "a66daef7d28692a96d32700f2abed5122298c2788b79474c7fd975187b015092"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "left-header",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "5V",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "3V3(OUT)",
+     "functions": [
+      "3V3"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GP1",
+     "functions": [
+      "1",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GP2",
+     "functions": [
+      "2",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GP3",
+     "functions": [
+      "3",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GP4",
+     "functions": [
+      "4",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GP5",
+     "functions": [
+      "5",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GP6",
+     "functions": [
+      "6",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    }
+   ],
+   "image": "media/613767333bbc154450d320508ce03e438f2ef8aa239afa22dc3d4458b873e8a7.jpg"
+  },
+  {
+   "id": "right-header",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "TX",
+     "functions": [
+      "UART0 TX"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "RX",
+     "functions": [
+      "UART0 RX"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GP13",
+     "functions": [
+      "13",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GP12",
+     "functions": [
+      "12",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GP11",
+     "functions": [
+      "11",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GP10",
+     "functions": [
+      "10",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GP9",
+     "functions": [
+      "9",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GP8",
+     "functions": [
+      "8",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GP7",
+     "functions": [
+      "7",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    }
+   ],
+   "image": "media/613767333bbc154450d320508ce03e438f2ef8aa239afa22dc3d4458b873e8a7.jpg"
+  },
+  {
+   "id": "front-inner-pads",
+   "name": "front-inner-pads",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GP16",
+     "functions": [
+      "16",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "GP15",
+     "functions": [
+      "15",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GP14",
+     "functions": [
+      "14",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    }
+   ],
+   "image": "media/613767333bbc154450d320508ce03e438f2ef8aa239afa22dc3d4458b873e8a7.jpg"
+  },
+  {
+   "id": "rear-inner-pads",
+   "name": "rear-inner-pads",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GP45",
+     "functions": [
+      "45",
+      "SPI",
+      "I2C",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "GP42",
+     "functions": [
+      "42",
+      "SPI",
+      "I2C",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GP41",
+     "functions": [
+      "41",
+      "SPI",
+      "I2C",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GP40",
+     "functions": [
+      "40",
+      "SPI",
+      "I2C",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GP39",
+     "functions": [
+      "39",
+      "SPI",
+      "I2C",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GP38",
+     "functions": [
+      "38",
+      "SPI",
+      "I2C",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GP18",
+     "functions": [
+      "18",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GP17",
+     "functions": [
+      "17",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    }
+   ],
+   "image": "media/613767333bbc154450d320508ce03e438f2ef8aa239afa22dc3d4458b873e8a7.jpg"
+  },
+  {
+   "id": "left-header-img2",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "5V",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "3V3(OUT)",
+     "functions": [
+      "3V3"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GP1",
+     "functions": [
+      "1",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GP2",
+     "functions": [
+      "2",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GP3",
+     "functions": [
+      "3",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GP4",
+     "functions": [
+      "4",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GP5",
+     "functions": [
+      "5",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GP6",
+     "functions": [
+      "6",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    }
+   ],
+   "image": "media/0df7f252e55d66721df03cd248f02cec854ba2e6f04af637d33372fa570a1947.webp"
+  },
+  {
+   "id": "right-header-img2",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "TX",
+     "functions": [
+      "UART0 TX"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "RX",
+     "functions": [
+      "UART0 RX"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GP13",
+     "functions": [
+      "13",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GP12",
+     "functions": [
+      "12",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GP11",
+     "functions": [
+      "11",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GP10",
+     "functions": [
+      "10",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GP9",
+     "functions": [
+      "9",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GP8",
+     "functions": [
+      "8",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GP7",
+     "functions": [
+      "7",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    }
+   ],
+   "image": "media/0df7f252e55d66721df03cd248f02cec854ba2e6f04af637d33372fa570a1947.webp"
+  },
+  {
+   "id": "front-inner-pads-img2",
+   "name": "front-inner-pads",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GP16",
+     "functions": [
+      "16",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "GP15",
+     "functions": [
+      "15",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GP14",
+     "functions": [
+      "14",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    }
+   ],
+   "image": "media/0df7f252e55d66721df03cd248f02cec854ba2e6f04af637d33372fa570a1947.webp"
+  },
+  {
+   "id": "rear-inner-pads-img2",
+   "name": "rear-inner-pads",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GP45",
+     "functions": [
+      "45",
+      "SPI",
+      "I2C",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "GP42",
+     "functions": [
+      "42",
+      "SPI",
+      "I2C",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GP41",
+     "functions": [
+      "41",
+      "SPI",
+      "I2C",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GP40",
+     "functions": [
+      "40",
+      "SPI",
+      "I2C",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GP39",
+     "functions": [
+      "39",
+      "SPI",
+      "I2C",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GP38",
+     "functions": [
+      "38",
+      "SPI",
+      "I2C",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GP18",
+     "functions": [
+      "18",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GP17",
+     "functions": [
+      "17",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    }
+   ],
+   "image": "media/0df7f252e55d66721df03cd248f02cec854ba2e6f04af637d33372fa570a1947.webp"
+  },
+  {
+   "id": "left-header-img3",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "5V",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "3V3(OUT)",
+     "functions": [
+      "3V3"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GP1",
+     "functions": [
+      "1",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GP2",
+     "functions": [
+      "2",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GP3",
+     "functions": [
+      "3",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GP4",
+     "functions": [
+      "4",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GP5",
+     "functions": [
+      "5",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GP6",
+     "functions": [
+      "6",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    }
+   ],
+   "image": "media/ba5ad1b550198324fecb00337401689d40f69b9f84ae3d0fbab69d58e2fcfc43.jpg"
+  },
+  {
+   "id": "right-header-img3",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "TX",
+     "functions": [
+      "UART0 TX"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "RX",
+     "functions": [
+      "UART0 RX"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GP13",
+     "functions": [
+      "13",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GP12",
+     "functions": [
+      "12",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GP11",
+     "functions": [
+      "11",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GP10",
+     "functions": [
+      "10",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GP9",
+     "functions": [
+      "9",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GP8",
+     "functions": [
+      "8",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GP7",
+     "functions": [
+      "7",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    }
+   ],
+   "image": "media/ba5ad1b550198324fecb00337401689d40f69b9f84ae3d0fbab69d58e2fcfc43.jpg"
+  },
+  {
+   "id": "front-inner-pads-img3",
+   "name": "front-inner-pads",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GP16",
+     "functions": [
+      "16",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "GP15",
+     "functions": [
+      "15",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GP14",
+     "functions": [
+      "14",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    }
+   ],
+   "image": "media/ba5ad1b550198324fecb00337401689d40f69b9f84ae3d0fbab69d58e2fcfc43.jpg"
+  },
+  {
+   "id": "rear-inner-pads-img3",
+   "name": "rear-inner-pads",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GP45",
+     "functions": [
+      "45",
+      "SPI",
+      "I2C",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "GP42",
+     "functions": [
+      "42",
+      "SPI",
+      "I2C",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GP41",
+     "functions": [
+      "41",
+      "SPI",
+      "I2C",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GP40",
+     "functions": [
+      "40",
+      "SPI",
+      "I2C",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GP39",
+     "functions": [
+      "39",
+      "SPI",
+      "I2C",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GP38",
+     "functions": [
+      "38",
+      "SPI",
+      "I2C",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GP18",
+     "functions": [
+      "18",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GP17",
+     "functions": [
+      "17",
+      "SPI",
+      "I2C",
+      "ADC",
+      "I2S",
+      "PWM",
+      "UART"
+     ]
+    }
+   ],
+   "image": "media/ba5ad1b550198324fecb00337401689d40f69b9f84ae3d0fbab69d58e2fcfc43.jpg"
+  },
+  {
+   "id": "left-header-img4",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "5v",
+     "functions": [
+      "5V"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "3.3v",
+     "functions": [
+      "3V3",
+      "OUT"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GPIO01",
+     "functions": [
+      "1",
+      "RTC GPIO1",
+      "ADC1_0",
+      "Touch1"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GPIO02",
+     "functions": [
+      "2",
+      "RTC GPIO2",
+      "ADC1_1",
+      "Touch2"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GPIO03",
+     "functions": [
+      "3",
+      "RTC GPIO3",
+      "ADC1_2",
+      "Touch3",
+      "JTAG"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GPIO04",
+     "functions": [
+      "4",
+      "RTC GPIO4",
+      "ADC1_3",
+      "Touch4"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GPIO05",
+     "functions": [
+      "5",
+      "RTC GPIO5",
+      "ADC1_4",
+      "Touch5"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GPIO06",
+     "functions": [
+      "6",
+      "RTC GPIO6",
+      "ADC1_5",
+      "Touch6"
+     ]
+    }
+   ],
+   "image": "media/a66daef7d28692a96d32700f2abed5122298c2788b79474c7fd975187b015092.jpg"
+  },
+  {
+   "id": "right-header-img4",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GPIO43",
+     "functions": [
+      "TX",
+      "43",
+      "CLK_OUT1",
+      "TXD 0"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "GPIO44",
+     "functions": [
+      "RX",
+      "44",
+      "CLK_OUT2",
+      "RXD 0"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GPIO13",
+     "functions": [
+      "13",
+      "RTC GPIO13",
+      "ADC2_2",
+      "Touch13",
+      "FSPIQ",
+      "FSPIIO7",
+      "MISO"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GPIO12",
+     "functions": [
+      "12",
+      "RTC GPIO12",
+      "ADC2_1",
+      "Touch12",
+      "FSPICLK",
+      "FSPIIO6",
+      "SCK"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GPIO11",
+     "functions": [
+      "11",
+      "RTC GPIO11",
+      "ADC2_0",
+      "Touch11",
+      "FSPID",
+      "FSPIIO5",
+      "MOSI"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GPIO10",
+     "functions": [
+      "10",
+      "RTC GPIO10",
+      "ADC1_9",
+      "Touch10",
+      "FSPICS0",
+      "FSPIIO4",
+      "SS"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GPIO09",
+     "functions": [
+      "9",
+      "RTC GPIO9",
+      "ADC1_8",
+      "Touch9",
+      "FSPIHD",
+      "SCL"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GPIO08",
+     "functions": [
+      "8",
+      "RTC GPIO8",
+      "ADC1_7",
+      "Touch8",
+      "SDA"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GPIO07",
+     "functions": [
+      "7",
+      "RTC GPIO7",
+      "ADC1_6",
+      "Touch7"
+     ]
+    }
+   ],
+   "image": "media/a66daef7d28692a96d32700f2abed5122298c2788b79474c7fd975187b015092.jpg"
+  },
+  {
+   "id": "front-inner-pads-img4",
+   "name": "front-inner-pads",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GPIO16",
+     "functions": [
+      "16",
+      "RTC GPIO16",
+      "ADC2_5",
+      "CTS 0",
+      "TXD 1",
+      "XTAL_32K_N"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "GPIO15",
+     "functions": [
+      "15",
+      "RTC GPIO15",
+      "ADC2_4",
+      "RTS 0",
+      "RXD 1",
+      "Touch12",
+      "XTAL_32K_P"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GPIO14",
+     "functions": [
+      "14",
+      "RTC GPIO14",
+      "ADC2_3",
+      "Touch14",
+      "FSPIDQS",
+      "FSPIWP"
+     ]
+    }
+   ],
+   "image": "media/a66daef7d28692a96d32700f2abed5122298c2788b79474c7fd975187b015092.jpg"
+  },
+  {
+   "id": "rear-inner-pads-img4",
+   "name": "rear-inner-pads",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GPIO45",
+     "functions": [
+      "45",
+      "VSPI"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "GPIO42",
+     "functions": [
+      "42",
+      "MTMS"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GPIO41",
+     "functions": [
+      "41",
+      "CLK_OUT1",
+      "MTDI"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GPIO40",
+     "functions": [
+      "40",
+      "CLK_OUT2",
+      "MTDO"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GPIO39",
+     "functions": [
+      "39",
+      "CLK_OUT3",
+      "MTCK"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GPIO38",
+     "functions": [
+      "38",
+      "FSPIWP",
+      "BUILTIN LED"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GPIO18",
+     "functions": [
+      "18",
+      "RTC GPIO18",
+      "ADC2_7",
+      "RXD 1",
+      "CLK_OUT3"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GPIO17",
+     "functions": [
+      "17",
+      "RTC GPIO17",
+      "ADC2_6",
+      "TXD 1"
+     ]
+    }
+   ],
+   "image": "media/a66daef7d28692a96d32700f2abed5122298c2788b79474c7fd975187b015092.jpg"
+  }
+ ],
+ "notes": "Each artwork read separately. Rear perimeter unlabelled, mapped on front only. Fourth artwork prints BUILTIN LED on GPIO38; first three give on-board WS2812 GPIO21 separately. Individual printed mappings retained without merging.",
+ "unreadable": [],
+ "uncertain": []
+}

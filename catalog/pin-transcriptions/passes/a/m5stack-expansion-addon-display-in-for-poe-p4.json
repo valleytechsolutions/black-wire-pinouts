@@ -1,0 +1,281 @@
+{
+  "recordId": "m5stack-expansion-addon-display-in-for-poe-p4",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/93728a8fb1332d891ea04f35da05161045e76b58534fd420d6c5c478ae6db122.jpg",
+      "sha256": "93728a8fb1332d891ea04f35da05161045e76b58534fd420d6c5c478ae6db122"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/93728a8fb1332d891ea04f35da05161045e76b58534fd420d6c5c478ae6db122.jpg",
+      "rows": 1,
+      "orderNote": "Started at the end closest to the USB-A receptacle at the bottom of the image (no pin numbers printed)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "DN",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "DP",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "D0",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "D1",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "D2",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "D3",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "CK",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "CMD",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/93728a8fb1332d891ea04f35da05161045e76b58534fd420d6c5c478ae6db122.jpg",
+      "rows": 1,
+      "orderNote": "Started at the end closest to the USB-A receptacle at the bottom of the image (no pin numbers printed)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "TF_DET",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "INTIO",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "mipi-csi",
+      "name": "MIPI CSI 24-pin FPC connector",
+      "image": "media/93728a8fb1332d891ea04f35da05161045e76b58534fd420d6c5c478ae6db122.jpg",
+      "rows": 1,
+      "orderNote": "Pin numbers printed (1-24 on the board and in the MIPI CSI table)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "G1_SCL",
+          "functions": [
+            "1V8"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "G0_SDA",
+          "functions": [
+            "1V8"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "CAM_RST",
+          "functions": [
+            "1V8; G18"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "CSI_D1_P",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "CSI_D1_N",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "CSI_CK_P",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "CSI_CK_N",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "CSI_D0_P",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "CSI_D0_N",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "1V8",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "gnd-pad",
+      "name": "GND pad below FPC connector",
+      "image": "media/93728a8fb1332d891ea04f35da05161045e76b58534fd420d6c5c478ae6db122.jpg",
+      "rows": 1,
+      "orderNote": "Single pad",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "rst-pad",
+      "name": "RST pad beside FPC connector",
+      "image": "media/93728a8fb1332d891ea04f35da05161045e76b58534fd420d6c5c478ae6db122.jpg",
+      "rows": 1,
+      "orderNote": "Single pad",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RST",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "right-header positions 4 and 5 (2nd and 3rd pads from top) have no label (unlabeled)",
+    "mipi-csi positions 6, 19 and 23 are blank cells in the table (unlabeled)",
+    "mipi-csi position 8 note reads '1V8; G18' or '1V8: G18' - the separator is not clearly legible"
+  ],
+  "uncertain": [
+    "The bottom connector is a USB-A-shaped receptacle silkscreened 'DISPLAY INPUT'; header ordering treats it as the USB connector (otherwise the top-down rule would reverse both headers)",
+    "The single labeled GND and RST pads near the FPC connector may be test points rather than wiring points; included as single-pin connectors",
+    "MIPI CSI table is a staggered two-column drawing of a single-row 24-pin FPC; odd numbers taken from the left column and even from the right column"
+  ],
+  "notes": "HDMI connector at top skipped (no individually labeled pins). MIPI CSI pin names read from the side table, numbered 1-24 as printed; 1V8 notes kept as functions."
+}

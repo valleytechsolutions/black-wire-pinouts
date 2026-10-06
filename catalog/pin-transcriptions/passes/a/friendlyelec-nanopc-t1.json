@@ -1,0 +1,186 @@
+{
+  "recordId": "friendlyelec-nanopc-t1",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/0a03cb1600d1fd8b38a643d941af50a5120b6332493ff3c74d1edd9636964867.png",
+      "sha256": "0a03cb1600d1fd8b38a643d941af50a5120b6332493ff3c74d1edd9636964867"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "XDIO",
+      "name": "GPIO header XDIO (2x15, 2.54mm)",
+      "image": "media/0a03cb1600d1fd8b38a643d941af50a5120b6332493ff3c74d1edd9636964867.png",
+      "rows": 2,
+      "orderNote": "Pin numbers 01-30 printed in the table; odd pins left column, even pins right column",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VDD_SYS_3.3V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "DGND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "TXD2",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RXD2",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "SCLD",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "SDA0",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "spiMOSI0",
+          "functions": [
+            "iicSCL4"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "spiMISO0",
+          "functions": [
+            "iicSDA4"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "spiCLK0",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "spiCS",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "ETXD1",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "RXD1",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "EINT0",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "EINT16",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "EINT1",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "EINT17",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "EINT2",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "EINT18",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "EINT3",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "EINT19",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "EINT4",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "EINT20",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "EINT5",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "EINT21",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "EINT6",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "EINT22",
+          "functions": []
+        },
+        {
+          "position": 27,
+          "label": "EINT7",
+          "functions": []
+        },
+        {
+          "position": 28,
+          "label": "EINT23",
+          "functions": []
+        },
+        {
+          "position": 29,
+          "label": "PWR_SYS",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "EINT",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "O vs 0 cannot be told apart reliably in spiMOSI0/spiMISO0/spiCLK0/SDA0/EINT0; 0 used."
+  ],
+  "uncertain": [
+    "Image is a pin table (Pin#, name, hole symbols), not a board photo; physical orientation on the board is not shown.",
+    "Pin 1 printed as 'VDD_SYS_3. 3V' with a gap after the dot (font spacing); recorded as VDD_SYS_3.3V.",
+    "Pin 5 printed 'SCLD' (likely typo for SCL0) copied as printed; a header row with a square and round symbol above pin 1/2 was treated as a legend, not pins."
+  ],
+  "notes": ""
+}

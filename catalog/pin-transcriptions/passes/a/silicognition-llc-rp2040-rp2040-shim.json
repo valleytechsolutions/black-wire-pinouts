@@ -1,0 +1,252 @@
+{
+  "recordId": "silicognition-llc-rp2040-rp2040-shim",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/529e98c173431e38d648928e16599a50a560a96a1d8c163bce5af4c370601998.png",
+      "sha256": "529e98c173431e38d648928e16599a50a560a96a1d8c163bce5af4c370601998"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left edge pins",
+      "image": "media/529e98c173431e38d648928e16599a50a560a96a1d8c163bce5af4c370601998.png",
+      "rows": 1,
+      "orderNote": "No pin numbers for header positions; started at top (end closest to micro-USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RESET",
+          "functions": [
+            "26"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VREFA",
+          "functions": [
+            "43"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "IO29",
+          "functions": [
+            "41",
+            "AD3",
+            "A0"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "IO28",
+          "functions": [
+            "40",
+            "AD2",
+            "A1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "IO27",
+          "functions": [
+            "39",
+            "AD1",
+            "A2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "IO26",
+          "functions": [
+            "38",
+            "AD0",
+            "A3"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "IO24",
+          "functions": [
+            "36",
+            "D24"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "IO25",
+          "functions": [
+            "37",
+            "D25"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "IO10",
+          "functions": [
+            "13",
+            "SCK"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "IO11",
+          "functions": [
+            "14",
+            "MOSI"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "IO12",
+          "functions": [
+            "15",
+            "MISO"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "IO1",
+          "functions": [
+            "3",
+            "RX",
+            "D0"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "IO0",
+          "functions": [
+            "2",
+            "TX",
+            "D1"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "IO6",
+          "functions": [
+            "8",
+            "D4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right edge pins",
+      "image": "media/529e98c173431e38d648928e16599a50a560a96a1d8c163bce5af4c370601998.png",
+      "rows": 1,
+      "orderNote": "No pin numbers for header positions; started at top (end closest to micro-USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VUSB",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IO22",
+          "functions": [
+            "34",
+            "D13"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "IO14",
+          "functions": [
+            "17",
+            "D12"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "IO15",
+          "functions": [
+            "18",
+            "D11"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "IO21",
+          "functions": [
+            "32",
+            "D10"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "IO20",
+          "functions": [
+            "31",
+            "D9"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "IO19",
+          "functions": [
+            "30",
+            "D6"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "IO18",
+          "functions": [
+            "29",
+            "D5"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "IO17",
+          "functions": [
+            "28",
+            "SCL"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "IO16",
+          "functions": [
+            "27",
+            "SDA"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "Letter O vs digit 0 in IO-names (e.g. IO10, IO20, IO0, AD0) not fully distinguishable in the font; recorded as printed reading."
+  ],
+  "notes": "Black-box numbers (26, 41...) are printed beside each pin and included in functions. 'IO23 / 35 / NEOPIX' callout points to the onboard LED, not a header pin, and was skipped. The 'RESET' text appears with an overline.",
+  "uncertain": [
+    "RESET label is printed with an overline (active-low); recorded as RESET."
+  ]
+}

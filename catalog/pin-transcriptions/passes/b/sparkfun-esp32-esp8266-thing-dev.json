@@ -1,0 +1,175 @@
+{
+  "recordId": "sparkfun-esp32-esp8266-thing-dev",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/d28790284b1dd9de7899496bd3892304a7c632ba7407530b8b4a4a7c8894cb3b.png",
+      "sha256": "d28790284b1dd9de7899496bd3892304a7c632ba7407530b8b4a4a7c8894cb3b"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/d28790284b1dd9de7899496bd3892304a7c632ba7407530b8b4a4a7c8894cb3b.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; started at end closest to MicroB USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": [
+            "3.3V"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "2",
+          "functions": [
+            "D2",
+            "SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "14",
+          "functions": [
+            "D14",
+            "SCL/SCLK"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "RST",
+          "functions": [
+            "Reset"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "TX",
+          "functions": [
+            "D7"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "RX",
+          "functions": [
+            "D8"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "5V",
+          "functions": [
+            "V_USB"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "NC",
+          "functions": [
+            "Not Connected"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/d28790284b1dd9de7899496bd3892304a7c632ba7407530b8b4a4a7c8894cb3b.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; started at end closest to MicroB USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "Vin",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "5",
+          "functions": [
+            "D5",
+            "LED"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "0",
+          "functions": [
+            "D0",
+            "Used in reset"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "4",
+          "functions": [
+            "D4"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "13",
+          "functions": [
+            "D13",
+            "MOSI"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "12",
+          "functions": [
+            "D12",
+            "MISO"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "16",
+          "functions": [
+            "D16",
+            "XPD"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "ADC",
+          "functions": [
+            "A0",
+            "10-bit 1V"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "15",
+          "functions": [
+            "D15",
+            "CS"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Labels are the white 'Name' boxes (matching the board silkscreen); RST is printed with an overline. Functions are the Arduino/power/control/serial/misc boxes read from the pin outward; boxes identical to the label are not repeated. Skipped: 3.7-6V power connector (battery-style, pins not individually labeled), two unlabeled extra pads beside the NC and bottom GND pins, u.fl antenna connector, power switch, MicroB USB."
+}

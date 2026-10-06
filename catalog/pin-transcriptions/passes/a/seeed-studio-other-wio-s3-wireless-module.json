@@ -1,0 +1,233 @@
+{
+  "recordId": "seeed-studio-other-wio-s3-wireless-module",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/6651a0f110a08b9876486ec97b0a1ca60564108ccb7ed3ce1685ee8a059c40c2.jpg",
+      "sha256": "6651a0f110a08b9876486ec97b0a1ca60564108ccb7ed3ce1685ee8a059c40c2"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "top-pads",
+      "name": "Top-edge castellated pads (pins 1-19)",
+      "image": "media/6651a0f110a08b9876486ec97b0a1ca60564108ccb7ed3ce1685ee8a059c40c2.jpg",
+      "rows": 1,
+      "orderNote": "Printed pad numbers 1-19 followed (1 at right end, 19 at left)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO47",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GPIO38",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO39",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO40",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO41",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GPIO42",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO43",
+          "functions": [
+            "UART0_TX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO44",
+          "functions": [
+            "UART0_RX"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO45",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GPIO46",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GPIO3",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GPIO2",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GPIO1",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "BOOT",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "WiFi / BT_ANT / NC",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-pads",
+      "name": "Bottom-edge castellated pads (pins 20-38)",
+      "image": "media/6651a0f110a08b9876486ec97b0a1ca60564108ccb7ed3ce1685ee8a059c40c2.jpg",
+      "rows": 1,
+      "orderNote": "Printed pad numbers 20-38 followed in order (20 at left end); position n = printed pad n+19",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO11",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GPIO10",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO12",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GPIO13",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO14",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GPIO15",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GPIO16",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GPIO17",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GPIO18",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO19",
+          "functions": [
+            "USB_DM"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO20",
+          "functions": [
+            "USB_DP"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO48",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "LORA_ANT",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Wio-S3 module, pads numbered 1-38. Combined labels 'GPIOxx / function' split into GPIO label plus function; pad 18 label 'WiFi / BT_ANT / NC' kept whole as printed because it has no GPIO name. IPEX antenna connectors (2.4GHz, 868/915MHz) skipped.",
+  "uncertain": []
+}

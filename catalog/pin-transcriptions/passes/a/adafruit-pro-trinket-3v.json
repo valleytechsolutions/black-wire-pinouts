@@ -1,0 +1,269 @@
+{
+  "recordId": "adafruit-pro-trinket-3v",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/6c1784e264ce6cbac50f3b98aab8f55903c3e061f158aa4c367a2f100078156a.png",
+      "sha256": "6c1784e264ce6cbac50f3b98aab8f55903c3e061f158aa4c367a2f100078156a"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/6c1784e264ce6cbac50f3b98aab8f55903c3e061f158aa4c367a2f100078156a.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PB1",
+          "functions": [
+            "9",
+            "OC1A"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PB2",
+          "functions": [
+            "10",
+            "SS",
+            "OC1B"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PB3",
+          "functions": [
+            "11",
+            "MOSI",
+            "OC2A"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PB4",
+          "functions": [
+            "12",
+            "MISO"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PB5",
+          "functions": [
+            "13",
+            "SCK"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "AREF",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "PC0",
+          "functions": [
+            "14",
+            "A0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PC1",
+          "functions": [
+            "15",
+            "A1"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PC2",
+          "functions": [
+            "16",
+            "A2"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PC3",
+          "functions": [
+            "17",
+            "A3"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PC4",
+          "functions": [
+            "18",
+            "A4",
+            "SDA"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "PC5",
+          "functions": [
+            "19",
+            "A5",
+            "SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/6c1784e264ce6cbac50f3b98aab8f55903c3e061f158aa4c367a2f100078156a.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": [
+            "BATTERY 3.5-16V"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VBUS",
+          "functions": [
+            "USB 3V 500mA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "3.3V",
+          "functions": [
+            "150mA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PB0",
+          "functions": [
+            "8"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PD6",
+          "functions": [
+            "6",
+            "OC0A"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PD5",
+          "functions": [
+            "5",
+            "OC0B"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PD4",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PD3",
+          "functions": [
+            "3",
+            "INT1",
+            "OC2B"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "TXD",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "RXD",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "RESET",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "ftdi-header",
+      "name": "FTDI header (bottom edge)",
+      "image": "media/6c1784e264ce6cbac50f3b98aab8f55903c3e061f158aa4c367a2f100078156a.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row at the bottom, ends equidistant from the USB connector (top), read left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RXD",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "TXD",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "DTR/RTS",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "analog-pads",
+      "name": "A6/A7 inner pads",
+      "image": "media/6c1784e264ce6cbac50f3b98aab8f55903c3e061f158aa4c367a2f100078156a.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical pair, started at end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A6",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "A7",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Label = GPIO name (PBx/PCx/PDx); Arduino number first in functions, then outward. Tiny silkscreen on the board render not transcribed. A6/A7 are two separate inner pads with their own callouts. Legend/category colors omitted."
+}

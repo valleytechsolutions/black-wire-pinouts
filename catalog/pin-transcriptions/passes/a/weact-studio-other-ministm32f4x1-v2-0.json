@@ -1,0 +1,1031 @@
+{
+ "recordId": "weact-studio-other-ministm32f4x1-v2-0",
+ "pass": "a",
+ "date": "2026-10-05",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/e176d55d4b353f9cbd52e6d7029ca364f2c2fa53ec03accbe2edfe64cf4d7748.png",
+   "sha256": "e176d55d4b353f9cbd52e6d7029ca364f2c2fa53ec03accbe2edfe64cf4d7748"
+  },
+  {
+   "file": "media/a5d61bde884c4a5e1bbed1716482ca4595cf24b9e2f18cc259832284b39ebfef.png",
+   "sha256": "a5d61bde884c4a5e1bbed1716482ca4595cf24b9e2f18cc259832284b39ebfef"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "left-header",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "PB12",
+     "functions": [
+      "B12",
+      "25",
+      "SMBA2",
+      "SCK3 (F411)",
+      "NSS2",
+      "NSS4",
+      "T1_BKIN"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "PB13",
+     "functions": [
+      "B13",
+      "26",
+      "SCK4 (F411)",
+      "SCK2",
+      "T1_CH1N"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "PB14",
+     "functions": [
+      "B14",
+      "27",
+      "SD_D6",
+      "MISO2",
+      "T2_CH2N",
+      "EXT_SD2"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "PB15",
+     "functions": [
+      "B15",
+      "28",
+      "SD_CK",
+      "MOSI2",
+      "T1_CH3N",
+      "RTC_50Hz",
+      "RTC_REFIN"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "PA8",
+     "functions": [
+      "A8",
+      "29",
+      "SCL3",
+      "CK1",
+      "SD_D1",
+      "T1_CH1",
+      "USB FS_SOF"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "PA9",
+     "functions": [
+      "A9",
+      "30",
+      "SMBA3",
+      "TX1",
+      "SD_D2",
+      "T1_CH2",
+      "USB/OTG FS_VBUS"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "PA10",
+     "functions": [
+      "A10",
+      "31",
+      "RX1",
+      "MOSI5 (F411)",
+      "T1_CH3",
+      "USB FS_ID"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "PA11",
+     "functions": [
+      "A11",
+      "32",
+      "CTS1",
+      "TX6",
+      "MISO4 (F411)",
+      "T1_CH4",
+      "USB FS DM(-)"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "PA12",
+     "functions": [
+      "A12",
+      "33",
+      "RTS1",
+      "RX6",
+      "MISO5 (F411)",
+      "T1_ETR",
+      "USB FS DP(+)"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "PA15",
+     "functions": [
+      "A15",
+      "38",
+      "TX1 (F411)",
+      "NSS1",
+      "NSS3",
+      "T2_CH1",
+      "T2_ETR",
+      "JTDI"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "PB3",
+     "functions": [
+      "B3",
+      "39",
+      "SDA2",
+      "RX1 (F411)",
+      "SCK1",
+      "SCK3",
+      "T2_CH2",
+      "JTDO-SWO"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "PB4",
+     "functions": [
+      "B4",
+      "40",
+      "SDA3",
+      "SD_D0",
+      "MISO1",
+      "MISO3",
+      "T3_CH1",
+      "JTRST"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "PB5",
+     "functions": [
+      "B5",
+      "41",
+      "SMBA1",
+      "SD_D3",
+      "MOSI1",
+      "MOSI3",
+      "T3_CH2"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "PB6",
+     "functions": [
+      "B6",
+      "42",
+      "SCL1",
+      "TX1",
+      "T4_CH1"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "PB7",
+     "functions": [
+      "B7",
+      "43",
+      "SDA1",
+      "RX1",
+      "SD_D0",
+      "T4_CH2"
+     ]
+    },
+    {
+     "position": 16,
+     "label": "PB8",
+     "functions": [
+      "B8",
+      "45",
+      "SCL1 (SDA3)",
+      "SD_D4",
+      "MOSI5 (F411)",
+      "T4_CH3",
+      "T10_CH1"
+     ]
+    },
+    {
+     "position": 17,
+     "label": "PB9",
+     "functions": [
+      "B9",
+      "46",
+      "SDA1 (SDA2)",
+      "SD_D5",
+      "NSS2",
+      "T4_CH4",
+      "T11_CH1"
+     ]
+    },
+    {
+     "position": 18,
+     "label": "5V",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "GND",
+     "functions": [
+      "G",
+      "47"
+     ]
+    },
+    {
+     "position": 20,
+     "label": "3V3",
+     "functions": [
+      "48"
+     ]
+    }
+   ],
+   "image": "media/e176d55d4b353f9cbd52e6d7029ca364f2c2fa53ec03accbe2edfe64cf4d7748.png"
+  },
+  {
+   "id": "right-header",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "Printed board positions 21-40 bottom to top; local numbering 1-20.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "VBAT",
+     "functions": [
+      "VB",
+      "1"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "PC13",
+     "functions": [
+      "C13",
+      "2",
+      "LED BLUE",
+      "RTC_AMP1",
+      "RTC OUT",
+      "RTC TS"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "PC14",
+     "functions": [
+      "C14",
+      "3",
+      "OSC32 IN"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "PC15",
+     "functions": [
+      "C15",
+      "4",
+      "OSC32 OUT"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "NRST",
+     "functions": [
+      "R",
+      "7"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "PA0",
+     "functions": [
+      "A0",
+      "10",
+      "ADC0",
+      "CTS2",
+      "WKUP1",
+      "T2_CH1",
+      "T2_ET",
+      "T5_CH1"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "PA1",
+     "functions": [
+      "A1",
+      "11",
+      "ADC1",
+      "RTS2",
+      "MOSI4 (F411)",
+      "T2_CH2",
+      "T5_CH2"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "PA2",
+     "functions": [
+      "A2",
+      "12",
+      "ADC2",
+      "TX2",
+      "T2_CH3",
+      "T5_CH3",
+      "T9_CH1"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "PA3",
+     "functions": [
+      "A3",
+      "13",
+      "ADC3",
+      "RX2",
+      "T2_CH4",
+      "T5_CH4",
+      "T9_CH2"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "PA4",
+     "functions": [
+      "A4",
+      "14",
+      "ADC4",
+      "CK2",
+      "NSS1",
+      "NSS3"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "PA5",
+     "functions": [
+      "A5",
+      "15",
+      "ADC5",
+      "SCK1",
+      "T2_CH1",
+      "T2_ET"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "PA6",
+     "functions": [
+      "A6",
+      "16",
+      "ADC6",
+      "SD CMD",
+      "MISO1",
+      "T1_BKIN",
+      "T3_CH1"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "PA7",
+     "functions": [
+      "A7",
+      "17",
+      "ADC7",
+      "MOSI1",
+      "T1_CH1N",
+      "T3_CH2"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "PB0",
+     "functions": [
+      "B0",
+      "18",
+      "ADC8",
+      "SCK5 (F411)",
+      "T1_CH2N",
+      "T3_CH3"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "PB1",
+     "functions": [
+      "B1",
+      "19",
+      "ADC9",
+      "NSS5 (F411)",
+      "T1_CH3N",
+      "T3_CH4"
+     ]
+    },
+    {
+     "position": 16,
+     "label": "PB2",
+     "functions": [
+      "B2",
+      "20",
+      "BOOT1"
+     ]
+    },
+    {
+     "position": 17,
+     "label": "PB10",
+     "functions": [
+      "B10",
+      "21",
+      "SCL2",
+      "SD_D7",
+      "SCK2",
+      "T2_CH3"
+     ]
+    },
+    {
+     "position": 18,
+     "label": "3V3",
+     "functions": [
+      "24"
+     ]
+    },
+    {
+     "position": 19,
+     "label": "GND",
+     "functions": [
+      "G",
+      "23"
+     ]
+    },
+    {
+     "position": 20,
+     "label": "5V",
+     "functions": []
+    }
+   ],
+   "image": "media/e176d55d4b353f9cbd52e6d7029ca364f2c2fa53ec03accbe2edfe64cf4d7748.png"
+  },
+  {
+   "id": "SWD",
+   "name": "SWD",
+   "rows": 1,
+   "orderNote": "USB centered above; left to right.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "PA13",
+     "functions": [
+      "DIO",
+      "34",
+      "JTMS / SWDIO"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "PA14",
+     "functions": [
+      "SCK",
+      "37",
+      "JTCK / SWCLK"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": []
+    }
+   ],
+   "image": "media/e176d55d4b353f9cbd52e6d7029ca364f2c2fa53ec03accbe2edfe64cf4d7748.png"
+  },
+  {
+   "id": "left-header-img2",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "PB12",
+     "functions": [
+      "B12",
+      "25",
+      "SMBA2",
+      "SCK3 (F411)",
+      "NSS2",
+      "NSS4",
+      "T1_BKIN"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "PB13",
+     "functions": [
+      "B13",
+      "26",
+      "SCK4 (F411)",
+      "SCK2",
+      "T1_CH1N"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "PB14",
+     "functions": [
+      "B14",
+      "27",
+      "SD_D6",
+      "MISO2",
+      "T2_CH2N",
+      "EXT_SD2"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "PB15",
+     "functions": [
+      "B15",
+      "28",
+      "SD_CK",
+      "MOSI2",
+      "T1_CH3N",
+      "RTC_50Hz",
+      "RTC_REFIN"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "PA8",
+     "functions": [
+      "A8",
+      "29",
+      "SCL3",
+      "CK1",
+      "SD_D1",
+      "T1_CH1",
+      "USB FS_SOF"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "PA9",
+     "functions": [
+      "A9",
+      "30",
+      "SMBA3",
+      "TX1",
+      "SD_D2",
+      "T1_CH2",
+      "USB/OTG FS_VBUS"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "PA10",
+     "functions": [
+      "A10",
+      "31",
+      "RX1",
+      "MOSI5 (F411)",
+      "T1_CH3",
+      "USB FS_ID"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "PA11",
+     "functions": [
+      "A11",
+      "32",
+      "CTS1",
+      "TX6",
+      "MISO4 (F411)",
+      "T1_CH4",
+      "USB FS DM(-)"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "PA12",
+     "functions": [
+      "A12",
+      "33",
+      "RTS1",
+      "RX6",
+      "MISO5 (F411)",
+      "T1_ETR",
+      "USB FS DP(+)"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "PA15",
+     "functions": [
+      "A15",
+      "38",
+      "TX1 (F411)",
+      "NSS1",
+      "NSS3",
+      "T2_CH1",
+      "T2_ETR",
+      "JTDI"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "PB3",
+     "functions": [
+      "B3",
+      "39",
+      "SDA2",
+      "RX1 (F411)",
+      "SCK1",
+      "SCK3",
+      "T2_CH2",
+      "JTDO-SWO"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "PB4",
+     "functions": [
+      "B4",
+      "40",
+      "SDA3",
+      "SD_D0",
+      "MISO1",
+      "MISO3",
+      "T3_CH1",
+      "JTRST"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "PB5",
+     "functions": [
+      "B5",
+      "41",
+      "SMBA1",
+      "SD_D3",
+      "MOSI1",
+      "MOSI3",
+      "T3_CH2"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "PB6",
+     "functions": [
+      "B6",
+      "42",
+      "SCL1",
+      "TX1",
+      "T4_CH1"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "PB7",
+     "functions": [
+      "B7",
+      "43",
+      "SDA1",
+      "RX1",
+      "SD_D0",
+      "T4_CH2"
+     ]
+    },
+    {
+     "position": 16,
+     "label": "PB8",
+     "functions": [
+      "B8",
+      "45",
+      "SCL1 (SDA3)",
+      "SD_D4",
+      "MOSI5 (F411)",
+      "T4_CH3",
+      "T10_CH1"
+     ]
+    },
+    {
+     "position": 17,
+     "label": "PB9",
+     "functions": [
+      "B9",
+      "46",
+      "SDA1 (SDA2)",
+      "SD_D5",
+      "NSS2",
+      "T4_CH4",
+      "T11_CH1"
+     ]
+    },
+    {
+     "position": 18,
+     "label": "5V",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "GND",
+     "functions": [
+      "G",
+      "47"
+     ]
+    },
+    {
+     "position": 20,
+     "label": "3V3",
+     "functions": [
+      "48"
+     ]
+    }
+   ],
+   "image": "media/a5d61bde884c4a5e1bbed1716482ca4595cf24b9e2f18cc259832284b39ebfef.png"
+  },
+  {
+   "id": "right-header-img2",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "USB at top; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "5V",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": [
+      "G",
+      "23"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "3V3",
+     "functions": [
+      "24"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "PB10",
+     "functions": [
+      "B10",
+      "21",
+      "SCL2",
+      "SD_D7",
+      "SCK2",
+      "T2_CH3"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "PB2",
+     "functions": [
+      "B2",
+      "20",
+      "BOOT1"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "PB1",
+     "functions": [
+      "B1",
+      "19",
+      "ADC9",
+      "NSS5 (F411)",
+      "T1_CH3N",
+      "T3_CH4"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "PB0",
+     "functions": [
+      "B0",
+      "18",
+      "ADC8",
+      "SCK5 (F411)",
+      "T1_CH2N",
+      "T3_CH3"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "PA7",
+     "functions": [
+      "A7",
+      "17",
+      "ADC7",
+      "MOSI1",
+      "T1_CH1N",
+      "T3_CH2"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "PA6",
+     "functions": [
+      "A6",
+      "16",
+      "ADC6",
+      "SD CMD",
+      "MISO1",
+      "T1_BKIN",
+      "T3_CH1"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "PA5",
+     "functions": [
+      "A5",
+      "15",
+      "ADC5",
+      "SCK1",
+      "T2_CH1",
+      "T2_ET"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "PA4",
+     "functions": [
+      "A4",
+      "14",
+      "ADC4",
+      "CK2",
+      "NSS1",
+      "NSS3"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "PA3",
+     "functions": [
+      "A3",
+      "13",
+      "ADC3",
+      "RX2",
+      "T2_CH4",
+      "T5_CH4",
+      "T9_CH2"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "PA2",
+     "functions": [
+      "A2",
+      "12",
+      "ADC2",
+      "TX2",
+      "T2_CH3",
+      "T5_CH3",
+      "T9_CH1"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "PA1",
+     "functions": [
+      "A1",
+      "11",
+      "ADC1",
+      "RTS2",
+      "MOSI4 (F411)",
+      "T2_CH2",
+      "T5_CH2"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "PA0",
+     "functions": [
+      "A0",
+      "10",
+      "ADC0",
+      "CTS2",
+      "WKUP1",
+      "T2_CH1",
+      "T2_ET",
+      "T5_CH1"
+     ]
+    },
+    {
+     "position": 16,
+     "label": "NRST",
+     "functions": [
+      "R",
+      "7"
+     ]
+    },
+    {
+     "position": 17,
+     "label": "PC15",
+     "functions": [
+      "C15",
+      "4",
+      "OSC32 OUT"
+     ]
+    },
+    {
+     "position": 18,
+     "label": "PC14",
+     "functions": [
+      "C14",
+      "3",
+      "OSC32 IN"
+     ]
+    },
+    {
+     "position": 19,
+     "label": "PC13",
+     "functions": [
+      "C13",
+      "2",
+      "LED BLUE",
+      "RTC_AMP1",
+      "RTC OUT",
+      "RTC TS"
+     ]
+    },
+    {
+     "position": 20,
+     "label": "VBAT",
+     "functions": [
+      "VB",
+      "1"
+     ]
+    }
+   ],
+   "image": "media/a5d61bde884c4a5e1bbed1716482ca4595cf24b9e2f18cc259832284b39ebfef.png"
+  },
+  {
+   "id": "SWD-img2",
+   "name": "SWD",
+   "rows": 1,
+   "orderNote": "USB centered above; left to right.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "PA13",
+     "functions": [
+      "DIO",
+      "34",
+      "JTMS / SWDIO"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "PA14",
+     "functions": [
+      "SCK",
+      "37",
+      "JTCK / SWCLK"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": []
+    }
+   ],
+   "image": "media/a5d61bde884c4a5e1bbed1716482ca4595cf24b9e2f18cc259832284b39ebfef.png"
+  }
+ ],
+ "notes": "First image prints board positions; second prints CPU numbers only. Per-image physical ordering retained. F411-specific aliases copied; MCO1/29 standalone legend has no physical pad leader, not assigned. Buttons and symbol-only voltage/PWM indicators excluded.",
+ "unreadable": [],
+ "uncertain": []
+}

@@ -1,0 +1,671 @@
+{
+  "recordId": "waveshare-esp32-esp32-s2-pico",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/8daef0cee4cdb8120f87c0430b0f11d8c7e0696868e4bcf877558603e605f2d0.jpg",
+      "sha256": "8daef0cee4cdb8120f87c0430b0f11d8c7e0696868e4bcf877558603e605f2d0"
+    },
+    {
+      "file": "media/9de31f532fc7dccdbddb7fb200bfa865b3d36fa5a0576b43a1d61b3227d396aa.jpg",
+      "sha256": "9de31f532fc7dccdbddb7fb200bfa865b3d36fa5a0576b43a1d61b3227d396aa"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "right-header",
+      "name": "Right castellated edge (printed pins 1-20)",
+      "image": "media/8daef0cee4cdb8120f87c0430b0f11d8c7e0696868e4bcf877558603e605f2d0.jpg",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 1-20 followed (pin 1 at top, next to USB); position n = printed pin n.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP2",
+          "functions": [
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP3",
+          "functions": [
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GP4",
+          "functions": [
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP5",
+          "functions": [
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP43",
+          "functions": [
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP44",
+          "functions": [
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GP14",
+          "functions": [
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP15",
+          "functions": [
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP16",
+          "functions": [
+            "SPI1 RX",
+            "I2C0 SDA"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP17",
+          "functions": [
+            "SPI1 CSn",
+            "I2C0 SCL"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GP10",
+          "functions": [
+            "SPI1 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GP11",
+          "functions": [
+            "SPI1 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GP12",
+          "functions": [
+            "SPI1 RX",
+            "I2C0 SDA"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GP13",
+          "functions": [
+            "SPI1 CSn",
+            "I2C0 SCL"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GP34",
+          "functions": [
+            "SPI1 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GP35",
+          "functions": [
+            "SPI1 TX",
+            "I2C1 SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header",
+      "name": "Left castellated edge (printed pins 21-40)",
+      "image": "media/8daef0cee4cdb8120f87c0430b0f11d8c7e0696868e4bcf877558603e605f2d0.jpg",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 21-40 followed (pin 21 at bottom); position 1 = printed pin 21 ... position 20 = printed pin 40.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP36",
+          "functions": [
+            "SPI0 RX",
+            "I2C0 SDA"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP37",
+          "functions": [
+            "SPI0 CSn",
+            "I2C0 SCL"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GP38",
+          "functions": [
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP39",
+          "functions": [
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP40",
+          "functions": [
+            "I2C0 SDA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP41",
+          "functions": [
+            "I2C0 SCL"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GP42",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "RUN",
+          "functions": [
+            "RESET"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP6",
+          "functions": [
+            "ADC0",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP7",
+          "functions": [
+            "ADC1",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GP8",
+          "functions": [
+            "ADC2"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "3V3(OUT)",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "3V3_EN",
+          "functions": [
+            "EN"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "VSYS",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "VBUS",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "usb-pads",
+      "name": "USB test pads",
+      "image": "media/8daef0cee4cdb8120f87c0430b0f11d8c7e0696868e4bcf877558603e605f2d0.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; both pads sit directly under the USB connector, so neither is nearer; left-to-right order.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "USB_N",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "USB_P",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "boot-pad",
+      "name": "BOOT test pad",
+      "image": "media/8daef0cee4cdb8120f87c0430b0f11d8c7e0696868e4bcf877558603e605f2d0.jpg",
+      "rows": 1,
+      "orderNote": "Single pad.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BOOT",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Right castellated edge (printed pins 1-20)",
+      "image": "media/9de31f532fc7dccdbddb7fb200bfa865b3d36fa5a0576b43a1d61b3227d396aa.jpg",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 1-20 followed (pin 1 at top, next to USB); position n = printed pin n.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP2",
+          "functions": [
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP3",
+          "functions": [
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GP4",
+          "functions": [
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP5",
+          "functions": [
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP43",
+          "functions": [
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP44",
+          "functions": [
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GP14",
+          "functions": [
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP15",
+          "functions": [
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP16",
+          "functions": [
+            "SPI1 RX",
+            "I2C0 SDA"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP17",
+          "functions": [
+            "SPI1 CSn",
+            "I2C0 SCL"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GP10",
+          "functions": [
+            "SPI1 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GP11",
+          "functions": [
+            "SPI1 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GP12",
+          "functions": [
+            "SPI1 RX",
+            "I2C0 SDA"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GP13",
+          "functions": [
+            "SPI1 CSn",
+            "I2C0 SCL"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GP34",
+          "functions": [
+            "SPI1 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GP35",
+          "functions": [
+            "SPI1 TX",
+            "I2C1 SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left castellated edge (printed pins 21-40)",
+      "image": "media/9de31f532fc7dccdbddb7fb200bfa865b3d36fa5a0576b43a1d61b3227d396aa.jpg",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 21-40 followed (pin 21 at bottom); position 1 = printed pin 21 ... position 20 = printed pin 40.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP36",
+          "functions": [
+            "SPI0 RX",
+            "I2C0 SDA"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP37",
+          "functions": [
+            "SPI0 CSn",
+            "I2C0 SCL"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GP38",
+          "functions": [
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP39",
+          "functions": [
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP40",
+          "functions": [
+            "I2C0 SDA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP41",
+          "functions": [
+            "I2C0 SCL"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GP42",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "RUN",
+          "functions": [
+            "RESET"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP6",
+          "functions": [
+            "ADC0",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP7",
+          "functions": [
+            "ADC1",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GP8",
+          "functions": [
+            "ADC2"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "3V3(OUT)",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "3V3_EN",
+          "functions": [
+            "EN"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "VSYS",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "VBUS",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "usb-pads-img2",
+      "name": "USB test pads",
+      "image": "media/9de31f532fc7dccdbddb7fb200bfa865b3d36fa5a0576b43a1d61b3227d396aa.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; both pads sit directly under the USB connector, so neither is nearer; left-to-right order.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "USB_N",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "USB_P",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "boot-pad-img2",
+      "name": "BOOT test pad",
+      "image": "media/9de31f532fc7dccdbddb7fb200bfa865b3d36fa5a0576b43a1d61b3227d396aa.jpg",
+      "rows": 1,
+      "orderNote": "Single pad.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BOOT",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Bottom-side view. USB_N, USB_P and BOOT pads have no silkscreen; labels come from the callouts. Both images carry identical callouts."
+}

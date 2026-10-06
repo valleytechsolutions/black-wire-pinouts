@@ -1,0 +1,295 @@
+{
+ "recordId": "heltec-esp32-wifi-kit-32-v3",
+ "pass": "a",
+ "date": "2026-10-04",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/9df3b3df0f8e4efa944e38f82975c734d1e5acd6465413bee2dcd55d1a7c9d64.png",
+   "sha256": "9df3b3df0f8e4efa944e38f82975c734d1e5acd6465413bee2dcd55d1a7c9d64"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "J2",
+   "name": "J2",
+   "rows": 1,
+   "orderNote": "Follow the explicitly printed header position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "5V",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "Ve",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "Ve",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "GPIO44",
+     "functions": [
+      "U0RXD",
+      "CP2102_TX"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GPIO43",
+     "functions": [
+      "U0TXD",
+      "CP2102_RX"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "RST",
+     "functions": [
+      "RST_SW"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GPIO0",
+     "functions": [
+      "USER_SW"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GPIO21",
+     "functions": [
+      "OLED_RST"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "GPIO20",
+     "functions": [
+      "U1CTS",
+      "ADC2_CH9",
+      "CLK_OUT1",
+      "USB_D+"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "GPIO19",
+     "functions": [
+      "U1RST",
+      "ADC2_CH9",
+      "CLK_OUT2",
+      "USB_D-"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "GPIO7",
+     "functions": [
+      "ADC1_CH6",
+      "TOUCH7"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "GPIO6",
+     "functions": [
+      "ADC1_CH5",
+      "TOUCH6"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "GPIO5",
+     "functions": [
+      "ADC1_CH4",
+      "TOUCH5"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "GPIO4",
+     "functions": [
+      "ADC1_CH3",
+      "TOUCH4"
+     ]
+    },
+    {
+     "position": 16,
+     "label": "GPIO3",
+     "functions": [
+      "ADC1_CH2",
+      "TOUCH3"
+     ]
+    },
+    {
+     "position": 17,
+     "label": "GPIO2",
+     "functions": [
+      "ADC1_CH1",
+      "TOUCH2"
+     ]
+    },
+    {
+     "position": 18,
+     "label": "GPIO1",
+     "functions": [
+      "ADC1_CH0",
+      "VBAT_Read",
+      "TOUCH1"
+     ]
+    }
+   ],
+   "image": "media/9df3b3df0f8e4efa944e38f82975c734d1e5acd6465413bee2dcd55d1a7c9d64.png"
+  },
+  {
+   "id": "J3",
+   "name": "J3",
+   "rows": 1,
+   "orderNote": "Follow the explicitly printed header position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GPIO26",
+     "functions": [
+      "SPICS1"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GPIO48",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "GPIO47",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "GPIO33",
+     "functions": [
+      "SPIIO4",
+      "FSPIHD",
+      "SUBSPIHD"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GPIO34",
+     "functions": [
+      "SPIIO5",
+      "FSPICS0",
+      "SUBSPICS0"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GPIO35",
+     "functions": [
+      "SPIIO6",
+      "FSPID",
+      "SUBSPID",
+      "LED_Write"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "GPIO36",
+     "functions": [
+      "SPIIO7",
+      "FSPICLK",
+      "SUBSPICLK",
+      "Vext_Ctrl"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "GPIO37",
+     "functions": [
+      "SPIDQS",
+      "FSPIQ",
+      "SUBSPIQ",
+      "ADC_Ctrl"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "GPIO38",
+     "functions": [
+      "FSPIWP",
+      "SUBSPIWP"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "GPIO39",
+     "functions": [
+      "MTCK"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "GPIO40",
+     "functions": [
+      "MTDO"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "GPIO41",
+     "functions": [
+      "MTDI"
+     ]
+    },
+    {
+     "position": 16,
+     "label": "GPIO42",
+     "functions": [
+      "MTMS"
+     ]
+    },
+    {
+     "position": 17,
+     "label": "GPIO45",
+     "functions": []
+    },
+    {
+     "position": 18,
+     "label": "GPIO46",
+     "functions": []
+    }
+   ],
+   "image": "media/9df3b3df0f8e4efa944e38f82975c734d1e5acd6465413bee2dcd55d1a7c9d64.png"
+  }
+ ],
+ "notes": "U1RST and ADC2_CH9 are copied as printed, including ADC2_CH9 on both GPIO19 and GPIO20.",
+ "unreadable": [],
+ "uncertain": []
+}

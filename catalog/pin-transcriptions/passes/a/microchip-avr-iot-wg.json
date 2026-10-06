@@ -1,0 +1,159 @@
+{
+  "recordId": "microchip-avr-iot-wg",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/d37c6440d853f0f37a3687390c7751f92ca462420c2c263cdc6eb701f56ed063.png",
+      "sha256": "d37c6440d853f0f37a3687390c7751f92ca462420c2c263cdc6eb701f56ed063"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/d37c6440d853f0f37a3687390c7751f92ca462420c2c263cdc6eb701f56ed063.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at top (end closest to the micro-USB connector).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PD7",
+          "functions": [
+            "AN",
+            "ADC AIN7"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PA0",
+          "functions": [
+            "RST",
+            "Reset"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PC3",
+          "functions": [
+            "CS",
+            "SPI CS"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA6",
+          "functions": [
+            "SCK",
+            "SPI SCK"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PA5",
+          "functions": [
+            "SDO",
+            "SPI MISO"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA4",
+          "functions": [
+            "SDI",
+            "SPI MOSI"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "3.3V",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/d37c6440d853f0f37a3687390c7751f92ca462420c2c263cdc6eb701f56ed063.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at top (end closest to the micro-USB connector).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PD4",
+          "functions": [
+            "PWM",
+            "Timer/PWM"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PD6",
+          "functions": [
+            "INT",
+            "Interrupt"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PC1",
+          "functions": [
+            "RX",
+            "UART RX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PC0",
+          "functions": [
+            "TX",
+            "UART TX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PA3",
+          "functions": [
+            "SCL",
+            "I²C SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA2",
+          "functions": [
+            "SDA",
+            "I²C SDA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "5.0V",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "Letter O vs digit 0 not distinguishable in PA0/PC0/PD0; read as 0."
+  ],
+  "uncertain": [
+    "Board identity: the image is titled only 'AVR-IoT Development Board' and does not name the WG variant or AC164160; it cannot confirm which AVR-IoT variant is shown."
+  ],
+  "notes": "Microchip 'AVR-IoT Development Board Pinout' (DS30010192D). Diagram callouts recorded with the small board silkscreen first in functions. Skipped per rule 1: user switches (PF5, PF6), status LEDs (PD0-PD3), LiPo connector and micro-USB."
+}

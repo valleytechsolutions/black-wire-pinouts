@@ -1,0 +1,131 @@
+{
+  "recordId": "m5stack-gpio-device-atoms3r-m12-volcengine-kit",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/8e31ba0c03a24246e322fab5d6af4132453425fe4a6548f5c8beb23e029bbbe2.jpg",
+      "sha256": "8e31ba0c03a24246e322fab5d6af4132453425fe4a6548f5c8beb23e029bbbe2"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/8e31ba0c03a24246e322fab5d6af4132453425fe4a6548f5c8beb23e029bbbe2.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB connector visible; vertical row read from the top as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "G5",
+          "functions": [
+            "ACH4",
+            "TCH5"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "G6",
+          "functions": [
+            "ACH5",
+            "TCH6"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "G7",
+          "functions": [
+            "ACH6",
+            "TCH7"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "G8",
+          "functions": [
+            "ACH7",
+            "TCH8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/8e31ba0c03a24246e322fab5d6af4132453425fe4a6548f5c8beb23e029bbbe2.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB connector visible; vertical row read from the top as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G39",
+          "functions": [
+            "CLK_OUT3"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "G38",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "port-a",
+      "name": "PORT.A (HY2.0-4P)",
+      "image": "media/8e31ba0c03a24246e322fab5d6af4132453425fe4a6548f5c8beb23e029bbbe2.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB connector visible; horizontal row read from the left as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G2",
+          "functions": [
+            "ACH1",
+            "TCH2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "G1",
+          "functions": [
+            "ACH0",
+            "TCH1"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Board identity: the image is titled 'ATOM S3R M12' and shows only that unit; nothing specific to the Volcengine Kit is shown, so it may depict the base AtomS3R-M12 rather than the kit"
+  ],
+  "notes": "Labels from the callouts beside each header; back-label silkscreen agrees. G0 SCL / G45 SDA (BMI270/BMM150) and the OV3660 camera table (CAM_SDA G12 ... POWER_N G18) are internal connections with no header position, so not transcribed. Same image as the AtomS3R-M12 record."
+}

@@ -1,0 +1,183 @@
+{
+  "recordId": "halehound-cyd-spi-28",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/e05f89ebaf852df5e45ed0aa8e4781eeed6d333f9d4fca17e1794392181f3382.png",
+      "sha256": "e05f89ebaf852df5e45ed0aa8e4781eeed6d333f9d4fca17e1794392181f3382"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "right-pads",
+      "name": "ESP32 module right-side castellated pads (top photo)",
+      "image": "media/e05f89ebaf852df5e45ed0aa8e4781eeed6d333f9d4fca17e1794392181f3382.png",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB connector visible in the top photo; vertical row ordered from top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IO23",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO22",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "IO21",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "IO19",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "IO18",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "IO17",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "IO16",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "IO4",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO 0",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-pads",
+      "name": "ESP32 module left-side castellated pads (top photo)",
+      "image": "media/e05f89ebaf852df5e45ed0aa8e4781eeed6d333f9d4fca17e1794392181f3382.png",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB connector visible in the top photo; vertical row ordered from top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "IO35",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "IO26",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "?",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "right-pads positions 1,4,5,7,10: module pads with no label (painted grey, no wire)",
+    "left-pads positions 1-7,9,10,12-14: module pads with no label (painted grey, no wire)"
+  ],
+  "notes": "Image is a build-guide page. Top photo: close-up of an ESP32-32E module with wires soldered to labeled module pads; only those pads are labeled. Pad counts (14 per side) counted from the grey pad markers. Bottom-edge module pads carry no labels and are skipped. Truncated text '(SDA/' and '(SCL)' at the left image edge runs beside the wires to IO35 and IO26 but is cut off, so not assigned. Bottom photo (captioned as another builder's prep, board silkscreen reads '3.5' ...) not transcribed.",
+  "uncertain": [
+    "Board identity: the record is the CYD 2.8 SPI-exposed build, but the bottom photo shows a board marked '3.5' and the top close-up does not show which display board it is.",
+    "Pad count per side (14) is inferred from overlapping grey pad markers; the exact number and spacing of unlabeled pads is not settled by the image.",
+    "'GPIO 0' label is printed below the right column rather than beside a pad; assigned to the lowest right-side pad because the green wire attaches there.",
+    "Bottom photo shows JST connectors with small silkscreen labels (SPI, I2C, UART, IO35/IO39) but on a board marked 3.5; skipped as possibly a different product."
+  ]
+}

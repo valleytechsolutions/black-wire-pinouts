@@ -1,0 +1,585 @@
+{
+  "recordId": "waveshare-esp32-esp32-s3-amoled-1-91",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/359160149cfbd55333f77212adede2a300dfcc474e6ed67defcd298255a18394.jpg",
+      "sha256": "359160149cfbd55333f77212adede2a300dfcc474e6ed67defcd298255a18394"
+    },
+    {
+      "file": "media/1d4ba4dfaf474a171d0ccfaaa61d42b5338fa36f2ecb9145bd5034e8fd848e23.webp",
+      "sha256": "1d4ba4dfaf474a171d0ccfaaa61d42b5338fa36f2ecb9145bd5034e8fd848e23"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/359160149cfbd55333f77212adede2a300dfcc474e6ed67defcd298255a18394.jpg",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 1-20, pin 1 at top right (GPIO43) down to 20 at bottom right.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO43",
+          "functions": [
+            "IO43",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO44",
+          "functions": [
+            "IO44",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO0",
+          "functions": [
+            "IO0",
+            "Boot"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO1",
+          "functions": [
+            "IO1",
+            "BAT_ADC"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO2",
+          "functions": [
+            "IO2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO3",
+          "functions": [
+            "IO3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO11",
+          "functions": [
+            "IO11"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO12",
+          "functions": [
+            "IO12"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO13",
+          "functions": [
+            "IO13"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO14",
+          "functions": [
+            "IO14"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO15",
+          "functions": [
+            "IO15"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO19",
+          "functions": [
+            "IO19",
+            "D_N"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO20",
+          "functions": [
+            "IO20",
+            "D_P"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO21",
+          "functions": [
+            "IO21"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GPIO26",
+          "functions": [
+            "IO26"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO33",
+          "functions": [
+            "IO33"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/359160149cfbd55333f77212adede2a300dfcc474e6ed67defcd298255a18394.jpg",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 21-40: position 1 = printed pin 21 at bottom left, position 20 = printed pin 40 (VBUS) at top left.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO34",
+          "functions": [
+            "IO34"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO35",
+          "functions": [
+            "IO35"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO36",
+          "functions": [
+            "IO36"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO37",
+          "functions": [
+            "IO37"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO38",
+          "functions": [
+            "IO38"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO39",
+          "functions": [
+            "IO39",
+            "I2C SCL"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO40",
+          "functions": [
+            "IO40",
+            "I2C SDA"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "CHIP_UP",
+          "functions": [
+            "RUN"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO4",
+          "functions": [
+            "IO4"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO10",
+          "functions": [
+            "IO10"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO16",
+          "functions": [
+            "IO16"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO17",
+          "functions": [
+            "IO17"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "3V3_EN",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "VSYS",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "VBUS",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Right header",
+      "image": "media/1d4ba4dfaf474a171d0ccfaaa61d42b5338fa36f2ecb9145bd5034e8fd848e23.webp",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 1-20, pin 1 at top right (GPIO43) down to 20 at bottom right.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP43",
+          "functions": [
+            "IO43",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP44",
+          "functions": [
+            "IO44",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GP0",
+          "functions": [
+            "IO0",
+            "Boot"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP1",
+          "functions": [
+            "IO1",
+            "BAT_ADC"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP2",
+          "functions": [
+            "IO2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP3",
+          "functions": [
+            "IO3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GP11",
+          "functions": [
+            "IO11"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP12",
+          "functions": [
+            "IO12"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP13",
+          "functions": [
+            "IO13"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP14",
+          "functions": [
+            "IO14"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GP15",
+          "functions": [
+            "IO15"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GP19",
+          "functions": [
+            "IO19",
+            "D_N"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GP20",
+          "functions": [
+            "IO20",
+            "D_P"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GP21",
+          "functions": [
+            "IO21"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GP26",
+          "functions": [
+            "IO26"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GP33",
+          "functions": [
+            "IO33"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left header",
+      "image": "media/1d4ba4dfaf474a171d0ccfaaa61d42b5338fa36f2ecb9145bd5034e8fd848e23.webp",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 21-40: position 1 = printed pin 21 at bottom left, position 20 = printed pin 40 (VBUS) at top left.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP34",
+          "functions": [
+            "IO34"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP35",
+          "functions": [
+            "IO35"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GP36",
+          "functions": [
+            "IO36"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP37",
+          "functions": [
+            "IO37"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP38",
+          "functions": [
+            "IO38"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP39",
+          "functions": [
+            "IO39",
+            "I2C SCL"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GP40",
+          "functions": [
+            "IO40",
+            "I2C SDA"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "CHIP_UP",
+          "functions": [
+            "RUN"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP4",
+          "functions": [
+            "IO4"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP10",
+          "functions": [
+            "IO10"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GP16",
+          "functions": [
+            "IO16"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GP17",
+          "functions": [
+            "IO17"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "3V3_EN",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "VSYS",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "VBUS",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Image 1 uses GPIOxx callouts, image 2 the same artwork with GPxx callouts; each transcribed separately per rule 11. Silkscreen IOxx (and RUN for CHIP_UP) first in functions; 3V3_EN, VSYS, VBUS silkscreen matches the callout. Skipped: RST and BOOT/GPIO0 buttons, USB-C, 2-pin BAT connector (only +/- marks), and the SD card and QMI8658 IMU signal tables (on-board connections, no pin positions)."
+}

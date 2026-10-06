@@ -1,0 +1,347 @@
+{
+ "recordId": "wiphone-gpio-device-bus-pirate-daughter-board-v1-1",
+ "pass": "a",
+ "date": "2026-10-05",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/2008e3560daeec98f32679764af1ab5d5646f36add760955d45a4f0c02cfd410.png",
+   "sha256": "2008e3560daeec98f32679764af1ab5d5646f36add760955d45a4f0c02cfd410"
+  },
+  {
+   "file": "media/013ff85f564aedced33ea9cc9ecc61ad28b5e396495eafeb595e3fefd6605785.png",
+   "sha256": "013ff85f564aedced33ea9cc9ecc61ad28b5e396495eafeb595e3fefd6605785"
+  },
+  {
+   "file": "media/b2c931653e3f616ba0105289a0846faaac58c8f3466dc07d99ee8664d4127734.png",
+   "sha256": "b2c931653e3f616ba0105289a0846faaac58c8f3466dc07d99ee8664d4127734"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "esp32-header",
+   "name": "esp32-header",
+   "rows": 2,
+   "orderNote": "Printed 1 at top right and 2 at top left; right then left pairs, top to bottom.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GPIO_38",
+     "functions": [
+      "7",
+      "RX"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GPIO_32",
+     "functions": [
+      "12",
+      "TX"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "GPIO_12",
+     "functions": [
+      "18",
+      "RTS"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GPIO_13",
+     "functions": [
+      "20",
+      "CTS"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GPIO_27",
+     "functions": [
+      "16"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "GPIO_14",
+     "functions": [
+      "17"
+     ]
+    }
+   ],
+   "image": "media/2008e3560daeec98f32679764af1ab5d5646f36add760955d45a4f0c02cfd410.png"
+  },
+  {
+   "id": "sx1509-header",
+   "name": "sx1509-header",
+   "rows": 2,
+   "orderNote": "Printed 11 at top right and 12 at top left; local 1-10 right then left pairs.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "VBAT",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "?",
+     "functions": []
+    }
+   ],
+   "image": "media/2008e3560daeec98f32679764af1ab5d5646f36add760955d45a4f0c02cfd410.png"
+  },
+  {
+   "id": "programming-header",
+   "name": "programming-header",
+   "rows": 1,
+   "orderNote": "No USB shown; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "MLCR",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "+3V3",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "PGD",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "PGC",
+     "functions": []
+    }
+   ],
+   "image": "media/2008e3560daeec98f32679764af1ab5d5646f36add760955d45a4f0c02cfd410.png"
+  },
+  {
+   "id": "bus-header",
+   "name": "bus-header",
+   "rows": 2,
+   "orderNote": "No USB; left to right, alternating outer lower row then inner upper row.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "+3.3",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "ADC",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "+5V",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "AUX",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "VPU",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "MOSI",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "CLK",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "MISO",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "CS",
+     "functions": []
+    }
+   ],
+   "image": "media/2008e3560daeec98f32679764af1ab5d5646f36add760955d45a4f0c02cfd410.png"
+  },
+  {
+   "id": "programming-header-img2",
+   "name": "programming-header",
+   "rows": 1,
+   "orderNote": "No USB shown; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "MLCR",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "+3V3",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "PGD",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "PGC",
+     "functions": []
+    }
+   ],
+   "image": "media/013ff85f564aedced33ea9cc9ecc61ad28b5e396495eafeb595e3fefd6605785.png"
+  },
+  {
+   "id": "bus-header-img3",
+   "name": "bus-header",
+   "rows": 2,
+   "orderNote": "No USB; left to right, alternating lower outer row then upper inner row.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "MISO",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "CS",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "MOSI",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "CLK",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "AUX",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "VPU",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "ADC",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "+5V",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "GND",
+     "functions": []
+    }
+   ],
+   "image": "media/b2c931653e3f616ba0105289a0846faaac58c8f3466dc07d99ee8664d4127734.png"
+  }
+ ],
+ "notes": "MLCR copied as printed. Image 3 is reverse-side connector view, not merged with image 1.",
+ "unreadable": [
+  "ESP32 and SX1509 expansion drawings leave several physical holes unnamed; positions retained as question marks."
+ ],
+ "uncertain": []
+}

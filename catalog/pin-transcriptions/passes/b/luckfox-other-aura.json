@@ -1,0 +1,412 @@
+{
+  "recordId": "luckfox-other-aura",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/0fb7a9a3a81ee838ce17654129696b982daf2d7deb66d2601dac720078391208.jpg",
+      "sha256": "0fb7a9a3a81ee838ce17654129696b982daf2d7deb66d2601dac720078391208"
+    },
+    {
+      "file": "media/40a0695b5fb2dfaddff230bb21d1336b23a0e2a2aa38fe9904c876bb838d4257.jpg",
+      "sha256": "40a0695b5fb2dfaddff230bb21d1336b23a0e2a2aa38fe9904c876bb838d4257"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "right-header",
+      "name": "40PIN header",
+      "image": "media/0fb7a9a3a81ee838ce17654129696b982daf2d7deb66d2601dac720078391208.jpg",
+      "rows": 2,
+      "orderNote": "Pin numbers 1-40 printed; followed them (odd = inner/left column, even = outer/right column)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO0_D1",
+          "functions": [
+            "25",
+            "I2C2_SDA_M0",
+            "PWM0_CH5_M0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO0_D0",
+          "functions": [
+            "24",
+            "I2C2_SCL_M0",
+            "PWM0_CH4_M0"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO5_B4",
+          "functions": [
+            "172",
+            "UART7_TX_M0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO5_A2",
+          "functions": [
+            "162",
+            "UART4_TX_M1",
+            "PWM0_CH5_M2"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GPIO5_A3",
+          "functions": [
+            "163",
+            "UART4_RX_M1",
+            "SPI0_CSN0_M2",
+            "PWM0_CH4_M2"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO5_C2",
+          "functions": [
+            "178",
+            "PWM3_CH2_M1"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO5_C5",
+          "functions": [
+            "181",
+            "PWM3_CH5_M1"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO5_C3",
+          "functions": [
+            "179",
+            "PWM3_CH3_M1"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GPIO5_C4",
+          "functions": [
+            "180",
+            "PWM3_CH4_M1"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO5_C6",
+          "functions": [
+            "182",
+            "PWM3_CH6_M1"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GPIO5_C7",
+          "functions": [
+            "183",
+            "PWM3_CH7_M1"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GPIO5_D2",
+          "functions": [
+            "186",
+            "UART3_RTSN_M1",
+            "SPI1_MOSI_M2",
+            "PWM1_CH1_M1"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "GPIO5_D3",
+          "functions": [
+            "187",
+            "UART3_CTSN_M1",
+            "SPI1_MISO_M2",
+            "PWM1_CH0_M1"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "GPIO5_B6",
+          "functions": [
+            "174",
+            "UART7_RTSN_M0",
+            "PWM2_CH2_M1"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "GPIO5_D1",
+          "functions": [
+            "185",
+            "SPI1_CLK_M2",
+            "PWM1_CH2_M1"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "GPIO5_D0",
+          "functions": [
+            "184",
+            "SPI1_CSN0_M2",
+            "PWM0_CH6_M2"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "GPIO5_B7",
+          "functions": [
+            "175",
+            "UART7_CTSN_M0",
+            "PWM2_CH3_M1"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "GPIO5_A7",
+          "functions": [
+            "167",
+            "UART5_CTSN_M1",
+            "I2C5_SDA_M2",
+            "PWM0_CH0_M1"
+          ]
+        },
+        {
+          "position": 28,
+          "label": "GPIO5_A1",
+          "functions": [
+            "161",
+            "UART4_CTSN_M1",
+            "I2C5_SCL_M2",
+            "PWM2_CH5_M0"
+          ]
+        },
+        {
+          "position": 29,
+          "label": "GPIO5_B5",
+          "functions": [
+            "173",
+            "UART7_RX_M0"
+          ]
+        },
+        {
+          "position": 30,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 31,
+          "label": "GPIO5_B2",
+          "functions": [
+            "170",
+            "UART6_RTSN_M0",
+            "PWM2_CH0_M1"
+          ]
+        },
+        {
+          "position": 32,
+          "label": "GPIO5_B0",
+          "functions": [
+            "168",
+            "UART6_TX_M0"
+          ]
+        },
+        {
+          "position": 33,
+          "label": "GPIO5_B1",
+          "functions": [
+            "169",
+            "UART6_RX_M0"
+          ]
+        },
+        {
+          "position": 34,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 35,
+          "label": "GPIO5_A5",
+          "functions": [
+            "165",
+            "UART5_RX_M1",
+            "SPI0_MISO_M2",
+            "PWM0_CH2_M1"
+          ]
+        },
+        {
+          "position": 36,
+          "label": "GPIO5_A0",
+          "functions": [
+            "160",
+            "UART4_RTSN_M1",
+            "PWM2_CH4_M0"
+          ]
+        },
+        {
+          "position": 37,
+          "label": "GPIO5_B3",
+          "functions": [
+            "171",
+            "UART6_CTSN_M0",
+            "PWM2_CH1_M1"
+          ]
+        },
+        {
+          "position": 38,
+          "label": "GPIO5_A4",
+          "functions": [
+            "164",
+            "UART5_TX_M1",
+            "SPI0_MOSI_M2",
+            "PWM0_CH3_M1"
+          ]
+        },
+        {
+          "position": 39,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 40,
+          "label": "GPIO5_A6",
+          "functions": [
+            "166",
+            "UART5_RTSN_M1",
+            "SPI0_CLK_M2",
+            "PWM0_CH1_M1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fpc-connector",
+      "name": "10-pin FPC connector (ADC)",
+      "image": "media/40a0695b5fb2dfaddff230bb21d1336b23a0e2a2aa38fe9904c876bb838d4257.jpg",
+      "rows": 1,
+      "orderNote": "Pin numbers 1-10 printed; followed them",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "1.8V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SARADC0_IN0",
+          "functions": [
+            "1.8V"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "SARADC0_IN1",
+          "functions": [
+            "1.8V"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "SARADC0_IN2",
+          "functions": [
+            "1.8V"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "SARADC0_IN3",
+          "functions": [
+            "1.8V"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "SARADC0_IN4",
+          "functions": [
+            "1.8V"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "SARADC0_IN5",
+          "functions": [
+            "1.8V"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "SARADC0_IN6",
+          "functions": [
+            "1.8V"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "40-pin header: labels are the GPIO bank names; the light-blue numbers (e.g. 25, 172) are the GPIO numbers as printed; functions listed from the pin outward. Image note: all 40PIN GPIO voltage domains are 3.3V. FPC connector: green 1.8V tags are voltage-domain markers, kept as functions."
+}

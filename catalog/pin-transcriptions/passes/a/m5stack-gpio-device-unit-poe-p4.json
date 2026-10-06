@@ -1,0 +1,518 @@
+{
+  "recordId": "m5stack-gpio-device-unit-poe-p4",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/aff720562d8894d2ce803f23736e138b432664b008ea17541b4828b1b585ef71.jpg",
+      "sha256": "aff720562d8894d2ce803f23736e138b432664b008ea17541b4828b1b585ef71"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "top-header",
+      "name": "Top 2x8 female header (end view)",
+      "image": "media/aff720562d8894d2ce803f23736e138b432664b008ea17541b4828b1b585ef71.jpg",
+      "rows": 2,
+      "orderNote": "No printed numbers, no USB connector visible: top/left rule; horizontal rows start at left; position 1 on the upper label row (G44 row), alternating with the lower row (GND row)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G44",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G43",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "G42",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "G21",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "G41",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "G20",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "G40",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "G19",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "G39",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "nc",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "G23",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "G22",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "5V",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header",
+      "name": "Left side header",
+      "image": "media/aff720562d8894d2ce803f23736e138b432664b008ea17541b4828b1b585ef71.jpg",
+      "rows": 1,
+      "orderNote": "No printed numbers, no USB connector visible: top rule (vertical row starts at top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G13",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "G12",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G11",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "G10",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "G9",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "G8",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "G27",
+          "functions": [
+            "USB1DP"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "G26",
+          "functions": [
+            "USB1DM"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "5V",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right side header (SDIO/ISP)",
+      "image": "media/aff720562d8894d2ce803f23736e138b432664b008ea17541b4828b1b585ef71.jpg",
+      "rows": 1,
+      "orderNote": "No printed numbers, no USB connector visible: top rule",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "G35",
+          "functions": [
+            "BOOT"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "G38",
+          "functions": [
+            "U0RX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "G37",
+          "functions": [
+            "U0TX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-port",
+      "name": "Right side 4-pin connection (GND/5V/G53/G54)",
+      "image": "media/aff720562d8894d2ce803f23736e138b432664b008ea17541b4828b1b585ef71.jpg",
+      "rows": 1,
+      "orderNote": "No printed numbers: top rule",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G53",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "G54",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "mipi-csi",
+      "name": "MIPI CSI 24-pin FPC connector",
+      "image": "media/aff720562d8894d2ce803f23736e138b432664b008ea17541b4828b1b585ef71.jpg",
+      "rows": 2,
+      "orderNote": "Pin numbers 1-24 printed (odd in left column, even in right column)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "G1_SCL",
+          "functions": [
+            "1V8"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "G0_SDA",
+          "functions": [
+            "1V8"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "G36",
+          "functions": [
+            "CAM.MCLK",
+            "1V8"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "G18",
+          "functions": [
+            "CAM_RST",
+            "1V8"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "CSI_D1_P",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "CSI_D1_N",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "CSI_CK_P",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "CSI_CK_N",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "CSI_D0_P",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "CSI_D0_N",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "2V8",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "1V8",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "nc",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "mipi-dsi",
+      "name": "MIPI DSI + TP + BL 24-pin FPC connector",
+      "image": "media/aff720562d8894d2ce803f23736e138b432664b008ea17541b4828b1b585ef71.jpg",
+      "rows": 2,
+      "orderNote": "Pin numbers 1-24 printed (odd in left column, even in right column)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "LEDK",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "LEDK",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "LEDA",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "LEDA",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "G3",
+          "functions": [
+            "TPRST"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "G2",
+          "functions": [
+            "TPINT"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "G0_SDA",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "G1_SCL",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "DSI_CK_N",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "DSI_CK-P",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "DSI_D1_N",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "DSI_D1_P",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "DSI_D0_N",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "DSI_D0_P",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "G4",
+          "functions": [
+            "LCDRST"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "mipi-csi pin 6: separator in 'CAM.MCLK' looks like a dot but is very small (board silkscreen shows 'CAM MCLK')"
+  ],
+  "uncertain": [
+    "right-port (GND/5V/G53/G54): image shows labels with pin dots beside the board's right edge but no visible header or connector body; connector type and whether these four belong to one connector are inferred",
+    "top-header: which of the two rows is the outer row is not shown in the end view; upper label row taken as position 1",
+    "mipi-csi / mipi-dsi: FPC connectors drawn as two staggered columns; rows=2 is a grouping choice (positions follow printed numbers either way)"
+  ],
+  "notes": "On-board text also shows LED R:G17 G:G15 B:G16, IR_Tx:G14, G45 UserKEY, G33_BL_PWM marker near the DSI connector; these are not pins. 'DSI_CK-P' recorded with hyphen as printed. FPC pins with 'G0_SDA'/'G1_SCL' kept as printed single tokens; CSI pins 6/8 labeled by GPIO per rule 5."
+}

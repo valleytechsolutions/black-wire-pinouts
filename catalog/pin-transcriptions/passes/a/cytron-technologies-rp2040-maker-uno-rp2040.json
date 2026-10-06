@@ -1,0 +1,779 @@
+{
+  "recordId": "cytron-technologies-rp2040-maker-uno-rp2040",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/22488e9c8b34e87132c2fc4baec57e083c26d55e9df98355d5dd30e64cdc1d63.png",
+      "sha256": "22488e9c8b34e87132c2fc4baec57e083c26d55e9df98355d5dd30e64cdc1d63"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "servo-port",
+      "name": "SERVO PORT (S + - x GP14-GP17)",
+      "image": "media/22488e9c8b34e87132c2fc4baec57e083c26d55e9df98355d5dd30e64cdc1d63.png",
+      "rows": 3,
+      "orderNote": "3x4 servo header without printed position numbers: groups start at the top (GP14 row, closest to the top edge/USB side); within each group S, +, - (S column nearest the left board edge).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP14",
+          "functions": [
+            "S",
+            "D14",
+            "SDA1",
+            "SCK1",
+            "PWM7A"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "+",
+          "functions": [
+            "*+"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "-",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GP15",
+          "functions": [
+            "S",
+            "D15",
+            "SCL1",
+            "SDO1",
+            "PWM7B"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "+",
+          "functions": [
+            "*+"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "-",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GP16",
+          "functions": [
+            "S",
+            "D16",
+            "SDA0",
+            "SDI0",
+            "PWM0A",
+            "TX0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "+",
+          "functions": [
+            "*+"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "-",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GP17",
+          "functions": [
+            "S",
+            "D17",
+            "SCL0",
+            "CSn0",
+            "PWM0B",
+            "RX0"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "+",
+          "functions": [
+            "*+"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "-",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "power-header",
+      "name": "POWER header",
+      "image": "media/22488e9c8b34e87132c2fc4baec57e083c26d55e9df98355d5dd30e64cdc1d63.png",
+      "rows": 1,
+      "orderNote": "No printed position numbers; vertical row, position 1 at the top end, closest to the USB-C connector (top right).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IOREF",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "~5V",
+          "functions": [
+            "~5V out"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "analog-header",
+      "name": "ANALOG IN / I2C header",
+      "image": "media/22488e9c8b34e87132c2fc4baec57e083c26d55e9df98355d5dd30e64cdc1d63.png",
+      "rows": 1,
+      "orderNote": "No printed position numbers; vertical row, position 1 at the top end, closest to the USB-C connector (top right).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP26",
+          "functions": [
+            "A0",
+            "SDA1",
+            "SCK1",
+            "PWM5A",
+            "ADC0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP27",
+          "functions": [
+            "A1",
+            "SCL1",
+            "SDO1",
+            "PWM5B",
+            "ADC1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP28",
+          "functions": [
+            "A2",
+            "SDA0",
+            "SDI1",
+            "PWM6A",
+            "TX0",
+            "ADC2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP29",
+          "functions": [
+            "A3",
+            "SCL0",
+            "CSn1",
+            "PWM6B",
+            "RX0",
+            "ADC3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP20",
+          "functions": [
+            "SDA",
+            "D20",
+            "SDA0",
+            "SDI0",
+            "PWM2A",
+            "TX1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP21",
+          "functions": [
+            "SCL",
+            "D21",
+            "SCL0",
+            "CSn0",
+            "PWM2B",
+            "RX1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digital-header-upper",
+      "name": "DIGITAL header (upper)",
+      "image": "media/22488e9c8b34e87132c2fc4baec57e083c26d55e9df98355d5dd30e64cdc1d63.png",
+      "rows": 1,
+      "orderNote": "No printed position numbers; vertical row, position 1 at the top end, closest to the USB-C connector (top right).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP21",
+          "functions": [
+            "D21",
+            "SCL0",
+            "CSn0",
+            "PWM2B",
+            "RX1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP20",
+          "functions": [
+            "D20",
+            "SDA0",
+            "SDI0",
+            "PWM2A",
+            "RX1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GP10",
+          "functions": [
+            "D10",
+            "SDA1",
+            "SCK1",
+            "PWM5A"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP12",
+          "functions": [
+            "D12",
+            "SDA0",
+            "SDI1",
+            "PWM6A",
+            "TX0"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP11",
+          "functions": [
+            "D11",
+            "SCL1",
+            "SDO1",
+            "PWM5B"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP13",
+          "functions": [
+            "D13",
+            "SCL0",
+            "CSn1",
+            "PWM6B",
+            "RX0"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP9",
+          "functions": [
+            "D9",
+            "SCL0",
+            "CSn1",
+            "PWM4B",
+            "RX1"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP8",
+          "functions": [
+            "D8",
+            "SDA0",
+            "SDI1",
+            "PWM4A",
+            "TX1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digital-header-lower",
+      "name": "DIGITAL header (lower)",
+      "image": "media/22488e9c8b34e87132c2fc4baec57e083c26d55e9df98355d5dd30e64cdc1d63.png",
+      "rows": 1,
+      "orderNote": "No printed position numbers; vertical row, position 1 at the top end, closest to the USB-C connector (top right).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP7",
+          "functions": [
+            "D7",
+            "SCL1",
+            "SDO0",
+            "PWM3B"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP6",
+          "functions": [
+            "D6",
+            "SDA1",
+            "SCK0",
+            "PWM3A"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP5",
+          "functions": [
+            "D5",
+            "SCL0",
+            "CSn0",
+            "PWM2B",
+            "RX1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP4",
+          "functions": [
+            "D4",
+            "SDA0",
+            "SDI0",
+            "PWM2A",
+            "TX1"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP3",
+          "functions": [
+            "D3",
+            "SCL1",
+            "SDO0",
+            "PWM1B"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP2",
+          "functions": [
+            "D2",
+            "SDA1",
+            "SCK0",
+            "PWM1A"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP0",
+          "functions": [
+            "D0",
+            "SDA0",
+            "SDI0",
+            "PWM0A",
+            "TX0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP1",
+          "functions": [
+            "D1",
+            "SCL0",
+            "CSn0",
+            "PWM0B",
+            "RX0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grove-1",
+      "name": "GROVE 1",
+      "image": "media/22488e9c8b34e87132c2fc4baec57e083c26d55e9df98355d5dd30e64cdc1d63.png",
+      "rows": 1,
+      "orderNote": "No printed position numbers; horizontal pin row, position 1 at the right end, closest to the USB-C connector (top right).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GP0",
+          "functions": [
+            "D0",
+            "SDA0",
+            "SDI0",
+            "PWM0A",
+            "TX0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP1",
+          "functions": [
+            "D1",
+            "SCL0",
+            "CSn0",
+            "PWM0B",
+            "RX0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grove-2",
+      "name": "GROVE 2",
+      "image": "media/22488e9c8b34e87132c2fc4baec57e083c26d55e9df98355d5dd30e64cdc1d63.png",
+      "rows": 1,
+      "orderNote": "No printed position numbers; horizontal pin row, position 1 at the right end, closest to the USB-C connector (top right).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GP4",
+          "functions": [
+            "D4",
+            "SDA0",
+            "SDI0",
+            "PWM2A",
+            "TX1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP5",
+          "functions": [
+            "D5",
+            "SCL0",
+            "CSn0",
+            "PWM2B",
+            "RX1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grove-3",
+      "name": "GROVE 3",
+      "image": "media/22488e9c8b34e87132c2fc4baec57e083c26d55e9df98355d5dd30e64cdc1d63.png",
+      "rows": 1,
+      "orderNote": "No printed position numbers; horizontal pin row, position 1 at the right end, closest to the USB-C connector (top right).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GP6",
+          "functions": [
+            "D6",
+            "SDA1",
+            "SCK0",
+            "PWM3A"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP26",
+          "functions": [
+            "A0",
+            "SDA1",
+            "SCK1",
+            "PWM5A"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grove-4",
+      "name": "GROVE 4",
+      "image": "media/22488e9c8b34e87132c2fc4baec57e083c26d55e9df98355d5dd30e64cdc1d63.png",
+      "rows": 1,
+      "orderNote": "No printed position numbers; horizontal pin row, position 1 at the right end, closest to the USB-C connector (top right).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GP7",
+          "functions": [
+            "D7",
+            "SCL1",
+            "SDO0",
+            "PWM5B"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP27",
+          "functions": [
+            "A1",
+            "SCL1",
+            "SDO1",
+            "PWM5B"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grove-5",
+      "name": "GROVE 5",
+      "image": "media/22488e9c8b34e87132c2fc4baec57e083c26d55e9df98355d5dd30e64cdc1d63.png",
+      "rows": 1,
+      "orderNote": "No printed position numbers; horizontal pin row, position 1 at the right end, closest to the USB-C connector (top right).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GP28",
+          "functions": [
+            "A2",
+            "SDA0",
+            "SDI1",
+            "PWM6B",
+            "TX0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP29",
+          "functions": [
+            "A3",
+            "SCL0",
+            "CSn1",
+            "PWM6B",
+            "RX0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grove-6",
+      "name": "GROVE 6",
+      "image": "media/22488e9c8b34e87132c2fc4baec57e083c26d55e9df98355d5dd30e64cdc1d63.png",
+      "rows": 1,
+      "orderNote": "No printed position numbers; horizontal pin row, position 1 at the right end, closest to the USB-C connector (top right).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GP20",
+          "functions": [
+            "D20",
+            "SDA0",
+            "SDI0",
+            "PWM2A"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP21",
+          "functions": [
+            "D21",
+            "SCL0",
+            "CSn0",
+            "PWM2B"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "maker-port",
+      "name": "MAKER PORT",
+      "image": "media/22488e9c8b34e87132c2fc4baec57e083c26d55e9df98355d5dd30e64cdc1d63.png",
+      "rows": 1,
+      "orderNote": "No printed position numbers; horizontal pin row, position 1 at the right end, closest to the USB-C connector (top right). Board silkscreen left-to-right: GND, 3V3, GP20, GP21.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP21",
+          "functions": [
+            "D21",
+            "SCL0",
+            "CSn0",
+            "PWM2B"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP20",
+          "functions": [
+            "D20",
+            "SDA0",
+            "SDI0",
+            "PWM2A"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "spi-header",
+      "name": "SPI header (2x3)",
+      "image": "media/22488e9c8b34e87132c2fc4baec57e083c26d55e9df98355d5dd30e64cdc1d63.png",
+      "rows": 2,
+      "orderNote": "2x3 header without printed position numbers (the triangle beside GP12 is not labeled 1): position 1 at the right end (closest to USB-C) of the row nearest the bottom board edge, then alternating outer/inner rows.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GP12",
+          "functions": [
+            "MISO"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP11",
+          "functions": [
+            "MOSI"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP10",
+          "functions": [
+            "SCK"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "RESET",
+          "functions": [
+            "RST"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "SPI 2x3 header: pin names come from a separate detail drawing rotated 90 degrees relative to the board; the physical mapping (bottom row GND, GP11, 5V; top row RST, GP10, GP12, left to right) was inferred from that drawing plus rotated silkscreen text.",
+    "Servo port: no rule settles the within-group order of the S/+/- columns for a 3xN header; S, +, - order used."
+  ],
+  "notes": "MAKER UNO RP2040 pinout (Cytron x ARUS): board render with callout tables. Labels are the GP (GPIO) names; silkscreen/Arduino names (A0, D7, S, SDA) first in functions, then callout columns outward. Recorded as printed even where callouts disagree between connectors (digital D20 shows RX1 while analog-side GP20 shows TX1; Grove 5 GP28 shows PWM6B while analog-side GP28 shows PWM6A). Servo '+' carries the note '*The value of + or VSERVO is depends on the power source supplied'. Skipped: USB-C, LIPO/LI-ON connector (+/- only), buttons, buzzer, LEDs."
+}

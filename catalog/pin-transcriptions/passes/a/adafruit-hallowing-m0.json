@@ -1,0 +1,860 @@
+{
+  "recordId": "adafruit-hallowing-m0",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/8d7d439c32becd4aa81d6439ba2c99a8737504e4d589e054c52640a685440f80.png",
+      "sha256": "8d7d439c32becd4aa81d6439ba2c99a8737504e4d589e054c52640a685440f80"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left Feather header (upper board view)",
+      "image": "media/8d7d439c32becd4aa81d6439ba2c99a8737504e4d589e054c52640a685440f80.png",
+      "rows": 2,
+      "orderNote": "Double-column header without pin numbers: position 1 at the end closest to the USB connector (top), outer column (nearest the board edge) first, alternating columns",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RESET",
+          "functions": [
+            "RST"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "RESET",
+          "functions": [
+            "RST"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "PA03",
+          "functions": [
+            "AREF",
+            "41/A12",
+            "3",
+            "VREFA",
+            "AIN1",
+            "Y1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA03",
+          "functions": [
+            "AREF",
+            "41/A12",
+            "3",
+            "VREFA",
+            "AIN1",
+            "Y1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "PA02",
+          "functions": [
+            "A0",
+            "14/A0",
+            "2",
+            "VOUT",
+            "AIN0",
+            "Y0"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PA02",
+          "functions": [
+            "A0",
+            "14/A0",
+            "2",
+            "VOUT",
+            "AIN0",
+            "Y0"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PB08",
+          "functions": [
+            "A1",
+            "15/A1",
+            "8",
+            "AIN2",
+            "Y14",
+            "S4.0",
+            "TC4[0]"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "PB08",
+          "functions": [
+            "A1",
+            "15/A1",
+            "8",
+            "AIN2",
+            "Y14",
+            "S4.0",
+            "TC4[0]"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "PB09",
+          "functions": [
+            "A2",
+            "16/A2",
+            "9",
+            "AIN3",
+            "Y15",
+            "S4.1",
+            "TC4[1]"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "PB09",
+          "functions": [
+            "A2",
+            "16/A2",
+            "9",
+            "AIN3",
+            "Y15",
+            "S4.1",
+            "TC4[1]"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "PA04",
+          "functions": [
+            "A3",
+            "17/A3",
+            "4",
+            "VREFB",
+            "AIN4",
+            "Y2",
+            "S0.0",
+            "TCC0[0]"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "PA04",
+          "functions": [
+            "A3",
+            "17/A3",
+            "4",
+            "VREFB",
+            "AIN4",
+            "Y2",
+            "S0.0",
+            "TCC0[0]"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "PA05",
+          "functions": [
+            "A4",
+            "18/A4",
+            "5",
+            "AIN5",
+            "Y3",
+            "S0.1",
+            "TCC0[1]"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "PA05",
+          "functions": [
+            "A4",
+            "18/A4",
+            "5",
+            "AIN5",
+            "Y3",
+            "S0.1",
+            "TCC0[1]"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "PA06",
+          "functions": [
+            "A5",
+            "19/A5",
+            "6",
+            "AIN6",
+            "Y4",
+            "S0.2",
+            "TCC1[0]"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "PA06",
+          "functions": [
+            "A5",
+            "19/A5",
+            "6",
+            "AIN6",
+            "Y4",
+            "S0.2",
+            "TCC1[0]"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "PB23",
+          "functions": [
+            "SCK",
+            "30",
+            "7",
+            "S5.3",
+            "TC7[1]"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "PB23",
+          "functions": [
+            "SCK",
+            "30",
+            "7",
+            "S5.3",
+            "TC7[1]"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "PB22",
+          "functions": [
+            "MO",
+            "MOSI",
+            "29",
+            "6",
+            "S5.2",
+            "TC7[0]"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "PB22",
+          "functions": [
+            "MO",
+            "MOSI",
+            "29",
+            "6",
+            "S5.2",
+            "TC7[0]"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "PB03",
+          "functions": [
+            "MI",
+            "MISO",
+            "21/A7",
+            "3",
+            "AIN11",
+            "Y9",
+            "S5.1",
+            "TC6[1]"
+          ]
+        },
+        {
+          "position": 26,
+          "label": "PB03",
+          "functions": [
+            "MI",
+            "MISO",
+            "21/A7",
+            "3",
+            "AIN11",
+            "Y9",
+            "S5.1",
+            "TC6[1]"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "PA09",
+          "functions": [
+            "RX",
+            "0/A9",
+            "9",
+            "AIN17",
+            "S0.1",
+            "S2.0",
+            "TCC0[1]",
+            "TCC1[3]",
+            "I2S/MCK0"
+          ]
+        },
+        {
+          "position": 28,
+          "label": "PA09",
+          "functions": [
+            "RX",
+            "0/A9",
+            "9",
+            "AIN17",
+            "S0.1",
+            "S2.0",
+            "TCC0[1]",
+            "TCC1[3]",
+            "I2S/MCK0"
+          ]
+        },
+        {
+          "position": 29,
+          "label": "PA10",
+          "functions": [
+            "TX",
+            "1/A10",
+            "10",
+            "AIN18",
+            "S0.2",
+            "S2.2",
+            "TCC1[0]",
+            "TCC0[2]",
+            "I2S/SCK0"
+          ]
+        },
+        {
+          "position": 30,
+          "label": "PA10",
+          "functions": [
+            "TX",
+            "1/A10",
+            "10",
+            "AIN18",
+            "S0.2",
+            "S2.2",
+            "TCC1[0]",
+            "TCC0[2]",
+            "I2S/SCK0"
+          ]
+        },
+        {
+          "position": 31,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 32,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right Feather header (upper board view)",
+      "image": "media/8d7d439c32becd4aa81d6439ba2c99a8737504e4d589e054c52640a685440f80.png",
+      "rows": 2,
+      "orderNote": "Double-column header without pin numbers: position 1 at the end closest to the USB connector (top), outer column (nearest the board edge) first, alternating columns",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "PA23",
+          "functions": [
+            "13",
+            "D13",
+            "7",
+            "S3.1",
+            "S5.1",
+            "TC4[1]",
+            "TCC0[5]"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PA23",
+          "functions": [
+            "13",
+            "D13",
+            "7",
+            "S3.1",
+            "S5.1",
+            "TC4[1]",
+            "TCC0[5]"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PA22",
+          "functions": [
+            "12",
+            "D12",
+            "6",
+            "S3.0",
+            "S5.0",
+            "TC4[0]",
+            "TCC0[4]"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PA22",
+          "functions": [
+            "12",
+            "D12",
+            "6",
+            "S3.0",
+            "S5.0",
+            "TC4[0]",
+            "TCC0[4]"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PA21",
+          "functions": [
+            "11",
+            "D11",
+            "5",
+            "S5.3",
+            "S3.3",
+            "TC7[1]",
+            "TCC0[7]",
+            "I2S/FS0"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "PA21",
+          "functions": [
+            "11",
+            "D11",
+            "5",
+            "S5.3",
+            "S3.3",
+            "TC7[1]",
+            "TCC0[7]",
+            "I2S/FS0"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "PA20",
+          "functions": [
+            "10",
+            "D10",
+            "4",
+            "S5.2",
+            "S3.2",
+            "TC7[0]",
+            "TCC0[6]",
+            "I2S/SCK0"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "PA20",
+          "functions": [
+            "10",
+            "D10",
+            "4",
+            "S5.2",
+            "S3.2",
+            "TC7[0]",
+            "TCC0[6]",
+            "I2S/SCK0"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "PA19",
+          "functions": [
+            "9",
+            "D9",
+            "3",
+            "S1.3",
+            "S3.3",
+            "TC3[1]",
+            "TCC0[3]",
+            "I2S/SD0"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "PA19",
+          "functions": [
+            "9",
+            "D9",
+            "3",
+            "S1.3",
+            "S3.3",
+            "TC3[1]",
+            "TCC0[3]",
+            "I2S/SD0"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "PA18",
+          "functions": [
+            "6",
+            "D6",
+            "2",
+            "S1.2",
+            "S3.2",
+            "TC3[0]",
+            "TCC0[2]"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "PA18",
+          "functions": [
+            "6",
+            "D6",
+            "2",
+            "S1.2",
+            "S3.2",
+            "TC3[0]",
+            "TCC0[2]"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "PA15",
+          "functions": [
+            "5",
+            "D5",
+            "15",
+            "S2.3",
+            "S4.3",
+            "TC3[1]",
+            "TCC0[5]"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "PA15",
+          "functions": [
+            "5",
+            "D5",
+            "15",
+            "S2.3",
+            "S4.3",
+            "TC3[1]",
+            "TCC0[5]"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "PA17",
+          "functions": [
+            "SCL",
+            "27",
+            "1",
+            "S1.1",
+            "S3.1",
+            "TCC2[1]",
+            "TCC0[7]"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "PA17",
+          "functions": [
+            "SCL",
+            "27",
+            "1",
+            "S1.1",
+            "S3.1",
+            "TCC2[1]",
+            "TCC0[7]"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "PA16",
+          "functions": [
+            "SDA",
+            "26",
+            "0",
+            "S1.0",
+            "S3.0",
+            "TCC2[0]",
+            "TCC0[6]"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "PA16",
+          "functions": [
+            "SDA",
+            "26",
+            "0",
+            "S1.0",
+            "S3.0",
+            "TCC2[0]",
+            "TCC0[6]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sense-jst",
+      "name": "3-pin JST connector, upper right (lower board view, SENSE)",
+      "image": "media/8d7d439c32becd4aa81d6439ba2c99a8737504e4d589e054c52640a685440f80.png",
+      "rows": 1,
+      "orderNote": "Vertical connector, no pin numbers; started at the end closest to the USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "~5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PA11",
+          "functions": [
+            "D3",
+            "3/A11",
+            "11",
+            "AIN19",
+            "S0.3",
+            "S2.3",
+            "TCC1[1]",
+            "TCC0[3]",
+            "I2S/FS0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "i2c-jst",
+      "name": "4-pin I2C JST connector, lower right (lower board view)",
+      "image": "media/8d7d439c32becd4aa81d6439ba2c99a8737504e4d589e054c52640a685440f80.png",
+      "rows": 1,
+      "orderNote": "Vertical connector, no pin numbers; started at the end closest to the USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "~5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PA16",
+          "functions": [
+            "SDA",
+            "26",
+            "0",
+            "S1.0",
+            "S3.0",
+            "TCC2[0]",
+            "TCC0[6]"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA17",
+          "functions": [
+            "SCL",
+            "27",
+            "1",
+            "S1.1",
+            "S3.1",
+            "TCC2[1]",
+            "TCC0[7]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "speaker-jst",
+      "name": "2-pin speaker connector (lower board view, A0 SPEAKER)",
+      "image": "media/8d7d439c32becd4aa81d6439ba2c99a8737504e4d589e054c52640a685440f80.png",
+      "rows": 1,
+      "orderNote": "Vertical connector, no pin numbers; started at the end closest to the USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "Speaker-",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "Speaker+",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "neopixel-jst",
+      "name": "3-pin NeoPixel JST connector (lower board view, 4 NEOPIX)",
+      "image": "media/8d7d439c32becd4aa81d6439ba2c99a8737504e4d589e054c52640a685440f80.png",
+      "rows": 1,
+      "orderNote": "Vertical connector, no pin numbers; started at the end closest to the USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PA08",
+          "functions": [
+            "D4",
+            "4/A8",
+            "NMI",
+            "AIN16",
+            "S0.0",
+            "S2.0",
+            "TCC0[0]",
+            "TCC1[2]",
+            "I2S/SD1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "~5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-pads",
+      "name": "Capacitive touch / alligator pads along the bottom edge",
+      "image": "media/8d7d439c32becd4aa81d6439ba2c99a8737504e4d589e054c52640a685440f80.png",
+      "rows": 1,
+      "orderNote": "Horizontal row, no pin numbers; ends equidistant from USB so started at the left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PB09",
+          "functions": [
+            "A2",
+            "16/A2",
+            "9",
+            "AIN3",
+            "Y15",
+            "S4.1",
+            "TC4[1]"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PA04",
+          "functions": [
+            "A3",
+            "17/A3",
+            "4",
+            "VREFB",
+            "AIN4",
+            "Y2",
+            "S0.0",
+            "TCC0[0]"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA05",
+          "functions": [
+            "A4",
+            "18/A4",
+            "5",
+            "AIN5",
+            "Y3",
+            "S0.1",
+            "TCC0[1]"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA06",
+          "functions": [
+            "A5",
+            "19/A5",
+            "6",
+            "AIN6",
+            "Y4",
+            "S0.2",
+            "TCC1[0]"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "One image with two board views (upper: header callouts; lower: front with JST connectors and pads). Header drawn as two hole columns per side, so rows=2 with each label on both holes. Battery JST, display, accelerometer, NeoPixel LED and LED callouts are not wiring points and were skipped."
+}

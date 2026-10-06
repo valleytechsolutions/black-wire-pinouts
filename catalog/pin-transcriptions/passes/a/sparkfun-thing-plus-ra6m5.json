@@ -1,0 +1,511 @@
+{
+  "recordId": "sparkfun-thing-plus-ra6m5",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/37642c04c843939e1036f7ab3aea637b76002876341c2675df596a10465ec0ba.png",
+      "sha256": "37642c04c843939e1036f7ab3aea637b76002876341c2675df596a10465ec0ba"
+    },
+    {
+      "file": "media/5a91c9db4728c16648735eca1cde410a5ac147703c08331e9453225fef15941e.png",
+      "sha256": "5a91c9db4728c16648735eca1cde410a5ac147703c08331e9453225fef15941e"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header (front view)",
+      "image": "media/37642c04c843939e1036f7ab3aea637b76002876341c2675df596a10465ec0ba.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; USB-C connector at bottom, so position 1 is the bottom hole and numbering runs upward",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "EN",
+          "functions": [
+            "3.3V Enable"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "VUSB",
+          "functions": [
+            "VU"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P112",
+          "functions": [
+            "0",
+            "G0",
+            "D0",
+            "SS/CS"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "P406",
+          "functions": [
+            "1",
+            "G1",
+            "D01"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P405",
+          "functions": [
+            "2",
+            "G2",
+            "D02"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "P404",
+          "functions": [
+            "3",
+            "G3",
+            "D03",
+            "CTS7"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "P403",
+          "functions": [
+            "4",
+            "G4",
+            "D04",
+            "RTS7"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "P402",
+          "functions": [
+            "5",
+            "G5",
+            "D05",
+            "RX7"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "P207",
+          "functions": [
+            "6",
+            "G6",
+            "D06"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "P400",
+          "functions": [
+            "SCL",
+            "D16"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "P401",
+          "functions": [
+            "SDA",
+            "D15",
+            "TX7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header (front view)",
+      "image": "media/37642c04c843939e1036f7ab3aea637b76002876341c2675df596a10465ec0ba.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; USB-C connector at bottom, so position 1 is the bottom hole and numbering runs upward",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RST",
+          "functions": [
+            "RES",
+            "Reset"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": [
+            "3.3V"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "VREF",
+          "functions": [
+            "VREF (3.3V)"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "P014",
+          "functions": [
+            "A0",
+            "D07",
+            "DAC"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P015",
+          "functions": [
+            "A1",
+            "D08",
+            "DAC1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "P505",
+          "functions": [
+            "A2",
+            "D09"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "P504",
+          "functions": [
+            "A3",
+            "D10"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "P503",
+          "functions": [
+            "A4",
+            "D11"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "P502",
+          "functions": [
+            "A5",
+            "D12"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "P111",
+          "functions": [
+            "SCK",
+            "D19"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "P109",
+          "functions": [
+            "PICO",
+            "D18",
+            "MOSI/PICO",
+            "TX9"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "P110",
+          "functions": [
+            "POCI",
+            "D17",
+            "MISO/POCI",
+            "RX9"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "P408",
+          "functions": [
+            "RX",
+            "D21",
+            "RX3",
+            "TS"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "P409",
+          "functions": [
+            "TX",
+            "D20",
+            "TX3",
+            "TS",
+            "SDA2"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "P304",
+          "functions": [
+            "30",
+            "FREE",
+            "D30"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left header (back view, silkscreen only)",
+      "image": "media/5a91c9db4728c16648735eca1cde410a5ac147703c08331e9453225fef15941e.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; USB-C connector at bottom, so position 1 is the bottom hole and numbering runs upward",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VR",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "A0",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "A1",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "A2",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "A3",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "A4",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "A5",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "SCK",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "PICO",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "POCI",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "RX",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "30",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Right header (back view, silkscreen only)",
+      "image": "media/5a91c9db4728c16648735eca1cde410a5ac147703c08331e9453225fef15941e.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; USB-C connector at bottom, so position 1 is the bottom hole and numbering runs upward",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VUSB",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "0",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "1",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "2",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "3",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "4",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "5",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "6",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "SDA",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "swd-ra6m5-img2",
+      "name": "SWD RA6M5 2x3 pads",
+      "image": "media/5a91c9db4728c16648735eca1cde410a5ac147703c08331e9453225fef15941e.png",
+      "rows": 2,
+      "orderNote": "2x3 without numbers: start end nearest USB (bottom), outer row = column nearer the left board edge, alternating outer/inner",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SWCLK",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SWO",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "SWDIO",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "swd-ble-img2",
+      "name": "SWD BLE pads (3 top, 2 bottom)",
+      "image": "media/5a91c9db4728c16648735eca1cde410a5ac147703c08331e9453225fef15941e.png",
+      "rows": 2,
+      "orderNote": "No USB end applies to this horizontal group; started at left, outer row = top row nearest the board edge, alternating outer/inner where a pad exists",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SWCLK",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "SWDIO",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "SWD RA6M5 and SWD BLE labels come from enlarged callouts; mapping each callout pad to the physical pad (callout orientation matches the board) is inferred.",
+    "SWD BLE has 5 pads (3 in the top row, 2 in the bottom row at the ends); recorded as a 2-row group with positions that skip the missing middle inner pad, so physical grouping/numbering is open."
+  ],
+  "notes": "Image 1 (front): label is the Renesas port name (Pad# column, e.g. P401) treated as the GPIO name; silkscreen/gray label first in functions, then digital Dnn and peripheral names read outward. Power pins use the printed power names (VUSB, VREF, 3V3) with silkscreen/alternate spellings in functions. Skipped: Qwiic and JST battery connectors (pins not individually labeled), RGB/STAT LEDs, USR button, internal DA14531MOD-RA6M5 UART and VREF Enable/USR pad callouts that are not header pins. Image 2 (back): headers recorded from silkscreen only (VR printed for VREF). The microSD socket, QSPI flash and IC callouts (RT9080, MAX17048, LM66200, MCP73831) are not wiring points and were skipped."
+}

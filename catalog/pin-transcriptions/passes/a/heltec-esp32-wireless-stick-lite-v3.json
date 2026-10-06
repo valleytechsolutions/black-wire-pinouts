@@ -1,0 +1,339 @@
+{
+ "recordId": "heltec-esp32-wireless-stick-lite-v3",
+ "pass": "a",
+ "date": "2026-10-04",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/935dd3bdf1207fc9d1d6f6776b7bb22b37db36821950e73fafbcb8cba310a5d5.png",
+   "sha256": "935dd3bdf1207fc9d1d6f6776b7bb22b37db36821950e73fafbcb8cba310a5d5"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "J2",
+   "name": "J2",
+   "rows": 1,
+   "orderNote": "Follow the explicitly printed header position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "Ve",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GPIO12",
+     "functions": [
+      "FSPIIO6",
+      "FSPICLK",
+      "SUBSPICLK",
+      "ADC2_CH1"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GPIO44",
+     "functions": [
+      "U0RXD",
+      "CP2102_TX"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GPIO43",
+     "functions": [
+      "U0TXD",
+      "CP2102_RX"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GPIO33",
+     "functions": [
+      "SPIIO4",
+      "FSPIHD",
+      "SUBSPIHD"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GPIO34",
+     "functions": [
+      "SPIIO5",
+      "FSPICS0",
+      "SUBSPICS0"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GPIO35",
+     "functions": [
+      "SPIIO6",
+      "FSPID",
+      "SUBSPID",
+      "LED_Write"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GPIO36",
+     "functions": [
+      "SPIIO7",
+      "FSPICLK",
+      "SUBSPICLK",
+      "Vext_Ctrl"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "GPIO37",
+     "functions": [
+      "SPIDQS",
+      "FSPIQ",
+      "SUBSPIQ",
+      "ADC_Ctrl"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "GPIO38",
+     "functions": [
+      "FSPIWP",
+      "SUBSPIWP"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "GPIO39",
+     "functions": [
+      "MTCK"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "GPIO40",
+     "functions": [
+      "MTDO"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "GPIO41",
+     "functions": [
+      "MTDI"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "GPIO42",
+     "functions": [
+      "MTMS"
+     ]
+    },
+    {
+     "position": 16,
+     "label": "GPIO45",
+     "functions": []
+    },
+    {
+     "position": 17,
+     "label": "GPIO46",
+     "functions": []
+    },
+    {
+     "position": 18,
+     "label": "GPIO1",
+     "functions": [
+      "ADC1_CH0",
+      "VBAT_Read",
+      "TOUCH1"
+     ]
+    },
+    {
+     "position": 19,
+     "label": "GPIO2",
+     "functions": [
+      "ADC1_CH1",
+      "TOUCH2"
+     ]
+    },
+    {
+     "position": 20,
+     "label": "GPIO3",
+     "functions": [
+      "ADC1_CH2",
+      "TOUCH3"
+     ]
+    }
+   ],
+   "image": "media/935dd3bdf1207fc9d1d6f6776b7bb22b37db36821950e73fafbcb8cba310a5d5.png"
+  },
+  {
+   "id": "J3",
+   "name": "J3",
+   "rows": 1,
+   "orderNote": "Follow the explicitly printed header position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "5V",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GPIO47",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "GPIO48",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "GPIO0",
+     "functions": [
+      "USER_SW"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GPIO26",
+     "functions": [
+      "SPICS1"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GPIO20",
+     "functions": [
+      "U1CTS",
+      "ADC2_CH9",
+      "CLK_OUT1",
+      "USB_D+"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GPIO18",
+     "functions": [
+      "U1RXD",
+      "ADC2_CH7",
+      "CLK_OUT3"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "GPIO21",
+     "functions": []
+    },
+    {
+     "position": 11,
+     "label": "GPIO19",
+     "functions": [
+      "U1RTS",
+      "ADC2_CH8",
+      "CLK_OUT2",
+      "USB_D-"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "GPIO17",
+     "functions": [
+      "U1TXD",
+      "ADC2_CH6"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "GPIO14",
+     "functions": [
+      "FSPIQS",
+      "FSPIWP",
+      "SUBSPIWP",
+      "ADC2_CH3",
+      "TOUCH14"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "RST",
+     "functions": [
+      "RST_SW"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "GPIO16",
+     "functions": [
+      "U0CTS",
+      "ADC2_CH5",
+      "32K_XN"
+     ]
+    },
+    {
+     "position": 16,
+     "label": "GPIO15",
+     "functions": [
+      "U0RTS",
+      "ADC2_CH4",
+      "32K_XP"
+     ]
+    },
+    {
+     "position": 17,
+     "label": "GPIO7",
+     "functions": [
+      "ADC1_CH6",
+      "TOUCH7"
+     ]
+    },
+    {
+     "position": 18,
+     "label": "GPIO6",
+     "functions": [
+      "ADC1_CH5",
+      "TOUCH6"
+     ]
+    },
+    {
+     "position": 19,
+     "label": "GPIO5",
+     "functions": [
+      "ADC1_CH4",
+      "TOUCH5"
+     ]
+    },
+    {
+     "position": 20,
+     "label": "GPIO4",
+     "functions": [
+      "ADC1_CH3",
+      "TOUCH4"
+     ]
+    }
+   ],
+   "image": "media/935dd3bdf1207fc9d1d6f6776b7bb22b37db36821950e73fafbcb8cba310a5d5.png"
+  }
+ ],
+ "notes": "GPIO14 function FSPIQS is preserved as printed.",
+ "unreadable": [],
+ "uncertain": []
+}

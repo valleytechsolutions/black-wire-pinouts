@@ -1,0 +1,295 @@
+{
+  "recordId": "lilygo-esp32-t-display-s3-amoled",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/dca6612e978bc0786872f8a0b820be497ca38e84ce8bccf31e050ce095f030b1.jpg",
+      "sha256": "dca6612e978bc0786872f8a0b820be497ca38e84ce8bccf31e050ce095f030b1"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/dca6612e978bc0786872f8a0b820be497ca38e84ce8bccf31e050ce095f030b1.jpg",
+      "rows": 1,
+      "orderNote": "No header pin numbers (gray boxes carry GPIO numbers). USB-C protrudes at the bottom edge of the main board view; numbered from the bottom (USB end) upward.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO16",
+          "functions": [
+            "16",
+            "U0CTS",
+            "ADC2_CH5"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "VBUS",
+          "functions": [
+            "VSYS"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "VBUS",
+          "functions": [
+            "VSYS"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO15",
+          "functions": [
+            "15",
+            "U0RTS",
+            "ADC2_CH4"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO14",
+          "functions": [
+            "14",
+            "TOUCH14",
+            "FSPIWP",
+            "ADC2_CH3"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO13",
+          "functions": [
+            "13",
+            "TOUCH13",
+            "FSPIQ",
+            "ADC2_CH2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO12",
+          "functions": [
+            "12",
+            "TOUCH12",
+            "FSPICLK",
+            "ADC2_CH1"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO11",
+          "functions": [
+            "11",
+            "TOUCH11",
+            "FSPID",
+            "ADC2_CH0"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO10",
+          "functions": [
+            "10",
+            "TOUCH10",
+            "FSPICS0",
+            "ADC1_CH9"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO03",
+          "functions": [
+            "3",
+            "TOUCH03",
+            "ADC1_CH2"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO02",
+          "functions": [
+            "2",
+            "TOUCH02",
+            "ADC1_CH1"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO01",
+          "functions": [
+            "1",
+            "TOUCH01",
+            "ADC1_CH0"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "3V3",
+          "functions": [
+            "3.3V"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/dca6612e978bc0786872f8a0b820be497ca38e84ce8bccf31e050ce095f030b1.jpg",
+      "rows": 1,
+      "orderNote": "No header pin numbers (gray boxes carry GPIO numbers). USB-C protrudes at the bottom edge of the main board view; numbered from the bottom (USB end) upward.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO39",
+          "functions": [
+            "39",
+            "MTCK"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": [
+            "3.3V"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": [
+            "3.3V"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO40",
+          "functions": [
+            "40",
+            "MTDO"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO41",
+          "functions": [
+            "41",
+            "MTDI"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO42",
+          "functions": [
+            "42",
+            "MTMS"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO43",
+          "functions": [
+            "43",
+            "U0TXD"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO44",
+          "functions": [
+            "44",
+            "U0RXD"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO45",
+          "functions": [
+            "45"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO46",
+          "functions": [
+            "46"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stemma-qt",
+      "name": "STEMMA QT/Qwiic JST-SH 1.0mm 4-PIN",
+      "image": "media/dca6612e978bc0786872f8a0b820be497ca38e84ce8bccf31e050ce095f030b1.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal connector numbered from the left (USB is not at either end of this row).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "43",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "44",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "U0RXD/U0TXD/U0RTS/U0CTS and IO0x names: O vs 0 not distinguishable; 0 used."
+  ],
+  "uncertain": [],
+  "notes": "Labels from pink GPIO column / power boxes; functions = silkscreen/gray-box number then names outward. VBUS callouts sit on holes silkscreened VSYS (recorded as printed). STEMMA QT callout \"G 3V3 43 44\"; board silkscreen GND/3.3V/43/44, label GND used. Display Pin list, BAT ADC, LEDs, buttons, JST GH 1.25mm battery connector (only -/+ marks) and antennas not transcribed."
+}

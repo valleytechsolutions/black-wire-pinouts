@@ -1,0 +1,315 @@
+{
+  "recordId": "doit-esp32-esp32-devkit-v1",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/c43a9fb065bee4f947e68b8fef1157be50c99cbc9bf563f078b30801eac428b4.jpg",
+      "sha256": "c43a9fb065bee4f947e68b8fef1157be50c99cbc9bf563f078b30801eac428b4"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/c43a9fb065bee4f947e68b8fef1157be50c99cbc9bf563f078b30801eac428b4.jpg",
+      "rows": 1,
+      "orderNote": "No header pin numbers printed (the dark boxes carry non-consecutive module pin numbers); started at end closest to the micro-USB connector (bottom) and went up.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VIN",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO13",
+          "functions": [
+            "D13",
+            "ADC2_4",
+            "HSPI_ID",
+            "Touch4",
+            "RTC GPIO14"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO12",
+          "functions": [
+            "D12",
+            "ADC2_5",
+            "HSPI_Q",
+            "Touch5",
+            "RTC GPIO15"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO14",
+          "functions": [
+            "D14",
+            "ADC2_6",
+            "HSPI_CLK",
+            "Touch6",
+            "RTC GPIO16"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO27",
+          "functions": [
+            "D27",
+            "ADC2_7",
+            "Touch7",
+            "RTC GPIO17"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO26",
+          "functions": [
+            "D26",
+            "ADC2_9",
+            "RTC GPIO7",
+            "DAC 2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO25",
+          "functions": [
+            "D25",
+            "ADC2_8",
+            "RTC GPIO6",
+            "DAC 1"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO33",
+          "functions": [
+            "D33",
+            "ADC1_5",
+            "Touch8",
+            "Xtal32N",
+            "RTC GPIO8"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO32",
+          "functions": [
+            "D32",
+            "ADC1_4",
+            "Touch9",
+            "Xtal32P",
+            "RTC GPIO9"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO35",
+          "functions": [
+            "D35",
+            "ADC1_7",
+            "RTC GPIO5",
+            "Input only"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO34",
+          "functions": [
+            "D34",
+            "ADC1_6",
+            "RTC GPIO4",
+            "Input only"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO39",
+          "functions": [
+            "VN",
+            "ADC1_3",
+            "SensVN",
+            "RTC GPIO3",
+            "Input only"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO36",
+          "functions": [
+            "VP",
+            "ADC1_0",
+            "SensVP",
+            "RTC GPIO0",
+            "Input only"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "EN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/c43a9fb065bee4f947e68b8fef1157be50c99cbc9bf563f078b30801eac428b4.jpg",
+      "rows": 1,
+      "orderNote": "No header pin numbers printed (the dark boxes carry non-consecutive module pin numbers); started at end closest to the micro-USB connector (bottom) and went up.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3.3v",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO15",
+          "functions": [
+            "D15",
+            "ADC2_3",
+            "HSPI_CS0",
+            "Touch3",
+            "RTC GPIO13"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO2",
+          "functions": [
+            "D2",
+            "ADC2_2",
+            "HSPI_WP0",
+            "Touch2",
+            "RTC GPIO12"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO4",
+          "functions": [
+            "D4",
+            "ADC2_0",
+            "HSPI_HD",
+            "Touch0",
+            "RTC GPIO10"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO16",
+          "functions": [
+            "RX2",
+            "RXD 2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO17",
+          "functions": [
+            "TX2",
+            "TXD 2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO5",
+          "functions": [
+            "D5",
+            "V_SPI_CS0",
+            "SS"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO18",
+          "functions": [
+            "D18",
+            "V_SPI_CLK",
+            "SCK"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO19",
+          "functions": [
+            "D19",
+            "V_SPI_Q",
+            "MISO",
+            "CTS 0"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO21",
+          "functions": [
+            "D21",
+            "VSPI_HD",
+            "SDA"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO3",
+          "functions": [
+            "RX0",
+            "RXD 0",
+            "CLK2"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO1",
+          "functions": [
+            "TX0",
+            "TXD 0",
+            "CLK3"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO22",
+          "functions": [
+            "D22",
+            "V_SPI_WP",
+            "SCL",
+            "RTS 0"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO23",
+          "functions": [
+            "D23",
+            "V_SPI_D",
+            "MOSI"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "Silkscreen VP/VN: the glyph reads like \"UP\"/\"UN\"; recorded as VP/VN (silkscreen only, label unaffected).",
+    "Silkscreen D21/RX0 and D25/D26, D12/D13 overlap on the board; silkscreen spellings read from partially overlapping text. RX0/TX0 silkscreen 0 vs D not distinguishable; 0 used."
+  ],
+  "uncertain": [],
+  "notes": "Labels from the magenta GPIO column; functions = board silkscreen then names outward. Module pin numbers in dark boxes (5, 8, 10 ... 36, 39) and PWM wave icons were omitted as they are not pin names."
+}

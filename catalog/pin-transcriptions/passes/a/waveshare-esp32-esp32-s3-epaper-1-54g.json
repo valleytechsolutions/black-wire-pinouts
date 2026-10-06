@@ -1,0 +1,88 @@
+{
+  "recordId": "waveshare-esp32-esp32-s3-epaper-1-54g",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/eaf21d4f551a84daba3f3636fc0c73306cc60ddb7e34507ee9e00a2e1bddb024.webp",
+      "sha256": "eaf21d4f551a84daba3f3636fc0c73306cc60ddb7e34507ee9e00a2e1bddb024"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "right-header",
+      "name": "2x6 female header (right side of case)",
+      "image": "media/eaf21d4f551a84daba3f3636fc0c73306cc60ddb7e34507ee9e00a2e1bddb024.webp",
+      "rows": 2,
+      "orderNote": "No pin numbers; USB connector not visible (only a 'USB' icon on the label), so start at the top; 2xN rule: position 1 = outer (right, nearest board edge) column, alternating with inner (left) column.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "TXD",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "RXD",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GP20",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GP19",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GP3",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GP2",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GP1",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "VSYS",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Pin labels come from a 2x6 label grid on the case sticker beside the header, not from callouts on the holes; assumed the sticker's right column maps to the right (outer) hole column and its left column to the left (inner) column, row for row."
+  ],
+  "notes": "Image shows the rear of the enclosure. +SPK-, +BAT-, BOOT/PWR buttons, LED GP3 and ADC GP4 entries are sticker feature tiles with no visible wiring points and were skipped (rule 1)."
+}

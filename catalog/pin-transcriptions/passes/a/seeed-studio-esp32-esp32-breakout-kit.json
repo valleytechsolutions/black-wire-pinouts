@@ -1,0 +1,696 @@
+{
+  "recordId": "seeed-studio-esp32-esp32-breakout-kit",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/cb4b7560a7030d560d7ad4cfee81260af9e6eb0f9cc1ba12727534cccf243ab9.png",
+      "sha256": "cb4b7560a7030d560d7ad4cfee81260af9e6eb0f9cc1ba12727534cccf243ab9"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left double-column header",
+      "image": "media/cb4b7560a7030d560d7ad4cfee81260af9e6eb0f9cc1ba12727534cccf243ab9.png",
+      "rows": 2,
+      "orderNote": "Rows numbered 1-20 top to bottom on silkscreen; followed numbers. Two holes per printed row: odd position = outer (left) hole, even = inner hole; both holes take the row's label.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": [
+            "1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": [
+            "2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": [
+            "2"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "EN",
+          "functions": [
+            "3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "EN",
+          "functions": [
+            "3"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "SVP",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "SVP",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "SVN",
+          "functions": [
+            "5"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "SVN",
+          "functions": [
+            "5"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "IO34",
+          "functions": [
+            "6"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "IO34",
+          "functions": [
+            "6"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "IO35",
+          "functions": [
+            "7"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "IO35",
+          "functions": [
+            "7"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "IO32",
+          "functions": [
+            "8"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "IO32",
+          "functions": [
+            "8"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "IO33",
+          "functions": [
+            "9"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "IO33",
+          "functions": [
+            "9"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "IO25",
+          "functions": [
+            "10"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "IO25",
+          "functions": [
+            "10"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "IO26",
+          "functions": [
+            "11"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "IO26",
+          "functions": [
+            "11"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "IO27",
+          "functions": [
+            "12"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "IO27",
+          "functions": [
+            "12"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "IO14",
+          "functions": [
+            "13"
+          ]
+        },
+        {
+          "position": 26,
+          "label": "IO14",
+          "functions": [
+            "13"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "IO12",
+          "functions": [
+            "14"
+          ]
+        },
+        {
+          "position": 28,
+          "label": "IO12",
+          "functions": [
+            "14"
+          ]
+        },
+        {
+          "position": 29,
+          "label": "GND",
+          "functions": [
+            "15"
+          ]
+        },
+        {
+          "position": 30,
+          "label": "GND",
+          "functions": [
+            "15"
+          ]
+        },
+        {
+          "position": 31,
+          "label": "IO13",
+          "functions": [
+            "16"
+          ]
+        },
+        {
+          "position": 32,
+          "label": "IO13",
+          "functions": [
+            "16"
+          ]
+        },
+        {
+          "position": 33,
+          "label": "SD2",
+          "functions": [
+            "17"
+          ]
+        },
+        {
+          "position": 34,
+          "label": "SD2",
+          "functions": [
+            "17"
+          ]
+        },
+        {
+          "position": 35,
+          "label": "SD3",
+          "functions": [
+            "18"
+          ]
+        },
+        {
+          "position": 36,
+          "label": "SD3",
+          "functions": [
+            "18"
+          ]
+        },
+        {
+          "position": 37,
+          "label": "CMD",
+          "functions": [
+            "19"
+          ]
+        },
+        {
+          "position": 38,
+          "label": "CMD",
+          "functions": [
+            "19"
+          ]
+        },
+        {
+          "position": 39,
+          "label": "CLK",
+          "functions": [
+            "20"
+          ]
+        },
+        {
+          "position": 40,
+          "label": "CLK",
+          "functions": [
+            "20"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right double-column header",
+      "image": "media/cb4b7560a7030d560d7ad4cfee81260af9e6eb0f9cc1ba12727534cccf243ab9.png",
+      "rows": 2,
+      "orderNote": "Rows numbered 21 (bottom) upward to 37 then GND, GND on silkscreen; followed numbers from row 21 at bottom to top. Two holes per printed row: odd position = outer (right) hole, even = inner hole; both holes take the row's label.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SD0",
+          "functions": [
+            "21"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "SD0",
+          "functions": [
+            "21"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "SD1",
+          "functions": [
+            "22"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "SD1",
+          "functions": [
+            "22"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "IO15",
+          "functions": [
+            "23"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "IO15",
+          "functions": [
+            "23"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "IO2",
+          "functions": [
+            "24"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "IO2",
+          "functions": [
+            "24"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "IO0",
+          "functions": [
+            "25"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "IO0",
+          "functions": [
+            "25"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "IO4",
+          "functions": [
+            "26"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "IO4",
+          "functions": [
+            "26"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "IO16",
+          "functions": [
+            "27"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "IO16",
+          "functions": [
+            "27"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "IO17",
+          "functions": [
+            "28"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "IO17",
+          "functions": [
+            "28"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "IO5",
+          "functions": [
+            "29"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "IO5",
+          "functions": [
+            "29"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "IO18",
+          "functions": [
+            "30"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "IO18",
+          "functions": [
+            "30"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "IO19",
+          "functions": [
+            "31"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "IO19",
+          "functions": [
+            "31"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "NC",
+          "functions": [
+            "32"
+          ]
+        },
+        {
+          "position": 26,
+          "label": "NC",
+          "functions": [
+            "32"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "IO21",
+          "functions": [
+            "33"
+          ]
+        },
+        {
+          "position": 28,
+          "label": "IO21",
+          "functions": [
+            "33"
+          ]
+        },
+        {
+          "position": 29,
+          "label": "RXD0",
+          "functions": [
+            "34"
+          ]
+        },
+        {
+          "position": 30,
+          "label": "RXD0",
+          "functions": [
+            "34"
+          ]
+        },
+        {
+          "position": 31,
+          "label": "TXD0",
+          "functions": [
+            "35"
+          ]
+        },
+        {
+          "position": 32,
+          "label": "TXD0",
+          "functions": [
+            "35"
+          ]
+        },
+        {
+          "position": 33,
+          "label": "IO22",
+          "functions": [
+            "36"
+          ]
+        },
+        {
+          "position": 34,
+          "label": "IO22",
+          "functions": [
+            "36"
+          ]
+        },
+        {
+          "position": 35,
+          "label": "IO23",
+          "functions": [
+            "37"
+          ]
+        },
+        {
+          "position": 36,
+          "label": "IO23",
+          "functions": [
+            "37"
+          ]
+        },
+        {
+          "position": 37,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 38,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 39,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 40,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "power-header",
+      "name": "2x4 3V3/GND header (bottom)",
+      "image": "media/cb4b7560a7030d560d7ad4cfee81260af9e6eb0f9cc1ba12727534cccf243ab9.png",
+      "rows": 2,
+      "orderNote": "No pin numbers, no USB visible: horizontal rows started at left; position 1 in outer (bottom, nearest board edge) row, alternating bottom/top. Bottom row printed 3V3, top row GND (every hole in a row takes the row's label).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-port-upper",
+      "name": "GROVE (IO2/IO4)",
+      "image": "media/cb4b7560a7030d560d7ad4cfee81260af9e6eb0f9cc1ba12727534cccf243ab9.png",
+      "rows": 1,
+      "orderNote": "No pin numbers, no USB visible: horizontal row started at left.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO2",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IO4",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-port-lower",
+      "name": "GROVE (IO26/IO25)",
+      "image": "media/cb4b7560a7030d560d7ad4cfee81260af9e6eb0f9cc1ba12727534cccf243ab9.png",
+      "rows": 1,
+      "orderNote": "No pin numbers, no USB visible: horizontal row started at left.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO26",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IO25",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "IO0, TXD0, RXD0, SD0: zero vs letter O read as 0."
+  ],
+  "uncertain": [
+    "Right header: silkscreen row numbers 21-37 count upward from the bottom with unnumbered GND rows interleaved; order follows those numbers (bottom to top).",
+    "power-header: 2x4 block labeled only '3V3 GND' at its right end; assigning 3V3 to the bottom row and GND to the top row follows the rotated text position.",
+    "Numbers 1-37 on the silkscreen were recorded as the first function of each pin (silkscreen spelling); they appear to be module row numbers rather than GPIO numbers."
+  ],
+  "notes": "Pinout labels in the diagram (colored boxes) used as labels; silkscreen row numbers listed first in functions."
+}

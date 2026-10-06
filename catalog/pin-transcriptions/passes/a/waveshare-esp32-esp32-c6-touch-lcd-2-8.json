@@ -1,0 +1,317 @@
+{
+  "recordId": "waveshare-esp32-esp32-c6-touch-lcd-2-8",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/1871982d71598b7fb4a8cb34618bdbc29e7969c72081c75eba780bf823ea15bd.jpg",
+      "sha256": "1871982d71598b7fb4a8cb34618bdbc29e7969c72081c75eba780bf823ea15bd"
+    },
+    {
+      "file": "media/328d289165bb985664578412fb95394835f3cd5cc12c55c09db15e86eaa49299.webp",
+      "sha256": "328d289165bb985664578412fb95394835f3cd5cc12c55c09db15e86eaa49299"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "expansion-connector",
+      "name": "12-pin side connector",
+      "image": "media/1871982d71598b7fb4a8cb34618bdbc29e7969c72081c75eba780bf823ea15bd.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at the end nearest the USB-C connector (bottom GND) going up to RST.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VBUS",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO12",
+          "functions": [
+            "D-"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO13",
+          "functions": [
+            "D+"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO2",
+          "functions": [
+            "IO2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO3",
+          "functions": [
+            "IO3"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "EXIO6",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "EXIO7",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GPIO9",
+          "functions": [
+            "BOOT",
+            "BOOT0"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "RST",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "i2c-connector",
+      "name": "I2C connector",
+      "image": "media/1871982d71598b7fb4a8cb34618bdbc29e7969c72081c75eba780bf823ea15bd.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at the end nearest the USB-C connector (right end, SCL).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO7",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO6",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "uart-connector",
+      "name": "UART connector",
+      "image": "media/1871982d71598b7fb4a8cb34618bdbc29e7969c72081c75eba780bf823ea15bd.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at the end nearest the USB-C connector (left end, GND).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO16",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO17",
+          "functions": [
+            "RXD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expansion-connector-img2",
+      "name": "12-pin side connector",
+      "image": "media/328d289165bb985664578412fb95394835f3cd5cc12c55c09db15e86eaa49299.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at the end nearest the USB-C connector (bottom GND) going up to RST.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VBUS",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO12",
+          "functions": [
+            "D-"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO13",
+          "functions": [
+            "D+"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO2",
+          "functions": [
+            "IO2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO3",
+          "functions": [
+            "IO3"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "EXIO6",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "EXIO7",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GPIO9",
+          "functions": [
+            "BOOT",
+            "BOOT0"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "RST",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "i2c-connector-img2",
+      "name": "I2C connector",
+      "image": "media/328d289165bb985664578412fb95394835f3cd5cc12c55c09db15e86eaa49299.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at the end nearest the USB-C connector (right end, SCL).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO7",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO6",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "uart-connector-img2",
+      "name": "UART connector",
+      "image": "media/328d289165bb985664578412fb95394835f3cd5cc12c55c09db15e86eaa49299.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at the end nearest the USB-C connector (left end, GND).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO16",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO17",
+          "functions": [
+            "RXD"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Callouts like 'BOOT0 (GPIO9)', 'D+ (GPIO13)', 'SDA (GPIO6)' recorded with the GPIO name as label and the other names as functions (silkscreen spelling first). 'VBUS (5V)' labelled VBUS with silkscreen 5V. RTC and BAT connectors (+/- only) skipped. Second image (webp) shows the same callouts."
+}

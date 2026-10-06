@@ -1,0 +1,172 @@
+{
+  "recordId": "waveshare-esp32-esp32-s3-lcd-2-8c",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/028e628364573ab7083c9ff2b6f1ec18e530cfce6440e225f4f3b1c8cae93349.jpg",
+      "sha256": "028e628364573ab7083c9ff2b6f1ec18e530cfce6440e225f4f3b1c8cae93349"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "i2c-port",
+      "name": "I2C 4-pin connector (upper-left board view)",
+      "image": "media/028e628364573ab7083c9ff2b6f1ec18e530cfce6440e225f4f3b1c8cae93349.jpg",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; vertical row started at the bottom, the end closest to the USB-C connector (labeled UART) below it in the same view.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO15",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO7",
+          "functions": [
+            "SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uart-port",
+      "name": "UART 4-pin connector (upper-left board view)",
+      "image": "media/028e628364573ab7083c9ff2b6f1ec18e530cfce6440e225f4f3b1c8cae93349.jpg",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; vertical row started at the bottom, the end closest to the USB-C connector (labeled UART) below it in the same view.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO43",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO44",
+          "functions": [
+            "RXD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expansion-connector",
+      "name": "12-pin connector (lower-right board view)",
+      "image": "media/028e628364573ab7083c9ff2b6f1ec18e530cfce6440e225f4f3b1c8cae93349.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers printed and no USB connector visible in that view; vertical row started at the top. A small dot below the bottom GND pin is not a labeled pin-1 mark.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO0",
+          "functions": [
+            "GP0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO44",
+          "functions": [
+            "RXD"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO43",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO15",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO7",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO20",
+          "functions": [
+            "D+"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO19",
+          "functions": [
+            "D-"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "5V",
+          "functions": [
+            "VBus(5V)"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Board identity: the lower-right board in the image is silkscreened 'ESP32-S3-Touch-LCD-2.8C 480x480 Pixels', while the record is ESP32-S3-LCD-2.8C (no 'Touch'); the upper-left view carries no product name.",
+    "The image shows two board views; it is assumed both are the same product. The 12-pin connector's order used the top rule because its view shows no USB connector; if the dot below the last GND pin marks pin 1, the order would be reversed.",
+    "I2C/UART 4-pin connector order assumes the USB-C receptacle labeled 'UART' counts as the USB connector for the closest-end rule."
+  ],
+  "notes": "Waveshare connector callout graphic. Callouts give GPIO numbers (e.g. SCL(GPIO7)); silkscreen spellings kept in functions. Buttons (BOOT, RST), BAT and ON switch skipped."
+}

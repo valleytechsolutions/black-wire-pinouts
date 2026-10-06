@@ -1,0 +1,306 @@
+{
+  "recordId": "luckfox-other-pico-pro",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/ecf7b234ac949ca8cf648fadfd3150c7085da88c23535f00f67d8d7cd85350d4.jpg",
+      "sha256": "ecf7b234ac949ca8cf648fadfd3150c7085da88c23535f00f67d8d7cd85350d4"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header (pins 1-20)",
+      "image": "media/ecf7b234ac949ca8cf648fadfd3150c7085da88c23535f00f67d8d7cd85350d4.jpg",
+      "rows": 1,
+      "orderNote": "Pin numbers printed: position n = printed pin n, 1 at the top (USB-C end) to 20 at the bottom.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO1_B2_d",
+          "functions": [
+            "UART2_TX_M1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO1_B3_u",
+          "functions": [
+            "UART2_RX_M1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO1_C7_d",
+          "functions": [
+            "UART4_CTS_M1",
+            "PWM11_IR_M1"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO1_C6_d",
+          "functions": [
+            "UART4_RTS_M1",
+            "PWM10_M1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO1_C5_d",
+          "functions": [
+            "UART4_TX_M1",
+            "PWM9_M1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO1_C4_d",
+          "functions": [
+            "UART4_RX_M1",
+            "PWM8_M1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO1_D2_d",
+          "functions": [
+            "SPI0_CS1_M0",
+            "I2C3_SDA_M1",
+            "PWM0_M1"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO1_D3_d",
+          "functions": [
+            "I2C3_SCL_M1",
+            "PWM11_IR_M2"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO2_B1_d",
+          "functions": [
+            "UART0_TX_M1",
+            "I2C1_SDA_M1",
+            "PWM6_M1"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO1_C0_d",
+          "functions": [
+            "SPI0_CS0_M0",
+            "PWM2_M2"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO1_C1_d",
+          "functions": [
+            "SPI0_CLK_M0",
+            "PWM4_M2"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO1_C2_d",
+          "functions": [
+            "SPI0_MOSI_M0",
+            "PWM5_M2"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO1_C3_d",
+          "functions": [
+            "SPI0_MISO_M0",
+            "PWM6_M2"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO2_B0_d",
+          "functions": [
+            "UART0_RX_M1",
+            "I2C1_SCL_M1",
+            "PWM5_M1"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GPIO1_D0_d",
+          "functions": [
+            "UART3_TX_M1",
+            "PWM3_IR_M2"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO1_D1_d",
+          "functions": [
+            "UART3_RX_M1",
+            "PWM10_M2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header (pins 21-40)",
+      "image": "media/ecf7b234ac949ca8cf648fadfd3150c7085da88c23535f00f67d8d7cd85350d4.jpg",
+      "rows": 1,
+      "orderNote": "Pin numbers printed: position n = printed pin 20+n, so position 1 = pin 21 at the bottom and position 20 = pin 40 at the top (USB-C end).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO2_A4_d",
+          "functions": [
+            "UART1_TX_M1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO2_A5_d",
+          "functions": [
+            "UART1_RX_M1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO2_A0_d",
+          "functions": [
+            "UART1_CTS_M1",
+            "I2C4_SDA_M0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO2_A1_d",
+          "functions": [
+            "UART1_RTS_M1",
+            "I2C4_SCL_M0"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO2_A2_d",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO2_A3_d",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO2_A6_d",
+          "functions": [
+            "UART0_RTS_M1",
+            "I2C3_SCL_M0"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GPIO4_C0_z",
+          "functions": [
+            "SARADC_IN0"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO4_C1_z",
+          "functions": [
+            "SARADC_IN1"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO_A7_d",
+          "functions": [
+            "UART0_CTS_M1",
+            "I2C3_SDA_M0"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "3V3(OUT)",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "3V3_EN",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "VSYS",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "VBUS",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "O and 0 look alike in the diagram font. The GPIO prefix is a letter, and other digits such as UART0_*, SPI0_*, *_M0, SARADC_IN0 and GPIO4_C0_z are recorded as 0."
+  ],
+  "uncertain": [],
+  "notes": "Pin 34 is printed 'GPIO_A7_d' with no bank number and is recorded as printed. Skipped: USB-C, boot/reset buttons, microSD slot, Ethernet jack, a 2-pin RTC battery connector (pins not individually labeled), and the LED callout 'LED (GPIO3_C6_d)', which is not a header pin. The color legend (PWM, I2C, SPI, UART, SARADC, System Control) gives categories only and is omitted."
+}

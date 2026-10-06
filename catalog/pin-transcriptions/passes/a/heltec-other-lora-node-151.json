@@ -1,0 +1,355 @@
+{
+ "recordId": "heltec-other-lora-node-151",
+ "pass": "a",
+ "date": "2026-10-04",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/8acc262cf0ca970a1712e0421dc40fcae3154a14e60ec94394eab9b583bbd749.png",
+   "sha256": "8acc262cf0ca970a1712e0421dc40fcae3154a14e60ec94394eab9b583bbd749"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "left-header",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "USB at top; top-to-bottom physical hole order. Gray package numbers are aliases, not header positions.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "VUSB",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "PB8",
+     "functions": [
+      "45",
+      "SCL1",
+      "LED"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "PB9",
+     "functions": [
+      "46",
+      "SDA1"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "PB7",
+     "functions": [
+      "43",
+      "SDA1",
+      "RX1"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "PB6",
+     "functions": [
+      "42",
+      "SCL1",
+      "TX1"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "PB5",
+     "functions": [
+      "41",
+      "MOSI1",
+      "MOSI3"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "NRST",
+     "functions": [
+      "7"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "PA0",
+     "functions": [
+      "10",
+      "WKUP",
+      "ADC_IN0"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "PA1",
+     "functions": [
+      "11",
+      "ADC_IN1"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "PA2",
+     "functions": [
+      "12",
+      "TX2",
+      "ADC_IN2",
+      "Powre Detection"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "VEXT",
+     "functions": []
+    },
+    {
+     "position": 13,
+     "label": "PA5",
+     "functions": [
+      "15",
+      "SCK1",
+      "ADC_IN5",
+      "DAC_OUT2",
+      "LoRa_SCK"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "PA6",
+     "functions": [
+      "16",
+      "MISO1",
+      "ADC_IN6",
+      "LoRa_MISO"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "PA7",
+     "functions": [
+      "17",
+      "MOSI1",
+      "ADC_IN7",
+      "LoRa_MOSI"
+     ]
+    },
+    {
+     "position": 16,
+     "label": "PA4",
+     "functions": [
+      "14",
+      "NSS1",
+      "NSS3",
+      "ADC_IN4",
+      "DAC_OUT1",
+      "LoRa_NSS"
+     ]
+    }
+   ],
+   "image": "media/8acc262cf0ca970a1712e0421dc40fcae3154a14e60ec94394eab9b583bbd749.png"
+  },
+  {
+   "id": "right-header",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "USB at top; top-to-bottom physical hole order. Gray package numbers are aliases, not header positions.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "VDD",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "PA14",
+     "functions": [
+      "37",
+      "SWCLK"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "PA13",
+     "functions": [
+      "34",
+      "SWDIO"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "PA10",
+     "functions": [
+      "31",
+      "RX1"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "PA9",
+     "functions": [
+      "30",
+      "TX1"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "PA8",
+     "functions": [
+      "29"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "PB15",
+     "functions": [
+      "28",
+      "MOSI2",
+      "ADC_IN21"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "PB14",
+     "functions": [
+      "27",
+      "MISO2",
+      "ADC_IN20"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "PB13",
+     "functions": [
+      "26",
+      "SCK2",
+      "ADC_IN19"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "PA15",
+     "functions": [
+      "38",
+      "NSS1",
+      "NSS3"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "PB3",
+     "functions": [
+      "39",
+      "SCK1",
+      "SCK3",
+      "Vext control"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "VEXT",
+     "functions": []
+    },
+    {
+     "position": 14,
+     "label": "PB4",
+     "functions": [
+      "40",
+      "MISO1",
+      "MISO3"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "PB12",
+     "functions": [
+      "25",
+      "NSS2",
+      "ADC_IN18"
+     ]
+    },
+    {
+     "position": 16,
+     "label": "PA3",
+     "functions": [
+      "13",
+      "RX2",
+      "ADC_IN3",
+      "LoRa_RST"
+     ]
+    }
+   ],
+   "image": "media/8acc262cf0ca970a1712e0421dc40fcae3154a14e60ec94394eab9b583bbd749.png"
+  },
+  {
+   "id": "bottom-left-header",
+   "name": "bottom-left-header",
+   "rows": 1,
+   "orderNote": "USB at top; top-to-bottom physical hole order. Gray package numbers are aliases, not header positions.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "PB0",
+     "functions": [
+      "18",
+      "ADC_IN8",
+      "LoRa_DIO3"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "PB1",
+     "functions": [
+      "19",
+      "ADC_IN9",
+      "LoRa_DIO2"
+     ]
+    }
+   ],
+   "image": "media/8acc262cf0ca970a1712e0421dc40fcae3154a14e60ec94394eab9b583bbd749.png"
+  },
+  {
+   "id": "bottom-right-header",
+   "name": "bottom-right-header",
+   "rows": 1,
+   "orderNote": "USB at top; top-to-bottom physical hole order. Gray package numbers are aliases, not header positions.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "PB11",
+     "functions": [
+      "22",
+      "SDA2",
+      "RX3",
+      "LoRa_DIO0"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "PB10",
+     "functions": [
+      "21",
+      "SCL2",
+      "TX3",
+      "LoRa_DIO1"
+     ]
+    }
+   ],
+   "image": "media/8acc262cf0ca970a1712e0421dc40fcae3154a14e60ec94394eab9b583bbd749.png"
+  }
+ ],
+ "notes": "The printed note Powre Detection is preserved literally. Gray package numbers are aliases. Buttons are excluded.",
+ "unreadable": [],
+ "uncertain": []
+}

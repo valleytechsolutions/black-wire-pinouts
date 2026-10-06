@@ -1,0 +1,328 @@
+{
+  "recordId": "dfrobot-dfr0221",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/c9a2f3905a65fe2cb6869724994e95a3b5c25074c87dacb48344ec59b413dec3.webp",
+      "sha256": "c9a2f3905a65fe2cb6869724994e95a3b5c25074c87dacb48344ec59b413dec3"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "top-header-left",
+      "name": "Top digital header (left segment, 10 pins)",
+      "image": "media/c9a2f3905a65fe2cb6869724994e95a3b5c25074c87dacb48344ec59b413dec3.webp",
+      "rows": 1,
+      "orderNote": "USB connector (Micro USB) is on the left edge; horizontal row started at the left end (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "AREF",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "13",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "12",
+          "functions": [
+            "A11"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "11",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "10",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "9",
+          "functions": [
+            "A9"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "8",
+          "functions": [
+            "A8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "top-header-right",
+      "name": "Top digital header (right segment, 8 pins)",
+      "image": "media/c9a2f3905a65fe2cb6869724994e95a3b5c25074c87dacb48344ec59b413dec3.webp",
+      "rows": 1,
+      "orderNote": "USB connector (Micro USB) is on the left edge; horizontal row started at the left end (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "7",
+          "functions": [
+            "A7"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "6",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "5",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "4",
+          "functions": [
+            "A6"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "2",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "1",
+          "functions": [
+            "TX1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "0",
+          "functions": [
+            "RX1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "power-header",
+      "name": "Power header",
+      "image": "media/c9a2f3905a65fe2cb6869724994e95a3b5c25074c87dacb48344ec59b413dec3.webp",
+      "rows": 1,
+      "orderNote": "USB connector (Micro USB) is on the left edge; horizontal row started at the left end (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "Gnd",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "Gnd",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "Vin",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "analog-header",
+      "name": "Analog in header",
+      "image": "media/c9a2f3905a65fe2cb6869724994e95a3b5c25074c87dacb48344ec59b413dec3.webp",
+      "rows": 1,
+      "orderNote": "USB connector (Micro USB) is on the left edge; horizontal row started at the left end (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "0",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "1",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "2",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "4",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "5",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "icsp",
+      "name": "ICSP header",
+      "image": "media/c9a2f3905a65fe2cb6869724994e95a3b5c25074c87dacb48344ec59b413dec3.webp",
+      "rows": 2,
+      "orderNote": "Pin 1 marked at top-left hole; position 1 = marked hole, then alternate between the two columns going down",
+      "pins": [
+        {
+          "position": 1,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "?",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "spi-header",
+      "name": "Digital I/O & SPI 3x3 header",
+      "image": "media/c9a2f3905a65fe2cb6869724994e95a3b5c25074c87dacb48344ec59b413dec3.webp",
+      "rows": 3,
+      "orderNote": "3x3, no pin numbers: printed rows 16/15/14 from the top (end closest to USB); within each row the outer column (GND, nearest right edge) first, then 5V, then D",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "16",
+          "functions": [
+            "MOSI"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "15",
+          "functions": [
+            "SCK"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "14",
+          "functions": [
+            "MISO"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "power-header positions 1-2: unlabeled holes",
+    "icsp positions 1-6: no per-pin labels printed (only pin 1 mark and 'ICSP')"
+  ],
+  "notes": "Top header is drawn as two physical strips separated by a gap after pin 8. '~' PWM marks omitted from labels (~3,~5,~6,~9,~10,~11). 'Gnd' is printed centred between power holes 6 and 7, so both take it. MISO/SCK/MOSI come from the legend '14 MISO, 15 SCK, 16 MOSI'. XBee socket (two unlabeled 10-hole rows) skipped as a module socket without pin labels."
+}

@@ -1,0 +1,68 @@
+{
+  "recordId": "waveshare-expansion-ddsm315",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/0b3282c33e264c6a5cd4198673deb04c9a4902106bd67c05c4708b994b208045.jpg",
+      "sha256": "0b3282c33e264c6a5cd4198673deb04c9a4902106bd67c05c4708b994b208045"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "power-connector",
+      "name": "2-pin power cable connector",
+      "image": "media/0b3282c33e264c6a5cd4198673deb04c9a4902106bd67c05c4708b994b208045.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB; vertical, started at the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "signal-connector",
+      "name": "4-pin RS485 cable connector",
+      "image": "media/0b3282c33e264c6a5cd4198673deb04c9a4902106bd67c05c4708b994b208045.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB; vertical, started at the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "RS485_A",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RS485_B",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "Reserved pin",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Image shows only the cable-end connectors (with a 'SPOTPEAR' watermark) and does not name the DDSM315; identity assumed from context.",
+    "These are cable plug housings, not board headers; pin order follows the drawn contacts top to bottom."
+  ],
+  "notes": ""
+}

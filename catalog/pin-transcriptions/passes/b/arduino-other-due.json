@@ -1,0 +1,2914 @@
+{
+  "recordId": "arduino-other-due",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/c27ea43d89224c099f132796d380989c499c3aab9759c243655c5f3db0bb6706.png",
+      "sha256": "c27ea43d89224c099f132796d380989c499c3aab9759c243655c5f3db0bb6706"
+    },
+    {
+      "file": "media/b260c2cadcfafe1aa5bd7642c7ef2e7d46785e4a41a882c107d978009a05e7b7.png",
+      "sha256": "b260c2cadcfafe1aa5bd7642c7ef2e7d46785e4a41a882c107d978009a05e7b7"
+    },
+    {
+      "file": "media/788e5efd2be17800845105dd5c94089490efec011fa5d9b4c64b856f73c81298.png",
+      "sha256": "788e5efd2be17800845105dd5c94089490efec011fa5d9b4c64b856f73c81298"
+    },
+    {
+      "file": "media/c61db7245a6d25e974f491bb9a05b1b9f2cf36f0afd976fec95ce10c21f2f27d.png",
+      "sha256": "c61db7245a6d25e974f491bb9a05b1b9f2cf36f0afd976fec95ce10c21f2f27d"
+    },
+    {
+      "file": "media/38daf0e8481862e2fb9394eddb3ea76d12e3b21889e53558cf175061ad3e6490.png",
+      "sha256": "38daf0e8481862e2fb9394eddb3ea76d12e3b21889e53558cf175061ad3e6490"
+    },
+    {
+      "file": "media/151745ed0c39685a895f10c78bccbe9ef4ba38f6e88e4e43f8949a37103dfbc0.png",
+      "sha256": "151745ed0c39685a895f10c78bccbe9ef4ba38f6e88e4e43f8949a37103dfbc0"
+    },
+    {
+      "file": "media/bc950c232f6c30205a24f77cd16c627621517a12f7e4eba8392261981928090d.png",
+      "sha256": "bc950c232f6c30205a24f77cd16c627621517a12f7e4eba8392261981928090d"
+    },
+    {
+      "file": "media/0703282951a43c3a3c09d62fcebfb6772fd85a035fd91f5d9b03795f2c56972d.png",
+      "sha256": "0703282951a43c3a3c09d62fcebfb6772fd85a035fd91f5d9b03795f2c56972d"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "power-header",
+      "name": "Power header",
+      "image": "media/c27ea43d89224c099f132796d380989c499c3aab9759c243655c5f3db0bb6706.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB connectors at top of board, so position 1 is the top pin (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IOREF",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "analog-header",
+      "name": "Analog header A0-A7",
+      "image": "media/c27ea43d89224c099f132796d380989c499c3aab9759c243655c5f3db0bb6706.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB connectors at top of board, so position 1 is the top pin (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PA16",
+          "functions": [
+            "D54",
+            "A0",
+            "ADC[0]"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PA24",
+          "functions": [
+            "D55",
+            "A1",
+            "ADC[1]"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA23",
+          "functions": [
+            "D56",
+            "A2",
+            "ADC[2]"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA22",
+          "functions": [
+            "D57",
+            "A3",
+            "ADC[3]"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PA6",
+          "functions": [
+            "D58",
+            "A4",
+            "ADC[4]"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA4",
+          "functions": [
+            "D59",
+            "A5",
+            "ADC[5]"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PA3",
+          "functions": [
+            "D60",
+            "A6",
+            "ADC[6]"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PA2",
+          "functions": [
+            "D61",
+            "A7",
+            "ADC[7]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "analog-header-2",
+      "name": "Analog header A8-A11/DAC/CAN",
+      "image": "media/c27ea43d89224c099f132796d380989c499c3aab9759c243655c5f3db0bb6706.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB connectors at top of board, so position 1 is the top pin (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PB17",
+          "functions": [
+            "D62",
+            "A8",
+            "ADC[8]"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PB18",
+          "functions": [
+            "D63",
+            "A9",
+            "ADC[9]"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PB19",
+          "functions": [
+            "D64",
+            "A10",
+            "ADC[10]"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PB20",
+          "functions": [
+            "D65",
+            "A11",
+            "ADC[11]"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PB15",
+          "functions": [
+            "DAC2/D66",
+            "DAC[0]"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PB16",
+          "functions": [
+            "DAC1/D67",
+            "DAC[1]"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PA1",
+          "functions": [
+            "CANRX/D68",
+            "CANRX0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PA0",
+          "functions": [
+            "CANTX/D69",
+            "CANTX0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digital-header-top",
+      "name": "Digital header D21-D8 with AREF",
+      "image": "media/c27ea43d89224c099f132796d380989c499c3aab9759c243655c5f3db0bb6706.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB connectors at top of board, so position 1 is the top pin (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PA18",
+          "functions": [
+            "D21/SCL",
+            "SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PA17",
+          "functions": [
+            "D20/SDA",
+            "SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "AREF",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "PB27",
+          "functions": [
+            "D13"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PD8",
+          "functions": [
+            "D12"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PD7",
+          "functions": [
+            "D11"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PA28",
+          "functions": [
+            "D10"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PC21",
+          "functions": [
+            "D9"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PC22",
+          "functions": [
+            "D8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digital-header-mid",
+      "name": "Digital header D7-D0",
+      "image": "media/c27ea43d89224c099f132796d380989c499c3aab9759c243655c5f3db0bb6706.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB connectors at top of board, so position 1 is the top pin (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PC23",
+          "functions": [
+            "D7"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PC24",
+          "functions": [
+            "D6"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PC25",
+          "functions": [
+            "D5"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA29",
+          "functions": [
+            "D4"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PC28",
+          "functions": [
+            "D3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PB25",
+          "functions": [
+            "D2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PA9",
+          "functions": [
+            "D1/TX0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PA8",
+          "functions": [
+            "D0/RX0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "communication-header",
+      "name": "Digital header D14-D21",
+      "image": "media/c27ea43d89224c099f132796d380989c499c3aab9759c243655c5f3db0bb6706.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB connectors at top of board, so position 1 is the top pin (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PD4",
+          "functions": [
+            "D14/TX3"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PD5",
+          "functions": [
+            "D15/RX3"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA13",
+          "functions": [
+            "D16/TX2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA12",
+          "functions": [
+            "D17/RX2"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PA11",
+          "functions": [
+            "D18/TX1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA10",
+          "functions": [
+            "D19/RX1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PB12",
+          "functions": [
+            "D20/SDA"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PB13",
+          "functions": [
+            "D21/SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "power-header-img2",
+      "name": "Power header",
+      "image": "media/b260c2cadcfafe1aa5bd7642c7ef2e7d46785e4a41a882c107d978009a05e7b7.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB connectors at top of board, so position 1 is the top pin (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IOREF",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "analog-header-img2",
+      "name": "Analog header A0-A7",
+      "image": "media/b260c2cadcfafe1aa5bd7642c7ef2e7d46785e4a41a882c107d978009a05e7b7.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB connectors at top of board, so position 1 is the top pin (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PA16",
+          "functions": [
+            "D54",
+            "A0",
+            "ADC[0]"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PA24",
+          "functions": [
+            "D55",
+            "A1",
+            "ADC[1]"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA23",
+          "functions": [
+            "D56",
+            "A2",
+            "ADC[2]"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA22",
+          "functions": [
+            "D57",
+            "A3",
+            "ADC[3]"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PA6",
+          "functions": [
+            "D58",
+            "A4",
+            "ADC[4]"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA4",
+          "functions": [
+            "D59",
+            "A5",
+            "ADC[5]"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PA3",
+          "functions": [
+            "D60",
+            "A6",
+            "ADC[6]"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PA2",
+          "functions": [
+            "D61",
+            "A7",
+            "ADC[7]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "analog-header-2-img2",
+      "name": "Analog header A8-A11/DAC/CAN",
+      "image": "media/b260c2cadcfafe1aa5bd7642c7ef2e7d46785e4a41a882c107d978009a05e7b7.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB connectors at top of board, so position 1 is the top pin (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PB17",
+          "functions": [
+            "D62",
+            "A8",
+            "ADC[8]"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PB18",
+          "functions": [
+            "D63",
+            "A9",
+            "ADC[9]"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PB19",
+          "functions": [
+            "D64",
+            "A10",
+            "ADC[10]"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PB20",
+          "functions": [
+            "D65",
+            "A11",
+            "ADC[11]"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PB15",
+          "functions": [
+            "DAC2/D66",
+            "DAC[0]"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PB16",
+          "functions": [
+            "DAC1/D67",
+            "DAC[1]"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PA1",
+          "functions": [
+            "CANRX/D68",
+            "CANRX0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PA0",
+          "functions": [
+            "CANTX/D69",
+            "CANTX0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digital-header-top-img2",
+      "name": "Digital header D21-D8 with AREF",
+      "image": "media/b260c2cadcfafe1aa5bd7642c7ef2e7d46785e4a41a882c107d978009a05e7b7.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB connectors at top of board, so position 1 is the top pin (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PA18",
+          "functions": [
+            "D21/SCL",
+            "SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PA17",
+          "functions": [
+            "D20/SDA",
+            "SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "AREF",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "PB27",
+          "functions": [
+            "D13"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PD8",
+          "functions": [
+            "D12"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PD7",
+          "functions": [
+            "D11"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PA28",
+          "functions": [
+            "D10"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PC21",
+          "functions": [
+            "D9"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PC22",
+          "functions": [
+            "D8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digital-header-mid-img2",
+      "name": "Digital header D7-D0",
+      "image": "media/b260c2cadcfafe1aa5bd7642c7ef2e7d46785e4a41a882c107d978009a05e7b7.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB connectors at top of board, so position 1 is the top pin (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PC23",
+          "functions": [
+            "D7"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PC24",
+          "functions": [
+            "D6"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PC25",
+          "functions": [
+            "D5"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA29",
+          "functions": [
+            "D4"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PC28",
+          "functions": [
+            "D3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PB25",
+          "functions": [
+            "D2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PA9",
+          "functions": [
+            "D1/TX0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PA8",
+          "functions": [
+            "D0/RX0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "communication-header-img2",
+      "name": "Digital header D14-D21",
+      "image": "media/b260c2cadcfafe1aa5bd7642c7ef2e7d46785e4a41a882c107d978009a05e7b7.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB connectors at top of board, so position 1 is the top pin (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PD4",
+          "functions": [
+            "D14/TX3"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PD5",
+          "functions": [
+            "D15/RX3"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA13",
+          "functions": [
+            "D16/TX2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA12",
+          "functions": [
+            "D17/RX2"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PA11",
+          "functions": [
+            "D18/TX1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA10",
+          "functions": [
+            "D19/RX1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PB12",
+          "functions": [
+            "D20/SDA"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PB13",
+          "functions": [
+            "D21/SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digital-2x18-img2",
+      "name": "Digital pins D22-D53 (2x18)",
+      "image": "media/b260c2cadcfafe1aa5bd7642c7ef2e7d46785e4a41a882c107d978009a05e7b7.png",
+      "rows": 2,
+      "orderNote": "No printed pin numbers; 'Digital pins D22-D53' sub-view does not show the USB connector itself (only a thumbnail), so start at the top; 2x18 rule: right column is nearest the board edge, so odd positions = right column (+5V, D23, ...), even = left column (+5V, D22, ...)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PA14",
+          "functions": [
+            "D23"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PB26",
+          "functions": [
+            "D22"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PD0",
+          "functions": [
+            "D25"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA15",
+          "functions": [
+            "D24"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PD2",
+          "functions": [
+            "D27"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PD1",
+          "functions": [
+            "D26"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PD6",
+          "functions": [
+            "D29"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PD3",
+          "functions": [
+            "D28"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PA7",
+          "functions": [
+            "D31"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "PD9",
+          "functions": [
+            "D30"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "PC1",
+          "functions": [
+            "D33"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "PD10",
+          "functions": [
+            "D32"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "PC3",
+          "functions": [
+            "D35"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "PC2",
+          "functions": [
+            "D34"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "PC5",
+          "functions": [
+            "D37"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "PC4",
+          "functions": [
+            "D36"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "PC7",
+          "functions": [
+            "D39"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "PC6",
+          "functions": [
+            "D38"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "PC9",
+          "functions": [
+            "D41"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "PC8",
+          "functions": [
+            "D40"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "PA20",
+          "functions": [
+            "D43"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "PA19",
+          "functions": [
+            "D42"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "PC18",
+          "functions": [
+            "D45"
+          ]
+        },
+        {
+          "position": 26,
+          "label": "PC19",
+          "functions": [
+            "D44"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "PC16",
+          "functions": [
+            "D47"
+          ]
+        },
+        {
+          "position": 28,
+          "label": "PC17",
+          "functions": [
+            "D46"
+          ]
+        },
+        {
+          "position": 29,
+          "label": "PC14",
+          "functions": [
+            "D49"
+          ]
+        },
+        {
+          "position": 30,
+          "label": "PC15",
+          "functions": [
+            "D48"
+          ]
+        },
+        {
+          "position": 31,
+          "label": "PC12",
+          "functions": [
+            "D51"
+          ]
+        },
+        {
+          "position": 32,
+          "label": "PC13",
+          "functions": [
+            "D50"
+          ]
+        },
+        {
+          "position": 33,
+          "label": "PB14",
+          "functions": [
+            "D53"
+          ]
+        },
+        {
+          "position": 34,
+          "label": "PB21",
+          "functions": [
+            "D52"
+          ]
+        },
+        {
+          "position": 35,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 36,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "usb1-img3",
+      "name": "USB1 (native USB) connector",
+      "image": "media/788e5efd2be17800845105dd5c94089490efec011fa5d9b4c64b856f73c81298.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB contact list read top-to-bottom as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "PB11",
+          "functions": [
+            "USB ID"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "USB D+",
+          "functions": [
+            "DHSDP"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "USB D-",
+          "functions": [
+            "DHSDM"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "+5V",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "icsp-16u2-img3",
+      "name": "ICSP header for ATMEGA16U2 (2x3)",
+      "image": "media/788e5efd2be17800845105dd5c94089490efec011fa5d9b4c64b856f73c81298.png",
+      "rows": 2,
+      "orderNote": "Pin numbers 1-6 printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PB3",
+          "functions": [
+            "CIPO"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PB1",
+          "functions": [
+            "SCK"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PB2",
+          "functions": [
+            "COPI"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PC1",
+          "functions": [
+            "RESET"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "debug-img3",
+      "name": "DEBUG header",
+      "image": "media/788e5efd2be17800845105dd5c94089490efec011fa5d9b4c64b856f73c81298.png",
+      "rows": 1,
+      "orderNote": "Pin numbers 1-4 printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "PB28",
+          "functions": [
+            "TCK"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PB31",
+          "functions": [
+            "TMS"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "RESET",
+          "functions": [
+            "NRSTb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spi-img3",
+      "name": "SPI header (2x3)",
+      "image": "media/788e5efd2be17800845105dd5c94089490efec011fa5d9b4c64b856f73c81298.png",
+      "rows": 2,
+      "orderNote": "Pin numbers 1-6 printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PA25",
+          "functions": [
+            "CIPO",
+            "SPI0_CIPO",
+            "A18"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PA27",
+          "functions": [
+            "SCK",
+            "SPI0_SPCK",
+            "WKUP[10]",
+            "A20"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA26",
+          "functions": [
+            "COPI",
+            "SPI0_COPI",
+            "A19"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "RESET",
+          "functions": [
+            "NRSTb"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "usb2-img4",
+      "name": "USB2 (programming USB) connector",
+      "image": "media/c61db7245a6d25e974f491bb9a05b1b9f2cf36f0afd976fec95ce10c21f2f27d.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB contact list read top-to-bottom as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "USB ID",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "USB D+",
+          "functions": [
+            "D+"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "USB D-",
+          "functions": [
+            "D-"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "+5V",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "atmega16u2-header-img4",
+      "name": "ATMEGA16U2 2x2 header",
+      "image": "media/c61db7245a6d25e974f491bb9a05b1b9f2cf36f0afd976fec95ce10c21f2f27d.png",
+      "rows": 2,
+      "orderNote": "Pin numbers 1-4 printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PB4",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "PB6",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PB5",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "PB7",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "jtag-img4",
+      "name": "JTAG header (2x5)",
+      "image": "media/c61db7245a6d25e974f491bb9a05b1b9f2cf36f0afd976fec95ce10c21f2f27d.png",
+      "rows": 2,
+      "orderNote": "Pin numbers 1-10 printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "PB31",
+          "functions": [
+            "JTAG_TMS/SWDIO"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "PB28",
+          "functions": [
+            "JTAG_TCK/SWCLK"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "PB30",
+          "functions": [
+            "JTAG_TDO/TRACESWO"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "PB29",
+          "functions": [
+            "JTAG_TDI"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "JTAG_RESET",
+          "functions": [
+            "NRSTb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "power-header-img5",
+      "name": "Power header",
+      "image": "media/38daf0e8481862e2fb9394eddb3ea76d12e3b21889e53558cf175061ad3e6490.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB connectors at top of board, so position 1 is the top pin (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IOREF",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "analog-header-img5",
+      "name": "Analog header A0-A7",
+      "image": "media/38daf0e8481862e2fb9394eddb3ea76d12e3b21889e53558cf175061ad3e6490.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB connectors at top of board, so position 1 is the top pin (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PA16",
+          "functions": [
+            "D54",
+            "A0",
+            "ADC[0]",
+            "SPCK1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PA24",
+          "functions": [
+            "D55",
+            "A1",
+            "ADC[1]",
+            "PCK1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA23",
+          "functions": [
+            "D56",
+            "A2",
+            "ADC[2]",
+            "TCLK4"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA22",
+          "functions": [
+            "D57",
+            "A3",
+            "ADC[3]",
+            "TCLK3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PA6",
+          "functions": [
+            "D58",
+            "A4",
+            "ADC[4]",
+            "TIOB2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA4",
+          "functions": [
+            "D59",
+            "A5",
+            "ADC[5]",
+            "TCLK1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PA3",
+          "functions": [
+            "D60",
+            "A6",
+            "ADC[6]",
+            "PWMFI1",
+            "TIOB1",
+            "WKUP[1]"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PA2",
+          "functions": [
+            "D61",
+            "A7",
+            "ADC[7]",
+            "TIOA1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "analog-header-2-img5",
+      "name": "Analog header A8-A11/DAC/CAN",
+      "image": "media/38daf0e8481862e2fb9394eddb3ea76d12e3b21889e53558cf175061ad3e6490.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB connectors at top of board, so position 1 is the top pin (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PB17",
+          "functions": [
+            "D62",
+            "A8",
+            "ADC[8]",
+            "PWML1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PB18",
+          "functions": [
+            "D63",
+            "A9",
+            "ADC[9]",
+            "PWML2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PB19",
+          "functions": [
+            "D64",
+            "A10",
+            "ADC[10]",
+            "PWML3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PB20",
+          "functions": [
+            "D65",
+            "A11",
+            "ADC[11]",
+            "TXD2/SPI0_NPCS1"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PB15",
+          "functions": [
+            "DAC2/D66",
+            "DAC[0]",
+            "PWMH3",
+            "CANRX1",
+            "WKUP[12]"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PB16",
+          "functions": [
+            "DAC1/D67",
+            "DAC[1]",
+            "PWML0",
+            "TCLK5"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PA1",
+          "functions": [
+            "CANRX/D68",
+            "PCK0",
+            "CANRX0",
+            "WKUP[0]"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PA0",
+          "functions": [
+            "CANTX/D69",
+            "PWML3",
+            "CANTX0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digital-header-top-img5",
+      "name": "Digital header D21-D8 with AREF",
+      "image": "media/38daf0e8481862e2fb9394eddb3ea76d12e3b21889e53558cf175061ad3e6490.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB connectors at top of board, so position 1 is the top pin (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PA18",
+          "functions": [
+            "D21/SCL",
+            "SCL",
+            "TWCK0",
+            "WKUP[9]"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PA17",
+          "functions": [
+            "D20/SDA",
+            "SDA",
+            "SPCK0/TWD0"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "AREF",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "PB27",
+          "functions": [
+            "D13",
+            "AD[10]",
+            "PWML1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PD8",
+          "functions": [
+            "D12",
+            "TIOB8"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PD7",
+          "functions": [
+            "D11",
+            "TIOA8"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PA28",
+          "functions": [
+            "D10",
+            "PCK2",
+            "SPI0_NPCS0",
+            "WKUP[11]"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PC21",
+          "functions": [
+            "D9",
+            "PWML4"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PC22",
+          "functions": [
+            "D8",
+            "PWML5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digital-header-mid-img5",
+      "name": "Digital header D7-D0",
+      "image": "media/38daf0e8481862e2fb9394eddb3ea76d12e3b21889e53558cf175061ad3e6490.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB connectors at top of board, so position 1 is the top pin (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PC23",
+          "functions": [
+            "D7",
+            "PWML6"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PC24",
+          "functions": [
+            "D6",
+            "PWML7"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PC25",
+          "functions": [
+            "D5",
+            "TIOA6"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA29",
+          "functions": [
+            "D4",
+            "SPI0_NPCS1"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PC28",
+          "functions": [
+            "D3",
+            "TIOA7"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PB25",
+          "functions": [
+            "D2",
+            "TIOA0",
+            "RTS0"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PA9",
+          "functions": [
+            "D1/TX0",
+            "PWMH3",
+            "UTXD"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PA8",
+          "functions": [
+            "D0/RX0",
+            "PWMH0",
+            "URXD",
+            "WKUP[4]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "communication-header-img5",
+      "name": "Digital header D14-D21",
+      "image": "media/38daf0e8481862e2fb9394eddb3ea76d12e3b21889e53558cf175061ad3e6490.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB connectors at top of board, so position 1 is the top pin (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PD4",
+          "functions": [
+            "D14/TX3",
+            "TXD3"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PD5",
+          "functions": [
+            "D15/RX3",
+            "RXD3"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA13",
+          "functions": [
+            "D16/TX2",
+            "PWMH2",
+            "TXD1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA12",
+          "functions": [
+            "D17/RX2",
+            "PWML1",
+            "RXD1",
+            "WKUP[7]"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PA11",
+          "functions": [
+            "D18/TX1",
+            "TXD0",
+            "ADTRG/WKUP[6]"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA10",
+          "functions": [
+            "D19/RX1",
+            "RXD0",
+            "DATRG/WKUP[5]"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PB12",
+          "functions": [
+            "D20/SDA",
+            "AD[8]",
+            "PWMH0",
+            "TWD1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PB13",
+          "functions": [
+            "D21/SCL",
+            "AD[9]",
+            "PWMH1",
+            "TWCK1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "power-header-img6",
+      "name": "Power header",
+      "image": "media/151745ed0c39685a895f10c78bccbe9ef4ba38f6e88e4e43f8949a37103dfbc0.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB connectors at top of board, so position 1 is the top pin (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IOREF",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "analog-header-img6",
+      "name": "Analog header A0-A7",
+      "image": "media/151745ed0c39685a895f10c78bccbe9ef4ba38f6e88e4e43f8949a37103dfbc0.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB connectors at top of board, so position 1 is the top pin (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PA16",
+          "functions": [
+            "D54",
+            "A0",
+            "ADC[0]",
+            "TD"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PA24",
+          "functions": [
+            "D55",
+            "A1",
+            "ADC[1]",
+            "MCDA3"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA23",
+          "functions": [
+            "D56",
+            "A2",
+            "ADC[2]",
+            "MCDA2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA22",
+          "functions": [
+            "D57",
+            "A3",
+            "ADC[3]",
+            "MCDA1"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PA6",
+          "functions": [
+            "D58",
+            "A4",
+            "ADC[4]",
+            "NCS0"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA4",
+          "functions": [
+            "D59",
+            "A5",
+            "ADC[5]",
+            "NWAIT"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PA3",
+          "functions": [
+            "D60",
+            "A6",
+            "ADC[6]"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PA2",
+          "functions": [
+            "D61",
+            "A7",
+            "ADC[7]",
+            "NANDRDY"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "analog-header-2-img6",
+      "name": "Analog header A8-A11/DAC/CAN",
+      "image": "media/151745ed0c39685a895f10c78bccbe9ef4ba38f6e88e4e43f8949a37103dfbc0.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB connectors at top of board, so position 1 is the top pin (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PB17",
+          "functions": [
+            "D62",
+            "A8",
+            "ADC[8]",
+            "RF"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PB18",
+          "functions": [
+            "D63",
+            "A9",
+            "ADC[9]",
+            "RD"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PB19",
+          "functions": [
+            "D64",
+            "A10",
+            "ADC[10]",
+            "RK"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PB20",
+          "functions": [
+            "D65",
+            "A11",
+            "ADC[11]"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PB15",
+          "functions": [
+            "DAC2/D66",
+            "DAC[0]"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PB16",
+          "functions": [
+            "DAC1/D67",
+            "DAC[1]"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PA1",
+          "functions": [
+            "CANRX/D68",
+            "CANRX0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PA0",
+          "functions": [
+            "CANTX/D69",
+            "CANTX0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digital-header-top-img6",
+      "name": "Digital header D21-D8 with AREF",
+      "image": "media/151745ed0c39685a895f10c78bccbe9ef4ba38f6e88e4e43f8949a37103dfbc0.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB connectors at top of board, so position 1 is the top pin (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PA18",
+          "functions": [
+            "D21/SCL",
+            "SCL",
+            "A20"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PA17",
+          "functions": [
+            "D20/SDA",
+            "SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "AREF",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "PB27",
+          "functions": [
+            "D13",
+            "RF"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PD8",
+          "functions": [
+            "D12",
+            "A21",
+            "NANDALE"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PD7",
+          "functions": [
+            "D11",
+            "A17",
+            "BA1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PA28",
+          "functions": [
+            "D10"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PC21",
+          "functions": [
+            "D9",
+            "A0",
+            "NBS0"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PC22",
+          "functions": [
+            "D8",
+            "A1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digital-header-mid-img6",
+      "name": "Digital header D7-D0",
+      "image": "media/151745ed0c39685a895f10c78bccbe9ef4ba38f6e88e4e43f8949a37103dfbc0.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB connectors at top of board, so position 1 is the top pin (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PC23",
+          "functions": [
+            "D7",
+            "A2"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PC24",
+          "functions": [
+            "D6",
+            "A3"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PC25",
+          "functions": [
+            "D5",
+            "A4"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA29",
+          "functions": [
+            "D4",
+            "NRD"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PC28",
+          "functions": [
+            "D3",
+            "A7"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PB25",
+          "functions": [
+            "D2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PA9",
+          "functions": [
+            "D1/TX0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PA8",
+          "functions": [
+            "D0/RX0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "communication-header-img6",
+      "name": "Digital header D14-D21",
+      "image": "media/151745ed0c39685a895f10c78bccbe9ef4ba38f6e88e4e43f8949a37103dfbc0.png",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB connectors at top of board, so position 1 is the top pin (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PD4",
+          "functions": [
+            "D14/TX3",
+            "A14"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PD5",
+          "functions": [
+            "D15/RX3",
+            "A15"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA13",
+          "functions": [
+            "D16/TX2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA12",
+          "functions": [
+            "D17/RX2"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PA11",
+          "functions": [
+            "D18/TX1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA10",
+          "functions": [
+            "D19/RX1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PB12",
+          "functions": [
+            "D20/SDA"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PB13",
+          "functions": [
+            "D21/SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digital-2x18-img7",
+      "name": "Digital pins D22-D53 (2x18)",
+      "image": "media/bc950c232f6c30205a24f77cd16c627621517a12f7e4eba8392261981928090d.png",
+      "rows": 2,
+      "orderNote": "No printed pin numbers; 'Digital pins D22-D53' sub-view does not show the USB connector itself (only a thumbnail), so start at the top; 2x18 rule: right column is nearest the board edge, so odd positions = right column (+5V, D23, ...), even = left column (+5V, D22, ...)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PA14",
+          "functions": [
+            "D23",
+            "RTS1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PB26",
+          "functions": [
+            "D22",
+            "TCLK0",
+            "CTS0",
+            "WKUP[15]"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PD0",
+          "functions": [
+            "D25",
+            "MCDA4"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA15",
+          "functions": [
+            "D24",
+            "CTS1",
+            "WKUP[8]"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PD2",
+          "functions": [
+            "D27",
+            "MCDA6"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PD1",
+          "functions": [
+            "D26",
+            "MCDA5"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PD6",
+          "functions": [
+            "D29",
+            "PWMFI2"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PD3",
+          "functions": [
+            "D28",
+            "MCDA7"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PA7",
+          "functions": [
+            "D31",
+            "TCLK2",
+            "WKUP[3]"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "PD9",
+          "functions": [
+            "D30",
+            "TCLK8"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "PC1",
+          "functions": [
+            "D33"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "PD10",
+          "functions": [
+            "D32"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "PC3",
+          "functions": [
+            "D35",
+            "PWMH0"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "PC2",
+          "functions": [
+            "D34",
+            "PWML0"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "PC5",
+          "functions": [
+            "D37",
+            "PWMH1"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "PC4",
+          "functions": [
+            "D36",
+            "PWML1"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "PC7",
+          "functions": [
+            "D39",
+            "PWMH2"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "PC6",
+          "functions": [
+            "D38",
+            "PWML2"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "PC9",
+          "functions": [
+            "D41",
+            "PWMH3"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "PC8",
+          "functions": [
+            "D40",
+            "PWML3"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "PA20",
+          "functions": [
+            "D43",
+            "PWML2"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "PA19",
+          "functions": [
+            "D42",
+            "PWMH1"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "PC18",
+          "functions": [
+            "D45",
+            "PWMH6"
+          ]
+        },
+        {
+          "position": 26,
+          "label": "PC19",
+          "functions": [
+            "D44",
+            "PWMH5"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "PC16",
+          "functions": [
+            "D47",
+            "ETX3"
+          ]
+        },
+        {
+          "position": 28,
+          "label": "PC17",
+          "functions": [
+            "D46",
+            "ETXER"
+          ]
+        },
+        {
+          "position": 29,
+          "label": "PC14",
+          "functions": [
+            "D49",
+            "ERXCK"
+          ]
+        },
+        {
+          "position": 30,
+          "label": "PC15",
+          "functions": [
+            "D48",
+            "ETX2"
+          ]
+        },
+        {
+          "position": 31,
+          "label": "PC12",
+          "functions": [
+            "D51",
+            "ERX3"
+          ]
+        },
+        {
+          "position": 32,
+          "label": "PC13",
+          "functions": [
+            "D50",
+            "ECOL"
+          ]
+        },
+        {
+          "position": 33,
+          "label": "PB14",
+          "functions": [
+            "D53",
+            "PWMH2",
+            "CANTX1"
+          ]
+        },
+        {
+          "position": 34,
+          "label": "PB21",
+          "functions": [
+            "D52",
+            "AD[14]",
+            "WKUP[13]"
+          ]
+        },
+        {
+          "position": 35,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 36,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "digital-2x18-img8",
+      "name": "Digital pins D22-D53 (2x18)",
+      "image": "media/0703282951a43c3a3c09d62fcebfb6772fd85a035fd91f5d9b03795f2c56972d.png",
+      "rows": 2,
+      "orderNote": "No printed pin numbers; 'Digital pins D22-D53' sub-view does not show the USB connector itself (only a thumbnail), so start at the top; 2x18 rule: right column is nearest the board edge, so odd positions = right column (+5V, D23, ...), even = left column (+5V, D22, ...)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PA14",
+          "functions": [
+            "D23",
+            "TK"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PB26",
+          "functions": [
+            "D22"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PD0",
+          "functions": [
+            "D25",
+            "A10"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA15",
+          "functions": [
+            "D24",
+            "TF"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PD2",
+          "functions": [
+            "D27",
+            "A12"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PD1",
+          "functions": [
+            "D26",
+            "A11"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PD6",
+          "functions": [
+            "D29",
+            "A16",
+            "BA0"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PD3",
+          "functions": [
+            "D28",
+            "A13"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PA7",
+          "functions": [
+            "D31",
+            "NCS1"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "PD9",
+          "functions": [
+            "D30",
+            "A22",
+            "NANDCLE"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "PC1",
+          "functions": [
+            "D33"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "PD10",
+          "functions": [
+            "D32",
+            "NWR1/NBS1"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "PC3",
+          "functions": [
+            "D35"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "PC2",
+          "functions": [
+            "D34"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "PC5",
+          "functions": [
+            "D37"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "PC4",
+          "functions": [
+            "D36"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "PC7",
+          "functions": [
+            "D39"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "PC6",
+          "functions": [
+            "D38"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "PC9",
+          "functions": [
+            "D41"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "PC8",
+          "functions": [
+            "D40"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "PA20",
+          "functions": [
+            "D43",
+            "MCCDA"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "PA19",
+          "functions": [
+            "D42",
+            "MCCK"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "PC18",
+          "functions": [
+            "D45",
+            "NWR0/NWE"
+          ]
+        },
+        {
+          "position": 26,
+          "label": "PC19",
+          "functions": [
+            "D44",
+            "NANDOE"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "PC16",
+          "functions": [
+            "D47"
+          ]
+        },
+        {
+          "position": 28,
+          "label": "PC17",
+          "functions": [
+            "D46"
+          ]
+        },
+        {
+          "position": 29,
+          "label": "PC14",
+          "functions": [
+            "D49"
+          ]
+        },
+        {
+          "position": 30,
+          "label": "PC15",
+          "functions": [
+            "D48"
+          ]
+        },
+        {
+          "position": 31,
+          "label": "PC12",
+          "functions": [
+            "D51"
+          ]
+        },
+        {
+          "position": 32,
+          "label": "PC13",
+          "functions": [
+            "D50"
+          ]
+        },
+        {
+          "position": 33,
+          "label": "PB14",
+          "functions": [
+            "D53"
+          ]
+        },
+        {
+          "position": 34,
+          "label": "PB21",
+          "functions": [
+            "D52"
+          ]
+        },
+        {
+          "position": 35,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 36,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "jtag-img4 position 7: no label printed (unlabeled)"
+  ],
+  "notes": "Labels use the SAM3X8E/ATmega16U2 port names (PAxx/PBxx...) from the 'Micro' column as GPIO names; Arduino names (D54/A0, D21/SCL...) follow in functions, read outward from the pin. Image 1 (c27ea43d) shows the 2x18 D22-D53 header and the other small headers without labels, so they are not transcribed from it; images 3-4 grey out the main headers. Skipped: LEDs (TX/RX/TXL/RXL/LED_BUILTIN/Power), 6-20 V barrel jack, ERASE button (PC0), ATMEGA16U2 PA8/PA9 to SAM3X PD3/RX, PD2/TX internal link. OUT/IN power tags omitted. Image 5 prints 'DATRG/WKUP[5]' on D19/RX1 (copied as printed)."
+}

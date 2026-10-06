@@ -1,0 +1,53 @@
+{
+  "recordId": "m5stack-expansion-module-audio",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/a95cc380fa0ae8a7deb825a810458bd80055a98257659207630bc34cc9a42c93.jpg",
+      "sha256": "a95cc380fa0ae8a7deb825a810458bd80055a98257659207630bc34cc9a42c93"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "grdcv-header",
+      "name": "5-pin header beside the slide switch",
+      "image": "media/a95cc380fa0ae8a7deb825a810458bd80055a98257659207630bc34cc9a42c93.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB connector; vertical row read from the top as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "R",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "D",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "C",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "V",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "The 2x15 M-Bus header has no pin labels anywhere in the image and was not transcribed; only the labeled 5-pin header is recorded"
+  ],
+  "notes": "5-pin header silkscreen G/R/D/C/V recorded as printed (single letters, no expanded names shown). The A/B switch tables give I2S GPIO assignments per host core, not header positions, so they are not attached to any pin. Audio jacks skipped."
+}

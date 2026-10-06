@@ -1,0 +1,121 @@
+{
+  "recordId": "radxa-other-sbc-taco-carrier",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/da0587186b03b2865c5092795f9fb39f58fc0c624a416c073b9fed059a1357bd.webp",
+      "sha256": "da0587186b03b2865c5092795f9fb39f58fc0c624a416c073b9fed059a1357bd"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "expansion-connector",
+      "name": "8-pin wire-to-board connector (right edge, shown in magnified callout)",
+      "image": "media/da0587186b03b2865c5092795f9fb39f58fc0c624a416c073b9fed059a1357bd.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers printed. The connector is vertical on the right edge. Started at the bottom end, nearest the USB3.0 port on the bottom edge.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VCC5V0_SYS",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PWM_GPIO",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "I2C_SCL",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "I2C_SDA",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GPIO4_D2",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO4_C2",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "debug-uart",
+      "name": "3 debug UART pads (silkscreen RX TX GND, top left)",
+      "image": "media/da0587186b03b2865c5092795f9fb39f58fc0c624a416c073b9fed059a1357bd.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; horizontal row, started at the right end (GND), nearest the USB3.0 port on the bottom edge.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RX",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "12vin-connector",
+      "name": "4-pin power connector silkscreened 12VIN",
+      "image": "media/da0587186b03b2865c5092795f9fb39f58fc0c624a416c073b9fed059a1357bd.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; vertical row, started at the bottom end (12V), nearest the USB3.0 port.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "12V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "NC",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "8-pin connector: labels come only from the magnified circular callout. The callout is assumed to match the board's orientation (the same '2R2' inductor sits left of the connector in both), so the bottom end was taken as nearest USB. If it is rotated, the order reverses."
+  ],
+  "notes": "Board silkscreen reads 'Radxa Taco'. The 8-pin connector is read from the callout's leader lines. Debug UART and 12VIN pins use silkscreen text. Skipped: the 2-pin FAN connector (only a '+' mark, pins not individually labeled), the RTC BAT holder, the high-density board-to-board connectors PI-J1/PI-J2 (only end numbers 1/2/99/100 and 101/102/199/200 printed, no per-pin labels), M.2 M/E key slots, TF card slot, USB3.0, HDMI, Ethernet, DCIN and audio jacks."
+}

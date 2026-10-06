@@ -1,0 +1,1011 @@
+{
+ "recordId": "waveshare-esp32-esp32-s3-lcd-1-28",
+ "pass": "a",
+ "date": "2026-10-05",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/ffdbcbe908b67abb5eab3b6c1c7d88ab0de9c91f64fd6a63faf7578a72714e69.jpg",
+   "sha256": "ffdbcbe908b67abb5eab3b6c1c7d88ab0de9c91f64fd6a63faf7578a72714e69"
+  },
+  {
+   "file": "media/ebbcc25814719efc2406f01ac9798b25ba80ec9264abb73f35fd34107a8b9823.jpg",
+   "sha256": "ebbcc25814719efc2406f01ac9798b25ba80ec9264abb73f35fd34107a8b9823"
+  },
+  {
+   "file": "media/c770c68e326ec2b652d79378c7eff8fb44cedfea1489eb4507e038a320e6b155.jpg",
+   "sha256": "c770c68e326ec2b652d79378c7eff8fb44cedfea1489eb4507e038a320e6b155"
+  },
+  {
+   "file": "media/57473f1e4a810fd097de05fb8fa36a893370dd04bb6fea1d1f56add65bc19fd7.webp",
+   "sha256": "57473f1e4a810fd097de05fb8fa36a893370dd04bb6fea1d1f56add65bc19fd7"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "H1",
+   "name": "H1",
+   "rows": 2,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GP 36",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GP 46",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GP 35",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GP 45",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "GP 34",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "GP 42",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "GP 33",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "GP 41",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "GP 21",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "GP 40",
+     "functions": [
+      "LCD_BL",
+      "LCD Backlight Control"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "GP 18",
+     "functions": []
+    },
+    {
+     "position": 12,
+     "label": "GP 39",
+     "functions": []
+    },
+    {
+     "position": 13,
+     "label": "GP 17",
+     "functions": []
+    },
+    {
+     "position": 14,
+     "label": "GP 38",
+     "functions": []
+    },
+    {
+     "position": 15,
+     "label": "GP 16",
+     "functions": []
+    },
+    {
+     "position": 16,
+     "label": "GP 37",
+     "functions": []
+    },
+    {
+     "position": 17,
+     "label": "GP 15",
+     "functions": []
+    },
+    {
+     "position": 18,
+     "label": "VSYS",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "GP 14",
+     "functions": []
+    },
+    {
+     "position": 20,
+     "label": "GND",
+     "functions": []
+    }
+   ],
+   "image": "media/ffdbcbe908b67abb5eab3b6c1c7d88ab0de9c91f64fd6a63faf7578a72714e69.jpg"
+  },
+  {
+   "id": "H2",
+   "name": "H2",
+   "rows": 2,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "VSYS",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "ADC_AVDD",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "GP 6",
+     "functions": [
+      "IMU_SDA",
+      "I2C SDA"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "BOOT",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "GP 7",
+     "functions": [
+      "IMU_SCL",
+      "I2C SCL"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "RUN",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "GP 8",
+     "functions": [
+      "LCD_DC",
+      "LCD Command/Data Selection"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "GP 0",
+     "functions": []
+    },
+    {
+     "position": 11,
+     "label": "GP 9",
+     "functions": [
+      "LCD_CS",
+      "LCD Chip Selection"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "GP 1",
+     "functions": [
+      "BAT_ADC",
+      "Battery Voltage Acquisition Pin"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "GP 10",
+     "functions": [
+      "LCD_CLK",
+      "LCD CLK"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "GP 2",
+     "functions": []
+    },
+    {
+     "position": 15,
+     "label": "GP 11",
+     "functions": [
+      "LCD_DIN",
+      "LCD MOSI"
+     ]
+    },
+    {
+     "position": 16,
+     "label": "GP 3",
+     "functions": []
+    },
+    {
+     "position": 17,
+     "label": "GP 12",
+     "functions": [
+      "LCD_RST",
+      "LCD Reset"
+     ]
+    },
+    {
+     "position": 18,
+     "label": "GP 4",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "GP 13",
+     "functions": []
+    },
+    {
+     "position": 20,
+     "label": "GP 5",
+     "functions": []
+    }
+   ],
+   "image": "media/ffdbcbe908b67abb5eab3b6c1c7d88ab0de9c91f64fd6a63faf7578a72714e69.jpg"
+  },
+  {
+   "id": "H1-img2",
+   "name": "H1",
+   "rows": 2,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GP 36",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GP 46",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GP 35",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GP 45",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "GP 34",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "GP 42",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "GP 33",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "GP 41",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "GP 21",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "GP 40",
+     "functions": [
+      "LCD_BL",
+      "LCD Backlight Control"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "GP 18",
+     "functions": []
+    },
+    {
+     "position": 12,
+     "label": "GP 39",
+     "functions": []
+    },
+    {
+     "position": 13,
+     "label": "GP 17",
+     "functions": []
+    },
+    {
+     "position": 14,
+     "label": "GP 38",
+     "functions": []
+    },
+    {
+     "position": 15,
+     "label": "GP 16",
+     "functions": []
+    },
+    {
+     "position": 16,
+     "label": "GP 37",
+     "functions": []
+    },
+    {
+     "position": 17,
+     "label": "GP 15",
+     "functions": []
+    },
+    {
+     "position": 18,
+     "label": "VSYS",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "GP 14",
+     "functions": []
+    },
+    {
+     "position": 20,
+     "label": "GND",
+     "functions": []
+    }
+   ],
+   "image": "media/ebbcc25814719efc2406f01ac9798b25ba80ec9264abb73f35fd34107a8b9823.jpg"
+  },
+  {
+   "id": "H2-img2",
+   "name": "H2",
+   "rows": 2,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "VSYS",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "ADC_AVDD",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "GP 6",
+     "functions": [
+      "IMU_SDA",
+      "I2C SDA"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "BOOT",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "GP 7",
+     "functions": [
+      "IMU_SCL",
+      "I2C SCL"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "RUN",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "GP 8",
+     "functions": [
+      "LCD_DC",
+      "LCD Command/Data Selection"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "GP 0",
+     "functions": []
+    },
+    {
+     "position": 11,
+     "label": "GP 9",
+     "functions": [
+      "LCD_CS",
+      "LCD Chip Selection"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "GP 1",
+     "functions": [
+      "BAT_ADC",
+      "Battery Voltage Acquisition Pin"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "GP 10",
+     "functions": [
+      "LCD_CLK",
+      "LCD CLK"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "GP 2",
+     "functions": []
+    },
+    {
+     "position": 15,
+     "label": "GP 11",
+     "functions": [
+      "LCD_DIN",
+      "LCD MOSI"
+     ]
+    },
+    {
+     "position": 16,
+     "label": "GP 3",
+     "functions": []
+    },
+    {
+     "position": 17,
+     "label": "GP 12",
+     "functions": [
+      "LCD_RST",
+      "LCD Reset"
+     ]
+    },
+    {
+     "position": 18,
+     "label": "GP 4",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "GP 13",
+     "functions": []
+    },
+    {
+     "position": 20,
+     "label": "GP 5",
+     "functions": []
+    }
+   ],
+   "image": "media/ebbcc25814719efc2406f01ac9798b25ba80ec9264abb73f35fd34107a8b9823.jpg"
+  },
+  {
+   "id": "H1-img3",
+   "name": "H1",
+   "rows": 2,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GP 36",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GP 46",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GP 35",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GP 45",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "GP 34",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "GP 42",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "GP 33",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "GP 41",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "GP 21",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "GP 40",
+     "functions": [
+      "LCD_BL",
+      "LCD Backlight Control"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "GP 18",
+     "functions": []
+    },
+    {
+     "position": 12,
+     "label": "GP 39",
+     "functions": []
+    },
+    {
+     "position": 13,
+     "label": "GP 17",
+     "functions": []
+    },
+    {
+     "position": 14,
+     "label": "GP 38",
+     "functions": []
+    },
+    {
+     "position": 15,
+     "label": "GP 16",
+     "functions": []
+    },
+    {
+     "position": 16,
+     "label": "GP 37",
+     "functions": []
+    },
+    {
+     "position": 17,
+     "label": "GP 15",
+     "functions": []
+    },
+    {
+     "position": 18,
+     "label": "VSYS",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "GP 14",
+     "functions": []
+    },
+    {
+     "position": 20,
+     "label": "GND",
+     "functions": []
+    }
+   ],
+   "image": "media/c770c68e326ec2b652d79378c7eff8fb44cedfea1489eb4507e038a320e6b155.jpg"
+  },
+  {
+   "id": "H2-img3",
+   "name": "H2",
+   "rows": 2,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GP 5",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GP 13",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GP 4",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GP 12",
+     "functions": [
+      "LCD_RST",
+      "LCD Reset"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GP 3",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "GP 11",
+     "functions": [
+      "LCD_DIN",
+      "LCD MOSI"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GP 2",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "GP 10",
+     "functions": [
+      "LCD_CLK",
+      "LCD CLK"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GP 1",
+     "functions": [
+      "BAT_ADC",
+      "Battery Voltage Acquisition Pin"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "GP 9",
+     "functions": [
+      "LCD_CS",
+      "LCD Chip Selection"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "GP 0",
+     "functions": []
+    },
+    {
+     "position": 12,
+     "label": "GP 8",
+     "functions": [
+      "LCD_DC",
+      "LCD Command/Data Selection"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "RUN",
+     "functions": []
+    },
+    {
+     "position": 14,
+     "label": "GP 7",
+     "functions": [
+      "IMU_SCL",
+      "I2C SCL"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "BOOT",
+     "functions": []
+    },
+    {
+     "position": 16,
+     "label": "GP 6",
+     "functions": [
+      "IMU_SDA",
+      "I2C SDA"
+     ]
+    },
+    {
+     "position": 17,
+     "label": "ADC_AVDD",
+     "functions": []
+    },
+    {
+     "position": 18,
+     "label": "VSYS",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 20,
+     "label": "GND",
+     "functions": []
+    }
+   ],
+   "image": "media/c770c68e326ec2b652d79378c7eff8fb44cedfea1489eb4507e038a320e6b155.jpg"
+  },
+  {
+   "id": "H1-img4",
+   "name": "H1",
+   "rows": 2,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GP 36",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GP 46",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GP 35",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GP 45",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "GP 34",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "GP 42",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "GP 33",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "GP 41",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "GP 21",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "GP 40",
+     "functions": [
+      "LCD_BL",
+      "LCD Backlight Control"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "GP 18",
+     "functions": []
+    },
+    {
+     "position": 12,
+     "label": "GP 39",
+     "functions": []
+    },
+    {
+     "position": 13,
+     "label": "GP 17",
+     "functions": []
+    },
+    {
+     "position": 14,
+     "label": "GP 38",
+     "functions": []
+    },
+    {
+     "position": 15,
+     "label": "GP 16",
+     "functions": []
+    },
+    {
+     "position": 16,
+     "label": "GP 37",
+     "functions": []
+    },
+    {
+     "position": 17,
+     "label": "GP 15",
+     "functions": []
+    },
+    {
+     "position": 18,
+     "label": "VSYS",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "GP 14",
+     "functions": []
+    },
+    {
+     "position": 20,
+     "label": "GND",
+     "functions": []
+    }
+   ],
+   "image": "media/57473f1e4a810fd097de05fb8fa36a893370dd04bb6fea1d1f56add65bc19fd7.webp"
+  },
+  {
+   "id": "H2-img4",
+   "name": "H2",
+   "rows": 2,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "VSYS",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "ADC_AVDD",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "GP 6",
+     "functions": [
+      "IMU_SDA",
+      "I2C SDA"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "BOOT",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "GP 7",
+     "functions": [
+      "IMU_SCL",
+      "I2C SCL"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "RUN",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "GP 8",
+     "functions": [
+      "LCD_DC",
+      "LCD Command/Data Selection"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "GP 0",
+     "functions": []
+    },
+    {
+     "position": 11,
+     "label": "GP 9",
+     "functions": [
+      "LCD_CS",
+      "LCD Chip Selection"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "GP 1",
+     "functions": [
+      "BAT_ADC",
+      "Battery Voltage Acquisition Pin"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "GP 10",
+     "functions": [
+      "LCD_CLK",
+      "LCD CLK"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "GP 2",
+     "functions": []
+    },
+    {
+     "position": 15,
+     "label": "GP 11",
+     "functions": [
+      "LCD_DIN",
+      "LCD MOSI"
+     ]
+    },
+    {
+     "position": 16,
+     "label": "GP 3",
+     "functions": []
+    },
+    {
+     "position": 17,
+     "label": "GP 12",
+     "functions": [
+      "LCD_RST",
+      "LCD Reset"
+     ]
+    },
+    {
+     "position": 18,
+     "label": "GP 4",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "GP 13",
+     "functions": []
+    },
+    {
+     "position": 20,
+     "label": "GP 5",
+     "functions": []
+    }
+   ],
+   "image": "media/57473f1e4a810fd097de05fb8fa36a893370dd04bb6fea1d1f56add65bc19fd7.webp"
+  }
+ ],
+ "notes": "On-board function table aliases added only to the named external positions in each same image. Battery connector has only polarity marks, excluded.",
+ "unreadable": [],
+ "uncertain": [
+  "Image 3 reverses H2 pin numbering relative to the other three images; all transcribed as printed but physical pin-1 choice needs source review."
+ ]
+}

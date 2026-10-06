@@ -1,0 +1,491 @@
+{
+  "recordId": "sparkfun-quicklogic-thing-plus-eos-s3",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/abb64fd51b9e161f6f2862fa735abf1f89d14525998bda63b6a8c94a7f58ef61.png",
+      "sha256": "abb64fd51b9e161f6f2862fa735abf1f89d14525998bda63b6a8c94a7f58ef61"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "J9",
+      "name": "J9 left header",
+      "image": "media/abb64fd51b9e161f6f2862fa735abf1f89d14525998bda63b6a8c94a7f58ef61.png",
+      "rows": 1,
+      "orderNote": "No printed position numbers (square pad not used as pin-1 mark per rule 9); USB-C at bottom, so position 1 is the bottom pin nearest USB",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VUSB",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "27",
+          "functions": [
+            "CS",
+            "H5"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "20",
+          "functions": [
+            "CS1",
+            "G8"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "19",
+          "functions": [
+            "COPI1",
+            "H8"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "17",
+          "functions": [
+            "CIPO1",
+            "D7"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "16",
+          "functions": [
+            "SCK1",
+            "E7"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "43",
+          "functions": [
+            "INT",
+            "D1"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "3",
+          "functions": [
+            "IMUINT",
+            "A2"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "0",
+          "functions": [
+            "SCL",
+            "B1"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "1",
+          "functions": [
+            "SDA",
+            "C1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "J6",
+      "name": "J6 right header",
+      "image": "media/abb64fd51b9e161f6f2862fa735abf1f89d14525998bda63b6a8c94a7f58ef61.png",
+      "rows": 1,
+      "orderNote": "No printed position numbers (square pad not used as pin-1 mark per rule 9); USB-C at bottom, so position 1 is the bottom pin nearest USB",
+      "pins": [
+        {
+          "position": 1,
+          "label": "Reset",
+          "functions": [
+            "RESET"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "+3.3V",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "A1",
+          "functions": [
+            "ADC1",
+            "C7"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "30",
+          "functions": [
+            "IO",
+            "F4"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "25",
+          "functions": [
+            "IO",
+            "F7"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "13",
+          "functions": [
+            "IO",
+            "D6"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "2",
+          "functions": [
+            "IO",
+            "A1"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "34",
+          "functions": [
+            "SCK",
+            "F3"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "38",
+          "functions": [
+            "COPI",
+            "E2"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "36",
+          "functions": [
+            "CIPO",
+            "H3"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "45",
+          "functions": [
+            "RXI",
+            "G1"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "44",
+          "functions": [
+            "TXO",
+            "E1"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J8",
+      "name": "J8 2x9 header (shown rotated in inset)",
+      "image": "media/abb64fd51b9e161f6f2862fa735abf1f89d14525998bda63b6a8c94a7f58ef61.png",
+      "rows": 2,
+      "orderNote": "No printed numbers; inset view without USB, so start at top of the inset; 2x9 rule: odd = right inset column (board-edge row), even = left inset column",
+      "pins": [
+        {
+          "position": 1,
+          "label": "29",
+          "functions": [
+            "PDM CLK",
+            "F5"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "28",
+          "functions": [
+            "PDM Data",
+            "G5"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "24",
+          "functions": [
+            "I2S Data",
+            "G6"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "23",
+          "functions": [
+            "I2S WCLK",
+            "H6"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "11",
+          "functions": [
+            "IO",
+            "C5"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "31",
+          "functions": [
+            "I2S CLK",
+            "G4"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "4",
+          "functions": [
+            "IO",
+            "B2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "12",
+          "functions": [
+            "IO",
+            "B5"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "6",
+          "functions": [
+            "USR Button",
+            "B3"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "5",
+          "functions": [
+            "IO",
+            "C3"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "8",
+          "functions": [
+            "IO",
+            "C4"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "7",
+          "functions": [
+            "IO",
+            "A3"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "35",
+          "functions": [
+            "IO",
+            "F2"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "10",
+          "functions": [
+            "IO",
+            "A4"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "+3.3V",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "+3.3V",
+          "functions": [
+            "3V3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "swd",
+      "name": "SWD 2x5 connector (inset)",
+      "image": "media/abb64fd51b9e161f6f2862fa735abf1f89d14525998bda63b6a8c94a7f58ef61.png",
+      "rows": 2,
+      "orderNote": "No printed numbers; inset view without USB, start at top; odd = left column, even = right column (pin mapping follows the drawn leader lines)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "Reset",
+          "functions": [
+            "SYS_RSTn"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "14",
+          "functions": [
+            "SWD_CLK",
+            "A5"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "15",
+          "functions": [
+            "SWD_IO",
+            "C6"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "+3.3V",
+          "functions": [
+            "3V3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qwiic",
+      "name": "Qwiic connector (inset)",
+      "image": "media/abb64fd51b9e161f6f2862fa735abf1f89d14525998bda63b6a8c94a7f58ef61.png",
+      "rows": 1,
+      "orderNote": "No printed numbers; inset view without USB, top-to-bottom as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "0",
+          "functions": [
+            "SCL",
+            "B1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "1",
+          "functions": [
+            "SDA",
+            "C1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "+3.3V",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Name column (white) is the board/IO name used as label; colored function boxes and BGA pin (green) follow as functions. Power/control rows use the colored power/control name as label with the white-box spelling first in functions. J2/J3 bootstrap jumper pins and the JST LiPo connector are not individually labeled and were skipped. TXO/RXI copied as printed (letter O is visibly wider than the digit 0 in this font).",
+  "uncertain": [
+    "J8: the inset shows the header rotated; deciding which inset column is the board-edge row (right column assumed, from the square pad and jumper placement) is inferred, which sets the odd/even interleave.",
+    "SWD connector: label-to-pin mapping inferred from leader lines that bend between rows; which column is the board-edge row is not shown, so left column was taken as odd positions.",
+    "Qwiic connector pin order follows the inset label order top-to-bottom; the physical pin each label wire reaches is drawn but small."
+  ]
+}

@@ -1,0 +1,422 @@
+{
+  "recordId": "adafruit-matrixportal-m4",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/10e6ea8290f8140921958d561c8ff2b35184e2b695cc258bb9e5b186c28128be.png",
+      "sha256": "10e6ea8290f8140921958d561c8ff2b35184e2b695cc258bb9e5b186c28128be"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "bottom-header",
+      "name": "Bottom-edge header",
+      "image": "media/10e6ea8290f8140921958d561c8ff2b35184e2b695cc258bb9e5b186c28128be.png",
+      "rows": 1,
+      "orderNote": "USB connector at left of board; horizontal row started at the left end (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SWCLK",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SWDIO",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "PA00",
+          "functions": [
+            "TX",
+            "1",
+            "0",
+            "S1.0",
+            "TC2[0]"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PA01",
+          "functions": [
+            "RX",
+            "0",
+            "1",
+            "S1.1",
+            "TC2[1]"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA05",
+          "functions": [
+            "A1",
+            "23/A1",
+            "5",
+            "VOUT1",
+            "A0[5]",
+            "S0.1",
+            "TC0[1]"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PA04",
+          "functions": [
+            "A2",
+            "24/A2",
+            "4",
+            "VREFB",
+            "A0[4]",
+            "S0.0",
+            "TC0[0]"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PA06",
+          "functions": [
+            "A3",
+            "25/A3",
+            "6",
+            "VREFC",
+            "A0[6]",
+            "S0.2",
+            "TC1[0]",
+            "SDCD"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PA07",
+          "functions": [
+            "A4",
+            "26/A4",
+            "7",
+            "A0[7]",
+            "S0.3",
+            "TC1[1]",
+            "SDWP"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "i2c-port",
+      "name": "I2C JST connector",
+      "image": "media/10e6ea8290f8140921958d561c8ff2b35184e2b695cc258bb9e5b186c28128be.png",
+      "rows": 1,
+      "orderNote": "Connector at bottom edge left of the header; started at end closest to USB (left / GND); matches top-down order of the side-view callout",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PB31",
+          "functions": [
+            "SDA",
+            "5",
+            "15",
+            "S7.1",
+            "S5.0",
+            "TC0[1]",
+            "TCC4[1]",
+            "TCC0[7]"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PB30",
+          "functions": [
+            "SCL",
+            "6",
+            "14",
+            "S7.0",
+            "S5.1",
+            "TC0[0]",
+            "TCC4[0]",
+            "TCC0[6]",
+            "SWDO"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a0-port",
+      "name": "A0 JST connector",
+      "image": "media/10e6ea8290f8140921958d561c8ff2b35184e2b695cc258bb9e5b186c28128be.png",
+      "rows": 1,
+      "orderNote": "Started at end closest to USB (left on board / top of side-view callout)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PA02",
+          "functions": [
+            "A0",
+            "22/A0",
+            "2",
+            "VOUT0",
+            "A0[0]"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "hub75",
+      "name": "HUB75 RGB LED matrix 2x8 header",
+      "image": "media/10e6ea8290f8140921958d561c8ff2b35184e2b695cc258bb9e5b186c28128be.png",
+      "rows": 2,
+      "orderNote": "No printed pin numbers; on the board the header's bottom end is closest to the USB connector, so position 1 is the bottom of the outer (right, board-edge) column, alternating outer/inner going up",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PB13",
+          "functions": [
+            "MTX_ADDRE",
+            "21",
+            "13",
+            "S4.1",
+            "TC4[1]",
+            "TCC3[1]",
+            "TCC0[1]",
+            "SDWP",
+            "MCK1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PB12",
+          "functions": [
+            "MTX_OE",
+            "16",
+            "12",
+            "S4.0",
+            "TC4[0]",
+            "TCC3[0]",
+            "TCC0[0]",
+            "SDCD",
+            "SCK1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PB14",
+          "functions": [
+            "MTX_LAT",
+            "15",
+            "14",
+            "S4.2",
+            "TC5[0]",
+            "TCC4[0]",
+            "TCC0[2]",
+            "DATA8"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PB06",
+          "functions": [
+            "MTX_CLK",
+            "14",
+            "6",
+            "A1[8]"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PB13",
+          "functions": [
+            "MTX_ADDRD",
+            "21",
+            "13",
+            "S4.1",
+            "TC4[1]",
+            "TCC3[1]",
+            "TCC0[1]",
+            "SDWP",
+            "MCK1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PB09",
+          "functions": [
+            "MTX_ADDRC",
+            "19",
+            "9",
+            "A0[3]/A1[1]",
+            "S4.1",
+            "TC4[1]"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PB15",
+          "functions": [
+            "MTX_ADDRB",
+            "20",
+            "15",
+            "S4.3",
+            "TC5[1]",
+            "TCC4[1]",
+            "TCC0[3]",
+            "DATA9"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PB07",
+          "functions": [
+            "MTX_ADDRA",
+            "17",
+            "7",
+            "A1[9]"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PB08",
+          "functions": [
+            "MTX_ADDRE",
+            "18",
+            "8",
+            "A0[2]/A1[0]",
+            "S4.0",
+            "TC4[0]"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PB05",
+          "functions": [
+            "MTX_B2",
+            "12",
+            "5",
+            "A1[7]"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PB04",
+          "functions": [
+            "MTX_G2",
+            "11",
+            "4",
+            "A1[6]"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "PB03",
+          "functions": [
+            "MTX_R2",
+            "10",
+            "3",
+            "A0[15]",
+            "S5.1",
+            "TC6[1]"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "PB02",
+          "functions": [
+            "MTX_B1",
+            "9",
+            "2",
+            "A0[14]",
+            "S5.0",
+            "TC6[0]",
+            "TCC2[2]"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "PB01",
+          "functions": [
+            "MTX_G1",
+            "8",
+            "1",
+            "A0[13]",
+            "S5.3",
+            "TC7[1]"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "PB00",
+          "functions": [
+            "MTX_R1",
+            "7",
+            "0",
+            "A0[12]",
+            "S5.2",
+            "TC7[0]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "power-terminals",
+      "name": "GND / 5V screw-terminal pads",
+      "image": "media/10e6ea8290f8140921958d561c8ff2b35184e2b695cc258bb9e5b186c28128be.png",
+      "rows": 1,
+      "orderNote": "Two large terminal pads on the right edge; started at the pad closest to USB (bottom, 5V)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Diagram prints 'ADDRE pins are chosen by a jumper': two HUB75 holes are labelled MTX_ADDRE (PB08 and PB13). RESET/UP/DOWN buttons, LED, NeoPixel, accelerometer and ESP32 co-processor signals are on-board, not wiring points; skipped. Board-render silkscreen (RST, SWC, SWD, 3V) not transcribed; diagram name boxes used."
+}

@@ -1,0 +1,139 @@
+{
+  "recordId": "lilygo-esp32-t-relay-8",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/a6a8aed1da40ef30653d92ac73d3aa139e908c90f25bd0c36460d034522bfbf4.jpg",
+      "sha256": "a6a8aed1da40ef30653d92ac73d3aa139e908c90f25bd0c36460d034522bfbf4"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "external-pin-header",
+      "name": "External PIN 2x11 header",
+      "image": "media/a6a8aed1da40ef30653d92ac73d3aa139e908c90f25bd0c36460d034522bfbf4.jpg",
+      "rows": 2,
+      "orderNote": "No pin numbers printed; 2xN rule: start at the end closest to the USB-C connector (right end), outer row = top row (the row nearer a board edge), then alternate top/bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "IO14",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "IO02",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "IO15",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "IO04",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "IO35",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "IO39",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "IO36",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "IO34",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "IO26",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "IO27",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "IO22",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "IO23",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Header labels come from the 'External PIN' table below the board; the table's top/bottom rows and columns are assumed to map to the header's top/bottom rows and columns in the same orientation (only one leader line links table and header, and the board silkscreen per hole is illegible)",
+    "The 2x11 header sits in the board interior, so which row is 'outer' is open; top row chosen because it is closer to the top board edge than the bottom row is to the bottom edge"
+  ],
+  "notes": "Relay screw terminals (K1-K8) and the 12-24V DC power terminal have no individually labeled pins and are skipped; Reset button, IO25 indicator LED and the external T-U2T downloader are not board pins."
+}

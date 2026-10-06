@@ -1,0 +1,246 @@
+{
+  "recordId": "seeed-studio-esp32-xiao-esp32s3-wio-sx1262-kit",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/610def8a472927267e497ae5d4f57245975b7bdc9f8ffa046cc28f1d6b27d1c9.png",
+      "sha256": "610def8a472927267e497ae5d4f57245975b7bdc9f8ffa046cc28f1d6b27d1c9"
+    },
+    {
+      "file": "media/1bd52b116938c035ae7dfeb91f65c33935e6bc1d6b87a4aa8e1b1e62983930f4.png",
+      "sha256": "1bd52b116938c035ae7dfeb91f65c33935e6bc1d6b87a4aa8e1b1e62983930f4"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Wio-SX1262 left header (labeled view)",
+      "image": "media/610def8a472927267e497ae5d4f57245975b7bdc9f8ffa046cc28f1d6b27d1c9.png",
+      "rows": 1,
+      "orderNote": "No pin numbers or pin-1 mark (square pads are not pin-1 marks, rule 9); no USB connector in this view, so position 1 is the top pin (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "DIO1",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "BUSY",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "NSS",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "RF-SW",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "D5",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "D6",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Wio-SX1262 right header (labeled view)",
+      "image": "media/610def8a472927267e497ae5d4f57245975b7bdc9f8ffa046cc28f1d6b27d1c9.png",
+      "rows": 1,
+      "orderNote": "No pin numbers or pin-1 mark (square pads are not pin-1 marks, rule 9); no USB connector in this view, so position 1 is the top pin (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VIN",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "MOSI",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "MISO",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "SCK",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "D7",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "XIAO ESP32S3 left header",
+      "image": "media/1bd52b116938c035ae7dfeb91f65c33935e6bc1d6b87a4aa8e1b1e62983930f4.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB-C at top, so position 1 is the top pin (closest to USB) (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO1",
+          "functions": [
+            "D0",
+            "A0",
+            "TOUCH1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO2",
+          "functions": [
+            "D1",
+            "A1",
+            "TOUCH2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO3",
+          "functions": [
+            "D2",
+            "A2",
+            "TOUCH3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO4",
+          "functions": [
+            "D3",
+            "A3",
+            "TOUCH4"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO5",
+          "functions": [
+            "D4",
+            "A4",
+            "SDA",
+            "TOUCH5"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO6",
+          "functions": [
+            "D5",
+            "A5",
+            "SCL",
+            "TOUCH6"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO43",
+          "functions": [
+            "D6",
+            "TX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "XIAO ESP32S3 right header",
+      "image": "media/1bd52b116938c035ae7dfeb91f65c33935e6bc1d6b87a4aa8e1b1e62983930f4.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB-C at top, so position 1 is the top pin (closest to USB) (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO9",
+          "functions": [
+            "D10",
+            "A10",
+            "MOSI",
+            "TOUCH9"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO8",
+          "functions": [
+            "D9",
+            "A9",
+            "MISO",
+            "TOUCH8"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO7",
+          "functions": [
+            "D8",
+            "A8",
+            "SCK",
+            "TOUCH7"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO44",
+          "functions": [
+            "D7",
+            "RX"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Board identity: the kit is two boards. Image 1 shows the Wio-SX1262 module and image 2 shows the XIAO ESP32S3 front; both are transcribed, but it is open which board(s) this record should expose as terminals."
+  ],
+  "notes": "Image 1 has two views of the Wio-SX1262: the left view is labeled (transcribed); the right view only calls out the 2.2mm hole, user LED, user button and LoRa antenna connector, so its unlabeled pads are not transcribed. Image 2 (XIAO ESP32S3 FRONT): label is the printed GPIO name; D/A/IIC/UART/TOUCH names are functions read outward. Skipped: USB-C, R/B buttons, antenna connectors, LEDs."
+}

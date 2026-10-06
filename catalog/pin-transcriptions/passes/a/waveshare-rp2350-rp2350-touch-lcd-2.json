@@ -1,0 +1,545 @@
+{
+  "recordId": "waveshare-rp2350-rp2350-touch-lcd-2",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/9d5ee97595e8deabdd2f0c6fd1dc593ee6cf068a016d72b9cabb4ec6c24adba7.jpg",
+      "sha256": "9d5ee97595e8deabdd2f0c6fd1dc593ee6cf068a016d72b9cabb4ec6c24adba7"
+    },
+    {
+      "file": "media/6895adb145452a71123f14eea34185a58dce33e25f966047d8ce301aff08e18a.jpg",
+      "sha256": "6895adb145452a71123f14eea34185a58dce33e25f966047d8ce301aff08e18a"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header (printed pins 1-14)",
+      "image": "media/9d5ee97595e8deabdd2f0c6fd1dc593ee6cf068a016d72b9cabb4ec6c24adba7.jpg",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 1-14 followed (1 = 3V3 at top, 14 = VBAT at bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO28",
+          "functions": [
+            "28",
+            "ADC2",
+            "I2C0 SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO29",
+          "functions": [
+            "29",
+            "ADC3",
+            "I2C0 SDL"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO13",
+          "functions": [
+            "13",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO12",
+          "functions": [
+            "12",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO2",
+          "functions": [
+            "2",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO1",
+          "functions": [
+            "1",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO3",
+          "functions": [
+            "3",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO0",
+          "functions": [
+            "0",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO4",
+          "functions": [
+            "4",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO10",
+          "functions": [
+            "10",
+            "SPI1 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "VBAT",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header (printed pins 15-28)",
+      "image": "media/9d5ee97595e8deabdd2f0c6fd1dc593ee6cf068a016d72b9cabb4ec6c24adba7.jpg",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 15-28 continue from the left header; positions 1-14 follow printed 15 (5V, bottom) to 28 (GPIO7, top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO19",
+          "functions": [
+            "19",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO20",
+          "functions": [
+            "20",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO5",
+          "functions": [
+            "5",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO6",
+          "functions": [
+            "6",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO11",
+          "functions": [
+            "11",
+            "SPI1 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO23",
+          "functions": [
+            "23",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO18",
+          "functions": [
+            "18",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO21",
+          "functions": [
+            "21",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO22",
+          "functions": [
+            "22",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO8",
+          "functions": [
+            "8",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO9",
+          "functions": [
+            "9",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO7",
+          "functions": [
+            "7",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left header (printed pins 1-14)",
+      "image": "media/6895adb145452a71123f14eea34185a58dce33e25f966047d8ce301aff08e18a.jpg",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 1-14 followed (1 = 3V3 at top, 14 = VBAT at bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO28",
+          "functions": [
+            "28",
+            "ADC2",
+            "I2C0 SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO29",
+          "functions": [
+            "29",
+            "ADC3",
+            "I2C0 SCL"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO13",
+          "functions": [
+            "13",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO12",
+          "functions": [
+            "12",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO2",
+          "functions": [
+            "2",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO1",
+          "functions": [
+            "1",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO3",
+          "functions": [
+            "3",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO0",
+          "functions": [
+            "0",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO4",
+          "functions": [
+            "4",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO10",
+          "functions": [
+            "10",
+            "SPI1 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "VBAT",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Right header (printed pins 15-28)",
+      "image": "media/6895adb145452a71123f14eea34185a58dce33e25f966047d8ce301aff08e18a.jpg",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 15-28 continue from the left header; positions 1-14 follow printed 15 (5V, bottom) to 28 (GPIO7, top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO19",
+          "functions": [
+            "19",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO20",
+          "functions": [
+            "20",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO5",
+          "functions": [
+            "5",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO6",
+          "functions": [
+            "6",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO11",
+          "functions": [
+            "11",
+            "SPI1 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO23",
+          "functions": [
+            "23",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO18",
+          "functions": [
+            "18",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO21",
+          "functions": [
+            "21",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO22",
+          "functions": [
+            "22",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO8",
+          "functions": [
+            "8",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO9",
+          "functions": [
+            "9",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO7",
+          "functions": [
+            "7",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Two near-identical pinout images; the board's two 14-pin side headers are shown as separate views. Image 1 prints 'I2C0 SDL' for pin 4 (GPIO29), recorded as printed; image 2 prints 'I2C0 SCL' there. Silkscreen spellings (numbers, G) read from the board photo and placed first in functions. Printed numbering runs 1-28 across both headers."
+}

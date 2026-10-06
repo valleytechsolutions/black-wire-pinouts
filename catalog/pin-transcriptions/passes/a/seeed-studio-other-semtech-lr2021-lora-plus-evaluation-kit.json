@@ -1,0 +1,452 @@
+{
+  "recordId": "seeed-studio-other-semtech-lr2021-lora-plus-evaluation-kit",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/588edca11794179df57e957e4db99c1493d2d147d4114484f3ca4368636678f7.jpg",
+      "sha256": "588edca11794179df57e957e4db99c1493d2d147d4114484f3ca4368636678f7"
+    },
+    {
+      "file": "media/779ccb267b99e70084ae856bc73c91bb6bce94585165a38e84648208e64d7207.jpg",
+      "sha256": "779ccb267b99e70084ae856bc73c91bb6bce94585165a38e84648208e64d7207"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "J1H",
+      "name": "J1H header (bottom view, top edge, left)",
+      "image": "media/588edca11794179df57e957e4db99c1493d2d147d4114484f3ca4368636678f7.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; bottom view with no USB connector visible; horizontal row starts at left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D11",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "D12",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "D1",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "D14",
+          "functions": [
+            "U_KEY"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D15",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "D13",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "D3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J2H",
+      "name": "J2H header (bottom view, top edge, right)",
+      "image": "media/588edca11794179df57e957e4db99c1493d2d147d4114484f3ca4368636678f7.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; no USB connector visible; horizontal row starts at left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D7",
+          "functions": [
+            "RX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D4",
+          "functions": [
+            "SDA0"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "D2",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "D10",
+          "functions": [
+            "MOSI"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "D9",
+          "functions": [
+            "MISO"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D8",
+          "functions": [
+            "SCK"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "D4",
+          "functions": [
+            "SDA0"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "D5",
+          "functions": [
+            "SCL0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "J4H",
+      "name": "J4H header (bottom view, bottom edge, left)",
+      "image": "media/588edca11794179df57e957e4db99c1493d2d147d4114484f3ca4368636678f7.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; no USB connector visible; horizontal row starts at left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "D6",
+          "functions": [
+            "TX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "D0",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "D2",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J3H",
+      "name": "J3H header (bottom view, bottom edge, right)",
+      "image": "media/588edca11794179df57e957e4db99c1493d2d147d4114484f3ca4368636678f7.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; no USB connector visible; horizontal row starts at left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "NC",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-i2c-left-img2",
+      "name": "Grove I2C connector (left of the two)",
+      "image": "media/779ccb267b99e70084ae856bc73c91bb6bce94585165a38e84648208e64d7207.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal; starts at left end (nearer the XIAO USB-C connector)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D5_SCL",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D4_SDA",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-i2c-right-img2",
+      "name": "Grove I2C connector (right of the two)",
+      "image": "media/779ccb267b99e70084ae856bc73c91bb6bce94585165a38e84648208e64d7207.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal; starts at left end (nearer the XIAO USB-C connector)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D5_SCL",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D4_SDA",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-uart-img2",
+      "name": "Grove UART connector",
+      "image": "media/779ccb267b99e70084ae856bc73c91bb6bce94585165a38e84648208e64d7207.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal; starts at left end (nearer the XIAO USB-C connector)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "D6_TX",
+          "functions": [
+            "TX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D7_RX",
+          "functions": [
+            "RX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "swd-debug-img2",
+      "name": "SWD-Debug 2x4 header (right edge, upper)",
+      "image": "media/779ccb267b99e70084ae856bc73c91bb6bce94585165a38e84648208e64d7207.jpg",
+      "rows": 2,
+      "orderNote": "2xN without numbers; starts at the bottom end (nearer the XIAO USB-C connector); odd = outer (right) column, even = inner (left) column",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3.3V",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "D6_TX",
+          "functions": [
+            "TX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "SWCLK",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "D7_RX",
+          "functions": [
+            "RX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "SWDIO",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "samd-debug-img2",
+      "name": "SAMD-Debug 2x4 header (right edge, lower)",
+      "image": "media/779ccb267b99e70084ae856bc73c91bb6bce94585165a38e84648208e64d7207.jpg",
+      "rows": 2,
+      "orderNote": "2xN without numbers; starts at the bottom end (nearer the XIAO USB-C connector); odd = outer (right) column, even = inner (left) column",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3.3V",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RST",
+          "functions": [
+            "RSTn"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "S_DIO",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "S_CLK",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "SWD-Debug header: the callout lists SWDIO in the top row and SWCLK in the second row, but the board silkscreen beside the pins reads SWCLK at the top row and SWDIO in the second row. I followed the callout (SWDIO = position 8, SWCLK = position 6).",
+    "Image 2: USB-nearest ordering uses the USB-C connector of the mounted XIAO module; for the vertical debug headers on the far right edge the 'nearest end' (bottom) is a weak call.",
+    "Board identity: both images show the 'LoRa Plus Expansion Board v2a' carrier (image 2 with a XIAO nRF54L15 and LR2021 module mounted) rather than one standalone board; transcribed as the kit's board."
+  ],
+  "notes": "Image 1 is the bottom view with Arduino-style headers J1H/J2H/J3H/J4H labeled by callouts; other pads in image 1 are unlabeled. Image 2 is the top view: J1H-J4H holes there are unlabeled and not repeated. Skipped the XIAO socket and LR202x module pads (silkscreen only, module mounting footprints), SMA/U.FL antennas, RESET/User keys, power LED, OLED."
+}

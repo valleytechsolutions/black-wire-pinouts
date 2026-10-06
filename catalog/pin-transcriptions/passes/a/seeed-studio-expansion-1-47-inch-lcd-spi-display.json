@@ -1,0 +1,82 @@
+{
+  "recordId": "seeed-studio-expansion-1-47-inch-lcd-spi-display",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/b8c59324844e1710e70750958a891c5212147fb9119e33fa39c0a5cb8010da56.png",
+      "sha256": "b8c59324844e1710e70750958a891c5212147fb9119e33fa39c0a5cb8010da56"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "lcd-connector",
+      "name": "8-pin interface connector",
+      "image": "media/b8c59324844e1710e70750958a891c5212147fb9119e33fa39c0a5cb8010da56.png",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB; vertical, started at the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VCC",
+          "functions": [
+            "Power (3.3V / 5V input)"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "Ground"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "DIN",
+          "functions": [
+            "SPI data input"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "CLK",
+          "functions": [
+            "SPI clock input"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "CS",
+          "functions": [
+            "Chip selection, low active"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "DC",
+          "functions": [
+            "Data/Command selection (high for data, low for command)"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "RST",
+          "functions": [
+            "Reset, low active"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "BL",
+          "functions": [
+            "Backlight"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Board silkscreen '1.47inch LCD Module'. Pin descriptions from the adjacent table."
+}

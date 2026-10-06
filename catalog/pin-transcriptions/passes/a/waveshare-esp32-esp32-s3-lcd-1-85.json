@@ -1,0 +1,28 @@
+{
+  "recordId": "waveshare-esp32-esp32-s3-lcd-1-85",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [{"file": "media/dc370133cb1d02a3c5b68abbe87768fb7b58994938f631de4ce7264e79b54df3.jpg", "sha256": "dc370133cb1d02a3c5b68abbe87768fb7b58994938f631de4ce7264e79b54df3"}],
+  "connectors": [
+    {"id": "i2c-connector", "name": "I2C connector (left of USB)", "image": "media/dc370133cb1d02a3c5b68abbe87768fb7b58994938f631de4ce7264e79b54df3.jpg", "rows": 1,
+     "orderNote": "No pin 1 mark; started at the end closest to the USB-C connector (lower-right end of the diagonal connector)",
+     "pins": [
+       {"position": 1, "label": "GPIO10", "functions": ["SCL"]},
+       {"position": 2, "label": "GPIO11", "functions": ["SDA"]},
+       {"position": 3, "label": "3V3", "functions": []},
+       {"position": 4, "label": "GND", "functions": []}
+     ]},
+    {"id": "uart-connector", "name": "UART connector (right of USB)", "image": "media/dc370133cb1d02a3c5b68abbe87768fb7b58994938f631de4ce7264e79b54df3.jpg", "rows": 1,
+     "orderNote": "No pin 1 mark; started at the end closest to the USB-C connector (lower-left end of the diagonal connector)",
+     "pins": [
+       {"position": 1, "label": "GND", "functions": []},
+       {"position": 2, "label": "3V3", "functions": []},
+       {"position": 3, "label": "GPIO43", "functions": ["TXD"]},
+       {"position": 4, "label": "GPIO44", "functions": ["RXD"]}
+     ]}
+  ],
+  "unreadable": [],
+  "uncertain": ["Both connectors sit diagonally beside the USB-C port; the 'closest to USB' end was chosen by distance in the photo and is a judgment call for an angled connector."],
+  "notes": "Only the I2C and UART JST connectors have per-pin labels; other connectors (RTC battery, speaker, battery) are unlabeled per pin and were skipped."
+}

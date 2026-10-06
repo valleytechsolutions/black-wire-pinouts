@@ -1,0 +1,598 @@
+{
+  "recordId": "cytron-technologies-rp2350-motion-2350-pro",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/34a865c41d2734616960a6a241248eabe3bbf67d8020a5baec2ec2ba53089416.png",
+      "sha256": "34a865c41d2734616960a6a241248eabe3bbf67d8020a5baec2ec2ba53089416"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "gpio-header",
+      "name": "GPIO header (SIG/3V3/GND)",
+      "image": "media/34a865c41d2734616960a6a241248eabe3bbf67d8020a5baec2ec2ba53089416.png",
+      "rows": 3,
+      "orderNote": "No pin numbers; started at the end closest to a USB connector (top, near the USB host port); per column outer row first: SIG (board edge), 3V3, GND",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP16",
+          "functions": [
+            "SPI0 SDI",
+            "I2C0 SDA",
+            "UART0 TX",
+            "PWM0 A"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GP17",
+          "functions": [
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX",
+            "PWM0 B"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GP18",
+          "functions": [
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART0 CTS",
+            "PWM1 A"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GP19",
+          "functions": [
+            "SPI0 SDO",
+            "I2C1 SCL",
+            "UART0 RTS",
+            "PWM1 B"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GP26",
+          "functions": [
+            "A0",
+            "SPI1 SCK",
+            "I2C1 SDA",
+            "UART1 CTS",
+            "PWM5 A",
+            "ADC0"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "GP27",
+          "functions": [
+            "A1",
+            "SPI1 SDO",
+            "I2C1 SCL",
+            "UART1 RTS",
+            "PWM5 B",
+            "ADC1"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GP28",
+          "functions": [
+            "A2",
+            "SPI1 SDI",
+            "I2C0 SDA",
+            "UART0 TX",
+            "PWM6 A",
+            "ADC2"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "GP29",
+          "functions": [
+            "A3",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART0 RX",
+            "PWM6 B",
+            "ADC3"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "servo-header",
+      "name": "SERVO header (GND/5V/SIG)",
+      "image": "media/34a865c41d2734616960a6a241248eabe3bbf67d8020a5baec2ec2ba53089416.png",
+      "rows": 3,
+      "orderNote": "No pin numbers; started at the end closest to a USB connector (top, near the USB host port); per column outer row first: SIG (board edge), 5V, GND",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP0",
+          "functions": [
+            "SPI0 SDI",
+            "I2C0 SDA",
+            "UART0 TX",
+            "PWM0 A"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GP1",
+          "functions": [
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX",
+            "PWM0 B"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GP2",
+          "functions": [
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART0 CTS",
+            "PWM1 A"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GP3",
+          "functions": [
+            "SPI0 SDO",
+            "I2C1 SCL",
+            "UART0 RTS",
+            "PWM1 B"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GP4",
+          "functions": [
+            "SPI0 SDI",
+            "I2C0 SDA",
+            "UART0 TX",
+            "PWM2 A"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "GP5",
+          "functions": [
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX",
+            "PWM2 B"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GP6",
+          "functions": [
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART0 CTS",
+            "PWM3 A"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "GP7",
+          "functions": [
+            "SPI0 SDO",
+            "I2C1 SCL",
+            "UART0 RTS",
+            "PWM3 B"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "maker-port-gp16",
+      "name": "Maker port (GP17/GP16)",
+      "image": "media/34a865c41d2734616960a6a241248eabe3bbf67d8020a5baec2ec2ba53089416.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row, started at the end closest to the USB host connector (right)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP17",
+          "functions": [
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX",
+            "PWM0 B"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP16",
+          "functions": [
+            "SPI0 SDI",
+            "I2C0 SDA",
+            "UART0 TX",
+            "PWM0 A"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "maker-port-gp28",
+      "name": "Maker port (GP29/GP28)",
+      "image": "media/34a865c41d2734616960a6a241248eabe3bbf67d8020a5baec2ec2ba53089416.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row, started at the end closest to the USB host connector (right)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP29",
+          "functions": [
+            "A3",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART0 RX",
+            "PWM6 B",
+            "ADC3"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP28",
+          "functions": [
+            "A2",
+            "SPI1 SDI",
+            "I2C0 SDA",
+            "UART0 TX",
+            "PWM6 A",
+            "ADC2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "maker-port-gp26",
+      "name": "Maker port (GP27/GP26)",
+      "image": "media/34a865c41d2734616960a6a241248eabe3bbf67d8020a5baec2ec2ba53089416.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row, started at the end closest to the USB host connector (right)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP27",
+          "functions": [
+            "A1",
+            "SPI1 SDO",
+            "I2C1 SCL",
+            "UART1 RTS",
+            "PWM5 B",
+            "ADC1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP26",
+          "functions": [
+            "A0",
+            "SPI1 SCK",
+            "I2C1 SDA",
+            "UART1 CTS",
+            "PWM5 A",
+            "ADC0"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "debug",
+      "name": "DEBUG header",
+      "image": "media/34a865c41d2734616960a6a241248eabe3bbf67d8020a5baec2ec2ba53089416.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at the top (end closest to the USB host connector)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SWDIO",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SWCLK",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "motor-m3-m4",
+      "name": "Motor terminal M3/M4 (left)",
+      "image": "media/34a865c41d2734616960a6a241248eabe3bbf67d8020a5baec2ec2ba53089416.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical terminal block, started at the bottom end (closest to the USB-C connector)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "M4B",
+          "functions": [
+            "GP15",
+            "PWM7 B"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "M4A",
+          "functions": [
+            "GP14",
+            "PWM7 A"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "M3B",
+          "functions": [
+            "GP13",
+            "PWM6 B"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "M3A",
+          "functions": [
+            "GP12",
+            "PWM6 A"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "motor-m1-m2",
+      "name": "Motor terminal M1/M2 (right)",
+      "image": "media/34a865c41d2734616960a6a241248eabe3bbf67d8020a5baec2ec2ba53089416.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical terminal block, started at the bottom end (closest to the USB-C connector)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "M2A",
+          "functions": [
+            "GP10",
+            "PWM5 A"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "M2B",
+          "functions": [
+            "GP11",
+            "PWM5 B"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "M1A",
+          "functions": [
+            "GP8",
+            "PWM4 A"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "M1B",
+          "functions": [
+            "GP9",
+            "PWM4 B"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Two USB connectors (USB-A host at top, USB-C at bottom): start end chosen per connector by nearest USB connector, so GPIO/SERVO/DEBUG/Maker ports start at the top/right but the motor terminals start at the bottom.",
+    "DEBUG header: SWDIO/GND/SWCLK mapping inferred from the callout order top-to-bottom; the board silkscreen only says DEBUG.",
+    "Motor terminals: labelled with the motor output name (M3A etc.); the callout also prints the driving GPIO (GP12...) and PWM channel nearer the pin, kept as functions because the screw terminal is a motor output rather than the GPIO itself."
+  ],
+  "notes": "Board has two USB connectors (USB-A host at top, USB-C at bottom); each connector starts at its end nearest either USB connector. Skipped: USB host D+/D- callout (USB connector), VIN +/- terminal (polarity marks only), buttons, buzzer, LED. Silkscreen A0-A3 printed beside the GPIO header rows for GP26-GP29 is listed first in functions. SIG/3V3/GND and GND/5V/SIG are column headings."
+}

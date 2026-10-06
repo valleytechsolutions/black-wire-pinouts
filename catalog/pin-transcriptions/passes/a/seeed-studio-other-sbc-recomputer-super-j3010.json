@@ -1,0 +1,230 @@
+{
+  "recordId": "seeed-studio-other-sbc-recomputer-super-j3010",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/8d1949269e64669c179b517e677656df7843d19466f04def45a7067ba6ae66ab.jpg",
+      "sha256": "8d1949269e64669c179b517e677656df7843d19466f04def45a7067ba6ae66ab"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "40-pin-header",
+      "name": "40-pin 2x20 expansion header",
+      "image": "media/8d1949269e64669c179b517e677656df7843d19466f04def45a7067ba6ae66ab.jpg",
+      "rows": 2,
+      "orderNote": "Pin numbers 1-40 printed in the diagram; followed them (odd left column, even right column)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3 Power",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V Power",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "I2C1_SDA",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "5V Power",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "I2C1_SCL",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO09",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "UART1_TXD",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "UART1_RXD",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "UART1_RTS",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "I2S0_SCLK",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "SPI1_SCK",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GPIO12",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "SPI1_CS1",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "3V3 Power",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "SPI1_CS0",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "SPI0_MOSI",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "SPI0_MISO",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "SPI1_MISO",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "SPI0_SCK",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "SPI0_CS0",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "SPI0_CS1",
+          "functions": []
+        },
+        {
+          "position": 27,
+          "label": "ID_I2C_SDA",
+          "functions": []
+        },
+        {
+          "position": 28,
+          "label": "ID_I2C_SCL",
+          "functions": []
+        },
+        {
+          "position": 29,
+          "label": "GPIO01",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 31,
+          "label": "GPIO11",
+          "functions": []
+        },
+        {
+          "position": 32,
+          "label": "GPIO07",
+          "functions": []
+        },
+        {
+          "position": 33,
+          "label": "GPIO13",
+          "functions": []
+        },
+        {
+          "position": 34,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 35,
+          "label": "I2S0_LRCK",
+          "functions": []
+        },
+        {
+          "position": 36,
+          "label": "UART1_CTS",
+          "functions": []
+        },
+        {
+          "position": 37,
+          "label": "SPI1_MOSI",
+          "functions": []
+        },
+        {
+          "position": 38,
+          "label": "I2S0_SDIN",
+          "functions": []
+        },
+        {
+          "position": 39,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 40,
+          "label": "I2S0_SDOUT",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "Letter O vs digit 0 in GPIO09/GPIO01/GPIO07, I2S0_*, SPI0_*, SPI1_CS0, SPI0_CS0 cannot be fully distinguished in the font; recorded as 0."
+  ],
+  "notes": "Power pins are printed as '3V3 Power' and '5V Power'; copied as printed. Board silkscreen reads 'reComputer Super J401 V0.9'.",
+  "uncertain": [
+    "Board silkscreen reads 'reComputer Super J401' rather than J3010; assumed to be the carrier inside the named product."
+  ]
+}

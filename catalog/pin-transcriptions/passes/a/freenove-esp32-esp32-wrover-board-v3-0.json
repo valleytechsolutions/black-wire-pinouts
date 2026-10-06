@@ -1,0 +1,360 @@
+{
+  "recordId": "freenove-esp32-esp32-wrover-board-v3-0",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/68b3fc88405672a721f7fa9212210a45cc83fe2119640eb64e1dab0bdbd6e6e0.jpg",
+      "sha256": "68b3fc88405672a721f7fa9212210a45cc83fe2119640eb64e1dab0bdbd6e6e0"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/68b3fc88405672a721f7fa9212210a45cc83fe2119640eb64e1dab0bdbd6e6e0.jpg",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; started at the end closest to the USB connector (bottom), running upward.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GPIO13",
+          "functions": [
+            "13",
+            "ADC2_CH4",
+            "HSPI_MOSI",
+            "TOUCH4"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GPIO12",
+          "functions": [
+            "12",
+            "ADC2_CH5",
+            "HSPI_MISO",
+            "TOUCH5",
+            "MTDI"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO14",
+          "functions": [
+            "14",
+            "ADC2_CH6",
+            "HSPI_CLK",
+            "TOUCH6",
+            "CLK"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO27",
+          "functions": [
+            "27",
+            "ADC2_CH7",
+            "CAM_SIOC",
+            "TOUCH7"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO26",
+          "functions": [
+            "26",
+            "ADC2_CH9",
+            "CAM_SIOD",
+            "DAC2",
+            "I2S_BCK"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO25",
+          "functions": [
+            "25",
+            "ADC2_CH8",
+            "CAM_VYSNC",
+            "DAC1",
+            "I2S_LCK"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO33",
+          "functions": [
+            "33",
+            "ADC1_CH5",
+            "TOUCH8"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO32",
+          "functions": [
+            "32",
+            "ADC1_CH4",
+            "TOUCH9"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO35",
+          "functions": [
+            "35",
+            "ADC1_CH7",
+            "CAM_Y9"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO34",
+          "functions": [
+            "34",
+            "ADC1_CH6",
+            "CAM_Y8"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO39",
+          "functions": [
+            "VN",
+            "ADC1_CH3",
+            "CAM_Y7",
+            "Sensor_VN"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GPIO36",
+          "functions": [
+            "VP",
+            "ADC1_CH0",
+            "CAM_Y6",
+            "Sensor_VP"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "RST",
+          "functions": [
+            "EN",
+            "RESET Pin"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "3V3",
+          "functions": [
+            "3.3V"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/68b3fc88405672a721f7fa9212210a45cc83fe2119640eb64e1dab0bdbd6e6e0.jpg",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; started at the end closest to the USB connector (bottom), running upward.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO15",
+          "functions": [
+            "15",
+            "ADC2_CH3",
+            "MTDO",
+            "TOUCH3",
+            "HSPI_CS",
+            "CMD"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO2",
+          "functions": [
+            "2",
+            "ADC2_CH2",
+            "Boot Mode",
+            "TOUCH2",
+            "LED IO2",
+            "DATA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO0",
+          "functions": [
+            "0",
+            "ADC2_CH1",
+            "Boot Mode",
+            "TOUCH1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO4",
+          "functions": [
+            "4",
+            "ADC2_CH0",
+            "CAM_Y2",
+            "TOUCH0"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GPIO5",
+          "functions": [
+            "5",
+            "VSPI_CS",
+            "CAM_Y3",
+            "Timing of SDIO Slave"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO18",
+          "functions": [
+            "18",
+            "VSPI_CLK",
+            "CAM_Y4"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO19",
+          "functions": [
+            "19",
+            "VSPI_MISO",
+            "CAM_Y5"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GPIO21",
+          "functions": [
+            "21",
+            "I2C_SDA",
+            "CAM_XCLK"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO3",
+          "functions": [
+            "RX",
+            "U0RXD",
+            "LED RX"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO1",
+          "functions": [
+            "TX",
+            "U0TXD",
+            "LED TX"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GPIO22",
+          "functions": [
+            "22",
+            "I2C_SCL",
+            "CAM_PCLK",
+            "I2S_DIN"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GPIO23",
+          "functions": [
+            "23",
+            "VSPI_MOSI",
+            "CAM_HREF"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "U0TXD/U0RXD: O vs 0 not distinguishable, recorded as 0."
+  ],
+  "uncertain": [],
+  "notes": "Image titled FREENOVE ESP32 WROVER Pinout. Silkscreen spellings (EN, VP, VN, numbers, TX, RX) listed first in functions. Silkscreen 3.3V/5V boxes beside the bottom-left power pins span several pins and are not attributed per pin. PWM wave icons and colour categories omitted. 'CAM_VYSNC' copied as printed. LEDs (IO2, TX, RX, ON) and buttons skipped."
+}

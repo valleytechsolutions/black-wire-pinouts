@@ -1,0 +1,182 @@
+{
+  "recordId": "m5stack-expansion-stamp-lora-1262-if",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/8ace86669c0b7a4cf9cb0f33a43c44e50cb96b1a0511610f5b1f095cdecc9abb.jpg",
+      "sha256": "8ace86669c0b7a4cf9cb0f33a43c44e50cb96b1a0511610f5b1f095cdecc9abb"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "top-pads",
+      "name": "Top edge castellated pads",
+      "image": "media/8ace86669c0b7a4cf9cb0f33a43c44e50cb96b1a0511610f5b1f095cdecc9abb.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB; horizontal row ordered left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-pads",
+      "name": "Left edge castellated pads",
+      "image": "media/8ace86669c0b7a4cf9cb0f33a43c44e50cb96b1a0511610f5b1f095cdecc9abb.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB; vertical row ordered top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SWC",
+          "functions": [
+            "AntSW"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "NSS",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "MISO",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "MOSI",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "CLK",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-pads",
+      "name": "Right edge castellated pads",
+      "image": "media/8ace86669c0b7a4cf9cb0f33a43c44e50cb96b1a0511610f5b1f095cdecc9abb.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB; vertical row ordered top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "BSY",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IRQ",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "fpc-connector",
+      "name": "Bottom 12-pin FPC connector",
+      "image": "media/8ace86669c0b7a4cf9cb0f33a43c44e50cb96b1a0511610f5b1f095cdecc9abb.jpg",
+      "rows": 1,
+      "orderNote": "Printed numbers 1-12 (1 at right, arrow 1->12 to the left)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SWC",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IRQ",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "BSY",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "MISO",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "MOSI",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "NSS",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "CLK",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Board silkscreen on the left edge is offset from the pads; 'AntSW' was assigned as the silkscreen name of the SWC pad by position, which is inferred."
+  ],
+  "notes": "Labels taken from the colored callouts. Silkscreen beside the BSY pad reads like 'RSY' (possibly a worn 'BSY'); not added as a function. FPC table prints only numbers 1, 2, 11, 12; intermediate positions follow the printed 1->12 arrow."
+}

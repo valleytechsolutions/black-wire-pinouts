@@ -1,0 +1,413 @@
+{
+  "recordId": "solder-party-rp2040-rp2040-stamp",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/15d8d5c0dff314bc240bb82af576e5be4effffe985f7e2dc11a4337d7e82b4f1.png",
+      "sha256": "15d8d5c0dff314bc240bb82af576e5be4effffe985f7e2dc11a4337d7e82b4f1"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-edge-pads",
+      "name": "Left castellated edge",
+      "image": "media/15d8d5c0dff314bc240bb82af576e5be4effffe985f7e2dc11a4337d7e82b4f1.png",
+      "rows": 1,
+      "orderNote": "No USB connector on the module; callout numbers are GPIO numbers, not position numbers. Vertical edge ordered top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "0",
+          "functions": [
+            "CIPO0",
+            "TX0",
+            "SDA0",
+            "0A"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "1",
+          "functions": [
+            "CS0",
+            "RX0",
+            "SCL0",
+            "0B"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "2",
+          "functions": [
+            "SCK0",
+            "CTS0",
+            "SDA1",
+            "1A"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "3",
+          "functions": [
+            "COPI0",
+            "RTS0",
+            "SCL1",
+            "1B"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "4",
+          "functions": [
+            "CIPO0",
+            "TX1",
+            "SDA0",
+            "2A"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "5",
+          "functions": [
+            "CS0",
+            "RX1",
+            "SCL0",
+            "2B"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "6",
+          "functions": [
+            "SCK0",
+            "CTS1",
+            "SDA1",
+            "3A"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "7",
+          "functions": [
+            "COPI0",
+            "RTS1",
+            "SCL1",
+            "3B"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "8",
+          "functions": [
+            "CIPO1",
+            "TX1",
+            "SDA0",
+            "4A"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "9",
+          "functions": [
+            "CS1",
+            "RX1",
+            "SCL0",
+            "4B"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-edge-pads",
+      "name": "Bottom castellated edge",
+      "image": "media/15d8d5c0dff314bc240bb82af576e5be4effffe985f7e2dc11a4337d7e82b4f1.png",
+      "rows": 1,
+      "orderNote": "No USB connector on the module; callout numbers are GPIO numbers, not position numbers. Horizontal edge ordered left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "10",
+          "functions": [
+            "SCK1",
+            "CTS1",
+            "SDA1",
+            "5A"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "11",
+          "functions": [
+            "COPI1",
+            "RTS1",
+            "SCL1",
+            "5B"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "12",
+          "functions": [
+            "CIPO1",
+            "TX0",
+            "SDA0",
+            "6A"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "13",
+          "functions": [
+            "CS1",
+            "RX0",
+            "SCL0",
+            "6B"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "14",
+          "functions": [
+            "SCK1",
+            "CTS0",
+            "SDA1",
+            "7A"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "15",
+          "functions": [
+            "COPI1",
+            "RTS0",
+            "SCL1",
+            "7B"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "16",
+          "functions": [
+            "CIPO0",
+            "TX0",
+            "SDA0",
+            "0A"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "17",
+          "functions": [
+            "CS0",
+            "RX0",
+            "SCL0",
+            "0B"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "18",
+          "functions": [
+            "SCK0",
+            "CTS0",
+            "SDA1",
+            "1A"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "19",
+          "functions": [
+            "COPI0",
+            "RTS0",
+            "SCL1",
+            "1B"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-edge-pads",
+      "name": "Right castellated edge",
+      "image": "media/15d8d5c0dff314bc240bb82af576e5be4effffe985f7e2dc11a4337d7e82b4f1.png",
+      "rows": 1,
+      "orderNote": "No USB connector on the module; callout numbers are GPIO numbers, not position numbers. Vertical edge ordered top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "29",
+          "functions": [
+            "CS1",
+            "RX0",
+            "SCL0",
+            "6B",
+            "A3"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "28",
+          "functions": [
+            "CIPO1",
+            "TX0",
+            "SDA0",
+            "6A",
+            "A2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "27",
+          "functions": [
+            "COPI1",
+            "RTS1",
+            "SCL1",
+            "5B",
+            "A1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "26",
+          "functions": [
+            "SCK1",
+            "CTS1",
+            "SDA1",
+            "5A",
+            "A0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "25",
+          "functions": [
+            "CS1",
+            "RX1",
+            "SCL0",
+            "4B"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "24",
+          "functions": [
+            "CIPO1",
+            "TX1",
+            "SDA0",
+            "4A"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "23",
+          "functions": [
+            "COPI0",
+            "RTS1",
+            "SCL1",
+            "3B"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "22",
+          "functions": [
+            "SCK0",
+            "CTS1",
+            "SDA1",
+            "3A"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "21",
+          "functions": [
+            "CS0",
+            "RX1",
+            "SCL0",
+            "2B"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "20",
+          "functions": [
+            "CIPO0",
+            "TX1",
+            "SDA0",
+            "2A"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "top-edge-pads",
+      "name": "Top castellated edge",
+      "image": "media/15d8d5c0dff314bc240bb82af576e5be4effffe985f7e2dc11a4337d7e82b4f1.png",
+      "rows": 1,
+      "orderNote": "No USB connector on the module; callout numbers are GPIO numbers, not position numbers. Horizontal edge ordered left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BOOTSEL",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SWCLK",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SWDIO",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "USB D+",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "USB D-",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "3.3V",
+          "functions": [
+            "LDO power output, 500mA max"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "5V",
+          "functions": [
+            "3.6V-6.5V main power input"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "VBAT",
+          "functions": [
+            "3.6V-4.2V LiPo/LiIon positive terminal"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Labels are the printed GPIO numbers (only name given). Corner silkscreen markers 0/10/20/G are orientation marks, not pads. Pad-to-callout mapping followed via leader lines; top-edge lines cross but trace cleanly (USB D+ to 5th pad, USB D- to 6th)."
+}

@@ -1,0 +1,111 @@
+{
+  "recordId": "waveshare-esp32-esp32-s3-touch-lcd-4-3c",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/15483e5cbcc67750f613c670aede9862de4b458dc4986f00b355b65af74c1d5d.jpg",
+      "sha256": "15483e5cbcc67750f613c670aede9862de4b458dc4986f00b355b65af74c1d5d"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "screw-terminal",
+      "name": "Side screw terminal (I2C, power, DO, DI)",
+      "image": "media/15483e5cbcc67750f613c670aede9862de4b458dc4986f00b355b65af74c1d5d.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at end closest to USB-C (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VIN",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VOUT",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "DO0",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "DO1",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "DI COM",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "DI0",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "DI1",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "DO0/DI0: trailing O vs 0 indistinguishable, recorded as 0",
+    "Position 13 reads 'D1 COM' in the board callout at zoom but 'DI COM' in the connection diagrams; I/1 ambiguous, recorded as DI COM"
+  ],
+  "uncertain": [
+    "Terminal drawn as one continuous green strip; may physically be several smaller blocks (bracket groupings shown for I2C, DO and DI) but recorded as one 16-position connector"
+  ],
+  "notes": "Only the screw terminal is labeled per pin. Connection diagrams at bottom repeat subsets of the same terminal and were not transcribed separately."
+}

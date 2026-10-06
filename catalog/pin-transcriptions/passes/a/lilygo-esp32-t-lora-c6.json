@@ -1,0 +1,216 @@
+{
+  "recordId": "lilygo-esp32-t-lora-c6",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/bf7226c778826438bd81e1ceda68280f7fd3291339fde58ff2c79d6a9bdb5e0b.jpg",
+      "sha256": "bf7226c778826438bd81e1ceda68280f7fd3291339fde58ff2c79d6a9bdb5e0b"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-pads",
+      "name": "Left castellated pads (bottom view)",
+      "image": "media/bf7226c778826438bd81e1ceda68280f7fd3291339fde58ff2c79d6a9bdb5e0b.jpg",
+      "rows": 1,
+      "orderNote": "No printed position numbers; started at bottom end nearest USB-C",
+      "pins": [
+        {
+          "position": 1,
+          "label": "DM",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "DP",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO07",
+          "functions": [
+            "IO7",
+            "7",
+            "MTDO"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO08",
+          "functions": [
+            "IO8",
+            "8"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO09",
+          "functions": [
+            "IO9",
+            "9"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO19",
+          "functions": [
+            "IO19",
+            "19",
+            "SDIO-CLK",
+            "FSPICS3"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO15",
+          "functions": [
+            "RXD",
+            "RX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO14",
+          "functions": [
+            "TXD",
+            "TX"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-pads",
+      "name": "Right castellated pads (bottom view)",
+      "image": "media/bf7226c778826438bd81e1ceda68280f7fd3291339fde58ff2c79d6a9bdb5e0b.jpg",
+      "rows": 1,
+      "orderNote": "No printed position numbers; started at bottom end nearest USB-C",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": [
+            "5VIN"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO00",
+          "functions": [
+            "IO0",
+            "00",
+            "ADC1_CH0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO01",
+          "functions": [
+            "IO1",
+            "01",
+            "ADC1_CH1"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO06",
+          "functions": [
+            "IO6",
+            "06",
+            "ADC1_CH6",
+            "MTCK"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO05",
+          "functions": [
+            "IO5",
+            "05",
+            "ADC1_CH5",
+            "MTDI"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO04",
+          "functions": [
+            "IO4",
+            "04",
+            "ADC1_CH4",
+            "MTMS"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "RST",
+          "functions": [
+            "RST/EN"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO03",
+          "functions": [
+            "IO3",
+            "03",
+            "ADC1_CH3"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO02",
+          "functions": [
+            "IO2",
+            "02",
+            "ADC1_CH2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "power-pads",
+      "name": "2-pin GND/5V through-hole pads (angled view)",
+      "image": "media/bf7226c778826438bd81e1ceda68280f7fd3291339fde58ff2c79d6a9bdb5e0b.jpg",
+      "rows": 1,
+      "orderNote": "No printed numbers; horizontal pair in the angled view, started at the end nearer the USB connector",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": [
+            "+"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "-"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "power-pads: the angled photo labels the two holes with a single \"GND | 5V\" callout; assignment of GND and 5V to the individual holes is inferred from the order of the text and small -/+ silkscreen marks."
+  ],
+  "notes": "TX/RX are grouped under a \"LORA (UART)\" note. LoRa SX1262 internal pin table, LED IO07, Boot/Reset buttons and the unlabeled castellations in the top-right view were not transcribed. Silkscreen spellings (IO7, TXD, 5VIN, RST/EN) placed first in functions."
+}

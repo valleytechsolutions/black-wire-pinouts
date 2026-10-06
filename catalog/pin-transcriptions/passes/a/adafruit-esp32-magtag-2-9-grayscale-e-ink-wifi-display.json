@@ -1,0 +1,147 @@
+{
+  "recordId": "adafruit-esp32-magtag-2-9-grayscale-e-ink-wifi-display",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/60548ca69a8e9303efce0a4a9ceed5bad7d92daf8c5647ba6da119cf531af54d.png",
+      "sha256": "60548ca69a8e9303efce0a4a9ceed5bad7d92daf8c5647ba6da119cf531af54d"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "a1-port",
+      "name": "A1 3-pin JST port",
+      "image": "media/60548ca69a8e9303efce0a4a9ceed5bad7d92daf8c5647ba6da119cf531af54d.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; no labeled USB connector visible; horizontal connector read left to right by its dots (black, red, white).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO18",
+          "functions": [
+            "A1",
+            "ADC2_CH7",
+            "U1RXD",
+            "DAC_2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stemma-qt",
+      "name": "I2C STEMMA QT connector",
+      "image": "media/60548ca69a8e9303efce0a4a9ceed5bad7d92daf8c5647ba6da119cf531af54d.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; no labeled USB connector visible; horizontal connector read left to right by its dots (yellow, blue, red, black).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO34",
+          "functions": [
+            "SCL",
+            "FSPICS0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO33",
+          "functions": [
+            "SDA",
+            "FSPIHD"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "d10-port",
+      "name": "D10 3-pin JST port",
+      "image": "media/60548ca69a8e9303efce0a4a9ceed5bad7d92daf8c5647ba6da119cf531af54d.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; no labeled USB connector visible; horizontal connector read left to right by its dots (black, red, white).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO10",
+          "functions": [
+            "D10",
+            "ADC1_CH9",
+            "FSPICS0",
+            "T10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uart-pads",
+      "name": "RXD0/TXD0 pads",
+      "image": "media/60548ca69a8e9303efce0a4a9ceed5bad7d92daf8c5647ba6da119cf531af54d.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; vertical pair read from the top.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RXD0",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "TXD0",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "battery-jst",
+      "name": "Battery connector (VBAT/GND)",
+      "image": "media/60548ca69a8e9303efce0a4a9ceed5bad7d92daf8c5647ba6da119cf531af54d.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; pins stacked vertically, read from the top.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Label = printed GPIO name; CircuitPython name first in functions, then outward. Green 'Power Domain' tags (RTC, SPI/CPU) omitted as category-only tags. Underscores in ADCx_CHy rendered faintly. An unlabeled orange part on the left edge may be USB but is not labeled, so top/left order was used (same result either way). NeoPixels, light sensor, buttons, display EPD signals, speaker, D13 LED, voltage monitor and accelerometer interrupt are internal or not wiring points and were skipped."
+}

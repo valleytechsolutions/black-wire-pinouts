@@ -1,0 +1,391 @@
+{
+  "recordId": "adafruit-rp2040-feather-rp2040-can-bus",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/1a8fb17babf11ab79b3db48ef89beb71b481a155f7ea318e9583edfb3344ae66.png",
+      "sha256": "1a8fb17babf11ab79b3db48ef89beb71b481a155f7ea318e9583edfb3344ae66"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/1a8fb17babf11ab79b3db48ef89beb71b481a155f7ea318e9583edfb3344ae66.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RESET",
+          "functions": [
+            "Rst"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO26",
+          "functions": [
+            "A0",
+            "SCK1",
+            "CTS1",
+            "SDA1",
+            "PWM5A",
+            "ADC0"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO27",
+          "functions": [
+            "A1",
+            "TX1",
+            "RTS1",
+            "SCL1",
+            "PWM5B",
+            "ADC1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO28",
+          "functions": [
+            "A2",
+            "RX1",
+            "TX0",
+            "SDA0",
+            "PWM6A",
+            "ADC2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO29",
+          "functions": [
+            "A3",
+            "CSn1",
+            "RX0",
+            "SCL0",
+            "PWM6B",
+            "ADC3"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO24",
+          "functions": [
+            "24",
+            "D24",
+            "RX1",
+            "TX1",
+            "SDA0",
+            "PWM4A"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO25",
+          "functions": [
+            "25",
+            "D25",
+            "CSn1",
+            "RX1",
+            "SCL0",
+            "PWM4B"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO14",
+          "functions": [
+            "SCK",
+            "SCK1",
+            "CTS0",
+            "SDA1",
+            "PWM7A"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO15",
+          "functions": [
+            "MO",
+            "MOSI",
+            "TX1",
+            "RTS0",
+            "SCL1",
+            "PWM7B"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO8",
+          "functions": [
+            "MI",
+            "MISO",
+            "RX1",
+            "TX1",
+            "SDA0",
+            "PWM4A"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO1",
+          "functions": [
+            "RX",
+            "CSn0",
+            "RX0",
+            "SCL0",
+            "PWM0B"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO0",
+          "functions": [
+            "TX",
+            "RX0",
+            "TX0",
+            "SDA0",
+            "PWM0A"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO4",
+          "functions": [
+            "4",
+            "D4",
+            "RX0",
+            "TX1",
+            "SDA0",
+            "PWM2A"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/1a8fb17babf11ab79b3db48ef89beb71b481a155f7ea318e9583edfb3344ae66.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": [
+            "Bat"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VBUS",
+          "functions": [
+            "USB"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO13",
+          "functions": [
+            "13",
+            "D13",
+            "CSn1",
+            "RX0",
+            "SCL0",
+            "PWM6B"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO12",
+          "functions": [
+            "12",
+            "D12",
+            "RX1",
+            "TX0",
+            "SDA0",
+            "PWM6A"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO11",
+          "functions": [
+            "11",
+            "D11",
+            "TX1",
+            "RTS1",
+            "SCL1",
+            "PWM5B"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO10",
+          "functions": [
+            "10",
+            "D10",
+            "SCK1",
+            "CTS1",
+            "SDA1",
+            "PWM5A"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO9",
+          "functions": [
+            "9",
+            "D9",
+            "CSn1",
+            "RX1",
+            "SCL0",
+            "PWM4B"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO6",
+          "functions": [
+            "6",
+            "D6",
+            "SCK0",
+            "CTS1",
+            "SDA1",
+            "PWM3A"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO5",
+          "functions": [
+            "5",
+            "D5",
+            "CSn0",
+            "RX1",
+            "SCL0",
+            "PWM2B"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO3",
+          "functions": [
+            "SCL",
+            "TX0",
+            "RTS0",
+            "SCL1",
+            "PWM1B"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO2",
+          "functions": [
+            "SDA",
+            "SCK0",
+            "CTS0",
+            "SDA1",
+            "PWM1A"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stemma-qt",
+      "name": "On-board JST (STEMMA QT) connector",
+      "image": "media/1a8fb17babf11ab79b3db48ef89beb71b481a155f7ea318e9583edfb3344ae66.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row with USB connector at the opposite edge (neither end closer), started at left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO2",
+          "functions": [
+            "SDA",
+            "SCK0",
+            "CTS0",
+            "SDA1",
+            "PWM1A"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO3",
+          "functions": [
+            "SCL",
+            "TX0",
+            "RTS0",
+            "SCL1",
+            "PWM1B"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "can-terminal",
+      "name": "CAN bus screw terminal",
+      "image": "media/1a8fb17babf11ab79b3db48ef89beb71b481a155f7ea318e9583edfb3344ae66.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row with USB connector at the opposite edge (neither end closer), started at left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "CAN_H",
+          "functions": [
+            "H"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "CAN_L",
+          "functions": [
+            "L"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Board silkscreen spellings that differ from the name boxes (Rst, 24, 25, MO, MI, 4, Bat, USB, 13...5) put first in functions. Silkscreen H/L on the CAN terminal put first. CAN controller signals (CAN_*), BUTTON (GPIO7), NEOPIXEL (GPIO21) and NEOPIXEL_POWER (GPIO20) have no physical wiring position; battery connector (GND/VBAT) skipped as battery-only."
+}

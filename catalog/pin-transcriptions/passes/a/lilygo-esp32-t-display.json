@@ -1,0 +1,221 @@
+{
+  "recordId": "lilygo-esp32-t-display",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/fdea840f194a9a6c98bd39c25070b37c0c541a522f6b5f20a5eb6dd86336a142.jpg",
+      "sha256": "fdea840f194a9a6c98bd39c25070b37c0c541a522f6b5f20a5eb6dd86336a142"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/fdea840f194a9a6c98bd39c25070b37c0c541a522f6b5f20a5eb6dd86336a142.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at the end closest to the USB-C connector (bottom of image)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": [
+            "3V"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO12",
+          "functions": [
+            "12",
+            "ADC15",
+            "TOUCH5"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO13",
+          "functions": [
+            "13",
+            "ADC14",
+            "TOUCH4"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO15",
+          "functions": [
+            "15",
+            "ADC13",
+            "TOUCH3"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO2",
+          "functions": [
+            "2",
+            "ADC12",
+            "TOUCH2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "17",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "22",
+          "functions": [
+            "Wire_SCL"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "21",
+          "functions": [
+            "Wire_SDA"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/fdea840f194a9a6c98bd39c25070b37c0c541a522f6b5f20a5eb6dd86336a142.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at the end closest to the USB-C connector (bottom of image)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO27",
+          "functions": [
+            "27",
+            "ADC17",
+            "TOUCH7"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO26",
+          "functions": [
+            "26",
+            "ADC19",
+            "DAC2"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO25",
+          "functions": [
+            "25",
+            "ADC18",
+            "DAC1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO33",
+          "functions": [
+            "33",
+            "ADC5",
+            "TOUCH8"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO32",
+          "functions": [
+            "32",
+            "ADC4",
+            "TOUCH9"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO39",
+          "functions": [
+            "39",
+            "SVN",
+            "ADC3"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO38",
+          "functions": [
+            "38"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO37",
+          "functions": [
+            "37"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO36",
+          "functions": [
+            "36",
+            "SVP",
+            "ADC0"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "3V3",
+          "functions": [
+            "3V"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Image titled ESP32 TTGO T-Display V1.1. Silkscreen spellings (G, 3V, numbers) listed first in functions; for SVP/SVN pins the silkscreen shows 36/39. Display ST7789V pin assignments (MOSI 19, SCLK 18, CS 5, DC 16, RST 23, BL 4) and buttons GPIO0/GPIO35/RST are internal, not wiring points, so skipped."
+}

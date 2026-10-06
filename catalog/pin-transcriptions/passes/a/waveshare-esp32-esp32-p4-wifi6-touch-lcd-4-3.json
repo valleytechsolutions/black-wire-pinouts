@@ -1,0 +1,249 @@
+{
+  "recordId": "waveshare-esp32-esp32-p4-wifi6-touch-lcd-4-3",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/8b2cf78767e366727cbba2b03e35860a5df858d52474e1cc85da9ed9ac3ef1fe.webp",
+      "sha256": "8b2cf78767e366727cbba2b03e35860a5df858d52474e1cc85da9ed9ac3ef1fe"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "gpio-header",
+      "name": "2x20 GPIO header along the bottom edge",
+      "image": "media/8b2cf78767e366727cbba2b03e35860a5df858d52474e1cc85da9ed9ac3ef1fe.webp",
+      "rows": 2,
+      "orderNote": "2xN without printed pin numbers and no USB connector visible in this view: position 1 = left end of the bottom (outer, board-edge) row, then alternating bottom/top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "48",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "47",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "52",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "46",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "51",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "50",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "32",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "49",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "35",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "DP",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "34",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "DM",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "25",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "31",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "24",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "30",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "29",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "22",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "21",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "28",
+          "functions": []
+        },
+        {
+          "position": 27,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 28,
+          "label": "4",
+          "functions": []
+        },
+        {
+          "position": 29,
+          "label": "5",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "3",
+          "functions": []
+        },
+        {
+          "position": 31,
+          "label": "38",
+          "functions": []
+        },
+        {
+          "position": 32,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 33,
+          "label": "37",
+          "functions": []
+        },
+        {
+          "position": 34,
+          "label": "2",
+          "functions": []
+        },
+        {
+          "position": 35,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 36,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 37,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 38,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 39,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 40,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "rtc-connector",
+      "name": "RTC battery connector",
+      "image": "media/8b2cf78767e366727cbba2b03e35860a5df858d52474e1cc85da9ed9ac3ef1fe.webp",
+      "rows": 1,
+      "orderNote": "No numbers; horizontal, started at the left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "+",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "-",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Two label lines are printed above the 2x20 header; assumed the upper line labels the upper (inner) pin row and the lower line labels the lower (outer, board-edge) pin row. This line-to-row mapping is not explicit in the image.",
+    "Header labels are bare numbers (e.g. 52, 47) presumably GPIO numbers; recorded as printed.",
+    "RTC connector: '+' and '-' marks are printed left and right of a 2-pin connector; included because pins are individually marked, but it is a battery connector."
+  ],
+  "notes": ""
+}

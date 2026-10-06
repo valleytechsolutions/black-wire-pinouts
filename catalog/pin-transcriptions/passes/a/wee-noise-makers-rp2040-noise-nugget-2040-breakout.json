@@ -1,0 +1,443 @@
+{
+  "recordId": "wee-noise-makers-rp2040-noise-nugget-2040-breakout",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/afa1e12bd649a32e4e4b75671bda72fd4097e4fcb4ac575c1595767069392d19.png",
+      "sha256": "afa1e12bd649a32e4e4b75671bda72fd4097e4fcb4ac575c1595767069392d19"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header (printed pins 1-26)",
+      "image": "media/afa1e12bd649a32e4e4b75671bda72fd4097e4fcb4ac575c1595767069392d19.png",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 1-26 followed (1 at top, USB end)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "Not Reset",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "Right Speaker -",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "Right Speaker +",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "Left Speaker -",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "Left Speaker +",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "Right Headphone",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "Left Headphone",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "Jack Detect",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "+3.3V (out)",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "Boot",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "Power-En",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "+1.8V (out)",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "VIN (in)",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "Left Line-out +",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "Left Line-out -",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "Right Line-out +",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "Right Line-out -",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GP29",
+          "functions": [
+            "SPI1 CSn",
+            "UART0 RX",
+            "I2C0 SCL",
+            "6B",
+            "ADC3"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GP28",
+          "functions": [
+            "SPI1 RX",
+            "UART0 TX",
+            "I2C0 SDA",
+            "6A",
+            "ADC2"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "GP27",
+          "functions": [
+            "SPI1 TX",
+            "UART1 RTS",
+            "I2C1 SCL",
+            "5B",
+            "ADC1"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "GP26",
+          "functions": [
+            "SPI1 SCK",
+            "UART1 CTS",
+            "I2C1 SDA",
+            "5A",
+            "ADC0"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "GP25",
+          "functions": [
+            "SPI1 CSn",
+            "UART1 RX",
+            "I2C0 SCL",
+            "4B"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "GP24",
+          "functions": [
+            "SPI1 RX",
+            "UART1 TX",
+            "I2C0 SDA",
+            "4A"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "GP23",
+          "functions": [
+            "SPI0 TX",
+            "UART1 RTS",
+            "I2C1 SCL",
+            "3B"
+          ]
+        },
+        {
+          "position": 26,
+          "label": "GP22",
+          "functions": [
+            "SPI0 SCK",
+            "UART1 CTS",
+            "I2C1 SDA",
+            "3A"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header (printed pins 27-52)",
+      "image": "media/afa1e12bd649a32e4e4b75671bda72fd4097e4fcb4ac575c1595767069392d19.png",
+      "rows": 1,
+      "orderNote": "Printed pin numbers followed: position 1 = printed pin 27 (bottom) up to position 26 = printed pin 52 (top, USB end)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GP21",
+          "functions": [
+            "SPI0 CSn",
+            "UART1 RX",
+            "I2C0 SCL",
+            "2B"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP20",
+          "functions": [
+            "SPI0 RX",
+            "UART1 TX",
+            "I2C0 SDA",
+            "2A"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP19",
+          "functions": [
+            "SPI0 TX",
+            "UART0 RTS",
+            "I2C1 SCL",
+            "1B"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP18",
+          "functions": [
+            "SPI0 SCK",
+            "UART0 CTS",
+            "I2C1 SDA",
+            "1A"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP17",
+          "functions": [
+            "SPI0 CSn",
+            "UART0 RX",
+            "I2C0 SCL",
+            "0B"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP16",
+          "functions": [
+            "SPI0 RX",
+            "UART0 TX",
+            "I2C0 SDA",
+            "0A"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP15",
+          "functions": [
+            "SPI1 TX",
+            "UART0 RTS",
+            "I2C1 SCL",
+            "7B"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP14",
+          "functions": [
+            "SPI1 SCK",
+            "UART0 CTS",
+            "I2C1 SDA",
+            "7A"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP13",
+          "functions": [
+            "SPI1 CSn",
+            "UART0 RX",
+            "I2C0 SCL",
+            "6B"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP12",
+          "functions": [
+            "SPI1 RX",
+            "UART0 TX",
+            "I2C0 SDA",
+            "6A"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP11",
+          "functions": [
+            "SPI1 TX",
+            "UART1 RTS",
+            "I2C1 SCL",
+            "5B"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GP10",
+          "functions": [
+            "SPI1 SCK",
+            "UART1 CTS",
+            "I2C1 SDA",
+            "5A"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GP9",
+          "functions": [
+            "SPI1 CSn",
+            "UART1 RX",
+            "I2C0 SCL",
+            "4B"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GP8",
+          "functions": [
+            "SPI1 RX",
+            "UART1 TX",
+            "I2C0 SDA",
+            "4A"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "Left In 1",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "Right In 1",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "Left In 2",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "Right In 2",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "Left In 3",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "Right In 3",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "Mic Bias",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "I2C1 SCL",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "I2C1 SDA",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "GP5",
+          "functions": [
+            "SPI0 CSn",
+            "UART1 RX",
+            "I2C0 SCL",
+            "2B"
+          ]
+        },
+        {
+          "position": 26,
+          "label": "GP4",
+          "functions": [
+            "SPI0 RX",
+            "UART1 TX",
+            "I2C0 SDA",
+            "2A"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "swd-pads",
+      "name": "SWD pads (bottom edge)",
+      "image": "media/afa1e12bd649a32e4e4b75671bda72fd4097e4fcb4ac575c1595767069392d19.png",
+      "rows": 1,
+      "orderNote": "No printed numbers; horizontal row at the end opposite USB, both ends equidistant from USB, so started at left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SWCLK",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SWDIO",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Image shows the Noise Nugget 2040 Breakout V1.0 (silkscreen) with numbered callouts 1-52. Breakout silkscreen hole labels (GPIO11-GPIO21/GND right, OUT LP..GPIO22 left) agree with the callouts. Skipped Boot/Reset buttons, USB-C port and an unlabeled 3-hole group below the USB-C port. Gray tags (0A-7B) recorded as printed functions.",
+  "uncertain": []
+}

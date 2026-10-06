@@ -1,0 +1,80 @@
+{
+  "recordId": "adafruit-gemma",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/075ded35d15516b53daf83656c216f95548f37c5428c6bdf9a459ffb8b38e044.png",
+      "sha256": "075ded35d15516b53daf83656c216f95548f37c5428c6bdf9a459ffb8b38e044"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "edge-pads",
+      "name": "Sew pads around the round board",
+      "image": "media/075ded35d15516b53daf83656c216f95548f37c5428c6bdf9a459ffb8b38e044.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; round board with USB at top: started at the pad closest to USB (top-left pad, tie with top-right broken leftward) and went clockwise",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PB2",
+          "functions": [
+            "D2",
+            "A1",
+            "2",
+            "INT0/PCINT2",
+            "SCL",
+            "SCK"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PB1",
+          "functions": [
+            "D1~",
+            "1",
+            "PCINT1",
+            "OC0B/OC1A",
+            "MISO"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "Vout",
+          "functions": [
+            "MAX of USB or BAT+"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "3.3V",
+          "functions": [
+            "3Vo",
+            "150mA"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PB0",
+          "functions": [
+            "D0~",
+            "0",
+            "PCINT0",
+            "OC0A/!OC1A",
+            "SDA",
+            "MOSI"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Six large sew/alligator pads arranged around a circle; treated as one edge-pads connector ordered clockwise. Silkscreen spellings (D2/A1, D1~, D0~, 3Vo, Vout) listed first in functions."
+}

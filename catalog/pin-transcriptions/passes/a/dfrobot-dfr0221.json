@@ -1,0 +1,288 @@
+{
+  "recordId": "dfrobot-dfr0221",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/c9a2f3905a65fe2cb6869724994e95a3b5c25074c87dacb48344ec59b413dec3.webp",
+      "sha256": "c9a2f3905a65fe2cb6869724994e95a3b5c25074c87dacb48344ec59b413dec3"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "top-header-left",
+      "name": "Top digital header (left segment, SCL to 8)",
+      "image": "media/c9a2f3905a65fe2cb6869724994e95a3b5c25074c87dacb48344ec59b413dec3.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; start at end closest to USB (USB at left of image)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "AREF",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "13",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "12",
+          "functions": [
+            "A11"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "~11",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "~10",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "~9",
+          "functions": [
+            "A9"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "8",
+          "functions": [
+            "A8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "top-header-right",
+      "name": "Top digital header (right segment, 7 to 0)",
+      "image": "media/c9a2f3905a65fe2cb6869724994e95a3b5c25074c87dacb48344ec59b413dec3.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; start at end closest to USB (USB at left of image)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "7",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "~6",
+          "functions": [
+            "A7"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "~5",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "4",
+          "functions": [
+            "A6"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "~3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "2",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "1",
+          "functions": [
+            "TX1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "0",
+          "functions": [
+            "RX1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "power-header",
+      "name": "Bottom POWER header",
+      "image": "media/c9a2f3905a65fe2cb6869724994e95a3b5c25074c87dacb48344ec59b413dec3.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; start at end closest to USB (USB at left of image)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "Gnd",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "Gnd",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "Vin",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "analog-header",
+      "name": "Bottom ANALOG IN header",
+      "image": "media/c9a2f3905a65fe2cb6869724994e95a3b5c25074c87dacb48344ec59b413dec3.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; start at end closest to USB (USB at left of image)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "0",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "1",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "2",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "4",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "5",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "spi-header",
+      "name": "Digital I/O and SPI 3x3 header (rows 16/15/14, columns D/5V/GND)",
+      "image": "media/c9a2f3905a65fe2cb6869724994e95a3b5c25074c87dacb48344ec59b413dec3.webp",
+      "rows": 3,
+      "orderNote": "No pin numbers; 3x3 block read row by row from top-left (top/left rule), each row D, 5V, GND",
+      "pins": [
+        {
+          "position": 1,
+          "label": "16",
+          "functions": [
+            "MOSI"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "15",
+          "functions": [
+            "SCK"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "14",
+          "functions": [
+            "MISO"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "power-header positions 1-2: unlabeled pads"
+  ],
+  "notes": "Top digital header drawn as two physical segments separated by a gap; transcribed as two connectors. Single \"Gnd\" label printed centered over power-header positions 6-7; both given Gnd. 3V3 printed as \"3 V3\". ~ prefixes kept as printed. MISO/SCK/MOSI taken from the callout legend (14 MISO, 15 SCK, 16 MOSI). Skipped: ICSP 2x3 header (only pin 1 mark, no pin labels) and Xbee socket rows (no pin labels)."
+}

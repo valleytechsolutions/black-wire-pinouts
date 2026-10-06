@@ -1,0 +1,230 @@
+{
+  "recordId": "pimoroni-rp2350-plasma-2350-w",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/6ba60984f210967364a46d803a9c7fe2a801534a84f7164ee8088f4a73479046.png",
+      "sha256": "6ba60984f210967364a46d803a9c7fe2a801534a84f7164ee8088f4a73479046"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-pads",
+      "name": "Left expansion pads",
+      "image": "media/6ba60984f210967364a46d803a9c7fe2a801534a84f7164ee8088f4a73479046.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at end closest to USB-C (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GP0",
+          "functions": [
+            "TX",
+            "0 RX",
+            "0 SDA",
+            "0 TX",
+            "0 A"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP1",
+          "functions": [
+            "RX",
+            "0 CSn",
+            "0 SCL",
+            "0 RX",
+            "0 B"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GP20",
+          "functions": [
+            "SDA",
+            "0 RX",
+            "0 SDA",
+            "1 TX",
+            "2 A"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP21",
+          "functions": [
+            "SCL",
+            "0 CSn",
+            "0 SCL",
+            "1 RX",
+            "2 B"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP19",
+          "functions": [
+            "INT",
+            "0 TX",
+            "1 SCL",
+            "0 RX",
+            "1 B"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GP26",
+          "functions": [
+            "A0",
+            "1 SCK",
+            "1 SDA",
+            "1 TX",
+            "5 A",
+            "0"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP27",
+          "functions": [
+            "A1",
+            "1 TX",
+            "1 SCL",
+            "1 RX",
+            "5 B",
+            "1"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP28",
+          "functions": [
+            "A2",
+            "1 RX",
+            "0 SDA",
+            "0 TX",
+            "6 A",
+            "2"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "SWCLK",
+          "functions": [
+            "SWC"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "SWDIO",
+          "functions": [
+            "SWD"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "qwst",
+      "name": "QW/ST connector",
+      "image": "media/6ba60984f210967364a46d803a9c7fe2a801534a84f7164ee8088f4a73479046.png",
+      "rows": 1,
+      "orderNote": "Horizontal connector; started at end closest to USB-C (left)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SCL",
+          "functions": [
+            "0 SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "SDA",
+          "functions": [
+            "0 SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "screw-terminal",
+      "name": "LED strip screw terminal",
+      "image": "media/6ba60984f210967364a46d803a9c7fe2a801534a84f7164ee8088f4a73479046.png",
+      "rows": 1,
+      "orderNote": "Horizontal row at far end from USB-C, ends equidistant; started at left as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GP14",
+          "functions": [
+            "CLK",
+            "LED CLK (5V)"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP15",
+          "functions": [
+            "DAT",
+            "LED DATA (5V)"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "5V",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Peripheral-number prefixes are printed in separate cells (e.g. '0' + 'SDA' under the I2C column); recorded as '0 SDA' etc. with column categories omitted, so SPI/I2C/UART/PWM membership is not encoded",
+    "ADC channel for A0-A2 printed as a bare number ('0','1','2') under the ADC column; recorded as bare number in functions",
+    "QW/ST pin order assumed to follow the left-to-right order of its rotated labels (SCL, SDA, 3V3, GND)",
+    "Screw terminal first position silkscreen is an icon; label GND taken from the callout",
+    "SWC/SWD pads labeled with SWCLK/SWDIO callouts (debug, not GPIO); used callout name as label"
+  ],
+  "notes": "Buttons (RESET, BOOT/USER GP22, BTN A GP12) and RGB LED (GP16/17/18) skipped. Label = GPn from PIO column; black silkscreen-style name first in functions."
+}

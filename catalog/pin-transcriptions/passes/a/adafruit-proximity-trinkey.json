@@ -1,0 +1,51 @@
+{
+  "recordId": "adafruit-proximity-trinkey",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/0ccec28455c8bb6f42b5c9ac06262c793c5f46dd3c0757d14b4c1d34a2f62eb0.png",
+      "sha256": "0ccec28455c8bb6f42b5c9ac06262c793c5f46dd3c0757d14b4c1d34a2f62eb0"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "edge-pads",
+      "name": "Touch pads (right edge)",
+      "image": "media/0ccec28455c8bb6f42b5c9ac06262c793c5f46dd3c0757d14b4c1d34a2f62eb0.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical pair at the end opposite the USB plug (ends equidistant from USB), started at top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PA07",
+          "functions": [
+            "TOUCH1",
+            "1/A1",
+            "7",
+            "AIN7",
+            "Y5",
+            "S0.3",
+            "TCC1[1]",
+            "I2S/SD0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PA03",
+          "functions": [
+            "TOUCH2",
+            "2/A2",
+            "3",
+            "VREFA",
+            "AIN1",
+            "Y1"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Two capacitive touch pads transcribed. INTERRUPT, SDA and SCL callouts point at the on-board proximity sensor (internal signals, no wiring point) and NEOPIXEL at an on-board LED; skipped."
+}

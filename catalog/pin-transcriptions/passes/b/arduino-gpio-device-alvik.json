@@ -1,0 +1,188 @@
+{
+  "recordId": "arduino-gpio-device-alvik",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/c7937870a5404355632ad631bd043c2df098aec33483002cfbd347b59d9d15e0.jpg",
+      "sha256": "c7937870a5404355632ad631bd043c2df098aec33483002cfbd347b59d9d15e0"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "top-header",
+      "name": "Top Nano header row",
+      "image": "media/c7937870a5404355632ad631bd043c2df098aec33483002cfbd347b59d9d15e0.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or pin-1 mark; horizontal row, position 1 at the left end, closest to the Nano ESP32 USB-C connector. Labels are the mounted Nano ESP32 silkscreen; functions are the Alvik callouts that point at the adjacent Alvik hole in that column.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D12",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "D11",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "D10",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "D9",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "D8",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "D7",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "D6",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "D5",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "D4",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "D3",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "D2",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "RX0",
+          "functions": [
+            "PWR_Status"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "TX1",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-header",
+      "name": "Bottom Nano header row",
+      "image": "media/c7937870a5404355632ad631bd043c2df098aec33483002cfbd347b59d9d15e0.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or pin-1 mark; horizontal row, position 1 at the left end, closest to the Nano ESP32 USB-C connector. Labels are the mounted Nano ESP32 silkscreen; functions are the Alvik callouts that point at the adjacent Alvik hole in that column.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D13",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "B0",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "A0",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "A1",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "A2",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "A3",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "A4",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "A5",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "A6",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "A7",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "B1",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Image shows a Nano ESP32 seated on the Alvik with a row of Alvik holes beside each Nano row; only five Alvik holes carry callouts (3V3, GND, PWR_Status on top; GND, VIN on bottom). The pad in column 12 of the top row and column 14 of the bottom row has a blank white silkscreen box; label GND taken from the Alvik callout. The 3V3 callout lands on the hole beside Nano pin D2, and PWR_Status beside RX0, as drawn; this was transcribed without interpretation."
+}

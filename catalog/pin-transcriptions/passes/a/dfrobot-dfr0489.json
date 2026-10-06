@@ -1,0 +1,269 @@
+{
+  "recordId": "dfrobot-dfr0489",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/7cc23577f400156258203303029fefbbcae844abe37d826480cd7045e2809258.webp",
+      "sha256": "7cc23577f400156258203303029fefbbcae844abe37d826480cd7045e2809258"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/7cc23577f400156258203303029fefbbcae844abe37d826480cd7045e2809258.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, start at end closest to USB (bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "AREF",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "IO12",
+          "functions": [
+            "D9"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "IO0",
+          "functions": [
+            "D8"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "IO4",
+          "functions": [
+            "D7"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "IO5",
+          "functions": [
+            "D6"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "IO2",
+          "functions": [
+            "D5"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "IO15",
+          "functions": [
+            "D4"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "IO10",
+          "functions": [
+            "D3"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "IO13",
+          "functions": [
+            "D2"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "IO1",
+          "functions": [
+            "TXD",
+            "D1"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "IO3",
+          "functions": [
+            "RXD",
+            "D0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/7cc23577f400156258203303029fefbbcae844abe37d826480cd7045e2809258.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, start at end closest to USB (bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "IO5",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "IO4",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "IO12",
+          "functions": [
+            "MISO"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "IO13",
+          "functions": [
+            "MOSI"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "IO14",
+          "functions": [
+            "SCK"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "IO0",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "A0",
+          "functions": [
+            "ADC"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "power-pads",
+      "name": "+/- pads above USB connector",
+      "image": "media/7cc23577f400156258203303029fefbbcae844abe37d826480cd7045e2809258.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal pair, start at end closest to USB (the - pad is marginally closer to the USB connector centre)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "-",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "+",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "O and 0 indistinguishable in this font: IO prefix kept as letters; 0 used for IO0 and D0"
+  ],
+  "notes": "Labels read from color tags connected to each pad, listed outward from the pin. Right-header bottom pin has two RST tags (exact repeat dropped). Unlabeled white JST connector at bottom skipped."
+}

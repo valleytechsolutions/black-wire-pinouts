@@ -1,0 +1,317 @@
+{
+  "recordId": "rakwireless-rak11161",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/360400929a65e73b174e79070bf28af28d075b3d0a6c497672dcd19f68f15a5f.png",
+      "sha256": "360400929a65e73b174e79070bf28af28d075b3d0a6c497672dcd19f68f15a5f"
+    },
+    {
+      "file": "media/293d62addbde94c9d1a52eb2c224bf44e5388a594a7b6bad7f5a9adb6d4df5aa.png",
+      "sha256": "293d62addbde94c9d1a52eb2c224bf44e5388a594a7b6bad7f5a9adb6d4df5aa"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "st-gpio",
+      "name": "ST_GPIO 2x9 header",
+      "image": "media/360400929a65e73b174e79070bf28af28d075b3d0a6c497672dcd19f68f15a5f.png",
+      "rows": 2,
+      "orderNote": "No USB in view; columns marked 1 (outer, left) and 2 printed: position 1 = column 1 top, 2 = column 2 top, alternating down",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PB5",
+          "functions": [
+            "NSS"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PB5",
+          "functions": [
+            "NSS"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA15",
+          "functions": [
+            "SCK"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA15",
+          "functions": [
+            "SCK"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PA1",
+          "functions": [
+            "MISO"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA1",
+          "functions": [
+            "MISO"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PB4",
+          "functions": [
+            "MOSI"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PB4",
+          "functions": [
+            "MOSI"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PB3",
+          "functions": [
+            "PA8"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PB3",
+          "functions": [
+            "PA8"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PA9",
+          "functions": [
+            "PA10"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "PA9",
+          "functions": [
+            "PA10"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "PB2",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "PB2",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "PB12",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "PB12",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "VCC",
+          "functions": [
+            "GND"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "VCC",
+          "functions": [
+            "GND"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "esp-gpio",
+      "name": "ESP_GPIO header",
+      "image": "media/360400929a65e73b174e79070bf28af28d075b3d0a6c497672dcd19f68f15a5f.png",
+      "rows": 1,
+      "orderNote": "No USB in view; top-to-bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO0",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IO1",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO2",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IO3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "IO4",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "IO5",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "IO8",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "IO10",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "IO18",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "st-debug-img2",
+      "name": "ST_DEBUG header",
+      "image": "media/293d62addbde94c9d1a52eb2c224bf44e5388a594a7b6bad7f5a9adb6d4df5aa.png",
+      "rows": 1,
+      "orderNote": "No USB in view; left-to-right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "DIO",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "DCK",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "RESET",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "esp-debug-img2",
+      "name": "ESP_DEBUG header",
+      "image": "media/293d62addbde94c9d1a52eb2c224bf44e5388a594a7b6bad7f5a9adb6d4df5aa.png",
+      "rows": 1,
+      "orderNote": "No USB in view; left-to-right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RX",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "ESP",
+          "functions": [
+            "BOOT"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "st-uart2-img2",
+      "name": "ST_UART2 header",
+      "image": "media/293d62addbde94c9d1a52eb2c224bf44e5388a594a7b6bad7f5a9adb6d4df5aa.png",
+      "rows": 1,
+      "orderNote": "No USB in view; left-to-right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "TX2",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RX2",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "ST_BOOT0",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "st-gpio: the columns are marked '1' and '2' and each row prints two names (e.g. 'NSS PB5', 'PA8 PB3', 'GND VCC'); the two holes in a row may carry the two different names (column 1 = left name, column 2 = right name) rather than one shared signal",
+    "esp-debug-img2: pin 5 has 'ESP' above it and 'BOOT' printed further right near the ST_BOOT0 button; whether the pin name is 'ESP BOOT' is inferred"
+  ],
+  "notes": "Image 1 is the bottom view (ST_GPIO 2x9, ESP_GPIO 1x9); its three 5-pin rows are unlabeled there and skipped. Image 2 is the top view; its side headers are unlabeled there and skipped. ST_GPIO rows print two names each (e.g. 'NSS PB5'); per rule 10 both holes take the row's names, with the port name (PBx/PAx) as label where one is printed. Rows 'PA8 PB3', 'PA10 PA9' and 'GND VCC' print two port/power names; the right-hand name (next to text 'PBx' column) was used as label."
+}

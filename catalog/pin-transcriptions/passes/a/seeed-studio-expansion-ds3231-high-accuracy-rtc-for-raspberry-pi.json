@@ -1,0 +1,107 @@
+{
+  "recordId": "seeed-studio-expansion-ds3231-high-accuracy-rtc-for-raspberry-pi",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/362fdee20ed35d9dd48ed39894926d1de5d3640922db0a41e93ffff7530b143a.jpg",
+      "sha256": "362fdee20ed35d9dd48ed39894926d1de5d3640922db0a41e93ffff7530b143a"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "pi-header",
+      "name": "2x6 Raspberry Pi header",
+      "image": "media/362fdee20ed35d9dd48ed39894926d1de5d3640922db0a41e93ffff7530b143a.jpg",
+      "rows": 2,
+      "orderNote": "2xN without printed numbers or pin-1 mark, no USB: position 1 = left end of the bottom row (nearest the board's bottom edge), then alternating bottom/top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SDA_3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "SCL_3V3",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GPIO9",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "RX",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "S/INT",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "uart-pads",
+      "name": "TX/RX 2-pad row",
+      "image": "media/362fdee20ed35d9dd48ed39894926d1de5d3640922db0a41e93ffff7530b143a.jpg",
+      "rows": 1,
+      "orderNote": "No numbers or USB; horizontal, started at the left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "RX",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Header labels come from a colour-square key connected to the header outline by dashed lines (top line 3V3, SDA_3V3, SCL_3V3, GPIO9, GND, S/INT; bottom line 5V, 5V, GND, TX, RX, RST); the key is assumed to show the header in the same orientation as the photo."
+  ],
+  "notes": ""
+}

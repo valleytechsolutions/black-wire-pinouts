@@ -1,0 +1,374 @@
+{
+  "recordId": "adafruit-rp2040-itsybitsy-rp2040",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/57c122ed243f4f5ddc4b1421641e27f58707b884063e0809cac2516859cf3dc0.png",
+      "sha256": "57c122ed243f4f5ddc4b1421641e27f58707b884063e0809cac2516859cf3dc0"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/57c122ed243f4f5ddc4b1421641e27f58707b884063e0809cac2516859cf3dc0.png",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; vertical row starts at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RESET",
+          "functions": [
+            "RST"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "VHI",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO26",
+          "functions": [
+            "A0",
+            "SCK1",
+            "CTS1",
+            "SDA1",
+            "PWM5A",
+            "ADC0"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO27",
+          "functions": [
+            "A1",
+            "TX1",
+            "RTS1",
+            "SCL1",
+            "PWM5B",
+            "ADC1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO28",
+          "functions": [
+            "A2",
+            "RX1",
+            "TX0",
+            "SDA0",
+            "PWM6A",
+            "ADC2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO29",
+          "functions": [
+            "A3",
+            "CSn1",
+            "RX0",
+            "SCL0",
+            "PWM6B",
+            "ADC3"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO24",
+          "functions": [
+            "24",
+            "D24",
+            "RX1",
+            "TX1",
+            "SDA0",
+            "PWM4A"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO25",
+          "functions": [
+            "25",
+            "D25",
+            "CSn1",
+            "RX1",
+            "SCL0",
+            "PWM4B"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO18",
+          "functions": [
+            "SCK",
+            "SCK0",
+            "CTS0",
+            "SDA1",
+            "PWM1A"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO19",
+          "functions": [
+            "MO",
+            "MOSI",
+            "TX0",
+            "RTS0",
+            "SCL1",
+            "PWM1B"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO20",
+          "functions": [
+            "MI",
+            "MISO",
+            "RX0",
+            "TX1",
+            "SDA0",
+            "PWM2A"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO12",
+          "functions": [
+            "2",
+            "D2",
+            "RX1",
+            "TX0",
+            "SDA0",
+            "PWM6A"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/57c122ed243f4f5ddc4b1421641e27f58707b884063e0809cac2516859cf3dc0.png",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; vertical row starts at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": [
+            "BAT"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "VBUS",
+          "functions": [
+            "USB"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO11",
+          "functions": [
+            "13",
+            "D13",
+            "TX1",
+            "RTS1",
+            "SCL1",
+            "PWM5B"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO10",
+          "functions": [
+            "12",
+            "D12",
+            "SCK1",
+            "CTS1",
+            "SDA1",
+            "PWM5A"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO9",
+          "functions": [
+            "11",
+            "D11",
+            "CSn1",
+            "RX1",
+            "SCL0",
+            "PWM4B"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO8",
+          "functions": [
+            "10",
+            "D10",
+            "RX1",
+            "TX1",
+            "SDA0",
+            "PWM4A"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO7",
+          "functions": [
+            "9",
+            "D9",
+            "TX0",
+            "RTS1",
+            "SCL1",
+            "PWM3B"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO6",
+          "functions": [
+            "7",
+            "D7",
+            "SCK0",
+            "CTS1",
+            "SDA1",
+            "PWM3A"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO14",
+          "functions": [
+            "5!",
+            "D5",
+            "SCK1",
+            "CTS0",
+            "SDA1",
+            "PWM7A"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO3",
+          "functions": [
+            "SCL",
+            "TX0",
+            "RTS0",
+            "SCL1",
+            "PWM1B"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO2",
+          "functions": [
+            "SDA",
+            "SCK0",
+            "CTS0",
+            "SDA1",
+            "PWM1A"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO0",
+          "functions": [
+            "TX",
+            "RX0",
+            "TX0",
+            "SDA0",
+            "PWM0A"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO1",
+          "functions": [
+            "RX",
+            "CSn0",
+            "RX0",
+            "SCL0",
+            "PWM0B"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-pads",
+      "name": "Bottom edge pads (between corner pins)",
+      "image": "media/57c122ed243f4f5ddc4b1421641e27f58707b884063e0809cac2516859cf3dc0.png",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; horizontal row equidistant from USB, started at left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "EN",
+          "functions": [
+            "E"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "SWDIO",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SWCLK",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO5",
+          "functions": [
+            "3",
+            "D3",
+            "CSn0",
+            "RX1",
+            "SCL0",
+            "PWM2B"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO4",
+          "functions": [
+            "4",
+            "D4",
+            "RX0",
+            "TX1",
+            "SDA0",
+            "PWM2A"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Corner pads D2 and RX are counted in the left/right headers. Silkscreen 'E' near the EN pad taken as its silkscreen spelling. Image note: 'Pin D5 is an output only and is level shifted to 5V for driving NeoPixels, etc.' NEOPIXEL, NEOPIXEL_POWER and BUTTON are on-board, not wiring points."
+}

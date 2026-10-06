@@ -1,0 +1,156 @@
+{
+  "recordId": "lilygo-esp32-t-panel-s3-lite",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/3eb64c4491cc8bf762d684bced52eafbbfffa63d69cb025fa0da0b17545d8275.jpg",
+      "sha256": "3eb64c4491cc8bf762d684bced52eafbbfffa63d69cb025fa0da0b17545d8275"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "qwiic-uart",
+      "name": "STEMMA QT/Qwiic 4-pin (upper, UART)",
+      "image": "media/3eb64c4491cc8bf762d684bced52eafbbfffa63d69cb025fa0da0b17545d8275.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB-C at top right, started at the top (USB) end.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": [
+            "VCC"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "IO43",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "IO44",
+          "functions": [
+            "RXD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qwiic-i2c",
+      "name": "STEMMA QT/Qwiic 4-pin (lower, I2C)",
+      "image": "media/3eb64c4491cc8bf762d684bced52eafbbfffa63d69cb025fa0da0b17545d8275.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB-C at top right, started at the top (USB) end.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": [
+            "VCC"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "IO17",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "IO18",
+          "functions": [
+            "SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "external-expansion",
+      "name": "External Expansion 2x5 header",
+      "image": "media/3eb64c4491cc8bf762d684bced52eafbbfffa63d69cb025fa0da0b17545d8275.jpg",
+      "rows": 2,
+      "orderNote": "2x5 without printed numbers; started at the top (USB) end of the right column (nearest the right board edge), alternating right/left columns.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO37",
+          "functions": [
+            "MISO"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO36",
+          "functions": [
+            "SCLK"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "IO35",
+          "functions": [
+            "MOSI"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "IO16",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "IO17",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "IO15",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "IO18",
+          "functions": [
+            "SCL"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Board silkscreen gives the pin names beside each connector; callout tables give 'silkscreen--function' pairs (e.g. TXD--IO43, VCC--3V3, MISO--IO37). Labels use the function side; silkscreen name first in functions. Silkscreen also prints 'RXD-44 TXD-43' and 'SDA-17 SCL-18'. Micro SD, LCD and key GPIO lists are internal assignments; skipped.",
+  "uncertain": []
+}

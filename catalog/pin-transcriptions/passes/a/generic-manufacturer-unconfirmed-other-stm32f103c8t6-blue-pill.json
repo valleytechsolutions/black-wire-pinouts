@@ -1,0 +1,488 @@
+{
+  "recordId": "generic-manufacturer-unconfirmed-other-stm32f103c8t6-blue-pill",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/f048d899fdf2a2822ed354cfa10feb6769163ab5accbdafed0ae190dd314559f.jpg",
+      "sha256": "f048d899fdf2a2822ed354cfa10feb6769163ab5accbdafed0ae190dd314559f"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/f048d899fdf2a2822ed354cfa10feb6769163ab5accbdafed0ae190dd314559f.jpg",
+      "rows": 1,
+      "orderNote": "Printed numbers beside the labels (1, 2, 3, 4, 10...46) are MCU package pin numbers, not header positions, so they are not used for ordering; micro-USB is at the bottom edge, so position 1 is the bottom end closest to it.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": [
+            "3.3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "RST",
+          "functions": [
+            "R"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PB11",
+          "functions": [
+            "B11",
+            "SDA2",
+            "RXD 3",
+            "T2C4N"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PB10",
+          "functions": [
+            "B10",
+            "SCL2",
+            "TXD 3",
+            "T2C3N"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PB1",
+          "functions": [
+            "B1",
+            "ADC9",
+            "T3C4",
+            "T1C3N"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PB0",
+          "functions": [
+            "B0",
+            "ADC8",
+            "T3C3",
+            "T1C2N"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PA7",
+          "functions": [
+            "A7",
+            "ADC7",
+            "MOSI1",
+            "T3C2",
+            "T1C1N"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PA6",
+          "functions": [
+            "A6",
+            "ADC6",
+            "MISO1",
+            "T3C1",
+            "T1BKIN"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PA5",
+          "functions": [
+            "A5",
+            "ADC5",
+            "SCK1"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "PA4",
+          "functions": [
+            "A4",
+            "ADC4",
+            "NSS1",
+            "CK 2"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "PA3",
+          "functions": [
+            "A3",
+            "ADC3",
+            "RXD 2",
+            "T2C4"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "PA2",
+          "functions": [
+            "A2",
+            "ADC2",
+            "TXD 2",
+            "T2C3"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "PA1",
+          "functions": [
+            "A1",
+            "ADC1",
+            "RTS 2",
+            "T1C2"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "PA0",
+          "functions": [
+            "A0",
+            "ADC0",
+            "CTS 2",
+            "T2C1E",
+            "WAKE UP"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "PC15",
+          "functions": [
+            "C15",
+            "OSC32 OUT",
+            "2MHz 30pF 3mA"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "PC14",
+          "functions": [
+            "C14",
+            "OSC32 IN",
+            "2MHz 30pF 3mA"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "PC13",
+          "functions": [
+            "C13",
+            "Tamper RTC",
+            "2MHz 30pF 3mA",
+            "LED"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "VBAT",
+          "functions": [
+            "VB"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/f048d899fdf2a2822ed354cfa10feb6769163ab5accbdafed0ae190dd314559f.jpg",
+      "rows": 1,
+      "orderNote": "Printed numbers beside the labels (1, 2, 3, 4, 10...46) are MCU package pin numbers, not header positions, so they are not used for ordering; micro-USB is at the bottom edge, so position 1 is the bottom end closest to it.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PB12",
+          "functions": [
+            "B12",
+            "NSS2",
+            "CK 3",
+            "T1BKIN"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PB13",
+          "functions": [
+            "B13",
+            "SCK2",
+            "CTS 3",
+            "T1C1N"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PB14",
+          "functions": [
+            "B14",
+            "MISO2",
+            "RTS 3",
+            "T1C2N"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PB15",
+          "functions": [
+            "B15",
+            "MOSI2",
+            "T1C3N"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PA8",
+          "functions": [
+            "A8",
+            "CK 1",
+            "MCO",
+            "T1C1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA9",
+          "functions": [
+            "A9",
+            "TXD 1",
+            "T1C2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PA10",
+          "functions": [
+            "A10",
+            "RXD 1",
+            "T1C3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PA11",
+          "functions": [
+            "A11",
+            "CTS 1",
+            "CAN RX",
+            "USB -",
+            "T1C4"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PA12",
+          "functions": [
+            "A12",
+            "RTS 1",
+            "CAN TX",
+            "USB +",
+            "T1ETR"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PA15",
+          "functions": [
+            "A15",
+            "NSS1",
+            "JTDI",
+            "T2C1E"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PB3",
+          "functions": [
+            "B3",
+            "SCK1",
+            "JTDO",
+            "T2C2"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "PB4",
+          "functions": [
+            "B4",
+            "MISO1",
+            "JTRST",
+            "T3C1"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "PB5",
+          "functions": [
+            "B5",
+            "MOSI1",
+            "SMBA1",
+            "T2C2"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "PB6",
+          "functions": [
+            "B6",
+            "SCL1",
+            "RXD 1",
+            "T4C1"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "PB7",
+          "functions": [
+            "B7",
+            "SDA1",
+            "RXD 1",
+            "T4C2"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "PB8",
+          "functions": [
+            "B8",
+            "SCL1",
+            "CAN RX",
+            "T4T3"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "PB9",
+          "functions": [
+            "B9",
+            "SDA1",
+            "CAN TX",
+            "T4C4"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "3V3",
+          "functions": [
+            "3.3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "top-header",
+      "name": "Top 4-pin SWD header",
+      "image": "media/f048d899fdf2a2822ed354cfa10feb6769163ab5accbdafed0ae190dd314559f.jpg",
+      "rows": 1,
+      "orderNote": "No header pin numbers; the micro-USB is centred below this header so neither end is clearly closer; top/left rule used (left end first).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "PA14",
+          "functions": [
+            "JTCK",
+            "SWCLT"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA13",
+          "functions": [
+            "JTMS",
+            "SWDIO"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "boot-header",
+      "name": "BOOT0/BOOT1 jumper header (2x3)",
+      "image": "media/f048d899fdf2a2822ed354cfa10feb6769163ab5accbdafed0ae190dd314559f.jpg",
+      "rows": 2,
+      "orderNote": "2x3 grid drawn below the micro-USB: rows taken top-first (top row is the end drawn nearest the USB), position 1 in the left column (BOOT0 strip), alternating left/right.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "BOOT0",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "PB2",
+          "functions": [
+            "BOOT1"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Board identity: the image title is 'STM32F103C8', but the chip in the board photo is marked 'CKS32F 103C8T6' (a CKS part); the photo may not show the exact product named in the record.",
+    "BOOT jumper header: labels are on a schematic 2x3 grid drawn below the micro-USB, not on the photo. Which column is the outer row and which end is physically nearest the USB on the real board (in the photo the jumper block sits above the USB, so its bottom/GND row would be nearer) are not settled by the image; positions follow the grid as drawn.",
+    "Top SWD header: pad mapping taken from leader lines (GND, PA14, PA13, 3V3 left to right); the photo shows the four pins but no silkscreen for them."
+  ],
+  "notes": "Pinout diagram (www.mischianti.org printed). Labels use the magenta MCU port names (PA0, PB12...) per rule 5, with the board silkscreen spelling (A0, B12, VB, R, 3.3, G) first in functions. MCU package pin numbers printed next to the labels and the analog/5V-tolerant wave symbols are omitted. Skipped: micro-USB, reset button, LEDs."
+}

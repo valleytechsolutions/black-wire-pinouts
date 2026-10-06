@@ -1,0 +1,653 @@
+{
+  "recordId": "waveshare-esp32-esp32-p4-nano-wifi6-db",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/5a7b8826c6c23c0b2e14e66037247c0cab8703cdf964a50ffbc640f13dc734cb.jpg",
+      "sha256": "5a7b8826c6c23c0b2e14e66037247c0cab8703cdf964a50ffbc640f13dc734cb"
+    },
+    {
+      "file": "media/91869b1b30e130addb0fc89067906470b69571db95a363753bfd1ecbaf859031.webp",
+      "sha256": "91869b1b30e130addb0fc89067906470b69571db95a363753bfd1ecbaf859031"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left 2x13 pin header",
+      "image": "media/5a7b8826c6c23c0b2e14e66037247c0cab8703cdf964a50ffbc640f13dc734cb.jpg",
+      "rows": 2,
+      "orderNote": "Printed pin numbers 1, 2 (top) and 26 (bottom) followed: odd numbers left column, even numbers right column.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO7",
+          "functions": [
+            "TOUCH_CHANNEL5",
+            "SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO8",
+          "functions": [
+            "TOUCH_CHANNEL6",
+            "SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO23",
+          "functions": [
+            "ADC1_CHANNEL7"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO37",
+          "functions": [
+            "UART0_TXD"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GPIO38",
+          "functions": [
+            "UART0_RXD"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO5",
+          "functions": [
+            "TOUCH_CHANNEL3"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO4",
+          "functions": [
+            "TOUCH_CHANNEL2"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO20",
+          "functions": [
+            "ADC1_CHANNEL4"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GPIO21",
+          "functions": [
+            "ADC1_CHANNEL5"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO22",
+          "functions": [
+            "ADC1_CHANNEL6"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GPIO24",
+          "functions": [
+            "USB1P1_N0"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GPIO25",
+          "functions": [
+            "USB1P1_P0"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "GPIO26",
+          "functions": [
+            "USB1P1_N1"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "GPIO27",
+          "functions": [
+            "USB1P1_P1"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "GPIO32",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "GPIO33",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "GPIO36",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right 2x13 pin header",
+      "image": "media/5a7b8826c6c23c0b2e14e66037247c0cab8703cdf964a50ffbc640f13dc734cb.jpg",
+      "rows": 2,
+      "orderNote": "Printed pin numbers 1, 2 (top) and 25, 26 (bottom) followed: odd numbers left column, even numbers right column.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "ESP_LDO_VO4",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GPIO0",
+          "functions": [
+            "XTAL_32K_N"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GPIO1",
+          "functions": [
+            "XTAL_32K_P"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO3",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GPIO2",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GPIO6",
+          "functions": [
+            "TOUCH_CHANNEL4"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO54",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO53",
+          "functions": [
+            "ADC2_CHANNEL4"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO47",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "GPIO48",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "GPIO46",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GPIO45",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "C5_U0RXD",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "USBD_P",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "C5_U0TXD",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "USBD_N",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "C5_BOOT",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left 2x13 pin header",
+      "image": "media/91869b1b30e130addb0fc89067906470b69571db95a363753bfd1ecbaf859031.webp",
+      "rows": 2,
+      "orderNote": "Printed pin numbers 1, 2 (top) and 26 (bottom) followed: odd numbers left column, even numbers right column.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO7",
+          "functions": [
+            "TOUCH_CHANNEL5",
+            "SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO8",
+          "functions": [
+            "TOUCH_CHANNEL6",
+            "SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO23",
+          "functions": [
+            "ADC1_CHANNEL7"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO37",
+          "functions": [
+            "UART0_TXD"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GPIO38",
+          "functions": [
+            "UART0_RXD"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO5",
+          "functions": [
+            "TOUCH_CHANNEL3"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO4",
+          "functions": [
+            "TOUCH_CHANNEL2"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO20",
+          "functions": [
+            "ADC1_CHANNEL4"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GPIO21",
+          "functions": [
+            "ADC1_CHANNEL5"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO22",
+          "functions": [
+            "ADC1_CHANNEL6"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GPIO24",
+          "functions": [
+            "USB1P1_N0"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GPIO25",
+          "functions": [
+            "USB1P1_P0"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "GPIO26",
+          "functions": [
+            "USB1P1_N1"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "GPIO27",
+          "functions": [
+            "USB1P1_P1"
+          ]
+        },
+        {
+          "position": 23,
+          "label": "GPIO32",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "GPIO33",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "GPIO36",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Right 2x13 pin header",
+      "image": "media/91869b1b30e130addb0fc89067906470b69571db95a363753bfd1ecbaf859031.webp",
+      "rows": 2,
+      "orderNote": "Printed pin numbers 1, 2 (top) and 25, 26 (bottom) followed: odd numbers left column, even numbers right column.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "ESP_LDO_VO4",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GPIO0",
+          "functions": [
+            "XTAL_32K_N"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GPIO1",
+          "functions": [
+            "XTAL_32K_P"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO3",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GPIO2",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GPIO6",
+          "functions": [
+            "TOUCH_CHANNEL4"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO54",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO53",
+          "functions": [
+            "ADC2_CHANNEL4"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO47",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "GPIO48",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "GPIO46",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GPIO45",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "C5_U0RXD",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "USBD_P",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "C5_U0TXD",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "USBD_N",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "C5_BOOT",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Both images show the same artwork; the board silkscreen reads ESP32-P4-NANO-WI... (partly hidden by callouts) with an ESP32-C5-MINI module. Transcribed from each image separately. Speaker, MIC, PoE and USB connectors carry no individual pin labels and are skipped. Legend categories omitted."
+}

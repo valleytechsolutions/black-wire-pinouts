@@ -1,0 +1,89 @@
+{
+  "recordId": "seeed-studio-other-sbc-mini-ai-computer-t906",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/46757f91b077f7557a886559184668811215a97f0ba692ec6fd94e9ba2a8240d.png",
+      "sha256": "46757f91b077f7557a886559184668811215a97f0ba692ec6fd94e9ba2a8240d"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "12-pin-connector",
+      "name": "12-pin connector (2x6)",
+      "image": "media/46757f91b077f7557a886559184668811215a97f0ba692ec6fd94e9ba2a8240d.png",
+      "rows": 2,
+      "orderNote": "Pin numbers 1-12 printed in the table and callouts mark pins 1, 6, 7, 12 on the connector photo; positions follow the printed numbers (row of 1-6, then row of 7-12).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SPI-CAN-H0",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "CAN-H0",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "CAN-H1",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO1",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "VCC-IN",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "SPI-CAN-L0",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "CAN-L0",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "CAN-L1",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GPIO2",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "VCC-IN",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Board identity: the image shows only a black 12-pin 2x6 wire-to-board connector with a pin table; no product name or board is visible, so it cannot be confirmed that this is the T906's connector.",
+    "Hole mapping inferred from callouts: pins 1 and 7 are at one end and 6 and 12 at the other, with 1-6 and 7-12 taken as the two rows; the photo is small and the callout arrows for 1/7 point close together, so which physical row holds 1-6 is not fully clear."
+  ],
+  "notes": "Only one connector is shown; any other headers on the device are not in this image. Callout box '1' partially overlaps table cell 3; the '3' is still legible."
+}

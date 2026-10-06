@@ -1,0 +1,138 @@
+{
+  "recordId": "seeed-studio-other-rfbee-v1-1",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/e40ab592bb88da213595332bb146be9d14921cdb6ad9edb33c34fab185833121.jpg",
+      "sha256": "e40ab592bb88da213595332bb146be9d14921cdb6ad9edb33c34fab185833121"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left column",
+      "image": "media/e40ab592bb88da213595332bb146be9d14921cdb6ad9edb33c34fab185833121.jpg",
+      "rows": 1,
+      "orderNote": "No USB or numbered pin 1 (square pad at top not used as a mark); vertical row read top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RX",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "PD4",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "PB1",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "PB0",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "PD7",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "DTR",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right column",
+      "image": "media/e40ab592bb88da213595332bb146be9d14921cdb6ad9edb33c34fab185833121.jpg",
+      "rows": 1,
+      "orderNote": "No USB or numbered pin 1; vertical row read top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PC4",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "PC5",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PD6",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "PD5",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "ADC7",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "PC0",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "VREF",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "PC1",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "PC2",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "PC3",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "A 2x3 pad block at the bottom right is marked only with '1' next to its top-left pad and has no pin labels; not transcribed.",
+    "'RESET' is printed with an overbar (active-low); overbar omitted. The V in '3V3'/'VREF' is drawn in a U-like font."
+  ],
+  "notes": "Board outline drawing labeled 'RFBee v1.1 03/15/2010'."
+}

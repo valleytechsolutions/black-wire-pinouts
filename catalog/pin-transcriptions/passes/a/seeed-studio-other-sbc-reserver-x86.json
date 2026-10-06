@@ -1,0 +1,189 @@
+{
+  "recordId": "seeed-studio-other-sbc-reserver-x86",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/0bea22d6a5a96b07f98f8e2226757fb20cbf04417318dda208657ef587bbd775.png",
+      "sha256": "0bea22d6a5a96b07f98f8e2226757fb20cbf04417318dda208657ef587bbd775"
+    },
+    {
+      "file": "media/63ba9a9249a903cf9f266cf9a7c69a03f12878a2f324832b7ff55d9ad5257ee8.png",
+      "sha256": "63ba9a9249a903cf9f266cf9a7c69a03f12878a2f324832b7ff55d9ad5257ee8"
+    },
+    {
+      "file": "media/1e7bf8f51f0ee2fa754789eaee733aaf2ab28faf8db36d3704fed77a7a025bc0.png",
+      "sha256": "1e7bf8f51f0ee2fa754789eaee733aaf2ab28faf8db36d3704fed77a7a025bc0"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "com-header",
+      "name": "COM header",
+      "image": "media/0bea22d6a5a96b07f98f8e2226757fb20cbf04417318dda208657ef587bbd775.png",
+      "rows": 2,
+      "orderNote": "PIN 1 marked at top of left column; remaining holes numbered by rule 4 alternation (left, right per row, top to bottom).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "DCD",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "RXD",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "TXD",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "DTR",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "DSR",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "RTS",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "CTS",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "RI",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "front-panel-header-img2",
+      "name": "Front panel header",
+      "image": "media/63ba9a9249a903cf9f266cf9a7c69a03f12878a2f324832b7ff55d9ad5257ee8.png",
+      "rows": 2,
+      "orderNote": "PIN 1 marked at top of left column; remaining holes numbered by rule 4 alternation (left, right per row, top to bottom).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "HDD_LED+",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "PWR_LED+",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "HDD_LED-",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "PWR_LED-",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "Ground",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "PWR",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "HWRST#",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "(NC)",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "usb-header-img3",
+      "name": "USB header",
+      "image": "media/1e7bf8f51f0ee2fa754789eaee733aaf2ab28faf8db36d3704fed77a7a025bc0.png",
+      "rows": 2,
+      "orderNote": "PIN 1 marked at top of left column; remaining holes numbered by rule 4 alternation (left, right per row, top to bottom).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "USB+5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "USB+5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "USB_P12-",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "USB_P11-",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "USB_P12+",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "USB_P11+",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "NC",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "All three headers are 2x5 with one position missing (image 1 and 2: bottom-right; image 3: bottom-left); only the 9 pins drawn are listed, so the last position number differs from a 10-position header count. Alternating numbering after the PIN 1 mark is inferred, not printed."
+  ],
+  "notes": "Group labels printed beside pin pairs (COM, +HDD_LED, PWR_LED, RESET, PWR BTN) are connector/group names and were not added as pin functions. Image 2 groups: +HDD_LED = HDD_LED+/HDD_LED-, PWR_LED = PWR_LED+/PWR_LED-, RESET = Ground/HWRST#, PWR BTN = PWR/GND."
+}

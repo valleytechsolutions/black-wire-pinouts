@@ -1,0 +1,388 @@
+{
+  "recordId": "adafruit-esp32-huzzah32-breakout",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/7504aba8d68235775ce42ed2e08e71a5c95e14f6f4721bba933893815838724c.png",
+      "sha256": "7504aba8d68235775ce42ed2e08e71a5c95e14f6f4721bba933893815838724c"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/7504aba8d68235775ce42ed2e08e71a5c95e14f6f4721bba933893815838724c.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked and no USB connector; vertical row started at the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "I36",
+          "functions": [
+            "36",
+            "ADC1_CH0",
+            "RTC0",
+            "SENSE_V+",
+            "Input Only"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "I39",
+          "functions": [
+            "39",
+            "ADC1_CH3",
+            "RTC3",
+            "SENSE_V-",
+            "Input Only"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "A2",
+          "functions": [
+            "34",
+            "ADC1_CH6",
+            "RTC4",
+            "VDET1",
+            "Input Only"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "A13",
+          "functions": [
+            "35",
+            "ADC1_CH7",
+            "RTC5",
+            "VDET2",
+            "Input Only"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "IO32",
+          "functions": [
+            "32",
+            "ADC1_CH4",
+            "T9",
+            "RTC9",
+            "32K_XP"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "IO33",
+          "functions": [
+            "33",
+            "ADC1_CH5",
+            "T8",
+            "RTC8",
+            "32K_XN"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "IO25",
+          "functions": [
+            "25",
+            "ADC2_CH8",
+            "RTC6",
+            "DAC1"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "IO26",
+          "functions": [
+            "26",
+            "ADC2_CH9",
+            "RTC7",
+            "DAC2"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "IO27",
+          "functions": [
+            "27",
+            "ADC2_CH7",
+            "T7",
+            "RTC17"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "IO14",
+          "functions": [
+            "14",
+            "ADC2_CH6",
+            "HSPICLK",
+            "HS2_CLK",
+            "T6",
+            "RTC16",
+            "MTMS"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "IO12",
+          "functions": [
+            "12",
+            "ADC2_CH5",
+            "HSPIQ",
+            "HS2_DATA2",
+            "T5",
+            "RTC15",
+            "MTDI"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "IO13",
+          "functions": [
+            "13",
+            "ADC2_CH4",
+            "HSPID",
+            "HS2_DATA3",
+            "T4",
+            "RTC14",
+            "MTCK"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/7504aba8d68235775ce42ed2e08e71a5c95e14f6f4721bba933893815838724c.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked and no USB connector; vertical row started at the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO23",
+          "functions": [
+            "23",
+            "VSPID",
+            "HS1_STROBE"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "IO22",
+          "functions": [
+            "22",
+            "VSPIWP",
+            "U0RTS"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "TX",
+          "functions": [
+            "10",
+            "SPIWP",
+            "HS1_DATA3",
+            "U1TXD"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "RX",
+          "functions": [
+            "9",
+            "SPIHD",
+            "HS1_DATA2",
+            "U1RXD"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "IO21",
+          "functions": [
+            "21",
+            "VSPIHD"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "IO19",
+          "functions": [
+            "19",
+            "VSPIQ",
+            "U0CTS"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "IO18",
+          "functions": [
+            "18",
+            "VSPICLK",
+            "HS1_DATA7"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "IO5",
+          "functions": [
+            "5",
+            "VSPICS0",
+            "HS1_DATA6"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "IO17",
+          "functions": [
+            "17",
+            "HS1_DATA5",
+            "U2TXD"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "IO16",
+          "functions": [
+            "16",
+            "HS1_DATA4",
+            "U2RXD"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "IO4",
+          "functions": [
+            "4",
+            "ADC2_CH0",
+            "HSPIHD",
+            "HS2_DATA1",
+            "T0",
+            "RTC10"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "IO0",
+          "functions": [
+            "0",
+            "ADC2_CH1",
+            "T1",
+            "RTC11",
+            "CLK_OUT1"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "IO2",
+          "functions": [
+            "2",
+            "ADC2_CH2",
+            "HSPIWP",
+            "HS2_DATA0",
+            "T2",
+            "RTC12"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "IO15",
+          "functions": [
+            "15",
+            "ADC2_CH3",
+            "HSPICS0",
+            "HS2_CMD",
+            "T3",
+            "RTC13",
+            "MTDO"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "VBAT",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-header",
+      "name": "Bottom header (6 pads)",
+      "image": "media/7504aba8d68235775ce42ed2e08e71a5c95e14f6f4721bba933893815838724c.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked and no USB connector; horizontal row started at the left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "TX",
+          "functions": [
+            "10",
+            "VSPIWP",
+            "HS1_DATA3",
+            "U1TXD"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "RX",
+          "functions": [
+            "9",
+            "VSPIHD",
+            "HS1_DATA2",
+            "U1RXD"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "VIN",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    {
+      "connector": "bottom-header",
+      "position": 1,
+      "description": "Pad present at the left end of the bottom row with no callout and no legible silkscreen"
+    },
+    {
+      "connector": "bottom-header",
+      "position": 5,
+      "description": "Pad between VIN and GND with no callout and no legible silkscreen"
+    }
+  ],
+  "notes": "Labels are the grey 'Arduino Name' boxes (board silkscreen is too small to read on the side headers; bottom silkscreen reads approximately Tx, Rx, V+, GND). Functions listed from the pin outward, including the yellow GPIO numbers. Bottom-row TX/RX callouts print VSPIWP/VSPIHD where the right-header TX/RX print SPIWP/SPIHD; copied as printed."
+}

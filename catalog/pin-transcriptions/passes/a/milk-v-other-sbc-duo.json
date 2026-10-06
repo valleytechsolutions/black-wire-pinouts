@@ -1,0 +1,1527 @@
+{
+ "recordId": "milk-v-other-sbc-duo",
+ "pass": "a",
+ "date": "2026-10-05",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/011b60e280803482debb410f6e1513e2fd8cabaeb31ee0f7bb0012971f34a11a.png",
+   "sha256": "011b60e280803482debb410f6e1513e2fd8cabaeb31ee0f7bb0012971f34a11a"
+  },
+  {
+   "file": "media/5f7b613f2ee903b166d5068b24da4aa7c28d5c7e0211e02ba8e2eee88d38eca4.png",
+   "sha256": "5f7b613f2ee903b166d5068b24da4aa7c28d5c7e0211e02ba8e2eee88d38eca4"
+  },
+  {
+   "file": "media/5e9ee75cca84b61e89d2154182b7422b6a51970178d0b55b6c24f2cbe3f535a3.webp",
+   "sha256": "5e9ee75cca84b61e89d2154182b7422b6a51970178d0b55b6c24f2cbe3f535a3"
+  },
+  {
+   "file": "media/8ee95aaeaf8cfcc60fd0f5dc905858168904ba0e57d62ed63e8fbc626c0b427b.webp",
+   "sha256": "8ee95aaeaf8cfcc60fd0f5dc905858168904ba0e57d62ed63e8fbc626c0b427b"
+  },
+  {
+   "file": "media/dc6224ae4bb201747aa1304d7604163a2be12aea85cb3d4e7d863c1e92b55037.webp",
+   "sha256": "dc6224ae4bb201747aa1304d7604163a2be12aea85cb3d4e7d863c1e92b55037"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "left-header",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "IIC0_SCL",
+     "functions": [
+      "1"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "IIC0_SDA",
+     "functions": [
+      "2"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "SD1_GPIO1",
+     "functions": [
+      "4"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "SD1_GPIO0",
+     "functions": [
+      "5"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "SD1_D2",
+     "functions": [
+      "6"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "SD1_D1",
+     "functions": [
+      "7"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "SD1_CLK",
+     "functions": [
+      "9"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "SD1_CMD",
+     "functions": [
+      "10"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "SD1_D0",
+     "functions": [
+      "11"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "SD1_D3",
+     "functions": [
+      "12"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 14,
+     "label": "PAD_MIPIRX1P",
+     "functions": [
+      "14"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "PAD_MIPIRX0N",
+     "functions": [
+      "15"
+     ]
+    },
+    {
+     "position": 16,
+     "label": "UART0_TX",
+     "functions": [
+      "16"
+     ]
+    },
+    {
+     "position": 17,
+     "label": "UART0_RX",
+     "functions": [
+      "17"
+     ]
+    },
+    {
+     "position": 18,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "SD0_PWR_EN",
+     "functions": [
+      "19"
+     ]
+    },
+    {
+     "position": 20,
+     "label": "SPK_EN",
+     "functions": [
+      "20"
+     ]
+    }
+   ],
+   "image": "media/011b60e280803482debb410f6e1513e2fd8cabaeb31ee0f7bb0012971f34a11a.png"
+  },
+  {
+   "id": "right-header",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "Printed positions 21-40 bottom to top; local numbering 1-20.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "SPINOR_MISO",
+     "functions": [
+      "21"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "SPINOR_CS_X",
+     "functions": [
+      "22"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "SPINOR_SCK",
+     "functions": [
+      "24"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "SPINOR_MOSI",
+     "functions": [
+      "25"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "SPINOR_WP_X",
+     "functions": [
+      "26"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "SPINOR_HOLD_X",
+     "functions": [
+      "27"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "PWR_SEQ2",
+     "functions": [
+      "29"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "RUN",
+     "functions": []
+    },
+    {
+     "position": 11,
+     "label": "ADC1",
+     "functions": [
+      "31"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "USB_VBUS_DET",
+     "functions": [
+      "32"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 14,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 15,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 16,
+     "label": "3V3(OUT)",
+     "functions": []
+    },
+    {
+     "position": 17,
+     "label": "3V3_EN",
+     "functions": []
+    },
+    {
+     "position": 18,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "VSYS",
+     "functions": []
+    },
+    {
+     "position": 20,
+     "label": "VBUS",
+     "functions": []
+    }
+   ],
+   "image": "media/011b60e280803482debb410f6e1513e2fd8cabaeb31ee0f7bb0012971f34a11a.png"
+  },
+  {
+   "id": "ETH",
+   "name": "ETH",
+   "rows": 1,
+   "orderNote": "USB centered above; left to right.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "TX+",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "TX-",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "RX+",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "RX-",
+     "functions": []
+    }
+   ],
+   "image": "media/011b60e280803482debb410f6e1513e2fd8cabaeb31ee0f7bb0012971f34a11a.png"
+  },
+  {
+   "id": "left-header-img2",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "1",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "2",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "4",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "5",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "6",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "7",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "9",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "10",
+     "functions": []
+    },
+    {
+     "position": 11,
+     "label": "11",
+     "functions": []
+    },
+    {
+     "position": 12,
+     "label": "12",
+     "functions": []
+    },
+    {
+     "position": 13,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 14,
+     "label": "14",
+     "functions": []
+    },
+    {
+     "position": 15,
+     "label": "15",
+     "functions": []
+    },
+    {
+     "position": 16,
+     "label": "16",
+     "functions": []
+    },
+    {
+     "position": 17,
+     "label": "17",
+     "functions": []
+    },
+    {
+     "position": 18,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "19",
+     "functions": []
+    },
+    {
+     "position": 20,
+     "label": "20",
+     "functions": []
+    }
+   ],
+   "image": "media/5f7b613f2ee903b166d5068b24da4aa7c28d5c7e0211e02ba8e2eee88d38eca4.png"
+  },
+  {
+   "id": "right-header-img2",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "Printed positions 21-40 bottom to top; local numbering 1-20.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "21",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "22",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "24",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "25",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "26",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "27",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "29",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "RUN",
+     "functions": []
+    },
+    {
+     "position": 11,
+     "label": "31",
+     "functions": []
+    },
+    {
+     "position": 12,
+     "label": "32",
+     "functions": []
+    },
+    {
+     "position": 13,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 14,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 15,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 16,
+     "label": "3V3(OUT)",
+     "functions": []
+    },
+    {
+     "position": 17,
+     "label": "3V3_EN",
+     "functions": []
+    },
+    {
+     "position": 18,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "VSYS",
+     "functions": []
+    },
+    {
+     "position": 20,
+     "label": "VBUS",
+     "functions": []
+    }
+   ],
+   "image": "media/5f7b613f2ee903b166d5068b24da4aa7c28d5c7e0211e02ba8e2eee88d38eca4.png"
+  },
+  {
+   "id": "ETH-img2",
+   "name": "ETH",
+   "rows": 1,
+   "orderNote": "USB centered above; left to right.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "TX+",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "TX-",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "RX+",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "RX-",
+     "functions": []
+    }
+   ],
+   "image": "media/5f7b613f2ee903b166d5068b24da4aa7c28d5c7e0211e02ba8e2eee88d38eca4.png"
+  },
+  {
+   "id": "left-header-img3",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GP0",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GP1",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GP2",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "GP3",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "GP4",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "GP5",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "GP6",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "GP7",
+     "functions": []
+    },
+    {
+     "position": 11,
+     "label": "GP8",
+     "functions": []
+    },
+    {
+     "position": 12,
+     "label": "GP9",
+     "functions": []
+    },
+    {
+     "position": 13,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 14,
+     "label": "GP10",
+     "functions": []
+    },
+    {
+     "position": 15,
+     "label": "GP11",
+     "functions": []
+    },
+    {
+     "position": 16,
+     "label": "GP12",
+     "functions": []
+    },
+    {
+     "position": 17,
+     "label": "GP13",
+     "functions": []
+    },
+    {
+     "position": 18,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "GP14",
+     "functions": []
+    },
+    {
+     "position": 20,
+     "label": "GP15",
+     "functions": []
+    }
+   ],
+   "image": "media/5e9ee75cca84b61e89d2154182b7422b6a51970178d0b55b6c24f2cbe3f535a3.webp"
+  },
+  {
+   "id": "right-header-img3",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "Printed positions 21-40 bottom to top; local numbering 1-20.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GP16",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GP17",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GP18",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "GP19",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "GP20",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "GP21",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "GP22",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "RUN",
+     "functions": []
+    },
+    {
+     "position": 11,
+     "label": "GP26",
+     "functions": []
+    },
+    {
+     "position": 12,
+     "label": "GP27",
+     "functions": []
+    },
+    {
+     "position": 13,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 14,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 15,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 16,
+     "label": "3V3(OUT)",
+     "functions": []
+    },
+    {
+     "position": 17,
+     "label": "3V3_EN",
+     "functions": []
+    },
+    {
+     "position": 18,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "VSYS",
+     "functions": []
+    },
+    {
+     "position": 20,
+     "label": "VBUS",
+     "functions": []
+    }
+   ],
+   "image": "media/5e9ee75cca84b61e89d2154182b7422b6a51970178d0b55b6c24f2cbe3f535a3.webp"
+  },
+  {
+   "id": "ETH-img3",
+   "name": "ETH",
+   "rows": 1,
+   "orderNote": "USB centered above; left to right.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "TX+",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "TX-",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "RX+",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "RX-",
+     "functions": []
+    }
+   ],
+   "image": "media/5e9ee75cca84b61e89d2154182b7422b6a51970178d0b55b6c24f2cbe3f535a3.webp"
+  },
+  {
+   "id": "left-header-img4",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GP0",
+     "functions": [
+      "UART1/2_TX",
+      "I2C0_SCL",
+      "JTAG_TDI"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "GP1",
+     "functions": [
+      "UART1/2_RX",
+      "I2C0_SDA",
+      "JTAG_TDO"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GP2",
+     "functions": [
+      "UART4_TX",
+      "PWM10",
+      "SD1_GP1"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GP3",
+     "functions": [
+      "UART4_RX",
+      "PWM11",
+      "SD1_GP0"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GP4",
+     "functions": [
+      "UART2/3_TX",
+      "I2C1_SCL",
+      "PWM5",
+      "SD1_D2",
+      "SPINOR1_WP"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GP5",
+     "functions": [
+      "UART2/3_RX",
+      "I2C1_SDA",
+      "PWM6",
+      "SD1_D1",
+      "SPINOR1_HOLD"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "GP6",
+     "functions": [
+      "I2C3_SDA",
+      "PWM9",
+      "SD1_CLK",
+      "SPI2_SCK/SPINOR1_SCK",
+      "PHY_SPEED_LED"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "GP7",
+     "functions": [
+      "I2C3_SCL",
+      "PWM8",
+      "SD1_CMD",
+      "SPI2_TX/SPINOR1_MOSI",
+      "PHY_LINK_LED"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "GP8",
+     "functions": [
+      "UART3_RTS",
+      "I2C1_SDA",
+      "PWM7",
+      "SD1_D0",
+      "SPI2_RX/SPINOR1_MISO"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "GP9",
+     "functions": [
+      "UART3_CTS",
+      "I2C1_SCL",
+      "PWM4",
+      "SD1_D3",
+      "SPI2_CSn/SPINOR1_CS"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 14,
+     "label": "GP10",
+     "functions": [
+      "I2C1_SDA"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "GP11",
+     "functions": [
+      "I2C1_SCL"
+     ]
+    },
+    {
+     "position": 16,
+     "label": "GP12",
+     "functions": [
+      "UART0/1_TX",
+      "PWM4",
+      "JTAG_TMS"
+     ]
+    },
+    {
+     "position": 17,
+     "label": "GP13",
+     "functions": [
+      "UART0/1_RX",
+      "PWM5",
+      "JTAG_TCK"
+     ]
+    },
+    {
+     "position": 18,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "GP14",
+     "functions": []
+    },
+    {
+     "position": 20,
+     "label": "GP15",
+     "functions": []
+    }
+   ],
+   "image": "media/8ee95aaeaf8cfcc60fd0f5dc905858168904ba0e57d62ed63e8fbc626c0b427b.webp"
+  },
+  {
+   "id": "right-header-img4",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "Printed positions 21-40 bottom to top; local numbering 1-20.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GP16",
+     "functions": [
+      "SPINOR_MISO",
+      "NAND_MISO"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "GP17",
+     "functions": [
+      "SPINOR_CS",
+      "NAND_CS"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GP18",
+     "functions": [
+      "SPINOR_SCK",
+      "NAND_SCK"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GP19",
+     "functions": [
+      "SPINOR_MOSI",
+      "NAND_MOSI"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GP20",
+     "functions": [
+      "SPINOR_WP",
+      "NAND_WP"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GP21",
+     "functions": [
+      "SPINOR_HOLD",
+      "NAND_HOLD"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "GP22",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "RUN",
+     "functions": []
+    },
+    {
+     "position": 11,
+     "label": "GP26",
+     "functions": [
+      "ADC1 (1.8V)"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "GP27",
+     "functions": [
+      "ADC2 (1.8V)"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 14,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 15,
+     "label": "?",
+     "functions": []
+    },
+    {
+     "position": 16,
+     "label": "3V3(OUT)",
+     "functions": []
+    },
+    {
+     "position": 17,
+     "label": "3V3_EN",
+     "functions": []
+    },
+    {
+     "position": 18,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "VSYS",
+     "functions": []
+    },
+    {
+     "position": 20,
+     "label": "VBUS",
+     "functions": []
+    }
+   ],
+   "image": "media/8ee95aaeaf8cfcc60fd0f5dc905858168904ba0e57d62ed63e8fbc626c0b427b.webp"
+  },
+  {
+   "id": "ETH-img4",
+   "name": "ETH",
+   "rows": 1,
+   "orderNote": "USB centered above; left to right.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "TX+",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "TX-",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "RX+",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "RX-",
+     "functions": []
+    }
+   ],
+   "image": "media/8ee95aaeaf8cfcc60fd0f5dc905858168904ba0e57d62ed63e8fbc626c0b427b.webp"
+  },
+  {
+   "id": "left-header-img5",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GP0",
+     "functions": [
+      "UART1/2_TX",
+      "I2C0_SCL",
+      "JTAG_TDI"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "GP1",
+     "functions": [
+      "UART1/2_RX",
+      "I2C0_SDA",
+      "JTAG_TDO"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GP2",
+     "functions": [
+      "UART4_TX / UART1_TX(Duo 256M)",
+      "PWM10 / PWM7(Duo 256M)",
+      "SD1_GP1",
+      "JTAG_TMS(Duo 256M)"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GP3",
+     "functions": [
+      "UART4_RX / UART1_RX(Duo 256M)",
+      "PWM11 / PWM6(Duo 256M)",
+      "SD1_GP0",
+      "JTAG_TCK(Duo 256M)"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GP4",
+     "functions": [
+      "UART2/3_TX",
+      "I2C1_SCL",
+      "PWM5",
+      "SD1_D2",
+      "SPINOR1_WP"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GP5",
+     "functions": [
+      "UART2/3_RX",
+      "I2C1_SDA",
+      "PWM6",
+      "SD1_D1",
+      "SPINOR1_HOLD"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "GP6",
+     "functions": [
+      "I2C3_SDA",
+      "PWM9",
+      "SD1_CLK",
+      "SPI2_SCK/SPINOR1_SCK",
+      "PHY_SPEED_LED"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "GP7",
+     "functions": [
+      "I2C3_SCL",
+      "PWM8",
+      "SD1_CMD",
+      "SPI2_TX/SPINOR1_MOSI",
+      "PHY_LINK_LED"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "GP8",
+     "functions": [
+      "UART3_RTS",
+      "I2C1_SDA",
+      "PWM7",
+      "SD1_D0",
+      "SPI2_RX/SPINOR1_MISO"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "GP9",
+     "functions": [
+      "UART3_CTS",
+      "I2C1_SCL",
+      "PWM4",
+      "SD1_D3",
+      "SPI2_CSn/SPINOR1_CS"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 14,
+     "label": "GP10",
+     "functions": [
+      "I2C1_SDA / I2C2_SDA(Duo 256M)",
+      "PWM10(Duo 256M)"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "GP11",
+     "functions": [
+      "I2C1_SCL / I2C2_SCL(Duo 256M)",
+      "PWM11(Duo 256M)"
+     ]
+    },
+    {
+     "position": 16,
+     "label": "GP12",
+     "functions": [
+      "UART0/1_TX",
+      "PWM4",
+      "JTAG_TMS"
+     ]
+    },
+    {
+     "position": 17,
+     "label": "GP13",
+     "functions": [
+      "UART0/1_RX",
+      "PWM5",
+      "JTAG_TCK"
+     ]
+    },
+    {
+     "position": 18,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "GP14",
+     "functions": []
+    },
+    {
+     "position": 20,
+     "label": "GP15",
+     "functions": []
+    }
+   ],
+   "image": "media/dc6224ae4bb201747aa1304d7604163a2be12aea85cb3d4e7d863c1e92b55037.webp"
+  },
+  {
+   "id": "right-header-img5",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "Printed positions 21-40 bottom to top; local numbering 1-20.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GP16",
+     "functions": [
+      "SPINOR_MISO",
+      "NAND_MISO",
+      "EMMC_CMD(Duo 256M)"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "GP17",
+     "functions": [
+      "SPINOR_CS",
+      "NAND_CS",
+      "EMMC_DAT1(Duo 256M)"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GP18",
+     "functions": [
+      "SPINOR_SCK",
+      "NAND_SCK",
+      "EMMC_CLK(Duo 256M)"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GP19",
+     "functions": [
+      "SPINOR_MOSI",
+      "NAND_MOSI",
+      "EMMC_DAT0(Duo 256M)"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GP20",
+     "functions": [
+      "SPINOR_WP",
+      "NAND_WP",
+      "EMMC_DAT3(Duo 256M)"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GP21",
+     "functions": [
+      "SPINOR_HOLD",
+      "NAND_HOLD",
+      "EMMC_DAT2(Duo 256M)"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "GP22",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "RUN",
+     "functions": []
+    },
+    {
+     "position": 11,
+     "label": "GP26",
+     "functions": [
+      "ADC1 (1.8V)"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "GP27",
+     "functions": [
+      "ADC2 (1.8V)"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 14,
+     "label": "AUDIO_OUT(Duo 256M)",
+     "functions": []
+    },
+    {
+     "position": 15,
+     "label": "Boot Switch(Duo 256M)",
+     "functions": []
+    },
+    {
+     "position": 16,
+     "label": "3V3(OUT)",
+     "functions": []
+    },
+    {
+     "position": 17,
+     "label": "3V3_EN",
+     "functions": []
+    },
+    {
+     "position": 18,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "VSYS",
+     "functions": []
+    },
+    {
+     "position": 20,
+     "label": "VBUS",
+     "functions": []
+    }
+   ],
+   "image": "media/dc6224ae4bb201747aa1304d7604163a2be12aea85cb3d4e7d863c1e92b55037.webp"
+  },
+  {
+   "id": "ETH-img5",
+   "name": "ETH",
+   "rows": 1,
+   "orderNote": "USB centered above; left to right.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "TX+",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "TX-",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "RX+",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "RX-",
+     "functions": []
+    }
+   ],
+   "image": "media/dc6224ae4bb201747aa1304d7604163a2be12aea85cb3d4e7d863c1e92b55037.webp"
+  }
+ ],
+ "notes": "Each revision image read separately. Unnamed CAM/TF contacts and LED omitted. Image 5 crossed-out Duo 256M functions are not active aliases; variant-qualified replacements retained.",
+ "unreadable": [
+  "Images 1-4 leave physical positions 34 and 35 unnamed."
+ ],
+ "uncertain": []
+}

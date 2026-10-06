@@ -1,0 +1,412 @@
+{
+  "recordId": "crcibernetica-esp32-ideaboard",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/3257bed0db1f5521ca4d3ce80f1383e05eca7c8b3dbe63502335fc702a5e5801.png",
+      "sha256": "3257bed0db1f5521ca4d3ce80f1383e05eca7c8b3dbe63502335fc702a5e5801"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "i2c-header",
+      "name": "Top-left 4-pin I2C header",
+      "image": "media/3257bed0db1f5521ca4d3ce80f1383e05eca7c8b3dbe63502335fc702a5e5801.png",
+      "rows": 1,
+      "orderNote": "No USB connector identified in the image; no pin numbers; horizontal row started at left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO22",
+          "functions": [
+            "SCL",
+            "Pin 22",
+            "I2C SCL"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "IO21",
+          "functions": [
+            "SDA",
+            "Pin 21",
+            "I2C SDA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header",
+      "name": "Left 3x7 header (GND / V+ / signal columns)",
+      "image": "media/3257bed0db1f5521ca4d3ce80f1383e05eca7c8b3dbe63502335fc702a5e5801.png",
+      "rows": 3,
+      "orderNote": "No USB connector identified in the image; no pin numbers; 3-row block numbered like rule 4 2xN: top row first, starting with the column nearest the left board edge (GND, V+, signal), then next row down",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "V+",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO04",
+          "functions": [
+            "Pin 4",
+            "Analog In*",
+            "TOUCH"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "V+",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "IO05",
+          "functions": [
+            "Pin 5",
+            "SPI CS"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "V+",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "IO18",
+          "functions": [
+            "Pin 18",
+            "SPI CLK"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "V+",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "IO19",
+          "functions": [
+            "Pin 19",
+            "SPI MISO"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "V+",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "IO23",
+          "functions": [
+            "Pin 23",
+            "SPI MOSI"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "V+",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "IO25",
+          "functions": [
+            "Pin 25",
+            "Analog In*",
+            "DAC"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "V+",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "IO26",
+          "functions": [
+            "Pin 26",
+            "Analog In*",
+            "DAC"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right 3x7 header (signal / 3.3v / GND columns)",
+      "image": "media/3257bed0db1f5521ca4d3ce80f1383e05eca7c8b3dbe63502335fc702a5e5801.png",
+      "rows": 3,
+      "orderNote": "No USB connector identified in the image; no pin numbers; 3-row block numbered like rule 4 2xN: top row first, starting with the column nearest the right board edge (GND, 3.3v, signal), then next row down",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3v",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO27",
+          "functions": [
+            "Pin 27",
+            "Analog In*",
+            "TOUCH"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3.3v",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "IO33",
+          "functions": [
+            "Pin 33",
+            "Analog In",
+            "TOUCH"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "3.3v",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "IO32",
+          "functions": [
+            "Pin 32",
+            "Analog In",
+            "TOUCH"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "3.3v",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "IO35",
+          "functions": [
+            "Pin 35",
+            "Analog In",
+            "INPUT ONLY"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "3.3v",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "IO34",
+          "functions": [
+            "Pin 34",
+            "Analog In",
+            "INPUT ONLY"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "3.3v",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "VN/39",
+          "functions": [
+            "Pin 39",
+            "Analog In",
+            "INPUT ONLY"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "3.3v",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "VN/36",
+          "functions": [
+            "Pin 36",
+            "Analog In",
+            "INPUT ONLY"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uart-header",
+      "name": "Top-right 4-pin header",
+      "image": "media/3257bed0db1f5521ca4d3ce80f1383e05eca7c8b3dbe63502335fc702a5e5801.png",
+      "rows": 1,
+      "orderNote": "No USB connector identified in the image; no pin numbers; horizontal row started at left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "TX0",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "RX0",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "+3.3v",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "power-select",
+      "name": "Vin / SELECT / +3.3v 3-pin header",
+      "image": "media/3257bed0db1f5521ca4d3ce80f1383e05eca7c8b3dbe63502335fc702a5e5801.png",
+      "rows": 1,
+      "orderNote": "No USB connector identified in the image; no pin numbers; vertical row started at top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "Vin",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SELECT",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "+3.3v",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "power-terminal",
+      "name": "Power screw terminal",
+      "image": "media/3257bed0db1f5521ca4d3ce80f1383e05eca7c8b3dbe63502335fc702a5e5801.png",
+      "rows": 1,
+      "orderNote": "No USB connector identified in the image; no pin numbers; horizontal pair started at left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "Power",
+          "functions": [
+            "+",
+            "4.5-9VDC"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "-"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "i2c-header position 2: silkscreen '3.3V' is faint and partly covered by a callout line; read as 3.3V"
+  ],
+  "notes": "Column labels printed once at the bottom of each 3x7 block (GND V+ on left, 3.3v GND on right) applied to every hole in that column. Signal pins labelled by silkscreen IOxx name; callout 'Pin N' and function boxes in functions. Right block silkscreen prints both bottom rows as VN/39 and VN/36 (copied as printed). Footnote: pins 4, 25, 26, 27 cannot function as Analog In while using WIFI (marked Analog In*). MOTOR1/MOTOR2 2-pin headers, Qwiic connector and motor driver/LED callouts have no per-pin labels and are skipped."
+}

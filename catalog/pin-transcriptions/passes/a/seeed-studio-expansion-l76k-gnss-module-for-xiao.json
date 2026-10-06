@@ -1,0 +1,119 @@
+{
+  "recordId": "seeed-studio-expansion-l76k-gnss-module-for-xiao",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/9fc8cd70a85811fcf8acc518ad43b6e58bb81fd8c883d6a6fd5343a485e1cc07.png",
+      "sha256": "9fc8cd70a85811fcf8acc518ad43b6e58bb81fd8c883d6a6fd5343a485e1cc07"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-pads",
+      "name": "Left castellated pads (bottom view)",
+      "image": "media/9fc8cd70a85811fcf8acc518ad43b6e58bb81fd8c883d6a6fd5343a485e1cc07.png",
+      "rows": 1,
+      "orderNote": "No USB or pin-1 mark; labels read from the bottom view, ordered top to bottom of that view",
+      "pins": [
+        {
+          "position": 1,
+          "label": "WUP",
+          "functions": [
+            "WAKEUP",
+            "0 Sleep",
+            "Normal 1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D1",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RST",
+          "functions": [
+            "RESET",
+            "0 Reset",
+            "Normal 1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "D4",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "D5",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "RX",
+          "functions": [
+            "RXD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-pads",
+      "name": "Right castellated pads (bottom view)",
+      "image": "media/9fc8cd70a85811fcf8acc518ad43b6e58bb81fd8c883d6a6fd5343a485e1cc07.png",
+      "rows": 1,
+      "orderNote": "No USB or pin-1 mark; labels read from the bottom view, ordered top to bottom of that view",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "D10",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "D9",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "D8",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "TX",
+          "functions": [
+            "TXD"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "The image shows a top view (callouts RXD, RESET, WAKEUP, TXD, 3V3, GND, 5V on some pads; other pads unlabeled) and a bottom view (silkscreen on all pads). Top-view callout names were attached as functions to bottom-view pads assuming the bottom view is flipped top-to-bottom (triangle mark moves from bottom-right to top-right); the 3V3/GND/5V, RST/RESET, WUP/WAKEUP and RX/RXD, TX/TXD matches are consistent with that."
+  ],
+  "notes": "Rechargeable cell pins (+/- only), U.FL antenna receptacle skipped. \"0 Sleep | Normal 1\" and \"0 Reset | Normal 1\" are the logic-level notes printed beside WAKEUP and RESET."
+}

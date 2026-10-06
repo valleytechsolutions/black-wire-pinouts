@@ -1,0 +1,78 @@
+{
+  "recordId": "lilygo-esp32-t-camera-plus-s3",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/75598eed0b356f07582fc19aab96fad35edcdb9628bbe6cd43de43750133f08f.jpg",
+      "sha256": "75598eed0b356f07582fc19aab96fad35edcdb9628bbe6cd43de43750133f08f"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "bottom-left-connector",
+      "name": "Bottom-left 4-pin connector (G/3V3/TX/RX)",
+      "image": "media/75598eed0b356f07582fc19aab96fad35edcdb9628bbe6cd43de43750133f08f.jpg",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; horizontal row, started at the end closest to the USB-C connector (right end, next to the centre USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RX",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "G",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-right-connector",
+      "name": "Bottom-right 4-pin connector (G/3V3/SDA/SCL)",
+      "image": "media/75598eed0b356f07582fc19aab96fad35edcdb9628bbe6cd43de43750133f08f.jpg",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; horizontal row, started at the end closest to the USB-C connector (left end, next to the centre USB).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SCL",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Only the two 4-pin connectors on the bottom edge have per-pin labels (printed below each connector). The centre JST-GH connector is a battery connector marked only -/+ and is skipped (rule 1). The callouts SDA: IO01 SCL:IO02 and BAT ADC INT: IO47 near the JST-GH label are not tied to individual connector pins and were not merged in. Module/peripheral GPIO tables (camera, LCD, TF card, audio) do not describe external wiring points. The LCD inset shows two small connectors whose silkscreen is too small to read; skipped.",
+  "uncertain": [
+    "Per-pin labels are printed as a text row under each connector rather than beside each contact; one label per contact in left-to-right order was assumed.",
+    "The image says QWIIC x 2, but the left connector is labelled G/3V3/TX/RX; whether both connectors are QWIIC-type is not settled by the image."
+  ]
+}

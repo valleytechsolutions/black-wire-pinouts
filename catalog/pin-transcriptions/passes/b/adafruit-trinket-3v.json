@@ -1,0 +1,118 @@
+{
+  "recordId": "adafruit-trinket-3v",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/f6cc6a1bcd426b89c88832fe8a1ed7e552a8f72bb1afe89b6b7557823e41eb5b.png",
+      "sha256": "f6cc6a1bcd426b89c88832fe8a1ed7e552a8f72bb1afe89b6b7557823e41eb5b"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left pins",
+      "image": "media/f6cc6a1bcd426b89c88832fe8a1ed7e552a8f72bb1afe89b6b7557823e41eb5b.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row starting at the top end, closest to the USB connector",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": [
+            "(4.3-16)V BATTERY"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PB4",
+          "functions": [
+            "4",
+            "PCINT4",
+            "OC1B",
+            "A2",
+            "USB"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PB3",
+          "functions": [
+            "3",
+            "PCINT3",
+            "!OC1B",
+            "A3",
+            "USB"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "RESET",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right pins",
+      "image": "media/f6cc6a1bcd426b89c88832fe8a1ed7e552a8f72bb1afe89b6b7557823e41eb5b.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row starting at the top end, closest to the USB connector",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBUS",
+          "functions": [
+            "+USB (+5V 500mA)"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PB0",
+          "functions": [
+            "0",
+            "PCINT0",
+            "OC0A/!OC1A",
+            "MOSI"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PB1",
+          "functions": [
+            "1",
+            "PCINT1",
+            "OC0B/OC1A",
+            "MISO",
+            "LED"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PB2",
+          "functions": [
+            "2",
+            "INT0/PCINT2",
+            "SCK",
+            "A1"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "3.3V",
+          "functions": [
+            "+3.3V (150mA) regulated from BAT"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Labels use the GPIO (port) names PBx with the Arduino pin number first in functions. Printed notes next to power pins kept as functions. Board silkscreen beside the pads is too small in this low-resolution image to transcribe reliably and was not used."
+}

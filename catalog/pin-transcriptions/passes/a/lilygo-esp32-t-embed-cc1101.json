@@ -1,0 +1,77 @@
+{
+  "recordId": "lilygo-esp32-t-embed-cc1101",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/da139f15d1089ed3b1a675fbf5f4841e7b8b9a1931bc75cf6be39459e7c62923.jpg",
+      "sha256": "da139f15d1089ed3b1a675fbf5f4841e7b8b9a1931bc75cf6be39459e7c62923"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "qwiic-left",
+      "name": "Qwiic connector (left, I2C)",
+      "image": "media/da139f15d1089ed3b1a675fbf5f4841e7b8b9a1931bc75cf6be39459e7c62923.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or pin-1 mark; labels listed in the printed top-to-bottom order beside the connector",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SDA--08",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SCL--18",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "qwiic-right",
+      "name": "Qwiic connector (right, UART)",
+      "image": "media/da139f15d1089ed3b1a675fbf5f4841e7b8b9a1931bc75cf6be39459e7c62923.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or pin-1 mark; labels listed in the printed top-to-bottom order beside the connector",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "TX--43",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RX--44",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Only the two Qwiic connectors are physical wiring points with individually labeled pins. The other callouts (LoRa, LCD, IR, encoder, microphone, TF card, PN532, speaker I2S) list internal GPIO assignments, not exposed pins, and are skipped per rule 1. Labels are copied as printed (e.g. 'SDA--08').",
+  "uncertain": [
+    "Qwiic connectors: the four labels per connector are printed as a vertical list beside two horizontal connectors; which physical contact each label belongs to (and which end is pin 1) is not shown, so the label-to-pin mapping is inferred from list order."
+  ]
+}

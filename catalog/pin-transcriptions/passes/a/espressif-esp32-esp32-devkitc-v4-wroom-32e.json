@@ -1,0 +1,385 @@
+{
+  "recordId": "espressif-esp32-esp32-devkitc-v4-wroom-32e",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/7d0fe74b814f0e3cd3554dcf0e483a9733c09e864d665af5c15ff1b83cfa6c14.png",
+      "sha256": "7d0fe74b814f0e3cd3554dcf0e483a9733c09e864d665af5c15ff1b83cfa6c14"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/7d0fe74b814f0e3cd3554dcf0e483a9733c09e864d665af5c15ff1b83cfa6c14.png",
+      "rows": 1,
+      "orderNote": "No header position numbers printed (PCB silkscreen shows GPIO numbers/names); started at end closest to the USB connector (bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V0",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO11",
+          "functions": [
+            "CMD",
+            "OD/IE/WPU"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO10",
+          "functions": [
+            "D3",
+            "OD/IE/WPU"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO9",
+          "functions": [
+            "D2",
+            "OD/IE/WPU"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO13",
+          "functions": [
+            "13",
+            "TOUCH4",
+            "ADC2_4",
+            "MTCK",
+            "HSPI_MOSI",
+            "OD/IE/WPD"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO12",
+          "functions": [
+            "12",
+            "ADC2_5",
+            "TOUCH5",
+            "MTDI",
+            "HSPI_MISO",
+            "VDD_FLASH",
+            "OD/IE/WPD"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO14",
+          "functions": [
+            "14",
+            "ADC2_6",
+            "TOUCH6",
+            "MTMS",
+            "HSPI_SCK",
+            "OD/IE/WPU"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO27",
+          "functions": [
+            "27",
+            "ADC2_7",
+            "TOUCH7",
+            "OD/ID"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO26",
+          "functions": [
+            "26",
+            "ADC2_9",
+            "DAC_2",
+            "OD/ID"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO25",
+          "functions": [
+            "25",
+            "ADC1_8",
+            "DAC_1",
+            "OD/ID"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO33",
+          "functions": [
+            "33",
+            "ADC1_5",
+            "TOUCH8",
+            "32K_XN",
+            "OD/ID"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO32",
+          "functions": [
+            "32",
+            "ADC1_4",
+            "TOUCH9",
+            "32K_XP",
+            "OD/ID"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO35",
+          "functions": [
+            "35",
+            "ADC1_7",
+            "VDET_2",
+            "OD/ID"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO34",
+          "functions": [
+            "34",
+            "ADC1_6",
+            "VDET_1",
+            "OD/ID"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO39",
+          "functions": [
+            "VN",
+            "ADC1_3",
+            "S_VN",
+            "OD/ID"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO36",
+          "functions": [
+            "VP",
+            "ADC1_0",
+            "S_VP",
+            "OD/ID"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "EN",
+          "functions": [
+            "PU"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/7d0fe74b814f0e3cd3554dcf0e483a9733c09e864d665af5c15ff1b83cfa6c14.png",
+      "rows": 1,
+      "orderNote": "No header position numbers printed (PCB silkscreen shows GPIO numbers/names); started at end closest to the USB connector (bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO6",
+          "functions": [
+            "CLK",
+            "SCK",
+            "OD/IE/WPU"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO7",
+          "functions": [
+            "D0",
+            "OD/IE/WPU"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO8",
+          "functions": [
+            "D1",
+            "OD/IE/WPU"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO15",
+          "functions": [
+            "15",
+            "ADC2_3",
+            "TOUCH3",
+            "MTDO",
+            "HSPI_SS",
+            "LOG",
+            "OD/IE/WPU"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO2",
+          "functions": [
+            "2",
+            "ADC2_2",
+            "TOUCH2",
+            "OD/IE/WPD"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO0",
+          "functions": [
+            "0",
+            "ADC2_1",
+            "TOUCH1",
+            "BOOT",
+            "OD/IE/WPU"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO4",
+          "functions": [
+            "4",
+            "ADC2_0",
+            "TOUCH0",
+            "OD/IE/WPD"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO16",
+          "functions": [
+            "16",
+            "OD/IE"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO17",
+          "functions": [
+            "17",
+            "OD/IE"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO5",
+          "functions": [
+            "5",
+            "VSPI_SS",
+            "SDIO",
+            "OD/IE/WPU"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO18",
+          "functions": [
+            "18",
+            "VSPI_SCK",
+            "OD/IE"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO19",
+          "functions": [
+            "19",
+            "VSPI_MISO",
+            "OD/IE"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO21",
+          "functions": [
+            "21",
+            "WIRE_SDA",
+            "OD/IE"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO3",
+          "functions": [
+            "RX",
+            "U0RXD",
+            "SERIAL_RX",
+            "OD/IE/WPU"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO1",
+          "functions": [
+            "TX",
+            "U0TXD",
+            "SERIAL_TX",
+            "OD/IE/WPU"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO22",
+          "functions": [
+            "22",
+            "WIRE_SCL",
+            "OD/IE"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GPIO23",
+          "functions": [
+            "23",
+            "VSPI_MOSI",
+            "SPI_MOSI",
+            "OD/IE"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Image is titled 'ESP32-DevKitC' and the module is drawn as 'ESP32-WROOM' with no version or WROOM-32E marking; cannot confirm it depicts the DevKitC V4 with WROOM-32E."
+  ],
+  "notes": "PCB silkscreen beside each pad listed first in functions (exact repeats such as D2/D3/D0/D1/CMD dropped). GPIO-state notes kept. 'RTC' category boxes, PWM/input-only arrow symbols and red '!' flash-shared markers omitted (legend: pin shared with flash memory, can't be used as regular GPIO on GPIO6-11)."
+}

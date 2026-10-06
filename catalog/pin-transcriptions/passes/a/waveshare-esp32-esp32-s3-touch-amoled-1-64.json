@@ -1,0 +1,185 @@
+{
+  "recordId": "waveshare-esp32-esp32-s3-touch-amoled-1-64",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/aeac7e022171cd4ece3f2ffc6c56dae08fa9efb2efab3c266adadd9694e34e08.jpg",
+      "sha256": "aeac7e022171cd4ece3f2ffc6c56dae08fa9efb2efab3c266adadd9694e34e08"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/aeac7e022171cd4ece3f2ffc6c56dae08fa9efb2efab3c266adadd9694e34e08.jpg",
+      "rows": 1,
+      "orderNote": "Vertical row; no pin numbers; started at the end closest to the USB-C connector (bottom end)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO18",
+          "functions": [
+            "18"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO17",
+          "functions": [
+            "17"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO16",
+          "functions": [
+            "16"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO15",
+          "functions": [
+            "15"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO8",
+          "functions": [
+            "8"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO7",
+          "functions": [
+            "7"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO6",
+          "functions": [
+            "6"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO5",
+          "functions": [
+            "5"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO3",
+          "functions": [
+            "3"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO2",
+          "functions": [
+            "2"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO1",
+          "functions": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/aeac7e022171cd4ece3f2ffc6c56dae08fa9efb2efab3c266adadd9694e34e08.jpg",
+      "rows": 1,
+      "orderNote": "Vertical row; no pin numbers; started at the end closest to the USB-C connector (bottom end)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "BAT",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO45",
+          "functions": [
+            "45"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO48",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO47",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO20",
+          "functions": [
+            "20",
+            "D_P"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO19",
+          "functions": [
+            "19",
+            "D_N"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO43",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO44",
+          "functions": [
+            "RXD"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Left-side group brackets 'ADC1_CHx' (GPIO1-GPIO8) and 'ADC2_CHx' (GPIO15-GPIO18) are generic category tags without per-pin channel numbers and were omitted. BAT battery JST, RST/BOOT buttons and antenna connector skipped. SD Card and QMI8658 tables list internal signals without physical pads."
+}

@@ -1,0 +1,159 @@
+{
+  "recordId": "waveshare-esp32-esp32-s3-lcd-1-47",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/277a296f345ce7e2f9d119e4a987e9503c998bfc6de6d823db8f4c9c8dd60409.jpg",
+      "sha256": "277a296f345ce7e2f9d119e4a987e9503c998bfc6de6d823db8f4c9c8dd60409"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/277a296f345ce7e2f9d119e4a987e9503c998bfc6de6d823db8f4c9c8dd60409.jpg",
+      "rows": 1,
+      "orderNote": "USB connector at top; start at top (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3(OUT)",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP1",
+          "functions": [
+            "1"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP2",
+          "functions": [
+            "2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP3",
+          "functions": [
+            "3"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP4",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP5",
+          "functions": [
+            "5"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP6",
+          "functions": [
+            "6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/277a296f345ce7e2f9d119e4a987e9503c998bfc6de6d823db8f4c9c8dd60409.jpg",
+      "rows": 1,
+      "orderNote": "USB connector at top; start at top (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "TX",
+          "functions": [
+            "TXD",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "RX",
+          "functions": [
+            "RXD",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP13",
+          "functions": [
+            "13"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP12",
+          "functions": [
+            "12"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP11",
+          "functions": [
+            "11"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP10",
+          "functions": [
+            "10"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP9",
+          "functions": [
+            "9"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP8",
+          "functions": [
+            "8"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP7",
+          "functions": [
+            "7"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "GPIO pins also carry generic category tags (UART, PWM, I2S, ADC, I2C, SPI) without specific signal names; omitted as category-only tags. Silkscreen numbers placed first in functions."
+}

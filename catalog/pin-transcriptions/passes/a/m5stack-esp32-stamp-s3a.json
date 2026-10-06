@@ -1,0 +1,320 @@
+{
+  "recordId": "m5stack-esp32-stamp-s3a",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/979f3572d60fd9ef9017bb28f0953ba59f48072d7c8bcdfa07f916a3060493d3.jpg",
+      "sha256": "979f3572d60fd9ef9017bb28f0953ba59f48072d7c8bcdfa07f916a3060493d3"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-pads",
+      "name": "Left castellated pads",
+      "image": "media/979f3572d60fd9ef9017bb28f0953ba59f48072d7c8bcdfa07f916a3060493d3.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB-C at bottom, so position 1 is the bottom pad (G15), counting upward",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G15",
+          "functions": [
+            "A2CH4",
+            "SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "G14",
+          "functions": [
+            "A2CH3",
+            "TCH14"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "G13",
+          "functions": [
+            "A2CH2",
+            "TCH13",
+            "SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "G12",
+          "functions": [
+            "A2CH1",
+            "TCH12"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "G11",
+          "functions": [
+            "A2CH0",
+            "TCH11"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "G10",
+          "functions": [
+            "A1CH9",
+            "TCH10"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "G9",
+          "functions": [
+            "A1CH8",
+            "TCH9"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "G8",
+          "functions": [
+            "A1CH7",
+            "TCH8"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "G7",
+          "functions": [
+            "A1CH6",
+            "TCH7"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "G6",
+          "functions": [
+            "A1CH5",
+            "TCH6"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "G5",
+          "functions": [
+            "A1CH4",
+            "TCH5"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "G4",
+          "functions": [
+            "A1CH3",
+            "TCH4"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "G3",
+          "functions": [
+            "A1CH2",
+            "TCH3"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "G2",
+          "functions": [
+            "A1CH1",
+            "TCH2"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "G1",
+          "functions": [
+            "A1CH0",
+            "TCH1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-pads",
+      "name": "Right castellated pads",
+      "image": "media/979f3572d60fd9ef9017bb28f0953ba59f48072d7c8bcdfa07f916a3060493d3.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB-C at bottom, so position 1 is the bottom pad (GND), counting upward",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "G39",
+          "functions": [
+            "CLK3",
+            "MTCK"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "G0",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "G40",
+          "functions": [
+            "CLK2",
+            "MTDO"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "G41",
+          "functions": [
+            "CLK1",
+            "MTDI"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "G44",
+          "functions": [
+            "CLK2",
+            "RXD"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "G42",
+          "functions": [
+            "MTMS"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "G43",
+          "functions": [
+            "CLK1",
+            "TXD"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "G46",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-pads",
+      "name": "Rear pad row (LCD.PORT / Ext.)",
+      "image": "media/979f3572d60fd9ef9017bb28f0953ba59f48072d7c8bcdfa07f916a3060493d3.jpg",
+      "rows": 1,
+      "orderNote": "Separate horizontal label list for the rear-side pad row; no USB in that list view, so left to right. The magnified rear inset silkscreen (G37 3V3 G36 G35 G34 G33 GND BL38 G16 G17 G18 5V) runs in the same left-to-right order",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G37",
+          "functions": [
+            "CS"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G36",
+          "functions": [
+            "SCK"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "G35",
+          "functions": [
+            "DAT"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "G34",
+          "functions": [
+            "RS"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "G33",
+          "functions": [
+            "RST"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "G38",
+          "functions": [
+            "BL38",
+            "BL/RGB PWR"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "G16",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "G17",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "G18",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "5V",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "M5Stamp S3A pinout. Group bars LCD.PORT and Ext. are category tags and omitted. Rear silkscreen spells G38 as BL38. The BTN/D+/D-/RGB SIG table (G0, G20, G19, G21) lists signals, not pad positions, and is not transcribed."
+}

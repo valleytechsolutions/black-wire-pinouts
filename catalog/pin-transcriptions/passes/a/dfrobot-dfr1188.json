@@ -1,0 +1,143 @@
+{
+  "recordId": "dfrobot-dfr1188",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/4f85db568c35ee25abb09aef08348f0a80792341e854d57aaf24bb98e2a96421.webp",
+      "sha256": "4f85db568c35ee25abb09aef08348f0a80792341e854d57aaf24bb98e2a96421"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-pads",
+      "name": "Left castellated pads",
+      "image": "media/4f85db568c35ee25abb09aef08348f0a80792341e854d57aaf24bb98e2a96421.webp",
+      "rows": 1,
+      "orderNote": "Started at the end closest to the USB-C connector (top), read top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "0",
+          "functions": [
+            "TX1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "1",
+          "functions": [
+            "RX1"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "4",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "5",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "8",
+          "functions": [
+            "TX2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "9",
+          "functions": [
+            "RX2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-pads",
+      "name": "Right castellated pads",
+      "image": "media/4f85db568c35ee25abb09aef08348f0a80792341e854d57aaf24bb98e2a96421.webp",
+      "rows": 1,
+      "orderNote": "Started at the end closest to the USB-C connector (top), read top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "27",
+          "functions": [
+            "A1"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "26",
+          "functions": [
+            "A0"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "19",
+          "functions": [
+            "SPI0/MOSI"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "18",
+          "functions": [
+            "SPI0/SCK"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "16",
+          "functions": [
+            "SPI0/MISO"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "O vs 0 in 'SPI0': read as digit 0"
+  ],
+  "uncertain": [
+    "Numeric pins are printed only as port numbers (legend 'Port PIN'), e.g. '0', '27'; kept as printed with the 'IDE' names (TX1, A1, SPI0/MOSI...) as functions."
+  ],
+  "notes": "Photo of the board with Port PIN / IDE / GND / Power callouts."
+}

@@ -1,0 +1,272 @@
+{
+  "recordId": "seeed-studio-rp2040-wio-rp2040-module",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/86ba4e01a88af583e52b1979caab7e6f6752b9c1d7f080421ab87e88155282a4.png",
+      "sha256": "86ba4e01a88af583e52b1979caab7e6f6752b9c1d7f080421ab87e88155282a4"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-pads",
+      "name": "Left edge pads (printed 1-12)",
+      "image": "media/86ba4e01a88af583e52b1979caab7e6f6752b9c1d7f080421ab87e88155282a4.png",
+      "rows": 1,
+      "orderNote": "Printed pad numbers 1-12, top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VIN",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GP29",
+          "functions": [
+            "ADC3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP28",
+          "functions": [
+            "ADC2"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP27",
+          "functions": [
+            "ADC1",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP26",
+          "functions": [
+            "ADC0",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "3V3(OUT)",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "USB_D-",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "USB_D+",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "BOOT",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "RUN",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-pads",
+      "name": "Bottom edge pads (printed 13-20)",
+      "image": "media/86ba4e01a88af583e52b1979caab7e6f6752b9c1d7f080421ab87e88155282a4.png",
+      "rows": 1,
+      "orderNote": "Printed pad numbers 13-20, left to right along the bottom edge (leader lines traced)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP0",
+          "functions": [
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP1",
+          "functions": [
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP2",
+          "functions": [
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP3",
+          "functions": [
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP4",
+          "functions": [
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP5",
+          "functions": [
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP6",
+          "functions": [
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP7",
+          "functions": [
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-pads",
+      "name": "Right edge pads (printed 21-32)",
+      "image": "media/86ba4e01a88af583e52b1979caab7e6f6752b9c1d7f080421ab87e88155282a4.png",
+      "rows": 1,
+      "orderNote": "Printed pad numbers 21-32, bottom to top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SWCLK",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SWDIO",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GP12",
+          "functions": [
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP13",
+          "functions": [
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP14",
+          "functions": [
+            "SPI1 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP15",
+          "functions": [
+            "SP1 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP16",
+          "functions": [
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP17",
+          "functions": [
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP18",
+          "functions": [
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP19",
+          "functions": [
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Connector grouping: pads are numbered 1-32 continuously around three edges; split into left/bottom/right rows with positions following the printed numbers."
+  ],
+  "notes": "Castellated module, pad numbers printed. Pin 27 function printed as \"SP1 TX\" (copied as printed). USB_D- printed with a minus/dash glyph."
+}

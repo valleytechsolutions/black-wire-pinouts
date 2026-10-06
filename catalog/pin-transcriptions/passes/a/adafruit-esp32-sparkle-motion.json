@@ -1,0 +1,224 @@
+{
+  "recordId": "adafruit-esp32-sparkle-motion",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/b55962f11eb1102c46f18b4718926079291746cf51b73cdc2267dfd12324b51a.png",
+      "sha256": "b55962f11eb1102c46f18b4718926079291746cf51b73cdc2267dfd12324b51a"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "terminal-block",
+      "name": "Right screw terminal block",
+      "image": "media/b55962f11eb1102c46f18b4718926079291746cf51b73cdc2267dfd12324b51a.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; vertical row: started at the top (end nearer the USB connector).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VOUT",
+          "functions": [
+            "+"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "SIG1",
+          "functions": [
+            "21",
+            "VSPIHD"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": [
+            "-"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "VOUT",
+          "functions": [
+            "+"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "SIG2",
+          "functions": [
+            "22",
+            "VSPIWP",
+            "U0RTS"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": [
+            "-"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "VOUT",
+          "functions": [
+            "+"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "SIG3",
+          "functions": [
+            "19",
+            "VSPIQ",
+            "U0CTS"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": [
+            "-"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jst-port",
+      "name": "3-pin JST connector (silk 27)",
+      "image": "media/b55962f11eb1102c46f18b4718926079291746cf51b73cdc2267dfd12324b51a.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; horizontal row: started at the end closest to the USB connector (left).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D27",
+          "functions": [
+            "27",
+            "ADC2_CH7",
+            "T7",
+            "RTC17"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "i2c-port",
+      "name": "I2C STEMMA QT connector",
+      "image": "media/b55962f11eb1102c46f18b4718926079291746cf51b73cdc2267dfd12324b51a.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; horizontal row: started at the end closest to the USB connector (left).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SDA",
+          "functions": [
+            "14",
+            "ADC2_CH6",
+            "HSPICLK",
+            "HS2_CLK",
+            "T6",
+            "RTC16",
+            "MTMS"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "SCL",
+          "functions": [
+            "13",
+            "ADC2_CH4",
+            "HSPID",
+            "HS2_DATA3",
+            "T4",
+            "RTC14",
+            "MTCK"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-header",
+      "name": "2x3 header (bottom right)",
+      "image": "media/b55962f11eb1102c46f18b4718926079291746cf51b73cdc2267dfd12324b51a.png",
+      "rows": 2,
+      "orderNote": "No pin numbers; 2x3 rule: outer row = bottom row (nearest bottom board edge, as drawn), start at left end (nearer USB), alternating bottom/top.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "TX",
+          "functions": [
+            "9",
+            "SPIHD",
+            "HS1_DATA2",
+            "U1RXD"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "RX",
+          "functions": [
+            "10",
+            "SPIWP",
+            "HS1_DATA3",
+            "U1TXD"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "D18",
+          "functions": [
+            "18",
+            "VSPICLK",
+            "HS1_DATA7"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D23",
+          "functions": [
+            "23",
+            "VSPID",
+            "HS1_STROBE"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Label = CircuitPython name; bare GPIO numbers in functions. 2x3 header is drawn below the board; its holes were mapped as drawn (top row 3.3V/RX/D23, bottom row GND/TX/D18). Silk '5 12 20' near the switch, IR receiver, NeoPixel, LED, buttons, I2S mic and DC jack skipped."
+}

@@ -1,0 +1,299 @@
+{
+ "recordId": "heltec-other-cubecell-htcc-ab02s",
+ "pass": "a",
+ "date": "2026-10-04",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/421ffa2a029c7ea52b65808741ffbeb9e1574d89dd58e20c3a3fa859ce4780b8.png",
+   "sha256": "421ffa2a029c7ea52b65808741ffbeb9e1574d89dd58e20c3a3fa859ce4780b8"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "left-header",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "USB at top; top-to-bottom physical hole order. Gray package numbers are aliases, not header positions.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "VS*",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "VEXT",
+     "functions": [
+      "Ve"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "RX2",
+     "functions": [
+      "29"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "TX2",
+     "functions": [
+      "30"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GPIO8",
+     "functions": [
+      "36",
+      "SCL1"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GPIO9",
+     "functions": [
+      "37",
+      "SDA1"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GPIO10",
+     "functions": [
+      "38"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "SCL0",
+     "functions": [
+      "39",
+      "OLED-SCL"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "SDA0",
+     "functions": [
+      "40",
+      "OLED-SDA"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "GPIO11",
+     "functions": [
+      "41"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "GPIO12",
+     "functions": [
+      "42",
+      "GPS_LED"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "GPIO13",
+     "functions": [
+      "45",
+      "RGB"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "GPIO14",
+     "functions": [
+      "46",
+      "VGPS Control"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "MISO0",
+     "functions": [
+      "26",
+      "LoRa_MISO"
+     ]
+    },
+    {
+     "position": 16,
+     "label": "MOSI0",
+     "functions": [
+      "25",
+      "LoRa_MOSI"
+     ]
+    },
+    {
+     "position": 17,
+     "label": "CLK0",
+     "functions": [
+      "27",
+      "LoRa_CLK"
+     ]
+    },
+    {
+     "position": 18,
+     "label": "NSS0",
+     "functions": [
+      "28",
+      "LoRa_NSS"
+     ]
+    }
+   ],
+   "image": "media/421ffa2a029c7ea52b65808741ffbeb9e1574d89dd58e20c3a3fa859ce4780b8.png"
+  },
+  {
+   "id": "right-header",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "USB at top; top-to-bottom physical hole order. Gray package numbers are aliases, not header positions.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "VIN",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "VDD",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GPIO7",
+     "functions": [
+      "23"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GPIO6",
+     "functions": [
+      "22"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GPIO5",
+     "functions": [
+      "21"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GPIO16",
+     "functions": [
+      "20",
+      "VBAT_ADC Control",
+      "USER BUTTON"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GPIO15",
+     "functions": [
+      "19",
+      "Vext Control"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "TX1",
+     "functions": [
+      "18",
+      "Serial Chip"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "RX1",
+     "functions": [
+      "17",
+      "Serial Chip"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "GPIO4",
+     "functions": [
+      "11",
+      "PWM2"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "GPIO3",
+     "functions": [
+      "10",
+      "CLK1",
+      "PWM1"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "GPIO2",
+     "functions": [
+      "9",
+      "MISO1"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "GPIO1",
+     "functions": [
+      "8",
+      "MOSI1"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "ADC3",
+     "functions": [
+      "4"
+     ]
+    },
+    {
+     "position": 16,
+     "label": "ADC2",
+     "functions": [
+      "3"
+     ]
+    },
+    {
+     "position": 17,
+     "label": "ADC1",
+     "functions": [
+      "2",
+      "Power Detection"
+     ]
+    },
+    {
+     "position": 18,
+     "label": "RESET",
+     "functions": [
+      "50"
+     ]
+    }
+   ],
+   "image": "media/421ffa2a029c7ea52b65808741ffbeb9e1574d89dd58e20c3a3fa859ce4780b8.png"
+  }
+ ],
+ "notes": "",
+ "unreadable": [],
+ "uncertain": []
+}

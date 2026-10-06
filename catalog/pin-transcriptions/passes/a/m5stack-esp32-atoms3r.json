@@ -1,0 +1,129 @@
+{
+  "recordId": "m5stack-esp32-atoms3r",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/5ac773887df642142407b32e7d167e8468c778be2ca58518de0a3a326b4f4d5f.jpg",
+      "sha256": "5ac773887df642142407b32e7d167e8468c778be2ca58518de0a3a326b4f4d5f"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/5ac773887df642142407b32e7d167e8468c778be2ca58518de0a3a326b4f4d5f.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector visible; vertical row started at the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "G5",
+          "functions": [
+            "ACH4",
+            "TCH5"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "G6",
+          "functions": [
+            "ACH5",
+            "TCH6"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "G7",
+          "functions": [
+            "ACH6",
+            "TCH7"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "G8",
+          "functions": [
+            "ACH7",
+            "TCH8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/5ac773887df642142407b32e7d167e8468c778be2ca58518de0a3a326b4f4d5f.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector visible; vertical row started at the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G39",
+          "functions": [
+            "CLK_OUT3"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "G38",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "grove-port",
+      "name": "PORT.A 4-pin port (bottom)",
+      "image": "media/5ac773887df642142407b32e7d167e8468c778be2ca58518de0a3a326b4f4d5f.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector visible; horizontal row started at the left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G2",
+          "functions": [
+            "ACH1",
+            "TCH2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "G1",
+          "functions": [
+            "ACH0",
+            "TCH1"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Image titled ATOM S3R. Functions read outward from each pin dot. G0/G45 SCL/SDA (BMI270/BMM150) have no pin dot and are internal I2C, not transcribed. LCD/IR/button GPIO table describes internal signals, not pins. ACH0 read with digit 0 (index)."
+}

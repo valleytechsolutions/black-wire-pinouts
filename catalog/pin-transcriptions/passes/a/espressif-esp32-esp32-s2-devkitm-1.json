@@ -1,0 +1,411 @@
+{
+  "recordId": "espressif-esp32-esp32-s2-devkitm-1",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/40a6e8080a63286827b92482b7bda4c1917e6eb16b679bf6155991345d851d2d.png",
+      "sha256": "40a6e8080a63286827b92482b7bda4c1917e6eb16b679bf6155991345d851d2d"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "J1",
+      "name": "J1 (left header)",
+      "image": "media/40a6e8080a63286827b92482b7bda4c1917e6eb16b679bf6155991345d851d2d.png",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 1-21 followed (pin 1 = 3V3 at top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GPIO0",
+          "functions": [
+            "0",
+            "BOOT"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO1",
+          "functions": [
+            "1",
+            "ADC1_0",
+            "TOUCH1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO2",
+          "functions": [
+            "2",
+            "ADC1_1",
+            "TOUCH2"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO3",
+          "functions": [
+            "3",
+            "ADC1_2",
+            "TOUCH3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO4",
+          "functions": [
+            "4",
+            "ADC1_3",
+            "TOUCH4"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO5",
+          "functions": [
+            "5",
+            "ADC1_4",
+            "TOUCH5"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO6",
+          "functions": [
+            "6",
+            "ADC1_5",
+            "TOUCH6"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO7",
+          "functions": [
+            "7",
+            "ADC1_6",
+            "TOUCH7"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO8",
+          "functions": [
+            "8",
+            "ADC1_7",
+            "TOUCH8"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO9",
+          "functions": [
+            "9",
+            "ADC1_8",
+            "TOUCH9",
+            "FSPIHD"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO10",
+          "functions": [
+            "10",
+            "ADC1_9",
+            "TOUCH10",
+            "FSPICS0",
+            "FSPIIO4"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO11",
+          "functions": [
+            "11",
+            "ADC2_0",
+            "TOUCH11",
+            "FSPID",
+            "FSPIIO5"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO12",
+          "functions": [
+            "12",
+            "ADC2_1",
+            "TOUCH12",
+            "FSPICLK",
+            "FSPIIO6"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO13",
+          "functions": [
+            "13",
+            "ADC2_2",
+            "TOUCH13",
+            "FSPIQ",
+            "FSPIIO7"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO14",
+          "functions": [
+            "14",
+            "ADC2_3",
+            "TOUCH14",
+            "FSPIWP",
+            "FSPIDQS"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO15",
+          "functions": [
+            "15",
+            "ADC2_4",
+            "U0RTS",
+            "XTAL_32K_P"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GPIO16",
+          "functions": [
+            "16",
+            "ADC2_5",
+            "U0CTS",
+            "XTAL_32K_N"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GPIO17",
+          "functions": [
+            "17",
+            "ADC2_6",
+            "U1TXD",
+            "DAC_1"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "5V0",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "J3",
+      "name": "J3 (right header)",
+      "image": "media/40a6e8080a63286827b92482b7bda4c1917e6eb16b679bf6155991345d851d2d.png",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 1-21 followed (pin 1 = GND at top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO46",
+          "functions": [
+            "46",
+            "LOG"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO45",
+          "functions": [
+            "45",
+            "VSPI"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO44",
+          "functions": [
+            "RX",
+            "U0RXD",
+            "CLK_OUT2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO43",
+          "functions": [
+            "TX",
+            "U0TXD",
+            "CLK_OUT1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO42",
+          "functions": [
+            "42",
+            "MTMS"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO41",
+          "functions": [
+            "41",
+            "MTDI",
+            "CLK_OUT1"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO40",
+          "functions": [
+            "40",
+            "MTDO",
+            "CLK_OUT2"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO39",
+          "functions": [
+            "39",
+            "MTCK",
+            "CLK_OUT3"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO38",
+          "functions": [
+            "38",
+            "FSPIWP"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO37",
+          "functions": [
+            "37",
+            "SPIDQS",
+            "FSPIQ"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO36",
+          "functions": [
+            "36",
+            "SPIIO7",
+            "FSPICLK"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO35",
+          "functions": [
+            "35",
+            "SPIIO6",
+            "FSPID"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO34",
+          "functions": [
+            "34",
+            "SPIIO5",
+            "FSPICS0"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO33",
+          "functions": [
+            "33",
+            "SPIIO4",
+            "FSPIHD"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO26",
+          "functions": [
+            "26"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GPIO21",
+          "functions": [
+            "21"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GPIO20",
+          "functions": [
+            "20",
+            "ADC2_9",
+            "USB_D+",
+            "U1CTS",
+            "CLK_OUT1"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO19",
+          "functions": [
+            "19",
+            "ADC2_8",
+            "USB_D-",
+            "U1RTS",
+            "CLK_OUT2"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "GPIO18",
+          "functions": [
+            "18",
+            "ADC2_7",
+            "U1RXD",
+            "DAC_2",
+            "CLK_OUT3",
+            "RGB_LED"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Espressif pinout diagram. Board silkscreen (0, 1, ..., RX, TX, G, 5V) recorded first in functions when it differs from the label. 'RTC' power-domain pills omitted as category-only tags; PWM-capable squiggle and GPIO46 input-only arrow are symbols and were omitted (GPIO46 is drawn with the input-only arrow). Skipped BOOT/RST buttons, RGB LED and USB connector."
+}

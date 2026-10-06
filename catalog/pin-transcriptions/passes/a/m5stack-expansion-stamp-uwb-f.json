@@ -1,0 +1,168 @@
+{
+  "recordId": "m5stack-expansion-stamp-uwb-f",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/7585b75e4d85c73fd46bae0737b7eb36c25c8428886b3680d6353e78dc83965b.jpg",
+      "sha256": "7585b75e4d85c73fd46bae0737b7eb36c25c8428886b3680d6353e78dc83965b"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-pads",
+      "name": "Left edge castellated pads (front view)",
+      "image": "media/7585b75e4d85c73fd46bae0737b7eb36c25c8428886b3680d6353e78dc83965b.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB; vertical row ordered top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "WAKEUP",
+          "functions": [
+            "WAK"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "IRQ",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GP7",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "RSTn",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-pads",
+      "name": "Right edge castellated pads (front view)",
+      "image": "media/7585b75e4d85c73fd46bae0737b7eb36c25c8428886b3680d6353e78dc83965b.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB; vertical row ordered top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "CLK",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "CSn",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "MOSI",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "MISO",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "fpc-connector",
+      "name": "Rear 12-pin FPC connector",
+      "image": "media/7585b75e4d85c73fd46bae0737b7eb36c25c8428886b3680d6353e78dc83965b.jpg",
+      "rows": 1,
+      "orderNote": "Printed numbers 1-12 (1 at right, arrow 1->12 to the left)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GP7",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IRQ",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "WAKEUP",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "RSTn",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "MISO",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "MOSI",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "CSn",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "CLK",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Silkscreen 'WAK' comes from the rear view of the module in the same image and was matched to the front-view WAKEUP pad by vertical order (mirrored view); the mapping is inferred."
+  ],
+  "notes": "Labels taken from the colored callouts on the front view. Lower rear silkscreen is covered by the FPC connector. Table prints only numbers 1, 2, 11, 12; intermediate positions follow the printed 1->12 arrow."
+}

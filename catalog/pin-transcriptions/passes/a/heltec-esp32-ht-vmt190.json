@@ -1,0 +1,262 @@
+{
+ "recordId": "heltec-esp32-ht-vmt190",
+ "pass": "a",
+ "date": "2026-10-04",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/a8ad40795dee25496d1f6d22c86391391bb7bae246afb262bb081f89cf181ccf.png",
+   "sha256": "a8ad40795dee25496d1f6d22c86391391bb7bae246afb262bb081f89cf181ccf"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "J2",
+   "name": "J2",
+   "rows": 1,
+   "orderNote": "Follow the explicitly printed header position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "VEXT",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "GPIO13",
+     "functions": [
+      "ADC2_CH2",
+      "TOUCH13",
+      "FSPIIO7",
+      "SUBSPIQ",
+      "FSPIQ",
+      "LoRa_Busy"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GPIO14",
+     "functions": [
+      "ADC2_CH3",
+      "TOUCH14",
+      "FSPIDQS",
+      "SUBSPIWP",
+      "FSPIWP",
+      "LoRa_DIO1"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GPIO15",
+     "functions": [
+      "ADC2_CH4",
+      "32K_P"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GPIO16",
+     "functions": [
+      "ADC2_CH5",
+      "32K_N"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GPIO44",
+     "functions": [
+      "U0_TXD"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "GPIO43",
+     "functions": [
+      "U0_RXD"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 12,
+     "label": "GND",
+     "functions": []
+    }
+   ],
+   "image": "media/a8ad40795dee25496d1f6d22c86391391bb7bae246afb262bb081f89cf181ccf.png"
+  },
+  {
+   "id": "J3",
+   "name": "J3",
+   "rows": 1,
+   "orderNote": "Follow the explicitly printed header position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "5V",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GPIO12",
+     "functions": [
+      "ADC2_CH1",
+      "TOUCH12",
+      "FSPIIO6",
+      "SUBSPICLK",
+      "FSPICLK",
+      "LoRa_RST"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GPIO11",
+     "functions": [
+      "ADC2_CH0",
+      "TOUCH11",
+      "FSPIIO5",
+      "SUBSPID",
+      "FSPID",
+      "LoRa_MISO"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "GPIO10",
+     "functions": [
+      "ADC1_CH9",
+      "TOUCH10",
+      "FSPIIO4",
+      "SUBSPICS0",
+      "FSPICS0",
+      "LoRa_MOSI"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GPIO9",
+     "functions": [
+      "ADC1_CH8",
+      "TOUCH9",
+      "SUBSPIHD",
+      "FSPIHD",
+      "LoRa_SCK"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GPIO8",
+     "functions": [
+      "ADC1_CH7",
+      "TOUCH8",
+      "SUBSPICS1",
+      "LoRa_NSS"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GPIO4",
+     "functions": [
+      "ADC1_CH3",
+      "TOUCH4"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GPIO3",
+     "functions": [
+      "ADC1_CH2",
+      "TOUCH3"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "GPIO2",
+     "functions": [
+      "ADC1_CH1",
+      "TOUCH2",
+      "QL_SDA"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "GPIO1",
+     "functions": [
+      "ADC1_CH0",
+      "TOUCH1",
+      "QL_SCL"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "3V3",
+     "functions": []
+    }
+   ],
+   "image": "media/a8ad40795dee25496d1f6d22c86391391bb7bae246afb262bb081f89cf181ccf.png"
+  },
+  {
+   "id": "right-port",
+   "name": "right-port",
+   "rows": 1,
+   "orderNote": "Top to bottom, nearest the USB end first.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GPIO2",
+     "functions": [
+      "ADC1_CH1",
+      "TOUCH2",
+      "QL_SDA"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "GPIO1",
+     "functions": [
+      "ADC1_CH0",
+      "TOUCH1",
+      "QL_SCL"
+     ]
+    }
+   ],
+   "image": "media/a8ad40795dee25496d1f6d22c86391391bb7bae246afb262bb081f89cf181ccf.png"
+  }
+ ],
+ "notes": "Image title is HT-T190_V1 Pin map. UART and LoRa aliases are copied exactly as printed, including GPIO44 U0_TXD and GPIO43 U0_RXD.",
+ "unreadable": [],
+ "uncertain": []
+}

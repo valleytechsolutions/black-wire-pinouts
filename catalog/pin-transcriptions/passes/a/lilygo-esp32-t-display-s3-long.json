@@ -1,0 +1,266 @@
+{
+  "recordId": "lilygo-esp32-t-display-s3-long",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/4dacf38d84302d5188da0348ac12ef7787eec4dec639c41e839af706fef09de1.jpg",
+      "sha256": "4dacf38d84302d5188da0348ac12ef7787eec4dec639c41e839af706fef09de1"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "pin-connect",
+      "name": "2x15PIN@1.27mm pitch connector",
+      "image": "media/4dacf38d84302d5188da0348ac12ef7787eec4dec639c41e839af706fef09de1.jpg",
+      "rows": 2,
+      "orderNote": "2xN without printed numbers: started at the right end (closest to the USB-C connector); position 1 = top row (nearest the top board edge), then alternating bottom/top leftwards",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "BAT",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "BAT",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "46",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "3",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "45",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "4",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "RX",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "5",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "6",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "42",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "7",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "41",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "8",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "40",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "9",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "39",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "48",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "38",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "47",
+          "functions": []
+        },
+        {
+          "position": 27,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 28,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 29,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "qwiic-top",
+      "name": "Upper Qwiic JST-SH 1.0mm (right edge)",
+      "image": "media/4dacf38d84302d5188da0348ac12ef7787eec4dec639c41e839af706fef09de1.jpg",
+      "rows": 1,
+      "orderNote": "No printed numbers; vertical connector started at the bottom end, closest to the USB-C connector below it",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RX",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "qwiic-bottom",
+      "name": "Lower Qwiic JST-SH 1.0mm (right edge)",
+      "image": "media/4dacf38d84302d5188da0348ac12ef7787eec4dec639c41e839af706fef09de1.jpg",
+      "rows": 1,
+      "orderNote": "No printed numbers; vertical connector started at the top end, closest to the USB-C connector above it",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SCL",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "usb-pads",
+      "name": "Labeled pads beside the USB-C connector",
+      "image": "media/4dacf38d84302d5188da0348ac12ef7787eec4dec639c41e839af706fef09de1.jpg",
+      "rows": 1,
+      "orderNote": "No printed numbers; all four pads sit beside the USB-C connector, so the top/vertical rule was used (top first)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "D+",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "D-",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "VBUS",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "2x15 connector: GND, GND (right group), 3V3, BAT and 5V silkscreen boxes each span two adjacent pads; both pads were given the box label. Column alignment of top and bottom labels was matched by x-position in a zoomed crop.",
+    "The four GND/D+/D-/VBUS pads beside USB-C are labeled but may be test pads rather than a wiring connector."
+  ],
+  "notes": "Header silkscreen prints bare GPIO numbers (38, 39, ... 3) and TX/RX; recorded as printed. JST-GH 1.25mm LiPo connector has no individually labeled pins and was skipped. TFT QSPI and BAT_VOLT callouts are internal signals."
+}

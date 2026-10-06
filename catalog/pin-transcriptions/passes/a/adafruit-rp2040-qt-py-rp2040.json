@@ -1,0 +1,217 @@
+{
+  "recordId": "adafruit-rp2040-qt-py-rp2040",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/f6740910eaad268d00f9cce2e664c79dc5ad4b6b459e33c69d5e6bc8c361066f.png",
+      "sha256": "f6740910eaad268d00f9cce2e664c79dc5ad4b6b459e33c69d5e6bc8c361066f"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left castellated pads",
+      "image": "media/f6740910eaad268d00f9cce2e664c79dc5ad4b6b459e33c69d5e6bc8c361066f.png",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; vertical row starts at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO29",
+          "functions": [
+            "A0",
+            "CSn1",
+            "RX0",
+            "SCL0",
+            "PWM6B",
+            "ADC3"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO28",
+          "functions": [
+            "A1",
+            "RX1",
+            "TX0",
+            "SDA0",
+            "PWM6A",
+            "ADC2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO27",
+          "functions": [
+            "A2",
+            "TX1",
+            "RTS1",
+            "SCL1",
+            "PWM5B",
+            "ADC1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO26",
+          "functions": [
+            "A3",
+            "SCK1",
+            "CTS1",
+            "SDA1",
+            "PWM5A",
+            "ADC0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO24",
+          "functions": [
+            "SDA",
+            "RX1",
+            "TX1",
+            "SDA0",
+            "PWM4A"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO25",
+          "functions": [
+            "SCL",
+            "CSn1",
+            "RX1",
+            "SCL0",
+            "PWM4B"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO20",
+          "functions": [
+            "TX",
+            "RX0",
+            "TX1",
+            "SDA0",
+            "PWM2A"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right castellated pads",
+      "image": "media/f6740910eaad268d00f9cce2e664c79dc5ad4b6b459e33c69d5e6bc8c361066f.png",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; vertical row starts at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": [
+            "3V"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO3",
+          "functions": [
+            "MO",
+            "MOSI",
+            "TX0",
+            "RTS0",
+            "SCL1",
+            "PWM1B"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO4",
+          "functions": [
+            "MI",
+            "MISO",
+            "RX0",
+            "TX1",
+            "SDA0",
+            "PWM2A"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO6",
+          "functions": [
+            "SCK",
+            "SCK0",
+            "CTS1",
+            "SDA1",
+            "PWM3A"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO5",
+          "functions": [
+            "RX",
+            "CSn0",
+            "RX1",
+            "SCL0",
+            "PWM2B"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stemma-qt",
+      "name": "STEMMA QT connector (I2C1)",
+      "image": "media/f6740910eaad268d00f9cce2e664c79dc5ad4b6b459e33c69d5e6bc8c361066f.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal connector on bottom edge opposite USB, started at left (wire colors black, red, blue, yellow)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO22",
+          "functions": [
+            "SDA1",
+            "SCK0",
+            "CTS1",
+            "PWM3A"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO23",
+          "functions": [
+            "SCL1",
+            "TX0",
+            "RTS1",
+            "PWM3B"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Board-name boxes SDA1/SCL1 on the STEMMA QT pins repeat the I2C function names, so each appears once. Silkscreen 'I2C1' marks the STEMMA QT connector. NEOPIXEL, NEOPIXEL_POWER and BUTTON are on-board, not wiring points."
+}

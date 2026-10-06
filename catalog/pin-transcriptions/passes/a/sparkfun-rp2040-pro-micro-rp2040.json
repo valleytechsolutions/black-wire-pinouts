@@ -1,0 +1,317 @@
+{
+  "recordId": "sparkfun-rp2040-pro-micro-rp2040",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/be82298dc716659585f61a26af169f09967d9304e87a472f0be7cb6bd1228c33.png",
+      "sha256": "be82298dc716659585f61a26af169f09967d9304e87a472f0be7cb6bd1228c33"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/be82298dc716659585f61a26af169f09967d9304e87a472f0be7cb6bd1228c33.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; position 1 at the end nearest the USB-C connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO0",
+          "functions": [
+            "TX",
+            "TX0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO1",
+          "functions": [
+            "RX",
+            "RX0"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO2",
+          "functions": [
+            "2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO3",
+          "functions": [
+            "3"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO4",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO5",
+          "functions": [
+            "5"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO6",
+          "functions": [
+            "6"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO7",
+          "functions": [
+            "7"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO8",
+          "functions": [
+            "8",
+            "TX1"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO9",
+          "functions": [
+            "9",
+            "RX1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/be82298dc716659585f61a26af169f09967d9304e87a472f0be7cb6bd1228c33.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; position 1 at the end nearest the USB-C connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RAW",
+          "functions": [
+            "+"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RST",
+          "functions": [
+            "Reset"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": [
+            "VCC"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO29",
+          "functions": [
+            "A3",
+            "ADC3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO28",
+          "functions": [
+            "A2",
+            "ADC2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO27",
+          "functions": [
+            "A1",
+            "ADC1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO26",
+          "functions": [
+            "A0",
+            "ADC0"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO22",
+          "functions": [
+            "SCK"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO20",
+          "functions": [
+            "CI",
+            "CIPO"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO23",
+          "functions": [
+            "CO",
+            "COPI"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO21",
+          "functions": [
+            "21",
+            "CS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qwiic",
+      "name": "Qwiic connector",
+      "image": "media/be82298dc716659585f61a26af169f09967d9304e87a472f0be7cb6bd1228c33.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row with no end nearer the USB connector: left-to-right as the leader lines reach it",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO16",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO17",
+          "functions": [
+            "SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "usb-pads",
+      "name": "USB pads (back of board inset)",
+      "image": "media/be82298dc716659585f61a26af169f09967d9304e87a472f0be7cb6bd1228c33.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; inset view left-to-right (all pads equally adjacent to the USB-C connector)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VCC",
+          "functions": [
+            "V"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D-",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "D+",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "swd-pads",
+      "name": "SWD pads (back of board inset)",
+      "image": "media/be82298dc716659585f61a26af169f09967d9304e87a472f0be7cb6bd1228c33.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; inset view left-to-right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SWDIO",
+          "functions": [
+            "D"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "SWDCK",
+          "functions": [
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ws2812-do-pad",
+      "name": "WS2812 DO pad (back of board inset)",
+      "image": "media/be82298dc716659585f61a26af169f09967d9304e87a472f0be7cb6bd1228c33.png",
+      "rows": 1,
+      "orderNote": "Single pad",
+      "pins": [
+        {
+          "position": 1,
+          "label": "WS2812 DO",
+          "functions": [
+            "DO"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "O and 0 look alike: recorded as 0 in TX0/RX0 (serial UART boxes)"
+  ],
+  "uncertain": [
+    "Qwiic connector pin order is read from where the four leader lines (GND, 3.3V, GPIO16/SDA, GPIO17/SCL) meet the connector body; the connector's own pins are not individually drawn"
+  ],
+  "notes": "Callout GPIO names used as labels; white Name boxes (silkscreen) first in functions. 'CS' on GPIO21 is printed with an overline (active low). Labeled back-side pads from the insets recorded as separate connectors. Boot/Reset buttons and the WS2812 LED itself skipped."
+}

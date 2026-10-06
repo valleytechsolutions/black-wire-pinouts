@@ -1,0 +1,45 @@
+{
+  "recordId": "adafruit-sht4x-trinkey",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/d230d08c1a06ca227bd0bc57c6ed592b88284ff42a9aa7ed8013433f1ac2c23b.png",
+      "sha256": "d230d08c1a06ca227bd0bc57c6ed592b88284ff42a9aa7ed8013433f1ac2c23b"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "usb-plug",
+      "name": "USB-A plug contacts",
+      "image": "media/d230d08c1a06ca227bd0bc57c6ed592b88284ff42a9aa7ed8013433f1ac2c23b.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row of PCB USB plug contacts, started at the top as displayed (the contacts are the USB connector itself)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "D+",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "D-",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "VBUS",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "The only wiring points with individually labeled contacts are the four PCB USB-A plug contacts (GND, D+, D-, VBUS), included per rule 1 because each is labeled. Skipped: the TOUCH capacitive pad (1/A1, PA07, a touch sensing area rather than a pin), SDA (PA04) and SCL (PA05) which run to the on-board SHT45 sensor, and NEOPIXEL (PA03)."
+}

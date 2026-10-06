@@ -1,0 +1,775 @@
+{
+ "recordId": "pjrc-teensy-teensy-4-1",
+ "pass": "a",
+ "date": "2026-10-05",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/6a472377753aa30d5ea4c1223ea053d21559b768eb72e119471e75306fb14007.png",
+   "sha256": "6a472377753aa30d5ea4c1223ea053d21559b768eb72e119471e75306fb14007"
+  },
+  {
+   "file": "media/475c1605a99028c3bcaceee9588b7b5e594419848499b376a0835276d641a3f4.png",
+   "sha256": "475c1605a99028c3bcaceee9588b7b5e594419848499b376a0835276d641a3f4"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "top-header",
+   "name": "top-header",
+   "rows": 1,
+   "orderNote": "USB at left; physical left-to-right order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "Vin",
+     "functions": [
+      "3.6 to 5.5 volts"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "3.3V",
+     "functions": [
+      "250 mA max"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "23",
+     "functions": [
+      "A9",
+      "CRX1",
+      "MCLK1",
+      "PWM"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "22",
+     "functions": [
+      "A8",
+      "CTX1",
+      "PWM"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "21",
+     "functions": [
+      "A7",
+      "RX5",
+      "BCLK1"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "20",
+     "functions": [
+      "A6",
+      "TX5",
+      "LRCLK1"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "19",
+     "functions": [
+      "A5",
+      "SCL",
+      "PWM"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "18",
+     "functions": [
+      "A4",
+      "SDA",
+      "PWM"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "17",
+     "functions": [
+      "A3",
+      "TX4",
+      "SDA1"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "16",
+     "functions": [
+      "A2",
+      "RX4",
+      "SCL1"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "15",
+     "functions": [
+      "A1",
+      "RX3",
+      "SPDIF IN",
+      "PWM"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "14",
+     "functions": [
+      "A0",
+      "TX3",
+      "SPDIF OUT",
+      "PWM"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "13",
+     "functions": [
+      "LED",
+      "SCK",
+      "PWM"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 16,
+     "label": "41",
+     "functions": [
+      "A17"
+     ]
+    },
+    {
+     "position": 17,
+     "label": "40",
+     "functions": [
+      "A16"
+     ]
+    },
+    {
+     "position": 18,
+     "label": "39",
+     "functions": [
+      "A15",
+      "MISO1",
+      "OUT1A"
+     ]
+    },
+    {
+     "position": 19,
+     "label": "38",
+     "functions": [
+      "A14",
+      "CS1",
+      "IN1"
+     ]
+    },
+    {
+     "position": 20,
+     "label": "37",
+     "functions": [
+      "CS",
+      "PWM"
+     ]
+    },
+    {
+     "position": 21,
+     "label": "36",
+     "functions": [
+      "CS",
+      "PWM"
+     ]
+    },
+    {
+     "position": 22,
+     "label": "35",
+     "functions": [
+      "TX8"
+     ]
+    },
+    {
+     "position": 23,
+     "label": "34",
+     "functions": [
+      "RX8"
+     ]
+    },
+    {
+     "position": 24,
+     "label": "33",
+     "functions": [
+      "MCLK2",
+      "PWM"
+     ]
+    }
+   ],
+   "image": "media/6a472377753aa30d5ea4c1223ea053d21559b768eb72e119471e75306fb14007.png"
+  },
+  {
+   "id": "bottom-header",
+   "name": "bottom-header",
+   "rows": 1,
+   "orderNote": "USB at left; physical left-to-right order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "0",
+     "functions": [
+      "RX1",
+      "CS1",
+      "CRX2",
+      "PWM"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "1",
+     "functions": [
+      "TX1",
+      "MISO1",
+      "CTX2",
+      "PWM"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "2",
+     "functions": [
+      "OUT2",
+      "PWM"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "3",
+     "functions": [
+      "LRCLK2",
+      "PWM"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "4",
+     "functions": [
+      "BCLK2",
+      "PWM"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "5",
+     "functions": [
+      "IN2",
+      "PWM"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "6",
+     "functions": [
+      "OUT1D",
+      "PWM"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "7",
+     "functions": [
+      "RX2",
+      "OUT1A",
+      "PWM"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "8",
+     "functions": [
+      "TX2",
+      "IN1",
+      "PWM"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "9",
+     "functions": [
+      "OUT1C",
+      "PWM"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "10",
+     "functions": [
+      "CS",
+      "MQSR",
+      "PWM"
+     ]
+    },
+    {
+     "position": 13,
+     "label": "11",
+     "functions": [
+      "MOSI",
+      "CTX1"
+     ]
+    },
+    {
+     "position": 14,
+     "label": "12",
+     "functions": [
+      "MISO",
+      "MQSL",
+      "PWM"
+     ]
+    },
+    {
+     "position": 15,
+     "label": "3.3V",
+     "functions": []
+    },
+    {
+     "position": 16,
+     "label": "24",
+     "functions": [
+      "A10",
+      "TX6",
+      "SCL2",
+      "PWM"
+     ]
+    },
+    {
+     "position": 17,
+     "label": "25",
+     "functions": [
+      "A11",
+      "RX6",
+      "SDA2",
+      "PWM"
+     ]
+    },
+    {
+     "position": 18,
+     "label": "26",
+     "functions": [
+      "A12",
+      "MOSI1"
+     ]
+    },
+    {
+     "position": 19,
+     "label": "27",
+     "functions": [
+      "A13",
+      "SCK1"
+     ]
+    },
+    {
+     "position": 20,
+     "label": "28",
+     "functions": [
+      "RX7",
+      "PWM"
+     ]
+    },
+    {
+     "position": 21,
+     "label": "29",
+     "functions": [
+      "TX7",
+      "PWM"
+     ]
+    },
+    {
+     "position": 22,
+     "label": "30",
+     "functions": [
+      "CRX3"
+     ]
+    },
+    {
+     "position": 23,
+     "label": "31",
+     "functions": [
+      "CTX3"
+     ]
+    },
+    {
+     "position": 24,
+     "label": "32",
+     "functions": [
+      "OUT1B"
+     ]
+    }
+   ],
+   "image": "media/6a472377753aa30d5ea4c1223ea053d21559b768eb72e119471e75306fb14007.png"
+  },
+  {
+   "id": "end-header-img2",
+   "name": "end-header",
+   "rows": 1,
+   "orderNote": "No USB shown; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "On/Off",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "Program",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "3.3V",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "VBAT",
+     "functions": []
+    }
+   ],
+   "image": "media/475c1605a99028c3bcaceee9588b7b5e594419848499b376a0835276d641a3f4.png"
+  },
+  {
+   "id": "sd-card-img2",
+   "name": "sd-card",
+   "rows": 1,
+   "orderNote": "No USB shown; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "47",
+     "functions": [
+      "DAT2",
+      "TX5",
+      "PWM"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "46",
+     "functions": [
+      "DAT3",
+      "RX5",
+      "PWM"
+     ]
+    },
+    {
+     "position": 3,
+     "label": "45",
+     "functions": [
+      "CMD",
+      "SCK2",
+      "SCL1",
+      "PWM"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "3.3V",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "44",
+     "functions": [
+      "CLK",
+      "CS2",
+      "SDA1",
+      "PWM"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "43",
+     "functions": [
+      "DAT0",
+      "MOSI2",
+      "PWM"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "42",
+     "functions": [
+      "DAT1",
+      "MISO2",
+      "PWM"
+     ]
+    }
+   ],
+   "image": "media/475c1605a99028c3bcaceee9588b7b5e594419848499b376a0835276d641a3f4.png"
+  },
+  {
+   "id": "qspi-upper-img2",
+   "name": "qspi-upper",
+   "rows": 2,
+   "orderNote": "No USB or board edge visible; top to bottom, left then right per pair.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "48",
+     "functions": [
+      "CS0",
+      "RX8"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "3.3V",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "49*",
+     "functions": [
+      "D1",
+      "SCK2"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "54*",
+     "functions": [
+      "D3",
+      "MISO2",
+      "PWM"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "50*",
+     "functions": [
+      "D2",
+      "MOSI2"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "53*",
+     "functions": [
+      "CLK",
+      "TX1"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "52*",
+     "functions": [
+      "D0",
+      "RX1"
+     ]
+    }
+   ],
+   "image": "media/475c1605a99028c3bcaceee9588b7b5e594419848499b376a0835276d641a3f4.png"
+  },
+  {
+   "id": "qspi-lower-img2",
+   "name": "qspi-lower",
+   "rows": 2,
+   "orderNote": "No USB or board edge visible; top to bottom, left then right per pair.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "51",
+     "functions": [
+      "CS1",
+      "SCL1",
+      "PWM"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "3.3V",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "49*",
+     "functions": [
+      "D1",
+      "SCK2"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "54*",
+     "functions": [
+      "D3",
+      "MISO2",
+      "PWM"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "50*",
+     "functions": [
+      "D2",
+      "MOSI2"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "53*",
+     "functions": [
+      "CLK",
+      "TX1"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "52*",
+     "functions": [
+      "D0",
+      "RX1"
+     ]
+    }
+   ],
+   "image": "media/475c1605a99028c3bcaceee9588b7b5e594419848499b376a0835276d641a3f4.png"
+  },
+  {
+   "id": "usb-host-img2",
+   "name": "usb-host",
+   "rows": 1,
+   "orderNote": "No USB shown; physical left-to-right order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "+5V",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "D-",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "D+",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "GND",
+     "functions": []
+    }
+   ],
+   "image": "media/475c1605a99028c3bcaceee9588b7b5e594419848499b376a0835276d641a3f4.png"
+  },
+  {
+   "id": "ethernet-img2",
+   "name": "ethernet",
+   "rows": 2,
+   "orderNote": "No USB shown; top to bottom alternating left and right columns.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "RX+",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "RX-",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "LED",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "TX-",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "TX+",
+     "functions": []
+    }
+   ],
+   "image": "media/475c1605a99028c3bcaceee9588b7b5e594419848499b376a0835276d641a3f4.png"
+  },
+  {
+   "id": "usb-device-img2",
+   "name": "usb-device",
+   "rows": 1,
+   "orderNote": "No USB connector shown in this crop; top to bottom.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "VUSB",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "D-",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "D+",
+     "functions": []
+    }
+   ],
+   "image": "media/475c1605a99028c3bcaceee9588b7b5e594419848499b376a0835276d641a3f4.png"
+  }
+ ],
+ "notes": "Two physical QSPI pad banks share some pin names, as the asterisk note states. Unlabeled front interior groups are read only from the second image.",
+ "unreadable": [],
+ "uncertain": [
+  "Ethernet and QSPI cropped views omit board edges; left-first ordering is recorded but the outer-row rule cannot be established from these crops."
+ ]
+}

@@ -1,0 +1,370 @@
+{
+  "recordId": "freenove-esp32-esp32-s3-wroom-board-lite",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/1196b3f207c148f3394ebdf5b3325d038f35445b9738891b6b845209d82ec7c1.jpg",
+      "sha256": "1196b3f207c148f3394ebdf5b3325d038f35445b9738891b6b845209d82ec7c1"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left pin row",
+      "image": "media/1196b3f207c148f3394ebdf5b3325d038f35445b9738891b6b845209d82ec7c1.jpg",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; started at the end closest to the USB-C connectors (bottom) and read upward",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GPIO14",
+          "functions": [
+            "14",
+            "ADC2_CH3",
+            "T14"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO13",
+          "functions": [
+            "13",
+            "ADC2_CH2",
+            "T13"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO12",
+          "functions": [
+            "12",
+            "ADC2_CH1",
+            "T12"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO11",
+          "functions": [
+            "11",
+            "ADC2_CH0",
+            "T11"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO10",
+          "functions": [
+            "10",
+            "ADC1_CH9",
+            "T10"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO9",
+          "functions": [
+            "9",
+            "ADC1_CH8",
+            "T9"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO46",
+          "functions": [
+            "46",
+            "LOG"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO3",
+          "functions": [
+            "3",
+            "ADC1_CH2",
+            "T3",
+            "JTAG EN"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO8",
+          "functions": [
+            "8",
+            "ADC1_CH7",
+            "T8"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO18",
+          "functions": [
+            "18",
+            "ADC2_CH7",
+            "U1RXD"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO17",
+          "functions": [
+            "17",
+            "ADC2_CH6",
+            "U1TXD"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO16",
+          "functions": [
+            "16",
+            "ADC2_CH5",
+            "U0CTS"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO15",
+          "functions": [
+            "15",
+            "ADC2_CH4",
+            "U0RTS"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO7",
+          "functions": [
+            "7",
+            "ADC1_CH6",
+            "T7"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO6",
+          "functions": [
+            "6",
+            "ADC1_CH5",
+            "T6"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO5",
+          "functions": [
+            "5",
+            "ADC1_CH4",
+            "T5"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GPIO4",
+          "functions": [
+            "4",
+            "ADC1_CH3",
+            "T4"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "RST",
+          "functions": [
+            "EN"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right pin row",
+      "image": "media/1196b3f207c148f3394ebdf5b3325d038f35445b9738891b6b845209d82ec7c1.jpg",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; started at the end closest to the USB-C connectors (bottom) and read upward",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GPIO19",
+          "functions": [
+            "19",
+            "USB_D+",
+            "ADC2_CH8",
+            "U1RTS"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO20",
+          "functions": [
+            "20",
+            "USB_D-",
+            "ADC2_CH9",
+            "U1CTS"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO21",
+          "functions": [
+            "21"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO47",
+          "functions": [
+            "47"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO48",
+          "functions": [
+            "48",
+            "WS2812"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO45",
+          "functions": [
+            "45",
+            "VSPI"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO0",
+          "functions": [
+            "0",
+            "Boot"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO35",
+          "functions": [
+            "35",
+            "PSRAM"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO36",
+          "functions": [
+            "36",
+            "PSRAM"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO37",
+          "functions": [
+            "37",
+            "PSRAM"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO38",
+          "functions": [
+            "38"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO39",
+          "functions": [
+            "39",
+            "MTCK"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO40",
+          "functions": [
+            "40",
+            "MTDO"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO41",
+          "functions": [
+            "41",
+            "MTDI"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO42",
+          "functions": [
+            "42",
+            "MTMS"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO2",
+          "functions": [
+            "2",
+            "ADC1_CH1",
+            "LED ON",
+            "T2"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GPIO1",
+          "functions": [
+            "1",
+            "ADC1_CH0",
+            "T1"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GPIO44",
+          "functions": [
+            "RX",
+            "U0RXD",
+            "LED RX"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO43",
+          "functions": [
+            "TX",
+            "U0TXD",
+            "LED TX"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "GPIO5 ADC channel callout has overlapping glyphs (ADC1_CH plus a digit drawn over another digit); recorded as ADC1_CH4, last digit not certain."
+  ],
+  "uncertain": [],
+  "notes": "Silkscreen numbers/names beside each pin listed first in functions. Small dots printed next to silkscreen 37, 36, 35 were omitted."
+}

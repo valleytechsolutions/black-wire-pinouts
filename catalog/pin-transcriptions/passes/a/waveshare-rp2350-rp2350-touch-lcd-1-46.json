@@ -1,0 +1,353 @@
+{
+  "recordId": "waveshare-rp2350-rp2350-touch-lcd-1-46",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/c505e4538ed1de670ee041fd4193c19b782e7f8d40545e1fde2198b8e06068c2.jpg",
+      "sha256": "c505e4538ed1de670ee041fd4193c19b782e7f8d40545e1fde2198b8e06068c2"
+    },
+    {
+      "file": "media/cf2c071575106d2ae05f4092b435df293f7603a74f7351f4ddda15cc05d9fbb2.jpg",
+      "sha256": "cf2c071575106d2ae05f4092b435df293f7603a74f7351f4ddda15cc05d9fbb2"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "gpio-header",
+      "name": "2x10 header",
+      "image": "media/c505e4538ed1de670ee041fd4193c19b782e7f8d40545e1fde2198b8e06068c2.jpg",
+      "rows": 2,
+      "orderNote": "2x10 header, no pin numbers, no USB connector visible; rule 4 2xN: started at the top end, position 1 in the right column (taken as the outer row, nearer the visible right edge of the round board), alternating right/left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP34",
+          "functions": [
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP33",
+          "functions": [
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP41",
+          "functions": [
+            "SPI1 CSn",
+            "ADC1",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP32",
+          "functions": [
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP42",
+          "functions": [
+            "SPI1 SCK",
+            "ADC2",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP31",
+          "functions": [
+            "SPI1 TX",
+            "I2C1 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP43",
+          "functions": [
+            "SPI1 TX",
+            "ADC3",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP30",
+          "functions": [
+            "SPI1 SCK",
+            "I2C1 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP44",
+          "functions": [
+            "SPI1 RX",
+            "ADC4",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GP45",
+          "functions": [
+            "SPI1 CSn",
+            "ADC5",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GP46",
+          "functions": [
+            "SPI1 SCK",
+            "ADC6",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GP6",
+          "functions": [
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GP47",
+          "functions": [
+            "SPI1 TX",
+            "ADC7",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GP7",
+          "functions": [
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "BAT",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "gpio-header-img2",
+      "name": "2x10 header",
+      "image": "media/cf2c071575106d2ae05f4092b435df293f7603a74f7351f4ddda15cc05d9fbb2.jpg",
+      "rows": 2,
+      "orderNote": "2x10 header, no pin numbers, no USB connector visible; rule 4 2xN: started at the top end, position 1 in the right column (taken as the outer row, nearer the visible right edge of the round board), alternating right/left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP34",
+          "functions": [
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP33",
+          "functions": [
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP41",
+          "functions": [
+            "SPI1 CSn",
+            "ADC1",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP32",
+          "functions": [
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP42",
+          "functions": [
+            "SPI1 SCK",
+            "ADC2",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP31",
+          "functions": [
+            "SPI1 TX",
+            "I2C1 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP43",
+          "functions": [
+            "SPI1 TX",
+            "ADC3",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP30",
+          "functions": [
+            "SPI1 SCK",
+            "I2C1 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP44",
+          "functions": [
+            "SPI1 RX",
+            "ADC4",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GP45",
+          "functions": [
+            "SPI1 CSn",
+            "ADC5",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GP46",
+          "functions": [
+            "SPI1 SCK",
+            "ADC6",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GP6",
+          "functions": [
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GP47",
+          "functions": [
+            "SPI1 TX",
+            "ADC7",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GP7",
+          "functions": [
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "BAT",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "The round board is only partly shown (left side faded out); the right column was taken as the outer row because the board's right edge is visibly closer to it, but the board centre is not clearly shown."
+  ],
+  "notes": "Both images show the same artwork at different resolutions; each transcribed separately. Board silkscreen is not legible/faded; labels from callouts."
+}

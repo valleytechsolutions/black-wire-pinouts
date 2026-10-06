@@ -1,0 +1,249 @@
+{
+  "recordId": "seeed-studio-other-sbc-respeaker-core",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/b300ceddfa3df6632253227de62c93d9b9a45f05d0e309e812de24f174a3360c.png",
+      "sha256": "b300ceddfa3df6632253227de62c93d9b9a45f05d0e309e812de24f174a3360c"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "J5",
+      "name": "J5",
+      "image": "media/b300ceddfa3df6632253227de62c93d9b9a45f05d0e309e812de24f174a3360c.png",
+      "rows": 2,
+      "orderNote": "2x8 header, no printed numbers; small silkscreen dot at top-left treated as pin-1 mark: position 1 top-left, then alternating left/right columns downward. Labels from the J5 table, table columns mapped to header columns (left-left, right-right), rows top-to-bottom.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO45",
+          "functions": [
+            "UART_TX1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "MCLK_OUT",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO46",
+          "functions": [
+            "UART_RX1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO1",
+          "functions": [
+            "I2S_DAC"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO0",
+          "functions": [
+            "I2S_ADC"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO2",
+          "functions": [
+            "I2S_LRCLK"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PF7",
+          "functions": [
+            "A0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO3",
+          "functions": [
+            "I2S_BCLK"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PF6",
+          "functions": [
+            "A1"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO4",
+          "functions": [
+            "I2C_SCL"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PF4",
+          "functions": [
+            "A2"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO5",
+          "functions": [
+            "I2C_SDA"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "PF1",
+          "functions": [
+            "A3"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "USBDP",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "PF0",
+          "functions": [
+            "A5",
+            "CHARGE_STATE"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "USBDM",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J6",
+      "name": "J6",
+      "image": "media/b300ceddfa3df6632253227de62c93d9b9a45f05d0e309e812de24f174a3360c.png",
+      "rows": 2,
+      "orderNote": "2x8 header, no printed numbers; small silkscreen dot at top-left treated as pin-1 mark: position 1 top-left, then alternating left/right columns downward. Labels from the J6 table, table columns mapped to header columns (left-left, right-right), rows top-to-bottom.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VDD_5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "HP_SEL",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO13",
+          "functions": [
+            "UART_RX0",
+            "VAD_STATE"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO12",
+          "functions": [
+            "UART_TX0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "MT_GPIO18",
+          "functions": [
+            "PWM_CH0"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PD6",
+          "functions": [
+            "A11",
+            "D12"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "HP_L",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "HP_R",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "PD7",
+          "functions": [
+            "A7",
+            "D6"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PD1",
+          "functions": [
+            "SDA",
+            "D2"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PD4",
+          "functions": [
+            "A6",
+            "D4"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "PD0",
+          "functions": [
+            "SCL",
+            "D3"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "AGND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "GPIO0, PF0, UART_RX0/TX0, PD0, PWM_CH0: zero vs letter O read as 0."
+  ],
+  "uncertain": [
+    "J5/J6 labels are in separate 2x8 tables beside the headers with no leader lines; table-to-hole mapping (left column to left column, top row to top row) is an interpretation.",
+    "Pin 1 taken from a tiny dot at top-left of each header; without it, the USB rule would start at the bottom end (micro-USB at bottom), and for J6 the outer row would be the right column."
+  ],
+  "notes": ""
+}

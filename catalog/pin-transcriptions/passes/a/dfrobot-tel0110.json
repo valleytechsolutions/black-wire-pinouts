@@ -1,0 +1,296 @@
+{
+  "recordId": "dfrobot-tel0110",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/b77f9a89995521af2f05b823bd3aa73ee87fc876274a640de2c46f4a337f8e83.webp",
+      "sha256": "b77f9a89995521af2f05b823bd3aa73ee87fc876274a640de2c46f4a337f8e83"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-edge",
+      "name": "Left castellated edge",
+      "image": "media/b77f9a89995521af2f05b823bd3aa73ee87fc876274a640de2c46f4a337f8e83.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector; vertical edge, so position 1 is the top (square marker pad is not a pin-1 mark per rule 9).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D13",
+          "functions": [
+            "SCK"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D12",
+          "functions": [
+            "MISO"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "D11",
+          "functions": [
+            "MOSI"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D10",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "COM",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "ERR",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "D8",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "D6",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "SP0_MISO_MEM",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "SP0_MOSI_MEM",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "SP0_CLK_MEM",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "SP0_CS0_MEM",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "SP0_WP_MEM",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-edge",
+      "name": "Right castellated edge",
+      "image": "media/b77f9a89995521af2f05b823bd3aa73ee87fc876274a640de2c46f4a337f8e83.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector; vertical edge, so position 1 is the top (square marker pad is not a pin-1 mark per rule 9).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A5",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "A4",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "USBD+",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "USBD-",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "VDD_USB",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "VDD",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "D0",
+          "functions": [
+            "RX"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "D1",
+          "functions": [
+            "TX"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "D20_NEW",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "A1",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "IO_RST",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "M_RST",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-edge",
+      "name": "Bottom castellated edge",
+      "image": "media/b77f9a89995521af2f05b823bd3aa73ee87fc876274a640de2c46f4a337f8e83.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector; horizontal edge, so position 1 is the left end.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO_J1",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "D5",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "D2",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "D4",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "D7",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "D9",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "D3",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "A2",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "A0",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "A3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-pads",
+      "name": "Bottom pad mapping J1-J7",
+      "image": "media/b77f9a89995521af2f05b823bd3aa73ee87fc876274a640de2c46f4a337f8e83.webp",
+      "rows": 1,
+      "orderNote": "Pads printed J1-J7 in the 'Bottom Pin Mapping' view; position = printed J number.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "JTAG_TRST_N",
+          "functions": [
+            "J1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "JTAG_TMS",
+          "functions": [
+            "J2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "JTAG_TCK",
+          "functions": [
+            "J3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "JTAG_TDI",
+          "functions": [
+            "J4"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "JTAG_TD0",
+          "functions": [
+            "J5"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "VCC_3V3",
+          "functions": [
+            "J6"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": [
+            "J7"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "'SP0_...' prefixes and 'JTAG_TD0' use a character that may be letter O or digit 0; recorded as 0."
+  ],
+  "uncertain": [
+    "Bottom pads J1-J7 sit in a 2-3-2 grid rather than a row; recorded as one rows:1 connector ordered by J number, which does not reflect their physical grid."
+  ],
+  "notes": "Image titled 'CurieCore Pinout Diagram / Intel Curie inside', top view of a castellated module plus a 'Bottom Pin Mapping' of seven bottom pads J1-J7 (arranged 2-3-2) with a JTAG/power table. Combined names such as 'D13/SCK' and 'D0/RX' split into label and function."
+}

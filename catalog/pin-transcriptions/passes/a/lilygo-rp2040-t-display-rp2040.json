@@ -1,0 +1,253 @@
+{
+  "recordId": "lilygo-rp2040-t-display-rp2040",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/3ef430f09cb173e0000cc2a9d00bedf63919746d117325010ee4db40bf1ba500.jpg",
+      "sha256": "3ef430f09cb173e0000cc2a9d00bedf63919746d117325010ee4db40bf1ba500"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/3ef430f09cb173e0000cc2a9d00bedf63919746d117325010ee4db40bf1ba500.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers (square top pad not treated as pin 1); started at the end closest to the USB-C connector (bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP21",
+          "functions": [
+            "21",
+            "I2C0_SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP23",
+          "functions": [
+            "23"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP24",
+          "functions": [
+            "24",
+            "I2C0_SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP27",
+          "functions": [
+            "27",
+            "ADC1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP28",
+          "functions": [
+            "28",
+            "ADC2"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP29",
+          "functions": [
+            "29",
+            "ADC3"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP8",
+          "functions": [
+            "8",
+            "SPI1_RX",
+            "I2C0_SDA",
+            "UART1_TX"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP9",
+          "functions": [
+            "9",
+            "SPI1_CS",
+            "I2C0_SCL",
+            "UART1_RX"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP10",
+          "functions": [
+            "10",
+            "SPI1_SCK",
+            "I2C1_SDA"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GP11",
+          "functions": [
+            "11",
+            "SPI1_TX",
+            "I2C1_SCL"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/3ef430f09cb173e0000cc2a9d00bedf63919746d117325010ee4db40bf1ba500.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers (square top pad not treated as pin 1); started at the end closest to the USB-C connector (bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP20",
+          "functions": [
+            "20",
+            "I2C0_SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP19",
+          "functions": [
+            "19",
+            "SPI0_TX",
+            "I2C1_SCL"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP18",
+          "functions": [
+            "18",
+            "SPI0_SCK",
+            "I2C1_SDA"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP17",
+          "functions": [
+            "17",
+            "SPI0_CS",
+            "I2C0_SCL",
+            "UART0_TX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP16",
+          "functions": [
+            "16",
+            "SPI0_RX",
+            "UART0_RX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP15",
+          "functions": [
+            "15",
+            "SPI1_TX",
+            "I2C1_SCL"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP14",
+          "functions": [
+            "14",
+            "SPI1_SCK",
+            "I2C1_SDA"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP13",
+          "functions": [
+            "13",
+            "SPI1_CS",
+            "I2C0_SCL",
+            "UART0_RX"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP12",
+          "functions": [
+            "12",
+            "SPI1_RX",
+            "I2C0_SDA",
+            "UART0_TX"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Image titled LILYGO T-Display RP2040 (IPS ST7789V 1.14 inch). Board silkscreen is partly hidden under the display; only clearly visible differing spellings (G) added. The note 'Battery voltage ADC detection IO26' is printed beside the 5V callout but describes an internal signal, so it is not added to the 5V pin. Skipped: ST7789V display assignments (MOSI GP3, SCLK GP2, CS GP5, DC GP1, RST GP0, BL GP4), buttons GPIO6/GPIO7/BOOT, RUN/Enable switch, IO25 red LED."
+}

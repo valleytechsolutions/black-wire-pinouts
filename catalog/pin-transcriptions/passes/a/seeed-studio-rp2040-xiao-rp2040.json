@@ -1,0 +1,411 @@
+{
+  "recordId": "seeed-studio-rp2040-xiao-rp2040",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/49fdd97bfe3d13f0d1bb3c7daceefb54a65302670879b8e6f18f3677b68a1bb2.png",
+      "sha256": "49fdd97bfe3d13f0d1bb3c7daceefb54a65302670879b8e6f18f3677b68a1bb2"
+    },
+    {
+      "file": "media/e136526faa27c571c058a40ab6168a85ef0300c41f28184b81e1c638d0fd47c8.png",
+      "sha256": "e136526faa27c571c058a40ab6168a85ef0300c41f28184b81e1c638d0fd47c8"
+    },
+    {
+      "file": "media/03264c36771c5245fcf621393dae662e745e14a8e6737becc00bd4cd6de3f405.png",
+      "sha256": "03264c36771c5245fcf621393dae662e745e14a8e6737becc00bd4cd6de3f405"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-pads",
+      "name": "Left edge pads (bottom view, silkscreen labels)",
+      "image": "media/49fdd97bfe3d13f0d1bb3c7daceefb54a65302670879b8e6f18f3677b68a1bb2.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; USB connector at top of image, so position 1 is the top pad. Image 1 is a bottom view",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "10",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "9",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "8",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "7",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-pads",
+      "name": "Right edge pads (bottom view, silkscreen labels)",
+      "image": "media/49fdd97bfe3d13f0d1bb3c7daceefb54a65302670879b8e6f18f3677b68a1bb2.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; USB connector at top of image, so position 1 is the top pad. Image 1 is a bottom view",
+      "pins": [
+        {
+          "position": 1,
+          "label": "0",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "1",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "2",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "4",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "5",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "6",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "swd-pads",
+      "name": "Bottom SWD pads (2x2)",
+      "image": "media/49fdd97bfe3d13f0d1bb3c7daceefb54a65302670879b8e6f18f3677b68a1bb2.png",
+      "rows": 2,
+      "orderNote": "No numbers printed; 2x2 pad block ordered top row left-to-right then bottom row (top is nearest USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SWCLK",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SWDIO",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RST",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "power-pads",
+      "name": "Bottom power pads",
+      "image": "media/49fdd97bfe3d13f0d1bb3c7daceefb54a65302670879b8e6f18f3677b68a1bb2.png",
+      "rows": 1,
+      "orderNote": "Horizontal pair; left-to-right as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBUS",
+          "functions": [
+            "GND"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "VIN"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-pads-img2",
+      "name": "Left edge pads (front)",
+      "image": "media/e136526faa27c571c058a40ab6168a85ef0300c41f28184b81e1c638d0fd47c8.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; USB connector at top of image, so position 1 is the top pad",
+      "pins": [
+        {
+          "position": 1,
+          "label": "P26",
+          "functions": [
+            "D0",
+            "A0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "P27",
+          "functions": [
+            "D1",
+            "A1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "P28",
+          "functions": [
+            "D2",
+            "A2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "P29",
+          "functions": [
+            "D3",
+            "A3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "P6",
+          "functions": [
+            "D4",
+            "SDA"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P7",
+          "functions": [
+            "D5",
+            "SCL"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "P0",
+          "functions": [
+            "D6",
+            "TX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-pads-img2",
+      "name": "Right edge pads (front)",
+      "image": "media/e136526faa27c571c058a40ab6168a85ef0300c41f28184b81e1c638d0fd47c8.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; USB connector at top of image, so position 1 is the top pad",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "P3",
+          "functions": [
+            "D10",
+            "MOSI"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "P4",
+          "functions": [
+            "D9",
+            "MISO"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "P2",
+          "functions": [
+            "D8",
+            "SCK"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "P1",
+          "functions": [
+            "D7",
+            "CSn",
+            "RX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-pads-img3",
+      "name": "Left edge pads (front)",
+      "image": "media/03264c36771c5245fcf621393dae662e745e14a8e6737becc00bd4cd6de3f405.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; USB connector at top of image, so position 1 is the top pad",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO26",
+          "functions": [
+            "D0",
+            "A0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO27",
+          "functions": [
+            "D1",
+            "A1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO28",
+          "functions": [
+            "D2",
+            "A2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO29",
+          "functions": [
+            "D3",
+            "A3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO6",
+          "functions": [
+            "D4",
+            "I2C0_SDA"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO7",
+          "functions": [
+            "D5",
+            "I2C0_SCL"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO0",
+          "functions": [
+            "D6",
+            "UART0_TX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-pads-img3",
+      "name": "Right edge pads (front)",
+      "image": "media/03264c36771c5245fcf621393dae662e745e14a8e6737becc00bd4cd6de3f405.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; USB connector at top of image, so position 1 is the top pad",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V-OUT",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO3",
+          "functions": [
+            "D10",
+            "SPI0_MOSI"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO4",
+          "functions": [
+            "D9",
+            "SPI0_MISO"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO2",
+          "functions": [
+            "D8",
+            "SPI0_SCK"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO1",
+          "functions": [
+            "D7",
+            "UART0_RX"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Image 1 power-pads: the callout lines conflict with the silkscreen. The VBUS callout goes to the pad silkscreened GND, and the GND callout goes to the pad silkscreened VIN. Transcribed with the callout as label and the silkscreen in functions; which name is correct cannot be told from the image.",
+    "swd-pads: 2x2 pad block with no printed numbers; the position order is a choice the image leaves open."
+  ],
+  "notes": "Image 1 is a bottom view; edge pad labels are silkscreen text. Image 2 Micropython names (P26...) and image 3 GPIO names used as labels per rule 5; D/A names first in functions. Image 3 callouts RUN/RESET, QSPI_CSN/BOOT, GPIO12 RGB LED, RGB/POWER LEDs go to buttons/LEDs, not pads, and were skipped. O/0 by context: I2C0, UART0, SPI0 digit zero."
+}

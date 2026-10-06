@@ -1,0 +1,22 @@
+{
+  "recordId": "banana-pi-other-sbc-bpi-cm5-pro",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "no-connector-map",
+  "images": [
+    {
+      "file": "media/08afe3f9b949f821051bc85dd4501b868b599176cb571c613ed8267dcdb8096b.png",
+      "sha256": "08afe3f9b949f821051bc85dd4501b868b599176cb571c613ed8267dcdb8096b"
+    },
+    {
+      "file": "media/ab9714b763930337ed4ae056471bc620f9cfd9c98d29bd83e85c7ecfe2d0fc58.png",
+      "sha256": "ab9714b763930337ed4ae056471bc620f9cfd9c98d29bd83e85c7ecfe2d0fc58"
+    }
+  ],
+  "connectors": [],
+  "unreadable": [],
+  "uncertain": [
+    "Board identity: both images are titled 'ArmSoM-CM5 Pinlist (update: 2024-04-22)' and compare CM4, BPI-CM4 and ArmSoM-CM5 columns for a 200-pin CM4-style connector (pins 1-100 on CON1, 101-200 on the second image). No column or title names the BPI-CM5 Pro, so the images may show a different (or rebranded) module; if a reviewer confirms ArmSoM-CM5 = BPI-CM5 Pro, the numbered table could be transcribed."
+  ],
+  "notes": "Treated as a different product per rule 12: the images are pin tables for the ArmSoM-CM5 (with CM4 and BPI-CM4 reference columns), not the BPI-CM5 Pro. The tables list pin numbers 1-200 with Default/Act function columns but no board drawing."
+}

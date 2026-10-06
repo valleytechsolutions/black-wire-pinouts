@@ -1,0 +1,184 @@
+{
+  "recordId": "arduino-gpio-device-alvik",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/c7937870a5404355632ad631bd043c2df098aec33483002cfbd347b59d9d15e0.jpg",
+      "sha256": "c7937870a5404355632ad631bd043c2df098aec33483002cfbd347b59d9d15e0"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "top-header",
+      "name": "Top header row (Nano ESP32)",
+      "image": "media/c7937870a5404355632ad631bd043c2df098aec33483002cfbd347b59d9d15e0.jpg",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; started at the end closest to the USB-C connector (left). Labels = Nano ESP32 silkscreen.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D12",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "D11",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "D10",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "D9",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "D8",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "D7",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "D6",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "D5",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "D4",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "D3",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "D2",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "RX0",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "TX1",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-header",
+      "name": "Bottom header row (Nano ESP32)",
+      "image": "media/c7937870a5404355632ad631bd043c2df098aec33483002cfbd347b59d9d15e0.jpg",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; started at the end closest to the USB-C connector (left). Labels = Nano ESP32 silkscreen.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D13",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "B0",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "A0",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "A1",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "A2",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "A3",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "A4",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "A5",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "A6",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "A7",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "B1",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "VIN",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Image shows an Arduino Nano ESP32 seated on the Alvik carrier; Nano silkscreen labels are visible for 13 of 15 pins per row. Position 12 (top) and 14 (bottom) have a blank white silkscreen box and no text; they are labelled GND because the carrier's GND callouts point to the holes in those columns. The carrier callouts '3V3' and 'PWR_Status' point to the holes in the D2 and RX0 columns of the top row, and 'VIN' to the VIN column of the bottom row; the 3V3/PWR_Status callouts conflict with the Nano silkscreen and are not merged into the pin entries - needs human review."
+}

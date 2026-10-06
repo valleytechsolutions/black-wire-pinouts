@@ -1,0 +1,79 @@
+{
+  "recordId": "seeed-studio-other-sbc-reserver-j2032",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/a2806e8c174868c58190f058d1d7316a2b53574e1ab069580d4f81ee7f1f7bd8.png",
+      "sha256": "a2806e8c174868c58190f058d1d7316a2b53574e1ab069580d4f81ee7f1f7bd8"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "debug-header",
+      "name": "2x5Pin Debug Header",
+      "image": "media/a2806e8c174868c58190f058d1d7316a2b53574e1ab069580d4f81ee7f1f7bd8.png",
+      "rows": 2,
+      "orderNote": "No printed pin numbers; started at the right end (marginally nearer the 'MCU USB' connector) of the top row (nearest the board's top edge), alternating top/bottom rows.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "MODE",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "NX_TX",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "FORCE_REC",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "NX_RX",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "MCU_TX",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "MCU_RX",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Image shows a carrier board with a 'Jetson Xavier NX Module' block and one callout set for the '2x5Pin Debug Header'; leader lines traced: top row L-R GND, RST, GND, FORCE_REC, MODE; bottom row L-R 3V3, MCU_RX, MCU_TX, NX_RX, NX_TX. GND and FORCE_REC callouts are red (pair), others green. No product name is printed in the image. Other connectors (JST, SATA, RJ45, USB, M.2) are not labeled pin by pin and were skipped.",
+  "uncertain": [
+    "Pin order: the right end of the header is only marginally nearer the 'MCU USB' connector than the left end (USB-A ports also present far left), so the USB-nearest start end is borderline.",
+    "Board identity: the image prints no product name; it shows a Jetson Xavier NX carrier which is assumed to be the reServer J2032."
+  ]
+}

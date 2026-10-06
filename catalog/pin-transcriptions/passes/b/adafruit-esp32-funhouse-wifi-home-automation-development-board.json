@@ -1,0 +1,165 @@
+{
+  "recordId": "adafruit-esp32-funhouse-wifi-home-automation-development-board",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/3706c60614282cc7cab1cc2119f07b953f2e8db5179b8b1118e707b7e511fa19.png",
+      "sha256": "3706c60614282cc7cab1cc2119f07b953f2e8db5179b8b1118e707b7e511fa19"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "pir-header",
+      "name": "PIR sensor header",
+      "image": "media/3706c60614282cc7cab1cc2119f07b953f2e8db5179b8b1118e707b7e511fa19.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB connector not shown; horizontal row started at left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GPIO16",
+          "functions": [
+            "PIR_SENSE",
+            "ADC2_CH5",
+            "U0CTS",
+            "XTAL_32K_N"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "i2c-port",
+      "name": "I2C (STEMMA QT style) connector",
+      "image": "media/3706c60614282cc7cab1cc2119f07b953f2e8db5179b8b1118e707b7e511fa19.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB connector not shown; vertical row started at top (yellow, blue, red, black dots)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO33",
+          "functions": [
+            "SCL",
+            "FSPIHD"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO34",
+          "functions": [
+            "SDA",
+            "FSPICS0"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "a0-port",
+      "name": "A0 3-pin connector",
+      "image": "media/3706c60614282cc7cab1cc2119f07b953f2e8db5179b8b1118e707b7e511fa19.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB connector not shown; vertical row started at top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO17",
+          "functions": [
+            "A0",
+            "ADC2_CH6",
+            "U1TXD",
+            "DAC_1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-port",
+      "name": "A1 3-pin connector",
+      "image": "media/3706c60614282cc7cab1cc2119f07b953f2e8db5179b8b1118e707b7e511fa19.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB connector not shown; vertical row started at top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO2",
+          "functions": [
+            "A1",
+            "ADC1_CH1",
+            "T2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-port",
+      "name": "A2 3-pin connector",
+      "image": "media/3706c60614282cc7cab1cc2119f07b953f2e8db5179b8b1118e707b7e511fa19.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB connector not shown; vertical row started at top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO1",
+          "functions": [
+            "A2",
+            "ADC1_CH0",
+            "T1"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Labels use GPIO names with the CircuitPython name first in functions; Power Domain tags (RTC, CPU, SPI/CPU) omitted. PIR footprint shows a second row of three pads tied to the labeled ones; transcribed as one 3-position row (board silkscreen +, 0, -). Capacitive touch areas CAP6-CAP13, DotStar, buttons, display (TFT_*), speaker, LED and light sensor are not wiring points and were skipped."
+}

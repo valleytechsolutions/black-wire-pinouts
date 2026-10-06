@@ -1,0 +1,210 @@
+{
+  "recordId": "waveshare-esp32-esp32-s3-lcd-1-3",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/7770c8b1d1d93cbb7a70c5d530be703a5a8f0e3740cab10ed287b7fd9194be87.jpg",
+      "sha256": "7770c8b1d1d93cbb7a70c5d530be703a5a8f0e3740cab10ed287b7fd9194be87"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/7770c8b1d1d93cbb7a70c5d530be703a5a8f0e3740cab10ed287b7fd9194be87.jpg",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; top connector is a battery-style JST, no USB connector visible; vertical row read top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "IO1",
+          "functions": [
+            "SPI",
+            "I2C",
+            "ADC",
+            "I2S",
+            "PWM",
+            "UART"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "IO2",
+          "functions": [
+            "SPI",
+            "I2C",
+            "ADC",
+            "I2S",
+            "PWM",
+            "UART"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "IO3",
+          "functions": [
+            "SPI",
+            "I2C",
+            "ADC",
+            "I2S",
+            "PWM",
+            "UART"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "IO4",
+          "functions": [
+            "SPI",
+            "I2C",
+            "ADC",
+            "I2S",
+            "PWM",
+            "UART"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "IO5",
+          "functions": [
+            "SPI",
+            "I2C",
+            "ADC",
+            "I2S",
+            "PWM",
+            "UART"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/7770c8b1d1d93cbb7a70c5d530be703a5a8f0e3740cab10ed287b7fd9194be87.jpg",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; top connector is a battery-style JST, no USB connector visible; vertical row read top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO14",
+          "functions": [
+            "SPI",
+            "I2C",
+            "ADC",
+            "I2S",
+            "PWM",
+            "UART"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "IO13",
+          "functions": [
+            "SPI",
+            "I2C",
+            "ADC",
+            "I2S",
+            "PWM",
+            "UART"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "IO12",
+          "functions": [
+            "SPI",
+            "I2C",
+            "ADC",
+            "I2S",
+            "PWM",
+            "UART"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "IO11",
+          "functions": [
+            "SPI",
+            "I2C",
+            "ADC",
+            "I2S",
+            "PWM",
+            "UART"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "IO10",
+          "functions": [
+            "SPI",
+            "I2C",
+            "ADC",
+            "I2S",
+            "PWM",
+            "UART"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "IO9",
+          "functions": [
+            "SPI",
+            "I2C",
+            "ADC",
+            "I2S",
+            "PWM",
+            "UART"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "IO8",
+          "functions": [
+            "SPI",
+            "I2C",
+            "ADC",
+            "I2S",
+            "PWM",
+            "UART"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "IO7",
+          "functions": [
+            "SPI",
+            "I2C",
+            "ADC",
+            "I2S",
+            "PWM",
+            "UART"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Each IO pin carries the same set of tags (SPI, I2C, ADC, I2S, PWM, UART); recorded as functions, but they may be capability/category tags that rule 6 says to omit."
+  ],
+  "notes": "Board silkscreen 'ESP32-S3-LCD-1.3'. 3V3 callout printed as '3V3(OUT)'."
+}

@@ -1,0 +1,141 @@
+{
+  "recordId": "lilygo-esp32-t-knob",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/34f76644d84407aeebaa86b69cbff664c36ca38944524f403ddca0e1ec645086.jpg",
+      "sha256": "34f76644d84407aeebaa86b69cbff664c36ca38944524f403ddca0e1ec645086"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "top-pads",
+      "name": "Top pad row (top-view inset)",
+      "image": "media/34f76644d84407aeebaa86b69cbff664c36ca38944524f403ddca0e1ec645086.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector in this view; horizontal row started at the left.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO19",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IO08",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-pads",
+      "name": "Left pad row (top-view inset)",
+      "image": "media/34f76644d84407aeebaa86b69cbff664c36ca38944524f403ddca0e1ec645086.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector in this view; vertical row started at the top.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RX",
+          "functions": [
+            "RXD"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "TX",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-pads",
+      "name": "Right pad row (top-view inset)",
+      "image": "media/34f76644d84407aeebaa86b69cbff664c36ca38944524f403ddca0e1ec645086.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector in this view; vertical row started at the top.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO19",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IO08",
+          "functions": [
+            "IO8"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "5V",
+          "functions": [
+            "5VIN"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-pads",
+      "name": "Bottom pad row (top-view inset)",
+      "image": "media/34f76644d84407aeebaa86b69cbff664c36ca38944524f403ddca0e1ec645086.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector in this view; horizontal row started at the left.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RX",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Labels from the callout lists around the top-view inset of the round 'T-Motor-TOP V1.0' PCB; board silkscreen readable only on the left/right rows (RXD, TXD, 3V3, GND / IO19, IO8, 5VIN, GND). Top and bottom row silkscreen illegible; callouts used. Square pad at the left of the top/bottom rows not treated as pin 1. Hall sensor, TMC6300, buzzer and USB lists are internal assignments; skipped. The main product photo shows the same pads at an angle (USB-C at bottom) but the labels are read from the inset.",
+  "uncertain": []
+}

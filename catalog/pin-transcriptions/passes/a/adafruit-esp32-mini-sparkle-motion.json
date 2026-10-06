@@ -1,0 +1,190 @@
+{
+  "recordId": "adafruit-esp32-mini-sparkle-motion",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/c53a06cf3b54e6f7298b64938e2b0817a0028bca120c1456d8e1732fbfebc4bb.png",
+      "sha256": "c53a06cf3b54e6f7298b64938e2b0817a0028bca120c1456d8e1732fbfebc4bb"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "top-header",
+      "name": "Top 2x3 header",
+      "image": "media/c53a06cf3b54e6f7298b64938e2b0817a0028bca120c1456d8e1732fbfebc4bb.png",
+      "rows": 2,
+      "orderNote": "No pin numbers printed; header drawn above board with no USB adjacent: started at the top end, left column treated as first (outer) row, alternating left/right.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "D14",
+          "functions": [
+            "14",
+            "ADC2_CH6",
+            "HSPICLK",
+            "HS2_CLK",
+            "T6",
+            "RTC16",
+            "MTMS"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D27",
+          "functions": [
+            "27",
+            "ADC2_CH7",
+            "T7",
+            "RTC17"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "TX",
+          "functions": [
+            "25",
+            "ADC2_CH8",
+            "RTC6",
+            "DAC1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "RX",
+          "functions": [
+            "26",
+            "ADC2_CH9",
+            "RTC7",
+            "DAC2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-pads",
+      "name": "Right edge pads",
+      "image": "media/c53a06cf3b54e6f7298b64938e2b0817a0028bca120c1456d8e1732fbfebc4bb.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; vertical row away from USB: started at the top.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D33",
+          "functions": [
+            "33",
+            "ADC1_CH5",
+            "T8",
+            "RTC8",
+            "32K XN"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "D32",
+          "functions": [
+            "32",
+            "ADC1_CH4",
+            "T9",
+            "RTC9",
+            "32K XP"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "5V",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "i2c-port",
+      "name": "I2C JST connector (silk I2C)",
+      "image": "media/c53a06cf3b54e6f7298b64938e2b0817a0028bca120c1456d8e1732fbfebc4bb.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; horizontal row: started at the end closest to the USB connector (left).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SDA",
+          "functions": [
+            "19",
+            "VSPIQ",
+            "U0CTS"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "SCL",
+          "functions": [
+            "22",
+            "VSPIWP",
+            "U0RTS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jst-port",
+      "name": "3-pin JST connector (A0 / 3.3V / GND)",
+      "image": "media/c53a06cf3b54e6f7298b64938e2b0817a0028bca120c1456d8e1732fbfebc4bb.png",
+      "rows": 1,
+      "orderNote": "No pin 1 marked; horizontal row: started at the end closest to the USB connector (left).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A0",
+          "functions": [
+            "13",
+            "ADC2_CH4",
+            "HSPID",
+            "HS2_DATA3",
+            "T4",
+            "RTC14",
+            "MTCK"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Label = CircuitPython name (bare GPIO numbers not treated as GPIO names); silkscreen '13' printed near the 3-pin JST. Button, NeoPixel, I2S mic and LED skipped."
+}

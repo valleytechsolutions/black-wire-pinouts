@@ -1,0 +1,137 @@
+{
+  "recordId": "waveshare-esp32-esp32-cam",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/347e8439aaaa22f5c80aeadca649ae726c3df3e32e5f26c91e96bff586d5274a.jpg",
+      "sha256": "347e8439aaaa22f5c80aeadca649ae726c3df3e32e5f26c91e96bff586d5274a"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/347e8439aaaa22f5c80aeadca649ae726c3df3e32e5f26c91e96bff586d5274a.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB connector; vertical row started at the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO4",
+          "functions": [
+            "HS2_DATA1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO2",
+          "functions": [
+            "HS2_DATA0"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO14",
+          "functions": [
+            "HS2_CLK"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO15",
+          "functions": [
+            "HS2_CMD"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO13",
+          "functions": [
+            "HS2_DATA3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO12",
+          "functions": [
+            "HS2_DATA2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "5V",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/347e8439aaaa22f5c80aeadca649ae726c3df3e32e5f26c91e96bff586d5274a.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers or USB connector; vertical row started at the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GPIO1",
+          "functions": [
+            "U0TXD"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO3",
+          "functions": [
+            "U0RXD"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "3.3V/5V",
+          "functions": [
+            "P_OUT"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GPIO0",
+          "functions": [
+            "CSI_MCLK"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO16",
+          "functions": [
+            "U2RXD"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "3.3V",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Outer category tags 'I/O' and 'POW' omitted as category-only tags; 'P_OUT' kept as printed note for the 3.3V/5V pin."
+}

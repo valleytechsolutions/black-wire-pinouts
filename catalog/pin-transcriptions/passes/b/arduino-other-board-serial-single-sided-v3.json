@@ -1,0 +1,283 @@
+{
+  "recordId": "arduino-other-board-serial-single-sided-v3",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/eb21ac05c72e46855f53677f9c8e2b80aa85f5077af2c3190ece339d5df07313.png",
+      "sha256": "eb21ac05c72e46855f53677f9c8e2b80aa85f5077af2c3190ece339d5df07313"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "port-b",
+      "name": "PORT B (D8-D13) header",
+      "image": "media/eb21ac05c72e46855f53677f9c8e2b80aa85f5077af2c3190ece339d5df07313.png",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector (serial DE-9 board); horizontal row read left-to-right as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "AREF",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "0V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "D13",
+          "functions": [
+            "13"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D12",
+          "functions": [
+            "12"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "D11",
+          "functions": [
+            "11",
+            "PWM"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D10",
+          "functions": [
+            "10",
+            "PWM"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "D9",
+          "functions": [
+            "9",
+            "PWM"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "D8",
+          "functions": [
+            "8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "port-d",
+      "name": "PORT D (D0-D7) header",
+      "image": "media/eb21ac05c72e46855f53677f9c8e2b80aa85f5077af2c3190ece339d5df07313.png",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector (serial DE-9 board); horizontal row read left-to-right as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D7",
+          "functions": [
+            "7"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D6",
+          "functions": [
+            "6",
+            "PWM-AT168"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "D5",
+          "functions": [
+            "5",
+            "PWM-AT168"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D4",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "D3",
+          "functions": [
+            "3",
+            "PWM-AT168"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D2",
+          "functions": [
+            "2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "D1",
+          "functions": [
+            "1",
+            "TX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "D0",
+          "functions": [
+            "0",
+            "RX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "power",
+      "name": "Power header",
+      "image": "media/eb21ac05c72e46855f53677f9c8e2b80aa85f5077af2c3190ece339d5df07313.png",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector (serial DE-9 board); horizontal row read left-to-right as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "0",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "0",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "9V",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "port-c",
+      "name": "ANALOG IN PORT C (A0-A5) header",
+      "image": "media/eb21ac05c72e46855f53677f9c8e2b80aa85f5077af2c3190ece339d5df07313.png",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector (serial DE-9 board); horizontal row read left-to-right as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A0",
+          "functions": [
+            "0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "A1",
+          "functions": [
+            "1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "A2",
+          "functions": [
+            "2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "A3",
+          "functions": [
+            "3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "A4",
+          "functions": [
+            "4",
+            "SDA"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "A5",
+          "functions": [
+            "5",
+            "SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ICSP",
+      "name": "ICSP header (2x3)",
+      "image": "media/eb21ac05c72e46855f53677f9c8e2b80aa85f5077af2c3190ece339d5df07313.png",
+      "rows": 2,
+      "orderNote": "Pin 1 marked at top-left; remaining holes numbered left-then-right per row, top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "?",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "ICSP positions 1-6: header drawn with only a pin-1 mark; no pin names printed (unlabeled)"
+  ],
+  "notes": "Arduino Severino S3v3 user-manual page. Digital labels use board names D0-D13 / A0-A5 derived from the printed PORT B(D8-D13), PORT D(D0-D7), PORT C(A0-A5) captions, with the silkscreen number first in functions. PWM brackets cover 11/10/9 (PWM) and 6/5/3 ('(PWM-AT168)'). Power header '0' pins are printed as 0 (0V). Skipped: X1 DE-9 serial connector (only pin numbers 1/5/6/9 printed, no names), DC1 power jack, jumpers JP0 (1-2-3, PIN 0/1 vs SERIAL ENABLE) and JP4 (AUTO RESET ENABLE), switch S1, LEDs."
+}

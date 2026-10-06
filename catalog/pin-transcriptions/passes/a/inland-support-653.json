@@ -1,0 +1,213 @@
+{
+  "recordId": "inland-support-653",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/2f634f948010d6a187d3903e570bbde3e145dd510c44f589f20ca1a5682d78dd.png",
+      "sha256": "2f634f948010d6a187d3903e570bbde3e145dd510c44f589f20ca1a5682d78dd"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/2f634f948010d6a187d3903e570bbde3e145dd510c44f589f20ca1a5682d78dd.png",
+      "rows": 1,
+      "orderNote": "Started at the end closest to the Micro USB connector (top), read top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "TX",
+          "functions": [
+            "TX0",
+            "D1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "RX",
+          "functions": [
+            "RXI",
+            "D0"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "D2",
+          "functions": [
+            "2",
+            "I2C SDA"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D3",
+          "functions": [
+            "3",
+            "PWM-I2C SCL"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "D4",
+          "functions": [
+            "4",
+            "A6"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "D5",
+          "functions": [
+            "5",
+            "PWM"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "D6",
+          "functions": [
+            "6",
+            "PWM-A7"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "D7",
+          "functions": [
+            "7"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "D8",
+          "functions": [
+            "8",
+            "A8"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "D9",
+          "functions": [
+            "9",
+            "PWM-A9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/2f634f948010d6a187d3903e570bbde3e145dd510c44f589f20ca1a5682d78dd.png",
+      "rows": 1,
+      "orderNote": "Started at the end closest to the Micro USB connector (top), read top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RAW",
+          "functions": [
+            "DC7-9V"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "VCC",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "A3",
+          "functions": [
+            "D21"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "A2",
+          "functions": [
+            "D20"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "A1",
+          "functions": [
+            "D19"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "A0",
+          "functions": [
+            "D18"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "D15",
+          "functions": [
+            "15",
+            "SPI SCLK"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "D14",
+          "functions": [
+            "14",
+            "SPI MISO"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "D16",
+          "functions": [
+            "16",
+            "SPI MOSI"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "D10",
+          "functions": [
+            "10",
+            "PWM-A10"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "Silkscreen beside the left top pin read as 'TX0' (O/0 ambiguous; 0 used). Silkscreen '9' at the bottom left is partly hidden by a callout arrow."
+  ],
+  "uncertain": [
+    "Callout labels are given as 'NAME(ALT)' (e.g. 'TX (D1)', 'A3(D21)'); the first name was used as the label and the parenthesised text as a function. The two GND callouts share one bracket covering the 3rd and 4th left pins.",
+    "Small rotated silkscreen text was read from a low-resolution photo; silkscreen spellings were added only where they differ from the callout."
+  ],
+  "notes": "Annotated photo of a Pro Micro board (silkscreen 'pro Micro')."
+}

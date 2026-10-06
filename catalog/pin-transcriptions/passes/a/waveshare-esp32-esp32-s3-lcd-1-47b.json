@@ -1,0 +1,163 @@
+{
+  "recordId": "waveshare-esp32-esp32-s3-lcd-1-47b",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/90fb5fc79f02efe5b02e6ca4c08aceb300d5c5fb0e1ac91d586a2f026727e1f8.jpg",
+      "sha256": "90fb5fc79f02efe5b02e6ca4c08aceb300d5c5fb0e1ac91d586a2f026727e1f8"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/90fb5fc79f02efe5b02e6ca4c08aceb300d5c5fb0e1ac91d586a2f026727e1f8.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at the end closest to the USB-C connector (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": [
+            "VBUS"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3(OUT)",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP0",
+          "functions": [
+            "0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP2",
+          "functions": [
+            "2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP3",
+          "functions": [
+            "3"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP4",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP5",
+          "functions": [
+            "5"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP6",
+          "functions": [
+            "6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/90fb5fc79f02efe5b02e6ca4c08aceb300d5c5fb0e1ac91d586a2f026727e1f8.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at the end closest to the USB-C connector (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "TX",
+          "functions": [
+            "TXD",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "RX",
+          "functions": [
+            "RXD",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "VBAT",
+          "functions": [
+            "BAT"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP11",
+          "functions": [
+            "11"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP10",
+          "functions": [
+            "10"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP9",
+          "functions": [
+            "9"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP8",
+          "functions": [
+            "8"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP7",
+          "functions": [
+            "7"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Board silkscreen reads ESP32-S3-LCD-1.47B. Category-only tags (UART, PWM, I2S, ADC, I2C, SPI) omitted per rule 6; specific 'UART0 TX/RX' kept. Skipped USB-C, BOOT/RST buttons, TF slot and LEDs."
+}

@@ -1,0 +1,260 @@
+{
+  "recordId": "lilygo-esp32-t3-v1-8-sx1280-2-4ghz",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/af57d79070d015274ddfd3b6e5ca8e720d61134cd75433fcfd7edff43051fc2c.jpg",
+      "sha256": "af57d79070d015274ddfd3b6e5ca8e720d61134cd75433fcfd7edff43051fc2c"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/af57d79070d015274ddfd3b6e5ca8e720d61134cd75433fcfd7edff43051fc2c.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; position 1 at the end nearest the USB-C connector (bottom edge of the main board view)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "G0IO25",
+          "functions": [
+            "IO25",
+            "25",
+            "ADC2_8*",
+            "DAC2",
+            "LED"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO4",
+          "functions": [
+            "IO4",
+            "04",
+            "ADC2_0",
+            "HSPI_HD",
+            "TOUCH0"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO0",
+          "functions": [
+            "IO0",
+            "00",
+            "ADC2_1",
+            "TOUCH1"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO2",
+          "functions": [
+            "IO2",
+            "02",
+            "ADC2_2",
+            "HSPI_WP",
+            "TOUCH2"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO15",
+          "functions": [
+            "IO15",
+            "15",
+            "ADC2_3",
+            "HSPI_CS0",
+            "TOUCH3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO13",
+          "functions": [
+            "IO13",
+            "13",
+            "ADC2_4",
+            "TPUCH4"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO12",
+          "functions": [
+            "IO12",
+            "12",
+            "ADC2_5",
+            "TPUCH5"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO14",
+          "functions": [
+            "IO14",
+            "14",
+            "ADC2_6*",
+            "TOUCH6"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "G0IO35",
+          "functions": [
+            "IO35",
+            "35",
+            "ADC1_7*"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "G0IO34",
+          "functions": [
+            "IO34",
+            "34",
+            "ADC1_6*"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GPIO39",
+          "functions": [
+            "S_VN",
+            "39",
+            "ADC1_3*"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO36",
+          "functions": [
+            "S_VP",
+            "36",
+            "ADC1_0*"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/af57d79070d015274ddfd3b6e5ca8e720d61134cd75433fcfd7edff43051fc2c.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; position 1 at the end nearest the USB-C connector (bottom edge of the main board view)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO26",
+          "functions": [
+            "IO26",
+            "26",
+            "ADC2_9*",
+            "DAC1",
+            "LoRa_DIO"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "LoRa1",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "LoRa2",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "GPIO19",
+          "functions": [
+            "IO19",
+            "19",
+            "V_SPI_Q",
+            "V0_CTS"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO23",
+          "functions": [
+            "IO23",
+            "23",
+            "V_SPI_D"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO22",
+          "functions": [
+            "IO22",
+            "22",
+            "SCL",
+            "V_SPI_WP"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO03",
+          "functions": [
+            "RXD",
+            "CLX2",
+            "U0_RXD"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO01",
+          "functions": [
+            "TXD",
+            "CLX3",
+            "U0_TXD"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO21",
+          "functions": [
+            "IO21",
+            "21",
+            "SDA",
+            "V_SPI_HD"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "O and 0 are drawn with the same glyph in this font; recorded as 0 in G0IO25, G0IO34, G0IO35 (printed 'G?IO..', apparently a GPIO typo), V0_CTS, U0_TXD, U0_RXD, HSPI_CS0, GPIO01, GPIO03 and ADC1_0*/ADC2_0"
+  ],
+  "uncertain": [],
+  "notes": "Labels from the callout boxes; PCB silkscreen (IO25, S_VP, TXD...) listed first in functions where different. Callouts TPUCH4/TPUCH5 and G0IO.. copied as printed. Side tables for LoRa SPI, OLED and TF card and the 1.25mm GH JST battery connector (polarity marks only) are not separate connectors."
+}

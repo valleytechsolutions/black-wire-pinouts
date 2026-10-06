@@ -1,0 +1,191 @@
+{
+  "recordId": "nologo-other-arduino-promicro",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/3e0f6601c5cd835bcf1622a97014063690be1c8ee563ca37a7d03dd1ead1373b.png",
+      "sha256": "3e0f6601c5cd835bcf1622a97014063690be1c8ee563ca37a7d03dd1ead1373b"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/3e0f6601c5cd835bcf1622a97014063690be1c8ee563ca37a7d03dd1ead1373b.png",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; vertical row starting at the end closest to the micro-USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "1",
+          "functions": [
+            "TX0",
+            "TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "0",
+          "functions": [
+            "RXI",
+            "RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "2",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "3",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "4",
+          "functions": [
+            "A6"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "5",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "6",
+          "functions": [
+            "A7"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "7",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "8",
+          "functions": [
+            "A8"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "9",
+          "functions": [
+            "A9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/3e0f6601c5cd835bcf1622a97014063690be1c8ee563ca37a7d03dd1ead1373b.png",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; vertical row starting at the end closest to the micro-USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RAW",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "21",
+          "functions": [
+            "A3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "20",
+          "functions": [
+            "A2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "19",
+          "functions": [
+            "A1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "18",
+          "functions": [
+            "A0"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "15",
+          "functions": [
+            "SCLK"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "14",
+          "functions": [
+            "MISO"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "16",
+          "functions": [
+            "MOSI"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "10",
+          "functions": [
+            "A10"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "Silkscreen of left pin 1 reads 'TX0'/'TXO'; letter O and digit 0 cannot be told apart, recorded as 'TX0'."
+  ],
+  "uncertain": [],
+  "notes": "Board silkscreen 'Pro Micro' with MEGA32U4. Labels use the Arduino pin number callouts; silkscreen spelling (TX0, RXI, A3..A0) placed first in functions where different. PWM check-mark icons (pins 3, 5, 6, 9, 10) omitted as symbols. 'J1' printed near the top-left corner is not clearly tied to either header."
+}

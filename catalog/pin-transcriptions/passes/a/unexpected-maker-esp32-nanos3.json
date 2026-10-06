@@ -1,0 +1,363 @@
+{
+  "recordId": "unexpected-maker-esp32-nanos3",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/9fd527e95406ad6dbcb0668b4f5f469a478aad220fb3d14a4ac44963fe93723f.png",
+      "sha256": "9fd527e95406ad6dbcb0668b4f5f469a478aad220fb3d14a4ac44963fe93723f"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "top-pads",
+      "name": "Top castellated edge (8 pads)",
+      "image": "media/9fd527e95406ad6dbcb0668b4f5f469a478aad220fb3d14a4ac44963fe93723f.png",
+      "rows": 1,
+      "orderNote": "No printed numbers and no USB connector on the module; horizontal row read from the left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "STAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "5V",
+          "functions": [
+            "MAX 5V IN"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "USB D-",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "USB D+",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "3V3 EN",
+          "functions": [
+            "DEF ON"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "3V3",
+          "functions": [
+            "MAX 3V3 IN"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-pads",
+      "name": "Left castellated edge (14 pads)",
+      "image": "media/9fd527e95406ad6dbcb0668b4f5f469a478aad220fb3d14a4ac44963fe93723f.png",
+      "rows": 1,
+      "orderNote": "No printed numbers and no USB connector; vertical row started at the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO35",
+          "functions": [
+            "D35",
+            "SPI MO"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "IO37",
+          "functions": [
+            "D37",
+            "SPI MI"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "IO36",
+          "functions": [
+            "D36",
+            "SPI SCK"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "IO34",
+          "functions": [
+            "D34"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "IO9",
+          "functions": [
+            "D9",
+            "A8",
+            "SCL",
+            "TCH9",
+            "ADC1 CH8",
+            "RTC-IO9"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "IO8",
+          "functions": [
+            "D8",
+            "A7",
+            "SDA",
+            "TCH8",
+            "ADC1 CH7",
+            "RTC-IO8"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "IO0",
+          "functions": [
+            "D0",
+            "RTC-IO0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "IO33",
+          "functions": [
+            "D33"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "IO43",
+          "functions": [
+            "D43",
+            "TX"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "IO44",
+          "functions": [
+            "D44",
+            "RX"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "IO1",
+          "functions": [
+            "D1",
+            "A0",
+            "TCH 1",
+            "ADC1 CH0",
+            "RTC-IO1"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "IO2",
+          "functions": [
+            "D2",
+            "A1",
+            "TCH 2",
+            "ADC1 CH1",
+            "RTC-IO2"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "IO3",
+          "functions": [
+            "D3",
+            "A2",
+            "TCH 3",
+            "ADC1 CH2",
+            "RTC-IO3"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "IO4",
+          "functions": [
+            "D4",
+            "A3",
+            "TCH 4",
+            "ADC1 CH3",
+            "RTC-IO4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-pads",
+      "name": "Right castellated edge (14 pads)",
+      "image": "media/9fd527e95406ad6dbcb0668b4f5f469a478aad220fb3d14a4ac44963fe93723f.png",
+      "rows": 1,
+      "orderNote": "No printed numbers and no USB connector; vertical row started at the top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": [
+            "1S LiPo MAX 4.2V"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "IO21",
+          "functions": [
+            "D21",
+            "RTC-IO21"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "IO18",
+          "functions": [
+            "D18",
+            "A17",
+            "ADC2 CH7",
+            "RTC-IO18"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "IO17",
+          "functions": [
+            "D17",
+            "A16",
+            "ADC2 CH6",
+            "RTC-IO17"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "IO16",
+          "functions": [
+            "D16",
+            "A15",
+            "ADC2 CH5",
+            "RTC-IO16"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "IO15",
+          "functions": [
+            "D15",
+            "A14",
+            "ADC2 CH4",
+            "RTC-IO15"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "IO14",
+          "functions": [
+            "D14",
+            "A13",
+            "TCH 14",
+            "ADC2 CH3",
+            "RTC-IO14"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "IO13",
+          "functions": [
+            "D13",
+            "A12",
+            "TCH 13",
+            "ADC2 CH2",
+            "RTC-IO13"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "IO12",
+          "functions": [
+            "D12",
+            "A11",
+            "TCH 12",
+            "ADC2 CH1",
+            "RTC-IO12"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "IO11",
+          "functions": [
+            "D11",
+            "A10",
+            "TCH 11",
+            "ADC2 CH0",
+            "RTC-IO11"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "IO10",
+          "functions": [
+            "D10",
+            "A9",
+            "TCH 10",
+            "ADC1 CH9",
+            "RTC-IO10"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "IO7",
+          "functions": [
+            "D7",
+            "A6",
+            "TCH 7",
+            "ADC1 CH6",
+            "RTC-IO7"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "IO6",
+          "functions": [
+            "D6",
+            "A5",
+            "TCH 6",
+            "ADC1 CH5",
+            "RTC-IO6"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "IO5",
+          "functions": [
+            "D5",
+            "A4",
+            "TCH 5",
+            "ADC1 CH4",
+            "RTC-IO5"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Labels follow callout leader lines to each castellated pad (14 left, 14 right, 8 top counted in zoomed crops). Touch names copied with spacing as printed (TCH9/TCH8 vs 'TCH 1', 'TCH 14'). 'USB D-' minus sign recorded as a hyphen. Unlabeled round pads and the RGB LED (IO41/IO42) callout are not wiring points."
+}

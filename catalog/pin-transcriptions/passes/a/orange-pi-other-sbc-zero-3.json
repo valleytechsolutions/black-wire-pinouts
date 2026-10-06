@@ -1,0 +1,307 @@
+{
+  "recordId": "orange-pi-other-sbc-zero-3",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/35ecccee3c213910b0340ab7ad3ac453add12a5733eb98e9424e082f51337e50.png",
+      "sha256": "35ecccee3c213910b0340ab7ad3ac453add12a5733eb98e9424e082f51337e50"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "gpio-header",
+      "name": "26-pin 2x13 header (left edge)",
+      "image": "media/35ecccee3c213910b0340ab7ad3ac453add12a5733eb98e9424e082f51337e50.png",
+      "rows": 2,
+      "orderNote": "No pin numbers printed (the square pad is not a pin-1 mark per rule 9). No connector is labeled USB, so the top/left rule applies. 2xN rule: position 1 = top of the outer (left, board-edge) column, then alternating left/right downward.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3.3V",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": [
+            "IN/OUT"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PH5",
+          "functions": [
+            "I2C3",
+            "SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "5V",
+          "functions": [
+            "IN/OUT"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PH4",
+          "functions": [
+            "I2C3",
+            "SCK"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "PC9",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "PH2",
+          "functions": [
+            "UART5",
+            "TX"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "PH3",
+          "functions": [
+            "UART5",
+            "RX"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PC6",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "PC11",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "PC5",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "PC8",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "PC15",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "3.3V",
+          "functions": [
+            "OUT"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "PC14",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "PH7",
+          "functions": [
+            "SPI1",
+            "MOSI"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "PH8",
+          "functions": [
+            "SPI1",
+            "MISO"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "PC7",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "PH6",
+          "functions": [
+            "SPI1",
+            "CLK"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "PH9",
+          "functions": [
+            "SPI1",
+            "CS"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "PC10",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "13-pin single-row header (right edge)",
+      "image": "media/35ecccee3c213910b0340ab7ad3ac453add12a5733eb98e9424e082f51337e50.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; no labeled USB connector; vertical row, started at the top.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RX",
+          "functions": [
+            "IR"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PI6",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PI16",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "PC1",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "OUT",
+          "functions": [
+            "TV"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "LR",
+          "functions": [
+            "LINEOUT"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "LL",
+          "functions": [
+            "LINEOUT"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "DP",
+          "functions": [
+            "USB3"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "DM",
+          "functions": [
+            "USB3"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "DP",
+          "functions": [
+            "USB2"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "DM",
+          "functions": [
+            "USB2"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "5V",
+          "functions": [
+            "IN/OUT"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "debug-uart",
+      "name": "3-pin debug UART pads (top edge)",
+      "image": "media/35ecccee3c213910b0340ab7ad3ac453add12a5733eb98e9424e082f51337e50.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; no labeled USB connector; horizontal row, started at the left.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "RX",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "TX",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Debug UART: only TX has a leader line to a physical pad (the rightmost). GND is matched to the left square pad by its square symbol, and RX to the middle pad by elimination.",
+    "Start end: no connector in the image is labeled USB, so the top/left rule was used. If one of the unlabeled bottom-edge connectors is USB, the 26-pin and 13-pin headers would start at the bottom."
+  ],
+  "notes": "Image labels Orange Pi ZERO 3 v1.2. The 26-pin diagram reproduces the 2x13 hole grid, with a square marker on the top-left pad, matching the square pad on the board. Right-header pins have no GPIO name. The outermost printed text (RX, OUT, LR, DP...) is the label, and the group box (IR, TV, LINEOUT, USB3, USB2) is a function. On the 26-pin header, functions are read outward from the pin (group box such as I2C3/SPI1/UART5, then the signal name). The 5V box and IN/OUT label span the top two right-column pins, so both are recorded as 5V."
+}

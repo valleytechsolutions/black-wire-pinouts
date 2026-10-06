@@ -1,0 +1,622 @@
+{
+  "recordId": "waveshare-esp32-esp32-c6-zero",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/5526a76218dc2aa11e70d7809c611cc2d15f05b2145687025d5a45c6a848247b.jpg",
+      "sha256": "5526a76218dc2aa11e70d7809c611cc2d15f05b2145687025d5a45c6a848247b"
+    },
+    {
+      "file": "media/742c0e7db04f0779bbd5a10320448e027d7bce0c3757e79820e7fa9532d2a551.webp",
+      "sha256": "742c0e7db04f0779bbd5a10320448e027d7bce0c3757e79820e7fa9532d2a551"
+    },
+    {
+      "file": "media/611a27ccfc81e01dd4fde7324bf03d93f5d134f30ced9606ea79d4710934c9e0.png",
+      "sha256": "611a27ccfc81e01dd4fde7324bf03d93f5d134f30ced9606ea79d4710934c9e0"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left castellated pads (top view)",
+      "image": "media/5526a76218dc2aa11e70d7809c611cc2d15f05b2145687025d5a45c6a848247b.jpg",
+      "rows": 1,
+      "orderNote": "USB-C connector at top; position 1 is the top (USB-nearest) end",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3(OUT)",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP0",
+          "functions": [
+            "0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP1",
+          "functions": [
+            "1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP2",
+          "functions": [
+            "2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP3",
+          "functions": [
+            "3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP4",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP5",
+          "functions": [
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right castellated pads (top view)",
+      "image": "media/5526a76218dc2aa11e70d7809c611cc2d15f05b2145687025d5a45c6a848247b.jpg",
+      "rows": 1,
+      "orderNote": "USB-C connector at top; position 1 is the top (USB-nearest) end",
+      "pins": [
+        {
+          "position": 1,
+          "label": "TX",
+          "functions": [
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "RX",
+          "functions": [
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP14",
+          "functions": [
+            "14"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP15",
+          "functions": [
+            "15"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP18",
+          "functions": [
+            "18"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP19",
+          "functions": [
+            "19"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP20",
+          "functions": [
+            "20"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP21",
+          "functions": [
+            "21"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP22",
+          "functions": [
+            "22"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-pads",
+      "name": "Bottom-side pad column (bottom view)",
+      "image": "media/5526a76218dc2aa11e70d7809c611cc2d15f05b2145687025d5a45c6a848247b.jpg",
+      "rows": 1,
+      "orderNote": "USB-C connector at top; position 1 is the top (USB-nearest) end (bottom view also shows USB at top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP13",
+          "functions": [
+            "13"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP12",
+          "functions": [
+            "12"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP23",
+          "functions": [
+            "23"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP9",
+          "functions": [
+            "9",
+            "BOOT"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP8",
+          "functions": [
+            "8"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP7",
+          "functions": [
+            "7"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP6",
+          "functions": [
+            "6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left castellated pads (top view)",
+      "image": "media/742c0e7db04f0779bbd5a10320448e027d7bce0c3757e79820e7fa9532d2a551.webp",
+      "rows": 1,
+      "orderNote": "USB-C connector at top; position 1 is the top (USB-nearest) end",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3(OUT)",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP0",
+          "functions": [
+            "0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP1",
+          "functions": [
+            "1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP2",
+          "functions": [
+            "2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP3",
+          "functions": [
+            "3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP4",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP5",
+          "functions": [
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Right castellated pads (top view)",
+      "image": "media/742c0e7db04f0779bbd5a10320448e027d7bce0c3757e79820e7fa9532d2a551.webp",
+      "rows": 1,
+      "orderNote": "USB-C connector at top; position 1 is the top (USB-nearest) end",
+      "pins": [
+        {
+          "position": 1,
+          "label": "TX",
+          "functions": [
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "RX",
+          "functions": [
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP14",
+          "functions": [
+            "14"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP15",
+          "functions": [
+            "15"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP18",
+          "functions": [
+            "18"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP19",
+          "functions": [
+            "19"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP20",
+          "functions": [
+            "20"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP21",
+          "functions": [
+            "21"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP22",
+          "functions": [
+            "22"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-pads-img2",
+      "name": "Bottom-side pad column (bottom view)",
+      "image": "media/742c0e7db04f0779bbd5a10320448e027d7bce0c3757e79820e7fa9532d2a551.webp",
+      "rows": 1,
+      "orderNote": "USB-C connector at top; position 1 is the top (USB-nearest) end (bottom view also shows USB at top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP13",
+          "functions": [
+            "13"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP12",
+          "functions": [
+            "12"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP23",
+          "functions": [
+            "23"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP9",
+          "functions": [
+            "9",
+            "BOOT"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP8",
+          "functions": [
+            "8"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP7",
+          "functions": [
+            "7"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP6",
+          "functions": [
+            "6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img3",
+      "name": "Left castellated pads (top view)",
+      "image": "media/611a27ccfc81e01dd4fde7324bf03d93f5d134f30ced9606ea79d4710934c9e0.png",
+      "rows": 1,
+      "orderNote": "USB-C connector at top; position 1 is the top (USB-nearest) end",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3(OUT)",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP0",
+          "functions": [
+            "0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP1",
+          "functions": [
+            "1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP2",
+          "functions": [
+            "2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP3",
+          "functions": [
+            "3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP4",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP5",
+          "functions": [
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-img3",
+      "name": "Right castellated pads (top view)",
+      "image": "media/611a27ccfc81e01dd4fde7324bf03d93f5d134f30ced9606ea79d4710934c9e0.png",
+      "rows": 1,
+      "orderNote": "USB-C connector at top; position 1 is the top (USB-nearest) end",
+      "pins": [
+        {
+          "position": 1,
+          "label": "TX",
+          "functions": [
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "RX",
+          "functions": [
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP14",
+          "functions": [
+            "14"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP15",
+          "functions": [
+            "15"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP18",
+          "functions": [
+            "18"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP19",
+          "functions": [
+            "19"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP20",
+          "functions": [
+            "20"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP21",
+          "functions": [
+            "21"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP22",
+          "functions": [
+            "22"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-pads-img3",
+      "name": "Bottom-side pad column (bottom view)",
+      "image": "media/611a27ccfc81e01dd4fde7324bf03d93f5d134f30ced9606ea79d4710934c9e0.png",
+      "rows": 1,
+      "orderNote": "USB-C connector at top; position 1 is the top (USB-nearest) end (bottom view also shows USB at top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP13",
+          "functions": [
+            "13"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP12",
+          "functions": [
+            "12"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP23",
+          "functions": [
+            "23"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP9",
+          "functions": [
+            "9",
+            "BOOT"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP8",
+          "functions": [
+            "8"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP7",
+          "functions": [
+            "7"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP6",
+          "functions": [
+            "6"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Three copies of the same pinout: top view with two castellated rows and bottom view (silkscreen ESP32-C6-Zero) with an inner column of 7 labeled pads. The castellated edges in the bottom view are unlabeled there and duplicate the top-view pads, so they are not repeated. Category-only tags (UART, PWM, I2S, ADC, I2C, SPI) omitted; the BOOT tag on GP9 kept. Legend 'WS2812 RGB LED used pin GP8 DIN' is not tied to a pad and is noted here only."
+}

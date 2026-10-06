@@ -1,0 +1,124 @@
+{
+  "recordId": "adafruit-pyportal-titano",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/a2513f396f68b96f6972b352d9de8f21ca0fd624a883b6111624fd2d6d595197.png",
+      "sha256": "a2513f396f68b96f6972b352d9de8f21ca0fd624a883b6111624fd2d6d595197"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "d4-port",
+      "name": "D4 JST port (right edge, top)",
+      "image": "media/a2513f396f68b96f6972b352d9de8f21ca0fd624a883b6111624fd2d6d595197.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row on the right edge, not adjacent to the USB connector (left edge); started at top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PA05",
+          "functions": [
+            "D4",
+            "4/A1",
+            "5",
+            "VOUT1",
+            "A0[5]",
+            "S0.1",
+            "TC0[1]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "i2c-port",
+      "name": "I2C JST port (right edge, middle)",
+      "image": "media/a2513f396f68b96f6972b352d9de8f21ca0fd624a883b6111624fd2d6d595197.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row on the right edge, not adjacent to the USB connector (left edge); started at top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PB02",
+          "functions": [
+            "SDA",
+            "22/A6",
+            "2",
+            "A0[14]",
+            "S5.0",
+            "TC6[0]",
+            "TCC2[2]"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PB03",
+          "functions": [
+            "SCL",
+            "23/A7",
+            "3",
+            "A0[15]",
+            "S5.1",
+            "TC6[1]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d3-port",
+      "name": "D3 JST port (right edge, bottom)",
+      "image": "media/a2513f396f68b96f6972b352d9de8f21ca0fd624a883b6111624fd2d6d595197.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row on the right edge, not adjacent to the USB connector (left edge); started at top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PA04",
+          "functions": [
+            "D3",
+            "3",
+            "4",
+            "VREFB",
+            "A0[4]",
+            "S0.0",
+            "TC0[0]"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Only the three JST ports carry per-pin callouts. ESP32, LCD, TFT, touchscreen, SD card, speaker, light sensor, NeoPixel and LED tables are internal connections without physical wiring positions; skipped. SWD header, SPI/8 jumpers, A0/A2 silkscreen pads and 5V/3V jumper have no per-pin labels; skipped. Label = GPIO name; CircuitPython name then Arduino name first in functions."
+}

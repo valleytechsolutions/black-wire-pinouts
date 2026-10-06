@@ -1,0 +1,993 @@
+{
+  "recordId": "waveshare-rp2350-rp2350b-plus-w",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/9da177d4dc2f105f009620c71c9fe8b3ac7d173c0affddaa096202491396d117.jpg",
+      "sha256": "9da177d4dc2f105f009620c71c9fe8b3ac7d173c0affddaa096202491396d117"
+    },
+    {
+      "file": "media/1b21806fc6357529f415de851e009e12fc800adb7a6dca9e6cb78f7f2bc56b4e.jpg",
+      "sha256": "1b21806fc6357529f415de851e009e12fc800adb7a6dca9e6cb78f7f2bc56b4e"
+    },
+    {
+      "file": "media/2bd48dcd383d9dbf66427977884239b10fb33d47d69d8622900edaae197883fa.png",
+      "sha256": "2bd48dcd383d9dbf66427977884239b10fb33d47d69d8622900edaae197883fa"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "bottom-pad-grid",
+      "name": "Bottom-side 3x5 pad grid (bottom view)",
+      "image": "media/9da177d4dc2f105f009620c71c9fe8b3ac7d173c0affddaa096202491396d117.jpg",
+      "rows": 3,
+      "orderNote": "3x5 grid of bottom pads, no USB in this view: columns left to right, each column top to bottom (positions 1-3 = 43,44,45; 4-6 = 33,34,35; ...)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP43",
+          "functions": [
+            "43",
+            "ADC3",
+            "I2C1 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP44",
+          "functions": [
+            "44",
+            "ADC4",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP45",
+          "functions": [
+            "45",
+            "ADC5",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP33",
+          "functions": [
+            "33",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP34",
+          "functions": [
+            "34",
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP35",
+          "functions": [
+            "35",
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP30",
+          "functions": [
+            "30",
+            "SPI1 SCK",
+            "I2C1 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP31",
+          "functions": [
+            "31",
+            "SPI1 TX",
+            "I2C1 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP32",
+          "functions": [
+            "32",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP27",
+          "functions": [
+            "27",
+            "SPI1 TX",
+            "I2C1 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP28",
+          "functions": [
+            "28",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP29",
+          "functions": [
+            "29",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GP24",
+          "functions": [
+            "24",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GP25",
+          "functions": [
+            "25",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GP26",
+          "functions": [
+            "26",
+            "SPI1 SCK",
+            "I2C1 SDA",
+            "UART1 TX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left header (top view)",
+      "image": "media/1b21806fc6357529f415de851e009e12fc800adb7a6dca9e6cb78f7f2bc56b4e.jpg",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 1-20 followed (top to bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP0",
+          "functions": [
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP1",
+          "functions": [
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GP2",
+          "functions": [
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP3",
+          "functions": [
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP4",
+          "functions": [
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP5",
+          "functions": [
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GP6",
+          "functions": [
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP7",
+          "functions": [
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP8",
+          "functions": [
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP9",
+          "functions": [
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GP10",
+          "functions": [
+            "SPI1 SCK",
+            "I2C1 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GP11",
+          "functions": [
+            "SPI1 TX",
+            "I2C1 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GP12",
+          "functions": [
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GP13",
+          "functions": [
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GP14",
+          "functions": [
+            "SPI1 SCK",
+            "I2C1 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GP15",
+          "functions": [
+            "SPI1 TX",
+            "I2C1 SCL",
+            "UART0 RX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Right header (top view)",
+      "image": "media/1b21806fc6357529f415de851e009e12fc800adb7a6dca9e6cb78f7f2bc56b4e.jpg",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 21-40 followed (bottom to top); position n = printed pin n+20",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP16",
+          "functions": [
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP17",
+          "functions": [
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GP18",
+          "functions": [
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP19",
+          "functions": [
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP20",
+          "functions": [
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP21",
+          "functions": [
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GP22",
+          "functions": [
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "RUN",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GP40",
+          "functions": [
+            "ADC0",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP41",
+          "functions": [
+            "ADC1",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": [
+            "AGND"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GP42",
+          "functions": [
+            "ADC2",
+            "I2C1 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "ADC_VREF",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "3V3(OUT)",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "3V3_EN",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "VSYS",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "VBUS",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header-img3",
+      "name": "Left header (top view)",
+      "image": "media/2bd48dcd383d9dbf66427977884239b10fb33d47d69d8622900edaae197883fa.png",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 1-20 followed (top to bottom)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP0",
+          "functions": [
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP1",
+          "functions": [
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GP2",
+          "functions": [
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP3",
+          "functions": [
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP4",
+          "functions": [
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP5",
+          "functions": [
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GP6",
+          "functions": [
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP7",
+          "functions": [
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP8",
+          "functions": [
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP9",
+          "functions": [
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GP10",
+          "functions": [
+            "SPI1 SCK",
+            "I2C1 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GP11",
+          "functions": [
+            "SPI1 TX",
+            "I2C1 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GP12",
+          "functions": [
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GP13",
+          "functions": [
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GP14",
+          "functions": [
+            "SPI1 SCK",
+            "I2C1 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GP15",
+          "functions": [
+            "SPI1 TX",
+            "I2C1 SCL",
+            "UART0 RX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-img3",
+      "name": "Right header (top view)",
+      "image": "media/2bd48dcd383d9dbf66427977884239b10fb33d47d69d8622900edaae197883fa.png",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 21-40 followed (bottom to top); position n = printed pin n+20",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP16",
+          "functions": [
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP17",
+          "functions": [
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GP18",
+          "functions": [
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP19",
+          "functions": [
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP20",
+          "functions": [
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP21",
+          "functions": [
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GP22",
+          "functions": [
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "RUN",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GP40",
+          "functions": [
+            "ADC0",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP41",
+          "functions": [
+            "ADC1",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": [
+            "AGND"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GP42",
+          "functions": [
+            "ADC2",
+            "I2C1 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "ADC_VREF",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "3V3(OUT)",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "3V3_EN",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "VSYS",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "VBUS",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-pad-grid-img3",
+      "name": "Bottom-side 3x5 pad grid (bottom view)",
+      "image": "media/2bd48dcd383d9dbf66427977884239b10fb33d47d69d8622900edaae197883fa.png",
+      "rows": 3,
+      "orderNote": "3x5 grid of bottom pads, no USB in this view: columns left to right, each column top to bottom (positions 1-3 = 43,44,45; 4-6 = 33,34,35; ...)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP43",
+          "functions": [
+            "43",
+            "ADC3",
+            "I2C1 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP44",
+          "functions": [
+            "44",
+            "ADC4",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP45",
+          "functions": [
+            "45",
+            "ADC5",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP33",
+          "functions": [
+            "33",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP34",
+          "functions": [
+            "34",
+            "SPI0 SCK",
+            "I2C1 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP35",
+          "functions": [
+            "35",
+            "SPI0 TX",
+            "I2C1 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP30",
+          "functions": [
+            "30",
+            "SPI1 SCK",
+            "I2C1 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP31",
+          "functions": [
+            "31",
+            "SPI1 TX",
+            "I2C1 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GP32",
+          "functions": [
+            "32",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GP27",
+          "functions": [
+            "27",
+            "SPI1 TX",
+            "I2C1 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GP28",
+          "functions": [
+            "28",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GP29",
+          "functions": [
+            "29",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GP24",
+          "functions": [
+            "24",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GP25",
+          "functions": [
+            "25",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GP26",
+          "functions": [
+            "26",
+            "SPI1 SCK",
+            "I2C1 SDA",
+            "UART1 TX"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Grouping/order of the 15 bottom-side pads: they form a 3-row by 5-column grid with no printed position numbers; recorded as one rows:3 connector ordered column by column (top to bottom within each column), which the rules do not settle for a 3x5 pad grid."
+  ],
+  "notes": "Image 1: bottom view (cropped) showing a 3x5 grid of pads silkscreened 43/44/45, 33/34/35, 30/31/32, 27/28/29, 24/25/26 with callouts per pad (silkscreen number first in functions). Image 2: top view of RP2350B-Plus-W with printed pin numbers 1-40. Image 3 combines the same top view and bottom-pad view. The bottom-view castellated edges show only partial silkscreen numbers (cropped) and duplicate the top-view header, so they are skipped. Functions read outward from the pin (SPI, I2C, UART)."
+}

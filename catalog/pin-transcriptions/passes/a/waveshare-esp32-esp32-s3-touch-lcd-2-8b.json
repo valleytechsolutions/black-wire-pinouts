@@ -1,0 +1,489 @@
+{
+  "recordId": "waveshare-esp32-esp32-s3-touch-lcd-2-8b",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/859b3050d508a30842e08591e8b01e6f9b18d79972cb43bfcc24474693abf8f2.jpg",
+      "sha256": "859b3050d508a30842e08591e8b01e6f9b18d79972cb43bfcc24474693abf8f2"
+    },
+    {
+      "file": "media/0df8d181ed0a035146d9d3b37e2d26253a9ce88834b4edf813dd4b0892295494.jpg",
+      "sha256": "0df8d181ed0a035146d9d3b37e2d26253a9ce88834b4edf813dd4b0892295494"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "i2c-connector",
+      "name": "I2C connector (top view)",
+      "image": "media/859b3050d508a30842e08591e8b01e6f9b18d79972cb43bfcc24474693abf8f2.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at the end nearest the USB-C connector (right end, SCL).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO7",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO15",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "uart-connector",
+      "name": "UART connector (top view)",
+      "image": "media/859b3050d508a30842e08591e8b01e6f9b18d79972cb43bfcc24474693abf8f2.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at the end nearest the USB-C connector (left end, GND).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO43",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO44",
+          "functions": [
+            "RXD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "header-2x12",
+      "name": "2x12 header (back view)",
+      "image": "media/859b3050d508a30842e08591e8b01e6f9b18d79972cb43bfcc24474693abf8f2.jpg",
+      "rows": 2,
+      "orderNote": "No position numbers (silkscreen numbers are GPIO numbers) and the back view does not show USB-C; top rule: position 1 at the top of the column nearest the board edge (right column), alternating right/left.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO43",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO15",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO44",
+          "functions": [
+            "RXD"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO7",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO37",
+          "functions": [
+            "37"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO16",
+          "functions": [
+            "16",
+            "TP_INT"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO36",
+          "functions": [
+            "36"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO4",
+          "functions": [
+            "4",
+            "BAT_ADC"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO35",
+          "functions": [
+            "35"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO0",
+          "functions": [
+            "0",
+            "BOOT"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO34",
+          "functions": [
+            "34"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO20",
+          "functions": [
+            "D+"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO33",
+          "functions": [
+            "33"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GPIO19",
+          "functions": [
+            "D-"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "BAT",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "5V",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "i2c-connector-img2",
+      "name": "I2C connector (top view)",
+      "image": "media/0df8d181ed0a035146d9d3b37e2d26253a9ce88834b4edf813dd4b0892295494.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at the end nearest the USB-C connector (right end, SCL).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO7",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO15",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "uart-connector-img2",
+      "name": "UART connector (top view)",
+      "image": "media/0df8d181ed0a035146d9d3b37e2d26253a9ce88834b4edf813dd4b0892295494.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at the end nearest the USB-C connector (left end, GND).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO43",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO44",
+          "functions": [
+            "RXD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "header-2x12-img2",
+      "name": "2x12 header (back view)",
+      "image": "media/0df8d181ed0a035146d9d3b37e2d26253a9ce88834b4edf813dd4b0892295494.jpg",
+      "rows": 2,
+      "orderNote": "No position numbers (silkscreen numbers are GPIO numbers) and the back view does not show USB-C; top rule: position 1 at the top of the column nearest the board edge (right column), alternating right/left.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO43",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO15",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO44",
+          "functions": [
+            "RXD"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO7",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO37",
+          "functions": [
+            "37"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO16",
+          "functions": [
+            "16",
+            "TP_INT"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO36",
+          "functions": [
+            "36"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO4",
+          "functions": [
+            "4",
+            "BAT_ADC"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO35",
+          "functions": [
+            "35"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO0",
+          "functions": [
+            "0",
+            "BOOT"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO34",
+          "functions": [
+            "34"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO20",
+          "functions": [
+            "D+"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO33",
+          "functions": [
+            "33"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GPIO19",
+          "functions": [
+            "D-"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "BAT",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "5V",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Image contains two views: top edge with I2C and UART connectors beside USB-C, and the back with the 2x12 header. Silkscreen beside header holes (G, SDA, 16, 37, TXD...) placed first in functions. RTC and BAT connectors (+/- only) skipped. Image 2 is the same diagram at lower resolution."
+}

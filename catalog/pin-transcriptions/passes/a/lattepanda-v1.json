@@ -1,0 +1,665 @@
+{
+  "recordId": "lattepanda-v1",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/7c59f714640365a7c8cb99c73021d3d75f051633954c69d931bad4705bcc54f5.webp",
+      "sha256": "7c59f714640365a7c8cb99c73021d3d75f051633954c69d931bad4705bcc54f5"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "cpu-header",
+      "name": "CPU header (2x5, top)",
+      "image": "media/7c59f714640365a7c8cb99c73021d3d75f051633954c69d931bad4705bcc54f5.webp",
+      "rows": 2,
+      "orderNote": "Printed pin numbers 1-10 followed (odd left column, even right column)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "I2C_2 SDA",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "I2C_0 SDA",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "I2C_2 SCL",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "I2C_0 SCL",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "UART0_RXD",
+          "functions": [
+            "DDIO SDA"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "UART_GNSS_TXD",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "UART0_TXD",
+          "functions": [
+            "DDIO SCL"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "UART_GNSS_RXD",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "1.8V",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "arduino-header",
+      "name": "Arduino header (2x12)",
+      "image": "media/7c59f714640365a7c8cb99c73021d3d75f051633954c69d931bad4705bcc54f5.webp",
+      "rows": 2,
+      "orderNote": "Printed pin numbers 1-24 followed (odd left column, even right column)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D7",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "D0",
+          "functions": [
+            "RXD1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "D8",
+          "functions": [
+            "A8"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D1",
+          "functions": [
+            "TXD1"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "D9",
+          "functions": [
+            "A9",
+            "PWM"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D2",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "D10",
+          "functions": [
+            "A10",
+            "PWM"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "D3",
+          "functions": [
+            "SCL",
+            "PWM"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "D11",
+          "functions": [
+            "PWM"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "D4",
+          "functions": [
+            "A6"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "D12",
+          "functions": [
+            "A11"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "D5",
+          "functions": [
+            "PWM"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "D13",
+          "functions": [
+            "PWM",
+            "D13 LED"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "D6",
+          "functions": [
+            "A7",
+            "PWM"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "D21",
+          "functions": [
+            "A3"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "D18",
+          "functions": [
+            "A0"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "D22",
+          "functions": [
+            "A4"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "D19",
+          "functions": [
+            "A1"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "D23",
+          "functions": [
+            "A5"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "D20",
+          "functions": [
+            "A2"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "5V",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "gravity-port-1",
+      "name": "Left 3-pin port 1 (printed port number 1)",
+      "image": "media/7c59f714640365a7c8cb99c73021d3d75f051633954c69d931bad4705bcc54f5.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers within the port; horizontal label strip ordered from the end closest to the USB connectors (signal end) per rule 4",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D9",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "gravity-port-2",
+      "name": "Left 3-pin port 2 (printed port number 2)",
+      "image": "media/7c59f714640365a7c8cb99c73021d3d75f051633954c69d931bad4705bcc54f5.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers within the port; horizontal label strip ordered from the end closest to the USB connectors (signal end) per rule 4",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D10",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "gravity-port-3",
+      "name": "Left 3-pin port 3 (printed port number 3)",
+      "image": "media/7c59f714640365a7c8cb99c73021d3d75f051633954c69d931bad4705bcc54f5.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers within the port; horizontal label strip ordered from the end closest to the USB connectors (signal end) per rule 4",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D11",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "gravity-port-4",
+      "name": "Left 3-pin port 4 (printed port number 4)",
+      "image": "media/7c59f714640365a7c8cb99c73021d3d75f051633954c69d931bad4705bcc54f5.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers within the port; horizontal label strip ordered from the end closest to the USB connectors (signal end) per rule 4",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A0",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "gravity-port-5",
+      "name": "Left 3-pin port 5 (printed port number 5)",
+      "image": "media/7c59f714640365a7c8cb99c73021d3d75f051633954c69d931bad4705bcc54f5.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers within the port; horizontal label strip ordered from the end closest to the USB connectors (signal end) per rule 4",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A1",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "gravity-port-6",
+      "name": "Left 3-pin port 6 (printed port number 6)",
+      "image": "media/7c59f714640365a7c8cb99c73021d3d75f051633954c69d931bad4705bcc54f5.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers within the port; horizontal label strip ordered from the end closest to the USB connectors (signal end) per rule 4",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A2",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "power-header",
+      "name": "5V/GND 2x2 block (bottom left)",
+      "image": "media/7c59f714640365a7c8cb99c73021d3d75f051633954c69d931bad4705bcc54f5.webp",
+      "rows": 2,
+      "orderNote": "No pin numbers; treated as two vertical rows, outer row (left, nearest board edge) first, starting at the top (USB end), alternating rows",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "icsp-header",
+      "name": "ICSP header (2x3, enlarged callout)",
+      "image": "media/7c59f714640365a7c8cb99c73021d3d75f051633954c69d931bad4705bcc54f5.webp",
+      "rows": 2,
+      "orderNote": "Printed pin numbers 1-6 followed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "MISO",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SCK",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "MOSI",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "TP",
+      "name": "TP touch panel connector",
+      "image": "media/7c59f714640365a7c8cb99c73021d3d75f051633954c69d931bad4705bcc54f5.webp",
+      "rows": 1,
+      "orderNote": "Pin 1 marked at the left end of the enlarged callout; read left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "I2C_SCL",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "I2C_SDA",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "INT",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "3.3V",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "MIPI-DSI",
+      "name": "MIPI-DSI display connector",
+      "image": "media/7c59f714640365a7c8cb99c73021d3d75f051633954c69d931bad4705bcc54f5.webp",
+      "rows": 1,
+      "orderNote": "Pin 1 marked at the left end of the enlarged callout; read left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "LED1+",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "LED2+",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "LCD_VGH",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "LCD_VGL",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "UPDN",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "SHLR",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "LED1-",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "LED2-",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "LCD+10V",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "MIPI_TDP3",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "MIPI_TDN3",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "MIPI_TDP2",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "MIPI_TDN2",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "MIPI_TCP",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "MIPI_TCN",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "MIPI_TDP1",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "MIPI_TDN1",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "MIPI_TDP0",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "MIPI_TDN0",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "STBYB",
+          "functions": []
+        },
+        {
+          "position": 27,
+          "label": "LRSTB",
+          "functions": []
+        },
+        {
+          "position": 28,
+          "label": "VDD1",
+          "functions": []
+        },
+        {
+          "position": 29,
+          "label": "VDD2",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "VCOM",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Left 3-pin ports 1-6: the image draws each port as a separate housing with a horizontal GND/5V/signal label strip but does not show the pin positions inside each port; transcribed as six separate 1-row connectors (could instead be grouped as one 3xN header) and the within-port order is taken from the label strip, not from drawn pins.",
+    "5V/GND 2x2 block at bottom left: labeled cells only, no pin numbers or callout; it is not certain this is a wiring header, and the row orientation (vertical 5V/GND columns vs horizontal rows) is inferred."
+  ],
+  "notes": "Image: LattePanda V1 pinout diagram, Version V1.2 rev1 2017/07/28. The CPU header, TP connector and MIPI-DSI connector carry an 'Operating Voltage 0~1.8V' warning (on TP and MIPI-DSI the warning box encloses the I2C/INT/RESET and MIPI lane pins respectively). TP and MIPI-DSI pins are read from enlarged callouts (their on-board outlines are unlabeled). Skipped per rule 1: Arduino RESET, POWER and RESET buttons; RX0/TX0/D13 LEDs (D17 tag on RX0 LED); USB/Ethernet/HDMI/audio/microSD connectors without individual pin labels. Arduino header label = D-name, other printed names (A-number, PWM, RXD1/TXD1, SDA/SCL, D13 LED) as functions read outward from the pin."
+}

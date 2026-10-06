@@ -1,0 +1,78 @@
+{
+  "recordId": "rakwireless-expansion-rak19003",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/f7b9b28a6c10ae634758324e238ac0002f0795b89820091ff742d5ccc123951f.png",
+      "sha256": "f7b9b28a6c10ae634758324e238ac0002f0795b89820091ff742d5ccc123951f"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "J7",
+      "name": "J7 Header",
+      "image": "media/f7b9b28a6c10ae634758324e238ac0002f0795b89820091ff742d5ccc123951f.png",
+      "rows": 1,
+      "orderNote": "No pin numbers (square pad is not a pin-1 mark); position 1 at the end nearer the USB-C connector, which is the bottom end of J7",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BOOT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "TX1",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RX1",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "J6",
+      "name": "J6 Header",
+      "image": "media/f7b9b28a6c10ae634758324e238ac0002f0795b89820091ff742d5ccc123951f.png",
+      "rows": 1,
+      "orderNote": "No pin numbers (square pad is not a pin-1 mark); position 1 at the end nearer the USB-C connector, which is the top end of J6",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "VDD",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Silkscreen labels are spaced closer together than the four holes of each header (e.g. TX1 and GND sit between holes); labels were mapped to holes in sequence, top label to top hole, which the image does not show explicitly",
+    "USB-C is on the opposite (left) edge, roughly level with the middle of the board, so the USB-nearest end differs between J7 (bottom end) and J6 (top end) by a small margin"
+  ],
+  "notes": "WisCore slot (board-to-board connector without pin labels), Battery and Solar Panel JST connectors (no pin labels) and Reset button skipped."
+}

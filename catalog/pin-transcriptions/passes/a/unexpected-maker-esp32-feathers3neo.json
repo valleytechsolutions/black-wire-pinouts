@@ -1,0 +1,339 @@
+{
+  "recordId": "unexpected-maker-esp32-feathers3neo",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/7df5f82b83042294f506c70d3b10e5ef69fcdac01c2bfb4f888eb1bb7bc3a59d.png",
+      "sha256": "7df5f82b83042294f506c70d3b10e5ef69fcdac01c2bfb4f888eb1bb7bc3a59d"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left Feather header (16 pins)",
+      "image": "media/7df5f82b83042294f506c70d3b10e5ef69fcdac01c2bfb4f888eb1bb7bc3a59d.png",
+      "rows": 1,
+      "orderNote": "No printed position numbers; started at the top end, closest to the USB-C connector",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RESET",
+          "functions": [
+            "RST"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": [
+            "MAX 3V3 IN",
+            "IN / OUT"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "IO0",
+          "functions": [
+            "0",
+            "D4",
+            "RTC-IO0"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "IO17",
+          "functions": [
+            "17",
+            "D14",
+            "A0",
+            "ADC2 CH6",
+            "RTC-IO17"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "IO18",
+          "functions": [
+            "18",
+            "D15",
+            "A1",
+            "ADC2 CH7",
+            "RTC-IO18"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "IO14",
+          "functions": [
+            "14",
+            "D16",
+            "A2",
+            "TCH14",
+            "ADC2 CH3",
+            "RTC-IO14"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "IO12",
+          "functions": [
+            "12",
+            "D17",
+            "A3",
+            "TCH12",
+            "ADC2 CH1",
+            "RTC-IO12"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "IO6",
+          "functions": [
+            "6",
+            "D18",
+            "A4",
+            "TCH6",
+            "ADC1 CH5",
+            "RTC-IO6"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "IO5",
+          "functions": [
+            "5",
+            "D19",
+            "A5",
+            "TCH5",
+            "ADC1 CH4",
+            "RTC-IO5"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "IO36",
+          "functions": [
+            "SCK",
+            "D25",
+            "SPI SCK"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "IO35",
+          "functions": [
+            "MO",
+            "D24",
+            "SPI MO"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "IO37",
+          "functions": [
+            "MI",
+            "D23",
+            "SPI MI"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "IO44",
+          "functions": [
+            "RX",
+            "D0"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "IO43",
+          "functions": [
+            "TX",
+            "D1"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "IO34",
+          "functions": [
+            "34",
+            "D2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right Feather header (12 pins)",
+      "image": "media/7df5f82b83042294f506c70d3b10e5ef69fcdac01c2bfb4f888eb1bb7bc3a59d.png",
+      "rows": 1,
+      "orderNote": "No printed position numbers; started at the top end, closest to the USB-C connector",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": [
+            "BAT",
+            "1S LiPo MAX 4.2V",
+            "BATTERY ONLY"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "EN",
+          "functions": [
+            "En",
+            "3V3 LDO ENABLE"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "5V",
+          "functions": [
+            "MAX 5V IN",
+            "IN / OUT"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "IO11",
+          "functions": [
+            "11",
+            "D13",
+            "A10",
+            "TCH11",
+            "ADC2 CH0",
+            "RTC-IO11"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "IO10",
+          "functions": [
+            "10",
+            "D12",
+            "A9",
+            "TCH10",
+            "ADC1 CH9",
+            "RTC-IO10"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "IO7",
+          "functions": [
+            "7",
+            "D11",
+            "A8",
+            "TCH7",
+            "ADC1 CH6",
+            "RTC-IO7"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "IO3",
+          "functions": [
+            "3",
+            "D10",
+            "A7",
+            "TCH3",
+            "ADC1 CH2",
+            "RTC-IO3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "IO1",
+          "functions": [
+            "1",
+            "D9",
+            "A6",
+            "TCH1",
+            "ADC1 CH0",
+            "RTC-IO1"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "IO38",
+          "functions": [
+            "38",
+            "D6"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "IO33",
+          "functions": [
+            "33",
+            "D5"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "IO9",
+          "functions": [
+            "SCL",
+            "D22",
+            "A12",
+            "TCH9",
+            "ADC1 CH8",
+            "RTC-IO9"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "IO8",
+          "functions": [
+            "SDA",
+            "D21",
+            "A11",
+            "TCH8",
+            "ADC1 CH7",
+            "RTC-IO8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qwiic",
+      "name": "Bottom 4-pin JST-SH connector",
+      "image": "media/7df5f82b83042294f506c70d3b10e5ef69fcdac01c2bfb4f888eb1bb7bc3a59d.png",
+      "rows": 1,
+      "orderNote": "No printed numbers; horizontal connector at the far end from USB with both ends equally distant, so read left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SCL",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Silkscreen spellings placed first in functions (RST, 0, 17, ..., SCK, MO, MI, RX, TX, 34, BAT, En, SCL, SDA); pin 2 silkscreen 3V3 equals the label. Left pin 4 silkscreen is a blank white bar; label GND from the callout. Duplicate callout text equal to the silkscreen (RX, TX, SCL, SDA) not repeated. 2-pin VBAT battery connector (only +/- marks) skipped. RGB LED, 7x7 LED matrix, blue LED, ambient light sensor, battery voltage and 5V detect callouts are internal signals."
+}

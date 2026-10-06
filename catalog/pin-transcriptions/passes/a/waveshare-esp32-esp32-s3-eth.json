@@ -1,0 +1,1014 @@
+{
+  "recordId": "waveshare-esp32-esp32-s3-eth",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/09a5a0538d09f997ceac1af2cd4fe3f8804c03cf7e1ba3656d5fdc5ddae19053.jpg",
+      "sha256": "09a5a0538d09f997ceac1af2cd4fe3f8804c03cf7e1ba3656d5fdc5ddae19053"
+    },
+    {
+      "file": "media/4119a158cac43190b467c07648e07c6e76bdf65afb28f3833293926ae406a1d0.webp",
+      "sha256": "4119a158cac43190b467c07648e07c6e76bdf65afb28f3833293926ae406a1d0"
+    },
+    {
+      "file": "media/e88f5bafcb3dfcfc80207c61897530369686deb67c70ee628e2424594daba1ae.png",
+      "sha256": "e88f5bafcb3dfcfc80207c61897530369686deb67c70ee628e2424594daba1ae"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "right-header",
+      "name": "Right header (printed pins 1-20)",
+      "image": "media/09a5a0538d09f997ceac1af2cd4fe3f8804c03cf7e1ba3656d5fdc5ddae19053.jpg",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 1-20, pin 1 at top right (boxed); position = printed number.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO20",
+          "functions": [
+            "IO20",
+            "D_P"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO19",
+          "functions": [
+            "IO19",
+            "D_N"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO48",
+          "functions": [
+            "IO48"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO47",
+          "functions": [
+            "IO47"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO46",
+          "functions": [
+            "IO46"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO45",
+          "functions": [
+            "IO45"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO42",
+          "functions": [
+            "IO42"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO41",
+          "functions": [
+            "IO41"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO40",
+          "functions": [
+            "IO40"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO39",
+          "functions": [
+            "IO39"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO38",
+          "functions": [
+            "IO38"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO37",
+          "functions": [
+            "IO37"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO36",
+          "functions": [
+            "IO36"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO35",
+          "functions": [
+            "IO35"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GPIO34",
+          "functions": [
+            "IO34"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO33",
+          "functions": [
+            "IO33"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header",
+      "name": "Left header (printed pins 21-40)",
+      "image": "media/09a5a0538d09f997ceac1af2cd4fe3f8804c03cf7e1ba3656d5fdc5ddae19053.jpg",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 21-40 run bottom to top; position 1 = printed 21 (bottom), position 20 = printed 40 (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO43",
+          "functions": [
+            "IO43",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO44",
+          "functions": [
+            "IO44",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO0",
+          "functions": [
+            "IO0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO1",
+          "functions": [
+            "IO1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO2",
+          "functions": [
+            "IO2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO3",
+          "functions": [
+            "IO3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO15",
+          "functions": [
+            "IO15"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "CHIP_UP",
+          "functions": [
+            "RUN"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO18",
+          "functions": [
+            "IO18"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO16",
+          "functions": [
+            "IO16"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO17",
+          "functions": [
+            "IO17"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO21",
+          "functions": [
+            "IO21"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "3V3_EN",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "VSYS",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "VBUS",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "poe-power-port",
+      "name": "POE Power Port pads",
+      "image": "media/09a5a0538d09f997ceac1af2cd4fe3f8804c03cf7e1ba3656d5fdc5ddae19053.jpg",
+      "rows": 1,
+      "orderNote": "Silkscreen numbers 1-4 (1 at right) followed by the + and - pads continuing leftward.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "?",
+          "functions": [
+            "1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "?",
+          "functions": [
+            "2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "?",
+          "functions": [
+            "3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "?",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "?",
+          "functions": [
+            "+"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "?",
+          "functions": [
+            "-"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Right header (printed pins 1-20)",
+      "image": "media/4119a158cac43190b467c07648e07c6e76bdf65afb28f3833293926ae406a1d0.webp",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 1-20, pin 1 at top right (boxed); position = printed number.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO20",
+          "functions": [
+            "IO20",
+            "D_P"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO19",
+          "functions": [
+            "IO19",
+            "D_N"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO48",
+          "functions": [
+            "IO48"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO47",
+          "functions": [
+            "IO47"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO46",
+          "functions": [
+            "IO46"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO45",
+          "functions": [
+            "IO45"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO42",
+          "functions": [
+            "IO42"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO41",
+          "functions": [
+            "IO41"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO40",
+          "functions": [
+            "IO40"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO39",
+          "functions": [
+            "IO39"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO38",
+          "functions": [
+            "IO38"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO37",
+          "functions": [
+            "IO37"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO36",
+          "functions": [
+            "IO36"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO35",
+          "functions": [
+            "IO35"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GPIO34",
+          "functions": [
+            "IO34"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO33",
+          "functions": [
+            "IO33"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left header (printed pins 21-40)",
+      "image": "media/4119a158cac43190b467c07648e07c6e76bdf65afb28f3833293926ae406a1d0.webp",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 21-40 run bottom to top; position 1 = printed 21 (bottom), position 20 = printed 40 (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO43",
+          "functions": [
+            "IO43",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO44",
+          "functions": [
+            "IO44",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO0",
+          "functions": [
+            "IO0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO1",
+          "functions": [
+            "IO1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO2",
+          "functions": [
+            "IO2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO3",
+          "functions": [
+            "IO3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO15",
+          "functions": [
+            "IO15"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "CHIP_UP",
+          "functions": [
+            "RUN"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO18",
+          "functions": [
+            "IO18"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO16",
+          "functions": [
+            "IO16"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO17",
+          "functions": [
+            "IO17"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO21",
+          "functions": [
+            "IO21"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "3V3_EN",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "VSYS",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "VBUS",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "poe-power-port-img2",
+      "name": "POE Power Port pads",
+      "image": "media/4119a158cac43190b467c07648e07c6e76bdf65afb28f3833293926ae406a1d0.webp",
+      "rows": 1,
+      "orderNote": "Silkscreen numbers 1-4 (1 at right) followed by the + and - pads continuing leftward.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "?",
+          "functions": [
+            "1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "?",
+          "functions": [
+            "2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "?",
+          "functions": [
+            "3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "?",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "?",
+          "functions": [
+            "+"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "?",
+          "functions": [
+            "-"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-img3",
+      "name": "Right header (printed pins 1-20)",
+      "image": "media/e88f5bafcb3dfcfc80207c61897530369686deb67c70ee628e2424594daba1ae.png",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 1-20, pin 1 at top right (boxed); position = printed number.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO20",
+          "functions": [
+            "IO20",
+            "D_P"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO19",
+          "functions": [
+            "IO19",
+            "D_N"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO48",
+          "functions": [
+            "IO48"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO47",
+          "functions": [
+            "IO47"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO46",
+          "functions": [
+            "IO46"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO45",
+          "functions": [
+            "IO45"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO42",
+          "functions": [
+            "IO42"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO41",
+          "functions": [
+            "IO41"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO40",
+          "functions": [
+            "IO40"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO39",
+          "functions": [
+            "IO39"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO38",
+          "functions": [
+            "IO38"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO37",
+          "functions": [
+            "IO37"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO36",
+          "functions": [
+            "IO36"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO35",
+          "functions": [
+            "IO35"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GPIO34",
+          "functions": [
+            "IO34"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO33",
+          "functions": [
+            "IO33"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img3",
+      "name": "Left header (printed pins 21-40)",
+      "image": "media/e88f5bafcb3dfcfc80207c61897530369686deb67c70ee628e2424594daba1ae.png",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 21-40 run bottom to top; position 1 = printed 21 (bottom), position 20 = printed 40 (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO43",
+          "functions": [
+            "IO43",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO44",
+          "functions": [
+            "IO44",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO0",
+          "functions": [
+            "IO0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO1",
+          "functions": [
+            "IO1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO2",
+          "functions": [
+            "IO2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO3",
+          "functions": [
+            "IO3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO15",
+          "functions": [
+            "IO15"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "CHIP_UP",
+          "functions": [
+            "RUN"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO18",
+          "functions": [
+            "IO18"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO16",
+          "functions": [
+            "IO16"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO17",
+          "functions": [
+            "IO17"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO21",
+          "functions": [
+            "IO21"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "3V3_EN",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "VSYS",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "VBUS",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "poe-power-port-img3",
+      "name": "POE Power Port pads",
+      "image": "media/e88f5bafcb3dfcfc80207c61897530369686deb67c70ee628e2424594daba1ae.png",
+      "rows": 1,
+      "orderNote": "Silkscreen numbers 1-4 (1 at right) followed by the + and - pads continuing leftward.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "?",
+          "functions": [
+            "1"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "?",
+          "functions": [
+            "2"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "?",
+          "functions": [
+            "3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "?",
+          "functions": [
+            "4"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "?",
+          "functions": [
+            "+"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "?",
+          "functions": [
+            "-"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "POE Power Port pads (all images): silkscreen gives only the numbers 1, 2, 3, 4 and the polarity marks +, -; no pin names, so all six labels are \"?\" with the printed mark in functions."
+  ],
+  "uncertain": [],
+  "notes": "All three images show the same pinout (image 2 differs only in board rendering; image 3 is a cropped re-layout); transcribed separately per rule 11. Silkscreen IOxx listed first in functions. SD card and W5500 boxes list internal connections without physical positions and were not transcribed. Left silkscreen prints 3V3.EN/3V3_EN (dot vs underscore not decidable at this resolution); callout 3V3_EN used."
+}

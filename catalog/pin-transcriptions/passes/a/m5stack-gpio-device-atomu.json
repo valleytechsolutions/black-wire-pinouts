@@ -1,0 +1,108 @@
+{
+  "recordId": "m5stack-gpio-device-atomu",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/c7db861a6847f743e1a4c4e4a0ac912e34c70ed16a4b4ccee1c89aef9750025c.jpg",
+      "sha256": "c7db861a6847f743e1a4c4e4a0ac912e34c70ed16a4b4ccee1c89aef9750025c"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "ext-pins",
+      "name": "Ext. Pins (6-pin)",
+      "image": "media/c7db861a6847f743e1a4c4e4a0ac912e34c70ed16a4b4ccee1c89aef9750025c.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; row runs perpendicular to the USB plug axis so neither end is nearer the USB; vertical row read from the top as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G25",
+          "functions": [
+            "25",
+            "DAC1",
+            "A2CH8"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "G33",
+          "functions": [
+            "33",
+            "A1CH5",
+            "TCH8"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "G22",
+          "functions": [
+            "22"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "G21",
+          "functions": [
+            "21"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "port-a",
+      "name": "PORT.A",
+      "image": "media/c7db861a6847f743e1a4c4e4a0ac912e34c70ed16a4b4ccee1c89aef9750025c.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; row runs perpendicular to the USB plug axis so neither end is nearer the USB; vertical row read from the top as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "G26",
+          "functions": [
+            "26",
+            "A2CH9",
+            "DAC2"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "G32",
+          "functions": [
+            "32",
+            "A1CH4",
+            "TCH9"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Ext. Pins: the physical pins sit on the end face and are not visible; positions follow the callout list and the back-label column (GND 5V 25 33 22 21)",
+    "PORT.A: the callout list beside the bottom view is matched to the Grove connector by proximity and the back-label column (GND 5V 26 32); the individual contacts are not drawn"
+  ],
+  "notes": "Back-label notes RGB:G27, BTN:G39, CLK:G5 DAT:G19 (mic), TXD:G3 RXD:G1 (CH552) and IR LED:G12 are internal assignments, not header pins. USB-A plug skipped."
+}

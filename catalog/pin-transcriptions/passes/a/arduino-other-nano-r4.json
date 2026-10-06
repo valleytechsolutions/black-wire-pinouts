@@ -1,0 +1,834 @@
+{
+  "recordId": "arduino-other-nano-r4",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/af2026b74c5cdb9a99d4c19d3725cc7b4e32ddb6b79ec6d30c4c39709f08eb4e.png",
+      "sha256": "af2026b74c5cdb9a99d4c19d3725cc7b4e32ddb6b79ec6d30c4c39709f08eb4e"
+    },
+    {
+      "file": "media/91d22ca132208da48c12e6b3e9c48c9864516b5e00a18d2c505df92c912ef44a.png",
+      "sha256": "91d22ca132208da48c12e6b3e9c48c9864516b5e00a18d2c505df92c912ef44a"
+    },
+    {
+      "file": "media/ec831ea29c1103474c9fe4332eee42e765cb94a7398a9241a62a2e562a677a65.png",
+      "sha256": "ec831ea29c1103474c9fe4332eee42e765cb94a7398a9241a62a2e562a677a65"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/af2026b74c5cdb9a99d4c19d3725cc7b4e32ddb6b79ec6d30c4c39709f08eb4e.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB-C connector at top of image, start at end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D13",
+          "functions": [
+            "SCK"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "AREF",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "A0",
+          "functions": [
+            "14",
+            "DAC"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "A1",
+          "functions": [
+            "15",
+            "INPUT+"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "A2",
+          "functions": [
+            "16",
+            "INPUT-"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "A3",
+          "functions": [
+            "17",
+            "OUTPUT"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "A4",
+          "functions": [
+            "18",
+            "SDA"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "A5",
+          "functions": [
+            "19",
+            "SCL"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "A6",
+          "functions": [
+            "20"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "A7",
+          "functions": [
+            "21"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "BOOT",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "VIN",
+          "functions": [
+            "+21V MAX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/af2026b74c5cdb9a99d4c19d3725cc7b4e32ddb6b79ec6d30c4c39709f08eb4e.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB-C connector at top of image, start at end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D12",
+          "functions": [
+            "MISO"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "~D11",
+          "functions": [
+            "MOSI"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "~D10",
+          "functions": [
+            "SS"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "~D9",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "D8",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "D7",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "~D6",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "~D5",
+          "functions": [
+            "PIN_CAN0_RX"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "D4",
+          "functions": [
+            "PIN_CAN0_TX"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "~D3",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "D2",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "D0",
+          "functions": [
+            "UART1_RX_PIN"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "D1",
+          "functions": [
+            "UART1_TX_PIN"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qwiic",
+      "name": "QWIIC connector",
+      "image": "media/af2026b74c5cdb9a99d4c19d3725cc7b4e32ddb6b79ec6d30c4c39709f08eb4e.png",
+      "rows": 1,
+      "orderNote": "Pin numbers 1-4 printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "I2C0 SDA",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "I2C0 SCL",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-edge-pads",
+      "name": "Bottom edge I2C0 pads",
+      "image": "media/af2026b74c5cdb9a99d4c19d3725cc7b4e32ddb6b79ec6d30c4c39709f08eb4e.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal pads, left-to-right (top/left rule)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "I2C0 SDA",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "I2C0 SCL",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "vbatt-pad",
+      "name": "VBATT pad",
+      "image": "media/af2026b74c5cdb9a99d4c19d3725cc7b4e32ddb6b79ec6d30c4c39709f08eb4e.png",
+      "rows": 1,
+      "orderNote": "Single pad",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBATT",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left header",
+      "image": "media/91d22ca132208da48c12e6b3e9c48c9864516b5e00a18d2c505df92c912ef44a.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB-C connector at top of image, start at end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D13",
+          "functions": [
+            "SCK"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "AREF",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "A0",
+          "functions": [
+            "14",
+            "DAC"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "A1",
+          "functions": [
+            "15",
+            "INPUT+"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "A2",
+          "functions": [
+            "16",
+            "INPUT-"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "A3",
+          "functions": [
+            "17",
+            "OUTPUT"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "A4",
+          "functions": [
+            "18",
+            "SDA"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "A5",
+          "functions": [
+            "19",
+            "SCL"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "A6",
+          "functions": [
+            "20"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "A7",
+          "functions": [
+            "21"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "BOOT",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "VIN",
+          "functions": [
+            "+21 VDC MAX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Right header",
+      "image": "media/91d22ca132208da48c12e6b3e9c48c9864516b5e00a18d2c505df92c912ef44a.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB-C connector at top of image, start at end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D12",
+          "functions": [
+            "MISO"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "~D11",
+          "functions": [
+            "MOSI"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "~D10",
+          "functions": [
+            "SS"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "~D9",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "D8",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "D7",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "~D6",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "~D5",
+          "functions": [
+            "PIN_CAN0_RX"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "D4",
+          "functions": [
+            "PIN_CAN0_TX"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "~D3",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "D2",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "D0",
+          "functions": [
+            "SERIAL1_RX_PIN"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "D1",
+          "functions": [
+            "SERIAL1_TX_PIN"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qwiic-img2",
+      "name": "QWIIC connector",
+      "image": "media/91d22ca132208da48c12e6b3e9c48c9864516b5e00a18d2c505df92c912ef44a.png",
+      "rows": 1,
+      "orderNote": "Pin numbers 1-4 printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "I2C0 SDA",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "I2C0 SCL",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-edge-pads-img2",
+      "name": "Bottom edge I2C0 pads",
+      "image": "media/91d22ca132208da48c12e6b3e9c48c9864516b5e00a18d2c505df92c912ef44a.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal pads, left-to-right (top/left rule)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "I2C0 SDA",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "I2C0 SCL",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "vbatt-pad-img2",
+      "name": "VBATT pad",
+      "image": "media/91d22ca132208da48c12e6b3e9c48c9864516b5e00a18d2c505df92c912ef44a.png",
+      "rows": 1,
+      "orderNote": "Single pad",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBATT",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-header-img3",
+      "name": "Left header",
+      "image": "media/ec831ea29c1103474c9fe4332eee42e765cb94a7398a9241a62a2e562a677a65.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB-C connector at top of image, start at end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D13",
+          "functions": [
+            "SCK"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "AREF",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "A0",
+          "functions": [
+            "14",
+            "DAC"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "A1",
+          "functions": [
+            "15",
+            "INPUT+"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "A2",
+          "functions": [
+            "16",
+            "INPUT-"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "A3",
+          "functions": [
+            "17",
+            "OUTPUT"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "A4",
+          "functions": [
+            "18",
+            "SDA"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "A5",
+          "functions": [
+            "19",
+            "SCL"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "A6",
+          "functions": [
+            "20"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "A7",
+          "functions": [
+            "21"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "BOOT",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "VIN",
+          "functions": [
+            "+21 VDC MAX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-img3",
+      "name": "Right header",
+      "image": "media/ec831ea29c1103474c9fe4332eee42e765cb94a7398a9241a62a2e562a677a65.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; USB-C connector at top of image, start at end closest to USB (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D12",
+          "functions": [
+            "MISO"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "~D11",
+          "functions": [
+            "MOSI"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "~D10",
+          "functions": [
+            "SS"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "~D9",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "D8",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "D7",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "~D6",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "~D5",
+          "functions": [
+            "PIN_CAN0_RX"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "D4",
+          "functions": [
+            "PIN_CAN0_TX"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "~D3",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "D2",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "D0",
+          "functions": [
+            "SERIAL1_RX_PIN"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "D1",
+          "functions": [
+            "SERIAL1_TX_PIN"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qwiic-img3",
+      "name": "QWIIC connector",
+      "image": "media/ec831ea29c1103474c9fe4332eee42e765cb94a7398a9241a62a2e562a677a65.png",
+      "rows": 1,
+      "orderNote": "Pin numbers 1-4 printed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "+3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "I2C0 SDA",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "I2C0 SCL",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-edge-pads-img3",
+      "name": "Bottom edge I2C0 pads",
+      "image": "media/ec831ea29c1103474c9fe4332eee42e765cb94a7398a9241a62a2e562a677a65.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal pads, left-to-right (top/left rule)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "I2C0 SDA",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "I2C0 SCL",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "vbatt-pad-img3",
+      "name": "VBATT pad",
+      "image": "media/ec831ea29c1103474c9fe4332eee42e765cb94a7398a9241a62a2e562a677a65.png",
+      "rows": 1,
+      "orderNote": "Single pad",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBATT",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "No MCU port names printed; label = board name. Analog rows print \"A0 14\" etc.: label A0, number first in functions. OUT/IN power icons and D (default) icons omitted. VBATT pad callout: \"RTC battery power backup Min: 1.6 V - Max: 3.6 V\" (not added as function). Images 2 and 3 appear identical. Reset button, LEDs and USB-C callout not transcribed."
+}

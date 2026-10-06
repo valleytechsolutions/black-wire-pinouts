@@ -1,0 +1,257 @@
+{
+  "recordId": "pjrc-teensy-teensy-1-0",
+  "pass": "a",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/007c69c09b12931d84a2ef813235f5d300b0dac8bc1fb895e4339692b6c0cd31.png",
+      "sha256": "007c69c09b12931d84a2ef813235f5d300b0dac8bc1fb895e4339692b6c0cd31"
+    },
+    {
+      "file": "media/35fca1cff2d29eca5087efc6df46a7d0fa254b323f68c98de789c963cad53ebf.png",
+      "sha256": "35fca1cff2d29eca5087efc6df46a7d0fa254b323f68c98de789c963cad53ebf"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/007c69c09b12931d84a2ef813235f5d300b0dac8bc1fb895e4339692b6c0cd31.png",
+      "rows": 1,
+      "orderNote": "No pin numbers marked; started at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "PC2",
+          "functions": [
+            "20"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PD0",
+          "functions": [
+            "INT0",
+            "OC0B",
+            "0",
+            "PWM"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PD1",
+          "functions": [
+            "INT1",
+            "AIN0",
+            "1"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PD2",
+          "functions": [
+            "INT2",
+            "AIN1",
+            "RXD1",
+            "2",
+            "RX"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PD3",
+          "functions": [
+            "INT3",
+            "TXD1",
+            "3",
+            "TX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PD4",
+          "functions": [
+            "INT5",
+            "4"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PD5",
+          "functions": [
+            "XCK1",
+            "5"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PD6",
+          "functions": [
+            "INT6",
+            "RTS",
+            "6"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PD7",
+          "functions": [
+            "INT7",
+            "T0",
+            "CTS",
+            "7"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PB0",
+          "functions": [
+            "SS",
+            "8"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/007c69c09b12931d84a2ef813235f5d300b0dac8bc1fb895e4339692b6c0cd31.png",
+      "rows": 1,
+      "orderNote": "No pin numbers marked; started at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "Vcc",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "PC4",
+          "functions": [
+            "19"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PC5",
+          "functions": [
+            "OC1B",
+            "18",
+            "PWM"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PC6",
+          "functions": [
+            "OC1A",
+            "17",
+            "PWM"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PC7",
+          "functions": [
+            "INT4",
+            "ICP1",
+            "16"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PB7",
+          "functions": [
+            "OC0A",
+            "OC1C",
+            "15",
+            "PWM"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PB6",
+          "functions": [
+            "14"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PB5",
+          "functions": [
+            "13"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PB4",
+          "functions": [
+            "T1",
+            "12"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PB3",
+          "functions": [
+            "MISO",
+            "11"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PB2",
+          "functions": [
+            "MOSI",
+            "10"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "PB1",
+          "functions": [
+            "SCLK",
+            "9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-header",
+      "name": "Bottom inner pads (Vcc/GND/RST)",
+      "image": "media/007c69c09b12931d84a2ef813235f5d300b0dac8bc1fb895e4339692b6c0cd31.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row equidistant from USB, started at left of image as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "Vcc",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RST",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Labels are the large callout names from the 'Using C Language' image (port names). Functions list that image's alternate names reading outward from the pin, followed by the Arduino pin number and any extra names (PWM, RX, TX) from the second 'Using Arduino Software' image of the same board/orientation. The tiny board silkscreen (GND, C2, D0..D7, SS, +5V, C4..C7, B7..B4, MISO, MOSI, SCLK) is visible but not used as label. '(LED on PD6)' annotation omitted."
+}

@@ -1,0 +1,257 @@
+{
+  "recordId": "dfrobot-dfr1075",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/c6f0ab8fa148dbb77190e867bf4f040565a455d767db09730e421320e53dd2de.webp",
+      "sha256": "c6f0ab8fa148dbb77190e867bf4f040565a455d767db09730e421320e53dd2de"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header (front view)",
+      "image": "media/c6f0ab8fa148dbb77190e867bf4f040565a455d767db09730e421320e53dd2de.webp",
+      "rows": 1,
+      "orderNote": "No printed position numbers (the numbers beside pins are GPIO numbers); vertical row, position 1 at the top end, closest to the USB-C connector.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "23",
+          "functions": [
+            "SCK",
+            "DAT3"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "22",
+          "functions": [
+            "MOSI",
+            "DAT2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "21",
+          "functions": [
+            "MISO",
+            "DAT1"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "20",
+          "functions": [
+            "SCL",
+            "DAT0"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "19",
+          "functions": [
+            "SDA",
+            "CLK"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "9",
+          "functions": [
+            "D9"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "18",
+          "functions": [
+            "D7",
+            "CMD"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "1",
+          "functions": [
+            "D6",
+            "ADC1_1"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "14",
+          "functions": [
+            "D3"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "8",
+          "functions": [
+            "D2"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "16",
+          "functions": [
+            "TX"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "17",
+          "functions": [
+            "RX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header (front view)",
+      "image": "media/c6f0ab8fa148dbb77190e867bf4f040565a455d767db09730e421320e53dd2de.webp",
+      "rows": 1,
+      "orderNote": "No printed position numbers (the numbers beside pins are GPIO numbers); vertical row, position 1 at the top end, closest to the USB-C connector.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VIN",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "20",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "19",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "5",
+          "functions": [
+            "A4",
+            "LP_TX",
+            "ADC1_5",
+            "MTDI"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "4",
+          "functions": [
+            "A3",
+            "LP_RX",
+            "ADC1_4",
+            "MTMS"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "3",
+          "functions": [
+            "A2",
+            "ADC1_3"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "2",
+          "functions": [
+            "A1",
+            "ADC1_2"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "15",
+          "functions": [
+            "D13"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "6",
+          "functions": [
+            "D12",
+            "LP_SDA",
+            "ADC1_6",
+            "MTCK"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "7",
+          "functions": [
+            "D11",
+            "LP_SCL",
+            "MTDO"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "NC",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Single image with front view (callouts) and back view of the FireBeetle 2 ESP32-C6 V1.0. Transcribed from the front view; the back-view silkscreen (e.g. 23/SCK, 5/A4/LP_TX) matches. Labels are the green GPIO callouts; on the right header the SCL/SDA rows are silkscreened 'SCL'/'SDA' with GPIO callouts 20/19. Skipped: USB-C, Li-ion battery connector (+/- only), GDI FPC connector (pins not individually labeled), buttons."
+}

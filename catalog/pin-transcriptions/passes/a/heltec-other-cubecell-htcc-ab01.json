@@ -1,0 +1,208 @@
+{
+ "recordId": "heltec-other-cubecell-htcc-ab01",
+ "pass": "a",
+ "date": "2026-10-04",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/949753da9b1d810dc1835d60e63596728e49a6c249473a904f82b5df3321cd64.png",
+   "sha256": "949753da9b1d810dc1835d60e63596728e49a6c249473a904f82b5df3321cd64"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "left-header",
+   "name": "left-header",
+   "rows": 1,
+   "orderNote": "USB at top; top-to-bottom physical hole order. Gray package numbers are aliases, not header positions.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "VS*",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "VDD",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "VEXT",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "SCL",
+     "functions": [
+      "28"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "SDA",
+     "functions": [
+      "29"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GPIO0",
+     "functions": [
+      "30"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GPIO5",
+     "functions": [
+      "33"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "GPIO4",
+     "functions": [
+      "34",
+      "RGB"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "RST",
+     "functions": [
+      "38"
+     ]
+    }
+   ],
+   "image": "media/949753da9b1d810dc1835d60e63596728e49a6c249473a904f82b5df3321cd64.png"
+  },
+  {
+   "id": "right-header",
+   "name": "right-header",
+   "rows": 1,
+   "orderNote": "USB at top; top-to-bottom physical hole order. Gray package numbers are aliases, not header positions.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "VIN",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "MOSI",
+     "functions": [
+      "19/36",
+      "LoRa_MOSI"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "MISO",
+     "functions": [
+      "20/35",
+      "LoRa_MISO"
+     ]
+    },
+    {
+     "position": 5,
+     "label": "SCK",
+     "functions": [
+      "21/37",
+      "LoRa_SCK"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "TX",
+     "functions": [
+      "15"
+     ]
+    },
+    {
+     "position": 7,
+     "label": "RX",
+     "functions": [
+      "14"
+     ]
+    },
+    {
+     "position": 8,
+     "label": "GPIO3",
+     "functions": [
+      "8",
+      "PWM2"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GPIO2",
+     "functions": [
+      "7",
+      "PWM1"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "GPIO1",
+     "functions": [
+      "6"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "ADC",
+     "functions": [
+      "2",
+      "Power Detection"
+     ]
+    }
+   ],
+   "image": "media/949753da9b1d810dc1835d60e63596728e49a6c249473a904f82b5df3321cd64.png"
+  },
+  {
+   "id": "control-header",
+   "name": "control-header",
+   "rows": 1,
+   "orderNote": "Horizontal row; USB is centered above the row, so start at the left.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GPIO7",
+     "functions": [
+      "17",
+      "Battery test Control",
+      "USER_BUTTON"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "GPIO6",
+     "functions": [
+      "16",
+      "Vext Control"
+     ]
+    }
+   ],
+   "image": "media/949753da9b1d810dc1835d60e63596728e49a6c249473a904f82b5df3321cd64.png"
+  }
+ ],
+ "notes": "Only external wiring holes and the two labeled central control holes are listed; buttons and antenna connectors are excluded.",
+ "unreadable": [],
+ "uncertain": []
+}

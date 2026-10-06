@@ -1,0 +1,240 @@
+{
+  "recordId": "espressif-esp32-esp8684-devkitm-1-v1-1",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/2223b449774f2a3d77fc7be8c46f9c38bd4bdb3e1bf6f4a898694f41c3a27863.png",
+      "sha256": "2223b449774f2a3d77fc7be8c46f9c38bd4bdb3e1bf6f4a898694f41c3a27863"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/2223b449774f2a3d77fc7be8c46f9c38bd4bdb3e1bf6f4a898694f41c3a27863.png",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; USB connector at the bottom, so bottom to top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V0",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "5V0",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO10",
+          "functions": [
+            "10"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO1",
+          "functions": [
+            "1",
+            "ADC1_1",
+            "LED Green"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO0",
+          "functions": [
+            "0",
+            "ADC1_0",
+            "LED Red"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GPIO3",
+          "functions": [
+            "3",
+            "ADC1_3"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO2",
+          "functions": [
+            "2",
+            "ADC1_2",
+            "FSPIQ"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/2223b449774f2a3d77fc7be8c46f9c38bd4bdb3e1bf6f4a898694f41c3a27863.png",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; USB connector at the bottom, so bottom to top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO18",
+          "functions": [
+            "18"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO4",
+          "functions": [
+            "4",
+            "MTMS",
+            "ADC1_4",
+            "FSPIHD"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO5",
+          "functions": [
+            "5",
+            "MTDI",
+            "FSPIWP"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO6",
+          "functions": [
+            "6",
+            "MTCK",
+            "FSPICLK"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO7",
+          "functions": [
+            "7",
+            "MTDO",
+            "FSPID"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GPIO8",
+          "functions": [
+            "8",
+            "LOG",
+            "LED Blue"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO9",
+          "functions": [
+            "9",
+            "BOOT"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GPIO19",
+          "functions": [
+            "RX",
+            "U0RXD"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO20",
+          "functions": [
+            "TX",
+            "U0TXD"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Image is titled 'ESP8684-DevKitM-1' with no board revision; it cannot confirm v1.1."
+  ],
+  "notes": "Espressif ESP8684-DevKitM-1 pinout. Silkscreen spellings (numbers, 5V, TX, RX) placed first in functions. 'RTC' power-domain tags and the PWM-capable wave symbols omitted as category tags/symbols."
+}

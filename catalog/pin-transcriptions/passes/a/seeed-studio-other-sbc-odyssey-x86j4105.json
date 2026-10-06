@@ -1,0 +1,559 @@
+{
+ "recordId": "seeed-studio-other-sbc-odyssey-x86j4105",
+ "pass": "a",
+ "date": "2026-10-05",
+ "status": "transcribed",
+ "images": [
+  {
+   "file": "media/b48490e196f95eeaf570014a9ee50c57b368285fa7d9e53b36dfeb5bffa357d7.png",
+   "sha256": "b48490e196f95eeaf570014a9ee50c57b368285fa7d9e53b36dfeb5bffa357d7"
+  },
+  {
+   "file": "media/68d424a4b65f578551ed043a807373fe2dc99386e5b9904a981f29aa47996ee3.png",
+   "sha256": "68d424a4b65f578551ed043a807373fe2dc99386e5b9904a981f29aa47996ee3"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "CPU_FAN1",
+   "name": "CPU_FAN1",
+   "rows": 1,
+   "orderNote": "No USB shown; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "5V",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "RPM SPEED SIGNAL(5V)",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "PWM SIGNAL(5V)",
+     "functions": []
+    }
+   ],
+   "image": "media/b48490e196f95eeaf570014a9ee50c57b368285fa7d9e53b36dfeb5bffa357d7.png"
+  },
+  {
+   "id": "standard-fan-reference",
+   "name": "standard-fan-reference",
+   "rows": 1,
+   "orderNote": "No USB shown; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "PWM Signal (+5V)",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "RPM Speed Signal",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "+5V",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "Ground (GND)",
+     "functions": []
+    }
+   ],
+   "image": "media/b48490e196f95eeaf570014a9ee50c57b368285fa7d9e53b36dfeb5bffa357d7.png"
+  },
+  {
+   "id": "rear-SWD-img2",
+   "name": "rear-SWD",
+   "rows": 1,
+   "orderNote": "No USB shown; physical left-to-right order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "SW CLK",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "SWD IO",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "MCU RST",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "3.3V",
+     "functions": []
+    }
+   ],
+   "image": "media/68d424a4b65f578551ed043a807373fe2dc99386e5b9904a981f29aa47996ee3.png"
+  },
+  {
+   "id": "power-switch-img2",
+   "name": "power-switch",
+   "rows": 1,
+   "orderNote": "No USB shown; physical left-to-right order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "PWR",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "LED+",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "LED-",
+     "functions": []
+    }
+   ],
+   "image": "media/68d424a4b65f578551ed043a807373fe2dc99386e5b9904a981f29aa47996ee3.png"
+  },
+  {
+   "id": "UART-img2",
+   "name": "UART",
+   "rows": 1,
+   "orderNote": "No USB shown; physical top-to-bottom order.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "RST",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "TX",
+     "functions": []
+    },
+    {
+     "position": 4,
+     "label": "RX",
+     "functions": []
+    }
+   ],
+   "image": "media/68d424a4b65f578551ed043a807373fe2dc99386e5b9904a981f29aa47996ee3.png"
+  },
+  {
+   "id": "Arduino-28-img2",
+   "name": "Arduino-28",
+   "rows": 2,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "D0",
+     "functions": [
+      "RX"
+     ]
+    },
+    {
+     "position": 2,
+     "label": "A0",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "D1",
+     "functions": [
+      "TX"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "A1",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "D2",
+     "functions": []
+    },
+    {
+     "position": 6,
+     "label": "A2",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "D3",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "A3",
+     "functions": []
+    },
+    {
+     "position": 9,
+     "label": "D4",
+     "functions": [
+      "TX"
+     ]
+    },
+    {
+     "position": 10,
+     "label": "A4",
+     "functions": []
+    },
+    {
+     "position": 11,
+     "label": "D5",
+     "functions": [
+      "RX"
+     ]
+    },
+    {
+     "position": 12,
+     "label": "A5",
+     "functions": []
+    },
+    {
+     "position": 13,
+     "label": "D6",
+     "functions": []
+    },
+    {
+     "position": 14,
+     "label": "SDA",
+     "functions": []
+    },
+    {
+     "position": 15,
+     "label": "D7",
+     "functions": []
+    },
+    {
+     "position": 16,
+     "label": "SCL",
+     "functions": []
+    },
+    {
+     "position": 17,
+     "label": "D8",
+     "functions": []
+    },
+    {
+     "position": 18,
+     "label": "MOSI",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "D9",
+     "functions": []
+    },
+    {
+     "position": 20,
+     "label": "CLK",
+     "functions": []
+    },
+    {
+     "position": 21,
+     "label": "D10",
+     "functions": []
+    },
+    {
+     "position": 22,
+     "label": "MISO",
+     "functions": []
+    },
+    {
+     "position": 23,
+     "label": "D11",
+     "functions": []
+    },
+    {
+     "position": 24,
+     "label": "3V3",
+     "functions": []
+    },
+    {
+     "position": 25,
+     "label": "D12",
+     "functions": []
+    },
+    {
+     "position": 26,
+     "label": "5V",
+     "functions": []
+    },
+    {
+     "position": 27,
+     "label": "D13",
+     "functions": []
+    },
+    {
+     "position": 28,
+     "label": "GND",
+     "functions": []
+    }
+   ],
+   "image": "media/68d424a4b65f578551ed043a807373fe2dc99386e5b9904a981f29aa47996ee3.png"
+  },
+  {
+   "id": "GPIO-40-img2",
+   "name": "GPIO-40",
+   "rows": 2,
+   "orderNote": "Follow the printed connector position numbers.",
+   "pins": [
+    {
+     "position": 1,
+     "label": "3.3V",
+     "functions": []
+    },
+    {
+     "position": 2,
+     "label": "5V",
+     "functions": []
+    },
+    {
+     "position": 3,
+     "label": "GPIO 386",
+     "functions": [
+      "SDA"
+     ]
+    },
+    {
+     "position": 4,
+     "label": "5V",
+     "functions": []
+    },
+    {
+     "position": 5,
+     "label": "GPIO 387",
+     "functions": [
+      "SCL"
+     ]
+    },
+    {
+     "position": 6,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 7,
+     "label": "GPIO 337",
+     "functions": []
+    },
+    {
+     "position": 8,
+     "label": "GPIO 493",
+     "functions": [
+      "TX"
+     ]
+    },
+    {
+     "position": 9,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 10,
+     "label": "GPIO 492",
+     "functions": [
+      "RX"
+     ]
+    },
+    {
+     "position": 11,
+     "label": "GPIO 364",
+     "functions": []
+    },
+    {
+     "position": 12,
+     "label": "GPIO 338",
+     "functions": []
+    },
+    {
+     "position": 13,
+     "label": "GPIO 412",
+     "functions": []
+    },
+    {
+     "position": 14,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 15,
+     "label": "GPIO 413",
+     "functions": []
+    },
+    {
+     "position": 16,
+     "label": "GPIO 421",
+     "functions": []
+    },
+    {
+     "position": 17,
+     "label": "3.3V",
+     "functions": []
+    },
+    {
+     "position": 18,
+     "label": "GPIO 422",
+     "functions": []
+    },
+    {
+     "position": 19,
+     "label": "GPIO 359",
+     "functions": [
+      "MOSI"
+     ]
+    },
+    {
+     "position": 20,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 21,
+     "label": "GPIO 358",
+     "functions": [
+      "MISO"
+     ]
+    },
+    {
+     "position": 22,
+     "label": "GPIO 390",
+     "functions": []
+    },
+    {
+     "position": 23,
+     "label": "GPIO 355",
+     "functions": [
+      "CLK"
+     ]
+    },
+    {
+     "position": 24,
+     "label": "GPIO 356",
+     "functions": [
+      "FS0"
+     ]
+    },
+    {
+     "position": 25,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 26,
+     "label": "GPIO 357",
+     "functions": [
+      "FS1"
+     ]
+    },
+    {
+     "position": 27,
+     "label": "GPIO 388",
+     "functions": [
+      "SDA"
+     ]
+    },
+    {
+     "position": 28,
+     "label": "GPIO 389",
+     "functions": [
+      "SCL"
+     ]
+    },
+    {
+     "position": 29,
+     "label": "GPIO 415",
+     "functions": []
+    },
+    {
+     "position": 30,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 31,
+     "label": "GPIO 416",
+     "functions": []
+    },
+    {
+     "position": 32,
+     "label": "GPIO 391",
+     "functions": []
+    },
+    {
+     "position": 33,
+     "label": "GPIO 417",
+     "functions": []
+    },
+    {
+     "position": 34,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 35,
+     "label": "GPIO 339",
+     "functions": []
+    },
+    {
+     "position": 36,
+     "label": "GPIO 410",
+     "functions": []
+    },
+    {
+     "position": 37,
+     "label": "GPIO 419",
+     "functions": []
+    },
+    {
+     "position": 38,
+     "label": "GPIO 340",
+     "functions": []
+    },
+    {
+     "position": 39,
+     "label": "GND",
+     "functions": []
+    },
+    {
+     "position": 40,
+     "label": "GPIO 341",
+     "functions": []
+    }
+   ],
+   "image": "media/68d424a4b65f578551ed043a807373fe2dc99386e5b9904a981f29aa47996ee3.png"
+  }
+ ],
+ "notes": "Image 1 includes both a board-specific fan photo and a generic standard fan diagram; kept as distinct source views. Image 2 shows no USB detail, so unnumbered groups use top/left-first.",
+ "unreadable": [],
+ "uncertain": []
+}

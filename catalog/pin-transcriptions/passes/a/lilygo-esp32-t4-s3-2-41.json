@@ -1,0 +1,246 @@
+{
+  "recordId": "lilygo-esp32-t4-s3-2-41",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/a0d55badfdb7418e7ea54dd0371bcc25ef8449c65465ab9b27ff01acf58961ae.jpg",
+      "sha256": "a0d55badfdb7418e7ea54dd0371bcc25ef8449c65465ab9b27ff01acf58961ae"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "header-2x15",
+      "name": "2x15 1.27mm pitch header",
+      "image": "media/a0d55badfdb7418e7ea54dd0371bcc25ef8449c65465ab9b27ff01acf58961ae.jpg",
+      "rows": 2,
+      "orderNote": "No pin numbers; started at the right end (closest to the USB-C connector); position 1 = outer (top, board-edge) row, alternating with the inner row",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "TXD",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "IO18",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "RXD",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "IO21",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "IO47",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "IO45",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "IO4",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "IO38",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "IO3",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "IO39",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "IO2",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "IO40",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "IO1",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "IO41",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "IO42",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 25,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 27,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 28,
+          "label": "BAT",
+          "functions": []
+        },
+        {
+          "position": 29,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "BAT",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "qwiic-uart",
+      "name": "Qwiic JST-SH 1.0mm (upper right)",
+      "image": "media/a0d55badfdb7418e7ea54dd0371bcc25ef8449c65465ab9b27ff01acf58961ae.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at the bottom end (closest to the USB-C connector)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO43",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "IO44",
+          "functions": [
+            "RXD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qwiic-i2c",
+      "name": "Qwiic JST-SH 1.0mm (lower right)",
+      "image": "media/a0d55badfdb7418e7ea54dd0371bcc25ef8449c65465ab9b27ff01acf58961ae.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at the top end (closest to the USB-C connector)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO07",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "IO06",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Header inner-row labels come from the label chart on the centre graphic, not from silkscreen beside the inner row; mapping of that chart row to the inner header row is inferred.",
+    "Outer-row position 9 reads IO45 on the header silkscreen but IO48 on the centre label chart; IO45 recorded. Outer-row IO18 also reads like IO16 on the chart.",
+    "Upper Qwiic: no silkscreen visible beside its pins; RXD(IO44)/TXD(IO43)/3V3/GND mapping inferred from the caption order top-to-bottom."
+  ],
+  "notes": "Outer header row labels read from the silkscreen above the header; inner row labels read from the label chart on the centre graphic (BAT BAT 3V3 3V3 GND IO1 IO2 IO3 IO4 SCL SDA RXD TXD 3V3 GND). Lower Qwiic silkscreen SCL/SDA/3V3/GND with caption GPIOs. JST-GH 1.25mm connector at the bottom has only +/- marks (battery) and is skipped; USB-C, antenna, buttons, switch skipped. AMOLED, Touch and MicroSD tables are internal assignments."
+}

@@ -1,0 +1,254 @@
+{
+  "recordId": "waveshare-esp32-esp32-s3-lcd-2-8b",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/0df8d181ed0a035146d9d3b37e2d26253a9ce88834b4edf813dd4b0892295494.jpg",
+      "sha256": "0df8d181ed0a035146d9d3b37e2d26253a9ce88834b4edf813dd4b0892295494"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "i2c-connector",
+      "name": "I2C connector (left of USB-C, top view)",
+      "image": "media/0df8d181ed0a035146d9d3b37e2d26253a9ce88834b4edf813dd4b0892295494.jpg",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; started at the end closest to the USB-C connector (right end)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO7",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO15",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "uart-connector",
+      "name": "UART connector (right of USB-C, top view)",
+      "image": "media/0df8d181ed0a035146d9d3b37e2d26253a9ce88834b4edf813dd4b0892295494.jpg",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; started at the end closest to the USB-C connector (left end)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO43",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO44",
+          "functions": [
+            "RXD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2x12-header",
+      "name": "2x12 header (lower view)",
+      "image": "media/0df8d181ed0a035146d9d3b37e2d26253a9ce88834b4edf813dd4b0892295494.jpg",
+      "rows": 2,
+      "orderNote": "No pin numbers; the lower view does not show USB, so started at the top; position 1 = right column (nearer the board edge), alternating right/left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO43",
+          "functions": [
+            "TXD"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO15",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO44",
+          "functions": [
+            "RXD"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO7",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO37",
+          "functions": [
+            "37"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO16",
+          "functions": [
+            "16",
+            "TP_INT"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO36",
+          "functions": [
+            "36"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO4",
+          "functions": [
+            "4",
+            "BAT_ADC"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO35",
+          "functions": [
+            "35"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO0",
+          "functions": [
+            "0",
+            "BOOT"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO34",
+          "functions": [
+            "34"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO20",
+          "functions": [
+            "D+"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO33",
+          "functions": [
+            "33"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GPIO19",
+          "functions": [
+            "D-"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 21,
+          "label": "BAT",
+          "functions": []
+        },
+        {
+          "position": 22,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 24,
+          "label": "5V",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Board silkscreen in the lower view reads '...SP32-S3-Touch-LCD-2.8B' (Touch variant), while the record is 'ESP32-S3-LCD-2.8B'.",
+    "The image combines two views; the USB-C port appears only in the upper view. The 2x12 header was ordered from the lower view alone (top start); the right column was judged nearer the board edge."
+  ],
+  "notes": "Upper view shows the two 4-pin JST connectors with callouts; lower view shows the 2x12 header with silkscreen (G, 3V3, SDA, SCL, 16, 4, 0, D+, D-, G, VCC, 5V on left; G, 3V3, TXD, RXD, 37, 36, 35, 34, 33, G, BAT, 5V on right). RTC and BAT JST connectors are not labeled per pin."
+}

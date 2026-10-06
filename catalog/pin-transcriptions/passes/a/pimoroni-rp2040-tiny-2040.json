@@ -1,0 +1,201 @@
+{
+  "recordId": "pimoroni-rp2040-tiny-2040",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/7f5718e70af443045ad2afbee35bac169605e71d1f9f40365b3804d1d6eed685.png",
+      "sha256": "7f5718e70af443045ad2afbee35bac169605e71d1f9f40365b3804d1d6eed685"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-pads",
+      "name": "Left castellated row (pins 1-8)",
+      "image": "media/7f5718e70af443045ad2afbee35bac169605e71d1f9f40365b3804d1d6eed685.png",
+      "rows": 1,
+      "orderNote": "Pin numbers printed: position n = printed pin n, 1 at the top (USB-C end).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBUS",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": [
+            "3V"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP29",
+          "functions": [
+            "A3",
+            "ADC3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP28",
+          "functions": [
+            "A2",
+            "ADC2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP27",
+          "functions": [
+            "A1",
+            "ADC1",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP26",
+          "functions": [
+            "A0",
+            "ADC0",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-pads",
+      "name": "Right castellated row (pins 9-16)",
+      "image": "media/7f5718e70af443045ad2afbee35bac169605e71d1f9f40365b3804d1d6eed685.png",
+      "rows": 1,
+      "orderNote": "Pin numbers printed: position n = printed pin 8+n, so position 1 = pin 9 at the bottom and position 8 = pin 16 at the top (USB-C end).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GP7",
+          "functions": [
+            "7",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP6",
+          "functions": [
+            "6",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP5",
+          "functions": [
+            "5",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP4",
+          "functions": [
+            "4",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP3",
+          "functions": [
+            "3",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GP2",
+          "functions": [
+            "2",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GP1",
+          "functions": [
+            "1",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX",
+            "CONSOLE"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GP0",
+          "functions": [
+            "0",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX",
+            "CONSOLE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "swd-pads",
+      "name": "3 debug pads (silkscreen SWC / SWD, bottom edge)",
+      "image": "media/7f5718e70af443045ad2afbee35bac169605e71d1f9f40365b3804d1d6eed685.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed. The row is centered under the centered USB-C, so neither end is nearer USB. Started at the left per the top/left fallback.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "CLK",
+          "functions": [
+            "SWC"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "DIO",
+          "functions": [
+            "SWD"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "SWD pads: the 3-pad row is centered under the USB-C connector, so the USB-nearest rule ties. The left (CLK) start comes from the top/left fallback, which the rules do not explicitly prescribe for a tie."
+  ],
+  "notes": "Image: 'Pimoroni Tiny 2040 - Pins and Dims'. Peripheral functions combine the column header (SPI/I2C/UART) with the printed peripheral number, per the image KEY ('0 SDA' under I2C = I2C0 SDA). 'CONSOLE' spans the GP0/GP1 UART0 entries. Silkscreen spellings are listed first in functions (5V, 3V, A0-A3, 0-7). The D-shaped silkscreen glyphs beside pins 2 and 8 (GND) are treated as symbols and omitted. Skipped: the back-view RESET/BOOT buttons and RGB LED callout (RUN, GP18-GP20, GP23 are on-board signals, not wiring points), and the USB-C connector."
+}

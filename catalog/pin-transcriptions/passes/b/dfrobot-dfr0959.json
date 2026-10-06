@@ -1,0 +1,138 @@
+{
+  "recordId": "dfrobot-dfr0959",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/2a6ccb147316dd3a55b43eb519f8f5c8336b2e96813c6538fc4c056f63857f7f.webp",
+      "sha256": "2a6ccb147316dd3a55b43eb519f8f5c8336b2e96813c6538fc4c056f63857f7f"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-pads",
+      "name": "Left edge pads",
+      "image": "media/2a6ccb147316dd3a55b43eb519f8f5c8336b2e96813c6538fc4c056f63857f7f.webp",
+      "rows": 1,
+      "orderNote": "USB-C connector at the top; vertical row started at the top end (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GP0",
+          "functions": [
+            "D0",
+            "SPI0/MISO"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP1",
+          "functions": [
+            "D1",
+            "SPI0/CSn"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP2",
+          "functions": [
+            "D2",
+            "SPI0/SCK",
+            "I2C1/SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP3",
+          "functions": [
+            "D3",
+            "SPI0/MOSI",
+            "I2C1/SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-pads",
+      "name": "Right edge pads",
+      "image": "media/2a6ccb147316dd3a55b43eb519f8f5c8336b2e96813c6538fc4c056f63857f7f.webp",
+      "rows": 1,
+      "orderNote": "USB-C connector at the top; vertical row started at the top end (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VCC",
+          "functions": [
+            "IN:3.3V~5V",
+            "OUT:USB(5V)"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GP29",
+          "functions": [
+            "D29",
+            "A3",
+            "UART1/RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GP28",
+          "functions": [
+            "D28",
+            "A2",
+            "UART1/TX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GP5",
+          "functions": [
+            "D5",
+            "UART2/RX",
+            "I2C0/SCL"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GP4",
+          "functions": [
+            "D4",
+            "UART2/TX",
+            "I2C0/SDA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-pads",
+      "name": "Bottom edge pads",
+      "image": "media/2a6ccb147316dd3a55b43eb519f8f5c8336b2e96813c6538fc4c056f63857f7f.webp",
+      "rows": 1,
+      "orderNote": "Horizontal row centred under the USB connector (equidistant); started at the left end",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": [
+            "OUT:3V3"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Functions read outward from each pad. B and R buttons skipped."
+}

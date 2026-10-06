@@ -1,0 +1,234 @@
+{
+  "recordId": "weact-studio-esp32-esp32c3-core-board",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/5ce9b76a685cec17e8cb16f6c00bc71a77eb9271e4e5b7f1b1402e253c645113.jpg",
+      "sha256": "5ce9b76a685cec17e8cb16f6c00bc71a77eb9271e4e5b7f1b1402e253c645113"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/5ce9b76a685cec17e8cb16f6c00bc71a77eb9271e4e5b7f1b1402e253c645113.jpg",
+      "rows": 1,
+      "orderNote": "No header pin numbers (the numbers beside labels are GPIO numbers); USB-C is at the bottom edge, so position 1 is the bottom end.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "VB",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "5v",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO7",
+          "functions": [
+            "7",
+            "FSPID",
+            "SS",
+            "MTDO"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO6",
+          "functions": [
+            "6",
+            "FSPICLK",
+            "MOSI",
+            "MTCK"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO5",
+          "functions": [
+            "5",
+            "FSPIWP",
+            "MISO",
+            "MTDI",
+            "ADC2_0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO4",
+          "functions": [
+            "4",
+            "FSPIHD",
+            "SCK",
+            "MTMS",
+            "ADC1_4"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO3",
+          "functions": [
+            "3",
+            "ADC1_3"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO2",
+          "functions": [
+            "2",
+            "ADC1_2",
+            "FSPIQ",
+            "BOOT"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO1",
+          "functions": [
+            "1",
+            "ADC1_1",
+            "XTAL_32K_N"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO0",
+          "functions": [
+            "0",
+            "ADC1_0",
+            "XTAL_32K_P"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/5ce9b76a685cec17e8cb16f6c00bc71a77eb9271e4e5b7f1b1402e253c645113.jpg",
+      "rows": 1,
+      "orderNote": "No header pin numbers (the numbers beside labels are GPIO numbers); USB-C is at the bottom edge, so position 1 is the bottom end.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3.3v",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "3.3v",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GPIO8",
+          "functions": [
+            "8",
+            "SDA",
+            "LOG",
+            "BULTIN LED"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO9",
+          "functions": [
+            "9",
+            "SCL",
+            "BOOT"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO10",
+          "functions": [
+            "10",
+            "FSPICS0",
+            "JTAG"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO18",
+          "functions": [
+            "18",
+            "USB_D+"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO19",
+          "functions": [
+            "19",
+            "USB_D-"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO21",
+          "functions": [
+            "RX0",
+            "RXD 0"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO20",
+          "functions": [
+            "TX0",
+            "TXD 0"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Board identity: the image is titled 'WeAct Studio ESP32-C3Fx4 Mini Core'; the record is 'ESP32C3 Core Board'. The image does not show that these names refer to the same product."
+  ],
+  "notes": "Pinout diagram (www.mischianti.org printed). Labels use the magenta GPIO names (rule 5); board silkscreen (0-7, 8-10, 18, 19, RX0, TX0, G, 5V, 3V3) is first in functions where it differs. Callout spellings '5v', '3.3v' and 'BULTIN LED' copied as printed. Wave symbols omitted. Skipped: USB-C, BOOT/9 and EN buttons, antenna."
+}

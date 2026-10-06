@@ -1,0 +1,881 @@
+{
+  "recordId": "waveshare-rp2350-rp2350-relay-6ch",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/a58bd830e3f999d1cb685979a87fb82cf3ce4e1cbe05ca54f2f6711e6200b756.jpg",
+      "sha256": "a58bd830e3f999d1cb685979a87fb82cf3ce4e1cbe05ca54f2f6711e6200b756"
+    },
+    {
+      "file": "media/ce60cbf7c6a3635fb3a4344bb18d9caeeecf4095731389dba10e22bb42aa5159.jpg",
+      "sha256": "ce60cbf7c6a3635fb3a4344bb18d9caeeecf4095731389dba10e22bb42aa5159"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left module header",
+      "image": "media/a58bd830e3f999d1cb685979a87fb82cf3ce4e1cbe05ca54f2f6711e6200b756.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector visible: vertical row, position 1 at the top.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBUS",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "VSYS",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3_EN",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "3V3(OUT)",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "ADC_VREF",
+          "functions": [
+            "AV"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO42",
+          "functions": [
+            "IO42",
+            "SPI1 SCK",
+            "ADC 2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": [
+            "AGND"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO41",
+          "functions": [
+            "IO41",
+            "SPI1 CSn",
+            "ADC 1",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO40",
+          "functions": [
+            "IO40",
+            "SPI1 RX",
+            "ADC 0",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "RUN",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GPIO22",
+          "functions": [
+            "IO22",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO21",
+          "functions": [
+            "IO21",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO20",
+          "functions": [
+            "IO20",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO19",
+          "functions": [
+            "IO19",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO18",
+          "functions": [
+            "IO18",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GPIO17",
+          "functions": [
+            "IO17",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO16",
+          "functions": [
+            "IO16",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right module header",
+      "image": "media/a58bd830e3f999d1cb685979a87fb82cf3ce4e1cbe05ca54f2f6711e6200b756.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector visible: vertical row, position 1 at the top.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO0",
+          "functions": [
+            "TXD",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO1",
+          "functions": [
+            "RXD",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO2",
+          "functions": [
+            "IO2",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO3",
+          "functions": [
+            "IO3",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO4",
+          "functions": [
+            "IO4",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO5",
+          "functions": [
+            "IO5",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO6",
+          "functions": [
+            "IO6",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO7",
+          "functions": [
+            "IO7",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO8",
+          "functions": [
+            "IO8",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO9",
+          "functions": [
+            "IO9",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO10",
+          "functions": [
+            "IO10",
+            "SPI1 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO11",
+          "functions": [
+            "IO11",
+            "SPI1 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO12",
+          "functions": [
+            "IO12",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO13",
+          "functions": [
+            "IO13",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GPIO14",
+          "functions": [
+            "IO14",
+            "SPI1 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO15",
+          "functions": [
+            "IO15",
+            "SPI1 TX",
+            "I2C1 SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "top-header",
+      "name": "Top 8-pad header (IO47-IO37)",
+      "image": "media/a58bd830e3f999d1cb685979a87fb82cf3ce4e1cbe05ca54f2f6711e6200b756.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector visible: horizontal row, position 1 at the left (IO47).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO47",
+          "functions": [
+            "IO47",
+            "SPI1 TX",
+            "ADC 7"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO46",
+          "functions": [
+            "IO46",
+            "SPI1 SCK",
+            "ADC 6"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO45",
+          "functions": [
+            "IO45",
+            "SPI1 CSn",
+            "ADC 5",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO44",
+          "functions": [
+            "IO44",
+            "SPI1 RX",
+            "ADC 4",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO43",
+          "functions": [
+            "IO43",
+            "SPI1 TX",
+            "ADC 3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO39",
+          "functions": [
+            "IO39",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO38",
+          "functions": [
+            "IO38",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO37",
+          "functions": [
+            "IO37",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left module header",
+      "image": "media/ce60cbf7c6a3635fb3a4344bb18d9caeeecf4095731389dba10e22bb42aa5159.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector visible: vertical row, position 1 at the top.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBUS",
+          "functions": [
+            "5V"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "VSYS",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3_EN",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "3V3(OUT)",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "ADC_VREF",
+          "functions": [
+            "AV"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO42",
+          "functions": [
+            "IO42",
+            "SPI1 SCK",
+            "ADC 2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": [
+            "AGND"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO41",
+          "functions": [
+            "IO41",
+            "SPI1 CSn",
+            "ADC 1",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO40",
+          "functions": [
+            "IO40",
+            "SPI1 RX",
+            "ADC 0",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "RUN",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GPIO22",
+          "functions": [
+            "IO22",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO21",
+          "functions": [
+            "IO21",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO20",
+          "functions": [
+            "IO20",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO19",
+          "functions": [
+            "IO19",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO18",
+          "functions": [
+            "IO18",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GPIO17",
+          "functions": [
+            "IO17",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO16",
+          "functions": [
+            "IO16",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Right module header",
+      "image": "media/ce60cbf7c6a3635fb3a4344bb18d9caeeecf4095731389dba10e22bb42aa5159.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector visible: vertical row, position 1 at the top.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO0",
+          "functions": [
+            "TXD",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO1",
+          "functions": [
+            "RXD",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO2",
+          "functions": [
+            "IO2",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO3",
+          "functions": [
+            "IO3",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO4",
+          "functions": [
+            "IO4",
+            "SPI0 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO5",
+          "functions": [
+            "IO5",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "GPIO6",
+          "functions": [
+            "IO6",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO7",
+          "functions": [
+            "IO7",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO8",
+          "functions": [
+            "IO8",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART1 TX"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO9",
+          "functions": [
+            "IO9",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GPIO10",
+          "functions": [
+            "IO10",
+            "SPI1 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO11",
+          "functions": [
+            "IO11",
+            "SPI1 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO12",
+          "functions": [
+            "IO12",
+            "SPI1 RX",
+            "I2C0 SDA",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPIO13",
+          "functions": [
+            "IO13",
+            "SPI1 CSn",
+            "I2C0 SCL",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GPIO14",
+          "functions": [
+            "IO14",
+            "SPI1 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GPIO15",
+          "functions": [
+            "IO15",
+            "SPI1 TX",
+            "I2C1 SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "top-header-img2",
+      "name": "Top 8-pad header (IO47-IO37)",
+      "image": "media/ce60cbf7c6a3635fb3a4344bb18d9caeeecf4095731389dba10e22bb42aa5159.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers and no USB connector visible: horizontal row, position 1 at the left (IO47).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO47",
+          "functions": [
+            "IO47",
+            "SPI1 TX",
+            "ADC 7"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO46",
+          "functions": [
+            "IO46",
+            "SPI1 SCK",
+            "ADC 6"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO45",
+          "functions": [
+            "IO45",
+            "SPI1 CSn",
+            "ADC 5",
+            "UART0 RX"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO44",
+          "functions": [
+            "IO44",
+            "SPI1 RX",
+            "ADC 4",
+            "UART0 TX"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO43",
+          "functions": [
+            "IO43",
+            "SPI1 TX",
+            "ADC 3"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO39",
+          "functions": [
+            "IO39",
+            "SPI0 TX",
+            "I2C1 SCL"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO38",
+          "functions": [
+            "IO38",
+            "SPI0 SCK",
+            "I2C1 SDA"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO37",
+          "functions": [
+            "IO37",
+            "SPI0 CSn",
+            "I2C0 SCL",
+            "UART1 RX"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Both images carry the same pinout artwork (module silkscreen 'RP2350-Relay-6CH'); each is transcribed separately (rule 11). Labels are the diagram names; module silkscreen names (5V, AV, IO42, TXD...) are listed first in functions, then callouts read outward. Top 8-pad header leader lines checked: GPIO47 goes to the leftmost pad (silkscreen IO47), GPIO46 to the second. Relay terminals are not labeled in the images and are not transcribed."
+}

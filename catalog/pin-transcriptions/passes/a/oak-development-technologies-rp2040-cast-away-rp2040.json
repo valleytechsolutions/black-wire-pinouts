@@ -1,0 +1,171 @@
+{
+  "recordId": "oak-development-technologies-rp2040-cast-away-rp2040",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/c646ff75a6e125ea4bf67cab8960e71dd54c35301acaabc05a87201f4dbabd95.png",
+      "sha256": "c646ff75a6e125ea4bf67cab8960e71dd54c35301acaabc05a87201f4dbabd95"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left castellated pads",
+      "image": "media/c646ff75a6e125ea4bf67cab8960e71dd54c35301acaabc05a87201f4dbabd95.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at the end closest to the USB-C connector (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D0",
+          "functions": [
+            "0",
+            "SDA"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D1",
+          "functions": [
+            "1",
+            "SCL"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "D2",
+          "functions": [
+            "2",
+            "SCK"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D3",
+          "functions": [
+            "3",
+            "MOSI"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "D4",
+          "functions": [
+            "4",
+            "MISO"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D5",
+          "functions": [
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right castellated pads",
+      "image": "media/c646ff75a6e125ea4bf67cab8960e71dd54c35301acaabc05a87201f4dbabd95.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at the end closest to the USB-C connector (top).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VUSB",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "D28",
+          "functions": [
+            "A2"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "D27",
+          "functions": [
+            "A1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D26",
+          "functions": [
+            "A0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-header",
+      "name": "Bottom castellated pads",
+      "image": "media/c646ff75a6e125ea4bf67cab8960e71dd54c35301acaabc05a87201f4dbabd95.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row whose ends are about equally far from the top-centre USB-C connector, so started at the left per the fallback rule.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D12",
+          "functions": [
+            "12"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D13",
+          "functions": [
+            "13"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "D14",
+          "functions": [
+            "14"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D15",
+          "functions": [
+            "15"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "D16",
+          "functions": [
+            "16"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D17",
+          "functions": [
+            "17"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "bottom-header: both ends are roughly equidistant from the centred USB-C connector, so the left-start fallback was used; a USB-nearest reading could start from either end."
+  ],
+  "notes": "OAK CAST-AWAY RP2040 pinout graphic. Right side labels A2/D28 etc.: no GPIO name printed, D-number used as label and A-name as function. Right-side board silkscreen is small and upside down (looks like 5V/GND/3V3/A2/A1/A0) and was not added to functions. Category legend (Digital IO, Analog IO, I2C 0, SPI 0, GND, Power) omitted. BOOT and RESET buttons skipped."
+}

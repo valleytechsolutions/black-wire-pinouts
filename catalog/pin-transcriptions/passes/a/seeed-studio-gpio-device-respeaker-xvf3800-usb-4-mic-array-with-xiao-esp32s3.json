@@ -1,0 +1,222 @@
+{
+  "recordId": "seeed-studio-gpio-device-respeaker-xvf3800-usb-4-mic-array-with-xiao-esp32s3",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/4fc0169086ad6cb9715473df13d84986f65f0d931166109c23609a32f1c51f75.jpg",
+      "sha256": "4fc0169086ad6cb9715473df13d84986f65f0d931166109c23609a32f1c51f75"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "xiao-left-pads",
+      "name": "XIAO footprint pads, left column (inset 1)",
+      "image": "media/4fc0169086ad6cb9715473df13d84986f65f0d931166109c23609a32f1c51f75.jpg",
+      "rows": 1,
+      "orderNote": "No pin-1 mark; inset view shows no USB connector, so vertical row read top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "XIAO_D0",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "XIAO_D1",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "XIAO_D2",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "XIAO_D3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "12C_SDA",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "12C_SCL",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "12S_DATA1",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "xiao-right-pads",
+      "name": "XIAO footprint pads, right column (inset 1)",
+      "image": "media/4fc0169086ad6cb9715473df13d84986f65f0d931166109c23609a32f1c51f75.jpg",
+      "rows": 1,
+      "orderNote": "No pin-1 mark; inset view shows no USB connector, so vertical row read top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "MCLK",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "12S_BCLK",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "12S_LRCK",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "12S_DATAQ",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "header-2x10",
+      "name": "2x10 pin header (inset 2)",
+      "image": "media/4fc0169086ad6cb9715473df13d84986f65f0d931166109c23609a32f1c51f75.jpg",
+      "rows": 2,
+      "orderNote": "2xN rule: inset shows no USB and no numbers; start at top, left column taken as outer row (nearer left board edge in overview), alternating rows",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VDDIO",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "X0D39",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "X0D11",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "X1D13",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "X0D10",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "X0D37",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "X0D00",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "X0D38",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "X1D34",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "X1D00",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "X1D22",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "X1D01",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "X1D10",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "X1D11",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "Zero/letter O ambiguity: \"XIAO_D0\", \"X0D39\", \"X0D11\", \"X0D10\", \"X0D37\", \"X0D00\", \"X0D38\", \"X1D00\", \"X1D01\" recorded with digit 0.",
+    "xiao-right-pads position 7 printed as \"12S_DATAQ\"; last character looks like Q but may be a 0/O rendering."
+  ],
+  "uncertain": [
+    "2x10 header: which column counts as the outer (board-edge) row is an interpretation; the inset shows no board edge.",
+    "Labels \"12C_SDA\", \"12C_SCL\", \"12S_*\" copied as printed with a leading \"1\" (likely I2C/I2S typo); \"12S_DATAQ\" possibly DATA0.",
+    "Only the two magnified insets are labeled; other headers/pads visible in the overview photo are not legible and were not transcribed.",
+    "Board identity: image shows the array board with empty XIAO footprint pads and no XIAO ESP32S3 mounted; same image is used for the plain XVF3800 array record. XIAO module pins are not shown."
+  ],
+  "notes": "Image shows the round reSpeaker array board with two magnified insets (XIAO pad footprint and a 2x10 header). No XIAO ESP32S3 module visible."
+}

@@ -1,0 +1,345 @@
+{
+  "recordId": "adafruit-esp32-feather-esp32-v2",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/238ad86aac28745ab6a4d38672e61fcb94a2e23567d26093be35f94506fdc726.png",
+      "sha256": "238ad86aac28745ab6a4d38672e61fcb94a2e23567d26093be35f94506fdc726"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/238ad86aac28745ab6a4d38672e61fcb94a2e23567d26093be35f94506fdc726.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO26",
+          "functions": [
+            "A0",
+            "ADC2_CH9",
+            "RTC7",
+            "DAC2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO25",
+          "functions": [
+            "A1",
+            "ADC2_CH8",
+            "RTC6",
+            "DAC1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO34",
+          "functions": [
+            "A2",
+            "ADC1_CH6",
+            "RTC4",
+            "VDET1",
+            "Input Only"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO39",
+          "functions": [
+            "A3",
+            "ADC1_CH3",
+            "RTC3",
+            "SENSE_V-",
+            "Input Only"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO36",
+          "functions": [
+            "A4",
+            "ADC1_CH0",
+            "RTC0",
+            "SENSE_V+",
+            "Input Only"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO4",
+          "functions": [
+            "A5",
+            "ADC2_CH0",
+            "HSPIHD",
+            "HS2_DATA1",
+            "T0",
+            "RTC10"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO5",
+          "functions": [
+            "SCK",
+            "VSPICS0",
+            "HS1_DATA6"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO19",
+          "functions": [
+            "MOSI",
+            "VSPIQ",
+            "U0CTS"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO21",
+          "functions": [
+            "MISO",
+            "VSPIHD"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPIO7",
+          "functions": [
+            "RX",
+            "SPIQ",
+            "HS1_DATA0",
+            "U2RTS"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPIO8",
+          "functions": [
+            "TX",
+            "SPID",
+            "HS1_DATA1",
+            "U2CTS"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPIO37",
+          "functions": [
+            "D37",
+            "ADC1_CH1",
+            "RTC1",
+            "SENSE_CAP+",
+            "Input Only"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/238ad86aac28745ab6a4d38672e61fcb94a2e23567d26093be35f94506fdc726.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row, started at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "VBUS",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO13",
+          "functions": [
+            "LED",
+            "ADC2_CH4",
+            "HSPID",
+            "HS2_DATA3",
+            "T4",
+            "RTC14",
+            "MTCK"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO12",
+          "functions": [
+            "D12",
+            "ADC2_CH5",
+            "HSPIQ",
+            "HS2_DATA2",
+            "T5",
+            "RTC15",
+            "MTDI"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO27",
+          "functions": [
+            "D27",
+            "ADC2_CH7",
+            "T7",
+            "RTC17"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO33",
+          "functions": [
+            "D33",
+            "ADC1_CH5",
+            "T8",
+            "RTC8",
+            "32K_XN"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO15",
+          "functions": [
+            "D15",
+            "ADC2_CH3",
+            "HSPICS0",
+            "HS2_CMD",
+            "T3",
+            "RTC13",
+            "MTDO"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO32",
+          "functions": [
+            "D32",
+            "ADC1_CH4",
+            "T9",
+            "RTC9",
+            "32K_XP"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO14",
+          "functions": [
+            "D14",
+            "ADC2_CH6",
+            "HSPICLK",
+            "HS2_CLK",
+            "T6",
+            "RTC16",
+            "MTMS"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO20",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO22",
+          "functions": [
+            "SDA",
+            "VSPIWP",
+            "U0RTS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "i2c-port",
+      "name": "I2C (STEMMA QT style) connector",
+      "image": "media/238ad86aac28745ab6a4d38672e61fcb94a2e23567d26093be35f94506fdc726.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; on-board connector dots form a horizontal row (black, red, blue, yellow) with no end nearer USB; started at left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "V_NEOI2C",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO22",
+          "functions": [
+            "SDA",
+            "VSPIWP",
+            "U0RTS"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO20",
+          "functions": [
+            "SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "battery-jst",
+      "name": "Battery JST connector",
+      "image": "media/238ad86aac28745ab6a4d38672e61fcb94a2e23567d26093be35f94506fdc726.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; pins stacked vertically, started at the top (closest to USB)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "VBAT",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Left-header position 3 has no diagram label; the board-render silkscreen beside it reads NC, used as label. Labels use GPIO names with the CircuitPython name first in functions. Underscores in names such as SENSE_V-, 32K_XN and V_NEOI2C are partly hidden by box edges and rendered as underscores like the visible ones (ADC2_CH9). VOLTAGE_MONITOR (GPIO35), BUTTON, NEOPIXEL and NEOPIXEL_I2C_POWER have no pad and were skipped."
+}

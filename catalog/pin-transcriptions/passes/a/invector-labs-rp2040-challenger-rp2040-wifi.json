@@ -1,0 +1,272 @@
+{
+  "recordId": "invector-labs-rp2040-challenger-rp2040-wifi",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/1e8f61f2a9db33c399ee734fa53d0d9daf6a2934cd0045b3eba79fe42cbe962c.png",
+      "sha256": "1e8f61f2a9db33c399ee734fa53d0d9daf6a2934cd0045b3eba79fe42cbe962c"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/1e8f61f2a9db33c399ee734fa53d0d9daf6a2934cd0045b3eba79fe42cbe962c.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; USB-C at top, so position 1 is the top (USB-nearest) end.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RESET",
+          "functions": [
+            "RST"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "+3.3V",
+          "functions": [
+            "3V"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "ARef",
+          "functions": [
+            "ARf"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "ADC0",
+          "functions": [
+            "A0",
+            "RX1",
+            "SDA1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "ADC1",
+          "functions": [
+            "A1",
+            "TX0",
+            "SCL1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "ADC2",
+          "functions": [
+            "A2",
+            "RTS1",
+            "SDA0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "ADC3",
+          "functions": [
+            "A3",
+            "CTS1",
+            "SCL0"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "IO25",
+          "functions": [
+            "A4",
+            "RX1",
+            "SCL0",
+            "A4*"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "IO21",
+          "functions": [
+            "A5",
+            "CTS1",
+            "SCL0",
+            "A5*"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "IO22",
+          "functions": [
+            "SCK",
+            "SDA1"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "IO23",
+          "functions": [
+            "SDO",
+            "RTS1",
+            "SCL1"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "IO24",
+          "functions": [
+            "SDI",
+            "TX1",
+            "SDA0"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "IO17",
+          "functions": [
+            "RX",
+            "RX0",
+            "SCL0"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "IO16",
+          "functions": [
+            "TX",
+            "TX0",
+            "SDA0"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/1e8f61f2a9db33c399ee734fa53d0d9daf6a2934cd0045b3eba79fe42cbe962c.png",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; USB-C at top, so position 1 is the top (USB-nearest) end.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "EN",
+          "functions": [
+            "En"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "USB",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IO10",
+          "functions": [
+            "13",
+            "CTS1",
+            "D13"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "IO9",
+          "functions": [
+            "12",
+            "RX1",
+            "SCL0",
+            "D12"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "IO8",
+          "functions": [
+            "11~",
+            "TX1",
+            "SDA0",
+            "D11"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "IO7",
+          "functions": [
+            "10~",
+            "RTS1",
+            "SCL1",
+            "D10"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "IO6",
+          "functions": [
+            "9~",
+            "CTS1",
+            "SDA1",
+            "D9"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "IO3",
+          "functions": [
+            "6",
+            "RTS0",
+            "SCL1",
+            "D6"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "IO2",
+          "functions": [
+            "~5",
+            "CTS0",
+            "SDA1",
+            "D5"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "IO1",
+          "functions": [
+            "SCL",
+            "RX0",
+            "SCL0"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "IO0",
+          "functions": [
+            "SDA",
+            "TX0",
+            "SDA0"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Image prints only the ILABS logo, not the product name; identity as Challenger RP2040 WiFi (vs. sibling Challenger variants) is assumed from the record."
+  ],
+  "notes": "Left-column orange 'RP2040 GPIO pins' boxes read ADC0-ADC3 for A0-A3; those are used as labels. Silkscreen spelling (RST, 3V, ARf, A0, 13, 11~ ...) listed first in functions. Legend: '*' = Digital I/O, not Analog inputs on this board (A4*, A5*). Battery JST connector skipped (no individually labeled pins)."
+}

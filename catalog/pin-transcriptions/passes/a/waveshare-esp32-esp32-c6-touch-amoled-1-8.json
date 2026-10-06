@@ -1,0 +1,217 @@
+{
+  "recordId": "waveshare-esp32-esp32-c6-touch-amoled-1-8",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/85897dd9ed1c18f1595593d65634941a8bd183e2bed0ad933c2dc440658dc4b8.jpg",
+      "sha256": "85897dd9ed1c18f1595593d65634941a8bd183e2bed0ad933c2dc440658dc4b8"
+    },
+    {
+      "file": "media/72a2cdbc5cce2c7a572c7e11056b3cfd4334b7a1e7ecb0172a9e1599f3f2ff11.webp",
+      "sha256": "72a2cdbc5cce2c7a572c7e11056b3cfd4334b7a1e7ecb0172a9e1599f3f2ff11"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-pads",
+      "name": "Left edge header pads",
+      "image": "media/85897dd9ed1c18f1595593d65634941a8bd183e2bed0ad933c2dc440658dc4b8.jpg",
+      "rows": 1,
+      "orderNote": "USB-C connector at bottom of image; vertical row ordered from the bottom end, nearest USB (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": [
+            "BAT"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO13",
+          "functions": [
+            "D+",
+            "USB_P"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO12",
+          "functions": [
+            "D-",
+            "USB_N"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO8",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO7",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "RXD",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "TXD",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "VBUS",
+          "functions": [
+            "5V"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pwrok-pads",
+      "name": "GND/PWROK pads",
+      "image": "media/85897dd9ed1c18f1595593d65634941a8bd183e2bed0ad933c2dc440658dc4b8.jpg",
+      "rows": 1,
+      "orderNote": "Horizontal pad pair right of the USB-C connector; ordered from the end nearest USB (left) (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "PWROK",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-pads-img2",
+      "name": "Left edge header pads",
+      "image": "media/72a2cdbc5cce2c7a572c7e11056b3cfd4334b7a1e7ecb0172a9e1599f3f2ff11.webp",
+      "rows": 1,
+      "orderNote": "USB-C connector at bottom of image; vertical row ordered from the bottom end, nearest USB (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": [
+            "BAT"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO13",
+          "functions": [
+            "D+",
+            "USB_P"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO12",
+          "functions": [
+            "D-",
+            "USB_N"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO8",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO7",
+          "functions": [
+            "SCL"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "RXD",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "TXD",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "VBUS",
+          "functions": [
+            "5V"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pwrok-pads-img2",
+      "name": "GND/PWROK pads",
+      "image": "media/72a2cdbc5cce2c7a572c7e11056b3cfd4334b7a1e7ecb0172a9e1599f3f2ff11.webp",
+      "rows": 1,
+      "orderNote": "Horizontal pad pair right of the USB-C connector; ordered from the end nearest USB (left) (rule 4)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "PWROK",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [
+    "Two round pads silkscreened GND and PWROK near the bottom-right corner have no callout in the pinout; included as a labeled pad pair, but they may be test pads rather than wiring points."
+  ],
+  "notes": "Callout names per leader line, silkscreen spellings (5V, BAT, D+, D-, SDA, SCL) put first in functions where different. Callouts USB_P(GPIO13), SCL(GPIO7) etc. recorded with the GPIO name as label. SPK and RTC (+/- only) and BAT connectors skipped (rule 1). Both images show the same view; transcribed separately per rule 11."
+}

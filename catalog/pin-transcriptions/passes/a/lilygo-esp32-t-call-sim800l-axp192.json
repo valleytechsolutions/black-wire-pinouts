@@ -1,0 +1,311 @@
+{
+  "recordId": "lilygo-esp32-t-call-sim800l-axp192",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/395c2f769df18220caefae3d9cf7f0abbcf488fe6c52deef9b940c88c3104fa9.jpg",
+      "sha256": "395c2f769df18220caefae3d9cf7f0abbcf488fe6c52deef9b940c88c3104fa9"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/395c2f769df18220caefae3d9cf7f0abbcf488fe6c52deef9b940c88c3104fa9.jpg",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; USB-C connector at the bottom, so bottom to top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": [
+            "5V-IN"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "CMD",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SD3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SD2",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPI013",
+          "functions": [
+            "13",
+            "ADC14",
+            "TOUCH4"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPI012",
+          "functions": [
+            "12",
+            "ADC15",
+            "TOUCH5"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPI014",
+          "functions": [
+            "14",
+            "ADC16",
+            "TOUCH6"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPI027",
+          "functions": [
+            "27",
+            "ADC17",
+            "TOUCH7"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPI026",
+          "functions": [
+            "26",
+            "ADC19",
+            "DAC2"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPI025",
+          "functions": [
+            "25",
+            "ADC18",
+            "DAC1"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPI033",
+          "functions": [
+            "33",
+            "ADC5",
+            "TOUCH8"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPI032",
+          "functions": [
+            "32",
+            "ADC4",
+            "TOUCH9"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GPI035",
+          "functions": [
+            "35",
+            "ADC7"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "GPI034",
+          "functions": [
+            "34",
+            "ADC6"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GPI039",
+          "functions": [
+            "VN",
+            "SVN",
+            "ADC3"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "GPI036",
+          "functions": [
+            "VP",
+            "SVP",
+            "ADC0"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "EN",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/395c2f769df18220caefae3d9cf7f0abbcf488fe6c52deef9b940c88c3104fa9.jpg",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; USB-C connector at the bottom, so bottom to top",
+      "pins": [
+        {
+          "position": 1,
+          "label": "CLK",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SD0",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SD1",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPI015",
+          "functions": [
+            "15",
+            "ADC13",
+            "TOUCH3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPI002",
+          "functions": [
+            "2",
+            "ADC12",
+            "TOUCH2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPI000",
+          "functions": [
+            "0",
+            "ADC11",
+            "TOUCH1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPI004",
+          "functions": [
+            "4",
+            "ADC10",
+            "TOUCH4"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "5",
+          "functions": [
+            "VSPI_SS"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "18",
+          "functions": [
+            "VSPI_SCK"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "19",
+          "functions": [
+            "VSPI_MIS0"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "21",
+          "functions": [
+            "Wire_SDA"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "G0I003",
+          "functions": [
+            "RX",
+            "RXD",
+            "Serial RX"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "G0I001",
+          "functions": [
+            "TX",
+            "TXD",
+            "Serial TX"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "22",
+          "functions": [
+            "Wire_SCL"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "23",
+          "functions": [
+            "VSPI_M0SI"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "The italic label font does not distinguish letter O from digit 0; per rule 5 every ambiguous O/0 is written as 0 (e.g. 'GPI036' for the printed GPIO-style name, 'G0I001'/'G0I003' for the printed TXD/RXD GPIO names, which appear to read G-O-I-O-0-1 with no P, 'SD0', 'VSPI_MIS0', 'VSPI_M0SI', 'ADC0', 'ADC10')."
+  ],
+  "uncertain": [],
+  "notes": "Image 'ESP32 SIM Card SIM800L T-Call&PMU' shows the T-Call board with AXP192. The grey 'Name' boxes are board names; pink GPIO boxes used as labels. Silkscreen spellings (VP, VN, TX, RX, 5V-IN) put first in functions. Not transcribed: SIM800L-to-ESP32 table (TX 26, RX 27, PWKEY 4, RST 5, POWER 23) and AXP192 table (SDA 21, SCL 22, IRQ 35, DTR 32, RI 33, LED 13), which are internal connections, not wiring points."
+}

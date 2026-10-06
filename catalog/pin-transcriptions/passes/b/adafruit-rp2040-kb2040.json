@@ -1,0 +1,317 @@
+{
+  "recordId": "adafruit-rp2040-kb2040",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/bbc05ed4cbc3f0527c631ade6b8ce052380dfc73ff112e8ba4577bde2eb034e2.png",
+      "sha256": "bbc05ed4cbc3f0527c631ade6b8ce052380dfc73ff112e8ba4577bde2eb034e2"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/bbc05ed4cbc3f0527c631ade6b8ce052380dfc73ff112e8ba4577bde2eb034e2.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row starting at the top end, closest to the USB connector",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D+",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GPIO0",
+          "functions": [
+            "D0",
+            "RX0",
+            "TX0",
+            "SDA0",
+            "PWM0A"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO1",
+          "functions": [
+            "D1",
+            "CSn0",
+            "RX0",
+            "SCL0",
+            "PWM0B"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GPIO2",
+          "functions": [
+            "D2",
+            "SCK0",
+            "CTS0",
+            "SDA1",
+            "PWM1A"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO3",
+          "functions": [
+            "D3",
+            "TX0",
+            "RTS0",
+            "SCL1",
+            "PWM1B"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO4",
+          "functions": [
+            "D4",
+            "RX0",
+            "TX1",
+            "SDA0",
+            "PWM2A"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO5",
+          "functions": [
+            "D5",
+            "CSn0",
+            "RX1",
+            "SCL0",
+            "PWM2B"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO6",
+          "functions": [
+            "D6",
+            "SCK0",
+            "CTS1",
+            "SDA1",
+            "PWM3A"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO7",
+          "functions": [
+            "D7",
+            "TX0",
+            "RTS1",
+            "SCL1",
+            "PWM3B"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO8",
+          "functions": [
+            "D8",
+            "RX1",
+            "TX1",
+            "SDA0",
+            "PWM4A"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO9",
+          "functions": [
+            "D9",
+            "CSn1",
+            "RX1",
+            "SCL0",
+            "PWM4B"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/bbc05ed4cbc3f0527c631ade6b8ce052380dfc73ff112e8ba4577bde2eb034e2.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row starting at the top end, closest to the USB connector",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D-",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "RAW",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GPIO29",
+          "functions": [
+            "A3",
+            "CSn1",
+            "RX0",
+            "SCL0",
+            "PWM6B",
+            "ADC3"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO28",
+          "functions": [
+            "A2",
+            "RX1",
+            "TX0",
+            "SDA0",
+            "PWM6A",
+            "ADC2"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO27",
+          "functions": [
+            "A1",
+            "TX1",
+            "RTS1",
+            "SCL1",
+            "PWM5B",
+            "ADC1"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO26",
+          "functions": [
+            "A0",
+            "SCK1",
+            "CTS1",
+            "SDA1",
+            "PWM5A",
+            "ADC0"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO18",
+          "functions": [
+            "SCK",
+            "SCK0",
+            "CTS0",
+            "SDA1",
+            "PWM1A"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO20",
+          "functions": [
+            "MISO",
+            "RX0",
+            "TX1",
+            "SDA0",
+            "PWM2A"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO19",
+          "functions": [
+            "MOSI",
+            "TX0",
+            "RTS0",
+            "SCL1",
+            "PWM1B"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO10",
+          "functions": [
+            "D10",
+            "SCK1",
+            "CTS1",
+            "SDA1",
+            "PWM5A"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stemma-qt",
+      "name": "STEMMA QT connector",
+      "image": "media/bbc05ed4cbc3f0527c631ade6b8ce052380dfc73ff112e8ba4577bde2eb034e2.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal connector at bottom, both ends equidistant from USB, so started at the left as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO12",
+          "functions": [
+            "SDA",
+            "RX1",
+            "TX0",
+            "SDA0",
+            "PWM6A"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO13",
+          "functions": [
+            "SCL",
+            "CSn1",
+            "RX0",
+            "SCL0",
+            "PWM6B"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Labels use GPIO names from the diagram callouts with the CircuitPython name first in functions. BUTTON (GPIO11) and NEOPIXEL (GPIO17) are internal and skipped. STEMMA QT connector included because its four pins are individually labeled."
+}

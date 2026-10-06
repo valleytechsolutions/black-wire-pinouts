@@ -1,0 +1,291 @@
+{
+  "recordId": "lilygo-esp32-t-display-c5",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/b9385344f035f033105c83125322f501515de37c8e9427e861281c669382ad10.jpg",
+      "sha256": "b9385344f035f033105c83125322f501515de37c8e9427e861281c669382ad10"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/b9385344f035f033105c83125322f501515de37c8e9427e861281c669382ad10.jpg",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB-C receptacle visible at the bottom edge, so vertical row ordered from the bottom (USB end)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO27",
+          "functions": [
+            "27"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO25",
+          "functions": [
+            "25"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO09",
+          "functions": [
+            "09",
+            "SDIO-CLK"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO08",
+          "functions": [
+            "08",
+            "SDIO-D0"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO07",
+          "functions": [
+            "07",
+            "SDIO-D1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO01",
+          "functions": [
+            "01",
+            "ADC1_CH0"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO00",
+          "functions": [
+            "00"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO03",
+          "functions": [
+            "03",
+            "ADC1_CH2",
+            "MTDI"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO02",
+          "functions": [
+            "02",
+            "ADC1_CH1",
+            "MTMS"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/b9385344f035f033105c83125322f501515de37c8e9427e861281c669382ad10.jpg",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; USB-C receptacle visible at the bottom edge, so vertical row ordered from the bottom (USB end)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GPIO23",
+          "functions": [
+            "23"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO10",
+          "functions": [
+            "10",
+            "SDIO-CMD"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO06",
+          "functions": [
+            "06",
+            "ADC1_CH5"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO05",
+          "functions": [
+            "05",
+            "ADC1_CH4",
+            "MTDO"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO04",
+          "functions": [
+            "04",
+            "ADC1_CH3",
+            "MTCK"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "RXD",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "TXD",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "uart-jst",
+      "name": "Bottom-left 4-pin JST (UART)",
+      "image": "media/b9385344f035f033105c83125322f501515de37c8e9427e861281c669382ad10.jpg",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; horizontal row ordered from the end nearest the USB-C receptacle (right end, RXD)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RX",
+          "functions": [
+            "RXD",
+            "(24)"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "TX",
+          "functions": [
+            "TXD",
+            "(25)"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "qwiic",
+      "name": "Qwiic JST SH 4-Pin (bottom-right; numbered in QWIIC inset)",
+      "image": "media/b9385344f035f033105c83125322f501515de37c8e9427e861281c669382ad10.jpg",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 1-4 in the QWIIC inset followed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "+3V3 |OUT",
+          "functions": [
+            "3V3"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO02",
+          "functions": [
+            "SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO03",
+          "functions": [
+            "SCL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mosi-sck-pads",
+      "name": "2-hole MOSI/SCK pads below the module",
+      "image": "media/b9385344f035f033105c83125322f501515de37c8e9427e861281c669382ad10.jpg",
+      "rows": 1,
+      "orderNote": "No printed pin numbers; horizontal pair ordered from the left (MOSI is also the hole nearer the USB-C receptacle)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "MOSI",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SCK",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Header callouts: dark boxes carry the silkscreen-style GPIO numbers (recorded first in functions), pink boxes the GPIO names (labels). UART JST: callout text 'GND 3V TX RX' with '(25)(24)' under TX and RX used as labels; board silkscreen GND/3V3/TXD/RXD recorded in functions. Qwiic labels from the inset (GPIO02/SDA, GPIO03/SCL); board silkscreen GND 3V3 SDA SCL. Battery JST-GH (only +/- marks), IPEX antenna, BOOT/IO00/Reset buttons skipped. LCD and BMU signal lists are not physical connectors.",
+  "uncertain": [
+    "USB connector identity: the metal receptacle at the bottom edge (under the battery JST) is unlabeled; it was treated as the USB connector, which sets bottom-first order for both headers and right-end-first order for the UART JST. If not USB, the headers would start at the top.",
+    "uart-jst: the callout text 'GND 3V TX RX' and '(25)(24)' sits beside the connector rather than on leader lines; mapping each word to a pin in order (and (25) to TX, (24) to RX) is inferred."
+  ]
+}

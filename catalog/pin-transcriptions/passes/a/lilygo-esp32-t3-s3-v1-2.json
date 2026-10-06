@@ -1,0 +1,281 @@
+{
+  "recordId": "lilygo-esp32-t3-s3-v1-2",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/3baf0077e6ce92db11819ade8e1d9cf85b5d9ad1418ed8eb6c4e71b9a9b81beb.jpg",
+      "sha256": "3baf0077e6ce92db11819ade8e1d9cf85b5d9ad1418ed8eb6c4e71b9a9b81beb"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/3baf0077e6ce92db11819ade8e1d9cf85b5d9ad1418ed8eb6c4e71b9a9b81beb.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; started at end closest to the USB-C connector (bottom).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GPIO37",
+          "functions": [
+            "37",
+            "FSPI_Q"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GPIO36",
+          "functions": [
+            "36",
+            "FSPI_CLK"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "GPIO00",
+          "functions": [
+            "00"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GPIO35",
+          "functions": [
+            "35",
+            "FSPI_D"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GPIO34",
+          "functions": [
+            "34",
+            "FSPI_CS0"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO33",
+          "functions": [
+            "33",
+            "FSPI_HD"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO47",
+          "functions": [
+            "47"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO48",
+          "functions": [
+            "48"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO12",
+          "functions": [
+            "12",
+            "TOUCH12",
+            "FSPI_CLK",
+            "ADC2_CH1"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO08",
+          "functions": [
+            "08"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GPIO15",
+          "functions": [
+            "15",
+            "U0RTS",
+            "ADC2_CH4"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO16",
+          "functions": [
+            "16",
+            "U0CTS",
+            "ADC2_CH5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/3baf0077e6ce92db11819ade8e1d9cf85b5d9ad1418ed8eb6c4e71b9a9b81beb.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers printed; started at end closest to the USB-C connector (bottom).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO42",
+          "functions": [
+            "42"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GPIO46",
+          "functions": [
+            "46"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "GPIO45",
+          "functions": [
+            "45"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO41",
+          "functions": [
+            "41"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GPIO40",
+          "functions": [
+            "40",
+            "CLK_OUT3"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GPIO39",
+          "functions": [
+            "39",
+            "CLK_OUT2"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO44",
+          "functions": [
+            "RXD",
+            "CLK_OUT2"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GPIO43",
+          "functions": [
+            "TXD",
+            "CLK_OUT1"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "GPIO38",
+          "functions": [
+            "38"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jst-left",
+      "name": "Bottom-left 4-pin JST connector",
+      "image": "media/3baf0077e6ce92db11819ade8e1d9cf85b5d9ad1418ed8eb6c4e71b9a9b81beb.jpg",
+      "rows": 1,
+      "orderNote": "Horizontal connector, no pin numbers; started at end closest to the USB-C connector (right end). Labels from board silkscreen.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO21",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IO10",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "jst-right",
+      "name": "Bottom-middle 4-pin JST connector",
+      "image": "media/3baf0077e6ce92db11819ade8e1d9cf85b5d9ad1418ed8eb6c4e71b9a9b81beb.jpg",
+      "rows": 1,
+      "orderNote": "Horizontal connector, no pin numbers; started at end closest to the USB-C connector (right end). Labels from board silkscreen.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO44",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IO43",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Header functions are the callout labels read outward from each pin (gray number box first); the board's own IOxx silkscreen matches the callouts and is not repeated. Battery connector skipped (battery-only). OLED (SDA 18/SCL 17) and TF card assignments are on-board, not wiring points. Image note: for SX1262/76/78/80 versions, to use QWIIC GPIO 10 and 21, remove two resistors."
+}

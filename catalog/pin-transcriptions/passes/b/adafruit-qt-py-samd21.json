@@ -1,0 +1,247 @@
+{
+  "recordId": "adafruit-qt-py-samd21",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/8032f04e5a7218903e0692af9f5c4164b833aaf6e9908be03af3e987f7d28031.png",
+      "sha256": "8032f04e5a7218903e0692af9f5c4164b833aaf6e9908be03af3e987f7d28031"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left castellated pads",
+      "image": "media/8032f04e5a7218903e0692af9f5c4164b833aaf6e9908be03af3e987f7d28031.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PA02",
+          "functions": [
+            "A0",
+            "0/A0",
+            "2",
+            "VOUT",
+            "AIN0",
+            "Y0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PA03",
+          "functions": [
+            "A1",
+            "1/A1",
+            "3",
+            "VREFA",
+            "AIN1",
+            "Y1"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA04",
+          "functions": [
+            "A2",
+            "2/A2",
+            "4",
+            "VREFB",
+            "AIN4",
+            "Y2",
+            "S0.0",
+            "TCC0[0]"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA05",
+          "functions": [
+            "A3",
+            "3/A3",
+            "5",
+            "AIN5",
+            "Y3",
+            "S0.1",
+            "TCC0[1]"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PA16",
+          "functions": [
+            "SDA",
+            "4",
+            "0",
+            "S1.0",
+            "S3.0",
+            "TCC2[0]",
+            "TCC0[6]"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA17",
+          "functions": [
+            "SCL",
+            "5",
+            "1",
+            "S1.1",
+            "S3.1",
+            "TCC2[1]",
+            "TCC0[7]"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PA06",
+          "functions": [
+            "TX",
+            "6/A6",
+            "6",
+            "AIN6",
+            "Y4",
+            "S0.2",
+            "TCC1[0]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right castellated pads",
+      "image": "media/8032f04e5a7218903e0692af9f5c4164b833aaf6e9908be03af3e987f7d28031.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at end closest to USB connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3.3V",
+          "functions": [
+            "3V"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA10",
+          "functions": [
+            "MO",
+            "MOSI",
+            "10/A10",
+            "10",
+            "AIN18",
+            "S0.2",
+            "S2.2",
+            "TCC1[0]",
+            "TCC0[2]",
+            "I2S/SCK0"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PA09",
+          "functions": [
+            "MI",
+            "MISO",
+            "9/A9",
+            "9",
+            "AIN17",
+            "S0.1",
+            "S2.0",
+            "TCC0[1]",
+            "TCC1[3]",
+            "I2S/MCK0"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA11",
+          "functions": [
+            "SCK",
+            "8/A8",
+            "11",
+            "AIN19",
+            "S0.3",
+            "S2.3",
+            "TCC1[1]",
+            "TCC0[3]",
+            "I2S/FS0"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PA07",
+          "functions": [
+            "RX",
+            "7/A7",
+            "7",
+            "AIN7",
+            "Y5",
+            "S0.3",
+            "TCC1[1]",
+            "I2S/SD0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stemma-qt",
+      "name": "Bottom JST (STEMMA QT) connector",
+      "image": "media/8032f04e5a7218903e0692af9f5c4164b833aaf6e9908be03af3e987f7d28031.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal row with USB connector at the opposite edge (neither end closer), started at left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "PA16",
+          "functions": [
+            "SDA",
+            "4",
+            "0",
+            "S1.0",
+            "S3.0",
+            "TCC2[0]",
+            "TCC0[6]"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PA17",
+          "functions": [
+            "SCL",
+            "5",
+            "1",
+            "S1.1",
+            "S3.1",
+            "TCC2[1]",
+            "TCC0[7]"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Board silkscreen spellings that differ from the name boxes (3V, MO, MI) put first in functions. NEOPIXEL (PA18) and NEOPIXEL_POWER (PA15) have no physical wiring position; skipped. Reset button skipped."
+}

@@ -1,0 +1,491 @@
+{
+  "recordId": "weact-studio-other-stm32f401ccu6-black-pill",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/817c6fa5dd1a546b5b2272a7fab1a4a32b94b828649f11818877168b3379a390.jpg",
+      "sha256": "817c6fa5dd1a546b5b2272a7fab1a4a32b94b828649f11818877168b3379a390"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left pin row",
+      "image": "media/817c6fa5dd1a546b5b2272a7fab1a4a32b94b828649f11818877168b3379a390.jpg",
+      "rows": 1,
+      "orderNote": "No pin 1 mark (boxed numbers are chip pin numbers); started at the end closest to the USB-C connector (bottom) and read upward",
+      "pins": [
+        {
+          "position": 1,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "PB10",
+          "functions": [
+            "B10",
+            "21",
+            "SCL2",
+            "SCK2",
+            "T2C3"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PB2",
+          "functions": [
+            "B2",
+            "20",
+            "BOOT1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PB1",
+          "functions": [
+            "B1",
+            "19",
+            "ADC9",
+            "T1C3N",
+            "T3C4"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PB0",
+          "functions": [
+            "B0",
+            "18",
+            "ADC8",
+            "T1C2N",
+            "T3C3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PA7",
+          "functions": [
+            "A7",
+            "17",
+            "ADC7",
+            "MOSI1",
+            "T1C1N",
+            "T3C2"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PA6",
+          "functions": [
+            "A6",
+            "16",
+            "ADC6",
+            "MISO1",
+            "T1BKIN",
+            "T3C1"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PA5",
+          "functions": [
+            "A5",
+            "15",
+            "ADC5",
+            "SCK1",
+            "T2ET",
+            "T2C1"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PA4",
+          "functions": [
+            "A4",
+            "14",
+            "ADC4",
+            "NSS1-3",
+            "CK 2"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "PA3",
+          "functions": [
+            "A3",
+            "13",
+            "ADC3",
+            "RXD 2",
+            "T2C4",
+            "T5C4",
+            "T9C2"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "PA2",
+          "functions": [
+            "A2",
+            "12",
+            "ADC2",
+            "TXD 2",
+            "T2C3",
+            "T5C3",
+            "T9C1"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "PA1",
+          "functions": [
+            "A1",
+            "11",
+            "ADC1",
+            "RTS 2",
+            "T2C2",
+            "T5C2"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "PA0",
+          "functions": [
+            "A0",
+            "10",
+            "ADC0",
+            "CTS 2",
+            "WAKE UP",
+            "T2C1",
+            "T2ET",
+            "T5C1"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "RST",
+          "functions": [
+            "R",
+            "7"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "PC15",
+          "functions": [
+            "C15",
+            "4",
+            "OSC32 OUT"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "PC14",
+          "functions": [
+            "C14",
+            "3",
+            "OSC32 IN"
+          ]
+        },
+        {
+          "position": 19,
+          "label": "PC13",
+          "functions": [
+            "C13",
+            "2",
+            "Tamper RTC",
+            "LED"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "VBAT",
+          "functions": [
+            "VB",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right pin row",
+      "image": "media/817c6fa5dd1a546b5b2272a7fab1a4a32b94b828649f11818877168b3379a390.jpg",
+      "rows": 1,
+      "orderNote": "No pin 1 mark (boxed numbers are chip pin numbers); started at the end closest to the USB-C connector (bottom) and read upward",
+      "pins": [
+        {
+          "position": 1,
+          "label": "PB12",
+          "functions": [
+            "B12",
+            "25",
+            "NSS2-4",
+            "SMBA2",
+            "T1BKIN"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "PB13",
+          "functions": [
+            "B13",
+            "26",
+            "SCK2",
+            "T1C1N"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PB14",
+          "functions": [
+            "B14",
+            "27",
+            "MISO2",
+            "EXT SD2",
+            "T1C2N"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "PB15",
+          "functions": [
+            "B15",
+            "28",
+            "MOSI2",
+            "RTC50Hz REFIN",
+            "T1C3N"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "PA8",
+          "functions": [
+            "A8",
+            "29",
+            "CK 1",
+            "SCL3",
+            "USB FSSOF",
+            "T1C1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "PA9",
+          "functions": [
+            "A9",
+            "30",
+            "TXD 1",
+            "SMBA3",
+            "USB OTG FSVbus",
+            "T1C2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "PA10",
+          "functions": [
+            "A10",
+            "31",
+            "RXD 1",
+            "USB FSID",
+            "T1C3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "PA11",
+          "functions": [
+            "A11",
+            "32",
+            "CTS 1",
+            "TXD 6",
+            "USB FSDM -",
+            "T1C4"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "PA12",
+          "functions": [
+            "A12",
+            "33",
+            "RTS 1",
+            "RXD 6",
+            "USB FSDP +",
+            "T1ETR"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "PA15",
+          "functions": [
+            "A15",
+            "38",
+            "NSS1-3",
+            "JTDI",
+            "T2C1",
+            "T2ETR"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "PB3",
+          "functions": [
+            "B3",
+            "39",
+            "SCK1-3",
+            "SDA2",
+            "JTDO",
+            "T2C2"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "PB4",
+          "functions": [
+            "B4",
+            "40",
+            "MISO1-3",
+            "SDA3",
+            "JTRST",
+            "T3C2"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "PB5",
+          "functions": [
+            "B5",
+            "41",
+            "MOSI1-3",
+            "SMBA1",
+            "T3C2"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "PB6",
+          "functions": [
+            "B6",
+            "42",
+            "SCL1",
+            "TXD 1",
+            "T4C1"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "PB7",
+          "functions": [
+            "B7",
+            "43",
+            "SDA1",
+            "RXD 1",
+            "T4C2"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "PB8",
+          "functions": [
+            "B8",
+            "45",
+            "SCL1-3",
+            "T4T3",
+            "T10C1"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "PB9",
+          "functions": [
+            "B9",
+            "46",
+            "SDA1-2",
+            "NSS2",
+            "T4C4",
+            "T11C1"
+          ]
+        },
+        {
+          "position": 18,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GND",
+          "functions": [
+            "G"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "swd-header",
+      "name": "4-pin SWD header (top edge, silkscreen SW)",
+      "image": "media/817c6fa5dd1a546b5b2272a7fab1a4a32b94b828649f11818877168b3379a390.jpg",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; horizontal row at the top edge, roughly equidistant from the USB-C connector, read left to right as displayed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "PA14",
+          "functions": [
+            "SCK",
+            "37",
+            "JTCK",
+            "SWCLT"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "PA13",
+          "functions": [
+            "DIO",
+            "34",
+            "JTMS",
+            "SWDIO"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "Left-row silkscreen beside the 3V3 pin is rotated and unclear (looks like 3V3/V3V); not recorded as a separate spelling."
+  ],
+  "uncertain": [
+    "SWD header start end: both ends are about equally far from the bottom-centre USB-C connector; read left to right (GND first). Starting from the right would reverse it."
+  ],
+  "notes": "Boxed numbers next to pins (1, 2, 10, 46...) listed after the board silkscreen in functions. Subscripts flattened: USB FS(DP) +, USB FS(DM) -, USB FS(ID), USB OTG FS(Vbus), USB FS(SOF), RTC(50Hz REFIN) written without separator. Bottom caption 7 RST / USB-C / BOOT0 44 refers to buttons and was skipped."
+}

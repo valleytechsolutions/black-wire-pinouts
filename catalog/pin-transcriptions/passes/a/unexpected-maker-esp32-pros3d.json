@@ -1,0 +1,398 @@
+{
+  "recordId": "unexpected-maker-esp32-pros3d",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/a00baa2e309aaeaf29f385aa686c65f435a3acafd69c72ce76778fd4524e1029.jpg",
+      "sha256": "a00baa2e309aaeaf29f385aa686c65f435a3acafd69c72ce76778fd4524e1029"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/a00baa2e309aaeaf29f385aa686c65f435a3acafd69c72ce76778fd4524e1029.jpg",
+      "rows": 1,
+      "orderNote": "No header position numbers (silkscreen numbers are GPIO numbers, kept as functions); started at end closest to USB-C connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO35",
+          "functions": [
+            "35",
+            "D35",
+            "SPI M0"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "IO37",
+          "functions": [
+            "37",
+            "D37",
+            "SPI MI"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "IO36",
+          "functions": [
+            "36",
+            "D36",
+            "SPI SCK"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "IO34",
+          "functions": [
+            "34",
+            "D34"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "IO9",
+          "functions": [
+            "9",
+            "D9",
+            "A8",
+            "SCL",
+            "TCH9",
+            "ADC1 CH8",
+            "RTC-IO9"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "IO8",
+          "functions": [
+            "8",
+            "D8",
+            "A7",
+            "SDA",
+            "TCH8",
+            "ADC1 CH7",
+            "RTC-IO8"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "IO7",
+          "functions": [
+            "7",
+            "D7",
+            "A6",
+            "TCH7",
+            "ADC1 CH6",
+            "RTC-IO7"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "IO6",
+          "functions": [
+            "6",
+            "D6",
+            "A5",
+            "TCH6",
+            "ADC1 CH5",
+            "RTC-IO6"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "RESET",
+          "functions": [
+            "RST"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "IO43",
+          "functions": [
+            "TX",
+            "D43"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "IO44",
+          "functions": [
+            "RX",
+            "D44"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "IO38",
+          "functions": [
+            "38",
+            "D38"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "IO39",
+          "functions": [
+            "39",
+            "D39",
+            "MTCK"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "IO40",
+          "functions": [
+            "40",
+            "D40",
+            "MTD0"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "IO41",
+          "functions": [
+            "41",
+            "D41",
+            "MTDI"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "IO42",
+          "functions": [
+            "42",
+            "D42",
+            "MTMS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/a00baa2e309aaeaf29f385aa686c65f435a3acafd69c72ce76778fd4524e1029.jpg",
+      "rows": 1,
+      "orderNote": "No header position numbers (silkscreen numbers are GPIO numbers, kept as functions); started at end closest to USB-C connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": [
+            "BAT",
+            "1S LiPo MAX 4.2V"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "5V",
+          "functions": [
+            "MAX 5V IN",
+            "IN / OUT"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": [
+            "3V3.1",
+            "MAX 3V3 IN",
+            "IN / OUT"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "IO1",
+          "functions": [
+            "1",
+            "D1",
+            "A0",
+            "TCH1",
+            "ADC1 CH0",
+            "RTC-IO1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "IO2",
+          "functions": [
+            "2",
+            "D2",
+            "A1",
+            "TCH2",
+            "ADC1 CH1",
+            "RTC-IO2"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "IO3",
+          "functions": [
+            "3",
+            "D3",
+            "A2",
+            "TCH3",
+            "ADC1 CH2",
+            "RTC-IO3"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "IO4",
+          "functions": [
+            "4",
+            "D4",
+            "A3",
+            "TCH4",
+            "ADC1 CH3",
+            "RTC-IO4"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "IO5",
+          "functions": [
+            "5",
+            "D5",
+            "A4",
+            "TCH5",
+            "ADC1 CH4",
+            "RTC-IO5"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "IO21",
+          "functions": [
+            "21",
+            "D21",
+            "RTC-IO21"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "IO0",
+          "functions": [
+            "0",
+            "D0",
+            "RTC-IO0"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "3V3",
+          "functions": [
+            "3V3.2",
+            "LD02",
+            "OUT ONLY"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "IO16",
+          "functions": [
+            "16",
+            "D16",
+            "A15",
+            "ADC2 CH5",
+            "RTC-IO16"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "IO15",
+          "functions": [
+            "15",
+            "D15",
+            "A14",
+            "ADC2 CH4",
+            "RTC-IO15"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "IO14",
+          "functions": [
+            "14",
+            "D14",
+            "A13",
+            "TCH14",
+            "ADC2 CH3",
+            "RTC-IO14"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "IO13",
+          "functions": [
+            "13",
+            "D13",
+            "A12",
+            "TCH13",
+            "ADC2 CH2",
+            "RTC-IO13"
+          ]
+        },
+        {
+          "position": 17,
+          "label": "IO12",
+          "functions": [
+            "12",
+            "D12",
+            "A11",
+            "TCH12",
+            "ADC2 CH1",
+            "RTC-IO12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "i2c-connector",
+      "name": "I2C connector",
+      "image": "media/a00baa2e309aaeaf29f385aa686c65f435a3acafd69c72ce76778fd4524e1029.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at end closest to USB-C connector (top)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "Font does not distinguish O from 0: 'SPI MO' (left pos 1), 'MTDO' (left pos 15), 'LDO2' (right pos 12) and 'CH0' (right pos 5) recorded with 0 per rule 5"
+  ],
+  "uncertain": [],
+  "notes": "GND pins' silkscreen is a filled rectangle with no text. Callouts for on-board signals (DETECT 5V PRESENT IO33, MAX17048G fuel gauge IO9/IO8/IO10, RGB LED DATA IO18, LDO2 PWR EN IO17, u.FL HIGH/LOW IO11) have no pin positions and were skipped; VBAT battery JST and u.FL antenna skipped."
+}

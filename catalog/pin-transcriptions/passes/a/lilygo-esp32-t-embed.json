@@ -1,0 +1,123 @@
+{
+  "recordId": "lilygo-esp32-t-embed",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/74fee999f1ecde1d5164cfb8885932411e8a6f825148dd87f45d134170a16dd9.jpg",
+      "sha256": "74fee999f1ecde1d5164cfb8885932411e8a6f825148dd87f45d134170a16dd9"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "iic-uart",
+      "name": "IIC/UART JST connector",
+      "image": "media/74fee999f1ecde1d5164cfb8885932411e8a6f825148dd87f45d134170a16dd9.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; horizontal connector, started at the end closest to the USB Type-C connector (right end, IO43) and went left.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO43",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IO44",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "idc-2x4",
+      "name": "IDC 2x4 header",
+      "image": "media/74fee999f1ecde1d5164cfb8885932411e8a6f825148dd87f45d134170a16dd9.jpg",
+      "rows": 2,
+      "orderNote": "Silkscreen beside the header prints pin numbers 1, 2, 7, 8 with a pin table (1 SCL, 2 SDA, IO17/IO16, GND/GND, 7 GND, 8 3V3); followed that numbering (odd = lower row SCL/IO17/GND/GND, even = upper row SDA/IO16/GND/3V3), consistent with the callout rows and the square pad at lower-left.",
+      "pins": [
+        {
+          "position": 1,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO17",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IO16",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "3V3",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "idc-extra-holes",
+      "name": "Extra holes right of the IDC 2x4 header",
+      "image": "media/74fee999f1ecde1d5164cfb8885932411e8a6f825148dd87f45d134170a16dd9.jpg",
+      "rows": 1,
+      "orderNote": "Not numbered; ordered upper-row hole first, then lower-row holes left to right (top/left rule).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO40",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "IO38",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "IO41",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "IO0x/IO4x names: O vs 0 not distinguishable; 0 used."
+  ],
+  "uncertain": [
+    "IDC area: the photo shows 5 upper-row and 6 lower-row holes and the callout lists 5 upper (SDA IO16 GND 3V3 IO40) and 6 lower (SCL IO17 GND GND IO38 IO41) names, while the text says \"IDC 2x4\" and the silkscreen table covers only 8 pins. The 8 numbered pins were kept as idc-2x4; IO40 (upper 5th), IO38 (lower 5th), IO41 (lower 6th) were mapped to the extra holes by position in the callout and grouped separately - the grouping and whether IO41 belongs to the speaker connector instead are unclear."
+  ],
+  "notes": "Function-only lists (LCD, ES7210, I2S, TF card, encoder, APA102) have no physical positions and were skipped. Speaker JST 1.25 and JST-GH 1.25mm connectors have no individually labeled pins; USB-C and buttons skipped."
+}

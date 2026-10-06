@@ -1,0 +1,482 @@
+{
+  "recordId": "sparkfun-photon-redboard",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/223563f326d839622148b18320d322e85178e844582936bf61bb6bf7a2b4b271.png",
+      "sha256": "223563f326d839622148b18320d322e85178e844582936bf61bb6bf7a2b4b271"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "vbat-header",
+      "name": "VBAT header",
+      "image": "media/223563f326d839622148b18320d322e85178e844582936bf61bb6bf7a2b4b271.png",
+      "rows": 1,
+      "orderNote": "USB nearest end (MicroB USB at top of image): top first",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VBAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "left-power-header",
+      "name": "Left power header",
+      "image": "media/223563f326d839622148b18320d322e85178e844582936bf61bb6bf7a2b4b271.png",
+      "rows": 1,
+      "orderNote": "USB nearest end (MicroB USB at top of image): top first",
+      "pins": [
+        {
+          "position": 1,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RESET",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "V-USB",
+          "functions": [
+            "4.8V"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "VIN",
+          "functions": [
+            "Vin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-analog-header",
+      "name": "Left analog header",
+      "image": "media/223563f326d839622148b18320d322e85178e844582936bf61bb6bf7a2b4b271.png",
+      "rows": 1,
+      "orderNote": "USB nearest end (MicroB USB at top of image): top first",
+      "pins": [
+        {
+          "position": 1,
+          "label": "A0",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "A1",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "A2",
+          "functions": [
+            "SS (SPI1)"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "A3",
+          "functions": [
+            "SCK(SPI1)",
+            "DAC2"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "A4",
+          "functions": [
+            "PWM",
+            "MISO(SPI1)"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "A5",
+          "functions": [
+            "PWM",
+            "MOSI(SPI1)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s-pads",
+      "name": "S1-S6 pads",
+      "image": "media/223563f326d839622148b18320d322e85178e844582936bf61bb6bf7a2b4b271.png",
+      "rows": 1,
+      "orderNote": "USB nearest end (MicroB USB at top of image): top first",
+      "pins": [
+        {
+          "position": 1,
+          "label": "S1",
+          "functions": [
+            "currently not implemented"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "S2",
+          "functions": [
+            "currently not implemented"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "S3",
+          "functions": [
+            "currently not implemented"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "S4",
+          "functions": [
+            "currently not implemented"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "S5",
+          "functions": [
+            "currently not implemented"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "S6",
+          "functions": [
+            "currently not implemented"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-upper-header",
+      "name": "Right upper header",
+      "image": "media/223563f326d839622148b18320d322e85178e844582936bf61bb6bf7a2b4b271.png",
+      "rows": 1,
+      "orderNote": "USB nearest end (MicroB USB at top of image): top first",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D1",
+          "functions": [
+            "SCL/D1",
+            "PWM",
+            "SCL(I2C1)",
+            "CAN TX"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D0",
+          "functions": [
+            "SDA/D0",
+            "PWM",
+            "SDA(I2C1)"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "A3",
+          "functions": [
+            "SCK/A3",
+            "SCK(SPI1)",
+            "DAC2"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "A4",
+          "functions": [
+            "MISO/A4",
+            "PWM",
+            "MISO(SPI1)"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "A5",
+          "functions": [
+            "MOSI/A5",
+            "PWM",
+            "MOSI(SPI1)"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "A2",
+          "functions": [
+            "SS/A2",
+            "SS(SPI1)"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "A7",
+          "functions": [
+            "WKP",
+            "PWM"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "A6",
+          "functions": [
+            "DAC",
+            "DAC1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-lower-header",
+      "name": "Right lower header",
+      "image": "media/223563f326d839622148b18320d322e85178e844582936bf61bb6bf7a2b4b271.png",
+      "rows": 1,
+      "orderNote": "USB nearest end (MicroB USB at top of image): top first",
+      "pins": [
+        {
+          "position": 1,
+          "label": "D7",
+          "functions": [
+            "JTAG TMS"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D6",
+          "functions": [
+            "JTAG TCK",
+            "LED"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "D5",
+          "functions": [
+            "JTAG TDI",
+            "I2S WS",
+            "SS(SPI3)"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D4",
+          "functions": [
+            "JTAG TDO",
+            "I2S SCK",
+            "SCK(SPI3)"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "D3",
+          "functions": [
+            "JTAG TRST",
+            "PWM",
+            "MISO(SPI3)"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D2",
+          "functions": [
+            "I2S SD",
+            "PWM",
+            "MOSI(SPI3)",
+            "CAN RX"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "TX",
+          "functions": [
+            "PWM",
+            "UART1"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "RX",
+          "functions": [
+            "PWM",
+            "UART1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arm-jtag",
+      "name": "ARM JTAG header",
+      "image": "media/223563f326d839622148b18320d322e85178e844582936bf61bb6bf7a2b4b271.png",
+      "rows": 2,
+      "orderNote": "Pin numbers printed (1-20)",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "D3",
+          "functions": [
+            "TRST"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "D5",
+          "functions": [
+            "TDI"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "D7",
+          "functions": [
+            "TMS"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "D6",
+          "functions": [
+            "TCK"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "D4",
+          "functions": [
+            "TDO"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "NC",
+          "functions": []
+        },
+        {
+          "position": 20,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "left-power-header positions 1-2: header holes above RESET with no silkscreen or graphic label (unlabeled)",
+    "right-upper-header position 3: hole between SDA/D0 and GND with no label (unlabeled)",
+    "right-upper-header D0 row: 'SDA/DO' last character O vs 0 not distinguishable; recorded as 0 per rule 5"
+  ],
+  "uncertain": [
+    "left-power-header: the graphic labels only 6 pins; the 2 extra unlabeled positions above RESET are inferred from the header outline length on the board photo",
+    "right-upper-header: one unlabeled position between SDA/D0 and GND inferred from the photo and the blank row in the graphic"
+  ],
+  "notes": "Label = green/blue pin-name box; white 'Name' box (silkscreen spelling) listed first in functions when different. JTAG header numbered 1-20 per printed table; label is the pin name, parenthesised JTAG signal in functions. Barrel jack, USB, buttons and LEDs skipped."
+}

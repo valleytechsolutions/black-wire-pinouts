@@ -1,0 +1,205 @@
+{
+  "recordId": "unexpected-maker-esp32-tinypico",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/03618bb6a5efacbfef5f823139041ec9c3a844e48f39d557e11254dcad39366b.jpg",
+      "sha256": "03618bb6a5efacbfef5f823139041ec9c3a844e48f39d557e11254dcad39366b"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left header",
+      "image": "media/03618bb6a5efacbfef5f823139041ec9c3a844e48f39d557e11254dcad39366b.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at top (end closest to USB-C).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "IO23",
+          "functions": [
+            "23",
+            "MO"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "IO19",
+          "functions": [
+            "19",
+            "MI"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "IO18",
+          "functions": [
+            "18",
+            "SCK"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "IO5",
+          "functions": [
+            "5",
+            "SS"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "IO22",
+          "functions": [
+            "22",
+            "SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "IO21",
+          "functions": [
+            "21",
+            "SDA"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "IO32",
+          "functions": [
+            "32",
+            "TCH 9",
+            "ADC1 CH4",
+            "RTC-IO9"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "IO33",
+          "functions": [
+            "33",
+            "TCH 8",
+            "ADC1 CH5",
+            "RTC-IO8"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "RESET",
+          "functions": [
+            "RST"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right header",
+      "image": "media/03618bb6a5efacbfef5f823139041ec9c3a844e48f39d557e11254dcad39366b.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row started at top (end closest to USB-C).",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BAT",
+          "functions": [
+            "1S LiPo MAX 4.2V"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "5V",
+          "functions": [
+            "MAX 5V IN",
+            "IN / OUT"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": [
+            "MAX 3V3 IN",
+            "IN / OUT"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "IO4",
+          "functions": [
+            "4",
+            "TCH 0",
+            "ADC2 CH0",
+            "RTC-IO10"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "IO14",
+          "functions": [
+            "14",
+            "TCH 6",
+            "ADC2 CH6",
+            "RTC-IO16"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "IO15",
+          "functions": [
+            "15",
+            "TCH 3",
+            "ADC2 CH3",
+            "RTC-IO13"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "IO27",
+          "functions": [
+            "27",
+            "TCH 7",
+            "ADC2 CH7",
+            "RTC-IO17"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "IO26",
+          "functions": [
+            "26",
+            "DAC 2",
+            "ADC2 CH9",
+            "RTC-IO7"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "IO25",
+          "functions": [
+            "25",
+            "DAC 1",
+            "ADC2 CH8",
+            "RTC-IO6"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "TCH 0 / ADC2 CH0: zero vs letter O read as 0."
+  ],
+  "uncertain": [],
+  "notes": "Internal-only signals listed at lower left (APA102 IO2/IO12/IO13, IO9 VBUS detect, IO35/IO34 battery) have no header position and were not transcribed."
+}

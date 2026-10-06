@@ -1,0 +1,529 @@
+{
+  "recordId": "invector-labs-rp2040-challenger-rp2040-lora",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/d1578e7a265942da0793684fd4b563f670a456aa50a811bc238f2288d72c3f1d.png",
+      "sha256": "d1578e7a265942da0793684fd4b563f670a456aa50a811bc238f2288d72c3f1d"
+    },
+    {
+      "file": "media/4de34d6839755f153fd1b2ce2499bee450e008a724f01f4b8f638c0373d79070.jpg",
+      "sha256": "4de34d6839755f153fd1b2ce2499bee450e008a724f01f4b8f638c0373d79070"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left edge header (16 pins)",
+      "image": "media/d1578e7a265942da0793684fd4b563f670a456aa50a811bc238f2288d72c3f1d.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row starts at the top end nearest the USB Type-C connector",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RESET",
+          "functions": [
+            "RST"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "+3.3V",
+          "functions": [
+            "3V"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "ARef",
+          "functions": [
+            "ARf"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "A0",
+          "functions": [
+            "ADC0",
+            "RX1",
+            "SDA1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "A1",
+          "functions": [
+            "ADC1",
+            "TX0",
+            "SCL1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "A2",
+          "functions": [
+            "ADC2",
+            "RTS1",
+            "SDA0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "A3",
+          "functions": [
+            "ADC3",
+            "CTS1",
+            "SCL0"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "IO19",
+          "functions": [
+            "A4",
+            "RTS0",
+            "SCL1",
+            "A4*"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "IO21",
+          "functions": [
+            "A5",
+            "CTS1",
+            "SCL0",
+            "A5*"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "IO22",
+          "functions": [
+            "SCK",
+            "SDA1"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "IO23",
+          "functions": [
+            "SDO",
+            "RTS1",
+            "SCL1"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "IO20",
+          "functions": [
+            "SDI",
+            "TX1",
+            "SDA0"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "IO17",
+          "functions": [
+            "RX",
+            "RX0",
+            "SCL0"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "IO16",
+          "functions": [
+            "TX",
+            "TX0",
+            "SDA0"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right edge header (12 pins)",
+      "image": "media/d1578e7a265942da0793684fd4b563f670a456aa50a811bc238f2288d72c3f1d.png",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row starts at the top end nearest the USB Type-C connector",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "EN",
+          "functions": [
+            "En"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "USB",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IO8",
+          "functions": [
+            "13",
+            "TX1",
+            "SDA0",
+            "D13"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "IO7",
+          "functions": [
+            "12",
+            "RTS1",
+            "SCL1",
+            "D12"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "IO6",
+          "functions": [
+            "11",
+            "CTS1",
+            "SDA1",
+            "D11"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "IO5",
+          "functions": [
+            "10",
+            "RX1",
+            "SCL0",
+            "D10"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "IO4",
+          "functions": [
+            "9",
+            "TX1",
+            "SDA0",
+            "D9"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "IO3",
+          "functions": [
+            "6",
+            "RTS0",
+            "SCL1",
+            "D6"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "IO2",
+          "functions": [
+            "5",
+            "CTS0",
+            "SDA1",
+            "D5"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "IO1",
+          "functions": [
+            "SCL",
+            "RX0",
+            "SCL0"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "IO0",
+          "functions": [
+            "SDA",
+            "TX0",
+            "SDA0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left-header-img2",
+      "name": "Left edge header (16 pins)",
+      "image": "media/4de34d6839755f153fd1b2ce2499bee450e008a724f01f4b8f638c0373d79070.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row starts at the top end nearest the USB Type-C connector",
+      "pins": [
+        {
+          "position": 1,
+          "label": "RESET",
+          "functions": [
+            "RST"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "+3.3V",
+          "functions": [
+            "3V"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "ARef",
+          "functions": [
+            "ARf"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "A0",
+          "functions": [
+            "ADC0",
+            "RX1",
+            "SDA1"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "A1",
+          "functions": [
+            "ADC1",
+            "TX0",
+            "SCL1"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "A2",
+          "functions": [
+            "ADC2",
+            "RTS1",
+            "SDA0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "A3",
+          "functions": [
+            "ADC3",
+            "CTS1",
+            "SCL0"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "IO19",
+          "functions": [
+            "A4",
+            "RTS0",
+            "SCL1",
+            "A4*"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "IO21",
+          "functions": [
+            "A5",
+            "CTS1",
+            "SCL0",
+            "A5*"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "IO22",
+          "functions": [
+            "SCK",
+            "SDA1"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "IO23",
+          "functions": [
+            "SDO",
+            "RTS1",
+            "SCL1"
+          ]
+        },
+        {
+          "position": 13,
+          "label": "IO20",
+          "functions": [
+            "SDI",
+            "TX1",
+            "SDA0"
+          ]
+        },
+        {
+          "position": 14,
+          "label": "IO17",
+          "functions": [
+            "RX",
+            "RX0",
+            "SCL0"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "IO16",
+          "functions": [
+            "TX",
+            "TX0",
+            "SDA0"
+          ]
+        },
+        {
+          "position": 16,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "right-header-img2",
+      "name": "Right edge header (12 pins)",
+      "image": "media/4de34d6839755f153fd1b2ce2499bee450e008a724f01f4b8f638c0373d79070.jpg",
+      "rows": 1,
+      "orderNote": "No pin numbers; vertical row starts at the top end nearest the USB Type-C connector",
+      "pins": [
+        {
+          "position": 1,
+          "label": "BAT",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "EN",
+          "functions": [
+            "En"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "USB",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "IO8",
+          "functions": [
+            "13",
+            "TX1",
+            "SDA0",
+            "D13"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "IO7",
+          "functions": [
+            "12",
+            "RTS1",
+            "SCL1",
+            "D12"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "IO6",
+          "functions": [
+            "11",
+            "CTS1",
+            "SDA1",
+            "D11"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "IO5",
+          "functions": [
+            "10",
+            "RX1",
+            "SCL0",
+            "D10"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "IO4",
+          "functions": [
+            "9",
+            "TX1",
+            "SDA0",
+            "D9"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "IO3",
+          "functions": [
+            "6",
+            "RTS0",
+            "SCL1",
+            "D6"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "IO2",
+          "functions": [
+            "5",
+            "CTS0",
+            "SDA1",
+            "D5"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "IO1",
+          "functions": [
+            "SCL",
+            "RX0",
+            "SCL0"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "IO0",
+          "functions": [
+            "SDA",
+            "TX0",
+            "SDA0"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "uncertain": [],
+  "notes": "Labels: IOxx (RP2040 GPIO column) used where printed; for the A0-A3 rows the GPIO-colour column prints ADC0-ADC3, so the board name A0-A3 is the label with ADCn as a function. Board silkscreen spellings (RST, 3V, ARf, En, 13, SCK, SDO...) listed first in functions when different. Legend: '* = Digital I/O, not Analog inputs on this board' (A4*, A5*). Image 2 is a lower-resolution copy of the same artwork. Skipped USB-C, battery JST, RST/BOOT buttons, CHG/L LEDs and the ANT U.FL connector."
+}

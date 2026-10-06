@@ -1,0 +1,350 @@
+{
+  "recordId": "seeed-studio-other-seeeduino-v2-21",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/715bdfd8cb00e09fad77dd4b5a554a343d0d2029ff205700db5f0759ccc5cb7e.png",
+      "sha256": "715bdfd8cb00e09fad77dd4b5a554a343d0d2029ff205700db5f0759ccc5cb7e"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "top-left-header",
+      "name": "Top header, left (digital 13-8)",
+      "image": "media/715bdfd8cb00e09fad77dd4b5a554a343d0d2029ff205700db5f0759ccc5cb7e.png",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; no connector identifiable as USB (unlabeled jacks on the left edge); horizontal row read left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "AREF",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "13",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "12",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "11",
+          "functions": [
+            "PWM"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "10",
+          "functions": [
+            "PWM"
+          ]
+        },
+        {
+          "position": 7,
+          "label": "9",
+          "functions": [
+            "PWM"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "8",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "top-right-header",
+      "name": "Top header, right (digital 7-0)",
+      "image": "media/715bdfd8cb00e09fad77dd4b5a554a343d0d2029ff205700db5f0759ccc5cb7e.png",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; no connector identifiable as USB (unlabeled jacks on the left edge); horizontal row read left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "7",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "6",
+          "functions": [
+            "PWM"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "5",
+          "functions": [
+            "PWM"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "4",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "3",
+          "functions": [
+            "PWM"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "2",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "1",
+          "functions": [
+            "TX"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "0",
+          "functions": [
+            "RX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uart-header",
+      "name": "Right-side UART header",
+      "image": "media/715bdfd8cb00e09fad77dd4b5a554a343d0d2029ff205700db5f0759ccc5cb7e.png",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; no connector identifiable as USB; vertical row read top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "TX",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RX",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "GND",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "serial-control-header",
+      "name": "2x3 serial control header below UART header",
+      "image": "media/715bdfd8cb00e09fad77dd4b5a554a343d0d2029ff205700db5f0759ccc5cb7e.png",
+      "rows": 2,
+      "orderNote": "No pin numbers; started at the top; position 1 = right column (nearer the right board edge), alternating right/left",
+      "pins": [
+        {
+          "position": 1,
+          "label": "DTR",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "RTS",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "RI",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "DSR",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "DCD",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "CTS",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "i2c-header",
+      "name": "Right-side vertical I2C header above the analog row",
+      "image": "media/715bdfd8cb00e09fad77dd4b5a554a343d0d2029ff205700db5f0759ccc5cb7e.png",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; no connector identifiable as USB; vertical row read top to bottom",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VCC",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "SCL",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "SDA",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "?",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-left-header",
+      "name": "Bottom header, ADC/power",
+      "image": "media/715bdfd8cb00e09fad77dd4b5a554a343d0d2029ff205700db5f0759ccc5cb7e.png",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; no connector identifiable as USB (unlabeled jacks on the left edge); horizontal row read left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "6",
+          "functions": [
+            "ADC"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "7",
+          "functions": [
+            "ADC"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "Vin",
+          "functions": []
+        }
+      ]
+    },
+    {
+      "id": "bottom-right-header",
+      "name": "Bottom header, analog",
+      "image": "media/715bdfd8cb00e09fad77dd4b5a554a343d0d2029ff205700db5f0759ccc5cb7e.png",
+      "rows": 1,
+      "orderNote": "No pin 1 mark; no connector identifiable as USB (unlabeled jacks on the left edge); horizontal row read left to right",
+      "pins": [
+        {
+          "position": 1,
+          "label": "0",
+          "functions": [
+            "ANALOG"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "1",
+          "functions": [
+            "ANALOG"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "2",
+          "functions": [
+            "ANALOG"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "3",
+          "functions": [
+            "ANALOG"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "4",
+          "functions": [
+            "ANALOG"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "5",
+          "functions": [
+            "ANALOG"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "bottom-left-header positions 6 and 7: a single 'GND' label is printed centered between these two pads; which pad (or both) it names cannot be determined, so both recorded as '?'.",
+    "i2c-header positions 5 and 6: the two pads between SDA and the analog row have no own label; a '3' printed beside position 5 appears to be the displaced ANALOG 3 label, so both recorded as '?' (unlabeled)."
+  ],
+  "uncertain": [
+    "Drawing is labeled only 'Seeeduino' with no version or MCU marking; it cannot confirm the V2.21 variant. The same image file is used for three Seeeduino records.",
+    "Grouping: the UART column (VCC/TX/RX/GND) continues physically into the right column of the 2x3 DTR/RI/DCD + RTS/DSR/CTS block; split into a 1x4 and a 2x3 connector by label grouping.",
+    "The i2c-header column physically joins the analog row at analog pad 3; its pad count and the '3' label placement are ambiguous.",
+    "Group headings: 'ADC' and 'ANALOG' recorded as functions on their pins; 'DIGITAL' and 'POWER' headings omitted as category text."
+  ],
+  "notes": "Unlabeled 2x3 header right of the serial control block and a 2-pin jumper near the top were skipped (no labels). PWM marks printed under pins 11, 10, 9, 6, 5, 3."
+}

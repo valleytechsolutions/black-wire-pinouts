@@ -1,0 +1,228 @@
+{
+  "recordId": "dfrobot-dfr0213",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/4b5e5173c9ff588e03baea342ac531fbc2d0efe65e953a7e32478de889775591.webp",
+      "sha256": "4b5e5173c9ff588e03baea342ac531fbc2d0efe65e953a7e32478de889775591"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "left-header",
+      "name": "Left pin row",
+      "image": "media/4b5e5173c9ff588e03baea342ac531fbc2d0efe65e953a7e32478de889775591.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at the bottom end, closest to the micro-USB connector at the bottom of the board. Silkscreen labels sit just above their pads",
+      "pins": [
+        {
+          "position": 1,
+          "label": "012",
+          "functions": [
+            "Analog 11"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "D11",
+          "functions": [
+            "PWM"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "D10",
+          "functions": [
+            "PWM",
+            "Analog 10"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "D9",
+          "functions": [
+            "PWM",
+            "Analog 9"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "D8",
+          "functions": [
+            "Analog 8"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "D7",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "D6",
+          "functions": [
+            "PWM",
+            "Analog 7"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "D5",
+          "functions": [
+            "PWM"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "D4",
+          "functions": [
+            "Analog 6"
+          ]
+        },
+        {
+          "position": 10,
+          "label": "D3",
+          "functions": [
+            "SCL",
+            "External Interrupts",
+            "PWM"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "D2",
+          "functions": [
+            "SDA",
+            "External Interrupts"
+          ]
+        },
+        {
+          "position": 12,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "D0RX",
+          "functions": [
+            "Serial RX"
+          ]
+        },
+        {
+          "position": 15,
+          "label": "D1TX",
+          "functions": [
+            "Serial TX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "right-header",
+      "name": "Right pin row",
+      "image": "media/4b5e5173c9ff588e03baea342ac531fbc2d0efe65e953a7e32478de889775591.webp",
+      "rows": 1,
+      "orderNote": "No pin numbers; started at the bottom end, closest to the micro-USB connector. Silkscreen labels sit just above their pads",
+      "pins": [
+        {
+          "position": 1,
+          "label": "013",
+          "functions": [
+            "PWM"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "3V3",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "AREF",
+          "functions": []
+        },
+        {
+          "position": 4,
+          "label": "A0",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "A1",
+          "functions": []
+        },
+        {
+          "position": 6,
+          "label": "A2",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "A3",
+          "functions": []
+        },
+        {
+          "position": 8,
+          "label": "A4",
+          "functions": []
+        },
+        {
+          "position": 9,
+          "label": "A5",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 11,
+          "label": "?",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "+5V",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "RST",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "VIN",
+          "functions": [
+            "6.5V-12V"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "Right row: the two pads between +5V and A5 have no printed label; recorded as '?' (unlabeled).",
+    "Bottom-left label printed like '012' and bottom-right like '013' (first glyph looks like 0/O rather than the D used on other pins); copied as printed with 0.",
+    "'D0RX' and 'A0': O vs 0 not distinguishable; 0 used.",
+    "Right-row label read as 'A1' is rendered like 'AL' in the silkscreen font."
+  ],
+  "uncertain": [
+    "Board silkscreen reads 'Dreamer Nano V4.0' while the record is V4.1; identity of revision not confirmed.",
+    "Label-to-pad association: silkscreen text sits between pads; assigned each label to the pad directly below it (consistent with the side callouts Serial TX/RX, SDA, SCL, 6.5V-12V and the last labels D12/D13). Top pads: left 'D1TX' and right 'VIN' are printed rotated beside the pad.",
+    "ICSP 2x3 header (marked 'SPI' and '1') not transcribed because its pins are not individually labelled."
+  ],
+  "notes": ""
+}

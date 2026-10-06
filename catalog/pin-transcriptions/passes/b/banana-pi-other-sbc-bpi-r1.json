@@ -1,0 +1,248 @@
+{
+  "recordId": "banana-pi-other-sbc-bpi-r1",
+  "pass": "b",
+  "date": "2026-10-03",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/ca2176f410bf9642829bd5129d1b3975410845cf29949d2d579a50e2a7da831e.png",
+      "sha256": "ca2176f410bf9642829bd5129d1b3975410845cf29949d2d579a50e2a7da831e"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "gpio-header",
+      "name": "40-pin GPIO header",
+      "image": "media/ca2176f410bf9642829bd5129d1b3975410845cf29949d2d579a50e2a7da831e.png",
+      "rows": 2,
+      "orderNote": "Pin numbers printed (1/2 top, 39/40 bottom; odd left, even right); pin 1 marked",
+      "pins": [
+        {
+          "position": 1,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 2,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 3,
+          "label": "GPIO",
+          "functions": [
+            "I2C1_SDA"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "5V",
+          "functions": []
+        },
+        {
+          "position": 5,
+          "label": "GPIO",
+          "functions": [
+            "I2C1_SCL"
+          ]
+        },
+        {
+          "position": 6,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 7,
+          "label": "GPIO",
+          "functions": [
+            "GPCLK0"
+          ]
+        },
+        {
+          "position": 8,
+          "label": "GPIO",
+          "functions": [
+            "UART_TXD"
+          ]
+        },
+        {
+          "position": 9,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 10,
+          "label": "GPIO",
+          "functions": [
+            "UART_RXD"
+          ]
+        },
+        {
+          "position": 11,
+          "label": "GPIO",
+          "functions": []
+        },
+        {
+          "position": 12,
+          "label": "GPIO",
+          "functions": []
+        },
+        {
+          "position": 13,
+          "label": "GPIO",
+          "functions": []
+        },
+        {
+          "position": 14,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 15,
+          "label": "GPIO",
+          "functions": []
+        },
+        {
+          "position": 16,
+          "label": "GPIO",
+          "functions": []
+        },
+        {
+          "position": 17,
+          "label": "3.3V",
+          "functions": []
+        },
+        {
+          "position": 18,
+          "label": "GPIO",
+          "functions": []
+        },
+        {
+          "position": 19,
+          "label": "GPIO",
+          "functions": [
+            "SPI_MOSI"
+          ]
+        },
+        {
+          "position": 20,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 21,
+          "label": "GPIO",
+          "functions": [
+            "SPI_MISO"
+          ]
+        },
+        {
+          "position": 22,
+          "label": "GPIO",
+          "functions": []
+        },
+        {
+          "position": 23,
+          "label": "GPIO",
+          "functions": [
+            "SPI_SCLK"
+          ]
+        },
+        {
+          "position": 24,
+          "label": "GPIO",
+          "functions": [
+            "SPI_CE0"
+          ]
+        },
+        {
+          "position": 25,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 26,
+          "label": "GPIO",
+          "functions": [
+            "SPI_CE1"
+          ]
+        },
+        {
+          "position": 27,
+          "label": "ID_SD",
+          "functions": []
+        },
+        {
+          "position": 28,
+          "label": "ID_SC",
+          "functions": []
+        },
+        {
+          "position": 29,
+          "label": "GPIO",
+          "functions": []
+        },
+        {
+          "position": 30,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 31,
+          "label": "GPIO",
+          "functions": []
+        },
+        {
+          "position": 32,
+          "label": "GPIO",
+          "functions": []
+        },
+        {
+          "position": 33,
+          "label": "GPIO",
+          "functions": []
+        },
+        {
+          "position": 34,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 35,
+          "label": "GPIO",
+          "functions": []
+        },
+        {
+          "position": 36,
+          "label": "GPIO",
+          "functions": []
+        },
+        {
+          "position": 37,
+          "label": "GPIO",
+          "functions": []
+        },
+        {
+          "position": 38,
+          "label": "GPIO",
+          "functions": []
+        },
+        {
+          "position": 39,
+          "label": "GND",
+          "functions": []
+        },
+        {
+          "position": 40,
+          "label": "GPIO",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "unreadable": [
+    "Pins 3, 5, 7: left-side text partly clipped in the image ('GPIC  2C1_SDA)', 'GPIC I2C1_SCL)', 'GPIC (GPCLK0)'); read as GPIO / I2C1_SDA / I2C1_SCL / GPCLK0",
+    "Position 38: pin number printed as '37' (duplicate of 37); placed at physical position 38"
+  ],
+  "notes": "Generic 40-pin header diagram with color key; no board designator shown."
+}

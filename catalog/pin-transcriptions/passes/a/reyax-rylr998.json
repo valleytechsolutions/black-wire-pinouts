@@ -1,0 +1,62 @@
+{
+  "recordId": "reyax-rylr998",
+  "pass": "a",
+  "date": "2026-10-04",
+  "status": "transcribed",
+  "images": [
+    {
+      "file": "media/a5cd732258dc744a8dfaec3a3815b315fe8f47f378517fc8a221666f34639b54.png",
+      "sha256": "a5cd732258dc744a8dfaec3a3815b315fe8f47f378517fc8a221666f34639b54"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "header",
+      "name": "5-pin module header",
+      "image": "media/a5cd732258dc744a8dfaec3a3815b315fe8f47f378517fc8a221666f34639b54.png",
+      "rows": 1,
+      "orderNote": "Printed pin numbers 1-5 (outline drawing and pin table) followed",
+      "pins": [
+        {
+          "position": 1,
+          "label": "VDD",
+          "functions": [
+            "Power Supply"
+          ]
+        },
+        {
+          "position": 2,
+          "label": "NRST",
+          "functions": [
+            "RST",
+            "RESET(Active Low) 100K\u03a9 Internal pull up, Pull down at least 100ms"
+          ]
+        },
+        {
+          "position": 3,
+          "label": "RXD",
+          "functions": [
+            "UART Data Input"
+          ]
+        },
+        {
+          "position": 4,
+          "label": "TXD",
+          "functions": [
+            "UART Data Output"
+          ]
+        },
+        {
+          "position": 5,
+          "label": "GND",
+          "functions": [
+            "Ground"
+          ]
+        }
+      ]
+    }
+  ],
+  "unreadable": [],
+  "notes": "Pin names from the PIN DESCRIPTION table; board silkscreen (photos) reads GND TXD RXD RST VDD, and 'RST' is recorded as the silkscreen spelling for NRST. Table I/O column omitted. Page shows both RYLR998 (spring antenna) and RYLR998_M4 (I-PEX connector slot) variants with the same 5-pin header; one connector recorded. Antenna connector skipped.",
+  "uncertain": []
+}
