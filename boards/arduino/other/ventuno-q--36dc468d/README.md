@@ -4,7 +4,7 @@
 
 Revision: Not identified
 
-Coverage: Pinout image collected
+Coverage: Manufacturer references reviewed by scope; independent electrical and all-connector review pending
 
 [Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=arduino-other-ventuno-q)
 
@@ -12,8 +12,10 @@ Coverage: Pinout image collected
 
 Board datasheet: **not yet recorded**. Visual reference: **available**.
 
-[Manufacturer source (recorded link)](https://docs.arduino.cc/hardware/ventuno-q/)
+[Manufacturer hardware documentation](https://docs.arduino.cc/hardware/ventuno-q/)
 
+- **hardware-guide / recorded-source**: [Pinout (PDF)](https://docs.arduino.cc/resources/pinouts/ABX00181-full-pinout.pdf) · [saved document](../../../../library/media/243cc8166778bca7ec4865dcb58aa471b76012f4d88ac2c6ec9dbe71c7c6823d.pdf)
+- **hardware-guide / board**: [Manufacturer pin and hardware documentation](https://docs.arduino.cc/hardware/ventuno-q/) · online
 
 A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
 
@@ -178,5 +180,23 @@ Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b
 Image revision: Not identified
 
 SHA-256: `3e9abc1ffb8fc5eac9165cb4b59944607ac4a3df7b741440d2322d3351d6daba`
+
+## Pinout (PDF)
+
+**original reference PDF** · Source identity and visual scope inspected; PDF review covers first-page preview. Independent electrical and all-connector completeness review pending. · PDF
+
+[![VENTUNO Q reference preview](../../../../library/thumbs/243cc8166778bca7ec4865dcb58aa471b76012f4d88ac2c6ec9dbe71c7c6823d.webp)](../../../../library/media/243cc8166778bca7ec4865dcb58aa471b76012f4d88ac2c6ec9dbe71c7c6823d.pdf)
+
+[Open original reference](../../../../library/media/243cc8166778bca7ec4865dcb58aa471b76012f4d88ac2c6ec9dbe71c7c6823d.pdf)
+
+**Credit and rights:** Manufacturer artwork; reuse and print rights not established. Inclusion does not relicense the original.. Source/manufacturer: Arduino.
+
+[Source 1](https://docs.arduino.cc/resources/pinouts/ABX00181-full-pinout.pdf) · [Source 2](https://docs.arduino.cc/hardware/ventuno-q/)
+
+Manufacturer source retained unchanged. Source identity and visual scope inspected; PDF review covers first-page preview. Independent electrical and all-connector completeness review pending.
+
+Image revision: As supplied in the original; match exact board revision
+
+SHA-256: `243cc8166778bca7ec4865dcb58aa471b76012f4d88ac2c6ec9dbe71c7c6823d`
 
 Pin assignments have not been independently electrically verified. Check board revision before wiring.

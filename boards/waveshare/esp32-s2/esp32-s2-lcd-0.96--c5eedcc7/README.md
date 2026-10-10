@@ -4,7 +4,7 @@
 
 Revision: Not identified
 
-Coverage: Pinout image collected
+Coverage: Manufacturer references reviewed by scope; independent electrical and all-connector review pending
 
 [Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=waveshare-esp32-esp32-s2-lcd-0-96)
 
@@ -12,8 +12,10 @@ Coverage: Pinout image collected
 
 Board datasheet: **not yet recorded**. Visual reference: **available**.
 
-[Manufacturer source (recorded link)](https://www.waveshare.com/esp32-s2.htm)
+[Manufacturer hardware documentation](https://www.waveshare.com/wiki/ESP32-S2-Pico)
 
+- **schematic / recorded-source**: [ESP32-S2-Pico Schematic](https://files.waveshare.com/upload/3/35/ESP32-S2-Pico_Sch.pdf) · [saved document](../../../../library/media/2bf2b17f4ed477b297cfff3176541cb9355f8122777f3d17f897a70fdf35a906.pdf)
+- **hardware-guide / board**: [Manufacturer pin and hardware documentation](https://www.waveshare.com/wiki/ESP32-S2-Pico) · online
 
 A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
 
@@ -54,5 +56,41 @@ SHA-256: `afcf94df031dccc2b6bf4252dba10d096c57fc77139c1df0f71f3b2f6b12c868`
 Image revision: Not identified
 
 SHA-256: `7016cbfe7c776042fbaf9ba99bd88ad86779f2ada8edcb6fa3378daeb4633eaa`
+
+## Pinout
+
+**pinout image** · Source identity and visual scope inspected; PDF review covers first-page preview. Independent electrical and all-connector completeness review pending. · JPG
+
+[![ESP32-S2-LCD-0.96 reference preview](../../../../library/thumbs/9de31f532fc7dccdbddb7fb200bfa865b3d36fa5a0576b43a1d61b3227d396aa.webp)](../../../../library/media/9de31f532fc7dccdbddb7fb200bfa865b3d36fa5a0576b43a1d61b3227d396aa.jpg)
+
+[Open original reference](../../../../library/media/9de31f532fc7dccdbddb7fb200bfa865b3d36fa5a0576b43a1d61b3227d396aa.jpg)
+
+**Credit and rights:** Manufacturer artwork; reuse and print rights not established. Inclusion does not relicense the original.. Source/manufacturer: Waveshare.
+
+[Source 1](https://www.waveshare.com/w/upload/0/05/ESP32-S2-Pico-details-9-1.jpg) · [Source 2](https://www.waveshare.com/wiki/ESP32-S2-Pico)
+
+Manufacturer source retained unchanged. Source identity and visual scope inspected; PDF review covers first-page preview. Independent electrical and all-connector completeness review pending.
+
+Image revision: As supplied in the original; match exact board revision
+
+SHA-256: `9de31f532fc7dccdbddb7fb200bfa865b3d36fa5a0576b43a1d61b3227d396aa`
+
+## ESP32-S2-Pico Schematic
+
+**original reference PDF** · Source identity and visual scope inspected; PDF review covers first-page preview. Independent electrical and all-connector completeness review pending. · PDF
+
+[![ESP32-S2-LCD-0.96 reference preview](../../../../library/thumbs/2bf2b17f4ed477b297cfff3176541cb9355f8122777f3d17f897a70fdf35a906.webp)](../../../../library/media/2bf2b17f4ed477b297cfff3176541cb9355f8122777f3d17f897a70fdf35a906.pdf)
+
+[Open original reference](../../../../library/media/2bf2b17f4ed477b297cfff3176541cb9355f8122777f3d17f897a70fdf35a906.pdf)
+
+**Credit and rights:** Manufacturer artwork; reuse and print rights not established. Inclusion does not relicense the original.. Source/manufacturer: Waveshare.
+
+[Source 1](https://files.waveshare.com/upload/3/35/ESP32-S2-Pico_Sch.pdf) · [Source 2](https://www.waveshare.com/wiki/ESP32-S2-Pico)
+
+Manufacturer source retained unchanged. Source identity and visual scope inspected; PDF review covers first-page preview. Independent electrical and all-connector completeness review pending.
+
+Image revision: As supplied in the original; match exact board revision
+
+SHA-256: `2bf2b17f4ed477b297cfff3176541cb9355f8122777f3d17f897a70fdf35a906`
 
 Pin assignments have not been independently electrically verified. Check board revision before wiring.

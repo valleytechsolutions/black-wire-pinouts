@@ -4,7 +4,7 @@
 
 Revision: Not identified
 
-Coverage: Pinout image collected
+Coverage: Manufacturer references reviewed by scope; independent electrical and all-connector review pending
 
 [Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-esp32-xiao-esp32s3)
 
@@ -12,8 +12,11 @@ Coverage: Pinout image collected
 
 Board datasheet: **not yet recorded**. Visual reference: **available**.
 
-[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/)
+[Manufacturer hardware documentation](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/)
 
+- **schematic / recorded-source**: [XIAO ESP32-S3 Schematic](https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/new-res/202003751_XIAO%20ESP32S3_v1.4_SCH_260226.pdf.pdf) · [saved document](../../../../library/media/15993097cd695d177af352f4664ca91290a99c833f51d122d1165ef222f9923c.pdf)
+- **schematic / recorded-source**: [XIAO ESP32-S3 ExpBoard Schematic](https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/res/XIAO_ESP32S3_ExpBoard_v1.0_SCH.pdf) · [saved document](../../../../library/media/8224252d259a7ab09d19748a461970627f8b28029857a224c747e0de25040c0c.pdf)
+- **hardware-guide / board**: [Manufacturer pin and hardware documentation](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) · online
 
 A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
 
@@ -160,5 +163,41 @@ Original source index: Pinout Sheet. This file is searchable but has not been pr
 Image revision: Not identified
 
 SHA-256: `d31153ed6a9bb5c2e0ab1bd1ec5bd620620664c06ec4bb55cf74caf0a08b8365`
+
+## XIAO ESP32-S3 Schematic
+
+**original reference PDF** · Source identity and visual scope inspected; PDF review covers first-page preview. Independent electrical and all-connector completeness review pending. · PDF
+
+[![XIAO ESP32S3 reference preview](../../../../library/thumbs/15993097cd695d177af352f4664ca91290a99c833f51d122d1165ef222f9923c.webp)](../../../../library/media/15993097cd695d177af352f4664ca91290a99c833f51d122d1165ef222f9923c.pdf)
+
+[Open original reference](../../../../library/media/15993097cd695d177af352f4664ca91290a99c833f51d122d1165ef222f9923c.pdf)
+
+**Credit and rights:** Manufacturer artwork; reuse and print rights not established. Inclusion does not relicense the original.. Source/manufacturer: Seeed Studio.
+
+[Source 1](https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/new-res/202003751_XIAO%20ESP32S3_v1.4_SCH_260226.pdf.pdf) · [Source 2](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/)
+
+Manufacturer source retained unchanged. Source identity and visual scope inspected; PDF review covers first-page preview. Independent electrical and all-connector completeness review pending.
+
+Image revision: As supplied in the original; match exact board revision
+
+SHA-256: `15993097cd695d177af352f4664ca91290a99c833f51d122d1165ef222f9923c`
+
+## XIAO ESP32-S3 ExpBoard Schematic
+
+**original reference PDF** · Source identity and visual scope inspected; PDF review covers first-page preview. Independent electrical and all-connector completeness review pending. · PDF
+
+[![XIAO ESP32S3 reference preview](../../../../library/thumbs/8224252d259a7ab09d19748a461970627f8b28029857a224c747e0de25040c0c.webp)](../../../../library/media/8224252d259a7ab09d19748a461970627f8b28029857a224c747e0de25040c0c.pdf)
+
+[Open original reference](../../../../library/media/8224252d259a7ab09d19748a461970627f8b28029857a224c747e0de25040c0c.pdf)
+
+**Credit and rights:** Manufacturer artwork; reuse and print rights not established. Inclusion does not relicense the original.. Source/manufacturer: Seeed Studio.
+
+[Source 1](https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/res/XIAO_ESP32S3_ExpBoard_v1.0_SCH.pdf) · [Source 2](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/)
+
+Manufacturer source retained unchanged. Source identity and visual scope inspected; PDF review covers first-page preview. Independent electrical and all-connector completeness review pending.
+
+Image revision: As supplied in the original; match exact board revision
+
+SHA-256: `8224252d259a7ab09d19748a461970627f8b28029857a224c747e0de25040c0c`
 
 Pin assignments have not been independently electrically verified. Check board revision before wiring.

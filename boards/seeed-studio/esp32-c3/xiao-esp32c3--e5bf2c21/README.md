@@ -4,7 +4,7 @@
 
 Revision: Not identified
 
-Coverage: Pinout image collected
+Coverage: Manufacturer references reviewed by scope; independent electrical and all-connector review pending
 
 [Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-esp32-xiao-esp32c3)
 
@@ -12,8 +12,10 @@ Coverage: Pinout image collected
 
 Board datasheet: **not yet recorded**. Visual reference: **available**.
 
-[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/)
+[Manufacturer hardware documentation](https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/)
 
+- **schematic / recorded-source**: [XIAO ESP32-C3 Schematic](https://files.seeedstudio.com/wiki/XIAO_WiFi/Resources/XIAO_ESP32C3_v1.3_SCH_260116.pdf) · [saved document](../../../../library/media/60d7d447d0d37b0c3ff6c50d372a45d50f750070b8b9d68ca7b906df43365081.pdf)
+- **hardware-guide / board**: [Manufacturer pin and hardware documentation](https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/) · online
 
 A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
 
@@ -124,5 +126,23 @@ Original source index: Pinout Sheet. This file is searchable but has not been pr
 Image revision: Not identified
 
 SHA-256: `94b77c5438191904f8aaf43958a1484434e660060d4e403fe274422386761980`
+
+## XIAO ESP32-C3 Schematic
+
+**original reference PDF** · Source identity and visual scope inspected; PDF review covers first-page preview. Independent electrical and all-connector completeness review pending. · PDF
+
+[![XIAO ESP32C3 reference preview](../../../../library/thumbs/60d7d447d0d37b0c3ff6c50d372a45d50f750070b8b9d68ca7b906df43365081.webp)](../../../../library/media/60d7d447d0d37b0c3ff6c50d372a45d50f750070b8b9d68ca7b906df43365081.pdf)
+
+[Open original reference](../../../../library/media/60d7d447d0d37b0c3ff6c50d372a45d50f750070b8b9d68ca7b906df43365081.pdf)
+
+**Credit and rights:** Manufacturer artwork; reuse and print rights not established. Inclusion does not relicense the original.. Source/manufacturer: Seeed Studio.
+
+[Source 1](https://files.seeedstudio.com/wiki/XIAO_WiFi/Resources/XIAO_ESP32C3_v1.3_SCH_260116.pdf) · [Source 2](https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/)
+
+Manufacturer source retained unchanged. Source identity and visual scope inspected; PDF review covers first-page preview. Independent electrical and all-connector completeness review pending.
+
+Image revision: As supplied in the original; match exact board revision
+
+SHA-256: `60d7d447d0d37b0c3ff6c50d372a45d50f750070b8b9d68ca7b906df43365081`
 
 Pin assignments have not been independently electrically verified. Check board revision before wiring.

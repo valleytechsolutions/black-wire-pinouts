@@ -15502,5 +15502,1204 @@
       ],
       "review": "Source table transcribed; independent technical review pending"
     }
+  ],
+  "m5stack-toughc5": [
+    {
+      "connector": "PORT.A / HY2.0-4P",
+      "scope": "Only the named external connector is covered. Other connectors and internal signals are not included.",
+      "orientation": "Use the manufacturer diagram for orientation. Source labels are preserved; physical order is not inferred.",
+      "source": {
+        "url": "https://docs.m5stack.com/en/core/ToughC5",
+        "sha256": "552c8ad5e21c233b697d57ef70e59f63dbe44048ca187c8f920f09900baf95f2",
+        "locator": "HY2.0-4P / PORT.A"
+      },
+      "review": "Transcribed from manufacturer table; independent electrical validation pending",
+      "pins": [
+        {
+          "label": "GND",
+          "position": "Black",
+          "purpose": "Ground reference",
+          "notes": "Wire color from manufacturer table. Confirm voltage, configured function and orientation in source."
+        },
+        {
+          "label": "5V",
+          "position": "Red",
+          "purpose": "5 V power rail",
+          "notes": "Wire color from manufacturer table. Confirm voltage, configured function and orientation in source."
+        },
+        {
+          "label": "G2",
+          "position": "Yellow",
+          "purpose": "Configurable GPIO 2",
+          "notes": "Wire color from manufacturer table. Confirm voltage, configured function and orientation in source."
+        },
+        {
+          "label": "G3",
+          "position": "White",
+          "purpose": "Configurable GPIO 3",
+          "notes": "Wire color from manufacturer table. Confirm voltage, configured function and orientation in source."
+        }
+      ]
+    },
+    {
+      "connector": "PORT.B / HY2.0-4P",
+      "scope": "Only the named external connector is covered. Other connectors and internal signals are not included.",
+      "orientation": "Use the manufacturer diagram for orientation. Source labels are preserved; physical order is not inferred.",
+      "source": {
+        "url": "https://docs.m5stack.com/en/core/ToughC5",
+        "sha256": "552c8ad5e21c233b697d57ef70e59f63dbe44048ca187c8f920f09900baf95f2",
+        "locator": "HY2.0-4P / PORT.B"
+      },
+      "review": "Transcribed from manufacturer table; independent electrical validation pending",
+      "pins": [
+        {
+          "label": "GND",
+          "position": "Black",
+          "purpose": "Ground reference",
+          "notes": "Wire color from manufacturer table. Confirm voltage, configured function and orientation in source."
+        },
+        {
+          "label": "5V",
+          "position": "Red",
+          "purpose": "5 V power rail",
+          "notes": "Wire color from manufacturer table. Confirm voltage, configured function and orientation in source."
+        },
+        {
+          "label": "G6",
+          "position": "Yellow",
+          "purpose": "Configurable GPIO 6",
+          "notes": "Wire color from manufacturer table. Confirm voltage, configured function and orientation in source."
+        },
+        {
+          "label": "G1",
+          "position": "White",
+          "purpose": "Configurable GPIO 1",
+          "notes": "Wire color from manufacturer table. Confirm voltage, configured function and orientation in source."
+        }
+      ]
+    },
+    {
+      "connector": "PORT.C / HY2.0-4P",
+      "scope": "Only the named external connector is covered. Other connectors and internal signals are not included.",
+      "orientation": "Use the manufacturer diagram for orientation. Source labels are preserved; physical order is not inferred.",
+      "source": {
+        "url": "https://docs.m5stack.com/en/core/ToughC5",
+        "sha256": "552c8ad5e21c233b697d57ef70e59f63dbe44048ca187c8f920f09900baf95f2",
+        "locator": "HY2.0-4P / PORT.C"
+      },
+      "review": "Transcribed from manufacturer table; independent electrical validation pending",
+      "pins": [
+        {
+          "label": "GND",
+          "position": "Black",
+          "purpose": "Ground reference",
+          "notes": "Wire color from manufacturer table. Confirm voltage, configured function and orientation in source."
+        },
+        {
+          "label": "5V",
+          "position": "Red",
+          "purpose": "5 V power rail",
+          "notes": "Wire color from manufacturer table. Confirm voltage, configured function and orientation in source."
+        },
+        {
+          "label": "G12",
+          "position": "Yellow",
+          "purpose": "Configurable GPIO 12",
+          "notes": "Wire color from manufacturer table. Confirm voltage, configured function and orientation in source."
+        },
+        {
+          "label": "G11",
+          "position": "White",
+          "purpose": "Configurable GPIO 11",
+          "notes": "Wire color from manufacturer table. Confirm voltage, configured function and orientation in source."
+        }
+      ]
+    },
+    {
+      "connector": "PORT.RS485 / HY2.0-4P",
+      "scope": "Only the named external connector is covered. Other connectors and internal signals are not included.",
+      "orientation": "Use the manufacturer diagram for orientation. Source labels are preserved; physical order is not inferred.",
+      "source": {
+        "url": "https://docs.m5stack.com/en/core/ToughC5",
+        "sha256": "552c8ad5e21c233b697d57ef70e59f63dbe44048ca187c8f920f09900baf95f2",
+        "locator": "HY2.0-4P / PORT.RS485"
+      },
+      "review": "Transcribed from manufacturer table; independent electrical validation pending",
+      "pins": [
+        {
+          "label": "GND",
+          "position": "Black",
+          "purpose": "Ground reference",
+          "notes": "Wire color from manufacturer table. Confirm voltage, configured function and orientation in source."
+        },
+        {
+          "label": "DC 6 ~ 24V INPUT",
+          "position": "Red",
+          "purpose": "DC power input, 6 to 24 V (manufacturer label)",
+          "notes": "Wire color from manufacturer table. Confirm voltage, configured function and orientation in source."
+        },
+        {
+          "label": "A",
+          "position": "Yellow",
+          "purpose": "RS-485 line A",
+          "notes": "Wire color from manufacturer table. Confirm voltage, configured function and orientation in source."
+        },
+        {
+          "label": "B",
+          "position": "White",
+          "purpose": "RS-485 line B",
+          "notes": "Wire color from manufacturer table. Confirm voltage, configured function and orientation in source."
+        }
+      ]
+    }
+  ],
+  "source-board-baa53577358800c353": [
+    {
+      "connector": "PORT.CUSTOM / HY2.0-4P",
+      "scope": "Only the named external connector is covered. Other connectors and internal signals are not included.",
+      "orientation": "Use the manufacturer diagram for orientation. Source labels are preserved; physical order is not inferred.",
+      "source": {
+        "url": "https://docs.m5stack.com/en/core/StickS3",
+        "sha256": "bb32e9342f1912ed9517fa872f1c29a456637f5f9317a9e03d7cf4b44740af6d",
+        "locator": "HY2.0-4P / PORT.CUSTOM"
+      },
+      "review": "Transcribed from manufacturer table; independent electrical validation pending",
+      "pins": [
+        {
+          "label": "GND",
+          "position": "Black",
+          "purpose": "Ground reference",
+          "notes": "Wire color from manufacturer table. Confirm voltage, configured function and orientation in source."
+        },
+        {
+          "label": "5V",
+          "position": "Red",
+          "purpose": "5 V power rail",
+          "notes": "Wire color from manufacturer table. Confirm voltage, configured function and orientation in source."
+        },
+        {
+          "label": "G9",
+          "position": "Yellow",
+          "purpose": "Configurable GPIO 9",
+          "notes": "Wire color from manufacturer table. Confirm voltage, configured function and orientation in source."
+        },
+        {
+          "label": "G10",
+          "position": "White",
+          "purpose": "Configurable GPIO 10",
+          "notes": "Wire color from manufacturer table. Confirm voltage, configured function and orientation in source."
+        }
+      ]
+    },
+    {
+      "connector": "Hat2-Bus",
+      "scope": "Only the named external connector is covered. Other connectors and internal signals are not included.",
+      "orientation": "Use the manufacturer diagram for orientation. Source labels are preserved; physical order is not inferred.",
+      "source": {
+        "url": "https://docs.m5stack.com/en/core/StickS3",
+        "sha256": "bb32e9342f1912ed9517fa872f1c29a456637f5f9317a9e03d7cf4b44740af6d",
+        "locator": "Hat2-Bus"
+      },
+      "review": "Transcribed from manufacturer table; independent electrical validation pending",
+      "pins": [
+        {
+          "label": "GND",
+          "position": "1",
+          "purpose": "Ground reference",
+          "notes": "Left column in source table."
+        },
+        {
+          "label": "G5",
+          "position": "2",
+          "purpose": "Configurable GPIO 5",
+          "notes": "Right column in source table."
+        },
+        {
+          "label": "EXT_5V",
+          "position": "3",
+          "purpose": "External 5 V rail",
+          "notes": "Left column in source table."
+        },
+        {
+          "label": "G4",
+          "position": "4",
+          "purpose": "Configurable GPIO 4",
+          "notes": "Right column in source table."
+        },
+        {
+          "label": "Boot",
+          "position": "5",
+          "purpose": "Boot control signal",
+          "notes": "Left column in source table."
+        },
+        {
+          "label": "G6",
+          "position": "6",
+          "purpose": "Configurable GPIO 6",
+          "notes": "Right column in source table."
+        },
+        {
+          "label": "G1",
+          "position": "7",
+          "purpose": "Configurable GPIO 1",
+          "notes": "Left column in source table."
+        },
+        {
+          "label": "G7",
+          "position": "8",
+          "purpose": "Configurable GPIO 7",
+          "notes": "Right column in source table."
+        },
+        {
+          "label": "G8",
+          "position": "9",
+          "purpose": "Configurable GPIO 8",
+          "notes": "Left column in source table."
+        },
+        {
+          "label": "G43",
+          "position": "10",
+          "purpose": "Configurable GPIO 43",
+          "notes": "Right column in source table."
+        },
+        {
+          "label": "BAT",
+          "position": "11",
+          "purpose": "Battery rail",
+          "notes": "Left column in source table."
+        },
+        {
+          "label": "G44",
+          "position": "12",
+          "purpose": "Configurable GPIO 44",
+          "notes": "Right column in source table."
+        },
+        {
+          "label": "3V3_L2",
+          "position": "13",
+          "purpose": "Switched 3.3 V rail",
+          "notes": "Left column in source table."
+        },
+        {
+          "label": "G2",
+          "position": "14",
+          "purpose": "Configurable GPIO 2",
+          "notes": "Right column in source table."
+        },
+        {
+          "label": "5V_IN",
+          "position": "15",
+          "purpose": "5 V input",
+          "notes": "Left column in source table."
+        },
+        {
+          "label": "G3",
+          "position": "16",
+          "purpose": "Configurable GPIO 3",
+          "notes": "Right column in source table."
+        }
+      ]
+    }
+  ],
+  "source-board-f638cdc063642c1013": [
+    {
+      "connector": "PORT.A / HY2.0-4P",
+      "scope": "Only the named external connector is covered. Other connectors and internal signals are not included.",
+      "orientation": "Use the manufacturer diagram for orientation. Source labels are preserved; physical order is not inferred.",
+      "source": {
+        "url": "https://docs.m5stack.com/en/core/Tab5",
+        "sha256": "db11f306c7d7cdafeed4be6c6e0ef7cb1e059d5c092155f1f334c6838bbb4e84",
+        "locator": "HY2.0-4P / PORT.A"
+      },
+      "review": "Transcribed from manufacturer table; independent electrical validation pending",
+      "pins": [
+        {
+          "label": "GND",
+          "position": "Black",
+          "purpose": "Ground reference",
+          "notes": "Wire color from manufacturer table. Confirm voltage, configured function and orientation in source."
+        },
+        {
+          "label": "5V",
+          "position": "Red",
+          "purpose": "5 V power rail",
+          "notes": "Wire color from manufacturer table. Confirm voltage, configured function and orientation in source."
+        },
+        {
+          "label": "G53",
+          "position": "Yellow",
+          "purpose": "Configurable GPIO 53",
+          "notes": "Wire color from manufacturer table. Confirm voltage, configured function and orientation in source."
+        },
+        {
+          "label": "G54",
+          "position": "White",
+          "purpose": "Configurable GPIO 54",
+          "notes": "Wire color from manufacturer table. Confirm voltage, configured function and orientation in source."
+        }
+      ]
+    }
+  ],
+  "m5stack-gpio-device-cardputer-adv": [
+    {
+      "connector": "PORT.CUSTOM / HY2.0-4P",
+      "scope": "Only the named external connector is covered. Other connectors and internal signals are not included.",
+      "orientation": "Use the manufacturer diagram for orientation. Source labels are preserved; physical order is not inferred.",
+      "source": {
+        "url": "https://docs.m5stack.com/en/core/Cardputer-Adv",
+        "sha256": "4d8e9ab62c3810a67c413ca5f31d8b381807bf0cb044446eb7475cc62943741e",
+        "locator": "HY2.0-4P / PORT.CUSTOM"
+      },
+      "review": "Transcribed from manufacturer table; independent electrical validation pending",
+      "pins": [
+        {
+          "label": "GND",
+          "position": "Black",
+          "purpose": "Ground reference",
+          "notes": "Wire color from manufacturer table. Confirm voltage, configured function and orientation in source."
+        },
+        {
+          "label": "5V",
+          "position": "Red",
+          "purpose": "5 V power rail",
+          "notes": "Wire color from manufacturer table. Confirm voltage, configured function and orientation in source."
+        },
+        {
+          "label": "G2",
+          "position": "Yellow",
+          "purpose": "Configurable GPIO 2",
+          "notes": "Wire color from manufacturer table. Confirm voltage, configured function and orientation in source."
+        },
+        {
+          "label": "G1",
+          "position": "White",
+          "purpose": "Configurable GPIO 1",
+          "notes": "Wire color from manufacturer table. Confirm voltage, configured function and orientation in source."
+        }
+      ]
+    },
+    {
+      "connector": "EXT 2.54-14P",
+      "scope": "Only the named external connector is covered. Other connectors and internal signals are not included.",
+      "orientation": "Use the manufacturer diagram for orientation. Source labels are preserved; physical order is not inferred.",
+      "source": {
+        "url": "https://docs.m5stack.com/en/core/Cardputer-Adv",
+        "sha256": "4d8e9ab62c3810a67c413ca5f31d8b381807bf0cb044446eb7475cc62943741e",
+        "locator": "EXT 2.54-14P"
+      },
+      "review": "Transcribed from manufacturer table; independent electrical validation pending",
+      "pins": [
+        {
+          "label": "G3",
+          "position": "1",
+          "purpose": "RESET",
+          "notes": "Function designation from manufacturer EXT table; check attached expansion and firmware."
+        },
+        {
+          "label": "5VIN",
+          "position": "2",
+          "purpose": "5 V input",
+          "notes": "Function designation from manufacturer EXT table; check attached expansion and firmware."
+        },
+        {
+          "label": "G4",
+          "position": "3",
+          "purpose": "INT",
+          "notes": "Function designation from manufacturer EXT table; check attached expansion and firmware."
+        },
+        {
+          "label": "GND",
+          "position": "4",
+          "purpose": "Ground reference",
+          "notes": "Function designation from manufacturer EXT table; check attached expansion and firmware."
+        },
+        {
+          "label": "G6",
+          "position": "5",
+          "purpose": "BUSY",
+          "notes": "Function designation from manufacturer EXT table; check attached expansion and firmware."
+        },
+        {
+          "label": "5VOUT",
+          "position": "6",
+          "purpose": "5 V output",
+          "notes": "Function designation from manufacturer EXT table; check attached expansion and firmware."
+        },
+        {
+          "label": "G40",
+          "position": "7",
+          "purpose": "SCK",
+          "notes": "Function designation from manufacturer EXT table; check attached expansion and firmware."
+        },
+        {
+          "label": "G8",
+          "position": "8",
+          "purpose": "I2C_SDA",
+          "notes": "Function designation from manufacturer EXT table; check attached expansion and firmware."
+        },
+        {
+          "label": "G14",
+          "position": "9",
+          "purpose": "MOSI",
+          "notes": "Function designation from manufacturer EXT table; check attached expansion and firmware."
+        },
+        {
+          "label": "G9",
+          "position": "10",
+          "purpose": "I2C_SCL",
+          "notes": "Function designation from manufacturer EXT table; check attached expansion and firmware."
+        },
+        {
+          "label": "G39",
+          "position": "11",
+          "purpose": "MISO",
+          "notes": "Function designation from manufacturer EXT table; check attached expansion and firmware."
+        },
+        {
+          "label": "G13",
+          "position": "12",
+          "purpose": "UART_TX",
+          "notes": "Function designation from manufacturer EXT table; check attached expansion and firmware."
+        },
+        {
+          "label": "G5",
+          "position": "13",
+          "purpose": "CS",
+          "notes": "Function designation from manufacturer EXT table; check attached expansion and firmware."
+        },
+        {
+          "label": "G15",
+          "position": "14",
+          "purpose": "UART_RX",
+          "notes": "Function designation from manufacturer EXT table; check attached expansion and firmware."
+        }
+      ]
+    }
+  ],
+  "seeed-studio-other-xiao-ra4m1": [
+    {
+      "connector": "Standard XIAO edge contacts",
+      "scope": "Only the named external connector is covered. Other connectors and internal signals are not included.",
+      "orientation": "Use the manufacturer diagram for orientation. Source labels are preserved; physical order is not inferred.",
+      "source": {
+        "url": "https://wiki.seeedstudio.com/getting_started_xiao_ra4m1/",
+        "sha256": "54cd3b33d2059e420c98a3c80cee92a0c89fe9265e04457dc9c54815980c1d8e",
+        "locator": "Pin Map ​ / XIAO Pin, Function, Chip Pin, Alternate Functions, Description, Arduino Name"
+      },
+      "review": "Transcribed from manufacturer table; independent electrical validation pending",
+      "pins": [
+        {
+          "label": "5V",
+          "position": "5V",
+          "purpose": "Power Input/Output",
+          "notes": "Function: VBUS; Chip Pin: ; Alternate Functions: ; Arduino Name: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "GND",
+          "position": "GND",
+          "purpose": "GND",
+          "notes": "Function: ; Chip Pin: ; Alternate Functions: ; Arduino Name: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "3V3",
+          "position": "3V3",
+          "purpose": "Power Output",
+          "notes": "Function: 3V3_OUT; Chip Pin: ; Alternate Functions: ; Arduino Name: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D0",
+          "position": "D0",
+          "purpose": "GPIO, ADC",
+          "notes": "Function: Analog; Chip Pin: P014; Alternate Functions: AN009; Arduino Name: 0; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D1",
+          "position": "D1",
+          "purpose": "GPIO, ADC",
+          "notes": "Function: Analog; Chip Pin: P000; Alternate Functions: AN000; Arduino Name: 1; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D2",
+          "position": "D2",
+          "purpose": "GPIO, ADC",
+          "notes": "Function: Analog; Chip Pin: P001; Alternate Functions: AN001; Arduino Name: 2; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D3",
+          "position": "D3",
+          "purpose": "GPIO, ADC",
+          "notes": "Function: Analog; Chip Pin: P002; Alternate Functions: AN002; Arduino Name: 3; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D4",
+          "position": "D4",
+          "purpose": "GPIO, I2C Data",
+          "notes": "Function: SDA1; Chip Pin: P206; Alternate Functions: ; Arduino Name: 4; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D5",
+          "position": "D5",
+          "purpose": "GPIO, I2C Clock, ADC",
+          "notes": "Function: Analog,SCL1; Chip Pin: P100; Alternate Functions: ; Arduino Name: 5; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D6",
+          "position": "D6",
+          "purpose": "GPIO, UART Transmit,I2C",
+          "notes": "Function: TXD2; Chip Pin: P302; Alternate Functions: SDA2; Arduino Name: 6; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D7",
+          "position": "D7",
+          "purpose": "GPIO, UART Receive,I2C",
+          "notes": "Function: RXD2; Chip Pin: P301; Alternate Functions: SCL2; Arduino Name: 7; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D8",
+          "position": "D8",
+          "purpose": "GPIO, SPI Clock",
+          "notes": "Function: SPI1_SCK; Chip Pin: P111; Alternate Functions: ; Arduino Name: 8; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D9",
+          "position": "D9",
+          "purpose": "GPIO, SPI Data,UART",
+          "notes": "Function: SPI1_MISO; Chip Pin: P110; Alternate Functions: CRX0; Arduino Name: 9; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D10",
+          "position": "D10",
+          "purpose": "GPIO, SPI Data,UART",
+          "notes": "Function: SPI1_MOSI; Chip Pin: P109; Alternate Functions: CTX0; Arduino Name: 10; Standard edge contact only; no physical ordering inferred."
+        }
+      ]
+    }
+  ],
+  "seeed-studio-other-xiao-mg24": [
+    {
+      "connector": "Standard XIAO edge contacts",
+      "scope": "Only the named external connector is covered. Other connectors and internal signals are not included.",
+      "orientation": "Use the manufacturer diagram for orientation. Source labels are preserved; physical order is not inferred.",
+      "source": {
+        "url": "https://wiki.seeedstudio.com/xiao_mg24_getting_started/",
+        "sha256": "41ad901f3d3edef75795424d95a0766d9fd9830ef4624e618642976661165658",
+        "locator": "Pin Map ​ / XIAO Pin, Function, Chip Pin, Alternate Functions, Description"
+      },
+      "review": "Transcribed from manufacturer table; independent electrical validation pending",
+      "pins": [
+        {
+          "label": "5V",
+          "position": "5V",
+          "purpose": "Power Input/Output",
+          "notes": "Function: VBUS; Chip Pin: ; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "GND",
+          "position": "GND",
+          "purpose": "GND",
+          "notes": "Function: ; Chip Pin: ; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "3V3",
+          "position": "3V3",
+          "purpose": "Power Output",
+          "notes": "Function: 3V3_OUT; Chip Pin: ; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D0",
+          "position": "D0",
+          "purpose": "GPIO, ADC",
+          "notes": "Function: Analog; Chip Pin: PC00; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D1",
+          "position": "D1",
+          "purpose": "GPIO, ADC",
+          "notes": "Function: Analog; Chip Pin: PC01; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D2",
+          "position": "D2",
+          "purpose": "GPIO, ADC",
+          "notes": "Function: Analog; Chip Pin: PC02; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D3",
+          "position": "D3",
+          "purpose": "GPIO, SPI, ADC",
+          "notes": "Function: Analog; Chip Pin: PC03; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D4",
+          "position": "D4",
+          "purpose": "GPIO, I2C Data, ADC",
+          "notes": "Function: Analog,SDA; Chip Pin: PC04; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D5",
+          "position": "D5",
+          "purpose": "GPIO, I2C Clock, ADC",
+          "notes": "Function: Analog,SCL; Chip Pin: PC05; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D6",
+          "position": "D6",
+          "purpose": "GPIO, UART Transmit, ADC",
+          "notes": "Function: Analog,TX0; Chip Pin: PC06; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D7",
+          "position": "D7",
+          "purpose": "GPIO, UART Receive, ADC",
+          "notes": "Function: Analog,RX0; Chip Pin: PC07; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D8",
+          "position": "D8",
+          "purpose": "GPIO, SPI Clock, ADC",
+          "notes": "Function: Analog,SCK0; Chip Pin: PA03; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D9",
+          "position": "D9",
+          "purpose": "GPIO, SPI Data, ADC",
+          "notes": "Function: Analog,MISO0; Chip Pin: PA04; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D10",
+          "position": "D10",
+          "purpose": "GPIO, SPI Data, ADC",
+          "notes": "Function: Analog,MOSI0; Chip Pin: PA05; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        }
+      ]
+    }
+  ],
+  "seeed-studio-rp2350-xiao-rp2350": [
+    {
+      "connector": "Standard XIAO edge contacts",
+      "scope": "Only the named external connector is covered. Other connectors and internal signals are not included.",
+      "orientation": "Use the manufacturer diagram for orientation. Source labels are preserved; physical order is not inferred.",
+      "source": {
+        "url": "https://wiki.seeedstudio.com/xiao_rp2350_arduino/",
+        "sha256": "55d1afc8fe122d155f6873470c014d0bf57ca696644bb02c598259d8565f56a1",
+        "locator": "Pin Map ​ / XIAO Pin, Function, Chip Pin, Alternate Functions, Description"
+      },
+      "review": "Transcribed from manufacturer table; independent electrical validation pending",
+      "pins": [
+        {
+          "label": "5V",
+          "position": "5V",
+          "purpose": "Power Input/Output",
+          "notes": "Function: VBUS; Chip Pin: ; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "GND",
+          "position": "GND",
+          "purpose": "GND",
+          "notes": "Function: ; Chip Pin: ; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "3V3",
+          "position": "3V3",
+          "purpose": "Power Output",
+          "notes": "Function: 3V3_OUT; Chip Pin: ; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D0",
+          "position": "D0",
+          "purpose": "GPIO, ADC",
+          "notes": "Function: Analog; Chip Pin: GPIO26; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D1",
+          "position": "D1",
+          "purpose": "GPIO, ADC",
+          "notes": "Function: Analog; Chip Pin: GPIO27; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D2",
+          "position": "D2",
+          "purpose": "GPIO, ADC",
+          "notes": "Function: Analog; Chip Pin: GPIO28; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D3",
+          "position": "D3",
+          "purpose": "GPIO, SPI",
+          "notes": "Function: SPI0_CSn; Chip Pin: GPIO5; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D4",
+          "position": "D4",
+          "purpose": "GPIO, I2C Data",
+          "notes": "Function: SDA1; Chip Pin: GPIO6; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D5",
+          "position": "D5",
+          "purpose": "GPIO, I2C Clock",
+          "notes": "Function: SCL1; Chip Pin: GPIO7; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D6",
+          "position": "D6",
+          "purpose": "GPIO, UART Transmit",
+          "notes": "Function: TX0; Chip Pin: GPIO0; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D7",
+          "position": "D7",
+          "purpose": "GPIO, UART Receive",
+          "notes": "Function: RX0; Chip Pin: GPIO1; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D8",
+          "position": "D8",
+          "purpose": "GPIO, SPI Clock",
+          "notes": "Function: SPI0_SCK; Chip Pin: GPIO2; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D9",
+          "position": "D9",
+          "purpose": "GPIO, SPI Data",
+          "notes": "Function: SPI0_MISO; Chip Pin: GPIO4; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D10",
+          "position": "D10",
+          "purpose": "GPIO, SPI Data",
+          "notes": "Function: SPI0_MOSI; Chip Pin: GPIO3; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        }
+      ]
+    }
+  ],
+  "seeed-studio-other-xiao-nrf54l15": [
+    {
+      "connector": "Standard XIAO edge contacts",
+      "scope": "Only the named external connector is covered. Other connectors and internal signals are not included.",
+      "orientation": "Use the manufacturer diagram for orientation. Source labels are preserved; physical order is not inferred.",
+      "source": {
+        "url": "https://wiki.seeedstudio.com/xiao_nrf54l15_sense_getting_started/",
+        "sha256": "37c278d38158589f4202db9d07f4b1b3aa1457d7644ab138575a235403684789",
+        "locator": "Pin Map ​ / XIAO Pin, Function, Chip Pin, Description"
+      },
+      "review": "Transcribed from manufacturer table; independent electrical validation pending",
+      "pins": [
+        {
+          "label": "5V",
+          "position": "5V",
+          "purpose": "Power Input/Output",
+          "notes": "Function: VBUS; Chip Pin: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "GND",
+          "position": "GND",
+          "purpose": "GND",
+          "notes": "Function: ; Chip Pin: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "3V3",
+          "position": "3V3",
+          "purpose": "Power Output",
+          "notes": "Function: 3V3_OUT; Chip Pin: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D0",
+          "position": "D0",
+          "purpose": "GPIO, ADC",
+          "notes": "Function: Analog; Chip Pin: P1.04; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D1",
+          "position": "D1",
+          "purpose": "GPIO, ADC",
+          "notes": "Function: Analog; Chip Pin: P1.05; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D2",
+          "position": "D2",
+          "purpose": "GPIO, ADC",
+          "notes": "Function: Analog; Chip Pin: P1.06; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D3",
+          "position": "D3",
+          "purpose": "GPIO, ADC",
+          "notes": "Function: Analog; Chip Pin: P1.07; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D4",
+          "position": "D4",
+          "purpose": "GPIO, I2C Data",
+          "notes": "Function: SDA-0; Chip Pin: P1.10; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D5",
+          "position": "D5",
+          "purpose": "GPIO, I2C Clock",
+          "notes": "Function: SCL-0; Chip Pin: P1.11; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D6",
+          "position": "D6",
+          "purpose": "GPIO, UART Transmit",
+          "notes": "Function: TX; Chip Pin: P2.08; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D7",
+          "position": "D7",
+          "purpose": "GPIO, UART Receive",
+          "notes": "Function: RX; Chip Pin: P2.07; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D8",
+          "position": "D8",
+          "purpose": "GPIO, SPI Clock",
+          "notes": "Function: SPI_SCK; Chip Pin: P2.01; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D9",
+          "position": "D9",
+          "purpose": "GPIO, SPI Data",
+          "notes": "Function: SPI_MISO; Chip Pin: P2.04; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D10",
+          "position": "D10",
+          "purpose": "GPIO, SPI Data",
+          "notes": "Function: SPI_MOSI; Chip Pin: P2.02; Standard edge contact only; no physical ordering inferred."
+        }
+      ]
+    }
+  ],
+  "seeed-studio-other-xiao-nrf54lm20a": [
+    {
+      "connector": "Standard XIAO edge contacts",
+      "scope": "Only the named external connector is covered. Other connectors and internal signals are not included.",
+      "orientation": "Use the manufacturer diagram for orientation. Source labels are preserved; physical order is not inferred.",
+      "source": {
+        "url": "https://wiki.seeedstudio.com/xiao_nrf54lm20a_getting_started/",
+        "sha256": "c29f22af982eab86ecb8de104fe0a564bb56ad921d9d0f834752c802cce5c1da",
+        "locator": "Pin Map ​ / XIAO Pin, Function, Chip Pin, Description"
+      },
+      "review": "Transcribed from manufacturer table; independent electrical validation pending",
+      "pins": [
+        {
+          "label": "VBUS",
+          "position": "VBUS",
+          "purpose": "5V Power Input/Output",
+          "notes": "Function: VBUS; Chip Pin: -; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "GND",
+          "position": "GND",
+          "purpose": "Ground",
+          "notes": "Function: GND; Chip Pin: -; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "3V3",
+          "position": "3V3",
+          "purpose": "3.3V Power Output",
+          "notes": "Function: 3V3-OUT; Chip Pin: -; Standard edge contact only; no physical ordering inferred."
+        }
+      ]
+    }
+  ],
+  "seeed-studio-esp32-xiao-esp32c3": [
+    {
+      "connector": "Standard XIAO edge contacts",
+      "scope": "Only the named external connector is covered. Other connectors and internal signals are not included.",
+      "orientation": "Use the manufacturer diagram for orientation. Source labels are preserved; physical order is not inferred.",
+      "source": {
+        "url": "https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/",
+        "sha256": "24969e60ec512dec88e2896a5158975c674648932bfae2dfe62583e7d8aec2c7",
+        "locator": "Pin Map ​ / XIAO Pin, Function, Chip Pin, Alternate Functions, Description"
+      },
+      "review": "Transcribed from manufacturer table; independent electrical validation pending",
+      "pins": [
+        {
+          "label": "5V",
+          "position": "5V",
+          "purpose": "Power Input/Output",
+          "notes": "Function: VBUS; Chip Pin: ; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "GND",
+          "position": "GND",
+          "purpose": "GND",
+          "notes": "Function: ; Chip Pin: ; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "3V3",
+          "position": "3V3",
+          "purpose": "Power Output",
+          "notes": "Function: 3V3_OUT; Chip Pin: ; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D0",
+          "position": "D0",
+          "purpose": "GPIO, ADC",
+          "notes": "Function: Analog; Chip Pin: GPIO2; Alternate Functions: ADC1_CH2,; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D1",
+          "position": "D1",
+          "purpose": "GPIO, ADC",
+          "notes": "Function: Analog; Chip Pin: GPIO3; Alternate Functions: ADC1_CH3; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D2",
+          "position": "D2",
+          "purpose": "GPIO, ADC",
+          "notes": "Function: Analog; Chip Pin: GPIO4; Alternate Functions: ADC1_CH4, FSPIHD, MTMS; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D3",
+          "position": "D3",
+          "purpose": "GPIO, ADC",
+          "notes": "Function: Analog; Chip Pin: GPIO5; Alternate Functions: ADC2_CH0, FSPIWP, MTDI; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D4",
+          "position": "D4",
+          "purpose": "GPIO, I2C Data",
+          "notes": "Function: SDA; Chip Pin: GPIO6; Alternate Functions: FSPICLK, MTCK; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D5",
+          "position": "D5",
+          "purpose": "GPIO, I2C Clock",
+          "notes": "Function: SCL; Chip Pin: GPIO7; Alternate Functions: FSPID, MTDO; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D6",
+          "position": "D6",
+          "purpose": "GPIO, UART Transmit",
+          "notes": "Function: TX; Chip Pin: GPIO21; Alternate Functions: U0TXD; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D7",
+          "position": "D7",
+          "purpose": "GPIO, UART Receive",
+          "notes": "Function: RX; Chip Pin: GPIO20; Alternate Functions: U0RXD; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D8",
+          "position": "D8",
+          "purpose": "GPIO, SPI Clock",
+          "notes": "Function: SCK; Chip Pin: GPIO8; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D9",
+          "position": "D9",
+          "purpose": "GPIO, SPI Data",
+          "notes": "Function: MISO; Chip Pin: GPIO9; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D10",
+          "position": "D10",
+          "purpose": "GPIO, SPI Data",
+          "notes": "Function: MOSI; Chip Pin: GPIO10; Alternate Functions: FSPICS0; Standard edge contact only; no physical ordering inferred."
+        }
+      ]
+    }
+  ],
+  "seeed-studio-esp32-xiao-esp32c5": [
+    {
+      "connector": "Standard XIAO edge contacts",
+      "scope": "Only the named external connector is covered. Other connectors and internal signals are not included.",
+      "orientation": "Use the manufacturer diagram for orientation. Source labels are preserved; physical order is not inferred.",
+      "source": {
+        "url": "https://wiki.seeedstudio.com/xiao_esp32c5_getting_started/",
+        "sha256": "0c6552f12669589149853160605d9772e665d47eefe947482a623cbd21779434",
+        "locator": "Pin Map ​ / XIAO Pin, Function, Chip Pin, Alternate Functions, Description"
+      },
+      "review": "Transcribed from manufacturer table; independent electrical validation pending",
+      "pins": [
+        {
+          "label": "5V",
+          "position": "5V",
+          "purpose": "Power Input/Output",
+          "notes": "Function: VBUS; Chip Pin: ; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "GND",
+          "position": "GND",
+          "purpose": "GND",
+          "notes": "Function: ; Chip Pin: ; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "3V3",
+          "position": "3V3",
+          "purpose": "Power Output",
+          "notes": "Function: 3V3_OUT; Chip Pin: ; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D0",
+          "position": "D0",
+          "purpose": "GPIO, ADC",
+          "notes": "Function: Analog; Chip Pin: GPIO1; Alternate Functions: LP_UART_DSRN, LP_GPIO1; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D1",
+          "position": "D1",
+          "purpose": "GPIO",
+          "notes": "Function: ; Chip Pin: GPIO0; Alternate Functions: LP_UART_DTRN, LP_GPIO0; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D2",
+          "position": "D2",
+          "purpose": "GPIO",
+          "notes": "Function: ; Chip Pin: GPIO25; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D3",
+          "position": "D3",
+          "purpose": "GPIO",
+          "notes": "Function: ; Chip Pin: GPIO7; Alternate Functions: SDIO_DATA1; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D4",
+          "position": "D4",
+          "purpose": "GPIO, I2C Data",
+          "notes": "Function: SDA; Chip Pin: GPIO23; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D5",
+          "position": "D5",
+          "purpose": "GPIO, I2C Clock",
+          "notes": "Function: SCL; Chip Pin: GPIO24; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D6",
+          "position": "D6",
+          "purpose": "GPIO, UART Transmit",
+          "notes": "Function: TX; Chip Pin: GPIO11; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D7",
+          "position": "D7",
+          "purpose": "GPIO, UART Receive",
+          "notes": "Function: RX; Chip Pin: GPIO12; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D8",
+          "position": "D8",
+          "purpose": "GPIO, SPI Clock",
+          "notes": "Function: SCK; Chip Pin: GPIO8; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D9",
+          "position": "D9",
+          "purpose": "GPIO, SPI Data",
+          "notes": "Function: MISO; Chip Pin: GPIO9; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D10",
+          "position": "D10",
+          "purpose": "GPIO, SPI Data",
+          "notes": "Function: MOSI; Chip Pin: GPIO10; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        }
+      ]
+    }
+  ],
+  "seeed-studio-esp32-xiao-esp32c6": [
+    {
+      "connector": "Standard XIAO edge contacts",
+      "scope": "Only the named external connector is covered. Other connectors and internal signals are not included.",
+      "orientation": "Use the manufacturer diagram for orientation. Source labels are preserved; physical order is not inferred.",
+      "source": {
+        "url": "https://wiki.seeedstudio.com/xiao_esp32c6_getting_started/",
+        "sha256": "507a8936faa44bddc92e8e798dcdd425d72b3de20bb8266bd342d04ea69cbe04",
+        "locator": "Pin Map ​ / XIAO Pin, Function, Chip Pin, Alternate Functions, Description"
+      },
+      "review": "Transcribed from manufacturer table; independent electrical validation pending",
+      "pins": [
+        {
+          "label": "5V",
+          "position": "5V",
+          "purpose": "Power Input/Output",
+          "notes": "Function: VBUS; Chip Pin: ; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "GND",
+          "position": "GND",
+          "purpose": "GND",
+          "notes": "Function: ; Chip Pin: ; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "3V3",
+          "position": "3V3",
+          "purpose": "Power Output",
+          "notes": "Function: 3V3_OUT; Chip Pin: ; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D0",
+          "position": "D0",
+          "purpose": "GPIO, ADC",
+          "notes": "Function: Analog; Chip Pin: GPIO0; Alternate Functions: LP_GPIO0; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D1",
+          "position": "D1",
+          "purpose": "GPIO, ADC",
+          "notes": "Function: Analog; Chip Pin: GPIO1; Alternate Functions: LP_GPIO1; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D2",
+          "position": "D2",
+          "purpose": "GPIO, ADC",
+          "notes": "Function: Analog; Chip Pin: GPIO2; Alternate Functions: LP_GPIO2; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D3",
+          "position": "D3",
+          "purpose": "GPIO",
+          "notes": "Function: Digital; Chip Pin: GPIO21; Alternate Functions: SDIO_DATA1; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D4",
+          "position": "D4",
+          "purpose": "GPIO, I2C Data",
+          "notes": "Function: SDA; Chip Pin: GPIO22; Alternate Functions: SDIO_DATA2; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D5",
+          "position": "D5",
+          "purpose": "GPIO, I2C Clock",
+          "notes": "Function: SCL; Chip Pin: GPIO23; Alternate Functions: SDIO_DATA3; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D6",
+          "position": "D6",
+          "purpose": "GPIO, UART Transmit",
+          "notes": "Function: TX; Chip Pin: GPIO16; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D7",
+          "position": "D7",
+          "purpose": "GPIO, UART Receive",
+          "notes": "Function: RX; Chip Pin: GPIO17; Alternate Functions: ; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D8",
+          "position": "D8",
+          "purpose": "GPIO, SPI Clock",
+          "notes": "Function: SCK; Chip Pin: GPIO19; Alternate Functions: SPI_CLK; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D9",
+          "position": "D9",
+          "purpose": "GPIO, SPI Data",
+          "notes": "Function: MISO; Chip Pin: GPIO20; Alternate Functions: SPI_MISO; Standard edge contact only; no physical ordering inferred."
+        },
+        {
+          "label": "D10",
+          "position": "D10",
+          "purpose": "GPIO, SPI Data",
+          "notes": "Function: MOSI; Chip Pin: GPIO18; Alternate Functions: SPI_MOSI; Standard edge contact only; no physical ordering inferred."
+        }
+      ]
+    }
   ]
 }

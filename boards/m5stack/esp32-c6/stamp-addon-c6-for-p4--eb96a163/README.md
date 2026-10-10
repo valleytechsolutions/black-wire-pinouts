@@ -4,7 +4,7 @@
 
 Revision: Not identified
 
-Coverage: Pinout image collected
+Coverage: Manufacturer references reviewed by scope; independent electrical and all-connector review pending
 
 [Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=m5stack-expansion-stamp-addon-c6-for-p4)
 
@@ -12,8 +12,10 @@ Coverage: Pinout image collected
 
 Board datasheet: **not yet recorded**. Visual reference: **available**.
 
-[Manufacturer source (recorded link)](https://docs.m5stack.com/en/stamp/Stamp-AddOn_C6_For_P4)
+[Manufacturer hardware documentation](https://docs.m5stack.com/en/stamp/Stamp-AddOn_C6_For_P4)
 
+- **schematic / board**: [Stamp-AddOn C6 For P4 Schematics PDF](https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1220/SCH_C6_Add-on_Stamp-P4_2026_03_16_15_10_59.pdf) · [saved document](../../../../library/media/bcb1e4156259fe2f648c7eabda1870552fdbcb1e46b02461b6e6337d05033ef8.pdf)
+- **hardware-guide / board**: [Manufacturer pin and hardware documentation](https://docs.m5stack.com/en/stamp/Stamp-AddOn_C6_For_P4) · online
 
 A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
 
@@ -54,5 +56,23 @@ Original source index: Dimensions. This file is searchable but has not been prom
 Image revision: Not identified
 
 SHA-256: `546cd7f412f2fea548e355a500cc853569908aaca2042ec241f8b81f2483184d`
+
+## Stamp-AddOn C6 For P4 Schematics PDF
+
+**original reference PDF** · Manufacturer source and first-page preview inspected; electrical correctness and all-connector completeness not independently approved. · PDF
+
+[![Stamp-AddOn C6 For P4 reference preview](../../../../library/thumbs/bcb1e4156259fe2f648c7eabda1870552fdbcb1e46b02461b6e6337d05033ef8.webp)](../../../../library/media/bcb1e4156259fe2f648c7eabda1870552fdbcb1e46b02461b6e6337d05033ef8.pdf)
+
+[Open original reference](../../../../library/media/bcb1e4156259fe2f648c7eabda1870552fdbcb1e46b02461b6e6337d05033ef8.pdf)
+
+**Credit and rights:** Manufacturer artwork; reuse and print rights not established. Inclusion does not relicense the original.. Source/manufacturer: M5Stack.
+
+[Source 1](https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1220/SCH_C6_Add-on_Stamp-P4_2026_03_16_15_10_59.pdf) · [Source 2](https://docs.m5stack.com/en/stamp/Stamp-AddOn_C6_For_P4)
+
+Manufacturer source retained unchanged. Manufacturer source and first-page preview inspected; electrical correctness and all-connector completeness not independently approved.
+
+Image revision: As supplied in the original; match exact board revision
+
+SHA-256: `bcb1e4156259fe2f648c7eabda1870552fdbcb1e46b02461b6e6337d05033ef8`
 
 Pin assignments have not been independently electrically verified. Check board revision before wiring.

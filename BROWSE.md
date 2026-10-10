@@ -26,7 +26,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Adafruit Mini Sparkle Motion](boards/adafruit/esp32-original/adafruit-mini-sparkle-motion--3cb6425c/README.md) | ESP32 original | 2 | 1 |
 | [Adafruit QT Py ESP32 Pico](boards/adafruit/esp32/adafruit-qt-py-esp32-pico--f12f4c43/README.md) | ESP32 | 2 | 1 |
 | [Adafruit QT Py ESP32-S2 (including uFL version)](boards/adafruit/esp32-s2/adafruit-qt-py-esp32-s2-including-ufl-version--ad4a9acc/README.md) | ESP32-S2 | 2 | 1 |
-| [Adafruit Sparkle Motion](boards/adafruit/esp32-original/adafruit-sparkle-motion--3db12a34/README.md) | ESP32 original | 2 | 1 |
+| [Adafruit Sparkle Motion](boards/adafruit/esp32-original/adafruit-sparkle-motion--3db12a34/README.md) | ESP32 original | 4 | 2 |
 | [CH552 QT Py](boards/adafruit/ch552/ch552-qt-py--e5dc55fc/README.md) | CH552 | 2 | 1 |
 | [Circuit Playground Bluefruit](boards/adafruit/other/circuit-playground-bluefruit--323e2e67/README.md) | Other | 2 | 1 |
 | [ESP32-S2 Reverse TFT Feather](boards/adafruit/esp32-s2/esp32-s2-reverse-tft-feather--eb651830/README.md) | ESP32-S2 | 4 | 2 |
@@ -67,7 +67,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Feather RP2040 with DVI Output Port](boards/adafruit/rp2040/feather-rp2040-with-dvi-output-port--0c0b733f/README.md) | RP2040 | 2 | 1 |
 | [Feather RP2040 with USB Type A Host](boards/adafruit/rp2040/feather-rp2040-with-usb-type-a-host--5fd0807b/README.md) | RP2040 | 2 | 1 |
 | [Feather RP2350](boards/adafruit/rp2350/feather-rp2350--9d1a08f0/README.md) | RP2350 | 2 | 1 |
-| [Fruit Jam - Mini RP2350 Computer](boards/adafruit/rp2350/fruit-jam-mini-rp2350-computer--029cc34f/README.md) | RP2350 | 2 | 1 |
+| [Fruit Jam - Mini RP2350 Computer](boards/adafruit/rp2350/fruit-jam-mini-rp2350-computer--029cc34f/README.md) | RP2350 | 4 | 2 |
 | [FunHouse - WiFi Home Automation Development Board](boards/adafruit/esp32-s2/funhouse---wifi-home-automation-development-board--575ae98e/README.md) | ESP32-S2 | 2 | 1 |
 | [Gemma](boards/adafruit/attiny85/gemma--f02d2fa0/README.md) | ATtiny85 | 2 | 1 |
 | [GEMMA M0](boards/adafruit/samd21/gemma-m0--f654f4b2/README.md) | SAMD21 | 2 | 1 |
@@ -133,7 +133,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | Board / device | Processor / family | References | Pinout images |
 |---|---|---:|---:|
 | [Alvik](boards/arduino/gpio-device/alvik--ec372a78/README.md) | GPIO device | 1 | 1 |
-| [Arduino UNO Q](boards/arduino/other/arduino-uno-q--12ca28a4/README.md) | Other | 9 | 7 |
+| [Arduino UNO Q](boards/arduino/other/arduino-uno-q--12ca28a4/README.md) | Other | 10 | 7 |
 | [Arduino UNO R3](boards/arduino/other/arduino-uno-r3--b128cf96/README.md) | Other | 10 | 9 |
 | [Board Serial Single Sided v3](boards/arduino/other/board-serial-single-sided-v3--26f9655c/README.md) | Other | 2 | 1 |
 | [Diecimila](boards/arduino/other/diecimila--e965ea95/README.md) | Other | 1 | 0 |
@@ -182,13 +182,14 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Portenta Machine Control](boards/arduino/other/portenta-machine-control--e78f5831/README.md) | Other | 11 | 6 |
 | [Portenta X8](boards/arduino/other/portenta-x8--9b13e63d/README.md) | Other | 20 | 10 |
 | [Stella](boards/arduino/gpio-device/stella--9c840d79/README.md) | GPIO device | 3 | 2 |
+| [UNO Breakout Carrier](boards/arduino/passive-uno-q-carrier-mcu-and-mpu-signals-have-different-logic-voltages/uno-breakout-carrier--56dc4a81/README.md) | Passive UNO Q carrier; MCU and MPU signals have different logic voltages | 4 | 2 |
 | [UNO Mini Limited Edition](boards/arduino/other/uno-mini-limited-edition--87b35d7f/README.md) | Other | 6 | 5 |
 | [UNO R3 SMD](boards/arduino/other/uno-r3-smd--5cade729/README.md) | Other | 5 | 4 |
 | [UNO R4 Minima](boards/arduino/other/uno-r4-minima--8fe36a91/README.md) | Other | 6 | 5 |
 | [UNO R4 WiFi](boards/arduino/other/uno-r4-wifi--264ce1f0/README.md) | Other | 6 | 4 |
 | [UNO Rev3 with Long Pins](boards/arduino/other/uno-rev3-with-long-pins--e826b0e4/README.md) | Other | 1 | 1 |
 | [UNO WiFi Rev2](boards/arduino/other/uno-wifi-rev2--e4ad2e9e/README.md) | Other | 5 | 3 |
-| [VENTUNO Q](boards/arduino/other/ventuno-q--36dc468d/README.md) | Other | 9 | 8 |
+| [VENTUNO Q](boards/arduino/other/ventuno-q--36dc468d/README.md) | Other | 10 | 8 |
 | [Yún Rev2](boards/arduino/other/y-n-rev2--ce315756/README.md) | Other | 5 | 3 |
 | [Zero](boards/arduino/other/zero--2034913a/README.md) | Other | 4 | 3 |
 
@@ -291,7 +292,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Romeo ESP32-S3 Robot Development Board / DFR0994](boards/dfrobot/esp32-s3/romeo-esp32-s3-robot-development-board-dfr0994--983ec5f2/README.md) | ESP32-S3 | 1 | 0 |
 | [Romeo Robot Control Board / DFR0004](boards/dfrobot/atmega328p/romeo-robot-control-board-dfr0004--ad40e224/README.md) | ATmega328P | 1 | 0 |
 | [Romeo V2 ATmega32u4 All-in-One Robotics Microcontroller Board / DFR0225](boards/dfrobot/atmega32u4/romeo-v2-atmega32u4-all-in-one-robotics-microcontroller-board-dfr0225--39d3aa29/README.md) | ATmega32U4 | 2 | 1 |
-| [UNIHIKER K10 / DFR0992-EN](boards/dfrobot/esp32-s3/unihiker-k10-dfr0992-en--807626db/README.md) | ESP32-S3 | 1 | 0 |
+| [UNIHIKER K10 / DFR0992-EN](boards/dfrobot/esp32-s3/unihiker-k10-dfr0992-en--807626db/README.md) | ESP32-S3 | 2 | 0 |
 | [WIFI IoT Node Development Board / DFR0321](boards/dfrobot/atmega32u4/wifi-iot-node-development-board-dfr0321--1e03db24/README.md) | ATmega32U4 | 2 | 1 |
 | [Xboard Relay / DFR0222](boards/dfrobot/atmega32u4/xboard-relay-dfr0222--6b2e981d/README.md) | ATmega32U4 | 1 | 0 |
 | [XBoard V2 / DFR0162](boards/dfrobot/atmega328p/xboard-v2-dfr0162--670d9937/README.md) | ATmega328P | 2 | 0 |
@@ -817,8 +818,9 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [485T](boards/m5stack/source-collection/485t--6d98d0d8/README.md) | Source collection | 1 | 0 |
 | [6060-Push](boards/m5stack/source-collection/6060-push--dc291493/README.md) | Source collection | 1 | 0 |
 | [AddOn Display In For PoE-P4](boards/m5stack/expansion/addon-display-in-for-poe-p4--0924c673/README.md) | Expansion | 2 | 1 |
-| [AddOn Display Out For PoE-P4](boards/m5stack/expansion/addon-display-out-for-poe-p4--fcfd668b/README.md) | Expansion | 2 | 1 |
-| [AI Pyramid](boards/m5stack/source-collection/ai-pyramid--50032434/README.md) | Source collection | 1 | 0 |
+| [AddOn Display Out For PoE-P4](boards/m5stack/expansion/addon-display-out-for-poe-p4--fcfd668b/README.md) | Expansion | 3 | 1 |
+| [AI Pyramid](boards/m5stack/source-collection/ai-pyramid--50032434/README.md) | Source collection | 4 | 0 |
+| [AI Pyramid-Pro](boards/m5stack/axera-ax8850/ai-pyramid-pro--aab92513/README.md) | Axera AX8850 | 3 | 0 |
 | [Air Quality](boards/m5stack/source-collection/air-quality--4627b9b1/README.md) | Source collection | 1 | 0 |
 | [Air Quality v1.1](boards/m5stack/source-collection/air-quality-v1.1--36d8b87e/README.md) | Source collection | 1 | 0 |
 | [Aluminium Extrusions](boards/m5stack/source-collection/aluminium-extrusions--6350d450/README.md) | Source collection | 5 | 0 |
@@ -826,10 +828,10 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Atom Display](boards/m5stack/source-collection/atom-display--50021de6/README.md) | Source collection | 1 | 0 |
 | [Atom DTU LoRaWAN-CN470](boards/m5stack/source-collection/atom-dtu-lorawan-cn470--91a6f9ad/README.md) | Source collection | 1 | 0 |
 | [Atom DTU NBIoT2](boards/m5stack/source-collection/atom-dtu-nbiot2--2c98e202/README.md) | Source collection | 1 | 0 |
-| [Atom DTU NBIoT2 v1.1](boards/m5stack/source-collection/atom-dtu-nbiot2-v1.1--90daea37/README.md) | Source collection | 1 | 0 |
+| [Atom DTU NBIoT2 v1.1](boards/m5stack/source-collection/atom-dtu-nbiot2-v1.1--90daea37/README.md) | Source collection | 2 | 0 |
 | [Atom Hub Proto](boards/m5stack/source-collection/atom-hub-proto--c0a82a47/README.md) | Source collection | 1 | 0 |
 | [Atom JoyStick](boards/m5stack/source-collection/atom-joystick--98bf203b/README.md) | Source collection | 1 | 0 |
-| [Atom JoyStick v1.1](boards/m5stack/source-collection/atom-joystick-v1.1--96a823e3/README.md) | Source collection | 1 | 0 |
+| [Atom JoyStick v1.1](boards/m5stack/source-collection/atom-joystick-v1.1--96a823e3/README.md) | Source collection | 2 | 0 |
 | [ATOM Lite ESP32 IoT](boards/m5stack/esp32-original/atom-lite-esp32-iot--60a1b810/README.md) | ESP32 original | 1 | 1 |
 | [Atom Mate](boards/m5stack/source-collection/atom-mate--9ce2ae76/README.md) | Source collection | 1 | 0 |
 | [ATOM Matrix ESP32](boards/m5stack/esp32-original/atom-matrix-esp32--9c80ed51/README.md) | ESP32 original | 1 | 1 |
@@ -878,11 +880,11 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Base BTC](boards/m5stack/source-collection/base-btc--395d5501/README.md) | Source collection | 1 | 0 |
 | [Base DIN](boards/m5stack/source-collection/base-din--a69c4a0c/README.md) | Source collection | 1 | 0 |
 | [Base DMX](boards/m5stack/source-collection/base-dmx--4fea61e8/README.md) | Source collection | 1 | 0 |
-| [Base Dual 16340](boards/m5stack/source-collection/base-dual-16340--f4ba7773/README.md) | Source collection | 1 | 0 |
+| [Base Dual 16340](boards/m5stack/source-collection/base-dual-16340--f4ba7773/README.md) | Source collection | 2 | 0 |
 | [Base LAN](boards/m5stack/source-collection/base-lan--d57827ef/README.md) | Source collection | 1 | 0 |
 | [Base LAN PoE v1.2](boards/m5stack/source-collection/base-lan-poe-v1.2--29f9a8a9/README.md) | Source collection | 1 | 0 |
 | [Base M5GO Bottom](boards/m5stack/source-collection/base-m5go-bottom--eaa6a71d/README.md) | Source collection | 1 | 0 |
-| [Base M5GO Bottom2 v1.3](boards/m5stack/source-collection/base-m5go-bottom2-v1.3--d8bec61f/README.md) | Source collection | 1 | 0 |
+| [Base M5GO Bottom2 v1.3](boards/m5stack/source-collection/base-m5go-bottom2-v1.3--d8bec61f/README.md) | Source collection | 2 | 0 |
 | [Base M5GO Charger](boards/m5stack/source-collection/base-m5go-charger--0e2ca801/README.md) | Source collection | 1 | 0 |
 | [Base PLC-M12](boards/m5stack/source-collection/base-plc-m12--c315344d/README.md) | Source collection | 1 | 0 |
 | [Base X](boards/m5stack/source-collection/base-x--2870935e/README.md) | Source collection | 1 | 0 |
@@ -894,30 +896,33 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Bus Socket SMD 13.2](boards/m5stack/source-collection/bus-socket-smd-13.2--23f35935/README.md) | Source collection | 1 | 0 |
 | [Butterfly Launcher](boards/m5stack/expansion/butterfly-launcher--d83e1f9d/README.md) | Expansion | 1 | 0 |
 | [CamModule SC850SL](boards/m5stack/source-collection/cammodule-sc850sl--2b00fee9/README.md) | Source collection | 1 | 0 |
-| [Cap CC1101](boards/m5stack/source-collection/cap-cc1101--0dc7f571/README.md) | Source collection | 1 | 0 |
-| [Cap LoRa-1262](boards/m5stack/source-collection/cap-lora-1262--cf7400c3/README.md) | Source collection | 1 | 0 |
+| [Cap CC1101](boards/m5stack/source-collection/cap-cc1101--0dc7f571/README.md) | Source collection | 2 | 0 |
+| [Cap LoRa-1262](boards/m5stack/source-collection/cap-lora-1262--cf7400c3/README.md) | Source collection | 2 | 0 |
 | [Cap LoRa868](boards/m5stack/source-collection/cap-lora868--853e9c01/README.md) | Source collection | 1 | 0 |
 | [Capsule](boards/m5stack/esp32-s3/capsule--8cbfd0c9/README.md) | ESP32-S3 | 2 | 1 |
 | [Capsule Proto](boards/m5stack/source-collection/capsule-proto--53fb5f97/README.md) | Source collection | 1 | 0 |
-| [Capsule v1.1](boards/m5stack/esp32-s3/capsule-v1.1--c1a8b803/README.md) | ESP32-S3 | 2 | 1 |
+| [Capsule v1.1](boards/m5stack/esp32-s3/capsule-v1.1--c1a8b803/README.md) | ESP32-S3 | 4 | 1 |
 | [Cardputer](boards/m5stack/source-collection/cardputer--dc0288bf/README.md) | Source collection | 1 | 0 |
 | [Cardputer Accessory Kit](boards/m5stack/source-collection/cardputer-accessory-kit--b728559a/README.md) | Source collection | 1 | 0 |
-| [Cardputer Mesh Kit](boards/m5stack/source-collection/cardputer-mesh-kit--411284d3/README.md) | Source collection | 1 | 0 |
-| [Cardputer-Adv](boards/m5stack/esp32-s3/cardputer-adv--52772803/README.md) | ESP32-S3 | 2 | 1 |
+| [Cardputer Mesh Kit](boards/m5stack/source-collection/cardputer-mesh-kit--411284d3/README.md) | Source collection | 4 | 0 |
+| [Cardputer-Adv](boards/m5stack/esp32-s3/cardputer-adv--52772803/README.md) | ESP32-S3 | 4 | 1 |
 | [CardputerZero](boards/m5stack/raspberry-pi-cm0/cardputerzero--f53c0029/README.md) | Raspberry Pi CM0 | 3 | 2 |
 | [Chain Angle](boards/m5stack/source-collection/chain-angle--2a4b1a5d/README.md) | Source collection | 1 | 0 |
 | [Chain Blank](boards/m5stack/source-collection/chain-blank--cf70fbde/README.md) | Source collection | 1 | 0 |
 | [Chain Bridge](boards/m5stack/source-collection/chain-bridge--4120c793/README.md) | Source collection | 1 | 0 |
-| [Chain Buzzer](boards/m5stack/source-collection/chain-buzzer--140ef1bf/README.md) | Source collection | 1 | 0 |
+| [Chain Buzzer](boards/m5stack/source-collection/chain-buzzer--140ef1bf/README.md) | Source collection | 2 | 0 |
 | [Chain DualKey](boards/m5stack/source-collection/chain-dualkey--1b422833/README.md) | Source collection | 1 | 0 |
 | [Chain Encoder](boards/m5stack/source-collection/chain-encoder--f2b0a69a/README.md) | Source collection | 1 | 0 |
 | [Chain Joystick](boards/m5stack/source-collection/chain-joystick--fe3a54d5/README.md) | Source collection | 1 | 0 |
 | [Chain Key](boards/m5stack/source-collection/chain-key--755967eb/README.md) | Source collection | 1 | 0 |
-| [Chain Mono](boards/m5stack/source-collection/chain-mono--0a91dd2f/README.md) | Source collection | 1 | 0 |
+| [Chain MIC](boards/m5stack/stm32g031g8u6/chain-mic--7c407238/README.md) | STM32G031G8U6 | 1 | 0 |
+| [Chain Mono](boards/m5stack/source-collection/chain-mono--0a91dd2f/README.md) | Source collection | 2 | 0 |
 | [Chain Mount](boards/m5stack/source-collection/chain-mount--c321cf89/README.md) | Source collection | 1 | 0 |
 | [Chain PIR](boards/m5stack/source-collection/chain-pir--ec1ef1bf/README.md) | Source collection | 1 | 0 |
 | [Chain Return](boards/m5stack/source-collection/chain-return--f0369dbb/README.md) | Source collection | 1 | 0 |
-| [Chain ToF](boards/m5stack/source-collection/chain-tof--6e076c99/README.md) | Source collection | 1 | 0 |
+| [Chain RGB](boards/m5stack/stm32g031g8u6/chain-rgb--27e97649/README.md) | STM32G031G8U6 | 1 | 0 |
+| [Chain Switch](boards/m5stack/stm32g031g8u6/chain-switch--d718d350/README.md) | STM32G031G8U6 | 1 | 0 |
+| [Chain ToF](boards/m5stack/source-collection/chain-tof--6e076c99/README.md) | Source collection | 2 | 0 |
 | [CLIP-A](boards/m5stack/source-collection/clip-a--a1243de4/README.md) | Source collection | 4 | 0 |
 | [CLIP-B](boards/m5stack/source-collection/clip-b--f3d3eaeb/README.md) | Source collection | 3 | 0 |
 | [CM4Stack](boards/m5stack/other-sbc/cm4stack--f3066c35/README.md) | Other SBC | 2 | 0 |
@@ -925,9 +930,9 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Core Metal](boards/m5stack/source-collection/core-metal--6ccc39c0/README.md) | Source collection | 1 | 0 |
 | [Core2](boards/m5stack/esp32-original/core2--0a447d1b/README.md) | ESP32 original | 2 | 0 |
 | [Core2 For AWS](boards/m5stack/source-collection/core2-for-aws--a6876e4a/README.md) | Source collection | 1 | 0 |
-| [Core2 For AWS v1.3](boards/m5stack/source-collection/core2-for-aws-v1.3--013215c0/README.md) | Source collection | 1 | 0 |
+| [Core2 For AWS v1.3](boards/m5stack/source-collection/core2-for-aws-v1.3--013215c0/README.md) | Source collection | 3 | 0 |
 | [Core2 v1.1](boards/m5stack/esp32-original/core2-v1.1--64a2cd79/README.md) | ESP32 original | 1 | 0 |
-| [Core2 v1.3](boards/m5stack/source-collection/core2-v1.3--cbce64b8/README.md) | Source collection | 1 | 0 |
+| [Core2 v1.3](boards/m5stack/source-collection/core2-v1.3--cbce64b8/README.md) | Source collection | 3 | 0 |
 | [CoreInk](boards/m5stack/source-collection/coreink--bfc56923/README.md) | Source collection | 1 | 0 |
 | [CoreInk Proto Base](boards/m5stack/source-collection/coreink-proto-base--9ed9f9d0/README.md) | Source collection | 1 | 0 |
 | [CoreMP135](boards/m5stack/other-sbc/coremp135--b9433749/README.md) | Other SBC | 2 | 0 |
@@ -940,17 +945,18 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Demo Board-SHT30](boards/m5stack/source-collection/demo-board-sht30--60c8c260/README.md) | Source collection | 1 | 0 |
 | [Dial v1.1](boards/m5stack/source-collection/dial-v1.1--51f32751/README.md) | Source collection | 1 | 0 |
 | [DinMeter](boards/m5stack/source-collection/dinmeter--99b12b29/README.md) | Source collection | 1 | 0 |
+| [DinMeter v1.1](boards/m5stack/esp32-s3fn8/dinmeter-v1-1--d619c2e2/README.md) | ESP32-S3FN8 | 1 | 0 |
 | [Display 1.14 For StickS3](boards/m5stack/expansion/display-1.14-for-sticks3--3057bd8c/README.md) | Expansion | 2 | 1 |
 | [Display 1.14 Inch](boards/m5stack/source-collection/display-1.14-inch--4fcfe976/README.md) | Source collection | 1 | 0 |
 | [ESP32-CAM PSRAM](boards/m5stack/esp32/esp32-cam-psram--cb895c83/README.md) | ESP32 | 1 | 0 |
-| [Faces Bottom3](boards/m5stack/source-collection/faces-bottom3--43dddeac/README.md) | Source collection | 2 | 0 |
+| [Faces Bottom3](boards/m5stack/source-collection/faces-bottom3--43dddeac/README.md) | Source collection | 3 | 0 |
 | [Faces Calculator](boards/m5stack/expansion/faces-calculator--8aab9420/README.md) | Expansion | 1 | 0 |
-| [Faces Calculator3](boards/m5stack/source-collection/faces-calculator3--21efcc3c/README.md) | Source collection | 1 | 0 |
+| [Faces Calculator3](boards/m5stack/source-collection/faces-calculator3--21efcc3c/README.md) | Source collection | 2 | 0 |
 | [Faces Encoder](boards/m5stack/expansion/faces-encoder--9edf61f4/README.md) | Expansion | 1 | 0 |
 | [Faces Gamepad](boards/m5stack/expansion/faces-gamepad--3315b4ea/README.md) | Expansion | 1 | 0 |
-| [Faces Gamepad3](boards/m5stack/source-collection/faces-gamepad3--c613f5ed/README.md) | Source collection | 1 | 0 |
+| [Faces Gamepad3](boards/m5stack/source-collection/faces-gamepad3--c613f5ed/README.md) | Source collection | 2 | 0 |
 | [Faces Joystick](boards/m5stack/expansion/faces-joystick--e16a44b0/README.md) | Expansion | 1 | 0 |
-| [Faces Keyboard3](boards/m5stack/source-collection/faces-keyboard3--3e641f27/README.md) | Source collection | 1 | 0 |
+| [Faces Keyboard3](boards/m5stack/source-collection/faces-keyboard3--3e641f27/README.md) | Source collection | 2 | 0 |
 | [Faces Kit](boards/m5stack/esp32-original/faces-kit--48163c96/README.md) | ESP32 original | 1 | 0 |
 | [Faces QWERTY](boards/m5stack/expansion/faces-qwerty--f0daefca/README.md) | Expansion | 1 | 0 |
 | [Fire](boards/m5stack/source-collection/fire--5f2df3bb/README.md) | Source collection | 2 | 0 |
@@ -1043,7 +1049,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Module13.2 GoPlus2](boards/m5stack/source-collection/module13.2-goplus2--9107347b/README.md) | Source collection | 1 | 0 |
 | [Module13.2 GRBL](boards/m5stack/source-collection/module13.2-grbl--1655ceaf/README.md) | Source collection | 1 | 0 |
 | [Module13.2 LAN](boards/m5stack/expansion/module13.2-lan--1fdefcc2/README.md) | Expansion | 2 | 1 |
-| [Module13.2 LoRa-1262](boards/m5stack/expansion/module13.2-lora-1262--0ab68350/README.md) | Expansion | 2 | 1 |
+| [Module13.2 LoRa-1262](boards/m5stack/expansion/module13.2-lora-1262--0ab68350/README.md) | Expansion | 3 | 1 |
 | [Module13.2 PPS](boards/m5stack/source-collection/module13.2-pps--ef6deb9f/README.md) | Source collection | 1 | 0 |
 | [Module13.2 Proto](boards/m5stack/source-collection/module13.2-proto--c571ab0a/README.md) | Source collection | 1 | 0 |
 | [Module13.2 Proto-Meas](boards/m5stack/source-collection/module13.2-proto-meas--ac36c9ca/README.md) | Source collection | 1 | 0 |
@@ -1057,8 +1063,9 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Nut](boards/m5stack/source-collection/nut--128754ee/README.md) | Source collection | 1 | 0 |
 | [Panel Frame](boards/m5stack/source-collection/panel-frame--b138ec90/README.md) | Source collection | 1 | 0 |
 | [Paper](boards/m5stack/source-collection/paper--8258c917/README.md) | Source collection | 1 | 0 |
-| [PaperColor](boards/m5stack/source-collection/papercolor--deae4834/README.md) | Source collection | 1 | 0 |
-| [PaperMono](boards/m5stack/source-collection/papermono--4e2a3be2/README.md) | Source collection | 1 | 0 |
+| [PaperColor](boards/m5stack/source-collection/papercolor--deae4834/README.md) | Source collection | 2 | 0 |
+| [PaperMono](boards/m5stack/source-collection/papermono--4e2a3be2/README.md) | Source collection | 2 | 0 |
+| [PaperMono-Lite](boards/m5stack/esp32-s3r8/papermono-lite--aa91cb06/README.md) | ESP32-S3R8 | 1 | 0 |
 | [PaperS3](boards/m5stack/source-collection/papers3--adfc71d1/README.md) | Source collection | 1 | 0 |
 | [PM2.5 Air Quality Kit-SHT30](boards/m5stack/source-collection/pm2.5-air-quality-kit-sht30--0c814a03/README.md) | Source collection | 1 | 0 |
 | [PowerHub](boards/m5stack/source-collection/powerhub--d28796f7/README.md) | Source collection | 1 | 0 |
@@ -1067,28 +1074,29 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Scales Kit](boards/m5stack/source-collection/scales-kit--8884770a/README.md) | Source collection | 1 | 0 |
 | [Servo Kit 180°](boards/m5stack/source-collection/servo-kit-180--b56dba84/README.md) | Source collection | 1 | 0 |
 | [StackChan](boards/m5stack/source-collection/stackchan--3e6b0ed9/README.md) | Source collection | 2 | 0 |
-| [StackChan Body](boards/m5stack/source-collection/stackchan-body--7c913482/README.md) | Source collection | 1 | 0 |
-| [Stamp C6LoRa](boards/m5stack/esp32-c6/stamp-c6lora--dd3c9e5c/README.md) | ESP32-C6 | 2 | 1 |
+| [StackChan Body](boards/m5stack/source-collection/stackchan-body--7c913482/README.md) | Source collection | 5 | 0 |
+| [StackChan Core](boards/m5stack/esp32-s3/stackchan-core--417d7268/README.md) | ESP32-S3 | 1 | 0 |
+| [Stamp C6LoRa](boards/m5stack/esp32-c6/stamp-c6lora--dd3c9e5c/README.md) | ESP32-C6 | 3 | 1 |
 | [Stamp Cat1](boards/m5stack/source-collection/stamp-cat1--02971278/README.md) | Source collection | 1 | 0 |
 | [Stamp IO](boards/m5stack/source-collection/stamp-io--f759ca2a/README.md) | Source collection | 1 | 0 |
 | [Stamp ISP](boards/m5stack/source-collection/stamp-isp--469076c8/README.md) | Source collection | 1 | 0 |
-| [Stamp LoRa-1262](boards/m5stack/expansion/stamp-lora-1262--f494a95f/README.md) | Expansion | 4 | 1 |
+| [Stamp LoRa-1262](boards/m5stack/expansion/stamp-lora-1262--f494a95f/README.md) | Expansion | 7 | 3 |
 | [Stamp LoRa-1262 I](boards/m5stack/expansion/stamp-lora-1262-i--f7ce58e1/README.md) | Expansion | 1 | 1 |
 | [Stamp LoRa-1262 IF](boards/m5stack/expansion/stamp-lora-1262-if--7c9aa2c3/README.md) | Expansion | 1 | 1 |
 | [Stamp PWR485](boards/m5stack/source-collection/stamp-pwr485--18074507/README.md) | Source collection | 1 | 0 |
 | [Stamp Timer Power](boards/m5stack/source-collection/stamp-timer-power--ea8df782/README.md) | Source collection | 1 | 0 |
-| [Stamp UWB](boards/m5stack/expansion/stamp-uwb--ad26f54f/README.md) | Expansion | 2 | 1 |
-| [Stamp UWB F](boards/m5stack/expansion/stamp-uwb-f--7f31436c/README.md) | Expansion | 2 | 1 |
-| [Stamp-AddOn C6 For P4](boards/m5stack/esp32-c6/stamp-addon-c6-for-p4--eb96a163/README.md) | ESP32-C6 | 2 | 1 |
-| [Stamp-AddOn Cam0308](boards/m5stack/expansion/stamp-addon-cam0308--c7b86a14/README.md) | Expansion | 2 | 1 |
+| [Stamp UWB](boards/m5stack/expansion/stamp-uwb--ad26f54f/README.md) | Expansion | 3 | 1 |
+| [Stamp UWB F](boards/m5stack/expansion/stamp-uwb-f--7f31436c/README.md) | Expansion | 3 | 1 |
+| [Stamp-AddOn C6 For P4](boards/m5stack/esp32-c6/stamp-addon-c6-for-p4--eb96a163/README.md) | ESP32-C6 | 3 | 1 |
+| [Stamp-AddOn Cam0308](boards/m5stack/expansion/stamp-addon-cam0308--c7b86a14/README.md) | Expansion | 3 | 1 |
 | [Stamp-AddOn Cam3660](boards/m5stack/expansion/stamp-addon-cam3660--cdd12c99/README.md) | Expansion | 1 | 1 |
 | [Stamp-C3](boards/m5stack/source-collection/stamp-c3--05a67d20/README.md) | Source collection | 1 | 0 |
 | [Stamp-C3 Mate](boards/m5stack/esp32-c3/stamp-c3-mate--f6f55b6b/README.md) | ESP32-C3 | 1 | 1 |
 | [Stamp-C3U](boards/m5stack/esp32-c3/stamp-c3u--686edf2d/README.md) | ESP32-C3 | 1 | 1 |
 | [Stamp-C3U Mate](boards/m5stack/esp32-c3/stamp-c3u-mate--cd43ab20/README.md) | ESP32-C3 | 1 | 1 |
-| [Stamp-C5](boards/m5stack/esp32-c5/stamp-c5--bd8acec6/README.md) | ESP32-C5 | 2 | 1 |
-| [Stamp-C5 DIP](boards/m5stack/esp32-c5/stamp-c5-dip--9793180a/README.md) | ESP32-C5 | 2 | 1 |
-| [Stamp-P4](boards/m5stack/esp32-p4/stamp-p4--027bc971/README.md) | ESP32-P4 | 2 | 1 |
+| [Stamp-C5](boards/m5stack/esp32-c5/stamp-c5--bd8acec6/README.md) | ESP32-C5 | 3 | 1 |
+| [Stamp-C5 DIP](boards/m5stack/esp32-c5/stamp-c5-dip--9793180a/README.md) | ESP32-C5 | 3 | 1 |
+| [Stamp-P4](boards/m5stack/esp32-p4/stamp-p4--027bc971/README.md) | ESP32-P4 | 3 | 1 |
 | [Stamp-Pico](boards/m5stack/esp32-original/stamp-pico--72a0203a/README.md) | ESP32 original | 3 | 1 |
 | [Stamp-Pico DIY Kit](boards/m5stack/esp32-original/stamp-pico-diy-kit--8b0e9330/README.md) | ESP32 original | 1 | 1 |
 | [Stamp-Pico Mate](boards/m5stack/esp32-original/stamp-pico-mate--7ae19829/README.md) | ESP32 original | 1 | 1 |
@@ -1101,38 +1109,39 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Stamp-S3A PIN1.27](boards/m5stack/source-collection/stamp-s3a-pin1.27--a754be6f/README.md) | Source collection | 1 | 0 |
 | [Stamp-S3A PIN2.54](boards/m5stack/source-collection/stamp-s3a-pin2.54--4bc5cccb/README.md) | Source collection | 1 | 0 |
 | [Stamp-S3Bat](boards/m5stack/esp32-s3/stamp-s3bat--48bc7976/README.md) | ESP32-S3 | 2 | 1 |
-| [Stamp-S3Bat DIP](boards/m5stack/esp32-s3/stamp-s3bat-dip--1b5b7ba1/README.md) | ESP32-S3 | 2 | 1 |
+| [Stamp-S3Bat DIP](boards/m5stack/esp32-s3/stamp-s3bat-dip--1b5b7ba1/README.md) | ESP32-S3 | 3 | 1 |
 | [StampFly](boards/m5stack/source-collection/stampfly--3f2649c6/README.md) | Source collection | 1 | 0 |
-| [StampFly v1.1](boards/m5stack/source-collection/stampfly-v1.1--9dfc1cc3/README.md) | Source collection | 1 | 0 |
+| [StampFly v1.1](boards/m5stack/source-collection/stampfly-v1.1--9dfc1cc3/README.md) | Source collection | 4 | 0 |
 | [StamPLC](boards/m5stack/source-collection/stamplc--32fadc5c/README.md) | Source collection | 1 | 0 |
 | [StamPLC AC](boards/m5stack/source-collection/stamplc-ac--bff7a789/README.md) | Source collection | 1 | 0 |
 | [StamPLC IO](boards/m5stack/source-collection/stamplc-io--6de1e2d1/README.md) | Source collection | 1 | 0 |
-| [StamPLC PoE](boards/m5stack/source-collection/stamplc-poe--c54ee433/README.md) | Source collection | 1 | 0 |
+| [StamPLC PoE](boards/m5stack/source-collection/stamplc-poe--c54ee433/README.md) | Source collection | 2 | 0 |
 | [Station-485](boards/m5stack/esp32-original/station-485--089eaecf/README.md) | ESP32 original | 2 | 1 |
 | [Station-Bat](boards/m5stack/esp32-original/station-bat--7aa23e61/README.md) | ESP32 original | 2 | 1 |
 | [Stick Watch Accessory Kit](boards/m5stack/source-collection/stick-watch-accessory-kit--734c1c50/README.md) | Source collection | 3 | 0 |
 | [StickC-Plus](boards/m5stack/esp32-original/stickc-plus--ab7c68a6/README.md) | ESP32 original | 2 | 2 |
-| [StickC-Plus SE](boards/m5stack/source-collection/stickc-plus-se--2e2ee474/README.md) | Source collection | 1 | 0 |
+| [StickC-Plus SE](boards/m5stack/source-collection/stickc-plus-se--2e2ee474/README.md) | Source collection | 2 | 0 |
 | [StickC-Plus2 Watch Kit](boards/m5stack/source-collection/stickc-plus2-watch-kit--934703df/README.md) | Source collection | 1 | 0 |
-| [StickS3](boards/m5stack/source-collection/sticks3--dfd8c6ca/README.md) | Source collection | 1 | 0 |
+| [StickS3](boards/m5stack/source-collection/sticks3--dfd8c6ca/README.md) | Source collection | 2 | 0 |
 | [StickT2](boards/m5stack/source-collection/stickt2--ec1f5dc9/README.md) | Source collection | 1 | 0 |
-| [StopWatch](boards/m5stack/source-collection/stopwatch--963feef8/README.md) | Source collection | 1 | 0 |
+| [StopWatch](boards/m5stack/source-collection/stopwatch--963feef8/README.md) | Source collection | 2 | 0 |
 | [SwitchC6](boards/m5stack/source-collection/switchc6--d064d41f/README.md) | Source collection | 1 | 0 |
 | [T-Lite](boards/m5stack/source-collection/t-lite--a7008fb9/README.md) | Source collection | 1 | 0 |
-| [Tab5](boards/m5stack/source-collection/tab5--96db330c/README.md) | Source collection | 1 | 0 |
+| [Tab5](boards/m5stack/source-collection/tab5--96db330c/README.md) | Source collection | 3 | 0 |
 | [Tab5 Keyboard](boards/m5stack/source-collection/tab5-keyboard--bd40d6da/README.md) | Source collection | 1 | 0 |
 | [Tail Bat](boards/m5stack/source-collection/tail-bat--ff1c2bfe/README.md) | Source collection | 1 | 0 |
 | [Tail RS485](boards/m5stack/source-collection/tail-rs485--5b2c2e9e/README.md) | Source collection | 1 | 0 |
 | [TimerCamera-F](boards/m5stack/source-collection/timercamera-f--37a4e98a/README.md) | Source collection | 1 | 0 |
 | [Tough](boards/m5stack/source-collection/tough--3692b841/README.md) | Source collection | 1 | 0 |
+| [ToughC5](boards/m5stack/esp32-c5hr8/toughc5--b3b41daf/README.md) | ESP32-C5HR8 | 1 | 0 |
 | [Unit 2Relay](boards/m5stack/source-collection/unit-2relay--4837c730/README.md) | Source collection | 1 | 0 |
 | [Unit 3.96](boards/m5stack/source-collection/unit-3.96--97462562/README.md) | Source collection | 1 | 0 |
 | [Unit 4Relay](boards/m5stack/source-collection/unit-4relay--d4fee14f/README.md) | Source collection | 1 | 0 |
 | [Unit 8Angle](boards/m5stack/source-collection/unit-8angle--21752937/README.md) | Source collection | 1 | 0 |
 | [Unit 8Encoder](boards/m5stack/source-collection/unit-8encoder--02a62c2e/README.md) | Source collection | 1 | 0 |
 | [Unit 8Servos](boards/m5stack/source-collection/unit-8servos--be2fa9fe/README.md) | Source collection | 1 | 0 |
-| [Unit 8Servos2-Chain](boards/m5stack/source-collection/unit-8servos2-chain--66163395/README.md) | Source collection | 1 | 0 |
-| [Unit 8Servos2-I2C](boards/m5stack/expansion/unit-8servos2-i2c--194af06b/README.md) | Expansion | 1 | 0 |
+| [Unit 8Servos2-Chain](boards/m5stack/source-collection/unit-8servos2-chain--66163395/README.md) | Source collection | 2 | 0 |
+| [Unit 8Servos2-I2C](boards/m5stack/expansion/unit-8servos2-i2c--194af06b/README.md) | Expansion | 2 | 0 |
 | [Unit AC Measure](boards/m5stack/expansion/unit-ac-measure--f8659975/README.md) | Expansion | 2 | 0 |
 | [Unit Accel](boards/m5stack/source-collection/unit-accel--9f090672/README.md) | Source collection | 1 | 0 |
 | [Unit ACSSR](boards/m5stack/source-collection/unit-acssr--a0b523a7/README.md) | Source collection | 1 | 0 |
@@ -1152,7 +1161,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Unit CamS3](boards/m5stack/source-collection/unit-cams3--1043def3/README.md) | Source collection | 1 | 0 |
 | [Unit CardKB](boards/m5stack/expansion/unit-cardkb--60f45e76/README.md) | Expansion | 1 | 0 |
 | [Unit CardKB v1.1](boards/m5stack/expansion/unit-cardkb-v1.1--81b2fff0/README.md) | Expansion | 2 | 0 |
-| [Unit CardKB2](boards/m5stack/source-collection/unit-cardkb2--b953d2dc/README.md) | Source collection | 1 | 0 |
+| [Unit CardKB2](boards/m5stack/source-collection/unit-cardkb2--b953d2dc/README.md) | Source collection | 2 | 0 |
 | [Unit Cat1-CN](boards/m5stack/source-collection/unit-cat1-cn--7da2f2de/README.md) | Source collection | 1 | 0 |
 | [Unit Catch](boards/m5stack/source-collection/unit-catch--dcb7e64d/README.md) | Source collection | 1 | 0 |
 | [Unit CatM GNSS](boards/m5stack/source-collection/unit-catm-gnss--578e1b73/README.md) | Source collection | 1 | 0 |
@@ -1222,7 +1231,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Unit PIR](boards/m5stack/source-collection/unit-pir--02dd6cf6/README.md) | Source collection | 1 | 0 |
 | [Unit PoE CAM-W](boards/m5stack/source-collection/unit-poe-cam-w--adcbb254/README.md) | Source collection | 1 | 0 |
 | [Unit PoE CAM-W v1.1](boards/m5stack/source-collection/unit-poe-cam-w-v1.1--893bee64/README.md) | Source collection | 1 | 0 |
-| [Unit PoE-P4](boards/m5stack/esp32-p4/unit-poe-p4--287ba2ba/README.md) | ESP32-P4 | 2 | 1 |
+| [Unit PoE-P4](boards/m5stack/esp32-p4/unit-poe-p4--287ba2ba/README.md) | ESP32-P4 | 5 | 1 |
 | [Unit Proto](boards/m5stack/source-collection/unit-proto--90fc806a/README.md) | Source collection | 1 | 0 |
 | [Unit Proto Case](boards/m5stack/source-collection/unit-proto-case--d863e26c/README.md) | Source collection | 1 | 0 |
 | [Unit Puzzle](boards/m5stack/source-collection/unit-puzzle--081ec28d/README.md) | Source collection | 1 | 0 |
@@ -1496,6 +1505,12 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Raspberry Pi Pico H](boards/raspberry-pi/rp2040/raspberry-pi-pico-h--0bb33551/README.md) | RP2040 | 1 | 1 |
 | [Raspberry Pi Pico W](boards/raspberry-pi/rp2040/raspberry-pi-pico-w--81c54c66/README.md) | RP2040 | 4 | 3 |
 | [Raspberry Pi Zero 2 W](boards/raspberry-pi/raspberry-pi-sbc/raspberry-pi-zero-2-w--1d6cce41/README.md) | Raspberry Pi SBC | 1 | 1 |
+
+## Renesas
+
+| Board / device | Processor / family | References | Pinout images |
+|---|---|---:|---:|
+| [EK-RA8P1 v1](boards/renesas/ra8p1/ek-ra8p1-v1--3fcdf426/README.md) | RA8P1 | 7 | 1 |
 
 ## Seeed Studio
 
@@ -1931,33 +1946,33 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [XIAO ePaper Display Board EE05](boards/seeed-studio/source-collection/xiao-epaper-display-board-ee05--cf9a68b8/README.md) | Source collection | 2 | 0 |
 | [XIAO ePaper Display Board EN04](boards/seeed-studio/source-collection/xiao-epaper-display-board-en04--24c32852/README.md) | Source collection | 2 | 0 |
 | [XIAO ePaper Display Board EN05](boards/seeed-studio/source-collection/xiao-epaper-display-board-en05--1257301e/README.md) | Source collection | 1 | 0 |
-| [XIAO ESP32C3](boards/seeed-studio/esp32-c3/xiao-esp32c3--e5bf2c21/README.md) | ESP32-C3 | 6 | 3 |
-| [XIAO ESP32C5](boards/seeed-studio/esp32-c5/xiao-esp32c5--cbb0df00/README.md) | ESP32-C5 | 3 | 2 |
-| [XIAO ESP32C6](boards/seeed-studio/esp32-c6/xiao-esp32c6--54434d89/README.md) | ESP32-C6 | 4 | 2 |
-| [XIAO ESP32S3](boards/seeed-studio/esp32-s3/xiao-esp32s3--5f3e4092/README.md) | ESP32-S3 | 8 | 2 |
+| [XIAO ESP32C3](boards/seeed-studio/esp32-c3/xiao-esp32c3--e5bf2c21/README.md) | ESP32-C3 | 7 | 3 |
+| [XIAO ESP32C5](boards/seeed-studio/esp32-c5/xiao-esp32c5--cbb0df00/README.md) | ESP32-C5 | 4 | 2 |
+| [XIAO ESP32C6](boards/seeed-studio/esp32-c6/xiao-esp32c6--54434d89/README.md) | ESP32-C6 | 5 | 2 |
+| [XIAO ESP32S3](boards/seeed-studio/esp32-s3/xiao-esp32s3--5f3e4092/README.md) | ESP32-S3 | 10 | 2 |
 | [XIAO ESP32S3 & Wio-SX1262 Kit](boards/seeed-studio/esp32-s3/xiao-esp32s3-wio-sx1262-kit--e7449d43/README.md) | ESP32-S3 | 3 | 2 |
 | [XIAO ESP32S3 & Wio-SX1262 Kit with 3D Printed Enclosure](boards/seeed-studio/esp32-s3/xiao-esp32s3-wio-sx1262-kit-with-3d-printed-enclosure--3db1a928/README.md) | ESP32-S3 | 2 | 2 |
-| [XIAO ESP32S3 Plus](boards/seeed-studio/esp32-s3/xiao-esp32s3-plus--d7fe872d/README.md) | ESP32-S3 | 3 | 2 |
-| [XIAO ESP32S3 Sense](boards/seeed-studio/esp32-s3/xiao-esp32s3-sense--ed8250ac/README.md) | ESP32-S3 | 3 | 3 |
+| [XIAO ESP32S3 Plus](boards/seeed-studio/esp32-s3/xiao-esp32s3-plus--d7fe872d/README.md) | ESP32-S3 | 4 | 2 |
+| [XIAO ESP32S3 Sense](boards/seeed-studio/esp32-s3/xiao-esp32s3-sense--ed8250ac/README.md) | ESP32-S3 | 4 | 3 |
 | [XIAO IR Mate Smart IR Remote](boards/seeed-studio/source-collection/xiao-ir-mate-smart-ir-remote--4a76ae89/README.md) | Source collection | 1 | 0 |
 | [XIAO Logger HAT](boards/seeed-studio/expansion/xiao-logger-hat--4110ec1a/README.md) | Expansion | 2 | 0 |
 | [XIAO MG24](boards/seeed-studio/other/xiao-mg24--2442f7e3/README.md) | Other | 2 | 2 |
-| [XIAO MG24 Sense](boards/seeed-studio/other/xiao-mg24-sense--02c53336/README.md) | Other | 2 | 2 |
+| [XIAO MG24 Sense](boards/seeed-studio/other/xiao-mg24-sense--02c53336/README.md) | Other | 3 | 2 |
 | [XIAO MIDI Synthesizer](boards/seeed-studio/source-collection/xiao-midi-synthesizer--52da6384/README.md) | Source collection | 2 | 0 |
-| [XIAO nRF52840](boards/seeed-studio/other/xiao-nrf52840--ce908910/README.md) | Other | 4 | 2 |
+| [XIAO nRF52840](boards/seeed-studio/other/xiao-nrf52840--ce908910/README.md) | Other | 5 | 2 |
 | [XIAO nRF52840 & Wio-SX1262 Kit](boards/seeed-studio/nrf52840/xiao-nrf52840-wio-sx1262-kit--adead0cc/README.md) | nRF52840 | 2 | 2 |
 | [XIAO nRF52840 Plus](boards/seeed-studio/other/xiao-nrf52840-plus--5fbe55b3/README.md) | Other | 2 | 2 |
-| [XIAO nRF52840 Sense](boards/seeed-studio/other/xiao-nrf52840-sense--04c132ca/README.md) | Other | 5 | 3 |
+| [XIAO nRF52840 Sense](boards/seeed-studio/other/xiao-nrf52840-sense--04c132ca/README.md) | Other | 6 | 3 |
 | [XIAO nRF52840 Sense Plus](boards/seeed-studio/other/xiao-nrf52840-sense-plus--156bfa10/README.md) | Other | 2 | 2 |
-| [XIAO nRF54L15](boards/seeed-studio/other/xiao-nrf54l15--851f3510/README.md) | Other | 4 | 3 |
-| [XIAO nRF54L15 Sense](boards/seeed-studio/other/xiao-nrf54l15-sense--fd85be95/README.md) | Other | 2 | 2 |
+| [XIAO nRF54L15](boards/seeed-studio/other/xiao-nrf54l15--851f3510/README.md) | Other | 5 | 3 |
+| [XIAO nRF54L15 Sense](boards/seeed-studio/other/xiao-nrf54l15-sense--fd85be95/README.md) | Other | 3 | 2 |
 | [XIAO nRF54LM20A](boards/seeed-studio/other/xiao-nrf54lm20a--f44f2968/README.md) | Other | 3 | 2 |
-| [XIAO nRF54LM20A Sense](boards/seeed-studio/other/xiao-nrf54lm20a-sense--8aac37fc/README.md) | Other | 3 | 2 |
+| [XIAO nRF54LM20A Sense](boards/seeed-studio/other/xiao-nrf54lm20a-sense--8aac37fc/README.md) | Other | 4 | 2 |
 | [XIAO PowerBread](boards/seeed-studio/expansion/xiao-powerbread--b0b00876/README.md) | Expansion | 3 | 0 |
-| [XIAO RA4M1](boards/seeed-studio/other/xiao-ra4m1--ad6cf22e/README.md) | Other | 2 | 2 |
+| [XIAO RA4M1](boards/seeed-studio/other/xiao-ra4m1--ad6cf22e/README.md) | Other | 3 | 2 |
 | [XIAO RP2040](boards/seeed-studio/rp2040/xiao-rp2040--66dfff81/README.md) | RP2040 | 5 | 3 |
 | [XIAO RP2040 Plus](boards/seeed-studio/rp2040/xiao-rp2040-plus--5fea6e23/README.md) | RP2040 | 3 | 2 |
-| [XIAO RP2350](boards/seeed-studio/rp2350/xiao-rp2350--7e9b2aee/README.md) | RP2350 | 4 | 3 |
+| [XIAO RP2350](boards/seeed-studio/rp2350/xiao-rp2350--7e9b2aee/README.md) | RP2350 | 5 | 3 |
 | [XIAO SAMD21](boards/seeed-studio/other/xiao-samd21--9f0f112b/README.md) | Other | 5 | 4 |
 | [XIAO SAMD21 Plus](boards/seeed-studio/other/xiao-samd21-plus--5a2281df/README.md) | Other | 3 | 2 |
 | [XIAO Soil Moisture Sensor](boards/seeed-studio/source-collection/xiao-soil-moisture-sensor--55527a6b/README.md) | Source collection | 1 | 0 |
@@ -2147,31 +2162,40 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Core52840](boards/waveshare/other/core52840--abd842d7/README.md) | Other | 1 | 1 |
 | [DDSM210](boards/waveshare/expansion/ddsm210--01d12b68/README.md) | Expansion | 1 | 1 |
 | [DDSM315](boards/waveshare/expansion/ddsm315--ba5bdc14/README.md) | Expansion | 1 | 1 |
+| [E-Paper ESP32 Driver Board](boards/waveshare/esp32/e-paper-esp32-driver-board--ddf7d4be/README.md) | ESP32 | 2 | 0 |
 | [ESP32 One](boards/waveshare/esp32-original/esp32-one--26eb407e/README.md) | ESP32 original | 1 | 1 |
 | [ESP32-C3-LCD-0.71](boards/waveshare/esp32-c3/esp32-c3-lcd-0.71--19339252/README.md) | ESP32-C3 | 2 | 2 |
 | [ESP32-C3-LCD-1.47](boards/waveshare/esp32-c3/esp32-c3-lcd-1.47--c333e97e/README.md) | ESP32-C3 | 2 | 2 |
 | [ESP32-C3-Zero](boards/waveshare/esp32-c3/esp32-c3-zero--90c5417a/README.md) | ESP32-C3 | 3 | 3 |
 | [ESP32-C5-LCD-1.47](boards/waveshare/esp32-c5/esp32-c5-lcd-1.47--59510a8f/README.md) | ESP32-C5 | 1 | 1 |
+| [ESP32-C5-LCD-2.73](boards/waveshare/esp32-c5/esp32-c5-lcd-2-73--9ff94a97/README.md) | ESP32-C5 | 1 | 0 |
 | [ESP32-C5-MINI-KIT](boards/waveshare/esp32-c5/esp32-c5-mini-kit--a980d2b9/README.md) | ESP32-C5 | 2 | 2 |
 | [ESP32-C5-Pico](boards/waveshare/esp32-c5/esp32-c5-pico--277b134c/README.md) | ESP32-C5 | 2 | 2 |
 | [ESP32-C5-Touch-LCD-1.69](boards/waveshare/esp32-c5/esp32-c5-touch-lcd-1.69--01a0d0c0/README.md) | ESP32-C5 | 2 | 2 |
 | [ESP32-C5-Touch-LCD-2.8](boards/waveshare/esp32-c5/esp32-c5-touch-lcd-2.8--c2a0ab2b/README.md) | ESP32-C5 | 2 | 2 |
+| [ESP32-C5-Touch-LCD-3.5](boards/waveshare/esp32-c5/esp32-c5-touch-lcd-3-5--ea6f9bfd/README.md) | ESP32-C5 | 3 | 0 |
 | [ESP32-C5-WIFI6-KIT](boards/waveshare/esp32-c5/esp32-c5-wifi6-kit--e082a949/README.md) | ESP32-C5 | 3 | 3 |
 | [ESP32-C5-Zero](boards/waveshare/esp32-c5/esp32-c5-zero--aa5824f4/README.md) | ESP32-C5 | 2 | 2 |
+| [ESP32-C6 1.47inch Display Development Board](boards/waveshare/esp32-c6/esp32-c6-1-47inch-display-development-board--0a56bbd8/README.md) | ESP32-C6 | 3 | 1 |
 | [ESP32-C6-DEV-KIT-N8](boards/waveshare/esp32-c6/esp32-c6-dev-kit-n8--e6f8c8c2/README.md) | ESP32-C6 | 3 | 3 |
+| [ESP32-C6-ePaper-1.54](boards/waveshare/esp32-c6/esp32-c6-epaper-1-54--4b46ec39/README.md) | ESP32-C6 | 2 | 0 |
+| [ESP32-C6-GEEK](boards/waveshare/esp32-c6/esp32-c6-geek--ef0a8459/README.md) | ESP32-C6 | 3 | 0 |
 | [ESP32-C6-LCD-0.85](boards/waveshare/esp32-c6/esp32-c6-lcd-0.85--43c73a77/README.md) | ESP32-C6 | 1 | 0 |
 | [ESP32-C6-LCD-1.28](boards/waveshare/esp32-c6/esp32-c6-lcd-1.28--1b5b55f4/README.md) | ESP32-C6 | 2 | 2 |
 | [ESP32-C6-LCD-1.3](boards/waveshare/esp32-c6/esp32-c6-lcd-1.3--a38af8c3/README.md) | ESP32-C6 | 2 | 2 |
-| [ESP32-C6-LCD-1.47](boards/waveshare/esp32-c6/esp32-c6-lcd-1.47--192ea4cb/README.md) | ESP32-C6 | 2 | 2 |
+| [ESP32-C6-LCD-1.47](boards/waveshare/esp32-c6/esp32-c6-lcd-1.47--192ea4cb/README.md) | ESP32-C6 | 4 | 2 |
 | [ESP32-C6-LCD-1.69](boards/waveshare/esp32-c6/esp32-c6-lcd-1.69--62462e89/README.md) | ESP32-C6 | 3 | 3 |
 | [ESP32-C6-LCD-1.9](boards/waveshare/esp32-c6/esp32-c6-lcd-1.9--34731d6c/README.md) | ESP32-C6 | 1 | 1 |
+| [ESP32-C6-LCD-2.73](boards/waveshare/esp32-c6/esp32-c6-lcd-2-73--0fba665c/README.md) | ESP32-C6 | 1 | 0 |
 | [ESP32-C6-Pico](boards/waveshare/esp32-c6/esp32-c6-pico--9e0ccc1b/README.md) | ESP32-C6 | 2 | 2 |
 | [ESP32-C6-Touch-AMOLED-1.32](boards/waveshare/esp32-c6/esp32-c6-touch-amoled-1.32--902063ab/README.md) | ESP32-C6 | 1 | 1 |
 | [ESP32-C6-Touch-AMOLED-1.64](boards/waveshare/esp32-c6/esp32-c6-touch-amoled-1.64--9c2673da/README.md) | ESP32-C6 | 1 | 1 |
 | [ESP32-C6-Touch-AMOLED-1.8](boards/waveshare/esp32-c6/esp32-c6-touch-amoled-1.8--7ea50386/README.md) | ESP32-C6 | 2 | 2 |
 | [ESP32-C6-Touch-AMOLED-2.06](boards/waveshare/esp32-c6/esp32-c6-touch-amoled-2.06--b4a9e559/README.md) | ESP32-C6 | 1 | 0 |
+| [ESP32-C6-Touch-AMOLED-2.16](boards/waveshare/esp32-c6/esp32-c6-touch-amoled-2-16--0bd3ecc6/README.md) | ESP32-C6 | 3 | 0 |
 | [ESP32-C6-Touch-LCD-1.28](boards/waveshare/esp32-c6/esp32-c6-touch-lcd-1.28--c6a3f499/README.md) | ESP32-C6 | 2 | 2 |
 | [ESP32-C6-Touch-LCD-1.47](boards/waveshare/esp32-c6/esp32-c6-touch-lcd-1.47--d441984f/README.md) | ESP32-C6 | 3 | 3 |
+| [ESP32-C6-Touch-LCD-1.54](boards/waveshare/esp32-c6/esp32-c6-touch-lcd-1-54--1fcdb802/README.md) | ESP32-C6 | 1 | 0 |
 | [ESP32-C6-Touch-LCD-1.69](boards/waveshare/esp32-c6/esp32-c6-touch-lcd-1.69--fdc12fa4/README.md) | ESP32-C6 | 3 | 3 |
 | [ESP32-C6-Touch-LCD-1.83](boards/waveshare/esp32-c6/esp32-c6-touch-lcd-1.83--34902c58/README.md) | ESP32-C6 | 1 | 0 |
 | [ESP32-C6-Touch-LCD-2.8](boards/waveshare/esp32-c6/esp32-c6-touch-lcd-2.8--ba459302/README.md) | ESP32-C6 | 2 | 2 |
@@ -2181,35 +2205,48 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [ESP32-DEV-KIT-XX](boards/waveshare/esp32-original/esp32-dev-kit-xx--a18994d7/README.md) | ESP32 original | 2 | 2 |
 | [ESP32-H2-DEV-KIT-N4](boards/waveshare/esp32-h2/esp32-h2-dev-kit-n4--bdf2ee98/README.md) | ESP32-H2 | 3 | 3 |
 | [ESP32-H2-Zero](boards/waveshare/esp32-h2/esp32-h2-zero--2552b49f/README.md) | ESP32-H2 | 3 | 3 |
+| [ESP32-P4-86-Panel-ETH-2RO](boards/waveshare/esp32-p4/esp32-p4-86-panel-eth-2ro--1257a39d/README.md) | ESP32-P4 | 4 | 0 |
 | [ESP32-P4-Core-DEV-KIT](boards/waveshare/esp32-p4/esp32-p4-core-dev-kit--dd958b72/README.md) | ESP32-P4 | 2 | 2 |
 | [ESP32-P4-ETH](boards/waveshare/esp32-p4/esp32-p4-eth--b5ef1924/README.md) | ESP32-P4 | 3 | 3 |
 | [ESP32-P4-Module](boards/waveshare/esp32-p4/esp32-p4-module--b755bf84/README.md) | ESP32-P4 | 2 | 2 |
-| [ESP32-P4-Module-DEV-KIT](boards/waveshare/esp32-p4/esp32-p4-module-dev-kit--d04aa234/README.md) | ESP32-P4 | 2 | 2 |
+| [ESP32-P4-Module-DEV-KIT](boards/waveshare/esp32-p4/esp32-p4-module-dev-kit--d04aa234/README.md) | ESP32-P4 | 4 | 2 |
 | [ESP32-P4-NANO](boards/waveshare/esp32-p4/esp32-p4-nano--15b98e86/README.md) | ESP32-P4 | 2 | 2 |
 | [ESP32-P4-NANO-WIFI6-DB](boards/waveshare/esp32-p4/esp32-p4-nano-wifi6-db--2057da6f/README.md) | ESP32-P4 | 2 | 2 |
 | [ESP32-P4-Pico](boards/waveshare/esp32-p4/esp32-p4-pico--837cb588/README.md) | ESP32-P4 | 2 | 2 |
 | [ESP32-P4-WIFI6](boards/waveshare/esp32-p4/esp32-p4-wifi6--eccd35f4/README.md) | ESP32-P4 | 2 | 2 |
-| [ESP32-P4-WIFI6-DB](boards/waveshare/esp32-p4/esp32-p4-wifi6-db--0a7399c2/README.md) | ESP32-P4 | 1 | 1 |
+| [ESP32-P4-WIFI6-DB](boards/waveshare/esp32-p4/esp32-p4-wifi6-db--0a7399c2/README.md) | ESP32-P4 | 4 | 2 |
 | [ESP32-P4-WIFI6-DEV-KIT](boards/waveshare/esp32-p4/esp32-p4-wifi6-dev-kit--73a4b17c/README.md) | ESP32-P4 | 3 | 3 |
 | [ESP32-P4-WIFI6-POE-ETH](boards/waveshare/esp32-p4/esp32-p4-wifi6-poe-eth--b86c6c44/README.md) | ESP32-P4 | 4 | 4 |
 | [ESP32-P4-WIFI6-Touch-LCD (shared 7-8-10.1 reference)](boards/waveshare/esp32-p4/esp32-p4-wifi6-touch-lcd-shared-7-8-10.1-reference--2a34cb0b/README.md) | ESP32-P4 | 1 | 1 |
+| [ESP32-P4-WIFI6-Touch-LCD-3.4C](boards/waveshare/esp32-p4/esp32-p4-wifi6-touch-lcd-3-4c--c397b11b/README.md) | ESP32-P4 | 2 | 0 |
+| [ESP32-P4-WIFI6-Touch-LCD-3.5](boards/waveshare/esp32-p4/esp32-p4-wifi6-touch-lcd-3-5--2d468902/README.md) | ESP32-P4 | 2 | 0 |
 | [ESP32-P4-WIFI6-Touch-LCD-4.3](boards/waveshare/esp32-p4/esp32-p4-wifi6-touch-lcd-4.3--307fde27/README.md) | ESP32-P4 | 1 | 1 |
+| [ESP32-P4-WIFI6-Touch-LCD-4B](boards/waveshare/esp32-p4/esp32-p4-wifi6-touch-lcd-4b--370d90e7/README.md) | ESP32-P4 | 4 | 0 |
+| [ESP32-P4-WIFI6-Touch-LCD-4C](boards/waveshare/esp32-p4/esp32-p4-wifi6-touch-lcd-4c--a7453715/README.md) | ESP32-P4 | 2 | 0 |
 | [ESP32-P4-WIFI6-Touch-LCD-5](boards/waveshare/esp32-p4/esp32-p4-wifi6-touch-lcd-5--71c79905/README.md) | ESP32-P4 | 1 | 1 |
+| [ESP32-P4-WIFI6-Touch-LCD-7B](boards/waveshare/esp32-p4/esp32-p4-wifi6-touch-lcd-7b--82cc19fe/README.md) | ESP32-P4 | 2 | 0 |
 | [ESP32-P4-WIFI6-Touch-LCD-X](boards/waveshare/esp32-p4/esp32-p4-wifi6-touch-lcd-x--5eb017ee/README.md) | ESP32-P4 | 2 | 2 |
-| [ESP32-S2-LCD-0.96](boards/waveshare/esp32-s2/esp32-s2-lcd-0.96--c5eedcc7/README.md) | ESP32-S2 | 2 | 2 |
-| [ESP32-S2-Pico](boards/waveshare/esp32-s2/esp32-s2-pico--a90c4e88/README.md) | ESP32-S2 | 2 | 2 |
+| [ESP32-P4-WIFI6-Touch-LCD-XC](boards/waveshare/esp32-p4/esp32-p4-wifi6-touch-lcd-xc--79fdde8e/README.md) | ESP32-P4 | 2 | 0 |
+| [ESP32-S2-LCD-0.96](boards/waveshare/esp32-s2/esp32-s2-lcd-0.96--c5eedcc7/README.md) | ESP32-S2 | 4 | 3 |
+| [ESP32-S2-Pico](boards/waveshare/esp32-s2/esp32-s2-pico--a90c4e88/README.md) | ESP32-S2 | 3 | 2 |
+| [ESP32-S2-Pico with LCD](boards/waveshare/esp32-s2/esp32-s2-pico-with-lcd--12f41aa4/README.md) | ESP32-S2 | 2 | 1 |
+| [ESP32-S3 ETH Development Board](boards/waveshare/esp32-s3/esp32-s3-eth-development-board--fd81f9b4/README.md) | ESP32-S3 | 3 | 1 |
 | [ESP32-S3-A7670E-4G](boards/waveshare/esp32-s3/esp32-s3-a7670e-4g--3e296168/README.md) | ESP32-S3 | 1 | 1 |
 | [ESP32-S3-AMOLED-1.91](boards/waveshare/esp32-s3/esp32-s3-amoled-1.91--1eae46bc/README.md) | ESP32-S3 | 2 | 2 |
 | [ESP32-S3-AUDIO-Board](boards/waveshare/esp32-s3/esp32-s3-audio-board--e5db5407/README.md) | ESP32-S3 | 3 | 3 |
 | [ESP32-S3-CAM-OVxxxx](boards/waveshare/esp32-s3/esp32-s3-cam-ovxxxx--a56621cb/README.md) | ESP32-S3 | 1 | 1 |
 | [ESP32-S3-CAN-2CH](boards/waveshare/esp32-s3/esp32-s3-can-2ch--d7e3c753/README.md) | ESP32-S3 | 2 | 2 |
 | [ESP32-S3-DEV-KIT-N8R8](boards/waveshare/esp32-s3/esp32-s3-dev-kit-n8r8--1f481299/README.md) | ESP32-S3 | 3 | 3 |
+| [ESP32-S3-DualEye-LCD-1.28](boards/waveshare/esp32-s3/esp32-s3-dualeye-lcd-1-28--b2cd8ef6/README.md) | ESP32-S3 | 2 | 0 |
+| [ESP32-S3-DualEye-Touch-LCD-1.28](boards/waveshare/esp32-s3/esp32-s3-dualeye-touch-lcd-1-28--79fd98a0/README.md) | ESP32-S3 | 2 | 0 |
 | [ESP32-S3-ePaper-1.54G](boards/waveshare/esp32-s3/esp32-s3-epaper-1.54g--c28cc766/README.md) | ESP32-S3 | 1 | 1 |
 | [ESP32-S3-ePaper-13.3E6](boards/waveshare/esp32-s3/esp32-s3-epaper-13.3e6--ee209bbf/README.md) | ESP32-S3 | 1 | 0 |
-| [ESP32-S3-ETH](boards/waveshare/esp32-s3/esp32-s3-eth--4914df64/README.md) | ESP32-S3 | 3 | 3 |
+| [ESP32-S3-ePaper-3.97](boards/waveshare/esp32-s3/esp32-s3-epaper-3-97--ac73e06d/README.md) | ESP32-S3 | 2 | 0 |
+| [ESP32-S3-ETH](boards/waveshare/esp32-s3/esp32-s3-eth--4914df64/README.md) | ESP32-S3 | 5 | 3 |
 | [ESP32-S3-ETH-8DI-8RO](boards/waveshare/esp32-s3/esp32-s3-eth-8di-8ro--4623282c/README.md) | ESP32-S3 | 1 | 1 |
 | [ESP32-S3-ETH-8DI-8RO-C](boards/waveshare/esp32-s3/esp32-s3-eth-8di-8ro-c--1f33f477/README.md) | ESP32-S3 | 1 | 1 |
 | [ESP32-S3-GEEK](boards/waveshare/esp32-s3/esp32-s3-geek--eedaddbd/README.md) | ESP32-S3 | 2 | 2 |
+| [ESP32-S3-Knob-Touch-LCD-1.8](boards/waveshare/esp32-s3/esp32-s3-knob-touch-lcd-1-8--67c622b0/README.md) | ESP32-S3 | 2 | 0 |
 | [ESP32-S3-LCD-0.85](boards/waveshare/esp32-s3/esp32-s3-lcd-0.85--64699aca/README.md) | ESP32-S3 | 1 | 0 |
 | [ESP32-S3-LCD-1.28](boards/waveshare/esp32-s3/esp32-s3-lcd-1.28--05f1c55f/README.md) | ESP32-S3 | 4 | 4 |
 | [ESP32-S3-LCD-1.3](boards/waveshare/esp32-s3/esp32-s3-lcd-1.3--dd6f54a8/README.md) | ESP32-S3 | 1 | 1 |
@@ -2219,25 +2256,33 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [ESP32-S3-LCD-1.85](boards/waveshare/esp32-s3/esp32-s3-lcd-1.85--415c899d/README.md) | ESP32-S3 | 1 | 1 |
 | [ESP32-S3-LCD-1.9](boards/waveshare/esp32-s3/esp32-s3-lcd-1.9--4b9a7b51/README.md) | ESP32-S3 | 1 | 1 |
 | [ESP32-S3-LCD-2](boards/waveshare/esp32-s3/esp32-s3-lcd-2--79264587/README.md) | ESP32-S3 | 3 | 3 |
-| [ESP32-S3-LCD-2.8](boards/waveshare/esp32-s3/esp32-s3-lcd-2.8--3181eb2c/README.md) | ESP32-S3 | 2 | 2 |
+| [ESP32-S3-LCD-2.8](boards/waveshare/esp32-s3/esp32-s3-lcd-2.8--3181eb2c/README.md) | ESP32-S3 | 4 | 2 |
 | [ESP32-S3-LCD-2.8B](boards/waveshare/esp32-s3/esp32-s3-lcd-2.8b--ef0c4c51/README.md) | ESP32-S3 | 1 | 1 |
 | [ESP32-S3-LCD-2.8C](boards/waveshare/esp32-s3/esp32-s3-lcd-2.8c--533d97cc/README.md) | ESP32-S3 | 1 | 1 |
+| [ESP32-S3-LCD-3.16](boards/waveshare/esp32-s3/esp32-s3-lcd-3-16--f87f0cbc/README.md) | ESP32-S3 | 4 | 0 |
 | [ESP32-S3-LCD-Driver-Board](boards/waveshare/esp32-s3/esp32-s3-lcd-driver-board--54dca759/README.md) | ESP32-S3 | 2 | 2 |
 | [ESP32-S3-LR1121-XF](boards/waveshare/esp32-s3/esp32-s3-lr1121-xf--8f36f633/README.md) | ESP32-S3 | 1 | 1 |
-| [ESP32-S3-Matrix](boards/waveshare/esp32-s3/esp32-s3-matrix--33bdcbc7/README.md) | ESP32-S3 | 3 | 3 |
+| [ESP32-S3-Matrix](boards/waveshare/esp32-s3/esp32-s3-matrix--33bdcbc7/README.md) | ESP32-S3 | 5 | 3 |
+| [ESP32-S3-Matrix Development Board](boards/waveshare/esp32-s3/esp32-s3-matrix-development-board--34c230ee/README.md) | ESP32-S3 | 3 | 1 |
 | [ESP32-S3-Nano](boards/waveshare/esp32-s3/esp32-s3-nano--66ff419f/README.md) | ESP32-S3 | 2 | 2 |
+| [ESP32-S3-PhotoPainter](boards/waveshare/esp32-s3/esp32-s3-photopainter--12404873/README.md) | ESP32-S3 | 1 | 0 |
 | [ESP32-S3-Pico](boards/waveshare/esp32-s3/esp32-s3-pico--313d507a/README.md) | ESP32-S3 | 2 | 2 |
 | [ESP32-S3-Relay-1CH](boards/waveshare/esp32-s3/esp32-s3-relay-1ch--1f176dbb/README.md) | ESP32-S3 | 2 | 2 |
 | [ESP32-S3-Relay-6CH](boards/waveshare/esp32-s3/esp32-s3-relay-6ch--8c91e5b3/README.md) | ESP32-S3 | 2 | 2 |
+| [ESP32-S3-RGB-Matrix](boards/waveshare/esp32-s3/esp32-s3-rgb-matrix--5e60f951/README.md) | ESP32-S3 | 2 | 0 |
 | [ESP32-S3-RLCD-4.2](boards/waveshare/esp32-s3/esp32-s3-rlcd-4.2--12f882f1/README.md) | ESP32-S3 | 1 | 1 |
 | [ESP32-S3-RS485-CAN](boards/waveshare/esp32-s3/esp32-s3-rs485-can--b644fce3/README.md) | ESP32-S3 | 2 | 2 |
 | [ESP32-S3-SIM7670G-4G](boards/waveshare/esp32-s3/esp32-s3-sim7670g-4g--366e08f2/README.md) | ESP32-S3 | 1 | 1 |
 | [ESP32-S3-Tiny](boards/waveshare/esp32-s3/esp32-s3-tiny--15af01ea/README.md) | ESP32-S3 | 3 | 3 |
 | [ESP32-S3-Touch-AMOLED-1.32](boards/waveshare/esp32-s3/esp32-s3-touch-amoled-1.32--13995164/README.md) | ESP32-S3 | 1 | 1 |
 | [ESP32-S3-Touch-AMOLED-1.43](boards/waveshare/esp32-s3/esp32-s3-touch-amoled-1.43--c3284db2/README.md) | ESP32-S3 | 1 | 1 |
+| [ESP32-S3-Touch-AMOLED-1.43C](boards/waveshare/esp32-s3/esp32-s3-touch-amoled-1-43c--80bced17/README.md) | ESP32-S3 | 3 | 0 |
 | [ESP32-S3-Touch-AMOLED-1.64](boards/waveshare/esp32-s3/esp32-s3-touch-amoled-1.64--7ac3ed7d/README.md) | ESP32-S3 | 1 | 1 |
+| [ESP32-S3-Touch-AMOLED-1.75](boards/waveshare/esp32-s3/esp32-s3-touch-amoled-1-75--d69422ff/README.md) | ESP32-S3 | 2 | 0 |
+| [ESP32-S3-Touch-AMOLED-1.75C](boards/waveshare/esp32-s3/esp32-s3-touch-amoled-1-75c--13fc74f3/README.md) | ESP32-S3 | 2 | 0 |
 | [ESP32-S3-Touch-AMOLED-1.8](boards/waveshare/esp32-s3/esp32-s3-touch-amoled-1.8--c831c280/README.md) | ESP32-S3 | 3 | 3 |
 | [ESP32-S3-Touch-AMOLED-2.06](boards/waveshare/esp32-s3/esp32-s3-touch-amoled-2.06--0f26a14e/README.md) | ESP32-S3 | 1 | 0 |
+| [ESP32-S3-Touch-AMOLED-2.16](boards/waveshare/esp32-s3/esp32-s3-touch-amoled-2-16--8e9109c4/README.md) | ESP32-S3 | 2 | 0 |
 | [ESP32-S3-Touch-AMOLED-2.41](boards/waveshare/esp32-s3/esp32-s3-touch-amoled-2.41--645afd59/README.md) | ESP32-S3 | 1 | 1 |
 | [ESP32-S3-Touch-LCD-1.28](boards/waveshare/esp32-s3/esp32-s3-touch-lcd-1.28--989d0c53/README.md) | ESP32-S3 | 3 | 3 |
 | [ESP32-S3-Touch-LCD-1.46](boards/waveshare/esp32-s3/esp32-s3-touch-lcd-1.46--90091a3c/README.md) | ESP32-S3 | 1 | 1 |
@@ -2247,16 +2292,25 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [ESP32-S3-Touch-LCD-1.69](boards/waveshare/esp32-s3/esp32-s3-touch-lcd-1.69--9c2d0579/README.md) | ESP32-S3 | 3 | 3 |
 | [ESP32-S3-Touch-LCD-1.83](boards/waveshare/esp32-s3/esp32-s3-touch-lcd-1.83--8fed6136/README.md) | ESP32-S3 | 1 | 1 |
 | [ESP32-S3-Touch-LCD-1.85](boards/waveshare/esp32-s3/esp32-s3-touch-lcd-1.85--fc84fd27/README.md) | ESP32-S3 | 2 | 2 |
+| [ESP32-S3-Touch-LCD-1.85B](boards/waveshare/esp32-s3/esp32-s3-touch-lcd-1-85b--c98cf855/README.md) | ESP32-S3 | 1 | 0 |
 | [ESP32-S3-Touch-LCD-1.85C](boards/waveshare/esp32-s3/esp32-s3-touch-lcd-1.85c--5c3ba70e/README.md) | ESP32-S3 | 2 | 2 |
 | [ESP32-S3-Touch-LCD-2](boards/waveshare/esp32-s3/esp32-s3-touch-lcd-2--d5962cf6/README.md) | ESP32-S3 | 3 | 3 |
 | [ESP32-S3-Touch-LCD-2.1](boards/waveshare/esp32-s3/esp32-s3-touch-lcd-2.1--e7cb68b1/README.md) | ESP32-S3 | 3 | 3 |
+| [ESP32-S3-Touch-LCD-2.8](boards/waveshare/esp32-s3/esp32-s3-touch-lcd-2-8--3bae40b1/README.md) | ESP32-S3 | 3 | 1 |
 | [ESP32-S3-Touch-LCD-2.8B](boards/waveshare/esp32-s3/esp32-s3-touch-lcd-2.8b--a9422963/README.md) | ESP32-S3 | 2 | 2 |
 | [ESP32-S3-Touch-LCD-2.8C](boards/waveshare/esp32-s3/esp32-s3-touch-lcd-2.8c--1f0fcfc1/README.md) | ESP32-S3 | 1 | 1 |
+| [ESP32-S3-Touch-LCD-3.49](boards/waveshare/esp32-s3/esp32-s3-touch-lcd-3-49--0679f281/README.md) | ESP32-S3 | 2 | 0 |
 | [ESP32-S3-Touch-LCD-3.5](boards/waveshare/esp32-s3/esp32-s3-touch-lcd-3.5--9e1a661d/README.md) | ESP32-S3 | 3 | 3 |
 | [ESP32-S3-Touch-LCD-3.5B](boards/waveshare/esp32-s3/esp32-s3-touch-lcd-3.5b--2daf303f/README.md) | ESP32-S3 | 3 | 3 |
+| [ESP32-S3-Touch-LCD-4](boards/waveshare/esp32-s3/esp32-s3-touch-lcd-4--1657d45f/README.md) | ESP32-S3 | 6 | 0 |
+| [ESP32-S3-Touch-LCD-4.3](boards/waveshare/esp32-s3/esp32-s3-touch-lcd-4-3--a0ac8c92/README.md) | ESP32-S3 | 2 | 0 |
 | [ESP32-S3-Touch-LCD-4.3B](boards/waveshare/esp32-s3/esp32-s3-touch-lcd-4.3b--fd32630b/README.md) | ESP32-S3 | 2 | 2 |
 | [ESP32-S3-Touch-LCD-4.3C](boards/waveshare/esp32-s3/esp32-s3-touch-lcd-4.3c--db91e81b/README.md) | ESP32-S3 | 1 | 1 |
+| [ESP32-S3-Touch-LCD-4B](boards/waveshare/esp32-s3/esp32-s3-touch-lcd-4b--6a996cec/README.md) | ESP32-S3 | 2 | 0 |
 | [ESP32-S3-Touch-LCD-5](boards/waveshare/esp32-s3/esp32-s3-touch-lcd-5--a2fd2ffe/README.md) | ESP32-S3 | 3 | 3 |
+| [ESP32-S3-Touch-LCD-7](boards/waveshare/esp32-s3/esp32-s3-touch-lcd-7--4245d95c/README.md) | ESP32-S3 | 2 | 0 |
+| [ESP32-S3-Touch-LCD-7B](boards/waveshare/esp32-s3/esp32-s3-touch-lcd-7b--3e269e0f/README.md) | ESP32-S3 | 2 | 0 |
+| [ESP32-S3-Touch-LCD-7C-BOX](boards/waveshare/esp32-s3/esp32-s3-touch-lcd-7c-box--81b1716d/README.md) | ESP32-S3 | 3 | 0 |
 | [ESP32-S3-Zero](boards/waveshare/esp32-s3/esp32-s3-zero--1ec2c1a4/README.md) | ESP32-S3 | 4 | 4 |
 | [ESP32-Touch-LCD-3.5](boards/waveshare/esp32-original/esp32-touch-lcd-3.5--22979f6b/README.md) | ESP32 original | 3 | 3 |
 | [IMX415 8MP USB Camera (B)](boards/waveshare/expansion/imx415-8mp-usb-camera-b--3956aed7/README.md) | Expansion | 1 | 1 |
@@ -2267,11 +2321,15 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [R3 PLUS](boards/waveshare/other/r3-plus--a0e00bc9/README.md) | Other | 1 | 1 |
 | [RP2040-BLE](boards/waveshare/rp2040/rp2040-ble--4f94e486/README.md) | RP2040 | 2 | 2 |
 | [RP2040-ETH](boards/waveshare/rp2040/rp2040-eth--9c3a21e0/README.md) | RP2040 | 1 | 1 |
+| [RP2040-GEEK](boards/waveshare/rp2040/rp2040-geek--1a10fd85/README.md) | RP2040 | 1 | 0 |
+| [RP2040-Keyboard-3](boards/waveshare/rp2040/rp2040-keyboard-3--5506d5a1/README.md) | RP2040 | 1 | 0 |
 | [RP2040-LCD-0.96](boards/waveshare/rp2040/rp2040-lcd-0.96--f97f7e59/README.md) | RP2040 | 2 | 2 |
+| [RP2040-LCD-0.99-B](boards/waveshare/rp2040/rp2040-lcd-0-99-b--02259e45/README.md) | RP2040 | 1 | 0 |
 | [RP2040-LCD-1.28](boards/waveshare/rp2040/rp2040-lcd-1.28--253a3a01/README.md) | RP2040 | 2 | 2 |
 | [RP2040-LoRa](boards/waveshare/rp2040/rp2040-lora--8a1eeb03/README.md) | RP2040 | 1 | 1 |
 | [RP2040-Matrix](boards/waveshare/rp2040/rp2040-matrix--9d364024/README.md) | RP2040 | 1 | 1 |
 | [RP2040-One](boards/waveshare/rp2040/rp2040-one--9b71d803/README.md) | RP2040 | 1 | 1 |
+| [RP2040-PiZero](boards/waveshare/rp2040/rp2040-pizero--537c1d29/README.md) | RP2040 | 1 | 0 |
 | [RP2040-Plus](boards/waveshare/rp2040/rp2040-plus--d7fcd44f/README.md) | RP2040 | 3 | 3 |
 | [RP2040-Tiny](boards/waveshare/rp2040/rp2040-tiny--80499cb6/README.md) | RP2040 | 2 | 2 |
 | [RP2040-Touch-LCD-1.28](boards/waveshare/rp2040/rp2040-touch-lcd-1.28--4e898fd8/README.md) | RP2040 | 1 | 1 |
@@ -2280,12 +2338,15 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [RP2350-CAN](boards/waveshare/rp2350/rp2350-can--dd83af46/README.md) | RP2350 | 2 | 2 |
 | [RP2350-ETH](boards/waveshare/rp2350/rp2350-eth--a6f82049/README.md) | RP2350 | 2 | 2 |
 | [RP2350-ETH-8DI-8RO](boards/waveshare/rp2350/rp2350-eth-8di-8ro--2a05a787/README.md) | RP2350 | 2 | 2 |
+| [RP2350-GEEK](boards/waveshare/rp2350/rp2350-geek--bb80ac73/README.md) | RP2350 | 1 | 0 |
+| [RP2350-LCD-0.85](boards/waveshare/rp2350/rp2350-lcd-0-85--8f57f26a/README.md) | RP2350 | 3 | 0 |
 | [RP2350-LCD-0.96](boards/waveshare/rp2350/rp2350-lcd-0.96--e7db4dbb/README.md) | RP2350 | 1 | 1 |
 | [RP2350-LCD-1.28](boards/waveshare/rp2350/rp2350-lcd-1.28--9b994bc2/README.md) | RP2350 | 2 | 2 |
 | [RP2350-LCD-1.47-A](boards/waveshare/rp2350/rp2350-lcd-1.47-a--9ada4446/README.md) | RP2350 | 2 | 2 |
 | [RP2350-LCD-1.47-B](boards/waveshare/rp2350/rp2350-lcd-1.47-b--fa012ab6/README.md) | RP2350 | 1 | 1 |
 | [RP2350-Matrix](boards/waveshare/rp2350/rp2350-matrix--83289e6d/README.md) | RP2350 | 2 | 2 |
 | [RP2350-One](boards/waveshare/rp2350/rp2350-one--27d6330b/README.md) | RP2350 | 1 | 1 |
+| [RP2350-PiZero](boards/waveshare/rp2350/rp2350-pizero--87180981/README.md) | RP2350 | 1 | 0 |
 | [RP2350-Plus](boards/waveshare/rp2350/rp2350-plus--de8acf7e/README.md) | RP2350 | 2 | 2 |
 | [RP2350-POE-ETH](boards/waveshare/rp2350/rp2350-poe-eth--2d25ae7d/README.md) | RP2350 | 2 | 2 |
 | [RP2350-Relay-6CH](boards/waveshare/rp2350/rp2350-relay-6ch--0c7b4116/README.md) | RP2350 | 2 | 2 |
@@ -2295,8 +2356,10 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [RP2350-Touch-AMOLED-1.75](boards/waveshare/rp2350/rp2350-touch-amoled-1.75--407261df/README.md) | RP2350 | 1 | 0 |
 | [RP2350-Touch-AMOLED-1.8](boards/waveshare/rp2350/rp2350-touch-amoled-1.8--7c02d8f8/README.md) | RP2350 | 2 | 2 |
 | [RP2350-Touch-AMOLED-2.41](boards/waveshare/rp2350/rp2350-touch-amoled-2.41--13725328/README.md) | RP2350 | 3 | 2 |
+| [RP2350-Touch-ePaper-1.54](boards/waveshare/rp2350/rp2350-touch-epaper-1-54--3de86c21/README.md) | RP2350 | 3 | 0 |
 | [RP2350-Touch-LCD-1.28](boards/waveshare/rp2350/rp2350-touch-lcd-1.28--165faaf5/README.md) | RP2350 | 2 | 2 |
 | [RP2350-Touch-LCD-1.46](boards/waveshare/rp2350/rp2350-touch-lcd-1.46--c49fe9c8/README.md) | RP2350 | 2 | 2 |
+| [RP2350-Touch-LCD-1.54](boards/waveshare/rp2350/rp2350-touch-lcd-1-54--91bd0e66/README.md) | RP2350 | 3 | 0 |
 | [RP2350-Touch-LCD-1.69](boards/waveshare/rp2350/rp2350-touch-lcd-1.69--19bf110e/README.md) | RP2350 | 2 | 2 |
 | [RP2350-Touch-LCD-1.85C](boards/waveshare/rp2350/rp2350-touch-lcd-1.85c--943bccc9/README.md) | RP2350 | 2 | 2 |
 | [RP2350-Touch-LCD-2](boards/waveshare/rp2350/rp2350-touch-lcd-2--2ec45a95/README.md) | RP2350 | 2 | 2 |
@@ -2305,12 +2368,15 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [RP2350-Touch-LCD-2.8C](boards/waveshare/rp2350/rp2350-touch-lcd-2.8c--b4935a89/README.md) | RP2350 | 2 | 2 |
 | [RP2350-Touch-LCD-3.49](boards/waveshare/rp2350/rp2350-touch-lcd-3.49--ca692342/README.md) | RP2350 | 2 | 2 |
 | [RP2350-Touch-LCD-3.5](boards/waveshare/rp2350/rp2350-touch-lcd-3.5--5a7a3f71/README.md) | RP2350 | 2 | 2 |
+| [RP2350-Touch-LCD-4](boards/waveshare/rp2350/rp2350-touch-lcd-4--ab61d9eb/README.md) | RP2350 | 1 | 0 |
 | [RP2350-Touch-LCD-4.3B](boards/waveshare/rp2350/rp2350-touch-lcd-4.3b--cafc9f33/README.md) | RP2350 | 1 | 1 |
+| [RP2350-Touch-LCD-7](boards/waveshare/rp2350/rp2350-touch-lcd-7--a642387d/README.md) | RP2350 | 1 | 0 |
 | [RP2350-USB-A](boards/waveshare/rp2350/rp2350-usb-a--7aa0bcde/README.md) | RP2350 | 2 | 2 |
 | [RP2350-USB-C](boards/waveshare/rp2350/rp2350-usb-c--caa93af0/README.md) | RP2350 | 2 | 2 |
 | [RP2350-Zero](boards/waveshare/rp2350/rp2350-zero--b7944e45/README.md) | RP2350 | 2 | 2 |
 | [RP2350-Zero-CM](boards/waveshare/rp2350/rp2350-zero-cm--c7aca95c/README.md) | RP2350 | 2 | 2 |
 | [RP2350B-Plus-W](boards/waveshare/rp2350/rp2350b-plus-w--279c5d0d/README.md) | RP2350 | 3 | 3 |
+| [Servo Driver with ESP32](boards/waveshare/esp32/servo-driver-with-esp32--176b6c42/README.md) | ESP32 | 2 | 0 |
 | [UPS Power Module (C)](boards/waveshare/expansion/ups-power-module-c--8b8ee5cd/README.md) | Expansion | 1 | 1 |
 | [XNUCLEO-F030R8](boards/waveshare/other/xnucleo-f030r8--57ace6ea/README.md) | Other | 1 | 1 |
 | [XNUCLEO-F103RB](boards/waveshare/other/xnucleo-f103rb--f666a328/README.md) | Other | 1 | 1 |

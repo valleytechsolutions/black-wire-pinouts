@@ -4,7 +4,7 @@
 
 Revision: Not identified
 
-Coverage: Pinout image collected
+Coverage: Manufacturer references reviewed by scope; independent electrical and all-connector review pending
 
 [Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-other-xiao-nrf54l15)
 
@@ -12,8 +12,10 @@ Coverage: Pinout image collected
 
 Board datasheet: **not yet recorded**. Visual reference: **available**.
 
-[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/xiao_nrf54l15_sense_getting_started/)
+[Manufacturer hardware documentation](https://wiki.seeedstudio.com/xiao_nrf54l15_sense_getting_started/)
 
+- **schematic / board**: [XIAO nRF54L15 Schematic](https://files.seeedstudio.com/wiki/XIAO_nRF54L15/Getting_Start/nRF54L15_Schematic.pdf) · [saved document](../../../../library/media/d747f0aaa001dde088d13ce76e4bc9b7b46de26a54cc12805bd21248bee55d23.pdf)
+- **hardware-guide / board**: [Manufacturer pin and hardware documentation](https://wiki.seeedstudio.com/xiao_nrf54l15_sense_getting_started/) · online
 
 A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
 
@@ -88,5 +90,23 @@ Original source index: Pinout Sheet. This file is searchable but has not been pr
 Image revision: Not identified
 
 SHA-256: `e20d3eac300188e0280a857a303f643ea43a63bd0d5ee77384229fad28209d7f`
+
+## XIAO nRF54L15 Schematic
+
+**original reference PDF** · Source identity and visual scope inspected; PDF review covers first-page preview. Independent electrical and all-connector completeness review pending. · PDF
+
+[![XIAO nRF54L15 reference preview](../../../../library/thumbs/d747f0aaa001dde088d13ce76e4bc9b7b46de26a54cc12805bd21248bee55d23.webp)](../../../../library/media/d747f0aaa001dde088d13ce76e4bc9b7b46de26a54cc12805bd21248bee55d23.pdf)
+
+[Open original reference](../../../../library/media/d747f0aaa001dde088d13ce76e4bc9b7b46de26a54cc12805bd21248bee55d23.pdf)
+
+**Credit and rights:** Manufacturer artwork; reuse and print rights not established. Inclusion does not relicense the original.. Source/manufacturer: Seeed Studio.
+
+[Source 1](https://files.seeedstudio.com/wiki/XIAO_nRF54L15/Getting_Start/nRF54L15_Schematic.pdf) · [Source 2](https://wiki.seeedstudio.com/xiao_nrf54l15_sense_getting_started/)
+
+Manufacturer source retained unchanged. Source identity and visual scope inspected; PDF review covers first-page preview. Independent electrical and all-connector completeness review pending.
+
+Image revision: As supplied in the original; match exact board revision
+
+SHA-256: `d747f0aaa001dde088d13ce76e4bc9b7b46de26a54cc12805bd21248bee55d23`
 
 Pin assignments have not been independently electrically verified. Check board revision before wiring.

@@ -4,7 +4,7 @@
 
 Revision: Not identified
 
-Coverage: Pinout image collected
+Coverage: Manufacturer references reviewed by scope; independent electrical and all-connector review pending
 
 [Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-other-xiao-mg24-sense)
 
@@ -12,8 +12,10 @@ Coverage: Pinout image collected
 
 Board datasheet: **not yet recorded**. Visual reference: **available**.
 
-[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/xiao_mg24_getting_started/)
+[Manufacturer hardware documentation](https://wiki.seeedstudio.com/xiao_mg24_getting_started/)
 
+- **schematic / board**: [XIAO MG24 Sense Schematic](https://files.seeedstudio.com/wiki/XIAO_MG24/Getting_Start/XIAO_MGM240S_KICAD_Prj.pdf) · [saved document](../../../../library/media/9061b13e67add7d567629a264517d04af2dfa71df156d3e27b188f21becc088f.pdf)
+- **hardware-guide / board**: [Manufacturer pin and hardware documentation](https://wiki.seeedstudio.com/xiao_mg24_getting_started/) · online
 
 A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
 
@@ -54,5 +56,23 @@ SHA-256: `9380b68e16fc9725d238f094dd8b0ba394bb4724eb68efc87ce797224cde5659`
 Image revision: Not identified
 
 SHA-256: `ea8361252836b753020fd1f7a811851c25ccb3f46de577554247561ac312fe3b`
+
+## XIAO MG24 Sense Schematic
+
+**original reference PDF** · Source identity and visual scope inspected; PDF review covers first-page preview. Independent electrical and all-connector completeness review pending. · PDF
+
+[![XIAO MG24 Sense reference preview](../../../../library/thumbs/9061b13e67add7d567629a264517d04af2dfa71df156d3e27b188f21becc088f.webp)](../../../../library/media/9061b13e67add7d567629a264517d04af2dfa71df156d3e27b188f21becc088f.pdf)
+
+[Open original reference](../../../../library/media/9061b13e67add7d567629a264517d04af2dfa71df156d3e27b188f21becc088f.pdf)
+
+**Credit and rights:** Manufacturer artwork; reuse and print rights not established. Inclusion does not relicense the original.. Source/manufacturer: Seeed Studio.
+
+[Source 1](https://files.seeedstudio.com/wiki/XIAO_MG24/Getting_Start/XIAO_MGM240S_KICAD_Prj.pdf) · [Source 2](https://wiki.seeedstudio.com/xiao_mg24_getting_started/)
+
+Manufacturer source retained unchanged. Source identity and visual scope inspected; PDF review covers first-page preview. Independent electrical and all-connector completeness review pending.
+
+Image revision: As supplied in the original; match exact board revision
+
+SHA-256: `9061b13e67add7d567629a264517d04af2dfa71df156d3e27b188f21becc088f`
 
 Pin assignments have not been independently electrically verified. Check board revision before wiring.

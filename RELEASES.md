@@ -4,7 +4,11 @@
 
 These are two independent release streams. A **collection release** contains images, PDFs, indexes and attribution records. A **desktop app release** contains an application for the operating systems listed in that release. A collection ZIP is not a desktop installer.
 
-## Current source snapshot / 2026.10.1
+## Current source snapshot / 2026.10.2
+
+[Vendor reference expansion](docs/EXPANSION-2026.10.2.md): 10 new records, 124 enriched records, 232 reference attachments and 159 external pin-purpose rows. Available in source and the browser guide; no new desktop installer or collection ZIP is distributed. Older releases remain immutable.
+
+## Previous source snapshot / 2026.10.1
 
 [High Boy V2_03 schematic update](docs/HIGHBOY-2026.10.1.md): an unchanged eight-page PDF dated September 29, 2026, separate from the historical REV 2.2 MVP labels. Available in the repository and browser guide. No new desktop installer or collection ZIP is distributed for this content update; older downloadable releases retain their original contents.
 

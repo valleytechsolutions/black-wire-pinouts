@@ -4,7 +4,7 @@
 
 Revision: Not identified
 
-Coverage: Pinout image collected
+Coverage: Manufacturer references reviewed by scope; independent electrical and all-connector review pending
 
 [Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-rp2350-xiao-rp2350)
 
@@ -12,8 +12,10 @@ Coverage: Pinout image collected
 
 Board datasheet: **not yet recorded**. Visual reference: **available**.
 
-[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/xiao_rp2350_arduino/)
+[Manufacturer hardware documentation](https://wiki.seeedstudio.com/xiao_rp2350_arduino/)
 
+- **schematic / board**: [XIAO RP2350 Schematic](https://files.seeedstudio.com/wiki/XIAO-RP2350/res/Seeed-Studio-XIAO-RP2350-v1.0.pdf) · [saved document](../../../../library/media/bd1c16ac32eb65bc1c389afbfea3ee90e321ba4b7e1804a6505d646774490bdd.pdf)
+- **hardware-guide / board**: [Manufacturer pin and hardware documentation](https://wiki.seeedstudio.com/xiao_rp2350_arduino/) · online
 
 A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
 
@@ -88,5 +90,23 @@ Original source index: Pinout Sheet. This file is searchable but has not been pr
 Image revision: Not identified
 
 SHA-256: `a7946ea79140aaa9ed5fa9e18047ab1608cc06ede6f275736e9da64ad8c6c807`
+
+## XIAO RP2350 Schematic
+
+**original reference PDF** · Source identity and visual scope inspected; PDF review covers first-page preview. Independent electrical and all-connector completeness review pending. · PDF
+
+[![XIAO RP2350 reference preview](../../../../library/thumbs/bd1c16ac32eb65bc1c389afbfea3ee90e321ba4b7e1804a6505d646774490bdd.webp)](../../../../library/media/bd1c16ac32eb65bc1c389afbfea3ee90e321ba4b7e1804a6505d646774490bdd.pdf)
+
+[Open original reference](../../../../library/media/bd1c16ac32eb65bc1c389afbfea3ee90e321ba4b7e1804a6505d646774490bdd.pdf)
+
+**Credit and rights:** Manufacturer artwork; reuse and print rights not established. Inclusion does not relicense the original.. Source/manufacturer: Seeed Studio.
+
+[Source 1](https://files.seeedstudio.com/wiki/XIAO-RP2350/res/Seeed-Studio-XIAO-RP2350-v1.0.pdf) · [Source 2](https://wiki.seeedstudio.com/xiao_rp2350_arduino/)
+
+Manufacturer source retained unchanged. Source identity and visual scope inspected; PDF review covers first-page preview. Independent electrical and all-connector completeness review pending.
+
+Image revision: As supplied in the original; match exact board revision
+
+SHA-256: `bd1c16ac32eb65bc1c389afbfea3ee90e321ba4b7e1804a6505d646774490bdd`
 
 Pin assignments have not been independently electrically verified. Check board revision before wiring.

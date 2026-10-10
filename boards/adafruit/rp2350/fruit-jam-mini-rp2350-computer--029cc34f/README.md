@@ -4,7 +4,7 @@
 
 Revision: Not identified
 
-Coverage: Physical pinout source collected; scope and revision require confirmation
+Coverage: Manufacturer references reviewed by scope; independent electrical and all-connector review pending
 
 [Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=adafruit-rp2350-fruit-jam-mini-rp2350-computer)
 
@@ -14,8 +14,9 @@ Architecture: **ARM / RISC-V**
 
 Board datasheet: **not yet recorded**. Visual reference: **available**.
 
-[Manufacturer source (recorded link)](https://www.adafruit.com/product/6200)
+[Manufacturer hardware documentation](https://learn.adafruit.com/adafruit-fruit-jam/pinout)
 
+- **hardware-guide / board**: [Manufacturer pin and hardware documentation](https://learn.adafruit.com/adafruit-fruit-jam/pinout) · online
 
 A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
 
@@ -58,5 +59,41 @@ Original publisher reference. Exact board/revision and electrical limits still r
 Image revision: Not identified
 
 SHA-256: `ee87d75b87aad2381b550f281df4086935528f36246a2c7daeac49eef8b18916`
+
+## Pinout
+
+**board labeling image** · Source identity and visual scope inspected; PDF review covers first-page preview. Independent electrical and all-connector completeness review pending. · JPG
+
+[![Fruit Jam - Mini RP2350 Computer reference preview](../../../../library/thumbs/9900b4fc77ed98c04508f5c833a10a6c6502706d71d94a71c031cabdc9ac30b6.webp)](../../../../library/media/9900b4fc77ed98c04508f5c833a10a6c6502706d71d94a71c031cabdc9ac30b6.jpg)
+
+[Open original reference](../../../../library/media/9900b4fc77ed98c04508f5c833a10a6c6502706d71d94a71c031cabdc9ac30b6.jpg)
+
+**Credit and rights:** Manufacturer artwork; reuse and print rights not established. Inclusion does not relicense the original.. Source/manufacturer: Adafruit.
+
+[Source 1](https://cdn-learn.adafruit.com/assets/assets/000/138/481/medium800/adafruit_products_double.jpg?1752852378) · [Source 2](https://learn.adafruit.com/adafruit-fruit-jam/pinout)
+
+Manufacturer source retained unchanged. Source identity and visual scope inspected; PDF review covers first-page preview. Independent electrical and all-connector completeness review pending. See the linked manufacturer page for the numbered component legend. This is not a complete physical pinout.
+
+Image revision: As supplied in the original; match exact board revision
+
+SHA-256: `9900b4fc77ed98c04508f5c833a10a6c6502706d71d94a71c031cabdc9ac30b6`
+
+## Pinout
+
+**pinout image** · Source identity and visual scope inspected; PDF review covers first-page preview. Independent electrical and all-connector completeness review pending. · PNG
+
+[![Fruit Jam - Mini RP2350 Computer reference preview](../../../../library/thumbs/6b78c6fd3e7557fd74810bf63dc7a904f6cd6e31f62730d4ed1ee150e79f2756.webp)](../../../../library/media/6b78c6fd3e7557fd74810bf63dc7a904f6cd6e31f62730d4ed1ee150e79f2756.png)
+
+[Open original reference](../../../../library/media/6b78c6fd3e7557fd74810bf63dc7a904f6cd6e31f62730d4ed1ee150e79f2756.png)
+
+**Credit and rights:** Manufacturer artwork; reuse and print rights not established. Inclusion does not relicense the original.. Source/manufacturer: Adafruit.
+
+[Source 1](https://cdn-learn.adafruit.com/assets/assets/000/138/476/medium800/adafruit_products_Artboard_1.png?1752790959) · [Source 2](https://learn.adafruit.com/adafruit-fruit-jam/pinout)
+
+Manufacturer source retained unchanged. Source identity and visual scope inspected; PDF review covers first-page preview. Independent electrical and all-connector completeness review pending.
+
+Image revision: As supplied in the original; match exact board revision
+
+SHA-256: `6b78c6fd3e7557fd74810bf63dc7a904f6cd6e31f62730d4ed1ee150e79f2756`
 
 Pin assignments have not been independently electrically verified. Check board revision before wiring.

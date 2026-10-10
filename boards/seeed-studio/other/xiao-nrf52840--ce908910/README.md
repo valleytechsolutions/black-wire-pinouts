@@ -4,7 +4,7 @@
 
 Revision: Not identified
 
-Coverage: Pinout image collected
+Coverage: Manufacturer references reviewed by scope; independent electrical and all-connector review pending
 
 [Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-other-xiao-nrf52840)
 
@@ -12,8 +12,10 @@ Coverage: Pinout image collected
 
 Board datasheet: **not yet recorded**. Visual reference: **available**.
 
-[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/XIAO_BLE/)
+[Manufacturer hardware documentation](https://wiki.seeedstudio.com/XIAO_BLE/)
 
+- **schematic / board**: [XIAO nRF52840 Schematic](https://files.seeedstudio.com/wiki/XIAO-BLE/Res/260828_XIAO_nRF52840.pdf) · [saved document](../../../../library/media/b2a1921c2a67e94996662a3348046ae6c35cb7e36f434d4e5036d018fc4d1cd7.pdf)
+- **hardware-guide / board**: [Manufacturer pin and hardware documentation](https://wiki.seeedstudio.com/XIAO_BLE/) · online
 
 A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
 
@@ -88,5 +90,23 @@ Original source index: Pinout Sheet. This file is searchable but has not been pr
 Image revision: Not identified
 
 SHA-256: `80474216968b5be5d9128cf55b6d9191fb53d4ae2bcde6f24131752da0ea3e94`
+
+## XIAO nRF52840 Schematic
+
+**original reference PDF** · Source identity and visual scope inspected; PDF review covers first-page preview. Independent electrical and all-connector completeness review pending. · PDF
+
+[![XIAO nRF52840 reference preview](../../../../library/thumbs/b2a1921c2a67e94996662a3348046ae6c35cb7e36f434d4e5036d018fc4d1cd7.webp)](../../../../library/media/b2a1921c2a67e94996662a3348046ae6c35cb7e36f434d4e5036d018fc4d1cd7.pdf)
+
+[Open original reference](../../../../library/media/b2a1921c2a67e94996662a3348046ae6c35cb7e36f434d4e5036d018fc4d1cd7.pdf)
+
+**Credit and rights:** Manufacturer artwork; reuse and print rights not established. Inclusion does not relicense the original.. Source/manufacturer: Seeed Studio.
+
+[Source 1](https://files.seeedstudio.com/wiki/XIAO-BLE/Res/260828_XIAO_nRF52840.pdf) · [Source 2](https://wiki.seeedstudio.com/XIAO_BLE/)
+
+Manufacturer source retained unchanged. Source identity and visual scope inspected; PDF review covers first-page preview. Independent electrical and all-connector completeness review pending.
+
+Image revision: As supplied in the original; match exact board revision
+
+SHA-256: `b2a1921c2a67e94996662a3348046ae6c35cb7e36f434d4e5036d018fc4d1cd7`
 
 Pin assignments have not been independently electrically verified. Check board revision before wiring.

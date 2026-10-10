@@ -4,7 +4,7 @@
 
 Revision: Not identified
 
-Coverage: Pinout image collected
+Coverage: Manufacturer references reviewed by scope; independent electrical and all-connector review pending
 
 [Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=adafruit-esp32-sparkle-motion)
 
@@ -12,8 +12,9 @@ Coverage: Pinout image collected
 
 Board datasheet: **not yet recorded**. Visual reference: **available**.
 
-[Manufacturer source (recorded link)](https://learn.adafruit.com/adafruit-sparkle-motion/pinouts)
+[Manufacturer hardware documentation](https://learn.adafruit.com/adafruit-sparkle-motion/pinouts)
 
+- **hardware-guide / board**: [Manufacturer pin and hardware documentation](https://learn.adafruit.com/adafruit-sparkle-motion/pinouts) · online
 
 A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
 
@@ -52,5 +53,41 @@ Discovered from CircuitPython board metadata and the linked product/documentatio
 Image revision: Not identified
 
 SHA-256: `e6f5bc0c5bfa8cd03a65fa639ad419fea826805300a2e748459759e085e613ce`
+
+## Pinouts
+
+**board labeling image** · Source identity and visual scope inspected; PDF review covers first-page preview. Independent electrical and all-connector completeness review pending. · PNG
+
+[![Adafruit Sparkle Motion reference preview](../../../../library/thumbs/5cb52d5701958c8343c0843dc31dba2b95cea381fe83ca65bf6b42fe5c268119.webp)](../../../../library/media/5cb52d5701958c8343c0843dc31dba2b95cea381fe83ca65bf6b42fe5c268119.png)
+
+[Open original reference](../../../../library/media/5cb52d5701958c8343c0843dc31dba2b95cea381fe83ca65bf6b42fe5c268119.png)
+
+**Credit and rights:** Manufacturer artwork; reuse and print rights not established. Inclusion does not relicense the original.. Source/manufacturer: Adafruit.
+
+[Source 1](https://cdn-learn.adafruit.com/assets/assets/000/134/648/medium800/adafruit_products_sparklemotion_pinouts_frontback.png?1737732738) · [Source 2](https://learn.adafruit.com/adafruit-sparkle-motion/pinouts)
+
+Manufacturer source retained unchanged. Source identity and visual scope inspected; PDF review covers first-page preview. Independent electrical and all-connector completeness review pending. See the linked manufacturer page for the numbered component legend. This is not a complete physical pinout.
+
+Image revision: As supplied in the original; match exact board revision
+
+SHA-256: `5cb52d5701958c8343c0843dc31dba2b95cea381fe83ca65bf6b42fe5c268119`
+
+## Pinouts
+
+**pinout image** · Source identity and visual scope inspected; PDF review covers first-page preview. Independent electrical and all-connector completeness review pending. · PNG
+
+[![Adafruit Sparkle Motion reference preview](../../../../library/thumbs/ce70e54096087317702b7f9bd9495d83da0169ebca02d565e7d3811fbe5c5792.webp)](../../../../library/media/ce70e54096087317702b7f9bd9495d83da0169ebca02d565e7d3811fbe5c5792.png)
+
+[Open original reference](../../../../library/media/ce70e54096087317702b7f9bd9495d83da0169ebca02d565e7d3811fbe5c5792.png)
+
+**Credit and rights:** Manufacturer artwork; reuse and print rights not established. Inclusion does not relicense the original.. Source/manufacturer: Adafruit.
+
+[Source 1](https://cdn-learn.adafruit.com/assets/assets/000/134/846/medium800/adafruit_products_sparkle_motion_prettypins.png?1738017733) · [Source 2](https://learn.adafruit.com/adafruit-sparkle-motion/pinouts)
+
+Manufacturer source retained unchanged. Source identity and visual scope inspected; PDF review covers first-page preview. Independent electrical and all-connector completeness review pending.
+
+Image revision: As supplied in the original; match exact board revision
+
+SHA-256: `ce70e54096087317702b7f9bd9495d83da0169ebca02d565e7d3811fbe5c5792`
 
 Pin assignments have not been independently electrically verified. Check board revision before wiring.

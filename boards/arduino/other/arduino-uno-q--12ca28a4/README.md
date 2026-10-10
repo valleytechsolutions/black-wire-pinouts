@@ -4,7 +4,7 @@
 
 Revision: Not identified
 
-Coverage: Pinout image collected
+Coverage: Manufacturer references reviewed by scope; independent electrical and all-connector review pending
 
 [Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=arduino-other-uno-q)
 
@@ -12,8 +12,10 @@ Coverage: Pinout image collected
 
 Board datasheet: **not yet recorded**. Visual reference: **available**.
 
-[Manufacturer source (recorded link)](https://docs.arduino.cc/hardware/uno-q/)
+[Manufacturer hardware documentation](https://docs.arduino.cc/hardware/uno-q/)
 
+- **schematic / recorded-source**: [Schematics](https://docs.arduino.cc/resources/schematics/ABX00162-schematics.pdf) · [saved document](../../../../library/media/59a22a0e966fc8b2a851bcbc36f9ba4f4e9b44eaa53d7f2f32f9fe4990eba3bd.pdf)
+- **hardware-guide / board**: [Manufacturer pin and hardware documentation](https://docs.arduino.cc/hardware/uno-q/) · online
 
 A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
 
@@ -178,5 +180,23 @@ Official Arduino documentation repository pinned at dab66ecbd6ad52cd742da6c19c5b
 Image revision: Not identified
 
 SHA-256: `c4cd57bf718939eb2659b7e4ce5523c070c2a9f85c06009ad56964286fc81153`
+
+## Schematics
+
+**original reference PDF** · Source identity and visual scope inspected; PDF review covers first-page preview. Independent electrical and all-connector completeness review pending. · PDF
+
+[![Arduino UNO Q reference preview](../../../../library/thumbs/59a22a0e966fc8b2a851bcbc36f9ba4f4e9b44eaa53d7f2f32f9fe4990eba3bd.webp)](../../../../library/media/59a22a0e966fc8b2a851bcbc36f9ba4f4e9b44eaa53d7f2f32f9fe4990eba3bd.pdf)
+
+[Open original reference](../../../../library/media/59a22a0e966fc8b2a851bcbc36f9ba4f4e9b44eaa53d7f2f32f9fe4990eba3bd.pdf)
+
+**Credit and rights:** Manufacturer artwork; reuse and print rights not established. Inclusion does not relicense the original.. Source/manufacturer: Arduino.
+
+[Source 1](https://docs.arduino.cc/resources/schematics/ABX00162-schematics.pdf) · [Source 2](https://docs.arduino.cc/hardware/uno-q/)
+
+Manufacturer source retained unchanged. Source identity and visual scope inspected; PDF review covers first-page preview. Independent electrical and all-connector completeness review pending.
+
+Image revision: As supplied in the original; match exact board revision
+
+SHA-256: `59a22a0e966fc8b2a851bcbc36f9ba4f4e9b44eaa53d7f2f32f9fe4990eba3bd`
 
 Pin assignments have not been independently electrically verified. Check board revision before wiring.

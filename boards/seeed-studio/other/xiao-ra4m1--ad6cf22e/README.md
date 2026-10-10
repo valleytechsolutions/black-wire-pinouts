@@ -4,7 +4,7 @@
 
 Revision: Not identified
 
-Coverage: Pinout image collected
+Coverage: Manufacturer references reviewed by scope; independent electrical and all-connector review pending
 
 [Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-other-xiao-ra4m1)
 
@@ -12,8 +12,10 @@ Coverage: Pinout image collected
 
 Board datasheet: **not yet recorded**. Visual reference: **available**.
 
-[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/getting_started_xiao_ra4m1/)
+[Manufacturer hardware documentation](https://wiki.seeedstudio.com/getting_started_xiao_ra4m1/)
 
+- **schematic / board**: [XIAO RA4M1 Schematic](https://files.seeedstudio.com/wiki/XIAO-R4AM1/res/XIAO%20RA4M1%20V1.01_SCH_PDF_260114%20.pdf.pdf) · [saved document](../../../../library/media/2e87385a9b4f9efc092f48f64ce7551cae2dc45e2a2e1c565e1ccd17a28d7058.pdf)
+- **hardware-guide / board**: [Manufacturer pin and hardware documentation](https://wiki.seeedstudio.com/getting_started_xiao_ra4m1/) · online
 
 A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
 
@@ -54,5 +56,23 @@ SHA-256: `886595b571493fdf4f37d2b3a5bb7b95a11f9d5a2572ce05215f1423a999576d`
 Image revision: Not identified
 
 SHA-256: `253ea1087daf0f014f044254800dd85ed7a17de1fdffff85b16c6be3c55d88cb`
+
+## XIAO RA4M1 Schematic
+
+**original reference PDF** · Source identity and visual scope inspected; PDF review covers first-page preview. Independent electrical and all-connector completeness review pending. · PDF
+
+[![XIAO RA4M1 reference preview](../../../../library/thumbs/2e87385a9b4f9efc092f48f64ce7551cae2dc45e2a2e1c565e1ccd17a28d7058.webp)](../../../../library/media/2e87385a9b4f9efc092f48f64ce7551cae2dc45e2a2e1c565e1ccd17a28d7058.pdf)
+
+[Open original reference](../../../../library/media/2e87385a9b4f9efc092f48f64ce7551cae2dc45e2a2e1c565e1ccd17a28d7058.pdf)
+
+**Credit and rights:** Manufacturer artwork; reuse and print rights not established. Inclusion does not relicense the original.. Source/manufacturer: Seeed Studio.
+
+[Source 1](https://files.seeedstudio.com/wiki/XIAO-R4AM1/res/XIAO%20RA4M1%20V1.01_SCH_PDF_260114%20.pdf.pdf) · [Source 2](https://wiki.seeedstudio.com/getting_started_xiao_ra4m1/)
+
+Manufacturer source retained unchanged. Source identity and visual scope inspected; PDF review covers first-page preview. Independent electrical and all-connector completeness review pending.
+
+Image revision: As supplied in the original; match exact board revision
+
+SHA-256: `2e87385a9b4f9efc092f48f64ce7551cae2dc45e2a2e1c565e1ccd17a28d7058`
 
 Pin assignments have not been independently electrically verified. Check board revision before wiring.

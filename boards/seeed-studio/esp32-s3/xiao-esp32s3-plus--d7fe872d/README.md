@@ -4,7 +4,7 @@
 
 Revision: Not identified
 
-Coverage: Pinout image collected
+Coverage: Manufacturer references reviewed by scope; independent electrical and all-connector review pending
 
 [Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-esp32-xiao-esp32s3-plus)
 
@@ -12,8 +12,10 @@ Coverage: Pinout image collected
 
 Board datasheet: **not yet recorded**. Visual reference: **available**.
 
-[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/)
+[Manufacturer hardware documentation](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/)
 
+- **schematic / recorded-source**: [XIAO ESP32-S3 Plus Schematic](https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/res/XIAO_ESP32S3_Plus_V1.1_SCH_260115.pdf) · [saved document](../../../../library/media/5d0213b6258b2658e5edae4d4ee166f6f852e1d0c304bddff5006f6ec6a7d9b9.pdf)
+- **hardware-guide / board**: [Manufacturer pin and hardware documentation](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) · online
 
 A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
 
@@ -70,5 +72,23 @@ Original source index: Pinout Sheet. This file is searchable but has not been pr
 Image revision: Not identified
 
 SHA-256: `5dd771ebbb3d0e075b1de7123a354c43e4ee0907b2e3dba0ca9b835b37223cd5`
+
+## XIAO ESP32-S3 Plus Schematic
+
+**original reference PDF** · Source identity and visual scope inspected; PDF review covers first-page preview. Independent electrical and all-connector completeness review pending. · PDF
+
+[![XIAO ESP32S3 Plus reference preview](../../../../library/thumbs/5d0213b6258b2658e5edae4d4ee166f6f852e1d0c304bddff5006f6ec6a7d9b9.webp)](../../../../library/media/5d0213b6258b2658e5edae4d4ee166f6f852e1d0c304bddff5006f6ec6a7d9b9.pdf)
+
+[Open original reference](../../../../library/media/5d0213b6258b2658e5edae4d4ee166f6f852e1d0c304bddff5006f6ec6a7d9b9.pdf)
+
+**Credit and rights:** Manufacturer artwork; reuse and print rights not established. Inclusion does not relicense the original.. Source/manufacturer: Seeed Studio.
+
+[Source 1](https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/res/XIAO_ESP32S3_Plus_V1.1_SCH_260115.pdf) · [Source 2](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/)
+
+Manufacturer source retained unchanged. Source identity and visual scope inspected; PDF review covers first-page preview. Independent electrical and all-connector completeness review pending.
+
+Image revision: As supplied in the original; match exact board revision
+
+SHA-256: `5d0213b6258b2658e5edae4d4ee166f6f852e1d0c304bddff5006f6ec6a7d9b9`
 
 Pin assignments have not been independently electrically verified. Check board revision before wiring.

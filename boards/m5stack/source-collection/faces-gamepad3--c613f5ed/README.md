@@ -4,7 +4,7 @@
 
 Revision: Unverified source identity
 
-Coverage: Source collection; review pending
+Coverage: Manufacturer references reviewed by scope; independent electrical and all-connector review pending
 
 [Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=source-board-84312f51f4f10bbd1a)
 
@@ -12,8 +12,10 @@ Coverage: Source collection; review pending
 
 Board datasheet: **not yet recorded**. Visual reference: **available**.
 
-[Manufacturer source (recorded link)](https://docs.m5stack.com/en/faces/Faces_Gamepad3)
+[Manufacturer hardware documentation](https://docs.m5stack.com/en/faces/Faces_Gamepad3)
 
+- **schematic / board**: [Faces Gamepad3 Schematics PDF](https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1271/A004-V3_Faces_Gamepad3_Sche.pdf) · [saved document](../../../../library/media/847c842586ee0d44a74bc7475c0812946f0fc2002b43cd18c1cc079af9dc06e5.pdf)
+- **hardware-guide / board**: [Manufacturer pin and hardware documentation](https://docs.m5stack.com/en/faces/Faces_Gamepad3) · online
 
 A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
 
@@ -36,5 +38,23 @@ Original source index: Dimensions. This file is searchable but has not been prom
 Image revision: Not identified
 
 SHA-256: `842bef9bfe55d329b2e22c258b69c081e86417f89c6f96940d7c34bd9a88c5f5`
+
+## Faces Gamepad3 Schematics PDF
+
+**original reference PDF** · Manufacturer source and first-page preview inspected; independent electrical and all-connector completeness review pending. · PDF
+
+[![Faces Gamepad3 reference preview](../../../../library/thumbs/847c842586ee0d44a74bc7475c0812946f0fc2002b43cd18c1cc079af9dc06e5.webp)](../../../../library/media/847c842586ee0d44a74bc7475c0812946f0fc2002b43cd18c1cc079af9dc06e5.pdf)
+
+[Open original reference](../../../../library/media/847c842586ee0d44a74bc7475c0812946f0fc2002b43cd18c1cc079af9dc06e5.pdf)
+
+**Credit and rights:** Manufacturer artwork; reuse and print rights not established. Inclusion does not relicense the original.. Source/manufacturer: M5Stack.
+
+[Source 1](https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1271/A004-V3_Faces_Gamepad3_Sche.pdf) · [Source 2](https://docs.m5stack.com/en/faces/Faces_Gamepad3)
+
+Manufacturer source retained unchanged. Manufacturer source and first-page preview inspected; independent electrical and all-connector completeness review pending.
+
+Image revision: As supplied in the original; match exact board revision
+
+SHA-256: `847c842586ee0d44a74bc7475c0812946f0fc2002b43cd18c1cc079af9dc06e5`
 
 Pin assignments have not been independently electrically verified. Check board revision before wiring.

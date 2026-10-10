@@ -4,7 +4,7 @@
 
 Revision: Not identified
 
-Coverage: Pinout image collected
+Coverage: Manufacturer references reviewed by scope; independent electrical and all-connector review pending
 
 [Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=seeed-studio-esp32-xiao-esp32c6)
 
@@ -12,8 +12,10 @@ Coverage: Pinout image collected
 
 Board datasheet: **not yet recorded**. Visual reference: **available**.
 
-[Manufacturer source (recorded link)](https://wiki.seeedstudio.com/xiao_esp32c6_getting_started/)
+[Manufacturer hardware documentation](https://wiki.seeedstudio.com/xiao_esp32c6_getting_started/)
 
+- **schematic / recorded-source**: [XIAO ESP32-C6 Schematic](https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32C6/XIAO_ESP32_C6_v1.0_SCH_260114.pdf) · [saved document](../../../../library/media/510f3f917bcded1201ca5c63374409183457c1ef83a836988517d6802180dad7.pdf)
+- **hardware-guide / board**: [Manufacturer pin and hardware documentation](https://wiki.seeedstudio.com/xiao_esp32c6_getting_started/) · online
 
 A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
 
@@ -88,5 +90,23 @@ Original source index: Pinout Sheet. This file is searchable but has not been pr
 Image revision: Not identified
 
 SHA-256: `e2dae530c359e66ba704039f86cfea4bc316596fde367d992723509777746494`
+
+## XIAO ESP32-C6 Schematic
+
+**original reference PDF** · Source identity and visual scope inspected; PDF review covers first-page preview. Independent electrical and all-connector completeness review pending. · PDF
+
+[![XIAO ESP32C6 reference preview](../../../../library/thumbs/510f3f917bcded1201ca5c63374409183457c1ef83a836988517d6802180dad7.webp)](../../../../library/media/510f3f917bcded1201ca5c63374409183457c1ef83a836988517d6802180dad7.pdf)
+
+[Open original reference](../../../../library/media/510f3f917bcded1201ca5c63374409183457c1ef83a836988517d6802180dad7.pdf)
+
+**Credit and rights:** Manufacturer artwork; reuse and print rights not established. Inclusion does not relicense the original.. Source/manufacturer: Seeed Studio.
+
+[Source 1](https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32C6/XIAO_ESP32_C6_v1.0_SCH_260114.pdf) · [Source 2](https://wiki.seeedstudio.com/xiao_esp32c6_getting_started/)
+
+Manufacturer source retained unchanged. Source identity and visual scope inspected; PDF review covers first-page preview. Independent electrical and all-connector completeness review pending.
+
+Image revision: As supplied in the original; match exact board revision
+
+SHA-256: `510f3f917bcded1201ca5c63374409183457c1ef83a836988517d6802180dad7`
 
 Pin assignments have not been independently electrically verified. Check board revision before wiring.

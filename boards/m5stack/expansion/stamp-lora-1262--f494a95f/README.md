@@ -4,7 +4,7 @@
 
 Revision: LoRa-1262 original variant shown
 
-Coverage: Pinout image collected
+Coverage: Manufacturer references reviewed by scope; independent electrical and all-connector review pending
 
 [Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=m5stack-expansion-stamp-lora-1262)
 
@@ -12,8 +12,10 @@ Coverage: Pinout image collected
 
 Board datasheet: **not yet recorded**. Visual reference: **available**.
 
-[Manufacturer source (recorded link)](https://docs.m5stack.com/en/stamp/Stamp_LoRa-1262)
+[Manufacturer hardware documentation](https://docs.m5stack.com/en/stamp/Stamp_LoRa-1262)
 
+- **schematic / board**: [Stamp LoRa-1262 Schematics PDF](https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1279/S014_Stamp_LoRa-1262_Sche.pdf) · [saved document](../../../../library/media/18b8416728fe20813eb67aedf5e2354d4c1427f3d9ed61351dc7b5315945d223.pdf)
+- **hardware-guide / board**: [Manufacturer pin and hardware documentation](https://docs.m5stack.com/en/stamp/Stamp_LoRa-1262) · online
 
 A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
 
@@ -90,5 +92,59 @@ Original source index: Dimensions. This file is searchable but has not been prom
 Image revision: Not identified
 
 SHA-256: `63079d2198867802045d8b25ab4ea08897b8e4357f63056a2f9c874a5f2eb5a7`
+
+## PinMap
+
+**pinout image** · Physical module orientation and connector labels visually inspected; independent all-pin/electrical review pending. · JPG
+
+[![Stamp LoRa-1262 reference preview](../../../../library/thumbs/d5e1bb05734b0b8add0c6e16ae6e84cdeea3052e2f341941848efe35309dd1c2.webp)](../../../../library/media/d5e1bb05734b0b8add0c6e16ae6e84cdeea3052e2f341941848efe35309dd1c2.jpg)
+
+[Open original reference](../../../../library/media/d5e1bb05734b0b8add0c6e16ae6e84cdeea3052e2f341941848efe35309dd1c2.jpg)
+
+**Credit and rights:** Manufacturer artwork; reuse and print rights not established. Inclusion does not relicense the original.. Source/manufacturer: M5Stack.
+
+[Source 1](https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1279/S014-I-pinmap.jpg) · [Source 2](https://docs.m5stack.com/en/stamp/Stamp_LoRa-1262)
+
+Manufacturer source retained unchanged. Physical module orientation and connector labels visually inspected; independent all-pin/electrical review pending.
+
+Image revision: As supplied in the original; match exact board revision
+
+SHA-256: `d5e1bb05734b0b8add0c6e16ae6e84cdeea3052e2f341941848efe35309dd1c2`
+
+## PinMap
+
+**pinout image** · Physical module orientation and connector labels visually inspected; independent all-pin/electrical review pending. · JPG
+
+[![Stamp LoRa-1262 reference preview](../../../../library/thumbs/8ace86669c0b7a4cf9cb0f33a43c44e50cb96b1a0511610f5b1f095cdecc9abb.webp)](../../../../library/media/8ace86669c0b7a4cf9cb0f33a43c44e50cb96b1a0511610f5b1f095cdecc9abb.jpg)
+
+[Open original reference](../../../../library/media/8ace86669c0b7a4cf9cb0f33a43c44e50cb96b1a0511610f5b1f095cdecc9abb.jpg)
+
+**Credit and rights:** Manufacturer artwork; reuse and print rights not established. Inclusion does not relicense the original.. Source/manufacturer: M5Stack.
+
+[Source 1](https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1279/S014-IF-pinmap.jpg) · [Source 2](https://docs.m5stack.com/en/stamp/Stamp_LoRa-1262)
+
+Manufacturer source retained unchanged. Physical module orientation and connector labels visually inspected; independent all-pin/electrical review pending.
+
+Image revision: As supplied in the original; match exact board revision
+
+SHA-256: `8ace86669c0b7a4cf9cb0f33a43c44e50cb96b1a0511610f5b1f095cdecc9abb`
+
+## Stamp LoRa-1262 Schematics PDF
+
+**original reference PDF** · Manufacturer source and first-page preview inspected; electrical correctness and all-connector completeness not independently approved. · PDF
+
+[![Stamp LoRa-1262 reference preview](../../../../library/thumbs/18b8416728fe20813eb67aedf5e2354d4c1427f3d9ed61351dc7b5315945d223.webp)](../../../../library/media/18b8416728fe20813eb67aedf5e2354d4c1427f3d9ed61351dc7b5315945d223.pdf)
+
+[Open original reference](../../../../library/media/18b8416728fe20813eb67aedf5e2354d4c1427f3d9ed61351dc7b5315945d223.pdf)
+
+**Credit and rights:** Manufacturer artwork; reuse and print rights not established. Inclusion does not relicense the original.. Source/manufacturer: M5Stack.
+
+[Source 1](https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1279/S014_Stamp_LoRa-1262_Sche.pdf) · [Source 2](https://docs.m5stack.com/en/stamp/Stamp_LoRa-1262)
+
+Manufacturer source retained unchanged. Manufacturer source and first-page preview inspected; electrical correctness and all-connector completeness not independently approved.
+
+Image revision: As supplied in the original; match exact board revision
+
+SHA-256: `18b8416728fe20813eb67aedf5e2354d4c1427f3d9ed61351dc7b5315945d223`
 
 Pin assignments have not been independently electrically verified. Check board revision before wiring.
