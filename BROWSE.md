@@ -182,7 +182,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Portenta Machine Control](boards/arduino/other/portenta-machine-control--e78f5831/README.md) | Other | 11 | 6 |
 | [Portenta X8](boards/arduino/other/portenta-x8--9b13e63d/README.md) | Other | 20 | 10 |
 | [Stella](boards/arduino/gpio-device/stella--9c840d79/README.md) | GPIO device | 3 | 2 |
-| [UNO Breakout Carrier](boards/arduino/passive-uno-q-carrier-mcu-and-mpu-signals-have-different-logic-voltages/uno-breakout-carrier--56dc4a81/README.md) | Passive UNO Q carrier; MCU and MPU signals have different logic voltages | 4 | 2 |
+| [UNO Breakout Carrier](boards/arduino/passive-uno-q-carrier-mcu-and-mpu-signals-have-different-logic-voltages/uno-breakout-carrier--56dc4a81/README.md) | Passive carrier | 4 | 2 |
 | [UNO Mini Limited Edition](boards/arduino/other/uno-mini-limited-edition--87b35d7f/README.md) | Other | 6 | 5 |
 | [UNO R3 SMD](boards/arduino/other/uno-r3-smd--5cade729/README.md) | Other | 5 | 4 |
 | [UNO R4 Minima](boards/arduino/other/uno-r4-minima--8fe36a91/README.md) | Other | 6 | 5 |

@@ -1,6 +1,6 @@
 # UNO Breakout Carrier
 
-**Arduino** · Passive UNO Q carrier; MCU and MPU signals have different logic voltages
+**Arduino** · Passive carrier
 
 Revision: Match revision in each original source
 
