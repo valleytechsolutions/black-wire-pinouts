@@ -16,7 +16,11 @@
 
 Board and device references for **ESP32, Arduino, Raspberry Pi, RP2040/RP2350**, displays, sensors, buttons, interfaces and power modules. Find physical pinout sources, supporting photos, pin-purpose tables and manufacturer documentation, with revision and coverage notes. Generic modules and documentation gaps remain visible.
 
-The companion app **0.14.0** adds a single Windows installer, Linux packages and in-app updates that retain downloaded references and saved workbench data. Search and previews are included; download original files inside the app for complete offline access. [Install and update](https://valleytech-black-wire-guide.pages.dev/wiki/desktop-updates/). The hardware collection remains snapshot **2026.09.13**, First Edition / 2026. [How to read a pinout](https://valleytech-black-wire-guide.pages.dev/wiki/reading-pinouts/) · [Contribute or report a correction](CONTRIBUTING.md).
+The companion app **0.14.0** adds a single Windows installer, Linux packages and in-app updates that retain downloaded references and saved workbench data. Search and previews are included; download original files inside the app for complete offline access. [Install and update](https://valleytech-black-wire-guide.pages.dev/wiki/desktop-updates/). The hardware collection is snapshot **2026.10.1**, First Edition / 2026. [How to read a pinout](https://valleytech-black-wire-guide.pages.dev/wiki/reading-pinouts/) · [Contribute or report a correction](CONTRIBUTING.md).
+
+## High Boy schematic / snapshot 2026.10.1
+
+The updated **High Boy V2_03 schematic, dated September 29, 2026**, is available as an eight-page original PDF. The older REV 2.2 MVP / ESP32-S3 labels remain separate. [Open the schematic and review notes](docs/HIGHBOY-2026.10.1.md).
 
 ## Radios and GPIO devices / snapshot 2026.09.13
 

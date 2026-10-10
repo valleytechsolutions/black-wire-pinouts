@@ -588,7 +588,8 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 
 | Board / device | Processor / family | References | Pinout images |
 |---|---|---:|---:|
-| [High Boy REV 2.2 MVP](boards/high-code/esp32-s3/high-boy-rev-2.2-mvp--26ebe16c/README.md) | ESP32-S3 | 1 | 1 |
+| [High Boy REV 2.2 MVP](boards/high-code/esp32-s3/high-boy-rev-2.2-mvp--26ebe16c/README.md) | ESP32-S3 | 1 | 0 |
+| [High Boy V2_03](boards/high-code/esp32-p4-esp32-c5/high-boy-v2-03--8bc2e0b4/README.md) | ESP32-P4 / ESP32-C5 | 1 | 0 |
 
 ## Inland
 

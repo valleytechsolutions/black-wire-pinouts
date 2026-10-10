@@ -4,11 +4,13 @@
 
 Revision: REV 2.2 MVP; not final production
 
-Coverage: Partial pinout collected; full reference still needed
+Coverage: Historical prototype connector labels; physical connector map still needed
 
 [Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=high-code-gpio-device-high-boy-rev-2-2-mvp)
 
 Device category: **Handhelds & pocket tools**
+
+Historical REV 2.2 MVP / ESP32-S3 prototype. For the newer schematic, open High Boy V2_03; do not transfer pin assignments between revisions.
 
 ## Datasheets and original documentation
 
@@ -23,7 +25,7 @@ A chip datasheet, schematic and board datasheet have different scopes. Match the
 
 ## REV 2.2 prototype connector signal labels
 
-**pinout image** · Reviewed source · PNG
+**board labeling image** · Reviewed source · PNG
 
 [![High Boy REV 2.2 MVP reference preview](../../../../library/thumbs/c5e11b49a7c395434bbe335cff2b4acd41be9db8dc6cc55992bfadeb83237c53.webp)](../../../../library/media/c5e11b49a7c395434bbe335cff2b4acd41be9db8dc6cc55992bfadeb83237c53.png)
 
@@ -33,7 +35,7 @@ A chip datasheet, schematic and board datasheet have different scopes. Match the
 
 [Source 1](https://raw.githubusercontent.com/HighCodeh/Highboy_PCB/8b7bdd2ce3fc7f0ed818b3f54d6a01c30e5a0ce3/pics/pcb_render.png) · [Source 2](https://github.com/HighCodeh/Highboy_PCB)
 
-Manufacturer labels this design as an MVP prototype, not the final production version. Preserve that distinction.
+Manufacturer labels this design as an MVP prototype, not the final production version. Preserve that distinction. Historical ESP32-S3 prototype labels; the newer V2_03 ESP32-P4/C5 schematic is recorded separately. Supporting connector labels do not establish a complete physical pinout.
 
 Image revision: REV 2.2 MVP; not final production
 
