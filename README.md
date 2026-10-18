@@ -6,13 +6,13 @@
 <p align="center"><strong>Know your board. Make the connection.</strong><br>A Valleytech Solutions project, made for the workbench.</p>
 <p align="center">Makers · Educators · Students · Hobbyists · Engineers</p>
 
-<p align="center"><a href="https://github.com/valleytechsolutions/black-wire-pinouts/releases">Download the collection</a> · <a href="BROWSE.md">Browse boards</a> · <a href="catalog/attributions.csv">Source credits</a> · <a href="https://github.com/valleytechsolutions/black-wire-desktop/releases">Download the desktop app</a> · <a href="CONTRIBUTING.md">Contribute a reference</a></p>
+<p align="center"><a href="https://git.churchofmalware.org/Valleytech/black-wire-pinouts/releases">Download the collection</a> · <a href="BROWSE.md">Browse boards</a> · <a href="catalog/attributions.csv">Source credits</a> · <a href="https://git.churchofmalware.org/Valleytech/BWM-Technical-Reference-Guide/releases">Download the desktop app</a> · <a href="CONTRIBUTING.md">Contribute a reference</a></p>
 
 ![Inland ESP32 original pinout in the Black Wire guide](docs/screenshots/inland-reference.png)
 
 ## Find a pinout, then build
 
-**[Search the guide](https://valleytech-black-wire-guide.pages.dev/) · [Read the reference wiki](https://valleytech-black-wire-guide.pages.dev/wiki/) · [Browse maker modules](https://valleytech-black-wire-guide.pages.dev/wiki/modules/) · [Get the Windows & Linux app](https://github.com/valleytechsolutions/BWM-Technical-Reference-Guide/releases/latest)**
+**[Search the guide](https://valleytech-black-wire-guide.pages.dev/) · [Read the reference wiki](https://valleytech-black-wire-guide.pages.dev/wiki/) · [Browse maker modules](https://valleytech-black-wire-guide.pages.dev/wiki/modules/) · [Get the Windows & Linux app](https://git.churchofmalware.org/Valleytech/BWM-Technical-Reference-Guide/releases/latest)**
 
 Board and device references for **ESP32, Arduino, Raspberry Pi, RP2040/RP2350**, displays, sensors, buttons, interfaces and power modules. Find physical pinout sources, supporting photos, pin-purpose tables and manufacturer documentation, with revision and coverage notes. Generic modules and documentation gaps remain visible.
 
@@ -124,20 +124,20 @@ Start at **[Browse manufacturers and boards](BROWSE.md)**. Each board page inclu
 | Manuals, schematics or supporting material | **Original PDF** / **source reference**; check the review label |
 | Full-resolution originals | `library/media/`; linked from every board page |
 | Provenance, hashes and rights | [`catalog/attributions.csv`](catalog/attributions.csv) and [`library/catalog.json`](library/catalog.json) |
-| Fast offline search and power tools | [Black Wire desktop](https://github.com/valleytechsolutions/black-wire-desktop) |
+| Fast offline search and power tools | [Black Wire desktop](https://git.churchofmalware.org/Valleytech/BWM-Technical-Reference-Guide) |
 
 Original files are stored once by content hash; board pages provide the human-friendly organization. Shared images remain linked to all applicable records. Thumbnails and large-image previews are convenience derivatives, not replacements for the originals.
 
 ## Use it offline
 
-Download a versioned ZIP from this repository's **[collection releases](https://github.com/valleytechsolutions/black-wire-pinouts/releases)**. Each release includes the full reference collection, board indexes, source credits, license/rights notices and a SHA-256 checksum. Extract the whole ZIP and begin with `README.md` and `BROWSE.md`. The files work on **Windows, Linux and macOS** with an image/PDF viewer and a Markdown reader; no installer is needed for the collection.
+Download a versioned ZIP from this repository's **[collection releases](https://git.churchofmalware.org/Valleytech/black-wire-pinouts/releases)**. Each release includes the full reference collection, board indexes, source credits, license/rights notices and a SHA-256 checksum. Extract the whole ZIP and begin with `README.md` and `BROWSE.md`. The files work on **Windows, Linux and macOS** with an image/PDF viewer and a Markdown reader; no installer is needed for the collection.
 
-The guide remains **First Edition / 2026**. The latest collection snapshot is **[2026.09.9 — Search and source sweep](https://github.com/valleytechsolutions/black-wire-pinouts/releases/tag/v2026.09.9)**; [2026.09.1](https://github.com/valleytechsolutions/black-wire-pinouts/releases/tag/v2026.09.1) remains available unchanged. Collection snapshots and app versions are independent of the future annual book editions; see [EDITION.md](EDITION.md). The [desktop repository](https://github.com/valleytechsolutions/black-wire-desktop/releases) provides application installers and states which operating systems actually have downloads.
+The guide remains **First Edition / 2026**. The latest collection snapshot is **[2026.09.9 — Search and source sweep](https://git.churchofmalware.org/Valleytech/black-wire-pinouts/releases/tag/v2026.09.9)**; [2026.09.1](https://git.churchofmalware.org/Valleytech/black-wire-pinouts/releases/tag/v2026.09.1) remains available unchanged. Collection snapshots and app versions are independent of the future annual book editions; see [EDITION.md](EDITION.md). The [desktop repository](https://git.churchofmalware.org/Valleytech/BWM-Technical-Reference-Guide/releases) provides application installers and states which operating systems actually have downloads.
 
 You can also clone the current repository (about **1.8 GB** of reference data). Keep the folder structure intact. Local Markdown viewers can follow the board pages; the desktop app provides the full searchable image/PDF interface. See [release and checksum instructions](RELEASES.md).
 
 ```sh
-git clone https://github.com/valleytechsolutions/black-wire-pinouts.git
+git clone https://git.churchofmalware.org/Valleytech/black-wire-pinouts.git
 ```
 
 ## Attribution, quality and publication
