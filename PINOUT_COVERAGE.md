@@ -4,8 +4,8 @@ Every board and maker listing is accounted for. Linked maker/board records can d
 
 | Listing type | Source pinout | Functions only | Supporting references only | No reference |
 |---|---:|---:|---:|---:|
-| board | 1071 | 38 | 982 | 627 |
-| maker | 176 | 40 | 337 | 22 |
+| board | 1078 | 38 | 991 | 627 |
+| maker | 176 | 40 | 353 | 22 |
 
 [Full CSV](catalog/pinout-coverage.csv) · [Evidence and remaining work](catalog/pinout-coverage.json)
 

@@ -2,7 +2,7 @@
 
 [Search devices in the browser guide](https://valleytech-black-wire-guide.pages.dev/?tab=devices) · [All boards](BROWSE.md) · [First Edition](EDITION.md)
 
-**343 device records with saved files or linked hardware documentation.** Includes handhelds, radio nodes, wearables, cameras, displays and controllers. Counts include unreviewed source records and supporting references; not every record has a full physical pinout.
+**346 device records with saved files or linked hardware documentation.** Includes handhelds, radio nodes, wearables, cameras, displays and controllers. Counts include unreviewed source records and supporting references; not every record has a full physical pinout.
 
 Original manufacturer images remain unchanged. Revision and partial-map notes live on each device page.
 
@@ -62,6 +62,8 @@ Original manufacturer images remain unchanged. Revision and partial-map notes li
 | LILYGO | [T-Call SIM800L V1.3](boards/lilygo/esp32-original/t-call-sim800l-v1.3--2ed4384d/README.md) | ESP32 original | 2 | 2 |
 | LILYGO | [T-Connect](boards/lilygo/esp32-s3/t-connect--e293c789/README.md) | ESP32-S3 | 1 | 1 |
 | LILYGO | [T-Connect Pro](boards/lilygo/esp32-s3/t-connect-pro--12ea4593/README.md) | ESP32-S3 | 1 | 1 |
+| LILYGO | [T-Dongle-S3-Dual](boards/lilygo/esp32-s3/t-dongle-s3-dual--4b98ae3c/README.md) | ESP32-S3 | 0 | 1 |
+| LILYGO | [T-Dongle-S3-Plus](boards/lilygo/esp32-s3/t-dongle-s3-plus--a39faff0/README.md) | ESP32-S3 | 0 | 1 |
 | LILYGO | [T-ETH Elite](boards/lilygo/esp32-s3/t-eth-elite--67a6e49c/README.md) | ESP32-S3 | 1 | 1 |
 | LILYGO | [T-ETH Lite](boards/lilygo/esp32-original/t-eth-lite--a5f2b084/README.md) | ESP32 original | 1 | 1 |
 | LILYGO | [T-ETH Lite S3](boards/lilygo/esp32-s3/t-eth-lite-s3--bfa85d98/README.md) | ESP32-S3 | 1 | 1 |
@@ -159,6 +161,7 @@ Original manufacturer images remain unchanged. Revision and partial-map notes li
 | M5Stack | [M5GO-Lite](boards/m5stack/esp32-original/m5go-lite--30b49007/README.md) | ESP32 original | 0 | 1 |
 | M5Stack | [Paper](boards/m5stack/source-collection/paper--8258c917/README.md) | Not recorded | 0 | 2 |
 | M5Stack | [PaperColor](boards/m5stack/source-collection/papercolor--deae4834/README.md) | Not recorded | 0 | 2 |
+| M5Stack | [PaperDIY](boards/m5stack/esp32-s3r8/paperdiy--dc8a1aa8/README.md) | ESP32-S3R8 | 2 | 3 |
 | M5Stack | [PaperMono](boards/m5stack/source-collection/papermono--4e2a3be2/README.md) | Not recorded | 0 | 3 |
 | M5Stack | [PaperMono-Lite](boards/m5stack/esp32-s3r8/papermono-lite--aa91cb06/README.md) | ESP32-S3R8 | 0 | 2 |
 | M5Stack | [PaperS3](boards/m5stack/source-collection/papers3--adfc71d1/README.md) | Not recorded | 0 | 1 |

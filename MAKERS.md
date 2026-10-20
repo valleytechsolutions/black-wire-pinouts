@@ -4,7 +4,7 @@ Pin-connected maker displays, sensors, inputs and modules. Ongoing source intake
 
 Records include products, families, generic discovery tasks and linked existing references; counts are not unique products or complete pinouts.
 
-**575 intake records**. 270 manufacturer documentation records. No new complete physical pinout approvals in this intake.
+**591 intake records**. 286 manufacturer documentation records. No new complete physical pinout approvals in this intake.
 
 [Search the interactive guide](https://valleytech-black-wire-guide.pages.dev/?tab=makers) · [Expansion roadmap](docs/MAKER_ROADMAP.md) · [Coverage backlog](catalog/maker-research-backlog.json)
 
@@ -302,6 +302,10 @@ Search by product/controller code first; filter by interface, function, technolo
 | Inland ESP32-IO Shield (Black and Eco-friendly) | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/643-inland-esp32-io-shield-black-and-eco-friendly) |
 | Inland NANO Shield (Blue and Eco-friendly) | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/642-inland-nano-shield-blue-and-eco-friendly) |
 | Inland FTDI Adapter USB Controller | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://www.microcenter.com/product/656323/inland-ftdi-adapter-usb-controller) |
+| Adafruit CP2105 Friend USB to Dual UART | Adafruit | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://learn.adafruit.com/adafruit-cp2105-friend-usb-to-dual-uart-serial-converters/pinouts) |
+| Adafruit GP8403 I2C DAC with 12V Booster | Adafruit | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://learn.adafruit.com/adafruit-gp8403-i2c-dac-with-12v-booster/pinouts) |
+| Adafruit ADS7128 8-Channel ADC and GPIO Expander | Adafruit | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://learn.adafruit.com/adafruit-ads7128-8-channel-adc-and-gpio-expander/pinouts) |
+| Adafruit ADS122C04 24-Bit ADC | Adafruit | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://learn.adafruit.com/adafruit-ads122c04-24-bit-adc/pinouts) |
 
 ## Other modules
 
@@ -634,3 +638,15 @@ Search by product/controller code first; filter by interface, function, technolo
 | Inland TDS Meter V1.0 | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/635-inland-tds-meter-v1-0) |
 | Inland DHT11 Temperature Humidity Moisture Sensor Module | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://www.microcenter.com/product/618777/inland-dht11-temperature-humidity-moisture-sensor-module) |
 | Inland PIR Motion Sensor Module | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://www.microcenter.com/product/618776/inland-pir-motion-sensor-module) |
+| Adafruit TSL2585 Digital UVA and Ambient Light Sensor | Adafruit | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://learn.adafruit.com/adafruit-tsl2585-digital-uva-and-ambient-light-sensor/pinouts) |
+| Adafruit TCS3448 14-Channel Light / Color Sensor | Adafruit | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://learn.adafruit.com/adafruit-tcs3448-14-channel-light-color-sensor-breakout/pinouts) |
+| Adafruit TMF8806 Time-of-Flight Distance Sensor | Adafruit | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://learn.adafruit.com/adafruit-tmf8806-time-of-flight-distance-sensor/pinouts) |
+| Adafruit STCC4 and SHT41 CO2 / Temperature / Humidity Sensor | Adafruit | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://learn.adafruit.com/adafruit-stcc4-and-sht41-co2-temperature-humidity-sensor/pinouts) |
+| Adafruit APDS9999 Proximity / Lux / Color Sensor | Adafruit | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://learn.adafruit.com/adafruit-apds9999-proximity-lux-light-color-sensor/pinouts) |
+| Adafruit MAX44009 Lux Light Sensor | Adafruit | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://learn.adafruit.com/adafruit-max44009-lux-light-sensor/pinouts) |
+| Adafruit VCNL4030 Proximity and Lux Sensor | Adafruit | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://learn.adafruit.com/adafruit-vcnl4030-proximity-and-lux-sensor/pinouts) |
+| Adafruit TMP119 High-Precision Temperature Sensor | Adafruit | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://learn.adafruit.com/adafruit-tmp119-high-precision-temperature-sensor/pinouts) |
+| Adafruit AS7343 14-Channel Light / Color Sensor | Adafruit | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://learn.adafruit.com/adafruit-as7343-14-channel-light-color-sensor-breakout/pinouts) |
+| Adafruit AS7331 UVA / UVB / UVC Sensor | Adafruit | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://learn.adafruit.com/adafruit-as7331-uv-uva-uvb-uvc-sensor/pinouts) |
+| Adafruit TCS3430 / TCS34303 Ambient Tri-Stimulus Color Sensor | Adafruit | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://learn.adafruit.com/adafruit-tcs3430-tcs34303-ambient-tri-stimulus-color-sensor/pinouts) |
+| Adafruit TMF8801 Time-of-Flight Distance Sensor | Adafruit | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://learn.adafruit.com/adafruit-tmf8801-time-of-flight-distance-sensor/pinouts) |

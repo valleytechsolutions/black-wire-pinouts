@@ -52,6 +52,42 @@ Adafruit · Manufacturer documentation recorded
 
 Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
 
+## Adafruit ADS122C04 24-Bit ADC
+
+Adafruit · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-ads122c04)
+
+[![Adafruit ADS122C04 24-Bit ADC / reference PDF](../../library/thumbs/b64e6878fc2d8b389f25f3555ddd6352f229e75fb0dc2f678e656085a74210fe.webp)](../../library/media/b64e6878fc2d8b389f25f3555ddd6352f229e75fb0dc2f678e656085a74210fe.pdf)
+
+**reference PDF** · Source identity and visual reference scope reviewed; independent electrical and all-connector completeness review pending
+
+Original manufacturer/publisher artwork; redistribution and print rights not established. Attribution does not grant a license or relicense the original.
+
+## Adafruit ADS7128 8-Channel ADC and GPIO Expander
+
+Adafruit · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-ads7128)
+
+[![Adafruit ADS7128 8-Channel ADC and GPIO Expander / reference PDF](../../library/thumbs/c4c224ed36c7428c89ed13dd837b03eb266cfbeadd89a75e70169b10a8aed51b.webp)](../../library/media/c4c224ed36c7428c89ed13dd837b03eb266cfbeadd89a75e70169b10a8aed51b.pdf)
+
+**reference PDF** · Source identity and visual reference scope reviewed; independent electrical and all-connector completeness review pending
+
+Original manufacturer/publisher artwork; redistribution and print rights not established. Attribution does not grant a license or relicense the original.
+
+## Adafruit CP2105 Friend USB to Dual UART
+
+Adafruit · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-cp2105)
+
+[![Adafruit CP2105 Friend USB to Dual UART / reference PDF](../../library/thumbs/3e1975f24b4034a8b01b9c2e624f377ef236f9937ac561865ce22b5d3ac59c9a.webp)](../../library/media/3e1975f24b4034a8b01b9c2e624f377ef236f9937ac561865ce22b5d3ac59c9a.pdf)
+
+**reference PDF** · Source identity and visual reference scope reviewed; independent electrical and all-connector completeness review pending
+
+Original manufacturer/publisher artwork; redistribution and print rights not established. Attribution does not grant a license or relicense the original.
+
 ## Adafruit DS3231 Precision RTC Breakout
 
 Adafruit · Manufacturer documentation recorded
@@ -63,6 +99,18 @@ Adafruit · Manufacturer documentation recorded
 **pinout image** · Manufacturer-model geometry checked; independent electrical and full-device review pending
 
 Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
+
+## Adafruit GP8403 I2C DAC with 12V Booster
+
+Adafruit · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-gp8403)
+
+[![Adafruit GP8403 I2C DAC with 12V Booster / reference PDF](../../library/thumbs/aa11d0e86ae9f9d810d6c4865f70a972d054039a26996ae16543add043da9ebb.webp)](../../library/media/aa11d0e86ae9f9d810d6c4865f70a972d054039a26996ae16543add043da9ebb.pdf)
+
+**reference PDF** · Source identity and visual reference scope reviewed; independent electrical and all-connector completeness review pending
+
+Original manufacturer/publisher artwork; redistribution and print rights not established. Attribution does not grant a license or relicense the original.
 
 ## Adafruit MCP23017 I2C GPIO Expander
 

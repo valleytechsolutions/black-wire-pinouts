@@ -4,6 +4,14 @@
 
 Board diagrams, GPIO references and additional source documents are labeled separately.
 
+## 01space
+
+| Board / device | Processor / family | References | Pinout images |
+|---|---|---:|---:|
+| [ESP32-PICO-D4-RGB](boards/01space/esp32-pico-d4/esp32-pico-d4-rgb--83cc4254/README.md) | ESP32-PICO-D4 | 2 | 1 |
+| [ESP32-S3-0.42OLED](boards/01space/esp32-s3/esp32-s3-0-42oled--7f936b85/README.md) | ESP32-S3 | 2 | 1 |
+| [RP2040-0.42LCD](boards/01space/rp2040/rp2040-0-42lcd--713fadd3/README.md) | RP2040 | 1 | 1 |
+
 ## 0xCB
 
 | Board / device | Processor / family | References | Pinout images |
@@ -684,6 +692,8 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [T-Dongle](boards/lilygo/esp32-s2/t-dongle--61dca1cf/README.md) | ESP32-S2 | 1 | 1 |
 | [T-Dongle-C5](boards/lilygo/esp32-c5/t-dongle-c5--f2e84a95/README.md) | ESP32-C5 | 1 | 1 |
 | [T-Dongle-S3](boards/lilygo/esp32-s3/t-dongle-s3--39a6069a/README.md) | ESP32-S3 | 1 | 1 |
+| [T-Dongle-S3-Dual](boards/lilygo/esp32-s3/t-dongle-s3-dual--4b98ae3c/README.md) | ESP32-S3 | 1 | 0 |
+| [T-Dongle-S3-Plus](boards/lilygo/esp32-s3/t-dongle-s3-plus--a39faff0/README.md) | ESP32-S3 | 1 | 0 |
 | [T-Echo](boards/lilygo/nrf52840/t-echo--81156574/README.md) | nRF52840 | 2 | 0 |
 | [T-Echo Card](boards/lilygo/nrf52840/t-echo-card--7e6636c5/README.md) | nRF52840 | 1 | 1 |
 | [T-Echo Lite](boards/lilygo/nrf52840/t-echo-lite--9f2ca127/README.md) | nRF52840 | 1 | 1 |
@@ -1073,6 +1083,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Panel Frame](boards/m5stack/source-collection/panel-frame--b138ec90/README.md) | Source collection | 1 | 0 |
 | [Paper](boards/m5stack/source-collection/paper--8258c917/README.md) | Source collection | 2 | 0 |
 | [PaperColor](boards/m5stack/source-collection/papercolor--deae4834/README.md) | Source collection | 2 | 0 |
+| [PaperDIY](boards/m5stack/esp32-s3r8/paperdiy--dc8a1aa8/README.md) | ESP32-S3R8 | 3 | 2 |
 | [PaperMono](boards/m5stack/source-collection/papermono--4e2a3be2/README.md) | Source collection | 3 | 0 |
 | [PaperMono-Lite](boards/m5stack/esp32-s3r8/papermono-lite--aa91cb06/README.md) | ESP32-S3R8 | 2 | 0 |
 | [PaperS3](boards/m5stack/source-collection/papers3--adfc71d1/README.md) | Source collection | 1 | 0 |
@@ -1415,6 +1426,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 
 | Board / device | Processor / family | References | Pinout images |
 |---|---|---:|---:|
+| [Inventor 2350 W](boards/pimoroni/rp2350/inventor-2350-w--58910152/README.md) | RP2350 | 1 | 0 |
 | [PGA2040](boards/pimoroni/rp2040/pga2040--26b2aeb5/README.md) | RP2040 | 1 | 1 |
 | [PGA2350](boards/pimoroni/rp2350/pga2350--35a718f5/README.md) | RP2350 | 3 | 2 |
 | [Pico Plus 2](boards/pimoroni/rp2350/pico-plus-2--21586880/README.md) | RP2350 | 3 | 2 |
@@ -1491,6 +1503,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [C200](boards/radxa/other-sbc/c200--875274af/README.md) | Other SBC | 2 | 2 |
 | [Cubie A5E](boards/radxa/other-sbc/cubie-a5e--4d3fc4f0/README.md) | Other SBC | 1 | 0 |
 | [Cubie A7A](boards/radxa/other-sbc/cubie-a7a--f293e759/README.md) | Other SBC | 1 | 0 |
+| [Cubie A7S](boards/radxa/allwinner-a733/cubie-a7s--725c978e/README.md) | Allwinner A733 | 1 | 0 |
 | [Cubie A7Z](boards/radxa/other-sbc/cubie-a7z--be34a15a/README.md) | Other SBC | 1 | 0 |
 | [Dragon Q6A](boards/radxa/other-sbc/dragon-q6a--a664ab1a/README.md) | Other SBC | 1 | 0 |
 | [Dragon Q8B](boards/radxa/other-sbc/dragon-q8b--ab41844b/README.md) | Other SBC | 1 | 0 |
@@ -1498,6 +1511,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Orion O6](boards/radxa/other-sbc/orion-o6--3546eab4/README.md) | Other SBC | 3 | 1 |
 | [ROCK 4D](boards/radxa/other-sbc/rock-4d--c747ecd7/README.md) | Other SBC | 1 | 0 |
 | [TACO carrier](boards/radxa/other-sbc/taco-carrier--8b1860e6/README.md) | Other SBC | 1 | 1 |
+| [X5](boards/radxa/intel-n150-rp2350a/x5--2109d2f9/README.md) | Intel N150 + RP2350A | 1 | 0 |
 
 ## Raspberry Pi
 
@@ -1506,6 +1520,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [40-pin GPIO header - shared computer-board reference](boards/raspberry-pi/raspberry-pi-sbc/40-pin-gpio-header---shared-computer-board-reference--6d4721c1/README.md) | Raspberry Pi SBC | 1 | 1 |
 | [Compute Module 4 IO Board](boards/raspberry-pi/expansion/compute-module-4-io-board--6da3101b/README.md) | Expansion | 3 | 0 |
 | [Compute Module 5 IO Board](boards/raspberry-pi/expansion/compute-module-5-io-board--f5a63daf/README.md) | Expansion | 3 | 0 |
+| [Compute Module Zero](boards/raspberry-pi/rp3a0/compute-module-zero--a2e59830/README.md) | RP3A0 | 1 | 0 |
 | [Model B revisions and 40-pin header comparison](boards/raspberry-pi/raspberry-pi-sbc/model-b-revisions-and-40-pin-header-comparison--5de289de/README.md) | Raspberry Pi SBC | 1 | 1 |
 | [Raspberry Pi 4 Model B](boards/raspberry-pi/raspberry-pi-sbc/raspberry-pi-4-model-b--2342eb10/README.md) | Raspberry Pi SBC | 1 | 1 |
 | [Raspberry Pi Pico](boards/raspberry-pi/rp2040/raspberry-pi-pico--711245b2/README.md) | RP2040 | 5 | 4 |
@@ -1992,6 +2007,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [XIAO SAMD21](boards/seeed-studio/other/xiao-samd21--9f0f112b/README.md) | Other | 5 | 4 |
 | [XIAO SAMD21 Plus](boards/seeed-studio/other/xiao-samd21-plus--5a2281df/README.md) | Other | 3 | 2 |
 | [XIAO Soil Moisture Sensor](boards/seeed-studio/source-collection/xiao-soil-moisture-sensor--55527a6b/README.md) | Source collection | 1 | 0 |
+| [XIAO STM32C5](boards/seeed-studio/stm32c5a3cg/xiao-stm32c5--269cfb88/README.md) | STM32C5A3CG | 3 | 2 |
 | [XIAO Vision AI Camera](boards/seeed-studio/source-collection/xiao-vision-ai-camera--062a7346/README.md) | Source collection | 1 | 0 |
 | [XIAO W5500 Ethernet Adapter](boards/seeed-studio/source-collection/xiao-w5500-ethernet-adapter--195dff1d/README.md) | Source collection | 3 | 0 |
 
@@ -2042,6 +2058,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [ESP8266 Thing Dev](boards/sparkfun/esp8266/esp8266-thing-dev--290b2d7c/README.md) | ESP8266 | 2 | 1 |
 | [FreeSoC2](boards/sparkfun/psoc-5lp/freesoc2--54f2f74f/README.md) | PSoC 5LP | 2 | 1 |
 | [IoT Brushless Motor Driver](boards/sparkfun/esp32/iot-brushless-motor-driver--e49b720f/README.md) | ESP32 | 2 | 2 |
+| [IoT RedBoard RP2350](boards/sparkfun/rp2350/iot-redboard-rp2350--90a94562/README.md) | RP2350 | 1 | 0 |
 | [MicroMod ESP32 Processor](boards/sparkfun/esp32/micromod-esp32-processor--fbc4d6a8/README.md) | ESP32 | 2 | 1 |
 | [MicroMod RP2040 Processor](boards/sparkfun/rp2040/micromod-rp2040-processor--f0972b44/README.md) | RP2040 | 2 | 1 |
 | [MicroMod SAMD51 Processor](boards/sparkfun/samd51/micromod-samd51-processor--b3e726e9/README.md) | SAMD51 | 2 | 1 |
@@ -2166,6 +2183,10 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [W5500-EVB-Pico](boards/wiznet/rp2040/w5500-evb-pico--3d5e6b50/README.md) | RP2040 | 1 | 1 |
 | [W5500-EVB-Pico2](boards/wiznet/rp2350/w5500-evb-pico2--4ac19ab8/README.md) | RP2350 | 1 | 1 |
 | [W55RP20-EVB-Pico](boards/wiznet/rp2040/w55rp20-evb-pico--180f0ac8/README.md) | RP2040 | 1 | 1 |
+| [W6100-EVB-Pico](boards/wiznet/rp2040/w6100-evb-pico--45107a8c/README.md) | RP2040 | 2 | 1 |
+| [W6100-EVB-Pico2](boards/wiznet/rp2350a/w6100-evb-pico2--69dcbf4e/README.md) | RP2350A | 2 | 1 |
+| [W6300-EVB-Pico](boards/wiznet/rp2040/w6300-evb-pico--7ea8c4f9/README.md) | RP2040 | 1 | 0 |
+| [W6300-EVB-Pico2](boards/wiznet/rp2350a/w6300-evb-pico2--b6b046ea/README.md) | RP2350A | 1 | 0 |
 
 ## Waveshare
 

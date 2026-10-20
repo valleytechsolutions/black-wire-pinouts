@@ -28,6 +28,42 @@ Adafruit · Manufacturer documentation recorded
 
 Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
 
+## Adafruit APDS9999 Proximity / Lux / Color Sensor
+
+Adafruit · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-apds9999)
+
+[![Adafruit APDS9999 Proximity / Lux / Color Sensor / reference PDF](../../library/thumbs/ae5d0bce9aa1fd4aaf10033b14169541e13cc15db636868e1588e10f0c5c0cea.webp)](../../library/media/ae5d0bce9aa1fd4aaf10033b14169541e13cc15db636868e1588e10f0c5c0cea.pdf)
+
+**reference PDF** · Source identity and visual reference scope reviewed; independent electrical and all-connector completeness review pending
+
+Original manufacturer/publisher artwork; redistribution and print rights not established. Attribution does not grant a license or relicense the original.
+
+## Adafruit AS7331 UVA / UVB / UVC Sensor
+
+Adafruit · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-as7331)
+
+[![Adafruit AS7331 UVA / UVB / UVC Sensor / reference PDF](../../library/thumbs/cac2cf98888600ee8faf63105582413046770a78fde8c7a211828ba63fe23352.webp)](../../library/media/cac2cf98888600ee8faf63105582413046770a78fde8c7a211828ba63fe23352.pdf)
+
+**reference PDF** · Source identity and visual reference scope reviewed; independent electrical and all-connector completeness review pending
+
+Original manufacturer/publisher artwork; redistribution and print rights not established. Attribution does not grant a license or relicense the original.
+
+## Adafruit AS7343 14-Channel Light / Color Sensor
+
+Adafruit · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-as7343)
+
+[![Adafruit AS7343 14-Channel Light / Color Sensor / reference PDF](../../library/thumbs/b25d328c1cebf509dd87dbebbbd89b376b46d2452c441f81c668e60542d61301.webp)](../../library/media/b25d328c1cebf509dd87dbebbbd89b376b46d2452c441f81c668e60542d61301.pdf)
+
+**reference PDF** · Source identity and visual reference scope reviewed; independent electrical and all-connector completeness review pending
+
+Original manufacturer/publisher artwork; redistribution and print rights not established. Attribution does not grant a license or relicense the original.
+
 ## Adafruit BH1750 Ambient Light Sensor
 
 Adafruit · Manufacturer documentation recorded
@@ -124,6 +160,18 @@ Adafruit · Manufacturer documentation recorded
 
 Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
 
+## Adafruit MAX44009 Lux Light Sensor
+
+Adafruit · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-max44009)
+
+[![Adafruit MAX44009 Lux Light Sensor / reference PDF](../../library/thumbs/a28caebaf5f98584dc83fda0af3790d02593dba8f8caa0a52307f87d72aa6c26.webp)](../../library/media/a28caebaf5f98584dc83fda0af3790d02593dba8f8caa0a52307f87d72aa6c26.pdf)
+
+**reference PDF** · Source identity and visual reference scope reviewed; independent electrical and all-connector completeness review pending
+
+Original manufacturer/publisher artwork; redistribution and print rights not established. Attribution does not grant a license or relicense the original.
+
 ## Adafruit SCD-4x - True CO2 Temperature and Humidity Sensors
 
 Adafruit · Manufacturer documentation recorded
@@ -159,6 +207,102 @@ Adafruit · Manufacturer documentation recorded
 **pinout image** · Manufacturer-model geometry checked; independent electrical and full-device review pending
 
 Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
+
+## Adafruit STCC4 and SHT41 CO2 / Temperature / Humidity Sensor
+
+Adafruit · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-stcc4)
+
+[![Adafruit STCC4 and SHT41 CO2 / Temperature / Humidity Sensor / reference PDF](../../library/thumbs/082f8196c04cb187666bbc8fd16c3816440ebac7d9039bb058e3269d84888aa3.webp)](../../library/media/082f8196c04cb187666bbc8fd16c3816440ebac7d9039bb058e3269d84888aa3.pdf)
+
+**reference PDF** · Source identity and visual reference scope reviewed; independent electrical and all-connector completeness review pending
+
+Original manufacturer/publisher artwork; redistribution and print rights not established. Attribution does not grant a license or relicense the original.
+
+## Adafruit TCS3430 / TCS34303 Ambient Tri-Stimulus Color Sensor
+
+Adafruit · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-tcs3430)
+
+[![Adafruit TCS3430 / TCS34303 Ambient Tri-Stimulus Color Sensor / reference PDF](../../library/thumbs/b643b63a5320b310625a1ab1fcda745e13ecab4aa07e436b01ea875da02500df.webp)](../../library/media/b643b63a5320b310625a1ab1fcda745e13ecab4aa07e436b01ea875da02500df.pdf)
+
+**reference PDF** · Source identity and visual reference scope reviewed; independent electrical and all-connector completeness review pending
+
+Original manufacturer/publisher artwork; redistribution and print rights not established. Attribution does not grant a license or relicense the original.
+
+## Adafruit TCS3448 14-Channel Light / Color Sensor
+
+Adafruit · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-tcs3448)
+
+[![Adafruit TCS3448 14-Channel Light / Color Sensor / reference PDF](../../library/thumbs/168b64151ebc4ed12bb5850cfd6abfc5a7dd5fd9464c86e86b090fc23a9d105c.webp)](../../library/media/168b64151ebc4ed12bb5850cfd6abfc5a7dd5fd9464c86e86b090fc23a9d105c.pdf)
+
+**reference PDF** · Source identity and visual reference scope reviewed; independent electrical and all-connector completeness review pending
+
+Original manufacturer/publisher artwork; redistribution and print rights not established. Attribution does not grant a license or relicense the original.
+
+## Adafruit TMF8801 Time-of-Flight Distance Sensor
+
+Adafruit · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-tmf8801)
+
+[![Adafruit TMF8801 Time-of-Flight Distance Sensor / reference PDF](../../library/thumbs/298490e320db909f06f8663be76395a35bc5b53d4b5a6837a7d29f16f5303748.webp)](../../library/media/298490e320db909f06f8663be76395a35bc5b53d4b5a6837a7d29f16f5303748.pdf)
+
+**reference PDF** · Source identity and visual reference scope reviewed; independent electrical and all-connector completeness review pending
+
+Original manufacturer/publisher artwork; redistribution and print rights not established. Attribution does not grant a license or relicense the original.
+
+## Adafruit TMF8806 Time-of-Flight Distance Sensor
+
+Adafruit · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-tmf8806)
+
+[![Adafruit TMF8806 Time-of-Flight Distance Sensor / reference PDF](../../library/thumbs/53463321eb868c96b02d4f7b7bd26a8acfd7310b4e0dffb9441e33092aeb2cdb.webp)](../../library/media/53463321eb868c96b02d4f7b7bd26a8acfd7310b4e0dffb9441e33092aeb2cdb.pdf)
+
+**reference PDF** · Source identity and visual reference scope reviewed; independent electrical and all-connector completeness review pending
+
+Original manufacturer/publisher artwork; redistribution and print rights not established. Attribution does not grant a license or relicense the original.
+
+## Adafruit TMP119 High-Precision Temperature Sensor
+
+Adafruit · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-tmp119)
+
+[![Adafruit TMP119 High-Precision Temperature Sensor / reference PDF](../../library/thumbs/68faf0a68ec554826dd96da629ad0d3774c6e339f4243f6a7068ea079cf2210b.webp)](../../library/media/68faf0a68ec554826dd96da629ad0d3774c6e339f4243f6a7068ea079cf2210b.pdf)
+
+**reference PDF** · Source identity and visual reference scope reviewed; independent electrical and all-connector completeness review pending
+
+Original manufacturer/publisher artwork; redistribution and print rights not established. Attribution does not grant a license or relicense the original.
+
+## Adafruit TSL2585 Digital UVA and Ambient Light Sensor
+
+Adafruit · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-tsl2585)
+
+[![Adafruit TSL2585 Digital UVA and Ambient Light Sensor / reference PDF](../../library/thumbs/65aef74edcaf48f437c4f1b80d4ff062890b92fdaa95bd3b2d597fe12fd6ad96.webp)](../../library/media/65aef74edcaf48f437c4f1b80d4ff062890b92fdaa95bd3b2d597fe12fd6ad96.pdf)
+
+**reference PDF** · Source identity and visual reference scope reviewed; independent electrical and all-connector completeness review pending
+
+Original manufacturer/publisher artwork; redistribution and print rights not established. Attribution does not grant a license or relicense the original.
+
+## Adafruit VCNL4030 Proximity and Lux Sensor
+
+Adafruit · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-vcnl4030)
+
+[![Adafruit VCNL4030 Proximity and Lux Sensor / reference PDF](../../library/thumbs/5eb2cd1413bd1280795a90c2a161762b5830daba9ad41f1b3accbf4a9c509e05.webp)](../../library/media/5eb2cd1413bd1280795a90c2a161762b5830daba9ad41f1b3accbf4a9c509e05.pdf)
+
+**reference PDF** · Source identity and visual reference scope reviewed; independent electrical and all-connector completeness review pending
+
+Original manufacturer/publisher artwork; redistribution and print rights not established. Attribution does not grant a license or relicense the original.
 
 ## Adafruit VL53L0X Time of Flight Micro-LIDAR Distance Sensor Breakout
 

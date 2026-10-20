@@ -16,7 +16,11 @@
 
 Board and device references for **ESP32, Arduino, Raspberry Pi, RP2040/RP2350**, displays, sensors, buttons, interfaces and power modules. Find physical pinout sources, supporting photos, pin-purpose tables and manufacturer documentation, with revision and coverage notes. Generic modules and documentation gaps remain visible.
 
-The companion app provides a single Windows installer, Linux packages and in-app updates that retain downloaded references and saved workbench data. Search and previews are included; download original files inside the app for complete offline access. [Install and update](https://valleytech-black-wire-guide.pages.dev/wiki/desktop-updates/). The hardware collection is snapshot **2026.10.4**, First Edition / 2026. [How to read a pinout](https://valleytech-black-wire-guide.pages.dev/wiki/reading-pinouts/) · [Contribute or report a correction](CONTRIBUTING.md).
+The companion app provides a single Windows installer, Linux packages and in-app updates that retain downloaded references and saved workbench data. Search and previews are included; download original files inside the app for complete offline access. [Install and update](https://valleytech-black-wire-guide.pages.dev/wiki/desktop-updates/). The hardware collection is snapshot **2026.10.5**, First Edition / 2026. [How to read a pinout](https://valleytech-black-wire-guide.pages.dev/wiki/reading-pinouts/) · [Contribute or report a correction](CONTRIBUTING.md).
+
+## Brand discovery / snapshot 2026.10.5
+
+**16 board/device records · 16 maker records · 72 references · nine physical-pinout images.** XIAO STM32C5, PaperDIY, 01space and WIZnet maps, plus Adafruit breakout documentation and additional SBC/SoM references. [Additions, all-brand source register and remaining gaps](docs/EXPANSION-2026.10.5.md).
 
 ## Documentation recovery / snapshot 2026.10.4
 
@@ -90,13 +94,13 @@ Manufacturer originals remain intact. The annotated Adafruit sheets are CC BY-SA
 
 Find the picture that tells you **which physical pin does what**. This collection brings together original board pinouts, connector labels, GPIO references and supporting documents, organized by manufacturer, processor and exact board identity. The companion desktop app makes the same collection searchable offline.
 
-| First Edition · snapshot 2026.09.13 | Count |
+| First Edition · snapshot 2026.10.5 | Count |
 |---|---:|
-| Board pinout source image entries | **1,575** |
-| Board reference entries | **3,642** |
-| Board/device records with files | **2,010** |
-| Manufacturers and source groups | **79** |
-| Unique board media files, including vector companions | **3,564** |
+| Board pinout source image entries | **1,610** |
+| Board reference entries | **4,495** |
+| Board/device records with files | **2,106** |
+| Manufacturers and source groups with board files | **82** |
+| Unique board media files, including vector companions | **4,321** |
 
 
 Records include shared references, variants, devices and unreviewed source products. These counts are **not a census of unique development boards**. Coverage is growing; it is not complete.
@@ -105,7 +109,7 @@ Records include shared references, variants, devices and unreviewed source produ
 
 ## Devices & IoT
 
-**[Browse 327 device records](DEVICES.md)** or use the new **[Devices & IoT tab](https://valleytech-black-wire-guide.pages.dev/?tab=devices)**. Find T-Embed, T-Beam, T-Deck, Cardputer, Flipper, wearables, LoRa nodes, smart displays and controllers by category, manufacturer and MCU. Missing sheets and in-development documentation are explicitly labeled.
+**[Browse 346 device records](DEVICES.md)** or use the new **[Devices & IoT tab](https://valleytech-black-wire-guide.pages.dev/?tab=devices)**. Find T-Embed, T-Beam, T-Deck, Cardputer, Flipper, wearables, LoRa nodes, smart displays and controllers by category, manufacturer and MCU. Missing sheets and in-development documentation are explicitly labeled.
 
 ![Devices and IoT browsing in Black Wire](docs/screenshots/devices-iot.png)
 
