@@ -8,7 +8,7 @@ Coverage: Manufacturer references collected; complete physical pinout approval p
 
 [Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=raspberry-pi-compute-module-zero)
 
-Architecture: **Arm Cortex-A53**
+Architecture: **ARM**
 
 ## Datasheets and original documentation
 

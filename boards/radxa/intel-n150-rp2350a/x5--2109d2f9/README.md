@@ -8,7 +8,7 @@ Coverage: Manufacturer references collected; complete physical pinout approval p
 
 [Browse all manufacturers](../../../../BROWSE.md) · [Devices & IoT](../../../../DEVICES.md) · [Open in the browser guide](https://valleytech-black-wire-guide.pages.dev/?board=radxa-x5)
 
-Architecture: **x86-64 + Arm/RISC-V microcontroller**
+Architecture: **x86**
 
 ## Datasheets and original documentation
 
