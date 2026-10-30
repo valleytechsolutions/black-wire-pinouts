@@ -888,6 +888,54 @@ Adafruit · Manufacturer source references collected
 
 Adafruit / original diagram contributors. Rights not established for this asset; attribution retained. Original artwork is not covered by Black Wire's editorial license.
 
+## Unit BMM350
+
+M5Stack · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-m5stack-unit-bmm350)
+
+[![Unit BMM350 / connector label](../../library/thumbs/458c79fbd23ba97ac750ce8b913b9bc8a84f0f29dcbb0a877be423c02967fb5b.webp)](../../library/media/458c79fbd23ba97ac750ce8b913b9bc8a84f0f29dcbb0a877be423c02967fb5b.webp)
+
+**connector label** · Source identity and visual scope reviewed on 2026-10-30; independent electrical and all-connector review pending
+
+Original manufacturer artwork; redistribution and print rights not established. Attribution is not a license grant.
+
+## Unit DoF10
+
+M5Stack · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-m5stack-unit-dof10)
+
+[![Unit DoF10 / connector label](../../library/thumbs/458c79fbd23ba97ac750ce8b913b9bc8a84f0f29dcbb0a877be423c02967fb5b.webp)](../../library/media/458c79fbd23ba97ac750ce8b913b9bc8a84f0f29dcbb0a877be423c02967fb5b.webp)
+
+**connector label** · Source identity and visual scope reviewed on 2026-10-30; independent electrical and all-connector review pending
+
+Original manufacturer artwork; redistribution and print rights not established. Attribution is not a license grant.
+
+## Unit DoF6
+
+M5Stack · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-m5stack-unit-dof6)
+
+[![Unit DoF6 / connector label](../../library/thumbs/458c79fbd23ba97ac750ce8b913b9bc8a84f0f29dcbb0a877be423c02967fb5b.webp)](../../library/media/458c79fbd23ba97ac750ce8b913b9bc8a84f0f29dcbb0a877be423c02967fb5b.webp)
+
+**connector label** · Source identity and visual scope reviewed on 2026-10-30; independent electrical and all-connector review pending
+
+Original manufacturer artwork; redistribution and print rights not established. Attribution is not a license grant.
+
+## Unit DoF9
+
+M5Stack · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-m5stack-unit-dof9)
+
+[![Unit DoF9 / connector label](../../library/thumbs/458c79fbd23ba97ac750ce8b913b9bc8a84f0f29dcbb0a877be423c02967fb5b.webp)](../../library/media/458c79fbd23ba97ac750ce8b913b9bc8a84f0f29dcbb0a877be423c02967fb5b.webp)
+
+**connector label** · Source identity and visual scope reviewed on 2026-10-30; independent electrical and all-connector review pending
+
+Original manufacturer artwork; redistribution and print rights not established. Attribution is not a license grant.
+
 ## Unit Mini IMU-Pro
 
 M5Stack · Source review pending

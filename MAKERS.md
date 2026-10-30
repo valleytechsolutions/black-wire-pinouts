@@ -4,7 +4,7 @@ Pin-connected maker displays, sensors, inputs and modules. Ongoing source intake
 
 Records include products, families, generic discovery tasks and linked existing references; counts are not unique products or complete pinouts.
 
-**591 intake records**. 286 manufacturer documentation records. No new complete physical pinout approvals in this intake.
+**595 intake records**. 290 manufacturer documentation records. No new complete physical pinout approvals in this intake.
 
 [Search the interactive guide](https://valleytech-black-wire-guide.pages.dev/?tab=makers) · [Expansion roadmap](docs/MAKER_ROADMAP.md) · [Coverage backlog](catalog/maker-research-backlog.json)
 
@@ -650,3 +650,7 @@ Search by product/controller code first; filter by interface, function, technolo
 | Adafruit AS7331 UVA / UVB / UVC Sensor | Adafruit | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://learn.adafruit.com/adafruit-as7331-uv-uva-uvb-uvc-sensor/pinouts) |
 | Adafruit TCS3430 / TCS34303 Ambient Tri-Stimulus Color Sensor | Adafruit | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://learn.adafruit.com/adafruit-tcs3430-tcs34303-ambient-tri-stimulus-color-sensor/pinouts) |
 | Adafruit TMF8801 Time-of-Flight Distance Sensor | Adafruit | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://learn.adafruit.com/adafruit-tmf8801-time-of-flight-distance-sensor/pinouts) |
+| Unit DoF6 | M5Stack | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://docs.m5stack.com/en/unit/Unit_DoF6) |
+| Unit DoF9 | M5Stack | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://docs.m5stack.com/en/unit/Unit_DoF9) |
+| Unit DoF10 | M5Stack | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://docs.m5stack.com/en/unit/Unit_DoF10) |
+| Unit BMM350 | M5Stack | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://docs.m5stack.com/en/unit/Unit_BMM350) |

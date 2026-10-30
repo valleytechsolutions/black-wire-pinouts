@@ -94,6 +94,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [MatrixPortal M4](boards/adafruit/samd51/matrixportal-m4--e234e58f/README.md) | SAMD51 | 2 | 1 |
 | [MatrixPortal S3](boards/adafruit/esp32-s3/matrixportal-s3--dc8edab6/README.md) | ESP32-S3 | 3 | 2 |
 | [Metro 328P](boards/adafruit/atmega328p/metro-328p--6f47b13d/README.md) | ATmega328P | 2 | 1 |
+| [Metro ESP32-P4 Hydra](boards/adafruit/esp32-p4-esp32-c6/metro-esp32-p4-hydra--05d5f40b/README.md) | ESP32-P4 / ESP32-C6 | 2 | 1 |
 | [Metro ESP32-S2](boards/adafruit/esp32-s2/metro-esp32-s2--2768e363/README.md) | ESP32-S2 | 2 | 1 |
 | [Metro ESP32-S3](boards/adafruit/esp32-s3/metro-esp32-s3--1cab5c83/README.md) | ESP32-S3 | 2 | 1 |
 | [Metro M0 Express](boards/adafruit/samd21/metro-m0-express--c26ccbce/README.md) | SAMD21 | 2 | 1 |
@@ -792,6 +793,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Mu](boards/lattepanda/other-sbc/mu--35dc53d5/README.md) | Other SBC | 2 | 0 |
 | [Mu Ultra](boards/lattepanda/other-sbc/mu-ultra--03a61dd3/README.md) | Other SBC | 2 | 0 |
 | [Sigma](boards/lattepanda/other-sbc/sigma--f78c8000/README.md) | Other SBC | 5 | 5 |
+| [Sigma 2](boards/lattepanda/intel-core-ultra-x7-358h-rp2350/sigma-2--73f9092d/README.md) | Intel Core Ultra X7 358H / RP2350 | 10 | 0 |
 | [V1](boards/lattepanda/other-sbc/v1--6822da65/README.md) | Other SBC | 1 | 1 |
 
 ## Luatos
@@ -1105,6 +1107,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Stamp LoRa-1262 IF](boards/m5stack/expansion/stamp-lora-1262-if--7c9aa2c3/README.md) | Expansion | 1 | 1 |
 | [Stamp PWR485](boards/m5stack/source-collection/stamp-pwr485--18074507/README.md) | Source collection | 2 | 0 |
 | [Stamp Timer Power](boards/m5stack/source-collection/stamp-timer-power--ea8df782/README.md) | Source collection | 3 | 0 |
+| [Stamp Timer Power2](boards/m5stack/m5pm1-py32/stamp-timer-power2--3c124989/README.md) | M5PM1 / PY32 | 3 | 1 |
 | [Stamp UWB](boards/m5stack/expansion/stamp-uwb--ad26f54f/README.md) | Expansion | 4 | 1 |
 | [Stamp UWB F](boards/m5stack/expansion/stamp-uwb-f--7f31436c/README.md) | Expansion | 3 | 1 |
 | [Stamp-AddOn C6 For P4](boards/m5stack/esp32-c6/stamp-addon-c6-for-p4--eb96a163/README.md) | ESP32-C6 | 4 | 1 |
@@ -2240,10 +2243,11 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [ESP32-C6-Zero](boards/waveshare/esp32-c6/esp32-c6-zero--7072bc68/README.md) | ESP32-C6 | 3 | 3 |
 | [ESP32-C6-Zero-B](boards/waveshare/esp32-c6/esp32-c6-zero-b--f05bebaf/README.md) | ESP32-C6 | 2 | 2 |
 | [ESP32-CAM](boards/waveshare/esp32-original/esp32-cam--63c9f632/README.md) | ESP32 original | 1 | 1 |
-| [ESP32-DEV-KIT-XX](boards/waveshare/esp32-original/esp32-dev-kit-xx--a18994d7/README.md) | ESP32 original | 2 | 2 |
+| [ESP32-DEV-KIT-XX](boards/waveshare/esp32-original/esp32-dev-kit-xx--a18994d7/README.md) | ESP32 original | 3 | 2 |
 | [ESP32-H2-DEV-KIT-N4](boards/waveshare/esp32-h2/esp32-h2-dev-kit-n4--bdf2ee98/README.md) | ESP32-H2 | 3 | 3 |
 | [ESP32-H2-Zero](boards/waveshare/esp32-h2/esp32-h2-zero--2552b49f/README.md) | ESP32-H2 | 4 | 3 |
 | [ESP32-P4-86-Panel-ETH-2RO](boards/waveshare/esp32-p4/esp32-p4-86-panel-eth-2ro--1257a39d/README.md) | ESP32-P4 | 4 | 0 |
+| [ESP32-P4-Core](boards/waveshare/esp32-p4/esp32-p4-core--5d78a445/README.md) | ESP32-P4 | 2 | 1 |
 | [ESP32-P4-Core-DEV-KIT](boards/waveshare/esp32-p4/esp32-p4-core-dev-kit--dd958b72/README.md) | ESP32-P4 | 2 | 2 |
 | [ESP32-P4-ETH](boards/waveshare/esp32-p4/esp32-p4-eth--b5ef1924/README.md) | ESP32-P4 | 3 | 3 |
 | [ESP32-P4-Module](boards/waveshare/esp32-p4/esp32-p4-module--b755bf84/README.md) | ESP32-P4 | 2 | 2 |
@@ -2300,6 +2304,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [ESP32-S3-LCD-2.8C](boards/waveshare/esp32-s3/esp32-s3-lcd-2.8c--533d97cc/README.md) | ESP32-S3 | 2 | 1 |
 | [ESP32-S3-LCD-3.16](boards/waveshare/esp32-s3/esp32-s3-lcd-3-16--f87f0cbc/README.md) | ESP32-S3 | 4 | 0 |
 | [ESP32-S3-LCD-Driver-Board](boards/waveshare/esp32-s3/esp32-s3-lcd-driver-board--54dca759/README.md) | ESP32-S3 | 3 | 2 |
+| [ESP32-S3-LR1121-ePaper-2.9](boards/waveshare/esp32-s3/esp32-s3-lr1121-epaper-2-9--7ec6cf38/README.md) | ESP32-S3 | 2 | 1 |
 | [ESP32-S3-LR1121-OLED-1.54](boards/waveshare/esp32-s3/esp32-s3-lr1121-oled-1-54--f8aec5f5/README.md) | ESP32-S3 | 2 | 1 |
 | [ESP32-S3-LR1121-XF](boards/waveshare/esp32-s3/esp32-s3-lr1121-xf--8f36f633/README.md) | ESP32-S3 | 3 | 1 |
 | [ESP32-S3-Matrix](boards/waveshare/esp32-s3/esp32-s3-matrix--33bdcbc7/README.md) | ESP32-S3 | 5 | 3 |
@@ -2500,6 +2505,10 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | Board / device | Processor / family | References | Pinout images |
 |---|---|---:|---:|
 | [WT9932C5-TINY](boards/wireless-tag/esp32-c5/wt9932c5-tiny--da770dcc/README.md) | ESP32-C5 | 1 | 1 |
+| [WT9932P4-MINI-A1](boards/wireless-tag/esp32-p4/wt9932p4-mini-a1--16e319af/README.md) | ESP32-P4 | 2 | 0 |
+| [WT9932S31-TINY](boards/wireless-tag/esp32-s31/wt9932s31-tiny--122e497d/README.md) | ESP32-S31 | 3 | 1 |
+| [WT99P461-S1](boards/wireless-tag/esp32-p4-esp32-c61/wt99p461-s1--91d48fdd/README.md) | ESP32-P4 / ESP32-C61 | 2 | 0 |
+| [WTDKP4C5-S1](boards/wireless-tag/esp32-p4-esp32-c5/wtdkp4c5-s1--b73f4f21/README.md) | ESP32-P4 / ESP32-C5 | 2 | 0 |
 
 ## WisdPi
 
