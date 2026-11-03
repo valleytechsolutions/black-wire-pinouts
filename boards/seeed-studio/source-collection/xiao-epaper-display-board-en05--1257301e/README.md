@@ -14,8 +14,9 @@ Board datasheet: **not yet recorded**. Visual reference: **available**.
 
 [Manufacturer source (recorded link)](https://wiki.seeedstudio.com/xiao_epaper_display_board_overview/)
 
+- **hardware-guide / kit**: [4.26-inch Mono kit official setup and specifications](https://wiki.seeedstudio.com/opendisplay_426_mono_kit/) · online
 
-A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+ New assembled kit uses the already-cataloged EN05 (Mono) or EN04 (Color) board; add descriptive search alias/resource relationship if desired, without treating the kit as a new PCB or copying duplicate pinout images. Wiki last updated Oct 22 indicates documentation predates marketing announcement.
 
 [Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 

@@ -16,7 +16,13 @@
 
 Board and device references for **ESP32, Arduino, Raspberry Pi, RP2040/RP2350**, displays, sensors, buttons, interfaces and power modules. Find physical pinout sources, supporting photos, pin-purpose tables and manufacturer documentation, with revision and coverage notes. Generic modules and documentation gaps remain visible.
 
-The companion app provides a single Windows installer, Linux packages and in-app updates that retain downloaded references and saved workbench data. Search and previews are included; download original files inside the app for complete offline access. [Install and update](https://valleytech-black-wire-guide.pages.dev/wiki/desktop-updates/). The hardware collection is snapshot **2026.10.6**, First Edition / 2026. [How to read a pinout](https://valleytech-black-wire-guide.pages.dev/wiki/reading-pinouts/) · [Contribute or report a correction](CONTRIBUTING.md).
+The companion app provides a single Windows installer, Linux packages and in-app updates that retain downloaded references and saved workbench data. Search and previews are included; download original files inside the app for complete offline access. [Install and update](https://valleytech-black-wire-guide.pages.dev/wiki/desktop-updates/). The hardware collection is snapshot **2026.11.1**, First Edition / 2026. [How to read a pinout](https://valleytech-black-wire-guide.pages.dev/wiki/reading-pinouts/) · [Contribute or report a correction](CONTRIBUTING.md).
+
+<!-- collection-update-2026.11.1:start -->
+## November 3 update / snapshot 2026.11.1
+
+**14 new listings · 3 existing listings updated · 32 saved reference attachments · 8 physical pinout images.** Exact-model pinout images, board documentation and clearly marked supporting references. [Review, source register and remaining gaps](docs/EXPANSION-2026.11.1.md). First Edition / 2026 remains unchanged.
+<!-- collection-update-2026.11.1:end -->
 
 ## October 30 update / snapshot 2026.10.6
 

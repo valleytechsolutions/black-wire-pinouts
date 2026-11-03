@@ -888,6 +888,30 @@ Adafruit · Manufacturer source references collected
 
 Adafruit / original diagram contributors. Rights not established for this asset; attribution retained. Original artwork is not covered by Black Wire's editorial license.
 
+## SparkFun 6DoF IMU Breakout - BMI330 (Qwiic)
+
+SparkFun · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-sparkfun-sparkfun-6dof-imu-breakout-bmi330-qwiic)
+
+[![SparkFun 6DoF IMU Breakout - BMI330 (Qwiic) / board labels](../../library/thumbs/e55618b52b832ad1a124d0ad0ed8a768d5b54888dd25297086858dd990494a1b.webp)](../../library/media/e55618b52b832ad1a124d0ad0ed8a768d5b54888dd25297086858dd990494a1b.png)
+
+**board labels** · Source identity and visual scope reviewed on 2026-11-03; independent electrical and all-connector review pending
+
+Manufacturer hardware licensed CC BY-SA 4.0 in https://raw.githubusercontent.com/sparkfun/SparkFun_Qwiic_IMU_BMI330/7391c03678bb8c54af22a84d608ae1b57c57e6d0/LICENSE.md ; keep SparkFun attribution and license link, indicate changes. Preserve original bytes. Third-party Bosch datasheet is separately copyrighted.
+
+## SparkFun Triple Axis Accelerometer Breakout - BMA456 (Qwiic)
+
+SparkFun · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-sparkfun-sparkfun-triple-axis-accelerometer-breakout-bma456-qwiic)
+
+[![SparkFun Triple Axis Accelerometer Breakout - BMA456 (Qwiic) / board labels](../../library/thumbs/95cfa0d9c9b4d8ff0a60eeaa536398e08f803043f70171ce9f2d2753ee328804.webp)](../../library/media/95cfa0d9c9b4d8ff0a60eeaa536398e08f803043f70171ce9f2d2753ee328804.jpg)
+
+**board labels** · Source identity and visual scope reviewed on 2026-11-03; independent electrical and all-connector review pending
+
+Manufacturer hardware licensed CC BY-SA 4.0 in https://raw.githubusercontent.com/sparkfun/SparkFun_Qwiic_BMA456_Accelerometer/6611efda1503b00c725cc4604da99904b3754592/LICENSE.md ; keep SparkFun attribution and license link, indicate changes. Preserve original bytes. Third-party Bosch datasheet is separately copyrighted.
+
 ## Unit BMM350
 
 M5Stack · Manufacturer documentation recorded

@@ -136,6 +136,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | Board / device | Processor / family | References | Pinout images |
 |---|---|---:|---:|
 | [Jetson Orin Baseboard](boards/antmicro/expansion/jetson-orin-baseboard--b887b924/README.md) | Expansion | 1 | 0 |
+| [PCIe Switch Expansion for Jetson Orin Baseboard](boards/antmicro/diodes-pi7c9x3g606g-pcie-switch/pcie-switch-expansion-for-jetson-orin-baseboard--e0f69ed4/README.md) | Diodes PI7C9X3G606G PCIe switch | 1 | 0 |
 
 ## Arduino
 
@@ -1323,6 +1324,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Duo S](boards/milk-v/other-sbc/duo-s--5d0cea1a/README.md) | Other SBC | 2 | 1 |
 | [Duo S v1.1](boards/milk-v/other-sbc/duo-s-v1.1--866a612d/README.md) | Other SBC | 1 | 0 |
 | [Mars](boards/milk-v/jh7110/mars--3a4bcdc5/README.md) | JH7110 | 1 | 1 |
+| [Titan](boards/milk-v/ultrarisc-ur-dp1000/titan--67213005/README.md) | UltraRISC UR-DP1000 | 3 | 0 |
 
 ## NVIDIA
 
@@ -2030,8 +2032,10 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 
 | Board / device | Processor / family | References | Pinout images |
 |---|---|---:|---:|
+| [Tang Nano](boards/sipeed/gowin-gw1n-lv1qn48c6-i5/tang-nano--34d3d060/README.md) | Gowin GW1N-LV1QN48C6/I5 | 2 | 1 |
 | [Tang Nano 20K](boards/sipeed/gw2ar-lv18/tang-nano-20k--082b15f8/README.md) | GW2AR-LV18 | 1 | 1 |
 | [Tang Nano 4K](boards/sipeed/gw1nsr-lv4c/tang-nano-4k--262b1d21/README.md) | GW1NSR-LV4C | 1 | 1 |
+| [Tang Nano 9K](boards/sipeed/gowin-gw1nr-lv9qn88pc6-i5/tang-nano-9k--ee4fe993/README.md) | Gowin GW1NR-LV9QN88PC6/I5 | 3 | 1 |
 
 ## Solder Party
 
@@ -2165,11 +2169,14 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [ProS3](boards/unexpected-maker/esp32-s3/pros3--cb113c65/README.md) | ESP32-S3 | 1 | 1 |
 | [ProS3 uFL](boards/unexpected-maker/esp32-s3/pros3-ufl--b4cff1e7/README.md) | ESP32-S3 | 1 | 1 |
 | [ProS3D](boards/unexpected-maker/esp32-s3/pros3d--5d1038c5/README.md) | ESP32-S3 | 1 | 1 |
+| [TinyC6[D]](boards/unexpected-maker/esp32-c6/tinyc6-d--3913b221/README.md) | ESP32-C6 | 2 | 1 |
+| [TinyPICO[D]](boards/unexpected-maker/esp32-pico-d4/tinypico-d--66c91373/README.md) | ESP32-PICO-D4 | 2 | 1 |
 | [TinyS3](boards/unexpected-maker/esp32-s3/tinys3--77cd9a05/README.md) | ESP32-S3 | 1 | 1 |
 | [TinyS3 uFL](boards/unexpected-maker/esp32-s3/tinys3-ufl--aa69bb67/README.md) | ESP32-S3 | 1 | 1 |
 | [TinyS3D](boards/unexpected-maker/esp32-s3/tinys3d--92a5074c/README.md) | ESP32-S3 | 1 | 1 |
 | [Unexpected Maker FeatherS2 Neo](boards/unexpected-maker/esp32-s2/unexpected-maker-feathers2-neo--44053133/README.md) | ESP32-S2 | 1 | 1 |
 | [Unexpected Maker TinyPICO](boards/unexpected-maker/esp32-original/unexpected-maker-tinypico--ef409849/README.md) | ESP32 original | 1 | 1 |
+| [Unexpected Maker TinyPICO NANO](boards/unexpected-maker/esp32-original/unexpected-maker-tinypico-nano--a62dcf42/README.md) | ESP32 original | 1 | 1 |
 
 ## VCC-GND Studio
 
@@ -2358,6 +2365,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [ESP32-S3-Touch-LCD-7B](boards/waveshare/esp32-s3/esp32-s3-touch-lcd-7b--3e269e0f/README.md) | ESP32-S3 | 2 | 0 |
 | [ESP32-S3-Touch-LCD-7C-BOX](boards/waveshare/esp32-s3/esp32-s3-touch-lcd-7c-box--81b1716d/README.md) | ESP32-S3 | 4 | 0 |
 | [ESP32-S3-Zero](boards/waveshare/esp32-s3/esp32-s3-zero--1ec2c1a4/README.md) | ESP32-S3 | 5 | 4 |
+| [ESP32-S31-Zero](boards/waveshare/esp32-s31/esp32-s31-zero--a993ebd6/README.md) | ESP32-S31 | 2 | 1 |
 | [ESP32-Touch-LCD-3.5](boards/waveshare/esp32-original/esp32-touch-lcd-3.5--22979f6b/README.md) | ESP32 original | 3 | 3 |
 | [ESP32S3-TOUCH-LCD-2](boards/waveshare/esp32-s3/esp32s3-touch-lcd-2--7e518958/README.md) | ESP32-S3 | 1 | 1 |
 | [IMX415 8MP USB Camera (B)](boards/waveshare/expansion/imx415-8mp-usb-camera-b--3956aed7/README.md) | Expansion | 1 | 1 |
@@ -2506,6 +2514,8 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 |---|---|---:|---:|
 | [WT9932C5-TINY](boards/wireless-tag/esp32-c5/wt9932c5-tiny--da770dcc/README.md) | ESP32-C5 | 1 | 1 |
 | [WT9932P4-MINI-A1](boards/wireless-tag/esp32-p4/wt9932p4-mini-a1--16e319af/README.md) | ESP32-P4 | 2 | 0 |
+| [WT9932P4-TINY](boards/wireless-tag/esp32-p4/wt9932p4-tiny--fb2b637b/README.md) | ESP32-P4 | 3 | 1 |
+| [WT9932P4C61-TINY](boards/wireless-tag/esp32-p4-esp32-c61/wt9932p4c61-tiny--ca130423/README.md) | ESP32-P4 + ESP32-C61 | 3 | 1 |
 | [WT9932S31-TINY](boards/wireless-tag/esp32-s31/wt9932s31-tiny--122e497d/README.md) | ESP32-S31 | 3 | 1 |
 | [WT99P461-S1](boards/wireless-tag/esp32-p4-esp32-c61/wt99p461-s1--91d48fdd/README.md) | ESP32-P4 / ESP32-C61 | 2 | 0 |
 | [WTDKP4C5-S1](boards/wireless-tag/esp32-p4-esp32-c5/wtdkp4c5-s1--b73f4f21/README.md) | ESP32-P4 / ESP32-C5 | 2 | 0 |

@@ -11,4 +11,5 @@ Images are source references, with their own credits and review status. Photos d
 - [Other modules](docs/maker-visuals/other-modules.md)
 - [Outputs & drivers](docs/maker-visuals/outputs-drivers.md)
 - [Power & charging](docs/maker-visuals/power-charging.md)
+- [RFID & NFC](docs/maker-visuals/rfid-nfc.md)
 - [Sensors](docs/maker-visuals/sensors.md)

@@ -136,6 +136,18 @@ Adafruit · Manufacturer documentation recorded
 
 Adafruit manufacturer illustration with Black Wire connector callouts, adapted under CC BY-SA 3.0. Attribution and share-alike terms apply to this sheet.
 
+## Adafruit RV-8803 High Accuracy Real Time Clock Breakout
+
+Adafruit · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-adafruit-adafruit-rv-8803-high-accuracy-real-time-clock-breakout)
+
+[![Adafruit RV-8803 High Accuracy Real Time Clock Breakout / board labels](../../library/thumbs/2bc695a05df4f3b6e7bff24ba4ba2c18b358881ba69e046aa2834f1a414a8bab.webp)](../../library/media/2bc695a05df4f3b6e7bff24ba4ba2c18b358881ba69e046aa2834f1a414a8bab.png)
+
+**board labels** · Source identity and visual scope reviewed on 2026-11-03; independent electrical and all-connector review pending
+
+Hardware design CC BY-SA 3.0; designed by Limor Fried/Ladyada for Adafruit Industries. README requires its text to accompany redistribution. License evidence: https://github.com/adafruit/Adafruit-RV-8803-High-Accuracy-Real-Time-Clock-PCB/blob/32351f05d78df6b2e532512ec7fc56d9bd44c9e4/license.txt
+
 ## Adafruit TCA9548A 1-to-8 I2C Multiplexer Breakout
 
 Adafruit · Manufacturer documentation recorded
@@ -219,6 +231,18 @@ Seeed Studio · Source review pending
 **pinout image** · Reviewed source
 
 Not established; source attribution retained
+
+## Flipper Add-On CAN bus
+
+Electronic Cats · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=maker-electronic-cats-flipper-add-on-can-bus)
+
+[![Flipper Add-On CAN bus / connector reference](../../library/thumbs/65589dc7c3f4e3b405e2e4830ea6e32ed1e86717c2e33e4680f1ad28d6d285c1.webp)](../../library/media/65589dc7c3f4e3b405e2e4830ea6e32ed1e86717c2e33e4680f1ad28d6d285c1.jpg)
+
+**connector reference** · Source identity and visual scope reviewed on 2026-11-03; independent electrical and all-connector review pending
+
+Electronic Cats hardware project CERN-OHL v1.2; LICENSE_HARDWARE.md retained in library/licenses/electroniccats-flipper-addons. Original wiki artwork attribution retained; separate artwork license scope not established.
 
 ## Gravity: I2C to Dual UART Module / DFR0627
 

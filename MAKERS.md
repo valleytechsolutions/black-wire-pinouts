@@ -4,7 +4,7 @@ Pin-connected maker displays, sensors, inputs and modules. Ongoing source intake
 
 Records include products, families, generic discovery tasks and linked existing references; counts are not unique products or complete pinouts.
 
-**595 intake records**. 290 manufacturer documentation records. No new complete physical pinout approvals in this intake.
+**600 intake records**. 295 manufacturer documentation records. No new complete physical pinout approvals in this intake.
 
 [Search the interactive guide](https://valleytech-black-wire-guide.pages.dev/?tab=makers) · [Expansion roadmap](docs/MAKER_ROADMAP.md) · [Coverage backlog](catalog/maker-research-backlog.json)
 
@@ -306,6 +306,8 @@ Search by product/controller code first; filter by interface, function, technolo
 | Adafruit GP8403 I2C DAC with 12V Booster | Adafruit | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://learn.adafruit.com/adafruit-gp8403-i2c-dac-with-12v-booster/pinouts) |
 | Adafruit ADS7128 8-Channel ADC and GPIO Expander | Adafruit | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://learn.adafruit.com/adafruit-ads7128-8-channel-adc-and-gpio-expander/pinouts) |
 | Adafruit ADS122C04 24-Bit ADC | Adafruit | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://learn.adafruit.com/adafruit-ads122c04-24-bit-adc/pinouts) |
+| Adafruit RV-8803 High Accuracy Real Time Clock Breakout | Adafruit | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://www.adafruit.com/product/6538) |
+| Flipper Add-On CAN bus | Electronic Cats | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://electroniccats.com/store/flipper-addon-canbus/) |
 
 ## Other modules
 
@@ -563,6 +565,12 @@ Search by product/controller code first; filter by interface, function, technolo
 | Inland Breadboard 5V/3V Power Supply Module | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://www.microcenter.com/product/618900/inland-breadboard-5v-3v-power-supply-module) |
 | 5V Power DC Buck Wire | Elechouse | product-reference / Manufacturer documentation recorded | [Documentation](https://www.elechouse.com/product/5v-power-dc-buck-wire/) |
 
+## RFID & NFC
+
+| Product or family | Manufacturer | Record status | Source |
+|---|---|---|---|
+| ST25R3916B Mini V2 | Elechouse | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://www.elechouse.com/product/st25r3916b-mini-v2-nfc-module/) |
+
 ## Sensors
 
 | Product or family | Manufacturer | Record status | Source |
@@ -654,3 +662,5 @@ Search by product/controller code first; filter by interface, function, technolo
 | Unit DoF9 | M5Stack | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://docs.m5stack.com/en/unit/Unit_DoF9) |
 | Unit DoF10 | M5Stack | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://docs.m5stack.com/en/unit/Unit_DoF10) |
 | Unit BMM350 | M5Stack | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://docs.m5stack.com/en/unit/Unit_BMM350) |
+| SparkFun 6DoF IMU Breakout - BMI330 (Qwiic) | SparkFun | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://www.sparkfun.com/sparkfun-6dof-imu-breakout-bmi330-qwiic.html) |
+| SparkFun Triple Axis Accelerometer Breakout - BMA456 (Qwiic) | SparkFun | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://www.sparkfun.com/sparkfun-triple-axis-accelerometer-breakout-bma456-qwiic.html) |
