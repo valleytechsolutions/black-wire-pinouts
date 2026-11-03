@@ -21,7 +21,7 @@ Board datasheet: **not yet recorded**. Visual reference: **available**.
 - **datasheet / component**: [ESP32-P4 component datasheet](https://documentation.espressif.com/esp32-p4_datasheet_en.html) · online
 - **datasheet / component**: [ESP32-C61 component datasheet](https://documentation.espressif.com/esp32-c61_datasheet_en.html) · online
 
-Official resource-page history was updated 2026-11-02 for open-hardware links. Pinout V1.1 dates to the 2026-09-22 resource revision; this is a missing existing board, not a verified November launch. Original diagram visually identifies physical edge-header positions. FPC connector internals and independent electrical/all-connector completeness are not approved.
+Official resource-page history was updated 2026-11-02 for open-hardware links. Pinout V1.1 dates to the 2026-09-22 resource revision; this is a missing existing board, not a verified November launch. Original diagram visually identifies physical edge-header positions. FPC connector internals and independent electrical/all-connector completeness are not approved. Source discrepancy to verify: the left-header diagram labels one position IO35 while the pictured PCB silkscreen appears to read 32. The original is unchanged; resolve against the matching schematic and hardware revision before wiring that position. No inferred pin-function table has been added.
 
 [Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
@@ -41,7 +41,7 @@ Official resource-page history was updated 2026-11-02 for open-hardware links. P
 
 [Source 1](https://res.8ms.xyz/wiki_assets/WT9932P4C61-TINY/WT9932P4C61-TINY_%E5%BC%95%E8%84%9A%E5%AE%9A%E4%B9%89_V1.1.png) · [Source 2](https://wiki.wireless-tag.com/docs/en/WT9932P4C61-TINY/board_resources.html)
 
-Source retained unchanged. Match the hardware revision and connector orientation; independent electrical review pending.
+Source retained unchanged. Match the hardware revision and connector orientation; independent electrical review pending. Source discrepancy to verify: the left-header diagram labels one position IO35 while the pictured PCB silkscreen appears to read 32. The original is unchanged; resolve against the matching schematic and hardware revision before wiring that position. No inferred pin-function table has been added.
 
 Image revision: Pinout V1.1
 
