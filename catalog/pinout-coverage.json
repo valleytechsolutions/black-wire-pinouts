@@ -1,11 +1,11 @@
 {
-  "checked": "2026-11-03",
-  "listingCount": 3352,
+  "checked": "2026-11-07",
+  "listingCount": 3353,
   "countsAreListingsNotUniqueHardware": true,
   "completeDeviceApprovals": 0,
   "summary": {
     "board": {
-      "pinout-source": 1091,
+      "pinout-source": 1092,
       "reference-only": 997,
       "missing": 626,
       "functions-only": 38
@@ -48459,6 +48459,23 @@
       "scope": "A physical pinout and per-pin purpose reference are still needed. Photos and other supporting documents do not establish pin order.",
       "missing": [
         "Physical connector map",
+        "Independent all-connector completeness review",
+        "Revision match and electrical limits"
+      ]
+    },
+    {
+      "id": "463n7-io-cerberus",
+      "name": "Cerberus Development Board",
+      "brand": "463n7.io",
+      "kind": "board",
+      "status": "pinout-source",
+      "physicalCount": 1,
+      "functionTableCount": 0,
+      "functionSheetCount": 0,
+      "purposeRows": 0,
+      "completeDeviceApproved": false,
+      "scope": "Source pinout available; check its connector scope and revision. All-pin completeness has not been independently approved.",
+      "missing": [
         "Independent all-connector completeness review",
         "Revision match and electrical limits"
       ]

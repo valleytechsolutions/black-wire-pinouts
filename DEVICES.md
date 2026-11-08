@@ -2,7 +2,7 @@
 
 [Search devices in the browser guide](https://valleytech-black-wire-guide.pages.dev/?tab=devices) · [All boards](BROWSE.md) · [First Edition](EDITION.md)
 
-**346 device records with saved files or linked hardware documentation.** Includes handhelds, radio nodes, wearables, cameras, displays and controllers. Counts include unreviewed source records and supporting references; not every record has a full physical pinout.
+**347 device records with saved files or linked hardware documentation.** Includes handhelds, radio nodes, wearables, cameras, displays and controllers. Counts include unreviewed source records and supporting references; not every record has a full physical pinout.
 
 Original manufacturer images remain unchanged. Revision and partial-map notes live on each device page.
 
@@ -270,6 +270,7 @@ Original manufacturer images remain unchanged. Revision and partial-map notes li
 
 | Manufacturer | Device | Processor | Pinout images | References |
 |---|---|---|---:|---:|
+| 463n7.io | [Cerberus Development Board](boards/463n7-io/esp32-s3-esp32-c5/cerberus-development-board--5d329146/README.md) | ESP32-S3 / ESP32-C5 | 1 | 1 |
 | Flipper Devices | [Flipper Zero](boards/flipper-devices/stm32wb55/flipper-zero--7542802b/README.md) | STM32WB55 | 1 | 1 |
 | High Code | [High Boy REV 2.2 MVP](boards/high-code/esp32-s3/high-boy-rev-2.2-mvp--26ebe16c/README.md) | ESP32-S3 | 0 | 1 |
 | High Code | [High Boy V2_03](boards/high-code/esp32-p4-esp32-c5/high-boy-v2-03--8bc2e0b4/README.md) · pre-release documentation | ESP32-P4 / ESP32-C5 | 0 | 1 |

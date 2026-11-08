@@ -24,6 +24,12 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 |---|---|---:|---:|
 | [iCEBreaker v1.0b](boards/1bitsquared/ice40up5k/icebreaker-v1-0b--2bc40f2a/README.md) | iCE40UP5K | 1 | 1 |
 
+## 463n7.io
+
+| Board / device | Processor / family | References | Pinout images |
+|---|---|---:|---:|
+| [Cerberus Development Board](boards/463n7-io/esp32-s3-esp32-c5/cerberus-development-board--5d329146/README.md) | ESP32-S3 / ESP32-C5 | 1 | 1 |
+
 ## Adafruit
 
 | Board / device | Processor / family | References | Pinout images |

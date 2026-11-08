@@ -2,7 +2,7 @@
 
 **First Edition / 2026** remains the editorial edition. Collection snapshots and desktop app versions do not create a new book edition.
 
-**14 new listings · 3 existing listings updated · 32 saved reference attachments · 8 physical pinout images.** The saved attachments contain **32 distinct files**. Counts describe this intake, not a claim that every listing has a complete pinout or board datasheet.
+**15 new listings · 3 existing listings updated · 33 saved reference attachments · 9 physical pinout images.** The saved attachments contain **33 distinct files**. Counts describe this intake, not a claim that every listing has a complete pinout or board datasheet.
 
 ## Discovery scope
 
@@ -11,6 +11,10 @@ Source discovery was attempted for all **163 existing brand labels** using **256
 This pass combines selected current documentation with older collection omissions. Announcement dates, documentation timestamps, HTTP modification dates and board revisions describe different events. They are not interchangeable release dates.
 
 [Brand register JSON](../catalog/brand-sweep-2026.11.1.json) · [CSV](../catalog/brand-sweep-2026.11.1.csv) · [Intake, original URLs and hashes](../catalog/vendor-intake-2026.11.1.json)
+
+## November 7 Cerberus addition
+
+The contributor supplied an original Cerberus J1/J2 physical header diagram for **463n7.io**, now indexed under both ESP32-S3 and ESP32-C5 and Devices & IoT. Its exact image bytes and hash are preserved. The manufacturer model page is linked; exact PCB revision and diagram publication/license remain unverified. This later addition is separate from the November 3 source-discovery date.
 
 ## Added and updated references
 
@@ -33,6 +37,7 @@ This pass combines selected current documentation with older collection omission
 | Electronic Cats | Flipper Add-On CAN bus | maker | 1 | 0 |
 | Seeed Studio | XIAO ePaper Display Board EN05 | existing-board-update | 0 | 0 |
 | Seeed Studio | XIAO ePaper Display Board EN04 | existing-board-update | 0 | 0 |
+| 463n7.io | Cerberus Development Board | board | 1 | 1 |
 
 ### Exact-model scope and timing
 
@@ -50,6 +55,7 @@ This pass combines selected current documentation with older collection omission
 - **Antmicro PCIe Switch Expansion for Jetson Orin Baseboard:** Manufacturer announcement 2026-10-27; this is an expansion board for Antmicro Jetson Orin Baseboard, not a standalone Jetson. Original 8-page schematic title date 2026-08-26, Rev1.0.0, printed commit f3082c87; URL artifact identifier d551c6be differs, retain both instead of calling them the same commit. Schematic only; no complete physical pinout image approved, no dedicated board datasheet. Useful supporting reference if gap status remains explicit.
 - **Elechouse ST25R3916B Mini V2:** V2 ships in I2C mode, unlike V1. Original datasheet page 3 shows rear-side signal labels and a pin-function table. The extracted CAD image is supporting board labeling. Supply voltage and digital IO level differ. V1 current measurements in the V2 datasheet are not V2 tested limits; no power-test values were added.
 - **Electronic Cats Flipper Add-On CAN bus:** Older omission. Original reference labels CAN H/L terminal wiring and the OBD-II cable; the host-header pins are not independently mapped here. Hardware sources and wiki are linked. MCP2515 is classical CAN 2.0B, not CAN FD. Component voltage/current specifications are not board power requirements.
+- **463n7.io Cerberus Development Board:** Pinout supplied by the project maintainer on 2026-11-07 for the Cerberus development board by 463n7.io. Original bytes are preserved. The manufacturer product page establishes device identity and specifications; it has not been verified as the publication source of this exact diagram. PCB revision is not stated in the supplied image. Component side, antennas up; J2 left and J1 right as shown. The diagram marks alternate functions and shared onboard signals; these are not necessarily free peripheral pins. Match the actual hardware revision and firmware before wiring. No independent electrical verification or power measurements are claimed.
 
 ## Selected review findings and remaining gaps
 

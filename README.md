@@ -21,7 +21,7 @@ The companion app provides a single Windows installer, Linux packages and in-app
 <!-- collection-update-2026.11.1:start -->
 ## November 3 update / snapshot 2026.11.1
 
-**14 new listings · 3 existing listings updated · 32 saved reference attachments · 8 physical pinout images.** Exact-model pinout images, board documentation and clearly marked supporting references. [Review, source register and remaining gaps](docs/EXPANSION-2026.11.1.md). First Edition / 2026 remains unchanged.
+**15 new listings · 3 existing listings updated · 33 saved reference attachments · 9 physical pinout images.** Exact-model pinout images, board documentation and clearly marked supporting references. [Review, source register and remaining gaps](docs/EXPANSION-2026.11.1.md). First Edition / 2026 remains unchanged.
 <!-- collection-update-2026.11.1:end -->
 
 ## October 30 update / snapshot 2026.10.6
