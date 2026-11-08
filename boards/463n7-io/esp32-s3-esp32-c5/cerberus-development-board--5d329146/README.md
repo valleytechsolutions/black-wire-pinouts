@@ -30,7 +30,7 @@ Pinout supplied by the project maintainer on 2026-11-07 for the Cerberus develop
 
 - [Manufacturer hardware specifications](https://463n7.io/products/cerberus-development-board)
 
-## Cerberus physical hardware pinout — ESP32-S3 + ESP32-C5
+## Cerberus J1/J2 pinout
 
 **pinout image** · Visual identity and header scope reviewed 2026-11-07; independent pin-by-pin electrical review pending · WEBP
 
