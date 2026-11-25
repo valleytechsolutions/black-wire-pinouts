@@ -4179,6 +4179,102 @@
         "ESP32-S3"
       ],
       "note": "HF (850–930 MHz) and LF (410–510 MHz), with EN and non-EN product variants. Verify the exact radio SKU and revision; the diagram covers only the two exposed pin headers."
+    },
+    {
+      "boardId": "flipper-devices-flipper-one",
+      "category": "Handhelds & pocket tools",
+      "phase": "in-development",
+      "checked": "2026-11-25",
+      "tags": [
+        "GPIO",
+        "handheld"
+      ],
+      "note": "Manufacturer specifications are under active development.",
+      "source": "https://docs.flipper.net/one/general/tech-specs"
+    },
+    {
+      "boardId": "lilygo-t-can485-c5",
+      "category": "Controllers & instruments",
+      "phase": "documented",
+      "checked": "2026-11-25",
+      "tags": [
+        "GPIO",
+        "Controllers & instruments"
+      ],
+      "source": "https://lilygo.cc/products/t-can485-c5",
+      "note": "The board-oriented diagram labels the digital and analog inputs, CAN, RS485, Qwiic and onboard peripherals. Confirm terminal polarity against the board silkscreen. Manufacturer store listing published 2026-11-17 (store publication date)."
+    },
+    {
+      "boardId": "lilygo-t-display-cm0",
+      "category": "Displays & HMI",
+      "phase": "documented",
+      "checked": "2026-11-25",
+      "tags": [
+        "GPIO",
+        "Displays & HMI"
+      ],
+      "source": "https://lilygo.cc/products/t-display-cm0",
+      "note": "The external connector drawing shows the keyboard expansion port, 3 x 8 and Qwiic connections. A second drawing lists internal peripheral signals and optional LoRa connections. Manufacturer store listing published 2026-11-16 (store publication date)."
+    },
+    {
+      "boardId": "lilygo-t-beam-1w2",
+      "category": "Radio nodes & LoRa",
+      "phase": "documented",
+      "checked": "2026-11-25",
+      "tags": [
+        "GPIO",
+        "Radio nodes & LoRa"
+      ],
+      "source": "https://lilygo.cc/products/t-beam-1w2",
+      "note": "The combined 1W1 and 1W2 diagram identifies the 1W2 LR2021 radio, GPS and TF-card GPIO assignments. The expansion header has no pin-by-pin callouts. Manufacturer store listing published 2026-11-23 (store publication date)."
+    },
+    {
+      "boardId": "lilygo-t5-e-paper-basic",
+      "category": "Displays & HMI",
+      "phase": "documented",
+      "checked": "2026-11-25",
+      "tags": [
+        "GPIO",
+        "Displays & HMI"
+      ],
+      "source": "https://lilygo.cc/products/t5-e-paper-basic",
+      "note": "The manufacturer identifies the 4.7-inch Basic device and maps the display bus, TF card, I2C devices and buttons. External connector coverage is partial. Manufacturer store listing published 2026-10-16 (store publication date)."
+    },
+    {
+      "boardId": "waveshare-esp32-s31-touch-lcd-4-3c",
+      "category": "Displays & HMI",
+      "phase": "documented",
+      "checked": "2026-11-25",
+      "tags": [
+        "GPIO",
+        "Displays & HMI"
+      ],
+      "source": "https://docs.waveshare.com/ESP32-S31-Touch-LCD-4.3C/",
+      "note": "The rear-view board drawing maps the 16-position H4 terminal to power, I2C, CAN, RS485 and GPIO48 through GPIO53. The manufacturer also lists H4 and J3 pin numbers. GPIO48 through GPIO53 use native 3.3 V logic. The S3 version has different connections. Exact hardware launch date unknown. Manufacturer documentation names factory firmware dated 2026-10-30."
+    },
+    {
+      "boardId": "pimoroni-interstate-75-w-rp2350",
+      "category": "Displays & HMI",
+      "phase": "documented",
+      "checked": "2026-11-25",
+      "tags": [
+        "GPIO",
+        "Displays & HMI"
+      ],
+      "source": "https://shop.pimoroni.com/en-us/products/interstate-75-w",
+      "note": "The printable diagram maps the HUB75 header, bottom-edge expansion pads, Qw/ST connector, debug pins, buttons and RGB LED. Exact hardware launch date unverified."
+    },
+    {
+      "boardId": "dfrobot-edge101-4g-cat1-dfr1283",
+      "category": "Controllers & instruments",
+      "phase": "documented",
+      "checked": "2026-11-25",
+      "tags": [
+        "GPIO",
+        "Controllers & instruments"
+      ],
+      "source": "https://wiki.dfrobot.com/dfr1283/docs/24760",
+      "note": "Physical order of the 40-pin GPIO expansion interface only. The companion pin table identifies the GPIO numbers and input-only pins. Exact launch date unknown. Manufacturer has published the controller and its GPIO expansion diagram."
     }
   ],
   "watchlist": [

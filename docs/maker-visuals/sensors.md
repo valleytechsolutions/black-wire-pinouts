@@ -348,6 +348,16 @@ Adafruit · Manufacturer source references collected
 
 Adafruit / original diagram contributors. Rights not established for this asset; attribution retained. Original artwork is not covered by Black Wire's editorial license.
 
+## Gravity SFA40 Formaldehyde Sensor (SEN0661)
+
+DFRobot · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=dfrobot-gravity-sfa40-sen0661)
+
+[Physical four-pin Gravity I2C sensor pinout](https://img.dfrobot.com.cn/wikicn/62b2fb5caa613609f271523c/a921060d6644e44720b563c66b46ad46.png) · manufacturer-hosted
+
+DFRobot manufacturer artwork. Redistribution license not identified; link to the original.
+
 ## Gravity: Analog Capacitive Corrosion Resistant Soil Moisture Sensor for Arduino / Raspberry Pi / SEN0193
 
 DFRobot · Manufacturer documentation recorded
@@ -835,6 +845,54 @@ Seeed Studio · Source review pending
 **source reference** · Unreviewed source
 
 Source rights not yet established
+
+## Modulino Distance
+
+Arduino · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=arduino-modulino-distance)
+
+[![Modulino Distance / pinout image](../../library/thumbs/532918211499dc3b72e2afd3dc49c523a0ca1df73400cab7334fb82a3ad66e80.webp)](../../library/media/532918211499dc3b72e2afd3dc49c523a0ca1df73400cab7334fb82a3ad66e80.png)
+
+**pinout image** · Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.
+
+Arduino Documentation, CC BY-SA 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Original diagram by Arduino, reproduced unchanged. Documentation licence: https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md
+
+## Modulino Light
+
+Arduino · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=arduino-modulino-light)
+
+[![Modulino Light / pinout image](../../library/thumbs/3350df8db54f5ad940d7b78c83a3c7ba31fa74792aefc4231b4ae3a3f39afa68.webp)](../../library/media/3350df8db54f5ad940d7b78c83a3c7ba31fa74792aefc4231b4ae3a3f39afa68.png)
+
+**pinout image** · Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.
+
+Arduino Documentation, CC BY-SA 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Original diagram by Arduino, reproduced unchanged. Documentation licence: https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md
+
+## Modulino Movement
+
+Arduino · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=arduino-modulino-movement)
+
+[![Modulino Movement / pinout image](../../library/thumbs/123212129b3a13853dc259954c0008384b67519f6b302945919f2fcb04702b7c.webp)](../../library/media/123212129b3a13853dc259954c0008384b67519f6b302945919f2fcb04702b7c.png)
+
+**pinout image** · Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.
+
+Arduino Documentation, CC BY-SA 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Original diagram by Arduino, reproduced unchanged. Documentation licence: https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md
+
+## Modulino Thermo
+
+Arduino · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=arduino-modulino-thermo)
+
+[![Modulino Thermo / pinout image](../../library/thumbs/45b111c6151014d88a6c89aa0c7ce389e218a9c1911fd5b88dc21f498a313319.webp)](../../library/media/45b111c6151014d88a6c89aa0c7ce389e218a9c1911fd5b88dc21f498a313319.png)
+
+**pinout image** · Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.
+
+Arduino Documentation, CC BY-SA 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Original diagram by Arduino, reproduced unchanged. Documentation licence: https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md
 
 ## MQ gas sensor module variants
 

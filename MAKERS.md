@@ -4,7 +4,7 @@ Pin-connected maker displays, sensors, inputs and modules. Ongoing source intake
 
 Records include products, families, generic discovery tasks and linked existing references; counts are not unique products or complete pinouts.
 
-**600 intake records**. 295 manufacturer documentation records. No new complete physical pinout approvals in this intake.
+**617 intake records**. 312 manufacturer documentation records. No new complete physical pinout approvals in this intake.
 
 [Search the interactive guide](https://valleytech-black-wire-guide.pages.dev/?tab=makers) · [Expansion roadmap](docs/MAKER_ROADMAP.md) · [Coverage backlog](catalog/maker-research-backlog.json)
 
@@ -190,6 +190,7 @@ Search by product/controller code first; filter by interface, function, technolo
 | Inland LCD1602 Expansion Shield | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/646-inland-lcd1602-expansion-shield) |
 | Inland IIC SPI 1.3" 128x64 OLED V2.0 Graphic Display Module for Arduino UNO R3 | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://www.microcenter.com/product/643965/inland-iic-spi-13-128x64-oled-v20-graphic-display-module-for-arduino-uno-r3) |
 | Inland 2.13 Inch E-Ink LCD Display Screen | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://www.microcenter.com/product/632694/inland-213-inch-e-ink-lcd-display-screen) |
+| Modulino LED Matrix | Arduino | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://docs.arduino.cc/hardware/modulino-matrix/) |
 
 ## FPGA
 
@@ -239,6 +240,9 @@ Search by product/controller code first; filter by interface, function, technolo
 | Slider Trinkey | Adafruit | collection-reference / Manufacturer source references collected | [Documentation](https://www.adafruit.com/product/5021) |
 | NeoKey Trinkey | Adafruit | collection-reference / Manufacturer source references collected | [Documentation](https://www.adafruit.com/product/5020) |
 | Inland Rotary Encoder Module | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/640-inland-rotary-encoder-module) |
+| Modulino Joystick | Arduino | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://docs.arduino.cc/hardware/modulino-joystick/) |
+| Modulino Buttons | Arduino | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://docs.arduino.cc/hardware/modulino-buttons/) |
+| Modulino Knob | Arduino | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://docs.arduino.cc/hardware/modulino-knob/) |
 
 ## Interface & expansion
 
@@ -308,6 +312,8 @@ Search by product/controller code first; filter by interface, function, technolo
 | Adafruit ADS122C04 24-Bit ADC | Adafruit | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://learn.adafruit.com/adafruit-ads122c04-24-bit-adc/pinouts) |
 | Adafruit RV-8803 High Accuracy Real Time Clock Breakout | Adafruit | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://www.adafruit.com/product/6538) |
 | Flipper Add-On CAN bus | Electronic Cats | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://electroniccats.com/store/flipper-addon-canbus/) |
+| Modulino Hub | Arduino | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://docs.arduino.cc/hardware/modulino-hub/) |
+| Modulino Extender | Arduino | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://docs.arduino.cc/hardware/modulino-extender/) |
 
 ## Other modules
 
@@ -523,6 +529,12 @@ Search by product/controller code first; filter by interface, function, technolo
 | Inland 16-channel 12-bit PWM/ Servo Driver | Inland | product-reference / Manufacturer documentation recorded | [Documentation](https://community.microcenter.com/kb/articles/634-inland-16-channel-12-bit-pwm-servo-driver) |
 | 20A Motor Driver V2 with Optocoupler Isolation | Elechouse | product-reference / Manufacturer documentation recorded | [Documentation](https://www.elechouse.com/product/20a-motor-driver-v2-with-optocoupler-isolation/) |
 | 50A Dual-Channel motor drive module-Arduino Compatible | Elechouse | product-reference / Manufacturer documentation recorded | [Documentation](https://www.elechouse.com/product/50a-dual-channel-motor-drive-module-arduino-compatible/) |
+| Modulino Motors | Arduino | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://docs.arduino.cc/hardware/modulino-motors/) |
+| Modulino Latch Relay | Arduino | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://docs.arduino.cc/hardware/modulino-latch/) |
+| Modulino Vibro | Arduino | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://docs.arduino.cc/hardware/modulino-vibro/) |
+| Modulino Buzzer | Arduino | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://docs.arduino.cc/hardware/modulino-buzzer/) |
+| Modulino Pixels | Arduino | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://docs.arduino.cc/hardware/modulino-pixels/) |
+| Unit 4EncoderMotor Driver (U233) | M5Stack | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1280/EncoderMotor_Driver_pinmap.jpg) |
 
 ## Power & charging
 
@@ -664,3 +676,8 @@ Search by product/controller code first; filter by interface, function, technolo
 | Unit BMM350 | M5Stack | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://docs.m5stack.com/en/unit/Unit_BMM350) |
 | SparkFun 6DoF IMU Breakout - BMI330 (Qwiic) | SparkFun | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://www.sparkfun.com/sparkfun-6dof-imu-breakout-bmi330-qwiic.html) |
 | SparkFun Triple Axis Accelerometer Breakout - BMA456 (Qwiic) | SparkFun | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://www.sparkfun.com/sparkfun-triple-axis-accelerometer-breakout-bma456-qwiic.html) |
+| Modulino Light | Arduino | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://docs.arduino.cc/hardware/modulino-light/) |
+| Modulino Movement | Arduino | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://docs.arduino.cc/hardware/modulino-movement/) |
+| Modulino Distance | Arduino | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://docs.arduino.cc/hardware/modulino-distance/) |
+| Modulino Thermo | Arduino | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://docs.arduino.cc/hardware/modulino-thermo/) |
+| Gravity SFA40 Formaldehyde Sensor (SEN0661) | DFRobot | manufacturer-model / Manufacturer documentation recorded | [Documentation](https://img.dfrobot.com.cn/wikicn/62b2fb5caa613609f271523c/a921060d6644e44720b563c66b46ad46.png) |

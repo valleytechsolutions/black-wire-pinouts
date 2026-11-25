@@ -2,7 +2,7 @@
 
 [Search devices in the browser guide](https://valleytech-black-wire-guide.pages.dev/?tab=devices) · [All boards](BROWSE.md) · [First Edition](EDITION.md)
 
-**347 device records with saved files or linked hardware documentation.** Includes handhelds, radio nodes, wearables, cameras, displays and controllers. Counts include unreviewed source records and supporting references; not every record has a full physical pinout.
+**355 device records with saved files or linked hardware documentation.** Includes handhelds, radio nodes, wearables, cameras, displays and controllers. Counts include unreviewed source records and supporting references; not every record has a full physical pinout.
 
 Original manufacturer images remain unchanged. Revision and partial-map notes live on each device page.
 
@@ -48,6 +48,7 @@ Original manufacturer images remain unchanged. Revision and partial-map notes li
 | Arduino | [Alvik](boards/arduino/gpio-device/alvik--ec372a78/README.md) | Not recorded | 1 | 1 |
 | Arduino | [Nesso N1](boards/arduino/esp32-c6/nesso-n1--1f41d5bd/README.md) | ESP32-C6 | 12 | 15 |
 | Arduino | [Stella](boards/arduino/gpio-device/stella--9c840d79/README.md) | Not recorded | 2 | 3 |
+| DFRobot | [EDGE101 4G CAT1 Programmable Controller (DFR1283)](boards/dfrobot/esp32/edge101-4g-cat1-programmable-controller-dfr1283--31dc88e9/README.md) | ESP32 | 0 | 0 |
 | DFRobot | [UNIHIKER K10 / DFR0992-EN](boards/dfrobot/esp32-s3/unihiker-k10-dfr0992-en--807626db/README.md) | ESP32-S3 | 0 | 2 |
 | Elechouse | [ELECHOUSE Network RFID Reader V0.1H](boards/elechouse/esp32-s3-st25r3916b/elechouse-network-rfid-reader-v0-1h--f8e6e7a8/README.md) | ESP32-S3 / ST25R3916B | 0 | 6 |
 | Elechouse | [ELECHOUSE Proxmark3 V2 DEV kits](boards/elechouse/at91sam7s512-xilinx-spartan-ii/elechouse-proxmark3-v2-dev-kits--8ca96d07/README.md) | AT91SAM7S512 / Xilinx Spartan-II | 0 | 3 |
@@ -57,6 +58,7 @@ Original manufacturer images remain unchanged. Revision and partial-map notes li
 | LILYGO | [T-2Can-FD](boards/lilygo/esp32-s3/t-2can-fd--129a16ae/README.md) | ESP32-S3 | 1 | 1 |
 | LILYGO | [T-CAN485 (CH340K)](boards/lilygo/esp32-original/t-can485-ch340k--fb4b71d3/README.md) | ESP32 original | 2 | 2 |
 | LILYGO | [T-CAN485 (CH9102)](boards/lilygo/esp32-original/t-can485-ch9102--92b12a46/README.md) | ESP32 original | 1 | 1 |
+| LILYGO | [T-CAN485 C5](boards/lilygo/esp32-c5/t-can485-c5--a41b71af/README.md) | ESP32-C5 | 0 | 0 |
 | LILYGO | [T-Call SIM800C](boards/lilygo/esp32-original/t-call-sim800c--c4b6d7ea/README.md) | ESP32 original | 1 | 1 |
 | LILYGO | [T-Call SIM800L AXP192](boards/lilygo/esp32-original/t-call-sim800l-axp192--a6dbd7ba/README.md) | ESP32 original | 1 | 1 |
 | LILYGO | [T-Call SIM800L V1.3](boards/lilygo/esp32-original/t-call-sim800l-v1.3--2ed4384d/README.md) | ESP32 original | 2 | 2 |
@@ -211,6 +213,7 @@ Original manufacturer images remain unchanged. Revision and partial-map notes li
 | LILYGO | [T-Display](boards/lilygo/esp32-original/t-display--ff5a78e3/README.md) | ESP32 original | 1 | 1 |
 | LILYGO | [T-Display Bar](boards/lilygo/esp32-s3/t-display-bar--4b837e60/README.md) | ESP32-S3 | 1 | 1 |
 | LILYGO | [T-Display C5](boards/lilygo/esp32-c5/t-display-c5--037dd679/README.md) | ESP32-C5 | 1 | 1 |
+| LILYGO | [T-Display CM0](boards/lilygo/compute-module-zero-quad-core-cortex-a53/t-display-cm0--e12c77f3/README.md) | Compute Module Zero (quad-core Cortex-A53) | 0 | 0 |
 | LILYGO | [T-Display K230](boards/lilygo/k230-with-esp32-companion/t-display-k230--b61e6a7b/README.md) | K230 with ESP32 companion | 2 | 2 |
 | LILYGO | [T-Display K230 Cased Version](boards/lilygo/k230-with-esp32-companion/t-display-k230-cased-version--77ca3ec7/README.md) | K230 with ESP32 companion | 1 | 1 |
 | LILYGO | [T-Display P4 AMOLED](boards/lilygo/esp32-p4/t-display-p4-amoled--a29f3da7/README.md) | ESP32-P4 | 1 | 1 |
@@ -230,11 +233,13 @@ Original manufacturer images remain unchanged. Revision and partial-map notes li
 | LILYGO | [T-QT C6](boards/lilygo/esp32-c6/t-qt-c6--4f101d80/README.md) | ESP32-C6 | 1 | 1 |
 | LILYGO | [T-QT Pro (N4R2)](boards/lilygo/esp32-s3/t-qt-pro-n4r2--d046cad2/README.md) | ESP32-S3 | 1 | 1 |
 | LILYGO | [T3-S3 E-Paper](boards/lilygo/esp32-s3/t3-s3-e-paper--29453065/README.md) | ESP32-S3 | 1 | 1 |
+| LILYGO | [T5 e-Paper Basic](boards/lilygo/esp32-s3/t5-e-paper-basic--b62526d0/README.md) | ESP32-S3 | 0 | 0 |
 | LILYGO | [T5-4.7 E-Paper S3 Pro](boards/lilygo/esp32-s3/t5-4.7-e-paper-s3-pro--d77a054d/README.md) | ESP32-S3 | 1 | 1 |
 | LILYGO | [T5-4.7-S3 E-Paper Pro Lite](boards/lilygo/esp32-s3/t5-4.7-s3-e-paper-pro-lite--4975952e/README.md) | ESP32-S3 | 1 | 1 |
 | M5Stack | [Atom Display](boards/m5stack/source-collection/atom-display--50021de6/README.md) | Not recorded | 0 | 3 |
 | M5Stack | [Atomic Display Base](boards/m5stack/source-collection/atomic-display-base--20fcd7cc/README.md) | Not recorded | 0 | 3 |
 | M5Stack | [M5Stack Tab5 IoT Development Kit](boards/m5stack/esp32-p4/m5stack-tab5-iot-development-kit--afd4122f/README.md) | ESP32-P4 | 1 | 2 |
+| Pimoroni | [Interstate 75 W (RP2350)](boards/pimoroni/rp2350a-rm2/interstate-75-w-rp2350--faf1a2fb/README.md) | RP2350A / RM2 | 0 | 0 |
 | QDtech | [E32R28T ESP32-32E 2.8-inch resistive display](boards/qdtech/esp32-wroom-32e/e32r28t-esp32-32e-2-8-inch-resistive-display--3576badc/README.md) | ESP32-WROOM-32E | 0 | 4 |
 | QDtech | [E32R35T ESP32-32E 3.5-inch resistive display](boards/qdtech/esp32-wroom-32e/e32r35t-esp32-32e-3-5-inch-resistive-display--f0304b2d/README.md) | ESP32-WROOM-32E | 0 | 4 |
 | RockBase IoT / NMTech | [NM-CYD-C5](boards/rockbase-iot-nmtech/esp32-c5/nm-cyd-c5--45822b76/README.md) | ESP32-C5 | 1 | 4 |
@@ -259,6 +264,7 @@ Original manufacturer images remain unchanged. Revision and partial-map notes li
 | Sunton | [ESP32-2432S028R](boards/sunton/esp32/esp32-2432s028r--c76387e5/README.md) | ESP32 | 3 | 8 |
 | Sunton | [ESP32-2432S032C-I](boards/sunton/esp32/esp32-2432s032c-i--f56511ce/README.md) | ESP32 | 0 | 1 |
 | Sunton | [ESP32-3248S035R](boards/sunton/esp32/esp32-3248s035r--0706e456/README.md) | ESP32 | 1 | 2 |
+| Waveshare | [ESP32-S31-Touch-LCD-4.3C](boards/waveshare/esp32-s31/esp32-s31-touch-lcd-4-3c--679d14fe/README.md) | ESP32-S31 | 0 | 0 |
 
 ## Expansion & IO
 
@@ -271,6 +277,7 @@ Original manufacturer images remain unchanged. Revision and partial-map notes li
 | Manufacturer | Device | Processor | Pinout images | References |
 |---|---|---|---:|---:|
 | 463n7.io | [Cerberus Development Board](boards/463n7-io/esp32-s3-esp32-c5/cerberus-development-board--5d329146/README.md) | ESP32-S3 / ESP32-C5 | 1 | 1 |
+| Flipper Devices | [Flipper One](boards/flipper-devices/rk3576-rp2350b/flipper-one--dddec202/README.md) · pre-release documentation | RK3576 / RP2350B | 0 | 0 |
 | Flipper Devices | [Flipper Zero](boards/flipper-devices/stm32wb55/flipper-zero--7542802b/README.md) | STM32WB55 | 1 | 1 |
 | High Code | [High Boy REV 2.2 MVP](boards/high-code/esp32-s3/high-boy-rev-2.2-mvp--26ebe16c/README.md) | ESP32-S3 | 0 | 1 |
 | High Code | [High Boy V2_03](boards/high-code/esp32-p4-esp32-c5/high-boy-v2-03--8bc2e0b4/README.md) · pre-release documentation | ESP32-P4 / ESP32-C5 | 0 | 1 |
@@ -295,6 +302,7 @@ Original manufacturer images remain unchanged. Revision and partial-map notes li
 
 | Manufacturer | Device | Processor | Pinout images | References |
 |---|---|---|---:|---:|
+| LILYGO | [T-Beam 1W2](boards/lilygo/esp32-s3/t-beam-1w2--e41e5e35/README.md) | ESP32-S3 | 0 | 0 |
 | Waveshare | [ESP32-S3-LR1121-OLED-1.54](boards/waveshare/esp32-s3/esp32-s3-lr1121-oled-1-54--f8aec5f5/README.md) | ESP32-S3 | 1 | 2 |
 
 ## Radios & GNSS

@@ -50,6 +50,8 @@ def main():
             a=next((a for a in assets.values() if a['type']=='pinout image' and a.get('thumb')),None) or next((a for a in assets.values() if a.get('thumb')),None)
             gl += ['## '+p['name'],'',f"{p['brand']} · {p['documentationStatus']}",'',f"[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part={p['id']})",'']
             if a:gl += [f"[![{p['name']} / {a['type']}](../../library/{a['thumb']})](../../library/{a['file']})",'',f"**{a['type']}** · {a['review']}",'',a['rights'],'']
+            elif online := [r for r in p.get('documentation',{}).get('resources',[]) if r.get('kind')=='connector-reference' and isinstance(r.get('physicalPinout'),bool) and not r.get('file')]:
+                for r in online:gl += [f"[{r['label']}]({r['url']}) · manufacturer-hosted",'',r['rights'],'']
             else:gl += ['Matching image still needed.','']
         gallery.write_text('\n'.join(gl),encoding='utf-8')
         lines += ['## '+cat,'','| Product or family | Manufacturer | Record status | Source |','|---|---|---|---|']
@@ -59,7 +61,7 @@ def main():
         lines.append('')
     (ROOT/'MAKERS.md').write_text('\n'.join(lines),encoding='utf-8')
     (ROOT/'MAKER_VISUALS.md').write_text('\n'.join(visual_index)+'\n',encoding='utf-8')
-    gaps=[dict(id=p['id'],name=p['name'],brand=p['brand'],reason='Exact-variant image not yet collected or reviewed',sources=[s['url'] for s in p['sources']]) for p in data['parts'] if not p['imageCount']]
+    gaps=[dict(id=p['id'],name=p['name'],brand=p['brand'],reason=('Manufacturer-hosted diagram reviewed. Offline artwork permission unconfirmed.' if any(isinstance(r.get('physicalPinout'),bool) for r in p.get('documentation',{}).get('resources',[])) else 'Exact-variant image not yet collected or reviewed'),sources=[s['url'] for s in p['sources']]) for p in data['parts'] if not p['imageCount']]
     (ROOT/'catalog/maker-image-gaps.json').write_text(json.dumps(dict(records=gaps),ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(json.dumps({k:v for k,v in c['stats'].items() if k.startswith('maker')}))
 if __name__=='__main__':main()

@@ -1200,6 +1200,18 @@ Inland · Manufacturer documentation recorded
 
 Inland / original artwork contributors. Asset-specific redistribution and print rights are not established. Black Wire's editorial license does not relicense this artwork.
 
+## Modulino LED Matrix
+
+Arduino · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=arduino-modulino-matrix)
+
+[![Modulino LED Matrix / pinout image](../../library/thumbs/a9e6116367a654af67c29911c18c6c92b433b74a536b0b3b2c8de03862c142fc.webp)](../../library/media/a9e6116367a654af67c29911c18c6c92b433b74a536b0b3b2c8de03862c142fc.png)
+
+**pinout image** · Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.
+
+Arduino Documentation, CC BY-SA 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Original diagram by Arduino, reproduced unchanged. Documentation licence: https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md
+
 ## Monochrome 0.96" 128x64 OLED Graphic Display - STEMMA QT / PID 326
 
 Adafruit · Manufacturer documentation recorded

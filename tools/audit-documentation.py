@@ -49,6 +49,7 @@ def main():
    datasheets=[x for x in resources if x.get('kind')=='datasheet' and x.get('scope')=='board']
    guides=[x for x in resources if x.get('kind')=='hardware-guide' and x.get('scope')=='board']
    visual=sum(a.get('type')!='chip-package reference' and (bool(a.get('thumb')) or a.get('extension') in ['png','jpg','jpeg','webp','svg','gif']) for a in assets)
+   visual+=len({r['url'] for r in resources if r.get('kind')=='connector-reference' and isinstance(r.get('physicalPinout'),bool) and not r.get('file')})
    missing=[]
    if not datasheets:missing.append('Board datasheet not yet recorded')
    if not d.get('website'):missing.append('Original manufacturer website not yet identified')

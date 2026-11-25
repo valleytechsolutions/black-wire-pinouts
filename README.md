@@ -19,6 +19,10 @@ Board and device references for **ESP32, Arduino, Raspberry Pi, RP2040/RP2350**,
 The companion app provides a single Windows installer, Linux packages and in-app updates that retain downloaded references and saved workbench data. Search and previews are included; download original files inside the app for complete offline access. [Install and update](https://valleytech-black-wire-guide.pages.dev/wiki/desktop-updates/). The hardware collection is snapshot **2026.11.1**, First Edition / 2026. [How to read a pinout](https://valleytech-black-wire-guide.pages.dev/wiki/reading-pinouts/) · [Contribute or report a correction](CONTRIBUTING.md).
 
 <!-- collection-update-2026.11.1:start -->
+## November 25 GPIO references / 2026.11.2
+
+23 new boards and devices, 17 new maker modules and 2 earlier XIAO records with revised pad notes. The collection adds 28 distinct original physical-pinout images and two printable PDFs. Manufacturer links open 11 additional physical diagrams and 3 peripheral-signal references. [Model register and sources](docs/EXPANSION-2026.11.2.md).
+
 ## November 3 update / snapshot 2026.11.1
 
 **15 new listings · 3 existing listings updated · 33 saved reference attachments · 9 physical pinout images.** Exact-model pinout images, board documentation and clearly marked supporting references. [Review, source register and remaining gaps](docs/EXPANSION-2026.11.1.md). First Edition / 2026 remains unchanged.

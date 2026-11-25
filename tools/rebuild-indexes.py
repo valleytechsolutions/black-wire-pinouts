@@ -54,6 +54,8 @@ def main():
             else:lines.extend(['Original manufacturer website still needs identification.',''])
             for doc in d.get('resources',[]):
                 lines.append(f"- **{doc['kind']} / {doc.get('scope','unclassified')}**: [{doc['label']}]({doc['url']})"+(f" · [saved document]({prefix}library/{doc['file']})" if doc.get('file') else ' · online'))
+                if isinstance(doc.get('physicalPinout'),bool) and not doc.get('file'):
+                    lines.extend(['',doc.get('description',''),'',doc['rights'],'',f"SHA-256 of manufacturer original: `{doc['sha256']}`",''])
             lines.extend(['',d.get('note','A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.'),'',f'[Documentation coverage and remaining gaps]({prefix}DOCUMENTATION.md)',''])
         if b.get('specifications'):
             lines.extend(['## Specifications and hardware documentation',''])

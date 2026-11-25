@@ -185,6 +185,8 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Nano Matter](boards/arduino/other/nano-matter--80a5586a/README.md) | Other | 4 | 3 |
 | [Nano R4](boards/arduino/other/nano-r4--c9197d67/README.md) | Other | 4 | 3 |
 | [Nano RP2040 Connect](boards/arduino/rp2040/nano-rp2040-connect--3011d51c/README.md) | RP2040 | 9 | 6 |
+| [Nano XL Link](boards/arduino/pic32ck2051sg01144/nano-xl-link--31b602b1/README.md) | PIC32CK2051SG01144 | 2 | 1 |
+| [Nano XL Link Connector Carrier](boards/arduino/carrier-for-the-nano-xl-link/nano-xl-link-connector-carrier--22661c96/README.md) | Carrier for the Nano XL Link | 2 | 1 |
 | [Nesso N1](boards/arduino/esp32-c6/nesso-n1--1f41d5bd/README.md) | ESP32-C6 | 15 | 12 |
 | [Nicla Sense Env](boards/arduino/other/nicla-sense-env--45ef0964/README.md) | Other | 3 | 2 |
 | [Nicla Sense ME](boards/arduino/other/nicla-sense-me--147d4ffe/README.md) | Other | 10 | 5 |
@@ -282,6 +284,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [DFRduino Mega2560 / DFR0191](boards/dfrobot/atmega2560/dfrduino-mega2560-dfr0191--ec66d7b0/README.md) | ATmega2560 | 1 | 0 |
 | [DFRduino Nano Microcontroller Board / DFR0010](boards/dfrobot/atmega328p/dfrduino-nano-microcontroller-board-dfr0010--79efa4ae/README.md) | ATmega328P | 1 | 0 |
 | [Dreamer Nano V4.1 (Arduino Leonardo Compatible) / DFR0213](boards/dfrobot/atmega32u4/dreamer-nano-v4-1-arduino-leonardo-compatible-dfr0213--814af9f1/README.md) | ATmega32U4 | 3 | 1 |
+| [EDGE101 4G CAT1 Programmable Controller (DFR1283)](boards/dfrobot/esp32/edge101-4g-cat1-programmable-controller-dfr1283--31dc88e9/README.md) | ESP32 | 0 | 0 |
 | [FireBeetle 2 ESP32-C5 Development Kit / DFR1236](boards/dfrobot/esp32-c5/firebeetle-2-esp32-c5-development-kit-dfr1236--2e39873f/README.md) | ESP32-C5 | 3 | 1 |
 | [FireBeetle 2 ESP32-C5 IoT Development Board / DFR1222](boards/dfrobot/esp32-c5/firebeetle-2-esp32-c5-dfr1222--df490bf5/README.md) | ESP32-C5 | 2 | 1 |
 | [FireBeetle 2 ESP32-C5-U(N4) IO Development Kit / DFR1284](boards/dfrobot/esp32-c5/firebeetle-2-esp32-c5-u-n4-io-development-kit-dfr1284--7b2669c5/README.md) | ESP32-C5 | 2 | 1 |
@@ -365,6 +368,12 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [PICO W5 RP2040 Dev Board](boards/elecrow/rp2040/pico-w5-rp2040-dev-board--b8726de8/README.md) | RP2040 | 1 | 1 |
 | [RP2350 Pico W5](boards/elecrow/rp2350/rp2350-pico-w5--71c7a0b2/README.md) | RP2350 | 1 | 1 |
 
+## Embeetle
+
+| Board / device | Processor / family | References | Pinout images |
+|---|---|---:|---:|
+| [Tiny Scarab v0.2](boards/embeetle/ch32v003f4p6/tiny-scarab-v0-2--65401b8f/README.md) | CH32V003F4P6 | 2 | 2 |
+
 ## Espressif
 
 | Board / device | Processor / family | References | Pinout images |
@@ -411,6 +420,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 
 | Board / device | Processor / family | References | Pinout images |
 |---|---|---:|---:|
+| [Flipper One](boards/flipper-devices/rk3576-rp2350b/flipper-one--dddec202/README.md) | RK3576 / RP2350B | 0 | 0 |
 | [Flipper Zero](boards/flipper-devices/stm32wb55/flipper-zero--7542802b/README.md) | STM32WB55 | 1 | 1 |
 
 ## Franzininho
@@ -660,6 +670,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [T-Bao](boards/lilygo/esp32-original/t-bao--fc15da28/README.md) | ESP32 original | 1 | 1 |
 | [T-Beam](boards/lilygo/esp32-original/t-beam--ecc0e8d6/README.md) | ESP32 original | 1 | 1 |
 | [T-Beam 1W](boards/lilygo/esp32-s3/t-beam-1w--964bbee7/README.md) | ESP32-S3 | 2 | 1 |
+| [T-Beam 1W2](boards/lilygo/esp32-s3/t-beam-1w2--e41e5e35/README.md) | ESP32-S3 | 0 | 0 |
 | [T-Beam S3 Core](boards/lilygo/esp32-s3/t-beam-s3-core--1421b0d0/README.md) | ESP32-S3 | 1 | 0 |
 | [T-Beam Supreme](boards/lilygo/esp32-s3/t-beam-supreme--79fb9ead/README.md) | ESP32-S3 | 3 | 2 |
 | [T-Beam V1.1](boards/lilygo/esp32-original/t-beam-v1.1--ffab99f2/README.md) | ESP32 original | 1 | 1 |
@@ -672,6 +683,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [T-Camera-S3](boards/lilygo/esp32-s3/t-camera-s3--91dd0d7e/README.md) | ESP32-S3 | 1 | 1 |
 | [T-CAN485 (CH340K)](boards/lilygo/esp32-original/t-can485-ch340k--fb4b71d3/README.md) | ESP32 original | 2 | 2 |
 | [T-CAN485 (CH9102)](boards/lilygo/esp32-original/t-can485-ch9102--92b12a46/README.md) | ESP32 original | 1 | 1 |
+| [T-CAN485 C5](boards/lilygo/esp32-c5/t-can485-c5--a41b71af/README.md) | ESP32-C5 | 0 | 0 |
 | [T-Circle](boards/lilygo/esp32-original/t-circle--5c9fc9c1/README.md) | ESP32 original | 1 | 1 |
 | [T-Circle-S3](boards/lilygo/esp32-s3/t-circle-s3--182be220/README.md) | ESP32-S3 | 2 | 0 |
 | [T-Connect](boards/lilygo/esp32-s3/t-connect--e293c789/README.md) | ESP32-S3 | 1 | 1 |
@@ -683,6 +695,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [T-Display](boards/lilygo/esp32-original/t-display--ff5a78e3/README.md) | ESP32 original | 1 | 1 |
 | [T-Display Bar](boards/lilygo/esp32-s3/t-display-bar--4b837e60/README.md) | ESP32-S3 | 1 | 1 |
 | [T-Display C5](boards/lilygo/esp32-c5/t-display-c5--037dd679/README.md) | ESP32-C5 | 1 | 1 |
+| [T-Display CM0](boards/lilygo/compute-module-zero-quad-core-cortex-a53/t-display-cm0--e12c77f3/README.md) | Compute Module Zero (quad-core Cortex-A53) | 0 | 0 |
 | [T-Display K230](boards/lilygo/k230-with-esp32-companion/t-display-k230--b61e6a7b/README.md) | K230 with ESP32 companion | 2 | 2 |
 | [T-Display K230 Cased Version](boards/lilygo/k230-with-esp32-companion/t-display-k230-cased-version--77ca3ec7/README.md) | K230 with ESP32 companion | 1 | 1 |
 | [T-Display P4 AMOLED](boards/lilygo/esp32-p4/t-display-p4-amoled--a29f3da7/README.md) | ESP32-P4 | 1 | 1 |
@@ -772,6 +785,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [T3-STM32](boards/lilygo/stm32/t3-stm32--63f94c6e/README.md) | STM32 | 1 | 1 |
 | [T3-TCXO](boards/lilygo/esp32-original/t3-tcxo--602c6c22/README.md) | ESP32 original | 1 | 1 |
 | [T4-S3-2.41](boards/lilygo/esp32-s3/t4-s3-2.41--5beb838c/README.md) | ESP32-S3 | 1 | 1 |
+| [T5 e-Paper Basic](boards/lilygo/esp32-s3/t5-e-paper-basic--b62526d0/README.md) | ESP32-S3 | 0 | 0 |
 | [T5-4.7 E-Paper S3 Pro](boards/lilygo/esp32-s3/t5-4.7-e-paper-s3-pro--d77a054d/README.md) | ESP32-S3 | 1 | 1 |
 | [T5-4.7-S3 Capacitive Touch](boards/lilygo/esp32-s3/t5-4.7-s3-capacitive-touch--a869276a/README.md) | ESP32-S3 | 1 | 1 |
 | [T5-4.7-S3 E-Paper Pro Lite](boards/lilygo/esp32-s3/t5-4.7-s3-e-paper-pro-lite--4975952e/README.md) | ESP32-S3 | 1 | 1 |
@@ -1388,6 +1402,9 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [ESP32-C5-EVB](boards/olimex/esp32-c5/esp32-c5-evb--e7c38036/README.md) | ESP32-C5 | 3 | 1 |
 | [MOD-ESP32-C5](boards/olimex/esp32-c5/mod-esp32-c5--1a8539fe/README.md) | ESP32-C5 | 2 | 1 |
 | [RK3188-SOM-EVB](boards/olimex/expansion/rk3188-som-evb--0c4ed23b/README.md) | Expansion | 1 | 1 |
+| [RP2350-PICO2-BB48](boards/olimex/rp2350b/rp2350-pico2-bb48--41a77d92/README.md) | RP2350B | 1 | 1 |
+| [RP2350-PICO2-BB48R](boards/olimex/rp2350b/rp2350-pico2-bb48r--a7fd8e54/README.md) | RP2350B | 1 | 1 |
+| [RP2350-PICO2-XXL Rev B](boards/olimex/rp2350b/rp2350-pico2-xxl-rev-b--7eda0ed5/README.md) | RP2350B | 1 | 1 |
 
 ## OpenSourceSDRLab
 
@@ -1437,6 +1454,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 
 | Board / device | Processor / family | References | Pinout images |
 |---|---|---:|---:|
+| [Interstate 75 W (RP2350)](boards/pimoroni/rp2350a-rm2/interstate-75-w-rp2350--faf1a2fb/README.md) | RP2350A / RM2 | 0 | 0 |
 | [Inventor 2350 W](boards/pimoroni/rp2350/inventor-2350-w--58910152/README.md) | RP2350 | 1 | 0 |
 | [PGA2040](boards/pimoroni/rp2040/pga2040--26b2aeb5/README.md) | RP2040 | 1 | 1 |
 | [PGA2350](boards/pimoroni/rp2350/pga2350--35a718f5/README.md) | RP2350 | 3 | 2 |
@@ -2008,6 +2026,8 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [XIAO nRF52840 Sense Plus](boards/seeed-studio/other/xiao-nrf52840-sense-plus--156bfa10/README.md) | Other | 2 | 2 |
 | [XIAO nRF54L15](boards/seeed-studio/other/xiao-nrf54l15--851f3510/README.md) | Other | 5 | 3 |
 | [XIAO nRF54L15 Sense](boards/seeed-studio/other/xiao-nrf54l15-sense--fd85be95/README.md) | Other | 3 | 2 |
+| [XIAO nRF54L15 Sense V1.2](boards/seeed-studio/nordic-nrf54l15/xiao-nrf54l15-sense-v1-2--c480206b/README.md) | Nordic nRF54L15 | 1 | 1 |
+| [XIAO nRF54L15 V1.2](boards/seeed-studio/nordic-nrf54l15/xiao-nrf54l15-v1-2--dc961028/README.md) | Nordic nRF54L15 | 1 | 1 |
 | [XIAO nRF54LM20A](boards/seeed-studio/other/xiao-nrf54lm20a--f44f2968/README.md) | Other | 3 | 2 |
 | [XIAO nRF54LM20A Sense](boards/seeed-studio/other/xiao-nrf54lm20a-sense--8aac37fc/README.md) | Other | 4 | 2 |
 | [XIAO PowerBread](boards/seeed-studio/expansion/xiao-powerbread--b0b00876/README.md) | Expansion | 3 | 0 |
@@ -2050,6 +2070,16 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [RP2040 STAMP](boards/solder-party/rp2040/rp2040-stamp--293a77b3/README.md) | RP2040 | 1 | 1 |
 | [RP2350 STAMP](boards/solder-party/rp2350/rp2350-stamp--b0b3b210/README.md) | RP2350 | 1 | 1 |
 | [RP2350 STAMP XL](boards/solder-party/rp2350/rp2350-stamp-xl--03726017/README.md) | RP2350 | 1 | 1 |
+
+## Soldered
+
+| Board / device | Processor / family | References | Pinout images |
+|---|---|---:|---:|
+| [NULA DeepSleep ESP32-S3](boards/soldered/esp32-s3/nula-deepsleep-esp32-s3--0dc87d05/README.md) | ESP32-S3 | 1 | 1 |
+| [NULA Ethernet W55RP20](boards/soldered/wiznet-w55rp20-rp2040-and-w5500/nula-ethernet-w55rp20--5ed6b4d3/README.md) | WIZnet W55RP20 (RP2040 and W5500) | 1 | 1 |
+| [NULA Max RP2350](boards/soldered/rp2350b/nula-max-rp2350--62182d92/README.md) | RP2350B | 1 | 1 |
+| [NULA Mini ESP32-C6](boards/soldered/esp32-c6/nula-mini-esp32-c6--1bbdaa45/README.md) | ESP32-C6 | 1 | 1 |
+| [NULA Node RP2040](boards/soldered/rp2040/nula-node-rp2040--673cf29d/README.md) | RP2040 | 1 | 1 |
 
 ## SparkFun
 
@@ -2153,6 +2183,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 |---|---|---:|---:|
 | [LP-CC2651P3 LaunchPad](boards/texas-instruments/cc2651p3/lp-cc2651p3-launchpad--8f96e563/README.md) | CC2651P3 | 2 | 1 |
 | [LP-CC2651R3SIPA LaunchPad](boards/texas-instruments/cc2651r3sipa/lp-cc2651r3sipa-launchpad--e96ee860/README.md) | CC2651R3SIPA | 2 | 1 |
+| [LP-EM-CC2341R10 LaunchPad](boards/texas-instruments/cc2341r10/lp-em-cc2341r10-launchpad--a8711681/README.md) | CC2341R10 | 0 | 0 |
 
 ## Unattributed chip reference
 
@@ -2371,6 +2402,7 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [ESP32-S3-Touch-LCD-7B](boards/waveshare/esp32-s3/esp32-s3-touch-lcd-7b--3e269e0f/README.md) | ESP32-S3 | 2 | 0 |
 | [ESP32-S3-Touch-LCD-7C-BOX](boards/waveshare/esp32-s3/esp32-s3-touch-lcd-7c-box--81b1716d/README.md) | ESP32-S3 | 4 | 0 |
 | [ESP32-S3-Zero](boards/waveshare/esp32-s3/esp32-s3-zero--1ec2c1a4/README.md) | ESP32-S3 | 5 | 4 |
+| [ESP32-S31-Touch-LCD-4.3C](boards/waveshare/esp32-s31/esp32-s31-touch-lcd-4-3c--679d14fe/README.md) | ESP32-S31 | 0 | 0 |
 | [ESP32-S31-Zero](boards/waveshare/esp32-s31/esp32-s31-zero--a993ebd6/README.md) | ESP32-S31 | 2 | 1 |
 | [ESP32-Touch-LCD-3.5](boards/waveshare/esp32-original/esp32-touch-lcd-3.5--22979f6b/README.md) | ESP32 original | 3 | 3 |
 | [ESP32S3-TOUCH-LCD-2](boards/waveshare/esp32-s3/esp32s3-touch-lcd-2--7e518958/README.md) | ESP32-S3 | 1 | 1 |
@@ -2445,6 +2477,12 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [XNUCLEO-F103RB](boards/waveshare/other/xnucleo-f103rb--f666a328/README.md) | Other | 1 | 1 |
 | [XNUCLEO-F401RE](boards/waveshare/other/xnucleo-f401re--9ba18564/README.md) | Other | 1 | 1 |
 | [XNUCLEO-F411RE](boards/waveshare/other/xnucleo-f411re--1f376fdd/README.md) | Other | 1 | 1 |
+
+## Wavtron
+
+| Board / device | Processor / family | References | Pinout images |
+|---|---|---:|---:|
+| [Tinker 5](boards/wavtron/ch32x033f8p6/tinker-5--8dca69a5/README.md) | CH32X033F8P6 | 0 | 0 |
 
 ## WeAct Studio
 

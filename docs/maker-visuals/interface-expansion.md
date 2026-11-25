@@ -552,6 +552,30 @@ Generic / manufacturer unconfirmed · Identification needed
 
 Matching image still needed.
 
+## Modulino Extender
+
+Arduino · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=arduino-modulino-extender)
+
+[![Modulino Extender / pinout image](../../library/thumbs/4d28034e86eff325f66ecf9db8ad3d70ee7f38211fb4efc473aa4c8249522189.webp)](../../library/media/4d28034e86eff325f66ecf9db8ad3d70ee7f38211fb4efc473aa4c8249522189.png)
+
+**pinout image** · Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.
+
+Arduino Documentation, CC BY-SA 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Original diagram by Arduino, reproduced unchanged. Documentation licence: https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md
+
+## Modulino Hub
+
+Arduino · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=arduino-modulino-hub)
+
+[![Modulino Hub / pinout image](../../library/thumbs/5a0c90ea27122f36e20189f880137ea84810551d7d8c8d324c2fd2bbb61ddbe9.webp)](../../library/media/5a0c90ea27122f36e20189f880137ea84810551d7d8c8d324c2fd2bbb61ddbe9.png)
+
+**pinout image** · Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.
+
+Arduino Documentation, CC BY-SA 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Original diagram by Arduino, reproduced unchanged. Documentation licence: https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md
+
 ## MT3620 Grove Shield
 
 Seeed Studio · Source review pending

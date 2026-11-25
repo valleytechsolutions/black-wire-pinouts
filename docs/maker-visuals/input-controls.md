@@ -200,6 +200,42 @@ M5Stack · Source review pending
 
 Source rights not yet established
 
+## Modulino Buttons
+
+Arduino · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=arduino-modulino-buttons)
+
+[![Modulino Buttons / pinout image](../../library/thumbs/67d87e4ebe70b00d7166b8496fb9305c0add1ab17fc60c3934dc3c5043a4ada4.webp)](../../library/media/67d87e4ebe70b00d7166b8496fb9305c0add1ab17fc60c3934dc3c5043a4ada4.png)
+
+**pinout image** · Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.
+
+Arduino Documentation, CC BY-SA 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Original diagram by Arduino, reproduced unchanged. Documentation licence: https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md
+
+## Modulino Joystick
+
+Arduino · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=arduino-modulino-joystick)
+
+[![Modulino Joystick / pinout image](../../library/thumbs/4a32d11e296510d13b9deee70c9347b917c4c8489421d58601d4843e3f85c8a9.webp)](../../library/media/4a32d11e296510d13b9deee70c9347b917c4c8489421d58601d4843e3f85c8a9.png)
+
+**pinout image** · Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.
+
+Arduino Documentation, CC BY-SA 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Original diagram by Arduino, reproduced unchanged. Documentation licence: https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md
+
+## Modulino Knob
+
+Arduino · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=arduino-modulino-knob)
+
+[![Modulino Knob / pinout image](../../library/thumbs/f08d6cd84b2734743e1e6f0fb1fe640ac0d30241aee8c61bde5626ff777911b9.webp)](../../library/media/f08d6cd84b2734743e1e6f0fb1fe640ac0d30241aee8c61bde5626ff777911b9.png)
+
+**pinout image** · Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.
+
+Arduino Documentation, CC BY-SA 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Original diagram by Arduino, reproduced unchanged. Documentation licence: https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md
+
 ## NeoKey Trinkey
 
 Adafruit · Manufacturer source references collected

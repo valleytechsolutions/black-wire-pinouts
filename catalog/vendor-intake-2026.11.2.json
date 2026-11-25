@@ -1,0 +1,1301 @@
+{
+  "snapshot": "2026.11.2",
+  "checked": "2026-11-25",
+  "records": [
+    {
+      "id": "olimex-rp2350-pico2-bb48",
+      "name": "RP2350-PICO2-BB48",
+      "brand": "Olimex",
+      "kind": "board",
+      "physicalPinouts": 1,
+      "references": 1,
+      "launch": "Olimex announced both variants on September 22, 2025.",
+      "revision": "Manufacturer BB48 family drawing. PCB revision unspecified.",
+      "scope": "The base BB48 has 16 MB flash. Olimex publishes one extension-header drawing for both variants.",
+      "source": "https://www.olimex.com/Products/RaspberryPi/PICO/RP2350-PICO2-BB48/open-source-hardware",
+      "sources": [
+        "https://www.olimex.com/Products/RaspberryPi/PICO/RP2350-PICO2-BB48/open-source-hardware",
+        "https://olimex.wordpress.com/2025/09/22/new-rp2350-pico2-open-source-hardware-development-board-with-all-48-gpios-exposed-in-breadboard-friendly-layout/"
+      ]
+    },
+    {
+      "id": "olimex-rp2350-pico2-bb48r",
+      "name": "RP2350-PICO2-BB48R",
+      "brand": "Olimex",
+      "kind": "board",
+      "physicalPinouts": 1,
+      "references": 1,
+      "launch": "Olimex announced both variants on September 22, 2025.",
+      "revision": "Manufacturer BB48 family drawing. PCB revision unspecified.",
+      "scope": "The BB48R adds PSRAM and microSD. Olimex publishes one extension-header drawing for both variants.",
+      "source": "https://www.olimex.com/Products/RaspberryPi/PICO/RP2350-PICO2-BB48/open-source-hardware",
+      "sources": [
+        "https://www.olimex.com/Products/RaspberryPi/PICO/RP2350-PICO2-BB48/open-source-hardware",
+        "https://olimex.wordpress.com/2025/09/22/new-rp2350-pico2-open-source-hardware-development-board-with-all-48-gpios-exposed-in-breadboard-friendly-layout/"
+      ]
+    },
+    {
+      "id": "olimex-rp2350-pico2-xxl-rev-b",
+      "name": "RP2350-PICO2-XXL Rev B",
+      "brand": "Olimex",
+      "kind": "board",
+      "physicalPinouts": 1,
+      "references": 1,
+      "launch": "Olimex introduced the XL and XXL on November 28, 2024. The drawing specifies XXL Rev B.",
+      "revision": "Hardware revision B on drawing",
+      "scope": "The manufacturer identifies both the XXL model and revision B in the drawing.",
+      "source": "https://github.com/OLIMEX/RP2350-PICO2-XXL",
+      "sources": [
+        "https://github.com/OLIMEX/RP2350-PICO2-XXL",
+        "https://olimex.wordpress.com/2024/11/28/pico2-xl-and-pico2-xxl-are-open-source-hardware-boards-with-rp2350b-and-offering-48-gpios-available-2-16mb-flash-0-8mb-psram-sd-card-usb-c-and-2a-3-3v-power-supply/"
+      ]
+    },
+    {
+      "id": "embeetle-tiny-scarab-v0-2",
+      "name": "Tiny Scarab v0.2",
+      "brand": "Embeetle",
+      "kind": "board",
+      "physicalPinouts": 2,
+      "references": 2,
+      "launch": "Previously documented board. Hardware launch date unverified.",
+      "revision": "tiny-scarab-v0.2 on both drawings",
+      "scope": "The board has a target MCU and a separate onboard debug probe. Match the target header names to the v0.2 marking.",
+      "source": "https://github.com/Embeetle/tiny-scarab",
+      "sources": [
+        "https://github.com/Embeetle/tiny-scarab",
+        "https://github.com/Embeetle/tiny-scarab/blob/8286a41d26a00a9bdbb60e7d465b7f4a191a6934/documentation/readme_pinout_and_features.md"
+      ]
+    },
+    {
+      "id": "wavtron-tinker-5-v1-0",
+      "name": "Tinker 5",
+      "brand": "Wavtron",
+      "kind": "board",
+      "physicalPinouts": 0,
+      "references": 0,
+      "launch": "Published hardware documentation. Hardware launch date unverified.",
+      "revision": "Version 1.0 printed on diagram",
+      "scope": "The manufacturer specifies 5 V at the four-pin I²C connector. Check the peripheral voltage before connecting.",
+      "source": "https://github.com/wavtrontec/Wavtron-Tinker5",
+      "sources": [
+        "https://github.com/wavtrontec/Wavtron-Tinker5"
+      ]
+    },
+    {
+      "id": "flipper-devices-flipper-one",
+      "name": "Flipper One",
+      "brand": "Flipper Devices",
+      "kind": "board",
+      "physicalPinouts": 0,
+      "references": 0,
+      "launch": "Flipper publicly introduced the project on May 21, 2026. Hardware specifications are still under development.",
+      "revision": "Pre-production documentation, PCB revision unspecified",
+      "scope": "The external GPIO header and the debug connector have separate layouts. These drawings describe the development hardware.",
+      "source": "https://docs.flipper.net/one/general/tech-specs",
+      "sources": [
+        "https://docs.flipper.net/one/general/tech-specs",
+        "https://blog.flipper.net/flipper-one-we-need-your-help/",
+        "https://github.com/flipperdevices/flipperone-docs/blob/5c84c1b10cdda67c16d3674e4055aec8a181a9a6/docs/general/Tech-Specs.md"
+      ]
+    },
+    {
+      "id": "texas-instruments-lp-em-cc2341r10",
+      "name": "LP-EM-CC2341R10 LaunchPad",
+      "brand": "Texas Instruments",
+      "kind": "board",
+      "physicalPinouts": 0,
+      "references": 0,
+      "launch": "TI published user guide SLVUEC6 in November 2026. Retail launch date unverified.",
+      "revision": "User guide SLVUEC6, November 2026. PCB revision unspecified.",
+      "scope": "Figure 2-4 covers the two BoosterPack header pairs. The guide documents the XDS110 connector separately.",
+      "source": "https://www.ti.com/document-viewer/lit/html/SLVUEC6/GUID-B99622D1-8ECF-4FB7-A228-83BC5C94ED02",
+      "sources": [
+        "https://www.ti.com/document-viewer/lit/html/SLVUEC6/GUID-B99622D1-8ECF-4FB7-A228-83BC5C94ED02",
+        "https://www.ti.com/lit/ug/slvuec6/slvuec6.pdf"
+      ]
+    },
+    {
+      "id": "lilygo-t-can485-c5",
+      "name": "T-CAN485 C5",
+      "brand": "LILYGO",
+      "kind": "board",
+      "physicalPinouts": 0,
+      "references": 0,
+      "launch": "Manufacturer store listing published 2026-11-17 (store publication date).",
+      "revision": "V1.0 on the board photographed in the product gallery",
+      "scope": "The board-oriented diagram labels the digital and analog inputs, CAN, RS485, Qwiic and onboard peripherals. Confirm terminal polarity against the board silkscreen.",
+      "source": "https://lilygo.cc/products/t-can485-c5",
+      "sources": [
+        "https://lilygo.cc/products/t-can485-c5",
+        "https://lilygo.cc/products/t-can485-c5.json",
+        "https://github.com/Xinyuan-LilyGO/T-CAN485-C5"
+      ]
+    },
+    {
+      "id": "lilygo-t-display-cm0",
+      "name": "T-Display CM0",
+      "brand": "LILYGO",
+      "kind": "board",
+      "physicalPinouts": 0,
+      "references": 0,
+      "launch": "Manufacturer store listing published 2026-11-16 (store publication date).",
+      "revision": "Not identified",
+      "scope": "The external connector drawing shows the keyboard expansion port, 3 x 8 and Qwiic connections. A second drawing lists internal peripheral signals and optional LoRa connections.",
+      "source": "https://lilygo.cc/products/t-display-cm0",
+      "sources": [
+        "https://lilygo.cc/products/t-display-cm0",
+        "https://lilygo.cc/products/t-display-cm0.json",
+        "https://github.com/Xinyuan-LilyGO/lilygo-linux-dtoverlays/tree/master/boards/T-DisplayCM0"
+      ]
+    },
+    {
+      "id": "lilygo-t-beam-1w2",
+      "name": "T-Beam 1W2",
+      "brand": "LILYGO",
+      "kind": "board",
+      "physicalPinouts": 0,
+      "references": 0,
+      "launch": "Manufacturer store listing published 2026-11-23 (store publication date).",
+      "revision": "1W2 radio variant. PCB revision not identified.",
+      "scope": "The combined 1W1 and 1W2 diagram identifies the 1W2 LR2021 radio, GPS and TF-card GPIO assignments. The expansion header has no pin-by-pin callouts.",
+      "source": "https://lilygo.cc/products/t-beam-1w2",
+      "sources": [
+        "https://lilygo.cc/products/t-beam-1w2",
+        "https://lilygo.cc/products/t-beam-1w2.json",
+        "https://github.com/Xinyuan-LilyGO/LilyGo-LoRa-Series"
+      ]
+    },
+    {
+      "id": "lilygo-t5-e-paper-basic",
+      "name": "T5 e-Paper Basic",
+      "brand": "LILYGO",
+      "kind": "board",
+      "physicalPinouts": 0,
+      "references": 0,
+      "launch": "Manufacturer store listing published 2026-10-16 (store publication date).",
+      "revision": "Not identified",
+      "scope": "The manufacturer identifies the 4.7-inch Basic device and maps the display bus, TF card, I2C devices and buttons. External connector coverage is partial.",
+      "source": "https://lilygo.cc/products/t5-e-paper-basic",
+      "sources": [
+        "https://lilygo.cc/products/t5-e-paper-basic",
+        "https://lilygo.cc/products/t5-e-paper-basic.json",
+        "https://github.com/Xinyuan-LilyGO/T5-E-Paper-Basic"
+      ]
+    },
+    {
+      "id": "waveshare-esp32-s31-touch-lcd-4-3c",
+      "name": "ESP32-S31-Touch-LCD-4.3C",
+      "brand": "Waveshare",
+      "kind": "board",
+      "physicalPinouts": 0,
+      "references": 0,
+      "launch": "Exact hardware launch date unknown. Manufacturer documentation names factory firmware dated 2026-10-30.",
+      "revision": "ESP32-S31-WROOM-3-N16R16 version, bare board SKU 36107. PCB revision not identified.",
+      "scope": "The rear-view board drawing maps the 16-position H4 terminal to power, I2C, CAN, RS485 and GPIO48 through GPIO53. The manufacturer also lists H4 and J3 pin numbers. GPIO48 through GPIO53 use native 3.3 V logic. The S3 version has different connections.",
+      "source": "https://docs.waveshare.com/ESP32-S31-Touch-LCD-4.3C/",
+      "sources": [
+        "https://docs.waveshare.com/ESP32-S31-Touch-LCD-4.3C/",
+        "https://docs.waveshare.com/ESP32-S31-Touch-LCD-4.3C/Firmware-Flashing/",
+        "https://github.com/waveshareteam/ESP32-S31-Touch-LCD-4.3C"
+      ]
+    },
+    {
+      "id": "arduino-nano-xl-link",
+      "name": "Nano XL Link",
+      "brand": "Arduino",
+      "kind": "board",
+      "physicalPinouts": 1,
+      "references": 2,
+      "launch": "2026-11-10 (announcement; no shipping date verified)",
+      "revision": "SKU ABX00182. The full pinout is dated October 16, 2026.",
+      "scope": "Physical layout of the two extended Nano header rows and Qwiic connector with pin functions. Arduino announced the hardware on November 10. Its product landing page links to the technical documentation.",
+      "source": "https://docs.arduino.cc/hardware/nano-xl-link/",
+      "sources": [
+        "https://docs.arduino.cc/hardware/nano-xl-link/",
+        "https://blog.arduino.cc/2026/11/10/just-announced-at-electronica-the-arduino-nano-family-is-now-xl/",
+        "https://docs.arduino.cc/resources/datasheets/ABX00182-datasheet.pdf",
+        "https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md"
+      ]
+    },
+    {
+      "id": "arduino-nano-xl-connector-carrier",
+      "name": "Nano XL Link Connector Carrier",
+      "brand": "Arduino",
+      "kind": "board",
+      "physicalPinouts": 1,
+      "references": 2,
+      "launch": "2026-11-10 (announcement; no shipping date verified)",
+      "revision": "SKU ASX00090. The carrier pinout is dated November 9, 2026.",
+      "scope": "Carrier connector layout, screw-terminal pin assignments, Wi-Fi expansion header, debug and breakout headers. Arduino announced the hardware on November 10. Its product landing page links to the technical documentation.",
+      "source": "https://docs.arduino.cc/hardware/nano-xl-connector-carrier/",
+      "sources": [
+        "https://docs.arduino.cc/hardware/nano-xl-connector-carrier/",
+        "https://blog.arduino.cc/2026/11/10/just-announced-at-electronica-the-arduino-nano-family-is-now-xl/",
+        "https://docs.arduino.cc/resources/datasheets/ASX00090-datasheet.pdf",
+        "https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md"
+      ]
+    },
+    {
+      "id": "arduino-modulino-motors",
+      "name": "Modulino Motors",
+      "brand": "Arduino",
+      "kind": "maker",
+      "physicalPinouts": 1,
+      "references": 1,
+      "launch": "2026-06-26 (available)",
+      "revision": "ABX00114 as shown by Arduino. PCB revision is unspecified.",
+      "scope": "Motor output terminals, motor supply, Qwiic-bus breakout and debug pads.",
+      "source": "https://docs.arduino.cc/hardware/modulino-motors/",
+      "sources": [
+        "https://docs.arduino.cc/hardware/modulino-motors/",
+        "https://blog.arduino.cc/2026/06/26/three-new-arduino-modulino-modules-are-here-bigger-ideas-now-come-with-zero-added-stress/",
+        "https://docs.arduino.cc/resources/datasheets/ABX00114-datasheet.pdf",
+        "https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md"
+      ]
+    },
+    {
+      "id": "arduino-modulino-hub",
+      "name": "Modulino Hub",
+      "brand": "Arduino",
+      "kind": "maker",
+      "physicalPinouts": 1,
+      "references": 1,
+      "launch": "2026-06-26 (available)",
+      "revision": "ABX00100 as shown by Arduino. PCB revision is unspecified.",
+      "scope": "Eight numbered downstream I2C connections, their data and clock pads, the upstream bus and power.",
+      "source": "https://docs.arduino.cc/hardware/modulino-hub/",
+      "sources": [
+        "https://docs.arduino.cc/hardware/modulino-hub/",
+        "https://blog.arduino.cc/2026/06/26/three-new-arduino-modulino-modules-are-here-bigger-ideas-now-come-with-zero-added-stress/",
+        "https://docs.arduino.cc/resources/datasheets/ABX00100-datasheet.pdf",
+        "https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md"
+      ]
+    },
+    {
+      "id": "arduino-modulino-extender",
+      "name": "Modulino Extender",
+      "brand": "Arduino",
+      "kind": "maker",
+      "physicalPinouts": 1,
+      "references": 1,
+      "launch": "2026-06-26 (available)",
+      "revision": "ABX00174 as shown by Arduino. PCB revision is unspecified.",
+      "scope": "Physical pads for the I2C bus, power and enable signal on the extender.",
+      "source": "https://docs.arduino.cc/hardware/modulino-extender/",
+      "sources": [
+        "https://docs.arduino.cc/hardware/modulino-extender/",
+        "https://blog.arduino.cc/2026/06/26/three-new-arduino-modulino-modules-are-here-bigger-ideas-now-come-with-zero-added-stress/",
+        "https://docs.arduino.cc/resources/datasheets/ABX00174-datasheet.pdf",
+        "https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md"
+      ]
+    },
+    {
+      "id": "arduino-modulino-matrix",
+      "name": "Modulino LED Matrix",
+      "brand": "Arduino",
+      "kind": "maker",
+      "physicalPinouts": 1,
+      "references": 1,
+      "launch": "2026-03-27 (available)",
+      "revision": "ABX00152 as shown by Arduino. PCB revision is unspecified.",
+      "scope": "Debug and reset pads, power and I2C adjacent to the 8-by-12 LED matrix.",
+      "source": "https://docs.arduino.cc/hardware/modulino-matrix/",
+      "sources": [
+        "https://docs.arduino.cc/hardware/modulino-matrix/",
+        "https://blog.arduino.cc/2026/03/27/we-just-announced-seven-new-products-ready-to-expand-your-arduino-uno-q-board/",
+        "https://docs.arduino.cc/resources/datasheets/ABX00152-datasheet.pdf",
+        "https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md"
+      ]
+    },
+    {
+      "id": "arduino-modulino-joystick",
+      "name": "Modulino Joystick",
+      "brand": "Arduino",
+      "kind": "maker",
+      "physicalPinouts": 1,
+      "references": 1,
+      "launch": "2025-12-03 (available)",
+      "revision": "ABX00135 as shown by Arduino. PCB revision is unspecified.",
+      "scope": "Joystick axis and switch signals, reset, SWD, serial, power and I2C pads.",
+      "source": "https://docs.arduino.cc/hardware/modulino-joystick/",
+      "sources": [
+        "https://docs.arduino.cc/hardware/modulino-joystick/",
+        "https://blog.arduino.cc/2025/12/03/more-ways-to-prototype-faster-four-new-arduino-modulino-are-now-available/",
+        "https://docs.arduino.cc/resources/datasheets/ABX00135-datasheet.pdf",
+        "https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md"
+      ]
+    },
+    {
+      "id": "arduino-modulino-latch",
+      "name": "Modulino Latch Relay",
+      "brand": "Arduino",
+      "kind": "maker",
+      "physicalPinouts": 1,
+      "references": 1,
+      "launch": "2025-12-03 (available)",
+      "revision": "ABX00138 as shown by Arduino. PCB revision is unspecified.",
+      "scope": "Relay control, debug, Qwiic bus and power pads beside the latching relay.",
+      "source": "https://docs.arduino.cc/hardware/modulino-latch/",
+      "sources": [
+        "https://docs.arduino.cc/hardware/modulino-latch/",
+        "https://blog.arduino.cc/2025/12/03/more-ways-to-prototype-faster-four-new-arduino-modulino-are-now-available/",
+        "https://docs.arduino.cc/resources/datasheets/ABX00138-datasheet.pdf",
+        "https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md"
+      ]
+    },
+    {
+      "id": "arduino-modulino-light",
+      "name": "Modulino Light",
+      "brand": "Arduino",
+      "kind": "maker",
+      "physicalPinouts": 1,
+      "references": 1,
+      "launch": "2025-12-03 (available)",
+      "revision": "ABX00111 as shown by Arduino. PCB revision is unspecified.",
+      "scope": "Light sensor interrupt, power and I2C pads.",
+      "source": "https://docs.arduino.cc/hardware/modulino-light/",
+      "sources": [
+        "https://docs.arduino.cc/hardware/modulino-light/",
+        "https://blog.arduino.cc/2025/12/03/more-ways-to-prototype-faster-four-new-arduino-modulino-are-now-available/",
+        "https://docs.arduino.cc/resources/datasheets/ABX00111-datasheet.pdf",
+        "https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md"
+      ]
+    },
+    {
+      "id": "arduino-modulino-vibro",
+      "name": "Modulino Vibro",
+      "brand": "Arduino",
+      "kind": "maker",
+      "physicalPinouts": 1,
+      "references": 1,
+      "launch": "2025-12-03 (available)",
+      "revision": "ABX00130 as shown by Arduino. PCB revision is unspecified.",
+      "scope": "Haptic control, reset, serial, SWD and I2C pad locations.",
+      "source": "https://docs.arduino.cc/hardware/modulino-vibro/",
+      "sources": [
+        "https://docs.arduino.cc/hardware/modulino-vibro/",
+        "https://blog.arduino.cc/2025/12/03/more-ways-to-prototype-faster-four-new-arduino-modulino-are-now-available/",
+        "https://docs.arduino.cc/resources/datasheets/ABX00130-datasheet.pdf",
+        "https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md"
+      ]
+    },
+    {
+      "id": "arduino-modulino-buttons",
+      "name": "Modulino Buttons",
+      "brand": "Arduino",
+      "kind": "maker",
+      "physicalPinouts": 1,
+      "references": 1,
+      "launch": "2024-07-11 (original kit announcement)",
+      "revision": "ABX00110 as shown by Arduino. PCB revision is unspecified.",
+      "scope": "Button signals, serial, SWD, reset, power and I2C pads.",
+      "source": "https://docs.arduino.cc/hardware/modulino-buttons/",
+      "sources": [
+        "https://docs.arduino.cc/hardware/modulino-buttons/",
+        "https://blog.arduino.cc/2024/07/11/kickstart-your-tech-journey-with-the-new-arduino-plug-and-make-kit/",
+        "https://docs.arduino.cc/resources/datasheets/ABX00110-datasheet.pdf",
+        "https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md"
+      ]
+    },
+    {
+      "id": "arduino-modulino-buzzer",
+      "name": "Modulino Buzzer",
+      "brand": "Arduino",
+      "kind": "maker",
+      "physicalPinouts": 1,
+      "references": 1,
+      "launch": "2024-07-11 (original kit announcement)",
+      "revision": "ABX00108 as shown by Arduino. PCB revision is unspecified.",
+      "scope": "Piezo control, serial, SWD, reset, power and I2C pads.",
+      "source": "https://docs.arduino.cc/hardware/modulino-buzzer/",
+      "sources": [
+        "https://docs.arduino.cc/hardware/modulino-buzzer/",
+        "https://blog.arduino.cc/2024/07/11/kickstart-your-tech-journey-with-the-new-arduino-plug-and-make-kit/",
+        "https://docs.arduino.cc/resources/datasheets/ABX00108-datasheet.pdf",
+        "https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md"
+      ]
+    },
+    {
+      "id": "arduino-modulino-knob",
+      "name": "Modulino Knob",
+      "brand": "Arduino",
+      "kind": "maker",
+      "physicalPinouts": 1,
+      "references": 1,
+      "launch": "2024-07-11 (original kit announcement)",
+      "revision": "ABX00107 as shown by Arduino. PCB revision is unspecified.",
+      "scope": "Rotary encoder phases and button, debug, serial, power and I2C pads.",
+      "source": "https://docs.arduino.cc/hardware/modulino-knob/",
+      "sources": [
+        "https://docs.arduino.cc/hardware/modulino-knob/",
+        "https://blog.arduino.cc/2024/07/11/kickstart-your-tech-journey-with-the-new-arduino-plug-and-make-kit/",
+        "https://docs.arduino.cc/resources/datasheets/ABX00107-datasheet.pdf",
+        "https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md"
+      ]
+    },
+    {
+      "id": "arduino-modulino-movement",
+      "name": "Modulino Movement",
+      "brand": "Arduino",
+      "kind": "maker",
+      "physicalPinouts": 1,
+      "references": 1,
+      "launch": "2024-07-11 (original kit announcement)",
+      "revision": "ABX00101 as shown by Arduino. PCB revision is unspecified.",
+      "scope": "IMU interrupt, auxiliary, serial-interface and I2C pads. Arduino flags two silkscreen labels on early batches in the diagram.",
+      "source": "https://docs.arduino.cc/hardware/modulino-movement/",
+      "sources": [
+        "https://docs.arduino.cc/hardware/modulino-movement/",
+        "https://blog.arduino.cc/2024/07/11/kickstart-your-tech-journey-with-the-new-arduino-plug-and-make-kit/",
+        "https://docs.arduino.cc/resources/datasheets/ABX00101-datasheet.pdf",
+        "https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md"
+      ]
+    },
+    {
+      "id": "arduino-modulino-distance",
+      "name": "Modulino Distance",
+      "brand": "Arduino",
+      "kind": "maker",
+      "physicalPinouts": 1,
+      "references": 1,
+      "launch": "2024-07-11 (original kit announcement)",
+      "revision": "ABX00102 as shown by Arduino. PCB revision is unspecified.",
+      "scope": "Sensor shutdown and interrupt pads, power and I2C.",
+      "source": "https://docs.arduino.cc/hardware/modulino-distance/",
+      "sources": [
+        "https://docs.arduino.cc/hardware/modulino-distance/",
+        "https://blog.arduino.cc/2024/07/11/kickstart-your-tech-journey-with-the-new-arduino-plug-and-make-kit/",
+        "https://docs.arduino.cc/resources/datasheets/ABX00102-datasheet.pdf",
+        "https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md"
+      ]
+    },
+    {
+      "id": "arduino-modulino-pixels",
+      "name": "Modulino Pixels",
+      "brand": "Arduino",
+      "kind": "maker",
+      "physicalPinouts": 1,
+      "references": 1,
+      "launch": "2024-07-11 (original kit announcement)",
+      "revision": "ABX00109 as shown by Arduino. PCB revision is unspecified.",
+      "scope": "Pixel data and clock, serial, SWD, reset, power and I2C pads.",
+      "source": "https://docs.arduino.cc/hardware/modulino-pixels/",
+      "sources": [
+        "https://docs.arduino.cc/hardware/modulino-pixels/",
+        "https://blog.arduino.cc/2024/07/11/kickstart-your-tech-journey-with-the-new-arduino-plug-and-make-kit/",
+        "https://docs.arduino.cc/resources/datasheets/ABX00109-datasheet.pdf",
+        "https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md"
+      ]
+    },
+    {
+      "id": "arduino-modulino-thermo",
+      "name": "Modulino Thermo",
+      "brand": "Arduino",
+      "kind": "maker",
+      "physicalPinouts": 2,
+      "references": 2,
+      "launch": "2024-07-11 (original kit announcement)",
+      "revision": "ABX00103 earlier than V0.5 (HS3003) or marked V0.5 and later (GXHT30C).",
+      "scope": "Earlier boards use HS3003. Boards marked V0.5 or later use GXHT30C. Match the sensor and the marking before selecting a diagram.",
+      "source": "https://docs.arduino.cc/hardware/modulino-thermo/",
+      "sources": [
+        "https://docs.arduino.cc/hardware/modulino-thermo/",
+        "https://blog.arduino.cc/2024/07/11/kickstart-your-tech-journey-with-the-new-arduino-plug-and-make-kit/",
+        "https://docs.arduino.cc/resources/datasheets/ABX00103-datasheet.pdf",
+        "https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md"
+      ]
+    },
+    {
+      "id": "pimoroni-interstate-75-w-rp2350",
+      "name": "Interstate 75 W (RP2350)",
+      "brand": "Pimoroni",
+      "kind": "board",
+      "physicalPinouts": 0,
+      "references": 0,
+      "launch": "unknown",
+      "revision": "PIM727 with RP2350A and an RM2 radio. Earlier Pico W Aboard hardware has a different schematic.",
+      "scope": "The printable diagram maps the HUB75 header, bottom-edge expansion pads, Qw/ST connector, debug pins, buttons and RGB LED.",
+      "source": "https://shop.pimoroni.com/en-us/products/interstate-75-w",
+      "sources": [
+        "https://shop.pimoroni.com/en-us/products/interstate-75-w",
+        "https://cdn.shopify.com/s/files/1/0174/1800/files/Pimoroni_Interstate_75_RP2350_Schematic.pdf?v=1734542569"
+      ]
+    },
+    {
+      "id": "seeed-studio-xiao-nrf54l15-v1-2",
+      "name": "XIAO nRF54L15 V1.2",
+      "brand": "Seeed Studio",
+      "kind": "board",
+      "physicalPinouts": 1,
+      "references": 1,
+      "launch": "Exact hardware launch date unknown. Seeed documented the revised rear pinout in its November 16, 2026 weekly update.",
+      "revision": "V1.2 (rear PCB silkscreen)",
+      "scope": "Identify V1.2 by the rear PCB silkscreen. The 3V3, RST2, SWCLK2 and SWDIO2 rear pads moved. The side headers retain the earlier layout. Seeed uses the same rear pinout artwork for both variants. Dedicated V1.2 front artwork is pending manufacturer approval.",
+      "source": "https://wiki.seeedstudio.com/xiao_nrf54l15_sense_getting_started/",
+      "sources": [
+        "https://wiki.seeedstudio.com/xiao_nrf54l15_sense_getting_started/",
+        "https://wiki.seeedstudio.com/Seeed_Elderly/weekly_wiki/2026/wiki261116/",
+        "https://wiki.seeedstudio.com/License/"
+      ]
+    },
+    {
+      "id": "seeed-studio-xiao-nrf54l15-sense-v1-2",
+      "name": "XIAO nRF54L15 Sense V1.2",
+      "brand": "Seeed Studio",
+      "kind": "board",
+      "physicalPinouts": 1,
+      "references": 1,
+      "launch": "Exact hardware launch date unknown. Seeed documented the revised rear pinout in its November 16, 2026 weekly update.",
+      "revision": "V1.2 (rear PCB silkscreen)",
+      "scope": "Identify V1.2 by the rear PCB silkscreen. The 3V3, RST2, SWCLK2 and SWDIO2 rear pads moved. The side headers retain the earlier layout. Seeed uses the same rear pinout artwork for both variants. Dedicated V1.2 front artwork is pending manufacturer approval.",
+      "source": "https://wiki.seeedstudio.com/xiao_nrf54l15_sense_getting_started/",
+      "sources": [
+        "https://wiki.seeedstudio.com/xiao_nrf54l15_sense_getting_started/",
+        "https://wiki.seeedstudio.com/Seeed_Elderly/weekly_wiki/2026/wiki261116/",
+        "https://wiki.seeedstudio.com/License/"
+      ]
+    },
+    {
+      "id": "soldered-nula-mini-esp32-c6",
+      "name": "NULA Mini ESP32-C6",
+      "brand": "Soldered",
+      "kind": "board",
+      "physicalPinouts": 1,
+      "references": 1,
+      "launch": "Manufacturer dates the Mini, Max and DeepSleep family introduction to 2025. Exact model release date unknown.",
+      "revision": "Pinout sheet v1.2.0; hardware revision not independently identified.",
+      "scope": "Header GPIO and alternate functions, power and battery connector.",
+      "source": "https://docs.soldered.com/nula-mini-esp32-c6/hardware/",
+      "sources": [
+        "https://docs.soldered.com/nula-mini-esp32-c6/hardware/",
+        "https://soldered.com/pages/about"
+      ]
+    },
+    {
+      "id": "soldered-nula-max-rp2350",
+      "name": "NULA Max RP2350",
+      "brand": "Soldered",
+      "kind": "board",
+      "physicalPinouts": 1,
+      "references": 1,
+      "launch": "Manufacturer dates the Mini, Max and DeepSleep family introduction to 2025. Exact model release date unknown.",
+      "revision": "Pinout sheet v1.2.0; hardware revision not independently identified.",
+      "scope": "Separate diagrams for female connectors on solder pads and header pin holes.",
+      "source": "https://docs.soldered.com/nula-max-rp2350/hardware/",
+      "sources": [
+        "https://docs.soldered.com/nula-max-rp2350/hardware/",
+        "https://soldered.com/pages/about"
+      ]
+    },
+    {
+      "id": "soldered-nula-deepsleep-esp32-s3",
+      "name": "NULA DeepSleep ESP32-S3",
+      "brand": "Soldered",
+      "kind": "board",
+      "physicalPinouts": 1,
+      "references": 1,
+      "launch": "Manufacturer dates the Mini, Max and DeepSleep family introduction to 2025. Exact model release date unknown.",
+      "revision": "Pinout sheet v1.0.0; hardware revision not independently identified.",
+      "scope": "GPIO lines, communication functions, control pins and power connections.",
+      "source": "https://docs.soldered.com/nula-deepsleep-esp32-s3/hardware-details/",
+      "sources": [
+        "https://docs.soldered.com/nula-deepsleep-esp32-s3/hardware-details/",
+        "https://soldered.com/pages/about"
+      ]
+    },
+    {
+      "id": "soldered-nula-ethernet-w55rp20",
+      "name": "NULA Ethernet W55RP20",
+      "brand": "Soldered",
+      "kind": "board",
+      "physicalPinouts": 1,
+      "references": 1,
+      "launch": "Listed in manufacturer new arrivals. Exact launch date unknown.",
+      "revision": "Pinout sheet v1.0; hardware revision not independently identified.",
+      "scope": "Physical header locations, I2C, SPI, UART, PWM, ADC, power pins and jumpers.",
+      "source": "https://docs.soldered.com/nula_w55rp20/hardware/",
+      "sources": [
+        "https://docs.soldered.com/nula_w55rp20/hardware/",
+        "https://soldered.com/collections/new-arrivals-staro/products/soldered-nula-ethernet-w55rp20"
+      ]
+    },
+    {
+      "id": "soldered-nula-node-rp2040",
+      "name": "NULA Node RP2040",
+      "brand": "Soldered",
+      "kind": "board",
+      "physicalPinouts": 1,
+      "references": 1,
+      "launch": "Manufacturer product listing and pinout available. Store marked coming soon on the review date; shipping and launch date unconfirmed.",
+      "revision": "Pinout sheet v1.0.0; hardware revision not independently identified.",
+      "scope": "Both 15-pin headers, GPIO alternate functions, SWD and power connections. SKU 333409 has unsoldered headers and SKU 333410 has soldered headers.",
+      "source": "https://docs2.soldered.com/products/soldered-nula-node-rp2040/hardware",
+      "sources": [
+        "https://docs2.soldered.com/products/soldered-nula-node-rp2040/hardware",
+        "https://soldered.com/products/nula-node"
+      ]
+    },
+    {
+      "id": "m5stack-unit-4encodermotor-driver-u233",
+      "name": "Unit 4EncoderMotor Driver (U233)",
+      "brand": "M5Stack",
+      "kind": "maker",
+      "physicalPinouts": 0,
+      "references": 0,
+      "launch": "November 13, 2026, per M5Stack release history.",
+      "revision": "Manufacturer SKU U233; PCB revision unspecified.",
+      "scope": "External motor, encoder and power connectors. The two Grove connectors are described in the separate HY2.0-4P table.",
+      "source": "https://docs.m5stack.com/en/unit/Unit_4EncoderMotor_Driver",
+      "sources": [
+        "https://docs.m5stack.com/en/unit/Unit_4EncoderMotor_Driver",
+        "https://docs.m5stack.com/en/history"
+      ]
+    },
+    {
+      "id": "dfrobot-edge101-4g-cat1-dfr1283",
+      "name": "EDGE101 4G CAT1 Programmable Controller (DFR1283)",
+      "brand": "DFRobot",
+      "kind": "board",
+      "physicalPinouts": 0,
+      "references": 0,
+      "launch": "Exact launch date unknown. Manufacturer has published the controller and its GPIO expansion diagram.",
+      "revision": "Manufacturer SKU DFR1283; PCB revision unspecified.",
+      "scope": "Physical order of the 40-pin GPIO expansion interface only. The companion pin table identifies the GPIO numbers and input-only pins.",
+      "source": "https://wiki.dfrobot.com/dfr1283/docs/24760",
+      "sources": [
+        "https://wiki.dfrobot.com/dfr1283/docs/24760",
+        "https://wiki.dfrobot.com/dfr1283/"
+      ]
+    },
+    {
+      "id": "dfrobot-gravity-sfa40-sen0661",
+      "name": "Gravity SFA40 Formaldehyde Sensor (SEN0661)",
+      "brand": "DFRobot",
+      "kind": "maker",
+      "physicalPinouts": 0,
+      "references": 0,
+      "launch": "DFRobot and Sensirion published the joint launch announcement November 12, 2026.",
+      "revision": "Manufacturer SKU SEN0661; PCB revision unspecified.",
+      "scope": "The connection-side PCB view maps all four Gravity pins to VCC, GND, SCL, and SDA. This sensor exposes I2C.",
+      "source": "https://wiki.dfrobot.com/sen0661/",
+      "sources": [
+        "https://wiki.dfrobot.com/sen0661/",
+        "https://www.dfrobot.com/blog-22659.html"
+      ]
+    },
+    {
+      "id": "seeed-studio-other-xiao-nrf54l15",
+      "name": "XIAO nRF54L15",
+      "brand": "Seeed Studio",
+      "kind": "existing-board-update",
+      "physicalPinouts": 0,
+      "references": 0,
+      "launch": "Earlier hardware",
+      "revision": "Prior to V1.2",
+      "scope": "Earlier hardware. V1.2 moves the 3V3, RST2, SWCLK2 and SWDIO2 rear pads. Use the separate V1.2 listing when the back of your PCB is marked v1.2.",
+      "source": "https://wiki.seeedstudio.com/xiao_nrf54l15_sense_getting_started/",
+      "sources": []
+    },
+    {
+      "id": "seeed-studio-other-xiao-nrf54l15-sense",
+      "name": "XIAO nRF54L15 Sense",
+      "brand": "Seeed Studio",
+      "kind": "existing-board-update",
+      "physicalPinouts": 0,
+      "references": 0,
+      "launch": "Earlier hardware",
+      "revision": "Prior to V1.2",
+      "scope": "Earlier hardware. V1.2 moves the 3V3, RST2, SWCLK2 and SWDIO2 rear pads. Use the separate V1.2 listing when the back of your PCB is marked v1.2.",
+      "source": "https://wiki.seeedstudio.com/xiao_nrf54l15_sense_getting_started/",
+      "sources": []
+    }
+  ],
+  "assets": [
+    {
+      "recordId": "olimex-rp2350-pico2-bb48",
+      "label": "EXT1, EXT2 and SWD header pinout",
+      "source": "https://raw.githubusercontent.com/OLIMEX/RP2350-PICO2-BB48/74b030363ca03eea5bfa6dac59cbcd9e4277e910/DOCUMENTS/RP2350-PICO2-BB48-pinout.png",
+      "sourcePage": "https://www.olimex.com/Products/RaspberryPi/PICO/RP2350-PICO2-BB48/open-source-hardware",
+      "sha256": "0b625415d4eb09481c35a9f9a777db410f4c9d8ce95133e644019edb701f8378",
+      "rights": "Copyright (c) 2025 OLIMEX LTD BULGARIA. MIT license for associated documentation. Original PNG unchanged. https://github.com/OLIMEX/RP2350-PICO2-BB48/blob/74b030363ca03eea5bfa6dac59cbcd9e4277e910/LICENSE",
+      "revision": "Manufacturer BB48 family drawing. PCB revision unspecified.",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "USB-C at the top. Two 27-position edge headers and a three-position SWD header.",
+      "file": "media/0b625415d4eb09481c35a9f9a777db410f4c9d8ce95133e644019edb701f8378.png",
+      "type": "pinout image"
+    },
+    {
+      "recordId": "olimex-rp2350-pico2-bb48r",
+      "label": "EXT1, EXT2 and SWD header pinout",
+      "source": "https://raw.githubusercontent.com/OLIMEX/RP2350-PICO2-BB48/74b030363ca03eea5bfa6dac59cbcd9e4277e910/DOCUMENTS/RP2350-PICO2-BB48-pinout.png",
+      "sourcePage": "https://www.olimex.com/Products/RaspberryPi/PICO/RP2350-PICO2-BB48/open-source-hardware",
+      "sha256": "0b625415d4eb09481c35a9f9a777db410f4c9d8ce95133e644019edb701f8378",
+      "rights": "Copyright (c) 2025 OLIMEX LTD BULGARIA. MIT license for associated documentation. Original PNG unchanged. https://github.com/OLIMEX/RP2350-PICO2-BB48/blob/74b030363ca03eea5bfa6dac59cbcd9e4277e910/LICENSE",
+      "revision": "Manufacturer BB48 family drawing. PCB revision unspecified.",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "USB-C at the top. Two 27-position edge headers and a three-position SWD header.",
+      "file": "media/0b625415d4eb09481c35a9f9a777db410f4c9d8ce95133e644019edb701f8378.png",
+      "type": "pinout image"
+    },
+    {
+      "recordId": "olimex-rp2350-pico2-xxl-rev-b",
+      "label": "Rev B EXT1 and EXT2 pinout",
+      "source": "https://raw.githubusercontent.com/OLIMEX/RP2350-PICO2-XXL/a73c9253e8142eadf8e10bc8a2f13d502ec3fa4a/DOCUMENTS/Extensions-pinout.png",
+      "sourcePage": "https://github.com/OLIMEX/RP2350-PICO2-XXL",
+      "sha256": "17063ce1579544cb4cb6ff075ca1ccb7cf89c74050958ad6e6dc1d77145414e8",
+      "rights": "Olimex documentation, CC BY-SA 4.0. Original unchanged. https://creativecommons.org/licenses/by-sa/4.0/ https://github.com/OLIMEX/RP2350-PICO2-XXL/blob/a73c9253e8142eadf8e10bc8a2f13d502ec3fa4a/README.md",
+      "revision": "Hardware revision B on drawing",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "Top view with numbered 2×20 connectors.",
+      "file": "media/17063ce1579544cb4cb6ff075ca1ccb7cf89c74050958ad6e6dc1d77145414e8.png",
+      "type": "pinout image"
+    },
+    {
+      "recordId": "embeetle-tiny-scarab-v0-2",
+      "label": "Board GPIO headers and debug pads",
+      "source": "https://raw.githubusercontent.com/Embeetle/tiny-scarab/8286a41d26a00a9bdbb60e7d465b7f4a191a6934/documentation/website_figures/pinout_01.webp",
+      "sourcePage": "https://github.com/Embeetle/tiny-scarab",
+      "sha256": "9fb60c62556acbfe9c153f06e1f8d90511575357da58fe9de2a313f63f5baa96",
+      "rights": "Copyright (c) 2023 Embeetle. MIT license for associated documentation. Original unchanged. https://github.com/Embeetle/tiny-scarab/blob/8286a41d26a00a9bdbb60e7d465b7f4a191a6934/LICENSE",
+      "revision": "tiny-scarab-v0.2 on both drawings",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "Full board, USB-C at the top. Target MCU below the debug probe.",
+      "file": "media/9fb60c62556acbfe9c153f06e1f8d90511575357da58fe9de2a313f63f5baa96.webp",
+      "type": "pinout image"
+    },
+    {
+      "recordId": "embeetle-tiny-scarab-v0-2",
+      "label": "Target MCU header detail",
+      "source": "https://raw.githubusercontent.com/Embeetle/tiny-scarab/8286a41d26a00a9bdbb60e7d465b7f4a191a6934/documentation/website_figures/pinout_02.webp",
+      "sourcePage": "https://github.com/Embeetle/tiny-scarab",
+      "sha256": "c356959d595e444fad0bde9060174836a7781ad9b46cf70905f4717913aa25e2",
+      "rights": "Copyright (c) 2023 Embeetle. MIT license for associated documentation. Original unchanged. https://github.com/Embeetle/tiny-scarab/blob/8286a41d26a00a9bdbb60e7d465b7f4a191a6934/LICENSE",
+      "revision": "tiny-scarab-v0.2 on both drawings",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "Enlarged lower portion showing the two headers and the test pads.",
+      "file": "media/c356959d595e444fad0bde9060174836a7781ad9b46cf70905f4717913aa25e2.webp",
+      "type": "pinout image"
+    },
+    {
+      "recordId": "arduino-nano-xl-link",
+      "label": "Nano XL Link ABX00182 physical pinout",
+      "source": "https://raw.githubusercontent.com/arduino/docs-content/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/content/hardware/nano/boards/nano-xl-link/interactive/ABX00182-pinout.png",
+      "sourcePage": "https://docs.arduino.cc/hardware/nano-xl-link/",
+      "sha256": "348089c03c22bb4b15acaad5a8bce633d2d9ee19cca0404e661081e66b043315",
+      "rights": "Arduino Documentation, CC BY-SA 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Original diagram by Arduino, reproduced unchanged. Documentation licence: https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md",
+      "revision": "SKU ABX00182. The full pinout is dated October 16, 2026.",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "Physical layout of the two extended Nano header rows and Qwiic connector with pin functions.",
+      "file": "media/348089c03c22bb4b15acaad5a8bce633d2d9ee19cca0404e661081e66b043315.png",
+      "type": "pinout image"
+    },
+    {
+      "recordId": "arduino-nano-xl-link",
+      "label": "Nano XL Link ABX00182 printable pinout",
+      "source": "https://raw.githubusercontent.com/arduino/docs-content/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/content/hardware/nano/boards/nano-xl-link/downloads/ABX00182-full-pinout.pdf",
+      "sourcePage": "https://docs.arduino.cc/hardware/nano-xl-link/",
+      "sha256": "d9c914b2fdcdf8453524bab511b74c16525b184d2bc702e84ba3180adbd1f4db",
+      "rights": "Arduino, CC BY-SA 4.0 International. The October 16, 2026 full pinout carries this licence in its title block. Original PDF reproduced unchanged. https://creativecommons.org/licenses/by-sa/4.0/",
+      "revision": "SKU ABX00182. The full pinout is dated October 16, 2026.",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "Physical layout of the two extended Nano header rows and Qwiic connector with pin functions.",
+      "file": "media/d9c914b2fdcdf8453524bab511b74c16525b184d2bc702e84ba3180adbd1f4db.pdf",
+      "type": "reference PDF"
+    },
+    {
+      "recordId": "arduino-nano-xl-connector-carrier",
+      "label": "Nano XL Link Connector Carrier ASX00090 physical pinout",
+      "source": "https://raw.githubusercontent.com/arduino/docs-content/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/content/hardware/nano/carriers/nano-xl-connector-carrier/interactive/ASX00090-pinout.png",
+      "sourcePage": "https://docs.arduino.cc/hardware/nano-xl-connector-carrier/",
+      "sha256": "689c0d8fb23c9c3ea162da59e2f2f96fe6915b1b642298408befad997118a592",
+      "rights": "Arduino Documentation, CC BY-SA 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Original diagram by Arduino, reproduced unchanged. Documentation licence: https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md",
+      "revision": "SKU ASX00090. The carrier pinout is dated November 9, 2026.",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "Carrier connector layout, screw-terminal pin assignments, Wi-Fi expansion header, debug and breakout headers.",
+      "file": "media/689c0d8fb23c9c3ea162da59e2f2f96fe6915b1b642298408befad997118a592.png",
+      "type": "pinout image"
+    },
+    {
+      "recordId": "arduino-nano-xl-connector-carrier",
+      "label": "Nano XL Link Connector Carrier ASX00090 printable pinout",
+      "source": "https://raw.githubusercontent.com/arduino/docs-content/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/content/hardware/nano/carriers/nano-xl-connector-carrier/downloads/ASX00090-full-pinout.pdf",
+      "sourcePage": "https://docs.arduino.cc/hardware/nano-xl-connector-carrier/",
+      "sha256": "6cc56a9434f5cbab7e154aa1b3add5b8f79bd42c96216504c94d3b295f1caf2f",
+      "rights": "Arduino Documentation, CC BY-SA 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Original diagram by Arduino, reproduced unchanged. Documentation licence: https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md",
+      "revision": "SKU ASX00090. The carrier pinout is dated November 9, 2026.",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "Carrier connector layout, screw-terminal pin assignments, Wi-Fi expansion header, debug and breakout headers.",
+      "file": "media/6cc56a9434f5cbab7e154aa1b3add5b8f79bd42c96216504c94d3b295f1caf2f.pdf",
+      "type": "reference PDF"
+    },
+    {
+      "recordId": "arduino-modulino-motors",
+      "label": "Modulino Motors ABX00114 physical pinout",
+      "source": "https://raw.githubusercontent.com/arduino/docs-content/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/content/hardware/modulino/modulino-nodes/modulino-motors/interactive/ABX00114-pinout.png",
+      "sourcePage": "https://docs.arduino.cc/hardware/modulino-motors/",
+      "sha256": "7b35b3770b384786444427cf55b6f64ccdc9032bd7b9ed89b337ba4e71b5490b",
+      "rights": "Arduino Documentation, CC BY-SA 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Original diagram by Arduino, reproduced unchanged. Documentation licence: https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md",
+      "revision": "ABX00114 as shown by Arduino. PCB revision is unspecified.",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "Motor output terminals, motor supply, Qwiic-bus breakout and debug pads.",
+      "file": "media/7b35b3770b384786444427cf55b6f64ccdc9032bd7b9ed89b337ba4e71b5490b.png",
+      "type": "pinout image"
+    },
+    {
+      "recordId": "arduino-modulino-hub",
+      "label": "Modulino Hub ABX00100 physical pinout",
+      "source": "https://raw.githubusercontent.com/arduino/docs-content/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/content/hardware/modulino/modulino-nodes/modulino-hub/interactive/ABX00100-pinout.png",
+      "sourcePage": "https://docs.arduino.cc/hardware/modulino-hub/",
+      "sha256": "5a0c90ea27122f36e20189f880137ea84810551d7d8c8d324c2fd2bbb61ddbe9",
+      "rights": "Arduino Documentation, CC BY-SA 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Original diagram by Arduino, reproduced unchanged. Documentation licence: https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md",
+      "revision": "ABX00100 as shown by Arduino. PCB revision is unspecified.",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "Eight numbered downstream I2C connections, their data and clock pads, the upstream bus and power.",
+      "file": "media/5a0c90ea27122f36e20189f880137ea84810551d7d8c8d324c2fd2bbb61ddbe9.png",
+      "type": "pinout image"
+    },
+    {
+      "recordId": "arduino-modulino-extender",
+      "label": "Modulino Extender ABX00174 physical pinout",
+      "source": "https://raw.githubusercontent.com/arduino/docs-content/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/content/hardware/modulino/modulino-nodes/modulino-extender/interactive/ABX00174-pinout.png",
+      "sourcePage": "https://docs.arduino.cc/hardware/modulino-extender/",
+      "sha256": "4d28034e86eff325f66ecf9db8ad3d70ee7f38211fb4efc473aa4c8249522189",
+      "rights": "Arduino Documentation, CC BY-SA 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Original diagram by Arduino, reproduced unchanged. Documentation licence: https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md",
+      "revision": "ABX00174 as shown by Arduino. PCB revision is unspecified.",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "Physical pads for the I2C bus, power and enable signal on the extender.",
+      "file": "media/4d28034e86eff325f66ecf9db8ad3d70ee7f38211fb4efc473aa4c8249522189.png",
+      "type": "pinout image"
+    },
+    {
+      "recordId": "arduino-modulino-matrix",
+      "label": "Modulino LED Matrix ABX00152 physical pinout",
+      "source": "https://raw.githubusercontent.com/arduino/docs-content/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/content/hardware/modulino/modulino-nodes/modulino-matrix/interactive/ABX00152-pinout.png",
+      "sourcePage": "https://docs.arduino.cc/hardware/modulino-matrix/",
+      "sha256": "a9e6116367a654af67c29911c18c6c92b433b74a536b0b3b2c8de03862c142fc",
+      "rights": "Arduino Documentation, CC BY-SA 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Original diagram by Arduino, reproduced unchanged. Documentation licence: https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md",
+      "revision": "ABX00152 as shown by Arduino. PCB revision is unspecified.",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "Debug and reset pads, power and I2C adjacent to the 8-by-12 LED matrix.",
+      "file": "media/a9e6116367a654af67c29911c18c6c92b433b74a536b0b3b2c8de03862c142fc.png",
+      "type": "pinout image"
+    },
+    {
+      "recordId": "arduino-modulino-joystick",
+      "label": "Modulino Joystick ABX00135 physical pinout",
+      "source": "https://raw.githubusercontent.com/arduino/docs-content/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/content/hardware/modulino/modulino-nodes/modulino-joystick/interactive/ABX00135-pinout.png",
+      "sourcePage": "https://docs.arduino.cc/hardware/modulino-joystick/",
+      "sha256": "4a32d11e296510d13b9deee70c9347b917c4c8489421d58601d4843e3f85c8a9",
+      "rights": "Arduino Documentation, CC BY-SA 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Original diagram by Arduino, reproduced unchanged. Documentation licence: https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md",
+      "revision": "ABX00135 as shown by Arduino. PCB revision is unspecified.",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "Joystick axis and switch signals, reset, SWD, serial, power and I2C pads.",
+      "file": "media/4a32d11e296510d13b9deee70c9347b917c4c8489421d58601d4843e3f85c8a9.png",
+      "type": "pinout image"
+    },
+    {
+      "recordId": "arduino-modulino-latch",
+      "label": "Modulino Latch Relay ABX00138 physical pinout",
+      "source": "https://raw.githubusercontent.com/arduino/docs-content/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/content/hardware/modulino/modulino-nodes/modulino-latch/interactive/ABX00138-pinout.png",
+      "sourcePage": "https://docs.arduino.cc/hardware/modulino-latch/",
+      "sha256": "36db74df3fb04cbf5e442d65d9ae52fc44fb9a38747aa66ab19d21a841bee04d",
+      "rights": "Arduino Documentation, CC BY-SA 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Original diagram by Arduino, reproduced unchanged. Documentation licence: https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md",
+      "revision": "ABX00138 as shown by Arduino. PCB revision is unspecified.",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "Relay control, debug, Qwiic bus and power pads beside the latching relay.",
+      "file": "media/36db74df3fb04cbf5e442d65d9ae52fc44fb9a38747aa66ab19d21a841bee04d.png",
+      "type": "pinout image"
+    },
+    {
+      "recordId": "arduino-modulino-light",
+      "label": "Modulino Light ABX00111 physical pinout",
+      "source": "https://raw.githubusercontent.com/arduino/docs-content/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/content/hardware/modulino/modulino-nodes/modulino-light/interactive/ABX00111-pinout.png",
+      "sourcePage": "https://docs.arduino.cc/hardware/modulino-light/",
+      "sha256": "3350df8db54f5ad940d7b78c83a3c7ba31fa74792aefc4231b4ae3a3f39afa68",
+      "rights": "Arduino Documentation, CC BY-SA 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Original diagram by Arduino, reproduced unchanged. Documentation licence: https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md",
+      "revision": "ABX00111 as shown by Arduino. PCB revision is unspecified.",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "Light sensor interrupt, power and I2C pads.",
+      "file": "media/3350df8db54f5ad940d7b78c83a3c7ba31fa74792aefc4231b4ae3a3f39afa68.png",
+      "type": "pinout image"
+    },
+    {
+      "recordId": "arduino-modulino-vibro",
+      "label": "Modulino Vibro ABX00130 physical pinout",
+      "source": "https://raw.githubusercontent.com/arduino/docs-content/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/content/hardware/modulino/modulino-nodes/modulino-vibro/interactive/ABX00130-pinout.png",
+      "sourcePage": "https://docs.arduino.cc/hardware/modulino-vibro/",
+      "sha256": "9a83678aa56de3ce9fce952b5829e231ef715193e36a1e35c5e97565480f4842",
+      "rights": "Arduino Documentation, CC BY-SA 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Original diagram by Arduino, reproduced unchanged. Documentation licence: https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md",
+      "revision": "ABX00130 as shown by Arduino. PCB revision is unspecified.",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "Haptic control, reset, serial, SWD and I2C pad locations.",
+      "file": "media/9a83678aa56de3ce9fce952b5829e231ef715193e36a1e35c5e97565480f4842.png",
+      "type": "pinout image"
+    },
+    {
+      "recordId": "arduino-modulino-buttons",
+      "label": "Modulino Buttons ABX00110 physical pinout",
+      "source": "https://raw.githubusercontent.com/arduino/docs-content/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/content/hardware/modulino/modulino-nodes/modulino-buttons/interactive/ABX00110-pinout.png",
+      "sourcePage": "https://docs.arduino.cc/hardware/modulino-buttons/",
+      "sha256": "67d87e4ebe70b00d7166b8496fb9305c0add1ab17fc60c3934dc3c5043a4ada4",
+      "rights": "Arduino Documentation, CC BY-SA 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Original diagram by Arduino, reproduced unchanged. Documentation licence: https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md",
+      "revision": "ABX00110 as shown by Arduino. PCB revision is unspecified.",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "Button signals, serial, SWD, reset, power and I2C pads.",
+      "file": "media/67d87e4ebe70b00d7166b8496fb9305c0add1ab17fc60c3934dc3c5043a4ada4.png",
+      "type": "pinout image"
+    },
+    {
+      "recordId": "arduino-modulino-buzzer",
+      "label": "Modulino Buzzer ABX00108 physical pinout",
+      "source": "https://raw.githubusercontent.com/arduino/docs-content/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/content/hardware/modulino/modulino-nodes/modulino-buzzer/interactive/ABX00108-pinout.png",
+      "sourcePage": "https://docs.arduino.cc/hardware/modulino-buzzer/",
+      "sha256": "0989de9c10ce81f515bd8f85a6347eff2497f6bfbde2ca25ede2b94b6157011f",
+      "rights": "Arduino Documentation, CC BY-SA 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Original diagram by Arduino, reproduced unchanged. Documentation licence: https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md",
+      "revision": "ABX00108 as shown by Arduino. PCB revision is unspecified.",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "Piezo control, serial, SWD, reset, power and I2C pads.",
+      "file": "media/0989de9c10ce81f515bd8f85a6347eff2497f6bfbde2ca25ede2b94b6157011f.png",
+      "type": "pinout image"
+    },
+    {
+      "recordId": "arduino-modulino-knob",
+      "label": "Modulino Knob ABX00107 physical pinout",
+      "source": "https://raw.githubusercontent.com/arduino/docs-content/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/content/hardware/modulino/modulino-nodes/modulino-knob/interactive/ABX00107-pinout.png",
+      "sourcePage": "https://docs.arduino.cc/hardware/modulino-knob/",
+      "sha256": "f08d6cd84b2734743e1e6f0fb1fe640ac0d30241aee8c61bde5626ff777911b9",
+      "rights": "Arduino Documentation, CC BY-SA 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Original diagram by Arduino, reproduced unchanged. Documentation licence: https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md",
+      "revision": "ABX00107 as shown by Arduino. PCB revision is unspecified.",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "Rotary encoder phases and button, debug, serial, power and I2C pads.",
+      "file": "media/f08d6cd84b2734743e1e6f0fb1fe640ac0d30241aee8c61bde5626ff777911b9.png",
+      "type": "pinout image"
+    },
+    {
+      "recordId": "arduino-modulino-movement",
+      "label": "Modulino Movement ABX00101 physical pinout",
+      "source": "https://raw.githubusercontent.com/arduino/docs-content/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/content/hardware/modulino/modulino-nodes/modulino-movement/interactive/ABX00101-pinout.png",
+      "sourcePage": "https://docs.arduino.cc/hardware/modulino-movement/",
+      "sha256": "123212129b3a13853dc259954c0008384b67519f6b302945919f2fcb04702b7c",
+      "rights": "Arduino Documentation, CC BY-SA 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Original diagram by Arduino, reproduced unchanged. Documentation licence: https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md",
+      "revision": "ABX00101 as shown by Arduino. PCB revision is unspecified.",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "IMU interrupt, auxiliary, serial-interface and I2C pads. Arduino flags two silkscreen labels on early batches in the diagram.",
+      "file": "media/123212129b3a13853dc259954c0008384b67519f6b302945919f2fcb04702b7c.png",
+      "type": "pinout image"
+    },
+    {
+      "recordId": "arduino-modulino-distance",
+      "label": "Modulino Distance ABX00102 physical pinout",
+      "source": "https://raw.githubusercontent.com/arduino/docs-content/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/content/hardware/modulino/modulino-nodes/modulino-distance/interactive/ABX00102-pinout.png",
+      "sourcePage": "https://docs.arduino.cc/hardware/modulino-distance/",
+      "sha256": "532918211499dc3b72e2afd3dc49c523a0ca1df73400cab7334fb82a3ad66e80",
+      "rights": "Arduino Documentation, CC BY-SA 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Original diagram by Arduino, reproduced unchanged. Documentation licence: https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md",
+      "revision": "ABX00102 as shown by Arduino. PCB revision is unspecified.",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "Sensor shutdown and interrupt pads, power and I2C.",
+      "file": "media/532918211499dc3b72e2afd3dc49c523a0ca1df73400cab7334fb82a3ad66e80.png",
+      "type": "pinout image"
+    },
+    {
+      "recordId": "arduino-modulino-pixels",
+      "label": "Modulino Pixels ABX00109 physical pinout",
+      "source": "https://raw.githubusercontent.com/arduino/docs-content/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/content/hardware/modulino/modulino-nodes/modulino-pixels/interactive/ABX00109-pinout.png",
+      "sourcePage": "https://docs.arduino.cc/hardware/modulino-pixels/",
+      "sha256": "7ad86cfae578d84eeb3a1ec03db9ac3c6481d31542e63cf16fc862fa5ce5992e",
+      "rights": "Arduino Documentation, CC BY-SA 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Original diagram by Arduino, reproduced unchanged. Documentation licence: https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md",
+      "revision": "ABX00109 as shown by Arduino. PCB revision is unspecified.",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "Pixel data and clock, serial, SWD, reset, power and I2C pads.",
+      "file": "media/7ad86cfae578d84eeb3a1ec03db9ac3c6481d31542e63cf16fc862fa5ce5992e.png",
+      "type": "pinout image"
+    },
+    {
+      "recordId": "arduino-modulino-thermo",
+      "label": "Modulino Thermo ABX00103 physical pinout (early HS3003 board)",
+      "source": "https://raw.githubusercontent.com/arduino/docs-content/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/content/hardware/modulino/modulino-nodes/modulino-thermo/interactive/ABX00103-v1.0-full-pinout.png",
+      "sourcePage": "https://docs.arduino.cc/hardware/modulino-thermo/",
+      "sha256": "45b111c6151014d88a6c89aa0c7ce389e218a9c1911fd5b88dc21f498a313319",
+      "rights": "Arduino Documentation, CC BY-SA 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Original diagram by Arduino, reproduced unchanged. Documentation licence: https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md",
+      "revision": "ABX00103 earlier than V0.5 (HS3003) or marked V0.5 and later (GXHT30C).",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "Older HS3003 board. The original diagram labels the four bus and power pads.",
+      "file": "media/45b111c6151014d88a6c89aa0c7ce389e218a9c1911fd5b88dc21f498a313319.png",
+      "type": "pinout image"
+    },
+    {
+      "recordId": "arduino-modulino-thermo",
+      "label": "Modulino Thermo ABX00103 physical pinout (V0.5 and later GXHT30C board)",
+      "source": "https://raw.githubusercontent.com/arduino/docs-content/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/content/hardware/modulino/modulino-nodes/modulino-thermo/interactive/ABX00103-v2.0-full-pinout.png",
+      "sourcePage": "https://docs.arduino.cc/hardware/modulino-thermo/",
+      "sha256": "aa996966cd954152f6310cba854f70dc9b77036119304d57de98fdcb4c531853",
+      "rights": "Arduino Documentation, CC BY-SA 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Original diagram by Arduino, reproduced unchanged. Documentation licence: https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md",
+      "revision": "ABX00103 earlier than V0.5 (HS3003) or marked V0.5 and later (GXHT30C).",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "GXHT30C board marked V0.5 or later. Diagram identifies additional address, reset and alert pads.",
+      "file": "media/aa996966cd954152f6310cba854f70dc9b77036119304d57de98fdcb4c531853.png",
+      "type": "pinout image"
+    },
+    {
+      "recordId": "seeed-studio-xiao-nrf54l15-v1-2",
+      "label": "V1.2 rear GPIO, power and debug pad pinout",
+      "source": "https://files.seeedstudio.com/wiki/XIAO_nRF54L15/Getting_Start/XIAO_nRF54L15_Pinout_Back_20261112.png",
+      "sourcePage": "https://wiki.seeedstudio.com/xiao_nrf54l15_sense_getting_started/",
+      "sha256": "632f826f875a81fa7f1a25cdb7eec36017ca22eb5f5321d7ee7cd942146e8602",
+      "rights": "Seeed Studio, CC BY-SA 4.0. Original image unchanged. License https://creativecommons.org/licenses/by-sa/4.0/ under https://wiki.seeedstudio.com/License/",
+      "revision": "V1.2 (rear PCB silkscreen)",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "Physical rear pinout shared by the base and Sense V1.2 boards; dedicated V1.2 front artwork pending.",
+      "file": "media/632f826f875a81fa7f1a25cdb7eec36017ca22eb5f5321d7ee7cd942146e8602.png",
+      "type": "pinout image"
+    },
+    {
+      "recordId": "seeed-studio-xiao-nrf54l15-sense-v1-2",
+      "label": "V1.2 rear GPIO, power and debug pad pinout",
+      "source": "https://files.seeedstudio.com/wiki/XIAO_nRF54L15/Getting_Start/XIAO_nRF54L15_Pinout_Back_20261112.png",
+      "sourcePage": "https://wiki.seeedstudio.com/xiao_nrf54l15_sense_getting_started/",
+      "sha256": "632f826f875a81fa7f1a25cdb7eec36017ca22eb5f5321d7ee7cd942146e8602",
+      "rights": "Seeed Studio, CC BY-SA 4.0. Original image unchanged. License https://creativecommons.org/licenses/by-sa/4.0/ under https://wiki.seeedstudio.com/License/",
+      "revision": "V1.2 (rear PCB silkscreen)",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "Physical rear pinout shared by the base and Sense V1.2 boards; dedicated V1.2 front artwork pending.",
+      "file": "media/632f826f875a81fa7f1a25cdb7eec36017ca22eb5f5321d7ee7cd942146e8602.png",
+      "type": "pinout image"
+    },
+    {
+      "recordId": "soldered-nula-mini-esp32-c6",
+      "label": "NULA Mini ESP32-C6 physical GPIO pinout",
+      "source": "https://docs.soldered.com/img/nula-mini-esp32-c6/NULA-MINI-ESP32-C6-Pinout.webp",
+      "sourcePage": "https://docs.soldered.com/nula-mini-esp32-c6/hardware/",
+      "sha256": "f7fa7cf72c7350b6394c539ae0b7728ef0834855b48a2113a42660b97ae2ab5a",
+      "rights": "Soldered Electronics, CC BY-SA 4.0, as printed on the original artwork. Original unchanged. https://creativecommons.org/licenses/by-sa/4.0/",
+      "revision": "Pinout sheet v1.2.0; hardware revision not independently identified.",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "Header GPIO and alternate functions, power and battery connector.",
+      "file": "media/f7fa7cf72c7350b6394c539ae0b7728ef0834855b48a2113a42660b97ae2ab5a.webp",
+      "type": "pinout image"
+    },
+    {
+      "recordId": "soldered-nula-max-rp2350",
+      "label": "NULA Max RP2350 physical GPIO pinout",
+      "source": "https://docs.soldered.com/img/nula-max-rp2350/nula_max_rp2350_pinout.png",
+      "sourcePage": "https://docs.soldered.com/nula-max-rp2350/hardware/",
+      "sha256": "ed857d8eb41f2594a872510f3b9b5912cea476e0d0032a54be4cce61f3d32ec7",
+      "rights": "Soldered Electronics, CC BY-SA 4.0, as printed on the original artwork. Original unchanged. https://creativecommons.org/licenses/by-sa/4.0/",
+      "revision": "Pinout sheet v1.2.0; hardware revision not independently identified.",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "Separate diagrams for female connectors on solder pads and header pin holes.",
+      "file": "media/ed857d8eb41f2594a872510f3b9b5912cea476e0d0032a54be4cce61f3d32ec7.png",
+      "type": "pinout image"
+    },
+    {
+      "recordId": "soldered-nula-deepsleep-esp32-s3",
+      "label": "NULA DeepSleep ESP32-S3 physical GPIO pinout",
+      "source": "https://docs.soldered.com/img/nula-deepsleep-esp32-s3/NULA-DEEPSLEEP-ESP32-S3-Pinout.webp",
+      "sourcePage": "https://docs.soldered.com/nula-deepsleep-esp32-s3/hardware-details/",
+      "sha256": "4495a1d825974aac9515d36456eba3735a8e171fbb31a2dc7c8b71a193a04ee6",
+      "rights": "Soldered Electronics, CC BY-SA 4.0, as printed on the original artwork. Original unchanged. https://creativecommons.org/licenses/by-sa/4.0/",
+      "revision": "Pinout sheet v1.0.0; hardware revision not independently identified.",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "GPIO lines, communication functions, control pins and power connections.",
+      "file": "media/4495a1d825974aac9515d36456eba3735a8e171fbb31a2dc7c8b71a193a04ee6.webp",
+      "type": "pinout image"
+    },
+    {
+      "recordId": "soldered-nula-ethernet-w55rp20",
+      "label": "NULA Ethernet W55RP20 physical GPIO pinout",
+      "source": "https://docs.soldered.com/img/nula_w55rp20/Pinout.png",
+      "sourcePage": "https://docs.soldered.com/nula_w55rp20/hardware/",
+      "sha256": "a1a882d395a1c78165c485b95a9712c4b54142b1a23240c1a10f8110626f1f5d",
+      "rights": "Soldered Electronics, CC BY-SA 4.0, as printed on the original artwork. Original unchanged. https://creativecommons.org/licenses/by-sa/4.0/",
+      "revision": "Pinout sheet v1.0; hardware revision not independently identified.",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "Physical header locations, I2C, SPI, UART, PWM, ADC, power pins and jumpers.",
+      "file": "media/a1a882d395a1c78165c485b95a9712c4b54142b1a23240c1a10f8110626f1f5d.png",
+      "type": "pinout image"
+    },
+    {
+      "recordId": "soldered-nula-node-rp2040",
+      "label": "NULA Node RP2040 physical GPIO pinout",
+      "source": "https://cms.soldered.com/products/333409/media/333409_pinout-png_b47dd6.png",
+      "sourcePage": "https://docs2.soldered.com/products/soldered-nula-node-rp2040/hardware",
+      "sha256": "f00a054b8344179b70774128af70e82fc2ead94ab8215e55880d122c75a90d84",
+      "rights": "Soldered Electronics, CC BY-SA 4.0, as printed on the original artwork. Original unchanged. https://creativecommons.org/licenses/by-sa/4.0/",
+      "revision": "Pinout sheet v1.0.0; hardware revision not independently identified.",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "Both 15-pin headers, GPIO alternate functions, SWD and power connections. SKU 333409 has unsoldered headers and SKU 333410 has soldered headers.",
+      "file": "media/f00a054b8344179b70774128af70e82fc2ead94ab8215e55880d122c75a90d84.png",
+      "type": "pinout image"
+    }
+  ],
+  "onlineReferences": [
+    {
+      "recordId": "wavtron-tinker-5-v1-0",
+      "label": "Version 1.0 GPIO and alternate-function pinout",
+      "source": "https://raw.githubusercontent.com/wavtrontec/Wavtron-Tinker5/9c78b29e8fb36c746cf66ed6cf92560eb7a63c5c/docs/images/pinout.png",
+      "sourcePage": "https://github.com/wavtrontec/Wavtron-Tinker5",
+      "sha256": "4596b5098d17874a4e059e5c2c15a40351b82daed4cee0ce4ef486b50e8ddd32",
+      "rights": "Wavtron artwork. The repository specifies CERN-OHL-W for schematic design files. Separate artwork permission is unconfirmed.",
+      "revision": "Version 1.0 printed on diagram",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "USB-C at top. Both edge rows are annotated.",
+      "physicalPinout": true
+    },
+    {
+      "recordId": "flipper-devices-flipper-one",
+      "label": "External GPIO port pinout",
+      "source": "https://raw.githubusercontent.com/flipperdevices/flipperone-docs/5c84c1b10cdda67c16d3674e4055aec8a181a9a6/docs/files/pics/gpio-port-pinout.jpg",
+      "sourcePage": "https://docs.flipper.net/one/general/tech-specs",
+      "sha256": "febb57a56569b021d1b594e2ab60b66ba50c91d3753496fc9d15aa855df56f6b",
+      "rights": "Flipper Devices original documentation. Redistribution rights for these images are unconfirmed.",
+      "revision": "Pre-production documentation, PCB revision unspecified",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "Device underside and 2×10 GPIO port orientation.",
+      "physicalPinout": true
+    },
+    {
+      "recordId": "flipper-devices-flipper-one",
+      "label": "Debug port pinout",
+      "source": "https://raw.githubusercontent.com/flipperdevices/flipperone-docs/5c84c1b10cdda67c16d3674e4055aec8a181a9a6/docs/files/pics/debug-port-pinout.jpg",
+      "sourcePage": "https://docs.flipper.net/one/general/tech-specs",
+      "sha256": "8422c36ebdd9789db64901177c2e26378997f64bef17ce3b084967d28a1796cb",
+      "rights": "Flipper Devices original documentation. Redistribution rights for these images are unconfirmed.",
+      "revision": "Pre-production documentation, PCB revision unspecified",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "Underside location and 14 numbered contacts.",
+      "physicalPinout": true
+    },
+    {
+      "recordId": "texas-instruments-lp-em-cc2341r10",
+      "label": "40-pin BoosterPack connector pinout (Figure 2-4)",
+      "source": "https://www.ti.com/ods/images/SLVUEC6/GUID-20261113-SS0I-PT0P-NS82-D04IUCJIYJGG-low.png",
+      "sourcePage": "https://www.ti.com/document-viewer/lit/html/SLVUEC6/GUID-B99622D1-8ECF-4FB7-A228-83BC5C94ED02",
+      "sha256": "e69622d7c4a51b5736fd88518af725eaaf46021acadf763b104a24eaa1311146",
+      "rights": "Copyright 2026 Texas Instruments Incorporated. Original figure linked to its publisher. Separate artwork permission unconfirmed.",
+      "revision": "User guide SLVUEC6, November 2026. PCB revision unspecified.",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "Header numbers, DIO functions and supplies around the pictured LaunchPad.",
+      "physicalPinout": true
+    },
+    {
+      "recordId": "lilygo-t-can485-c5",
+      "label": "T-CAN485 C5 connector and GPIO assignments",
+      "source": "https://cdn.shopify.com/s/files/1/0617/7190/7253/files/T-CAN485-C5-LILYGO_1.jpg?v=1794908323",
+      "sourcePage": "https://lilygo.cc/products/t-can485-c5",
+      "sha256": "786be108c1fd22628b21c03576ffd7a9b5ab71458f445cc1069f0bed1af7f3e9",
+      "rights": "LILYGO manufacturer artwork. Permission to redistribute or reprint this original has not been established. https://lilygo.cc/policies/terms-of-service",
+      "revision": "V1.0 on the board photographed in the product gallery",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "Board and connector map with onboard GPIO assignments. Independent full-pinout verification pending.",
+      "physicalPinout": true
+    },
+    {
+      "recordId": "lilygo-t-display-cm0",
+      "label": "T-Display CM0 external expansion connector pin order",
+      "source": "https://cdn.shopify.com/s/files/1/0617/7190/7253/files/LILYGO-T-DISPLAY-CM0_1.jpg?v=1794811910",
+      "sourcePage": "https://lilygo.cc/products/t-display-cm0",
+      "sha256": "ffaa60358bcdd9fdb2194dee605d22b767a2b66818ee9cca5949fb8a2932675e",
+      "rights": "LILYGO manufacturer artwork. Permission to redistribute or reprint this original has not been established. https://lilygo.cc/policies/terms-of-service",
+      "revision": "Not identified",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "Physical external connector and port pin assignments. Independent full-pinout verification pending.",
+      "physicalPinout": true
+    },
+    {
+      "recordId": "lilygo-t-display-cm0",
+      "label": "T-Display CM0 onboard peripheral GPIO functions",
+      "source": "https://cdn.shopify.com/s/files/1/0617/7190/7253/files/1e73187878aade5489bf51f7d839a029_b15b1ab3-6f5e-4d74-a2c5-5a98c1363c28.jpg?v=1794811915",
+      "sourcePage": "https://lilygo.cc/products/t-display-cm0",
+      "sha256": "ab823f87c637c88ccc5187c15522539e2d575a69b77ec2caab3c76025f2d0765",
+      "rights": "LILYGO manufacturer artwork. Permission to redistribute or reprint this original has not been established. https://lilygo.cc/policies/terms-of-service",
+      "revision": "Not identified",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "Supporting function reference for the camera, audio, I/O expander and optional LoRa. No physical connector positions.",
+      "physicalPinout": false
+    },
+    {
+      "recordId": "lilygo-t-beam-1w2",
+      "label": "T-Beam 1W1 and 1W2 radio and onboard GPIO map",
+      "source": "https://cdn.shopify.com/s/files/1/0617/7190/7253/files/T-Beam-1W2-LILYGO_9.jpg?v=1795423944",
+      "sourcePage": "https://lilygo.cc/products/t-beam-1w2",
+      "sha256": "39075a1bc998354b729b980c1276a74f036ba53b0ecbeff4fe4ada779278fc28",
+      "rights": "LILYGO manufacturer artwork. Permission to redistribute or reprint this original has not been established. https://lilygo.cc/policies/terms-of-service",
+      "revision": "1W2 radio variant. PCB revision not identified.",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "Supporting onboard peripheral GPIO map with board photo. External header positions still needed.",
+      "physicalPinout": false
+    },
+    {
+      "recordId": "lilygo-t5-e-paper-basic",
+      "label": "T5 e-Paper Basic display, button and TF card GPIO assignments",
+      "source": "https://cdn.shopify.com/s/files/1/0617/7190/7253/files/T5-Basic.jpg?v=1792117931",
+      "sourcePage": "https://lilygo.cc/products/t5-e-paper-basic",
+      "sha256": "abf7d194dd2ad82244933c90ea6a41fc5931897ccfb3290e16097c69e276e9fc",
+      "rights": "LILYGO manufacturer artwork. Permission to redistribute or reprint this original has not been established. https://lilygo.cc/policies/terms-of-service",
+      "revision": "Not identified",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "Supporting GPIO and onboard peripheral assignments. No complete physical connector map.",
+      "physicalPinout": false
+    },
+    {
+      "recordId": "waveshare-esp32-s31-touch-lcd-4-3c",
+      "label": "ESP32-S31-Touch-LCD-4.3C rear board and H4 screw terminal",
+      "source": "https://docs.waveshare.com/assets/images/ESP32-S31-Touch-LCD-4.3C-details-intro-509c6fc9a0f5c8192edd44bc917250e8.webp",
+      "sourcePage": "https://docs.waveshare.com/ESP32-S31-Touch-LCD-4.3C/",
+      "sha256": "0602709ae88dfa7048a0bdf2b3584b67a20bd5a9060151ef6c6c05576561756d",
+      "rights": "Waveshare manufacturer artwork. Permission to redistribute or reprint this original has not been established. https://docs.waveshare.com/",
+      "revision": "ESP32-S31-WROOM-3-N16R16 version, bare board SKU 36107. PCB revision not identified.",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "Physical H4 terminal layout with pin labels and GPIO48 through GPIO53. Limited to exposed terminal and onboard resources.",
+      "physicalPinout": true
+    },
+    {
+      "recordId": "pimoroni-interstate-75-w-rp2350",
+      "label": "Interstate 75 W (RP2350) Pins and Dims",
+      "source": "https://cdn.shopify.com/s/files/1/0174/1800/files/i75_2350_w_pinout_diagram.pdf?v=1734523044",
+      "sourcePage": "https://shop.pimoroni.com/en-us/products/interstate-75-w",
+      "sha256": "3a282413a16992a75a2ed42f0348235f12af8853d8806e6d1fdf983b908ef1b0",
+      "rights": "Pimoroni manufacturer artwork. Redistribution permission for this PDF was not located. Use the manufacturer link. https://shop.pimoroni.com/en-us/products/interstate-75-w",
+      "revision": "PIM727 with RP2350A and an RM2 radio. Earlier Pico W Aboard hardware has a different schematic.",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "Physical board pinout with HUB75 and expansion GPIO callouts.",
+      "physicalPinout": true
+    },
+    {
+      "recordId": "m5stack-unit-4encodermotor-driver-u233",
+      "label": "Connector-side motor, encoder and HV pinout",
+      "source": "https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1280/EncoderMotor_Driver_pinmap.jpg",
+      "sourcePage": "https://docs.m5stack.com/en/unit/Unit_4EncoderMotor_Driver",
+      "sha256": "c2b33813b8fedc30c71cac842c466bc7564e1e42dbf3ff51c52ecd7d60a8e849",
+      "rights": "M5Stack manufacturer artwork. Redistribution license not identified; link to the original.",
+      "revision": "Manufacturer SKU U233; PCB revision unspecified.",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "External motor, encoder and power connectors. The two Grove connectors are described in the separate HY2.0-4P table.",
+      "physicalPinout": true
+    },
+    {
+      "recordId": "dfrobot-edge101-4g-cat1-dfr1283",
+      "label": "40-pin GPIO and Gravity expansion connector positions",
+      "source": "https://dfimg.dfrobot.com/62d52567aa9508d63a4247a1/wikien/19a3916383f53fcfc868665fe92acf40_0x0.png.webp",
+      "sourcePage": "https://wiki.dfrobot.com/dfr1283/docs/24760",
+      "sha256": "5bbd3ff31b006ae74f122709bd7bca275977b25f589c78c4827129287600a4f4",
+      "rights": "DFRobot manufacturer artwork. Redistribution license not identified; link to the original.",
+      "revision": "Manufacturer SKU DFR1283; PCB revision unspecified.",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "Physical order of the 40-pin GPIO expansion interface only. The companion pin table identifies the GPIO numbers and input-only pins.",
+      "physicalPinout": true
+    },
+    {
+      "recordId": "dfrobot-gravity-sfa40-sen0661",
+      "label": "Physical four-pin Gravity I2C sensor pinout",
+      "source": "https://img.dfrobot.com.cn/wikicn/62b2fb5caa613609f271523c/a921060d6644e44720b563c66b46ad46.png",
+      "sourcePage": "https://wiki.dfrobot.com/sen0661/",
+      "sha256": "79a2d94f7ce1ccf3a9bb242642fb353200ee2b3de34a1558705b22b8de17a16e",
+      "rights": "DFRobot manufacturer artwork. Redistribution license not identified; link to the original.",
+      "revision": "Manufacturer SKU SEN0661; PCB revision unspecified.",
+      "review": "Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.",
+      "scope": "The connection-side PCB view maps all four Gravity pins to VCC, GND, SCL, and SDA. This sensor exposes I2C.",
+      "physicalPinout": true
+    }
+  ]
+}

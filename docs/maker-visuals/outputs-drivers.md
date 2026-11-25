@@ -404,6 +404,66 @@ M5Stack · Source review pending
 
 Not established; source attribution retained
 
+## Modulino Buzzer
+
+Arduino · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=arduino-modulino-buzzer)
+
+[![Modulino Buzzer / pinout image](../../library/thumbs/0989de9c10ce81f515bd8f85a6347eff2497f6bfbde2ca25ede2b94b6157011f.webp)](../../library/media/0989de9c10ce81f515bd8f85a6347eff2497f6bfbde2ca25ede2b94b6157011f.png)
+
+**pinout image** · Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.
+
+Arduino Documentation, CC BY-SA 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Original diagram by Arduino, reproduced unchanged. Documentation licence: https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md
+
+## Modulino Latch Relay
+
+Arduino · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=arduino-modulino-latch)
+
+[![Modulino Latch Relay / pinout image](../../library/thumbs/36db74df3fb04cbf5e442d65d9ae52fc44fb9a38747aa66ab19d21a841bee04d.webp)](../../library/media/36db74df3fb04cbf5e442d65d9ae52fc44fb9a38747aa66ab19d21a841bee04d.png)
+
+**pinout image** · Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.
+
+Arduino Documentation, CC BY-SA 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Original diagram by Arduino, reproduced unchanged. Documentation licence: https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md
+
+## Modulino Motors
+
+Arduino · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=arduino-modulino-motors)
+
+[![Modulino Motors / pinout image](../../library/thumbs/7b35b3770b384786444427cf55b6f64ccdc9032bd7b9ed89b337ba4e71b5490b.webp)](../../library/media/7b35b3770b384786444427cf55b6f64ccdc9032bd7b9ed89b337ba4e71b5490b.png)
+
+**pinout image** · Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.
+
+Arduino Documentation, CC BY-SA 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Original diagram by Arduino, reproduced unchanged. Documentation licence: https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md
+
+## Modulino Pixels
+
+Arduino · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=arduino-modulino-pixels)
+
+[![Modulino Pixels / pinout image](../../library/thumbs/7ad86cfae578d84eeb3a1ec03db9ac3c6481d31542e63cf16fc862fa5ce5992e.webp)](../../library/media/7ad86cfae578d84eeb3a1ec03db9ac3c6481d31542e63cf16fc862fa5ce5992e.png)
+
+**pinout image** · Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.
+
+Arduino Documentation, CC BY-SA 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Original diagram by Arduino, reproduced unchanged. Documentation licence: https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md
+
+## Modulino Vibro
+
+Arduino · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=arduino-modulino-vibro)
+
+[![Modulino Vibro / pinout image](../../library/thumbs/9a83678aa56de3ce9fce952b5829e231ef715193e36a1e35c5e97565480f4842.webp)](../../library/media/9a83678aa56de3ce9fce952b5829e231ef715193e36a1e35c5e97565480f4842.png)
+
+**pinout image** · Manufacturer artwork and model identity reviewed November 25, 2026. Independent electrical verification pending.
+
+Arduino Documentation, CC BY-SA 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/). Original diagram by Arduino, reproduced unchanged. Documentation licence: https://github.com/arduino/docs-content/blob/827bd4ebb9fb71bd7aa768c259ed70af9143ff1c/LICENSE.md
+
 ## Unit 2Relay
 
 M5Stack · Source review pending
@@ -415,6 +475,16 @@ M5Stack · Source review pending
 **source reference** · Unreviewed source
 
 Source rights not yet established
+
+## Unit 4EncoderMotor Driver (U233)
+
+M5Stack · Manufacturer documentation recorded
+
+[Open full gallery](https://valleytech-black-wire-guide.pages.dev/?tab=makers&part=m5stack-unit-4encodermotor-driver-u233)
+
+[Connector-side motor, encoder and HV pinout](https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1280/EncoderMotor_Driver_pinmap.jpg) · manufacturer-hosted
+
+M5Stack manufacturer artwork. Redistribution license not identified; link to the original.
 
 ## Unit 4Relay
 

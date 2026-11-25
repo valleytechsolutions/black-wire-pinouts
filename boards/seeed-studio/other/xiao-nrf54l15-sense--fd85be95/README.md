@@ -2,7 +2,7 @@
 
 **Seeed Studio** · Other
 
-Revision: Not identified
+Revision: Earlier hardware. V1.2 moves the 3V3, RST2, SWCLK2 and SWDIO2 rear pads. Use the separate V1.2 listing when the back of your PCB is marked v1.2.
 
 Coverage: Manufacturer references reviewed by scope; independent electrical and all-connector review pending
 
@@ -17,11 +17,11 @@ Board datasheet: **not yet recorded**. Visual reference: **available**.
 - **schematic / board**: [XIAO nRF54L15 Sense Schematic](https://files.seeedstudio.com/wiki/XIAO_nRF54L15/Getting_Start/nRF54L15_Sense_Schematic.pdf) · [saved document](../../../../library/media/5247dfdd76763332bc8493831642e22a270a89d7c2c34a9f4610d3fa20633e65.pdf)
 - **hardware-guide / board**: [Manufacturer pin and hardware documentation](https://wiki.seeedstudio.com/xiao_nrf54l15_sense_getting_started/) · online
 
-A chip datasheet, schematic and board datasheet have different scopes. Match the exact hardware revision.
+Earlier hardware. V1.2 moves the 3V3, RST2, SWCLK2 and SWDIO2 rear pads. Use the separate V1.2 listing when the back of your PCB is marked v1.2.
 
 [Documentation coverage and remaining gaps](../../../../DOCUMENTATION.md)
 
-## Pinout (Back)
+## Pinout (Back) — earlier hardware
 
 **pinout image** · Reviewed source · PNG
 
@@ -33,9 +33,9 @@ A chip datasheet, schematic and board datasheet have different scopes. Match the
 
 [Source 1](https://files.seeedstudio.com/wiki/XIAO_nRF54L15/Getting_Start/XIAO_nRF54L15_Sense_back_pinout.png) · [Source 2](https://wiki.seeedstudio.com/xiao_nrf54l15_sense_getting_started/)
 
+Earlier hardware. V1.2 moves the 3V3, RST2, SWCLK2 and SWDIO2 rear pads. Use the separate V1.2 listing when the back of your PCB is marked v1.2.
 
-
-Image revision: Not identified
+Image revision: Earlier hardware. V1.2 moves the 3V3, RST2, SWCLK2 and SWDIO2 rear pads. Use the separate V1.2 listing when the back of your PCB is marked v1.2.
 
 SHA-256: `ef97b35e6b9e5595f0417242ae9b566eecbc9d0b8081f9d65cf3523afc5f94c0`
 

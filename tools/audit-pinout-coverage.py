@@ -6,7 +6,14 @@ ROOT=Path(__file__).resolve().parents[1]
 def coverage(record,assets):
     physical=[a for a in assets if a['type']=='pinout image']
     functions=record.get('pinReferences',[]) or [a for a in assets if a['type']=='pin function reference']
+    linked=[r for r in record.get('documentation',{}).get('resources',[]) if r.get('kind')=='connector-reference' and isinstance(r.get('physicalPinout'),bool) and not r.get('file') and r.get('url','').startswith('https://')]
+    linked_maps={r['url'] for r in linked if r['physicalPinout']}
+    if linked and not physical and not functions:
+        return {'status':'linked-pinout' if linked_maps else 'linked-reference','physicalCount':0,'linkedPhysicalCount':len(linked_maps),'functionTableCount':0,'functionSheetCount':0,'purposeRows':0,'completeDeviceApproved':False,
+                'scope':'Manufacturer-hosted physical diagram available online.' if linked_maps else 'Manufacturer-hosted peripheral signal reference available online. Physical connector order still needs a source.',
+                'missing':([] if linked_maps else ['Physical connector map'])+['Offline physical pinout','Independent all-connector completeness review','Revision match and electrical limits']}
     return {
+        **({'linkedPhysicalCount':len(linked_maps)} if linked_maps else {}),
         'status':'pinout-source' if physical else 'functions-only' if functions else 'reference-only' if assets else 'missing',
         'physicalCount':len(physical),'functionTableCount':len(functions),'functionSheetCount':sum(a['type']=='pin function reference' for a in assets),
         'purposeRows':sum(len(t['pins']) for t in record.get('pinReferences',[])),
@@ -32,9 +39,9 @@ def main():
     maker_path.write_text(json.dumps(maker,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
     (ROOT/'catalog/pinout-coverage.json').write_text(json.dumps(dict(**c['pinoutAudit'],records=rows),ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     with (ROOT/'catalog/pinout-coverage.csv').open('w',newline='',encoding='utf-8') as f:
-        fields=['id','name','brand','kind','status','physicalCount','functionSheetCount','functionTableCount','purposeRows','completeDeviceApproved','missing']
+        fields=['id','name','brand','kind','status','physicalCount','linkedPhysicalCount','functionSheetCount','functionTableCount','purposeRows','completeDeviceApproved','missing']
         w=csv.DictWriter(f,fieldnames=fields,extrasaction='ignore');w.writeheader()
         for r in rows:w.writerow({**r,'missing':'; '.join(r['missing'])})
-    (ROOT/'PINOUT_COVERAGE.md').write_text('# Pinout coverage audit\n\nEvery board and maker listing is accounted for. Linked maker/board records can describe the same hardware; listing totals are not unique-product counts. A source pinout is not independent approval of every connector. Product photos never count as pinouts.\n\n| Listing type | Source pinout | Functions only | Supporting references only | No reference |\n|---|---:|---:|---:|---:|\n'+''.join(f"| {kind} | {s.get('pinout-source',0)} | {s.get('functions-only',0)} | {s.get('reference-only',0)} | {s.get('missing',0)} |\n" for kind,s in summary.items())+'\n[Full CSV](catalog/pinout-coverage.csv) · [Evidence and remaining work](catalog/pinout-coverage.json)\n\nNo new complete-device approval is inferred from these counts. The app displays the same coverage status beside each record.\n',encoding='utf-8')
+    (ROOT/'PINOUT_COVERAGE.md').write_text('# Pinout coverage audit\n\nEvery board and maker listing is accounted for. Linked maker/board records can describe the same hardware; listing totals are not unique-product counts. A source pinout is not independent approval of every connector. Product photos never count as pinouts.\n\n| Listing type | Saved pinout | Online pinout only | Online supporting reference only | Functions only | Supporting references only | No reference |\n|---|---:|---:|---:|---:|---:|---:|\n'+''.join(f"| {kind} | {s.get('pinout-source',0)} | {s.get('linked-pinout',0)} | {s.get('linked-reference',0)} | {s.get('functions-only',0)} | {s.get('reference-only',0)} | {s.get('missing',0)} |\n" for kind,s in summary.items())+'\n[Full CSV](catalog/pinout-coverage.csv) · [Evidence and remaining work](catalog/pinout-coverage.json)\n\nNo new complete-device approval is inferred from these counts. The app displays the same coverage status beside each record.\n',encoding='utf-8')
     print(json.dumps(c['pinoutAudit']))
 if __name__=='__main__':main()
