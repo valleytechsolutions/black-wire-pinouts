@@ -6,23 +6,27 @@
 <p align="center"><strong>Know your board. Make the connection.</strong><br>A Valleytech Solutions project, made for the workbench.</p>
 <p align="center">Makers · Educators · Students · Hobbyists · Engineers</p>
 
-<p align="center"><a href="https://git.churchofmalware.org/Valleytech/black-wire-pinouts/releases">Download the collection</a> · <a href="BROWSE.md">Browse boards</a> · <a href="catalog/attributions.csv">Source credits</a> · <a href="https://git.churchofmalware.org/Valleytech/BWM-Technical-Reference-Guide/releases">Download the desktop app</a> · <a href="CONTRIBUTING.md">Contribute a reference</a></p>
+<p align="center"><a href="https://github.com/valleytechsolutions/black-wire-pinouts/releases">Download the collection</a> · <a href="BROWSE.md">Browse boards</a> · <a href="catalog/attributions.csv">Source credits</a> · <a href="https://github.com/valleytechsolutions/BWM-Technical-Reference-Guide/releases">Download the desktop app</a> · <a href="CONTRIBUTING.md">Contribute a reference</a></p>
 
 ![Inland ESP32 original pinout in the Black Wire guide](docs/screenshots/inland-reference.png)
 
 ## Find a pinout, then build
 
-**[Search the guide](https://valleytech-black-wire-guide.pages.dev/) · [Read the reference wiki](https://valleytech-black-wire-guide.pages.dev/wiki/) · [Browse maker modules](https://valleytech-black-wire-guide.pages.dev/wiki/modules/) · [Get the Windows & Linux app](https://git.churchofmalware.org/Valleytech/BWM-Technical-Reference-Guide/releases/latest)**
+**[Search the guide](https://valleytech-black-wire-guide.pages.dev/) · [Read the reference wiki](https://valleytech-black-wire-guide.pages.dev/wiki/) · [Browse maker modules](https://valleytech-black-wire-guide.pages.dev/wiki/modules/) · [Get the Windows & Linux app](https://github.com/valleytechsolutions/BWM-Technical-Reference-Guide/releases/latest)**
 
 Board and device references for **ESP32, Arduino, Raspberry Pi, RP2040/RP2350**, displays, sensors, buttons, interfaces and power modules. Find physical pinout sources, supporting photos, pin-purpose tables and manufacturer documentation, with revision and coverage notes. Generic modules and documentation gaps remain visible.
 
-The companion app provides a single Windows installer, Linux packages and in-app updates that retain downloaded references and saved workbench data. Search and previews are included; download original files inside the app for complete offline access. [Install and update](https://valleytech-black-wire-guide.pages.dev/wiki/desktop-updates/). The hardware collection is snapshot **2026.11.1**, First Edition / 2026. [How to read a pinout](https://valleytech-black-wire-guide.pages.dev/wiki/reading-pinouts/) · [Contribute or report a correction](CONTRIBUTING.md).
+The companion app provides a single Windows installer, Linux packages and in-app updates that retain downloaded references and saved workbench data. Search and previews are included; download original files inside the app for complete offline access. [Install and update](https://valleytech-black-wire-guide.pages.dev/wiki/desktop-updates/). The hardware collection is snapshot **2026.11.3**, First Edition / 2026. [How to read a pinout](https://valleytech-black-wire-guide.pages.dev/wiki/reading-pinouts/) · [Contribute or report a correction](CONTRIBUTING.md).
 
-<!-- collection-update-2026.11.1:start -->
+## November 26 Tindie board and carrier pinouts / 2026.11.3
+
+This snapshot adds 17 board and carrier listings and fills physical pinout gaps on five existing boards. Four of the 24 new diagrams open offline. The other 20 open on seller or manufacturer sites. [Models, source drawings and revision notes](docs/EXPANSION-2026.11.3.md).
+
 ## November 25 GPIO references / 2026.11.2
 
 23 new boards and devices, 17 new maker modules and 2 earlier XIAO records with revised pad notes. The collection adds 28 distinct original physical-pinout images and two printable PDFs. Manufacturer links open 11 additional physical diagrams and 3 peripheral-signal references. [Model register and sources](docs/EXPANSION-2026.11.2.md).
 
+<!-- collection-update-2026.11.1:start -->
 ## November 3 update / snapshot 2026.11.1
 
 **15 new listings · 3 existing listings updated · 33 saved reference attachments · 9 physical pinout images.** Exact-model pinout images, board documentation and clearly marked supporting references. [Review, source register and remaining gaps](docs/EXPANSION-2026.11.1.md). First Edition / 2026 remains unchanged.
@@ -148,9 +152,9 @@ Original files are stored once by content hash; board pages provide the human-fr
 
 ## Use it offline
 
-Download a versioned ZIP from this repository's **[collection releases](https://git.churchofmalware.org/Valleytech/black-wire-pinouts/releases)**. Each release includes the full reference collection, board indexes, source credits, license/rights notices and a SHA-256 checksum. Extract the whole ZIP and begin with `README.md` and `BROWSE.md`. The files work on **Windows, Linux and macOS** with an image/PDF viewer and a Markdown reader; no installer is needed for the collection.
+Download a versioned ZIP from this repository's **[collection releases](https://github.com/valleytechsolutions/black-wire-pinouts/releases)**. Each release includes the full reference collection, board indexes, source credits, license/rights notices and a SHA-256 checksum. Extract the whole ZIP and begin with `README.md` and `BROWSE.md`. The files work on **Windows, Linux and macOS** with an image/PDF viewer and a Markdown reader; no installer is needed for the collection.
 
-The guide remains **First Edition / 2026**. The latest collection snapshot is **[2026.09.9 — Search and source sweep](https://git.churchofmalware.org/Valleytech/black-wire-pinouts/releases/tag/v2026.09.9)**; [2026.09.1](https://git.churchofmalware.org/Valleytech/black-wire-pinouts/releases/tag/v2026.09.1) remains available unchanged. Collection snapshots and app versions are independent of the future annual book editions; see [EDITION.md](EDITION.md). The [desktop repository](https://git.churchofmalware.org/Valleytech/BWM-Technical-Reference-Guide/releases) provides application installers and states which operating systems actually have downloads.
+The guide remains **First Edition / 2026**. The latest collection snapshot is **[2026.09.9 — Search and source sweep](https://github.com/valleytechsolutions/black-wire-pinouts/releases/tag/v2026.09.9)**; [2026.09.1](https://github.com/valleytechsolutions/black-wire-pinouts/releases/tag/v2026.09.1) remains available unchanged. Collection snapshots and app versions are independent of the future annual book editions; see [EDITION.md](EDITION.md). The [desktop repository](https://github.com/valleytechsolutions/BWM-Technical-Reference-Guide/releases) provides application installers and states which operating systems actually have downloads.
 
 You can also clone the current repository (about **1.8 GB** of reference data). Keep the folder structure intact. Local Markdown viewers can follow the board pages; the desktop app provides the full searchable image/PDF interface. See [release and checksum instructions](RELEASES.md).
 

@@ -4,6 +4,10 @@
 
 These are two independent release streams. A **collection release** contains images, PDFs, indexes and attribution records. A **desktop app release** contains an application for the operating systems listed in that release. A collection ZIP is not a desktop installer.
 
+## November 26 Tindie board and carrier pinouts / 2026.11.3
+
+This snapshot adds 17 board and carrier listings and fills physical pinout gaps on five existing boards. Four of the 24 new diagrams open offline. The other 20 open on seller or manufacturer sites. [Models, source drawings and revision notes](docs/EXPANSION-2026.11.3.md).
+
 ## November 25 GPIO references / 2026.11.2
 
 23 new boards and devices, 17 new maker modules and 2 earlier XIAO records with revised pad notes. The collection adds 28 distinct original physical-pinout images and two printable PDFs. Manufacturer links open 11 additional physical diagrams and 3 peripheral-signal references. [Model register and sources](docs/EXPANSION-2026.11.2.md).

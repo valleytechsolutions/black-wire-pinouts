@@ -30,6 +30,13 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 |---|---|---:|---:|
 | [Cerberus Development Board](boards/463n7-io/esp32-s3-esp32-c5/cerberus-development-board--5d329146/README.md) | ESP32-S3 / ESP32-C5 | 1 | 1 |
 
+## Achiraware Electronics
+
+| Board / device | Processor / family | References | Pinout images |
+|---|---|---:|---:|
+| [ACH-ESP32-C3F4](boards/achiraware-electronics/esp32-c3/ach-esp32-c3f4--28631682/README.md) | ESP32-C3 | 1 | 1 |
+| [ACH-RP2350A-PICO-16MB](boards/achiraware-electronics/rp2350a/ach-rp2350a-pico-16mb--c734e2ff/README.md) | RP2350A | 1 | 1 |
+
 ## Adafruit
 
 | Board / device | Processor / family | References | Pinout images |
@@ -322,6 +329,12 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 |---|---|---:|---:|
 | [ESP32 DEVKIT V1](boards/doit/esp32-original/esp32-devkit-v1--784ef5de/README.md) | ESP32 original | 1 | 1 |
 
+## DatanoiseTV
+
+| Board / device | Processor / family | References | Pinout images |
+|---|---|---:|---:|
+| [PicoADK - Audio Development Kit](boards/datanoisetv/rp2040/picoadk-audio-development-kit--41db8044/README.md) | RP2040 | 1 | 1 |
+
 ## Elechouse
 
 | Board / device | Processor / family | References | Pinout images |
@@ -557,6 +570,12 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [HaleHound CYD 2.8 original non-SPI build](boards/halehound/esp32/halehound-cyd-2-8-original-non-spi-build--fa9becfe/README.md) | ESP32 | 4 | 0 |
 | [HaleHound CYD 2.8 SPI-exposed build](boards/halehound/esp32/halehound-cyd-2-8-spi-exposed-build--9c2447b5/README.md) | ESP32 | 9 | 1 |
 | [HaleHound CYD 3.5 SPI-exposed build](boards/halehound/esp32/halehound-cyd-3-5-spi-exposed-build--47e6327d/README.md) | ESP32 | 3 | 0 |
+
+## Hangzhou LeBan
+
+| Board / device | Processor / family | References | Pinout images |
+|---|---|---:|---:|
+| [HiiBot IoTs2](boards/hangzhou-leban/esp32-s2/hiibot-iots2--3889ea6c/README.md) | ESP32-S2 | 0 | 0 |
 
 ## Hat Labs
 
@@ -1346,6 +1365,12 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [Mars](boards/milk-v/jh7110/mars--3a4bcdc5/README.md) | JH7110 | 1 | 1 |
 | [Titan](boards/milk-v/ultrarisc-ur-dp1000/titan--67213005/README.md) | UltraRISC UR-DP1000 | 3 | 0 |
 
+## MuseLab
+
+| Board / device | Processor / family | References | Pinout images |
+|---|---|---:|---:|
+| [nanoCH32V203 Development Board](boards/muselab/ch32v203/nanoch32v203-development-board--f905002d/README.md) | CH32V203 | 0 | 0 |
+
 ## NVIDIA
 
 | Board / device | Processor / family | References | Pinout images |
@@ -1449,6 +1474,14 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | Board / device | Processor / family | References | Pinout images |
 |---|---|---:|---:|
 | [xC5](boards/pandabyte/esp32-c5/xc5--b15937d7/README.md) | ESP32-C5 | 1 | 1 |
+
+## Pcbcupid
+
+| Board / device | Processor / family | References | Pinout images |
+|---|---|---:|---:|
+| [Pcbcupid GLYPH C3](boards/pcbcupid/esp32-c3/pcbcupid-glyph-c3--7ce3435b/README.md) | ESP32-C3 | 0 | 0 |
+| [Pcbcupid GLYPH C6](boards/pcbcupid/esp32-c6/pcbcupid-glyph-c6--5a14c554/README.md) | ESP32-C6 | 0 | 0 |
+| [Pcbcupid GLYPH H2](boards/pcbcupid/esp32-h2/pcbcupid-glyph-h2--1cd6ddb0/README.md) | ESP32-H2 | 0 | 0 |
 
 ## Pimoroni
 
@@ -2068,6 +2101,8 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | Board / device | Processor / family | References | Pinout images |
 |---|---|---:|---:|
 | [RP2040 STAMP](boards/solder-party/rp2040/rp2040-stamp--293a77b3/README.md) | RP2040 | 1 | 1 |
+| [RP2040 Stamp Carrier](boards/solder-party/rp2040-stamp-host-module/rp2040-stamp-carrier--16df8806/README.md) | RP2040 Stamp host module | 1 | 1 |
+| [RP2040 Stamp Round Carrier](boards/solder-party/rp2040-stamp-host-module/rp2040-stamp-round-carrier--91ebd0fa/README.md) | RP2040 Stamp host module | 0 | 0 |
 | [RP2350 STAMP](boards/solder-party/rp2350/rp2350-stamp--b0b3b210/README.md) | RP2350 | 1 | 1 |
 | [RP2350 STAMP XL](boards/solder-party/rp2350/rp2350-stamp-xl--03726017/README.md) | RP2350 | 1 | 1 |
 
@@ -2080,6 +2115,12 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [NULA Max RP2350](boards/soldered/rp2350b/nula-max-rp2350--62182d92/README.md) | RP2350B | 1 | 1 |
 | [NULA Mini ESP32-C6](boards/soldered/esp32-c6/nula-mini-esp32-c6--1bbdaa45/README.md) | ESP32-C6 | 1 | 1 |
 | [NULA Node RP2040](boards/soldered/rp2040/nula-node-rp2040--673cf29d/README.md) | RP2040 | 1 | 1 |
+
+## Sonocotta
+
+| Board / device | Processor / family | References | Pinout images |
+|---|---|---:|---:|
+| [ATtiny1616 Development Board](boards/sonocotta/attiny1616/attiny1616-development-board--f1392cd8/README.md) | ATtiny1616 | 0 | 0 |
 
 ## SparkFun
 
@@ -2163,6 +2204,21 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | [ESP32-2432S028R](boards/sunton/esp32/esp32-2432s028r--c76387e5/README.md) | ESP32 | 8 | 3 |
 | [ESP32-2432S032C-I](boards/sunton/esp32/esp32-2432s032c-i--f56511ce/README.md) | ESP32 | 1 | 0 |
 | [ESP32-3248S035R](boards/sunton/esp32/esp32-3248s035r--0706e456/README.md) | ESP32 | 2 | 1 |
+
+## Tall Dog Electronics
+
+| Board / device | Processor / family | References | Pinout images |
+|---|---|---:|---:|
+| [Teensy 3.2 Breakout (Revision A)](boards/tall-dog-electronics/teensy-3-2-host-board/teensy-3-2-breakout-revision-a--00f61906/README.md) | Teensy 3.2 host board | 0 | 0 |
+| [Teensy 3.2 Breakout (Revision B, Carrier)](boards/tall-dog-electronics/teensy-3-2-host-board/teensy-3-2-breakout-revision-b-carrier--074e14bc/README.md) | Teensy 3.2 host board | 0 | 0 |
+| [Teensy 3.2 Breakout (Revision B, Standard)](boards/tall-dog-electronics/teensy-3-2-host-board/teensy-3-2-breakout-revision-b-standard--0ff5ddf1/README.md) | Teensy 3.2 host board | 0 | 0 |
+| [Teensy 3.2 Breakout (Revision C, Basic)](boards/tall-dog-electronics/teensy-3-2-host-board/teensy-3-2-breakout-revision-c-basic--39c6bf28/README.md) | Teensy 3.2 host board | 0 | 0 |
+| [Teensy 3.2 Breakout (Revision D)](boards/tall-dog-electronics/teensy-3-2-host-board/teensy-3-2-breakout-revision-d--eae2fd9f/README.md) | Teensy 3.2 host board | 0 | 0 |
+| [Teensy 3.5/3.6 Breakout (Revision A, DIP-64)](boards/tall-dog-electronics/teensy-3-5-3-6-host-board/teensy-3-5-3-6-breakout-revision-a-dip-64--95ca8cd1/README.md) | Teensy 3.5/3.6 host board | 0 | 0 |
+| [Teensy 3.5/3.6 Breakout (Revision A, Due)](boards/tall-dog-electronics/teensy-3-5-3-6-host-board/teensy-3-5-3-6-breakout-revision-a-due--b3b50867/README.md) | Teensy 3.5/3.6 host board | 0 | 0 |
+| [Teensy 3.5/3.6 Breakout (Revision A, Standard)](boards/tall-dog-electronics/teensy-3-5-3-6-host-board/teensy-3-5-3-6-breakout-revision-a-standard--182cd940/README.md) | Teensy 3.5/3.6 host board | 0 | 0 |
+| [Teensy 3.5/3.6 Breakout (Revision A, Uno)](boards/tall-dog-electronics/teensy-3-5-3-6-host-board/teensy-3-5-3-6-breakout-revision-a-uno--edb099bd/README.md) | Teensy 3.5/3.6 host board | 0 | 0 |
+| [Teensy 4.0 Breakout (Revision A)](boards/tall-dog-electronics/teensy-4-0-host-board/teensy-4-0-breakout-revision-a--b85863ac/README.md) | Teensy 4.0 host board | 0 | 0 |
 
 ## TechOverflow
 
@@ -2569,6 +2625,12 @@ Board diagrams, GPIO references and additional source documents are labeled sepa
 | Board / device | Processor / family | References | Pinout images |
 |---|---|---:|---:|
 | [WisdPi Tiny RP2040](boards/wisdpi/rp2040/wisdpi-tiny-rp2040--b27dc3ec/README.md) | RP2040 | 1 | 1 |
+
+## bleeptrack
+
+| Board / device | Processor / family | References | Pinout images |
+|---|---|---:|---:|
+| [PicoPlanet](boards/bleeptrack/samd21/picoplanet--6bb8b9a6/README.md) | SAMD21 | 0 | 0 |
 
 ## micro-bit Educational Foundation
 

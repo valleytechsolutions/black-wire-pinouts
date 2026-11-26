@@ -2,7 +2,7 @@
 
 Bounded public GET requests. HTTP availability does not verify document identity, all pages, revisions or electrical correctness. Deferred endpoints were not requested after repeated host errors. Access restrictions are not proof of a broken link.
 
-3552 distinct endpoints are associated with 2800 of 3393 listings. Missing original-site documentation remains an explicit gap.
+3606 distinct endpoints are associated with 2822 of 3410 listings. Missing original-site documentation remains an explicit gap.
 
 | Result | Endpoints |
 |---|---:|
@@ -10,7 +10,8 @@ Bounded public GET requests. HTTP availability does not verify document identity
 | connection-error | 28 |
 | deferred-host-errors | 103 |
 | not-found | 14 |
-| reachable | 3299 |
+| reachable | 3348 |
+| server-error | 5 |
 
 Dates and per-endpoint results are in [the audit data](../catalog/document-link-audit.json). The app shows each recorded availability result beside its document link. Saved documents remain available offline even when the publisher endpoint is unavailable.
 

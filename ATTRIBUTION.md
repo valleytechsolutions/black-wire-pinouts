@@ -4,6 +4,8 @@ This guide is curated by Kal / Valleytech Solutions. Original diagrams and docum
 
 The authoritative per-reference ledger is [attributions.csv](catalog/attributions.csv) (also available as JSON). It includes source URLs, rights notes, original relative collection paths and SHA-256 hashes. Individual board pages repeat those credits alongside the references.
 
+For the November 26 Tindie intake, Achiraware Electronics supplied the two AchiWire board maps, Datanoise supplied the RP2040 PicoADK vector and Solder Party supplied the rectangular Stamp Carrier leaflet. The offline originals retain their maker notices. The gallery thumbnails are reduced WebP previews generated November 26, 2026. Source-hosted diagrams retain their separate rights records. [Per-reference credits](catalog/vendor-intake-2026.11.3.json) · [Included license texts](library/licenses)
+
 Sources include the following recorded manufacturer/source groups. Inclusion is not endorsement and is not a licensing claim.
 
 - 0xCB
